@@ -1,0 +1,2453 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Arminius</title>
+                <title type="sub">Tragédie</title>
+            <author>
+                <persName>
+                    <forename>Jean-Galbert</forename>
+                    <linkname>de</linkname>
+                    <surname>Campistron</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/?q=node/108 </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1684-02-19">Représentée pour la première fois, à Paris, sur le Théâtre Guénégaud, le 19 février 1684.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="varus" sex="SEX">
+                            <persName>VARUS</persName>
+                        </person>
+                        <person xml:id="ségeste" sex="SEX">
+                            <persName>SÉGESTE</persName>
+                        </person>
+                        <person xml:id="arminius" sex="SEX">
+                            <persName>ARMINIUS</persName>
+                        </person>
+                        <person xml:id="sigismond" sex="SEX">
+                            <persName>SIGISMOND</persName>
+                        </person>
+                        <person xml:id="isménie" sex="SEX">
+                            <persName>ISMÉNIE</persName>
+                        </person>
+                        <person xml:id="polixène" sex="SEX">
+                            <persName>POLIXÈNE</persName>
+                        </person>
+                        <person xml:id="barsine" sex="SEX">
+                            <persName>BARSINE</persName>
+                        </person>
+                        <person xml:id="tullus" sex="SEX">
+                            <persName>TULLUS</persName>
+                        </person>
+                        <person xml:id="sunnon" sex="SEX">
+                            <persName>SUNNON</persName>
+                        </person>
+                        <person xml:id="sinorix" sex="SEX">
+                            <persName>SINORIX</persName>
+                        </person>
+                        <person xml:id="suite" sex="SEX">
+                            <persName>SUITE</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Tragédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q80930]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">ARMINIUS</titlePart>
+            <titlePart type="sub">TRAGÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre Guénégaud, le 19 février 1684.</ab><!--@date="1684-02-19"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> À SON ALTESSE MADAME LA DUCHESSE DE BOUILLON</salute>
+            </opener>
+        <p> C’est à vous que j’écris, à vous que je m’adresse, </p>
+        <p> Et j’attends de vous, généreuse Princesse : </p>
+        <p> Accordez moi votre faveur, </p>
+        <p> Pour faire avec succès paraître sur la Scène , </p>
+        <p> Arminius, jadis, heureux libérateur </p>
+        <p> Des Germais qu’opprimait la puissance Romaine. </p>
+        <p> De ce brave Guerrier, dont les nobles Exploits </p>
+        <p> Auront dans l’Univers un souvenir durable </p>
+        <p> Sortirent ces Princes Gaulois, </p>
+        <p> Source de ce Sang adorable </p>
+        <p> D’où sont descendus tous nos Rois. </p>
+        <p> Ce seul intérêt vous engage </p>
+        <p> À ne pas condamner l’Ouvrage, </p>
+        <p> Qui de ce Conquérant porte le Nom fameux </p>
+        <p> Vous qu’un choix glorieux et juste </p>
+        <p> Élevé dans un rang auguste </p>
+        <p> Chez le plus grand de ses Neveux. </p>
+        <p> Mais je me flatte encor que de votre suffrage </p>
+        <p> Vous honorerez mes Écrits, </p>
+        <p> Puisqu’en votre Maison j’ai pris </p>
+        <p> L’exemple des vertus dont j’ai tracé l’image. </p>
+        <p> Lorsque dans les Vers que j’ai faits, </p>
+        <p> J’ai voulu des Romains peindre la Politique. </p>
+        <p> Toujours ferme en leurs intérêts, </p>
+        <p> Accommodant et la Guerre et la Paix </p>
+        <p> Aux besoins de leur République. </p>
+        <p> J’envisageais ce sage Cardinal ; </p>
+        <p> Ce Jule, dont le zèle et la rare prudence </p>
+        <p> Ont dans le temps le plus fatal </p>
+        <p> Assuré le repos et l’honneur de la France. </p>
+        <p> Quand j’ai peint un Héros adore des Soldats, </p>
+        <p> Intrépide dans les combats, </p>
+        <p> Toujours vainqueur, ou méritant de l’être. </p>
+        <p> Élevé dès l’enfance au milieu des hasards, </p>
+        <p> Et, qui dans le métier de Mars, </p>
+        <p> À tous les Potentats eût pu servir de Maître, </p>
+        <p> Pour traiter dignement cet illustre sujet, </p>
+        <p> Je me proposais pour objet </p>
+        <p> Turenne, dont le bras a sauvé cet Empire, </p>
+        <p> Qui vit son Roi cent fois à ses leçons soumis, </p>
+        <p> Marcher sur ses pas, et l’instruire </p>
+        <p> À surmonter ses Ennemis. </p>
+        <p> Enfin, quand j’ai voulu dépeindre une Princesse, </p>
+        <p> Dont le courage encor surpassa la Noblesse, </p>
+        <p> Qui vit de ses attraits tout son sexe jaloux </p>
+        <p> Pouvais-je alors penser qu’à vous. </p>
+    </div>
+           <div type="act" xml:id="1">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="1"> Oui, Sunnon, je le veux, je l’attends de ton zèle :</l>
+                        <l n="2"> Parle, trace à mes yeux la peinture fidèle ;</l>
+                        <l n="3"> Des sentiments divers du Peuple et des Soldats.</l>
+                </sp>
+        <sp who="#sunnon">
+            <speaker> SUNNON. </speaker>
+                        <l n="4"> Seigneur...</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="5"> Parle, te dis-je, et ne me flatte pas.</l>
+                        <l n="6"> Je sais que le traité que je viens de conclure</l>
+                        <l n="7"> De la plupart des miens excite le murmure ;</l>
+                        <l n="8"> Que ne pénétrant point dans mes justes desseins,</l>
+                        <l n="9"> On me voit à regret dans le Camp des Romains.</l>
+                        <l n="10"> Je le sais, dis le reste, il ne me faut rien taire.</l>
+                </sp>
+        <sp who="#sunnon">
+            <speaker> SUNNON. </speaker>
+                        <l n="11"> Puisque vous m’ordonnez, Seigneur, d’être sincère,</l>
+                        <l n="12"> Je ne vous cèle point que de ce changement,</l>
+                        <l n="13"> Les peuples étonnés cherchent le fondement.</l>
+                        <l n="14"> Quoi ! Ségeste, dit-on, par qui la Germanie,</l>
+                        <l n="15"> Jusqu’ici des Romains brava la tyrannie ;</l>
+                        <l n="16"> Qui de flots de leur sang couvrit nos champs vingt fois ;</l>
+                        <l n="17"> Qui fit trembler le Tibre au bruit de ses exploits.</l>
+                        <l n="18"> Ce Ségeste aujourd’hui peut étouffer la haine,</l>
+                        <l n="19"> Et mêler ses drapeaux avec l’Aigle Romaine.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="20"> Je fais plus. Du Sénat je brigue la faveur ;</l>
+                        <l n="21"> Son estime est pour moi le comble du bonheur ;</l>
+                        <l n="22"> Et c’est avec plaisir que j’entends qu’il me nomme.</l>
+                        <l n="23"> Allié de l’Empire, et Citoyen de Rome :</l>
+                        <l n="24"> Je regarde ces noms comme un illustre prix.</l>
+                        <l n="25"> Toi-même à ce discours tu me parais surpris !</l>
+                        <l n="26"> Mais apprends les raisons de ce qu’on m’a vu faire,</l>
+                        <l n="27"> Et ne condamne plus une paix nécessaire.</l>
+                        <l n="28"> Les Dieux sont témoins que dans mes desseins,</l>
+                        <l n="29"> Me proposant pour but le salut des Germains ;</l>
+                        <l n="30"> Sans regarder jamais ma grandeur ni ma gloire,</l>
+                        <l n="31"> J’ai combattu pour eux et cherché la victoire.</l>
+                        <l n="32"> Pendant plus de vingt ans par un heureux effort,</l>
+                        <l n="33"> Entre l’Empire et moi j’ai suspendu le sort :</l>
+                        <l n="34"> Mais dans ce même temps Rome était occupée</l>
+                        <l n="35"> À la perte d’Antoine et du jeune Pompée ;</l>
+                        <l n="36"> Et les Chefs divisés par leurs propres fureurs,</l>
+                        <l n="37"> Nous laissaient aisément reculer nos malheurs :</l>
+                        <l n="38"> Maintenant partout règne une paix profonde,</l>
+                        <l n="39"> Qu’Auguste sous ses lois fait trembler tout le monde.</l>
+                        <l n="40"> Devais-je attendre ici qu’il rassemblât sur nous</l>
+                        <l n="41"> Tout l’effort, tous les traits de son vaste courroux ?</l>
+                        <l n="42"> J’ai cru devoir céder, puisqu’un léger hommage</l>
+                        <l n="43"> M’assurait le repos et détournait l’orage :</l>
+                        <l n="44"> Ce n’est pas que souvent un reste de fierté</l>
+                        <l n="45"> Ne m’ait presque contraint de rompre le traité :</l>
+                        <l n="46"> Mais de mille Héros la perte encore éclate ;</l>
+                        <l n="47"> Et qu’ont fait contre Rome, Annibal, Mithridate.</l>
+                        <l n="48"> Nicomède, Pyrrhus, tant d’autres Rois fameux.</l>
+                        <l n="49"> Étais-je plus puissants ? Étais-je plus heureux ?</l>
+                        <l n="50"> J’ai sauvé mes États en finissant la guerre ;</l>
+                        <l n="51"> Et quand je me soumets avec toute la terre,</l>
+                        <l n="52"> J’obéis aux décrets des Dieux et du Destin,</l>
+                        <l n="53"> Qui veulent que tout cède à l’Empire Romain.</l>
+                </sp>
+        <sp who="#sunnon">
+            <speaker> SUNNON. </speaker>
+                        <l n="54"> Je crois de cette Paix les causes légitimes ;</l>
+                        <l n="55"> Des Princes vos voisins vous suivez les maximes.</l>
+                        <l n="56"> Cependant, si je puis en vous obéissant,</l>
+                        <l n="57"> Vous opposer, Seigneur, un intérêt puissant.</l>
+                        <l n="58"> J’oserai dire encore qu’une immortelle gloire</l>
+                        <l n="59"> Aurait à l’avenir transmis votre mémoire ;</l>
+                        <l n="60"> Si, voyant l’Univers par les Romains dompté,</l>
+                        <l n="61"> Vous seul aviez joui de votre liberté.</l>
+                        <l n="62"> Pour abattre l’orgueil et le pouvoir de Rome,</l>
+                        <l n="63"> Peut-être ne faut-il que le bras d’un seul homme ?</l>
+                        <l n="64"> Vous l’avez dit cent fois. Eh ! qui pouvait, Seigneur ?</l>
+                        <l n="65"> Prétendre mieux que vous à ce suprême honneur,</l>
+                        <l n="66"> Rome s’assure en vain sur la foi des Oracles,</l>
+                        <l n="67"> Les Mortels quelquefois y mettent des obstacles :</l>
+                        <l n="68"> Ils relèvent un Trône, un État abattu,</l>
+                        <l n="69"> Et font changer les Dieux à force de vertu.</l>
+                        <l n="70"> Mais sans développer un si profond mystère,</l>
+                        <l n="71"> Arminius croit-il ce traité salutaire ?</l>
+                        <l n="72"> Votre amitié confond vos droits avec les siens ;</l>
+                        <l n="73"> Vous l’allez confirmer par de plus fort liens.</l>
+                        <l n="74"> Bientôt en épousant la Princesse Isménie,</l>
+                        <l n="75"> Il verra sa Famille avec la vôtre unie.</l>
+                        <l n="76"> On dit que cet Hymen si longtemps différé,</l>
+                        <l n="77"> À son retour ici doit être célébré.</l>
+                        <l n="78"> Déjà tous nos Soldats en préparent la fête.</l>
+                        <l n="79"> Déjà chacun attend...</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="80"> C’est en vain qu’on l’apprête.</l>
+                        <l n="81"> Cependant garde-toi de parler désormais</l>
+                        <l n="82"> D’un Hymen que les Dieux ont rompu pour jamais.</l>
+                </sp>
+        <sp who="#sunnon">
+            <speaker> SUNNON. </speaker>
+                        <l n="83"> Ciel ! qu’entends-je, Seigneur ? Qui peut être la cause ?</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="84"> Un obstacle invincible à cet hymen s’oppose :</l>
+                        <l n="85"> Je le romps à regret. Je plain Arminius :</l>
+                        <l n="86"> Mais enfin, j’ai promis Isménie à Varus.</l>
+                        <l n="87"> Le rang de Gouverneur de ces vastes Provinces,</l>
+                        <l n="88"> Élève ce Romain au-dessus de nos Princes.</l>
+                        <l n="89"> Il adore ma fille, et son cœur amoureux,</l>
+                        <l n="90"> Me presse chaque jour de les unir tous deux ;</l>
+                        <l n="91"> Je m’y suis engagé, ma parole est donnée.</l>
+                </sp>
+        <sp who="#sunnon">
+            <speaker> SUNNON. </speaker>
+                        <l n="92"> À ce discours, mon âme interdite étonnée,</l>
+                        <l n="93"> De soupçons différents se laissant agiter,</l>
+                        <l n="94"> Ne sait auquel, Seigneur, elle doit s’arrêter.</l>
+                        <l n="95"> Hé quoi ! par quel choix, de sa tendre jeunesse</l>
+                        <l n="96"> Arminius reçut la foi de la Princesse ?</l>
+                        <l n="97"> Il lui donna la sienne, et jusques à ce jour</l>
+                        <l n="98"> Vous-même avez pris soin de nourrir leur amour ?</l>
+                        <l n="99"> De ce grand changement, que faut-il que je pense ?</l>
+                        <l n="100"> Croirai-je qu’oubliant une longue alliance,</l>
+                        <l n="101"> Pas des conseils flatteurs réglant tous vos desseins,</l>
+                        <l n="102"> Vous sacrifiez tout au pouvoir des Romains ?</l>
+                        <l n="103"> Pardonnez-moi, Seigneur. Mais, Dieux, que puis-je croire ?</l>
+                        <l n="104"> Quel sujet ?...</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="105"> Ne crois rien de funeste à ma gloire,</l>
+                        <l n="106"> Si j’étouffe ce feu que j’avais allumé,</l>
+                        <l n="107"> Le seul Arminius en doit être blâmé.</l>
+                        <l n="108"> Juges-en. Au moment que l’on m’eut fait entendre</l>
+                        <l n="109"> Qu’aux faveurs de César j’avais droit de prétendre,</l>
+                        <l n="110"> Sans vouloir séparer nos communs intérêts,</l>
+                        <l n="111"> J’exigeai que ce Prince entrât dans cette paix.</l>
+                        <l n="112"> Je dépêchai vers lui. Je crus qu’en diligence</l>
+                        <l n="113"> Il viendrait confirmer cette auguste alliance.</l>
+                        <l n="114"> Il différa pourtant. Je pressai : mais en vain.</l>
+                        <l n="115"> J’ignore s’il revient ; s’il s’arrête en chemin.</l>
+                        <l n="116"> Mais pendant quatre mois sans daigner me répondre ;</l>
+                        <l n="117"> Par ses retardements je me suis vu confondre.</l>
+                        <l n="118"> Les Romains me pressaient, et j’étais menacé</l>
+                        <l n="119"> De voir rompre sans fruit le traité commencé.</l>
+                        <l n="120"> Je l’ai conclu tout seul ; et ma fille est le gage,</l>
+                        <l n="121"> Qui de cette union doit rassurer l’ouvrage.</l>
+                        <l n="122"> Le Prince m’a quitté ; j’ai fait ma paix sans lui :</l>
+                        <l n="123"> Je ne m’en repends pas. On m’apprend aujourd’hui,</l>
+                        <l n="124"> Que de tous nos États à ma honte il publie</l>
+                        <l n="125"> Que je trahis mon sang, mes amis, ma patrie.</l>
+                        <l n="126"> Que mandant la paix les armes à la main,</l>
+                        <l n="127"> Je vends la Germanie à l’Empire Romain ;</l>
+                        <l n="128"> Et je deviens suspect par ce lâche artifice,</l>
+                        <l n="129"> Aux peuples que mes soins sauvent du précipice.</l>
+                        <l n="130"> Je suis même averti qu’il conspire en secret,</l>
+                        <l n="131"> S’il arrive en ce Camp il se perd, c’en est fait :</l>
+                        <l n="132"> S’il trame les projets que l’on m’a fait entendre,</l>
+                        <l n="133"> De le faire punir, je ne puis me défendre.</l>
+                        <l n="134"> Je trouverai bien plus. Je crois que sans douleur,</l>
+                        <l n="135"> Je livrerai ce Prince à son dernier malheur.</l>
+                        <l n="136"> Sa fortune, son nom, la gloire de sa vie,</l>
+                        <l n="137"> Ont versé dans mon cœur une secrète envie,</l>
+                        <l n="138"> Qui me force à rougir de voir entre ses mains</l>
+                        <l n="139"> Le pouvoir que j’avais jadis sur les Germains.</l>
+                        <l n="140"> Cependant quelque soit l’intérêt qui me presse ;</l>
+                        <l n="141"> Sa franchise, son rang, sa vertu, sa jeunesse ;</l>
+                        <l n="142"> Le soin de son honneur, un reste de pitié :</l>
+                        <l n="143"> Enfin, le souvenir d’une longue amitié</l>
+                        <l n="144"> Me porterait peut-être à prendre la défense :</l>
+                        <l n="145"> Mais je crains des Romains la haine et sa vengeance.</l>
+                        <l n="146"> Je voudrais que ce Prince inspiré par les Dieux,</l>
+                        <l n="147"> Bien loin de s’approcher s’éloignant de ces lieux :</l>
+                        <l n="148"> Il n’a plus de ma part que des vœux à prétendre.</l>
+                </sp>
+        <sp who="#sunnon">
+            <speaker> SUNNON. </speaker>
+                        <l n="149"> Ah ! Seigneur, sur ses jours voudrait-on entreprendre ?</l>
+                        <l n="150"> Il se confie à vous, vous l’appelez. Eh quoi ?</l>
+                        <l n="151"> Vous verrait-on pour lui violer votre foi ?</l>
+                        <l n="152"> Laisseriez-vous ?...</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="153"> Varus dans ce Camp est le maître.</l>
+                        <l n="154"> Arminius se perd, s’il ose ici paraître,</l>
+                        <l n="155"> À moins que des Romains désarmant le courroux ;</l>
+                        <l n="156"> Ce Prince ambitieux ne tombe à leurs genoux.</l>
+                        <l n="157"> Mais le soin de son sort me cause peu de peine.</l>
+                        <l n="158"> Ma fille seule, hélas ! m’inquiète et me gêne.</l>
+                        <l n="159"> Je viens de la mander, je l’attends en ces lieux.</l>
+                        <l n="160"> Elle vient : laissez-nous. Que lui dirai-je ? ô Dieux !</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="161"> De votre art, Seigneur, on est venu me dire</l>
+                        <l n="162"> Que vous aviez ici quelque ordre à me prescrire.</l>
+                        <l n="163"> J’ai d’abord vers ces lieux précipité mes pas.</l>
+                        <l n="164"> Que voulez-vous, Seigneur ?</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="165"> Ce que je veux ? hélas !</l>
+                        <l n="166"> Que ne puis-je à jamais ma fille vous le taire.</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="167"> Vous soupirez Seigneur ! Ciel ! quel est ce mystère ?</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="168"> Dans de profonds chagrins vous me voyez plongé,</l>
+                        <l n="169"> Et ce n’est que pour vous que je suis affligé.</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="170"> Pour moi, grands Dieux ! Serais-je assez infortunée</l>
+                        <l n="171"> Pour troubler le bonheur de votre destinée ?</l>
+                        <l n="172"> Qu’ai-je pu faire ? hélas ! Quel crime ai-je commis ?</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="173"> Je ne vous blâme point. Les Destins ennemis</l>
+                        <l n="174"> Vous demandent ma fille un cruel sacrifice,</l>
+                        <l n="175"> Et de votre douleur me rendent complice ;</l>
+                        <l n="176"> Ils contraignent ma main de vous porter les coups.</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="177"> Comment ?</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="178"> Vous l’entendrez ; surtout consultez-vous.</l>
+                        <l n="179"> D’un effort vertueux vous croyez-vous capable ?</l>
+                        <l n="180"> Sentez-vous cotre cœur constant, inébranlable ?</l>
+                        <l n="181"> Répondez-moi ?</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="182"> Seigneur, s’il ne faut que mourir ;</l>
+                        <l n="183"> Sans faiblesse au trépas vous me verrez m’offrir.</l>
+                        <l n="184"> Votre fille en mourant aura soin de sa gloire,</l>
+                        <l n="185"> Et ne laissera point une indigne mémoire.</l>
+                        <l n="186"> Expliquez-vous ? le Ciel a-t-il juré ma mort ?</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="187"> Non, vos jours ne sont point poursuivis pas le sort.</l>
+                        <l n="188"> Mais quand ses dures lois vous auraient condamnée,</l>
+                        <l n="189"> Croyez-vous que mon cœur vous eût abandonnée ?</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="190"> Quel est donc cet effort ?</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="191"> Souvenez-vous au moins</l>
+                        <l n="192"> Quels ont été pour vous mon amour et mes soins.</l>
+                        <l n="193"> Songez que de vos maux j’ai frémi par avance,</l>
+                        <l n="194"> Et que vous me devez entière obéissance ;</l>
+                        <l n="195"> Je crois par ce discours vous devoir préparer</l>
+                        <l n="196"> Au secret que je vais enfin vous déclarer.</l>
+                        <l n="197"> Dès vos plus jeunes ans vous espérez ma fille,</l>
+                        <l n="198"> De voir Arminius entrer dans ma Famille :</l>
+                        <l n="199"> Cependant à ce Prince il ne faut plus penser.</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="200"> Ah ! quel projet, Seigneur, venez-vous m’annoncer ?</l>
+                        <l n="201"> Dans quel temps ?...</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="202"> Je vous plains, comme vous je soupire.</l>
+                        <l n="203"> Mais Rome le défend, et je ne puis l’en dédire :</l>
+                        <l n="204"> D’autres raisons encore s’opposent à vos vœux,</l>
+                        <l n="205"> Et me forcent de rompre un hymen malheureux.</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="206"> De ce coup imprévu justement confondue.</l>
+                        <l n="207"> Dieux ! quel horreur je sens dans mon âme éperdue !</l>
+                        <l n="208"> Ah ! Seigneur, pardonnez dans cette extrémité</l>
+                        <l n="209"> Si j’ose m’exprimer avec sincérité.</l>
+                        <l n="210"> Votre bonté pour moi bannissant la contrainte,</l>
+                        <l n="211"> M’a permis de tous temps de vous parler sans crainte.</l>
+                        <l n="212"> Vous disiez que le sort n’attaquait point mes jours ?</l>
+                        <l n="213"> Eh ! cet Arrêt funeste en termine le cours.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="214"> Qu’entends-je ! Vous cédez à l’ardeur qui vous presse.</l>
+                        <l n="215"> Ma fille s’abandonne à toute sa faiblesse.</l>
+                        <l n="216"> Quoi ! loin de m’obéir votre devoir trahi...</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="217"> Eh ! mon malheur ne vient que d’avoir obéi.</l>
+                        <l n="218"> Arminius courant de victoire en victoire :</l>
+                        <l n="219"> En vain pour s’enflammer faisait parler sa gloire.</l>
+                        <l n="220"> Ses soins pour moi, ses feux, et ses heureux combats,</l>
+                        <l n="221"> Lui gagnaient mon estime, et ne m’engageaient pas.</l>
+                        <l n="222"> Souvenez-vous, Seigneur, que vous vîntes vous-même</l>
+                        <l n="223"> Joindre à ses vœux ardents votre pouvoir suprême ;</l>
+                        <l n="224"> Et par les justes droits que vous avez sur moi,</l>
+                        <l n="225"> À ce jeune héros vous promîtes ma foi.</l>
+                        <l n="226"> J’obéis sans effort. Cet ordre légitime</l>
+                        <l n="227"> Fit alors succéder la tendresse à l’estime.</l>
+                        <l n="228"> Mais pourrai-je étouffer, Seigneur, sans désespoir,</l>
+                        <l n="229"> Des feux qu’ont allumé l’estime et le devoir ?</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="230"> Recevez mieux des lois prescrites par un Père ;</l>
+                        <l n="231"> Et bien loin de frémir d’un effort nécessaire,</l>
+                        <l n="232"> Montrez...</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="233"> C’en est donc fait. Et vous ne pensez plus</l>
+                        <l n="234"> À vos engagements avec Arminius.</l>
+                        <l n="235"> Vous avez oublié qu’avec mon hyménée,</l>
+                        <l n="236"> À mon frère, sa sœur fut aussi destinée.</l>
+                        <l n="237"> Des yeux de Polixène il a senti les coups :</l>
+                        <l n="238"> Elle vient en ces lieux le prendre pour époux.</l>
+                        <l n="239"> Verra-t-elle ?...</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="240"> Je sais que Sigismond l’adore :</l>
+                        <l n="241"> Mais il faut qu’il immole un feu que Rome abhorre.</l>
+                        <l n="242"> Et mon fils par César fait chevalier Romain,</l>
+                        <l n="243"> Ne peut sans son aveu disposer de sa main.</l>
+                        <l n="244"> Mais ne pensons qu’à vous. Ce que je viens de dire</l>
+                        <l n="245"> N’est pas la seule loi que je vous dois prescrire,</l>
+                        <l n="246"> Et vous devez encore...</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="247"> Hé ! que dois-je, Seigneur ?</l>
+                        <l n="248"> Quoi ! ne suffit-il pas de bannir de mon cœur ?...</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="249"> Non, il ne suffit pas, et vous l’allez apprendre ;</l>
+                        <l n="250"> C’est peu pour vous de rompre une union si tendre :</l>
+                        <l n="251"> Il faut encore sentir en faveur de Varus,</l>
+                        <l n="252"> Tout ce que votre cœur sent pour Arminius.</l>
+                        <l n="253"> Ce Romain désormais ne songe qu’à vous plaire.</l>
+                        <l n="254"> Voilà l’époux enfin que vous destine un père.</l>
+                        <l n="255"> Fuyez, Arminius, et pour mieux m’obéir,</l>
+                        <l n="256"> Portez-vous, s’il le faut, jusques à le haïr.</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="257"> Je ne puis étouffer le trop juste murmure</l>
+                        <l n="258"> Qui s’élève en mon cœur contre une loi si dure.</l>
+                        <l n="259"> Quoi donc ? Vous prétendez forcer des sentiments</l>
+                        <l n="260"> Qu’ont assure vos soins, l’habitude et le temps ?</l>
+                        <l n="261"> Dès que j’ouvris les yeux, vos discours, votre zèle</l>
+                        <l n="262"> M’inspirèrent pour Rome une haine immortelle ;</l>
+                        <l n="263"> Et moi pour satisfaire à vos premiers desseins,</l>
+                        <l n="264"> Aimant Arminius, j’ai haï les Romains.</l>
+                        <l n="265"> Seigneur, c’est bien assez de contraindre mon âme,</l>
+                        <l n="266"> De s’attacher sans cesse à combattre sa flamme,</l>
+                        <l n="267"> De perdre pour jamais un légitime espoir,</l>
+                        <l n="268"> Que j’avais trop conçu sur la foi du devoir.</l>
+                        <l n="269"> Daignez vous contenter de cette obéissance,</l>
+                        <l n="270"> Ne forcez point mon cœur à plus de violence ;</l>
+                        <l n="271"> Et croyez que c’est trop de vouloir en un jour</l>
+                        <l n="272"> Changer l’amour en haine, et la haine en amour.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="273"> Pour vous faire obéir à cette loi si dure,</l>
+                        <l n="274"> D’un effort généreux votre vertu m’assure.</l>
+                        <l n="275"> Varus vient. Vous savez quel est votre devoir ;</l>
+                        <l n="276"> Préparez-vous, ma fille, à le bien recevoir.</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="277"> Quelle gêne ?</l>
+                        <l n="278">  </l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="279"> Je viens d’annoncer à ma fille</l>
+                        <l n="280"> L’honneur dont votre amour veut combler ma Famille.</l>
+                        <l n="281"> Seigneur, elle est toujours prête à subir mes lois.</l>
+                        <l n="282"> Ses plus tendres désirs se règlent par mon choix.</l>
+                        <l n="283"> Vous pouvez sans contrainte expliquer votre flamme.</l>
+                        <l n="284"> Je vous laisse, Seigneur.</l>
+                        <l n="285">  </l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#varus">
+            <speaker> VARUS. </speaker>
+                        <l n="286"> Vous vous troublez, Madame.</l>
+                        <l n="287"> Je connais les raisons. On veut vous arracher</l>
+                        <l n="288"> Un Amant dès l’enfance à vos désirs si cher.</l>
+                        <l n="289"> Un Amant si longtemps avoué par un père ;</l>
+                        <l n="290"> Jeune, charmant ; enfin, digne de vous plaire.</l>
+                        <l n="291"> Mais c’est peu : l’on vous ôte encore un autre Époux,</l>
+                        <l n="292"> Qu’un long âge a rendu moins aimable pour vous.</l>
+                        <l n="293"> Je serai le premier à me rendre justice ;</l>
+                        <l n="294"> Mes soupirs sont pour vous un triste sacrifice.</l>
+                        <l n="295"> Un Amant tel que moi ne doit point se flatter ;</l>
+                        <l n="296"> D’autres s’attacheraient à vous représenter.</l>
+                        <l n="297"> Traçant de leurs travaux une brillante histoire,</l>
+                        <l n="298"> Qu’un front ne vieillit point environné de gloire,</l>
+                        <l n="299"> Qu’on long amas d’honneur, des exploits éclatants,</l>
+                        <l n="300"> Réparent quelquefois les injures des ans.</l>
+                        <l n="301"> Que c’est même à vos yeux un plus grand avantage,</l>
+                        <l n="302"> De charger de vos fers un captif de mon âge,</l>
+                        <l n="303"> Et d’embraser un cœur, que les ans, la raison,</l>
+                        <l n="304"> Semblaient devoir sauver de ce fatal poison :</l>
+                        <l n="305"> Cependant aujourd’hui, je ne veux point, Madame,</l>
+                        <l n="306"> Prêter auprès de vous ces secours à ma flamme.</l>
+                        <l n="307"> Je sais que dans ce cœur plein de sa passion,</l>
+                        <l n="308"> De semblables discours font peu d’impression.</l>
+                        <l n="309"> Mais je crois qu’à mes vœux votre âme inaccessible,</l>
+                        <l n="310"> Au bonheur des Germains se montrera sensible.</l>
+                        <l n="311"> Que le juste désir d’assurer pour jamais</l>
+                        <l n="312"> À votre père, aux siens, l’abondance et la paix ;</l>
+                        <l n="313"> À l’offre de ma main vous rendra moins contraire :</l>
+                        <l n="314"> C’est par là seulement que je prétends vous plaire</l>
+                        <l n="315"> Faites pour la Patrie en donnant votre foi,</l>
+                        <l n="316"> Ce que je n’ose encore vous demander pour moi.</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="317"> Hélas ! puis-je, Seigneur ?</l>
+                </sp>
+        <sp who="#varus">
+            <speaker> VARUS. </speaker>
+                        <l n="318"> Non, arrêtez, Madame ;</l>
+                        <l n="319"> Et suspendez encore le destin de ma flamme,</l>
+                        <l n="320"> Avant que me l’apprendre, attendez pour le moins,</l>
+                        <l n="321"> Que mes profonds respects, que le temps, que mes soins ;</l>
+                        <l n="322"> Que mes sincères vœux, mes ardents sacrifices</l>
+                        <l n="323"> Puissent de mon rival balancer les services :</l>
+                        <l n="324"> Surtout ne craignez point que j’aille contre vous</l>
+                        <l n="325"> Solliciter un Père, allumer son courroux.</l>
+                        <l n="326"> Je ne veux employer sa puissance absolue</l>
+                        <l n="327"> Qu’à me faire accorder l’honneur de votre vue ;</l>
+                        <l n="328"> Et je vais désormais borner tous mes plaisirs</l>
+                        <l n="329"> À prévenir vos vœux et vos moindres désirs.</l>
+                        <l n="330"> Des grâces de César j’ai comblé votre père,</l>
+                        <l n="331"> Et des bienfaits nouveaux vont chercher votre frère ;</l>
+                        <l n="332"> Tout vous retracera mon amour, mes transports ;</l>
+                        <l n="333"> Vous pourrez sur mon sort vous expliquer alors.</l>
+                        <l n="334"> Adieu Madame.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="335"> Ô coup ! ô disgrâce imprévue !</l>
+                        <l n="336"> Malheureuse !</l>
+                </sp>
+        <sp who="#barsine">
+            <speaker> BARSINE. </speaker>
+                        <l n="337"> Quoi donc ?</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="338"> Ma mort est résolue.</l>
+                        <l n="339"> Mon père me condamne, il m’ôte Arminius :</l>
+                        <l n="340"> Barsine, c’est vouloir que je ne vive plus.</l>
+                        <l n="341"> Père injuste ! Pourquoi tyranniser ma vie ?</l>
+                        <l n="342"> Puis-je aimer, ou haïr au gré de votre envie ?</l>
+                        <l n="343"> Ne concevez-vous point en m’imposant ces lois,</l>
+                        <l n="344"> Qu’un cœur comme le mien ne se rend qu’une fois ?</l>
+                        <l n="345"> Déplorables effets de l’amitié Romaine !</l>
+                        <l n="346"> Périsse Rome, objet trop digne de ma haine.</l>
+                        <l n="347"> Toi, cher Arminius, qu’on arrache à ma foi,</l>
+                        <l n="348"> Tu sais que je ne vis qu’autant que je te voi.</l>
+                        <l n="349"> Reçois de mon amour mes jours que je t’immole :</l>
+                        <l n="350"> Mais, fuis loin de ces lieux, écarte toi, cours, vole :</l>
+                        <l n="351"> Si toujours à te voir j’ai borné mes souhaits ;</l>
+                        <l n="352"> Maintenant je les borne à ne te voir jamais.</l>
+                        <l n="353"> Viendrais-tu dans ce camp pour servir de victime</l>
+                        <l n="354"> Au Rival odieux dont le pouvoir m’opprime ?</l>
+                        <l n="355"> C’est le dernier malheur que j’ai à redouter.</l>
+                        <l n="356"> Courons, hasardons tout, afin de l’éviter.</l>
+                        <l n="357"> Faisons partir vers lui quelque ami plein de zèle.</l>
+                        <l n="358"> Viens Barsine...</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#sinorix">
+            <speaker> SINORIX. </speaker>
+                        <l n="359"> Apprenez une heureuse nouvelle,</l>
+                        <l n="360"> Madame, Arminius va paraître à vos yeux :</l>
+                        <l n="361"> Il vient en ce moment d’arriver en ces lieux.</l>
+                        <l n="362"> Sigismond s’avançant dans la forêt prochaine,</l>
+                        <l n="363"> Est allé hors du camp recevoir Polixène ;</l>
+                        <l n="364"> Que le Prince son frère a voulu devancer :</l>
+                        <l n="365"> J’ai cru que je devais venir vous l’annoncer,</l>
+                        <l n="366"> Pour être le premier à vous marquer mon zèle.</l>
+                        <l n="367"> Madame, en d’autres lieux le devoir me rappelle.</l>
+                        <l n="368"> J’y cours.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="369"> Qu’ai-je entendu ? Dans quels temps, justes Dieux,</l>
+                        <l n="370"> Allez vous présenter mon Amant à mes yeux ?</l>
+                        <l n="371"> Quels malheurs ! quels combats ! quel spectacle barbare,</l>
+                        <l n="372"> Ce funeste retour aujourd’hui me prépare !</l>
+                        <l n="373"> De quel œil se verront mon Père et mon Amant.</l>
+                        <l n="374"> Ah ! pouvais-je prévoir cet affreux changement ?</l>
+                        <l n="375"> Jusqu’ici les Destins propices et fidèles,</l>
+                        <l n="376"> Marquaient tous mes moments par des faveurs nouvelles :</l>
+                        <l n="377"> Mais dans un seul instant leurs tyranniques lois</l>
+                        <l n="378"> Ont fait tomber sur moi tous les maux à la fois.</l>
+                        <l n="379"> Je ressens en un jour plus d’ennuis, plus d’alarmes,</l>
+                        <l n="380"> Qu’en dix ans de bonheur je n’ai trouvé de charmes.</l>
+                        <l n="381"> C’en est trop, justes Dieux ! Et si votre vigueur</l>
+                        <l n="382"> Condamnait les transports d’une innocente ardeur.</l>
+                        <l n="383"> Si vous vouliez punir mon âme trop charmée</l>
+                        <l n="384"> Des sensibles douceurs d’aimer et d’être aimée.</l>
+                        <l n="385"> Hélas ! pour me punir, n’était-ce point assez</l>
+                        <l n="386"> D’égaler mes douleurs à mes plaisirs passés ?</l>
+                </sp>
+        <sp who="#barsine">
+            <speaker> BARSINE. </speaker>
+                        <l n="387"> Ah ! Madame espérez...</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="388"> Que veux-tu que j’espère ?</l>
+                        <l n="389"> Tu le vois mieux que moi, tout me devient contraire :</l>
+                        <l n="390"> Mais c’est trop m’attendrir, mes soupirs et mes pleurs</l>
+                        <l n="391"> M’arrêtent en ces lieux sans parer mes malheurs.</l>
+                        <l n="392"> Courons donc à mon Frère, apprendre ma disgrâce.</l>
+                        <l n="393"> Il m’aime, un sort pareil aujourd’hui le menace.</l>
+                        <l n="394"> Cherchons-le, puissions-nous accorder en ce jour</l>
+                        <l n="395"> Les devoirs opposés du sang et de l’amour.</l></div></div>
+           <div type="act" xml:id="2">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="396"> Que fait Arminius : dis, l’as-tu vu, Barsine ?</l>
+                        <l n="397"> Attendra-t-il ici le sort qu’on lui destine ?</l>
+                        <l n="398"> De ces lieux ennemis ne veut-il point sortir ?</l>
+                </sp>
+        <sp who="#barsine">
+            <speaker> BARSINE. </speaker>
+                        <l n="399"> À s’éloigner, Madame, il ne peut consentir.</l>
+                        <l n="400"> En vain de votre part à vos ordres fidèle,</l>
+                        <l n="401"> J’ai peint votre douleur, votre crainte mortelle :</l>
+                        <l n="402"> En vain à ce Héros j’ai prédit, j’ai tracé</l>
+                        <l n="403"> Les périls, les malheurs dont il est menacé.</l>
+                        <l n="404"> Constant dans ses projets, et toujours intrépide,</l>
+                        <l n="405"> Il s’abandonne entier à l’amour qui le guide ;</l>
+                        <l n="406"> Et croit que de Ségeste ayant reçu la foi :</l>
+                        <l n="407"> Il peut paraître ici sans danger, sans effroi.</l>
+                        <l n="408"> Qu’on respecte toujours même pendant la guerre,</l>
+                        <l n="409"> Ce fameux droit des gens saint par toute la terre :</l>
+                        <l n="410"> Mais à l’heureux César, dût-il être immolé,</l>
+                        <l n="411"> Il ne veut point partir sans vous avoir parlé.</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="412"> Hélas ! à quels tourments sa fermeté m’expose ?</l>
+                        <l n="413"> Il périra, Barsine ; et j’en serai la cause.</l>
+                        <l n="414"> Va, retourne vers lui, qu’il parte en ce moment,</l>
+                        <l n="415"> Je le veux, je l’ordonne, et s’il m’aime ardemment :</l>
+                        <l n="416"> De son amour pour moi la marque la plus chère,</l>
+                        <l n="417"> C’est de fuir les Romains, et Varus, et mon Père,</l>
+                        <l n="418"> Qu’il ne s’obstine pas à demeurer ici.</l>
+                        <l n="419"> Cours, redouble tes pas...</l>
+                </sp>
+        <sp who="#barsine">
+            <speaker> BARSINE. </speaker>
+                        <l n="420"> Madame, le voici.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="421"> Madame, malgré vous, malgré votre défense,</l>
+                        <l n="422"> J’ose jusqu’en ces lieux chercher votre présence ;</l>
+                        <l n="423"> Quand Ségeste s’obstine à me manquer de foi ;</l>
+                        <l n="424"> Je viens voir si sa fille est plus juste pour moi.</l>
+                        <l n="425"> Enfin, pour disposer de ma funeste vie,</l>
+                        <l n="426"> Je viens lire mon sort dans les yeux d’Isménie ;</l>
+                        <l n="427"> S’ils peuvent sans regret consentir à me voir,</l>
+                        <l n="428"> Je n’abandonne point un légitime espoir,</l>
+                        <l n="429"> S’ils daignent me montrer leur tendresse ordinaire ;</l>
+                        <l n="430"> En vain à mon amour tout le reste est contraire :</l>
+                        <l n="431"> Mais si d’intelligence avec mes ennemis,</l>
+                        <l n="432"> Ils détruisent l’espoir qu’ils m’ont toujours permis.</l>
+                        <l n="433"> Sans laisser aux Romains le soin de me poursuivre ;</l>
+                        <l n="434"> Madame, avec plaisir je vais cesser de vivre.</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="435"> Dans un temps moins cruel, vous le savez, Seigneur,</l>
+                        <l n="436"> J’aurais à vous revoir borné tout mon bonheur ;</l>
+                        <l n="437"> Mais hélas ! la douceur d’une si chère vue,</l>
+                        <l n="438"> Par une juste crainte est ici suspendue.</l>
+                        <l n="439"> Je vous vois à regret dans ce Camp malheureux,</l>
+                        <l n="440"> Où vous n’avez pour vous que mes timides vœux,</l>
+                        <l n="441"> Ou de votre Rival la puissance m’alarme,</l>
+                        <l n="442"> Ou pour vous perdre, enfin, tout conspire, tout s’arme ;</l>
+                        <l n="443"> Fallait-il dans ces lieux venir porter vos pas.</l>
+                        <l n="444"> Que venez-vous chercher ?</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="445"> Ne le savez-vous pas ?</l>
+                        <l n="446"> Absent depuis six mois de tout ce que j’adore,</l>
+                        <l n="447"> Je ne pouvais sans vous vivre un moment encore ;</l>
+                        <l n="448"> J’ai volé vers ce camp, plein d’amour et d’espoir.</l>
+                        <l n="449"> Hé ! qui ? jamais, Madame, aurait osé prévoir</l>
+                        <l n="450"> Le funeste dessein qu’a formé votre Père :</l>
+                        <l n="451"> Je savais qu’engagé dans un parti contraire ;</l>
+                        <l n="452"> Ce Prince s’était joint avec mes ennemis :</l>
+                        <l n="453"> Mais devais-je penser qu’indignement fournis,</l>
+                        <l n="454"> Il n’eut point conservé des droits sur une Armée,</l>
+                        <l n="455"> À vaincre les Romains longtemps accoutumée ;</l>
+                        <l n="456"> Qu’il reconnut ici Varus pour Souverain,</l>
+                        <l n="457"> Et voulut vous forcer de lui donner sa main ?</l>
+                        <l n="458"> Pouvais-je soupçonner ?...</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="459"> Oui vous deviez tout croire,</l>
+                        <l n="460"> Des fureurs des Romains jaloux de votre gloire ;</l>
+                        <l n="461"> Et ne deviez-vous pas surtout vous défier</l>
+                        <l n="462"> D’un Prince qui de Rome a voulu s’appuyer ?</l>
+                        <l n="463"> Fallait-il s’exposer à la poursuite injuste ?...</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="464"> Eh Madame l’amour raisonne-t-il si juste ?</l>
+                        <l n="465"> J’espérais, et j’espère encore en ce moment</l>
+                        <l n="466"> De ramener Ségeste à son premier serment.</l>
+                        <l n="467"> Vous le voyez ; ce Prince évite mes approches,</l>
+                        <l n="468"> Il ne soutiendra point ma vue, et mes reproches.</l>
+                        <l n="469"> Rassurons-nous. Bientôt par un effort heureux.</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="470"> Hélas ! Seigneur, cessons de nous tromper tous deux :</l>
+                        <l n="471"> En vain vous vous flattez de regagnez mon Père :</l>
+                        <l n="472"> Mais quand il changerait ; que prétendez-vous faire ?</l>
+                        <l n="473"> Seul contre les Romains armés contre vos jours ;</l>
+                        <l n="474"> Sans forces, sans soldats...</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="475"> Nous aurons du secours.</l>
+                        <l n="476"> Oui, Madame, apprenez que toute mon armée</l>
+                        <l n="477"> Dans les bois de Teutberg par mon ordre enfermée ;</l>
+                        <l n="478"> Prête à tout entreprendre en ce même moment,</l>
+                        <l n="479"> N’attends que ma présence, et mon commandement ;</l>
+                        <l n="480"> En divers petits corps ces troupes divisées,</l>
+                        <l n="481"> Ont fait dans nos États cent marches opposés,</l>
+                        <l n="482"> Et passant par des lieux inconnus des Romains,</l>
+                        <l n="483"> Dans les eaux, dans les bois, se traçât des chemins,</l>
+                        <l n="484"> Après trois mois de soins, de périls et de peines,</l>
+                        <l n="485"> Se sont jointes enfin dans les forêts prochaines.</l>
+                        <l n="486"> Madame, tout est prêt à marcher sous ma loi,</l>
+                        <l n="487"> Votre frère conspire et s’unit avec moi.</l>
+                        <l n="488"> Je viens de lui parler : il ne voit qu’avec peine</l>
+                        <l n="489"> Ségeste adorateur de la grandeur Romaine ;</l>
+                        <l n="490"> Et ne peut endurer qu’un ordre rigoureux,</l>
+                        <l n="491"> Refuse Polixène à son cœur amoureux ;</l>
+                        <l n="492"> Un intérêt commun dans mes desseins l’engage.</l>
+                        <l n="493"> Et nous allons tous deux...</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="494"> Ah ! quittez ce langage :</l>
+                        <l n="495"> Un seul mot peut vous perdre, et ces funestes lieux,</l>
+                        <l n="496"> Pour observer vos pas ont peut-être des yeux.</l>
+                        <l n="497"> Ne vous assurez point sur votre rang suprême,</l>
+                        <l n="498"> Ségeste prévenu, Seigneur, n’est plus le même :</l>
+                        <l n="499"> Il ne connaît que Rome, et les droits les plus saints,</l>
+                        <l n="500"> Contre elle dans son cœur n’ont que des titres vains.</l>
+                        <l n="501"> Cher Prince, épargnez-moi les tourments que j’endure :</l>
+                        <l n="502"> Fuyez ce camp fatal ; l’amour vous y conjure ;</l>
+                        <l n="503"> Le plaisir que je sens tandis que je vous voi,</l>
+                        <l n="504"> Cède à votre péril qui me glace d’effroi.</l>
+                        <l n="505"> Partez : je vous l’ordonne, et ne puis m’en défendre ;</l>
+                        <l n="506"> Les larmes que m’arrache un intérêt si tendre.</l>
+                        <l n="507"> Prince, tant de soupirs ne vous font que trop voir</l>
+                        <l n="508"> Que votre cœur faisait ma joie et mon espoir :</l>
+                        <l n="509"> Et je vous perds. Aussi dans ma douleur profonde,</l>
+                        <l n="510"> Je ne compte pour rien tout le reste du monde.</l>
+                        <l n="511"> Tout est perdu pour moi. Si pourtant désormais</l>
+                        <l n="512"> Je puis jusqu’à la mort former quelque souhait.</l>
+                        <l n="513"> Je demande à l’Amour qu’il conserve en votre âme</l>
+                        <l n="514"> L’éternel souvenir du feu qui vous enflamme :</l>
+                        <l n="515"> Que tandis que je vais vous tout sacrifier,</l>
+                        <l n="516"> Il vous empêche au moins, Prince, de m’oublier.</l>
+                        <l n="517"> Non, jusqu’à vous causer un supplice trop rude,</l>
+                        <l n="518"> C’est assez qu’il vous donne un peu d’inquiétude.</l>
+                        <l n="519"> Hélas ! ce n’est pas trop, allez, quittez ces lieux ;</l>
+                        <l n="520"> Dans ce dernier soupir, recevez mes adieux.</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="521"> Non, je ne reçois point un adieu si funeste.</l>
+                        <l n="522"> S’il faut vous perdre, hélas ! que m’importe du reste ?</l>
+                        <l n="523"> Madame, quelque sort qui me soit préparé</l>
+                        <l n="524"> Je dois l’attendre ici d’un visage assuré.</l>
+                        <l n="525"> Voulez-vous qu’en montrant une indigne faiblesse,</l>
+                        <l n="526"> J’aille loin de vos yeux expirer de tristesse ?</l>
+                        <l n="527"> Vous livrer à Varus. Ah ! s’il me faut mourir,</l>
+                        <l n="528"> Que ce soit pour la gloire et pour vous conquérir.</l>
+                        <l n="529"> Quel ordre ! quel départ ! Dieux ! Quand je l’envisage,</l>
+                        <l n="530"> Je frémis, et je sens chanceler mon courage.</l>
+                        <l n="531"> Quoi ! j’irais pour sauver de misérables jours,</l>
+                        <l n="532"> Dont ma douleur bientôt aurait tranché le cours.</l>
+                        <l n="533"> Errer désespéré de contrée en contrée,</l>
+                        <l n="534"> Et portant dans mon cœur votre image adorée.</l>
+                        <l n="535"> Sans cesse dévoré d’inutiles souhaits,</l>
+                        <l n="536"> Vous chercher en tous lieux, et ne vous voir jamais.</l>
+                        <l n="537"> Quoi ! j’irais loin de vous languir sans espérance ;</l>
+                        <l n="538"> Sans trouver un moment d’intervalle à l’absence ?</l>
+                        <l n="539"> Tandis que mon Rival, content, favorisé,</l>
+                        <l n="540"> Jouirait du bonheur qu’on m’aurait refusé.</l>
+                        <l n="541"> M’en préserve le Ciel ; qu’ici plutôt je meure :</l>
+                        <l n="542"> Vivre dans ces horreurs, c’est mourir à toute heure.</l>
+                        <l n="543"> Vous le connaissez trop, reprenez donc vos pleurs.</l>
+                        <l n="544"> Épargnons-nous tous deux d’inutiles douleurs.</l>
+                        <l n="545"> Laissez-moi voir Ségeste, il doit ici se rendre :</l>
+                        <l n="546"> Je vais frapper son cœur par l’endroit le plus tendre ;</l>
+                        <l n="547"> Je vais l’encourager, rappeler à ses yeux</l>
+                        <l n="548"> Sa parole, son sang, ses exploits glorieux ;</l>
+                        <l n="549"> Il se rendra peut-être, et me fera justice :</l>
+                        <l n="550"> Mais dut-il de mon sang hâter le sacrifice.</l>
+                        <l n="551"> Fidèle à mon amour, fidèle à mon pays,</l>
+                        <l n="552"> L’un et l’autre par moi ne seront pas trahis.</l>
+                        <l n="553"> Que Ségeste en fureur s’arme contre ma vie ;</l>
+                        <l n="554"> Je n’aime fortement que vous, et ma Patrie.</l>
+                        <l n="555"> J’en atteste les Dieux : le coup me sera doux</l>
+                        <l n="556"> Qui me fera périr et pour elle et pour vous.</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="557"> Hélas ! ah quels malheurs... mais j’aperçois mon Père.</l>
+                        <l n="558"> Ah ! Prince, gardez-vous d’allumer sa colère !</l>
+                        <l n="559"> Surtout souvenez-vous durant votre entretien,</l>
+                        <l n="560"> Qu’aujourd’hui votre sort décidera du mien.</l>
+                        <l n="561"> Adieu.</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS, apercevant Ségeste. </speaker>
+                        <l n="562"> Fais-moi fléchir ce courage barbare.</l>
+                        <l n="563"> Ô Ciel !</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE, à Sunnon et à Sinorix. </speaker>
+                        <l n="564"> À m’obéir, Gardes qu’on se prépare.</l>
+                        <l n="565"> Exécuter mon ordre, et ne balancez pas.</l>
+                        <l n="566"> Cependant laissez-moi, ne suivez point mes pas.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="567"> Enfin, je vous rejoins après six mois d’absence :</l>
+                        <l n="568"> Seigneur, le sort répond à mon impatience ;</l>
+                        <l n="569"> Je n’avais pas pensé que jusques à ce jour</l>
+                        <l n="570"> Il dût auprès de vous reculer mon retour :</l>
+                        <l n="571"> Mais depuis ces forêts où l’Elbe prend sa source,</l>
+                        <l n="572"> Tant d’obstacles divers ont retardé ma course :</l>
+                        <l n="573"> Que malgré mes efforts et mon empressement,</l>
+                        <l n="574"> Je n’ai pu l’avancer, Seigneur, d’un seul moment.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="575"> Seigneur, de vos desseins vous seul êtes le maître,</l>
+                        <l n="576"> Et pour vos intérêts vous avez cru peut-être</l>
+                        <l n="577"> Qu’il fallait négliger mes utiles avis :</l>
+                        <l n="578"> Mais tout autre que vous les aurait mieux suivis.</l>
+                        <l n="579"> Je n’examine point quelle raison puissante</l>
+                        <l n="580"> Vous a fait refuser une paix importante.</l>
+                        <l n="581"> Cependant, je l’avoue, après vos longs refus,</l>
+                        <l n="582"> Ségeste dans ce camp ne vous attendais plus.</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="583"> Vous ne m’attendiez plus. Ô ciel ! pouviez-vous croire</l>
+                        <l n="584"> Qu’un serment solennel sortit de ma mémoire ?</l>
+                        <l n="585"> Que je puisse le rompre et vous manquer de foi :</l>
+                        <l n="586"> Mais vous justifiez l’état où je vous voi</l>
+                        <l n="587"> Quel vous laissai-je ? hélas ! quel aujourd’hui vous êtes ?</l>
+                        <l n="588"> Ma raison se confond à voir ce que vous faites.</l>
+                        <l n="589"> Ségeste, ce Héros que nous admirons tous,</l>
+                        <l n="590"> Dont la valeur, le nom, faisait tant de jaloux,</l>
+                        <l n="591"> Vient de ternir l’éclat de ces lauriers illustres</l>
+                        <l n="592"> Qu’il avait moissonnés pendant plus de six lustres.</l>
+                        <l n="593"> Vit-on jamais, grand Dieux, un semblable retour ?</l>
+                        <l n="594"> Et nos neveux, Seigneur, le croiront-ils un jour.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="595"> De tout ce que j’ai fait, j’ai pesé l’importance,</l>
+                        <l n="596"> Seigneur, et j’ai suivi les lois de la prudence ;</l>
+                        <l n="597"> Ce sont des changements où les Princes, les Rois</l>
+                        <l n="598"> Se portent par raison plutôt que par leur choix.</l>
+                        <l n="599"> Ils considèrent peu quel serment les engage :</l>
+                        <l n="600"> Ils consultent leur foi moins que leur avantage,</l>
+                        <l n="601"> Et réglant leur parole aux caprices du sort,</l>
+                        <l n="602"> Fléchissent sous les lois qu’impose le plus fort.</l>
+                        <l n="603"> Ces maximes d’État n’ont rien qui déshonore,</l>
+                        <l n="604"> Et si vous l’ignorez, vous êtes jeune encore.</l>
+                        <l n="605"> Vous l’apprendrez, Seigneur, et peut-être qu’un jour</l>
+                        <l n="606"> Vous vous en servirez vous-même à votre tout.</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="607"> Ah ! pour me détourner de ce funeste exemple,</l>
+                        <l n="608"> Il suffit qu’aujourd’hui, Seigneur, je vous contemple.</l>
+                        <l n="609"> Où sont tous vos emplois, votre Cour, vos grandeurs ?</l>
+                        <l n="610"> On vous commande ici, vous commandez ailleurs.</l>
+                        <l n="611"> Vous faisiez le destin de toutes nos Provinces :</l>
+                        <l n="612"> Vous serviez de modèle à nos chefs à nos Princes ;</l>
+                        <l n="613"> Vous étiez aimé, craint, renommé, Souverain,</l>
+                        <l n="614"> Vous n’êtes aujourd’hui qu’un citoyen Romain,</l>
+                        <l n="615"> Et vous sacrifiez à ce titre sans gloire</l>
+                        <l n="616"> Ces noms toujours suivis d’une longue mémoire.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="617"> Et cet abaissement doit me combler d’honneur ;</l>
+                        <l n="618"> Tous ces noms éclatants ne flattent point mon cœur.</l>
+                        <l n="619"> Ma puissance me gêne, et cesse de me plaire,</l>
+                        <l n="620"> Lorsque de mes sujets elle fait la misère,</l>
+                        <l n="621"> Et pour leur assurer un sort, des jours heureux,</l>
+                        <l n="622"> J’embrasse leur destin, et suis sujet comme eux.</l>
+                        <l n="623"> Voilà ce qu’on appelle amour de la Patrie,</l>
+                        <l n="624"> Et non de vos pareils d’indiscrète furie ;</l>
+                        <l n="625"> Vous sacrifiez tout au soin de votre rang ;</l>
+                        <l n="626"> Des peuples malheureux vous prodiguez le sang ;</l>
+                        <l n="627"> Et votre ambition d’une faux zèle animée,</l>
+                        <l n="628"> Achète de leur vie un peu de renommée.</l>
+                        <l n="629"> Quel bonheur dans la guerre ont trouvé nos États ?</l>
+                        <l n="630"> De quoi leur ont servi nos sièges, nos combats ?</l>
+                        <l n="631"> Ah ! j’ai donné cent fois des larmes à nos pertes.</l>
+                        <l n="632"> Les Temples ruinés, les provinces désertes ;</l>
+                        <l n="633"> Les Princes moissonnés à la fleur de leurs ans ;</l>
+                        <l n="634"> Les massacres cruels des Femmes, des Enfants ;</l>
+                        <l n="635"> Les campagnes partout languissantes, stériles,</l>
+                        <l n="636"> La faim, les fers, la mort, le pillage des Villes :</l>
+                        <l n="637"> Ce sont là les effets par la guerre produits,</l>
+                        <l n="638"> Et de votre fierté les déplorables fruits.</l>
+                        <l n="639"> Les peuples cependant ne respirent qu’à peine,</l>
+                        <l n="640"> Et votre amour pour eux est semblable à la haine.</l>
+                        <l n="641"> Pour moi je ne veux plus de victoire à ce prix,</l>
+                        <l n="642"> Je préfère la paix à ces tristes débris.</l>
+                        <l n="643"> La paix rend un État florissant, riche, illustre :</l>
+                        <l n="644"> La victoire avec foi ne porte qu’un faux lustre.</l>
+                        <l n="645"> Malgré l’éclat trompeur qui flatte les Guerriers,</l>
+                        <l n="646"> Elle les fait gémir sous leurs propres lauriers.</l>
+                        <l n="647"> Ici le frère en pleurs redemande son frère :</l>
+                        <l n="648"> Là le Père son fils, ici le fils son Père ;</l>
+                        <l n="649"> Et dans le camp vainqueur, il est souvent douteux</l>
+                        <l n="650"> Lequel des deux partis est le plus malheureux.</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="651"> Oui, Seigneur, j’avouerai que souvent la victoire</l>
+                        <l n="652"> Nous vend cher ses faveurs, empoisonne sa gloire.</l>
+                        <l n="653"> Que la Paix a des biens plus solides, plus doux,</l>
+                        <l n="654"> Je l’aurais recherchée, enfin autant que vous,</l>
+                        <l n="655"> Avec un ennemi moins fier et moins terrible.</l>
+                        <l n="656"> Mais la paix avec Rome est un joug infaillible ;</l>
+                        <l n="657"> Et sous les noms flatteurs d’amis, ou d’alliés,</l>
+                        <l n="658"> Elle asservit les Rois, et les foule à ses pieds.</l>
+                        <l n="659"> Du moment qu’avec elle un traité nous engage,</l>
+                        <l n="660"> Nos enfants dans ses murs envoyés en otage ;</l>
+                        <l n="661"> Et dès leurs jeunes ans arrachés de vos bras,</l>
+                        <l n="662"> Contre tous ses soupçons ne la rassurent pas.</l>
+                        <l n="663"> Sur le moindre projet de quelqu’autre alliance</l>
+                        <l n="664"> Ne voit-on pas sur nous tomber sa défiance ?</l>
+                        <l n="665"> Avant que rien résoudre il faut prévoir sa voix.</l>
+                        <l n="666"> Et jusqu’à notre Hymen tout dépend de son choix.</l>
+                        <l n="667"> Mais c’est peu. De nos jours arbitre souveraine,</l>
+                        <l n="668"> Lorsqu’elle nous proscrit, notre perte est certaine.</l>
+                        <l n="669"> Son barbare Sénat, sans foi, sans amitié,</l>
+                        <l n="670"> Jamais pour nos pareils n’a montré de pitié.</l>
+                        <l n="671"> Des Princes qu’elle craint la plus légère offense,</l>
+                        <l n="672"> Attire sans retour les traits de sa vengeance ;</l>
+                        <l n="673"> Et sa seule clémence en de grands attentats,</l>
+                        <l n="674"> Fait gloire d’épargner ceux qu’elle ne craint pas.</l>
+                        <l n="675"> Ah ! La Paix sous ses lois est un bonheur funeste,</l>
+                        <l n="676"> Elle me fait horreur, le peuple la déteste.</l>
+                        <l n="677"> Les Germains des trésors fuyant la vanité,</l>
+                        <l n="678"> Sont trop riches, Seigneur, avec la liberté.</l>
+                        <l n="679"> Pour se la conserver et tout sexe, et tout âge,</l>
+                        <l n="680"> De tous temps parmi nous nous a prouvé son courage.</l>
+                        <l n="681"> Les femmes dans les Camps auprès de leurs Époux</l>
+                        <l n="682"> Méprisent les dangers, et s’exposent aux coups,</l>
+                        <l n="683"> Sans faiblesse, sans art, sans parure éclatante,</l>
+                        <l n="684"> Leur pompe est leur vertu, leur Palais une Tente,</l>
+                        <l n="685"> Leurs fils dans le travail, dans la guerre formés</l>
+                        <l n="686"> Dès le flanc de leur mère y sont accoutumés.</l>
+                        <l n="687"> Ces Enfants nés guerriers au milieu des alarmes,</l>
+                        <l n="688"> À peine ouvrent les yeux qu’ils demandent des armes ;</l>
+                        <l n="689"> Ils en font tous leurs jeux. Ah ! pouvez-vous Seigneur,</l>
+                        <l n="690"> Sous un joug odieux enchaîner leur valeur.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="691"> Hé ! qu’a-t-il d’odieux, ce joug où je l’enchaîne ?</l>
+                        <l n="692"> Rome n’a plus pour nous de mépris ni de haine.</l>
+                        <l n="693"> Elle nous traite en fils, et ne distingue plus</l>
+                        <l n="694"> Nos peuples et les siens unis et confondus :</l>
+                        <l n="695"> Elle règle nos mœurs, sa prudence en sépare</l>
+                        <l n="696"> Ce qu’elles ont d’affreux, de rude et de barbare,</l>
+                        <l n="697"> Elle enseigne à chérir, à respecter les lois,</l>
+                        <l n="698"> À faire des vertus le véritable choix ;</l>
+                        <l n="699"> Elle épanche pour nous ces trésors que la guerre</l>
+                        <l n="700"> A portés dans son sein des deux bouts de la terre.</l>
+                        <l n="701"> Ses bontés envers nous éclatent chaque jour,</l>
+                        <l n="702"> Et nous n’en recevons que des marques d’amour.</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="703"> Hé quoi ! vous rendez-vous à ces fausses tendresses ?</l>
+                        <l n="704"> Voyez, voyez les fers cachés sous ces caresses,</l>
+                        <l n="705"> Pour imposer un joug au grand cœur des Germains,</l>
+                        <l n="706"> Rome change à présent de route et de desseins.</l>
+                        <l n="707"> Tandis qu’elle a voulu les vaincre par les armes,</l>
+                        <l n="708"> De ses puissants efforts ils n’ont point pris d’alarmes ;</l>
+                        <l n="709"> Elle a toujours trouvé quand on a combattu,</l>
+                        <l n="710"> Valeur contre valeur, vertu contre vertu :</l>
+                        <l n="711"> Elle veut aujourd’hui par un chemin contraire,</l>
+                        <l n="712"> Achever ce qu’encor la force n’a pu faire,</l>
+                        <l n="713"> Et cherche le secours de ces feintes douceurs,</l>
+                        <l n="714"> Qui ne manquent jamais d’abuser les grands cœurs.</l>
+                        <l n="715"> Mais, Seigneur, c’est assez conteste l’un et l’autre,</l>
+                        <l n="716"> Vous blâmez mon parti, je condamne le vôtre.</l>
+                        <l n="717"> Il est temps de finir ce fâcheux entretien,</l>
+                        <l n="718"> Qui porterait trop loin votre esprit et le mien.</l>
+                        <l n="719"> Permettez seulement qu’un heureux Hyménée</l>
+                        <l n="720"> D’Isménie à mon front joigne sa destinée.</l>
+                        <l n="721"> Vous me l’avez promise, et de nos jeunes ans,</l>
+                        <l n="722"> Nous sommes engagés par de communs serments.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="723"> Ma fille ! quoi, Seigneur ? y pensez-vous encore ?</l>
+                        <l n="724"> Se peut-il ?...</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="725"> Si j’y pense. Ah Seigneur, je l’adore !</l>
+                        <l n="726"> Jamais de tant d’amour mon cœur ne fut épris.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="727"> Elle n’est pas pour vous, Seigneur, d’assez haut prix.</l>
+                        <l n="728"> Songez que cet Hymen blesserait votre gloire.</l>
+                        <l n="729"> Vous épousez ma fille. Ah ! pourrait-on le croire ?</l>
+                        <l n="730"> Voulez-vous jusques-là profaner votre main ?</l>
+                        <l n="731"> Vous qui méprisez tant un Citoyen Romain.</l>
+                        <l n="732"> Je le suis, et depuis je fais gloire de l’être.</l>
+                        <l n="733"> Vous êtes Souverain ; je reconnais un Maître.</l>
+                        <l n="734"> Seigneur, portez ailleurs, vos soupirs, et vos feux.</l>
+                        <l n="735"> Cent Reines brigueront votre main, et vos vœux.</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="736"> Seigneur, n’insultez point au malheur qui m’accable ?</l>
+                        <l n="737"> Ne désespérez point un Prince déplorable,</l>
+                        <l n="738"> Qui peut vous obliger à me manquer de foi ?</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="739"> Je vous sers en effet, et fais ce que je dois.</l>
+                        <l n="740"> Seigneur, à d’autres nœuds ma fille est destinée,</l>
+                        <l n="741"> L’État où je me vois règle son Hyménée.</l>
+                        <l n="742"> Enfin, pour son Époux j’ai fait choix d’un Romain ;</l>
+                        <l n="743"> Et Varus dans ce Camp doit l’épouser demain.</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="744"> Avant que mon rival épouse ce que j’aime,</l>
+                        <l n="745"> Ce Rival périra, fut-ce César lui-même.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="746"> Nous n’appréhendons point vos funestes projets.</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="747"> Que Varus pour le moins en craigne les effets.</l>
+                        <l n="748"> Je ne vous dirai plus rien : adieu Seigneur, peut-être</l>
+                        <l n="749"> Le temps et le succès vous le feront connaître.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE, seul </speaker>
+                        <l n="750"> Le succès ne sera que malheureux pour toi.</l>
+                        <l n="751"> Tu ne porteras point tes fureurs loin de moi.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#varus">
+            <speaker> VARUS. </speaker>
+                        <l n="752"> Qu’avez-vous fait, Seigneur ? Et que doit-on attendre ?</l>
+                        <l n="753"> Mais quoi ! Quel est ce bruit que je ne puis comprendre ?</l>
+                        <l n="754"> Qui cause ce tumulte et ces cris confondus ?</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="755"> Ma Garde par mon ordre arrête Arminius.</l>
+                        <l n="756"> À notre sûreté sa perte est nécessaire.</l>
+                        <l n="757"> Hâtons-nous et craignons sa fureur téméraire.</l>
+                        <l n="758"> Perdons sans balancer ce mortel ennemi.</l>
+                        <l n="759"> On ne doit jamais nuire ou haïr à demi.</l>
+                        <l n="760"> Seigneur, je suis instruit de toutes ses pensées,</l>
+                        <l n="761"> Par des lettres des siens à lui-même adressées.</l>
+                        <l n="762"> Sinorix a surpris celui qui les portait :</l>
+                        <l n="763"> Elles sont en mes mains. Ce Prince se flattait</l>
+                        <l n="764"> D’attaquer notre Camp, d’enlever Isménie.</l>
+                        <l n="765"> Assurons la paix aux dépends de sa vie.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="766"> Ah ! traîtres, achevez, percez, percez mon sein.</l>
+                        <l n="767"> Pourquoi m’arrachez-vous les Armes de la main ?</l>
+                        <l n="768"> Et n’est-ce point assez que vous me preniez la vie,</l>
+                        <l n="769"> Sans m’exposer encore à tant d’ignominie ?</l>
+            <stage><em>Voyant Ségeste.</em></stage>
+                        <l n="770"> Te voilà. Tu n’as plus ni parole ni foi.</l>
+                        <l n="771"> Ségeste, par ton ordre on attente sur moi.</l>
+                        <l n="772"> Les droits les plus sacrés n’ont donc rien qui t’arrête ;</l>
+                        <l n="773"> Et tu veux aux Romains faire un don de ma tête.</l>
+                        <l n="774"> Digne emploi d’un Héros qui durant quarante ans,</l>
+                        <l n="775"> A rempli l’univers de ses faits éclatants.</l>
+                        <l n="776"> Mais toi qui viens jouir de toute ma disgrâce :</l>
+                        <l n="777"> Toi, dont le front déjà du trépas me menace.</l>
+                        <l n="778"> Magnanime, Varus, penses-tu m’étonner :</l>
+                        <l n="779"> J’avais juré ta mort, tu peux me la donner :</l>
+                        <l n="780"> J’entendrai sans frémir l’Arrêt le plus sévère ;</l>
+                        <l n="781"> Je crains plus ta pitié que toute ta colère.</l>
+                </sp>
+        <sp who="#varus">
+            <speaker> VARUS. </speaker>
+                        <l n="782"> Non, non, je ne viens point jouir de ta douleur.</l>
+                        <l n="783"> Je respecte ton rang, ton nom, et ton malheur.</l>
+                        <l n="784"> Je fais plus, de tes jours arbitre volontaire.</l>
+                        <l n="785"> Je veux que de ton sort le Sénat délibère.</l>
+                        <l n="786"> Lui seul te jugera, cependant ne crois pas</l>
+                        <l n="787"> Que la pitié me touche et retienne mon bras.</l>
+                        <l n="788"> Ce que je fais pour toi, je le fais pour moi-même,</l>
+                        <l n="789"> Isménie a ta foi, tu l’adores, je l’aime.</l>
+                        <l n="790"> Comme Chef des Romains, je te dois condamner :</l>
+                        <l n="791"> Mais comme ton Rival je te veux épargner,</l>
+                        <l n="792"> Pour assurer ma gloire et confondre l’envie,</l>
+                        <l n="793"> Qui pourrait m’accuser d’en vouloir à ta vie.</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="794"> Détrompes-toi, Varus, et sois moins généreux.</l>
+                        <l n="795"> Précipite ma mort si tu veux être heureux.</l>
+                        <l n="796"> D’un Rival tel que moi la vie est importune ;</l>
+                        <l n="797"> Et l’on peut entre nous voir changer la fortune.</l>
+                        <l n="798"> L’exemple en est commun : mais sois sûr qu’à mon tour,</l>
+                        <l n="799"> Je balancerai moins à te priver du jour.</l>
+                </sp>
+        <sp who="#varus">
+            <speaker> VARUS. </speaker>
+                        <l n="800"> Si de mon sort jamais les Dieux te rendent maître ;</l>
+                        <l n="801"> À tes yeux sans secours me forcent de paraître.</l>
+                        <l n="802"> Tu pourras ou me perdre ou me sauver. Et moi</l>
+                        <l n="803"> Sans prévoir l’avenir je fais ce que je dois.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="804"> Je ne saurais souffrir, Seigneur, qu’il vous outrage.</l>
+                        <l n="805"> Qu’on l’ôte.</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="806"> De Ségeste est-ce là le langage ?</l>
+                        <l n="807"> Regarde en quels malheurs tu t’es précipité ?</l>
+                        <l n="808"> Vois de nous deux, enfin qui doit être imité ?</l>
+                        <l n="809"> Tu respectes Varus, tu le crains, je le brave,</l>
+                        <l n="810"> Je ne parle qu’en Roi, tu parles en Esclave.</l>
+                        <l n="811"> Et captif, désarmé je suis plus souverain,</l>
+                        <l n="812"> Que tu ne l’as été les armes à la main.</l>
+                </sp>
+        <sp who="#varus">
+            <speaker> VARUS. </speaker>
+                        <l n="813"> Laissons un libre cours à sa douleur mortelle.</l>
+                        <l n="814"> Seigneur, un soin pressant en d’autres lieux m’appellent.</l>
+                        <l n="815"> Qu’on le garde.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="816"> Sunnon, appliquez-y vos soins,</l>
+                        <l n="817"> Qu’il ait à tous moments vos regards pour témoins ;</l>
+                        <l n="818"> Surtout souvenez-vous qu’il y va de sa tête.</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="819"> Où faut-il me conduire ? Allons, quoiqu’on m’apprête,</l>
+                        <l n="820"> Je défie à la fois le sort et les Romains.</l>
+                        <l n="821"> Justes Dieux ! vous savez les malheurs que je crains.</l></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#polixène">
+            <speaker> POLIXÈNE. </speaker>
+                        <l n="822"> Apprends-moi donc, Barsine, où l’on garde mon frère ?</l>
+                        <l n="823"> Que j’aille lui prouver une amitié sincère,</l>
+                        <l n="824"> Et m’acquitter vers lui du plus juste devoir...</l>
+                </sp>
+        <sp who="#barsine">
+            <speaker> BARSINE. </speaker>
+                        <l n="825"> Vous sera-t-il permis, Madame de le voir ?</l>
+                        <l n="826"> Pour vous plaire, Sunnon, osera-t-il enfreindre</l>
+                        <l n="827"> L’ordre exprès...</l>
+                </sp>
+        <sp who="#polixène">
+            <speaker> POLIXÈNE. </speaker>
+                        <l n="828"> De ma part, Sunnon, n’a rien à craindre.</l>
+                        <l n="829"> Étrangère en ce Camp, sans secours sans soldats :</l>
+                        <l n="830"> Je ne puis que pleurer ; voilà mes attentats.</l>
+                        <l n="831"> Loin de pouvoir défendre un Prince qu’on opprime ;</l>
+                        <l n="832"> Je cours offrir à Rome une double victime :</l>
+                        <l n="833"> Suivre le sort d’un frère, adoucir son ennui,</l>
+                        <l n="834"> Le plaindre, le servir et mourir avec lui.</l>
+                </sp>
+        <sp who="#barsine">
+            <speaker> BARSINE. </speaker>
+                        <l n="835"> Ô ciel ! auriez-vous pris un dessein si funeste ?</l>
+                </sp>
+        <sp who="#polixène">
+            <speaker> POLIXÈNE. </speaker>
+                        <l n="836"> En puis-je former d’autre ? Et quel espoir me reste ?</l>
+                        <l n="837"> Du sein de nos États on m’amène en ces lieux,</l>
+                        <l n="838"> Sous l’appas, sous la foi d’un hymen glorieux.</l>
+                        <l n="839"> Je me flatte qu’ici dès longtemps attendue,</l>
+                        <l n="840"> La joie en tous les cœurs doit régner à ma vue ;</l>
+                        <l n="841"> Que j’y dois trouver même une pompeuse Cour.</l>
+                        <l n="842"> Qu’ai-je trouvé ? Je vois que dès le premier jour</l>
+                        <l n="843"> Ségeste me traitant en mortelle ennemie,</l>
+                        <l n="844"> Par le dernier mépris me couvre d’infamie ;</l>
+                        <l n="845"> Pour un trône promis me prépare des fers,</l>
+                        <l n="846"> Et jouir de ma peine aux yeux de l’Univers.</l>
+                        <l n="847"> Mais hélas ! Ce n’est point ce qui me désespère,</l>
+                        <l n="848"> Je sens moins mes malheurs que les périls d’un frère :</l>
+                        <l n="849"> Et de quel frère encore ? Pour louer les Exploits,</l>
+                        <l n="850"> Le Renommée à peine a-t-elle assez de voix ?</l>
+                        <l n="851"> Lui seul à des Germains fait revivre la gloire,</l>
+                        <l n="852"> Et sous leurs étendards ramené la Victoire,</l>
+                        <l n="853"> On le livre aux Romains, sans doute il va périr.</l>
+                        <l n="854"> Dieux ! n’est-il pas de bras prompt à le secourir ?</l>
+                        <l n="855"> Laisserez-vous tomber cette tête proscrite ?</l>
+                        <l n="856"> Vous Soldats tant de fois triomphants à sa suite ?</l>
+                        <l n="857"> Et vous Peuples du joug, sauvez par sa faveur,</l>
+                        <l n="858"> Ne défendrez-vous point votre heureux défendeur ?</l>
+                </sp>
+        <sp who="#barsine">
+            <speaker> BARSINE. </speaker>
+                        <l n="859"> Oui, Madame, espérez qu’un recours favorable...</l>
+                </sp>
+        <sp who="#polixène">
+            <speaker> POLIXÈNE. </speaker>
+                        <l n="860"> Hé ! qui voudrait servir ce Prince déplorable ?</l>
+                        <l n="861"> Qui voudrait des maux avoir quelque pitié ?</l>
+                        <l n="862"> Quand ceux qui lui juraient une étroite amitié.</l>
+                        <l n="863"> Quand ceux que l’amour même engage à sa défense,</l>
+                        <l n="864"> Semblent passer pour lui jusqu’à l’indifférence.</l>
+                        <l n="865"> Sigismond, Isménie, on oublie tous deux</l>
+                        <l n="866"> Qu’ils aimaient autrefois ce Prince malheureux.</l>
+                        <l n="867"> Leur voit-on rien tenter pour assurer la vie ?</l>
+                        <l n="868"> Ah ! de leur souvenir je suis aussi bannie.</l>
+                        <l n="869"> Prennent-ils quelque soin de flatter ma douleur ?</l>
+                        <l n="870"> L’infortune du frère est commune à la sœur.</l>
+                        <l n="871"> Hélas ! dans tous les cœurs quel changement je trouve !</l>
+                        <l n="872"> Par quel destin fatal, Dieux ! faut-il qu’il éprouve</l>
+                        <l n="873"> Que nos cruels malheurs glacent dans un seul jour</l>
+                        <l n="874"> L’amitié plus forte, et le plus tendre amour ?</l>
+                </sp>
+        <sp who="#barsine">
+            <speaker> BARSINE. </speaker>
+                        <l n="875"> Cet injuste soupçon offense l’un et l’autre.</l>
+                        <l n="876"> Madame, leur douleur est égale à la vôtre.</l>
+                        <l n="877"> Les larmes d’Isménie en ce même moment</l>
+                        <l n="878"> À son Père irrité parlent pour son Amant.</l>
+                        <l n="879"> Sigismond a juré de sauver votre Frère...</l>
+                        <l n="880"> Mais il vient, apprenez si son cœur est sincère.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#sigismond">
+            <speaker> SIGISMOND. </speaker>
+                        <l n="881"> Quel est votre dessein ? Venez-vous dans ces lieux,</l>
+                        <l n="882"> Madame, pour cacher vos plaintes à mes yeux ?</l>
+                        <l n="883"> Je n’ose me flatter que ma seule présence</l>
+                        <l n="884"> Puisse de vos ennuis calmer la violence :</l>
+                        <l n="885"> Si pourtant votre amour était égal au mien.</l>
+                </sp>
+        <sp who="#polixène">
+            <speaker> POLIXÈNE. </speaker>
+                        <l n="886"> Ah ! Seigneur, finissez cet étrange entretien.</l>
+                        <l n="887"> Quel temps choisissez-vous ? La triste Polixène</l>
+                        <l n="888"> N’a le cœur pénétré que de crainte et de haine ;</l>
+                        <l n="889"> Ces divers mouvements l’agitent tour à tour :</l>
+                        <l n="890"> Il n’est plus dans ce cœur de place pour l’amour.</l>
+                </sp>
+        <sp who="#sigismond">
+            <speaker> SIGISMOND. </speaker>
+                        <l n="891"> Que dites-vous ? ô Ciel !</l>
+                </sp>
+        <sp who="#polixène">
+            <speaker> POLIXÈNE. </speaker>
+                        <l n="892"> Ce que je ne puis taire.</l>
+                        <l n="893"> Je déteste Varus : je tremble pour mon frère.</l>
+                        <l n="894"> Je vois l’un Souverain ; l’autre persécuté.</l>
+                        <l n="895"> Jugez de ma douleur dans cette extrémité ?</l>
+                        <l n="896"> Si je dois m’occuper d’une inutile flamme.</l>
+                        <l n="897"> Mais quand l’amour encore règnerait dans mon âme,</l>
+                        <l n="898"> De quoi me servirait ce vain amusement ?</l>
+                        <l n="899"> Seigneur, doit-on aimer lors qu’on n’a plus d’Amant ?</l>
+                </sp>
+        <sp who="#sigismond">
+            <speaker> SIGISMOND. </speaker>
+                        <l n="900"> De ce fatal discours que faut-il que je pense ?</l>
+                        <l n="901"> Me soupçonnez-vous... Mon esprit en balance,</l>
+                        <l n="902"> Ne saurait...</l>
+                </sp>
+        <sp who="#polixène">
+            <speaker> POLIXÈNE. </speaker>
+                        <l n="903"> Non, Seigneur, je ne vous connais plus.</l>
+                        <l n="904"> Je n’ai jamais aimé l’Esclave de Varus.</l>
+                </sp>
+        <sp who="#sigismond">
+            <speaker> SIGISMOND. </speaker>
+                        <l n="905"> Juste Ciel ! votre cœur ne peut-il méconnaître ?</l>
+                </sp>
+        <sp who="#polixène">
+            <speaker> POLIXÈNE. </speaker>
+                        <l n="906"> Vous m’y forcez, Seigneur, quand vous souffrez un Maître.</l>
+                        <l n="907"> Oui, lorsque je vous vois, en vain je veux chercher</l>
+                        <l n="908"> Ce Prince qui m’aimait et qui m’était si cher.</l>
+                        <l n="909"> L’Amour m’assure en vain que vous êtes le même.</l>
+                        <l n="910"> Ah ! j’en vois malgré lui la différence extrême.</l>
+                        <l n="911"> Je trouve encore en vous cet air grand, glorieux ;</l>
+                        <l n="912"> Cette grâce, ces traits charmèrent mes yeux :</l>
+                        <l n="913"> Mais je n’y trouve plus cette ardeur héroïque,</l>
+                        <l n="914"> Qui soutenait jadis la fierté Germanique,</l>
+                        <l n="915"> Ce courage élevé, cette noble grandeur,</l>
+                        <l n="916"> Et tant d’autres vertus qui charmèrent mon cœur.</l>
+                </sp>
+        <sp who="#sigismond">
+            <speaker> SIGISMOND. </speaker>
+                        <l n="917"> Ah ! vous deviez me rendre un peu plus de justice,</l>
+                        <l n="918"> Sans avoir attendu que je vous éclaircisse</l>
+                        <l n="919"> De tout...</l>
+                </sp>
+        <sp who="#polixène">
+            <speaker> POLIXÈNE. </speaker>
+                        <l n="920"> Hélas ! Seigneur, pendant ce vain discours,</l>
+                        <l n="921"> De mon Frère peut-être on va trancher les jours :</l>
+                        <l n="922"> Peut-être la fureur d’un Rival qui l’abhorre...</l>
+                </sp>
+        <sp who="#sigismond">
+            <speaker> SIGISMOND. </speaker>
+                        <l n="923"> Calmez votre douleur, ne craignez rien encore ;</l>
+                        <l n="924"> Madame, et permettez que je vous fasse voir</l>
+                        <l n="925"> Si d’un fidèle Amant j’ai rempli le devoir :</l>
+                        <l n="926"> Si je balance, enfin, entre vous et mon Père :</l>
+                        <l n="927"> Mais j’en laisse le soin au Prince votre Frère.</l>
+                        <l n="928"> Il parlera, Madame, et vous convaincra mieux.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#polixène">
+            <speaker> POLIXÈNE. </speaker>
+                        <l n="929"> Ciel ! que vois-je ? Est-ce vous ? En croirai-je mes yeux ?</l>
+                        <l n="930"> Seigneur, et quel secours ? Quelle main pitoyable,</l>
+                        <l n="931"> Finit en vous sauvant le tourment qui m’accable ?</l>
+                        <l n="932"> À qui dois-je mon frère ? et qui me l’a rendu ?</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="933"> Vous m’en voyez moi-même étonné, confondu.</l>
+                        <l n="934"> Gardé près de ces lieux tout plein de mes disgrâces,</l>
+                        <l n="935"> De mes fers ennemis rappelant les menaces ;</l>
+                        <l n="936"> Préparé par avance aux cruautés du sort,</l>
+                        <l n="937"> J’attendais à tout heure une sanglante mort.</l>
+                        <l n="938"> Lorsque Sunnon entrant, j’ai lu sur son visage,</l>
+                        <l n="939"> De quelque grand dessein l’infaillible présage,</l>
+                        <l n="940"> Hâtons-nous, m’a-t-il dit, Seigneur, et suivez-moi :</l>
+                        <l n="941"> Du salut de vos jours fiez-vous à ma foi.</l>
+                        <l n="942"> Je le suis. Nous trouvons une route secrète,</l>
+                        <l n="943"> Qui jusque dans ces lieux guide notre retraite.</l>
+                        <l n="944"> De la nuit qui survient l’heureuse obscurité,</l>
+                        <l n="945"> A si bien secondé notre témérité,</l>
+                        <l n="946"> Que je vous vois enfin, le reste je l’ignore...</l>
+                </sp>
+        <sp who="#sigismond">
+            <speaker> SIGISMOND. </speaker>
+                        <l n="947"> J’ai tout osé pour vous ; Seigneur, je dois encore</l>
+                        <l n="948"> Remettre entre vos mains l’instrument glorieux.</l>
+            <stage><em>Il prend l’épée l’Arminius des mains de Sunnon, et la lui rend.</em></stage>
+                        <l n="949"> Des Exploits tant de fois achevés à nos yeux.</l>
+                        <l n="950"> Ce n’est pas tout. Du Camp sortez en diligence :</l>
+                        <l n="951"> Prenez-en lui, Seigneur, une entière assurance.</l>
+                        <l n="952"> Il est instruit de l’ordre, et connu des Soldats.</l>
+                        <l n="953"> Allez : ne craignez rien ; et bientôt sur ses pas,</l>
+                        <l n="954"> Vous gagnerez les bois, et joindrez votre Armée.</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="955"> De quel zèle pour moi vôtre âme est enflammée ?</l>
+                        <l n="956"> Puis-je jamais payez des soins si généreux ?</l>
+                </sp>
+        <sp who="#polixène">
+            <speaker> POLIXÈNE. </speaker>
+                        <l n="957"> Le Ciel en ce moment a rempli tous mes vœux.</l>
+                        <l n="958"> Prince, puisque c’est vous qui me rendez mon frère.</l>
+                </sp>
+        <sp who="#sigismond">
+            <speaker> SIGISMOND. </speaker>
+                        <l n="959"> Partez, Seigneur ; fuyez l’implacable colère</l>
+                        <l n="960"> De Ségeste aveugle, des Romains furieux...</l>
+                </sp>
+        <sp who="#sunnon">
+            <speaker> SUNNON. </speaker>
+                        <l n="961"> Il n’est pas temps encore de sortir de ces lieux.</l>
+                        <l n="962"> Les Soldats dans le Camp errants à l’aventure,</l>
+                        <l n="963"> Rendent en cet instant votre fuite moins sûre.</l>
+                        <l n="964"> Attendons, qu’oubliant leurs pénibles travaux,</l>
+                        <l n="965"> Dans les bras du sommeil ils cherchent le repos.</l>
+                        <l n="966"> Et que la nuit, Seigneur, un peu plus avancée...</l>
+                </sp>
+        <sp who="#sigismond">
+            <speaker> SIGISMOND. </speaker>
+                        <l n="967"> Oui, par votre conseil je change de pensée,</l>
+                        <l n="968"> Et je vais avec soin observer le moment</l>
+                        <l n="969"> Où vous pourrez, Seigneur, vous sauver sûrement.</l>
+                        <l n="970"> Moi-même dans ces lieux je viendrai vous reprendre.</l>
+                        <l n="971"> Vous, auprès de mon Père, il est temps de vous rendre,</l>
+                        <l n="972"> Madame, par vos pleurs vous saurez l’abuser.</l>
+                </sp>
+        <sp who="#polixène">
+            <speaker> POLIXÈNE. </speaker>
+                        <l n="973"> J’y cours : vous, pour leur fuite, allez tout disposer.</l>
+                        <l n="974"> Adieu, Seigneur ; le Ciel secondant mon envie.</l>
+                        <l n="975"> Puisse-t-il par nos soins assurer votre vie.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="976"> Vous, qui, pour mon salut, travaillez avec eux ;</l>
+                        <l n="977"> Qui plaignez le destin d’un Prince malheureux.</l>
+                        <l n="978"> Ami, de qui le zèle à ma perte s’oppose ;</l>
+                        <l n="979"> J’admire vos bontés, et j’en cherche la cause.</l>
+                        <l n="980"> Quel charme à me servir vous a rendu si prompt ?</l>
+                </sp>
+        <sp who="#sunnon">
+            <speaker> SUNNON. </speaker>
+                        <l n="981"> Devais-je moins, Seigneur, au Prince Sigismond ?</l>
+                        <l n="982"> C’est lui qui relevant ma naissance commune</l>
+                        <l n="983"> Jusqu’au rang que je tiens a porté ma fortune,</l>
+                        <l n="984"> Qui, pour vous assurer mes soins, et mon secours,</l>
+                        <l n="985"> M’a juré que mon sort dépendait de vos jours.</l>
+                        <l n="986"> Déjà mon cœur pour vous craignait un coup funeste ;</l>
+                        <l n="987"> J’étais presque ébranlé ; le Prince a fait le reste.</l>
+                        <l n="988"> Et quels que soient les noms qu’on me puisse imposer,</l>
+                        <l n="989"> Vos vertus, vos exploits ne sauraient excuser.</l>
+                        <l n="990"> Suivez, Seigneur, suivez l’ardeur qui vous anime,</l>
+                        <l n="991"> Dans le sang des Romains courez laver mon crime.</l>
+                        <l n="992"> Des Peuples asservis, courez briser les fers.</l>
+                        <l n="993"> Vengez-les des mépris, des maux qu’ils ont soufferts.</l>
+                        <l n="994"> Forcez tous les Germains, enfin, de reconnaître</l>
+                        <l n="995"> Que si Sunnon pour vous devient perfide et traître ;</l>
+                        <l n="996"> Sa trahison sauvant son pays abattu,</l>
+                        <l n="997"> Mérite leur estime, et le nom de vertu.</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="998"> Oui, laissez-moi le soin d’une juste vengeance.</l>
+                </sp>
+        <sp who="#sunnon">
+            <speaker> SUNNON. </speaker>
+                        <l n="999"> Mais, Seigneur, si le Ciel trahit notre espérance.</l>
+                        <l n="1000"> Que sert de vous flatter ? Je vois de toutes parts</l>
+                        <l n="1001"> Mille périls divers s’offrir à mes regards.</l>
+                        <l n="1002">  La fuite de ce Camp paraît si difficile...</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="1003"> N’importe ; je mourrai satisfait et tranquille ;</l>
+                        <l n="1004"> Si je puis expirer les armes à la main,</l>
+                        <l n="1005"> Et si mes derniers coups versent du sang Romain.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="1006"> Vous êtes libre, enfin, Seigneur, et Polixène,</l>
+                        <l n="1007"> M’apprenant votre sort vient d’adoucir ma peine.</l>
+                        <l n="1008"> Dieux ! de quels traits mon cœur s’est-il senti percer ?</l>
+                        <l n="1009"> Non, nul autre que moi ne saurait le penser.</l>
+                        <l n="1010"> À peine je respire, abattue, interdite...</l>
+                        <l n="1011"> Mais grâce au Ciel je vois tout prêt pour votre fuite.</l>
+                        <l n="1012"> Vous vivrez... Mais hélas ! plus d’Hymen plus d’espoir ;</l>
+                        <l n="1013"> Pour jamais aujourd’hui je cesse de vous voir,</l>
+                        <l n="1014"> Et le sort à nos vœux devenu trop contraire...</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="1015"> Non, non, je fléchirai le sort et votre Père,</l>
+                        <l n="1016"> Je vais, puisqu’il le faut, m’éloigner de vos yeux.</l>
+                        <l n="1017"> Mais bientôt en Vainqueur je reverrai ces lieux.</l>
+                        <l n="1018"> La justice, l’amour, mon cœur, tout m’en assure.</l>
+                        <l n="1019"> Le sang de mon rival lavera mon injure.</l>
+                        <l n="1020"> Varus et les Romains dans ce Camp égorgés,</l>
+                        <l n="1021"> Serviront de victime à mes feux outragés,</l>
+                        <l n="1022"> Mon bras...</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="1023"> Où vous emporte votre aveugle colère ?</l>
+                        <l n="1024"> Voulez-vous dans leur chute envelopper mon père ?</l>
+                        <l n="1025"> Quel est votre dessein ? Ah ! Ciel ! prétendez-vous</l>
+                        <l n="1026"> Dans un Camp qu’il défend, venir porter vos coups ?</l>
+                        <l n="1027"> Vous verrai-je au combat animés l’un et l’autre ?</l>
+                        <l n="1028"> Peut-être de sa main... peut-être de la vôtre...</l>
+                        <l n="1029"> Je frémis... C’est assez que nous l’osions trahir,</l>
+                        <l n="1030"> Voulez-vous me forcer encore à vous haïr ?</l>
+                        <l n="1031"> Épargnez-le, Seigneur, et respectez sa vie.</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="1032"> Le soin de son salut fait ma plus chère envie.</l>
+                        <l n="1033"> Quels que soient les affronts qu’il m’a fait aujourd’hui,</l>
+                        <l n="1034"> S’il se trouve au combat je veillerai sur lui ;</l>
+                        <l n="1035"> Moins jaloux mille fois d’emporter la victoire ;</l>
+                        <l n="1036"> Que de sauver ses jours aux dépends de ma gloire.</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="1037"> Non, Seigneur, tous vos soins ne me rassurent pas.</l>
+                        <l n="1038"> Pourrez-vous retenir la fureur des soldats ?</l>
+                        <l n="1039"> Je défends...</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="1040"> Révoquez une loi si barbare,</l>
+                        <l n="1041"> Ou redoutez les maux que Rome nous prépare.</l>
+                        <l n="1042"> Souffrez...</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="1043"> Non, c’en est fait, je n’y puis consentir.</l>
+                        <l n="1044"> N’en parlons plus.</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="1045"> Et moi je ne veux plus partir,</l>
+                        <l n="1046"> Je rentre dans les fers de votre injuste Père.</l>
+                        <l n="1047"> J’abandonne ma tête à toute sa colère.</l>
+                        <l n="1048"> Ce Prince, les Romains altérés de mon sang,</l>
+                        <l n="1049"> De la dernière goutte épuiseront mon flanc.</l>
+                        <l n="1050"> Vous le savez ? Déjà ma perte est résolue,</l>
+                        <l n="1051"> Et du coup qui m’attend vous n’êtes point émue ?</l>
+                        <l n="1052"> Ingrate, vous craignez pour un Père inhumain,</l>
+                        <l n="1053"> D’un combat éloigné le péril incertain,</l>
+                        <l n="1054"> Et vous ne craignez point pour un Amant fidèle</l>
+                        <l n="1055"> Les horreurs d’une mort et prochaine et cruelle,</l>
+                        <l n="1056"> Triste effet de mes soins ! je suis prêt à périr,</l>
+                        <l n="1057"> Et vous me défendez de m’oser secourir.</l>
+                        <l n="1058"> Mais que dis-je ? Grand Dieux ! Quel espoir est le vôtre ?</l>
+                        <l n="1059"> Voulez-vous vous jeter entre les bras d’un autre ?</l>
+                        <l n="1060"> Vous donner à Varus ? Et que de son bonheur,</l>
+                        <l n="1061"> Pour vous plaire je sois tranquille spectateur ?</l>
+                        <l n="1062"> Non, non n’espérez pas que mon obéissance,</l>
+                        <l n="1063"> Jusques à cet effort porte ma complaisance.</l>
+                        <l n="1064"> Votre fausse pitié m’éloigne de ces lieux ;</l>
+                        <l n="1065"> Et moi je veux du moins ne mourir qu’à vos yeux.</l>
+                        <l n="1066"> J’y cours.</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="1067"> Quel fureur ! quelle affreuse menace !</l>
+                        <l n="1068"> Arrêtez... tout mon sang dans mes veines se glace.</l>
+                        <l n="1069"> Amitié, sang, amour, je cède à votre effort :</l>
+                        <l n="1070"> Vous déchirez mon cœur qui sera le plus fort.</l>
+                        <l n="1071"> Qui... Je sens que l’amour plus fort que la nature,</l>
+                        <l n="1072"> Du sang qui le combat surmonte le murmure.</l>
+                        <l n="1073"> Je me rends, et je laisse agir votre valeur ;</l>
+                        <l n="1074"> Entre mon Père et vous j’ai partagé mon cœur :</l>
+                        <l n="1075"> Mais un juste transport le fait pencher, l’entraîne</l>
+                        <l n="1076"> Du côté de celui dont la perte est prochaine.</l>
+                        <l n="1077"> Et quand je prends parti, Seigneur, entre vous deux,</l>
+                        <l n="1078"> C’est pour le plus à plaindre, et le plus malheureux.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="1079"> Ah ! Madame...</l>
+                </sp>
+        <sp who="#sigismond">
+            <speaker> SIGISMOND. </speaker>
+                        <l n="1080"> Seigneur, fuyez en diligence ;</l>
+                        <l n="1081"> La nuit dans tout le Camp fait régner le silence.</l>
+                        <l n="1082"> Allons : marchez, Sunnon, et de différons pas.</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="1083"> Adieu, Madame.</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="1084"> Allez, Seigneur, hâtez vos pas.</l>
+                        <l n="1085"> Revenez, triomphez, mais sauvez-moi mon Père.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE, seule </speaker>
+                        <l n="1086"> Il part, que fera-t-il ? Que faut-il que j’espère ?</l>
+                        <l n="1087"> Triomphant des Romains et d’un Rival vainqueur ;</l>
+                        <l n="1088"> Reviendra-t-il encore plus digne de mon cœur ?</l>
+                        <l n="1089"> Le verrai-je couvert d’une nouvelle gloire.</l>
+                        <l n="1090"> Brillant de cet éclat que donne la victoire.</l>
+                        <l n="1091"> Plein d’amour, à mes pieds venir prendre mes lois.</l>
+                        <l n="1092"> Mais si je l’avais vu pour la dernière fois.</l>
+                        <l n="1093"> Si du Ciel irrité la colère obstinée,</l>
+                        <l n="1094"> Par la fin de ses jours marquait cette journée.</l>
+                        <l n="1095"> Hélas ! s’il persistait en combattant pour moi ?</l>
+                        <l n="1096"> Que d’horreurs ! Tout ici redouble mon effroi.</l>
+                        <l n="1097"> Peut-être sa victoire également funeste,</l>
+                        <l n="1098"> En épargnant Varus fera tomber Ségeste.</l>
+                        <l n="1099"> Non, non, rassurons-nous. Mon Amant aujourd’hui</l>
+                        <l n="1100"> N’en veut qu’à son Rival, et ne cherche que lui.</l>
+                        <l n="1101"> Il en triomphera sans accabler mon Père.</l>
+                        <l n="1102"> Pardonne ce souhait à tes désirs contraire.</l>
+                        <l n="1103"> Ségeste, je t’honore, et les devoirs du sang,</l>
+                        <l n="1104"> Dans mon cœur agité tiennent le premier rang.</l>
+                        <l n="1105"> Mais je frémis des nœuds où ton choix me destine,</l>
+                        <l n="1106"> Et l’État menacé d’une entière ruine,</l>
+                        <l n="1107"> Fait révolter mon cœur contre un joug odieux.</l>
+                        <l n="1108"> Ségeste avec Varus, quelle union ? Grand Dieux !</l>
+                        <l n="1109"> Vous qui les unissez, et qui croyez ma peine,</l>
+                        <l n="1110"> Séparez ces objets et d’amour, et de haine ;</l>
+                        <l n="1111"> Que je puisse aimer l’un avec fidélité ;</l>
+                        <l n="1112"> Et voir immoler l’autre avec tranquillité.</l>
+                        <l n="1113"> Mais on vient. C’est Barsine. Hélas ! que me veut-elle ?</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#barsine">
+            <speaker> BARSINE. </speaker>
+                        <l n="1114"> Madame, c’en est fait, la fortune cruelle</l>
+                        <l n="1115"> Retient Arminius dans ce Camp odieux.</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="1116"> Ô Ciel ! qu’entends-je ?</l>
+                </sp>
+        <sp who="#barsine">
+            <speaker> BARSINE. </speaker>
+                        <l n="1117"> À peine il sortait de ces lieux,</l>
+                        <l n="1118"> Qu’il a trouvé d’abord pour obstacle à sa fuite,</l>
+                        <l n="1119"> Que Varus fait du Camp une exacte visite.</l>
+                        <l n="1120"> Il va de garde en garde ; il court de tous côtés :</l>
+                        <l n="1121"> Par son ordre en cent lieux des soldats sont postés ;</l>
+                        <l n="1122"> Qui, prêts à signaler leur zèle et leur courage,</l>
+                        <l n="1123"> Défendent de ce Camp le plus étroit passage.</l>
+                        <l n="1124"> Sigismond éperdu, Sunnon épouvanté,</l>
+                        <l n="1125"> Ne sachant que résoudre en cette extrémité,</l>
+                        <l n="1126"> Ont conduit votre Amant dans la tente prochaine.</l>
+                        <l n="1127"> Mais enfin, désormais leur entreprise est vaine ;</l>
+                        <l n="1128"> J’ai vu leur désespoir, ils ne se flattent plus</l>
+                        <l n="1129"> De pouvoir hors du Camp conduire Arminius.</l>
+                        <l n="1130"> La fuite cette nuit leur paraît impossible.</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="1131"> Ainsi, de ce Héros la perte est infaillible.</l>
+                        <l n="1132"> À peine un seul instant, un peu d’espoir me luit.</l>
+                        <l n="1133"> Que ma crainte redouble au moment qui le fuit.</l>
+                        <l n="1134"> Me faudra-t-il toujours trembler pour ce que j’aime ?</l>
+                        <l n="1135"> Grands Dieux ! Ah ! que plutôt je périsse moi-même.</l>
+                        <l n="1136"> Ne ménageons plus rien, l’amour au désespoir</l>
+                        <l n="1137"> Se fait de ses transports un souverain devoir.</l>
+                        <l n="1138"> Allons trouver ce Prince : allons dans mes alarmes ;</l>
+                        <l n="1139"> Dans les pleurs que je verse il trouvera des charmes ;</l>
+                        <l n="1140"> Et je sentirai moins mes mortelles douleurs</l>
+                        <l n="1141"> Si je puis partager son sort et ses malheurs.</l></div></div>
+           <div type="act" xml:id="4">
+           <head> ACTE IV </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#varus">
+            <speaker> VARUS, seul </speaker>
+                        <l n="1142"> Je ne sais que résoudre, et comment me conduire ;</l>
+                        <l n="1143"> Des ordres de César j’aurais voulu m’instruire.</l>
+                        <l n="1144"> Tullus que dès longtemps j’ai dépêché vers lui,</l>
+                        <l n="1145"> De Rome auprès de moi doit se rendre aujourd’hui.</l>
+                        <l n="1146"> Qu’un moment paraît long à mon impatience.</l>
+                        <l n="1147"> Mais on vient, et je crois. Oui, c’est lui qui s’avance.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#varus">
+            <speaker> VARUS. </speaker>
+                        <l n="1148"> Eh bien, Tullus ! Eh bien ? qu’est ce qu’on me prescrit ?</l>
+                        <l n="1149"> Qu’ai-je à faire ?</l>
+                </sp>
+        <sp who="#tullus">
+            <speaker> TULLUS, lui donnant une lettre. </speaker>
+                        <l n="1150"> Seigneur, l’Empereur vous écrit.</l>
+                        <l n="1151"> Des ordres de César instruisez-vous vous-même.</l>
+                        <l n="1152"> Lisez et connaissez sa volonté suprême.</l>
+                </sp>
+        <sp who="#varus">
+            <speaker> VARUS lit. </speaker>
+            <stage><em>Je suis content des soins que vous prenez</em></stage>
+            <stage><em>Pour ranger les Germains sous mon obéissance.</em></stage>
+            <stage><em>Continuez, Varus, et vous ressouvenez </em></stage>
+            <stage><em>Que ce qu’on fait pour moi n’est pas sans récompense.</em></stage>
+            <stage><a name="1110" id="1110"></a><em>Je n’ai qu’un ordre à vous donner ;</em></stage>
+            <stage><em>Qu’Arminius par vous soit poursuivi sans cesse :</em></stage>
+            <stage><em>Employez pour le perdre, et la force, et l’adresse,</em></stage>
+            <stage><em>Je vous défends de l’épargner. </em></stage>
+                        <l n="1153"> Ô Ciel !</l>
+                </sp>
+        <sp who="#tullus">
+            <speaker> TULLUS. </speaker>
+                        <l n="1154"> Qu’a donc pour vous cet ordre de funeste ?</l>
+                        <l n="1155"> Plaignez-vous l’ennemi que l’Empereur déteste ?</l>
+                </sp>
+        <sp who="#varus">
+            <speaker> VARUS. </speaker>
+                        <l n="1156"> Je fonde sur sa mort le bonheur de mes jours,</l>
+                        <l n="1157"> Et je n’ose des siens faire trancher le cours.</l>
+                        <l n="1158"> Arminius est cher à l’objet que j’adore,</l>
+                        <l n="1159"> J’en suis haï, faut-il que je me charge encore</l>
+                        <l n="1160"> De l’invincible horreur que la mort d’un Amant</l>
+                        <l n="1161"> Lui donnerait pour moi jusqu’au dernier moment ?</l>
+                        <l n="1162"> De quel front oserai-je aborder Isménie,</l>
+                        <l n="1163"> Du sang d’Arminius ma main encore rougie ?</l>
+                        <l n="1164"> Teinte d’un sang chéri voudrait-elle épouser</l>
+                        <l n="1165"> Celui qu’innocent même elle ose refuser ?</l>
+                        <l n="1166"> Ah ! sans trahir Auguste, et la cause publique,</l>
+                        <l n="1167"> Accordons ma tendresse avec ma politique :</l>
+                        <l n="1168"> En assurant ici les lois de l’Empereur,</l>
+                        <l n="1169"> Assurons s’il se peut, le repos de mon cœur.</l>
+                        <l n="1170"> Que par la main d’un autre Arminius périsse.</l>
+                        <l n="1171"> Qu’Isménie en pleurant ce sanglant sacrifice,</l>
+                        <l n="1172"> Ne me reproche point la source se ses pleurs,</l>
+                        <l n="1173"> Et porte son courroux et sa vengeance ailleurs.</l>
+                </sp>
+        <sp who="#tullus">
+            <speaker> TULLUS. </speaker>
+                        <l n="1174"> Eh ! qui l’immolera si vous lui faites grâce ?</l>
+                        <l n="1175"> Qui punira, Seigneur, sa criminelle audace ?</l>
+                </sp>
+        <sp who="#varus">
+            <speaker> VARUS. </speaker>
+                        <l n="1176"> Ségeste, avec plaisir prendra ce triste emploi.</l>
+                        <l n="1177"> Arminius lui fait plus d’ombrage qu’à moi,</l>
+                        <l n="1178"> Ce jeune chef partout suivi de la victoire,</l>
+                        <l n="1179"> Des exploits de Ségeste a surpassé la gloire.</l>
+                        <l n="1180"> Les peuples, les soldats charmés de sa valeur,</l>
+                        <l n="1181"> L’ont honoré du nom de leur Libérateur.</l>
+                        <l n="1182"> Tous courraient le chercher d’une ardeur empressée,</l>
+                        <l n="1183"> Et Ségeste déchu de sa grandeur passée,</l>
+                        <l n="1184"> S’est rangé parmi nous pour s’épargner l’ennui</l>
+                        <l n="1185"> De le voir plus illustre et plus aimé que lui,</l>
+                        <l n="1186"> Mais le voici.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="1187"> Seigneur, sur de justes alarmes</l>
+                        <l n="1188"> Tout le Camp se prépare et chacun prend les armes.</l>
+                        <l n="1189"> On vient de m’avertir que sur la fin du jour</l>
+                        <l n="1190"> Nos ennemis sortaient des forêts alentour,</l>
+                        <l n="1191"> Qu’ils avançaient vers nous : ils ont appris peut-être</l>
+                        <l n="1192"> Les extrêmes périls, la prison de leur maître :</l>
+                        <l n="1193"> Ils craignent en ces lieux de voir trancher ses jours,</l>
+                        <l n="1194"> Et pleins d’amour pour lui volent à son secours.</l>
+                        <l n="1195"> Je ne cèle point, Arminius me gêne.</l>
+                        <l n="1196"> Que pouvons-nous résoudre ?</l>
+                </sp>
+        <sp who="#varus">
+            <speaker> VARUS, à Sinorix. </speaker>
+                        <l n="1197"> Allez, qu’on me l’amène,</l>
+                        <l n="1198"> Vous, Tullus, vers nos chefs précipitez vos pas.</l>
+                        <l n="1199"> Que chacun au combat dispose ses soldats,</l>
+                        <l n="1200"> Je vous suivrai de près. Si l’ennemi avance,</l>
+                        <l n="1201"> Vous reviendrez de tout m’instruire en diligence.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="1202"> Qu’avez-vous résolu, Seigneur ? Vous flattez-vous</l>
+                        <l n="1203"> De vaincre Arminius, de l’attacher à nous ?</l>
+                </sp>
+        <sp who="#varus">
+            <speaker> VARUS. </speaker>
+                        <l n="1204"> Je ne sais : mais je vais du moins lui faire entendre</l>
+                        <l n="1205"> Le destin qu’en ces lieux sa fierté doit attendre.</l>
+                        <l n="1206"> Je vais lui présenter les supplices tout prêts ;</l>
+                        <l n="1207"> Peut-être qu’à leur yeux paraissant de plus près.</l>
+                        <l n="1208"> Leur funeste appareil malgré toute sa haine</l>
+                        <l n="1209"> Donnera quelque crainte à son âme hautaine.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="1210"> Ah ! ne l’espérez pas, ce farouche ennemi,</l>
+                        <l n="1211"> À mépriser la mort, n’est que trop affermi.</l>
+                        <l n="1212"> Vous-même l’avez vu dans la guerre passée...</l>
+                </sp>
+        <sp who="#varus">
+            <speaker> VARUS. </speaker>
+                        <l n="1213"> Seigneur, les temps divers font changer de pensée.</l>
+                        <l n="1214"> Le plus grand cœur s’effraie aux apprêts du trépas.</l>
+                        <l n="1215"> Tel l’a bravé cent fois au milieu des combats,</l>
+                        <l n="1216"> Et vu d’un front certain la mort presqu’infaillible,</l>
+                        <l n="1217"> Qui n’a jamais conçu tout ce qu’elle a d’horrible.</l>
+                        <l n="1218"> Un esprit enflammé d’une noble chaleur,</l>
+                        <l n="1219"> Poussé par la vengeance, ou flatté par l’honneur.</l>
+                        <l n="1220"> Occupé des moyens d’emporter la victoire,</l>
+                        <l n="1221"> Ne laisse alors les yeux ouverts que pour la gloire ;</l>
+                        <l n="1222"> Et fait que le guerrier jaloux de l’acquérir,</l>
+                        <l n="1223"> Vole après les dangers et s’expose à mourir.</l>
+                        <l n="1224"> Mais ce même guerrier dans un état tranquille,</l>
+                        <l n="1225"> Menacé d’une mort à sa gloire inutile :</l>
+                        <l n="1226"> D’une mort odieuse, et qu’il ne cherche pas,</l>
+                        <l n="1227"> N’est plus tel qu’il était au milieu des combats.</l>
+                        <l n="1228"> Il fait voir la faiblesse, il frémit, il murmure ;</l>
+                        <l n="1229"> L’esprit moins prévenu laisse agir la nature,</l>
+                        <l n="1230"> Et le trépas alors lui devient un objet</l>
+                        <l n="1231"> Plus redoutable encore qu’il ne l’est en effet.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="1232"> Non, non, Arminius à tout ce qu’on prépare,</l>
+                        <l n="1233"> Opposera, Seigneur, sa constance barbare ;</l>
+                        <l n="1234"> Mais s’il ne se rend point, cessez de ménager</l>
+                        <l n="1235"> Un ennemi toujours prompt à vous outrager,</l>
+                        <l n="1236"> Et repoussant d’un coup tous ceux qu’il nous apprête.</l>
+                        <l n="1237"> À ses troupes, Seigneur, faites porter sa tête ;</l>
+                        <l n="1238"> Alors tout fléchira. Rien ne peut résister.</l>
+                        <l n="1239"> Qu’attendez-vous ? Faut-il encore consulter ?</l>
+                </sp>
+        <sp who="#varus">
+            <speaker> VARUS. </speaker>
+                        <l n="1240"> Non, ne différons plus une vengeance juste.</l>
+                        <l n="1241"> Allons, exécutons les volontés d’Auguste.</l>
+                        <l n="1242"> Hâtons-nous d’immoler un Rival odieux ;</l>
+                        <l n="1243"> Et laissons l’avenir entre les mains des Dieux.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="1244"> Prononcez donc, Seigneur, l’arrêt de son supplice ;</l>
+                        <l n="1245"> De son sang à César offrez le sacrifice.</l>
+                        <l n="1246"> Commandez. Un seul mot. Mais sachons...</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#sinorix">
+            <speaker> SINORIX. </speaker>
+                        <l n="1247"> Ah ! Seigneur.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="1248"> Hé bien ! Arminius ?</l>
+                </sp>
+        <sp who="#sinorix">
+            <speaker> SINORIX. </speaker>
+                        <l n="1249"> Apprenez un malheur</l>
+                        <l n="1250"> Dont je frémis et qui va vous surprendre.</l>
+                        <l n="1251"> Sunnon vous a trahi.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="1252"> Dieux !</l>
+                </sp>
+        <sp who="#varus">
+            <speaker> VARUS. </speaker>
+                        <l n="1253"> Que viens-je d’entendre ?</l>
+                </sp>
+        <sp who="#sinorix">
+            <speaker> SINORIX. </speaker>
+                        <l n="1254"> On ne le trouve plus. Dans l’ombre de la nuit,</l>
+                        <l n="1255"> Avec Arminius, il s’est coulé sans bruit.</l>
+                        <l n="1256"> Tout ceux qu’il commandait interdits et timides,</l>
+                        <l n="1257"> Abusés par ses soins, ignorants...</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="1258"> Les perfides !</l>
+                        <l n="1259"> Tous m’ont manqué de foi, je vais les punis tous.</l>
+                        <l n="1260"> À peine tout leur sang suffit à mon courroux.</l>
+                        <l n="1261"> Mille morts...</l>
+                        <l n="1262">  </l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#sigismond">
+            <speaker> SIGISMOND. </speaker>
+                        <l n="1263"> Non, Seigneur, connaissez le coupable.</l>
+                        <l n="1264"> Ne portez point ailleurs ce courroux redoutable ;</l>
+                        <l n="1265"> Dans le sang innocent ne trempez point vos mains.</l>
+                        <l n="1266"> Perdez-moi ; j’ai tout fait. J’ai trompé vos desseins.</l>
+                        <l n="1267"> J’ai fait partir Sunnon, je l’ai pressé...</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="1268"> Toi traître !</l>
+                        <l n="1269"> Tu trahis les Romains et ton père et ton maître ?</l>
+                        <l n="1270"> Tu sers un ennemi par nos soins abattu ?</l>
+                        <l n="1271"> Qui te le fait servir contre nous...</l>
+                </sp>
+        <sp who="#sigismond">
+            <speaker> SIGISMOND. </speaker>
+                        <l n="1272"> Sa vertu.</l>
+                        <l n="1273"> Sa valeur, ses exploits qu’en tous lieux on renomme ;</l>
+                        <l n="1274"> L’amour de ma Patrie, et ma haine de Rome.</l>
+                        <l n="1275"> Le soin de votre honneur, mon amitié pour lui,</l>
+                        <l n="1276"> Tout m’a sollicité de lui servir d’appui.</l>
+                        <l n="1277"> Hé quoi ! pouvais-je voir ce Prince magnanime.</l>
+                        <l n="1278"> Des Romains, de Varus, devenir la victime ?</l>
+                        <l n="1279"> Et vos mains se fouiller se son sang précieux,</l>
+                        <l n="1280"> Consacré par les lois, par son sang, par les Dieux.</l>
+                        <l n="1281"> Pouvais-je voir, Seigneur, la triste Germanie</l>
+                        <l n="1282"> Perdre son défenseur contre la tyrannie ;</l>
+                        <l n="1283"> Et Polixène en proie à ses vives douleurs</l>
+                        <l n="1284"> Me demander son frère, et m’accabler de pleurs.</l>
+                        <l n="1285"> J’ai rempli mon devoir, Seigneur, faites le vôtre.</l>
+                        <l n="1286"> Je sauve une victime, et vous en livre une autre :</l>
+                        <l n="1287"> Si par ce que j’ai fait vous êtes outragé ;</l>
+                        <l n="1288"> Il ne tient plus qu’à vous d’être bientôt vengé.</l>
+                        <l n="1289"> Versez, versez du sang : mais changez de victime.</l>
+                        <l n="1290"> Répandez tout le mien sans scrupule, et sans crime.</l>
+                        <l n="1291"> Si j’avais craint la peine, et l’horreur du trépas,</l>
+                        <l n="1292"> Du Prince Arminius j’aurais suivi les pas.</l>
+                        <l n="1293"> Mais je n’ai pas voulu que vos coups redoutables</l>
+                        <l n="1294"> Tombassent sur des cœurs qui ne sont point coupables.</l>
+                        <l n="1295"> Au gré de votre haine ordonnez de mon sort.</l>
+                        <l n="1296"> Je ne m’en plaindrai pas ; trop heureux si ma mort</l>
+                        <l n="1297"> D’un reproche honteux sauvant votre mémoire,</l>
+                        <l n="1298"> Aux dépends de ma vie assure votre gloire.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="1299"> Oui ! lâche tu mourras puisque tu me trahis.</l>
+                </sp>
+        <sp who="#varus">
+            <speaker> VARUS. </speaker>
+                        <l n="1300"> Ingrat, quelle fureur agite vos esprits ?</l>
+                        <l n="1301"> Où puisez-vous l’excès de cette haine injuste ?</l>
+                        <l n="1302"> Vous, de tant de bienfaits honoré par Auguste ?</l>
+                        <l n="1303"> Comblé par le Sénat de grâces et d’honneur...</l>
+                </sp>
+        <sp who="#sigismond">
+            <speaker> SIGISMOND. </speaker>
+                        <l n="1304"> Ne me reprochez point vos indignes faveurs ;</l>
+                        <l n="1305"> Lorsqu’à m’en accabler votre Sénat s’applique ;</l>
+                        <l n="1306"> Dans ses fausses bontés je vois la politique ;</l>
+                        <l n="1307"> Et ces fiers ennemis devenus complaisants,</l>
+                        <l n="1308"> Me font plus que leurs coups redouter leurs présents.</l>
+                        <l n="1309"> Hé ! qu’ai-je à faire ? ô Dieux ! de la grandeur Romaine !</l>
+                        <l n="1310"> Que me sert-elle ? Hélas ! si je perds Polixène !</l>
+                        <l n="1311"> Oui, César, si par toi je m’en voyais priver ;</l>
+                        <l n="1312"> Quand sa perte à ton rang me devrait élever,</l>
+                        <l n="1313"> Dans mon cœur indigné de cette récompense,</l>
+                        <l n="1314"> La haine tiendrait lieu de reconnaissance.</l>
+                        <l n="1315"> Hé quoi ! tous tes présents, ta libéralité</l>
+                        <l n="1316"> Me pourraient-ils jamais payer ma liberté ?</l>
+                        <l n="1317"> J’aurais des fers dorés : mais je serais esclave.</l>
+                        <l n="1318"> Je ne puis rien souffrir qui me gêne, ou me brave,</l>
+                        <l n="1319"> Et ne connais pour maître en terre, et dans les Cieux,</l>
+                        <l n="1320"> Que la vertu, l’honneur, la justice, et les Dieux.</l>
+                </sp>
+        <sp who="#varus">
+            <speaker> VARUS. </speaker>
+                        <l n="1321"> Pourquoi veniez-vous donc âme ingrate et perfide,</l>
+                        <l n="1322"> Suivre depuis deux mois notre Aigle qui vous guide ?</l>
+                        <l n="1323"> Quel charme ! quel dessein vous conduit parmi nous !</l>
+                </sp>
+        <sp who="#sigismond">
+            <speaker> SIGISMOND. </speaker>
+                        <l n="1324"> Le glorieux désir de m’instruire avec vous ;</l>
+                        <l n="1325"> D’apprendre de plus près ce grand art de la guerre,</l>
+                        <l n="1326"> Qui vous a fait dompter presque toute la terre ;</l>
+                        <l n="1327"> D’en joindre la pratique à ce que nous savons,</l>
+                        <l n="1328"> Et de vous vaincre un jour par vos propres leçons.</l>
+                </sp>
+        <sp who="#varus">
+            <speaker> VARUS. </speaker>
+                        <l n="1329"> Juste Ciel ! puis-je encore retenir ma colère ?</l>
+                        <l n="1330"> Saurais-je assez punir ce discours téméraire ?</l>
+                        <l n="1331"> Rendez grâces au sang dont vous êtes sorti.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="1332"> Il n’est plus de mon sang s’il quitte mon parti.</l>
+                        <l n="1333"> Fait Citoyen Romain j’en ai pris les maximes.</l>
+                        <l n="1334"> Mon fils n’est plus mon fils, traître, couvert de crimes.</l>
+                        <l n="1335"> Brutus et Manlius m’ont tracé le chemin :</l>
+                        <l n="1336"> Je le suivrai, Seigneur, et de ma propre main,</l>
+                        <l n="1337"> Immolant sans pitié ce fils lâche et rebelle.</l>
+                        <l n="1338"> Je saurais me couvrir d’une gloire immortelle ;</l>
+                        <l n="1339"> Venger l’honneur de Rome à mes yeux profané,</l>
+                        <l n="1340"> Et mériter le nom que vous m’avez donné.</l>
+                </sp>
+        <sp who="#varus">
+            <speaker> VARUS. </speaker>
+                        <l n="1341"> Quoi ! Seigneur...</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="1342"> Punissons ma coupable Famille,</l>
+                        <l n="1343"> Dans ce fatal moment je hais jusqu’à ma fille ;</l>
+                        <l n="1344"> Sans doute elle est complice, et du moins de ses vœux,</l>
+                        <l n="1345"> Elle a favorisé son Amant malheureux.</l>
+                        <l n="1346"> Je veux que l’univers étonné du supplice...</l>
+                        <l n="1347">  </l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#polixène">
+            <speaker> POLIXÈNE. </speaker>
+                        <l n="1348"> Arrête, Père aveugle, et vois ton injustice :</l>
+                        <l n="1349"> Épargne tes enfants, et que ton fier courroux</l>
+                        <l n="1350"> Sur Polixène seule épuise tous les coups.</l>
+                        <l n="1351"> L’amour dans Sigismond a vaincu la nature ;</l>
+                        <l n="1352"> Et si tu veux punir l’auteur de ton injure.</l>
+                        <l n="1353"> C’est moi ; vois dans mes yeux le souverain pouvoir,</l>
+                        <l n="1354"> Par qui ton fils forcé s’oppose à ton espoir.</l>
+                        <l n="1355"> Ne délibère plus, me voilà toute prête,</l>
+                        <l n="1356"> Je m’offre à ta fureur. Mais qu’est ce qui t’arrête ?</l>
+                        <l n="1357"> À me donner la mort, faut-il t’encourager ?</l>
+                        <l n="1358"> N’oses-tu te baigner dans un sang étranger ?</l>
+                        <l n="1359"> Toi, qui voulais verser celui de ta famille ?</l>
+                        <l n="1360"> Ou peut-être crains-tu de punir une fille ?</l>
+                        <l n="1361"> Mais cesse d’épargner la sœur d’Arminius.</l>
+                        <l n="1362"> Ségeste, souviens-t’en. Toi penses-y, Varus.</l>
+                        <l n="1363"> J’ai mêmes sentiments, même cœur que mon frère.</l>
+                        <l n="1364"> Je ferai contre vous plus qu’il n’a voulu faire.</l>
+                        <l n="1365"> Si je ne puis verser du sang dans les combats ;</l>
+                        <l n="1366"> Je puis pas mes discours animer les soldats ;</l>
+                        <l n="1367"> Et suivant le transport de l’ardeur qui m’entraîne,</l>
+                        <l n="1368"> Contre Rome en tous lieux faire éclater ma haine ;</l>
+                        <l n="1369"> L’inspirer à cent Rois abusés ou soumis,</l>
+                        <l n="1370"> Et vous faire partout de nouveaux ennemis.</l>
+                </sp>
+        <sp who="#sigismond">
+            <speaker> SIGISMOND. </speaker>
+                        <l n="1371"> Hélas ! que faites-vous ? Et voulez-vous, Madame,</l>
+                        <l n="1372"> Ébranler mon courage, intimider mon âme ?</l>
+                        <l n="1373"> Je m’offrais à la mort sans trouble, sans douleur.</l>
+                        <l n="1374"> Ah ! venez-vous...</l>
+                </sp>
+        <sp who="#polixène">
+            <speaker> POLIXÈNE. </speaker>
+                        <l n="1375"> Je viens partager ton malheur,</l>
+                        <l n="1376"> Puisqu’un saint nœud n’a pu lier nos destinées ;</l>
+                        <l n="1377"> Que par la mort au moins elles soient enchaînées.</l>
+                        <l n="1378"> Que tu ne vives pas un instant après moi :</l>
+                        <l n="1379"> Que je ne pousse pas un soupir après toi.</l>
+                </sp>
+        <sp who="#varus">
+            <speaker> VARUS. </speaker>
+                        <l n="1380"> Quel discours ! quel dessein ! enfin, que puis-je faire ?</l>
+                        <l n="1381"> Faut-il...</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#tullus">
+            <speaker> TULLUS. </speaker>
+                        <l n="1382"> Votre présence au Camp est nécessaire.</l>
+                        <l n="1383"> On entend dans les airs mille cris confondus,</l>
+                        <l n="1384"> Qui poussent jusqu’ici le nom d’Arminius</l>
+                        <l n="1385"> Il vient fondre sur nous, et malgré la nuit sombre,</l>
+                        <l n="1386"> De ses Troupes, Seigneur, on découvre le nombre.</l>
+                        <l n="1387"> Nos Chefs et nos Soldats au combat préparés</l>
+                        <l n="1388"> N’attendent que l’emploi que vous leur donnerez.</l>
+                        <l n="1389"> Tous à l’envi...</l>
+                </sp>
+        <sp who="#varus">
+            <speaker> VARUS. </speaker>
+                        <l n="1390"> Marchons, venez punir l’audace</l>
+                        <l n="1391"> De ce jeune orgueilleux qui court à sa disgrâce.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="1392"> Je vous fuis. Sinorix gardez ce criminel,</l>
+                        <l n="1393"> Ce rebelle chargé du courroux paternel.</l>
+                        <l n="1394"> Me punissent les Dieux que ma fureur atteste,</l>
+                        <l n="1395"> Si je l’épargne après sa trahison funeste.</l>
+                        <l n="1396">  </l></div></div>
+           <div type="act" xml:id="5">
+           <head> ACTE V </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#sigismond">
+            <speaker> SIGISMOND. </speaker>
+                        <l n="1397"> Ne saurons-nous jamais quel sera notre sort ?</l>
+                        <l n="1398"> Cet état incertain est pire que la mort.</l>
+                        <l n="1399"> Hélas ! chacun de nous tremblant pour ce qu’il aime ;</l>
+                        <l n="1400"> À peine en ce moment se souvient de lui-même ;</l>
+                        <l n="1401"> De ce fatal combat que je crains le succès :</l>
+                        <l n="1402"> J’y vois de toutes parts de sinistres effets,</l>
+                        <l n="1403"> Où mon Père expirant, ou mon ami sans vie,</l>
+                        <l n="1404"> Et peut-être sa mort de la vôtre suivie.</l>
+                        <l n="1405"> Quel supplice ? grands Dieux ! où me vois-je réduit ?</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="1406"> Ô courroux ! ô rigueur du Ciel qui nous poursuit.</l>
+                        <l n="1407"> Que de soupirs perdus ! que d’inutiles plaintes ?</l>
+                        <l n="1408"> Toujours des soins nouveaux, et de nouvelles craintes !</l>
+                        <l n="1409"> Est-ce là le bonheur que j’avais attendu ?</l>
+                        <l n="1410"> Mais Barsine revient.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="1411"> Parle, n’as-tu rien vu ?</l>
+                        <l n="1412"> Ne nous déguise rien.</l>
+                </sp>
+        <sp who="#barsine">
+            <speaker> BARSINE. </speaker>
+                        <l n="1413"> Je ne puis vous apprendre,</l>
+                        <l n="1414"> Que ce qu’un bruit confus vient de me faire entendre.</l>
+                        <l n="1415"> J’étais près de ces lieux où j’ai de toutes parts,</l>
+                        <l n="1416"> Promené vainement mes curieux regards ;</l>
+                        <l n="1417"> Je n’ai pu rien connaître, et ma timide vue,</l>
+                        <l n="1418"> Dans mille objets affreux s’est d’abord confondue.</l>
+                        <l n="1419"> Les clameurs des soldats mourants, ou renversés,</l>
+                        <l n="1420"> Les cris des combattants, les plaintes des blessés,</l>
+                        <l n="1421"> Le carnage, le sang, l’horreur, le bruit des armes,</l>
+                        <l n="1422"> Ont étonné mon cœur, et fait coulé mes larmes.</l>
+                        <l n="1423"> Je n’ai pu soutenir ce spectacle sanglant :</l>
+                        <l n="1424"> J’ai frémi, j’ai couru vers ces lieux en tremblant.</l>
+                        <l n="1425"> Où des soldats Romains la joie et le langage,</l>
+                        <l n="1426"> M’ont appris que Varus avait tout l’avantage,</l>
+                        <l n="1427"> Et que l’injuste sort secondant ses desseins,</l>
+                        <l n="1428"> Se déclarait, Madame, en faveur des Romains.</l>
+                </sp>
+        <sp who="#polixène">
+            <speaker> POLIXÈNE. </speaker>
+                        <l n="1429"> Ne nous flattons donc plus, notre perte est certaine.</l>
+                        <l n="1430"> Votre Père et Varus vont assouvir leur haine.</l>
+                </sp>
+        <sp who="#sigismond">
+            <speaker> SIGISMOND. </speaker>
+                        <l n="1431"> Hélas ! Madame.</l>
+                </sp>
+        <sp who="#polixène">
+            <speaker> POLIXÈNE. </speaker>
+                        <l n="1432"> Hé quoi ! Prince vous soupirez.</l>
+                        <l n="1433"> Juste Ciel ! est-ce ainsi que vous me rassurez ?</l>
+                        <l n="1434"> Pensez-vous que frappé du péril qui nous presse,</l>
+                        <l n="1435"> Mon cœur en ce moment soit exempt de faiblesse ?</l>
+                        <l n="1436"> Je la cache à vos yeux pour ne pas redoubler</l>
+                        <l n="1437"> Des tourments assez grands vont vous faire trembler.</l>
+                        <l n="1438"> Je vous cache la mienne : ah ! cachez-moi la vôtre !</l>
+                        <l n="1439"> Rassurons-nous plutôt, aidons-nous l’un et l’autre.</l>
+                        <l n="1440"> Je sens qu’il est cruel d’être privé du jour,</l>
+                        <l n="1441"> Lorsqu’on fait son bonheur d’un mutuel amour.</l>
+                        <l n="1442"> Toutefois dans la mort que le Ciel nous envoie,</l>
+                        <l n="1443"> Nos cœurs doivent trouver quelque sujet de joie.</l>
+                        <l n="1444"> Nous mourrons satisfaits, vous de moi, moi de vous ;</l>
+                        <l n="1445"> Nous n’avons ni soupçons, ni mouvements jaloux.</l>
+                        <l n="1446"> Cher Prince, notre sort est plus doux qu’il ne semble :</l>
+                        <l n="1447"> Nous mourrons l’un pour l’autre, et nous mourrons ensemble.</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="1448"> Oui, dans votre malheur vous êtes trop heureux.</l>
+                        <l n="1449"> Un semblable destin attire tous mes vœux.</l>
+                        <l n="1450"> Mais moi de mon Amant absente, séparée,</l>
+                        <l n="1451"> Des maux que vous souffrez comme vous déchirée.</l>
+                        <l n="1452"> Je ne saurais hélas ! pour flatter mon ennui,</l>
+                        <l n="1453"> Le voir, ni lui parler, ni mourir avec lui.</l>
+                        <l n="1454"> Hé quoi ! que chez les morts je m’apprête à le suivre.</l>
+                        <l n="1455"> J’aurai le déplaisir d’avoir pu lui survivre.</l>
+                        <l n="1456"> Ô Dieux ! en cet instant peut-être que Varus</l>
+                        <l n="1457"> Perce d’un trait fatal le cœur d’Arminius.</l>
+                        <l n="1458"> Peut-être de soldats une troupe barbare,</l>
+                        <l n="1459"> Foule sa tête auguste, ou du corps la sépare ;</l>
+                        <l n="1460"> Et portant sur un dard ce trésor précieux,</l>
+                        <l n="1461"> En fait à tout le Camp un trophée odieux.</l>
+                        <l n="1462"> Juste Ciel ! quel objet ? mais j’aperçois mon Père ;</l>
+                        <l n="1463"> Et je vois dans ses yeux éclater sa colère.</l>
+                        <l n="1464"> C’en est fait, n’attendons qu’un trépas rigoureux.</l>
+                        <l n="1465">  </l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="1466"> Traîtres ! les Dieux cruels ont exaucé vos vœux.</l>
+                        <l n="1467"> Du sang de mes soldats, et des Troupes Romaines.</l>
+                        <l n="1468"> Le fier Arminius vient de couvrir vos plaines :</l>
+                        <l n="1469"> Mais de ce grand succès vous ne jouirez pas ;</l>
+                        <l n="1470"> Et loin que son triomphe ait pour lui des appas :</l>
+                        <l n="1471"> Lui-même il pleurera ; du moins j’ose le croire,</l>
+                        <l n="1472"> L’avantage fatal de sa triste victoire ;</l>
+                        <l n="1473"> Puisqu’il perd aujourd’hui pour nous avoir défaits,</l>
+                        <l n="1474"> Le plaisir et l’espoir de vous revoir jamais.</l>
+                        <l n="1475"> Varus encore suivi des restes de l’Armée,</l>
+                        <l n="1476"> Soutient d’Arminius la valeur enflammée.</l>
+                        <l n="1477"> Il l’arrête ; et je viens pour vous enlever tous,</l>
+                        <l n="1478"> Aux vœux d’un Ennemi qui ne cherche que vous.</l>
+                        <l n="1479"> Venez, venez à Rome, où Varus vous envoie.</l>
+                        <l n="1480"> Je vais vous y mener, et je sens quelque joie ;</l>
+                        <l n="1481"> À penser que le Chef de nos heureux Vainqueurs</l>
+                        <l n="1482"> Honorera bientôt ma fuite de ses pleurs.</l>
+                        <l n="1483"> Gardes qu’on les conduise. Allons, c’est trop attendre.</l>
+                        <l n="1484"> Marchons.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#tullus">
+            <speaker> TULLUS. </speaker>
+                        <l n="1485"> Il n’est plus temps, et songez à vous rendre.</l>
+                        <l n="1486"> Seigneur, tous mes Soldats sont dispersés ou morts.</l>
+                        <l n="1487"> Arminius me suit, tout cède à ses efforts,</l>
+                        <l n="1488"> Et Varus animé d’un généreux courage,</l>
+                        <l n="1489"> Vient de mêler son sang au reste du carnage.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="1490"> Il est mort !</l>
+                </sp>
+        <sp who="#tullus">
+            <speaker> TULLUS. </speaker>
+                        <l n="1491"> Oui, Seigneur, en Héros, en Romain,</l>
+                        <l n="1492"> En bravant l’injustice, et les coups du destin.</l>
+                        <l n="1493"> Après avoir trois fois par des faits incroyables,</l>
+                        <l n="1494"> Soutenu des Germains les assauts redoutables ;</l>
+                        <l n="1495"> De ruisseaux de leur sang inondé les sillons,</l>
+                        <l n="1496"> Et presque renversé leurs épais bataillons.</l>
+                        <l n="1497"> Il voit de toutes parts ses troupes fugitives,</l>
+                        <l n="1498"> Et ne peut rassembler les légions craintives</l>
+                        <l n="1499"> Alors demeuré seul, encore il se défend ;</l>
+                        <l n="1500"> Et fait sentir la crainte aux Vainqueurs qu’il attend.</l>
+                        <l n="1501"> Ils n’osent l’aborder, sa fierté les étonne.</l>
+                        <l n="1502"> Toutefois à grands flots leur troupe l’environne,</l>
+                        <l n="1503"> Et honteux de se voir par lui seul arrêtés,</l>
+                        <l n="1504"> Lui poussent à l’envi cent coups précipités.</l>
+                        <l n="1505"> Son sang coule aussitôt, il le voit, et rappelle,</l>
+                        <l n="1506"> De sa force épuisée une force nouvelle.</l>
+                        <l n="1507"> C’est assez, a-t-il dit : ah ! ne permettons pas</l>
+                        <l n="1508"> Que mes jours soient tranchés par d’indignes Soldats ;</l>
+                        <l n="1509"> Surtout, épargnons-nous la rage et l’infamie,</l>
+                        <l n="1510"> De devoir au Vainqueur le reste de ma vie.</l>
+                        <l n="1511"> Il se frappe à ces mots ; mortellement blessé,</l>
+                        <l n="1512"> Sur un monceau de corps il tombe renversé ;</l>
+                        <l n="1513"> Et ce coup à jamais consacrant sa mémoire,</l>
+                        <l n="1514"> Dans la défaite même il se couvre de gloire.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="1515"> Ah ! Varus, que je plains ! que j’admire ton sort !</l>
+                        <l n="1516"> Je brûle de te suivre, et d’imiter ta mort.</l>
+                        <l n="1517"> Je jure ainsi que toi de fuir l’ignominie,</l>
+                        <l n="1518"> De tenir du vainqueur une importune vie.</l>
+                        <l n="1519"> Mais avant qu’achever le dessein que je prends,</l>
+                        <l n="1520"> Faisons un sacrifice à tes mânes errants.</l>
+                        <l n="1521"> Que ces perfides cœurs que le destin me livre</l>
+                        <l n="1522"> Dans la nuit du tombeau soient forcés de te suivre.</l>
+                        <l n="1523"> Que sans égard enfin du sexe et du rang,</l>
+                        <l n="1524"> De tous trois à mes yeux on répande le sang ;</l>
+                        <l n="1525"> Que j’y mêle le mien, qu’Arminius ne trouve</l>
+                        <l n="1526"> Que les sanglants effets des fureurs que j’éprouve,</l>
+                        <l n="1527"> Qu’il ne rencontre ici pour fruit de ses Exploits,</l>
+                        <l n="1528"> Que son ami, sa sœur, sa maîtresse aux abois ;</l>
+                        <l n="1529"> Et pour venger les maux où son bonheur m’expose ;</l>
+                        <l n="1530"> Qu’il plaigne mon trépas par les horreurs qu’il cause.</l>
+                        <l n="1531"> Ah ! que mon bras du moins seconde ma fureur.</l>
+                        <l n="1532"> Que je meure !...</l>
+                </sp>
+        <sp who="#sigismond">
+            <speaker> SIGISMOND. </speaker>
+                        <l n="1533"> Ah ! Seigneur, quel dessein ? quelle envie ?</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="1534"> Arrêtez...</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="1535"> Quoi cruels vous ménagez ma vie ?</l>
+                        <l n="1536"> Vous m’osez demander ; et vous voulez enfin,</l>
+                        <l n="1537"> Qu’Arminius soit seul maître de mon destin ?</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="1538"> Hé bien, Arminius, par un revers funeste,</l>
+                        <l n="1539"> La fortune en tes mains met le sort de Ségeste.</l>
+                        <l n="1540"> Tu sais de quelle ardeur j’ai poursuivi tes jours.</l>
+                        <l n="1541"> Tu me vois maintenant sans espoir, sans secours.</l>
+                        <l n="1542"> Venge-toi sans scrupule, et prends une victime</l>
+                        <l n="1543"> Dont la perte est utile et la mort légitime.</l>
+                        <l n="1544"> Frappe, perce ce cœur qui n’attend que tes coups.</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="1545"> Cessez de m’animer, et d’aigrir mon courroux.</l>
+                        <l n="1546"> Vos derniers attentats, vos cruelles injures</l>
+                        <l n="1547"> Ont laissé dans mon cœur d’assez vives blessures,</l>
+                        <l n="1548"> Pour me porter sans peine à vous donner la mort,</l>
+                        <l n="1549"> Et je ne doute point, si la rigueur de sort</l>
+                        <l n="1550"> Vous eut par ma défaite abandonnée ma vie ;</l>
+                        <l n="1551"> Que déjà vos fureurs ne me l’eussent ravie.</l>
+                        <l n="1552"> Que n’avez-vous point fait aujourd’hui contre moi ?</l>
+                        <l n="1553"> Ce n’était pas assez de me manquer de foi.</l>
+                        <l n="1554"> Sans égard pour les droits que ma naissance donne,</l>
+                        <l n="1555"> Vous avez attenté jusque sur ma personne,</l>
+                        <l n="1556"> Et de vos fers honteux osant charger mes mains,</l>
+                        <l n="1557"> L’Univers étonné du bruit de mon offense,</l>
+                        <l n="1558"> Ne le sera pas moins d’apprendre ma vengeance.</l>
+                        <l n="1559"> D’un mot je ne puis vous perdre, et je suis offensé :</l>
+                        <l n="1560"> N’y pensons plus, Seigneur, oublions le passé :</l>
+                        <l n="1561"> C’est moi qui vous en prie. Enfin de ma victoire</l>
+                        <l n="1562"> Je ne veux d’autres prix, je ne veux d’autre gloire,</l>
+                        <l n="1563"> Que le charmant espoir d’être de vos amis,</l>
+                        <l n="1564"> Et le parfait bonheur de me voir votre fils.</l>
+                        <l n="1565"> Craignez moins de César la puissance funeste.</l>
+                        <l n="1566"> Combattons seulement, je vous réponds du reste.</l>
+                        <l n="1567"> En vain vous avez cru que fidèle aux Romains,</l>
+                        <l n="1568"> La Victoire partout seconde leurs desseins ;</l>
+                        <l n="1569"> Que contre leurs efforts rien ne nous peut défendre ;</l>
+                        <l n="1570"> Pour les vaincre il suffit de l’oser entreprendre.</l>
+                        <l n="1571"> Vous venez de les voir expirer sous mes coups,</l>
+                        <l n="1572"> Et ces Romains enfin, sont hommes comme nous.</l>
+                        <l n="1573"> Mais dussions-nous périr, Seigneur, pour la patrie.</l>
+                        <l n="1574"> Mourons libre du moins, s’il faut perdre la vie ;</l>
+                        <l n="1575"> Un malheur éclatant est toujours glorieux.</l>
+                        <l n="1576"> Soutenons notre gloire, et laissons faire aux Dieux.</l>
+                </sp>
+        <sp who="#ségeste">
+            <speaker> SÉGESTE. </speaker>
+                        <l n="1577"> Vaincu, désespéré, que pourrais-je répondre ?</l>
+                        <l n="1578"> Prince, tous vos discours ne font que me confondre ;</l>
+                        <l n="1579"> Je ne m’attendais pas à ces soins généreux,</l>
+                        <l n="1580"> Et si vous vous vengiez je serais plus heureux.</l>
+                        <l n="1581"> Jouissez à loisir des fruits de la victoire :</l>
+                        <l n="1582"> Mais ne me forcez pas d’en voir toute la gloire.</l>
+                        <l n="1583"> Quand vous me découvrez vos nobles sentiments,</l>
+                        <l n="1584"> Ma honte et ma douleur croissent à tous moments.</l>
+                        <l n="1585"> Épargnez ma faiblesse, et loin de votre vue,</l>
+                        <l n="1586"> Laissez-moi dévorer le chagrin qui me tue.</l>
+                </sp>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="1587"> Suivre-le, Sinorix, et veillez sur ses jours.</l>
+                        <l n="1588"> Madame...</l>
+                </sp>
+        <sp who="#isménie">
+            <speaker> ISMÉNIE. </speaker>
+                        <l n="1589"> Non, Seigneur, je vole à son secours.</l>
+                        <l n="1590"> Permettez...</l>
+                        <l n="1591">  </l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#arminius">
+            <speaker> ARMINIUS. </speaker>
+                        <l n="1592"> Je vous suis, venez, allons Madame,</l>
+                        <l n="1593"> Remettre par nos soins le came dans son âme</l>
+                        <l n="1594"> Malgré son désespoir, malgré tout son courroux,</l>
+                        <l n="1595"> Le temps, et vos respects le fléchiront pour nous.</l>
+                        <l n="1596"> Je m’étais engagé de venger mon outrage,</l>
+                        <l n="1597"> De m’ouvrir jusqu’à vous un glorieux passage.</l>
+                        <l n="1598"> Varus est mort, enfin les Romains sont défaits.</l>
+                        <l n="1599"> Grâces aux Dieux, l’effet répond à mes souhaits.</l>
+                        <l n="1600"> De mes libérateurs reconnaissons le zèle,</l>
+                        <l n="1601"> Et consacrons à Rome une haine immortelle.</l>
+                        <l n="1602"> </l>
+                        <l n="1603"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

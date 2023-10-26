@@ -1,0 +1,986 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Le Mariage d’Antonio</title>
+            <author>
+                <persName>
+                    <linkname>de</linkname>
+                    <surname>Beaunoir</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/le-mariage-d’antonio-de-beaunoir </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1786-07-29">Représenté pur la première fois, à Paris,  sur le Théâtre Italien, le 29 juillet 1786.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="mathurin" sex="SEX">
+                            <persName>MATHURIN</persName>
+                        </person>
+                        <person xml:id="mathurine" sex="SEX">
+                            <persName>MATHURINE</persName>
+                        </person>
+                        <person xml:id="nicolas" sex="SEX">
+                            <persName>NICOLAS</persName>
+                        </person>
+                        <person xml:id="la-mère-nicolas" sex="SEX">
+                            <persName>LA MÈRE NICOLAS</persName>
+                        </person>
+                        <person xml:id="thérèse" sex="SEX">
+                            <persName>THÉRÈSE</persName>
+                        </person>
+                        <person xml:id="colette" sex="SEX">
+                            <persName>COLETTE</persName>
+                        </person>
+                        <person xml:id="antoine" sex="SEX">
+                            <persName>ANTOINE</persName>
+                        </person>
+                        <person xml:id="antonio" sex="SEX">
+                            <persName>ANTONIO</persName>
+                        </person>
+                        <person xml:id="le-tabellion" sex="SEX">
+                            <persName>LE TABELLION</persName>
+                        </person>
+                        <person xml:id="un-page-de-la-comtesse-de-flandre" sex="SEX">
+                            <persName>UN PAGE de la Comtesse de Flandre</persName>
+                        </person>
+                        <person xml:id="paysans" sex="SEX">
+                            <persName>PAYSANS</persName>
+                        </person>
+                        <person xml:id="paysannes" sex="SEX">
+                            <persName>PAYSANNES</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> [indéfini]</term>
+                    <term> [indéfini] </term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">LE MARIAGE D’ANTONIO</titlePart>
+            <titlePart type="sub">[INDÉFINI]</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représenté pur la première fois, à Paris,  sur le Théâtre Italien, le 29 juillet 1786.</ab><!--@date="1786-07-29"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> À MONSIEUR LE MARQUIS DE BOULAINVILLIERS</salute>
+            </opener>
+        <p> CONSEILLER DU ROI EN TOUS SES CONSEILS, PRÉVOT DE PARIS, Grand-Croix Honoraire de l’Ordre Royal et Militaire de Saint-Louis </p>
+        <p> MONSIEUR, </p>
+        <p> Je ne vous offre qu’un petit Bouquet de fleurs des champs ; mais ce Bouquet est d’un grand prix pour moi, s’il vous est une preuve de la reconnaissance que je vous dois pour les bontés dont vous honorez mon mari, et du profond respect avec lequel j’ai l’honneur d’être, </p>
+        <p> MONSIEUR, </p>
+        <p> Votre très humble et très obéissante servante </p>
+        <p> C. C. DE BEAUNOIR. </p>
+    </div>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#colette">
+            <speaker> COLETTE, attachant sur la tête de Thérèse le Chapeau de Mariée. </speaker>
+            <stage><em>Ariette.</em></stage>
+                        <l n="1"> Que ce chapeau, dont je pare ta tête,</l>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="2"> C’en l’amitié qui me la pose, c’est l’amour qui me la donne,</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="3"> Hélas !</l>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="4"> Tu soupires, Colette.</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="5"> Tout ce qui m’entoure est heureux.</l>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="6"> Ne l’es-tu pas aussi ?</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="7"> Crois-tu donc que je puisse voir sans trouble le renouvellement du mariage du vieux Mathurin et de la bonne Mathurine.</l>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="8"> Parle plus vrai, c’est moins le renouvellement du mariage du vieux Mathurin, que le mien avec Antoine qui te fait soupirer.</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="9"> Je crois que oui ; encore si mon petit Antonio était ici, il me ferait danser à ta noce, nous causerions ensemble, sans que ma mère vînt nous séparer et nous gronder. Mais s’en aller la veille de la noce de son grand-père, de son frère ! et pourquoi ? pour conduire, il est vrai, un malheureux Aveugle, mais il m’avait tant promis de revenir aujourd’hui.</l>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="10"> Il est encore de bien bonne heure.</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="11"> C’est égal, il devrait déjà être ici.</l>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="12"> Colette...</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="13"> Thérèse...</l>
+            <stage><em>Duo dialogué. </em></stage>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="14"> Auprès d’Antonio, qu’éprouve donc ton cœur ?</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="15"> Un trouble, un embarras extrême.</l>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="16"> Quand tu le vois, qu’éprouves-tu, ma Sœur ?</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="17"> Un plaisir qu’il ressent de même.</l>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="18"> Quand il te quitte ?</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="19"> Une vive douleur.</l>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="20"> Quand il revient ?</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="21"> Le comble du bonheur.</l>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="22"> Comment vois-tu son absence ?</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="23"> Avec impatience.</l>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="24"> Comment vois-tu son retour ?</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="25"> Comme un beau jour.</l>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="26"> Ah ! Colette !</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="27"> Quoi, ma Sœur, c’est là de l’amour ?</l>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="28"> Oui, ma Sœur, c’est là de l’amour.</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="29"> Hé bien ! tant mieux, si j’ai de l’amour pour Antonio je gagerais qu’Antonio en a pour moi ; je m’en informerai, et si nous nous aimons, il faudra bien qu’on nous marie.</l>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="30"> Vous êtes encore bien jeunes tous deux, passe encore si tu avais mon âge...</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="31"> Effectivement, je serais beaucoup plus âgée avec un an de plus.</l>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="32"> Ne te fâche pas, ma pauvre Colette, je donnerais tout, tout, tout, excepté mon cher Antoine, pour que nos deux noces se fissent le même jour ; mais on m’attend chez Mathurine, c’est le lieu du rendez-vous, et j’y vole ; de la joie, ma petite-sœur, de la joie ; tu aimes Antonio, et je gagerais qu’il t’adore.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#colette">
+            <speaker> COLETTE, seule </speaker>
+            <stage><em>Ariette de bravoure. </em></stage>
+                        <l n="33"> Ah ! quel plaisir, ah ! quel bonheur,</l>
+                        <l n="34"> Mais je ne me trompe pas, c’est lui, oui, c’est lui...</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="35"> Eh ! bonjour, bonjour, ma petite Colette.</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="36"> Bonjour.</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="37"> Tu me dis cela bien froidement.</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="38"> C’est que je te boude.</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="39"> Pourquoi ?</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="40"> Parce que tu es un méchant.</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="41"> Moi ?</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="42"> Toi, tu me quittes pour aller conduire un malheureux Aveugle.</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="43"> Il disait qu’il avait besoin de moi pour un seul jour, pouvais-je le refuser ? et puis si tu savais, Colette, ce pauvre Aveugle, n’était ni pauvre ni aveugle.</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="44"> Que veux-tu dire ?</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="45"> C’est que cette histoire est belle, mais bien belle : d’abord cet Aveugle était un noble Troubadour, qui cherchait partout son Roi, et puis son Roi était enfermé, sans que personne en sût rien, dans la grande Tour qui est-là haut ; et pour le découvrir sans donner de soupçons à personne, ce Troubadour contrefaisait l’aveugle, et s’en allait raclant de son violon, pour faire chanter les valets et danser les jeunes filles. C’est un brave homme en vérité, bien gai, bien jovial, et qui chante... ha ! dame.</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="46"> Hé bien ! a-t-il découvert son Roi ?</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="47"> Il a fait plus, il l’a délivré avec l’aide d’une grande et belle Dame qui s’est trouvée là bien heureusement ; ils ont joué un drôle de tour au Gouverneur du Château, et puis ils ont forcé le Château, et puis... je te conterai tout cela. Ils sont dans l’ivresse du plaisir, dans la joie... mais comme je n’en vois pas où je ne vois pas ma Colette, je les ai tous laissés-là, sans leur dire adieu, et me voilà... Es-tu encore fâchée ?</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="48"> Est-ce que ça peut durer si longtemps, ça fait trop de mal ?</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO, l’embrasant. </speaker>
+                        <l n="49"> Ma petite Colette !</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="50"> Prends bien garde à ma mère.</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="51"> Et mon frère, et ta sœur ?</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="52"> Ils sont tous gais comme Pinçons.</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="53"> C’est qu’ils sont bien heureux, Colette, c’est qu’ils sont amoureux.</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="54"> Certainement : écoute-moi, Antonio, sais-tu ce que c’est que l’amour, toi ?</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="55"> Non.</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="56"> Tu n’es donc pas amoureux ?</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="57"> À moins que ce ne soit de toi.</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="58"> Je vais bien vite le savoir.</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="59"> Comment cela ?</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="60"> Réponds-moi seulement.</l>
+            <stage><em>Duo dialogué. </em></stage>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="61"> Près de moi, mon ami, dis, que ressent ton cœur ?</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="62"> Un trouble, un embarras extrême.</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="63"> Quand tu me vois, qu’éprouve encor ton cœur ?</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="64"> Un plaisir, un bonheur suprême.</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="65"> Quand je te quitte ?</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="66"> Une vive douleur.</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="67"> Quand je reviens ?</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="68"> Le comble du bonheur.</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="69"> Comment vois-tu mon absence ?</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="70"> Avec impatience.</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="71"> Comment vois-tu mon retour ?</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="72"> Comme un beau jour.</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="73"> Pour Colette</l>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="74"> Tout cela c’est donc de l’amour ?</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="75"> Oui, pour moi tu sens de l’amour.</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="76"> Que je suis content !</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="77"> Ah ! ciel, voici ma mère.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="78"> Comment... c’est Antonio ! déjà de retour ?</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="79"> Pour vous servir.</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="80"> Tu as bien vite quitté ce pauvre Aveugle.</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="81"> C’est qu’il n’avait plus besoin de moi, et que moi j’avais besoin d’être à la noce de mon frère.</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="82"> On n’eût peut-être pas osé la faire sans toi.</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="83"> Et qui est-ce qui aurait fait danser Colette ?</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="84"> Est-ce qu’il n’y a que roi de garçon dans le Village ?</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="85"> Est-ce que je ne suis pas le premier garçon de la noce ? Colette en est la première fille, c’est à moi à lui donner la main.</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="86"> Ah ! ah !</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="87"> Et puis vous ne savez pas une chose ?</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="88"> Qu’est-ce que c’est ?</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="89"> C’est que je suis amoureux de Colette.</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="90"> Vraiment ?</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="91"> C’est sûr... ainsi vous voyez bien qu’il faut que je l’épouse.</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="92"> Je ne vois pas du tout cela, moi.</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="93"> Ne se marie-t-on pas quand on s’aime ?</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="94"> Cela ne suffit pas.</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="95"> N’est-ce pas à cause que mon frère est l’amoureux de Thérèse que vous les mariez en semble ?</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="96"> C’est parce que Mathurin leur cède sa Ferme des Coteaux.</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="97"> Mais s’ils ne s’aimaient pas, est-ce qu’ils pourraient se marier ?</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="98"> Mais est-ce que Colette t’aime ?</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="99"> De tout mon cœur, ma mère.</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="100"> Ah ! ah ! voilà qui est fort bon à savoir : hé bien, moi, je vous défends de vous parler, de danser ensemble, de vous donner à même le bras.</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="101"> Mais ma mère...</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="102"> Paix.</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="103"> Quoi...</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="104"> Tais-toi : n’avez-vous pas de honte d’être amoureux à votre âge, sans ma permission ? et se le dire encore, se le dire...</l>
+            <stage><em>Romance. </em></stage>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="105"> Je ne croyais pas vous déplaire ;</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="106"> Il est si doux, lorsque l’on s’aime,</l>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="107"> À la fête</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE, ANTONIO. </speaker>
+                        <l n="108"> À la fête</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#nicolas">
+            <speaker> NICOLAS, LA MÈRE NICOLAS, COLETTE, ANTONIO </speaker>
+            <stage><em>Quatuor dialogué. </em></stage>
+            <stage><em>Nicolas et la mère Nicolas, sur la gauche du théâtre, chantent à toute voix, tandis que Colette et Antonio sur la droite et se tournant le dos, chantent leur partie en sourdine. </em></stage>
+                </sp>
+        <sp who="#nicolas">
+            <speaker> NICOLAS. </speaker>
+                        <l n="109"> D’où vient ce bruit ? cette rumeur ?</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="110"> Ma colère est extrême.</l>
+                </sp>
+        <sp who="#nicolas">
+            <speaker> NICOLAS. </speaker>
+                        <l n="111"> Là, là, qui cause ta fureur ?</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="112"> Cette morveuse l’aime.</l>
+                </sp>
+        <sp who="#nicolas">
+            <speaker> NICOLAS. </speaker>
+                        <l n="113"> Elle partage son ardeur.</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="114"> Elle l’aime de même.</l>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#nicolas">
+            <speaker> NICOLAS. </speaker>
+                        <l n="115"> Tant mieux</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="116"> Tant pis,</l>
+                </sp>
+        <sp who="#nicolas">
+            <speaker> NICOLAS. </speaker>
+                        <l n="117"> Sois pour eux plus indulgente.</l>
+                </sp>
+        <sp who="#la-mère-nicola.s">
+            <speaker> LA MÈRE NICOLA.S. </speaker>
+                        <l n="118"> Ah ! que tu m’impatiente !</l>
+                </sp>
+        <sp who="#nicolas">
+            <speaker> NICOLAS. </speaker>
+                        <l n="119"> Plutôt aujourd’hui que demain.</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="120"> Ton cœur ?</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="121"> Palpite.</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="122"> La peur ?</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="123"> L’agite.</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO, COLETTE. </speaker>
+                        <l n="124"> Parlons tout bas,</l>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#nicolas">
+            <speaker> NICOLAS. </speaker>
+                        <l n="125"> Ta Colette</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="126"> Ma Colette</l>
+                </sp>
+        <sp who="#nicolas">
+            <speaker> NICOLAS. </speaker>
+                        <l n="127"> Rassure-toi, mon pauvre Antonio, rassure-toi ; notre femme est un peu bavarde, un peu criarde ; mais dans le fond c’est une bonne diablesse, et tu verras qu’avant deux ou trois ans elle entendra raison.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#mathurin">
+            <speaker> MATHURIN, MATHURINE, NICOLAS, LA MÈRE NICOLAS, ANTOINE, THÉRÈSE, COLETTE, ANTONIO, LE TABELLION </speaker>
+            <stage><em>Les Paysans amènent en chantant et en dansant, Mathurin, Mathurine, Antoine et Colette. </em></stage>
+                </sp>
+        <sp who="#paysans">
+            <speaker> CHŒUR DES PAYSANS. </speaker>
+                        <l n="128"> Chantons ces jeunes amants,</l>
+                </sp>
+        <sp who="#le-tabellion">
+            <speaker> LE TABELLION. </speaker>
+                        <l n="129"> Chaque âge</l>
+                </sp>
+        <sp who="#mathurin">
+            <speaker> MATHURIN. </speaker>
+                        <l n="130"> L’amour est pour la jeunesse,</l>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="131"> L’amitié... pour la vieillesse.</l>
+                </sp>
+        <sp who="#le-tabellion">
+            <speaker> LE TABELLION. </speaker>
+                        <l n="132"> Le plaisir mène au bonheur.</l>
+                </sp>
+        <sp who="#mathurine">
+            <speaker> MATHURINE. </speaker>
+                        <l n="133"> Le Printemps brille ayant l’Automne.</l>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="134"> Flore pâlit devant Pomone.</l>
+                </sp>
+        <sp who="#le-tabellion">
+            <speaker> LE TABELLION. </speaker>
+                        <l n="135"> Et le fruit remplace la fleur.</l>
+                </sp>
+        <sp who="#choeur">
+            <speaker> CHOEUR. </speaker>
+                        <l n="136"> Chantons ces jeunes amants,</l>
+                </sp>
+        <sp who="#le-tabellion">
+            <speaker> LE TABELLION. </speaker>
+                        <l n="137"> Venez, mes enfants, venez sur ce Contrat consacrer votre bonheur, et vous tous vous le signerez... mais par ordre, par ordre... D’abord les parents du côté du futur, ensuite ceux du côté de la future, et chacun selon son degré plus ou moins proche de parenté... À vous d’abord, Mathurin, comme grand père du futur, et vu que son père et sa mère sont morts, on se passera de leur signature... À vous, Mathurine... bien !</l>
+            <stage><em>Quatuor dialogué.</em></stage>
+            <stage><em>Aussitôt qu’Antoine et Thérèse ont signé le Contrat, ils reviennent occuper le milieu du Théâtre, Antonio et Colette, qui se sont imperceptiblement rapprochés, parodient sur un des côtés du Théâtre, leurs caresses et leurs chants. Le Tabellion occupant l’autre côté, fait à la Mère Nicolas la lecture du Contrat, dont elle paraît discuter quelques articles avec Mathurin et Mathurine. Nicolas, qui rit des innocentes caresses de Colette et d’Antonio, les dérobe tant qu’il peut à la vue de la Mère Nicolas. </em></stage>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE, THÉRÈSE. </speaker>
+                        <l n="138"> Nous voilà donc époux,</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO, COLETTE. </speaker>
+                        <l n="139"> Ah ! que ce titre est doux !</l>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="140"> T’aimer et te plaire,</l>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="141"> Si je te suis toujours chère,</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="142"> Comme mon frère</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="143"> Comme ma sœur</l>
+                </sp>
+        <sp who="#tous-quatre">
+            <speaker> TOUS QUATRE. </speaker>
+                        <l n="144"> De notre ardeur, de nos amours</l>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="145"> Cette main que je presse,</l>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="146"> Cette main que je baise,</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="147"> Donne ta main que je la baise.</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="148"> Bien doucement.</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="149"> Bien tendrement.</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="150"> Donne ta main que je la presse.</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="151"> Bien tendrement.</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="152"> Bien doucement.</l>
+                </sp>
+        <sp who="#paysans">
+            <speaker> CHŒUR DES PAYSANS, en sourdine. </speaker>
+                        <l n="153"> Prenez bien garde,</l>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="154"> Que ce doux baiser soit le gage ;</l>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="155"> Que ce doux baiser soit l’image :</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO, tout ému. </speaker>
+                        <l n="156"> Il prend un baiser, Colette,</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE, troublée. </speaker>
+                        <l n="157"> Oh ! oui...</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="158"> Le prendrai-je aussi, Colette ?</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="159"> Prends-le donc bien en cachette.</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="160"> Il est pris.</l>
+                </sp>
+        <sp who="#paysans">
+            <speaker> CHŒUR DES PAYSANS. </speaker>
+                        <l n="161"> Prenez bien garde,</l>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE, THÉRÈSE </speaker>
+                        <l n="162"> Du bonheur goûtons l’ivresse,</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO, COLETTE. </speaker>
+                        <l n="163"> Du bonheur goûtons l’ivresse,</l>
+                        <l n="164"> Faisons comme eux,</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS, surprenant Antonio et Colette, et les séparant. </speaker>
+                        <l n="165"> Je vous y prends, donc encore : voulez-vous bien passer par ici, petite sournoise...</l>
+                </sp>
+        <sp who="#ματηurιν">
+            <speaker> ΜΑΤΗURΙΝ. </speaker>
+                        <l n="166"> Pourquoi donc séparer ces pauvres enfants ?</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="167"> Ils s’aiment.</l>
+                </sp>
+        <sp who="#ματηurιν">
+            <speaker> ΜΑΤΗURΙΝ. </speaker>
+                        <l n="168"> Tant mieux.</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="169"> Ils veulent se marier.</l>
+                </sp>
+        <sp who="#ματηurιν">
+            <speaker> ΜΑΤΗURΙΝ. </speaker>
+                        <l n="170"> Ils ont raison.</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="171"> Ce sont deux enfants.</l>
+                </sp>
+        <sp who="#ματηurιν">
+            <speaker> ΜΑΤΗURΙΝ. </speaker>
+                        <l n="172"> Ils grandiront.</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="173"> Ils n’ont rien.</l>
+                </sp>
+        <sp who="#ματηurιν">
+            <speaker> ΜΑΤΗURΙΝ. </speaker>
+                        <l n="174"> Ils en gagneront.</l>
+                </sp>
+        <sp who="#nicolas">
+            <speaker> NICOLAS. </speaker>
+                        <l n="175"> Vois donc, femme, qu’en les mariant tout de suite, nous épargnerons les frais d’une noce.</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="176"> Oui, nous épargnerons un repas, pour les nourrir ensuite toute l’année.</l>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="177"> Je les mettrai de moitié dans ma ferme.</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="178"> Colette n’a pas encore filé la première pièce de toile de son trousseau.</l>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="179"> Je lui donnerai la moitié du mien, ma mère.</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="180"> Non, non, non... je ne veux pas les marier, et si l’on m’obstine, ils ne le seront pas avant trois ans.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#le-page">
+            <speaker> LE PAGE. </speaker>
+                        <l n="181"> Bonnes gens, pourriez-vous me donner des nouvelles d’un jeune garçon de ce Village, nommé Antonio, qui souffrit hier pour conduire un pauvre Aveugle ?</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="182"> Le voilà, Monsieur, le voilà : vous pouvez le remmener si vous voulez.</l>
+                </sp>
+        <sp who="#le-page">
+            <speaker> LE PAGE. </speaker>
+                        <l n="183"> Antonio, je viens vous faire des reproches de la part du Chevalier Blondel, il voulait vous présenter au Roi, ainsi qu’à la Comtesse, et vous l’avez quitté sans même lui dire adieu.</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="184"> Je l’avais prévenu que le quitterais aujourd’hui : Quand les grands Seigneurs n’ont plus besoin de nous autres, à quoi pouvons-nous leur être bons ?</l>
+                </sp>
+        <sp who="#le-page">
+            <speaker> LE PAGE. </speaker>
+                        <l n="185"> À recevoir le prix de vos services, et les témoignages de leur reconnaissance. Blondel n’a pas oublié les marques que vous lui avez donné de votre attachement ; il en a même instruit le Roi et la Comtesse, et tous deux ont voulu se joindre à lui pour vous en récompenser ; ils vous envoient chacun une bourse de vingt-cinq pièces d’or, les voilà, prenez les, et comptez à jamais sur leurs bontés et leur protection.</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#chœur-général">
+            <speaker> CHŒUR GÉNÉRAL. </speaker>
+                        <l n="186"> Que d’or !</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO donne une de ses bourses à Mathurin ; une autre de son frère, et la troisième à Colette. </speaker>
+                        <l n="187"> Mon père, voilà la dette de la nature et de la reconnaissance. Mon frère, voilà celle de l’amitié... Ô ma Colette, daigne accepter le dernier don de l’amour.</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="188"> Pourquoi donc donner ainsi tout son or ?</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="189"> Qu’ai je besoin de tout cet or ?</l>
+                </sp>
+        <sp who="#nicolas">
+            <speaker> NICOLAS. </speaker>
+                        <l n="190"> Consens à leur mariage.</l>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="191"> Laissez-vous fléchir.</l>
+                </sp>
+        <sp who="#mathurin">
+            <speaker> MATHURIN. </speaker>
+                        <l n="192"> Auriez-vous donc le courage</l>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="193"> Voyez, voyez-, comme il l’aime ?</l>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="194"> Colette l’aime de même.</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="195"> Ce sont deux enfants.</l>
+                </sp>
+        <sp who="#chœur-général">
+            <speaker> CHŒUR GÉNÉRAL. </speaker>
+                        <l n="196"> Ils s’aimeront plus longtemps.</l>
+                </sp>
+        <sp who="#mathurin">
+            <speaker> MATHURIN, ANTOINE présentant à la Mère Nicolas les deux bourses que leur a donné Antonio. </speaker>
+                        <l n="197"> Pour leur ménage,</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="198"> Un peu plus d’âge,</l>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+                        <l n="199"> Ils s’aimeront plus longtemps.</l>
+                </sp>
+        <sp who="#nicolas">
+            <speaker> NICOLAS. </speaker>
+                        <l n="200"> Écoute donc, femme, tu es la maîtresse, c’est juste ça : mais je suis le Maître aussi moi. Ces deux enfants s’aiment, c’est naturel ; ils veulent se marier, ils ont raison ; tout le monde le désire, moi je le veux, et je les unis.</l>
+            <stage><em>Antonio et Colette saisissent chacun une des mains de la Mère Nicolas, qu’ils arrosent de larmes et couvrent de baisers. </em></stage>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO. </speaker>
+                        <l n="201"> C’est de vous, de vous feule que je veux tenir ma Colette.</l>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="202"> Si vous me refusez votre consentement, j’en mourrai, mais je n’obéirai qu’à ma mère.</l>
+                </sp>
+        <sp who="#la-mère-nicolas">
+            <speaker> LA MÈRE NICOLAS. </speaker>
+                        <l n="203"> Ils m’attendrissent... Allons, puisque ton père, puisque tout le monde le veut, mariez-vous, mes enfants, mariez-vous, aimez-vous toujours, et soyez long temps heureux.</l>
+            <stage><em>Vaudeville.</em></stage>
+                </sp>
+        <sp who="#colette">
+            <speaker> COLETTE. </speaker>
+                        <l n="204"> Dès les premiers jours du printemps,</l>
+                </sp>
+        <sp who="#mathurin">
+            <speaker> MATHURIN. </speaker>
+                        <l n="205"> Je compte quatre-vingt printemps,</l>
+                </sp>
+        <sp who="#mathurine">
+            <speaker> MATHURINE. </speaker>
+                        <l n="206"> Ta Mathurine en compte autant,</l>
+                </sp>
+        <sp who="#thérèse">
+            <speaker> THÉRÈSE. </speaker>
+                        <l n="207"> La jeune Iris dit que l’amour</l>
+                </sp>
+        <sp who="#antonio">
+            <speaker> ANTONIO, au Public. </speaker>
+                        <l n="208"> Le temps seul mûrit les talents,</l>
+                </sp>
+        <sp who="#chœur-général">
+            <speaker> CHŒUR GÉNÉRAL. </speaker>
+                        <l n="209"> Il est des fleurs de toutes les raisons,</l>
+                        <l n="210"> </l></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

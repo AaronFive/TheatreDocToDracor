@@ -1,0 +1,2418 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Sémiramis</title>
+                <title type="sub">Tragédie</title>
+            <author>
+                <persName>
+                    <forename>Prosper</forename>
+                    <forename>Jolyot</forename>
+                    <linkname>de</linkname>
+                    <surname>Crébillon</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/?q=node/198 </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1717-04-10">Représentée pour la première fois, à Paris, sur le Théâtre de la rue des Fossés Saint-Germain, le 10 avril 1717.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="sémiramis" sex="SEX">
+                            <persName>SÉMIRAMIS</persName>
+                        </person>
+                        <person xml:id="ninias" sex="SEX">
+                            <persName>NINIAS</persName>
+                        </person>
+                        <person xml:id="bélus" sex="SEX">
+                            <persName>BÉLUS</persName>
+                        </person>
+                        <person xml:id="ténésis" sex="SEX">
+                            <persName>TÉNÉSIS</persName>
+                        </person>
+                        <person xml:id="mermécide" sex="SEX">
+                            <persName>MERMÉCIDE</persName>
+                        </person>
+                        <person xml:id="madate" sex="SEX">
+                            <persName>MADATE</persName>
+                        </person>
+                        <person xml:id="mirame" sex="SEX">
+                            <persName>MIRAME</persName>
+                        </person>
+                        <person xml:id="arbas" sex="SEX">
+                            <persName>ARBAS</persName>
+                        </person>
+                        <person xml:id="phénice" sex="SEX">
+                            <persName>PHÉNICE</persName>
+                        </person>
+                        <person xml:id="gardes" sex="SEX">
+                            <persName>GARDES</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Tragédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q80930]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">SÉMIRAMIS</titlePart>
+            <titlePart type="sub">TRAGÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre de la rue des Fossés Saint-Germain, le 10 avril 1717.</ab><!--@date="1717-04-10"-->
+        </performance>
+           <div type="act" xml:id="1">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#bélus">
+            <speaker> BÉLUS </speaker>
+                        <l n="1"> Hé quoi ! toujours du sort la barbare constance</l>
+                        <l n="2"> De mes justes desseins trahira la prudence,</l>
+                        <l n="3"> Tandis que, de ma sœur appuyant les forfaits,</l>
+                        <l n="4"> Il semble chaque jour prévenir ses souhaits !</l>
+                        <l n="5"> Ô justice du ciel, que j’ai peine à comprendre !</l>
+                        <l n="6"> Quel crime faut-il donc pour te faire descendre ?</l>
+                        <l n="7"> Quels forfaits aux mortels ne seront pas permis,</l>
+                        <l n="8"> Si tu vois sans courroux ceux de Sémiramis ?</l>
+                        <l n="9"> Mère dénaturée, épouse parricide,</l>
+                        <l n="10"> Moins reine que tyran dans un sexe timide,</l>
+                        <l n="11"> Idole d’une cour sans honneur et sans foi ;</l>
+                        <l n="12"> Voilà ce que le ciel protège contre moi !</l>
+                        <l n="13"> En vain à son devoir Bélus toujours fidèle</l>
+                        <l n="14"> Implore le secours d’une main immortelle ;</l>
+                        <l n="15"> Loin de me seconder dans mon juste transport,</l>
+                        <l n="16"> Avec Sémiramis tout semble ici d’accord :</l>
+                        <l n="17"> Elle triomphe ; et moi je suis seul sans défense.</l>
+                        <l n="18"> Eh ! depuis quand les dieux sont-ils donc sans vengeance ?</l>
+                        <l n="19"> Mais que dis-je ? Et les dieux ne me laissent-ils pas,</l>
+                        <l n="20"> Pour tout oser, un cœur, et, pour frapper, un bras ?</l>
+                        <l n="21"> Le crime est avéré : pour lui livrer la guerre,</l>
+                        <l n="22"> Ma vertu me suffit au défaut du tonnerre.</l>
+                        <l n="23"> Puisque les noms de fils, et de mère, et d’époux,</l>
+                        <l n="24"> Sont désormais des noms peu sacrés parmi nous,</l>
+                        <l n="25"> Qui peut me retenir ? Est-ce le nom de frère</l>
+                        <l n="26"> Qui puisse être un obstacle à ma juste colère ?</l>
+                        <l n="27"> Ombre du grand Ninus, Bélus te fera voir</l>
+                        <l n="28"> Qu’il ne connaît de nom que celui du devoir.</l>
+                        <l n="29"> Eh ! ne suffit-il pas au courroux qui m’anime</l>
+                        <l n="30"> Que ton sang m’ait tracé le nom de la victime ?</l>
+                        <l n="31"> Mais que vois-je ? Déjà Madate de retour</l>
+                        <l n="32"> Devance dans ces lieux la lumière du jour !</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="33"> Qu’il m’est doux de revoir un ami si fidèle !</l>
+                        <l n="34"> Je n’eus jamais ici plus besoin de ton zèle.</l>
+                </sp>
+        <sp who="#madate">
+            <speaker> MADATE. </speaker>
+                        <l n="35"> Et quel secours encor vous en promettez-vous,</l>
+                        <l n="36"> Quand le sort en fureur éclate contre nous ?</l>
+                        <l n="37"> Seigneur, ne comptez plus, si voisin du naufrage,</l>
+                        <l n="38"> Que sur les immortels, ou sur votre courage.</l>
+                        <l n="39"> Sémiramis triomphe ; Agénor est vainqueur,</l>
+                        <l n="40"> Rien n’a pu soutenir sa funeste valeur.</l>
+                        <l n="41"> Ce héros, que le ciel, jaloux de votre gloire,</l>
+                        <l n="42"> Forma pour vous ravir tant de fois la victoire,</l>
+                        <l n="43"> Chéri d’elle encor plus que de Sémiramis,</l>
+                        <l n="44"> Inonde nos sillons du sang de vos amis.</l>
+                        <l n="45"> Mais ce n’est pas pour vous le sort le plus à craindre :</l>
+                        <l n="46"> Si j’en crois mes soupçons, que vous êtes à plaindre !</l>
+                        <l n="47"> Vous êtes découvert. Mégabise a parlé.</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="48"> Mégabise !</l>
+                </sp>
+        <sp who="#madate">
+            <speaker> MADATE. </speaker>
+                        <l n="49"> Sans doute il a tout révélé.</l>
+                        <l n="50"> Seigneur, il vous souvient que de notre entreprise</l>
+                        <l n="51"> Vous aviez nommé chef le traître Mégabise :</l>
+                        <l n="52"> Cet infidèle et moi nous nous étions promis</l>
+                        <l n="53"> De faire sous nos coups tomber Sémiramis.</l>
+                        <l n="54"> Déjà, le bras levé, sa mort était certaine :</l>
+                        <l n="55"> Nous nous étions tous deux placés près de la reine,</l>
+                        <l n="56"> Tout prêts, en l’immolant, de vous proclamer roi.</l>
+                        <l n="57"> Mégabise un instant s’est approché de moi :</l>
+                        <l n="58"> « Gardons-nous d’achever, m’a-t-il dit, cher Madate.</l>
+                        <l n="59"> « Il faut qu’en lieux plus sûrs notre courage éclate.</l>
+                        <l n="60"> « Tu sais que nous verrons bientôt Sémiramis</l>
+                        <l n="61"> « Voler avec fureur parmi ses ennemis :</l>
+                        <l n="62"> « Laissons-la s’y porter sans nous éloigner d’elle.</l>
+                        <l n="63"> « Observons cependant cette reine cruelle. »</l>
+                        <l n="64"> Je ne sais quel soupçon tout-à-coup m’a saisi.</l>
+                        <l n="65"> Je l’observais, seigneur, et Mégabise aussi.</l>
+                        <l n="66"> Le combat cependant de toutes parts s’engage,</l>
+                        <l n="67"> Et n’offre à nos regards qu’une effroyable image.</l>
+                        <l n="68"> Mégabise, ai-je dit, il est temps de frapper :</l>
+                        <l n="69"> La victime à nos coups ne saurait échapper ;</l>
+                        <l n="70"> On ne se connaît plus ; le désordre est extrême...</l>
+                        <l n="71"> « Je réserve, a-t-il dit, cet honneur pour moi-même. »</l>
+                        <l n="72"> Et le lâche a tant fait, que par mille détours</l>
+                        <l n="73"> Il a de nos malheurs éternisé le cours.</l>
+                        <l n="74"> Seigneur, j’ai vu périr tous ceux que votre haine</l>
+                        <l n="75"> Avec tant de prudence armait contre la reine.</l>
+                        <l n="76"> Au retour du combat, jugez de ma douleur,</l>
+                        <l n="77"> Quand j’ai vu, l’œil terrible et rempli de fureur,</l>
+                        <l n="78"> Votre sœur en secret parler à Mégabise.</l>
+                        <l n="79"> À ce cruel aspect, peignez-vous ma surprise.</l>
+                        <l n="80"> Le perfide, à son tour surpris, déconcerté,</l>
+                        <l n="81"> De la reine à l’instant vers moi s’est écarté.</l>
+                        <l n="82"> Je l’attire aussitôt dans la forêt prochaine ;</l>
+                        <l n="83"> Et là, sans consulter qu’une rage soudaine,</l>
+                        <l n="84"> Furieux, j’ai percé le sein où trop de foi</l>
+                        <l n="85"> Vous avait fait verser vos secrets malgré moi :</l>
+                        <l n="86"> J ai mieux aimé porter trop loin ma prévoyance,</l>
+                        <l n="87"> Que de risquer vos jours par trop de confiance.</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="88"> Tout est perdu, Madate ; il n’en faut plus douter.</l>
+                        <l n="89"> Si tu pouvais savoir ce qu’il m’en va coûter...</l>
+                        <l n="90"> Mais ce serait te faire une injure nouvelle.</l>
+                        <l n="91"> Que de cacher encor ce secret à ton zèle.</l>
+                        <l n="92"> Cher ami, ne crois pas qu’un soin ambitieux</l>
+                        <l n="93"> Arme contre sa sœur un frère furieux.</l>
+                        <l n="94"> Ce n’est pas qu’à regret la fierté de mon âme</l>
+                        <l n="95"> N’ait ployé jusqu’ici sous les lois d’une femme ;</l>
+                        <l n="96"> Mais je suis peu jaloux du pouvoir souverain.</l>
+                        <l n="97"> Jamais sceptre sanglant ne souillera ma main :</l>
+                        <l n="98"> Tu ne me verras point, quelque gloire où j’aspire,</l>
+                        <l n="99"> Du sang des malheureux acheter un empire.</l>
+                        <l n="100"> De soins plus généreux mon esprit agité</l>
+                        <l n="101"> N’aime que du devoir l’âpre sévérité.</l>
+                        <l n="102"> Ce n’en est pas l’éclat, c’est la vertu que j’aime :</l>
+                        <l n="103"> Je fais la guerre au crime, et non au diadème :</l>
+                        <l n="104"> Je veux venger Ninus, et couronner son fils ;</l>
+                        <l n="105"> Voilà ce qui m’a fait soulever tant d’amis :</l>
+                        <l n="106"> Et d’une sœur enfin qui souille ici ma gloire</l>
+                        <l n="107"> Je ne veux plus laisser qu’une triste mémoire.</l>
+                </sp>
+        <sp who="#madate">
+            <speaker> MADATE. </speaker>
+                        <l n="108"> Que parlez-vous, seigneur, d’un fils du grand Ninus ?</l>
+                        <l n="109"> Toute la cour prétend que ce fils ne vit plus.</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="110"> Depuis dix ans entiers qu’une fuite imprudente</l>
+                        <l n="111"> Le dérobe à mes vœux et trompe mon attente,</l>
+                        <l n="112"> Je commence en effet à douter, à mon tour,</l>
+                        <l n="113"> S’il vit, et si je dois compter sur son retour.</l>
+                        <l n="114"> Les malheurs de son père ont trop rempli l’Asie,</l>
+                        <l n="115"> Pour retracer ici l’histoire de sa vie.</l>
+                        <l n="116"> L’univers, jusqu’à lui, n’avait point vu ses rois</l>
+                        <l n="117"> Couronner une femme et s’imposer ses lois.</l>
+                        <l n="118"> Tu sais comme ce prince, autrefois si terrible,</l>
+                        <l n="119"> Devenu faible amant, de monarque invincible,</l>
+                        <l n="120"> Perdu d’un fol amour pour mon indigne sœur,</l>
+                        <l n="121"> Osa, de son vivant, s’en faire un successeur.</l>
+                        <l n="122"> Rien ne put me contraindre à celer ma pensée</l>
+                        <l n="123"> Sur ce coupable excès d’une flamme insensée.</l>
+                        <l n="124"> Mais je voulus en vain déchirer !e bandeau :</l>
+                        <l n="125"> L’amour avait juré ce prodige nouveau.</l>
+                        <l n="126"> Tu sais quel prix suivit le don du diadème,</l>
+                        <l n="127"> Et l’essai que ma sœur fit du pouvoir suprême.</l>
+                        <l n="128"> Ninus fut égorgé, sans secours, sans amis,</l>
+                        <l n="129"> Au pied du même trône où Ninus fut assis ;</l>
+                        <l n="130"> Et, pour comble d’horreurs, je vis la cour souscrire</l>
+                        <l n="131"> Aux noirs commencements de ce nouvel empire.</l>
+                        <l n="132"> Pour moi, je renfermai mon courroux dans mon cœur,</l>
+                        <l n="133"> Où les dieux l’ont laissé vivre de ma douleur.</l>
+                        <l n="134"> Mais redoutant toujours, après son parricide,</l>
+                        <l n="135"> De nouveaux attentats d’une reine perfide,</l>
+                        <l n="136"> Je lui ravis son fils, ce dépôt précieux</l>
+                        <l n="137"> Que me cache à son tour la colère des dieux.</l>
+                        <l n="138"> Je m’étais aperçu que sa cruelle mère</l>
+                        <l n="139"> Craignait de voir en lui croître un vengeur sévère.</l>
+                        <l n="140"> J’engageai Mermécide à sauver de la cour</l>
+                        <l n="141"> Ce gage malheureux d’un trop funeste amour.</l>
+                        <l n="142"> Tu dois avoir connu ce fameux Mermécide,</l>
+                        <l n="143"> Sa farouche vertu, son courage intrépide.</l>
+                        <l n="144"> Il fit passer longtemps Ninias pour son fils ;</l>
+                        <l n="145"> Mais ce secret parvint jusqu’à Sémiramis.</l>
+                </sp>
+        <sp who="#madate">
+            <speaker> MADATE. </speaker>
+                        <l n="146"> Seigneur, et par quel sort, dévoilant ce mystère,</l>
+                        <l n="147"> N’a-t-elle point porté ses soupçons sur son frère ?</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="148"> J’employai tant de soins à calmer sa fureur,</l>
+                        <l n="149"> Que je ne fus jamais moins suspect à son cœur ;</l>
+                        <l n="150"> Mais, craignant le courroux dont elle était saisie,</l>
+                        <l n="151"> Mermécide courut jusqu’au fond de l’Asie</l>
+                        <l n="152"> Cacher dans les déserts ce pupille sacré</l>
+                        <l n="153"> Qu’à ses fidèles mains la mienne avait livré.</l>
+                        <l n="154"> Cependant, pour tromper une mère cruelle,</l>
+                        <l n="155"> De la mort de son fils je semai la nouvelle :</l>
+                        <l n="156"> On la crut ; et bientôt j’eus la douceur de voir</l>
+                        <l n="157"> Mes projets réussir au gré de mon espoir.</l>
+                        <l n="158"> Ninias qui croissait, héros dès son enfance,</l>
+                        <l n="159"> Réchauffait chaque jour le soin de ma vengeance.</l>
+                        <l n="160"> Tu sais, pour occuper mon odieuse sœur,</l>
+                        <l n="161"> Tout ce que j’ai tenté dans ma juste fureur ;</l>
+                        <l n="162"> Par combien de détours, armé contre sa vie,</l>
+                        <l n="163"> J’ai de fois en dix ans soulevé l’Assyrie.</l>
+                        <l n="164"> Je fis plus : tu connais ma fille Ténésis,</l>
+                        <l n="165"> Délices de Bélus et de Sémiramis,</l>
+                        <l n="166"> Qui, l’entraînant partout où l’entraînent ses armes,</l>
+                        <l n="167"> L’élève malgré moi dans le sein des alarmes,</l>
+                        <l n="168"> Et que rien jusqu’ici n’en a pu séparer,</l>
+                        <l n="169"> Mes dégoûts sur ce point n’osant se déclarer :</l>
+                        <l n="170"> D’elle et de Ninias, par un saint hyménée,</l>
+                        <l n="171"> Je formai le dessein d’unir la destinée,</l>
+                        <l n="172"> Pour rendre encor mon cœur, par un lien si doux,</l>
+                        <l n="173"> Plus avide du sang qu’exige mon courroux.</l>
+                        <l n="174"> Près de Sinope enfin je conduisis ma fille,</l>
+                        <l n="175"> Ce reste précieux d’une illustre famille :</l>
+                        <l n="176"> Là, dans un bois aux dieux consacré dès longtemps,</l>
+                        <l n="177"> J’unis par de saints nœuds ces augustes enfants.</l>
+                        <l n="178"> L’un et l’autre touchaient à peine au premier lustre,</l>
+                        <l n="179"> Quand je serrai les nœuds de cet hymen illustre :</l>
+                        <l n="180"> Avec tant de mystère on les unit tous deux,</l>
+                        <l n="181"> Que tout, jusqu’à leur nom, fut un secret pour eux.</l>
+                        <l n="182"> Depuis vingt ans mes yeux n’ont point revu le prince :</l>
+                        <l n="183"> On le cherche sans fruit de province en province.</l>
+                        <l n="184"> Depuis dix ans en vain Mermécide a couru</l>
+                        <l n="185"> Après ce fils si cher tout-à-coup disparu.</l>
+                        <l n="186"> Mais qui vient nous troubler ? quelle indiscrète audace !</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="187"> Que vois-je ? Mermécide, est-ce toi que j’embrasse ?</l>
+                        <l n="188"> Ah ! cher ami, le jour qui te rend à mes vœux</l>
+                        <l n="189"> Ne saurait plus pour nous être qu’un jour heureux.</l>
+                        <l n="190"> Du sort de Ninias ton retour va m’instruire...</l>
+                </sp>
+        <sp who="#mermécide">
+            <speaker> MERMÉCIDE. </speaker>
+                        <l n="191"> Plaise au ciel que ce jour qui commence à nous luire</l>
+                        <l n="192"> N’éclaire pas du moins le sort le plus affreux</l>
+                        <l n="193"> Qui puisse menacer un cœur si généreux !</l>
+                        <l n="194"> Seigneur, n’attendez plus d’une recherche vaine</l>
+                        <l n="195"> Un prince dont la vie est assez incertaine.</l>
+                        <l n="196"> Depuis dix ans entiers je parcours ces climats :</l>
+                        <l n="197"> J’ai fait deux fois le tour de ces vastes états.</l>
+                        <l n="198"> J’eusse dû mieux veiller, depuis cette journée</l>
+                        <l n="199"> Où par vous Ténésis à Sinope amenée</l>
+                        <l n="200"> À la face des dieux, dans un bois consacré,</l>
+                        <l n="201"> Au roi de l’univers vit son hymen juré.</l>
+                        <l n="202"> Je crus que sa beauté, qui devançait son âge,</l>
+                        <l n="203"> Fléchirait vers l’amour ce jeune et fier courage :</l>
+                        <l n="204"> Mais je ne vis en lui qu’mie bouillante ardeur ;</l>
+                        <l n="205"> Déjà sa destinée entrainait ce grand cœur.</l>
+                        <l n="206"> Je fis pendant dix ans des efforts inutiles</l>
+                        <l n="207"> Pour remplir Ninias de désirs plus tranquilles :</l>
+                        <l n="208"> Son cœur ne respirait que l’horreur des combats,</l>
+                        <l n="209"> Il rougissait souvent de me voir sans états.</l>
+                        <l n="210"> Déjà, peu satisfait de n’avoir qu’un tel père,</l>
+                        <l n="211"> Il semblait de son sort pénétrer le mystère.</l>
+                        <l n="212"> Enfin il disparut, et je le cherche en vain.</l>
+                        <l n="213"> Mais, seigneur, de Bélus quel sera le destin ?</l>
+                        <l n="214"> Hier, sans me fixer une route certaine,</l>
+                        <l n="215"> En attendant la nuit dans la forêt prochaine,</l>
+                        <l n="216"> Je vis un corps sanglant étendu sous mes pas,</l>
+                        <l n="217"> Qu’un reste de chaleur dérobait au trépas.</l>
+                        <l n="218"> J’en approche aussitôt : jugez de ma surprise</l>
+                        <l n="219"> Lorsque dans ce mourant je trouvai Mégabise.</l>
+                        <l n="220"> Il méconnut longtemps ma secourable main.</l>
+                        <l n="221"> Mais ses regards sur moi s arrêtant à la fin :</l>
+                        <l n="222"> « Que vois-je ? me dit-il : est-ce vous, Mermécide,</l>
+                        <l n="223"> « Qui, le cœur indigné des fureurs d’un perfide,</l>
+                        <l n="224"> « Venez pour conserver le reste de ce sang</l>
+                        <l n="225"> « Que le cruel Madate a tiré de mon flanc ?</l>
+                        <l n="226"> « C’est ainsi que Bélus traite un ami fidèle. »</l>
+                        <l n="227"> À ces mots, peu content du succès de mon zèle,</l>
+                        <l n="228"> Peut-être que la main qui prolongeait ses jours,</l>
+                        <l n="229"> Plus prudente, bientôt en eût tranché le cours,</l>
+                        <l n="230"> Si de quelques soldats la troupe survenue</l>
+                        <l n="231"> Ne m’eût forcé de fuir leur importune vue.</l>
+                        <l n="232"> Si Mégabise vit, nous sommes découverts.</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS, à Madate. </speaker>
+                        <l n="233"> Trop prévoyant ami, qu’as-tu fait ? tu nous perds.</l>
+                </sp>
+        <sp who="#mermécide">
+            <speaker> MERMÉCIDE. </speaker>
+                        <l n="234"> Non, seigneur ; il ne faut que prévenir la reine :</l>
+                        <l n="235"> C’est à nous désormais à servir votre haine.</l>
+                        <l n="236"> Si Ninias n’est plus, c’est à vous de régner :</l>
+                        <l n="237"> Vous me voyez tout prêt à ne rien épargner,</l>
+                        <l n="238"> À vous immoler même un guerrier redoutable,</l>
+                        <l n="239"> Imprudent défenseur d’une reine coupable.</l>
+                        <l n="240"> Vous n’avez qu’à parler, seigneur ; et cette main</l>
+                        <l n="241"> Va percer dès ce jour et l’un et l’autre sein.</l>
+                        <l n="242"> J’entends du bruit, on vient : c’est la reine elle-même.</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="243"> Fuis, Mermécide, fuis ; le péril est extrême.</l>
+                        <l n="244"> Sa haine trop avant t’a gravé dans son cœur,</l>
+                        <l n="245"> Pour abuser des yeux qu’instruirait sa fureur.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="246"> Je triomphe, Bélus : une heureuse victoire</l>
+                        <l n="247"> Comblerait aujourd’hui mes désirs et ma gloire,</l>
+                        <l n="248"> Si le sort, dangereux même dans ses bienfaits,</l>
+                        <l n="249"> Ne m’eût fait triompher de mes propres sujets.</l>
+                        <l n="250"> Verrai-je encor longtemps la rebelle Assyrie</l>
+                        <l n="251"> Attaquer en fureur et mon sceptre et ma vie ?</l>
+                        <l n="252"> Vous, de qui la vertu soutenant le devoir</l>
+                        <l n="253"> Contre mes ennemis fut toujours mon espoir,</l>
+                        <l n="254"> À qui j’ai confié les murs de Babylone,</l>
+                        <l n="255"> Ou plutôt partagé le poids de ma couronne,</l>
+                        <l n="256"> Mon frère, je ne sais, malgré ce nom si doux,</l>
+                        <l n="257"> Si mon cœur n’aurait pas à se plaindre de vous.</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="258"> De moi !</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="259"> Je sais, Bélus, que de vos soins fidèles</l>
+                        <l n="260"> Je dois mieux présumer ; mais enfin les rebelles</l>
+                        <l n="261"> De mes desseins contre eux sont si bien informés,</l>
+                        <l n="262"> Qu’ils sont tous prévenus aussitôt que formés.</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="263"> Suis-je de vos secrets le seul dépositaire ?</l>
+                        <l n="264"> Et sur quoi fondez-vous un soupçon téméraire,</l>
+                        <l n="265"> Sur quelle conjecture, ou sur quelle action ?</l>
+                        <l n="266"> Vous savez que mon cœur est sans ambition.</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="267"> On me trahit : c’est tout ce que je puis vous dire.</l>
+                        <l n="268"> Allez, c’en est assez.</l>
+            <stage><em>À ses gardes. </em></stage>
+                        <l n="269"> Et vous, qu’on se retire ;</l>
+            <stage><em>À Ténésis.</em></stage>
+                        <l n="270"> Princesse, demeurez. L’aimable Ténésis</l>
+                        <l n="271"> Sait qu’elle fut toujours chère à Sémiramis.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="272"> Je vois qu’on me trahit, et je crains votre père,</l>
+                        <l n="273"> Mais sans le soupçonner d’un odieux mystère ;</l>
+                        <l n="274"> Et quand même il aurait mérité mon courroux,</l>
+                        <l n="275"> Mon injuste rigueur n’irait point jusqu’à vous.</l>
+                </sp>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="276"> Au grand cœur de Bélus rendez plus de justice :</l>
+                        <l n="277"> Sa vertu n’admet point un si noir artifice.</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="278"> C’est de cette vertu que je crains les transports.</l>
+                        <l n="279"> Bélus ne me tient point compte de mes remords :</l>
+                        <l n="280"> Quelque tendre amitié que m’inspire mon frère,</l>
+                        <l n="281"> Je crois toujours en lui voir un juge sévère,</l>
+                        <l n="282"> Dont les troubles cruels qui déchirent mon cœur</l>
+                        <l n="283"> Me font plus que jamais redouter la rigueur.</l>
+                        <l n="284"> De quel œil verra-t-il une superbe reine</l>
+                        <l n="285"> Le front humilié d’une honteuse chaîne ?</l>
+                        <l n="286"> Ninus, que de ta mort le ciel s’est bien vengé !</l>
+                        <l n="287"> Ma chère Ténésis, que mon cœur est changé !</l>
+                        <l n="288"> Cette Sémiramis si fière et si hautaine,</l>
+                        <l n="289"> Du sort de l’univers arbitre et souveraine,</l>
+                        <l n="290"> Rivale des héros dont on vante les faits,</l>
+                        <l n="291"> Qui de son sexe enfin n avait que les attraits,</l>
+                        <l n="292"> Vile esclave au milieu de la grandeur suprême,</l>
+                        <l n="293"> Maîtresse des humains, ne l’est plus d’elle-même.</l>
+                        <l n="294"> Je ne triomphe pas de tous mes ennemis :</l>
+                        <l n="295"> Qu’il en est que mon cœur voudrait avoir soumis !</l>
+                        <l n="296"> Je vois que Ténésis, indignée et surprise,</l>
+                        <l n="297"> Condamne des transports que sa vertu méprise :</l>
+                        <l n="298"> Mais de notre amitié les liens sont trop doux,</l>
+                        <l n="299"> Pour me permettre encor quelques secrets pour vous.</l>
+                        <l n="300"> Je vous en dis assez pour vous faire comprendre</l>
+                        <l n="301"> Tout ce que ma fierté craint de vous faire entendre.</l>
+                </sp>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="302"> Je conçois aisément qu’une cruelle ardeur</l>
+                        <l n="303"> De vos jours malgré vous a troublé la douceur.</l>
+                        <l n="304"> Le reste est un secret que mon respect, madame,</l>
+                        <l n="305"> Me défend de chercher jusqu’au fond de votre âme.</l>
+                        <l n="306"> Votre défaite en vain me suppose un vainqueur :</l>
+                        <l n="307"> J’ignore qui s’est pu soumettre un si grand cœur ;</l>
+                        <l n="308"> Je n’ose le chercher dans la foule importune</l>
+                        <l n="309"> Qu’attire sur vos pas votre auguste fortune.</l>
+                        <l n="310"> J’avais cru jusqu’ici que pour plaire à vos yeux</l>
+                        <l n="311"> Il fallait ou des rois, ou des enfants des dieux.</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="312"> Et voilà ce qui met le trouble dans mon âme,</l>
+                        <l n="313"> Et qui me fait rougir d’une honteuse flamme.</l>
+                        <l n="314"> Agénor inconnu ne compte point d’aïeux</l>
+                        <l n="315"> Pour me justifier d’un amour odieux.</l>
+                </sp>
+        <sp who="#téinésis">
+            <speaker> TÉINÉSIS. </speaker>
+                        <l n="316"> Agénor !</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="317"> Le voilà, ce vainqueur redoutable,</l>
+                        <l n="318"> Qu’un front sans ornement ne rend pas moins aimable ;</l>
+                        <l n="319"> Plus terrible lui seul que tous mes ennemis,</l>
+                        <l n="320"> Et plus cruel pour moi que ceux qu’il a soumis.</l>
+                        <l n="321"> Ma raison s’arme en vain de quelques étincelles :</l>
+                        <l n="322"> Mon cœur semble grossir le nombre des rebelles.</l>
+                </sp>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="323"> Madame, et quel dessein a-t-il donc pu former ?</l>
+                        <l n="324"> En aimant Agénor, que prétend-il ?</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="325"> L’aimer ;</l>
+                        <l n="326"> Et, si ce n’est assez, lui partager encore</l>
+                        <l n="327"> Un sceptre qu’aussi bien mon amour déshonore.</l>
+                </sp>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="328"> Ah, ciel ! et que dira l’univers étonné ?</l>
+                        <l n="329"> À quels soins ce grand cœur s’est-il abandonné ?</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="330"> J’ai fait taire ma gloire, et tu veux que je craigne</l>
+                        <l n="331"> Les discours importuns de ceux sur qui je règne !</l>
+                        <l n="332"> Ténésis, plût aux dieux que mon funeste amour</l>
+                        <l n="333"> N’eût d’autres ennemis à combattre en ce jour !</l>
+                        <l n="334"> Je braverais bientôt ce que dira l’Asie :</l>
+                        <l n="335"> Ce n’est pas là l’effroi dont mon âme est saisie.</l>
+                        <l n="336"> Qu’aux mortels indignés le ciel se joigne encor,</l>
+                        <l n="337"> De l’univers entier je ne crains qu’Agénor...</l>
+                        <l n="338"> C’est ce rebelle cœur que je voudrais soumettre,</l>
+                        <l n="339"> Et c’est ce que le mien n’oserait se promettre.</l>
+                        <l n="340"> Des Mèdes aujourd’hui je l’ai déclaré roi.</l>
+                        <l n="341"> Mais je l’élève en vain pour l’approcher de moi ;</l>
+                        <l n="342"> En vain, dans les transports de mon amour extrême,</l>
+                        <l n="343"> Sur son front dépouillé j’attache un diadème :</l>
+                        <l n="344"> Pour toucher ce héros mes bienfaits superflus</l>
+                        <l n="345"> Echauffent sa valeur, et ne font rien de plus.</l>
+                        <l n="346"> De tant d’amour, hélas ! faible reconnaissance !</l>
+                        <l n="347"> Ses exploits font encor toute ma récompense.</l>
+                        <l n="348"> Ténésis, c’est à toi que ma flamme a recours :</l>
+                        <l n="349"> Souffre que de tes soins j’implore le secours ;</l>
+                        <l n="350"> C’est sur eux désormais que mon cœur se repose.</l>
+                        <l n="351"> Tu sais ce que pour moi notre amitié t’impose ;</l>
+                        <l n="352"> J’en exige aujourd’hui des efforts généreux...</l>
+                </sp>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="353"> Eh ! que puis-je pour vous qui réponde à vos vœux ?</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="354"> Il faut faire approuver mon amour à mon frère,</l>
+                        <l n="355"> Fléchir en sa faveur sa vertu trop austère,</l>
+                        <l n="356"> Retenir dans son cœur des leçons que je crains.</l>
+                        <l n="357"> Pour relever le mien tous reproches sont vains.</l>
+                        <l n="358"> Ce n’est pas tout : il faut de l’amour le plus tendre</l>
+                        <l n="359"> Informer un héros qui le voit sans l’entendre ;</l>
+                        <l n="360"> Soulager sur ce point mon courage abattu,</l>
+                        <l n="361"> Quand ma timidité fait toute ma vertu.</l>
+                        <l n="362"> J’ai détrôné des rois, porté partout la guerre ;</l>
+                        <l n="363"> Nul héros plus que moi n’a fait trembler la terre ;</l>
+                        <l n="364"> Tout respecte ma voix : et je crains de parler ;</l>
+                        <l n="365"> Le seul nom d’Agénor suffit pour me troubler ;</l>
+                        <l n="366"> Je ne sais quoi dans lui me fait sentir un maître.</l>
+                        <l n="367"> C’est ainsi que l’amour en ordonne peut-être.</l>
+                        <l n="368"> Peins-lui si bien le feu qui dévore mon cœur,</l>
+                        <l n="369"> Qu’à son tour ce héros reconnaisse un vainqueur ;</l>
+                        <l n="370"> Et si l’amour pour moi n’avait rien à lui dire,</l>
+                        <l n="371"> Tente du moins son cœur par l’offre d’un empire.</l>
+                        <l n="372"> Ce guerrier va bientôt se montrer à nos yeux.</l>
+                        <l n="373"> Pour moi, que mille soins rappellent dans ces lieux,</l>
+                        <l n="374"> Adieu : pour un moment souffre que je te laisse.</l>
+                        <l n="375"> Ma chère Ténésis, pardonne à ma faiblesse</l>
+                        <l n="376"> Des soins dont sur ta foi mon amour s’est remis :</l>
+                        <l n="377"> Juge par ces transports quel en sera le prix.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS </speaker>
+                        <l n="378"> Est-ce à moi, juste ciel, que ce discours s’adresse ?</l>
+                        <l n="379"> Qu’oses-tu m’avouer, téméraire princesse ?</l>
+                        <l n="380"> Que je plains ton amour, faible Sémiramis,</l>
+                        <l n="381"> Si son espoir dépend des soins de Ténésis !</l>
+                        <l n="382"> Pour t’en remettre à moi du succès de ta flamme,</l>
+                        <l n="383"> Je vois bien que tu n’as consulté que ton âme :</l>
+                        <l n="384"> Tu m’aurais mieux caché ses secrets odieux,</l>
+                        <l n="385"> Si l’Amour d’un bandeau n’avait couvert tes yeux.</l>
+                        <l n="386"> Et toi, cruel Amour qui me poursuis sans cesse,</l>
+                        <l n="387"> Est-ce pour éprouver une triste princesse</l>
+                        <l n="388"> Qui t’ose disputer l’empire de son cœur,</l>
+                        <l n="389"> Que tu mas confié les soins d’une autre ardeur ?</l>
+                        <l n="390"> Tu ne peux mieux combler ta vengeance fatale,</l>
+                        <l n="391"> Qu’en me faisant servir les feux de ma rivale ;</l>
+                        <l n="392"> Et, pour comble de maux, quelle rivale encor !</l>
+                        <l n="393"> Quel triomphe pour toi, redoutable Agénor !</l>
+                        <l n="394"> J’ai dédaigné tes soins ; ma fierté trop farouche</l>
+                        <l n="395"> A vingt fois étouffé tes soupirs dans ta bouche :</l>
+                        <l n="396"> Et l’Amour jusque-là vient de m’humilier,</l>
+                        <l n="397"> Que peut-être à mon tour il faudra supplier.</l>
+                        <l n="398"> Entre une reine et moi, sur quoi puis-je prétendre</l>
+                        <l n="399"> Que ton cœur un moment balance pour se rendre ?</l>
+                        <l n="400"> S’il se laisse éblouir par les offres du sien,</l>
+                        <l n="401"> Que de mépris suivront la défaite du mien !</l>
+                        <l n="402"> Eh ! que m’importe, hélas ! qu’Agénor me méprise ?</l>
+                        <l n="403"> Est-ce assez pour l’aimer qu’une autre m’autorise ?</l>
+                        <l n="404"> Un cœur né sans vertu, sans honneur et sans foi,</l>
+                        <l n="405"> Peut-il être en effet un exemple pour moi ?</l>
+                        <l n="406"> Que dis-je ? Quoi ! déjà ma prompte jalousie</l>
+                        <l n="407"> Joint l’outrage aux transports dont mon âme est saisie !</l>
+                        <l n="408"> Ténésis, pour te faire un généreux effort,</l>
+                        <l n="409"> Songe que tu n’es plus maîtresse de ton sort.</l>
+                        <l n="410"> Ah ! Bélus, plût aux dieux qu’en mon triste hyménée</l>
+                        <l n="411"> Mon cœur eût de ma main subi la destinée !</l>
+                        <l n="412"> Vains regrets ! C’est assez, égarements jaloux,</l>
+                        <l n="413"> Mon austère vertu n’est point faite pour vous.</l>
+                        <l n="414"> Parlons, n’exposons pas la tête de mon père</l>
+                        <l n="415"> Aux noirs ressentiments d’une reine en colère.</l>
+                        <l n="416"> Que de malheurs suivraient son amour outragé !</l>
+                        <l n="417"> Puisque servir ses feux mon cœur est engagé,</l>
+                        <l n="418"> Instruisons Agénor de cet amour funeste ;</l>
+                        <l n="419"> À mes faibles attraits laissons le soin du reste.</l>
+                        <l n="420"> Vains désirs, taisez-vous pour la dernière fois :</l>
+                        <l n="421"> C’est à d’autres qu’à vous qu’il faut prêter ma voix.</l></div></div>
+           <div type="act" xml:id="2">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="422"> Où suis-je ? dans quels lieux la fortune me guide !</l>
+                        <l n="423"> Dieux, que réservez-vous au fils de Mermécide ?</l>
+                        <l n="424"> Vains honneurs qu’Agénor n’a que trop recherchés,</l>
+                        <l n="425"> Sous vos appas flatteurs que de soins sont cachés !</l>
+                        <l n="426"> Depuis dix ans entiers éloigné de mon père,</l>
+                        <l n="427"> Loin de me rapprocher d’une tête si chère,</l>
+                        <l n="428"> Je transporte mes dieux en ce fatal séjour,</l>
+                        <l n="429"> Pour n y sacrifier qu’au seul dieu de l’amour.</l>
+                        <l n="430"> Mais que j’en suis puni ! Que l’hymen, cher Mirame,</l>
+                        <l n="431"> Se venge avec rigueur d’une coupable flamme !</l>
+                        <l n="432"> Moi qui, longtemps porté de climats en climats,</l>
+                        <l n="433"> Fis le destin des rois, subjuguai tant d’états ;</l>
+                        <l n="434"> Qui semblais, pour me faire une gloire immortelle,</l>
+                        <l n="435"> N’avoir plus à dompter qu’une reine cruelle ;</l>
+                        <l n="436"> Quand l’univers en moi croit trouver un vengeur,</l>
+                        <l n="437"> Mon bras de son tyran devient le défenseur !</l>
+                        <l n="438"> Enchanté malgré moi des exploits d’une reine</l>
+                        <l n="439"> Qui ne devrait peut-être exciter que ma haine,</l>
+                        <l n="440"> Je viens en imprudent grossir des étendards</l>
+                        <l n="441"> Sous qui l’amour m’a fait tenter tant de hasards !</l>
+                        <l n="442"> Pourrais-je sans rougir imputer à la gloire</l>
+                        <l n="443"> Des faits où Ténésis attache la victoire ?</l>
+                        <l n="444"> J’ai tout fait pour lui plaire, et mon cœur jusqu’ici</l>
+                        <l n="445"> N’a dans ce triste soin que trop mal réussi.</l>
+                </sp>
+        <sp who="#mirame">
+            <speaker> MIRAME. </speaker>
+                        <l n="446"> Eh quoi ! seigneur, l’éclat d’un nouveau diadème</l>
+                        <l n="447"> Ne pourra dissiper votre douleur extrême !</l>
+                        <l n="448"> Voulez-vous, trop sensible aux peines de l’amour,</l>
+                        <l n="449"> Le front chargé d’ennuis, vous montrer à la cour ?</l>
+                        <l n="450"> Songez que ce vain peuple, attentif à vous plaire,</l>
+                        <l n="451"> En volant sur vos pas, de plus près vous éclaire.</l>
+                        <l n="452"> Après ce que pour vous a fait Sémiramis...</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="453"> Laissons là ses bienfaits : parle de Ténésis ;</l>
+                        <l n="454"> Dans ces superbes lieux voilà ce qui m’amène :</l>
+                        <l n="455"> Tout autre soin ne fait que redoubler ma peine.</l>
+                </sp>
+        <sp who="#mirame">
+            <speaker> MIRAME. </speaker>
+                        <l n="456"> Seigneur, vous n’êtes plus dans ces camps où vos pas</l>
+                        <l n="457"> N’avaient d’autres témoins que les yeux des soldats.</l>
+                        <l n="458"> Agénor y voyait Ténésis sans contrainte ;</l>
+                        <l n="459"> Le courtisan oisif n’y causait nulle crainte ;</l>
+                        <l n="460"> La reine, dont la guerre occupait tous les jours,</l>
+                        <l n="461"> À vos amours d’ailleurs laissait un libre cours :</l>
+                        <l n="462"> Mais c’est ici qu’il faut dans le fond de votre âme</l>
+                        <l n="463"> Renfermer les transports d’une indiscrète flamme.</l>
+                        <l n="464"> Sémiramis, en proie à la plus vive ardeur,</l>
+                        <l n="465"> Laisse trop voir le feu qui dévore son cœur,</l>
+                        <l n="466"> Pour oser vous flatter de tromper sa tendresse.</l>
+                        <l n="467"> Songez à quels périls vous livrez la princesse.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="468"> Je ne le sais que trop, et c’est le seul effroi</l>
+                        <l n="469"> Qui de tant de dangers soit venu jusqu’à moi ;</l>
+                        <l n="470"> D’autant plus alarmé, que, déjà las de feindre,</l>
+                        <l n="471"> Mon cœur n’est point nourri dans l’art de se contraindre.</l>
+                        <l n="472"> Mirame, tu connais jusqu’où va mon malheur ;</l>
+                        <l n="473"> Et tu peux condamner l’excès de ma douleur !</l>
+                        <l n="474"> Dieux cruels, fallait-il prendre tant de vengeance</l>
+                        <l n="475"> De l’oubli d’un serment juré dans mon enfance ?</l>
+                        <l n="476"> Mais qu’ai-je à redouter ? et qu’importe à mes feux</l>
+                        <l n="477"> Que la reine en courroux se déclare contre eux ?</l>
+                        <l n="478"> Ce n’est pas sous ses lois que le ciel m’a vu naître ;</l>
+                        <l n="479"> Et l’Amour jusqu’ici n’a point connu de maître.</l>
+                        <l n="480"> J’avouerai cependant que l’éclat de ces lieux</l>
+                        <l n="481"> A plus ému mon cœur qu’il n’a frappé mes yeux.</l>
+                        <l n="482"> Je ne sais, mais l’aspect des murs de Babylone</l>
+                        <l n="483"> M’a rempli tout-à-coup d’un trouble qui m’étonne :</l>
+                        <l n="484"> Quoi que m’inspire enfin leur redoutable aspect,</l>
+                        <l n="485"> Ces lieux n’ont rien qui doive exciter mon respect :</l>
+                        <l n="486"> À la reine, en un mot, nul devoir ne m’engage ;</l>
+                        <l n="487"> Ses bienfaits, quels qu’ils soient, sont dus à mon courage.</l>
+                        <l n="488"> C’est assez que ce jour m’ait vu déclarer roi,</l>
+                        <l n="489"> Pour ne vouloir ici dépendre que de moi.</l>
+                        <l n="490"> Souffre que j’en excepte une princesse aimable,</l>
+                        <l n="491"> Qui soumit d’un coup d’œil un courage indomptable,</l>
+                        <l n="492"> Qui peut-être aurait moins fait pour Sémiramis,</l>
+                        <l n="493"> Si le sort à mes yeux n’eût offert Ténésis.</l>
+                        <l n="494"> Mais je la vois ; vers nous c’est elle qui s’avance.</l>
+                        <l n="495"> Laisse-moi seul ici jouir de sa présence.</l>
+                        <l n="496"> Prends garde cependant que la reine en ces lieux</l>
+                        <l n="497"> Ne trouble un entretien qui m’est si précieux.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="498"> Je vous cherche, seigneur.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="499"> Moi, madame ?</l>
+                </sp>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="500"> Oui, vous-même,</l>
+                        <l n="501"> Et vous cherche de plus par un ordre suprême.</l>
+                        <l n="502"> Pour remplir votre espoir par des soins éclatants,</l>
+                        <l n="503"> Je viens vous révéler des secrets importants.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="504"> Quel que soit le dessein qui vers moi vous adresse,</l>
+                        <l n="505"> Madame, plût au ciel, dans le soin qui vous presse,</l>
+                        <l n="506"> Que de tous les secrets qu’on veut me révéler,</l>
+                        <l n="507"> À quelques uns des miens un seul pût ressembler !</l>
+                        <l n="508"> Que, las de les garder, mon cœur souffre à les taire !</l>
+                </sp>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="509"> Je n’en viens point, seigneur, pénétrer le mystère ;</l>
+                        <l n="510"> Je n’ai pas prétendu vous déclarer les miens,</l>
+                        <l n="511"> Et votre cœur pour lui peut réserver les siens :</l>
+                        <l n="512"> Le soin de les savoir n’est pas ce qui m’amène ;</l>
+                        <l n="513"> Je ne m’empresse ici que pour ceux de la reine.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="514"> Ah ! madame, daignez vous épargner ce soin ;</l>
+                        <l n="515"> Votre zèle pour elle irait en vain plus loin :</l>
+                        <l n="516"> Je ne veux rien savoir des secrets de la reine,</l>
+                        <l n="517"> Que lorsqu’il faut servir sa justice ou sa haine.</l>
+                        <l n="518"> Ministre à son courroux malgré moi dévoué,</l>
+                        <l n="519"> Combien de fois mon cœur m’en a désavoué !</l>
+                        <l n="520"> S’il s’agissait ici de dompter les rebelles,</l>
+                        <l n="521"> Ou de tenter encor des conquêtes nouvelles,</l>
+                        <l n="522"> On ne vous aurait pas confié ces secrets.</l>
+                        <l n="523"> Quoique tout soit sur moi possible à vos attraits,</l>
+                        <l n="524"> La reine, dont l’Asie admire la prudence,</l>
+                        <l n="525"> A-t-elle pu si mal placer sa confidence ?</l>
+                        <l n="526"> Et quel est son espoir, ou plutôt son erreur ?</l>
+                        <l n="527"> Que vous pénétrez peu l’une et l’autre en mon cœur !</l>
+                </sp>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="528"> Qu’elle s’abuse ou non sur ce qu’elle en espère.</l>
+                        <l n="529"> Vous pourrez avec elle éclaircir ce mystère :</l>
+                        <l n="530"> Je ne me charge ici que de vous informer</l>
+                        <l n="531"> Qu’Agénor de la reine a su se foire aimer ;</l>
+                        <l n="532"> Que runique bonheur où son grand cœur aspire,</l>
+                        <l n="533"> Seigneur, c’est de vous voir partager cet empire.</l>
+                        <l n="534"> Sa tendresse et sa main sont d’un assez grand prix</l>
+                        <l n="535"> Pour ne pas s’attirer un injuste mépris.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="536"> Les dieux, pour ajouter à sa grandeur suprême,</l>
+                        <l n="537"> Eussent-ils dans ses mains mis leur puissance même,</l>
+                        <l n="538"> Il est pour Agénor un bien plus précieux</l>
+                        <l n="539"> Que toutes les grandeurs de la reine et des dieux.</l>
+                        <l n="540"> Mais, puisque malgré moi vous avez pu m’apprendre</l>
+                        <l n="541"> Ce dangereux secret que je craignais d’entendre.</l>
+                        <l n="542"> Madame, permettez que mon cœur, à son tour,</l>
+                        <l n="543"> Entre la reine et vous s’explique sans détour.</l>
+                        <l n="544"> J’aime, je l’avouerai ; mon courage inflexible</l>
+                        <l n="545"> N’a pu me préserver d’un penchant invincible :</l>
+                        <l n="546"> Un regard a suffi pour mettre dans les fers</l>
+                        <l n="547"> Celui qui prétendait y mettre l’univers.</l>
+                        <l n="548"> J’aime. Le digne objet pour qui mon cœur soupire.</l>
+                        <l n="549"> Quoiqu’il ne brille point par l’éclat d’un empire.</l>
+                        <l n="550"> N’en mérite pas moins, par sa seule beauté,</l>
+                        <l n="551"> Tout l’hommage qu’on rend à la divinité :</l>
+                        <l n="552"> Le ciel mit dans son cœur la vertu la plus pure</l>
+                        <l n="553"> Dont il puisse enrichir les dons de la nature.</l>
+                        <l n="554"> Jugez, à ce portrait que je n’ai point flatté,</l>
+                        <l n="555"> Si le nom de la reine y peut être ajouté.</l>
+                        <l n="556"> Vous me vantez en vain son rang et sa tendresse ;</l>
+                        <l n="557"> En vain à la servir votre bouche s’empresse :</l>
+                        <l n="558"> Que pourrait-elle, hélas ! me dire en sa faveur,</l>
+                        <l n="559"> Que vos yeux aussitôt n’effacent de mon cœur ?</l>
+                        <l n="560"> Ah ! ne les armez point d’une injuste colère,</l>
+                        <l n="561"> Princesse ; mon dessein n’est pas de leur déplaire :</l>
+                        <l n="562"> Les miens ne sont ouverts que pour les admirer,</l>
+                        <l n="563"> Et mon cœur n était fait que pour les adorer.</l>
+                </sp>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="564"> Je n’ai que trop prévu que l’amour de la reine</l>
+                        <l n="565"> Exciterait en vous une audace si vaine ;</l>
+                        <l n="566"> Et, mesurant bientôt tous les cœurs sur le sien,</l>
+                        <l n="567"> Que parmi les vaincus vous compteriez le mien.</l>
+                        <l n="568"> Fier de tant de hauts faits, vous avez cru peut-être</l>
+                        <l n="569"> Que la seule valeur vous en rendrait le maître ;</l>
+                        <l n="570"> Mais, si jamais l’amour le soumet à vos lois,</l>
+                        <l n="571"> Ce sera le plus grand de vos fameux exploits.</l>
+                        <l n="572"> Vingt royaumes conquis, l’Égypte subjuguée,</l>
+                        <l n="573"> L’Afrique en ses déserts par vous seul reléguée,</l>
+                        <l n="574"> N’ont que trop signalé votre invincible cœur,</l>
+                        <l n="575"> Sans enchaîner le mien au char de leur vainqueur.</l>
+                        <l n="576"> Seigneur, et quel espoir a donc pu vous promettre</l>
+                        <l n="577"> Qu’à vos désirs un jour vous pourriez le soumettre ?</l>
+                        <l n="578"> Car, si vous n’en eussiez jamais rien attendu,</l>
+                        <l n="579"> Vous auriez mieux gardé le respect qui m’est dû.</l>
+                        <l n="580"> J’estimais vos vertus, et ce n’est pas sans peine</l>
+                        <l n="581"> Que je vous vois chercher à mériter ma haine.</l>
+                        <l n="582"> Je ne vous parle point du péril où vos feux</l>
+                        <l n="583"> Exposent tous les miens, et moi-même avec eux ;</l>
+                        <l n="584"> Vous l’auriez dû prévoir : une plus belle flamme</l>
+                        <l n="585"> De ce soin généreux eût occupé votre âme.</l>
+                        <l n="586"> Je veux bien vous cacher d’autres secrets encor</l>
+                        <l n="587"> Plus terribles cent fois pour l’amour d’Agénor :</l>
+                        <l n="588"> Mais, si vous en voulez pénétrer le mystère,</l>
+                        <l n="589"> Daignez, si vous l’osez, interroger mon père.</l>
+                        <l n="590"> Il vient : vous en pourrez mieux apprendre aujourd’hui</l>
+                        <l n="591"> Ce qu’il faut espérer de sa fille et de lui.</l>
+            <stage><em>Elle sort.</em></stage>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR, seul. </speaker>
+                        <l n="592"> Qu’entends-je ? quel mépris ! Ah ! c’en est trop, ingrate ;</l>
+                        <l n="593"> Vous n’abuserez plus d’un amour qui vous flatte.</l>
+                        <l n="594"> Mais j’aperçois Bélus ; fuyons un entretien</l>
+                        <l n="595"> Qui ne peut plus qu’aigrir et son cœur et le mien.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="596"> Arrêtez un moment : j’ai deux mots à vous dire,</l>
+                        <l n="597"> Qui me regardent, vous, la reine, et tout l’empire.</l>
+                        <l n="598"> Au mépris de son sang, plus encor de nos lois,</l>
+                        <l n="599"> Qui n’ont jamais admis d’étrangers pour nos rois,</l>
+                        <l n="600"> De ma sœur et de vous on dit que l’hyménée,</l>
+                        <l n="601"> Seigneur, doit dès ce jour unir la destinée.</l>
+                        <l n="602"> L’esprit avec justice indigné de ce bruit,</l>
+                        <l n="603"> J’ai voulu par vous-même en être mieux instruit.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="604"> Si ce bruit, quel qu’il soit, a de quoi vous surprendre,</l>
+                        <l n="605"> De la reine, seigneur, ne pouviez-vous l’apprendre ?</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="606"> Ah ! je ne sais que trop ses projets insensés.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="607"> Et moi de vos secrets plus que vous ne pensez.</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="608"> Si jamais votre cœur fut vraiment magnanime,</l>
+                        <l n="609"> Vous n’aurez donc pour moi conçu que de l’estime.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="610"> Je ne démêle point les divers intérêts</l>
+                        <l n="611"> Qui vous font en ces lieux former tant de projets :</l>
+                        <l n="612"> Il m’a suffi, savant dans l’art de les détruire,</l>
+                        <l n="613"> D’en préserver l’état, mais sans vouloir vous nuire.</l>
+                        <l n="614"> Ce discours vous surprend ; mais, prince, poursuivez,</l>
+                        <l n="615"> Et ne regardez point ce que vous me devez.</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="616"> Je vous devrais beaucoup pour tant de retenue,</l>
+                        <l n="617"> Si la cause, seigneur, m’en était mieux connue.</l>
+                        <l n="618"> Mon cœur n’est point ingrat ; cependant je sens bien</l>
+                        <l n="619"> Qu’il voudrait vous haïr, et ne vous devoir rien.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="620"> Je vais donc aujourd’hui, par un aveu sincère,</l>
+                        <l n="621"> Justifier ici cette haine si chère.</l>
+                        <l n="622"> Vous avez cru sans doute, en votre vain courroux,</l>
+                        <l n="623"> Qu’un étranger sans nom fléchirait devant vous,</l>
+                        <l n="624"> Et surtout au milieu d’une cour ennemie</l>
+                        <l n="625"> Où l’on voit sa puissance encor mal affermie ;</l>
+                        <l n="626"> Que vous n’aviez, seigneur, qu’à venir m’annoncer</l>
+                        <l n="627"> Qu’à l’hymen de la reine il fallait renoncer,</l>
+                        <l n="628"> Pour me voir, au dessein de conserver ma vie,</l>
+                        <l n="629"> Sacrifier l’espoir de régner sur l’Asie.</l>
+                        <l n="630"> Mais de mes ennemis je brave les projets :</l>
+                        <l n="631"> Je crains peu la menace, encor moins les effets ;</l>
+                        <l n="632"> Et, si jamais l’amour m’entraînait vers la reine,</l>
+                        <l n="633"> Je consulterais peu ni Bélus ni sa haine.</l>
+                        <l n="634"> Mais, pour un autre objet dès longtemps prévenu,</l>
+                        <l n="635"> Dans des liens plus doux mon cœur fut retenu.</l>
+                        <l n="636"> Votre fille, seigneur, est celle que j’adore,</l>
+                        <l n="637"> Ou que sans ses mépris j’adorerais encore.</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="638"> Ma fille ! Ténésis ?</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="639"> Un captif tel que moi</l>
+                        <l n="640"> Honorerait ses fers, même sans qu’il fût roi.</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="641"> Seigneur, si mes secrets ont besoin de silence,</l>
+                        <l n="642"> Les vôtres n’avaient pas besoin de confidence.</l>
+                        <l n="643"> Quoi ! d’aïeux sans éclat Agénor descendu</l>
+                        <l n="644"> À l’hymen de ma fille aurait-il prétendu ?</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="645"> On vante peu le sang dont j’ai reçu la vie ;</l>
+                        <l n="646"> Mais je n’en connais point à qui je porte envie :</l>
+                        <l n="647"> D’aucun soin sur ce point mon cœur n’est combattu.</l>
+                        <l n="648"> Le destin m’a fait naître au sein de la vertu ;</l>
+                        <l n="649"> C’est elle qui prit soin d’élever mon enfance,</l>
+                        <l n="650"> Et ma gloire a depuis passé mon espérance.</l>
+                        <l n="651"> Quiconque peut avoir un cœur tel que le mien</l>
+                        <l n="652"> Ne connaît point de sang plus digne que le sien ;</l>
+                        <l n="653"> Et, quand j’ai recherché votre auguste alliance,</l>
+                        <l n="654"> J’ai compté vos vertus, et non votre naissance.</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="655"> C’est elle cependant qui décide entre nous.</l>
+                        <l n="656"> Il est plus d’un mortel aussi vaillant que vous ;</l>
+                        <l n="657"> Mais je n’en connais point, quelque grand qu’il puisse être,</l>
+                        <l n="658"> Dont le sang d’où je sors ne doive être le maître.</l>
+                        <l n="659"> La valeur ne fait pas les princes et les rois :</l>
+                        <l n="660"> Ils sont enfants des dieux, du destin et des lois.</l>
+                        <l n="661"> La valeur, quels que soient ses droits et ses maximes,</l>
+                        <l n="662"> Fait plus d’usurpateurs que de rois légitimes.</l>
+                        <l n="663"> Si la valeur, plutôt que la splendeur du sang,</l>
+                        <l n="664"> Au-dessus des humains pouvait nous faire un rang,</l>
+                        <l n="665"> Il n’est point de soldat qu’un peu de gloire inspire,</l>
+                        <l n="666"> Qui ne pût, à son tour, aspirer à l’empire.</l>
+                        <l n="667"> En vain sur vos exploits vous fondez votre espoir.</l>
+                        <l n="668"> Vous voilà revêtu de l’absolu pouvoir ;</l>
+                        <l n="669"> Mais comment ? et par qui ? Seigneur, une couronne</l>
+                        <l n="670"> N’est jamais bien à nous si le sang ne la donne.</l>
+                        <l n="671"> La reine, comme moi, sort de celui des dieux ;</l>
+                        <l n="672"> Elle règne : est-ce assez pour oser autant qu’eux ?</l>
+                        <l n="673"> Imitons leur justice, et non pas leur puissance :</l>
+                        <l n="674"> L’équité doit régler et peine et récompense.</l>
+                        <l n="675"> Quoi qu’il en soit, parmi de peu dignes aïeux</l>
+                        <l n="676"> Ma fille n’ira point mêler le sang des dieux.</l>
+                        <l n="677"> Sur un sang aussi beau si votre amour se fonde,</l>
+                        <l n="678"> Venez la disputer au souverain du monde.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="679"> L’orgueil de ces grands noms n’éblouit point mes yeux :</l>
+                        <l n="680"> Le mien, sans ce secours, est assez glorieux</l>
+                        <l n="681"> Pour ne rien voir ici dont ma fierté s’étonne.</l>
+                        <l n="682"> Un guerrier généreux que la vertu couronne</l>
+                        <l n="683"> Vaut bien un roi formé par le secours des lois :</l>
+                        <l n="684"> Le premier qui le fut n’eut pour lui que sa voix.</l>
+                        <l n="685"> Quiconque est élevé par un si beau suffrage</l>
+                        <l n="686"> Ne croit pas du destin déshonorer l’ouvrage.</l>
+                        <l n="687"> Seigneur, à Ténésis je réservais ma foi,</l>
+                        <l n="688"> Parce que mon amour la crut digne de moi :</l>
+                        <l n="689"> J’ai voulu vous l’offrir, dans la crainte peut-être</l>
+                        <l n="690"> De me voir obligé de vous donner un maître.</l>
+                        <l n="691"> La reine m’offre ici l’empire avec sa main :</l>
+                        <l n="692"> Puisque vous m’y forcez, ce sera dès demain ;</l>
+                        <l n="693"> Ne fût-ce qu’à dessein, seigneur, de vous instruire</l>
+                        <l n="694"> Qu’un soldat n’en est pas moins digne de l’empire.</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="695"> Hé bien ! poursuivez donc, tâchez de l’obtenir ;</l>
+                        <l n="696"> Mais songez aux moyens de vous y maintenir.</l>
+            <stage><em>Il sort.</em></stage>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR, seul. </speaker>
+                        <l n="697"> Ah ! dût-il m’en coûter le repos de ma vie,</l>
+                        <l n="698"> Je veux de leurs mépris punir l’ignominie.</l>
+                        <l n="699"> La reine vient : parlons, irritons son ardeur,</l>
+                        <l n="700"> Associons ma haine aux transports de son cœur ;</l>
+                        <l n="701"> Employons, s’il se peut, à flatter sa tendresse</l>
+                        <l n="702"> Le moment de raison que mon dépit me laisse.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="703"> Invincible héros, seul appui de mes jours,</l>
+                        <l n="704"> À quel autre aujourd’hui pourrais-je avoir recours ?</l>
+                        <l n="705"> Je viens de pénétrer le plus affreux mystère.</l>
+                        <l n="706"> On me trahit, seigneur, et le traître est mon frère.</l>
+                        <l n="707"> Cette austère vertu dont se paraît l’ingrat</l>
+                        <l n="708"> Ne servait que de voile au plus noir attentat.</l>
+                        <l n="709"> Comblé de tant d’honneurs, ce perfide que j’aime</l>
+                        <l n="710"> De mes propres bienfaits s’arme contre moi-même ;</l>
+                        <l n="711"> C’est lui dont la fureur, séduisant mes sujets,</l>
+                        <l n="712"> M’en fait des ennemis déclarés ou secrets.</l>
+                        <l n="713"> L’auriez-vous soupçonné d’une action si noire ?</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="714"> D’un prince tel que lui vous devez peu la croire.</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="715"> Seigneur, il n’est plus temps de le justifier :</l>
+                        <l n="716"> Il ne faut plus songer qu’à le sacrifier.</l>
+                        <l n="717"> Ma tendresse pour lui ne fut que trop sincère ;</l>
+                        <l n="718"> Je n’en ai que trop fait pour cet indigne frère,</l>
+                        <l n="719"> Malgré moi : car enfin ce n’est pas d’aujourd’hui</l>
+                        <l n="720"> Que mon cœur en secret s’élève contre lui.</l>
+                        <l n="721"> Si vous saviez quelle est la fureur qui le guide,</l>
+                        <l n="722"> Et tout ce qu’en ces lieux méditait le perfide !</l>
+                        <l n="723"> Il en veut à vous-même, à mon trône, à mes jours,</l>
+                        <l n="724"> Si de tant de complots vous n’arrêtez le cours.</l>
+                        <l n="725"> Mourant, percé de coups par l’ordre de ce traître,</l>
+                        <l n="726"> Mégabise, seigneur, dans ces murs va paraître :</l>
+                        <l n="727"> Je le fais en secret apporter en ces lieux.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="728"> Madame, devez-vous en croire un furieux ?</l>
+                        <l n="729"> Il est vrai qu’il accuse et Bélus et Madate.</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="730"> Vous voyez s’il est temps que ma vengeance éclate.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="731"> Il faut dissimuler un si juste courroux :</l>
+                        <l n="732"> Bélus est dans ces lieux aussi puissant que vous.</l>
+                        <l n="733"> Gardez-vous d’éclater : plus que jamais, madame,</l>
+                        <l n="734"> Vous devez renfermer vos transports dans votre âme.</l>
+                        <l n="735"> Tout un peuple, pour lui prêt à se déclarer...</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="736"> Eh bien ! pendant la nuit il faut s’en assurer.</l>
+                        <l n="737"> C’est de vous que j’attends cet important service,</l>
+                        <l n="738"> Vous, pour qui seul ici j’ordonne son supplice.</l>
+                        <l n="739"> Seigneur, vous vous troublez ! Je ne sais quels transports</l>
+                        <l n="740"> Éclatent dans vos yeux malgré tous vos efforts.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="741"> Reine, je l’avouerai qu’à regret contre un frère</l>
+                        <l n="742"> Mon bras vous prêterait ici son ministère :</l>
+                        <l n="743"> Non que de vous servir il néglige l’emploi,</l>
+                        <l n="744"> Mais daignez le commettre à quelque autre que moi.</l>
+                        <l n="745"> Vous ne m’en verrez pas moins prompt à vous défendre,</l>
+                        <l n="746"> Contre des jours si chers si l’on ose entreprendre.</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="747"> Ah ! seigneur, ce n’est pas l’intérêt de mes jours</l>
+                        <l n="748"> Qui me fait d’un héros implorer le secours.</l>
+                        <l n="749"> Plût au ciel que Bélus n’en voulût qu’à ma vie !</l>
+                        <l n="750"> D’un courroux moins ardent on me verrait saisie.</l>
+                        <l n="751"> Mais, hélas ! le cruel attaque en sa fureur</l>
+                        <l n="752"> Tout ce qui fut jamais de plus cher à mon cœur :</l>
+                        <l n="753"> Ce n’est qu’à le sauver que ma tendresse aspire,</l>
+                        <l n="754"> Et ce n’est pas pour moi que je défends l’empire.</l>
+                        <l n="755"> Seigneur, si Ténésis eût rempli mon espoir,</l>
+                        <l n="756"> Mon cœur n’aurait plus rien à vous faire savoir ;</l>
+                        <l n="757"> Et le vôtre du moins, plein de reconnaissance,</l>
+                        <l n="758"> Rassurerait du mien la timide espérance.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="759"> La princesse a daigné, dans un long entretien...</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="760"> Hé quoi ! vous l’avez vue, et ne m’en dites rien !</l>
+                        <l n="761"> On sait tout ; cependant on garde un froid silence !</l>
+                        <l n="762"> On se trouble, on soupire, et même en ma présence !</l>
+                        <l n="763"> Quels regards ! quel accueil ! et qu’est-ce que je voi ?</l>
+                        <l n="764"> Sans doute on vous aura prévenu contre moi.</l>
+                        <l n="765"> Ah ! seigneur, pardonnez ces pleurs à mes alarmes,</l>
+                        <l n="766"> Et n’accusez que vous de mes premières larmes.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="767"> Quand on est, comme vous, si ressemblante aux dieux.</l>
+                        <l n="768"> Dans le cœur des mortels on devrait lire mieux.</l>
+                        <l n="769"> Que n’en doit point attendre une reine si belle ?</l>
+                        <l n="770"> Quel cœur à ses désirs pourrait être rebelle ?</l>
+                        <l n="771"> Sans vous offrir ici des soupirs ni des soins,</l>
+                        <l n="772"> Peut-être qu’Agénor n’en aimera pas moins.</l>
+                        <l n="773"> Son cœur, né pour la guerre et non pour la tendresse,</l>
+                        <l n="774"> Des camps qui l’ont nourri garde encor la rudesse ;</l>
+                        <l n="775"> Et je crois qu’en effet vous n’en attendez pas</l>
+                        <l n="776"> Des vulgaires amants les frivoles éclats :</l>
+                        <l n="777"> Mais tel qu’il est enfin, si ce cœur peut vous plaire,</l>
+                        <l n="778"> J’accepte tous les dons que vous voulez me faire.</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="779"> Que vous me rassurez par un aveu si doux !</l>
+                        <l n="780"> Qu’avec crainte, seigneur, j’ai paru devant vous !</l>
+                        <l n="781"> Hélas ! sans se flatter, une reine coupable</l>
+                        <l n="782"> Pouvait-elle espérer de vous paraître aimable ?</l>
+                        <l n="783"> Pour toucher votre cœur, je n’ai que mes transports ;</l>
+                        <l n="784"> Pour me justifier, je n’ai que mes remords.</l>
+                        <l n="785"> Mais que dis-je ? et pourquoi me reprocher un crime</l>
+                        <l n="786"> Que mon amour pour vous va rendre légitime ?</l>
+                        <l n="787"> Si jamais dans le sang mes mains n’eussent trempé,</l>
+                        <l n="788"> Si quelque heureux forfait ne me fût échappé,</l>
+                        <l n="789"> Je ne goûterais pas la douceur infinie</l>
+                        <l n="790"> De pouvoir vous aimer le reste de ma vie.</l>
+                        <l n="791"> Venez, seigneur, venez donner à l’univers,</l>
+                        <l n="792"> Qui me vit si longtemps lui préparer des fers,</l>
+                        <l n="793"> Un spectacle pompeux qu’il n’osait se promettre :</l>
+                        <l n="794"> C’est de voir à son tour un mortel me soumettre.</l>
+                        <l n="795"> Venez, par un hymen si cher à mes souhaits,</l>
+                        <l n="796"> Du perfide Bélus confondre les projets.</l>
+                        <l n="797"> Par ces nœuds, dont je cours hâter l’auguste fête,</l>
+                        <l n="798"> Venez de l’univers m’annoncer la conquête.</l>
+                        <l n="799"> Hélas ! je l’ai privé du plus grand de ses rois ;</l>
+                        <l n="800"> Mais je lui rends en vous plus que je ne lui dois.</l></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="801"> Madate, c’en est fait ; la fortune cruelle</l>
+                        <l n="802"> A juré que ma sœur l’éprouverait fidèle.</l>
+                        <l n="803"> Le traître Mégabise, à tes coups échappé,</l>
+                        <l n="804"> Nous vend cher à tous deux le trait qui la frappé.</l>
+                        <l n="805"> Il a de nos complots fait avertir la reine,</l>
+                        <l n="806"> Et je sais que près d’elle en secret on l’amène.</l>
+                        <l n="807"> Il ne nous reste plus, dans un si triste sort,</l>
+                        <l n="808"> D’autre espoir que celui d’illustrer notre mort.</l>
+                        <l n="809"> Mourons : mais, s’il se peut, avant qu’on nous opprime,</l>
+                        <l n="810"> Honorons mon trépas de plus d’une victime.</l>
+                        <l n="811"> Seul espoir dont mon cœur s’est trop entretenu,</l>
+                        <l n="812"> Imprudent Ninias, qu’êtes-vous devenu ?</l>
+                </sp>
+        <sp who="#madate">
+            <speaker> MADATE. </speaker>
+                        <l n="813"> Seigneur, dès que le sort contre nous se déclare,</l>
+                        <l n="814"> Que pourrait contre lui la vertu la plus rare ?</l>
+                        <l n="815"> Et quel espoir encor peut vous être permis</l>
+                        <l n="816"> Dans ces perfides lieux à la reine soumis ?</l>
+                        <l n="817"> C’est loin d’ici qu’il faut conjurer un orage</l>
+                        <l n="818"> Que prétendrait en vain braver votre courage.</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="819"> Qui ? moi ! qu’en fugitif j’abandonne ces lieux !</l>
+                        <l n="820"> Mes ennemis y sont, et je ne cherche qu’eux.</l>
+                        <l n="821"> Le ciel même dût-il m’accabler sous sa chute,</l>
+                        <l n="822"> Mon cœur n’est pas de ceux que le péril rebute :</l>
+                        <l n="823"> Il n a jamais formé que d’illustres desseins,</l>
+                        <l n="824"> Et ma perte aujourd’hui n’est pas ce que je crains.</l>
+                        <l n="825"> As-tu fait de ma part avertir Mermécide ?</l>
+                        <l n="826"> C’est de lui que j’attends un conseil moins timide.</l>
+                        <l n="827"> Il vient : cours cependant informer Agénor</l>
+                        <l n="828"> Qu’un moment sans témoins je veux le voir encor.</l>
+                        <l n="829"> Je conçois un projet qui flatte ma vengeance,</l>
+                        <l n="830"> Et rend à mon courroux sa plus chère espérance.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="831"> Mermécide, sais-tu jusqu’où vont nos malheurs ?</l>
+                        <l n="832"> Que ce funeste jour nous prépare d’horreurs !</l>
+                        <l n="833"> Nous sommes découverts, et bientôt de la reine</l>
+                        <l n="834"> Nous allons voir sur nous tomber toute la haine.</l>
+                </sp>
+        <sp who="#mermécide">
+            <speaker> MERMÉCIDE. </speaker>
+                        <l n="835"> Je vous ai déjà dit, seigneur, que cette main</l>
+                        <l n="836"> N’attend qu’un mot de vous pour lui percer le sein.</l>
+                        <l n="837"> Malgré le faix des ans, l’âge enfin qui tout glace,</l>
+                        <l n="838"> Je sens par vos périls réchauffer mon audace.</l>
+                        <l n="839"> Prononcez son arrêt, condamnez votre sœur ;</l>
+                        <l n="840"> J’immole avant la nuit elle et son défenseur.</l>
+                        <l n="841"> Il semble qu’avec nous le sort d’intelligence</l>
+                        <l n="842"> Livre à tous vos desseins ce guerrier sans défense.</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="843"> Non, Mermécide, non, je n’y puis consentir :</l>
+                        <l n="844"> Épargne à ma vertu l’horreur d’un repentir.</l>
+                        <l n="845"> Mon bras ne s’est armé que pour punir des crimes,</l>
+                        <l n="846"> Et non pour immoler d’innocentes victimes.</l>
+                        <l n="847"> Je l’ai vu ce héros : tremblant à son aspect,</l>
+                        <l n="848"> Je n’ai senti pour lui qu’amour et que respect.</l>
+                        <l n="849"> De quel crime en effet ce guerrier redoutable</l>
+                        <l n="850"> Envers les miens et moi peut-il être coupable ?</l>
+                        <l n="851"> On n’est point criminel pour être ambitieux.</l>
+                        <l n="852"> On offre à ses désirs un trône glorieux :</l>
+                        <l n="853"> À ses vœux les plus doux moi seul ici contraire,</l>
+                        <l n="854"> Je dédaigne un héros qui m’est si nécessaire ;</l>
+                        <l n="855"> Cependant je l’estime, et je sens dans mon cœur</l>
+                        <l n="856"> Je ne sais quel penchant parler en sa faveur.</l>
+                        <l n="857"> Je n’ai peut-être ici qu’avec trop d’imprudence</l>
+                        <l n="858"> Laissé d’un vain mépris éclater l’apparence.</l>
+                        <l n="859"> Perdons ma sœur : pour lui, consens à l’épargner ;</l>
+                        <l n="860"> Loin de le perdre, il faut tâcher de le gagner.</l>
+                        <l n="861"> Je sais un sûr moyen de l’armer pour moi-même :</l>
+                        <l n="862"> Que te dirai-je enfin ? c’est Ténésis qu’il aime.</l>
+                </sp>
+        <sp who="#mermécide">
+            <speaker> MERMÉCIDE. </speaker>
+                        <l n="863"> Mais pour en disposer, seigneur, est-elle à vous ?</l>
+                        <l n="864"> Ninias, engagé dans des liens si doux,</l>
+                        <l n="865"> En a gardé peut-être une tendre mémoire.</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="866"> Cette union n’était que trop chère à ma gloire.</l>
+                        <l n="867"> Qui doit plus que Bélus en regretter les nœuds ?</l>
+                        <l n="868"> Cet hymen aurait mis le comble à tous mes vœux.</l>
+                        <l n="869"> Mais un plus digne soin veut qu’on lui sacrifie</l>
+                        <l n="870"> L’espoir qu’eut Ténésis au trône de l’Asie :</l>
+                        <l n="871"> Il faut à Ninias conserver désormais</l>
+                        <l n="872"> Un sceptre qui doit seul attirer ses souhaits.</l>
+                        <l n="873"> Ma fille fut à lui ; mais ce n’est pas un gage</l>
+                        <l n="874"> Qui lui puisse assurer un si noble avantage.</l>
+                        <l n="875"> À son premier hymen arrachons Ténésis,</l>
+                        <l n="876"> Si je veux d’un second priver Sémiramis :</l>
+                        <l n="877"> Ninias n’aurait plus qu’une espérance vaine,</l>
+                        <l n="878"> Si jamais Agénor s’unissait à la reine.</l>
+                        <l n="879"> Enfin, puisque le sort m’y contraint aujourd’hui,</l>
+                        <l n="880"> Il faut sans murmurer descendre jusqu’à lui,</l>
+                        <l n="881"> En de honteux liens engager ma famille,</l>
+                        <l n="882"> Aux vœux d’un inconnu sacrifier ma fille.</l>
+                </sp>
+        <sp who="#mermécide">
+            <speaker> MERMÉCIDE. </speaker>
+                        <l n="883"> Mais si de son hymen il dédaignait l’honneur ?</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="884"> Je l’abandonne alors à toute ta fureur.</l>
+                        <l n="885"> Adieu. Bientôt ici ce guerrier doit se rendre.</l>
+                        <l n="886"> En ces lieux cependant songeons à nous défendre :</l>
+                        <l n="887"> Disperse nos amis autour de ce palais ;</l>
+                        <l n="888"> Qu’aux troupes de la reine ils en ferment l’accès.</l>
+                        <l n="889"> Il faut des plus hardis, commandés par moi-même,</l>
+                        <l n="890"> Placer ici l’élite en ce péril extrême ;</l>
+                        <l n="891"> Semer de toutes parts des bruits séditieux</l>
+                        <l n="892"> Qui puissent ranimer les moins audacieux ;</l>
+                        <l n="893"> Dire que Ninias voit encor la lumière,</l>
+                        <l n="894"> Qu’il revient pour venger le meurtre de son père.</l>
+                        <l n="895"> Je veux de ce faux bruit faire trembler ma sœur ;</l>
+                        <l n="896"> Porter le désespoir jusqu’au fond de son cœur.</l>
+                        <l n="897"> Tandis qu’ici tu vas signaler ton courage,</l>
+                        <l n="898"> Que ma vertu du mien va faire un triste usage !</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#bélus">
+            <speaker> BÉLUS </speaker>
+                        <l n="899"> Enfin, c’en est donc fait : me voilà parvenu</l>
+                        <l n="900"> Au point de m’abaisser aux pieds d’un inconnu,</l>
+                        <l n="901"> De flatter une ardeur que j’ai tant méprisée,</l>
+                        <l n="902"> Mais que le sort injuste a trop favorisée.</l>
+                        <l n="903"> De l’espoir le plus doux il faut me dépouiller,</l>
+                        <l n="904"> Et du sang de ma sœur peut-être me souiller.</l>
+                        <l n="905"> Telle est donc de ces lieux l’influence cruelle,</l>
+                        <l n="906"> Que jusqu’à la vertu s’y rendra criminelle !</l>
+                        <l n="907"> Et, lorsque de ses soins la justice est l’objet,</l>
+                        <l n="908"> Elle y doit emprunter le secours du forfait !</l>
+                        <l n="909"> Dieux jaloux, dont j’ai tant imploré la vengeance,</l>
+                        <l n="910"> Confiez-m’en du moins l’invincible puissance.</l>
+                        <l n="911"> Si tel est de mon sang le malheureux destin</l>
+                        <l n="912"> Qu’il y faille ajouter un crime de ma main,</l>
+                        <l n="913"> Que l’astre injurieux qui sur ce sang préside</l>
+                        <l n="914"> Lui doive un assassin après un parricide ;</l>
+                        <l n="915"> Grands dieux ! si vous n’osez vous joindre à mon courroux,</l>
+                        <l n="916"> Daignez pour un moment m’associer à vous.</l>
+                        <l n="917"> On vient. C’est l’étranger. Que de trouble à sa vue</l>
+                        <l n="918"> S’élève tout-à-coup dans mon âme éperdue !</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="919"> N’est-ce point abuser des moments d’Agénor,</l>
+                        <l n="920"> Que de vouloir ici l’entretenir encor ?</l>
+                        <l n="921"> Seigneur, sans me flatter d’une vaine espérance,</l>
+                        <l n="922"> Puis-je attendre de vous un peu de confiance ?</l>
+                        <l n="923"> Après un entretien mêlé de tant d’aigreur,</l>
+                        <l n="924"> Puis-je en espérer un plus conforme à mon cœur ?</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="925"> Dès qu’il en bannira l’orgueil et la menace,</l>
+                        <l n="926"> Qu’il n’ira point lui-même exciter mon audace,</l>
+                        <l n="927"> Bélus peut-il penser qu’Agénor aujourd’hui</l>
+                        <l n="928"> Manque de confiance ou de respect pour lui ?</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="929"> Je vais donc avec vous employer un langage</l>
+                        <l n="930"> Dont jamais ma fierté ne me permit l’usage.</l>
+                        <l n="931"> Je vois sur votre front une auguste candeur,</l>
+                        <l n="932"> Don du ciel que n’a point démenti votre cœur,</l>
+                        <l n="933"> Qui semble m’inviter à vous ouvrir sans crainte</l>
+                        <l n="934"> Celui d’un prince né sans détour et sans feinte.</l>
+                        <l n="935"> Mais, avant qu’à vos yeux de mes desseins secrets</l>
+                        <l n="936"> Je développe ici les sacrés intérêts,</l>
+                        <l n="937"> Il m’importe, seigneur, de regagner l’estime</l>
+                        <l n="938"> D un cœur que je ne puis croire que magnanime.</l>
+                        <l n="939"> Vous avez cru sans doute, instruit de mes desseins,</l>
+                        <l n="940"> Que l’ambition seule avait armé mes mains.</l>
+                        <l n="941"> En effet, à me voir appliqué sans relâche</l>
+                        <l n="942"> Aux malheureux complots où mon courroux m’attache,</l>
+                        <l n="943"> Qui ne croirait, seigneur, du moins sans m’offenser,</l>
+                        <l n="944"> À de honteux soupçons pouvoir se dispenser ?</l>
+                        <l n="945"> Mais ce n’est pas sur moi qu’aucun désir n’enflamme,</l>
+                        <l n="946"> C’est sur les dieux qu’il faut en rejeter le blâme.</l>
+                        <l n="947"> La fureur de régner ne m’a point corrompu :</l>
+                        <l n="948"> Je régnerais, seigneur, si je l’avais voulu.</l>
+                        <l n="949"> Si ma sœur elle-même avait régné sans crime,</l>
+                        <l n="950"> Si sur moi son pouvoir eût été légitime,</l>
+                        <l n="951"> Ou si, pour la punir d’un parricide affreux,</l>
+                        <l n="952"> Les dieux avaient été plus prompts, plus rigoureux,</l>
+                        <l n="953"> Vous ne me verriez point attaquer sa puissance,</l>
+                        <l n="954"> Ou sur ces dieux trop lents usurper la vengeance :</l>
+                        <l n="955"> Mais ils m’ont de leurs soins dénié la faveur,</l>
+                        <l n="956"> Comme si c’était moi qu’eût offensé ma sœur,</l>
+                        <l n="957"> Ou que je dusse seul embrasser leur querelle.</l>
+                        <l n="958"> Je ne suis que pour eux, ils ne sont que pour elle.</l>
+                        <l n="959"> Mais vous qu’à mes desseins j’éprouve si fatal,</l>
+                        <l n="960"> Lorsque vous devriez en être le rival,</l>
+                        <l n="961"> Avec une vertu que l’univers révère,</l>
+                        <l n="962"> Qui devrait d’elle-même épouser ma colère,</l>
+                        <l n="963"> Je ne vois qu’un héros protecteur des forfaits,</l>
+                        <l n="964"> Qui se laisse entraîner au torrent des bienfaits.</l>
+                        <l n="965"> Car ne vous flattez point qu’avec quelque innocence</l>
+                        <l n="966"> Vous puissiez de ma sœur embrasser la défense.</l>
+                        <l n="967"> Et comment se peut-il qu’épris de Ténésis,</l>
+                        <l n="968"> Vous ayez pu, seigneur, servir Sémiramis ?</l>
+                        <l n="969"> Quel était donc l’espoir du feu qui vous anime ?</l>
+                        <l n="970"> Vous saviez mes projets ; ignorez-vous son crime ?</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="971"> Et que m’importe à moi ce forfait odieux ?</l>
+                        <l n="972"> Est-ce à moi sur ce point de prévenir les dieux ?</l>
+                        <l n="973"> Pour vous charger ici du soin de son supplice,</l>
+                        <l n="974"> Est-ce à vous que le ciel a commis sa justice ?</l>
+                        <l n="975"> Seigneur, dans ses desseins votre cœur trop ardent</l>
+                        <l n="976"> Ne cache point assez le piège qu’il me tend.</l>
+                        <l n="977"> De vos divers complots la trame découverte</l>
+                        <l n="978"> Vous fait de votre sœur vouloir hâter la perte :</l>
+                        <l n="979"> Dans le dessein affreux d’attenter à ses jours,</l>
+                        <l n="980"> Vous voulez lui ravir son unique secours.</l>
+                        <l n="981"> Cessez de me flatter que l’univers m’admire,</l>
+                        <l n="982"> Pour m’en faire un devoir de refuser l’empire,</l>
+                        <l n="983"> De rejeter l’honneur d’un hymen glorieux...</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="984"> Dites plutôt, seigneur, d’un hymen odieux.</l>
+                        <l n="985"> Oui, je veux vous ravir ce honteux diadème,</l>
+                        <l n="986"> Vous ôter à la reine, et vous rendre à vous-même,</l>
+                        <l n="987"> Retenir la vertu qui fuit de votre sein,</l>
+                        <l n="988"> De ma fille et de moi vous rendre digne enfin.</l>
+                        <l n="989"> Je vois où malgré vous le dépit vous entraîne :</l>
+                        <l n="990"> Mais je veux qu’en héros la raison vous ramène,</l>
+                        <l n="991"> Dussé-je en suppliant embrasser vos genoux.</l>
+                        <l n="992"> Je ne vous nierai pas que j’ai besoin de vous :</l>
+                        <l n="993"> C’est en dire beaucoup pour une âme assez fière,</l>
+                        <l n="994"> Que Ion ne vit jamais descendre à la prière ;</l>
+                        <l n="995"> Et, si je m’en rapporte au bruit de vos vertus,</l>
+                        <l n="996"> C’est en dire encor plus pour vous que pour Bélus.</l>
+                        <l n="997"> Croyez que le désir de sauver une vie</l>
+                        <l n="998"> Qui malgré tous vos soins pourrait m’être ravie,</l>
+                        <l n="999"> N’est pas ce qui m’a fait vous appeler ici.</l>
+                        <l n="1000"> Ne me soupçonnez point d’un si lâche souci,</l>
+                        <l n="1001"> Faible raison pour moi : mon cœur en a bien d’autres,</l>
+                        <l n="1002"> Que je veux essayer de rendre aussi les vôtres.</l>
+                        <l n="1003"> Dussiez-vous révéler mes secrets à ma sœur,</l>
+                        <l n="1004"> Je vais vous découvrir jusqu’au fond de mon cœur.</l>
+                        <l n="1005"> Quelque soin qui pour elle ici vous intéresse,</l>
+                        <l n="1006"> Je n’exige de vous ni serment ni promesse.</l>
+                        <l n="1007"> Quel péril trouverais-je encore à m’expliquer ?</l>
+                        <l n="1008"> Je n’ai plus rien à perdre, et j’ai tout à risquer.</l>
+                        <l n="1009"> De mon indigne sœur la mort est assurée :</l>
+                        <l n="1010"> Malgré les dieux et vous, mon courroux l’a jurée.</l>
+                        <l n="1011"> Oui, seigneur, et ce jour terminera les siens,</l>
+                        <l n="1012"> Deviendra le plus grand ou le dernier des miens.</l>
+                        <l n="1013"> Les conjurés sont prêts : leur troupe audacieuse</l>
+                        <l n="1014"> Portait jusque sur vous une main furieuse,</l>
+                        <l n="1015"> Si je n’eusse arrêté leurs complots inhumains.</l>
+                        <l n="1016"> Quoique vous seul ici traversiez mes desseins,</l>
+                        <l n="1017"> La vertu sur mon cœur fut toujours trop puissante</l>
+                        <l n="1018"> Pour vouloir immoler une tête innocente.</l>
+                        <l n="1019"> Mais je ne puis souffrir qu’avec tant de valeur</l>
+                        <l n="1020"> Vous vous déshonoriez à protéger ma sœur.</l>
+                        <l n="1021"> Si je vous haïssais, votre mort est certaine ;</l>
+                        <l n="1022"> Je n’ai qu’à vous livrer à l’hymen de la reine :</l>
+                        <l n="1023"> Mais je veux vous ravir à ce honteux lien,</l>
+                        <l n="1024"> Et pour y parvenir je n’épargnerai rien.</l>
+                        <l n="1025"> Abandonnez la sœur, je vous réponds du frère.</l>
+                        <l n="1026"> Dites-moi, Ténésis vous est-elle encor chère ?</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1027"> Cruel ! n’achevez pas, j’entrevois vos desseins :</l>
+                        <l n="1028"> Offrez à d’autres vœux vos présents inhumains.</l>
+                        <l n="1029"> Laissez-moi ma vertu : la vôtre, trop farouche,</l>
+                        <l n="1030"> À mon cœur affligé n offre rien qui le touche,</l>
+                        <l n="1031"> Et j’aime mieux encore essuyer vos mépris</l>
+                        <l n="1032"> Que de vous voir tenter de m’avoir à ce prix.</l>
+                        <l n="1033"> Si vous l’aviez pense, je tiendrais votre estime</l>
+                        <l n="1034"> Plus honteuse pour moi que ne serait un crime.</l>
+                        <l n="1035"> Votre fille m’est chère, et jamais dans mon cœur</l>
+                        <l n="1036"> Je ne sentis pour elle une plus vive ardeur :</l>
+                        <l n="1037"> Je l’aime, je l’adore, et mon âme ravie</l>
+                        <l n="1038"> Eût préféré sa main au trône de l’Asie :</l>
+                        <l n="1039"> Je conçois tout le prix d’un bonheur si charmant ;</l>
+                        <l n="1040"> Mais je le conçois plus en héros qu’en amant.</l>
+                        <l n="1041"> Vous remplissez mon cœur de douleur et de rage,</l>
+                        <l n="1042"> Sans remporter sur lui que ce faible avantage.</l>
+                        <l n="1043"> Triste et désespéré de vos premiers refus,</l>
+                        <l n="1044"> Et d’un illustre hymen moins touché que confus,</l>
+                        <l n="1045"> J’allais quitter ces lieux malgré ma foi promise,</l>
+                        <l n="1046"> Honteux qu’à mon dépit la reine l’eût surprise :</l>
+                        <l n="1047"> Mais, seigneur, c’est assez, pour m’attacher ici,</l>
+                        <l n="1048"> Que de tous vos complots vous m’ayez éclairci.</l>
+                        <l n="1049"> Votre sœur en moi seul a mis son espérance :</l>
+                        <l n="1050"> Fallût-il de mon sang payer sa confiance,</l>
+                        <l n="1051"> Aux plus affreux dangers vous me verrez courir,</l>
+                        <l n="1052"> Sans donner à l’amour seulement un soupir.</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="1053"> Courez donc immoler Ténésis elle-même,</l>
+                        <l n="1054"> Une princesse encor qui peut-être vous aime :</l>
+                        <l n="1055"> Car enfin, à juger de son cœur par le mien,</l>
+                        <l n="1056"> Mon penchant doit assez vous répondre du sien.</l>
+                        <l n="1057"> Mais votre cœur se fait une gloire sauvage</l>
+                        <l n="1058"> De refuser du mien un si précieux gage.</l>
+                        <l n="1059"> Mon fils (d’un nom si doux laissez-moi vous nommer,</l>
+                        <l n="1060"> Et dans ses soins pour vous mon cœur se confirmer),</l>
+                        <l n="1061"> Une fausse vertu vous flatte et vous abuse ;</l>
+                        <l n="1062"> Au véritable honneur votre cœur se refuse.</l>
+                        <l n="1063"> Fait-il donc consister sa gloire à protéger</l>
+                        <l n="1064"> Des crimes dont déjà vous m’auriez dû venger ?</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1065"> Voyez où vous emporte une aveugle colère.</l>
+                        <l n="1066"> Eh ! qui défends-je ici ? La sœur contre le frère.</l>
+                        <l n="1067"> Votre cœur croit en vain remporter sur le mien :</l>
+                        <l n="1068"> Malgré tout mon amour, je n’écoute plus rien.</l>
+                        <l n="1069"> Mais, si l’on en voulait à votre illustre tête,</l>
+                        <l n="1070"> Ma main à la sauver n’en sera pas moins prête.</l>
+                        <l n="1071"> Entre la reine et vous, juste, mais généreux,</l>
+                        <l n="1072"> Je me déclarerai pour les plus malheureux.</l>
+                        <l n="1073"> Adieu, seigneur : je sens que ma vertu chancelle,</l>
+                        <l n="1074"> Et j’en dois à ma gloire un compte plus fidèle.</l>
+                        <l n="1075"> Je ne vous cache point ma faiblesse et mes pleurs ;</l>
+                        <l n="1076"> Mon cœur est déchiré des plus vives douleurs :</l>
+                        <l n="1077"> Mais il faut mériter, par un effort sublime,</l>
+                        <l n="1078"> S’il ne m’aime, du moins que le vôtre m’estime.</l>
+                        <l n="1079"> Vous pouvez vous flatter, malgré votre courroux,</l>
+                        <l n="1080"> Que vous m’avez rendu plus à plaindre que vous.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#bélus">
+            <speaker> BÉLUS </speaker>
+                        <l n="1081"> Esclave de bienfaits, moins grand que téméraire,</l>
+                        <l n="1082"> Puisque tu veux mourir, il faut te satisfaire :</l>
+                        <l n="1083"> Après t’avoir rendu maître de mes secrets,</l>
+                        <l n="1084"> Il faut que de tes jours je le sois désormais.</l>
+                        <l n="1085"> Grands dieux ! qui ne m’offrez que de chères victimes,</l>
+                        <l n="1086"> Ne me les rendrez-vous jamais plus légitimes ?</l>
+                        <l n="1087"> Mais, puisque vous voulez un crime de ma main,</l>
+                        <l n="1088"> Dieux cruels ! il faut bien s’y résoudre à la fin.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="1089"> Ah ! seigneur, est-ce vous ? Que mon âme éperdue</l>
+                        <l n="1090"> Avait besoin ici d’une si chère vue !</l>
+                        <l n="1091"> Je ne sais quels projets on médite en ces lieux ;</l>
+                        <l n="1092"> Mais je ne vois partout que soldats furieux,</l>
+                        <l n="1093"> Que des fronts menaçants, qu’épouvante, que trouble :</l>
+                        <l n="1094"> La garde du palais à grands flots se redouble ;</l>
+                        <l n="1095"> La reine frémissante erre de toutes parts,</l>
+                        <l n="1096"> Et je n’en ai reçu que de tristes regards.</l>
+                        <l n="1097"> Quoiqu’elle m’ait appris que son hymen s’apprête.</l>
+                        <l n="1098"> Mais quels apprêts, grands dieux ! pour une telle fête !</l>
+                        <l n="1099"> Que mon cœur, alarmé de tout ce que je voi,</l>
+                        <l n="1100"> En conçoit de douleur, et de trouble, et d’effroi !</l>
+                        <l n="1101"> D’un son tumultueux tout ce palais résonne,</l>
+                        <l n="1102"> Et je sais qu’en secret la reine vous soupçonne.</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="1103"> Ma fille, elle fait plus que de me soupçonner,</l>
+                        <l n="1104"> Et de bien d’autres cris ces lieux vont résonner.</l>
+                        <l n="1105"> Que ces tristes apprêts qui causent vos alarmes</l>
+                        <l n="1106"> Vont vous coûter bientôt de soupirs et de larmes,</l>
+                        <l n="1107"> Ma chère Ténésis ! On sait tous mes projets,</l>
+                        <l n="1108"> Et c’est contre moi seul que se font tant d’apprêts.</l>
+                </sp>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="1109"> Pourquoi donc en ces lieux vous arrêter encore ?</l>
+                        <l n="1110"> Souffrez que pour vous-même ici je vous implore :</l>
+                        <l n="1111"> Fuyez ; daignez du moins tenter quelque secours</l>
+                        <l n="1112"> Qui d’un père si cher me conserve les jours.</l>
+                        <l n="1113"> Mais un reste d’espoir me flatte et vient me luire :</l>
+                        <l n="1114"> Je crois même, seigneur, devoir vous en instruire.</l>
+                        <l n="1115"> Agénor a pour moi témoigné quelque ardeur,</l>
+                        <l n="1116"> Que n’aura point peut-être étouffé ma rigueur.</l>
+                        <l n="1117"> Ainsi que son pouvoir, sa valeur est extrême :</l>
+                        <l n="1118"> Que ne fera-t-il point pour plaire à ce qu’il aime ?</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="1119"> Agénor ! ah ! ma fille, il n’y faut plus penser.</l>
+                        <l n="1120"> L’insolent ! à quel point il vient de m’offenser !</l>
+                        <l n="1121"> Ténésis, si c’est là votre unique espérance,</l>
+                        <l n="1122"> Vous me verrez bientôt immoler sans défense.</l>
+                        <l n="1123"> Je veux à votre gloire épargner un récit</l>
+                        <l n="1124"> Qui ne vous causerait que honte et que dépit.</l>
+                        <l n="1125"> Au maître des humains je vous avais unie :</l>
+                        <l n="1126"> Après m’être flatté d’une gloire infinie.</l>
+                        <l n="1127"> Il m’a fallu descendre à des nœuds sans éclat,</l>
+                        <l n="1128"> Et d’un soin si honteux je n’ai fait qu’un ingrat.</l>
+                        <l n="1129"> Ma fille, on vous préfère une reine barbare :</l>
+                        <l n="1130"> Contre vous, contre moi, pour elle on se déclare.</l>
+                        <l n="1131"> Je me suis abaissé jusques à supplier ;</l>
+                        <l n="1132"> Mais qu’un vil étranger vient de m’humilier !</l>
+                </sp>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="1133"> Je vous connais tous deux : violents l’un et l’autre,</l>
+                        <l n="1134"> Son cœur fier n’aura pas voulu céder au vôtre :</l>
+                        <l n="1135"> Une timide voix saura mieux le fléchir.</l>
+                        <l n="1136"> Je n’examine rien, s’il peut vous secourir ;</l>
+                        <l n="1137"> Souffrez pour un moment que je m’offre à sa vue.</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="1138"> Ma fille, il n’est plus temps : sa perte est résolue.</l>
+                        <l n="1139"> Plus que les miens ici ses jours sont en danger :</l>
+                        <l n="1140"> De ses lâches refus son sang va me venger.</l>
+                        <l n="1141"> Adieu. De ce palais, où bientôt le carnage</l>
+                        <l n="1142"> Va n’offrir à nos yeux qu’une effroyable image,</l>
+                        <l n="1143"> Fuyez ; dérobez-vous de ce funeste lieu,</l>
+                        <l n="1144"> Où je vous dis peut-être un éternel adieu.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS </speaker>
+                        <l n="1145"> Ô sort ! si notre sang te doit quelques victimes,</l>
+                        <l n="1146"> La reine à ton courroux n’offre que trop de crimes !</l>
+                        <l n="1147"> Hélas ! c’en est donc fait, et je touche au moment</l>
+                        <l n="1148"> Où je verrai périr mon père ou mon amant</l>
+                        <l n="1149"> L’un par l’autre ! et tous deux, soit l’amant, soit le père,</l>
+                        <l n="1150"> Ils n’armeront contre eux qu’une main qui m’est chère,</l>
+                        <l n="1151"> Et ne me laisseront, pour essuyer mes pleurs,</l>
+                        <l n="1152"> Que celle qui viendra de combler mes malheurs !</l>
+                        <l n="1153"> Mais en est-ce un pour moi que la mort d’un perfide</l>
+                        <l n="1154"> Qui préfère à ma main une main parricide ?</l>
+                        <l n="1155"> Dès qu’un lâche intérêt le jette en d’autres bras,</l>
+                        <l n="1156"> Que m’importe son sort ?... Ce qu’il m’importe ? hélas !</l>
+                        <l n="1157"> Malheureuse ! malgré ta tendresse trahie,</l>
+                        <l n="1158"> Dis qu’il t’importe encor plus que ta propre vie,</l>
+                        <l n="1159"> Et que l’ingrat lui seul occupe plus ton cœur,</l>
+                        <l n="1160"> Qu’un père infortuné n’excite ta douleur.</l>
+                        <l n="1161"> Non, non ; malgré Bélus, il faut que je le voie :</l>
+                        <l n="1162"> De leur hymen du moins je veux troubler la joie,</l>
+                        <l n="1163"> M’offrir à leurs regards l’œil ardent de courroux,</l>
+                        <l n="1164"> Les immoler tous deux à mes transports jaloux.</l>
+                        <l n="1165"> Hélas ! que ma douleur tromperait mon attente !</l>
+                        <l n="1166"> L’ingrat ne me verrait qu’affligée et mourante,</l>
+                        <l n="1167"> Loin de les immoler, me traîner à l’autel,</l>
+                        <l n="1168"> Et moi-même en mon sein porter le coup mortel :</l>
+                        <l n="1169"> De leur hymen offrir pour première victime</l>
+                        <l n="1170"> Un cœur qui sans amour aurait été sans crime.</l>
+                        <l n="1171"> Ah ! lâche, si tu veux t’immoler en ce jour,</l>
+                        <l n="1172"> Que ce soit à ta gloire, et non à ton amour.</l>
+                        <l n="1173"> N’importe, il faut le voir : un repentir peut-être</l>
+                        <l n="1174"> À mes pieds malgré lui ramènera le traître.</l>
+                        <l n="1175"> Pour mon père du moins implorons son secours ;</l>
+                        <l n="1176"> Lui seul peut m’assurer de si précieux jours.</l>
+                        <l n="1177"> Heureuse que ce soin puisse aux yeux d’un parjure</l>
+                        <l n="1178"> Voiler ceux que l’amour dérobe à la nature !</l></div></div>
+           <div type="act" xml:id="4">
+           <head> ACTE IV </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#agénor">
+            <speaker> AGÉNOR </speaker>
+                        <l n="1179"> Où vais-je ? malheureux ! et quel est mon espoir ?</l>
+                        <l n="1180"> Indomptable fierté, chimérique devoir,</l>
+                        <l n="1181"> Si tu veux qu’à tes lois la gloire encor m’enchaîne,</l>
+                        <l n="1182"> Cache donc mieux l’abyme où mon dépit m’entraîne ;</l>
+                        <l n="1183"> Ou ne me réduis point à te sacrifier</l>
+                        <l n="1184"> Un bien à qui mon cœur se promit tout entier.</l>
+                        <l n="1185"> Ah ! fuyons de ces lieux, ou laissons dans mon âme</l>
+                        <l n="1186"> Renaître les transports de ma première flamme ;</l>
+                        <l n="1187"> Allons chercher ailleurs des lauriers dont l’honneur</l>
+                        <l n="1188"> Flatte plus ma vertu, coûte moins à mon cœur.</l>
+                        <l n="1189"> Il ne me reste plus, pour l’ébranler encore,</l>
+                        <l n="1190"> Que de m’offrir aux yeux de celle que j’adore.</l>
+                        <l n="1191"> Qu’à regret je combats ce funeste désir !</l>
+                        <l n="1192"> Mais je la vois. Grands dieux ! que vais-je devenir ?</l>
+                        <l n="1193"> Fuyons ; n’attendons pas que mon âme éperdue</l>
+                        <l n="1194"> S’abandonne aux transports d’une si chère vue.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="1195"> Ne fuyez point, seigneur : un cœur si généreux</l>
+                        <l n="1196"> Ne doit pas éviter l’abord des malheureux.</l>
+                        <l n="1197"> Hélas ! je ne viens point pour troubler par mes larmes</l>
+                        <l n="1198"> Un hymen qui pour vous doit avoir tant de charmes :</l>
+                        <l n="1199"> Vous ne me verrez point, contraire à vos désirs,</l>
+                        <l n="1200"> À des transports si doux mêler mes déplaisirs.</l>
+                        <l n="1201"> Je viens, seigneur, je viens, tremblante pour un père,</l>
+                        <l n="1202"> Confier à vos soins une tête si chère,</l>
+                        <l n="1203"> Embrasser vos genoux, et d’un si ferme appui</l>
+                        <l n="1204"> Implorer le secours moins pour moi que pour lui.</l>
+                        <l n="1205"> Je ne demande point qu’à la reine infidèle,</l>
+                        <l n="1206"> Pour sauver des ingrats, vous vous armiez contre elle :</l>
+                        <l n="1207"> Tant d’espoir n’entre point au cœur des malheureux ;</l>
+                        <l n="1208"> Ils ne savent former que de timides vœux.</l>
+                        <l n="1209"> Non, d’un amour juré sous de si noirs auspices</l>
+                        <l n="1210"> Je n’attends plus, seigneur, de si grands sacrifices.</l>
+                        <l n="1211"> Hélas ! qui m’aurait dit qu’après des soins si doux</l>
+                        <l n="1212"> Je viendrais sans succès tomber à vos genoux,</l>
+                        <l n="1213"> Qu’on ne me répondrait que par un froid silence ?</l>
+                        <l n="1214"> Ah ! d’un regard, du moins, rendez-moi l’espérance.</l>
+                        <l n="1215"> Ne suffisait-il pas du refus de ma main,</l>
+                        <l n="1216"> Sans me plonger encor le poignard dans le sein ?</l>
+                        <l n="1217"> Daignez prendre pitié d’une triste famille :</l>
+                        <l n="1218"> N’immolez pas du moins le père avec la fille.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1219"> Ah ! ne m’outragez point par cet indigne effroi ;</l>
+                        <l n="1220"> Si j’immole quelqu’un, ce ne sera que moi.</l>
+                        <l n="1221"> N’accablez point vous-même un amant déplorable,</l>
+                        <l n="1222"> Plus malheureux que vous, peut-être moins coupable.</l>
+                        <l n="1223"> Hélas ! où malgré moi m’avez-vous engagé !</l>
+                        <l n="1224"> Dans quel abyme affreux vos rigueurs m’ont plongé !</l>
+                        <l n="1225"> Il est vrai qu’au dépit mon âme abandonnée</l>
+                        <l n="1226"> A voulu se venger par un prompt hyménée.</l>
+                        <l n="1227"> J’ai fait plus : un devoir sacré, quoique inhumain,</l>
+                        <l n="1228"> M’a fait avec fierté rejeter votre main ;</l>
+                        <l n="1229"> Mais on en exigeait pour prix un sacrifice</l>
+                        <l n="1230"> Dont jamais ma vertu n’admettra l’injustice ;</l>
+                        <l n="1231"> Et si je vous avais acceptée à ce prix,</l>
+                        <l n="1232"> Vous-même ne m’eussiez reçu qu’avec mépris.</l>
+                        <l n="1233"> Ce n’est pas que mon cœur, rebuté de sa chaîne,</l>
+                        <l n="1234"> Se soit un seul moment écarté vers la reine :</l>
+                        <l n="1235"> J’aurais trop à rougir, si pour Sémiramis</l>
+                        <l n="1236"> J’avais abandonné l’aimable Ténésis.</l>
+                        <l n="1237"> Je la perds cependant si je lui suis fidèle :</l>
+                        <l n="1238"> Si je lui sacrifie une reine cruelle,</l>
+                        <l n="1239"> Je ne suis plus qu’un cœur sans honneur et sans foi ;</l>
+                        <l n="1240"> Sceptre, maîtresse, honneur, tout est perdu pour moi.</l>
+                        <l n="1241"> Adieu, madame, adieu ; je vais loin de l’Asie</l>
+                        <l n="1242"> Signaler la fureur dont mon âme est saisie :</l>
+                        <l n="1243"> Mais avant mon départ je sauverai Bélus,</l>
+                        <l n="1244"> Je sauverai la reine, et ne vous verrai plus.</l>
+                        <l n="1245"> À des périls trop sûrs c’est exposer ma gloire,</l>
+                        <l n="1246"> Que d’oser à vos yeux disputer la victoire.</l>
+                </sp>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="1247"> Hélas ! malgré les soins de ce que je me doi,</l>
+                        <l n="1248"> Que la mienne, seigneur, sera triste pour moi !</l>
+                        <l n="1249"> Qu’Agénor frémirait de mon destin barbare,</l>
+                        <l n="1250"> S’il sa voit comme moi tout ce qui nous sépare,</l>
+                        <l n="1251"> Et de combien d’horreurs nos cœurs sont menacés !</l>
+                        <l n="1252"> Mais, sans vous informer de mes malheurs passés.</l>
+                        <l n="1253"> Je ne souffrirai point qu’une flamme si belle,</l>
+                        <l n="1254"> Dont je mérite peu rattachement fidèle,</l>
+                        <l n="1255"> Pour tout prix des secours que j’implore de vous,</l>
+                        <l n="1256"> Vous fasse renoncer à l’espoir le plus doux.</l>
+                        <l n="1257"> Quoi qu’il m’en coûte, il faut vous donner à la reine ;</l>
+                        <l n="1258"> Je veux former moi-même une si belle chaîne,</l>
+                        <l n="1259"> Ne pouvant vous payer que du don de sa foi :</l>
+                        <l n="1260"> Mais croyez, si ma main eût dépendu de moi,</l>
+                        <l n="1261"> Que j’aurais fait, seigneur, le bonheur de ma vie</l>
+                        <l n="1262"> De voir à vos vertus ma destinée unie ;</l>
+                        <l n="1263"> Et, si jamais le sort pouvait nous rapprocher,</l>
+                        <l n="1264"> Que votre cœur n’aurait rien à me reprocher.</l>
+                        <l n="1265"> Je ne vous nierai pas, seigneur, que je vous aime ;</l>
+                        <l n="1266"> Je trouve à vous le dire une douceur extrême ;</l>
+                        <l n="1267"> Et l’amour n’a point cru déshonorer mon cœur</l>
+                        <l n="1268"> En y faisant pour vous naître une vive ardeur.</l>
+                        <l n="1269"> Mais, hélas ! cet aveu, si doux en apparence,</l>
+                        <l n="1270"> N’en doit pas plus, seigneur, flatter votre espérance :</l>
+                        <l n="1271"> Je ne sais point former de parjures liens.</l>
+                        <l n="1272"> Quoiqu’un âge bien tendre ait vu serrer les miens,</l>
+                        <l n="1273"> Il n’en est pas moins vrai qu’un funeste hyménée</l>
+                        <l n="1274"> Aux lois d’un autre époux soumet ma destinée.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1275"> Vous, madame ?</l>
+                </sp>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="1276"> Et j’ai cru devoir vous révéler</l>
+                        <l n="1277"> Ce qu’ici vainement je voudrais vous celer.</l>
+                        <l n="1278"> Ce serait vous trahir...</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1279"> Ah ! cruelle princesse,</l>
+                        <l n="1280"> De quel barbare prix payez-vous ma tendresse !</l>
+                        <l n="1281"> Et puisque enfin j’allais abandonner ces lieux,</l>
+                        <l n="1282"> Pourquoi me dévoiler ces secrets odieux ?</l>
+                </sp>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="1283"> Trop d’espoir eût séduit votre âme généreuse.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1284"> Mais il en eût rendu la douleur moins affreuse.</l>
+                        <l n="1285"> Hélas ! que le destin, en unissant nos cœurs,</l>
+                        <l n="1286"> S’est bien fait un plaisir d’égaler nos malheurs !</l>
+                        <l n="1287"> Comme vous à l’hymen engagé dès l’enfance,</l>
+                        <l n="1288"> Cependant de ses nœuds j’ai bravé la puissance ;</l>
+                        <l n="1289"> Et de tous les serments dont j’attestai les dieux,</l>
+                        <l n="1290"> Je n’ai gardé que ceux que je fis à vos yeux.</l>
+                        <l n="1291"> Quelle était cependant celle à qui l’hyménée</l>
+                        <l n="1292"> Du parjure Agénor joignit la destinée ?</l>
+                        <l n="1293"> J’ignore encor son nom ; mais je sais que jamais</l>
+                        <l n="1294"> La jeunesse ne vit briller autant d’attraits.</l>
+                        <l n="1295"> S’ils ont pu se former, qu’elle doit être belle !</l>
+                        <l n="1296"> La seule Ténésis l’emporterait sur elle.</l>
+                        <l n="1297"> Que vous plaindrez mon sort à ce fatal récit !</l>
+                        <l n="1298"> Près de Sinope...</l>
+                </sp>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="1299"> Ô ciel ! quel trouble me saisit !</l>
+                        <l n="1300"> Ne fut-ce point, seigneur, près d’un antre terrible,</l>
+                        <l n="1301"> Des décrets du destin interprète invisible ?</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1302"> C’est là, pour la première et la dernière fois,</l>
+                        <l n="1303"> Que je vis la beauté qu’on soumit à mes lois.</l>
+                        <l n="1304"> Du pyrope éclatant sa tête était ornée :</l>
+                        <l n="1305"> Sans pompe cependant elle fut amenée.</l>
+                        <l n="1306"> Un mortel vénérable, et dont l’auguste aspect</l>
+                        <l n="1307"> Inspirait à-la-fois la crainte et le respect,</l>
+                        <l n="1308"> Conduisait à l’autel cette jeune merveille ;</l>
+                        <l n="1309"> Âge peu différent, suite toute pareille,</l>
+                        <l n="1310"> Un prêtre, deux vieillards, nul esclave près d’eux :</l>
+                        <l n="1311"> De la pourpre des rois on nous orna tous deux.</l>
+                </sp>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="1312"> Mais, seigneur, à l’autel ne vit-on point vos mères ?</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1313"> L’un et l’autre avec nous nous n’avions que nos pères.</l>
+                </sp>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="1314"> Achevez.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1315"> J’ai tout dit.</l>
+                </sp>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="1316"> Hélas ! c’était donc vous ?</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1317"> Quoi ! madame...</l>
+                </sp>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="1318"> Ah ! seigneur, vous êtes mon époux.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1319"> Moi, votre époux ! qui ? moi, le fils de Mermécide !</l>
+                </sp>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="1320"> Ah ! seigneur, ce nom seul de notre hymen décide :</l>
+                        <l n="1321"> Bélus m’en a parlé cent fois avec transport,</l>
+                        <l n="1322"> De ce fils disparu plaignant toujours le sort.</l>
+                        <l n="1323"> De celui des humains ce fils doit être arbitre.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1324"> Mon cœur est moins touché d’un si superbe titre,</l>
+                        <l n="1325"> Que d’un bien...</l>
+                </sp>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="1326"> Terminons des transports superflus.</l>
+                        <l n="1327"> Adieu, seigneur, adieu ; je cours chercher Bélus.</l>
+                        <l n="1328"> Les moments nous sont chers ; il faut que je vous laisse.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1329"> Qu’ai-je entendu ? qui ? moi, l’époux de la princesse !</l>
+                        <l n="1330"> Et comment ce Bélus, si jaloux de son rang,</l>
+                        <l n="1331"> A-t-il pu se choisir un gendre de mon sang ?</l>
+                        <l n="1332"> Mais quel est donc celui dont le ciel m’a fait naître.</l>
+                        <l n="1333"> Si l’univers en moi doit adorer un maître ?</l>
+                </sp>
+        <sp who="#mirame">
+            <speaker> MIRAME. </speaker>
+                        <l n="1334"> Seigneur, un étranger, qui se cache avec soin,</l>
+                        <l n="1335"> Demande à vous parler un moment sans témoin.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1336"> Qu’il entre. Cependant, que mon âme agitée,</l>
+                        <l n="1337"> Tout entière aux plaisirs dont elle est transportée,</l>
+                        <l n="1338"> Aurait besoin ici d’un peu de liberté !</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1339"> Approchez ; vous pouvez parler en sûreté.</l>
+                </sp>
+        <sp who="#mermécide">
+            <speaker> MERMÉCIDE. </speaker>
+                        <l n="1340"> D’un secret important chargé de vous instruire...</l>
+                        <l n="1341"> Mais daignez ordonner, seigneur, qu’on se retire.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR, à Mirame. </speaker>
+                        <l n="1342"> Sortez. Eh bien ! quel est ce secret important ?</l>
+                        <l n="1343"> Hâtez-vous ; tout m’appelle ailleurs en cet instant.</l>
+                </sp>
+        <sp who="#mermécide">
+            <speaker> MERMÉCIDE. </speaker>
+                        <l n="1344"> Seigneur, dans ce billet que j’ose ici vous rendre...</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1345"> De quelle main ?</l>
+                </sp>
+        <sp who="#mermécide">
+            <speaker> MERMÉCIDE. </speaker>
+                        <l n="1346"> Lisez, et vous allez l’apprendre.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1347"> C’est de Bélus, sans doute ; et son cœur généreux</l>
+                        <l n="1348"> Daigne encor... Mais lisons.</l>
+            <stage><em>Mermécide tire un poignard, et Agénor lui arrête la main.</em></stage>
+                        <l n="1349"> Arrête, malheureux !</l>
+                        <l n="1350"> D’une si faible main qu’espères-tu, perfide ?</l>
+                        <l n="1351"> Mais qu’est-ce que je vois ? Grands dieux ! c’est Mermécide !</l>
+                </sp>
+        <sp who="#mermécide">
+            <speaker> MERMÉCIDE. </speaker>
+                        <l n="1352"> Ciel ! que vois-je à mon tour ? Mérodate ! mon fils !</l>
+                        <l n="1353"> Et pour comble d’horreurs, parmi mes ennemis !</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1354"> Seigneur, ne mêlez point d’amertume à ma joie :</l>
+                        <l n="1355"> Pénétré du bonheur que le ciel me renvoie,</l>
+                        <l n="1356"> Mon cœur ne ressentit jamais tant de douceur.</l>
+                </sp>
+        <sp who="#mermécide">
+            <speaker> MERMÉCIDE. </speaker>
+                        <l n="1357"> Et le mien n’a jamais ressenti tant d’horreur.</l>
+                        <l n="1358"> En quels lieux m’offrez-vous une tête si chère ?</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1359"> Ô ciel ! à quels transports reconnais-je mon père ?</l>
+                </sp>
+        <sp who="#mermécide">
+            <speaker> MERMÉCIDE. </speaker>
+                        <l n="1360"> Dieux ! ne m’a-t-il coûté tant de soins, tant de pleurs,</l>
+                        <l n="1361"> Que pour le voir lui seul combler tous mes malheurs ?</l>
+                        <l n="1362"> De l’éclat qui vous suit que mon âme alarmée,</l>
+                        <l n="1363"> Cruel ! en d’autres lieux aurait été charmée !</l>
+                        <l n="1364"> Ah ! fils trop imprudent, que faites-vous ici ?</l>
+                        <l n="1365"> De votre sort affreux tremblez d’être éclairci.</l>
+                        <l n="1366"> Mais j’aperçois la reine, ingrat ! et je vous laisse.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1367"> Ah ! de noms moins cruels honorez ma tendresse :</l>
+                        <l n="1368"> Du plaisir de vous voir ne privez point mes yeux :</l>
+                        <l n="1369"> Vous n’avez près de moi rien à craindre en ces lieux.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="1370"> Que faites-vous, seigneur ? et quel soin vous arrête</l>
+                        <l n="1371"> Lorsque mille périls menacent notre tête ?</l>
+                        <l n="1372"> Babylone en fureur s’arme de toutes parts :</l>
+                        <l n="1373"> On a déjà chassé nos soldats des remparts :</l>
+                        <l n="1374"> De ce palais bientôt les mutins sont les maîtres,</l>
+                        <l n="1375"> Si ce bras triomphant n’en écarte les traîtres.</l>
+                        <l n="1376"> Venez, seigneur, venez, accompagné de moi,</l>
+                        <l n="1377"> Leur montrer leur vainqueur, mon époux, et leur roi.</l>
+                        <l n="1378"> Eh quoi ! loin de voler où ma voix vous appelle,</l>
+                        <l n="1379"> De nos périls communs négligeant la nouvelle,</l>
+                        <l n="1380"> À peine vous daignez... Mais qui vois-je avec vous ?</l>
+                        <l n="1381"> Mon ennemi, seigneur, et le plus grand de tous !</l>
+                        <l n="1382"> Ah ! traître, enfin le ciel te livre à ma vengeance !</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1383"> Daignez de ces transports calmer la violence.</l>
+                        <l n="1384"> De quels crimes s’est donc noirci cet étranger,</l>
+                        <l n="1385"> Pour forcer une reine à vouloir s’en venger ?</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="1386"> De quels crimes, seigneur ? Le perfide ! le lâche !...</l>
+                        <l n="1387"> Mais en vain à la mort votre pitié l’arrache :</l>
+                        <l n="1388"> Rien ne peut le soustraire à ma juste fureur.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1389"> Je vous ai déjà dit que j’ignore son crime :</l>
+                        <l n="1390"> Quel qu’il soit cependant, j’adopte la victime.</l>
+                        <l n="1391"> Cet étranger m’est cher ; j’ose même aujourd’hui</l>
+                        <l n="1392"> Ici comme de moi vous répondre de lui.</l>
+                        <l n="1393"> Dès mes plus jeunes ans je connais Mermécide.</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="1394"> Vous n’avez donc connu qu’un rebelle, un perfide,</l>
+                        <l n="1395"> Indigne de la vie et de votre pitié ;</l>
+                        <l n="1396"> Que loin de dérober à mon inimitié</l>
+                        <l n="1397"> Vous devriez livrer vous-même à ma justice,</l>
+                        <l n="1398"> Ou m’en laisser du moins ordonner le supplice.</l>
+                        <l n="1399"> Pour le priver, seigneur, d’un si puissant secours,</l>
+                        <l n="1400"> Faut-il vous dire encor qu’il y va de mes jours ?</l>
+                        <l n="1401"> Mais, ingrat, ce n’est pas ce qui vous intéresse.</l>
+                        <l n="1402"> En vain je fais pour vous éclater ma tendresse :</l>
+                        <l n="1403"> Ce généreux secours qu’on m’a voit tant promis</l>
+                        <l n="1404"> Se termine à sauver mes plus grands ennemis.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1405"> Madame, si le ciel ne vous en fit point d’autres,</l>
+                        <l n="1406"> Vous me verrez longtemps le protecteur des vôtres.</l>
+                        <l n="1407"> Si celui-ci surtout a besoin de secours,</l>
+                        <l n="1408"> Jusqu’au dernier soupir je défendrai ses jours.</l>
+                        <l n="1409"> Il n’est empire, honneur, que je ne sacrifie</l>
+                        <l n="1410"> Au soin de conserver une si chère vie.</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="1411"> Ah ! qu’est-ce que j’entends ? Je ne sais quelle horreur</l>
+                        <l n="1412"> Se répand tout-à-coup jusqu’au fond de mon cœur.</l>
+                        <l n="1413"> Je ne vois dans leurs yeux qu’un trouble qui me glace.</l>
+                        <l n="1414"> Seigneur, entre vous deux qu’est-ce donc qui se passe ?</l>
+                        <l n="1415"> Quel intérêt si grand prenez-vous à ses jours ?</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1416"> Est-il besoin encor d’éclaircir ce discours ?</l>
+                        <l n="1417"> Voulez-vous qu’à vos coups j’abandonne mon père ?</l>
+                </sp>
+        <sp who="#mermécide">
+            <speaker> MERMÉCIDE. </speaker>
+                        <l n="1418"> Non, je ne le suis pas ; mais voilà votre mère.</l>
+                </sp>
+        <sp who="#agénor">
+            <speaker> AGÉNOR. </speaker>
+                        <l n="1419"> Ma mère !</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="1420"> Lui mon fils ? Grands dieux ! qu’ai-je entendu ?</l>
+                        <l n="1421"> Cher Agénor, hélas ! je vous ai donc perdu !</l>
+                </sp>
+        <sp who="#mermécide">
+            <speaker> MERMÉCIDE. </speaker>
+                        <l n="1422"> Heureuse bien plutôt qu’en cette horrible flamme</l>
+                        <l n="1423"> Un mystère plus long n’ait point nourri votre âme !</l>
+                        <l n="1424"> Je n’ai laissé que trop Ninias dans l’erreur :</l>
+                        <l n="1425"> Je frémis des périls où j’ai livré son cœur.</l>
+                        <l n="1426"> Eh ! qui pouvait prévoir qu’une ardeur criminelle</l>
+                        <l n="1427"> Reléguerait au loin la nature infidèle ?</l>
+                        <l n="1428"> Revenez tous les deux de votre étonnement ;</l>
+                        <l n="1429"> Et vous, reine, encor plus de votre égarement.</l>
+                        <l n="1430"> Voilà ce Ninias si digne de son père,</l>
+                        <l n="1431"> Mais à qui les destins dévoient une autre mère.</l>
+                </sp>
+        <sp who="#ninias">
+            <speaker> NINIAS. </speaker>
+                        <l n="1432"> Mermécide, arrêtez : c’est ma mère, et je veux</l>
+                        <l n="1433"> Qu’on la respecte autant qu’on respecte les dieux.</l>
+                        <l n="1434"> Je n’oublierai jamais que je lui dois la vie,</l>
+                        <l n="1435"> Et je ne prétends pas qu’aucun autre l’oublie.</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="1436"> Non, tu n’es point mon fils : en vain cet imposteur</l>
+                        <l n="1437"> Prétend de mon amour démentir la fureur :</l>
+                        <l n="1438"> Si tu l’étais, déjà la voix de la nature</l>
+                        <l n="1439"> Eût détruit de l’amour la première imposture.</l>
+                        <l n="1440"> Il n’est qu’un seul moyen de me montrer mon fils ;</l>
+                        <l n="1441"> C’est par un prompt secours contre mes ennemis.</l>
+                        <l n="1442"> Qu’à mon courroux sa main prête son ministère,</l>
+                        <l n="1443"> Qu’il t’immole ; à ce prix je deviendrai sa mère.</l>
+                        <l n="1444"> Mais je ne la suis pas ; je n’en ressens du moins</l>
+                        <l n="1445"> Les entrailles, l’amour, les remords, ni les soins.</l>
+                        <l n="1446"> Cruel ! pour me forcer à te céder l’empire,</l>
+                        <l n="1447"> Il suffisait de ceux que mon amour m’inspire :</l>
+                        <l n="1448"> Tu n’avais pas besoin d’emprunter contre lui</l>
+                        <l n="1449"> D’un redoutable nom l’incestueux appui.</l>
+                        <l n="1450"> Va te joindre à Bélus, cœur ingrat et perfide ;</l>
+                        <l n="1451"> Rends-toi digne de moi par un noir parricide ;</l>
+                        <l n="1452"> Viens toi-même chercher dans mon malheureux flanc</l>
+                        <l n="1453"> Les traces de Ninus et le sceau de ton sang.</l>
+                        <l n="1454"> Mais, soit fils, soit amant, n’attends de moi, barbare !</l>
+                        <l n="1455"> Que les mêmes horreurs que ton cœur me prépare.</l>
+                        <l n="1456"> Comme fils, n’attends rien d’un cœur ambitieux ;</l>
+                        <l n="1457"> Comme amant, encor moins d’un amour furieux.</l>
+                        <l n="1458"> Je périrai le front orné du diadème ;</l>
+                        <l n="1459"> Et, s’il faut le céder, tu périras toi-même.</l>
+                        <l n="1460"> Ingrat, je t’aime encore avec trop de fureur</l>
+                        <l n="1461"> Pour te sacrifier les transports de mon cœur.</l>
+                        <l n="1462"> Garde-toi cependant d’une amante outragée ;</l>
+                        <l n="1463"> Garde-toi d’une mère à ta perte engagée.</l>
+                        <l n="1464"> Adieu : fuis sans tarder de ces funestes lieux ;</l>
+                        <l n="1465"> Respectes-y du moins mère, amante, ou les dieux.</l>
+                </sp>
+        <sp who="#ninias">
+            <speaker> NINIAS. </speaker>
+                        <l n="1466"> Oui, je vais vous prouver par mon obéissance</l>
+                        <l n="1467"> Combien le nom de mère a sur moi de puissance.</l>
+                        <l n="1468"> Puisse à votre grand cœur ce nom qui m’est si doux</l>
+                        <l n="1469"> N’inspirer que des soins qui soient dignes de vous !</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="1470"> Ingrat ! quels soins veux-tu que la nature inspire</l>
+                        <l n="1471"> À ce cœur qui jamais n’en reconnut l’empire ?</l>
+                        <l n="1472"> Ce cœur infortuné, que l’amour a séduit,</l>
+                        <l n="1473"> À t’aimer comme un fils fut-il jamais instruit ?</l>
+                        <l n="1474"> Un moment suffit-il pour éteindre une flamme</l>
+                        <l n="1475"> Que le courroux du ciel irrite dans mon âme ?</l>
+                        <l n="1476"> Penses-tu qu’en un cœur si sensible à l’amour</l>
+                        <l n="1477"> L’effort d’en triompher soit l’ouvrage d’un jour ?</l>
+                        <l n="1478"> Parce que tu me hais, tu le trouves facile :</l>
+                        <l n="1479"> Ta vertu contre moi te sert du moins d’asile.</l>
+                        <l n="1480"> Nature trop muette, et vous, dieux ennemis,</l>
+                        <l n="1481"> Instruisez-moi du moins à l’aimer comme un fils :</l>
+                        <l n="1482"> Ou prêtez-moi contre elle un secours favorable,</l>
+                        <l n="1483"> Ou laissez-moi sans trouble une flamme coupable.</l>
+                        <l n="1484"> Mais pourquoi m’alarmer de ce fils imposteur,</l>
+                        <l n="1485"> Supposé par Bélus, démenti par mon cœur ?</l>
+                        <l n="1486"> Quelle foi près de lui doit trouver Mermécide ?</l>
+                        <l n="1487"> Puis-je en croire un moment un témoin si perfide ?</l>
+                        <l n="1488"> Ninias ne vit plus : un frivole souci...</l>
+                </sp>
+        <sp who="#phénice">
+            <speaker> PHÉNICE. </speaker>
+                        <l n="1489"> Mégabise en mourant n’a que trop éclairci</l>
+                        <l n="1490"> Ce doute malheureux où votre cœur se livre,</l>
+                        <l n="1491"> Madame : Ninias n’a point cessé de vivre.</l>
+                        <l n="1492"> Avez-vous oublié tout ce que de son sort</l>
+                        <l n="1493"> Vient de vous révéler un fidèle rapport ?</l>
+                        <l n="1494"> Et quel funeste espoir peut vous flatter encore,</l>
+                        <l n="1495"> Puisque enfin Ténésis est celle qu’il adore ?</l>
+                        <l n="1496"> Vous seule l’ignorez, lorsque toute la cour</l>
+                        <l n="1497"> Retentit dès longtemps du bruit de son amour.</l>
+                        <l n="1498"> Loin d’en croire aux transports qui séduisent votre âme,</l>
+                        <l n="1499"> Dans ce péril pressant songez à vous, madame.</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="1500"> Qu’espères-tu de moi dans l’état où je suis ?</l>
+                        <l n="1501"> Détester mes forfaits est tout ce que je puis.</l>
+                        <l n="1502"> Tout en proie aux horreurs dont mon âme est troublée,</l>
+                        <l n="1503"> Je cède au coup affreux dont je suis accablée :</l>
+                        <l n="1504"> Je succombe, Phénice ; et mon cœur abattu</l>
+                        <l n="1505"> Contre tant de malheurs se trouve sans vertu,</l>
+                        <l n="1506"> Mais quoi ! seule à gémir de mon sort déplorable,</l>
+                        <l n="1507"> J’en laisserais jouir le cruel qui m’accable !</l>
+                        <l n="1508"> Mon sceptre et mon amour m’ont coûté trop d’horreurs,</l>
+                        <l n="1509"> Pour n’y pas ajouter de nouvelles fureurs.</l>
+                        <l n="1510"> Quelque destin pour eux que mon cœur ait à craindre,</l>
+                        <l n="1511"> Le vainqueur plus que moi sera peut-être à plaindre.</l>
+                        <l n="1512"> Non, je ne verrai point triompher Ténésis</l>
+                        <l n="1513"> Des malheurs où le sort réduit Sémiramis :</l>
+                        <l n="1514"> Sur l’objet que sans doute un ingrat me préfère</l>
+                        <l n="1515"> Il faut que je me venge et d’un fils et d’un frère.</l>
+                        <l n="1516"> Elle est entre mes mains ; et le fidèle Arbas,</l>
+                        <l n="1517"> Au gré de mon courroux, a juré son trépas.</l>
+                        <l n="1518"> Rentrons : c’est dans le sang d’une indigne rivale</l>
+                        <l n="1519"> Qu’il faut que ma fureur désormais se signale.</l>
+                        <l n="1520"> Embrasons ce palais par mes soins élevé :</l>
+                        <l n="1521"> Sa cendre est le tombeau qui m’était réservé.</l>
+                        <l n="1522"> C’est là que je prétends du sang de son amante</l>
+                        <l n="1523"> Offrir à Ninias la cendre encor fumante.</l>
+                        <l n="1524"> L’ingrat, qui croit peut-être insulter à mon sort,</l>
+                        <l n="1525"> Donnera malgré lui des larmes à ma mort.</l></div></div>
+           <div type="act" xml:id="5">
+           <head> ACTE V </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS </speaker>
+                        <l n="1526"> Que deviens-je ? où fuirai-je ? Amante déplorable,</l>
+                        <l n="1527"> Épouse sans vertu, mère encor plus coupable,</l>
+                        <l n="1528"> Où t’iras-tu cacher ? Quel gouffre assez affreux</l>
+                        <l n="1529"> Est digne d’enfermer ton amour malheureux ?</l>
+                        <l n="1530"> Tu n’en fis pas assez, reine de sang avide :</l>
+                        <l n="1531"> Il fallait joindre encor l’inceste au parricide !</l>
+                        <l n="1532"> Tes vœux n auraient été qu’à demi satisfaits.</l>
+                        <l n="1533"> Grands dieux ! devais-je craindre, après tant de forfaits,</l>
+                        <l n="1534"> Après que mon époux m’a servi de victime,</l>
+                        <l n="1535"> Que vous pussiez encor me réserver un crime ?</l>
+                        <l n="1536"> Terre, ouvre-moi ton sein, et redonne aux enfers</l>
+                        <l n="1537"> Ce monstre dont ils ont effrayé l’univers ;</l>
+                        <l n="1538"> Dérobe à la clarté l’abominable flamme</l>
+                        <l n="1539"> Dont les feux du Ténare ont embrasé mon âme.</l>
+                        <l n="1540"> Dieux, qui m’abandonnez à ces honteux transports,</l>
+                        <l n="1541"> N’en attendez, cruels, ni douleurs ni remords.</l>
+                        <l n="1542"> Je ne tiens mon amour que de votre colère ;</l>
+                        <l n="1543"> Mais, pour vous en punir, mon cœur veut s’y complaire.</l>
+                        <l n="1544"> Je veux du moins aimer comme ces mêmes dieux,</l>
+                        <l n="1545"> Chez qui seuls j’ai trouvé l’exemple de mes feux.</l>
+                        <l n="1546"> Cesse de t’en flatter, malheureuse mortelle !</l>
+                        <l n="1547"> Où crois-tu de tes feux trouver l’affreux modèle ?</l>
+                        <l n="1548"> Et quel indigne espoir vient t’agiter encor ?</l>
+                        <l n="1549"> Crois-tu dans Ninias retrouver Agénor ?</l>
+                        <l n="1550"> Contente-toi d’avoir sacrifié le père,</l>
+                        <l n="1551"> Et reprends pour le fils des entrailles de mère.</l>
+                        <l n="1552"> Dangereux Ninias, ne t’avais-je formé</l>
+                        <l n="1553"> Si grand, si généreux, si digne d’être aimé,</l>
+                        <l n="1554"> Que pour me voir moi-même adorer mon ouvrage,</l>
+                        <l n="1555"> Et trahir la nature, à qui j’en dois l’hommage ?</l>
+                        <l n="1556"> Mais de quel bruit affreux... Ciel ! qu’est-ce que je voi ?</l>
+                        <l n="1557"> Phénice, où courez-vous ? et d’où naît votre effroi ?</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#phénice">
+            <speaker> PHÉNICE. </speaker>
+                        <l n="1558"> Fuyez, reine, fuyez ; vos soldats vous trahissent :</l>
+                        <l n="1559"> Du nom de Ninias tous ces lieux retentissent.</l>
+                        <l n="1560"> À peine a-t-il paru, qu’à son terrible aspect</l>
+                        <l n="1561"> Vos gardes n’ont fait voir que crainte et que respect.</l>
+                        <l n="1562"> La fierté dans les yeux, et bouillant de colère,</l>
+                        <l n="1563"> J’ai vu lui-même encor votre perfide frère,</l>
+                        <l n="1564"> Des soldats mutinés échauffant la fureur,</l>
+                        <l n="1565"> Ordonner à grands cris le trépas de sa sœur.</l>
+                        <l n="1566"> Où sera votre asile en ce moment funeste ?</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="1567"> Va, ne crains rien pour moi tant qu’un soupir me reste.</l>
+                        <l n="1568"> Au gré de son courroux le ciel peut m’accabler :</l>
+                        <l n="1569"> Mais ce sera du moins sans me faire trembler.</l>
+                        <l n="1570"> Arbas, je sais pour moi jusqu’où va votre zèle,</l>
+                        <l n="1571"> Et vous êtes le seul qui me restiez fidèle.</l>
+                        <l n="1572"> En remettant ici la princesse en vos mains,</l>
+                        <l n="1573"> Je vous ai déclaré quels étaient mes desseins.</l>
+                        <l n="1574"> Allez, et vous rendez, par votre obéissance,</l>
+                        <l n="1575"> Digne de mes bienfaits et de ma confiance.</l>
+                        <l n="1576"> Songez dans quels périls vous vous précipitez,</l>
+                        <l n="1577"> Si ces ordres bientôt ne sont exécutés.</l>
+                        <l n="1578"> Et nous, allons, Phénice, au-devant d’un barbare,</l>
+                        <l n="1579"> Nous exposer sans crainte à ce qu’il nous prépare :</l>
+                        <l n="1580"> Viens me voir terminer mon déplorable sort.</l>
+                        <l n="1581"> Suis-moi ; je vais t’apprendre à mépriser la mort.</l>
+                        <l n="1582"> Mais qu’est-ce que je vois ?... Ah ! courroux si terrible,</l>
+                        <l n="1583"> Qu’à cet aspect si cher vous devenez flexible !</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="1584"> Traître, que cherches-tu dans ces augustes lieux !</l>
+                </sp>
+        <sp who="#ninias">
+            <speaker> NINIAS. </speaker>
+                        <l n="1585"> La mort, ou le seul bien qui me fut précieux.</l>
+                        <l n="1586"> Ce que j’y cherche ? Hélas ! j’y viens chercher ma mère ;</l>
+                        <l n="1587"> J’y viens livrer un fils à toute sa colère.</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="1588"> Toi mon fils ! toi, cruel ! l’objet de ma fureur,</l>
+                        <l n="1589"> Que je ne puis plus voir sans en frémir d’horreur !</l>
+                        <l n="1590"> Tandis que devant moi ton orgueil s’humilie,</l>
+                        <l n="1591"> Je vois que tu voudrais pouvoir m’ôter la vie.</l>
+                        <l n="1592"> Mais Ténésis retient un si noble courroux :</l>
+                        <l n="1593"> Incertain de son sort, on tremble devant nous ;</l>
+                        <l n="1594"> On vient livrer un fils à toute ma colère,</l>
+                        <l n="1595"> Tandis qu’au fond de Famé on déteste sa mère.</l>
+                        <l n="1596"> Tu m’as plainte un moment, perfide ! mais ton cœur</l>
+                        <l n="1597"> S’est bientôt rebuté de ce soin imposteur.</l>
+                        <l n="1598"> Juge si je puis voir, sans un excès de joie,</l>
+                        <l n="1599"> Les douloureux transports où ton âme est en proie.</l>
+                        <l n="1600"> Regarde en quel état un déplorable amour</l>
+                        <l n="1601"> Réduit l’infortunée à qui tu dois le jour.</l>
+                        <l n="1602"> Prive-moi de celui qu’à regret je respire :</l>
+                        <l n="1603"> Ne t’en tiens point au soin de me ravir l’empire ;</l>
+                        <l n="1604"> Arrache-moi du moins aux horribles transports</l>
+                        <l n="1605"> Qui s’emparent de moi malgré tous mes efforts.</l>
+                        <l n="1606"> Quoiqu’il ne fût jamais mère plus malheureuse,</l>
+                        <l n="1607"> Mon sort doit peu toucher ton âme généreuse.</l>
+                        <l n="1608"> Dès que le crime seul cause tous nos malheurs,</l>
+                        <l n="1609"> On ne doit plus trouver de pitié dans les cœurs.</l>
+                </sp>
+        <sp who="#ninias">
+            <speaker> NINIAS. </speaker>
+                        <l n="1610"> Que le mien cependant est sensible à vos larmes !</l>
+                        <l n="1611"> Que ce sont contre un fils de redoutables armes !</l>
+                        <l n="1612"> Quel que soit le dessein qui m’ait conduit ici,</l>
+                        <l n="1613"> Avez-vous pu penser que ce fils endurci,</l>
+                        <l n="1614"> Déshérité des soins que la nature inspire,</l>
+                        <l n="1615"> Ait voulu vous priver du jour ou de l’empire ?</l>
+                        <l n="1616"> Ah ! ma mère, souffrez, malgré votre courroux,</l>
+                        <l n="1617"> Que d’un nom si sacré je m’arme contre vous.</l>
+                        <l n="1618"> Votre fureur en vain me le rend redoutable :</l>
+                        <l n="1619"> En vain on vous reproche un crime épouvantable :</l>
+                        <l n="1620"> Les dieux en ont semblé perdre le souvenir ;</l>
+                        <l n="1621"> Je dois les imiter, loin de vous en punir.</l>
+                        <l n="1622"> Rendez-moi votre cœur, mais tel que la nature</l>
+                        <l n="1623"> Le demande pour moi par un secret murmure,</l>
+                        <l n="1624"> Ou je vais à vos pieds répandre tout ce sang</l>
+                        <l n="1625"> Que mon malheur m’a fait puiser dans votre flanc.</l>
+                        <l n="1626"> Rendez-moi Ténésis, rendez-moi mon épouse.</l>
+                        <l n="1627"> Est-ce à moi d’éprouver votre fureur jalouse ?</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="1628"> Maître de l’univers, c’en est trop ; levez-vous :</l>
+                        <l n="1629"> Ce n’est pas au vainqueur à fléchir les genoux.</l>
+                        <l n="1630"> Arbitre souverain de ce superbe empire,</l>
+                        <l n="1631"> Quels cœurs à vos souhaits ne doivent point souscrire ?</l>
+                        <l n="1632"> Jugez si c’est à moi d’en retarder l’espoir.</l>
+                        <l n="1633"> Puisque c’est le seul bien qui reste en mon pouvoir,</l>
+                        <l n="1634"> Je vais sans différer contenter votre envie,</l>
+                        <l n="1635"> Vous rendre Ténésis, mais ce sera sans vie.</l>
+                </sp>
+        <sp who="#ninias">
+            <speaker> NINIAS. </speaker>
+                        <l n="1636"> Ah ! si je le croyais...</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="1637"> Je brave ta fureur,</l>
+                        <l n="1638"> Fils ingrat : mon supplice est au fond de mon cœur.</l>
+                        <l n="1639"> Menace, tonne, éclate, et m’arrache une vie</l>
+                        <l n="1640"> Que déjà tant d’horreurs m’ont à demi ravie.</l>
+                        <l n="1641"> Ose de mon trépas rendre ces lieux témoins,</l>
+                        <l n="1642"> Te voilà dans l’état où je te crains le moins.</l>
+                        <l n="1643"> Tes soins et ta pitié me rendaient trop coupable,</l>
+                        <l n="1644"> Et mon dessein n’est pas de te trouver aimable.</l>
+                        <l n="1645"> Je fais ce que je puis pour exciter ta main</l>
+                        <l n="1646"> À me plonger, barbare, un poignard dans le sein.</l>
+                        <l n="1647"> Et qu’ai-je à perdre encore en ce moment funeste ?</l>
+                        <l n="1648"> La lumière du ciel, que mon âme déteste ?</l>
+                        <l n="1649"> La mort de mon époux, grâces à mes transports,</l>
+                        <l n="1650"> N’est plus un attentat digne de mes remords.</l>
+                        <l n="1651"> Et tu crois m’effrayer par des menaces vaines !</l>
+                        <l n="1652"> Cruel ! un seul regret vient accroître mes peines :</l>
+                        <l n="1653"> C’est de ne pouvoir pas, au gré de ma fureur,</l>
+                        <l n="1654"> Immoler à tes yeux l’objet de ton ardeur.</l>
+                </sp>
+        <sp who="#ninias">
+            <speaker> NINIAS. </speaker>
+                        <l n="1655"> Ô ciel ! vit-on jamais dans le cœur d’une mère</l>
+                        <l n="1656"> D’aussi coupables feux éclater sans mystère ?</l>
+                        <l n="1657"> Dieux, qui l’aviez prévu, fallait-il en son flanc</l>
+                        <l n="1658"> Permettre que Ninus me formât de son sang ?</l>
+                        <l n="1659"> Que vous humiliez l’orgueil de ma naissance !</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#ninias">
+            <speaker> NINIAS, à Bélus. </speaker>
+                        <l n="1660"> Ah ! seigneur, est-ce vous ? Que de votre présence</l>
+                        <l n="1661"> Mon cœur avait besoin dans ces moments affreux !</l>
+                        <l n="1662"> Qu’ils ont été pour moi tristes et rigoureux !</l>
+                        <l n="1663"> Mais quoi ! sans Ténésis !</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="1664"> La douleur qui me presse</l>
+                        <l n="1665"> Annonce assez, mon fils, le sort de la princesse.</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS, à part. </speaker>
+                        <l n="1666"> L’aurait-on immolée au gré de mes souhaits !</l>
+                </sp>
+        <sp who="#bélus">
+            <speaker> BÉLUS. </speaker>
+                        <l n="1667"> Seigneur, j’ai vainement parcouru ce palais ;</l>
+                        <l n="1668"> En vain dans ses détours ma voix s’est fait entendre :</l>
+                        <l n="1669"> De son triste destin je n’ai pu rien apprendre.</l>
+                        <l n="1670"> C’en est fait ! pour jamais vous perdez Ténésis.</l>
+                        <l n="1671"> Mais que vois-je ? Avec vous, seigneur, Sémiramis !</l>
+                        <l n="1672"> Eh quoi ! cette inhumaine est en votre puissance,</l>
+                        <l n="1673"> Et ma fille et Ninus sont encor sans vengeance !</l>
+                        <l n="1674"> Sourd à la voix du sang qui s’élève en ces lieux,</l>
+                        <l n="1675"> Dans leur faible courroux imitez-vous les dieux ?</l>
+                        <l n="1676"> Et toi, dont la fureur désole ma famille,</l>
+                        <l n="1677"> Barbare ! réponds-moi, qu’as-tu fait de ma fille ?</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="1678"> Ce que ton lâche cœur voulait faire de moi,</l>
+                        <l n="1679"> Et ce que je voudrais pouvoir faire de toi.</l>
+                        <l n="1680"> Mais qu’est-ce que je vois ? Ô ciel ! je suis trahie !</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#ninias">
+            <speaker> NINIAS, à Ténésis. </speaker>
+                        <l n="1681"> Quoi ! madame, c’est vous ! Une si chère vie...</l>
+                </sp>
+        <sp who="#ténésis">
+            <speaker> TÉNÉSIS. </speaker>
+                        <l n="1682"> Seigneur, si c’est un bien pour vous si précieux,</l>
+                        <l n="1683"> Rendez grâce à la main qui nous rejoint tous deux.</l>
+            <stage><em>En montrant Mermécide.</em></stage>
+                        <l n="1684"> Vous voyez devant vous l’étranger intrépide</l>
+                        <l n="1685"> Par qui j’échappe aux coups d’une main parricide.</l>
+                        <l n="1686"> Reine, rassurez-vous ; Ténésis ne vient pas</l>
+                        <l n="1687"> Vous reprocher ici l’ordre de son trépas.</l>
+                        <l n="1688"> Je viens pour implorer, et d’un fils et d’un frère,</l>
+                        <l n="1689"> La grâce d’une sœur et celle d’une mère,</l>
+                        <l n="1690"> Ou me livrer moi-même à leur juste courroux.</l>
+                        <l n="1691"> C’est ainsi que mon cœur veut se venger de vous.</l>
+            <stage><em>À Ninias.</em></stage>
+                        <l n="1692"> Seigneur, si ma prière a sur vous quelque empire,</l>
+                        <l n="1693"> C’est l’unique faveur que de vous je désire :</l>
+                        <l n="1694"> L’un et l’autre, daignez l’accorder à mes vœux.</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="1695"> Madame, je dois trop à ces soins généreux :</l>
+                        <l n="1696"> Cette noble pitié, quoique peu désirée,</l>
+                        <l n="1697"> N’en est pas moins ici digne d’être admirée.</l>
+                        <l n="1698"> Je ne m’attendais pas à vous voir aujourd’hui</l>
+                        <l n="1699"> Dans mon propre palais devenir mon appui.</l>
+                        <l n="1700"> Jouissez du bonheur que le ciel vous renvoie ;</l>
+                        <l n="1701"> Je n’en troublerai plus la douceur ni la joie.</l>
+                        <l n="1702"> Je rends grâces au sort qui nous rassemble ici.</l>
+                        <l n="1703"> Vous voilà satisfaits, et je le suis aussi.</l>
+            <stage><em>Elle se tue.</em></stage>
+                </sp>
+        <sp who="#ninias">
+            <speaker> NINIAS. </speaker>
+                        <l n="1704"> Ah ! juste ciel !</l>
+                </sp>
+        <sp who="#sémiramis">
+            <speaker> SÉMIRAMIS. </speaker>
+                        <l n="1705"> Ingrat, cesse de te contraindre :</l>
+                        <l n="1706"> Après ce que j’ai fait, est-ce à toi de me plaindre ?</l>
+                        <l n="1707"> Que ne me plongeais-tu le poignard dans le sein !</l>
+                        <l n="1708"> J’aurais trouvé la mort plus douce de ta main.</l>
+                        <l n="1709"> Trop heureux cependant qu’une reine perfide</l>
+                        <l n="1710"> Épargne à ta vertu l’horreur d’un parricide !</l>
+                        <l n="1711"> Adieu. Puisse ton cœur, content de Ténésis,</l>
+                        <l n="1712"> Mon fils, n’y pas trouver une Sémiramis !</l>
+            <stage><em>Elle meurt.</em></stage>
+                        <l n="1713"> </l>
+                        <l n="1714"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

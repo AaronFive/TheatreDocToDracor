@@ -1,0 +1,1852 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Les trois Frères rivaux</title>
+                <title type="sub">Comédie</title>
+            <author>
+                <persName>
+                    <forename>Joseph</forename>
+                    <linkname>de</linkname>
+                    <surname>Lafont</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/?q=node/225 </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1713-08-04">Représentée pour la première fois, à Paris, sur le Théâtre de la rue des Fossés Saint-Germain, le 4 août 1713.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="m.-philidor" sex="SEX">
+                            <persName>M. PHILIDOR</persName>
+                        </person>
+                        <person xml:id="madame-philidor" sex="SEX">
+                            <persName>MADAME PHILIDOR</persName>
+                        </person>
+                        <person xml:id="angélique" sex="SEX">
+                            <persName>ANGÉLIQUE</persName>
+                        </person>
+                        <person xml:id="merlin" sex="SEX">
+                            <persName>MERLIN</persName>
+                        </person>
+                        <person xml:id="le-marquis-lisimon" sex="SEX">
+                            <persName>LE MARQUIS LISIMON</persName>
+                        </person>
+                        <person xml:id="le-comte-lisimon" sex="SEX">
+                            <persName>LE COMTE LISIMON</persName>
+                        </person>
+                        <person xml:id="le-chevalier-lisimon" sex="SEX">
+                            <persName>LE CHEVALIER LISIMON</persName>
+                        </person>
+                        <person xml:id="la-ronce" sex="SEX">
+                            <persName>LA RONCE</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Comédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q40831]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">LES TROIS FRÈRES RIVAUX</titlePart>
+            <titlePart type="sub">COMÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre de la rue des Fossés Saint-Germain, le 4 août 1713.</ab><!--@date="1713-08-04"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> À MONSIEUR LE MARQUIS DE COURCILLON</salute>
+            </opener>
+        <p> GOUVERNEUR DE LA PROVINCE DE TOURAINE </p>
+        <p> Allez, soyez obéissante, </p>
+        <p> Partez Muse. Quoique vos vers </p>
+        <p> Soient des présents peu dignes d’être offerts, </p>
+        <p> Il faut être reconnaissante : </p>
+        <p> Allez les consacrer au vaillant Courcillon, </p>
+        <p> Que son illustre renommée, </p>
+        <p> Que l’éclat de son sang, la grandeur de son nom, </p>
+        <p> Que l’intrépidité qui fit voir dans l’Armée, </p>
+        <p> Jointe au goût qu’il fait voir pour l’érudition, </p>
+        <p> Vous frappent d’admiration. </p>
+        <p> De quelque noble ardeur qu’on ait l’âme enflammée, </p>
+        <p> Peu de gens sont connus de Mars et d’Apollon. </p>
+        <p> Muse offrez lui donc votre ouvrage, </p>
+        <p> Et qu’un respectueux hommage </p>
+        <p> Vous fasse mériter l’honneur de ses regards. </p>
+        <p> Est-il pour vous une plus belle gloire </p>
+        <p> Que de suivre un mortel qui sait de toutes parts </p>
+        <p> Se tracer un chemin au Temple de Mémoire ? </p>
+        <p> DE LAFONT. </p>
+    </div>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#merlin">
+            <speaker> MERLIN, seul, tirant trois Bourses de sa poche l’une après l’autre. </speaker>
+                        <l n="1"> Trois objets ravissants, trois bourses pleines d’or !</l>
+                        <l n="2"> Qu’un Valet est heureux chez Monsieur Philidor !</l>
+                        <l n="3"> Tel qui veut épouser Angélique sa fille,</l>
+                        <l n="4"> Vient à moi pour avoir accès dans la famille.</l>
+            <stage>J’en ai <em>novissimè</em> produit trois tour à tour</stage>
+                        <l n="5"> Qui veulent par l’hymen couronner leur amour.</l>
+                        <l n="6"> Le premier a déjà tiré l’aveu du père,</l>
+                        <l n="7"> Le second a tiré parole de la mère,</l>
+                        <l n="8"> le dernier de la fille a tiré l’agrément :</l>
+                        <l n="9"> Et moi, de tous les trois j’ai tiré de l’argent.</l>
+                        <l n="10"> Le premier est, je crois, Marquis, le second Comte,</l>
+                        <l n="11"> Et l’autre Chevalier... Justement, c’est mon compte ;</l>
+                        <l n="12"> Capitaines tous trois, tous trois du même nom,</l>
+                        <l n="13"> Et tous trois introduits par moi dans la maison.</l>
+                        <l n="14"> Mon manège est plaisant : je suce les trois frères ;</l>
+                        <l n="15"> Mais ma foi le cadet fait le mieux ses affaires.</l>
+                        <l n="16"> Comme il paye assez bien, et qu’il paraît foncé,</l>
+                        <l n="17"> À la fille d’abord je l’ai droit adressé :</l>
+                        <l n="18"> Aussi je le sers mieux que ne serait personne.</l>
+                        <l n="19"> Mon cœur officieux est à qui plus lui donne.</l>
+                        <l n="20"> Le bon de tout ceci, c’est que sans le savoir,</l>
+                        <l n="21"> Épris du même objet, tous trois pensent l’avoir :</l>
+                        <l n="22"> Car j’ai conduit ma barque avec tant de sagesse</l>
+                        <l n="23"> Que chacun d’eux, de l’autre ignore la maîtresse.</l>
+                        <l n="24"> Peste ! pour un mari la fille est un trésor ;</l>
+                        <l n="25"> Car son père au Palais a gagné des monts d’or.</l>
+                        <l n="26"> Elle, elle a pour la robe une invincible haine</l>
+                        <l n="27"> Et veut absolument un Époux Capitaine...</l>
+                        <l n="28"> Mais... je vois justement le plus jeune des trois.</l>
+                        <l n="29"> Il marche doucement, et vient en tapinois...</l>
+                        <l n="30"> C’est quelque rendez-vous qui dans ce lieu l’appelle...</l>
+                        <l n="31"> Je ne me trompe point... Car j’aperçois la belle,</l>
+                        <l n="32"> Qui sort de son côté pour le même sujet.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#merlin">
+            <speaker> MERLIN, continuant. </speaker>
+                        <l n="33"> Hé bien ? qu’est-ce ? approchez, Merlin est du secret.</l>
+                        <l n="34"> Vous le savez, je suis tout propre aux confidences.</l>
+            <stage><em>Ils se saluent.</em></stage>
+                        <l n="35"> Hé, mon Dieu, laissez-là toutes vos révérences.</l>
+                </sp>
+        <sp who="#le-chevalier-lisimon">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="36"> Madame, quel bonheur de vous entretenir !</l>
+                        <l n="37"> Mon sort avec le vôtre est-il prêt à s’unir ?</l>
+                        <l n="38"> Puis-je espérer bientôt par un doux hyménée</l>
+                        <l n="39"> Voir ma félicité justement couronnée ?</l>
+                        <l n="40"> Parlez, belle Angélique.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="41"> Espérez, Lisimon,</l>
+                        <l n="42"> Et sachez de mon cœur quelle est 1’intention.</l>
+                        <l n="43"> Si mon hymen vous plaît, je veux vous satisfaire,</l>
+                        <l n="44"> Et j’y vais disposer et mon père et ma mère.</l>
+                        <l n="45"> Dans la Robe ils voulaient me choisir un Parti ;</l>
+                        <l n="46"> Mais c’est à quoi mon cœur n’a jamais consenti.</l>
+                        <l n="47"> Ils voudront bien enfin, ou je suis fort trompée,</l>
+                        <l n="48"> Pour seconder mes vœux prendre un gendre d’Épée.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="49"> Oui, Madame a raison : ces Messieurs du Palais</l>
+                        <l n="50"> Avec leur air gris-brun sont des maris si laids.</l>
+                        <l n="51"> C’est une nation impolie et grossière.</l>
+                        <l n="52"> Mais vive un Capitaine : à sa mine guerrière,</l>
+                        <l n="53"> À ses discours polis, à son air conquérant,</l>
+                        <l n="54"> La beauté la plus fière en peu de jours se rend.</l>
+                        <l n="55"> Pour moi, si j’étais fille, et que j’eusse des charmes,</l>
+                        <l n="56"> Ce serait à Monsieur que je rendrais les armes.</l>
+                </sp>
+        <sp who="#le-chevalier-lisimon">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="57"> Vraiment Monsieur Merlin vous êtes obligeant.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN, à part. </speaker>
+                        <l n="58"> Et là, là, je t’en vais donner pour ton argent.</l>
+                </sp>
+        <sp who="#le-chevalier-lisimon">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="59"> Franchement les Robins enfoncés dans l’étude,</l>
+                        <l n="60"> En abordant le Sexe ont l’accueil un peu rude.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="61"> Plaisant époux, ma foi, qu’un époux à rabat !</l>
+                        <l n="62"> Car, qu’est-ce, dites-moi, que Damon l’Avocat ?</l>
+                        <l n="63"> Un fat, un ignorant balayant la grand-Salle,</l>
+                        <l n="64"> Qui par sa vanité croit que rien ne l’égale,</l>
+                        <l n="65"> Qui de papiers tous blancs a soin d’emplir son lac ;</l>
+                        <l n="66"> Qui décide de tout et ab hoc et ab hac,</l>
+                        <l n="67"> Qui s’écoute parler, qui s’applaudit lui-même,</l>
+                        <l n="68"> Pindarisant ses mots avec un soin extrême ;</l>
+                        <l n="69"> Qui dans les entretiens tranche du bel esprit,</l>
+                        <l n="70"> Qui rit tout le premier des sottises qu’il dit,</l>
+                        <l n="71"> Qui respecte lui seul sa mine de poupée,</l>
+                        <l n="72"> Le matin est en robe et le soir en épée ;</l>
+                        <l n="73"> Étourdi, dissipé, grand parleur ; en un mot,</l>
+                        <l n="74"> Qui partout fait l’habile, et partout n’est qu’un sot.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="75"> Merlin fait des portraits.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="76"> Oh, c’est mon fort, Madame.</l>
+                        <l n="77"> Vive, vive un guerrier pour une jeune femme,</l>
+                        <l n="78"> Et vous ferez heureux l’un et l’autre à jamais,</l>
+                        <l n="79"> Si l’hymen aujourd’hui peut remplir vos souhaits.</l>
+                </sp>
+        <sp who="#le-chevalier-lisimon">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="80"> Merlin est fort porté pour nous deux, ce me semble.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="81"> Pour vous deux cependant, à dire vrai, je tremble.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="82"> Tu trembles ! pourquoi donc ?</l>
+                </sp>
+        <sp who="#le-chevalier-lisimon">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="83"> De grâce explique-toi.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN, à part. </speaker>
+                        <l n="84"> J’en vais encor tirer de l’argent, sur ma foi.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="85"> Que dis-tu là ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="86"> Moi, rien.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="87"> Ah ! tire nous de peine.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="88"> Vous voudriez avoir un époux Capitaine ?</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="89"> Hé bien, Merlin ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="90"> Hé bien, votre père aujourd’hui</l>
+                        <l n="91"> Veut vous voir pleinement satisfaite de lui :</l>
+                        <l n="92"> Sur certain Capitaine il a jette la vue,</l>
+                        <l n="93"> Et vous allez dans peu, Madame, être pourvue.</l>
+                </sp>
+        <sp who="#le-chevalier-lisimon">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="94"> Ah, Ciel ! je suis perdu.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="95"> Quel cruel contretemps.</l>
+                </sp>
+        <sp who="#le-chevalier-lisimon">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="96"> Que serai-je ? Ah ! Merlin, voilà ma bourse prends.</l>
+                        <l n="97"> Il faut jouer ici quelque tour de ta tête.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="98"> Moi, prendre encor de vous ! ah ! je suis trop honnête.</l>
+                </sp>
+        <sp who="#le-chevalier-lisimon">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="99"> Pour réunir en tout tu n’as qu’à dire un mot.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN, prenant l’argent. </speaker>
+                        <l n="100"> Hélas ! il est bien vrai, je ne suis pas trop sot.</l>
+                </sp>
+        <sp who="#le-chevalier-lisimon">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="101"> C’est toi qui dans ces lieux voulus bien m’introduire,</l>
+                        <l n="102"> Par toi j’obtins le cœur pour qui le mien soupire :</l>
+                        <l n="103"> Achève mon bonheur... Car dans cette maison</l>
+                        <l n="104"> Je sais que de tout temps tu fus le factoton.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="105"> Allez, je rends l’argent, si dans cette journée</l>
+                        <l n="106"> Je ne vous conduis pas tout droit à l’hyménée.</l>
+                        <l n="107"> Je saurai bien lever toute difficulté ;</l>
+                        <l n="108"> Mais, que Madame agisse aussi de son côté.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="109"> Ne vous chagrinez point, Lisimon : je vais faire</l>
+                        <l n="110"> Tout ce que je pourrai pour engager mon père.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="111"> Si non, je saurai bien vous sortir d’embarras.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE, en s’en allant. </speaker>
+                        <l n="112"> Revenez dans une heure, allez, n’y manquez pas.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#merlin">
+            <speaker> MERLIN, seul, regardant sa dernière bourse </speaker>
+                        <l n="113"> Voilà donc de l’argent encor que je raccroche :</l>
+                        <l n="114"> Je sais un magasin de bourses dans ma poche :</l>
+                        <l n="115"> Je ne crois pas qu’au monde il soit d’Agioteur,</l>
+                        <l n="116"> De Notaire, de Juif, même de Procureur</l>
+                        <l n="117"> Qui porte aux louis d’or une plus tendre estime.</l>
+                        <l n="118"> Tirer à droite, à gauche, est ma grande maxime.</l>
+                        <l n="119"> Tout va bien jusqu’ici : mais si les deux aînés,</l>
+                        <l n="120"> En ce lieu par malheur se trouvent nez à nez...</l>
+                        <l n="121"> L’un a l’aveu du père, et l’autre de la mère :</l>
+                        <l n="122"> Chacun d’eus a caché son amour à son frère...</l>
+                        <l n="123"> S’ils rencontrent ici leur cadet Lisimon...</l>
+                        <l n="124"> Et s’ils savent enfin que je suis un fripon,</l>
+                        <l n="125"> Que j’ai tiré des trois avec effronterie,</l>
+                        <l n="126"> Ils ne manqueront pas de me prendre à partie,</l>
+                        <l n="127"> Ils voudront s’expliquer... Que faire en ce cas là ?</l>
+                        <l n="128"> Un peu d’effronterie ajustera cela.</l>
+                        <l n="129"> Mais je vois les aînés... Ah, juste ciel ! je tremble...</l>
+                        <l n="130"> Qu’ils vont être ébahis de se trouver ensemble !...</l>
+                        <l n="131"> Restons : puisque je viens de prendre mon parti,</l>
+                        <l n="132"> Morbleu, je n’en veux pas avoir le démenti.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS LISIMON, se croyant seul. </speaker>
+                        <l n="133"> C’est ici la maison de mon futur beau-père :</l>
+                        <l n="134"> Je viens pour terminer avec lui notre affaire.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE LISIMON, se croyant seul aussi. </speaker>
+                        <l n="135"> Madame Philidor, qui connait mon amour,</l>
+                        <l n="136"> Doit me donner sa fille, et conclure en ce jour.</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS, à part. </speaker>
+                        <l n="137"> Monsieur Philidor croit que je suis fils unique :</l>
+                        <l n="138"> C’est pour cela qu’il veut me donner Angélique.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE, à part. </speaker>
+                        <l n="139"> Sa mère par bonheur me croit seul de mon nom,</l>
+                        <l n="140"> Et pense que je suis l’unique Lisimon.</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS, à part. </speaker>
+                        <l n="141"> Le nom de Lisimon peut honorer la fille.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE, à part. </speaker>
+                        <l n="142"> Mon nom seul peut me faire entrer dans sa famille.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN, à part et bas. </speaker>
+                        <l n="143"> Ma foi, c’est un honneur qu’aucun des deux n’aura,</l>
+                        <l n="144"> Ou Merlin à la peine aujourd’hui crèvera.</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS. </speaker>
+                        <l n="145"> Mais j’aperçois Merlin.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="146"> C’est Merlin, c’est lui-même.</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS, apercevant le Comte. </speaker>
+                        <l n="147"> Ô Ciel ! qui vois-je encor ! Ma surprise est extrême.</l>
+                        <l n="148"> Est-ce une illusion ? le Comte dans ces lieux !</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="149"> Quel homme en cet instant se présente à mes yeux ?</l>
+                        <l n="150"> C’est vous, Marquis, je crois...</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS. </speaker>
+                        <l n="151"> Comment ! c’est donc vous, Comte ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN, bas. </speaker>
+                        <l n="152"> Perte ! ils vont s’éclaircir : ce n’est pis là mon compte.</l>
+            <stage><em>Merlin lui fait plusieurs révérences.</em></stage>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="153"> Bonjour, Merlin, bonjour... Je ne sais où j’en suis.</l>
+            <stage><em>Au Marquis.</em></stage>
+                        <l n="154"> Mais je veux être si instruit de ce point, si je puis.</l>
+                        <l n="155"> Que faites-vous ici ? quelle est cette aventure ?</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS. </speaker>
+                        <l n="156"> Mais de vous, bien plutôt, que faut-il que j’augure ?</l>
+                        <l n="157"> Vous n’êtes pas ici sans dessein sûrement ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="158"> Hé Messieurs, à quoi bon cet éclaircissement ?</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="159"> Tais-toi Merlin, tais-toi... S’il faut que je m’explique,</l>
+                        <l n="160"> Je viens en ce logis pour l’hymen d’Angélique.</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS. </speaker>
+                        <l n="161"> Et moi, j’y viens aussi pour la même raison.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE, en colère. </speaker>
+                        <l n="162"> Quoi, morbleu...</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="163"> Paix, Messieurs... respectez la maison ;</l>
+                        <l n="164"> Quoi donc ! prétendez-vous faire ainsi des querelles ?</l>
+                        <l n="165"> Messieurs les Officiers, dites-moi des nouvelles.</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS. </speaker>
+                        <l n="166"> Oh ! morbleu, tais-toi donc... Peste soit du butor...</l>
+            <stage><em>Au Comte.</em></stage>
+                        <l n="167"> Je viens ici mandé par Monsieur Philidor :</l>
+                        <l n="168"> Voilà ce qu’il m’écrit ; car j’ai l’aveu du père.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="169"> Moi, j’ai pareillement un billet de la mère.</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS. </speaker>
+                        <l n="170"> Son père par sa lettre à mes vœux la promet.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="171"> Et la mère me l’offre aussi par son billet.</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS lit la lettre de M. Philidor. </speaker>
+            <stage>À M. le Marquis Lisimon, Capitaine dans le Régiment de la Reine.</stage>
+            <stage><em>À M. le Marquis Lisimon, Capitaine dans le Régiment de la Reine.</em></stage>
+            <stage><em>Faites-moi l’honneur, Monsieur le Marquis, de vous trouver tantôt chez moi : je parlerai de vous à ma femme et à ma fille, et je ne doute pas que vous ne leur plaisiez fort. Ne paraissez pas d’abord dans la maison : promenez-vous en m’attendant dans les allées de mon jardin. Je les y conduirai l’une et l’autre ; et ce sera là que se sera la première entrevue.</em></stage>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE lit la lettre de Madame Philidor. </speaker>
+            <stage>À M. le Comte Lisimon, Capitaine dans le Régiment de la Reine.</stage>
+            <stage><em>À M. le Comte Lisimon, Capitaine dans le Régiment de la Reine.</em></stage>
+            <stage><em>C’est aujourd’hui, Monsieur le Comte, que je dois parler de vous à ma fille et à mon mari. Je vous attends : nous finirons ce jour même, si vous souhaitez : comptez, sur ma parole. Trouvez-vous seulement dans mon jardin, et m’y attendez : j’aurai soin de m’y rendre avec mon mari et ma fille, qui, comme je l’espère, seront charmés l’un et l’autre de l’honneur de votre alliance.</em></stage>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS. </speaker>
+                        <l n="172"> Ciel ! que me dites-vous ?</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="173"> Que venez-vous m’apprendre ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="174"> Ah ! quel galimatias ! je n’y puis rien comprendre.</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS, bas, à Merlin. </speaker>
+                        <l n="175"> Merlin, écoute un mot ; tirons-nous à l’écart.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="176"> Que vous plaît-il, Monsieur ?</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS, bas, à Merlin. </speaker>
+                        <l n="177"> Comment, double pendard,</l>
+                        <l n="178"> Pourquoi ne m’as-tu pas révélé ce mystère ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN, bas, au Marquis. </speaker>
+                        <l n="179"> D’honneur, je l’ignorais.</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS, bas. </speaker>
+                        <l n="180"> Sais-tu que c’est mon frère ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN, faisant l’étonné. </speaker>
+                        <l n="181"> Votre frère, Monsieur ! Ah, que m’apprenez-vous !</l>
+                        <l n="182"> Et qui diable à donc pu l’introduire chez nous ?</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS. </speaker>
+                        <l n="183"> Moi, je te le demande.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="184"> Ah ! Monsieur, je vous jure</l>
+                        <l n="185"> Que j’en lave mes mains. Voyez, quelle aventure !</l>
+                        <l n="186"> Mais la fille est pour vous, j’en serais bien serment :</l>
+                        <l n="187"> Je m’en vais lui parler... Laissez-nous un moment.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE, bas, à Merlin. </speaker>
+                        <l n="188"> Vraiment, Monsieur Merlin, j’ai sujet de ma plaindre.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="189"> De qui, Monsieur ?</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="190"> De vous.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="191"> Moi, je n’ai rien à craindre.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE, bas. </speaker>
+                        <l n="192"> Et vous en agissez certainement fort mal.</l>
+                        <l n="193"> Vous deviez m’avertir que j’avais un Rival,</l>
+                        <l n="194"> Je vous avais payé, je pense, en galant homme.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN, bas. </speaker>
+                        <l n="195"> Moi ! je n’en savais rien, ou la foudre m’assomme.</l>
+                        <l n="196"> Mais vous vous alarmez, je ne vois pas pourquoi.</l>
+                        <l n="197"> Angélique est pour vous, vous dis-je, croyez-moi :</l>
+            <stage><em>Haut.</em></stage>
+                        <l n="198"> Embrassez-vous, Messieurs, sans causer de désordre.</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS. </speaker>
+                        <l n="199"> Moi, j’épouse Angélique, et n’en veux point démordre.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="200"> Moi, je l’épouse aussi, j’y suis déterminé.</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS. </speaker>
+                        <l n="201"> Parbleu, vous céderez ; car je fais votre aîné.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="202"> Oh ! parbleu, nous verrons : sur le fait de maîtresse</l>
+                        <l n="203"> Je suis humble valet à votre droit d’aînesse.</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS, en colère. </speaker>
+                        <l n="204"> Je vais, en attendant la fin de tout ceci,</l>
+                        <l n="205"> Au jardin du beau-père.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="206"> Et moi, j’y vais aussi.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#merlin">
+            <speaker> MERLIN, seul, riant </speaker>
+                        <l n="207"> J’en suis quitte à la fin ; mais ce n’est pas sans peine.</l>
+                        <l n="208"> Respirons un moment, et reprenons haleine.</l>
+                        <l n="209"> Un autre se serait vingt fois déconcerté ;</l>
+                        <l n="210"> Mais dans le monde il faut sur tout être effronté.</l>
+                        <l n="211"> L’effronterie en France est un vice à la mode :</l>
+                        <l n="212"> Rien de plus nécessaire, et rien de plus commode.</l>
+                        <l n="213"> Un parfait effronté ne doit rougir de rien ;</l>
+                        <l n="214"> Et c’est là le grand art pour amasser du bien.</l>
+                        <l n="215"> Les hommes de nos jours ont toute honte bue ;</l>
+                        <l n="216"> Et de quelque côté que je tourne la vue,</l>
+                        <l n="217"> Je ne vois d’indigents que les sots vertueux.</l>
+                        <l n="218"> Il faut un front d’airain pour devenir heureux.</l>
+                        <l n="219"> Taisons-nous... J’aperçois mon bon homme de maître,</l>
+                        <l n="220"> Entêté du Marquis autant qu’on le peut être.</l>
+                        <l n="221"> Il prétend lui donner Angélique aujourd’hui ;</l>
+                        <l n="222"> Mais l’empêcherai bien qu’elle ne soit pour lui.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="223"> Ah ! te voilà, Merlin.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="224"> Fort à votre service,</l>
+                        <l n="225"> Toujours zélé pour vous.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="226"> Va, je te rends justice</l>
+                        <l n="227"> Tu m’as toujours paru la perle des Valets.</l>
+                        <l n="228"> Je sais que contre tous tu prends mes intérêts,</l>
+                        <l n="229"> Même contre ma femme.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="230"> Elle est insupportable.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="231"> Pour toi, tu me parais un garçon raisonnable ;</l>
+                        <l n="232"> Car tu prends mon parti.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="233"> Moi ! N’ai-je pas raison ?</l>
+                        <l n="234"> N’êtes-vous pas, Monsieur, le chef de la maison ?</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="235"> Sans doute.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="236"> Vous avez une excellente tête ;</l>
+                        <l n="237"> Mais votre femme...</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="238"> Fi ! ma femme est une bête.</l>
+                        <l n="239"> Je viens pour lui parler de mon Gendre futur,</l>
+                        <l n="240"> Du Marquis Lisimon ; mais Merlin, je suis sûr,</l>
+                        <l n="241"> Pour peu que nous voulions insister sur le nôtre,</l>
+                        <l n="242"> Qu’aussitôt elle va m’en proposer un autre.</l>
+                        <l n="243"> Oh ! je la connais bien.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="244"> Moi, je n’en doute pas.</l>
+                        <l n="245"> Votre femme Monsieur, a l’esprit haut et bas :</l>
+                        <l n="246"> Elle veut ignorer que cette loi si belle,</l>
+                        <l n="247"> Qui fait l’homme le maître, est la loi naturelle.</l>
+                        <l n="248"> Sa complaisance va comme un flux et reflux ;</l>
+                        <l n="249"> Vous croyez la tenir ; vous ne la tenez plus.</l>
+                        <l n="250"> Pour sa tête, oh ! ma foi, c’est tout comme la Lune,</l>
+                        <l n="251"> Qui tantôt paraît claire et tantôt paraît brune.</l>
+                        <l n="252"> Quand vous lui parlez blanc, elle vous répond noir,</l>
+                        <l n="253"> Et dites-lui bonjour, elle vous dit bonsoir.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="254"> Oh ! parbleu, nous verrons : j’ai fait choix de mon Gendre,</l>
+                        <l n="255"> Le Marquis Lisimon en ce lieu doit se rendre,</l>
+                        <l n="256"> Je prétends que ma femme avec lui file doux,</l>
+                        <l n="257"> Et que ma fille en fasse aujourd’hui son époux.</l>
+                        <l n="258"> Mais n’est-il point venu ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="259"> N’en soyez point en peine.</l>
+                        <l n="260"> Marquis Lisimon au Jardin se promène.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="261"> En es-tu bien certain ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="262"> Oui, je viens de le voir.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="263"> Parbleu, Merlin, je suis ravi de le savoir.</l>
+                        <l n="264"> Je veux tout au plutôt en parler à ma femme.</l>
+                        <l n="265"> Va-t’en me la chercher.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="266"> Mais si la bonne Dame,</l>
+                        <l n="267"> Quand vous lui parlerez du Marquis Lisimon,</l>
+                        <l n="268"> Avait un gendre en poche aussi de sa façon ?</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="269"> Oh ! vraiment c’est de quoi je la crois fort capable.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="270"> C’est un esprit malin.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="271"> C’est un esprit du diable.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="272"> Elle dit toujours non.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="273"> Moi, je dis toujours oui.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="274"> Elle se fâchera.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="275"> J’en serai réjoui.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="276"> Tenez toujours bien ferme !</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR, en colère. </speaker>
+                        <l n="277"> Oh ! va, va, laisse faire.</l>
+                        <l n="278"> Comment donc ! n’est-ce pas une fort bonne affaire ?</l>
+                        <l n="279"> Le Marquis Lisimon est joli cavalier.</l>
+                        <l n="280"> Ma fille pour époux voulait un Officier :</l>
+                        <l n="281"> Tous les Gens du Palais lui causaient la migraine.</l>
+                        <l n="282"> Pour lui faire plaisir je prends un Capitaine.</l>
+                        <l n="283"> Je suis sur qu’à ma fille aussitôt il plaira.</l>
+                        <l n="284"> Et puis ma femme après de quelqu’autre voudra !</l>
+                        <l n="285"> Corbleu, nous allons voir. Fais ce que je désire,</l>
+                        <l n="286"> Va, cours, dis-lui que j’ai quelque chose à lui dire.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="287"> Il n’en est pas besoin : elle vient, je la voi.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="288"> Je veux lui parler seul. Merlin, éloigne toi.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#merlin">
+            <speaker> MERLIN, bas, à Madame Philidor. </speaker>
+                        <l n="289"> Le Comte Lisimon, votre prétendu gendre,</l>
+                        <l n="290"> Est dans votre Jardin, Madame, à vous attendre.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="291"> Je viens à ce sujet parler à mon époux.</l>
+                        <l n="292"> Je te suis obligée : adieu, va, laisse nous.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR, bas. </speaker>
+                        <l n="293"> Voyons, sachons un peu tout ce qu’elle a dans l’âme.</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR, brusquement. </speaker>
+                        <l n="294"> Hé bien, mon cher époux.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR, sur le même ton. </speaker>
+                        <l n="295"> Hé bien, ma chère femme.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="296"> Pour vous entretenir vous me voyez ici.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="297"> Pour le même sujet vous m’y voyez aussi.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="298"> Au moins je vous demande un peu de complaisance.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="299"> Soit, mais je veux aussi de la correspondance.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="300"> N’en ai-je pas toujours ?</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="301"> Non pas avec excès.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="302"> N’allez-vous pas déjà m’intenter un procès ?</l>
+                        <l n="303"> C’est vous qui commencez toujours à faire rage.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="304"> Ma foi, vous êtes vous un vrai trouble-ménage.</l>
+                        <l n="305"> Mail, brisons là-dessus : nous venons nous parler ;</l>
+                        <l n="306"> Tâchons de commencer par ne point quereller. </l>
+                        <l n="307"> Notre fille Angélique à présent est nubile :</l>
+                        <l n="308"> Vous savez qu’en maris elle est fort difficile.</l>
+                        <l n="309"> J’ai voulu lui donner plusieurs gens du Palais,</l>
+                        <l n="310"> Ils sont trop attachés, dit-elle, à leurs procès.</l>
+                        <l n="311"> Bref, elle a pour la Robe une mortelle haine ;</l>
+                        <l n="312"> Et j’ai fait choix pour elle enfin d’un Capitaine.</l>
+                        <l n="313"> C’est...</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="314"> Je vous interromps tout d’abord sur ce point</l>
+                        <l n="315"> Sa mère à cet hymen ne consentira point.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="316"> Pourquoi donc, s’il vous plaît ? Et quel but est le vôtre ?</l>
+                        <l n="317"> Car enfin...</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="318"> Mon but est qu’elle en épouse un autre.</l>
+                        <l n="319"> J’ai son affaire.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR, en colère. </speaker>
+                        <l n="320"> Hé bien ! N’avais-je pas bien dit ?</l>
+                        <l n="321"> Ventrebleu, perte soit de votre chien d’esprit.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="322"> Mais, Monsieur mon mari, d’un ton plus bas, pour cause.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="323"> Comment donc ! Il suffit que je veuille une chose,</l>
+                        <l n="324"> Pour que vous vouliez l’autre.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="325"> Oh, je veux la raison.</l>
+                        <l n="326"> L’époux que je lui donne est un joli garçon,</l>
+                        <l n="327"> Même il est Capitaine.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="328"> Ah ! j’enrage... Madame,</l>
+                        <l n="329"> Je vous ferai bien voir que vous êtes ma femme.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="330"> Et par où, s’il vous plaît ?</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="331"> Par où... Suffit : je veux</l>
+                        <l n="332"> Que ma fille aujourd’hui condescende à mes vœux.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="333"> Je prétends qu’Angélique à moi seule obéisse.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="334"> Selon ma volonté j’entends moi qu’elle agisse.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="335"> Elle doit se soumettre aveuglément à moi,</l>
+                        <l n="336"> Et de nul autre après ne recevoir la loi.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="337"> Et par quelle raison ?</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="338"> C’est que je suis sa mère.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="339"> Et moi donc, s’il vous plaît, ne suis-je pas son père ?</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="340"> Et quand vous le seriez ? Voyez, belle raison !</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="341"> Je m’en moque : j’aurai pour gendre Lisimon.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="342"> Lisimon, dites-vous ? Lisimon Capitaine ?</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="343"> Oui.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="344"> De quel Régiment ?</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="345"> De Celui de la Reine.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="346"> Tout de bon ?</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="347"> Tout de bon.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="348"> Et vite, embrassons-nous.</l>
+                        <l n="349"> Allons, faisons la paix, mon cher petit Époux.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="350"> D’où vient donc tout à coup un excès de tendresse</l>
+                        <l n="351"> Que l’on pardonnerait à peine à sa maîtresse ?</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="352"> L’Époux que je destine à ma fille aujourd’hui,</l>
+                        <l n="353"> C’est Lisimon.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="354"> Comment ! Lisimon !</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="355"> Oui, c’est lui.</l>
+                        <l n="356"> Et puisque nous voulons tous deux le même gendre,</l>
+                        <l n="357"> À votre volonté je suis prête à me rendre.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="358"> Voyez le grand effort ! Mais je suis tout troublé.</l>
+                        <l n="359"> Quoi, Monsieur Lisimon vous a déjà parlé ?</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="360"> Oh, vraiment j’ai fait plus ; ma parole est donnée.</l>
+                        <l n="361"> De finir de ma fille avec lui l’hyménée.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="362"> De moi sur cet article il a parole aussi.</l>
+                        <l n="363"> Je vous dirai bien plus, Lisimon est ici.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="364"> Je le sais bien.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="365"> Comment ?</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="366"> Je le sais bien, vous dis-je.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR, à part. </speaker>
+                        <l n="367"> Vous le savez ! Voici quelque nouveau vertige.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="368"> Sur mon billet il s’est rendu dans le jardin :</l>
+                        <l n="369"> Il a reçu, vous dis-je, un billet de ma main,</l>
+                        <l n="370"> Par lequel en deux mots je lui mande et propose</l>
+                        <l n="371"> De venir au jardin pour terminer la chose.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR, riant. </speaker>
+                        <l n="372"> Je vous en livre autant. Le cas est singulier ;</l>
+                        <l n="373"> Je n’ai jamais rien vu de plus particulier.</l>
+                        <l n="374"> Ne nous trompons-nous point ; C’est peut-être un autre homme.</l>
+                        <l n="375"> Est-ce bien Lisimon ?</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="376"> C’est ainsi qu’on le nomme.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="377"> Un garçon fort bien fait ?</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="378"> Oui vraiment, fait au tour.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="379"> Assez beau de visage.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="380"> Ah ! beau comme le jour.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="381"> Capitaine ?</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="382"> Oui, vous dis-je.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="383"> Ah ! ma foi, c’est lui-même.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="384"> En doutez-vous ?</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="385"> Moi ? Non : mais c’est un vrai problème.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="386"> Nous allions quereller ; car nos plus grands débats</l>
+                        <l n="387"> Viennent faute souvent de ne s’entendre pas.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="388"> Hé ! La chose à présent n’est pas encor bien claire.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="389"> Il faut à notre fille apprendre ce mystère.</l>
+                        <l n="390"> Puisqu’elle hait si fort tous les gens du Palais.</l>
+                        <l n="391"> Lisimon pleinement doit remplir ses souhaits.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="392"> Sans doute, et je prétends que l’affaire se fasse.</l></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="393"> Mon Père, à vos genoux, je demande une grâce.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="394"> Comment donc ?</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="395"> Ah ! mon père, auriez-vous bien le cœur</l>
+                        <l n="396"> De vouloir aujourd’hui causer tout mon malheur.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="397"> En voici bien d’un autre : et que veux-tu donc dire ?</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="398"> Mais vraiment son discours commence à m’interdire.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="399"> Vous voulez, dit Merlin, tous deux me marier ;</l>
+                        <l n="400"> Et je viens tout exprès ici pour vous prier</l>
+                        <l n="401"> De ne me point forcer au nœud du mariage.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="402"> Ah ! le cas est nouveau, qu’une fille à votre âge</l>
+                        <l n="403"> Ait pour l’état de femme une si grande horreur ;</l>
+                        <l n="404"> Des filles de Paris c’est l’unique fureur ;</l>
+                        <l n="405"> Et leur esprit serait attaqué de folie,</l>
+                        <l n="406"> S’il leur falloir rester filles toute leur vie.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="407"> Mais, mon dessein n’est pas de rester fille... hélas !</l>
+                        <l n="408"> Un jeune cavalier m’a trouvé des appas...</l>
+                        <l n="409"> Et je viens vous prier de renoncer au vôtre...</l>
+                        <l n="410"> Et de m’en accorder en même temps un autre.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="411"> Je ne m’attendais pas à ce petit détour.</l>
+                        <l n="412"> Or çà, Mademoiselle, en dépit de l’amour,</l>
+                        <l n="413"> À votre mère, à moi, j’entends qu’on obéisse.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="414"> Quoi ! vous seriez, mon père, auteur de mon supplice.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="415"> Ceci n’est pas mauvais. Quoi, quand un coup du sort</l>
+                        <l n="416"> Met votre mère et moi parfaitement d’accord ;</l>
+                        <l n="417"> (Ce qui n’arrive pas deux fois au plus l’année)</l>
+                        <l n="418"> Vous seule vous romprez un projet d’hyménée !</l>
+                        <l n="419"> Mais quel est ce mignon, ce joli jouvenceau,</l>
+                        <l n="420"> Dont vous avez coiffé votre petit cerveau ?</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="421"> Je le gagerais bien, c’est quelque petit-maître.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="422"> Oh ! non, il est sensé tout autant qu’on peut l’être.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="423"> Mais enfin, quel homme est-ce ? Est-ce un homme de nom ?</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="424"> C’est, puisqu’il le faut dire... un nommé Lisimon.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="425"> Lisimon, dis-tu pas ? Quoi, c’est chose certaine ?</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="426"> Oui, mon père.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="427"> Et qu’est-il ?</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="428"> Mais, il est Capitaine</l>
+                        <l n="429"> Au Régiment, dit-on, de la Reine... Pourquoi</l>
+                        <l n="430"> Paraissez-vous surpris ? Vous riez...</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR, riant. </speaker>
+                        <l n="431"> Oh, ma foi,</l>
+                        <l n="432"> Je n’y puis plus tenir.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="433"> Quoi ! vous aussi, ma mère ?</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="434"> Le plaisant tour !</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="435"> De grâce, expliquez ce mystère.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR, riant toujours. </speaker>
+                        <l n="436"> Celui que nous t’avons destiné pour époux,</l>
+                        <l n="437"> C’est Lisimon lui-même.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="438"> Ah ! que m’apprenez-vous ?</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="439"> Parbleu, de Lisimon j’admire la sagesse.</l>
+                        <l n="440"> Quelle discrétion ! quelle délicatesse !</l>
+                        <l n="441"> De prendre de nous trois en secret l’agrément.</l>
+                        <l n="442"> Peste ! ce garçon-là promet infiniment.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="443"> Le pauvre Chevalier va donc être bien aise.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="444"> Chevalier, dites-vous ? oh ! ne vous en déplaise</l>
+                        <l n="445"> Vous serez bien Comtesse.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="446"> Elle Comtesse ? bon !</l>
+                        <l n="447"> Elle sera Marquise, et je vous en répons.</l>
+                        <l n="448"> Lisimon est Marquis.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="449"> Non, vraiment, il est Comte.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="450"> Non, il est Chevalier.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="451"> Hé ! quel peste de conte.</l>
+                        <l n="452"> Il est Marquis, vous dis-je, et Marquis très Marquis</l>
+                        <l n="453"> Et tous les Lisimon le sont de père en fils.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="454"> Et moi, Monsieur, et moi, je soutiens le contraire.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="455"> Bon, encor une fois mettons-nous en colère.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="456"> Vous m’y forcez toujours... car tenez, franchement...</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="457"> Ne sauriez-vous parler qu’avec emportement ?</l>
+                        <l n="458"> Entre-nous, vos discours sont pleins de pétulance.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="459"> Et les vôtres, Monsieur, sont pleins d’extravagance.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="460"> Le compliment est doux. Mais faut-il nous fâcher ?</l>
+                        <l n="461"> C’est une bagatelle : envoyons-le chercher.</l>
+                        <l n="462"> N’est-il pas an Jardin ?</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="463"> Sans doute il y doit être.</l>
+                        <l n="464"> Nous n’avons qu’à parler, d’abord, il va paraître,</l>
+            <stage><em>Voyant le Comte qui vient. </em></stage>
+                        <l n="465"> Mais je le vois venir.</l></div>
+        <div type="scene" xml:id=" X ">
+            <head> Scène X </head>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR, voyant le Marquis. </speaker>
+                        <l n="466"> Justement, le voici.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR, prenant le Comte par la main. </speaker>
+                        <l n="467"> Tenez, c’est celui-là.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR, prenant le Marquis. </speaker>
+                        <l n="468"> Non, non, c’est celui-ci.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="469"> C’est celui-là, vous dis-je.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="470"> Hé ! mon Dieu ! non, ma femme.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR, au Comte. </speaker>
+                        <l n="471"> Monsieur, n’êtes-vous pas Lisimon.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="472"> Oui, Madame.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="473"> Là, Monsieur mon mari, n’avais-je pas raison ?</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR, au Marquis. </speaker>
+                        <l n="474"> N’est-ce pas vous, Monsieur, qu’on nomme Lisimon ?</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS. </speaker>
+                        <l n="475"> Oui, Monsieur.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE, bas. </speaker>
+                        <l n="476"> Juste Ciel ! ma surprise est extrême.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR, au Marquis. </speaker>
+                        <l n="477"> Capitaine ?</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS. </speaker>
+                        <l n="478"> Oui, Monsieur.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR, au Comte. </speaker>
+                        <l n="479"> Et vous ?</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="480"> Et moi de même.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="481"> Comment ! deux Lisimon ! mais, je n’y connais rien.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="482"> Pour moi, je n’en connais point d’autre que le mien.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="483"> Moi, je crois que le mien est le seul véritable :</l>
+                        <l n="484"> Je m’y tiens.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE, bas. </speaker>
+                        <l n="485"> Tout ceci me paraît incroyable.</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS. </speaker>
+                        <l n="486"> Monsieur, j’espère en vous ; vous savez mon amour.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="487"> Oui, Monsieur, vous aurez ma fille, et dès ce jour.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE, à Madame Philidor. </speaker>
+                        <l n="488"> Vous savez mon ardeur ; j’espère en vous, Madame.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="489"> Comptez sur moi, Monsieur ; ma fille est votre femme.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="490"> Angélique.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="491"> Mon père.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="492"> À quoi rêves-tu là ?</l>
+                        <l n="493"> Tu connais si bien, explique-nous cela.</l>
+                        <l n="494"> Lequel est Lisimon ? Est-ce l’un ? Est-ce l’autre ?</l>
+                        <l n="495"> Parle, est-ce le mien ?</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="496"> Non.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="497"> C’est le mien.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="498"> Ni le vôtre.</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS. </speaker>
+                        <l n="499"> Comment ! Mademoiselle, ai-je l’air imposteur ?</l>
+                        <l n="500"> Mon nom est Lisimon, je suis homme d’honneur.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="501"> Permettez-moi de dire ici la même chose :</l>
+                        <l n="502"> Que Lisimon n’est pas un nom que je suppose.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="503"> Lequel croire des deux ? par ma foi, je ne sais.</l>
+            <stage><em>Au Marquis.</em></stage>
+                        <l n="504"> Mais vous me convenez, Monsieur, et c’est assez.</l>
+                        <l n="505"> À mes commandements ma fille va se rendre.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR, parlant au Comte. </speaker>
+                        <l n="506"> Et moi, je prétends moi, que Monsieur soit mon gendre.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR, à sa femme. </speaker>
+                        <l n="507"> C’est à vous à céder : je le veux, en un mot.</l>
+                        <l n="508"> Vous n’êtes qu’une femme.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="509"> Et vous n’êtes qu’un sot.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="510"> Ah ! mon Père, en faut-il venir aux invectives ?</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR, en colère. </speaker>
+                        <l n="511"> Quoi donc ? dérogerai-je à mes prérogatives ?</l>
+                        <l n="512"> Vous dépendez de moi : je suis père et mari :</l>
+                        <l n="513"> D’elle comme de vous je veux être obéi.</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS. </speaker>
+                        <l n="514"> Ah ! Monsieur...</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="515"> Ah ! Madame...</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="516"> Hé ! ma mère, de grâce,</l>
+                        <l n="517"> Tâchez qu’avec douceur cette affaire se passe.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="518"> Votre père me joue un tour de sa façon.</l>
+                        <l n="519"> Je gage que le sien est un faux Lisimon.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="520"> Moi ! Je me servirais d’un pareil stratagème ?</l>
+                        <l n="521"> Je n’en suis pas capable.</l></div>
+        <div type="scene" xml:id=" XI ">
+            <head> Scène XI </head>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="522"> Hé ! le voici lui-même.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="523"> Et qui donc ?</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="524"> Lisimon.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="525"> Qui ? celui que je voi ?</l>
+                        <l n="526"> Je ne sais où j’en suis.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="527"> Ni moi...</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS, voyant le Chevalier. </speaker>
+                        <l n="528"> Ni moi...</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE, voyant le Chevalier. </speaker>
+                        <l n="529"> Ni moi.</l>
+                </sp>
+        <sp who="#le-chevalier-lisimon">
+            <speaker> LE CHEVALIER LISIMON. </speaker>
+                        <l n="530"> Le Marquis et le Comte ! Ô rencontre imprévue !</l>
+                        <l n="531"> De tout ce que je vois mon âme est confondue.</l>
+            <stage><em>À M. Philidor. </em></stage>
+                        <l n="532"> Ah ! Monsieur, pardonnez à mon étonnement,</l>
+                        <l n="533"> Deux rivaux, je le vois, traversent un Amant.</l>
+                        <l n="534"> Espérant m’allier avec votre famille,</l>
+                        <l n="535"> Je vous venais ici demander votre fille.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="536"> Oh ! ma foi, c’en est trop : trois époux à la fois !</l>
+                        <l n="537"> Prétendez-vous, Messieurs, l’épouser tous les trois ?</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="538"> La chose assurément ne paraît pas faisable.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="539"> Mais, qui diantre de vous est donc le véritable ?</l>
+                </sp>
+        <sp who="#tous-trois-ensemble">
+            <speaker> TOUS TROIS ENSEMBLE. </speaker>
+                        <l n="540"> C’est moi, Monsieur.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="541"> Comment ! tous les trois ! oh ! parbleu,</l>
+                        <l n="542"> À la fin je croirai que ceci n’est qu’un jeu.</l>
+                </sp>
+        <sp who="#le-chevalier-lisimon">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="543"> Monsieur, puisqu’il vous faut dévoiler ce mystère,</l>
+                        <l n="544"> Des aînés Lisimon je luis le jeune frère ;</l>
+                        <l n="545"> Nous servons tous les trois au même Régiment ;</l>
+                        <l n="546"> Nous nous trouvons chez vous, je ne sais pas comment.</l>
+                        <l n="547"> Ils sont très étonnés : quant à moi, je vous jure</l>
+                        <l n="548"> Que je suis tout comme eux surpris de l’aventure.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="549"> Puisque vous m’assurez que la chose est ainsi,</l>
+                        <l n="550"> Je me trouve à présent un peu plus éclairci.</l>
+                        <l n="551"> Mais, par quel cas fortuit vous trouvez-vous ensemble ?</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS. </speaker>
+                        <l n="552"> Sans doute c’est l’amour qui tous trois nous rassemble.</l>
+                        <l n="553"> Quant à moi, Merlin seul m’a produit près de vous.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="554"> Quoi, Merlin ? ah, le traître ! il mourra sous mes coups.</l>
+                        <l n="555"> C’est lui qui m’a donne l’accès près de Madame.</l>
+                </sp>
+        <sp who="#le-chevalier-lisimon">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="556"> Ah ! qu’entends-je ? ainsi donc il trahissait ma flamme</l>
+                        <l n="557"> Il m’a comme vous deux produit dans la maison,</l>
+                        <l n="558"> Il m’a deux fois tiré de l’argent.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="559"> Le fripon !</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="560"> J’en suis pour mon argent comme vous pour le vôtre...</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS. </speaker>
+                        <l n="561"> Il nous a donc dupés tous trois J’un après l’autre.</l>
+                        <l n="562"> Mais vous m’avez promis votre fille, Monsieur,</l>
+                        <l n="563"> Et de vous sur ce point j’ai parole d’honneur.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="564"> Oh ! je vous la tiendrai.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="565"> Par parole authentique,</l>
+                        <l n="566"> Madame m’a promis la charmante Angélique.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="567"> Ne craignez rien, Monsieur, vous serez son époux.</l>
+                </sp>
+        <sp who="#le-chevalier-lisimon">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="568"> Belle Angélique, hélas ! je n’espère qu’en vous.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="569"> Ah ! tant que de mon cœur je serai la maîtresse,</l>
+                        <l n="570"> Vous pouvez, Chevalier, compter sur ma tendresse.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="571"> C’est ce qu’il faudra voir.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="572"> Mais que veut ce valet ?</l></div>
+        <div type="scene" xml:id=" XII ">
+            <head> Scène XII </head>
+        <sp who="#la-ronce">
+            <speaker> LA RONCE. </speaker>
+                        <l n="573"> Madame, on m’a chargé de vous rendre un billet.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="574"> Encore un Lisimon.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="575"> Attendez donc réponse.</l>
+                        <l n="576"> Mais, il s’en va. Voyons un peu ce qu’il m’annonce.</l></div>
+        <div type="scene" xml:id=" XIII ">
+            <head> Scène XIII </head>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="577"> Le benêt ! il apporte un billet au hasard ;</l>
+                        <l n="578"> Il devait bien nous dire au moins de quelle part.</l>
+                        <l n="579"> Je ne reconnais point du tout cette écriture.</l>
+                        <l n="580"> Et je vois qu’on a même omis la signature.</l>
+            <stage><em>Elle lit.</em></stage>
+            <stage><em>Lettre.</em></stage>
+            <stage><em>Ayant appris, Madame, que les deux aînés des trois Lisimon aspiraient au bonheur d’entrer dans votre famille, j’ai cru qu’il était de mon devoir de vous avertir que le Marquis est si fort adonné au jeu, et le Comte aux femmes, qu’ils rendront une épouse éternellement malheureuse. Vous savez, Madame, que ce sont là les deux vices ordinaires de presque tous les gens de guerre : ainsi prenez, garde à ce que vous serez.</em></stage>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR, continuant. </speaker>
+                        <l n="581"> Quoi, Messieurs, vous aimez les femmes et le jeu !</l>
+                        <l n="582"> Vraiment, vous pourriez bien ruiner ma fille en peu.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="583"> Madame, ce billet n’est qu’un pur artifice.</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS. </speaker>
+                        <l n="584"> Monsieur, à ma conduire on ne rend pas justice.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="585"> Ce que j’apprends de vous, Messieurs, me fait trembler.</l>
+                        <l n="586"> Moi, vous donner ma fille ? Autant vaut l’immoler.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="587"> Fi ! les maris joueurs sont des maris infâmes.</l>
+                        <l n="588"> Peut-on aimer le jeu ?... Passe encore pour les femmes.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="589"> Madame, encore un coup, on nous accuse à tort ;</l>
+                        <l n="590"> Et s’il faut parler net, je soupçonne très fort</l>
+                        <l n="591"> Votre valet Merlin de cette fourberie ;</l>
+                        <l n="592"> Nous avons des garants de sa friponnerie ;</l>
+                        <l n="593"> Et ce qu’il nous a fait à tous trois tour à tour,</l>
+                        <l n="594"> Nous montre qu’il est bien capable d’un tel tour.</l>
+                        <l n="595"> Éclaircissons ce fait, je le demande en grâce.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="596"> Si c’est lui, je prétends l’assommer sur la place.</l>
+                        <l n="597"> Mais voyez ce maraud ! Taisons-nous... Le voici.</l></div>
+        <div type="scene" xml:id=" XIV ">
+            <head> Scène XIV </head>
+        <sp who="#merlin">
+            <speaker> MERLIN, apercevant les trois Lisimon ensemble. </speaker>
+                        <l n="598"> Ah ! que vois-je ! La peste ! ils sont encore ici.</l>
+                        <l n="599"> Je les croyais bien loin... fuyons.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="600"> Arrête, arrête</l>
+                        <l n="601"> Viens-tu jouer encor quelque tour de ta tête.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN, voulant s’échapper. </speaker>
+                        <l n="602"> Hé ! Monsieur, laissez-moi, l’on m’attend autre part.</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS. </speaker>
+                        <l n="603"> Ah, ah ! vous voilà donc, traitre, insigne pendard.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="604"> C’est donc toi, malheureux, dont l’audace est extrême ?</l>
+                </sp>
+        <sp who="#le-chevalier-lisimon">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="605"> Faquin, te voilà donc ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="606"> Oui, Messieurs, c’est moi-même.</l>
+            <stage><em>À part.</em></stage>
+                        <l n="607"> Un peu d’effronterie, allons, ferme Merlin.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="608"> Tu nous a donc joues tous trois, double Coquin.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="609"> Qui, moi ? de vous jouer j’aurais eu l’impudence !</l>
+                        <l n="610"> Souverain protecteur des cœurs pleins d’innocence,</l>
+                        <l n="611"> Ciel, qui voyez ici l’affront que l’on me fait,</l>
+                        <l n="612"> Me laissez-vous noircir d’un semblable forfait ?</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS. </speaker>
+                        <l n="613"> Quoi ! ne nous as-tu pas introduits chez ton maître,</l>
+                        <l n="614"> Tous trois l’un après l’autre ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="615"> Oui, Monsieur.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="616"> Hé bien, traître,</l>
+                        <l n="617"> N’est-ce pas les jouer ? Dis nous en la raison.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="618"> Est-ce ma faute à moi s’ils sont trois Lisimon ?</l>
+                        <l n="619"> J’ai conduit, ce me semble, assez bien leurs affaires,</l>
+                        <l n="620"> De quoi s’avisent-ils aussi d’être trois frères ?</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="621"> Mais ce n’est pas le tout. Connais-tu ce billet ?</l>
+                        <l n="622"> Je suis sûre, maraud, que c’est toi qui l’as fait.</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS. </speaker>
+                        <l n="623"> De tes tours insolents, coquin, c’est là le pire.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="624"> Qui, moi ! faire un billet ! je ne sais pas écrire.</l>
+                        <l n="625"> Si j’avais un peu su barbouiller du papier</l>
+                        <l n="626"> Je serais à présent peut-être un gros fermier.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE, tirant son épée. </speaker>
+                        <l n="627"> Mon âme en ce moment veut être détrompée,</l>
+                        <l n="628"> Traître, ou bien dans ton sang je plonge cette épée.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="629"> Mes, Messieurs, battez-moi, bourrez-moi, tuez-moi ;</l>
+                        <l n="630"> Je ne sais d’où provient ce billet, par ma foi.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="631"> Tu n’en sais rien, maraud ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="632"> Non, la peste me tue !</l>
+                        <l n="633"> Et c’est la vérité, comme on dit, toute nue.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="634"> Je veux croire, Messieurs, qu’on cherche à vous noircir ;</l>
+                        <l n="635"> Mais avant de conclure il faut nous éclaircir,</l>
+                        <l n="636"> Si ce qu’on nous écrit est faux ou véritable.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="637"> Pour la première fois ma femme est raisonnable.</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="638"> Tout cela ne serait d’aucune utilité.</l>
+                        <l n="639"> Ces Messieurs voudraient-ils forcer ma volonté ?</l>
+                        <l n="640"> Puisqu’un autre a mon cœur, que peuvent-ils prétendre ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN, à part. </speaker>
+                        <l n="641"> Bon, elle me seconde, et c’est fort bien l’entendre.</l>
+                </sp>
+        <sp who="#le-marquis-lisimon">
+            <speaker> LE MARQUIS. </speaker>
+                        <l n="642"> Madame, c’est assez, je me tiens averti.</l>
+                        <l n="643"> Comte, m’en croirez-vous, prenons notre parti :</l>
+                        <l n="644"> Faisons par grandeur d’âme un effort sur nous-même ;</l>
+                        <l n="645"> Puisque des trois rivaux ce n’est pas nous qu’on aime.</l>
+                </sp>
+        <sp who="#le-comte-lisimon">
+            <speaker> LE COMTE. </speaker>
+                        <l n="646"> Chevalier, nous laissons un champ libre à tes feux</l>
+            <stage><em>À Merlin.</em></stage>
+                        <l n="647"> Toi, maraud, de tes jours ne te montre à mes yeux.</l></div>
+        <div type="scene" xml:id=" XV ">
+            <head> Scène XV </head>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="648"> Or ça, Monsieur Merlin, je veux que sans mystère</l>
+                        <l n="649"> Vous me développiez le fond de cette affaire.</l>
+                        <l n="650"> Ces Messieurs quittent prise, ils en ont tout sujet.</l>
+                        <l n="651"> Si vous ne m’apprenez d’où vient ce beau billet,</l>
+                        <l n="652"> Comme un fripon fieffé, je vais vous faire prendre</l>
+                        <l n="653"> Jusqu’à ce que l’en ait des preuves pour vous pendre.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="654"> Permettez donc, Monsieur, qu’embrassant vos genoux,</l>
+                        <l n="655"> Votre Merlin exige une grâce de vous.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="656"> Et quelle grâce ? dis.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN, à genoux. </speaker>
+                        <l n="657"> Celle de ne point battre</l>
+                        <l n="658"> Un valet digne, hélas ! de l’être comme quatre.</l>
+                        <l n="659"> Jetez les yeux, Monsieur, sur mon petit trésor,</l>
+                        <l n="660"> Et voyez seulement ces quatre bourses d’or.</l>
+                        <l n="661"> Des aînés Lisimon, j’obtins les deux premières,</l>
+                        <l n="662"> Et le cadet lui seul m’offrit les deux dernières.</l>
+                        <l n="663"> Je les servais d’abord tous trois sans primauté ;</l>
+                        <l n="664"> Mais le plus fort payant l’a lui seul emporté.</l>
+                        <l n="665"> Pour faire déguerpir les aînés des trois frères,</l>
+                        <l n="666"> J’ai cru dans un besoin mes ruses nécessaires ;</l>
+                        <l n="667"> Et cette Lettre enfin, dont vous cherchez l’auteur,</l>
+                        <l n="668"> Est de l’invention de votre serviteur.</l>
+                        <l n="669"> De cent routes, Monsieur, qui vont à la fortune,</l>
+                        <l n="670"> Depuis près de trente ans je n’en ai trouvé qu’une.</l>
+                        <l n="671"> Si je vous ai trompé, j’en pleure amèrement,</l>
+                        <l n="672"> Et j’en suis très fâché, Monsieur, assurément.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="673"> Comment, double coquin, nous jouer de la sorte !</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="674"> Je m’y suis vu contraint, ou le diable m’emporte.</l>
+                </sp>
+        <sp who="#m.-philidor">
+            <speaker> M. PHILIDOR. </speaker>
+                        <l n="675"> En faveur de l’argent que cela t’a produit,</l>
+                        <l n="676"> Je veux bien pardonner ce petit tour d’esprit ;</l>
+            <stage><em>Au Chevalier. </em></stage>
+                        <l n="677"> Mais n’y retourne plus. Ma fille a su vous plaire,</l>
+                        <l n="678"> Obtenez, s’il se peut, l’agrément de sa mère ;</l>
+                        <l n="679"> Cela se doit ainsi : qu’elle approuve vos feux,</l>
+                        <l n="680"> Et je suis prêt, Monsieur, à vous unir tous deux.</l>
+                </sp>
+        <sp who="#le-chevalier-lisimon">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="681"> Ma fortune est égale à celle de mes frères :</l>
+                        <l n="682"> Pourquoi vos sentiments me seraient-ils contraires ?</l>
+                </sp>
+        <sp who="#angélique">
+            <speaker> ANGÉLIQUE. </speaker>
+                        <l n="683"> Ma mère, vous pouvez me faire un heureux fort.</l>
+                </sp>
+        <sp who="#madame-philidor">
+            <speaker> MADAME PHILIDOR. </speaker>
+                        <l n="684"> Entrons dans le logis : nous ferons cet accord.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="685"> Le Cadet Lisimon remporte la victoire :</l>
+                        <l n="686"> Des trois Frères rivaux ainsi finit l’histoire. </l>
+                        <l n="687"> </l>
+                        <l n="688"> </l></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

@@ -1,0 +1,1635 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">La Marquise de Pompadour</title>
+                <title type="sub">Comédie</title>
+            <author>
+                <persName>
+                    <forename>Michel</forename>
+                    <linkname>de</linkname>
+                    <surname>Cubières-palmézeaux</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/la-marquise-de-pompadour-michel-de-cubières-palmézeaux </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1797">Représentée pour la première fois, à Paris, sur le Théâtre de Molière, en 1797.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="louis-xv" sex="SEX">
+                            <persName>LOUIS XV</persName>
+                        </person>
+                        <person xml:id="la-marquise-de-pompadour" sex="SEX">
+                            <persName>LA MARQUISE DE POMPADOUR</persName>
+                        </person>
+                        <person xml:id="le-duc-de-richelieu" sex="SEX">
+                            <persName>LE DUC DE RICHELIEU</persName>
+                        </person>
+                        <person xml:id="germon" sex="SEX">
+                            <persName>GERMON</persName>
+                        </person>
+                        <person xml:id="juliette" sex="SEX">
+                            <persName>JULIETTE</persName>
+                        </person>
+                        <person xml:id="crébillon" sex="SEX">
+                            <persName>CRÉBILLON</persName>
+                        </person>
+                        <person xml:id="geliote" sex="SEX">
+                            <persName>GELIOTE</persName>
+                        </person>
+                        <person xml:id="dupré" sex="SEX">
+                            <persName>DUPRÉ</persName>
+                        </person>
+                        <person xml:id="un-huissier-de-la-chambre" sex="SEX">
+                            <persName>UN HUISSIER de la chambre</persName>
+                        </person>
+                        <person xml:id="un-exempt" sex="SEX">
+                            <persName>UN EXEMPT</persName>
+                        </person>
+                        <person xml:id="un-capitaine-des-gardes" sex="SEX">
+                            <persName>UN CAPITAINE des gardes</persName>
+                        </person>
+                        <person xml:id="plusieurs-indigents" sex="SEX">
+                            <persName>PLUSIEURS INDIGENTS</persName>
+                        </person>
+                        <person xml:id="gardes-du-roi" sex="SEX">
+                            <persName>GARDES du roi</persName>
+                        </person>
+                        <person xml:id="domestiques-de-la-marquise" sex="SEX">
+                            <persName>DOMESTIQUES de la marquise</persName>
+                        </person>
+                        <person xml:id="suite" sex="SEX">
+                            <persName>SUITE</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Comédie</term>
+                    <term> [indéfini] </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q40831]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">LA MARQUISE DE POMPADOUR</titlePart>
+            <titlePart type="sub">COMÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre de Molière, en 1797.</ab><!--@date="1797"-->
+        </performance>
+           <div type="act" xml:id="1">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#dupré">
+            <speaker> DUPRÉ. </speaker>
+                        <l n="1"> Vous êtes le plus ancien ici, M. Germon ; je n’y suis que depuis quelques jours : pourriez-vous me dire quel est le caractère de la dame que nous servons, et ce qu’il faut faire pour obtenir ses bonnes grâces ?</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="2"> Avec plaisir, M Dupré. Vous êtes ici, depuis peu de jours, en qualité de valet de chambre, et j’y exerce de puis trois ans, les fonctions de secrétaire : nous devons nous prêter un mutuel appui ; et quoique je pusse vous traiter avec cette hauteur un peu trop commune aux hommes de bureau, je vous préviens que je verrai toujours en vous un commensal et un ami. Vous m’avez été recommandé par des personnes si honnêtes !</l>
+                </sp>
+        <sp who="#dupré">
+            <speaker> DUPRÉ. </speaker>
+                        <l n="3"> Trêve de compliments, M. Germon ; ma probité est connue, à la vérité, et l’on ne peut, à cet égard, me faire le moindre reproche ; mais c’est pour la première fois que je viens à la cour ; je n’avais servi, jusqu’à présent, que dans quelques bonnes maisons du marais, ou chez des conseillers de la grand’ chambre. Je crains toujours de faire quelques gaucheries depuis que je suis à Versailles, et vous m’obligerez infiniment de me redresser. Il vaut mieux être réprimandé par ses amis que par ses maîtres. Madame de Pompadour est peut-être aussi impérieuse que certaines duchesses dont on m’a parlé.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="4"> Elle ! mon cher Dupré ! ah ! quelle est votre erreur ! La marquise de Pompadour est la plus excellente de toutes les femmes ; et quand vous la connaîtrez vous reviendrez bien des idées que vous avez sur son compte. Beaucoup de personnes en disent du mal, parce qu’il est impossible d’être la maîtresse d’un roi sans avoir beaucoup d’ennemis ; mais elle est affable, généreuse, compatissante, et passe sa vie à faire de bonnes œuvres.</l>
+                </sp>
+        <sp who="#dupré">
+            <speaker> DUPRÉ, à part. </speaker>
+                        <l n="5"> De bonnes œuvres !</l>
+            <stage><em>Haut.</em></stage>
+                        <l n="6"> Est-ce qu’elle serait dévote par hasard ?</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="7"> Dévote ! oh ! non ; elle ne l’a jamais été : elle est mieux que cela, elle est humaine.</l>
+                </sp>
+        <sp who="#dupré">
+            <speaker> DUPRÉ. </speaker>
+                        <l n="8"> Ah ! tant mieux. J’en ai servi une au marais qui, chaque jour, me faisait passer six grandes heures d’horloge à l’église, et qui ne m’a point payé mes gages. J’aimerais mieux mille fois servir une femme galante qu’une dévote.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON, souriant. </speaker>
+                        <l n="9"> Je n’ai pas de peine à le croire. Voulez-vous savoir la vie de madame de Pompadour ? Elle se lève à dix heures, dix heures et demie à-peu-près ; elle vient dans cette pièce, qui est son cabinet de toilette, les mains pleines de rouleaux de louis, les distribue à ceux qu’elle nomme ses bons amis, et voilà ce qu’elle appelle sa prière du matin.</l>
+                </sp>
+        <sp who="#dupré">
+            <speaker> DUPRÉ. </speaker>
+                        <l n="10"> Oh ! oh ! de semblables prières ne sont pas dans mon Eucologe. Et quels sont ces gens qu’elle appelle ses bons amis ?</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="11"> Ce sont des indigents de tout état et de tout âge, de vieux chevaliers de Saint-Louis, qui n’ont, pour subsister, que des pensions insuffisantes, de vieux invalides, soldats ou officiers, des veuves infortunées dont les maris sont morts dans les combats au service de la patrie, des marchands trop confiants et trop faciles, ruinés par des grands seigneurs qui leur ont fait banqueroute ; des artistes fameux, que leurs talents n’ont pu tirer de la misère ; d’autres qui commençant et qui n’étant point encore connus, sont obligés de vendre leurs ouvrages à vil prix. Ces derniers ont surtout, le bonheur de lui plaire. Elle aime les arts, les encourage autant qu’elle peut, et excite le roi à les encourager. L’agriculture, les manufactures et les métiers ont aussi attiré ses regards ; c’est à elle qu’on doit les plus belles étoffes de Lyon ; elle s’en pare pour les mettre à la mode ; les femmes de la cour et de la ville cherchent à l’imiter : de-là naissent, parmi les ouvriers, l’émulation, le zèle, la concurrence et l’on peut dire que c’est à la beauté que le commerce doit tout son éclat.</l>
+                </sp>
+        <sp who="#dupré">
+            <speaker> DUPRÉ. </speaker>
+                        <l n="12"> Je suis enchanté de tout ce que vous me dites, et je crois qu’enfin j’ai trouvé une bonne condition. Continuez, je vous prie : que fait ensuite madame la marquise ?</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="13"> Ensuite elle juge quelques tableaux qu’on lui présentes ensuite quelques vers nouveaux ensuite elle fait de la musique, ensuite...</l>
+            <stage><em>Ayant l’air d’avoir oublié et de chercher dans sa mémoire.</em></stage>
+                        <l n="14"> ensuite je lui lis ses lettres ensuite elle me dicte les réponses, ensuite elle va à la comédie, quelquefois elle la joue elle-même. Ensuite le roi vient, car tous les soirs le roi vient souper avec elle, et souvent il lui rend visite deux fois par jour. Mais la voici elle-même ; elle est environnée de ses bons amis, qu’elle sans doute, rencontrés dans son antichambre. Sortons ne la troublons pas dans ses bonnes fortunes.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE leur distribuant de l’argent. </speaker>
+                        <l n="15"> Vous observez bien le silence que je vous ai recommandé ; mais ce n’est pas tout que d’être muets en ma présence, il faut l’être encore quand vous serez hors d’ici ; songez que la bienfaisance perd son prix, quand le bienfait est divulgué, et que le bienfaiteur est connu.</l>
+            <stage><em>Ils sortent en lui faisant plusieurs révérences et plusieurs signes de reconnaissance et de respect. La marquise sourit et se met à sa toilette ; Dupré paraît ; elle continue. </em></stage>
+                        <l n="16"> Faites venir mes femmes et M. Germon.</l></div>
+        <div type="scene" xml:id=" ΙII ">
+            <head> Scène ΙII </head>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="17"> Vous m’avez paru aimer la littérature, M. Germon ; vous savez que je l’aime aussi ; dites-moi donc, en attendant que je sois coiffée et qu’il m’arrive des visites que vous pensez de la tragédie de M. de Crébillon ?</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="18"> De Catilina, madame ?</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="19"> Oui ; de celle que l’autre jour il nous a lue, et sur laquelle il me semble qu’il vous a demandé votre avis</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="20"> Je le lui ai dit avec franchise, madame ; le Rhadamiste de M. de Crébillon est un chef-d’œuvre qu’on ne se lasse point d’admirer ; mais son Catalina, quoique rempli de beautés, ne mérite point les mêmes éloges. Le rôle de Catilina est beau, il est sublime, mais celui de Cicéron, le sauveur de la république romaine, est manqué ; mais celui de cette Fulvie, qui se déguise en homme, et qui n’intéresse jamais... que dis-je ? me sied-il de parler ainsi devant vous de la production d’un tragique célèbre ? c’est vous qui devez le juger, c’est vous que je dois en tendre.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE, à une de ses femmes, avec humeur. </speaker>
+                        <l n="21"> Ahi ! ahi ! vous m’arrachez les cheveux, mademoiselle ; que vous êtes gauche ! que vous êtes maladroite !...</l>
+            <stage><em>La voyant prête à pleurer.</em></stage>
+                        <l n="22"> Eh quoi ! vous pleurez ! Continuez, ma chère amie, et rassurez-vous : je crie d’abord comme un enfant, mais la douleur se passe bientôt ; continuez, je suis prête à pleurer moi-même de vous avoir affligée.</l>
+            <stage><em>À Germon.</em></stage>
+                        <l n="23"> Je suis à-peu-près du même avis que vous ; il y a de grandes beautés et de grands défauts dans le Catilina de M. de Crébillon : cependant, pour bien juger de cette pièce, il faudrait qu’elle fût représentée, il faudrait la voir au théâtre ; le théâtre est un cadre qui embellit certains tableaux, et qui en dépare certains autres.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="24"> Le nouveau Catilina est bien digne de la bordure, aussi M. de Crébillon brûle-t-il de le faire représenter ; mais il faut tant de protections pour cela ! Les comédiens font attendre les auteurs si longtemps ! Il y a tant de tracasse ries dans les coulisses ! M. de Crébillon m’a dit qu’il viendrait aujourd’hui vous prier de l’aider dans son entreprise ; il avoue hautement qu’il ne pourrait rien sans votre secours.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="25"> Ah ! qu’il vienne ! Je m’estimerai heureuse si je puis lui être utile. Ce que j’aime dans M. de Crébillon, c’est qu’il est modeste, c’est qu’il ne dit de mal de personne ; ces qualités sont si rares parmi les auteurs !</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#dupré">
+            <speaker> DUPRÉ. </speaker>
+                        <l n="26"> Deux messieurs sont là qui demandent à voir Madame la marquise. Faut-il les laisser entrer ?</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="27"> Vous ont-ils dit leurs noms ?</l>
+                </sp>
+        <sp who="#dupré">
+            <speaker> DUPRÉ. </speaker>
+                        <l n="28"> Non, Madame. L’un est vêtu magnifiquement, et a l’air d’un grand seigneur, l’autre est en habit noir ; c’est, je crois, ce qu’on appelle un poète.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE, à part. </speaker>
+                        <l n="29"> Faites entrer le poète, et priez le grand seigneur d’attendre ou de repasser.</l>
+                </sp>
+        <sp who="#dupré">
+            <speaker> DUPRÉ. </speaker>
+                        <l n="30"> Puisqu’on aime ici les habits noirs, je laisserai entrer tous ceux qui se présenteront.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="31"> Ah ! c’est vous, M. de Crébillon ! nous parlions de vous à l’instant même. Nous parlions de votre tragédie de Catilina.</l>
+                </sp>
+        <sp who="#crébillon">
+            <speaker> CRÉBILLON. </speaker>
+                        <l n="32"> Je viens pour vous en parler moi-même, madame la marquise ; cette tragédie a eu le bonheur de vous plaire malgré ses défauts ; et je voudrais bien que le public en pensât comme vous ; mais il faudrait, pour le mettre à portée d’en juger, qu’elle fût représentée, et les comédiens me font enrager par leurs lenteurs.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="33"> Ils devraient cependant avoir des égards pour l’auteur d’Électre et de Rhadamiste.</l>
+                </sp>
+        <sp who="#crébillon">
+            <speaker> CRÉBILLON. </speaker>
+                        <l n="34"> Ils ont toujours été honnêtes avec moi, je n’ai à me plaindre que de leur paresse.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="35"> Que vous disent-ils, enfin, pour s’excuser de ne point jouer votre pièce ?</l>
+                </sp>
+        <sp who="#crébillon">
+            <speaker> CRÉBILLON. </speaker>
+                        <l n="36"> Qu’elle n’est reçue que depuis dix ans et qu’il faut que j’attende mon tour, J’ai mis vingt ans à la composer et je crains d’être vingt ans encore avant qu’elle soit représentée. Vous avez tout crédit sur l’esprit du duc de Richelieu, qui, en sa qualité de premier gentilhomme de la chambre a tout pouvoir à la Comédie Française ; engagez-le à faire jouer Catilina le plutôt qu’il sera possible ; je commence à n’être plus jeune, et à mon âge l’on n’a pas le temps d’attendre.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="37"> M. de Richelieu connaît-il votre pièce ? l’a-t-il entendue ?</l>
+                </sp>
+        <sp who="#crébillon">
+            <speaker> CRÉBILLON. </speaker>
+                        <l n="38"> Qui, madame, il en a même été fort content.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="39"> Soyez tranquille, M. de Crébillon. Le duc de Richelieu vient me voir de temps en temps, il viendra aujourd’hui peut-être.</l>
+                </sp>
+        <sp who="#crébillon">
+            <speaker> CRÉBILLON. </speaker>
+                        <l n="40"> Oui, madame, il était avec moi à votre porte lorsqu’on est venu, de votre part, me prier d’entrer, et le prier ; de repasser ou d’attendre, il a pris son parti en brave.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="41"> Comment !</l>
+                </sp>
+        <sp who="#crébillon">
+            <speaker> CRÉBILLON. </speaker>
+                        <l n="42"> Il est parti en disant qu’il allait vous écrire, et m’a salué avec assez de bonté.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="43"> Vous voyez, monsieur, que je fais passer avant tout les vertus et les talents, et que la naissance, les grandes places, ne sont rien à mes yeux, si elles ne sont point accompagnées du mérite.</l>
+                </sp>
+        <sp who="#crébillon">
+            <speaker> CRÉBILLON. </speaker>
+                        <l n="44"> Vous voyez toujours dans les autres le mérite que vous avez vous-même, et c’est votre seule indulgence qui me relève à vos propres yeux ; sans elle je ne serais pas grand chose. Mais n’est-il par à craindre que M. de Richelieu ne soit fâché de la préférence que vous m’avez donnée ?</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="45"> Un courtisan se fâcher contre une favorite ! est-ce que la chose est possible ? On voit bien que vous connaissez plus les livres que la cour et c’est tant mieux pour vous sans doute. Le duc de Richelieu est d’ailleurs d’un caractère gai et jovial, il tourne tout en plaisanterie ; et s’il a quel que fois de l’humeur, ce ne peut être que contre ses créanciers. Rassurez-vous donc, je vous le répète, Catilina sera mis au théâtre ; cette pièce aura le succès qu’elle doit avoir, et son auteur un titre de plus aux suffrages du public et aux hommages de la postérité. Mais voici mon maître de musique, M. Géliote, c’est l’heure de prendre ma leçon, et si vous permettez...</l>
+                </sp>
+        <sp who="#crébillon">
+            <speaker> CRÉBILLON. </speaker>
+                        <l n="46"> Je resterai, madame, si vous le permettez vous-même. Je sais que vous chantez à merveille ; et la musique et les vers ne marchent-ils pas ensemble ?</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#geliote">
+            <speaker> GÉLIOTE. </speaker>
+            <stage>Eh ! bien madame la marquise, chanterons-nous encore <em>dieu des âmes</em> ?</stage>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="47"> Oui, monsieur Géliote, vous savez que c’est mon air favori, je le trouve charmant, et d’ailleurs je ne le sais pas bien encore. Donnez-moi le ton je vous prie.</l>
+                </sp>
+        <sp who="#geliote">
+            <speaker> GÉLIOTE, chantant. </speaker>
+                        <l n="48"> Dieu des âmes, quand tes flammes...</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE, chantant. </speaker>
+                        <l n="49"> Dieu des âmes,</l>
+                </sp>
+        <sp who="#geliote">
+            <speaker> GÉLIOTE. </speaker>
+                        <l n="50"> À merveille, madame, chaque jour vous faites de nouveaux progrès.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="51"> Comment n’en ferait-on pas avec un maître tel que Géliote ?</l>
+                </sp>
+        <sp who="#crébillon">
+            <speaker> CRÉBILLON. </speaker>
+                        <l n="52"> Je sors, madame, pénétré de vos bontés. Ah ! que ne peuvent les sons de votre voix mélodieuse passer dans ma poésie ! on l’accuserait moins de barbarie et de dureté.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="53"> Voici, madame, un énorme paquet de lettres ; vous êtes un peu arriérée pour les réponses, et cependant vous voulez répondre à tout le monde.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="54"> J’entends. À demain monsieur Géliote !</l>
+            <stage><em>Géliote sort.</em></stage>
+                        <l n="55"> Ma toilette est finie d’ailleurs et nous avons le temps de lire.</l>
+            <stage><em>Elle quitte la toilette et va s’asseoir près d’un secrétaire sur lequel il y a un flambeau allumé ; Germon la suit et se tient debout devant elle. Les femmes de chambre sortent.</em></stage></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#germon">
+            <speaker> GERMON, ouvrant une première lettre et la lisant. </speaker>
+                        <l n="56"> Ma chère cousine,Ma>J’avais ignoré vous appartenir jusqu’au moment où le roi vous a nommée marquise de Pompadour ; alors un habile généalogiste m’a prouvé que votre bisaïeul était cousin, au quatrième degré, de mon grand’ père. Vous voyez par-là, ma chère cousine, que la parenté est décidée entre nous. Si vous le souhaitez, je vous enverrai l’arbre généalogique de notre maison, afin que vous le présentiez au roi. Cependant mon fils, votre cousin, qui sert avec distinction depuis quelques années, voudrait avoir un régiment ; comme il ne peut espérer de l’obtenir par son rang, je vous prie de le demander au roi comme une grâce. J’ai l’honneur d’être, etc...</l>
+                        <l n="57"> Hercule-Henri DEMONT-SUR-MONT.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="58"> Voilà de ces lettres comme j’en reçois presque tous les jours depuis quelque temps. Lorsque j’étais simplement ma demoiselle Poisson, personne ne voulait m’appartenir, que dis-je ? on aurait rougi d’être mon parent ; et depuis que je suis marquise de Pompadour, depuis que le roi est assidu chez moi et me traite en femme de qualité, il n’est pas de petit gentillâtre de province qui ne se dise mon cousin et point de femme, même du haut parage, qui ne veuille être ma cousine. C’est un ridicule bien prononcé à la cour de France que cette manie de noblesse, qui semble avoir gagné les plus imperceptibles individus ! Grands et petits, tout veut être noble ; est-on noble, on croit avoir toutes les vertus. Ne l’est-on pas, on manque des qualités les plus Tares. Eh ! mes amis, croyez-moi, la véritable noblesse est dans l’âme, et ce ne sont pas vos vieux parchemins qui pourront vous la donner.</l>
+            <stage><em>À Germon.</em></stage>
+                        <l n="59"> Comme il doit y avoir dans ce paquet plusieurs autres lettres du même style, répondez par une circulaire que vous ferez imprimer ; répondez, dis-je, que je saisirai toujours avec empressement les occasions qui se présenteront d’obliger mes très chers cousins, mais que j’ai en même temps une grâce à leur demander, qui est de me permettre de n’avoir pas l’honneur d’être leur parente. Que j’ai des raisons de famille qui m’empêchent de croire que mes ancêtres aient été alliés avec les grandes maisons du royaume ; que je ne puis d’ail leurs ni ne veux être la cousine de tout le monde.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="60"> Vous serez obéie, madame.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="61"> Ô Molière ! Molière ? qu’il est fâcheux que tu n’existes plus ! le bon ridicule que tu aurais à peindre ! Voyons les autres.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON, décachetant une autre lettre et la lisant. </speaker>
+                        <l n="62"> Vous m’avez parlé il y a quelque temps, madame, d’une demoiselle de bonne maison qui sort à peine du couvent et qui a beaucoup de talent pour le théâtre ; vous désirez de la faire débuter promptement à la Comédie Française. Je viens de me présenter chez vous pour vous demander vos ordres à ce sujet ; mais...</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE, l’interrompant. </speaker>
+                        <l n="63"> Signée le duc de Richelieu, je le parie.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="64"> Oui, madame, c’est lui-même.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="65"> Je sais ce que c’est ; et puisqu’il doit revenir, j’en conférerai ce soir avec lui.</l>
+            <stage><em>Après avoir regardé à une pendule ou à sa montre.</em></stage>
+                        <l n="66"> Il est bientôt midi ; le roi peut venir ici avant d’aller à la chasse, il n’est pas nécessaire qu’il nous trouve au milieu de tout ce fatras. Lisez-moi les signatures, et par elles je devinerai à-peu-près ce que renferment les lettres.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON, décachetant et lisant. </speaker>
+                        <l n="67"> Le chevalier de Tintiniac.</l>
+                </sp>
+        <sp who="#lа-marquise">
+            <speaker> LА MARQUISE. </speaker>
+                        <l n="68"> C’est un militaire qui quitte son régiment pour venir demander une grâce ; dites-lui de retourner à l’armée, et que je solliciterai pour lui seulement quand il y sera.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON, décachetant et lisant. </speaker>
+                        <l n="69"> L’abbé de Pouponville.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="70"> C’est un abbé de cour qui n’a rien fait pour l’église, et qui demande une abbaye. Renvoyez-le à son évêque.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON, décachetant et lisant. </speaker>
+                        <l n="71"> L’abbé Platel.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="72"> C’est un cagot qui dénonce un honnête homme ; brûlons-la sans miséricorde et point de réponse.</l>
+            <stage><em>Elle brûle la lettre.</em></stage>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON, décachetant et lisant. </speaker>
+                        <l n="73"> L’abbé, de Bernis.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE, avec émotion. </speaker>
+                        <l n="74"> C’est un ancien ami, un ami qui nie boude. Pardonnons-lui, et mettons-la sur mon cœur.</l>
+            <stage><em>Elle met la lettre sur son cœur.</em></stage>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON, décachetant et lisant. </speaker>
+                        <l n="75"> Sœur Augustin.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE, rêvant. </speaker>
+                        <l n="76"> Sœur Augustin ! je n’ai aucune idée de cette personne. Toutes les  autres me sont connues. mais quant à celle-ci... Lisez ; je découvrirai peut-être...</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON, lisant. </speaker>
+                        <l n="77"> Madame,Madame,Je voulais d’abord écrire au Pape ; mais après y avoir bien réfléchi, j’ai pensé que je ferais tout aussi bien de m’adresser à vous : voici donc de quoi il s’agit. J’avais à peine quatorze ans que mes parents m’enfermèrent dans le cloître, et à seize ans deux religieuses me signifièrent l’ordre de prendre le voile. Je résistai longtemps, je fis des protestations sans nombre ; mais la sœur du cœur de Jésus notre mère, me dit, pour décider ma vocation, que toutes les femmes qui se mariaient étaient damnées, ce qui me fit verser beaucoup de larmes pour ma pauvre mère. Je me fis religieuse ; mais à présent que j’ai dix-neuf ans je sens que je ne suis pas faite pour cet état : j’aimais d’ailleurs un charmant jeune homme avant d’être au couvent, et j’en étais aimée. La sœur du Saint-Esprit me dit sans cesse que je suis l’épouse de Jésus-Christ ; pour moi je me sens très disposée à épouser mon amant en secondes noces. Je vous supplie, madame de vouloir bien engager le roi à me faire rendre ma liberté, sans quoi je perdrai incessamment la vie : J’ai l’honneur d’être, etc...</l>
+                        <l n="78"> Sœur AUGUSTIN.</l>
+            <stage><em>P. S.</em> Comme plusieurs de mes lettres ont déjà été interceptées vous ne trouverez pas mauvais que, pour écrire celle-ci, je me sois servie d’une main étrangère.</stage>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="79"> La pauvre petite que je la plains ! Il est surprenant que nos lois, qui ont fixé l’âge où une fille est en état de passer un acte civil, aient oublié de parler de celui où elle peut faire des vœux. Est-ce que la raison est moins nécessaire pour sontracter avec Dieu qu’avec les hommes ? On enterre tous les jours dans les monastères de jeunes enfants qui, dans un âge plus avancé, maudissent leur destinée, et qui, devenant épouses et mères, augmenteraient le nombre des bons citoyens, et seraient elles-mêmes de bonnes et vertueuses citoyennes. De là tous les inconvénients de la dépopulation ? De-là tous les tourments d’un célibat involontaire. Que de pleurs, en effet, ne doivent point répandre ces infortunées dans les prisons sa crées où on les ensevelit malgré elles.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="80"> Elles ne sont pas les seules qui gémissent. Les jeunes gens qui les aiment, les jeunes gens à qui on les arrache ne sont pas moins à plaindre.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="81"> Et je ne dénoncerais point au roi un pareil abus !... Je suis enchantée d’avoir cette lettre... je vais la lui montrer à l’instant. Je veux, s’il est possible, que les chaînes de sœur Augustin soient brisées. Il est de l’intérêt du roi qu’on ne fasse point de ses états une immense prison ; que dis-je ? un vaste cimetière. Je crois que je l’entends ; il ne pouvait pas arriver plus à propos.</l></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#l’huissier">
+            <speaker> L’HUISSIER, à haute voix. </speaker>
+                        <l n="82"> Le roi, messieurs !</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="83"> Combien je suis charmée, Sire, que votre majesté daigne en ce moment m’honorer de sa visite ! Je viens de découvrir un abus qui sûrement révoltera votre âme sensible, et qui d’ailleurs me paraît funeste au bonheur de vos sujets. Voulez-vous permettre que nous soyons seuls, pour que je puisse plus librement m’entretenir avec vous ?</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="84"> Si je le veux, madame ! Je retarderai la chasse jusqu’à ce soir, pour avoir le plaisir de vous entendre. Vous me parlez d’abus ! Hélas ! il n’y en a que trop dans mon royaume ; que ne puis-je tous les extirper ?</l>
+            <stage><em>À sa suite.</em></stage>
+                        <l n="85"> Que l’on se retire. L’heure de la chasse est contremandée.</l></div>
+        <div type="scene" xml:id=" X ">
+            <head> Scène X </head>
+        <sp who="#le-roi">
+            <speaker> LE ROI, avançant un fauteuil pour la Marquise qui le salue avec beaucoup de respect, et s’asseyant à côté d’elle </speaker>
+                        <l n="86"> Asseyons-nous, madame ; je n’ai un peu de tranquillité que lorsque je suis avec vous. De quoi s’agit-il cependant ? parlez.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE, lui présentant la lettre de sœur Augustin. </speaker>
+                        <l n="87"> Cette lettre vous dira tout ; je viens de la lire, voulez vous bien la parcourir aussi ?</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI, lui rendant la lettre après l’avoir lue tout bas, et souriant. </speaker>
+                        <l n="88"> Cette sœur Augustin n’est pas la seule, je crois, qui veuille épouser son amant en secondes noces et je voudrais bien aussi que toutes celles qui sont dans le même cas puissent prendre un mari. Le célibat ne vaut rien pour faire fleurir un état, et plus la population y est nombreuse, plus il y règne d’abondance et de félicité. Mais vous savez aussi que plus un abus a vieilli, plus il est difficile de le détruire.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="89"> Votre majesté ne pourrait donc pas faire casser les veux de sœur Augustin, et rendre à l’hymen et à l’amour cette victime d’une religion inflexible ?</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="90"> Non, madame ; mon pouvoir, tout roi que je suis, ne s’étend point jusques-là. Je suis, pour le temporel, le souverain législateur de mon royaume ; mais, pour le spirituel, je suis seulement chargé de l’exécution de la discipline ecclésiastique. Ainsi la petite personne aurait bien fait d’écrire au Pape, comme elle le dit dans sa lettre. Le Pape seul peut la dispenser de ses vœux, et lui rendre la liberté.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="91"> Ainsi le Pape forme un état pour ainsi dire dans un autre, et sa juridiction s’élève impunément au milieu de votre puissance ! Il est bien singulier qu’un vieux prêtre, qui habite à trois cents lieues de votre capitale, dispose ainsi de la destinée de vos sujets, et les délivre de captivité ou les charge à son gré de chaines.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="92"> Vous avez raison, madame ; mais il faut bien vouloir ce qu’ont voulu nos pères,</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="93"> Nos pères n’étaient pas aussi éclairés que nous, et ce serait à nous à les redresser. La philosophie a fait tant de progrès dans ce siècle ! Je suis désolée qu’on ne puisse satisfaire à la demande de sœur Augustin. Il est si doux de faire des heureux !</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="94"> J’en suis désolé aussi non-seulement à cause de vous mais encore à cause d’elle. Tout n’est pas perdu cependant et l’aventure de sœur Augustin aura une suite heureuse, sinon pour elle, du moins pour la plupart des jeunes filles de mon royaume qui ont le même sort à redouter. Si je n’ai pas le droit de casser les vœux, j’ai celui de les suspendre jusqu’à un âge où la raison empêche d’en former. J’ai le droit d’exiger qu’un évêque ne donne point le voile à de jeunes filles, à moins qu’elles n’aient atteint vingt-cinq ans. Cet article se trouve dans les capitulaires de Charlemagne, et pour éviter la dépopulation qui menace mes états, j’ai le projet de le faire revivre. Cet article d’ailleurs est consacré par l’église. Le concile de Carthage ordonne que les vierges ne soient point consacrées avant le même âge. Le troisième concile de Tours s’exprime à-peu-près dans les mêmes termes, et leurs décrets ont été formellement acceptés par la France.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="95"> J’admire chaque jour, Sire, l’étendue de votre érudition ; vous citez les conciles et les pères avec la même facilité que je cite des comédies et des opéras.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="96"> J’ai besoin des conciles pour régner, et vous des comédies pour plaire. La seule différence qu’il y ait entre nous, c’est que je règne assez mal et que vous plaisez à tout le monde. Quoiqu’il en soit, madame, n’allez pas me croire théologien ou érudit, je ne suis ni l’un, ni l’autre : j’ai de la mémoire, voilà tout. En montant sur le trône je me suis fait instruire de mes droits, et je les ai tous assez bien retenus.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="97"> Ah ! faites-les valoir Sire. Quel service ne rendrez-vous pas à l’humanité, en arrachant aux autels des victimes que le préjugé immole ; de jeunes filles sans expérience, qui, une fois liées d’indissolubles nœuds, ne peuvent plus les rompre sans s’exposer au déshonneur et à l’infamie. Je suis enchantée que vous fassiez revivre l’article des capitulaires qui leur est favorable, mais en attendant ne pourriez-vous pas permettre que sœur Augustin vint passer quelques jours chez moi ? Le malheur de cette jeune personne, tournure d’esprit, sa manière d’écrire m’intéressent, et je voudrais...</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="98"> Sans doute je puis le permettre, mais il faut que je le propose au conseil ; l’heure approche où il va se tenir, je ne tarderai pas à m’y rendre.</l>
+            <stage><em>Ils se lèvent l’un et l’autre.</em></stage>
+                        <l n="99"> Non-seulement je parlerai de sœur Augustin, mais je demanderai formellement que les vœux dans mes états soient suspendus jusqu’à l’âge de vingt-cinq ans.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="100"> Et si par hasard le conseil vous refuse ! quelle désolation n’éprouverons-nous pas, sœur Augustin et moi ! Daignez, Sire sans avoir recours au conseil, ordonner que sur l’heure sœur Augustin soit amenée ici.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="101"> Je m’en garderai bien, madame, malgré le désir que j’ai de vous plaire. Je n’ordonnerai rien à cet égard, et je laisserai tout faire aux supérieurs ecclésiastiques. Vous savez combien l’église est jalouse de ses droits, et combien il est dangereux de se brouiller avec elle. Le conseil est composé d’évêques qui ne badinent pas quand il s’agit de leurs intérêts, ils me feraient excommunier peut-être ; ils attireraient sur moi les foudres du Vatican.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="102"> Eh bien ! en seriez-vous moins aimable ? on peut être excommunié et fort honnête homme.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="103"> Plaisanterie à part, madame, en fait de religion je n’ai jamais voulu rien prendre sur moi, et je m’en suis toujours bien trouvé. Rappelez-vous d’ailleurs quels maux ont causés à la France les querelles du parlement et du clergé, et combien ces malheureux billets de confession y ont jeté de trouble et de désordre. Ne touchons point aux matières théologiques.</l>
+            <stage><em>Bas et avec mystère.</em></stage>
+                        <l n="104"> Jamais il ne s’en exhale rien de bon.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="105"> Votre majesté voudrait-elle m’accorder encore une grâce que j’ose à peine lui demander ?</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="106"> Osez, madame est-ce moi qui puis vous refuser ?</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="107"> Votre majesté ne pourrait-elle point venir chez moi sans tout cet appareil de gardes et de courtisans qui l’environnent ? Vous aimez l’opéra d’Églé ; rappelez-vous que dans cette pièce, lorsqu’un dieu vient chez une mortelle, il prend le nom de Misis et se déguise en berger...</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI, d’un air gracieux. </speaker>
+                        <l n="108"> Églé me croit berger, que mon cœur est flatté !</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="109"> C’est Louis que je reçois chez moi et non le roi ; c’est un ami, un amant adoré : c’est Misis.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="110"> Eh bien ! madame, ce n’est que Misis qui viendra chez vous. Je ne cesse de me plaindre au surplus de la rage qu’on a de m’accompagner partout, de m’environner d’un nombreux cortège, surtout lorsque je viens ici. Voilà les incommodités de la grandeur. Mon capitaine des gardes, mes gentilshommes, mes huissiers croiraient manquer à leur devoir, s’ils ne me suivaient point à la piste ; ces maudites gens-là ne voient jamais en moi que le souverain, ils ne veulent pas que je sois un homme. Je leur parlerai de la bonne manière et désormais...</l></div>
+        <div type="scene" xml:id=" XI ">
+            <head> Scène XI </head>
+        <sp who="#dupré">
+            <speaker> DUPRÉ. </speaker>
+                        <l n="111"> Monsieur Carle-Vanloo est là, il a fait apporter le tableau des trois Grâces, sur lequel il voudrait, dit-il, consulter madame la marquise.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="112"> Je l’attendais avec impatience ; dites-lui que... Mais, Sire, c’est à vous à prononcer.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="113"> Les trois Grâces ! Allons, madame, allons voir vos rivales.</l></div></div>
+           <div type="act" xml:id="2">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="114"> C’est au roi que je dois le plaisir de recevoir chez moi sœur Augustin ; c’est le roi qui a donné l’ordre de vous conduire ici : rassurez-vous donc, je vous prie, le roi est bon et généreux, je lui ai montré votre lettre, il a été sensible à vos malheurs, et c’est pour les terminer, s’il est possible, que nous nous sommes réunis.</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN. </speaker>
+                        <l n="115"> Pardon, madame, si en arrivant ici j’ai témoigné quel que frayeur ; la sœur du cœur de Jésus et la sœur du Saint-Esprit m’en veulent de ce que j’ai porté des plaintes contre elles ; la colère des dévotes et si dangereuse ! j’ai craint qu’on ne m’eût enlevée par leur ordre, et que par une suite de leur ressentiment on ne voulût me conduire dans une prison plus cruelle que le couvent d’où je sors. Sûre que je suis chez vous, mes alarmes commencent à se dissiper, et je ne vois plus en vous que ma bienfaitrice. La seule grâce que je vous demande, c’est de me permettre de garder mon voile, les religieuses ont des émissaires partout, et si l’on venait à me reconnaître...</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="116"> Rien ne serait à craindre pour vous étant sous ma protection, et surtout sous celle du roi ; n’importe, gardez votre voile puisque vous le désirez, la beauté est un trésor qu’il ne faut pas prodiguer, et tant de femmes seraient plus recherchées, si elles n’avaient point fait parade de, leurs charmes !</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN. </speaker>
+                        <l n="117"> On n’aura pas ce reproche à me faire, tous les hommes, excepté un seul, me sont devenus indifférents, el je ne veux ni les voir, ni en être vue.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="118"> Ce sera les punir sévèrement de l’injustice qu’on vous a faite. Mais vous ne m’avez pas tout dit dans votre lettre, racontez-moi, je vous prie, comment on vous a mise au couvent, comment on vous a fait prendre le voile, de quel pays vous êtes, et s’il y a longtemps que vous êtes à Paris ; ce récit me fournira peut-être des renseignements utiles à votre situation et au projet que j’ai de vous faire rendre la liberté.</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN. </speaker>
+                        <l n="119"> Nîmes est le lieu où j’ai vu le jour : je suis née de parents nobles, je ne sais si c’est un bonheur, mais ce fut un malheur pour moi, et un malheur dont je me sou viendrai toute ma vie. Élevée avec un jeune homme de nos voisins qu’on appelait Augustin, et dont par amitié j’ai adopté le nom en prenant le voile, élevée dis-je, avec le petit Augustin, permettez-moi de ne pas lui donner un autre nom j’eus à peine treize ans que je sentis naître en mon cœur une passion des plus vives ; il pouvait en avoir quinze alors et mes sentiments furent partagés avec non moins de promptitude. Je ne me plaisais qu’aux lieux où il était, et lui n’était malheureux qu’en mon absence ; ensemble nous allions nous promener sous les avenues du cours, ensemble nous revenions toujours accompagnés d’une gouvernante sévère dont la présence enchaînait nos jeunes transports. Mais plus le feu était comprimé, plus il devenait violent. J’arrivai à ma quatorzième année, alors Augustin me demande en mariage à mes parents ; hélas ! demande inutile ! mon amant n’était pas noble, était fils d’un honnête marchand de bas, qui travaillait pour vivre et pour faire vivre sa famille. Un pareil état parut du dernier bourgeois aux illustres auteurs de mes jours ; un refus net fut la réponse qu’on fit à l’infortuné Augustin, qui ne se découragea point, et, pour me soustraire à ses poursuites, on m’envoya au couvent des Ursulines de Bagnols, où je fus quelque temps en qualité de pensionnaire.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="120"> Pourquoi vous fit-on quitter Bagnols pour vous conduire à Paris, où vous étiez en dernier lieu ? Il me semble qu’à Bagnols, ville peu distante de Nîmes, vous étiez plus près de votre famille, et qu’elle devait être bien aise d’être à portée de vous voir quelquefois.</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN. </speaker>
+                        <l n="121"> À peine arrivée à Bagnols j’eus l’imprudence d’écrire à Augustin, et il eut celle de me répondre ; nos lettres furent interceptées et l’on me fit venir à Paris chez les Visitandines de la rue du Bacq, pour nous punir sans doute de notre indiscrétion mutuelle ; mais que peuvent les distances sur deux cours qui se sont jurés de s’aimer toujours ! plus on croit les séparer, plus on les rapproche. Arrivée chez les Visitandines, j’écrivis de nouveau à mon cher Augustin ; il n’a point répondu, mes lettres, hélas ! de nouveau interceptées ne lui sont point parvenues, et voilà le plus grand de mes chagrins ; il croit peut-être que je ne vis plus, que je ne l’aime plus, ce qui est pis encore. Tourmentée de ces idées lugubres et n’attachant plus aucun prix à l’existence, persécutée d’ailleurs par les religieuses qui me guettaient comme une proie, je pris le voile dans un moment de désespoir, et lorsque ma raison était presque aliénée : revenue à moi, je protestai contre mes yeux...</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="122"> Bon ! cette protestation pourra vous être fort utile.</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN. </speaker>
+                        <l n="123"> Mais je me dis bientôt à moi-même, puisqu’il faut que je renonce à Augustin, renonçons aussi au monde ; sans Augustin que serait le monde pour moi ?</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="124"> Les religieuses, je le vois, ont profité d’un moment de découragement de votre part pour vous entraîner dans l’abîme. Que de perfidie et de cruauté dans leur conduite ! Il n’est pas impossible cependant que vous soyez heureuse, le roi doit parler de vous au conseil et l’intéresser en votre faveur, et provisoirement vous resterez ici avec moi, où je tâcherai par mes soins de vous faire oublier votre infortune.</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN. </speaker>
+                        <l n="125"> Je l’ai oubliée, madame, depuis que je suis avec vous ; mais comment oublier mon cher Augustin </l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU, d’un air riant et léger. </speaker>
+                        <l n="126"> J’apprends avec bien du plaisir, madame, que ce soir vous êtes visible, je n’ai pas été aussi heureux ce matin.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="127"> Pardon monsieur le duc, c’est monsieur de Crébillon que je vous ai préféré ; le matin je ne reçois que des hommes de son âge, des hommes tels que vous sont trop dangereux.</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU, toujours légèrement. </speaker>
+                        <l n="128"> On ne peut pas se tirer plus galamment d’une mauvaise affaire. L’âge de monsieur de Crébillon n’est pourtant point si avancé qu’il ne puisse à son tour paraître un rival redoutable.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="129"> Il a soixante ans passés, monsieur, voudriez-vous à ce prix avoir sur lui la préférence ?</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU, du même ton. </speaker>
+                        <l n="130"> Pourquoi non, madame ? je serais trop heureux, mais passons. Monsieur le duc de Nivernois, qui a trente ans de moins que monsieur de Crébillon, est admis chez vous à toute heure, et je pourrais bien à cet égard avoir quel que raison de me plaindre de vous.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="131"> Oh ! oui, à cet égard vous avez droit de vous plaindre. Mais monsieur de Nivernois inspire tant de confiance : il n’est pas beaucoup de ducs de Nivernois en France, monsieur de Richelieu !</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU, avec emphase. </speaker>
+                        <l n="132"> Sans doute ! c’est la vertu même. Mais vous m’avez ordonné de prendre des renseignements sur la jeune demoiselle que vous voulez faire, débuter à la Comédie Française, et je venais en causer avec vous.</l>
+            <stage><em>Lui présentant un papier.</em></stage>
+                        <l n="133"> Je vous apporte même le répertoire de la semaine, et vous y verrez le jour où je l’ai fait placer.</l>
+            <stage><em>Regardant sœur Augustin avec beaucoup d’intérêt pendant que la marquise parcourt le répertoire, et disant à part. </em></stage>
+                        <l n="134"> La voilà sans doute cette jeune personne, sa beauté perce à travers son voile, quelle jolie taille ! fraîche émoulue du couvent elle doit avoir une candeur !</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN, à part. </speaker>
+                        <l n="135"> Voilà un monsieur qui m’embarrasse par la manière dont il me regarde, sortons.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="136"> C’est dans le tragique qu’elle excelle, m’avez-vous dit, je la ferai débuter dans une pièce de monsieur de Crébillon.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE, mettant le papier dans sa poche et à part. </speaker>
+                        <l n="137"> J’en parlerai une autrefois avec lui, l’affaire de monsieur de Crébillon est plus pressée.</l>
+            <stage><em>Distraite par la lecture qu’elle vient de faire et n’ayant entendu que ces derniers mots.</em></stage>
+                        <l n="138"> PIÈCE DE MONSIEUR DE CRÉBILLON. Vous l’avez vue ! vous l’avez entendue !</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="139"> Oui, madame.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="140"> Vous la connaissez suffisamment !</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="141"> Suffisamment.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="142"> Elle est belle.</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="143"> Je le crois.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="144"> Sa marche est régulière.</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="145"> Très régulière.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="146"> Il faudrait la mettre au théâtre le plutôt possible, elle attirera tout Paris.</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="147"> Je n’en doute pas, mais son costume...</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="148"> Son costume ! ne fait-on pas les frais du costume à la Comédie Française ?</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="149"> Je n’y songeais pas, en effet c’est une bagatelle que le costume. Mais ne faudrait-il pas le consentement de son père ?</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="150"> Son père en sera enchanté, il vous en conjure : il est venu ce matin m’en parler lui-même, et me prier de vous la recommander.</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="151"> Allons, je donnerai un ordre ce soir même.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="152"> Allez ; donnez un ordre, et vous m’obligerez autant qu’il est possible...</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="153"> Celui que j’ai donné, madame a dû sans doute vous plaire, et sœur Augustin doit être ici.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="154"> Qui, Sire, elle est arrivée.</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU, à part. </speaker>
+                        <l n="155"> Sœur Augustin ! c’est sans doute la jeune personne que la marquise veut faire débuter, et que le roi a fait sortir du couvent par un ordre !</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE, au duc de Richelieu. </speaker>
+                        <l n="156"> Monsieur le duc voudra bien ne pas m’oublier !</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="157"> Malgré le désir que j’aurais de faire ma cour à sa majesté, je sors pour faire exécuter vos volontés plus promptement.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="158"> Oui, Sire, elle est ici, et si votre majesté désire la voir...</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="159"> Oui, madame, je la verrai avec plaisir. Mais avant tout, je vais vous rendre compte de ce qui s’est passé au conseil, vous savez qu’il est rarement de mon avis.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="160"> Quoique votre avis soit toujours le meilleur.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="161"> L’expérience a prouvé, en effet, que souvent je n’avais pas tort en faisant telle ou telle proposition, mais pour prouver qu’on a raison, il faudrait disputer, il faudrait soutenir thèse comme sur les bancs, et la paix et la tranquillité sont mes divinités favorites. Aujourd’hui, cependant, j’ai amené le conseil à penser comme moi, sans être obligé de me mettre en colère, mais c’est une ruse innocente qui m’a valu ce triomphe, sans elle nous ne serions pas plus avancés que ce matin, et l’affaire de sœur Augustin en serait restée-là.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="162"> Je brûle de savoir la ruse que vous avez employée. Attraper un conseil composé en grande partie de cardinaux et d’évêques ! il faut être bien fin pour cela.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="163"> Voici à la lettre comment je me suis conduit : sachant qu’il faut demander plus pour obtenir moins, j’ai d’abord demandé que dans tous mes états on cassât les vœux religieux et qu’il fût fait défense d’en faire. Le cardinal de Fleuri, qui est la douceur même, s’est presque fâché à ces mots, il m’a dit que j’attaquais notre sainte religion par cette proposition scandaleuse, moi pour qui la religion est l’objet le plus saint et le plus sacré ! Les évêques présents ont imité le bon cardinal, ils m’ont assuré d’un air moitié irrité et moitié bénin, que les vœux étaient de droit divin, qu’on ne pouvait chercher à les rompre sans offenser grièvement le ciel, ils m’ont cité les conciles, les décrétales, que sais-je ?... Alors je me suis restreint à demander qu’il fut défendu aux communautés religieuses de recevoir aucune novice, à moins qu’elle n’eût vingt-cinq ans. J’ai cité à mon tour l’article des capitulaires qui m’en donnait le droit, vingt-cinq ans ont paru offrir un terme trop long à messeigneurs, j’ai insisté, on a pris un moyen terme et il a été décidé qu’on ne recevrait plus de novice passé vingt-quatre ans et un jour.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="164"> Quelle victoire ! elle fera l’honneur de votre siècle, et rendrait votre nom immortel, s’il ne l’était point déjà. Il est plus beau, il est plus glorieux de triompher des préjugés que de cent mille hommes en bataille rangée. Malheureusement cette victoire n’avance en rien notre pauvre sœur Augustin, et j’aurais tant de plaisir si elle devenait tout-à-fait libre !...</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="165"> Il est possible qu’elle le devienne. J’ai fait écrire sur-le-champ à la cour de Rome pour demander une exception en sa faveur, le Pape me l’accordera sans doute, ce n’est pas la première fois qu’il aura consenti à une pareille demande.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="166"> Il est vrai que la célèbre madame de Tancin rentra dans le monde après avoir fait des vœux, et qu’elle eût même la permission de se marier.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="167"> Sans doute ; et puis vous savez le vers de Molière :</l>
+                        <l n="168"> Il est avec le ciel des accommodements.</l>
+                        <l n="169"> Mais je crois la voir entrer, elle a l’air de vous chercher des yeux.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="170"> C’est elle-même.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="171"> Ne lui dites point qui je suis de peur de l’intimider... Dites-lui, si vous voulez, que je suis un seigneur de vos amis.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="172"> Ce stratagème...</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="173"> Ce n’en est point un, madame, vous ne direz que la vérité. Je me lasse d’ailleurs de faire toujours le roi, vous le savez, chez vous je ne suis que le berger Misis.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="174"> Avancez ma chère enfant, avancez.</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN. </speaker>
+                        <l n="175"> Pardon, il m’a semblé que ce monsieur vous parlait en confidence, et j’ai craint...</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="176"> Ce monsieur est un de mes amis qui s’est joint à moi pour vous faire obtenir la permission de sortir du cloître, il a parlé au roi en votre faveur avec beaucoup de zèle.</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN. </speaker>
+                        <l n="177"> Agréez mes remerciements, monsieur ; le plus doux de vos bienfaits, après la liberté, est celui de m’avoir fait connaître madame la marquise.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="178"> Il est vrai qu’elle a bien des droits à votre reconnaissance, et vous en auriez beaucoup à la mienne, si je pouvais voir autrement qu’à travers un obstacle une personne dont le son de voix est si flatteur, et dont la figure doit être charmante.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="179"> Vous l’entendez, ma chère ; c’est vous prier bien agréablement d’ôter votre voile.</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN. </speaker>
+                        <l n="180"> Vous savez que j’ai fait vœu de ne l’ôter devant aucun homme, de n’en regarder aucun.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="181"> C’est un ami du roi.</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN. </speaker>
+                        <l n="182"> Je ne l’ôterais pas pour le roi lui-même.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE, bas au roi. </speaker>
+                        <l n="183"> Je vais lui dire qui vous êtes, c’est le seul moyen de...</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI, bas à la marquise. </speaker>
+                        <l n="184"> Gardez-vous-en bien, madame ; je croirais vous manquer à l’une et à l’autre que d’user de mon pouvoir chez vous. Je connais assez bien les femmes, et j’imagine un moyen qui l’obligera à se dévoiler.</l>
+            <stage><em>À sœur Augustin.</em></stage>
+                        <l n="185"> On souffre beaucoup au couvent, n’est-ce pas, ma chère sœur ?</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN. </speaker>
+                        <l n="186"> Ah ! monsieur, je voudrais en vain vous exprimer tous les tourments qu’on y éprouve, surtout lorsqu’on a le cœur sensible. L’infortunée qui aime, a toujours présent à ses yeux l’objet qu’elle adore, et toujours elle est obligée de l’écarter de son souvenir ; quel combat douloureux ! La religion lui dit : malheureuse ; l’enfer est sous tes pieds, il est prêt à t’engloutir si tu aimes ; la nature et l’amour sont là qui lui disent tout le contraire, et déchirée tantôt par la crainte et tantôt par le remords, sa vie n’est qu’une mort anticipée, et le séjour qu’elle habite n’est qu’un horrible tombeau, ou ne luisent pas même à ses regards les rayons de la douce espérance. Le roi est bon, m’a-t-on dit, il veut le bonheur de ses sujets ; puisque vous êtes son ami, monsieur, assurez-le de ma part qu’une religieuse sans vocation est la plus malheureuse de toutes les créatures, et que celles qui en ont, ce qui est très rare, n’en sont pas moins exposées quelquefois à toutes les horreurs du désespoir.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="187"> Le roi en sera instruit. Je vous le jure, et fera tout au monde pour adoucir leur sort ; mais vous n’avez peint que les peines du cœur, ce me semble et ce ne sont pas les seules qu’on éprouve dans les couvents. Il y faut jeûner, prier, veiller, s’imposer quelquefois des mortifications terribles ; et les jeûnes, les prières trop prolongées, les veilles inattendues altèrent tôt ou tard la santé, elles gâtent le teint, rendent les yeux caves et mornes elles flétrissent enfin la beauté du plus joli visage, et je crains qu’exposée ainsi qu’une autre à ces inconvénients vous n’ayez plus cette fraicheur et ces grâces de la physionomie qui sont les trésors de votre âge. Je crains que votre amant en vous voyant ainsi changée ne changé aussi de sentiment ; et que vous ne perdiez un cœur qui vous était tout dévoué.</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN, avec dépit. </speaker>
+                        <l n="188"> J’ai veillé jeûné, prié tout comme une autre, et ce pendant, madame vous dira que je ne suis pas à faire peur, et que...</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="189"> Vous savez qu’une femme n’est pas toujours un juge bien impartial dans ces sortes de matières, et si monsieur allait vous croire laide, et s’il allait dire que vous l’êtes en effet, et que ce bruit arrivât jusqu’aux oreilles d’Augustin, vous sentez combien il serait dangereux pour vous...</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN, avec colère. </speaker>
+                        <l n="190"> Me croire laide, lui, oh ! pour le coup, cela serait nouveau !</l>
+            <stage><em>Se dévoilant.</em></stage>
+                        <l n="191"> mon miroir serait donc un trompeur.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="192"> Non, madame, il ne vous trompe pas.</l>
+            <stage><em>À la marquise.</em></stage>
+                        <l n="193"> elle est jolie, mais vous êtes belle, elle parle vivement à mes yeux ; mais vous seule intéressez mon cœur, et ce n’est point pour Phtyché que je serai infidèle à Vénus. Adieu, ma chère petite, je vais trouver le roi de ce pas, et lui rendre mot-à-mot toutes vos paroles, vous le croyez bon et généreux, vous croyez qu’il veut mettre fin à vos maux, votre espoir ne sera point trompe.</l>
+            <stage><em>À la marquise qui la reconduit avec respect.</em></stage>
+                        <l n="194"> rentrez, madame, je vous en conjure. Eh ! quoi ! reconduire ainsi le berger Misis !</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN, le regardant sortir, et disant tout bas. </speaker>
+                        <l n="195"> Le berger Misis !</l>
+            <stage><em>Haut. </em></stage>
+                        <l n="196"> Vous m’avez comblée de grâce, madame la marquise, et persuadée que votre bienfaisance est inépuisable, j’étais venue ici pour vous en demander une nouvelle.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="197"> Parlez, mon enfant, et comptez toujours sur mon amitié pour vous.</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN. </speaker>
+                        <l n="198"> Jusqu’à présent on a intercepté les lettres que j’ai écrites ; j’espère que je n’aurai plus ce malheur ; depuis mon arrivée en ces lieux, il me sera si doux d’épancher mon âme sur le papier, et d’y raconter vos bienfaits ! voulez vous bien me faire donner tout ce qui m’est nécessaire pour écrire et permettre que de nouveau.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="199"> Écrivez mon enfant, écrivez. Voilà tout ce qu’il vous faut sur une table. Si vous voulez même dicter à mon secrétaire, le voilà qui entre servez-vous-en à votre gré.</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN, remettant son voile avec précipitation. </speaker>
+                        <l n="200"> Ah ! un homme !</l>
+            <stage><em>Regardant Germon à travers son voile.</em></stage>
+                        <l n="201"> Je n’aurai pas besoin de lui.</l>
+            <stage><em>À part.</em></stage>
+                        <l n="202"> il ressemble bien cependant... Si je n’étais pas sûre qu’il est encore à Nîmes... Si une jeune pensionnaire ne me l’avait pas dit... je croirais...</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="203"> Sont-ce vos lettres que vous ruminez ? il me semble que vous parlez toute seule ?</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN. </speaker>
+                        <l n="204"> Oui, madame, je repasse dans ma tête la manière dont je vais écrire.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="205"> Vous comptez n’avoir pas besoin de mon secrétaire, et moi je vous assure qu’il est possible qu’on reconnaisse votre écriture de nouveau et que par cette raison vos lettres soient de nouveau interceptées ; dictez-lui donc ce que vous avez à écrire, une main étrangère vous servira mieux que votre propre main.</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN. </speaker>
+                        <l n="206"> Non, non, j’aime mieux contrefaire mon écriture, madame,</l>
+            <stage><em>Bas à la marquise.</em></stage>
+                        <l n="207"> Voulez-vous que je confie mes secrets à ce jeune homme ?</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="208"> Il est discret et prudent, mais n’importe, liberté entière.</l>
+            <stage><em>À Germon. </em></stage>
+                        <l n="209"> Vous, cependant, restez, elle peut avoir besoin de votre ministère, soit pour cacheter ses lettres, soit pour les faire partir. Moi je vais un moment chez la reine.</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN, embarrassée de la présence de Germon, et cependant ayant l’air de la désirer. </speaker>
+                        <l n="210"> Eh ! bien ! vous ne vous en allez pas !...</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="211"> Non, sœur Augustin, je reste. N’avez-vous pas entendu madame la marquise qui m’a ordonné de ne pas vous quitter ? ah ! son ordre m’est trop cher pour que je lui désobéisse. Votre présence a pour moi un charme inexprimable, et je voudrais être toujours avec vous.</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN. </speaker>
+                        <l n="212"> Sœur Augustin ! ! tout le monde sait déjà mon nom dans cette maison. Quel supplice de ne pouvoir rester cachée !</l>
+            <stage><em>Haut à Germon.</em></stage>
+                        <l n="213"> Je ne m’appelle pas sœur Augustin, au moins !</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="214"> C’est pourtant le nom que vous donne la marquise.</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN. </speaker>
+                        <l n="215"> Sœur Augustin est ce qu’on appelle un nom de guerre.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="216"> Et le véritable, pourrait on le savoir ? pardonnez si...</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN. </speaker>
+                        <l n="217"> Vous êtes bien curieux ! avancez-moi ce fauteuil,</l>
+            <stage><em>Il l’avance.</em></stage>
+                        <l n="218"> non, un tabouret, je veux aujourd’hui avoir tabouret à la cour.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="219"> Vous mériteriez d’y avoir un trône.</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN. </speaker>
+                        <l n="220"> Comme les hommes sont galants à Versailles ! il n’en est pas de même dans nos couvents.</l>
+            <stage><em>À Germon en s’asseyant.</em></stage>
+                        <l n="221"> Restez, puisque cela vous plaît, mais ne faites point de bruit, vous m’empêcheriez d’écrire. Depuis ma sortie du couvent, j’ai tant de trouble et de confusion dans les idées, qu’à peine je puis les rassembler.</l>
+            <stage><em>Se disposant à écrire.</em></stage>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="222"> Est-ce que vous allez écrire avec votre voile, madame !</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN, avec un long soupir. </speaker>
+                        <l n="223"> Hélas ! j’y suis accoutumée depuis si longtemps ?</l>
+            <stage><em>Elle écrit.</em></stage>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON, à l’écart. </speaker>
+                        <l n="224"> Quel son de voix ! comme il me rappelle celui de Juliette ! si je n’étais pas sûr qu’elle est encore à Bagnols, si un de mes parents ne me l’avait point écrit, je croirais... Mais hélas ! à quoi me servirait que ce fût-elle ? enchainée par des vœux cruels, et victime d’une religion impérieuse, me serait-il permis encore d’aspirer à devenir son époux, et de prétendre à sa main ?</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN. </speaker>
+                        <l n="225"> Je ne saurais écrire, je trace une chose pour l’autre et mon pauvre Augustin croira en me lisant que je suis de venue folle.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="226"> Vous en écrivez plusieurs, sans doute !</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN. </speaker>
+                        <l n="227"> Plusieurs ! est-ce qu’on écrit à plus d’une personne quand on aime ? quand j’aurai écrit celle-ci, les autres ne me donneront pas beaucoup de peine.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="228"> J’entends. C’est dire que vous n’en écrirez qu’une.</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN, avec humeur. </speaker>
+                        <l n="229"> Bon ! je n’avais pas assez de mes distractions, il faut que vous m’en donniez encore de nouvelles !</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="230"> Pardon, madame. Je ne vous dirai plus un mot.</l>
+            <stage><em>À part.</em></stage>
+                        <l n="231"> Si de nouveau je lui demandais son nom ! que dis-je ? ma curiosité paraîtrait indiscrète ; madame la marquise s’en offenserait peut-être, elle me supposerait peut-être quelque dessein caché, et j’ai tant d’obligations à cette excellente marquise ! non, il vaut mieux souffrir, il vaut mieux se taire, et laisser faire le temps, c’est lui qui est le grand maître des événements et des choses</l></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU, accourant vers sœur Augustin et la regardant avec avidité. </speaker>
+                        <l n="232"> Ah ! parbleu ! je la retrouve, il faut que je cause avec elle ; toujours ce maudit voile !</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN, s’enfuyant et remettant précipitamment à Germon sa lettre, qu’elle cachetait, mais sur laquelle elle a oublié de mettre l’adresse. </speaker>
+                        <l n="233"> Voilà encore ce monsieur qui vient me regarder sous ! bon dieu ; qu’il est insupportable !</l>
+            <stage><em>À Germon.</em></stage>
+                        <l n="234"> Tenez, vous m’obligerez de la faire mettre à la poste.</l></div>
+        <div type="scene" xml:id=" X ">
+            <head> Scène X </head>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU, courant après sœur Augustin. </speaker>
+                        <l n="235"> Ma chère sœur ! ma chère sœur !</l>
+            <stage><em>Revenant sur le devant du théâtre.</em></stage>
+                        <l n="236"> Impossible de l’atteindre.</l>
+            <stage><em>S’asseyant.</em></stage>
+                        <l n="237"> Je suis fatigué de courir après elle, asseyons-nous.</l>
+            <stage><em>À Germon d’un ton de protection.</em></stage>
+                        <l n="238"> Il me paraît, M. Germon, que vous avez la confiance de cette jeune religieuse ?</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="239"> Je m’estimerais heureux de la mériter.</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="240"> Vous êtes le dépositaire de ses billets doux !</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="241"> Oui, le dépositaire ! mais ce n’est point à moi qu’ils s’adressent.</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="242"> La croyez-vous jolie ?</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="243"> Il est aisé de le deviner. Le peu qu’on entrevoit de son visage ne laisse aucun doute sur le reste. Sa taille, d’ailleurs, est si régulière, elle a un son de voix si doux ! elle salue avec tant de grâce !</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="244"> Elle pourrait, avec tout cela, avoir un visage ordinaire. Oh ! si je pouvais lui faire lever son voile !</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="245"> Vous n’êtes pas le seul qu’il importune.</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="246"> J’ai des raisons pour savoir si elle est jolie, des raisons majeures ! péremptoires. Cinquante louis sont bons à gagner ; je vous les offres M. Germon, si je puis parvenir, par votre moyen, à voir un seul moment son visage à découvert !</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON, ironiquement et fièrement. </speaker>
+                        <l n="247"> Cinquante louis ! comme vous êtes généreux, M. le duc ! il est fâcheux pour vous que ce soit en pure perte ; ce n’est point à des hommes comme moi qu’on fait de pareilles offres, et jamais je n’en ai accepté de semblables.</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="248"> Quel homme êtes-vous donc, mon cher ami !</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON, avec plus de fierté. </speaker>
+                        <l n="249"> Je ne suis point votre ami, monsieur ! vous cherchez à m’humilier par vos discours ; ils me rappellent toute ma dignité ; et, en ce moment, je deviens votre égal.</l>
+            <stage><em>S’asseyant, croisant les jambes et imitant les airs du duc.</em></stage>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU, se levant et à part. </speaker>
+                        <l n="250"> C’est un garçon d’esprit ; il est, d’ailleurs, protégé par la marquise. Tâchons de l’apaiser.</l>
+            <stage><em>Haut, d’un ton caressant.</em></stage>
+                        <l n="251"> Pourquoi vous fâcher de la sotte, M. Germon ? Je me suis trompé, je le vois y en cherchant à vous séduire par une bagatelle, qu’il n’en soit plus question, et cessez de me tenir rigueur. Nous parlions de la jeune religieuse qu’elle ne soit point pour nous deux une pomme de discorde, mais une médiatrice, et continuez de m’éclairer sur son compte. J’ai des raisons, je vous le répète, de prendre des renseignements.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="252"> Parlez, je vous écoute.</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="253"> Lui croyez-vous quelque talent ?</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="254"> Je lui crois des vertus, ce qui est bien préférable.</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="255"> Des vertus ? des vertus ! Je lui en crois aussi ; mais la vertu n’exclut pas le talent et l’on peut avoir l’un et l’autre. L’avez tous entendu répéter quelque rôle ?</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="256"> Comment ! quelque rôle !</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="257"> Oui, quelque rôle d’amoureuse, par exemple. Croyez vous enfin qu’elle joue bien la comédie ?</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="258"> C’est vous qui la jouez, monsieur le duc en me parlant de la sorte ; vous voulez qu’une jeune personne qui sort du couvent...</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="259"> Je ne joue point la comédie, M. Germon, et je n’en ai nulle envie. La jeune personne que vous prenez pour une religieuse, n’en est point une, c’est une demoiselle de bonne maison qui était pensionnaire dans un couvent, qui, ayant les dispositions les plus heureuses pour le théâtre, désire incessamment d’y monter. Elle n’a pris un voile moins je l’imagine que pour se soustraire aux regards des envieux et aux plaisanteries du beau monde. Quoi qu’il en soit, madame de Pompadour a désiré que je la fisse débuter promptement, et je viens d’en donner l’ordre. Dans, trois jours, vous pourrez venir l’applaudir à la Comédie Française. </l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON, se levant et å part. </speaker>
+                        <l n="260"> Tout ce qu’il me dit-là n’est que trop possible. Adieu toutes les conjectures que sœur Augustin avait fait naître dans ma pensée. Je renonce au doux espoir qui m’avait lui, et retombe dans mon infortune.</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="261"> Que murmurez-vous,-là tout bas, M. Germon ? est-ce que vous blâmez le goût qu’on peut avoir pour la comédie ?</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="262"> Moi ! bien au contraire, monsieur ! jouer la comédie est un talent que j’honore, et au quel je dois mes plus doux plaisirs. Madame de Pompadour la joue avec une grâce peu commune, et c’est une perfection de plus que j’admire en elle. Ce talent, dans les deux sexes, développe le physique avec avantage et fortifie les mœurs, il orne la mémoire, amuse l’esprit attendrit le cœur, et enrichit l’imagination. Il n’y a que des sots qui puissent blâmer madame de Pompadour, de la cultiver avec assiduité, il n’y a même que des méchants. Il vaut bien mieux jouer la comédie que jouer aux cartes et aux dés, à ces derniers jeux on se ruine, on ruine les autres : à l’autre, on gagne des trésors qui ne périssent jamais. </l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="263"> Vous parlez si bien de la comédie que j’ai envie de donner un ordre pour vous faire débuter aussi.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="264"> Cela vaudrait mieux, sans doute, que de m’offrir cinquante louis pour m’engager à vous montrer une jolie personne. Voilà pourtant comme vous êtes, messieurs les gentilshommes de la chambre ! vous distribuez des ordres à tort et à travers ; mais vous devriez bien les faire agréer auparavant les personnes à qui vous les donnez. Vos ordres ne ressembleraient pas à vos lettres de change, qui...</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="265"> Qui ! Eh ! bien qui... </l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="266"> Qui ne sont pas toujours acceptées.</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="267"> Il est gai, et je le ferai débuter dans les comiques. En attendant pourriez-vous me dire si la jeune personne a une garde-robe, une garde-robe est surtout nécessaire, quand on veut se livrer au théâtre.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="268"> Elle est vêtue de ses appas, est-il une plus belle parure ?</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="269"> Non. Aussi je ne doute pas que cent adorateurs ne se chargent bientôt de soin de ses atours, et si elle veut n’être pas cruelle...</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="270"> Elle le sera, monsieur ; c’est moi qui vous l’assure. Je la crois sage autant qu’elle est jolie.</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="271"> Tant pis, elle ne fera point fortune avec ces manières. Adieu, M. Germon, quand vous la verrez, dites-lui de se tenir prête</l></div>
+        <div type="scene" xml:id=" XI ">
+            <head> Scène XI </head>
+        <sp who="#germon">
+            <speaker> GERMON, seul </speaker>
+                        <l n="272"> Moi ! lui dire de se tenir prête ! j’ai des choses bien plus importantes à lui communiquer. Voilà une lettre qu’elle me laisse toute cachetée à la vérité, mais sur laquelle il n’y a point d’adresse ; comment veut-elle que, cet écrit parvienne à sa destination ? c’est une distraction, qu’elle a eue, une distraction, majeure ; et dont il faut qu’avant, tout j’aille l’avertir.</l></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="273"> Vous avez cacheté la lettre ;j je l’avoue ; mais n’ayant pas mis de suscription comment voulez-vous qu’elle parvienne à son adresse ?</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN. </speaker>
+                        <l n="274"> Ne vous ai-je pas dit, monsieur ; que j’avais la tête troublée ? et puis ce monsieur tout brodé d’or et d’argent qui par deux fois est venu me regarder sous le nez, n’a pas laissé que de mot troubler encore, oh ! bon dieu ! que certains hommes ont un air hardi à la cour !</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="275"> Ce monsieur l’est plus qu’un autre, surtout avec les jolies personnes, et sa manière de vous regarder ne m’a pas moins indigné que vous-même. Mais la lettre, ne l’oublions pas ; voulez-vous me dicter l’adresse ?</l>
+                </sp>
+        <sp who="#sœur-augustin">
+            <speaker> SŒUR AUGUSTIN. </speaker>
+                        <l n="276"> Oh ! pour l’adresse, vous pouvez l’écrire, je n’y vois point d’inconvénient.</l>
+            <stage><em>Germon s’assied près d’une table, et sœur Augustin se tient debout derrière lui. Continuant d’une voix altérée.</em></stage>
+                        <l n="277"> Écrivez : À MON CHER AUGUSTIN.</l>
+            <stage><em>Germon se retourne, la regarde avec émotion et surprise, elle se reprend, baisse les yeux et continue.</em></stage>
+                        <l n="278"> Ah ! monsieur Augustin Germon, fils de monsieur Germon, marchand de bas, grande rue, à Nîmes.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON, renversant la table de joie. </speaker>
+                        <l n="279"> Qu’entends-je ? C’est Juliette !</l>
+            <stage><em>Tombant ses genoux.</em></stage>
+                        <l n="280"> Ô ma chère Juliette ! c’est donc, vous que je revois. Mes pressentiments ne m’avaient point trompé, c’est celle que j’adore. </l>
+                </sp>
+        <sp who="#juliette">
+            <speaker> SŒUR AUGUSTIN-JULIETTE. </speaker>
+                        <l n="281"> Serait-ce en effet Germon ? Ce son de voix qui tantôt m’a frappée !</l>
+            <stage><em>En levant son, voile si de reconnaissant par degrés, et se jetant dans ses bras où elle reste quelques minutes.</em></stage>
+                        <l n="282"> C’est lui-même.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="283"> Ô Juliette ! ma chère Juliette ! comment se fait-il que je vous retrouve ? par quel miracle êtes-vous en ces lieux ?</l>
+                </sp>
+        <sp who="#juliette">
+            <speaker> JULIETTE. </speaker>
+                        <l n="284"> Toi-même mon cher Augustin, comment se fait-il ?...</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="285"> Mon père, quoique simple marchand, m’a fait donner une éducation distinguée, je profitai des leçons de mes maîtres, j’appris les langues en peu de temps, et conduit à Paris par un de mes oncles, qui y venait pour son commerce, je fus présenté à la marquise de Pompadour, qui m’a donné dans sa maison l’emploi de secrétaire. En passant par Bagnols : je demandai de ses nouvelles, j’appris que tu étais dans le couvent de cette ville ; occupée sans doute à pleurer sur ta chaine. Je voulus te voir, je voulus t’écrire ; entouré d’innombrables argus, il me fut impossible de pénétrer jusqu’à toi, impossible de te faire parvenir mes lettres ; je vins à Paris maudissant ma destinée, et l’imagination toujours remplie de la personne. Comme je t’aurais promptement reconnue sans le voile qui couvrait ton visage, et sans le pieux accoutrement qui enveloppe toute sa personne ! Mais toi-même, comment as-tu pu ne pas reconnaitre ton cher Augustin ?</l>
+                </sp>
+        <sp who="#juliette">
+            <speaker> JULIETTE. </speaker>
+                        <l n="286"> Ce même voile m’a empêchée de distinguer tes traits, et puis ne voyant en toi qu’un homme ordinaire, à peine t’ai-je regardé ; d’ailleurs, je te croyais si loin ! Lis ma lettre, elle te prouvera si je t’aime...</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="287"> Je n’aurai pas besoin de la faire mettre à la poste, la voilà, sans un long trajet, rendue à sa véritable adresse.</l>
+                </sp>
+        <sp who="#juliette">
+            <speaker> JULIETTE. </speaker>
+                        <l n="288"> Permets-moi de la lire moi-même, je craindrais que tu n’exprimasses pas assez bien tout ce que je sens pour toi.</l>
+            <stage><em>Lisant tout haut et avec beaucoup de tendresse. </em></stage>
+                        <l n="289"> Mon cher Augustin,Mon>Brûlant de sortir du cloître, où j’étais, m’a-t-on dit, l’épouse d’un Dieu, j’ai écrit à madame de Pompadour pour la prier de me faire épouser un homme, non un homme comme il y en a tant, mais toi que j’aime, je ne puis cesser d’aimer, mais toi qui es à mes yeux le plus aimable des hommes. Cette dame, qui a toujours été la protectrice des malheureux et le refuge des opprimés, cette respectable dame ne m’a répondu qu’en me faisant venir chez elle par une permission du roi qu’elle a obtenue, c’est chez elle que je suis maintenant, c’est de chez elle que je t’écris ; hâte-toi donc de venir à Versailles hâte-toi de rendre la vie à l’infortunée Juliette.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="290"> Ah ! que cette lettre me charme : Faut-il qu’un chagrin secret vienne, troubler les plus beaux moments ? Je t’aime, je t’adore, je brûle de te posséder, et le rival le plus redoutable, Dieu lui-même ne me permet pas d’expirer à toi, et liée à lui pour jamais...</l>
+                </sp>
+        <sp who="#juliette">
+            <speaker> JULIETTE. </speaker>
+                        <l n="291"> Rassure-toi. La marquise m’a fait espérer que unes vœux pourraient être rompus, le roi lui-même a ordonné d’écrire en ma faveur à la cour de Rome.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="292"> Voici des étrangers, mets ton voile. Tantôt je le maudissais, je le bénis à présent, je voudrais qu’il ne fût transparent que pour moi.</l>
+            <stage><em>Elle met son voile.</em></stage></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#l’exempt">
+            <speaker> L’EXEMPT. </speaker>
+                        <l n="293"> N’est-ce pas vous qu’on appelle sœur Augustin ?</l>
+                </sp>
+        <sp who="#juliette">
+            <speaker> JULIETTE. </speaker>
+                        <l n="294"> Oui et non, que vous importe ?</l>
+                </sp>
+        <sp who="#un-exempt">
+            <speaker> L’EXEMPT. </speaker>
+                        <l n="295"> Un ordre, dont je suis porteur, vous enjoint de me suivre à l’instant même. </l>
+                </sp>
+        <sp who="#juiliette">
+            <speaker> JUILIETTE. </speaker>
+                        <l n="296"> Un ordre ! je me trouve bien ici, et je ne reçois d’ordre de personne.</l>
+                </sp>
+        <sp who="#un-exempt">
+            <speaker> L’EXEMPT. </speaker>
+                        <l n="297"> C’est un ordre supérieur, et je serai contraint d’employer la force, si vous refusez d’obéir.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="298"> La sœur Augustin a laissé tous ses supérieurs au cou vent d’où elle sort, elle est ici sous la garde de l’amitié de l’hospitalité, de la bienfaisance, sous la garde enfin de madame la marquise de Pompadour, qui ne peut vouloir qu’on l’enlève de chez elle au moment où elle lui a donné asile. Cet ordre, au surplus, d’où vient-il ? qui l’a signé et qui vous envoie ?</l>
+                </sp>
+        <sp who="#un-exempt">
+            <speaker> L’EXEMPT. </speaker>
+                        <l n="299"> C’est monsieur le due de Richelieu, et il ne fait rien que de l’aveu de madame de Pompadour.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="300"> Que monsieur de Richelieu fasse enlever arbitrairement une jeune personne, je n’ai pas de peine à le croire ; mais que madame de Pompadour y consente, je ne le croirai jamais. Je ne suis ici que le secrétaire de cette dame, mais je connais trop bien ses sentiments pour lui attribuer quel que part dans cette bassesse et c’est moi qui, en son nom vous ordonne de vous retirer.</l>
+                </sp>
+        <sp who="#un-exempt">
+            <speaker> L’EXEMPT. </speaker>
+                        <l n="301"> Je ne vous connais point, jeune homme, et votre langage est si déplacé que vous pourriez bien vous faire arrêter vous-même.</l>
+            <stage><em>À sa suite.</em></stage>
+                        <l n="302"> Gardes ne l’écoutez point et faites ce qui vous est commandé.</l>
+            <stage><em>Une partie des gardes enlève Juliette, et l’autre se met au-devant de Germon pour l’empêcher de la secourir.</em></stage>
+                </sp>
+        <sp who="#juliette">
+            <speaker> JULIETTE, criant. </speaker>
+                        <l n="303"> Ah ! mon cher Augustin ! mon cher Augustin !</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#germon">
+            <speaker> GERMON, seul dans le plus grand désespoir </speaker>
+                        <l n="304"> Et je n’ai point d’arme pour punir ces téméraires ! qu’ils tremblent ! j’en trouverai, et la mort, oui, la mort sera le prix de leurs forfaits... Mais que dis-je ? est-ce à eux que je dois m’en prendre. C’est Richelieu, c’est cet homme affreux qui est seul coupable ; je ne m’étonne pas qu’il m’ait dit tantôt qu’il allait faire débuter la religieuse il a pris sans doute ce prétexte pour assouvir sa passion brutale : oui, sa manière de regarder Juliette, son sourire ambigu lorsqu’il m’interrogeait sur ses talents, l’offre insolente qu’il m’a faite tout annonce qu’il a sur elle les plus horribles desseins ; mais je les préviendrai, mais il verra ce que peut un amant au désespoir. Je sais que je m’expose beaucoup en m’attaquant à lui, il est tout-puissant et je suis faible, il est grand seigneur et je ne suis rien ; mais perdre Juliette au moment où je viens de la retrouver ! me laisser enlever tout ce que j’aime !... Non, plutôt périr mille fois ! la mort ne dure qu’un moment, et toute la vie on regrette une maîtresse.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="305"> Qu’est-ce donc que bruit que j’ai entendu en revenant de chez la reine ? et pourquoi l’alarme est-elle répandue dans toute ma maison ?</l>
+            <stage><em>Elle sonne, Dupré paraît. À Dupré.</em></stage>
+                        <l n="306"> Où est Germon ? qu’on fasse venir Germon. ?</l>
+                </sp>
+        <sp who="#dupré">
+            <speaker> DUPRÉ. </speaker>
+                        <l n="307"> Germon n’est pas ici dans ce moment, madame, il a été chercher son épée, il est sorti furieux et vous auriez pu le rencontrer sur votre passage.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="308"> Germon sorti furieux ! lui qui est si doux si honnête avec tout le monde !</l>
+                </sp>
+        <sp who="#dupré">
+            <speaker> DUPRÉ. </speaker>
+                        <l n="309"> Ce n’est pas tout-à-fait sans raison qu’il a montré tant de courroux, et j’avoue que j’ai été sur le point de le suivre.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="310"> Je ne vous demande pas ce que vous deviez faire. Au fait ; qu’est-il devenu ?</l>
+                </sp>
+        <sp who="#dupré">
+            <speaker> DUPRÉ. </speaker>
+                        <l n="311"> Vous aurez de la peine à le croire peut-être, mais rien pourtant n’est plus certain. Des gardes, un exempt sont venus ici de la part du duc de Richelieu enlever la jeune religieuse à laquelle vous donnez un asile.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="312"> Sœur Augustin !</l>
+                </sp>
+        <sp who="#dupré">
+            <speaker> DUPRÉ. </speaker>
+                        <l n="313"> Elle-même. Germon n’a pu supporter un pareil outrage ; il est fort attaché à vos intérêts, et suivi des autres domestiques de la maison, il a couru après les ravisseurs avec la rapidité de l’éclair. Peut-être qu’à présent ils en sont aux mains.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="314"> Qu’on courre après Germon, qu’on l’empêche de se battre. Qu’on aille surtout avertir le roi de tout ce qui se passe ; le roi est juste, il me vengera d’un pareil affront. Allez, ne perdez pas un moment.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE, seule </speaker>
+                        <l n="315"> Venir jusques dans ma maison arracher à ma bienfaisance une jeune personne dont je prends soin ! Qu’est-ce donc qui a pu porter monsieur de Richelieu à me faire un pareil outrage ? Serait-il fâché de ce que je l’ai fait un peu attendre ce matin ? mais tantôt je lui en ai fait mes excuses, et il m’en a plaisanté lui-même. Serait-il amoureux de sœur Augustin ? il m’a semblé que tantôt, en ma présence, il l’a regardée avec bien de la curiosité avec un intérêt bien tendre ! Amoureux de sœur Augustin ! que dis-je ? est-ce que ces gens-là savent aimer ? ils n’en sont pas dignes. Quoiqu’il en soit, monsieur de Richelieu m’a grièvement offensée, et je dois à mon sexe de ne pas souffrir qu’on oublie le respect qui lui est dû ; le roi, d’ailleurs peut se croire offensé aussi dans ma personne, et je dois l’avertir de tout ce qui va contre ses intérêts.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="316"> Qu’ai-je appris, madame la marquise ? monsieur de Richelieu vient de faire enlever chez vous cette jeune religieuse que je vous avais permis d’y recueillir. Il a poussé l’audace jusqu’à ne pas respecter l’asile que vous habitez.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="317"> Votre majesté en est donc déjà instruite !</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="318"> Je ne voulais point le croire, mais tout le château retentit de cette nouvelle. Je mène avec moi un capitaine de mes gardes pour faire chercher monsieur de Richelieu. Je veux qu’amené devant vous il commence par vous demander pardon de son insolente conduite, je sais ensuite ce que j’ai à faire.</l>
+            <stage><em>Au capitaine des gardes.</em></stage>
+                        <l n="319"> Allez, qu’on cherche monsieur de Richelieu, et qu’on me l’amène quelque part qu’il se trouve. </l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="320"> Qu’il est malheureux d’être roi, ma chère marquise ! et que ne suis-je un simple particulier ? Voilà un homme qu’il faudra que je punisse, et cet homme cependant m’a rendu de grands services dans mes armées ; il trompe les femmes, je l’avoue ; il les déshonore quelquefois, et ne paie point ses créanciers ; c’est un séducteur, un volage , un homme sans principes ; mais, pour la bravoure, c’est un digne rival de Turenne.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="321"> Je le sais comme vous, Sire ; monsieur de Richelieu est brave, mais il n’a que cette qualité ; et Turenne joignait au vrai courage l’exercice de toutes les vertus. Voilà, au surplus, comme sont les courtisans d’aujourd’hui, pourvu qu’ils se battent bien, il croient que tout leur est permis ; ils enlèvent de jeunes filles, manquent de respect à leurs parents, ne connaissent ni les liens du sang, ni les lois de la nature, ni celles de la société ; mais ils sont braves, mais ils savent poliment tuer leurs hommes ; et tout doit leur être pardonné, et l’on doit même les regarder comme les gens les plus honnêtes du monde. Ne croyez pas, Sire, qu’en vous parlant de la sorte, je cherche à vous aigrir contre monsieur de Richelieu, les torts qu’il vient d’avoir avec moi sont grands sans doute, mais je n’ai point de rancune, et si la sœur Augustin se retrouve, comme je l’espère, et si elle lui pardonne, je crois qu’un exil de quelques jours le punira autant qu’il le mérite.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="322"> J’incline, je l’avoue, à ne pas le traiter avec plus de sévérité. Quoique monsieur de Richelieu soit très coupable envers vous, envers sœur Augustin et envers moi. Considérée ; d’un certain côté, sa conduite ne laisse pas de m’être fort utile, et je suis presque tenté de lui faire des remerciements.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="323"> J’ai peine à comprendre comment...</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="324"> Et ne voyez-vous pas que tout le monde se masque autour de moi, et que personne ne m’apparaît avec son véritable caractère. Il y a dans ma cour une quantité de gens que je soupçonne de n’avoir point d’honneur, et quand je veux les approfondir, mon rang m’empêche de percer le voile qui les couvre ; ce sont autant de murs d’airain, au-delà desquels mon œil ne saurait pénétrer. Le duc de Richelieu a rompu cette monotonie de vices, qui ne présentent jamais à mes regards que la même perspective ; il a jeté de la variété dans un tableau tout en camaïeux, il s’est fait connaître tel qu’il est ; en un mot et pour un courtisan n’est-ce rien que de se faire connaître ? Triste condition des rois, qu’ils ne puissent lire dans le cœur de leurs sujets qu’aux dépens de l’humanité, de la candeur et de la justice !</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="325"> Monsieur de Richelieu a blessé toutes ces vertus, et pourtant je vois avec plaisir que votre esprit cherche mille moyens de ne pas le trouver coupable.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="326"> Écoutez, ma chère marquise. Monsieur de Richelieu est un fin courtisan, j’ai peine à croire que de gaieté de cœur il ait voulu se brouiller avec vous, il y a dans tout ceci quelque malentendu que la journée éclaircira peut être. Quoiqu’il en soit, il me serait impossible de sévir dans le séjour des grâces et de faire des malheureux quand tout ici me peint le bonheur et la volupté. Voilà un cabinet où je vais rester caché quelques instants, en attendant interrogez le prévenu qui ne tardera pas à paraître, j’entendrai toutes ses réponses et je le jugerai secrètement ; si je le trouve coupable, je ne me montrerai pas, je laisserai faire la justice, et je reparaîtrai s’il est innocent. </l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="327"> L’expédient que vous proposez est digne de votre bon cœur, et je ne puis que l’approuver.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="328"> J’ai juré, d’ailleurs, de n’être jamais chez vous que le berger Misis, et si j’y deviens roi un moment, je ne veux l’être que pour pardonner.</l>
+            <stage><em>Il entre dans le cabinet.</em></stage></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE, seule </speaker>
+                        <l n="329"> Le roi a raison lorsqu’il dit que monsieur de Richelieu est trop bon courtisan pour ne pas craindre de m’offenser, au fond du cœur il ne m’aime pas, il aurait voulu mettre madame d’Estrade à ma place, et ce n’est que par politique qu’il vit bien avec moi. Comment donc expliquer l’évènement d’aujourd’hui ?</l></div>
+        <div type="scene" xml:id=" ΙΧ ">
+            <head> Scène ΙΧ </head>
+        <sp who="#germon">
+            <speaker> GERMON, conduisant Juliette aux pieds de la marquise et s’y précipitant avec elle. </speaker>
+                        <l n="330"> La voilà, madame, la voilà ; justice ! justice ! justice !</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="331"> Vous l’obtiendrez, mes enfants, levez-vous ; et vous, sœur Augustin mettez-vous dans ce fauteuil. Quelle pâleur sur son visage ! les cheveux épars ! son voile tout déchiré ! hélas ! dans quel état je la retrouve !</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="332"> Secondé de ces braves gens</l>
+            <stage><em>Montrant les domestiques.</em></stage>
+                        <l n="333"> je viens de l’arracher des mains de six hommes qui la portaient mourante dans une voiture. Les scélérats ! ils ont osé dire que c’était en votre nom qu’ils commettaient un pareil crime ! ils ont osé s’autoriser de votre aveu, je n’ai pas voulu les croire, je ne les croirai jamais. Non, madame la marquise de Pompadour n’est pas faite pout tant de perfidie.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="334"> Qu’entends-je ? ils ont osé dire...</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="335"> Que vous agissiez de concert avec M. de Richelieu, et que vous et lui vous aviez ordonné cet enlèvement abominable.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="336"> Ah ! que vous avez bien fait de ne pas les croire. Mais voici enfin M. de Richelieu, il faudra bien qu’il s’explique.</l></div>
+        <div type="scene" xml:id=" X ">
+            <head> Scène X </head>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE, avec dignité. </speaker>
+                        <l n="337"> Est-il possible, M. le duc, que vous m’ayez calomniée à ce point ! eh quoi ! vous avez prétendu que vous aviez mon consentement pour faire enlever sœur Augustin de chez moi !</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="338"> Oui, madame, c’est tantôt vous-même qui me l’avez donné, comment l’avez-vous oublié si tôt ?</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="339"> Moi, j’aurais consenti à la violation des droits les plus sacrés, ceux de l’hospitalité, de...</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="340"> Vous avez plus fait, madame ; vous m’avez prié, oui, prié de donner un ordre pour faire mettre sœur Augustin au théâtre ; je l’ai donné et comme elle s’y est refusée il a bien fallu...</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="341"> Moi, monsieur le duc !... je vous ai demandé un ordre pour faire mettre au théâtre promptement une nouvelle tragédie de monsieur de Crébillon ; sa tragédie de Catilina, qu’il nous a lue lui-même.</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU, avec étonnement. </speaker>
+                        <l n="342"> Quoi ! c’est de la tragédie de Catilina que vous parliez, madame !</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="343"> Sans doute. Comment avez-vous cru que je parlais d’autre chose ?</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="344"> Vous m’avez dit qu’elle était belle.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="345"> J’en conviens.</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="346"> Que sa marche était régulière.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="347"> Oui, monsieur.</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="348"> Qu’elle attirerait tout Paris.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="349"> Cela est vrai.</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="350"> Que son père vous priait de la faire mettre au théâtre, qu’il m’en aurait une vive obligation.</l>
+                </sp>
+        <sp who="#lα-marquise">
+            <speaker> LΑ MARQUISE. </speaker>
+                        <l n="351"> Son père, oui, son père ; monsieur de Crébillon. Un auteur n’est-il pas le père de tous ses ouvrages ?</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="352"> Je ne dis pas le contraire, madame. Eh bien ! vous désiriez depuis quelque temps de faire débuter une demoiselle de bonne maison qui a des talents pour le théâtre ; sœur Augustin est belle, sa marche est régulière, elle attirerait tout Paris si elle débutait, j’ai compris que son père, loin de s’y opposer, s’y s’empressait de me demander un ordre : tout ce que vous avez dit de la tragédie de Catilina, je vois maintenant que je l’ai entendu de sœur Augustin.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="353"> Quel tissu d’impostures !</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="354"> Non, ce qu’il vous dit est la vérité : j’aurais dû m’expliquer plus clairement avec lui, le désir d’obliger promptement monsieur de Crébillon m’a fait mettre un peu trop de laconisme dans mes paroles.</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="355"> Vous voyez, madame, que bien loin de vouloir vous offenser, c’est le désir de vous plaire qui n’a fait donner l’ordre fatal, et je ne suis fâché que d’une chose, c’est que monsieur de Crébillon ne fasse pas de comédies, cette aventure lui fournirait un sujet.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="356"> Que l’enlèvement soit l’effet d’un mal entendu, à la bonne heure ; mais les regards curieux et indiscrets dont vous avez assailli sœur Augustin, et l’offre que vous m’avez faite tantôt pour lui faire lever son voile, croyez-vous qu’on puisse également vous les pardonner ?</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="357"> Ma foi, monsieur Germon, il est heureux tantôt que je n’aie pas vu sœur Augustin à visage découvert, elle est si jolie qu’au lieu de la faire enlever pour la Comédie Française, j’aurais bien pu la faire enlever pour mon propre compte. Mais voici le roi.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON, étonné. </speaker>
+                        <l n="358"> Voici le roi.</l>
+                </sp>
+        <sp who="#juliette">
+            <speaker> JULIETTE, se levant de son fauteuil et allant vers la marquise, avec mystère. </speaker>
+                        <l n="359"> Ce n’est point le roi, madame, il s’est dit lui-même tantôt le berger Misis.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE, souriant. </speaker>
+                        <l n="360"> C’est un berger un peu magicien, et qui se fait roi quand il veut. (</l></div>
+        <div type="scene" xml:id=" XI ">
+            <head> Scène XI </head>
+        <sp who="#le-roi">
+            <speaker> LE ROI, hors du cabinet et à part. </speaker>
+                        <l n="361"> Feignons d’être irrité, afin de lui faire peur.</l>
+            <stage><em>Au duc de Richelieu, d’un ton sévère.</em></stage>
+                        <l n="362"> Vous souvient-il, monsieur, d’avoir été à la Bastille ?</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU, d’un ton respectueux mais gai. </speaker>
+                        <l n="363"> Oui, sire, et même tant de fois qu’on avait écrit en gros ses lettres sur la porte de ma chambre, HÔTEL DE RICHELIEU.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="364"> Ne craignez-vous pas d’y retourner ?</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="365"> Je le crains plus je ne le désire, et je voudrais bien que désormais votre majesté ne se chargeât plus de ma nourriture ni de mon logement.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="366"> Eh bien ! rassurez-vous, pour aujourd’hui je me prendrai point cette peine. J’étais caché dans ce cabinet, d’où j’ai tout entendu ; j’ai bien ri de la méprise qui faisait monter au théâtre sœur Augustin, malgré elle. Il m’a semblé que madame en avait ri aussi.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="367"> Oui, sire. Il n’y a que la sœur Augustin qui n’a pas dû en rire ; et pour la dédommager, votre majesté devrait bien faire en sorte qu’elle ne retournât plus au couvent.</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="368"> M. Germon, n’a pas dû en rire non plus, et je ne suis pas étonné de sa grande colère contre moi.</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="369"> Je le suis encore moins, M. le duc ; mon secrétaire est un homme sensible et humain, qui n’a pu voir enlever une jeune personne sans voler à son secours.</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="370"> L’humanité n’est pas la seule raison qui lui a fait montrer tant de zèle, et si le roi me permettait de parler, j’aurais bientôt fait connaître le vrai coupable.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="371"> J’aime à croire qu’il n’y en a point dans tout ceci ; n’importe, expliquez-vous, et parlez sans restriction et sans réserve ; il est si rare qu’on dise la vérité aux rois ?</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="372"> C’est moi qu’on s’est empressé d’accuser, sire, c’est sur moi qu’ont paru d’abord tomber votre courroux et ce lui de madame la marquise. Voilà le seul homme qui les méritât.</l>
+            <stage><em>Montrant Germon. </em></stage>
+                        <l n="373"> Voilà le seul qu’il faille punir. D’abord, il s’est battu contre six hommes pour leur arracher sœur Augustin...</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="374"> Eh bien ! quel mal trouvez-vous à cela ? c’est pour défendre une belle qu’il a montré tant de courage, et vous savez si j’aime les braves gens, M. de Richelieu ?</l>
+                </sp>
+        <sp who="#le-duc-de-richelieu">
+            <speaker> LE DUC DE RICHELIEU. </speaker>
+                        <l n="375"> Ce n’est point aussi à ce sujet que je l’attaque, sire ; ainsi que votre majesté, j’aime les braves, et si M. Germon a peu ou presque point de politesse en de certains moments, je conviens qu’il ne manque point de bravoure. Mais il aime sœur Augustin, mais sœur Augustin est sa maîtresse, et n’est-ce pas blesser l’hospitalité, n’est-ce pas manquer à la décence, que de courtiser ainsi une religieuse dans une maison aussi respectable que celle-ci, et de cacher à tout le monde une flamme aussi criminelle ?</l>
+                </sp>
+        <sp who="#la-marquise-de-pompadour">
+            <speaker> LA MARQUISE. </speaker>
+                        <l n="376"> Quoi, monsieur, vous voulez que ces jeunes gens s’aiment avant de se connaître et que ne s’étant vus qu’aujourd’hui ?...</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="377"> Nous nous connaissions depuis longtemps, madame ? la sœur Augustin est née à Nîmes ainsi que moi ; c’est moi qui ai été le premier objet de ses sentiments. C’est moi qui suis l’amant préféré dont elle vous parle dans la lettre qu’elle vous a écrite du couvent des Visitandines.</l>
+                </sp>
+        <sp who="#juliette">
+            <speaker> JULIETTE. </speaker>
+                        <l n="378"> Oui, madame, c’est lui qui est le cher Augustin dont je vous ai dit que j’avais adopté le nom pour l’avoir toujours présent à ma mémoire.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="379"> C’est une suite d’événements singuliers, et pourtant très naturels qui nous a rassemblés en ce lieu, le voile qui cachait ses traits, une longue absence, et les pleurs qu’elle a répandus, m’ont d’abord empêché de la reconnaître c’est en me dictant l’adresse d’une lettre qu’elle s’est dévoilée à moi, et jugez de ma rage et de mon désespoir lorsque j’ai vu qu’on me l’enlevait au moment où le ciel venait de me la rendre. Oui, j’aime sœur Augustin, je l’adore, j’ose l’avouer devant sa bienfaitrice et devant mon roi ; si c’est un crime, qu’on m’en punisse, mais qu’on n’espère pas m’en faire repentir.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="380"> Soyez tranquille, jeune homme. Si c’était un crime que d’aimer je serais le premier coupable, surtout depuis que je connais madame,</l>
+            <stage><em>Montrant, madame de Pompadour.</em></stage>
+                        <l n="381"> un amour honnête et légitime, tel que le vôtre ne m’a jamais irrité, que ne peut un hymen heureux le couronner promptement ! en attendant, jeune homme, je veux vous récompenser de votre courage, je vous accorde le noblesse et une compagnie dans un de mes régiments.</l>
+                </sp>
+        <sp who="#germon">
+            <speaker> GERMON. </speaker>
+                        <l n="382"> J’accepte la compagnie, sire, quant à la noblesse, la véritable est</l>
+            <stage><em>Montrant son cœur.</em></stage>
+                        <l n="383"> là et votre majesté voudra bien permettre...</l></div>
+        <div type="scene" xml:id=" XII ">
+            <head> Scène XII </head>
+        <sp who="#l’huissier">
+            <speaker> L’HUISSIER. </speaker>
+                        <l n="384"> Voilà une lettre que le cardinal de Fleuri, écrit a sa majesté.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="385"> Ah ! donnez, donnez vite. Je gage qu’il y est question de sœur Augustin.</l>
+            <stage><em>Lisant.</em></stage>
+                        <l n="386"> Sire, après avoir pris les Informations les plus promptes sur les vœux de sœur Augustin, nous croyons que ces vœux sont nuls pour plusieurs raisons. Premièrement parce qu’ils ont été prononcés avant qu’elle eût fini le temps ordinaire du noviciat ; secondement, parce qu’ils l’ont été par crainte, par violence, et dans un temps même où il paraît que l’amour avait altéré la raison de la jeune personne. Troisièmement enfin, parce que sa profession n’a pas été reçue par un supérieur légitime et parce qu’elle a protesté, en conséquence et surtout en vertu des libertés de l’Église-Gallicane dont nous sommes les vrais interprètes, nous avons cassé et annulé, cassons et annulons, les vœux de sœur Augustin, en attendant que le saint père les casse lui même, et qu’un rescrit de la cour de Rome manifeste sa suprême volonté.</l>
+                        <l n="387"> Signé, les membres du conseil,</l>
+                        <l n="388"> le cardinal de FLEURI.</l>
+                        <l n="389"> Je ne pense que le rescrit de la cour de Rome tarde longtemps à arriver.</l>
+            <stage><em>À Germon.</em></stage>
+                        <l n="390"> Et attendant prenez cette lettre, il vous suffira de la montrer à un notaire pour qu’il prépare votre contrat.</l>
+            <stage><em>À Juliette.</em></stage>
+                        <l n="391"> Je vous donne pour présent de noce une somme de cent mille écus, et une place de lectrice chez la reine.</l>
+                </sp>
+        <sp who="#juliette">
+            <speaker> JULIETTE. </speaker>
+                        <l n="392"> Madame de Pompadour, est ma bienfaitrice, permettez sire, que je ne m’en éloigne pas.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="393"> Ce n’est pas vous en éloigner, elle est dame du palais de la reine, et vous aurez souvent l’occasion d’être ensemble.</l>
+                        <l n="394"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

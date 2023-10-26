@@ -1,0 +1,2840 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Pulchérie</title>
+                <title type="sub">Comédie</title>
+            <author>
+                <persName>
+                    <forename>Pierre</forename>
+                    <surname>Corneille</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/?q=node/1196 </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1672-11-25">Représentée pour la première fois, à Paris, sur le Théâtre du Marais, le 25 novembre 1672.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="pulchérie" sex="SEX">
+                            <persName>PULCHÉRIE</persName>
+                        </person>
+                        <person xml:id="martian" sex="SEX">
+                            <persName>MARTIAN</persName>
+                        </person>
+                        <person xml:id="léon" sex="SEX">
+                            <persName>LÉON</persName>
+                        </person>
+                        <person xml:id="aspar" sex="SEX">
+                            <persName>ASPAR</persName>
+                        </person>
+                        <person xml:id="irène" sex="SEX">
+                            <persName>IRÈNE</persName>
+                        </person>
+                        <person xml:id="justine" sex="SEX">
+                            <persName>JUSTINE</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Comédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q40831]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">PULCHÉRIE</titlePart>
+            <titlePart type="sub">COMÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre du Marais, le 25 novembre 1672.</ab><!--@date="1672-11-25"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> AU LECTEUR</salute>
+            </opener>
+        <p> Pulchérie, fille de l’empereur Arcadius, et sœur du jeune Théodose, a été une princesse très illustre, et dont les talents étaient merveilleux : tous les historiens en conviennent. Dès l’âge de quinze ans elle empiéta le gouvernement sur son frère, dont elle avait reconnu la faiblesse, et s’y conserva tant qu’il vécut, à la réserve d’environ une année de disgrâce, qu’elle passa loin de la cour, et qui coûta cher à ceux qui l’avaient réduite à s’en éloigner. Après la mort de ce prince, ne pouvant retenir l’autorité souveraine en sa personne, ni se résoudre à la quitter, elle proposa son mariage à Martian, à la charge qu’il lui permettrait de garder sa virginité, qu’elle avait vouée et consacrée à Dieu. Comme il était déjà assez avancé dans la vieillesse, il accepta la condition aisément, et elle le nomma pour empereur au sénat, qui ne voulut ou n’osa l’en dédire. Elle passait alors cinquante ans, et mourut deux ans après. Martian en régna sept, et eut pour successeur Léon, que ses excellentes qualités firent surnommer <em>le Grand</em>. Le patrice Aspar le servit à monter au trône, et lui demanda pour récompense l’association à cet empire qu’il lui avait fait obtenir. Le refus de Léon le fit conspirer contre ce maître qu’il s’était choisi ; la conspiration fut découverte, et Léon s’en défit. Voilà ce que m’a prêté l’histoire. Je ne veux point prévenir votre jugement sur ce que j’y ai changé ou ajouté, et me contenterai de vous dire que, bien que cette pièce ait été reléguée dans un lieu où on ne voulait plus se souvenir qu’il y eût un théâtre, bien qu’elle ait passé par des bouches pour qui on n’était prévenu d’aucune estime, bien que ses principaux caractères soient contre le goût du temps, elle n’a pas laissé de peupler le désert, de mettre en crédit des acteurs dont on ne connaissait pas le mérite, et de faire voir qu’on n’a pas toujours besoin de s’assujettir aux entêtements du siècle pour se faire écouter sur la scène. J’aurai de quoi me satisfaire, si cet ouvrage est aussi heureux à la lecture qu’il a été à la représentation ; et, si j’ose ne vous dissimuler rien, je me flatte assez pour l’espérer. </p>
+    </div>
+           <div type="act" xml:id="1">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1"> Je vous aime, Léon, et n’en fais point mystère ;</l>
+                        <l n="2"> Des feux tels que les miens n’ont rien qu’il faille taire :</l>
+                        <l n="3"> Je vous aime, et non point de cette folle ardeur</l>
+                        <l n="4"> Que les yeux éblouis font maîtresse du cœur,</l>
+                        <l n="5"> Non d’un amour conçu parles sens en tumulte,</l>
+                        <l n="6"> À qui l’âme applaudit sans qu’elle se consulte,</l>
+                        <l n="7"> Et qui, ne concevant que d’aveugles désirs,</l>
+                        <l n="8"> Languit dans les faveurs, et meurt dans les plaisirs :</l>
+                        <l n="9"> Ma passion pour vous, généreuse et solide,</l>
+                        <l n="10"> À la vertu pour âme, et la raison pour guide,</l>
+                        <l n="11"> La gloire pour objet, et veut sous votre loi</l>
+                        <l n="12"> Mettre en ce jour illustre et l’Univers et moi.</l>
+                        <l n="13"> Mon aïeul Théodose, Arcadius mon père,</l>
+                        <l n="14"> Cet empire quinze ans gouverné pour un frère.</l>
+                        <l n="15"> L’habitude à régner, et l’horreur d’en déchoir,</l>
+                        <l n="16"> Voulaient dans un mari trouver même pouvoir.</l>
+                        <l n="17"> Je vous en ai cru digne ; et, dans ces espérances,</l>
+                        <l n="18"> Dont un penchant flatteur m’a fait des assurances,</l>
+                        <l n="19"> De tout ce que sur vous j’ai fait tomber d’emplois</l>
+                        <l n="20"> Aucun n’a démenti l’attente de mon choix :</l>
+                        <l n="21"> Vos hauts faits à grands pas nous portaient à l’empire ;</l>
+                        <l n="22"> J’avais réduit mon frère à ne m’en point dédire ;</l>
+                        <l n="23"> Il vous y donnait part, et j’étais toute à vous :</l>
+                        <l n="24"> Mais ce malheureux prince est mort trop tôt pour nous.</l>
+                        <l n="25"> L’empire est à donner, et le sénat s’assemble</l>
+                        <l n="26"> Pour choisir une tête à ce grand corps qui tremble,</l>
+                        <l n="27"> Et dont les Huns, les Goths, les Vandales, les Francs,</l>
+                        <l n="28"> Bouleversent la masse et déchirent les flancs.</l>
+                        <l n="29"> Je vois de tous côtés des partis et des ligues ;</l>
+                        <l n="30"> Chacun s’entre-mesure et forme ses intrigues.</l>
+                        <l n="31"> Procope, Gratian, Aréobinde, Aspar,</l>
+                        <l n="32"> Vous peuvent enlever ce grand nom de César :</l>
+                        <l n="33"> Ils ont tous du mérite ; et en dernier s’assure</l>
+                        <l n="34"> Qu’on se souvient encor de son père Ardabure,</l>
+                        <l n="35"> Oui, terrassant Mitrane en combat singulier,</l>
+                        <l n="36"> Nous acquit sur la Perse un avantage entier,</l>
+                        <l n="37"> Et, rassurant par-là nos aigles alarmées,</l>
+                        <l n="38"> Termina seul la guerre aux yeux des deux armées.</l>
+                        <l n="39"> Mes souhaits, mon crédit, mes amis, sont pour vous ;</l>
+                        <l n="40"> Mais, à moins que ce rang, plus d’amour, point d’époux :</l>
+                        <l n="41"> Il faut, quelques douceurs que cet amour propose,</l>
+                        <l n="42"> Le trône, ou la retraite au sang de Théodose ;</l>
+                        <l n="43"> Et, si par le succès mes desseins sont trahis,</l>
+                        <l n="44"> Je m’exile en Judée auprès d’Athénaïs.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="45"> Je vous suivrais, madame ; et du moins sans ombrage</l>
+                        <l n="46"> De ce que mes rivaux ont sur moi d’avantage,</l>
+                        <l n="47"> Si vous ne m’y faisiez quelque destin plus doux,</l>
+                        <l n="48"> J’y mourrais de douleur d’être indigne de vous;</l>
+                        <l n="49"> J’y mourrais à vos yeux en adorant vos charmes :</l>
+                        <l n="50"> Peut-être essuieriez-vous quelqu’une de mes larmes ;</l>
+                        <l n="51"> Peut-être ce grand cœur, qui n’ose s’attendrir,</l>
+                        <l n="52"> S’y défendrait si mal de mon dernier soupir,</l>
+                        <l n="53"> Qu’un éclat imprévu de douleur et de flamme</l>
+                        <l n="54"> Malgré vous à son tour voudrait suivre mon âme.</l>
+                        <l n="55"> La mort, qui finirait à vos yeux mes ennuis,</l>
+                        <l n="56"> Aurait plus de douceur que l’état où je suis.</l>
+                        <l n="57"> Vous m’aimez ; mais, hélas ! quel amour est le vôtre.</l>
+                        <l n="58"> Qui s’apprête peut-être à pencher vers un autre ?</l>
+                        <l n="59"> Que servent ces désirs, qui n’auront point d’effet</l>
+                        <l n="60"> Si votre illustre orgueil ne se voit satisfait ?</l>
+                        <l n="61"> Et que peut cet amour dont vous êtes maîtresse,</l>
+                        <l n="62"> Cet amour dont le trône a toute la tendresse,</l>
+                        <l n="63"> Esclave ambitieux du suprême degré,</l>
+                        <l n="64"> D’un titre qui l’allume et l’éteint à son gré ?</l>
+                        <l n="65"> Ah ! ce n’est point par-là que je vous considère ;</l>
+                        <l n="66"> Dans le plus triste exil vous me seriez plus chère :</l>
+                        <l n="67"> Là, mes yeux, sans relâche attachés à vous voir,</l>
+                        <l n="68"> Feraient de mon amour mon unique devoir ;</l>
+                        <l n="69"> Et mes soins, réunis à ce noble esclavage,</l>
+                        <l n="70"> Sauraient de chaque instant vous rendre un plein hommage.</l>
+                        <l n="71"> Pour être heureux amant faut-il que l’univers</l>
+                        <l n="72"> Ait place dans un cœur qui ne veut que vos fers ;</l>
+                        <l n="73"> Que les plus dignes soins d’une flamme si pure</l>
+                        <l n="74"> Deviennent partagés à toute la nature ?</l>
+                        <l n="75"> Ah ! que ce cœur, madame, a lieu d’être alarmé,</l>
+                        <l n="76"> Si sans être empereur je ne suis plus aimé !</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="77"> Vous le serez toujours ; mais une âme bien née</l>
+                        <l n="78"> Ne confond pas toujours l’amour et l’hyménée :</l>
+                        <l n="79"> L’amour entre deux cœurs ne veut que les unir ;</l>
+                        <l n="80"> L’hyménée a de plus leur gloire à soutenir ;</l>
+                        <l n="81"> Et, je vous l’avouerai, pour les plus belles vies</l>
+                        <l n="82"> L’orgueil de la naissance a bien des tyrannies :</l>
+                        <l n="83"> Souvent les beaux désirs n’y servent qu’à gêner ;</l>
+                        <l n="84"> Ce qu’on se doit combat ce qu’on se veut donner :</l>
+                        <l n="85"> L’amour gémit en vain sous ce devoir sévère...</l>
+                        <l n="86"> Ah ! si je n’avais eu qu’un sénateur pour père !</l>
+                        <l n="87"> Mais mon sang dans mon sexe a mis les plus grands cœurs ;</l>
+                        <l n="88"> Eudoxe et Placidie ont eu des empereurs :</l>
+                        <l n="89"> Je n’ose leur céder en grandeur de courage ;</l>
+                        <l n="90"> Et malgré mon amour je veux même partage :</l>
+                        <l n="91"> Je pense en être sûre, et tremble toutefois</l>
+                        <l n="92"> Quand je vois mon bonheur dépendre d’une voix.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="93"> Qu’avez-vous à trembler ? Quelque empereur qu’on nomme,</l>
+                        <l n="94"> Vous aurez votre amant, ou du moins un grand homme,</l>
+                        <l n="95"> Dont le nom, adoré du peuple et de la cour,</l>
+                        <l n="96"> Soutiendra votre gloire, et vaincra votre amour.</l>
+                        <l n="97"> Procope, Aréobinde, Aspar, et leurs semblables,</l>
+                        <l n="98"> Parés de ce grand nom, vous deviendront aimables ;</l>
+                        <l n="99"> Et l’éclat de ce rang, qui fait tant de jaloux,</l>
+                        <l n="100"> En eux, ainsi qu’en moi, sera charmant pour vous.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="101"> Que vous m’êtes cruel, que vous m’êtes injuste</l>
+                        <l n="102"> D’attacher tout mon Cœur au seul titre d’auguste !</l>
+                        <l n="103"> Quoi que de ma naissance exige la fierté,</l>
+                        <l n="104"> Vous seul ferez ma joie et ma félicité ;</l>
+                        <l n="105"> De tout autre empereur la grandeur odieuse...</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="106"> Mais vous l’épouserez, heureuse ou malheureuse ?</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="107"> Ne me pressez point tant, et croyez avec moi</l>
+                        <l n="108"> Qu’un choix si glorieux vous donnera ma foi,</l>
+                        <l n="109"> Ou que, si le sénat à nos vœux est contraire,</l>
+                        <l n="110"> Le ciel m’inspirera ce que je devrai faire.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="111"> Il vous inspirera quelque sage douleur,</l>
+                        <l n="112"> Qui n’aura qu’un soupir à perdre en ma faveur.</l>
+                        <l n="113"> Oui, de si grands rivaux...</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="114"> Ils ont tous des maîtresses.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="115"> Le trône met une âme au-dessus des tendresses.</l>
+                        <l n="116"> Quand du grand Théodose on aura pris le rang,</l>
+                        <l n="117"> Il y faudra placer les restes de son sang :</l>
+                        <l n="118"> Il voudra, ce rival, qui que l’on puisse élire,</l>
+                        <l n="119"> S’assurer par l’hymen de vos droits à l’empire.</l>
+                        <l n="120"> S’il a pu faire ailleurs quelque offre de sa foi,</l>
+                        <l n="121"> C’est qu’il a cru ce cœur trop prévenu pour moi :</l>
+                        <l n="122"> Mais se voyant au trône, et moi dans la poussière,</l>
+                        <l n="123"> Il se promettra tout de votre humeur altière ;</l>
+                        <l n="124"> Et, s’il met à vos pieds ce charme de vos yeux,</l>
+                        <l n="125"> Il deviendra l’objet que vous verrez le mieux.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="126"> Vous pourriez un peu loin pousser ma patience,</l>
+                        <l n="127"> Seigneur ; j’ai l’âme frère, et tant de prévoyance</l>
+                        <l n="128"> Demande à la souffrir encor plus de bonté</l>
+                        <l n="129"> Que vous ne m’avez vu jusqu’ici de fierté.</l>
+                        <l n="130"> Je ne condamne point ce que l’amour inspire ;</l>
+                        <l n="131"> Mais enfin on peut craindre, et ne le point tant dire.</l>
+                        <l n="132"> Je n’en tiendrai pas moins tout ce que j’ai promis.</l>
+                        <l n="133"> Vous avez mes souhaits, vous aurez mes amis ;</l>
+                        <l n="134"> De ceux de Martian vous aurez le suffrage :</l>
+                        <l n="135"> Il a, tout vieux qu’il est, plus de vertus que d’âge ;</l>
+                        <l n="136"> Et, s’il briguait pour lui, ses glorieux travaux</l>
+                        <l n="137"> Donneraient fort à craindre à vos plus grands rivaux.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="138"> Notre empire, il est vrai, n’a point de plus grand homme :</l>
+                        <l n="139"> Séparez-vous du rang, madame, et je le nomme.</l>
+                        <l n="140"> S’il me peut enlever celui de souverain,</l>
+                        <l n="141"> Du moins je ne crains pas qu’il m’ôte votre main ;</l>
+                        <l n="142"> Ses vertus le pourraient ; mais je vois sa vieillesse.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="143"> Quoi qu’il en soit, pour vous ma bonté l’intéresse :</l>
+                        <l n="144"> Il s’est plu sous mon frère à dépendre de moi,</l>
+                        <l n="145"> Et je me viens encor d’assurer de sa foi.</l>
+                        <l n="146"> Je vois entrer Irène ; Aspar la trouve belle :</l>
+                        <l n="147"> Faites agir pour vous l’amour qu’il a pour elle ;</l>
+                        <l n="148"> Et, comme en ce dessein rien n’est à négliger,</l>
+                        <l n="149"> Voyez ce qu’une sœur vous pourra ménager.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="150"> M’aiderez-vous, Irène, à couronner un frère ?</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="151"> Un si faible secours vous est peu nécessaire,</l>
+                        <l n="152"> Madame : et le sénat...</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="153"> N’en agissez pas moins ;</l>
+                        <l n="154"> Joignez vos vœux aux miens, et vos soins à mes soins,</l>
+                        <l n="155"> Et montrons ce que peut en cette conjoncture</l>
+                        <l n="156"> Un amour secondé de ceux de la nature.</l>
+                        <l n="157"> Je vous laisse y penser.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="158"> Vous ne me dites rien,</l>
+                        <l n="159"> Seigneur ; attendez-vous que j’ouvre l’entretien ?</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="160"> À dire vrai, ma sœur, je ne sais que vous dire.</l>
+                        <l n="161"> Aspar m’aime, il vous aime : il y va de l’empire ;</l>
+                        <l n="162"> Et s’il faut qu’entre nous on balance aujourd’hui,</l>
+                        <l n="163"> Là princesse est pour moi, le mérite est pour lui.</l>
+                        <l n="164"> Vouloir qu’en ma faveur à ce grade il renonce,</l>
+                        <l n="165"> C’est faire une prière indigne de réponse ;</l>
+                        <l n="166"> Et de son amitié je ne puis l’exiger,</l>
+                        <l n="167"> Sans vous voler un bien qu’il vous doit partager.</l>
+                        <l n="168"> C’est là ce qui me force à garder le silence :</l>
+                        <l n="169"> Je me réponds pour vous à tout ce que je pense ;</l>
+                        <l n="170"> Et puisque j’ai souffert qu’il ait tout votre cœur,</l>
+                        <l n="171"> Je dois souffrir aussi vos soins pour sa grandeur.</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="172"> J’ignore encor quel fruit je pourrais en attendre.</l>
+                        <l n="173"> Pour le trône, il est sûr qu’il a droit d’y prétendre ;</l>
+                        <l n="174"> Sur vous et sur tout autre il le peut emporter :</l>
+                        <l n="175"> Mais qu’il m’y donne part, c’est dont j’ose douter.</l>
+                        <l n="176"> Il m’aime en apparence, en effet il m’amuse ;</l>
+                        <l n="177"> Jamais pour notre hymen il ne manque d’excuse,</l>
+                        <l n="178"> Et vous aime à tel point, que, si vous l’en croyez,</l>
+                        <l n="179"> Il ne peut être heureux que vous ne le soyez :</l>
+                        <l n="180"> Non que votre bonheur fortement l’intéresse ;</l>
+                        <l n="181"> Mais, sachant quel amour a pour vous la princesse,</l>
+                        <l n="182"> Il veut voir quel succès aura son grand dessein,</l>
+                        <l n="183"> Pour ne point m’épouser qu’en sœur de souverain.</l>
+                        <l n="184"> Ainsi depuis deux ans vous voyez qu’il diffère :</l>
+                        <l n="185"> Du reste, à Pulchérie il prend grand soin de plaire ;</l>
+                        <l n="186"> Avec exactitude il suit toutes ses lois ;</l>
+                        <l n="187"> Et dans ce que sous lui vous avez eu d’emplois,</l>
+                        <l n="188"> Votre tête aux périls à toute heure exposée</l>
+                        <l n="189"> M’a pour vous et pour moi presque désabusée ;</l>
+                        <l n="190"> La gloire d’un ami, la haine d’un rival,</l>
+                        <l n="191"> La hasardaient peut-être avec un soin égal.</l>
+                        <l n="192"> Le temps est arrivé qu’il faut qu’il se déclare ;</l>
+                        <l n="193"> Et de son amitié l’effort sera bien rare</l>
+                        <l n="194"> Si, mis à cette épreuve, ambitieux qu’il est,</l>
+                        <l n="195"> Il cherche à vous servir contre son intérêt.</l>
+                        <l n="196"> Peut-être il promettra ; mais, quoi qu’il vous promette,</l>
+                        <l n="197"> N’en ayons pas, seigneur, l’âme moins inquiète ;</l>
+                        <l n="198"> Son ardeur trouvera pour vous si peu d’appui,</l>
+                        <l n="199"> Qu’on le fera lui-même empereur malgré lui :</l>
+                        <l n="200"> Et lors, en ma faveur quoi que l’amour oppose,</l>
+                        <l n="201"> Il faudra faire grâce au sang de Théodose ;</l>
+                        <l n="202"> Et le sénat voudra qu’il prenne d’autres yeux</l>
+                        <l n="203"> Pour mettre la princesse au rang de ses aïeux.</l>
+                        <l n="204"> Son cœur suivra le sceptre, en quelque main qu’il brille :</l>
+                        <l n="205"> Si Martian l’obtient, il aimera sa fille ;</l>
+                        <l n="206"> Et l’amitié du frère et l’amour de la sœur</l>
+                        <l n="207"> Céderont à l’espoir de s’en voir successeur.</l>
+                        <l n="208"> En un mot, ma fortune est encor fort douteuse :</l>
+                        <l n="209"> Si vous n’êtes heureux, je ne puis être heureuse ;</l>
+                        <l n="210"> Et je n’ai plus d’amant non plus que vous d’ami,</l>
+                        <l n="211"> À moins que dans le trône il vous voie affermi.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="212"> Vous présumez bien mal d’un héros qui vous aime.</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="213"> Je pense le connaître à l’égal de moi-même ;</l>
+                        <l n="214"> Mais croyez-moi, seigneur, et l’empire est à vous.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="215"> Ma sœur !</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="216"> Oui, vous l’aurez malgré lui, malgré tous.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="217"> N’y perdons aucun temps : hâtez-vous de m’instruire ;</l>
+                        <l n="218"> Hâtez-vous de m’ouvrir la route à m’y conduire ;</l>
+                        <l n="219"> Et si votre bonheur peut dépendre du mien...</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="220"> Apprenez le secret de ne hasarder rien.</l>
+                        <l n="221"> N’agissez point pour vous ; il s’en offre trop d’autres</l>
+                        <l n="222"> De qui les actions brillent plus que les vôtres,</l>
+                        <l n="223"> Que leurs emplois plus hauts ont mis en plus d’éclat,</l>
+                        <l n="224"> Et qui, s’il faut tout dire, ont plus servi l’état :</l>
+                        <l n="225"> Vous les passez peut-être en grandeur de courage ;</l>
+                        <l n="226"> Mais il vous a manqué l’occasion et l’âge ;</l>
+                        <l n="227"> Vous n’avez commandé que sous des généraux,</l>
+                        <l n="228"> Et n’êtes pas encor du poids de vos rivaux.</l>
+                        <l n="229"> Proposez la princesse ; elle a des avantages</l>
+                        <l n="230"> Que vous verrez sur l’heure unir tous les suffrages :</l>
+                        <l n="231"> Tant qu’a vécu son frère, elle a régné pour lui ;</l>
+                        <l n="232"> Ses ordres de l’empire ont été tout l’appui ;</l>
+                        <l n="233"> On vit depuis quinze ans sous son obéissance :</l>
+                        <l n="234"> Faites qu’on la maintienne en sa toute-puissance,</l>
+                        <l n="235"> Qu’à ce prix le sénat lui demande un époux ;</l>
+                        <l n="236"> Son choix tombera-t-il sur un autre que vous ?</l>
+                        <l n="237"> Voudrait-elle de vous une action, plus belle.</l>
+                        <l n="238"> Qu’un respect amoureux qui veut tenir tout d’elle ?</l>
+                        <l n="239"> L’amour en deviendra plus fort qu’auparavant,</l>
+                        <l n="240"> Et vous vous servirez vous-même en la servant.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="241"> Ah ! que c’est me donner un conseil salutaire !</l>
+                        <l n="242"> A-t-on jamais vu sœur qui servît mieux un frère ?</l>
+                        <l n="243"> Martian avec joie embrassera l’avis :</l>
+                        <l n="244"> À peine parle-t-il, que les siens sont suivis ;</l>
+                        <l n="245"> Et, puisqu’à la princesse il a promis un zèle</l>
+                        <l n="246"> À tout oser pour moi sur l’ordre qu’il a d’elle,</l>
+                        <l n="247"> Comme sa créature, il fera hautement</l>
+                        <l n="248"> Bien plus en sa faveur qu’en faveur d’un amant.</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="249"> Pour peu qu’il vous appuie, allez, l’affaire est sûre.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="250"> Aspar vient : faites-lui, ma sœur, quelque ouverture ;</l>
+                        <l n="251"> Voyez...</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="252"> C’est un esprit qu’il faut mieux ménager ;</l>
+                        <l n="253"> Nous découvrir à lui, c’est tout mettre en danger :</l>
+                        <l n="254"> Il est ambitieux, adroit, et d’un mérite...</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="255"> Vous me pardonnez bien, seigneur, si je vous quitte ;</l>
+                        <l n="256"> C’est suppléer assez à ce que je vous doi,</l>
+                        <l n="257"> Que vous laisser ma sœur, qui vous plaît plus que moi.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="258"> Vous m’obligez, seigneur ; mais en cette occurrence</l>
+                        <l n="259"> J’ai besoin avec vous d’un peu de conférence.</l>
+                        <l n="260"> Du sort de l’univers nous allons décider :</l>
+                        <l n="261"> L’affaire vous regarde, et peut me regarder ;</l>
+                        <l n="262"> Et si tous mes amis ne s’unissent aux vôtres,</l>
+                        <l n="263"> Nos partis divisés pourront céder à d’autres.</l>
+                        <l n="264"> Agissons de concert ; et, sans être jaloux,</l>
+                        <l n="265"> En ce grand coup d’état, vous de moi, moi de vous,</l>
+                        <l n="266"> Jurons-nous que des deux qui que l’on puisse élire</l>
+                        <l n="267"> Fera de son ami son collègue à l’empire ;</l>
+                        <l n="268"> Et, pour nous l’assurer, voyons sur qui des deux</l>
+                        <l n="269"> Il est plus à propos de jeter tant de vœux ;</l>
+                        <l n="270"> Quel nom serait plus propre à s’attirer le reste :</l>
+                        <l n="271"> Pour moi, je suis tout prêt, et dès ici j’atteste...</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="272"> Votre nom pour ce choix est plus fort que le mien,</l>
+                        <l n="273"> Et je n’ose douter que vous n’en usiez bien.</l>
+                        <l n="274"> Je craindrais de tout autre un dangereux partage ;</l>
+                        <l n="275"> Mais de vous je n’ai pas, seigneur, le moindre ombrage,</l>
+                        <l n="276"> Et l’amitié voudrait vous en donner ma foi :</l>
+                        <l n="277"> Mais c’est à la princesse à disposer de moi ;</l>
+                        <l n="278"> Je ne puis que par elle, et n’ose rien sans elle.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="279"> Certes, s’il faut choisir l’amant le plus fidèle,</l>
+                        <l n="280"> Vous l’allez emporter sur tous sans contredit :</l>
+                        <l n="281"> Mais ce n’est pas, seigneur, le point dont il s’agit ;</l>
+                        <l n="282"> Le plus flatteur effort de la galanterie</l>
+                        <l n="283"> Ne peut...</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="284"> Que voulez-vous ? j’adore Pulchérie ;</l>
+                        <l n="285"> Et, n’ayant rien d’ailleurs par où la mériter,</l>
+                        <l n="286"> J’espère en ce doux titre, et j’aime à le porter.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="287"> Mais il y va du trône, et non d’une maîtresse.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="288"> Je vais faire, seigneur, votre offre à la princesse ;</l>
+                        <l n="289"> Elle sait mieux que moi les besoins de l’état,</l>
+                        <l n="290"> Adieu : je vous dirai sa réponse au sénat.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="291"> Il a beaucoup d’amour.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="292"> Oui, madame, et j’avoue</l>
+                        <l n="293"> Qu’avec quelque raison la princesse s’en loue :</l>
+                        <l n="294"> Mais j’aurais souhaité qu’en cette occasion</l>
+                        <l n="295"> L’amour concertât mieux avec l’ambition,</l>
+                        <l n="296"> Et que son amitié, s’en laissant moins séduire,</l>
+                        <l n="297"> Ne nous exposât point à nous entre-détruire.</l>
+                        <l n="298"> Vous voyez qu’avec lui j’ai voulu m’accorder.</l>
+                        <l n="299"> M’aimeriez-vous encor si j’osais lui céder,</l>
+                        <l n="300"> Moi, qui dois d’autant plus mes soins à ma fortune,</l>
+                        <l n="301"> Que l’amour entre nous la doit rendre commune ?</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="302"> Seigneur, lorsque le mien vous a donné mon cœur,</l>
+                        <l n="303"> Je n’ai point prétendu la main d’un empereur ;</l>
+                        <l n="304"> Vous pouviez être heureux, sans m’apporter ce titre :</l>
+                        <l n="305"> Mais du sort de Léon Pulchérie est l’arbitre,</l>
+                        <l n="306"> Et l’orgueil de son sang avec quelque raison</l>
+                        <l n="307"> Ne peut souffrir d’époux à moins de ce grand nom.</l>
+                        <l n="308"> Avant que ce cher frère épouse la princesse,</l>
+                        <l n="309"> Il faut que le pouvoir s’unisse à la tendresse,</l>
+                        <l n="310"> Et que le plus haut rang mette en leur plus beau jour</l>
+                        <l n="311"> La grandeur du mérite et l’excès de l’amour.</l>
+                        <l n="312"> M’aimeriez-vous assez pour n’être point contraire</l>
+                        <l n="313"> À l’unique moyen de rendre heureux ce frère,</l>
+                        <l n="314"> Vous qui, dans votre amour, avez pu sans ennui</l>
+                        <l n="315"> Vous défendre de l’être un moment avant lui,</l>
+                        <l n="316"> Et qui mériteriez qu’on vous fît mieux connaître</l>
+                        <l n="317"> Que, s’il ne le devient, vous aurez peine à l’être ?</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="318"> C’est aller un peu vite, et bientôt m’insulter</l>
+                        <l n="319"> En sœur de souverain qui cherche à me quitter.</l>
+                        <l n="320"> Je vous aime, et jamais une ardeur plus sincère...</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="321"> Seigneur, est-ce m’aimer que de perdre mon frère ?</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="322"> Voulez-vous que pour lui je me perde d’honneur ?</l>
+                        <l n="323"> Est-ce m’aimer que mettre à ce prix mon bonheur ?</l>
+                        <l n="324"> Moi, qu’on a vu forcer trois camps et vingt murailles,</l>
+                        <l n="325"> Moi qui, depuis dix ans, ai gagné sept batailles,</l>
+                        <l n="326"> N’ai-je acquis tant de nom que pour prendre la loi</l>
+                        <l n="327"> De qui n’a commandé que sous Procope, ou moi ;</l>
+                        <l n="328"> Que pour m’en faire un maître, et m’attacher moi-même</l>
+                        <l n="329"> Un joug honteux au front, au lieu d’un diadème ?</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="330"> Je suis plus raisonnable, et ne demande pas</l>
+                        <l n="331"> Qu’en faveur d’un ami vous descendiez si bas.</l>
+                        <l n="332"> Pylade pour Oreste aurait fait davantage :</l>
+                        <l n="333"> Mais de pareils efforts ne sont plus en usage,</l>
+                        <l n="334"> Un grand cœur les dédaigne, et le siècle a changé ;</l>
+                        <l n="335"> À s’aimer de plus près on se croit obligé,</l>
+                        <l n="336"> Et des vertus du temps l’aine persuadée</l>
+                        <l n="337"> Hait de ces vieux héros la surprenante idée.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="338"> Il y va de ma gloire, et les siècles passés...</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="339"> Elle n’est pas, seigneur, peut-être où vous pensez ;</l>
+                        <l n="340"> Et, quoi qu’un juste espoir ose vous faire croire,</l>
+                        <l n="341"> S’exposer au refus, c’est hasarder sa gloire.</l>
+                        <l n="342"> La princesse peut tout, ou du moins plus que vous.</l>
+                        <l n="343"> Vous vous attirerez sa haine et son courroux.</l>
+                        <l n="344"> Son amour l’intéresse, et son âme hautaine...</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="345"> Qu’on me fasse empereur, et je crains peu sa haine.</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="346"> Mais, s’il faut qu’à vos yeux un autre préféré</l>
+                        <l n="347"> Monte, en dépit de vous, à ce rang adoré,</l>
+                        <l n="348"> Quel déplaisir ! quel trouble ! et quelle ignominie</l>
+                        <l n="349"> Laissera pour jamais votre gloire ternie !</l>
+                        <l n="350"> Non, seigneur, croyez-moi, n’allez point au sénat ;</l>
+                        <l n="351"> De vos hauts faits pour vous laissez parler l’éclat.</l>
+                        <l n="352"> Qu’il sera glorieux que, sans briguer personne,</l>
+                        <l n="353"> Ils fassent à vos pieds apporter la couronne,</l>
+                        <l n="354"> Que votre seul mérite emporté ce grand choix,</l>
+                        <l n="355"> Sans que votre présence ait mendié de voix !</l>
+                        <l n="356"> Si Procope, ou Léon, ou Martian, l’emporte,</l>
+                        <l n="357"> Vous n’aurez jamais eu d’ambition si forte,</l>
+                        <l n="358"> Et vous désavouerez tous ceux de vos amis</l>
+                        <l n="359"> Dont la chaleur pour vous se sera trop permis.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="360"> À ces hauts sentiments s’il me fallait répondre,</l>
+                        <l n="361"> J’aurais peine, madame, à ne me point confondre :</l>
+                        <l n="362"> J’y vois beaucoup d’esprit, j’y trouve encor plus d’art ;</l>
+                        <l n="363"> Et, ce que j’en puis dire a là hâte et sans fard,</l>
+                        <l n="364"> Dans ces grands intérêts vous montrer si savante,</l>
+                        <l n="365"> C’est être bonne sœur et dangereuse amante.</l>
+                        <l n="366"> L’heure me presse : adieu. J’ai des amis à voir</l>
+                        <l n="367"> Qui sauront accorder ma gloire et mon devoir ;</l>
+                        <l n="368"> Le ciel me prêtera par eux quelque lumière</l>
+                        <l n="369"> À mettre l’un et l’autre en assurance entière,</l>
+                        <l n="370"> Et répondre avec joie à tout ce que je doi</l>
+                        <l n="371"> À vous, à ce cher frère, à la princesse, à moi.</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE, seule. </speaker>
+                        <l n="372"> Perfide, tu n’es pas encore où tu te penses.</l>
+                        <l n="373"> J’ai pénétré ton cœur, j’ai vu tes espérances ;</l>
+                        <l n="374"> De ton amour pour moi je vois l’illusion :</l>
+                        <l n="375"> Mais tu n’en sortiras qu’à ta confusion.</l></div></div>
+           <div type="act" xml:id="2">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="376"> Notre illustre princesse est donc impératrice,</l>
+                        <l n="377"> Seigneur ?</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="378"> À ses vertus on a rendu justice :</l>
+                        <l n="379"> Léon l’a proposée ; et, quand je l’ai suivi,</l>
+                        <l n="380"> J’en ai vu le sénat au dernier point ravi ;</l>
+                        <l n="381"> Il a réduit soudain toutes ses voix en une,</l>
+                        <l n="382"> Et s’est débarrassé de la foule importune,</l>
+                        <l n="383"> Du turbulent espoir de tant de concurrents</l>
+                        <l n="384"> Que la soif de régner avait mis sur les rangs.</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="385"> Ainsi voilà Léon assuré de l’empire.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="386"> Le sénat, je l’avoue, avait peine à l’élire,</l>
+                        <l n="387"> Et contre les grands noms de ses compétiteurs</l>
+                        <l n="388"> Sa jeunesse eût trouvé d’assez froids protecteurs :</l>
+                        <l n="389"> Non qu’il n’ait du mérite, et que son grand courage</l>
+                        <l n="390"> Ne se pût tout promettre avec un peu plus d’âge ;</l>
+                        <l n="391"> On n’a point vu sitôt tant de rares exploits :</l>
+                        <l n="392"> Mais et l’expérience, et les premiers emplois,</l>
+                        <l n="393"> Le titre éblouissant de général d’armée,</l>
+                        <l n="394"> Tout ce qui peut enfin grossir la renommée,</l>
+                        <l n="395"> Tout cela veut du temps ; et l’amour aujourd’hui</l>
+                        <l n="396"> Va faire ce qu’un jour son nom ferait pour lui.</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="397"> Hélas, seigneur !</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="398"> Hélas ! ma fille, quel mystère</l>
+                        <l n="399"> T’oblige à soupirer de ce que dit un père ?</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="400"> L’image de l’empire en de si jeunes mains</l>
+                        <l n="401"> M’a tiré ce soupir pour l’état que je plains.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="402"> Pour l’intérêt public rarement on soupire,</l>
+                        <l n="403"> Si quelque ennui secret n’y mêle son martyre :</l>
+                        <l n="404"> L’un se cache sous l’autre, et fait un faux éclat :</l>
+                        <l n="405"> Et jamais, à ton âge, on ne plaignit l’état.</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="406"> À mon âge, un soupir semble dire qu’on aime :</l>
+                        <l n="407"> Cependant vous avez soupiré tout de même,</l>
+                        <l n="408"> Seigneur ; et, si j’osais vous le dire à mon tour...</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="409"> Ce n’est point à mon âge à soupirer d’amour,</l>
+                        <l n="410"> Je le sais ; mais enfin chacun a sa faiblesse.</l>
+                        <l n="411"> Aimerais-tu Léon ?</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="412"> Aimez-vous la princesse ?</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="413"> Oublie en ma faveur que tu l’as deviné,</l>
+                        <l n="414"> Et démens un soupçon qu’un soupir t’a donné.</l>
+                        <l n="415"> L’amour en mes pareils n’est jamais excusable ;</l>
+                        <l n="416"> Pour peu qu’on s’examine, on s’en tient méprisable,</l>
+                        <l n="417"> On s’en hait ; et ce mal, qu’on n’ose découvrir,</l>
+                        <l n="418"> Fait encor plus de peine à cacher qu’à souffrir :</l>
+                        <l n="419"> Mais t’en faire l’aveu, c’est n’en faire à personne ;</l>
+                        <l n="420"> La part que le respect, que l’amitié t’y donne,</l>
+                        <l n="421"> Et tout ce que le sang en attire sur toi,</l>
+                        <l n="422"> T’imposent de le taire une éternelle loi.</l>
+                        <l n="423"> J’aime, et depuis dix ans ma flamme et mon silence</l>
+                        <l n="424"> Font à mon triste cœur égale violence :</l>
+                        <l n="425"> J’écoute la raison, j’en goûte les avis,</l>
+                        <l n="426"> Et les mieux écoutés sont les plus mal suivis.</l>
+                        <l n="427"> Cent fois en moins d’un jour je guéris et retombe ;</l>
+                        <l n="428"> Cent fois je me révolte, et cent fois je succombe :</l>
+                        <l n="429"> Tant ce calme forcé, que j’étudie en vain,</l>
+                        <l n="430"> Près d’un si rare objet s’évanouit soudain !</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="431"> Mais pourquoi lui donner vous-même la couronne,</l>
+                        <l n="432"> Quand à son cher Léon c’est donner sa personne ?</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="433"> Apprends que, dans un âge usé comme le mien,</l>
+                        <l n="434"> Qui n’ose souhaiter ni même accepter rien,</l>
+                        <l n="435"> L’amour hors d’intérêt s’attache à ce qu’il aime,</l>
+                        <l n="436"> Et, n’osant rien pour soi, le sert contre soi-même.</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="437"> N’ayant rien prétendu, de quoi soupirez-vous ?</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="438"> Pour ne prétendre rien on n’est pas moins jaloux ;</l>
+                        <l n="439"> Et ces désirs, qu’éteint le déclin de la vie,</l>
+                        <l n="440"> N’empêchent pas de voir avec un œil d’envie,</l>
+                        <l n="441"> Quand on est d’un mérite à pouvoir faire honneur,</l>
+                        <l n="442"> Et qu’il faut qu’un autre âge emporte le bonheur.</l>
+                        <l n="443"> Que le moindre retour vers nos belles années</l>
+                        <l n="444"> Jette alors d’amertume en nos âmes gênées !</l>
+                        <l n="445"> Que n’ai-je vu le jour quelques lustres plus tard !</l>
+                        <l n="446"> Disais-je ; en ses bontés peut-être aurais-je part,</l>
+                        <l n="447"> Si le ciel n’opposait auprès de la princesse</l>
+                        <l n="448"> À l’excès de l’amour le manque de jeunesse ;</l>
+                        <l n="449"> De tant et tant de cœurs qu’il force à l’adorer,</l>
+                        <l n="450"> Devais-je être le seul qui ne pût espérer ?</l>
+                        <l n="451"> J’aimais quand j’étais jeune, et ne déplaisais guère :</l>
+                        <l n="452"> Quelquefois de soi-même on cherchait à me plaire ;</l>
+                        <l n="453"> Je pouvais aspirer au cœur le mieux placé :</l>
+                        <l n="454"> Mais, hélas ! j’étais jeune, et ce temps est passé ;</l>
+                        <l n="455"> Le souvenir en tue, et l’on ne l’envisage</l>
+                        <l n="456"> Qu’avec, s’il le faut dire, une espèce de rage ;</l>
+                        <l n="457"> On le repousse, on fait cent projets superflus :</l>
+                        <l n="458"> Le trait qu’on porte au cœur s’enfonce d’autant plus ;</l>
+                        <l n="459"> Et ce feu, que de honte on s’obstine à contraindre,</l>
+                        <l n="460"> Redouble par l’effort qu’on se fait pour l’éteindre.</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="461"> Instruit que vous étiez des maux que fait l’amour,</l>
+                        <l n="462"> Vous en pouviez, seigneur, empêcher le retour,</l>
+                        <l n="463"> Contre toute sa ruse être mieux sur vos gardes.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="464"> Et l’ai-je regardé comme tu le regardes,</l>
+                        <l n="465"> Moi qui me figurais que ma caducité</l>
+                        <l n="466"> Près de la beauté même était en sûreté ?</l>
+                        <l n="467"> Je m’attachais sans crainte à servir la princesse,</l>
+                        <l n="468"> Fier de mes cheveux blancs, et fort de ma faiblesse ;</l>
+                        <l n="469"> Et, quand je ne pensais qu’à remplir mon devoir,</l>
+                        <l n="470"> Je devenais amant sans m’en apercevoir.</l>
+                        <l n="471"> Mon âme, de ce feu nonchalamment saisie,</l>
+                        <l n="472"> Ne l’a point reconnu que par ma jalousie ;</l>
+                        <l n="473"> Tout ce qui l’approchait voulait me l’enlever,</l>
+                        <l n="474"> Tout ce qui lui parlait cherchait à m’en priver ;</l>
+                        <l n="475"> Je tremblais qu’à leurs yeux elle rie fût trop belle ;</l>
+                        <l n="476"> Je les haïssais tous comme plus dignes d’elle,</l>
+                        <l n="477"> Et ne pouvais souffrir qu’on s’enrichît d’un bien</l>
+                        <l n="478"> Que j’enviais à tous sans y prétendre rien.</l>
+                        <l n="479"> Quel supplice d’aimer un objet adorable,</l>
+                        <l n="480"> Et de tant de rivaux se voir le moins aimable !</l>
+                        <l n="481"> D’aimer plus qu’eux ensemble, et n’oser de ses feux,</l>
+                        <l n="482"> Quelques ardents qu’ils soient, se promettre autant qu’eux !</l>
+                        <l n="483"> On aurait deviné mon amour par ma peine,</l>
+                        <l n="484"> Si la peur que j’en eus n’avait fui tant de gêne.</l>
+                        <l n="485"> L’auguste Pulchérie avait beau me ravir,</l>
+                        <l n="486"> J’attendais à la voir qu’il la fallût servir :</l>
+                        <l n="487"> Je fis plus, de Léon j’appuyai l’espérance ;</l>
+                        <l n="488"> La princesse l’aima, j’en eus la confiance,</l>
+                        <l n="489"> Et la dissuadai de se donner à lui</l>
+                        <l n="490"> Qu’il ne fût de l’empire ou le maître ou l’appui.</l>
+                        <l n="491"> Ainsi, pour éviter un hymen si funeste,</l>
+                        <l n="492"> Sans rendre heureux Léon, je détruisais le reste ;</l>
+                        <l n="493"> Et, mettant un long terme au succès de l’amour,</l>
+                        <l n="494"> J’espérais de mourir avant ce triste jour.</l>
+                        <l n="495"> Nous y voilà, ma fille, et du moins j’ai la joie</l>
+                        <l n="496"> D’avoir à son triomphé ouvert l’unique voie.</l>
+                        <l n="497"> J’en mourrai du moment qu’il recevra sa foi,</l>
+                        <l n="498"> Mais dans cette douceur qu’ils tiendront tout de moi.</l>
+                        <l n="499"> J’ai caché si longtemps l’ennui qui me dévore,</l>
+                        <l n="500"> Qu’en dépit que j’en aie enfin il s’évapore ;</l>
+                        <l n="501"> L’aigreur en diminue à te le raconter :</l>
+                        <l n="502"> Fais-en autant du tien ; c’est mon tour d’écouter.</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="503"> Seigneur, un mot suffît pour ne vous en rien faire :</l>
+                        <l n="504"> Le même astre a vu naître et la fille et le père ;</l>
+                        <l n="505"> Ce mot dit tout. Souffrez qu’une imprudente ardeur,</l>
+                        <l n="506"> Prête à s’évaporer, respecte ma pudeur.</l>
+                        <l n="507"> Je suis jeune, et l’amour trouvait une aine tendre</l>
+                        <l n="508"> Qui n’avait ni le soin ni l’art de se défendre :</l>
+                        <l n="509"> La princesse, qui m’aime et m’ouvrait ses secrets,</l>
+                        <l n="510"> Lui prêtait contre moi d’inévitables traits,</l>
+                        <l n="511"> Et toutes les raisons dont s’appuyait sa flamme</l>
+                        <l n="512"> Étaient autant de dards qui me traversaient l’âme.</l>
+                        <l n="513"> Je pris, sans y penser, son exemple pour loi :</l>
+                        <l n="514"> Un amant digne d’elle est trop digne de moi,</l>
+                        <l n="515"> Disais-je ; et, s’il brûlait pour moi comme pour elle,</l>
+                        <l n="516"> Avec plus de bonté je recevrais son zèle.</l>
+                        <l n="517"> Plus elle m’en peignait les rares qualités,</l>
+                        <l n="518"> Plus d’une douce erreur mes sens étaient flattés.</l>
+                        <l n="519"> D’un illustre avenir l’infaillible présagé</l>
+                        <l n="520"> Qu’on voit si hautement écrit sur son visage,</l>
+                        <l n="521"> Son nom que je voyais croître de jour en jour,</l>
+                        <l n="522"> Pour moi comme pour elle étaient dignes d’amour :</l>
+                        <l n="523"> Je les voyais d’accord d’un heureux hyménée ;</l>
+                        <l n="524"> Mais nous n’en étions pas encore à la journée :</l>
+                        <l n="525"> Quelque obstacle imprévu rompra de si doux nœuds,</l>
+                        <l n="526"> Ajoutais-je ; et le temps éteint les plus beaux feux.</l>
+                        <l n="527"> C’est ce que m’inspirait l’aimable rêverie</l>
+                        <l n="528"> Dont jusqu’à ce grand jour ma flammé s’est nourrie ;</l>
+                        <l n="529"> Mon cœur, qui ne voulait désespérer de rien,</l>
+                        <l n="530"> S’en faisait à toute heure tin charmant entretien.</l>
+                        <l n="531"> Qu’on rêve avec plaisir, quand notre âme blessée</l>
+                        <l n="532"> Autour de ce qu’elle aime est foute ramassée !</l>
+                        <l n="533"> Vous le savez, seigneur, et comme à tous propos</l>
+                        <l n="534"> Un doux je ne sais quoi trouble notre repos ;</l>
+                        <l n="535"> Un sommeil inquiet sur de confus nuages</l>
+                        <l n="536"> Élève incessamment de flatteuses images,</l>
+                        <l n="537"> Et sur leur vain rapport fait naître des souhaits</l>
+                        <l n="538"> Que le réveil admire et ne dédit jamais.</l>
+                        <l n="539"> Ainsi, près de tomber dans un malheur extrême,</l>
+                        <l n="540"> J’en écartais l’idée en m’abusant moi-même :</l>
+                        <l n="541"> Mais il faut renoncer à des abus si doux ;</l>
+                        <l n="542"> Et je me vois, seigneur, au même état que vous.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="543"> Tu peux aimer ailleurs, et c’est un avantage</l>
+                        <l n="544"> Que n’ose se permettre un amant de mon âge.</l>
+                        <l n="545"> Choisis qui tu voudras, je saurai l’obtenir.</l>
+                        <l n="546"> Mais écoutons Aspar, que j’aperçois venir.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="547"> Seigneur, votre suffrage a réuni les nôtres ;</l>
+                        <l n="548"> Votre voix a plus fait que n’auraient fait cent autres :</l>
+                        <l n="549"> Mais j’apprends qu’on murmure, et doute si le choix</l>
+                        <l n="550"> Que fera la princesse aura toutes les voix.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="551"> Et qui fait présumer de son incertitude</l>
+                        <l n="552"> Qu’il aura quelque chose ou d’amer ou de rude ?</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="553"> Son amour pour Léon : elle en fait son époux,</l>
+                        <l n="554"> Aucun n’en veut douter.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="555"> Je le crois comme eux tous.</l>
+                        <l n="556"> Qu’y trouve-t-on à dire, et quelle défiance... ?</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="557"> Il est jeune, et l’on craint son peu d’expérience.</l>
+                        <l n="558"> Considérez, seigneur; combien c’est hasarder :</l>
+                        <l n="559"> Qui n’a fait qu’obéir saura mal commander ;</l>
+                        <l n="560"> On n’a point vu sous lui d’armée ou de province.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="561"> Jamais un bon sujet ne devint mauvais prince ;</l>
+                        <l n="562"> Et, si le ciel en lui répond mal à nos vœux,</l>
+                        <l n="563"> L’auguste Pulchérie en sait assez pour deux.</l>
+                        <l n="564"> Rien ne nous surprendra de voir la même chose</l>
+                        <l n="565"> Où nos yeux se sont faits quinze ans sous Théodose :</l>
+                        <l n="566"> C’était un prince faible, un esprit mal tourné ;</l>
+                        <l n="567"> Cependant avec elle il a bien gouverné.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="568"> Cependant nous voyons six généraux d’armée.</l>
+                        <l n="569"> Dont au commandement l’âme est accoutumée.</l>
+                        <l n="570"> Voudront-ils recevoir un ordre souverain</l>
+                        <l n="571"> De qui l’a jusqu’ici toujours pris de leur main ?</l>
+                        <l n="572"> Seigneur, il est bien dur de se voir sous un maître</l>
+                        <l n="573"> Dont on le fut toujours, et dont on devrait l’être.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="574"> Et qui m’assurera que ces six généraux</l>
+                        <l n="575"> Se réuniront mieux sous un de leurs égaux ?</l>
+                        <l n="576"> Plus un pareil mérite aux grandeurs nous appelle,</l>
+                        <l n="577"> Et plus la jalousie aux grands est naturelle.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="578"> Je les tiens réunis, seigneur, si vous voulez.</l>
+                        <l n="579"> Il est, il est encor des noms plus signalés :</l>
+                        <l n="580"> J’en sais qui leur plairaient ; et, s’il vous faut plus dire,</l>
+                        <l n="581"> Avouez-en mon zélé, et je vous fais élire.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="582"> Moi, seigneur, dans un âge où la tombe m’attend !</l>
+                        <l n="583"> Un maître pour deux jours n’est pas ce qu’on prétend.</l>
+                        <l n="584"> Je sais le poids d’un sceptre, et connais trop mes forces</l>
+                        <l n="585"> Pour être encor sensible à ces vaines amorces.</l>
+                        <l n="586"> Les ans, qui m’ont usé l’esprit comme le corps,</l>
+                        <l n="587"> Abattraient tous les deux sous les moindres efforts ;</l>
+                        <l n="588"> Et ma mort, que par-là vous verriez avancée,</l>
+                        <l n="589"> Rendrait à tant d’égaux leur première pensée,</l>
+                        <l n="590"> Et ferait une triste et prompte occasion</l>
+                        <l n="591"> De rejeter l’état dans la division.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="592"> Pour éviter les maux qu’on en pourrait attendre,</l>
+                        <l n="593"> Vous pourriez partager vos soins avec un gendre,</l>
+                        <l n="594"> L’installer dans le trône, et le nommer César.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="595"> Il faudrait que ce gendre eût les vertus d’Aspar ;</l>
+                        <l n="596"> Mais vous aimez ailleurs, et ce serait un crime</l>
+                        <l n="597"> Que de rendre infidèle un cœur si magnanime.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="598"> J’aime, et ne me sens pas capable de changer ;</l>
+                        <l n="599"> Mais d’autres vous diraient que, pour vous soulager,</l>
+                        <l n="600"> Quand leur amour irait jusqu’à l’idolâtrie,</l>
+                        <l n="601"> Ils le sacrifieraient au bien de la patrie.</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="602"> Certes, qui m’aimerait pour le bien de l’état</l>
+                        <l n="603"> Ne me trouverait pas, seigneur, un cœur ingrat,</l>
+                        <l n="604"> Et je lui rendrais gracie au nom de tout l’empire :</l>
+                        <l n="605"> Mais vous êtes constant ; et, s’il vous faut plus dire,</l>
+                        <l n="606"> Quoi que le bien, public jamais puisse exiger,</l>
+                        <l n="607"> Ce ne sera pas moi qui vous ferai changer.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="608"> Revenons à Léon. J’ai peine à bien comprendre</l>
+                        <l n="609"> Quels malheurs d’un tel choix nous aurions lieu d’attendre :</l>
+                        <l n="610"> Quiconque vous verra le mari de sa sœur,</l>
+                        <l n="611"> S’il ne le craint assez, craindra son défenseur ;</l>
+                        <l n="612"> Et, si vous me comptez encor pour quelque chose,</l>
+                        <l n="613"> Mes conseils agiront comme sous Théodose.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="614"> Nous en pourrons tous deux avoir le démenti.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="615"> C’est à faire à périr pour le meilleur parti :</l>
+                        <l n="616"> Il ne m’en peut coûter qu’une mourante vie,</l>
+                        <l n="617"> Que l’âge et ses chagrins m’auront bientôt ravie.</l>
+                        <l n="618"> Pour vous, qui d’un autre œil regardez ce danger,</l>
+                        <l n="619"> Vous avez plus à vivre et plus à ménager ;</l>
+                        <l n="620"> Et je n’empêche pas qu’auprès de la princesse</l>
+                        <l n="621"> Votre zèle n’éclate autant qu’il s’intéresse.</l>
+                        <l n="622"> Vous pouvez l’avertir de ce que vous croyez,</l>
+                        <l n="623"> Lui dire de ce choix ce que vous prévoyez,</l>
+                        <l n="624"> Lui proposer sans fard celui qu’elle doit faire :</l>
+                        <l n="625"> La vérité lui plaît, et vous pourrez lui plaire.</l>
+                        <l n="626"> Je changerai comme elle alors de sentiments,</l>
+                        <l n="627"> Et tiens mon âme prête à ses commandements.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="628"> Parmi les vérités il en est de certaines</l>
+                        <l n="629"> Qu’on ne dit point en face aux têtes souveraines,</l>
+                        <l n="630"> Et qui veulent de nous un tour, un ascendant,</l>
+                        <l n="631"> Qu’aucun ne peut trouver qu’un ministre prudent ;</l>
+                        <l n="632"> Vous ferez mieux valoir ces marques d’un vrai zèle :</l>
+                        <l n="633"> M’en ouvrant avec vous, je m’acquitte envers elle ;</l>
+                        <l n="634"> Et, n’ayant rien de plus qui m’amène en ce lieu,</l>
+                        <l n="635"> Je vous en laisse maître, et me retire. Adieu.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="636"> Le dangereux esprit ! et qu’avec peu de peine</l>
+                        <l n="637"> Il manquerait d’amour et de foi pour Irène !</l>
+                        <l n="638"> Des rivaux de Léon il est le plus jaloux,</l>
+                        <l n="639"> Et roule des projets qu’il rie dit pas à tous.</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="640"> Il n’a pour but, seigneur, que le bien de l’empire.</l>
+                        <l n="641"> Détrônez la princesse, et faites-vous élire :</l>
+                        <l n="642"> C’est un amant pour moi que je n’attendais pas,</l>
+                        <l n="643"> Qui vous soulagera du poids de tant d’états.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="644"> C’est un homme, et je veux qu’un jour il t’en souvienne,</l>
+                        <l n="645"> C’est un homme à tout perdre, à moins qu’on le prévienne.</l>
+                        <l n="646"> Mais Léon vient déjà nous vanter son bonheur :</l>
+                        <l n="647"> Arme-toi de constance, et prépare un grand cœur ;</l>
+                        <l n="648"> Et, quelque émotion qui trouble ton courage,</l>
+                        <l n="649"> Contre tout son désordre affermis ton visage.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="650"> L’auriez-vous cru jamais, seigneur ? je suis perdu.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="651"> Seigneur, que dites-vous ? ai-je bien entendu ?</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="652"> Je le suis sans ressource, et rien plus ne me flatte.</l>
+                        <l n="653"> J’ai revu Pulchérie, et n’ai vu qu’une ingrate :</l>
+                        <l n="654"> Quand je crois l’acquérir, c’est lors que je la perds,</l>
+                        <l n="655"> Et me détruis moi-même alors que je la sers.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="656"> Expliquez-vous, seigneur, parlez en confiance ;</l>
+                        <l n="657"> Fait-elle un autre choix ?</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="658"> Non, mais elle balance :</l>
+                        <l n="659"> Elle ne me veut pas encor désespérer,</l>
+                        <l n="660"> Mais elle prend du temps pour en délibérer.</l>
+                        <l n="661"> Son choix n’est plus pour moi, puisqu’elle le diffère :</l>
+                        <l n="662"> L’amour n’est point le maître alors qu’on délibère ;</l>
+                        <l n="663"> Et je ne saurais plus me promettre sa foi,</l>
+                        <l n="664"> Moi qui n’ai que l’amour qui lui parle pour moi.</l>
+                        <l n="665"> Ah ! madame...</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="666"> Seigneur...</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="667"> Auriez-vous pu le croire ?</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="668"> L’amour qui délibère est sûr de sa victoire ;</l>
+                        <l n="669"> Et quand d’un vrai mérite il s’est fait un appui,</l>
+                        <l n="670"> Il n’est point de raisons qui ne parlent pour lui.</l>
+                        <l n="671"> Souvent il aime à voir un peu d’impatience,</l>
+                        <l n="672"> Et feint de reculer, lorsque plus il avance ;</l>
+                        <l n="673"> Ce moment d’amertume en rend les fruits plus doux.</l>
+                        <l n="674"> Aimez, et laissez faire une âme toute à vous.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="675"> Toute à moi ! mon malheur n’est que trop véritable ;</l>
+                        <l n="676"> J’en ai prévu le coup, je le sens qui m’accable.</l>
+                        <l n="677"> Plus elle m’assurait de son affection,</l>
+                        <l n="678"> Plus je me faisais peur de son ambition ;</l>
+                        <l n="679"> Je ne savais des deux quelle était la plus forte :</l>
+                        <l n="680"> Mais, il n’est que trop vrai, l’ambition l’emporte ;</l>
+                        <l n="681"> Et, si son cœur encor lui parle en ma faveur,</l>
+                        <l n="682"> Son trône me dédaigne en dépit de son cœur.</l>
+                        <l n="683"> Seigneur, parlez pour moi ; parlez pour moi, madame ;</l>
+                        <l n="684"> Vous pouvez tout sur elle, et lisez dans son âme :</l>
+                        <l n="685"> Peignez-lui bien mes feux, retracez-lui les siens ;</l>
+                        <l n="686"> Rappelez dans son cœur leurs plus doux entretiens ;</l>
+                        <l n="687"> Et, si vous concevez de quelle ardeur je l’aime,</l>
+                        <l n="688"> Faites-lui souvenir qu’elle m’aimait de même.</l>
+                        <l n="689"> Elle-même a brigué pour me voir souverain ;</l>
+                        <l n="690"> J’étais, sans ce grand titre, indigne de sa main :</l>
+                        <l n="691"> Mais, si je ne l’ai pas ce titre qui l’enchante,</l>
+                        <l n="692"> Seigneur, à qui tient-il qu’à son humeur changeante ?</l>
+                        <l n="693"> Son orgueil contre moi doit-il s’en prévaloir,</l>
+                        <l n="694"> Quand pour me voir au trône elle n’a qu’à vouloir ?</l>
+                        <l n="695"> Le sénat n’a pour elle appuyé mon suffrage</l>
+                        <l n="696"> Qu’afin que d’un beau feu ma grandeur fût l’ouvrage :</l>
+                        <l n="697"> Il sait depuis quel temps il lui plaît de m’aimer ;</l>
+                        <l n="698"> Et, quand il l’a nommée, il a cru me nommer.</l>
+                        <l n="699"> Allez, seigneur, allez empêcher son parjure ;</l>
+                        <l n="700"> Faites qu’un empereur soit votre créature.</l>
+                        <l n="701"> Que je vous céderais ce grand titre aisément,</l>
+                        <l n="702"> Si vous pouviez sans lui me rendre heureux amant !</l>
+                        <l n="703"> Car enfin mon amour n’en veut qu’à sa personne,</l>
+                        <l n="704"> Et n’a d’ambition que ce qu’on m’en ordonne.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="705"> Nous allons, et tous deux, seigneur, lui faire voir</l>
+                        <l n="706"> Qu’elle doit mieux user de l’absolu pouvoir.</l>
+                        <l n="707"> Modérez cependant l’excès de votre peine ;</l>
+                        <l n="708"> Remettez vos esprits dans l’entretien d’Irène.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="709"> D’Irène ? et ses conseils m’ont trahi, m’ont perdu.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="710"> Son zèle pour un frère a fait ce qu’il a dû.</l>
+                        <l n="711"> Pouvait-elle prévoir cette supercherie</l>
+                        <l n="712"> Qu’a faite à votre amour l’orgueil de Pulchérie ?</l>
+                        <l n="713"> J’ose en parler ainsi, mais ce n’est qu’entre nous.</l>
+                        <l n="714"> Nous lui rendrons l’esprit plus traitable et plus doux,</l>
+                        <l n="715"> Et vous rapporterons son cœur et ce grand titre.</l>
+                        <l n="716"> Allez.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="717"> Entre elle et moi que n’êtes-vous l’arbitre !</l>
+                        <l n="718"> Adieu : c’est de vous seul que je puis recevoir</l>
+                        <l n="719"> De quoi garder encor quelque reste d’espoir.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="720"> Justine, tu le vois ce bienheureux obstacle</l>
+                        <l n="721"> Dont ton amour semblait pressentir le miracle.</l>
+                        <l n="722"> Je ne te défends point, en cette occasion,</l>
+                        <l n="723"> De prendre un peu d’espoir sur leur division ;</l>
+                        <l n="724"> Mais garde-toi d’avoir une âme assez hardie</l>
+                        <l n="725"> Pour faire à leur amour la moindre perfidie :</l>
+                        <l n="726"> Le mien de ce revers s’applique tant de part,</l>
+                        <l n="727"> Que j’espère en mourir quelques moments plus tard.</l>
+                        <l n="728"> Mais de quel front enfin leur donner à connaître</l>
+                        <l n="729"> Les périls d’un amour que nous avons vu naître,</l>
+                        <l n="730"> Dont nous avons tous deux été les confidents,</l>
+                        <l n="731"> Et peut-être formé les traits les plus ardents ?</l>
+                        <l n="732"> De tous leurs déplaisirs c’est nous rendre coupables :</l>
+                        <l n="733"> Servons-les en amis, en amants véritables ;</l>
+                        <l n="734"> Le véritable amour n’est point intéressé.</l>
+                        <l n="735"> Allons, j’achèverai comme j’ai commencé :</l>
+                        <l n="736"> Suis l’exemple, et fais voir qu’une âme généreuse</l>
+                        <l n="737"> Trouve dans sa vertu de quoi se rendre heureuse,</l>
+                        <l n="738"> D’un sincère devoir fait son unique bien,</l>
+                        <l n="739"> Et jamais ne s’expose à se reprocher rien.</l></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="740"> Je vous ai dit mon ordre : allez, seigneur, de grâce,</l>
+                        <l n="741"> Sauvez mon triste cœur du coup qui le menace ;</l>
+                        <l n="742"> Mettez tout le sénat dans ce cher intérêt.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="743"> Madame, il sait assez combien Léon vous plaît,</l>
+                        <l n="744"> Et le nomme assez haut, alors qu’il vous défère</l>
+                        <l n="745"> Un choix que votre amour vous a déjà fait faire.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="746"> Que ne m’en fait-il donc une obligeante loi ?</l>
+                        <l n="747"> Ce n’est pas le choisir que s’en remettre à moi,</l>
+                        <l n="748"> C’est attendre l’issue à couvert de l’orage :</l>
+                        <l n="749"> Si l’on m’en applaudit, ce sera son ouvrage ;</l>
+                        <l n="750"> Et, si j’en suis blâmée, il n’y veut point de part.</l>
+                        <l n="751"> En doute du succès, il en fuit le hasard ;</l>
+                        <l n="752"> Et, lorsque je l’en veux garant vers tout le monde,</l>
+                        <l n="753"> Il veut qu’à l’univers moi seule j’en réponde.</l>
+                        <l n="754"> Ainsi m’abandonnant au choix de mes souhaits,</l>
+                        <l n="755"> S’il est des mécontents, moi seule je les fais ;</l>
+                        <l n="756"> Et je devrai moi seule apaiser le murmure</l>
+                        <l n="757"> De ceux à qui ce choix semblera faire injure,</l>
+                        <l n="758"> Prévenir leur révolte, et calmer les mutins</l>
+                        <l n="759"> Qui porteront envie à nos heureux destins.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="760"> Aspar vous aura vue, et cette âme chagrine...</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="761"> Il m’a vue, et j’ai vu quel chagrin le domine ;</l>
+                        <l n="762"> Mais il n’a pas laissé de me faire juger</l>
+                        <l n="763"> Du choix que fait mon cœur quel sera le danger.</l>
+                        <l n="764"> Il part de bons avis quelquefois de la haine ;</l>
+                        <l n="765"> On peut tirer du fruit de tout ce qui fait peine ;</l>
+                        <l n="766"> Et des plus grands desseins qui veut venir à bout</l>
+                        <l n="767"> Prête l’oreille à fous, et fait profit de tout.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="768"> Mais vous avez promis, et la foi qui vous lie...</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="769"> Je suis impératrice, et j’étais Pulchérie.</l>
+                        <l n="770"> De ce trône, ennemi de mes plus doux souhaits,</l>
+                        <l n="771"> Je regarde l’amour comme un de mes sujets ;</l>
+                        <l n="772"> Je veux que le respect qu’il doit à ma couronne</l>
+                        <l n="773"> Repousse l’attentat qu’il fait sur ma personne ;</l>
+                        <l n="774"> Je veux qu’il m’obéisse, au lieu de me trahir ;</l>
+                        <l n="775"> Je veux qu’il donne à fous l’exemple d’obéir ;</l>
+                        <l n="776"> Et, jalouse déjà de mon pouvoir suprême,</l>
+                        <l n="777"> Pour l’affermir sûr tous, je le prends sur moi-même.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="778"> Ainsi donc ce Léon qui vous était si cher...</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="779"> Je l’aime d’autant plus qu’il m’en faut détacher.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="780"> Serait-il à vos yeux moins digne de l’empire</l>
+                        <l n="781"> Qu’alors que vous pressiez le sénat de l’élire ?</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="782"> Il fallait qu’on le vît des yeux dont je le voi,</l>
+                        <l n="783"> Que de tout son mérite on convînt avec moi,</l>
+                        <l n="784"> Et que par une estime éclatante et publique</l>
+                        <l n="785"> On mît l’amour d’accord avec la politique.</l>
+                        <l n="786"> J’aurais déjà rempli l’espoir d’un si beau feu,</l>
+                        <l n="787"> Si le choix du sénat m’en eût donné l’aveu ;</l>
+                        <l n="788"> J’aurais pris le parti dont il me faut défendre ;</l>
+                        <l n="789"> Et si jusqu’à Léon je n’ose plus descendre,</l>
+                        <l n="790"> Il m’était glorieux, le voyant souverain,</l>
+                        <l n="791"> De remonter au trône en lui donnant la main.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="792"> Votre cœur tiendra bon pour lui contre tous autres.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="793"> S’il a ces sentiments, ce ne sont pas les vôtres ;</l>
+                        <l n="794"> Non, seigneur, c’est Léon, c’est son juste courroux,</l>
+                        <l n="795"> Ce sont ses déplaisirs qui s’expliquent par vous :</l>
+                        <l n="796"> Vous prêtez votre bouche, et n’êtes pas capable</l>
+                        <l n="797"> De donner à ma gloire un conseil qui l’accable.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="798"> Mais ses rivaux ont-ils plus de mérite ?</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="799"> Non :</l>
+                        <l n="800"> Mais ils ont plus d’emploi, plus de rang, plus de nom ;</l>
+                        <l n="801"> Et, si de ce grand choix ma flamme est la maîtresse,</l>
+                        <l n="802"> Je commence à régner par un trait de faiblesse.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="803"> Et tenez-vous fort sûr qu’une légèreté</l>
+                        <l n="804"> Donnera plus d’éclat à votre dignité ?</l>
+                        <l n="805"> Pardonnez-moi ce mot, s’il a trop de franchise ;</l>
+                        <l n="806"> Le peuple aura peut-être une âme moins soumise :</l>
+                        <l n="807"> Il aime à censurer ceux qui lui font la loi,</l>
+                        <l n="808"> Et vous reprochera jusqu’au manque de foi.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="809"> Je vous ai déjà dit ce qui m’en justifie :</l>
+                        <l n="810"> Je suis impératrice, et j’étais Pulchérie.</l>
+                        <l n="811"> J’ose vous dire plus ; Léon a des jaloux,</l>
+                        <l n="812"> Qui n’en font pas, seigneur, même estime que nous.</l>
+                        <l n="813"> Pour surprenant que soit l’essai de son courage,</l>
+                        <l n="814"> Les vertus d’empereur ne sont point de son âge :</l>
+                        <l n="815"> Il est jeune, et chez eux c’est un si grand défaut,</l>
+                        <l n="816"> Que ce mot prononcé détruit tout ce qu’il vaut.</l>
+                        <l n="817"> Si donc j’en fais le choix, je paraîtrai le faire</l>
+                        <l n="818"> Pour régner sous son nom ainsi que sous mon frère ;</l>
+                        <l n="819"> Vous-même, qu’ils ont vu sous lui dans un emploi</l>
+                        <l n="820"> Où vos conseils régnaient autant et plus que moi,</l>
+                        <l n="821"> Ne donnerez-vous point quelque lieu de vous dire</l>
+                        <l n="822"> Que vous n’aurez voulu qu’un fantôme à l’empire,</l>
+                        <l n="823"> Et que dans un tel choix vous vous serez flatté</l>
+                        <l n="824"> De garder en vos mains toute l’autorité ?</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="825"> Ce n’est pas mon dessein, madame ; et s’il faut dire</l>
+                        <l n="826"> Sur le choix de Léon ce que le ciel m’inspire,</l>
+                        <l n="827"> Dès cet heureux moment qu’il sera votre époux,</l>
+                        <l n="828"> J’abandonne Byzance et prends congé de vous,</l>
+                        <l n="829"> Pour aller, dans le calme et dans la solitude,</l>
+                        <l n="830"> De la mort qui m’attend faire l’heureuse étude.</l>
+                        <l n="831"> Voilà comme j’aspire à gouverner l’état.</l>
+                        <l n="832"> Vous m’avez commandé d’assembler le sénat ;</l>
+                        <l n="833"> J’y vais, madame.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="834"> Quoi ! Martian m’abandonne,</l>
+                        <l n="835"> Quand il faut sur ma tête affermir la couronne !</l>
+                        <l n="836"> Lui de qui le grand cœur, la prudence, la foi...</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="837"> Tout le prix que j’en veux, c’est de mourir à moi.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="838"> Que me dit-il, Justine, et de quelle retraite</l>
+                        <l n="839"> Ose-t-il menacer l’hymen qu’il me souhaite ?</l>
+                        <l n="840"> De Léon près de moi ne se fait-il l’appui</l>
+                        <l n="841"> Que pour mieux dédaigner de me servir sous lui ?</l>
+                        <l n="842"> Le hait-il ? le craint-il ? et par quelle autre cause... ?</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="843"> Qui que vous épousiez, il voudra même chose.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="844"> S’il était dans un âge à prétendre ma foi,</l>
+                        <l n="845"> Comme il serait de tous le plus digne de moi,</l>
+                        <l n="846"> Ce qu’il donne à penser aurait quelque apparence :</l>
+                        <l n="847"> Mais les ans l’ont dû mettre en entière assurance.</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="848"> Que savons-nous, madame ? est-il dessous les cieux</l>
+                        <l n="849"> Un cœur impénétrable au pouvoir de vos yeux ?</l>
+                        <l n="850"> Ce qu’ils ont d’habitude à faire des conquêtes</l>
+                        <l n="851"> Trouve à prendre vos fers les âmes toujours prêtes ;</l>
+                        <l n="852"> L’âge n’en met aucune à couvert de leurs traits :</l>
+                        <l n="853"> Non que sur Martian j’en sache les effets ;</l>
+                        <l n="854"> Il m’a dit comme à vous que ce grand hyménée</l>
+                        <l n="855"> L’envoiera loin d’ici finir sa destinée ;</l>
+                        <l n="856"> Et, si j’ose former quelque soupçon confus,</l>
+                        <l n="857"> Je parle en général, et ne-sais rien de plus.</l>
+                        <l n="858"> Mais pour votre Léon êtes-vous résolue</l>
+                        <l n="859"> À le perdre aujourd’hui de puissance absolue ?</l>
+                        <l n="860"> Car ne l’épouser pas, c’est le perdre en effet.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="861"> Pour te montrer la gêne où son nom seul me met,</l>
+                        <l n="862"> Souffre que je t’explique en faveur de sa flamme</l>
+                        <l n="863"> La tendresse du cœur après la grandeur d’âme.</l>
+                        <l n="864"> Léon seul est ma joie, il est mon seul désir ;</l>
+                        <l n="865"> Je n’en puis choisir d’autre, et n’ose le choisir :</l>
+                        <l n="866"> Depuis trois ans unie à cette chère idée,</l>
+                        <l n="867"> J’en ai l’âme à toute heure, en tous lieux, obsédée ;</l>
+                        <l n="868"> Rien n’en détachera mon cœur que le trépas,</l>
+                        <l n="869"> Encore après ma mort n’en répondrais-je pas ;</l>
+                        <l n="870"> Et si dans le tombeau le ciel permet qu’on aime,</l>
+                        <l n="871"> Dans le fond du tombeau je l’aimerai de même.</l>
+                        <l n="872"> Trône qui m’éblouis, titres qui me flattez,</l>
+                        <l n="873"> Pourrez-vous me valoir ce que vous me coûtez ?</l>
+                        <l n="874"> Et de tout votre orgueil la pompe la plus haute</l>
+                        <l n="875"> A-t-elle un bien égal à celui qu’elle m’ôte ?</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="876"> Et vous pouvez penser à prendre un autre époux ?</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="877"> Ce n’est pas, tu le sais, à quoi je me résous.</l>
+                        <l n="878"> Si ma gloire à Léon me défend de me rendre,</l>
+                        <l n="879"> De tout autre que lui l’amour sait me défendre.</l>
+                        <l n="880"> Qu’il est fort cet amour ! sauve-m’en, si tu peux ;</l>
+                        <l n="881"> Vois Léon, parle-lui, dérobe-moi ses vœux :</l>
+                        <l n="882"> M’en faire un prompt larcin, c’est me rendre un service</l>
+                        <l n="883"> Qui saura m’arracher des-bords du précipice :</l>
+                        <l n="884"> Je le crains, je me crains, s’il n’engage sa foi,</l>
+                        <l n="885"> Et je suis trop à lui tant qu’il est tout à moi.</l>
+                        <l n="886"> Sens-tu d’un tel effort ton amitié capable ?</l>
+                        <l n="887"> Ce héros n’a-t-il rien qui te paroisse aimable ?</l>
+                        <l n="888"> Au pouvoir de tes yeux j’unirai mon pouvoir :</l>
+                        <l n="889"> Parle ; que résous-tu de faire ?</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="890"> Mon devoir.</l>
+                        <l n="891"> Je sors d’un sang, madame, à me rendre assez vaine</l>
+                        <l n="892"> Pour attendre un époux d’une main souveraine ;</l>
+                        <l n="893"> Et n’ayant point d’amour que pour ma liberté,</l>
+                        <l n="894"> S’il la faut immoler à votre sûreté,</l>
+                        <l n="895"> J’oserai... Mais voici ce cher Léon, madame ;</l>
+                        <l n="896"> Voulez-vous... ?</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="897"> Laisse-moi consulter mieux mon âme ;</l>
+                        <l n="898"> Je ne sais pas encor trop bien ce que je veux :</l>
+                        <l n="899"> Attends un nouvel ordre, et suspends tous tes vœux.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="900"> Seigneur, qui vous ramène ? est-ce l’impatience</l>
+                        <l n="901"> D’ajouter à mes maux ceux de votre présence,</l>
+                        <l n="902"> De livrer tout mon cœur à de nouveaux combats ?</l>
+                        <l n="903"> Et souffré-je trop peu quand je ne vous vois pas ?</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="904"> Je viens savoir mon sort.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="905"> N’en soyez point en doute ;</l>
+                        <l n="906"> Je vous aime et nous plains : c’est là me peindre toute,</l>
+                        <l n="907"> C’est tout ce que je sens;-et si votre amitié</l>
+                        <l n="908"> Sentait pour mes malheurs quelque trait de pitié,</l>
+                        <l n="909"> Elle m’épargnerait cette fatale vue,</l>
+                        <l n="910"> Qui me perd, m’assassine, et vous-même vous tue.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="911"> Vous m’aimez, dites-vous ?</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="912"> Plus que jamais.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="913"> Hélas !</l>
+                        <l n="914"> Je souffrirais bien moins si vous ne m’aimiez pas.</l>
+                        <l n="915"> Pourquoi m’aimer encor seulement pour me plaindre ?</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="916"> Comment cacher un feu que je ne puis éteindre ?</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="917"> Vous l’étouffez du moins sous l’orgueil scrupuleux</l>
+                        <l n="918"> Qui fait seul tous les maux dont nous mourons tous deux.</l>
+                        <l n="919"> Ne vous en plaignez point, le vôtre est volontaire ;</l>
+                        <l n="920"> Vous n’avez que celui qu’il vous plaît de vous faire ;</l>
+                        <l n="921"> Et ce n’est pas pour être aux termes d’en mourir</l>
+                        <l n="922"> Que d’en pouvoir guérir dès qu’on s’en veut guérir.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="923"> Moi seule je me fais les maux dont je soupire !</l>
+                        <l n="924"> A-ce été sous mon nom que j’ai brigué l’empire ?</l>
+                        <l n="925"> Ai-je employé mes soins, mes amis, que pour vous ?</l>
+                        <l n="926"> Ai-je cherché par-là qu’à vous voir mon époux ?</l>
+                        <l n="927"> Quoi ! votre déférence à mes efforts s’oppose,</l>
+                        <l n="928"> Elle rompt mes projets, et seule j’en suis cause !</l>
+                        <l n="929"> M’avoir fait obtenir plus qu’il ne m’était dû ,</l>
+                        <l n="930"> C’est ce qui m’a perdue, et qui vous a perdu.</l>
+                        <l n="931"> Si vous m’aimiez, seigneur, vous me deviez mieux croire,</l>
+                        <l n="932"> Ne pas intéresser mon devoir et ma gloire ;</l>
+                        <l n="933"> Ce sont deux ennemis que vous nous avez faits,</l>
+                        <l n="934"> Et que tout notre amour n’apaisera jamais.</l>
+                        <l n="935"> Vous m’accablez en vain de soupirs, de tendresse ;</l>
+                        <l n="936"> En vain mon triste cœur en vos maux s’intéresse,</l>
+                        <l n="937"> Et vous rend, en faveur de nos communs désirs,</l>
+                        <l n="938"> Tendresse pour tendresse, et soupirs pour soupirs :</l>
+                        <l n="939"> Lorsqu’à des feux si beaux je rends cette justice,</l>
+                        <l n="940"> C’est l’amante qui parle ; oyez l’impératrice.</l>
+                        <l n="941"> Ce titre est votre ouvrage, et vous me l’avez dit :</l>
+                        <l n="942"> D’un service si grand votre espoir s’applaudit,</l>
+                        <l n="943"> Et s’est fait en aveugle un obstacle invincible,</l>
+                        <l n="944"> Quand il a cru se faire un succès infaillible.</l>
+                        <l n="945"> Appuyé de mes soins, assuré de mon cœur,</l>
+                        <l n="946"> Il fallait m’apporter la main d’un empereur,</l>
+                        <l n="947"> M’élever jusqu’à vous en heureuse sujette ;</l>
+                        <l n="948"> Ma joie était entière, et ma gloire parfaite :</l>
+                        <l n="949"> Mais puis-je avec ce nom même chose pour vous ?</l>
+                        <l n="950"> Il faut nommer un maître, et choisir un époux ;</l>
+                        <l n="951"> C’est la loi qu’on m’impose, ou plutôt c’est la peine</l>
+                        <l n="952"> Qu’on attache aux douceurs de me voir souveraine.</l>
+                        <l n="953"> Je sais que le sénat, d’une commune voix,</l>
+                        <l n="954"> Me laisse avec respect la liberté du choix ;</l>
+                        <l n="955"> Mais il attend de moi celui du plus grand homme</l>
+                        <l n="956"> Qui respire aujourd’hui dans l’une et l’autre Rome :</l>
+                        <l n="957"> Vous l’êtes, j’en suis sûre ; et toutefois, hélas !</l>
+                        <l n="958"> Un jour on le croira, mais...</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="959"> On ne le croit pas,</l>
+                        <l n="960"> Madame : il faut encor du temps et des services ;</l>
+                        <l n="961"> Il y faut du destin quelques heureux caprices,</l>
+                        <l n="962"> Et que la renommée, instruite en ma faveur.</l>
+                        <l n="963"> Séduisant l’univers, impose à ce grand cœur.</l>
+                        <l n="964"> Cependant admirez comme un amant se flatte :</l>
+                        <l n="965"> J’avais cru votre gloire un peu moins délicate ;</l>
+                        <l n="966"> J’avais cru mieux répondre à ce que je vous doi</l>
+                        <l n="967"> En tenant tout de vous, qu’en vous l’offrant en moi ;</l>
+                        <l n="968"> Et qu’auprès d’un objet que l’amour sollicite,</l>
+                        <l n="969"> Ce même amour pour moi tiendrait lieu de mérite.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="970"> Oui ; mais le tiendra-t-il auprès de l’univers,</l>
+                        <l n="971"> Oui sur un si grand choix tient tous ses yeux ouverts ?</l>
+                        <l n="972"> Peut-être le sénat n’ose encor vous élire,</l>
+                        <l n="973"> Et, si je m’y hasarde, osera m’en dédire ;</l>
+                        <l n="974"> Peut-être qu’il s’apprête à faire ailleurs sa cour</l>
+                        <l n="975"> Du honteux désaveu qu’il garde à notre amour :</l>
+                        <l n="976"> Car, ne nous flattons point, ma gloire inexorable</l>
+                        <l n="977"> Me doit au plus illustre, et non au plus aimable ;</l>
+                        <l n="978"> Et plus ce rang m’élève, et plus sa dignité</l>
+                        <l n="979"> M’en fait avec hauteur une nécessité.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="980"> Rabattez ces hauteurs où tout le cœur s’oppose,</l>
+                        <l n="981"> Madame, et pour tous deux hasardez quelque chose :</l>
+                        <l n="982"> Tant d’orgueil et d’amour ne s’accordent pas bien ;</l>
+                        <l n="983"> Et c’est ne point aimer que ne hasarder rien.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="984"> S’il n’y faut que mon sang, je veux bien vous en croire :</l>
+                        <l n="985"> Mais c’est trop hasarder qu’y hasarder ma gloire ;</l>
+                        <l n="986"> Et plus je ferme l’œil aux périls que j’y cours,</l>
+                        <l n="987"> Plus je vois que c’est trop qu’y hasarder vos jours.</l>
+                        <l n="988"> Ah ! si la voix publique enflait votre espérance</l>
+                        <l n="989"> Jusqu’à me demander pour vous la préférence,</l>
+                        <l n="990"> Si des noms que la gloire à l’envi me produit</l>
+                        <l n="991"> Le plus cher à mon cœur faisait le plus de bruit,</l>
+                        <l n="992"> Qu’aisément à ce bruit on me verrait souscrire,</l>
+                        <l n="993"> Et remettre en vos mains ma personne et l’empire !</l>
+                        <l n="994"> Mais l’empire vous fait trop d’illustres jaloux :</l>
+                        <l n="995"> Dans le fond de ce cœur je vous préfère à tous ;</l>
+                        <l n="996"> Vous passez les plus grands, mais ils sont plus en vue :</l>
+                        <l n="997"> Vos vertus n’ont point eu toute leur étendue ;</l>
+                        <l n="998"> Et le monde, ébloui par des noms trop fameux,</l>
+                        <l n="999"> N’ose espérer de vous ce qu’il présume d’eux.</l>
+                        <l n="1000"> Vous aimez, vous plaisez ; c’est tout auprès des femmes ;</l>
+                        <l n="1001"> C’est par-là qu’on surprend, qu’on enlève leurs âmes :</l>
+                        <l n="1002"> Mais, pour remplir un trône et s’y faire estimer,</l>
+                        <l n="1003"> Ce n’est pas tout, seigneur, que de plaire et d’aimer.</l>
+                        <l n="1004"> La plus ferme couronne est bientôt ébranlée</l>
+                        <l n="1005"> Quand un effort d’amour semble l’avoir volée ;</l>
+                        <l n="1006"> Et, pour garder un rang si cher à nos désirs,</l>
+                        <l n="1007"> Il faut un plus grand art que celui des soupirs.</l>
+                        <l n="1008"> Ne vous abaissez pas à la honte des larmes ;</l>
+                        <l n="1009"> Contre un devoir si fort ce sont de faibles armes ;</l>
+                        <l n="1010"> Et, si de tels secours vous couronnaient ailleurs,</l>
+                        <l n="1011"> J’aurais pitié d’un sceptre acheté par des pleurs.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="1012"> Ah ! madame, aviez-vous de si fières pensées</l>
+                        <l n="1013"> Quand vos bontés pour moi se sont intéressées ?</l>
+                        <l n="1014"> Me disiez-vous alors que le gouvernement</l>
+                        <l n="1015"> Demandait un autre art que celui d’un amant ?</l>
+                        <l n="1016"> Si le sénat eût joint ses suffrages au vôtre,</l>
+                        <l n="1017"> J’en aurais paru digne autant ou plus qu’un autre :</l>
+                        <l n="1018"> Ce grand art de régner eût suivi tant de voix ;</l>
+                        <l n="1019"> Et vous-même...</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1020"> Oui, seigneur, j’aurais suivi ce choix,</l>
+                        <l n="1021"> Sûre que le sénat, jaloux de son suffrage,</l>
+                        <l n="1022"> Contre tout l’univers maintiendrait son ouvrage.</l>
+                        <l n="1023"> Tel contre vous et moi s’osera révolter,</l>
+                        <l n="1024"> Qui contre un si grand corps craindrait de s’emporter,</l>
+                        <l n="1025"> Et, méprisant en moi ce que l’amour m’inspire,</l>
+                        <l n="1026"> Respecterait en lui le démon de l’empire.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="1027"> Mais l’offre qu’il vous fait d’en croire tous vos vœux...</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1028"> N’est qu’un refus moins rude et plus respectueux.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="1029"> Quelles illusions de gloire chimérique,</l>
+                        <l n="1030"> Quels farouches égards de dure politique,</l>
+                        <l n="1031"> Dans ce cœur tout à moi, mais qu’en vain j’ai charmé,</l>
+                        <l n="1032"> Me font le plus aimable et le moins estimé ?</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1033"> Arrêtez : mon amour ne vient que de l’estime.</l>
+                        <l n="1034"> Je vous vois un grand cœur, une vertu sublime,</l>
+                        <l n="1035"> Une âme, une valeur digne de mes aïeux ;</l>
+                        <l n="1036"> Et, si tout le sénat avait les mêmes yeux...</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="1037"> Laissons là le sénat, et m’apprenez, de grâce,</l>
+                        <l n="1038"> Madame, à quel heureux je dois quitter la place,</l>
+                        <l n="1039"> Qui je dois imiter pour obtenir un jour</l>
+                        <l n="1040"> D’un orgueil souverain le prix d’un juste amour.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1041"> J’aurai peine à choisir ; choisissez-le vous-même</l>
+                        <l n="1042"> Cet heureux, et nommez qui vous voulez que j’aime ;</l>
+                        <l n="1043"> Mais vous souffrez assez, sans devenir jaloux.</l>
+                        <l n="1044"> J’aime ; et, si ce grand choix ne peut tomber sur vous,</l>
+                        <l n="1045"> Aucun autre du moins, quelque ordre qu’on m’en donne.</l>
+                        <l n="1046"> Ne se verra jamais maître de ma personne :</l>
+                        <l n="1047"> Je le jure en vos mains ; et j’y laisse mon cœur.</l>
+                        <l n="1048"> N’attendez rien de plus, à moins d’être empereur.</l>
+                        <l n="1049"> Mais j’entends empereur comme vous devez l’être,</l>
+                        <l n="1050"> Par le choix d’un sénat qui vous prenne pour maître,</l>
+                        <l n="1051"> Qui d’un état si grand vous fasse le soutien,</l>
+                        <l n="1052"> Et d’un commun suffrage autorise le mien.</l>
+                        <l n="1053"> Je le fais rassembler exprès pour vous élire,</l>
+                        <l n="1054"> Où me laisser moi seule à gouverner l’empire,</l>
+                        <l n="1055"> Et ne plus m’asservir à ce dangereux choix,</l>
+                        <l n="1056"> S’il ne me veut pour vous donner toutes ses voix.</l>
+                        <l n="1057"> Adieu, seigneur ; je crains de n’être plus maîtresse</l>
+                        <l n="1058"> De ce que vos regards m’inspirent de faiblesse,</l>
+                        <l n="1059"> Et que ma peine, égale à votre déplaisir,</l>
+                        <l n="1060"> Ne coûte à mon amour quelque indigne soupir.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="1061"> C’est trop de retenue, il est temps que j’éclate.</l>
+                        <l n="1062"> Je ne l’ai point nommée ambitieuse, ingrate ;</l>
+                        <l n="1063"> Mais le sujet enfin va céder à l’amant,</l>
+                        <l n="1064"> Et l’excès du respect au juste emportement.</l>
+                        <l n="1065"> Dites-le-moi, madame ; a-t-on vu perfidie</l>
+                        <l n="1066"> Plus noire au fond de l’âme, au-dehors plus hardie ?</l>
+                        <l n="1067"> A-t-on vu plus d’étude attacher la raison</l>
+                        <l n="1068"> À l’indigne secours de tant de trahison ?</l>
+                        <l n="1069"> Loin d’en baisser les yeux, l’orgueilleuse en fait gloire ;</l>
+                        <l n="1070"> Elle nous l’ose peindre en illustre victoire !</l>
+                        <l n="1071"> L’honneur et le devoir eux seuls la font agir !</l>
+                        <l n="1072"> Et, m’étant plus fidèle, elle aurait à rougir !</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="1073"> La gêne qu’elle en souffre égale bien la vôtre :</l>
+                        <l n="1074"> Pour vous, elle renonce à choisir aucun autre ;</l>
+                        <l n="1075"> Elle-même en vos mains en a fait le serment.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="1076"> Illusion nouvelle, et pur amusement !</l>
+                        <l n="1077"> Il n’est, madame, il n’est que trop de conjonctures</l>
+                        <l n="1078"> Où les nouveaux serments sont de nouveaux parjures.</l>
+                        <l n="1079"> Oui sait l’art de régner les rompt avec éclat,</l>
+                        <l n="1080"> Et ne manque jamais de cent raisons d’état.</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="1081"> Mais si vous la piquiez d’un peu de jalousie,</l>
+                        <l n="1082"> Seigneur ? si vous brouilliez par-là sa fantaisie ?</l>
+                        <l n="1083"> Son amour mal éteint pourrait vous rappeler,</l>
+                        <l n="1084"> Et sa gloire aurait peine à vous laisser aller.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="1085"> Me soupçonneriez-vous d’avoir l’âme assez basse</l>
+                        <l n="1086"> Pour employer la feinte à tromper ma disgrâce ?</l>
+                        <l n="1087"> Je suis jeune, et j’en fais trop mal ici ma cour</l>
+                        <l n="1088"> Pour joindre à ce défaut un faux éclat d’amour.</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="1089"> L’agréable défaut, seigneur, que la jeunesse !</l>
+                        <l n="1090"> Et que de vos jaloux l’importune sagesse,</l>
+                        <l n="1091"> Toute fière qu’elle est, le voudrait racheter</l>
+                        <l n="1092"> De tout ce qu’elle croit et croira mériter !</l>
+                        <l n="1093"> Mais, si feindre en amour à vos yeux est un crime,</l>
+                        <l n="1094"> Portez sans feinte ailleurs votre plus tendre estime ;</l>
+                        <l n="1095"> Punissez tant d’orgueil par de justes dédains,</l>
+                        <l n="1096"> Et mettez votre cœur en de plus sûres mains.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="1097"> Vous voyez qu’à son rang elle me sacrifie,</l>
+                        <l n="1098"> Madame, et vous voulez que je la justifie !</l>
+                        <l n="1099"> Qu’après tous les mépris qu’elle montre pour moi,</l>
+                        <l n="1100"> Je lui prête un exemple à me voler sa foi !</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="1101"> Aimez, à cela près ; et, sans vous mettre en peine</l>
+                        <l n="1102"> Si c’est justifier ou punir l’inhumaine,</l>
+                        <l n="1103"> Songez que, si vos vœux en étaient mal reçus,</l>
+                        <l n="1104"> On pourrait avec joie accepter ses refus.</l>
+                        <l n="1105"> L’honneur qu’on se ferait à vous détacher d’elle</l>
+                        <l n="1106"> Rendrait cette conquête et plus noble et plus belle.</l>
+                        <l n="1107"> Plus il faut de mérite à vous rendre inconstant,</l>
+                        <l n="1108"> Plus en aurait de gloire un cœur qui vous attend :</l>
+                        <l n="1109"> Car peut-être en est-il que la princesse même</l>
+                        <l n="1110"> Condamne à vous aimer dès que vous direz : J’aime.</l>
+                        <l n="1111"> Adieu ; c’en est assez pour la première fois.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="1112"> Ô ciel ! délivre-moi du trouble où tu me vois.</l></div></div>
+           <div type="act" xml:id="4">
+           <head> ACTE IV </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="1113"> Non, votre cher Aspar n’aime point la princesse ;</l>
+                        <l n="1114"> Ce n’est que pour le rang que tout son cœur s’empresse ;</l>
+                        <l n="1115"> Et, si l’on eût choisi mon père pour César,</l>
+                        <l n="1116"> J’aurais déjà les vœux de cet illustre Aspar.</l>
+                        <l n="1117"> Il s’en est expliqué tantôt en ma présence ;</l>
+                        <l n="1118"> Et tout ce que pour elle il a de complaisance,</l>
+                        <l n="1119"> Tout ce qu’il lui veut faire ou craindre ou dédaigner,</l>
+                        <l n="1120"> Ne doit être imputé qu’à l’ardeur de régner.</l>
+                        <l n="1121"> Pulchérie a des yeux qui percent le mystère,</l>
+                        <l n="1122"> Et le croit plus rival qu’ami de ce cher frère ;</l>
+                        <l n="1123"> Mais, comme elle balance, elle écoute aisément</l>
+                        <l n="1124"> Tout ce qui peut d’abord flatter son sentiment.</l>
+                        <l n="1125"> Voilà ce que j’en sais.</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1126"> Je ne suis point surprise</l>
+                        <l n="1127"> De tout ce que d’Aspar m’apprend votre franchise.</l>
+                        <l n="1128"> Vous ne m’en dites rien que ce que j’en ai dit</l>
+                        <l n="1129"> Lorsqu’à Léon tantôt j’ai dépeint son esprit ;</l>
+                        <l n="1130"> Et j’en ai pénétré l’ambition secrète</l>
+                        <l n="1131"> Jusques à pressentir l’offre qu’il vous a faite.</l>
+                        <l n="1132"> Puisque en vain je m’attache à qui ne m’aime pas.</l>
+                        <l n="1133"> Il faut avec honneur franchir ce mauvais pas ;</l>
+                        <l n="1134"> Il faut, à son exemple, avoir ma politique,</l>
+                        <l n="1135"> Trouver à ma disgrâce une face héroïque,</l>
+                        <l n="1136"> Donner à ce divorce une illustre couleur,</l>
+                        <l n="1137"> Et, sous de beaux dehors, dévorer ma douleur.</l>
+                        <l n="1138"> Dites-moi cependant que deviendra mon frère ?</l>
+                        <l n="1139"> D’un si parfait amour que faut-il qu’il espère ?</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="1140"> On l’aime, et fortement, et bien plus qu’on ne veut ;</l>
+                        <l n="1141"> Mais, pour s’en détacher, on fait tout ce qu’on peut.</l>
+                        <l n="1142"> Faut-il vous dire tout ? On m’a commandé même</l>
+                        <l n="1143"> D’essayer contre lui l’art et le stratagème.</l>
+                        <l n="1144"> On me devra beaucoup, si je puis l’ébranler ;</l>
+                        <l n="1145"> On me donne son cœur, si je le puis voler ;</l>
+                        <l n="1146"> Et déjà, pour essai de mon obéissance,</l>
+                        <l n="1147"> J’ai porté quelque attaque, et fait un peu d’avance.</l>
+                        <l n="1148"> Vous pouvez bien juger comme il a rebuté,</l>
+                        <l n="1149"> Fidèle amant qu’il est, cette importunité ;</l>
+                        <l n="1150"> Mais, pour peu qu’il vous plût appuyer l’artifice,</l>
+                        <l n="1151"> Cet appui tiendrait lieu d’un signalé service.</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1152"> Ce n’est point un service à prétendre de moi,</l>
+                        <l n="1153"> Que de porter mon frère à garder mal sa foi ;</l>
+                        <l n="1154"> Et, quand à vous aimer j’aurais su le réduire,</l>
+                        <l n="1155"> Quel fruit son changement pourrait-il lui produire ?</l>
+                        <l n="1156"> Vous qui ne l’aimez point, pourriez-vous l’accepter ?</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="1157"> Léon ne saurait être un homme à rejeter ;</l>
+                        <l n="1158"> Et l’on voit si souvent, après la foi donnée,</l>
+                        <l n="1159"> Naître un parfait amour d’un pareil hyménée,</l>
+                        <l n="1160"> Que, si de son côté j’y voyais quelque jour,</l>
+                        <l n="1161"> J’espérerais bientôt de l’aimer à mon tour.</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1162"> C’est trop et trop peu dire. Est-il encore à naître</l>
+                        <l n="1163"> Cet amour ? est-il né ?</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="1164"> Cela pourrait bien être.</l>
+                        <l n="1165"> Ne l’examinons point avant qu’il en soit temps ;</l>
+                        <l n="1166"> L’occasion viendra peut-être, et je l’attends.</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1167"> Et vous servez Léon auprès de la princesse ?</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="1168"> Avec sincérité pour lui je m’intéresse ;</l>
+                        <l n="1169"> Et, si j’en étais crue, il aurait le bonheur</l>
+                        <l n="1170"> D’en obtenir la main, comme il en a le cœur.</l>
+                        <l n="1171"> J’obéis cependant aux ordres qu’on me donne,</l>
+                        <l n="1172"> Et souffrirais ses vœux, s’il perdait la couronne.</l>
+                        <l n="1173"> Mais la princesse vient.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1174"> Que fait ce malheureux,</l>
+                        <l n="1175"> Irène ?</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1176"> Ce qu’on fait dans un sort rigoureux :</l>
+                        <l n="1177"> Il soupire, il se plaint.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1178"> De moi ?</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1179"> De sa fortune.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1180"> Est-il bien convaincu qu’elle nous est commune,</l>
+                        <l n="1181"> Qu’ainsi que lui du sort j’accuse la rigueur ?</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1182"> Je ne pénètre point jusqu’au fond de son cœur ;</l>
+                        <l n="1183"> Mais je sais qu’au dehors sa douleur vous respecte :</l>
+                        <l n="1184"> Elle se tait de vous.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1185"> Ah ! qu’elle m’est suspecte !</l>
+                        <l n="1186"> Un modeste reproche à ses maux siérait bien ;</l>
+                        <l n="1187"> C’est me trop accuser, que de n’en dire rien.</l>
+                        <l n="1188"> M’aurait-il oubliée, et déjà dans son âme</l>
+                        <l n="1189"> Effacé tous les traits d’une si belle flamme ?</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1190"> C’est par-là qu’il devrait soulager ses ennuis,</l>
+                        <l n="1191"> Madame ; et de ma part j’y fais ce que je puis.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1192"> Ah ! ma flamme n’est pas à tel point affaiblie,</l>
+                        <l n="1193"> Que je puisse endurer, Irène, qu’il m’oublie.</l>
+                        <l n="1194"> Fais-lui, fais-lui plutôt soulager son ennui</l>
+                        <l n="1195"> À croire que je souffre autant et plus que lui.</l>
+                        <l n="1196"> C’est une vérité que j’ai besoin qu’il croie</l>
+                        <l n="1197"> Pour mêler à mes maux quelque inutile joie,</l>
+                        <l n="1198"> Si l’on peut nommer joie une triste douceur</l>
+                        <l n="1199"> Qu’un digne amour conserve en dépit du malheur.</l>
+                        <l n="1200"> L’âme qui l’a sentie en est toujours charmée,</l>
+                        <l n="1201"> Et, même en n’aimant plus, il est doux d’être aimée.</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="1202"> Vous souvient-il encor de me l’avoir donné,</l>
+                        <l n="1203"> Madame ? et ce doux soin dont votre esprit gêné...</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1204"> Souffre un reste d’amour qui me trouble et m’accable.</l>
+                        <l n="1205"> Je ne t’en ai point fait un don irrévocable :</l>
+                        <l n="1206"> Mais, je te le redis, dérobe-moi ses vœux ;</l>
+                        <l n="1207"> Séduis, enlève-moi son cœur, si tu le peux.</l>
+                        <l n="1208"> J’ai trop mis à l’écart celui d’impératrice ;</l>
+                        <l n="1209"> Reprenons avec lui ma gloire et mon supplice :</l>
+                        <l n="1210"> C’en est un, et bien rude, à moins que le sénat</l>
+                        <l n="1211"> Mette d’accord ma flamme et le bien de l’état.</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1212"> N’est-ce point avilir votre pouvoir suprême</l>
+                        <l n="1213"> Que mendier ailleurs ce qu’il peut de lui-même ?</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1214"> Irène, il te faudrait les mêmes yeux qu’à moi</l>
+                        <l n="1215"> Pour voir la moindre part de ce que je prévoi.</l>
+                        <l n="1216"> Épargne à mon amour la douleur de te dire</l>
+                        <l n="1217"> À quels troubles ce choix hasarderait l’empire :</l>
+                        <l n="1218"> Je l’ai déjà tant dit, que mon esprit lassé</l>
+                        <l n="1219"> N’en saurait plus souffrir le portrait retracé.</l>
+                        <l n="1220"> Ton frère a l’âme grande, intrépide, sublime ;</l>
+                        <l n="1221"> Mais d’un peu de jeunesse on lui fait un tel crime,</l>
+                        <l n="1222"> Que, si tant de vertus n’ont que moi pour appui,</l>
+                        <l n="1223"> En faire un empereur, c’est me perdre avec lui.</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1224"> Quel ordre a pu du trône exclure la jeunesse ?</l>
+                        <l n="1225"> Quel astre à nos beaux jours enchaîne la faiblesse ?</l>
+                        <l n="1226"> Les vertus, et non l’âge, ont droit à ce haut rang ;</l>
+                        <l n="1227"> Et, n’était le respect qu’imprime votre sang,</l>
+                        <l n="1228"> Je dirais que Léon vaudrait bien Théodose.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1229"> Sans doute ; et toutefois ce n’est pas même chose.</l>
+                        <l n="1230"> Faible qu’était ce prince à régir tant d’états,</l>
+                        <l n="1231"> Il avait des appuis que ton frère n’a pas :</l>
+                        <l n="1232"> L’empire en sa personne était héréditaire ;</l>
+                        <l n="1233"> Sa naissance le tint d’un aïeul et d’un père ;</l>
+                        <l n="1234"> Il régna dès l’enfance, et régna sans jaloux,</l>
+                        <l n="1235"> Estimé d’assez peu, mais obéi de tous.</l>
+                        <l n="1236"> Léon peut succéder aux droits de la puissance,</l>
+                        <l n="1237"> Mais non pas au bonheur de cette obéissance ;</l>
+                        <l n="1238"> Tant ce trône, où l’amour par ma main l’aurait mis,</l>
+                        <l n="1239"> Dans mes premiers sujets lui ferait d’ennemis !</l>
+                        <l n="1240"> Tout ce qu’ont vu d’illustre et la paix et la guerre</l>
+                        <l n="1241"> Aspire à ce grand nom de maître de la terre ;</l>
+                        <l n="1242"> Tous regardent l’empire ainsi qu’un bien commun</l>
+                        <l n="1243"> Que chacun veut pour soi tant qu’il n’est à pas un.</l>
+                        <l n="1244"> Pleins de leur renommée, enflés de leurs services,</l>
+                        <l n="1245"> Combien ce choix pour eux aura-t-il d’injustices,</l>
+                        <l n="1246"> Si ma flamme obstinée et ses odieux soins</l>
+                        <l n="1247"> L’arrêtent sur celui qu’ils estiment le moins !</l>
+                        <l n="1248"> Léon est d’un mérite à devenir leur maître ;</l>
+                        <l n="1249"> Mais, comme c’est l’amour qui m’aide à le connaître,</l>
+                        <l n="1250"> Tout ce qui contre, nous s’osera mutiner</l>
+                        <l n="1251"> Dira que je suis seule à me l’imaginer.</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1252"> C’est donc en vain pour lui qu’on prie et qu’on espère ?</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1253"> Je l’aime, et sa personne à mes yeux est bien chère ;</l>
+                        <l n="1254"> Mais, si le ciel pour lui n’inspire le sénat,</l>
+                        <l n="1255"> Je sacrifierai tout au bonheur de l’état !</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1256"> Que pour vous imiter j’aurais l’âme ravie</l>
+                        <l n="1257"> D’immoler à l’état le bonheur de ma vie !</l>
+                        <l n="1258"> Madame, ou de Léon faites-nous un César,</l>
+                        <l n="1259"> Ou portez ce grand choix sur le fameux Aspar :</l>
+                        <l n="1260"> Je l’aime, et ferais gloire, en dépit de ma flamme,</l>
+                        <l n="1261"> De faire un maître à tous de celui de mon âme ;</l>
+                        <l n="1262"> Et, pleurant pour le frère en ce grand changement,</l>
+                        <l n="1263"> Je m’en consolerais à voir régner l’amant.</l>
+                        <l n="1264"> De deux têtes qu’au monde on me voit les plus chères</l>
+                        <l n="1265"> Élevez l’une ou l’autre au trône de vos pères ;</l>
+                        <l n="1266"> Daignez...</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1267"> Aspar serait digne d’un tel honneur,</l>
+                        <l n="1268"> Si vous pouviez, Irène, un peu moins sur son cœur.</l>
+                        <l n="1269"> J’aurais trop à rougir, si, sous le nom de femme,</l>
+                        <l n="1270"> Je le faisais régner sans régner dans son âme,</l>
+                        <l n="1271"> Si j’en avais le titre, et vous tout le pouvoir,</l>
+                        <l n="1272"> Et qu’entre nous ma cour partageât son devoir.</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1273"> Ne l’appréhendez pas ; de quelque ardeur qu’il m’aime,</l>
+                        <l n="1274"> Il est plus à l’état, madame, qu’à lui-même.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1275"> Je le crois comme vous, et que sa passion</l>
+                        <l n="1276"> Regarde plus l’état que vous, moi, ni Léon.</l>
+                        <l n="1277"> C’est vous entendre, Irène, et vous parler sans feindre :</l>
+                        <l n="1278"> Je vois ce qu’il projette, et ce qu’il en faut craindre.</l>
+                        <l n="1279"> L’aimez-vous ?</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1280"> Je l’aimai quand je crus qu’il m’aimait ;</l>
+                        <l n="1281"> Je voyais sur son front un air qui me charmait :</l>
+                        <l n="1282"> Mais, depuis que le temps m’a fait mieux voir sa flamme,</l>
+                        <l n="1283"> J’ai presque éteint la mienne et dégagé mon âme.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1284"> Achevez. Tel qu’il est, voulez-vous l’épouser ?</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1285"> Oui, madame, ou du moins le pouvoir refuser.</l>
+                        <l n="1286"> Après deux ans d’amour il y va de ma gloire :</l>
+                        <l n="1287"> L’affront serait trop grand, et la tache trop noire.</l>
+                        <l n="1288"> Si, dans la conjoncture où l’on est aujourd’hui,</l>
+                        <l n="1289"> Il m’osait regarder comme indigne de lui.</l>
+                        <l n="1290"> Ses desseins vont plus haut ; et voyant qu’il vous aimé,</l>
+                        <l n="1291"> Bien que peut-être moins que votre diadème,</l>
+                        <l n="1292"> Je n’ai vu rien en moi qui le pût retenir ;</l>
+                        <l n="1293"> Et je ne vous l’offrais que pour le prévenir.</l>
+                        <l n="1294"> C’est ainsi que j’ai cru me mettre en assurance</l>
+                        <l n="1295"> Par l’éclat généreux d’une fausse apparence :</l>
+                        <l n="1296"> Je vous cédais un bien que je ne puis garder,</l>
+                        <l n="1297"> Et qu’à vous seule enfin ma gloire peut céder.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1298"> Reposez-vous sur moi. Votre Aspar vient.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="1299"> Madame,</l>
+                        <l n="1300"> Déjà sur vos desseins j’ai lu dans plus d’une âme,</l>
+                        <l n="1301"> Et crois de mon devoir de vous mieux avertir</l>
+                        <l n="1302"> De ce que sur tous deux on m’a fait pressentir.</l>
+                        <l n="1303"> J’espère pour Léon, et j’y fais mon possible ;</l>
+                        <l n="1304"> Mais j’en prévois, madame, un murmure infaillible,</l>
+                        <l n="1305"> Qui pourra se borner à quelque émotion,</l>
+                        <l n="1306"> Et peut aller plus loin que la sédition.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1307"> Vous en savez l’auteur ; parlez, qu’on le punisse ;</l>
+                        <l n="1308"> Que moi-même au sénat j’en demande justice.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="1309"> Peut-être est-ce quelqu’un que vous pourriez choisir,</l>
+                        <l n="1310"> S’il vous fallait ailleurs tourner votre désir,</l>
+                        <l n="1311"> Et dont le choix illustre à tel point saurait plaire,</l>
+                        <l n="1312"> Que nous n’aurions à craindre aucun parti contraire.</l>
+                        <l n="1313"> Comme, à vous le nommer, ce serait fait de lui,</l>
+                        <l n="1314"> Ce serait à l’empire ôter un ferme appui,</l>
+                        <l n="1315"> Et livrer un grand cœur à sa perte certaine,</l>
+                        <l n="1316"> Quand il n’est pas encor digne de votre haine.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1317"> On me fait mal sa cour avec de tels avis,</l>
+                        <l n="1318"> Qui, sans nommer personne, en nomment plus de dix.</l>
+                        <l n="1319"> Je hais l’empressement de ces devoirs sincères,</l>
+                        <l n="1320"> Qui ne jette en l’esprit que de vagues chimères,</l>
+                        <l n="1321"> Et, ne me présentant qu’un obscur avenir,</l>
+                        <l n="1322"> Me donne tout à craindre, et rien à prévenir.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="1323"> Le besoin de l’état est souvent un mystère</l>
+                        <l n="1324"> Dont la moitié se dit, et l’autre est bonne à taire.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1325"> Il n’est souvent aussi qu’un pur fantôme en l’air</l>
+                        <l n="1326"> Que de secrets ressorts font agir et parler,</l>
+                        <l n="1327"> Et s’arrête où le fixe une âme prévenue,</l>
+                        <l n="1328"> Qui, pour ses intérêts, le forme et le remue.</l>
+                        <l n="1329"> Des besoins de l’état si vous êtes jaloux,</l>
+                        <l n="1330"> Fiez-vous-en à moi, qui les vois mieux que vous.</l>
+                        <l n="1331"> Martian, comme vous, à vous parler sans feindre,</l>
+                        <l n="1332"> Dans le choix de Léon voit quelque chose à craindre :</l>
+                        <l n="1333"> Mais il m’apprend de qui je dois me défier ;</l>
+                        <l n="1334"> Et je puis, si je veux, me le sacrifier.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="1335"> Qui nomme-t-il, madame ?</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1336"> Aspar, c’est un mystère</l>
+                        <l n="1337"> Dont la moitié se dit, et l’autre est bonne à taire.</l>
+                        <l n="1338"> Si l’on hait tant Léon, du moins réduisez-vous</l>
+                        <l n="1339"> À faire qu’on m’admette à régner sans époux.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="1340"> Je ne l’obtiendrai point, la chose est sans exemple.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1341"> La matière au vrai zèle en est d’autant plus ample :</l>
+                        <l n="1342"> Et vous en montrerez de plus rares effets</l>
+                        <l n="1343"> En obtenant pour moi ce qu’on n’obtint jamais.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="1344"> Oui ; mais qui voulez-vous que le sénat vous donne,</l>
+                        <l n="1345"> Madame, si Léon... ?</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1346"> Ou Léon, ou personne.</l>
+                        <l n="1347"> À l’un de ces deux points amenez les esprits.</l>
+                        <l n="1348"> Vous adorez Irène, Irène est votre prix ;</l>
+                        <l n="1349"> Je la laisse avec vous, afin que votre zèle</l>
+                        <l n="1350"> S’allume à ce beau feu que vous avez pour elle.</l>
+                        <l n="1351"> Justine, suivez-moi.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1352"> Ce prix qu’on vous promet</l>
+                        <l n="1353"> Sur votre âme, seigneur, doit faire peu d’effet.</l>
+                        <l n="1354"> La mienne, tout acquise à votre ardeur sincère,</l>
+                        <l n="1355"> Ne peut à ce grand cœur tenir lieu de salaire ;</l>
+                        <l n="1356"> Et l’amour à tel point vous rend maître du mien,</l>
+                        <l n="1357"> Que me donner à vous, c’est ne vous donner rien.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPARS. </speaker>
+                        <l n="1358"> Vous dites vrai, madame ; et du moins j’ose dire.</l>
+                        <l n="1359"> Que me donner un cœur au-dessous de l’empire,</l>
+                        <l n="1360"> Un cœur qui me veut faire une honteuse loi,</l>
+                        <l n="1361"> C’est ne me donner rien qui soit digne de moi.</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1362"> Indigne que je suis d’une foi si douteuse,</l>
+                        <l n="1363"> Vous fais-je quelque loi qui puisse être honteuse ?</l>
+                        <l n="1364"> Et, si Léon devait l’empire à votre appui,</l>
+                        <l n="1365"> Lui qui vous y ferait le premier d’après lui,</l>
+                        <l n="1366"> Auriez-vous à rougir de l’en avoir fait maître,</l>
+                        <l n="1367"> Seigneur, vous qui voyez que vous ne pouvez l’être ?</l>
+                        <l n="1368"> Mettez-vous, j’y consens, au-dessus de l’amour,</l>
+                        <l n="1369"> Si, pour monter au trône, il s’offre quelque jour.</l>
+                        <l n="1370"> Qu’à ce glorieux titre un amant soit volage,</l>
+                        <l n="1371"> Je puis l’en estimer, l’en aimer davantage,</l>
+                        <l n="1372"> Et voir avec plaisir la belle ambition</l>
+                        <l n="1373"> Triompher d’une ardente et longue passion.</l>
+                        <l n="1374"> L’objet le plus charmant doit céder à l’empire.</l>
+                        <l n="1375"> Régnez ; j’en dédirai mon cœur s’il en soupire.</l>
+                        <l n="1376"> Vous ne m’en croyez pas, seigneur ; et toutefois</l>
+                        <l n="1377"> Vous régneriez bientôt, si l’on suivait ma voix.</l>
+                        <l n="1378"> Apprenez à quel point pour vous je m’intéresse.</l>
+                        <l n="1379"> Je viens de vous offrir moi-même à la princesse ;</l>
+                        <l n="1380"> Et je sacrifiais mes plus chères ardeurs</l>
+                        <l n="1381"> À l’honneur de vous mettre au faîte des grandeurs.</l>
+                        <l n="1382"> Vous savez sa réponse : « Ou Léon, ou personne. »</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="1383"> C’est agir en amante et généreuse et bonne :</l>
+                        <l n="1384"> Mais, sûre d’un refus qui doit rompre le coup,</l>
+                        <l n="1385"> La générosité ne coûte pas beaucoup.</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1386"> Vous voyez les chagrins où cette offre m’expose,</l>
+                        <l n="1387"> Et ne me voulez pas devoir la moindre chose !</l>
+                        <l n="1388"> Ah ! si j’osais, seigneur ; vous appeler ingrat !</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="1389"> L’offre sans doute est rare, et ferait grand éclat,</l>
+                        <l n="1390"> Si, pour mieux éblouir, vous aviez eu l’adresse</l>
+                        <l n="1391"> D’ébranler tant soit peu l’esprit de la princesse.</l>
+                        <l n="1392"> Elle est impératrice, et d’un seul « Je le veux, »</l>
+                        <l n="1393"> Elle peut de Léon faire un monarque heureux :</l>
+                        <l n="1394"> Qu’a-t-il besoin de moi, lui qui peut tout sur elle ?</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1395"> N’insultez point, seigneur, une flamme si belle ;</l>
+                        <l n="1396"> L’amour, las de gémir sous les raisons d’état,</l>
+                        <l n="1397"> Pourrait n’en croire pas tout-à-fait le sénat.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="1398"> L’amour n’a qu’à parler : le sénat, quoi qu’on pense,</l>
+                        <l n="1399"> N’aura que du respect et de la déférence ;</l>
+                        <l n="1400"> Et, de l’air dont la chose a déjà pris son cours,</l>
+                        <l n="1401"> Léon pourra se voir empereur pour trois jours.</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1402"> Trois jours peuvent suffire à faire bien des choses :</l>
+                        <l n="1403"> La cour en moins de temps voit cent métamorphoses ;</l>
+                        <l n="1404"> En moins de temps un prince, à qui tout est permis,</l>
+                        <l n="1405"> Peut rendre ce qu’il doit aux vrais et faux amis.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="1406"> L’amour qui parle ainsi ne paraît pas fort fendre.</l>
+                        <l n="1407"> Mais je vous aime assez pour ne vous pas entendre ;</l>
+                        <l n="1408"> Et dirai toutefois, sans m’en embarrasser,</l>
+                        <l n="1409"> Qu’il est un peu bien tôt pour vous de menacer.</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1410"> Je ne menace point, seigneur ; mais je vous aime</l>
+                        <l n="1411"> Plus que moi, plus encor que ce cher frère même.</l>
+                        <l n="1412"> L’amour tendre est timide, et craint pour son objet</l>
+                        <l n="1413"> Dès qu’il lui voit former un dangereux projet.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="1414"> Vous m’aimez, je le crois ; du moins cela peut être.</l>
+                        <l n="1415"> Mais de quelle façon le faites-vous connaître ?</l>
+                        <l n="1416"> L amour inspire-t-il ce rare empressement</l>
+                        <l n="1417"> De voir régner un frère aux dépens d’un amant ?</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1418"> Il m’inspire à regret la peur de votre perte.</l>
+                        <l n="1419"> Régnez, je vous l’ai dit, la-porte en est ouverte.</l>
+                        <l n="1420"> Vous avez du mérite, et je manque d’appas ;</l>
+                        <l n="1421"> Dédaignez, quittez-moi ; mais ne vous perdez pas.</l>
+                        <l n="1422"> Pour le salut d’un frère ai-je si peu d’alarmes,</l>
+                        <l n="1423"> Qu’il y faille ajouter d’autres sujets de larmes ?</l>
+                        <l n="1424"> C’est assez que pour vous j’ose en vain soupirer ;</l>
+                        <l n="1425"> Ne me réduisez point, seigneur, à vous pleurer.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="1426"> Gardez, gardez vos pleurs pour ceux qui sont à plaindre :</l>
+                        <l n="1427"> Puisque vous m’aimez tant, je n’ai point lieu de craindre.</l>
+                        <l n="1428"> Quelque peine qu’on doive à ma témérité,</l>
+                        <l n="1429"> Votre main qui m’attend fera ma sûreté ;</l>
+                        <l n="1430"> Et contre le courroux le plus inexorable</l>
+                        <l n="1431"> Elle me servira d’asile inviolable.</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1432"> Vous la voudrez peut-être, et la voudrez trop tard.</l>
+                        <l n="1433"> Ne vous exposez point, seigneur, à ce hasard ;</l>
+                        <l n="1434"> Je doute si j’aurais toujours même tendresse,</l>
+                        <l n="1435"> Et pourrais de ma main n’être pas la maîtresse.</l>
+                        <l n="1436"> Je vous parle sans feindre, et ne sais point railler</l>
+                        <l n="1437"> Lorsqu’au salut commun il nous faut travailler.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="1438"> Et je veux bien aussi vous répondre sans feindre.</l>
+                        <l n="1439"> J’ai pour vous un amour à ne jamais s’éteindre,</l>
+                        <l n="1440"> Madame ; et, dans l’orgueil que vous-même approuvez,</l>
+                        <l n="1441"> L’amitié de Léon a ses droits conservés :</l>
+                        <l n="1442"> Mais ni cette amitié, ni cet amour si tendre,</l>
+                        <l n="1443"> Quelques soins, quelque effort qu’il vous en plaise attendre,</l>
+                        <l n="1444"> Ne me verront jamais l’esprit persuadé</l>
+                        <l n="1445"> Que je doive obéir à qui j’ai commandé,</l>
+                        <l n="1446"> À qui, si j’en puis croire un cœur qui vous adore,</l>
+                        <l n="1447"> J’aurai droit, et longtemps, de commander encore.</l>
+                        <l n="1448"> Ma gloire, qui s’oppose à cet abaissement,</l>
+                        <l n="1449"> Trouve en tous mes égaux le même sentiment.</l>
+                        <l n="1450"> lis ont fait la princesse arbitre de l’empire :</l>
+                        <l n="1451"> Qu’elle épouse Léon, tous sont prêts d’y souscrire ;</l>
+                        <l n="1452"> Mais je ne réponds pas d’un long respect en tous,</l>
+                        <l n="1453"> À moins qu’il associe aussitôt l’un de nous.</l>
+                        <l n="1454"> La chose est peu nouvelle, et je ne vous propose</l>
+                        <l n="1455"> Que ce que l’on a fait pour le grand Théodose.</l>
+                        <l n="1456"> C’est par-là que l’empire est tombé dans ce sang</l>
+                        <l n="1457"> Si fier de sa naissance et si jaloux du rang.</l>
+                        <l n="1458"> Songez sur cet exemple à vous rendre justice,</l>
+                        <l n="1459"> À me faire empereur pour être impératrice :</l>
+                        <l n="1460"> Vous avez du pouvoir, madame ; usez-en bien,</l>
+                        <l n="1461"> Et pour votre intérêt attachez-vous au mien.</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1462"> Léon dispose-t-il du cœur de la princesse ?</l>
+                        <l n="1463"> C’est un cœur fier et grand ; le partage la blesse ;</l>
+                        <l n="1464"> Elle veut tout ou rien ; et dans ce haut pouvoir</l>
+                        <l n="1465"> Elle éteindra l’amour plutôt que d’en déchoir.</l>
+                        <l n="1466"> Près d’elle avec le temps nous pourrons davantage :</l>
+                        <l n="1467"> Ne pressons point, seigneur, un si juste partage.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="1468"> Vous le voudrez peut-être, et le voudrez trop tard :</l>
+                        <l n="1469"> Ne laissez point longtemps nos destins au hasard.</l>
+                        <l n="1470"> J’attends de votre amour cette preuve nouvelle.</l>
+                        <l n="1471"> Adieu, madame.</l>
+                </sp>
+        <sp who="#irène">
+            <speaker> IRÈNE. </speaker>
+                        <l n="1472"> Adieu. L’ambition est belle ;</l>
+                        <l n="1473"> Mais vous n’êtes, seigneur, avec ce sentiment,</l>
+                        <l n="1474"> Ni véritable ami, ni véritable amant.</l></div></div>
+           <div type="act" xml:id="5">
+           <head> ACTE V </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1475"> Justine, plus j’y pense, et plus je m’inquiète :</l>
+                        <l n="1476"> Je crains de n’avoir plus une amour si parfaite,</l>
+                        <l n="1477"> Et que, si de Léon on me fait un époux,</l>
+                        <l n="1478"> Un bien si désiré ne me soit plus si doux.</l>
+                        <l n="1479"> Je ne sais si le rang m’aurait fait changer d’âme ;</l>
+                        <l n="1480"> Mais je tremble à penser que je serais sa femme,</l>
+                        <l n="1481"> Et qu’on n’épouse point l’amant le plus chéri</l>
+                        <l n="1482"> Qu’on ne se fasse un maître aussitôt qu’un mari.</l>
+                        <l n="1483"> J’aimerais à régner avec l’indépendance</l>
+                        <l n="1484"> Que des vrais souverains s’assure la prudence ;</l>
+                        <l n="1485"> Je voudrais que le ciel inspirât au sénat</l>
+                        <l n="1486"> De me laisser moi seule à gouverner l’état,</l>
+                        <l n="1487"> De m’épargner ce maître ; et vois d’un œil d’envie</l>
+                        <l n="1488"> Toujours Sémiramis, et toujours Zénobie.</l>
+                        <l n="1489"> On triompha de l’une : et pour Sémiramis,</l>
+                        <l n="1490"> Elle usurpa le nom et l’habit de son fils ;</l>
+                        <l n="1491"> Et, sous l’obscurité d’une longue tutelle,</l>
+                        <l n="1492"> Cet habit et ce nom régnaient tous deux plus qu’elle.</l>
+                        <l n="1493"> Mais mon cœur de leur sort n’en est pas moins jaloux ;</l>
+                        <l n="1494"> C’était régner enfin, et régner sans époux.</l>
+                        <l n="1495"> Le triomphe n’en fait qu’affermir la mémoire ;</l>
+                        <l n="1496"> Et le déguisement n’en détruit point la gloire.</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="1497"> Que les choses bientôt prendraient un autre tour,</l>
+                        <l n="1498"> Si le sénat prenait le parti de l’amour !</l>
+                        <l n="1499"> Que bientôt... Mais je vois Aspar avec mon père.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1500"> Sachons d’eux quel destin le ciel vient de me faire.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="1501"> Madame, le sénat nous députe tous deux</l>
+                        <l n="1502"> Pour vous jurer encor qu’il suivra tous vos vœux.</l>
+                        <l n="1503"> Après qu’entre vos mains il a remis l’empire,</l>
+                        <l n="1504"> C’est faire un attentat que de vous rien prescrire ;</l>
+                        <l n="1505"> Et son respect vous prie une seconde fois</l>
+                        <l n="1506"> De lui donner vous seule un maître à votre choix.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1507"> Il pouvait le choisir.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="1508"> Il s’en défend l’audace,</l>
+                        <l n="1509"> Madame ; et sur ce point il vous demande grâce.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1510"> Pourquoi donc m’en fait-il une nécessité ?</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="1511"> Pour donner plus de force à votre autorité.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1512"> Son zèle est grand pour elle : il faut le satisfaire,</l>
+                        <l n="1513"> Et lui mieux obéir qu’il n’a daigné me plaire.</l>
+                        <l n="1514"> Sexe, ton sort en moi ne peut se démentir :</l>
+                        <l n="1515"> Pour être souveraine il faut m’assujettir,</l>
+                        <l n="1516"> En montant sur le trône entrer dans l’esclavage,</l>
+                        <l n="1517"> Et recevoir des lois de qui me rend hommage.</l>
+                        <l n="1518"> Allez, dans quelques jours je vous ferai savoir.</l>
+                        <l n="1519"> Le choix que par son ordre aura fait mon devoir.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="1520"> Il tiendrait à faveur et bien haute et bien rare</l>
+                        <l n="1521"> De le savoir, madame, avant qu’il se sépare.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1522"> Quoi ! pas un seul moment pour en délibérer !</l>
+                        <l n="1523"> Mais je ferais un crime à le plus différer ;</l>
+                        <l n="1524"> Il vaut mieux, pour essai de ma toute-puissance,</l>
+                        <l n="1525"> Montrer un digne effet de pleine obéissance.</l>
+                        <l n="1526"> Retirez-vous, Aspar ; vous aurez votre tour.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1527"> On m’a dit que pour moi vous aviez de l’amour,</l>
+                        <l n="1528"> Seigneur ; serait-il vrai ?</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="1529"> Qui vous l’a dit, madame ?</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1530"> Vos services, mes yeux, le trouble de votre âme,</l>
+                        <l n="1531"> L’exil que mon hymen vous devait imposer :</l>
+                        <l n="1532"> Sont-ce là des témoins, seigneur, à récuser ?</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="1533"> C’est donc à moi, madame, à confesser mon crime.</l>
+                        <l n="1534"> L’amour naît aisément du zèle et de l’estime ;</l>
+                        <l n="1535"> Et l’assiduité près d’un charmant objet</l>
+                        <l n="1536"> N’attend point notre aveu pour faire son effet.</l>
+                        <l n="1537"> Il m’est honteux d’aimer ; il vous l’est d’être aimée</l>
+                        <l n="1538"> D’un homme dont la vie est déjà consumée,</l>
+                        <l n="1539"> Qui ne vit qu’à regret depuis qu’il a pu voir</l>
+                        <l n="1540"> Jusqu’où ses yeux charmés ont trahi son devoir.</l>
+                        <l n="1541"> Mon cœur, qu’un si long âge en mettait hors d’alarmes,</l>
+                        <l n="1542"> S’est vu livré par eux à ces dangereux charmes.</l>
+                        <l n="1543"> En vain, madame, en vain je m’en suis défendu ;</l>
+                        <l n="1544"> En vain j’ai su me taire après m’être rendu :</l>
+                        <l n="1545"> On m’a forcé d’aimer, on me force à le dire.</l>
+                        <l n="1546"> Depuis plus de dix ans je languis, je soupire,</l>
+                        <l n="1547"> Sans que de tout l’excès d’un si long déplaisir</l>
+                        <l n="1548"> Vous ayez pu surprendre une larme, un soupir :</l>
+                        <l n="1549"> Mais enfin la langueur qu’où voit sur mon visage</l>
+                        <l n="1550"> Est encor plus l’effet de l’amour que de l’âge.</l>
+                        <l n="1551"> Il faut faire un heureux ; le jour n’en est pas loin :</l>
+                        <l n="1552"> Pardonnez à l’horreur d’en être le témoin,</l>
+                        <l n="1553"> Si mes maux, et ce feu digne de votre haine,</l>
+                        <l n="1554"> Cherchent dans un exil leur remède, et sa peine.</l>
+                        <l n="1555"> Adieu. Vivez heureuse : et si tant de jaloux...</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1556"> Ne partez pas, seigneur, je les tromperai tous ;</l>
+                        <l n="1557"> Et, puisque de ce choix aucun ne me dispense,</l>
+                        <l n="1558"> Il est fait, et de tel à qui pas un ne pense.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="1559"> Quel qu’il soit, il sera l’arrêt de mon trépas,</l>
+                        <l n="1560"> Madame.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1561"> Encore un coup, ne vous éloignez pas.</l>
+                        <l n="1562"> Seigneur, jusques ici vous m’avez bien servie ;</l>
+                        <l n="1563"> Vos lumières ont fait tout l’éclat de ma vie ;</l>
+                        <l n="1564"> La vôtre s’est usée à me favoriser :</l>
+                        <l n="1565"> Il faut encor plus faire, il faut...</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="1566"> Quoi ?</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1567"> M’épouser.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="1568"> Moi, madame ?</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1569"> Oui, seigneur ; c’est le plus grand service</l>
+                        <l n="1570"> Que vos soins puissent rendre à votre impératrice.</l>
+                        <l n="1571"> Non qu’en m’offrant à vous je réponde à vos feux</l>
+                        <l n="1572"> Jusques à souhaiter des fils et des neveux :</l>
+                        <l n="1573"> Mon aïeul, dont partout les hauts faits retentissent,</l>
+                        <l n="1574"> Voudra bien qu’avec moi ses descendants finissent,</l>
+                        <l n="1575"> Que j’en sois la dernière, et ferme dignement</l>
+                        <l n="1576"> D’un si grand empereur l’auguste monument.</l>
+                        <l n="1577"> Qu’on ne prétende plus que ma gloire s’expose</l>
+                        <l n="1578"> À laisser des Césars du sang de Théodose.</l>
+                        <l n="1579"> Qu’ai-je affaire de race à me déshonorer,</l>
+                        <l n="1580"> Moi qui n’ai que trop vu ce sang dégénérer ;</l>
+                        <l n="1581"> Et que, s’il, est fécond en illustres princesses,</l>
+                        <l n="1582"> Dans les princes qu’il forme il n’a que des faiblesses ?</l>
+                        <l n="1583"> Ce n’est pas que Léon, choisi pour souverain,</l>
+                        <l n="1584"> Pour me rendre à mon rang n’eût obtenu ma main ;</l>
+                        <l n="1585"> Mon amour, à ce prix, se fût rendu justice :</l>
+                        <l n="1586"> Mais, puisqu’on m’a sans lui nommée impératrice,</l>
+                        <l n="1587"> Je dois à ce haut rang d’assez nobles projets</l>
+                        <l n="1588"> Pour n’admettre en mon lit aucun de mes sujets.</l>
+                        <l n="1589"> Je ne veux plus d’époux, mais il m’en faut une ombre.</l>
+                        <l n="1590"> Qui des Césars pour moi puisse grossir le nombre ;</l>
+                        <l n="1591"> Un mari qui, content d’être au-dessus des rois,</l>
+                        <l n="1592"> Me donne ses clartés, et dispense mes lois ;</l>
+                        <l n="1593"> Qui, n’étant en effet que mon premier ministre,</l>
+                        <l n="1594"> Pare ce que sous moi l’on craindrait de sinistre,</l>
+                        <l n="1595"> Et, pour tenir en bride un peuple sans raison,</l>
+                        <l n="1596"> Paroisse mon époux, et n’en ait que le nom.</l>
+                        <l n="1597"> Vous m’entendez, seigneur, et c’est assez vous dire.</l>
+                        <l n="1598"> Prêtez-moi votre main, je-vous donne l’empire :</l>
+                        <l n="1599"> Éblouissons le peuple, et vivons entre nous</l>
+                        <l n="1600"> Comme s’il n’était point d’épouses ni d’époux.</l>
+                        <l n="1601"> Si ce n’est posséder l’objet de votre flamme,</l>
+                        <l n="1602"> C’est vous rendre du moins le maître de son âme,</l>
+                        <l n="1603"> L’ôter à vos rivaux, vous mettre, au-dessus d’eux,</l>
+                        <l n="1604"> Et de tous mes amants vous voir le plus heureux.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="1605"> Madame...</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1606"> À vos hauts faits je dois ce grand salaire ;</l>
+                        <l n="1607"> Et j’acquitte envers vous et l’état et mon frère.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="1608"> Aurait-on jamais cru, madame... ?</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1609"> Allez, seigneur.</l>
+                        <l n="1610"> Allez en plein sénat faire voir l’empereur,</l>
+                        <l n="1611"> Il demeure assemblé pour recevoir son maître :</l>
+                        <l n="1612"> Allez-y de ma part vous faire reconnaître ;</l>
+                        <l n="1613"> Ou, si votre souhait ne répond pas au mien ;</l>
+                        <l n="1614"> Faites grâce à mon sexe, et ne m’en dites rien.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="1615"> Souffrez qu’à vos genoux, madame...</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1616"> Allez, vous dis-je :</l>
+                        <l n="1617"> Je m’oblige encor plus que je ne vous oblige ;</l>
+                        <l n="1618"> Et mon cœur, qui vous vient d’ouvrir ses sentiments,</l>
+                        <l n="1619"> N’en veut ni de refus ni de remerciements.</l>
+                        <l n="1620"> Faites rentrer Aspar.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1621"> Que faites-vous d’Irène ?</l>
+                        <l n="1622"> Quand l’épouserez-vous ? Ce mot vous fait-il peine ?</l>
+                        <l n="1623"> Vous ne répondez point !</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="1624"> Non, madame, et je doi</l>
+                        <l n="1625"> Ce respect aux bontés que vous avez pour moi.</l>
+                        <l n="1626"> Qui se tait obéit.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1627"> J’aime assez qu’on s’explique.</l>
+                        <l n="1628"> Les silences de cour ont de la politique.</l>
+                        <l n="1629"> Sitôt que nous parlons, qui consent applaudit,</l>
+                        <l n="1630"> Et c’est en se taisant que l’on nous contredit.</l>
+                        <l n="1631"> Le temps m’éclaircira de ce que je soupçonne.</l>
+                        <l n="1632"> Cependant j’ai fait choix de l’époux qu’on m’ordonne.</l>
+                        <l n="1633"> Léon vous faisait peine, et j’ai dompté l’amour</l>
+                        <l n="1634"> Pour vous donner un maître admiré dans la cour,</l>
+                        <l n="1635"> Adoré dans l’armée, et que de cet empire</l>
+                        <l n="1636"> Les plus fermes soutiens feraient gloire d’élire :</l>
+                        <l n="1637"> C’est Martian.</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="1638"> Tout vieil et tout cassé qu’il est !</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1639"> Tout vieil et tout cassé je l’épouse ; il me plaît.</l>
+                        <l n="1640"> J’ai mes raisons. Au reste, il a besoin d’un gendre</l>
+                        <l n="1641"> Qui partage avec lui les soins qu’il lui faut prendre,</l>
+                        <l n="1642"> Qui soutienne des ans penchés dans le tombeau,</l>
+                        <l n="1643"> Et qui porte sous lui là moitié du fardeau.</l>
+                        <l n="1644"> Qui jugeriez-vous propre à remplir cette place ?</l>
+                        <l n="1645"> Une seconde fois vous paraissez de glace !</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="1646"> Madame, Aréobinde et Procope tous deux</l>
+                        <l n="1647"> Ont engagé leur cœur et formé d’autres vœux :</l>
+                        <l n="1648"> Sans cela je dirais...</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1649"> Et sans cela moi-même</l>
+                        <l n="1650"> J’élèverais Aspar à cet honneur suprême ;</l>
+                        <l n="1651"> Mais, quand il serait homme à pouvoir aisément</l>
+                        <l n="1652"> Renoncer aux douceurs de son attachement,</l>
+                        <l n="1653"> Justine n’aurait pas une âme assez hardie</l>
+                        <l n="1654"> Pour accepter un cœur noirci de perfidie,</l>
+                        <l n="1655"> Et vous regarderait-comme un volage esprit</l>
+                        <l n="1656"> Toujours prêt à donner ou la fortune rit.</l>
+                        <l n="1657"> N’en savez-vous aucun de qui l’ardeur fidèle... ?</l>
+                </sp>
+        <sp who="#aspar">
+            <speaker> ASPAR. </speaker>
+                        <l n="1658"> Madame, vos bontés choisiront mieux pour elle ;</l>
+                        <l n="1659"> Comme pour Martian elles nous ont surpris,</l>
+                        <l n="1660"> Elles sauront encor surprendre nos esprits.</l>
+                        <l n="1661"> Je vous laisse en résoudre.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1662"> Allez ; et pour Irène</l>
+                        <l n="1663"> Si vous ne sentez rien en l’âme qui vous gêne,</l>
+                        <l n="1664"> Ne faites plus douter de vos longues amours,</l>
+                        <l n="1665"> Ou je dispose d’elle avant qu’il soit deux jours.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1666"> Ce n’est pas encor tout, Justine ; je veux faire</l>
+                        <l n="1667"> Le malheureux Léon successeur de ton père.</l>
+                        <l n="1668"> Y contribueras-tu ? prêteras-tu la main</l>
+                        <l n="1669"> Au glorieux succès d’un si noble dessein ?</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="1670"> Et la main et le cœur sont en votre puissance,</l>
+                        <l n="1671"> Madame ; doutez-vous de mon obéissance,</l>
+                        <l n="1672"> Après que par votre ordre il m’a déjà coûté</l>
+                        <l n="1673"> Un conseil contre vous qui doit l’avoir flatté ?</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1674"> Achevons, le voici. Je réponds de ton père ;</l>
+                        <l n="1675"> Son cœur est trop à moi pour nous être contraire.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="1676"> Je me le disais bien que vos nouveaux serments,</l>
+                        <l n="1677"> Madame, ne seraient que des amusements.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1678"> Vous commencez d’un air...</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="1679"> J’achèverai de même,</l>
+                        <l n="1680"> Ingrate ! ce n’est plus ce Léon qui vous aime ;</l>
+                        <l n="1681"> Non, ce n’est plus...</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1682"> Sachez...</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="1683"> Je ne veux rien savoir,</l>
+                        <l n="1684"> Et je n’apporte ici ni respect ni devoir.</l>
+                        <l n="1685"> L’impétueuse ardeur d’une ragé inquiète</l>
+                        <l n="1686"> N’y vient que mériter la mort que je souhaite ;</l>
+                        <l n="1687"> Et les emportements de ma juste fureur</l>
+                        <l n="1688"> Ne m’y parlent de vous que pour m’en faire horreur.</l>
+                        <l n="1689"> Oui, comme Pulchérie et comme impératrice,</l>
+                        <l n="1690"> Vous n’avez eu pour moi que détours, qu’injustice :</l>
+                        <l n="1691"> Si vos fausses bontés ont su me décevoir,</l>
+                        <l n="1692"> Vos serments m’ont réduit au dernier désespoir.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1693"> Ah, Léon !</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="1694"> Par quel art que je ne puis comprendre,</l>
+                        <l n="1695"> Forcez-vous d’un soupir ma fureur à se rendre ?</l>
+                        <l n="1696"> Un coup d’œil en triomphe ; et, dès que je vous voi,</l>
+                        <l n="1697"> Il ne me souvient plus de vos manques de foi !</l>
+                        <l n="1698"> Ma bouche se refuse à vous nommer parjure,</l>
+                        <l n="1699"> Ma douleur se défend jusqu’au moindre murmure ;</l>
+                        <l n="1700"> Et l’affreux désespoir qui m’amène en ces lieux</l>
+                        <l n="1701"> Cède au plaisir secret d’y mourir à vos yeux.</l>
+                        <l n="1702"> J’y vais mourir, madame, et d’amour, non de rage ;</l>
+                        <l n="1703"> De mon dernier soupir recevez l’humble hommage ;</l>
+                        <l n="1704"> Et, si de votre rang la fierté le permet,</l>
+                        <l n="1705"> Recevez-le, de grâce, avec quelque regret.</l>
+                        <l n="1706"> Jamais fidèle ardeur n’approcha de ma flamme,</l>
+                        <l n="1707"> Jamais frivole espoir ne flatta mieux une âme ;</l>
+                        <l n="1708"> Je ne méritais pas qu’il eût aucun effet,</l>
+                        <l n="1709"> Ni qu’un amour si pur se vît mieux satisfait.</l>
+                        <l n="1710"> Mais quand vous m’avez dit : « Quelque ordre qu’on me donne,</l>
+                        <l n="1711"> « Nul autre ne sera maître de ma personne, »</l>
+                        <l n="1712"> J’ai dû me le promettre ; et toutefois, hélas !</l>
+                        <l n="1713"> Vous passez dès demain, madame, en d’autres bras ;</l>
+                        <l n="1714"> Et, dès ce même jour, vous perdez la mémoire</l>
+                        <l n="1715"> De ce que vos bontés me commandaient de croire !</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1716"> Non, je ne la perds pas, et sais ce que je doi.</l>
+                        <l n="1717"> Prenez des sentiments qui soient dignes de moi ;</l>
+                        <l n="1718"> Et ne m’accusez point de manquer de parole,</l>
+                        <l n="1719"> Quand pour vous la tenir moi-même je m’immole.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="1720"> Quoi ! vous n’épousez pas Martian dès demain ?</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1721"> Savez-vous à quel prix je lui donne la main ?</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="1722"> Que m’importe à quel prix un tel bonheur s’achète ?</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1723"> Sortez, sortez du trouble où votre erreur vous jette :</l>
+                        <l n="1724"> Et sachez qu’avec moi ce grand titre d’époux</l>
+                        <l n="1725"> N’a point de privilège à vous rendre jaloux ;</l>
+                        <l n="1726"> Que, sous l’illusion de ce faux hyménée,</l>
+                        <l n="1727"> Je fais vœu de mourir telle que je suis née ;</l>
+                        <l n="1728"> Que Martian reçoit et ma main, et ma foi,</l>
+                        <l n="1729"> Pour me conserver toute, et tout l’empire à moi ;</l>
+                        <l n="1730"> Et que tout le pouvoir que cette foi lui donne</l>
+                        <l n="1731"> Ne le fera jamais maître de ma personne.</l>
+                        <l n="1732"> Est-ce tenir parole ? et reconnaissez-vous</l>
+                        <l n="1733"> À quel point je vous sers quand j’en fais mon époux ?</l>
+                        <l n="1734"> C’est pour vous qu’en ses mains je dépose l’empire ;</l>
+                        <l n="1735"> C’est pour vous le garder qu’il me plaît de l’élire.</l>
+                        <l n="1736"> Rendez-vous, comme lui, digne de ce dépôt</l>
+                        <l n="1737"> Que son âge penchant vous remettra bientôt ;</l>
+                        <l n="1738"> Suivez-le pas à pas ; et, marchant dans sa route,</l>
+                        <l n="1739"> Mettez ce premier rang après lui hors de doute.</l>
+                        <l n="1740"> Étudiez sous lui ce grand art de régner,</l>
+                        <l n="1741"> Que tout autre aurait peine à vous mieux enseigner ;</l>
+                        <l n="1742"> Et, pour vous assurer ce que j’en veux attendre,</l>
+                        <l n="1743"> Attachez-vous au trône, et faites-vous son gendre ;</l>
+                        <l n="1744"> Je vous donne Justine.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="1745"> À moi, madame !</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1746"> À vous.</l>
+                        <l n="1747"> Que je m’étais promis moi-même pour époux.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="1748"> Ce n’est donc pas assez de vous avoir perdue,</l>
+                        <l n="1749"> De voir en d’autres mains la main qui m’était due ;</l>
+                        <l n="1750"> Il faut aimer ailleurs !</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1751"> Il faut être empereur,</l>
+                        <l n="1752"> Et, le sceptre à la main, justifier mon cœur ;</l>
+                        <l n="1753"> Montrer à l’univers, dans le héros que j’aime,</l>
+                        <l n="1754"> Tout ce qui rend un front digne du diadème ;</l>
+                        <l n="1755"> Vous mettre, à mon exemple, au-dessus de l’amour,</l>
+                        <l n="1756"> Et par mon ordre enfin régner à votre tour.</l>
+                        <l n="1757"> Justine a du mérite, elle est jeune, elle est belle :</l>
+                        <l n="1758"> Tous vos rivaux pour moi le vont être pour elle ;</l>
+                        <l n="1759"> Et l’empire pour dot est un trait si charmant,</l>
+                        <l n="1760"> Que je ne vous en puis répondre qu’un moment.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="1761"> Oui, madame, après vous elle est incomparable ;</l>
+                        <l n="1762"> Elle est de votre cour la plus considérable ;</l>
+                        <l n="1763"> Elle a des qualités à se faire adorer :</l>
+                        <l n="1764"> Mais, hélas ! jusqu’à vous j’avais droit d’aspirer.</l>
+                        <l n="1765"> Voulez-vous qu’à vos yeux je trompe un tel mérite,</l>
+                        <l n="1766"> Que sans amour pour elle à m’aimer je l’invite,</l>
+                        <l n="1767"> Qu’en vous laissant mon cœur je demande le sien,</l>
+                        <l n="1768"> Et lui promette tout pour ne lui donner rien ?</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1769"> Et ne savez-vous pas qu’il est des hyménées</l>
+                        <l n="1770"> Que font sans nous au ciel les belles destinées ?</l>
+                        <l n="1771"> Quand il veut que l’effet en éclate ici-bas,</l>
+                        <l n="1772"> Lui-même il nous entraine où nous ne pensions pas ;</l>
+                        <l n="1773"> Et, dès qu’il les résout, il sait trouver la voie</l>
+                        <l n="1774"> De nous faire accepter ses ordres avec joie.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="1775"> Mais ne vous aimer plus ! vous voler tous mes vœux !</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1776"> Aimez-moi, j’y consens ; je dis plus, je le veux,</l>
+                        <l n="1777"> Mais comme impératrice, et non plus comme amante ;</l>
+                        <l n="1778"> Que la passion cesse, et que le zèle augmente.</l>
+                        <l n="1779"> Justine, qui m’écoute, agréera bien, seigneur,</l>
+                        <l n="1780"> Que je conserve ainsi ma part en votre cœur.</l>
+                        <l n="1781"> Je connais tout le sien. Rendez-vous plus traitable</l>
+                        <l n="1782"> Pour apprendre à l’aimer autant qu’elle est aimable ;</l>
+                        <l n="1783"> Et laissez-vous conduire à qui sait mieux que vous</l>
+                        <l n="1784"> Les chemins de vous faire un sort illustre et doux.</l>
+                        <l n="1785"> Croyez-en votre amante et votre impératrice :</l>
+                        <l n="1786"> L’une aime vos vertus, l’autre leur rend justice ;</l>
+                        <l n="1787"> Et sur Justine et vous je dois pouvoir assez</l>
+                        <l n="1788"> Pour vous dire à tous deux : Je parle ; obéissez.</l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON, à Justine. </speaker>
+                        <l n="1789"> J’obéis donc, madame, à cet ordre suprême,</l>
+                        <l n="1790"> Pour vous offrir un cœur qui n’est pas à lui-même :</l>
+                        <l n="1791"> Mais enfin je ne sais quand je pourrai donner</l>
+                        <l n="1792"> Ce que je ne puis même offrir sans le gêner ;</l>
+                        <l n="1793"> Et cette offre d’un cœur entre les mains d’une autre</l>
+                        <l n="1794"> Ne peut faire un amour qui mérite le vôtre.</l>
+                </sp>
+        <sp who="#justine">
+            <speaker> JUSTINE. </speaker>
+                        <l n="1795"> Il est assez à moi, dans de si bonnes mains,</l>
+                        <l n="1796"> Pour n’en point redouter de vrais et longs dédains ;</l>
+                        <l n="1797"> Et je vous répondrais d’une amitié sincère,</l>
+                        <l n="1798"> Si j’en avais l’aveu de l’empereur mon père.</l>
+                        <l n="1799"> Le temps fait tout, seigneur.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="1800"> D’une commune voix,</l>
+                        <l n="1801"> Madame, le sénat accepte votre choix.</l>
+                        <l n="1802"> À vos bontés pour moi son allégresse unie</l>
+                        <l n="1803"> Soupire après le jour de la cérémonie ;</l>
+                        <l n="1804"> Et le serment prêté pour n’en retarder rien,</l>
+                        <l n="1805"> À votre auguste nom vient de mêler le mien.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1806"> Cependant j’ai sans vous disposé de Justine,</l>
+                        <l n="1807"> Seigneur, et c’est Léon à qui je la destine.</l>
+                </sp>
+        <sp who="#martian">
+            <speaker> MARTIAN. </speaker>
+                        <l n="1808"> Pourrais-je lui choisir un plus illustre époux</l>
+                        <l n="1809"> Que celui que l’amour avait choisi pour vous ?</l>
+                        <l n="1810"> Il peut prendre après vous tout pouvoir dans l’empire,</l>
+                        <l n="1811"> S’y faire des emplois où l’univers l’admire,</l>
+                        <l n="1812"> Afin que, par votre ordre et les conseils d’Aspar,</l>
+                        <l n="1813"> Nous l’installions au trône, et le nommions César.</l>
+                </sp>
+        <sp who="#pulchérie">
+            <speaker> PULCHÉRIE. </speaker>
+                        <l n="1814"> Allons tout préparer pour ce double hyménée,</l>
+                        <l n="1815"> En ordonner la pompe, en choisir la journée.</l>
+                        <l n="1816"> D’Irène avec Aspar j’en voudrais faire autant ;</l>
+                        <l n="1817"> Mais j’ai donné deux jours à cet espoir flottant,</l>
+                        <l n="1818"> Et laisse jusque-là ma faveur incertaine,</l>
+                        <l n="1819"> Pour régler son destin sur le destin d’Irène.</l>
+                        <l n="1820"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

@@ -1,0 +1,2255 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Judith</title>
+                <title type="sub">Tragédie</title>
+            <author>
+                <persName>
+                    <forename>Delphine</forename>
+                    <linkname>de</linkname>
+                    <surname>Girardin</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/?q=node/216 </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1843-04-18">Représentée pour la première fois, à Paris, sur le Théâtre-Français, le 18 avril 1843.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="holopherne" sex="SEX">
+                            <persName>HOLOPHERNE</persName>
+                        </person>
+                        <person xml:id="achior" sex="SEX">
+                            <persName>ACHIOR</persName>
+                        </person>
+                        <person xml:id="osias" sex="SEX">
+                            <persName>OSIAS</persName>
+                        </person>
+                        <person xml:id="pharès" sex="SEX">
+                            <persName>PHARÈS</persName>
+                        </person>
+                        <person xml:id="érioch" sex="SEX">
+                            <persName>ÉRIOCH</persName>
+                        </person>
+                        <person xml:id="mindus" sex="SEX">
+                            <persName>MINDUS</persName>
+                        </person>
+                        <person xml:id="nassar" sex="SEX">
+                            <persName>NASSAR</persName>
+                        </person>
+                        <person xml:id="judith" sex="SEX">
+                            <persName>JUDITH</persName>
+                        </person>
+                        <person xml:id="phédyme" sex="SEX">
+                            <persName>PHÉDYME</persName>
+                        </person>
+                        <person xml:id="zelpha" sex="SEX">
+                            <persName>ZELPHA</persName>
+                        </person>
+                        <person xml:id="un-vieillard-mendiant" sex="SEX">
+                            <persName>UN VIEILLARD MENDIANT</persName>
+                        </person>
+                        <person xml:id="une-jeune-fille" sex="SEX">
+                            <persName>UNE JEUNE FILLE</persName>
+                        </person>
+                        <person xml:id="une-israélite-et-son-enfant" sex="SEX">
+                            <persName>UNE ISRAÉLITE et SON ENFANT</persName>
+                        </person>
+                        <person xml:id="un-garde" sex="SEX">
+                            <persName>UN GARDE</persName>
+                        </person>
+                        <person xml:id="serviteurs-de-judith" sex="SEX">
+                            <persName>SERVITEURS DE JUDITH</persName>
+                        </person>
+                        <person xml:id="officier-et-soldats-d’holopherne" sex="SEX">
+                            <persName>OFFICIER et SOLDATS D’HOLOPHERNE</persName>
+                        </person>
+                        <person xml:id="peuple" sex="SEX">
+                            <persName>PEUPLE</persName>
+                        </person>
+                        <person xml:id="prêtres" sex="SEX">
+                            <persName>PRÊTRES</persName>
+                        </person>
+                        <person xml:id="mendiants" sex="SEX">
+                            <persName>MENDIANTS</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Tragédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q80930]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">JUDITH</titlePart>
+            <titlePart type="sub">TRAGÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre-Français, le 18 avril 1843.</ab><!--@date="1843-04-18"-->
+        </performance>
+           <div type="act" xml:id="1">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="1"> Le jour paraît à peine, et Judith prie encore.</l>
+                </sp>
+        <sp who="#une-jeune-fille">
+            <speaker> LA JEUNE FILLE. </speaker>
+                        <l n="2"> Oh ! comment apaiser ce feu qui nous dévore ?</l>
+                        <l n="3"> Pas une goutte d’eau dans le creux des rochers !</l>
+                        <l n="4"> Les aqueducs rompus gardés par des archers !</l>
+                        <l n="5"> Et l’ennemi, déjà maître de nos campagnes,</l>
+                        <l n="6"> Détournant dans son cours le fleuve des montagnes !</l>
+                        <l n="7"> Dieu puissant, Israël expire sous tes coups.</l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="8"> Rassure-toi, Judith aura pitié de nous,</l>
+                        <l n="9"> Ma fille ; si j’en crois ma mémoire incertaine,</l>
+                        <l n="10"> Dans ses vastes jardins il est une fontaine</l>
+                        <l n="11"> Où nous puisions jadis aux jours de la moisson,</l>
+                        <l n="12"> Et dont l’écho disait notre folle chanson.</l>
+                        <l n="13"> Ah ! c’était l’heureux temps ; mais la guerre, la guerre,</l>
+                        <l n="14"> Elle ravage tout, les peuples et la terre !...</l>
+                </sp>
+        <sp who="#l’israélite">
+            <speaker> L’ISRAÉLITE regardant son fils. </speaker>
+                        <l n="15"> Pour une larme d’eau voir un enfant mourir !</l>
+                        <l n="16"> Si quelque orage au moins venait nous secourir !</l>
+            <stage><em>Elle cueille une fleur.</em></stage>
+                        <l n="17"> Cette fleur est encore humide de rosée :</l>
+                        <l n="18"> Presse-la, mon enfant, sur ta lèvre embrasée.</l>
+            <stage><em>Elle se lève.</em></stage>
+                        <l n="19"> Comme il souffre !... Mon fils, je brave tout pour toi !</l>
+                        <l n="20"> Ah ! l’ennemi lui-même aura pitié de moi !</l>
+            <stage><em>Le vieillard et la jeune fille s’approchent de l’enfant. L’Israélite prend une amphore et s’enfuit par le sentier des montagnes.</em></stage>
+                        <l n="21"> Tous deux veillez sur lui.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#une-jeune-fille">
+            <speaker> LA JEUNE FILLE. </speaker>
+                        <l n="22"> L’imprudente ! où va-t-elle ?</l>
+                        <l n="23"> Les archers vont la voir, et leur flèche est mortelle.</l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="24"> Elle peut échapper dans l’ombre à leurs regards.</l>
+                </sp>
+        <sp who="#une-jeune-fille">
+            <speaker> LA JEUNE FILLE. </speaker>
+                        <l n="25"> Mais le camp d’Holopherne est si près des remparts !</l>
+                        <l n="26"> Sur tous les monts voisins il répand son armée ;</l>
+                        <l n="27"> Dans un cercle de mort la ville est enfermée,</l>
+                        <l n="28"> Et l’on dit que nos chefs ont perdu tout espoir.</l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="29"> Aurais-je donc vécu si longtemps pour te voir</l>
+                        <l n="30"> Sous un joug odieux lâchement avilie,</l>
+                        <l n="31"> Ô ma cité natale, ô sainte Béthulie !</l>
+                        <l n="32"> Mais non, j’espère encor, Judith nous sauvera.</l>
+                        <l n="33"> Elle a longtemps souffert, et Dieu l’écoutera.</l>
+                        <l n="34"> Il daignera bénir dans sa douleur constante</l>
+                        <l n="35"> Cette austère vertu qui se fait pénitente ;</l>
+                        <l n="36"> Car elle donne à Dieu son âme et ses trésors :</l>
+                        <l n="37"> Chaste et pure, elle vit dans le deuil des remords ;</l>
+                        <l n="38"> Au dernier rang du peuple elle a voulu descendre ;</l>
+                        <l n="39"> La beauté de son front se cache sous la cendre ;</l>
+                        <l n="40"> Veuve, au pied d’une tombe elle passe ses jours.</l>
+                        <l n="41"> Sa gloire est de pleurer, et de pleurer toujours.</l>
+                        <l n="42"> Pour habiter plus près de cette tombe aimée,</l>
+                        <l n="43"> Dans sa maison des champs elle s’est enfermée ;</l>
+                        <l n="44"> Et c’est là que, livrée à ses amers regrets,</l>
+                        <l n="45"> Elle interroge Dieu sur nos destins secrets.</l>
+                        <l n="46"> Et Dieu pardonnera nos crimes, qu’elle expie ;</l>
+                        <l n="47"> Par sa main innocente il frappera l’Impie.</l>
+                        <l n="48"> À mon âge, le cœur se flatte rarement.</l>
+                        <l n="49"> Va, l’espoir d’un vieillard est un pressentiment :</l>
+                        <l n="50"> Je lis dans nos malheurs un avenir prospère.</l>
+                        <l n="51"> Judith veille sur nous, elle prie... et j’espère !...</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#l’israélite">
+            <speaker> L’ISRAÉLITE, sur le sentier de la colline ; elle tient une amphore dans ses bras. </speaker>
+                        <l n="52"> Viens, mon fils ; tu vivras... béni soit l’Éternel !</l>
+            <stage><em>Elle court vers l’enfant et l’aide à boire dans l’amphore.</em></stage>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, montrant l’Israélite. </speaker>
+                        <l n="53"> Ô puissante vertu de l’amour maternel !</l>
+                        <l n="54"> Tout l’univers s’émeut de ses saintes alarmes ;</l>
+                        <l n="55"> Aux rochers attendris elle arrache des larmes ;</l>
+                        <l n="56"> Le nuage s’entr’ouvre et le granit se fend</l>
+                        <l n="57"> Quand une mère a dit : De l’eau pour mon enfant !</l>
+                </sp>
+        <sp who="#une-jeune-fille">
+            <speaker> LA JEUNE FILLE, à l’Israélite. </speaker>
+                        <l n="58"> Quoi ! vous avez bravé les soldats d’Holopherne ?</l>
+                </sp>
+        <sp who="#l’israélite">
+            <speaker> L’ISRAÉLITE. </speaker>
+                        <l n="59"> Oh ! comme je plongeais mon bras dans la citerne,</l>
+                        <l n="60"> M’effrayant par ses cris, l’un d’eux est accouru.</l>
+                        <l n="61"> Il a saisi son arc sitôt que j’ai paru,</l>
+                        <l n="62"> Et je crois que le trait en passant m’a blessée ;</l>
+                        <l n="63"> Mais, plus rapide encor que la flèche lancée,</l>
+                        <l n="64"> J’ai pu fuir, emportant mon précieux fardeau.</l>
+                </sp>
+        <sp who="#une-jeune-fille">
+            <speaker> LA JEUNE FILLE, voyant une blessure au bras de l’Israélite. </speaker>
+                        <l n="65"> Du sang ! voilà du sang !</l>
+                </sp>
+        <sp who="#l’israélite">
+            <speaker> L’ISRAÉLITE. </speaker>
+                        <l n="66"> Oui !... mais voilà de l’eau !</l>
+                </sp>
+        <sp who="#une-jeune-fille">
+            <speaker> LA JEUNE FILLE, à l’Israélite, lui montrant son père. </speaker>
+                        <l n="67"> C’est mon père... ah ! pitié !</l>
+                </sp>
+        <sp who="#l’israélite">
+            <speaker> L’ISRAÉLITE, lui donnant l’amphore. </speaker>
+                        <l n="68"> Pour lui tu peux la prendre.</l>
+            <stage><em>La jeune fille présente l’amphore au vieillard. Tableau de Rebecca. Horace Vernet.</em></stage>
+                </sp>
+        <sp who="#l’israélite">
+            <speaker> L’ISRAÉLITE. </speaker>
+                        <l n="69"> Le pas des serviteurs déjà se fait entendre.</l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="70"> J’ai reconnu Zelpha, nos tourments vont finir.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, LA JEUNE FILLE, L’ENFANT, L’ISRAÉLITE, ZELPHA, ensuite JUDITH </speaker>
+            <stage><em>Des femmes du peuple et des mendiants viennent de la ville et de la montagne.</em></stage>
+                </sp>
+        <sp who="#zelpha">
+            <speaker> ZELPHA. </speaker>
+                        <l n="71"> C’est l’heure de l’aumône, et Judith va venir.</l>
+            <stage><em>Judith paraît sur la terrasse.</em></stage>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, à sa fille. </speaker>
+                        <l n="72"> Vois cette femme en deuil passer sur la terrasse.</l>
+                        <l n="73"> Faut-il que dans les pleurs tant de beauté s’efface !</l>
+                </sp>
+        <sp who="#zelpha">
+            <speaker> ZELPHA. </speaker>
+                        <l n="74"> Elle vient saluer le lever du soleil.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, du haut de la terrasse. </speaker>
+                        <l n="75"> Ô terre de Jacob, triste et honteux réveil !</l>
+                        <l n="76"> Chaque jour de tes maux je souffre la première,</l>
+                        <l n="77"> Et dès l’aube mes yeux maudissent la lumière,</l>
+                        <l n="78"> En voyant sur ce mont, dans la brume endormi,</l>
+                        <l n="79"> Flotter insolemment l’étendard ennemi !</l>
+                        <l n="80"> Ah ! mon cœur indigné se brise à cette vue</l>
+                        <l n="81"> Mais courage, Israël ! enfin l’heure est venue !</l>
+            <stage><em>Elle descend l’escalier de la terrasse.</em></stage>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="82"> C’est elle ! la voilà ! que ses regards sont doux !</l>
+                </sp>
+        <sp who="#l’israélite">
+            <speaker> L’ISRAÉLITE, à Zelpha. </speaker>
+                        <l n="83"> Quoi ! Judith porte encor le deuil de son époux ?</l>
+                </sp>
+        <sp who="#zelpha">
+            <speaker> ZELPHA. </speaker>
+                        <l n="84"> Depuis plus de trois ans, nuit et jour elle pleure.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="85"> Ô pauvres d’Israël, entrez dans ma demeure ;</l>
+                        <l n="86"> On vous attend toujours dans ce triste palais :</l>
+                        <l n="87"> Tous mes biens sont à vous comme à moi, prenez-les ;</l>
+                        <l n="88"> Mon cœur reconnaissant vous les offre avec joie :</l>
+                        <l n="89"> C’est pour les partager que Dieu me les envoie.</l>
+                        <l n="90"> Ah ! puissé-je longtemps vous les donner ainsi !</l>
+            <stage><em>Apercevant l’Israélite et l’enfant.</em></stage>
+                        <l n="91"> C’est la première fois que je vous vois ici.</l>
+                        <l n="92"> Cher enfant, que de maux éprouvent ta jeune âme !</l>
+                </sp>
+        <sp who="#l’israélite">
+            <speaker> L’ISRAÉLITE. </speaker>
+                        <l n="93"> C’est mon fils. Par pitié, bénissez-le, madame.</l>
+                        <l n="94"> Vos vertus près de Dieu sont des droits infinis :</l>
+                        <l n="95"> Dieu sauve les enfants que vous avez bénis.</l>
+            <stage><em>Judith embrasse l’enfant et le bénit. L’Israélite et les autres mendiants, conduits par les serviteurs de Judith, entrent dans sa maison.</em></stage></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#judith">
+            <speaker> JUDITH, avec inquiétude. </speaker>
+                        <l n="96"> Du camp assyrien a-t-on quelque nouvelle ?</l>
+                </sp>
+        <sp who="#zelpha">
+            <speaker> ZELPHA. </speaker>
+                        <l n="97"> On parle de complots, de haine, de querelle.</l>
+                        <l n="98"> De sa tente Holopherne a renvoyé, dit-on,</l>
+                        <l n="99"> Un de ses alliés, un descendant d’Ammon.</l>
+                        <l n="100"> Dans les bois d’alentour il erre sans asile.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="101"> Qu’a fait dire Osias, gouverneur de la ville ?</l>
+                </sp>
+        <sp who="#zelpha">
+            <speaker> ZELPHA. </speaker>
+                        <l n="102"> Des arrêts du conseil il veut vous informer</l>
+                        <l n="103"> Avant de les signer et de les proclamer.</l>
+                        <l n="104"> Il sait que l’Esprit saint parle en votre sagesse.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="105"> Ah ! mon cœur épuisé succombe à sa tristesse.</l>
+                        <l n="106"> Eh quoi ! nos ennemis de mes pleurs sont jaloux ?</l>
+                        <l n="107"> On me sépare encor de toi, mon jeune époux !</l>
+                        <l n="108"> Zelpha, depuis deux jours sa tombe prisonnière</l>
+                        <l n="109"> Languit sans une larme et sans une prière !...</l>
+                        <l n="110"> L’Impie a pénétré jusqu’en ce triste lieu ;</l>
+                        <l n="111"> L’Impie a traversé la montagne de Dieu !</l>
+                        <l n="112"> Dans nos champs dévastés il a dressé ses tentes ;</l>
+                        <l n="113"> Il plante sur nos tours ses enseignes flottantes.</l>
+                        <l n="114"> Dans le jardin des morts il conduit ses troupeaux,</l>
+                        <l n="115"> Il leur donne à brouter l’herbe de nos tombeaux !</l>
+                        <l n="116"> Il profane la pierre où vont pleurer les veuves.</l>
+                        <l n="117"> Il brûle les moissons, il détourne les fleuves ;</l>
+                        <l n="118"> Il livre tout un peuple aux horreurs de la faim ;</l>
+                        <l n="119"> De la lente agonie interrogeant la fin,</l>
+                        <l n="120"> Il se dit qu’un soldat fier de sa renommée</l>
+                        <l n="121"> Peut défendre vingt jours une ville affamée ;</l>
+                        <l n="122"> Et, paisible, il attend le moment de nous voir</l>
+                        <l n="123"> Tomber à ses genoux, lâches par désespoir.</l>
+                        <l n="124"> Ô douleur !... Mais, Zelpha, quels cris se font entendre ?</l>
+                </sp>
+        <sp who="#zelpha">
+            <speaker> ZELPHA, allant sur la montagne. </speaker>
+                        <l n="125"> À travers les rochers d’ici l’on voit descendre</l>
+                        <l n="126"> Un noble prisonnier par nos soldats conduit.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="127"> Le prince qu’Holopherne a chassé cette nuit...</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#achior">
+            <speaker> ACHIOR. </speaker>
+                        <l n="128"> Soldats, à vos fureurs Holopherne me livre...</l>
+                        <l n="129"> Mais moi, pour me venger, je vous demande à vivre.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="130"> Approchez-vous, seigneur.</l>
+                </sp>
+        <sp who="#achior">
+            <speaker> ACHIOR. </speaker>
+                        <l n="131"> Achior est mon nom.</l>
+                        <l n="132"> Je commande au désert tous les enfants d’Ammon.</l>
+                        <l n="133"> Trahi par Holopherne, à lui rien ne m’enchaîne ;</l>
+                        <l n="134"> Je viens vous apporter le secours de ma haine.</l>
+                        <l n="135"> Dès longtemps ce héros, jaloux de mes exploits,</l>
+                        <l n="136"> Cherchait à m’exiler en usurpant mes droits.</l>
+                        <l n="137"> Hier, dans mes avis retraçant votre histoire,</l>
+                        <l n="138"> Moi seul j’osais douter de sa prompte victoire.</l>
+                        <l n="139"> Je disais du Seigneur les secours bienheureux,</l>
+                        <l n="140"> Je disais que la foi vous rendait dangereux,</l>
+                        <l n="141"> Que votre piété bravait tous les obstacles,</l>
+                        <l n="142"> Et que vous combattiez souvent par des miracles.</l>
+                        <l n="143"> Holopherne à ces mots se prétend offensé :</l>
+                        <l n="144"> « Ah ! dit-il, m’accablant d’un courroux insensé,</l>
+                        <l n="145"> « La foi des Juifs rendra nos succès impossibles !...</l>
+                        <l n="146"> « Va combattre avec eux, puisqu’ils sont invincibles.</l>
+                        <l n="147"> « Ce que promet leur Dieu, tu l’apprendras de nous</l>
+                        <l n="148"> « Dès demain, en tombant le premier sous nos coups. »</l>
+                        <l n="149"> Il commande. À sa voix, hors du camp l’on m’entraîne.</l>
+                        <l n="150"> Je lutte, mais en vain ; mon sang rougit l’arène.</l>
+                        <l n="151"> Au pied d’un térébinthe on attache mes bras,</l>
+                        <l n="152"> Et c’est là que honteux m’ont trouvé vos soldats.</l>
+                        <l n="153"> Je savais votre nom, et j’ai voulu, madame,</l>
+                        <l n="154"> De vous seule obtenir l’honneur que je réclame :</l>
+                        <l n="155"> Faites que l’on m’accueille en ces murs assiégés.</l>
+                        <l n="156"> Je ne craindrai plus rien si vous me protégez.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="157"> Mais comment, vous, seigneur, pouvez-vous me connaître ?</l>
+                </sp>
+        <sp who="#achior">
+            <speaker> ACHIOR. </speaker>
+                        <l n="158"> Madame, bien des fois je vous vis apparaître</l>
+                        <l n="159"> Comme une ombre plaintive à travers les rameaux,</l>
+                        <l n="160"> Quand, suivant Holopherne au jardin des tombeaux,</l>
+                        <l n="161"> J’épiais malgré lui sa douce rêverie.</l>
+                        <l n="162"> Vous veniez honorer une tombe chérie ;</l>
+                        <l n="163"> Et ce maître orgueilleux, pour vous voir tous les jours,</l>
+                        <l n="164"> Des coteaux de Belma franchissait les détours.</l>
+                        <l n="165"> L’indigne, il s’enivrait de l’éclat de vos charmes...</l>
+                        <l n="166"> Peut-être ses regards, sans respect pour vos larmes,</l>
+                        <l n="167"> Auront-ils offensé vos regards inquiets ?</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="168"> Je ne pouvais le voir, Achior ; je priais.</l>
+                </sp>
+        <sp who="#achior">
+            <speaker> ACHIOR. </speaker>
+                        <l n="169"> Depuis ce temps, madame, agité, triste, sombre,</l>
+                        <l n="170"> Il expie, en aimant, ses cruautés sans nombre :</l>
+                        <l n="171"> Il se traîne, il languit, faible et le front baissé,</l>
+                        <l n="172"> Comme un lion mourant qu’une flèche a blessé.</l>
+                        <l n="173"> Cet amour le consume en dépit de lui-même...</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="174"> Vous parlez de vengeance, et vous dites qu’il m’aime ?</l>
+                        <l n="175"> Ô Dieu de Débora ! j’ai compris ce signal,</l>
+                        <l n="176"> J’ai reconnu tes coups dans cet amour fatal !</l>
+                        <l n="177"> Ne peut-on à prix d’or pénétrer dans sa tente ?</l>
+                </sp>
+        <sp who="#achior">
+            <speaker> ACHIOR. </speaker>
+                        <l n="178"> Quoi ! vous voulez... Craignez une lutte imprudente !</l>
+                        <l n="179"> Holopherne sait feindre un amour généreux.</l>
+                        <l n="180"> Un tyran qui veut plaire est toujours dangereux.</l>
+                        <l n="181"> Il est noble, il est jeune, et son courage brille ;</l>
+                        <l n="182"> Meurtrier d’Arphaxad, il a séduit sa fille.</l>
+                        <l n="183"> Il vous faudra braver cette rivalité ;</l>
+                        <l n="184"> Le pouvoir de Phédyme est encor redouté.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="185"> Mais il ne l’aime plus, que puis-je craindre d’elle ?</l>
+                        <l n="186"> Qu’importe un souvenir pour son cœur infidèle ?</l>
+                        <l n="187"> Chez les Assyriens vous avez des amis.</l>
+                </sp>
+        <sp who="#achior">
+            <speaker> ACHIOR. </speaker>
+                        <l n="188"> Mes courageux soldats me sont restés soumis.</l>
+                        <l n="189"> Ah ! si l’on m’a bravé, c’est pendant leur absence.</l>
+                        <l n="190"> Ils reviennent... comptez sur leur obéissance.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="191"> Holopherne a pour lui de nombreux alliés.</l>
+                </sp>
+        <sp who="#achior">
+            <speaker> ACHIOR. </speaker>
+                        <l n="192"> Des rois qu’il a vaincus, jaloux, humiliés,</l>
+                        <l n="193"> Qui regrettent leur cour et le pouvoir suprême,</l>
+                        <l n="194"> Que la vengeance...</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="195"> On vient... C’est Osias lui-même,</l>
+                        <l n="196"> Qui des chefs du conseil doit m’apprendre l’arrêt ;</l>
+                        <l n="197"> Vous, restez, Achior ; mais gardez mon secret.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#judith">
+            <speaker> JUDITH, à Osias. </speaker>
+                        <l n="198"> Ah ! prince, répondez à mon impatience.</l>
+                </sp>
+        <sp who="#achior">
+            <speaker> ACHIOR, voyant qu’Osias hésite à répondre. </speaker>
+                        <l n="199"> Parlez, seigneur, j’ai droit à votre confiance ;</l>
+                        <l n="200"> La haine nous unit contre un tyran cruel,</l>
+                        <l n="201"> Et le Dieu que je sers est le Dieu d’Israël.</l>
+                        <l n="202"> Si le nom d’Achior a quelque renommée...</l>
+                </sp>
+        <sp who="#osias">
+            <speaker> OSIAS. </speaker>
+                        <l n="203"> Des descendants d’Ammon vous commandez l’armée ?</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="204"> Trahi par Holopherne, il vient se joindre à nous.</l>
+                </sp>
+        <sp who="#osias">
+            <speaker> OSIAS. </speaker>
+                        <l n="205"> Israël serait fier d’un soldat tel que vous ;</l>
+                        <l n="206"> Mais, hélas ! nos malheurs ont lassé sa constance ;</l>
+                        <l n="207"> Après un mois d’épreuve, un mois de résistance,</l>
+                        <l n="208"> N’espérant plus en Dieu, le peuple épouvanté</l>
+                        <l n="209"> Veut livrer au vainqueur la mourante cité,</l>
+            <stage><em>Voyant l’indignation de Judith.</em></stage>
+                        <l n="210"> Dans cinq jours, si le ciel... Cet arrêt vous étonne...</l>
+                        <l n="211"> Mais qui peut nous sauver, quand Dieu nous abandonne !</l>
+                        <l n="212"> Béthulie est en proie au courroux des méchants ;</l>
+                        <l n="213"> Ils ont tari le fleuve et dévasté nos champs ;</l>
+                        <l n="214"> La famine en nos murs, spectre horrible, se montre ;</l>
+                        <l n="215"> Le regard indigné de tous cotés rencontre</l>
+                        <l n="216"> Des enfants, des vieillards, dans la nuit, morts de faim ;</l>
+                        <l n="217"> Des frères s’égorgeant pour un lambeau de pain ;</l>
+                        <l n="218"> Des mourants, dans la mort cherchant leur nourriture</l>
+                        <l n="219"> Disputant au chacal sa hideuse pâture ;</l>
+                        <l n="220"> Des insensés, brûlés par leurs désirs ardents,</l>
+                        <l n="221"> Broyant le bois, le fer, le marbre entre leurs dents ;</l>
+                        <l n="222"> Et des monstres enfin, dont nous payons les crimes,</l>
+                        <l n="223"> S’abreuvant aux autels dans le sang des victimes.</l>
+                        <l n="224"> Madame, nos soldats ont subi bravement</l>
+                        <l n="225"> La colère de Dieu jusqu’au dernier moment...</l>
+                        <l n="226"> Mais puisque tant de maux ne l’ont point assouvie,</l>
+                        <l n="227"> Immolant leur honneur, sauvons du moins leur vie !</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="228"> Quoi ! vous fixez à Dieu le temps de son courroux !</l>
+                        <l n="229"> Vous réglez sa vengeance et vous comptez ses coups !</l>
+                        <l n="230"> Par un mois de douleurs vous vous laissez abattre ;</l>
+                        <l n="231"> Vous êtes tous armés... et vous n’osez combattre !</l>
+                        <l n="232"> Et vous imaginez, pour unique secours,</l>
+                        <l n="233"> D’aller à l’ennemi vous rendre dans cinq jours !</l>
+                        <l n="234"> Pour une goutte d’eau qui manque dans l’amphore,</l>
+                        <l n="235"> Vous vendez Béthulie au tyran qu’elle abhorre ;</l>
+                        <l n="236"> Et vous croyez signer ce pacte impunément ?</l>
+                        <l n="237"> Mais, si vous consentiez à cet abaissement,</l>
+                        <l n="238"> Vous seriez, au seul bruit de ces décrets infâmes,</l>
+                        <l n="239"> Maudits par les vieillards et chassés par les femmes !</l>
+                        <l n="240"> Nous sommes faibles, nous, mais nous savons souffrir ;</l>
+                        <l n="241"> Nous ne combattons pas, mais nous savons mourir !</l>
+                        <l n="242"> Oui, nous bravons la mort par crainte de l’outrage,</l>
+                        <l n="243"> Une sainte pudeur nous tient lieu de courage.</l>
+                        <l n="244"> Terribles, nous saurions, de nos débiles mains,</l>
+                        <l n="245"> Transporter sur nos toits les dalles des chemins,</l>
+                        <l n="246"> Et laissant l’ennemi s’avancer sans refuge,</l>
+                        <l n="247"> L’écraser tout à coup sous un pesant déluge.</l>
+                        <l n="248"> La victoire est un don qui nous vient du Seigneur ;</l>
+                        <l n="249"> Mais lutter sans espoir, voilà, voilà l’honneur !</l>
+                        <l n="250"> Il est beau de périr dans sa ville assiégée,</l>
+                        <l n="251"> Et de la voir du moins par sa chute vengée ;</l>
+                        <l n="252"> Car dans ses murs croulants il ne doit rien rester.</l>
+                        <l n="253"> C’est vaincre l’ennemi que le déshériter.</l>
+                        <l n="254"> Sur sa ruine en deuil un nom grandit encore,</l>
+                        <l n="255"> Le lierre est un linceul dont la misère honore ;</l>
+                        <l n="256"> Et le Seigneur préfère un glorieux débris</l>
+                        <l n="257"> Aux palais qu’ont sauvés la honte et le mépris.</l>
+                </sp>
+        <sp who="#osias">
+            <speaker> OSIAS. </speaker>
+                        <l n="258"> Une noble fierté dans son courroux respire ;</l>
+                        <l n="259"> Voyez, son front rayonne, et le Seigneur l’inspire !</l>
+                        <l n="260"> D’un orgueil inconnu son cœur semble oppressé,</l>
+                        <l n="261"> Et le souille de Dieu sur sa tête a passé.</l>
+            <stage><em>Le tonnerre gronde, les éclairs sillonnent la montagne.</em></stage>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="262"> Sinaï ! Sinaï ! je vois briller tes flammes !...</l>
+                        <l n="263"> Le Seigneur me choisit entre toutes les femmes.</l>
+                        <l n="264"> Il ouvre devant moi le livre des destins...</l>
+                        <l n="265"> Il a jeté mon nom dans les siècles lointains !</l>
+                        <l n="266"> Il commande... sa voix me parle dans l’orage...</l>
+                        <l n="267"> Qu’entends-je ! Ah ! cet effort surpasse mon courage.</l>
+            <stage><em>Le tonnerre gronde.</em></stage>
+                        <l n="268"> Quoi ! seule... dans son camp, Seigneur !... Seigneur, j’irai.</l>
+            <stage><em>L’orage redouble.</em></stage>
+                        <l n="269"> Prendre un glaive... et frapper ! Seigneur... je frapperai !</l>
+                        <l n="270"> Je frapperai !... David me prêtera son glaive !</l>
+                        <l n="271"> Au rang de ses soldats le Tout-Puissant m’élève ;</l>
+                        <l n="272"> Il m’a montré celui que mon bras doit punir...</l>
+                        <l n="273"> Des enfants d’Israël il m’a dit l’avenir...</l>
+                        <l n="274"> Tes guerriers, tous armés, ont parlé de se rendre,</l>
+                        <l n="275"> Ô Béthulie !... Eh bien, Judith va te défendre...</l>
+                        <l n="276"> Judith pendant trois ans n’a pas souffert en vain ;</l>
+                        <l n="277"> Ses cris sont parvenus jusqu’au trône divin...</l>
+                        <l n="278"> À force de tourments, sa jeune âme aguerrie</l>
+                        <l n="279"> A mérité l’honneur de sauver sa patrie !...</l>
+                        <l n="280"> Mes femmes, ôtez-moi ce vêtement de deuil...</l>
+                        <l n="281"> Dieu m’ordonne l’éclat, Dieu me permet l’orgueil.</l>
+                        <l n="282"> Rendez-moi ces manteaux, ces longs tissus de soie,</l>
+                        <l n="283"> Que je portais, hélas ! au beau temps de ma joie ;</l>
+                        <l n="284"> Ces colliers, ces bandeaux, cette couronne d’or,</l>
+                        <l n="285"> Chers présents d’un époux, triste et brillant trésor ;</l>
+                        <l n="286"> Donnez, je vais combattre, et c’est là mon armure ;</l>
+                        <l n="287"> Puis, quand j’aurai vaincu, jetant cette parure,</l>
+                        <l n="288"> Je reprendrai ce deuil que je vais abjurer.</l>
+                        <l n="289"> Israël sera libre... et je pourrai pleurer.</l>
+            <stage><em>Les servantes de Judith descendant l’escalier de sa maison apportent dans des corbeilles d’or de riches vêtements, des voiles, des manteaux brodés ; et sur des coussins de pourpre des bijoux et des couronnes de pierreries. Judith contemple ces parures avec douleur.</em></stage>
+                </sp>
+        <sp who="#osias">
+            <speaker> OSIAS. </speaker>
+                        <l n="290"> Mais pourquoi tout à coup quitter un deuil austère ?</l>
+                </sp>
+        <sp who="#achior">
+            <speaker> ACHIOR. </speaker>
+                        <l n="291"> Elle obéit à Dieu, respectons ce mystère.</l>
+                </sp>
+        <sp who="#osias">
+            <speaker> OSIAS. </speaker>
+                        <l n="292"> Sans oser soupçonner sa vertu ni sa foi,</l>
+                        <l n="293"> Du péril qui l’attend je frémis malgré moi.</l>
+                        <l n="294"> Et qui va la conduire à travers la montagne ?</l>
+                </sp>
+        <sp who="#achior">
+            <speaker> ACHIOR. </speaker>
+                        <l n="295"> Moi, je serai son guide, et Zelpha l’accompagne ;</l>
+                        <l n="296"> Nous nous séparerons au détour des rochers,</l>
+                        <l n="297"> Et de là j’irai seul rejoindre mes archers.</l>
+                </sp>
+        <sp who="#zelpha">
+            <speaker> ZELPHA, à Judith. </speaker>
+                        <l n="298"> Voici la robe d’or et la tunique sainte,</l>
+                        <l n="299"> Les longs manteaux d’azur, de pourpre et d’hyacinthe.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="300"> Oh ! comme une parure est triste dans les pleurs !</l>
+                        <l n="301"> Que mes yeux sont blessés de ces riches couleurs !</l>
+                        <l n="302"> Pourquoi de tant d’éclat environner ma tête ?</l>
+                        <l n="303"> Moi, quitter un tombeau pour une indigne fête !</l>
+                        <l n="304"> Pour charmer des regards dont il serait jaloux,</l>
+                        <l n="305"> Me parer, sans pudeur, des dons de mon époux !</l>
+                        <l n="306"> Moi, faire à sa mémoire une cruelle injure !</l>
+                        <l n="307"> Flétrir si lâchement une douleur si pure !</l>
+                        <l n="308"> Et démentir ainsi par l’oubli d’un seul jour</l>
+                        <l n="309"> Trois ans de désespoir, de misère et d’amour !...</l>
+                        <l n="310"> Mais que dis-je ?... Israël ! c’est toi seul qu’on offense,</l>
+                        <l n="311"> Je veux briller un jour... mais c’est pour ta défense.</l>
+                        <l n="312"> Oui, je veux me parer d’un éclat emprunté.</l>
+                        <l n="313"> Dieu puissant ! donnez-moi l’arme de la beauté ;</l>
+                        <l n="314"> Donnez à ces bijoux l’éclat de vos étoiles ;</l>
+                        <l n="315"> De parfums enivrants baignez ces chastes voiles ;</l>
+                        <l n="316"> Chargez d’anneaux la main qui doit tenir le fer,</l>
+                        <l n="317"> Livrez-moi les secrets du ciel et de l’enfer ;</l>
+                        <l n="318"> Faites-moi posséder, par un affreux mélange,</l>
+                        <l n="319"> L’astuce du démon et la candeur de l’ange ;</l>
+                        <l n="320"> Donnez-moi cet attrait, ce prestige du mal,</l>
+                        <l n="321"> Que vous avez donnés à tout être fatal,</l>
+                        <l n="322"> À la gloire, à l’abîme, aux fantômes des songes,</l>
+                        <l n="323"> À tous les grands dangers, à tous les beaux mensonges ;</l>
+                        <l n="324"> Ce funeste pouvoir, hélas ! toujours vainqueur,</l>
+                        <l n="325"> Qui charme la pensée en torturant le cœur.</l>
+                        <l n="326"> Un seul jour, prêtez-moi la couronne éternelle.</l>
+                        <l n="327"> Pour plaire par la haine il faut être si belle !...</l>
+                        <l n="328"> Et vous, peuple, soldats, secondez mon espoir.</l>
+                        <l n="329"> Accomplissez enfin un sublime devoir.</l>
+                        <l n="330"> Défendez avec moi cette cité chérie...</l>
+                        <l n="331"> Oh ! je vous apprendrai l’amour de la patrie !</l>
+                        <l n="332"> Le plus saint des amours... La patrie est le lieu</l>
+                        <l n="333"> Où l’on aima sa mère, où l’on connut son Dieu ;</l>
+                        <l n="334"> Où naissent les enfants dans la chaste demeure ;</l>
+                        <l n="335"> Où sont tous les tombeaux des êtres que l’on pleure.</l>
+                        <l n="336"> En vain l’on nous condamne à n’y plus revenir,</l>
+                        <l n="337"> Notre pieux instinct l’habite en souvenir.</l>
+                        <l n="338"> Nous l’aimons, malgré tout, même injuste et cruelle,</l>
+                        <l n="339"> Et pour ce noble amour il n’est point d’infidèle.</l>
+                        <l n="340"> La haïr dans l’exil, c’est l’impossible effort ;</l>
+                        <l n="341"> Proscrit, nous revenons lui demander la mort,</l>
+                        <l n="342"> Et nous mourons joyeux, si l’ingrate contrée</l>
+                        <l n="343"> Daigne garder nos os dans sa terre sacrée !...</l>
+                        <l n="344"> Ah ! ne repoussez pas des sentiments si beaux,</l>
+                        <l n="345"> Défendez vos autels, défendez nos tombeaux.</l>
+                        <l n="346"> Donnez aux nations un éternel exemple...</l>
+                        <l n="347"> Soldats, peuple, aux remparts ! Et vous, femmes, au temple !</l>
+            <stage><em>Les soldats agitent leurs armes. Les femmes se prosternent. La toile tombe.</em></stage></div></div>
+           <div type="act" xml:id="2">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#pharès">
+            <speaker> PHARÈS. </speaker>
+                        <l n="348"> Le prince va venir, et vous pourrez le voir.</l>
+                        <l n="349"> Aujourd’hui, triomphant d’un sombre désespoir,</l>
+                        <l n="350"> Madame, il daigne enfin se montrer à l’armée,</l>
+                        <l n="351"> Et reprendre au conseil sa place accoutumée.</l>
+                        <l n="352"> Mais, déjà fatigué de ces rudes travaux,</l>
+                        <l n="353"> Il semble s’opposer à nos succès nouveaux,</l>
+                        <l n="354"> Et le mot de combat l’inquiète et l’irrite.</l>
+                        <l n="355"> Est-ce bien Holopherne !</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME. </speaker>
+                        <l n="356"> Il me craint, il m’évite.</l>
+                        <l n="357"> Je n’ose lui parler. Pharès, quel changement !</l>
+                        <l n="358"> Cet amour a détruit mon règne en un moment.</l>
+                        <l n="359"> Mais la connaissez-vous, cette femme si belle ?</l>
+                </sp>
+        <sp who="#pharès">
+            <speaker> PHARÈS. </speaker>
+                        <l n="360"> Je sais que les Hébreux s’inclinent devant elle,</l>
+                        <l n="361"> Que dans tout Israël son nom est révéré,</l>
+                        <l n="362"> Que, sévère, elle parle un langage inspiré ;</l>
+                        <l n="363"> Et, ranimant l’ardeur des croyances antiques,</l>
+                        <l n="364"> Fascine les esprits par ses dons prophétiques.</l>
+                        <l n="365"> Mais un avis secret m’alarme avec raison :</l>
+                        <l n="366"> Achior est, dit-on, caché dans sa maison.</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME. </speaker>
+                        <l n="367"> Qu’entends-je ? Malheureuse ! Achior est un traître !</l>
+                        <l n="368"> Il a parlé... Judith sait qu’on l’aime... et peut-être...</l>
+                </sp>
+        <sp who="#pharès">
+            <speaker> PHARÈS. </speaker>
+                        <l n="369"> On dit plus... Cet avis par Mindus m’est donné :</l>
+                        <l n="370"> On prétend qu’elle vient...</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME. </speaker>
+                        <l n="371"> Je l’avais deviné !</l>
+                </sp>
+        <sp who="#pharès">
+            <speaker> PHARÈS. </speaker>
+                        <l n="372"> Gardez-vous de montrer quel intérêt vous guide</l>
+                        <l n="373"> Laissez-nous démasquer cette femme perfide,</l>
+                        <l n="374"> Laissez-nous la combattre, et cachez vos douleurs.</l>
+                        <l n="375"> Le prince...</l>
+                </sp>
+        <sp who="#thédyme">
+            <speaker> THÉDYME. </speaker>
+                        <l n="376"> Ah ! je pressens d’effroyables malheurs !</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, avec une tristesse amère, après avoir donné son casque et son bouclier à Nassar. </speaker>
+                        <l n="377"> Quoi ! toujours des combats, toujours le bruit des armes !</l>
+                        <l n="378"> Autrefois ces périls avaient pour moi des charmes ;</l>
+                        <l n="379"> Mais tant de vains exploits ont lassé mes désirs.</l>
+                        <l n="380"> Je me prends à rêver à de plus doux plaisirs.</l>
+                        <l n="381"> Oh ! j’envie en leur sort ces rois de l’Idumée :</l>
+                        <l n="382"> Dans un calme horizon leur vie est enfermée ;</l>
+                        <l n="383"> Ils passent leurs beaux jours, dans un riant repos,</l>
+                        <l n="384"> À rentrer leurs moissons, à compter leurs troupeaux ;</l>
+                        <l n="385"> Et quand la gerbe est lourde et la vigne abondante,</l>
+                        <l n="386"> Ils couronnent de lis leur tête indépendante,</l>
+                        <l n="387"> Et vont, du vieux Liban franchissant les hauteurs,</l>
+                        <l n="388"> Offrir un sacrifice au Dieu des rois pasteurs.</l>
+                        <l n="389"> Ils ont dans leurs sujets une famille unie,</l>
+                        <l n="390"> Et jamais un sang pur ne teint leur main bénie.</l>
+                        <l n="391"> La puissance n’est pas un châtiment pour eux ;</l>
+                        <l n="392"> Leur force est d’être aimés, leur gloire d’être heureux,</l>
+                        <l n="393"> Oh ! pourquoi venons-nous troubler leur douce vie ?</l>
+                        <l n="394"> Ils tremblent à mon nom, et moi je les envie !</l>
+            <stage><em>Avec dureté à Nassar, qui attend ses ordres.</em></stage>
+                        <l n="395"> Le chef des Lydiens, l’avez-vous averti ?</l>
+                        <l n="396"> Viendra-t-il au conseil ?</l>
+                </sp>
+        <sp who="#nassar">
+            <speaker> NASSAR. </speaker>
+                        <l n="397"> Seigneur, il est parti.</l>
+                        <l n="398"> À Damas vous l’avez envoyé... Je m’étonne...</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, à part. </speaker>
+                        <l n="399"> Je ne me souviens plus des ordres que je donne.</l>
+                        <l n="400"> Insensé !</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME, à Pharès. </speaker>
+                        <l n="401"> Que d’amour dans cet égarement !</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, à part. </speaker>
+                        <l n="402"> Quel arrêt a changé mon sort si promptement ?...</l>
+                        <l n="403"> Une femme, pour moi, ce n’était qu’une esclave ;</l>
+                        <l n="404"> L’amour... un vain pouvoir qui plaît ou que l’on brave.</l>
+                        <l n="405"> Quelle est donc cette ardeur que je ne puis dompter ?</l>
+                        <l n="406"> Est-ce un destin fatal qu’il me faut redouter ?</l>
+                        <l n="407"> Est-ce un bonheur qui doit me détourner du crime ?</l>
+                        <l n="408"> Suis-je ici le sauveur, ou suis-je la victime ?</l>
+                        <l n="409"> Judith !... Judith !... Pourquoi tant de trouble à ce nom ?...</l>
+                        <l n="410"> Est-ce un cri de vengeance ?... Est-ce un mot de pardon ?</l>
+                </sp>
+        <sp who="#nassar">
+            <speaker> NASSAR. </speaker>
+                        <l n="411"> Une Juive, seigneur, vient d’entrer dans la tente :</l>
+                        <l n="412"> Son maintien noble et fier, sa parure éclatante</l>
+                        <l n="413"> Attirent les regards. Seigneur, elle voudrait</l>
+                        <l n="414"> En faveur d’Israël vous parler en secret.</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME, à part. </speaker>
+                        <l n="415"> Un horrible soupçon a traversé mon âme.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, à part. </speaker>
+                        <l n="416"> Je n’ose demander le nom de cette femme.</l>
+            <stage><em>Haut.</em></stage>
+                        <l n="417"> Dites-lui de venir, je consens à la voir.</l>
+            <stage><em>À part.</em></stage>
+                        <l n="418"> Malgré moi je frémis d’un impossible espoir.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, à part. </speaker>
+                        <l n="419"> C’est elle !</l>
+                </sp>
+        <sp who="#pharès">
+            <speaker> PHARÈS, à Phédyme. </speaker>
+                        <l n="420"> La voilà !</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME, regardant Holopherne. </speaker>
+                        <l n="421"> Comme il tremble à sa vue !</l>
+                        <l n="422"> À son trouble. Pharès, je l’aurais reconnue.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, s’inclinant devant Holopherne. </speaker>
+                        <l n="423"> Honneur à vous, seigneur.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, à part. </speaker>
+                        <l n="424"> Qu’elle est douce, sa voix !</l>
+                        <l n="425"> Je l’entends aujourd’hui pour la première fois.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="426"> Du plus grand des héros j’implore la puissance.</l>
+                        <l n="427"> Je me nomme Judith. J’ai droit par ma naissance</l>
+                        <l n="428"> D’attendre un noble accueil d’un prince tel que vous.</l>
+                        <l n="429"> Je possède ces biens dont le monde est jaloux.</l>
+                        <l n="430"> D’innombrables troupeaux paissent dans mes campagnes.</l>
+                        <l n="431"> Mon père, Merari, m’a légué dix montagnes</l>
+                        <l n="432"> Couvertes d’oliviers, de pampres, de palmiers.</l>
+                        <l n="433"> Mes esclaves adroits partout sont les premiers.</l>
+                        <l n="434"> On compte mes moissons par des milliers de gerbes.</l>
+                        <l n="435"> Dans toutes nos cités j’ai des palais superbes,</l>
+                        <l n="436"> Des jardins renommés, des trésors précieux,</l>
+                        <l n="437"> Et, fille d’Israël, ses rois sont mes aïeux.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="438"> Parlez, qu’exigez-vous ?</l>
+            <stage><em>Pharès et Phédyme se retirent dans le fond de la tente.</em></stage>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="439"> Ici le ciel m’envoie.</l>
+                        <l n="440"> Aux plus cruels tourments les Hébreux sont en proie ;</l>
+                        <l n="441"> Ils ont, dans leurs dédains, profané le saint lieu,</l>
+                        <l n="442"> Par leurs crimes d’orgueil ils ont offensé Dieu...</l>
+                        <l n="443"> Et Dieu les a maudits. Pour venger son injure,</l>
+                        <l n="444"> Je vous les livrerai dès demain, je le jure,</l>
+                        <l n="445"> Si vous lui promettez de respecter leurs jours,</l>
+                        <l n="446"> Et d’affranchir le fleuve en lui rendant son cours.</l>
+                        <l n="447"> Le Seigneur, les sauvant pour prix de leur courage,</l>
+                        <l n="448"> Veut punir leur orgueil par un dur esclavage.</l>
+                        <l n="449"> Et c’est vous qu’il choisit, dans sa sévérité,</l>
+                        <l n="450"> Pour donner plus d’éclat à leur captivité.</l>
+                        <l n="451"> C’est vous qui deviendrez leur vainqueur et leur maître.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="452"> Mais le secret de vaincre ?...</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="453"> Il vous l’a fait connaître.</l>
+                        <l n="454"> Si vous lui promettez...</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="455"> De lui je n’attends rien,</l>
+                        <l n="456"> Et ce Dieu redoutable est l’ennemi du mien.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="457"> Il est puissant, il sait quel tourment nous oppresse...</l>
+                        <l n="458"> Il pénètre nos vœux... nos rêves de tendresse...</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="459"> Eh quoi !... connaîtrait-il celle que j’ose aimer ?</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="460"> Permettez-moi, seigneur, de ne la pas nommer.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="461"> Ah ! madame ! à vos lois heureux de me soumettre,</l>
+                        <l n="462"> Pour le salut des Juifs je puis tout vous promettre ;</l>
+                        <l n="463"> On m’attend au conseil : j’y vais parler pour eux,</l>
+                        <l n="464"> J’ai bien acquis le droit d’être un jour généreux.</l>
+            <stage><em>Il sort en donnant des ordres à Nassar. Pharès le suit.</em></stage></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#judith">
+            <speaker> JUDITH, à Zelpha. </speaker>
+                        <l n="465"> Zelpha, par cet accueil mon espoir se ranime ;</l>
+                        <l n="466"> Et demain...</l>
+                </sp>
+        <sp who="#zelpha">
+            <speaker> ZELPHA. </speaker>
+                        <l n="467"> On nous suit, madame.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, à part. </speaker>
+                        <l n="468"> C’est Phédyme !</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME, s’approchant de Judith. </speaker>
+                        <l n="469"> Tu ne m’abuses point par ta feinte douceur,</l>
+                        <l n="470"> Et j’ai de tes projets dévoilé la noirceur.</l>
+                        <l n="471"> En vain à les cacher ta ruse s’étudie.</l>
+                        <l n="472"> Des filles d’Israël on sait la perfidie,</l>
+                        <l n="473"> On sait de quel sommeil on dort entre leurs bras.</l>
+                </sp>
+        <sp who="#zelpha">
+            <speaker> ZELPHA. </speaker>
+                        <l n="474"> Les filles d’Israël !...</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, à Zelpha. </speaker>
+                        <l n="475"> Ne lui parle donc pas.</l>
+            <stage><em>Elle veut sortir.</em></stage>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME, l’arrêtant par le bras. </speaker>
+                        <l n="476"> Ah ! malgré ton orgueil, malgré ton insolence,</l>
+                        <l n="477"> Je te forcerai bien à rompre le silence.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, détachant la chaîne qui entoure son bras, à Zelpha. </speaker>
+                        <l n="478"> Tiens, jette cette chaîne aux pauvres du chemin :</l>
+                        <l n="479"> Judith ne peut porter ce qu’a touché sa main.</l>
+            <stage><em>Zelpha jette la chaîne par la fenêtre.</em></stage>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME. </speaker>
+                        <l n="480"> Exhale tes mépris ; je brave tant d’audace,</l>
+                        <l n="481"> Et souris à mon tour du coup qui te menace.</l>
+                        <l n="482"> Contre toi tout le camp vient de se déclarer.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, à part, revenant sur ses pas. </speaker>
+                        <l n="483"> Sa haine est indiscrète, elle peut m’éclairer...</l>
+                        <l n="484"> Restons.</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME. </speaker>
+                        <l n="485"> Judith n’est pas une femme inconnue.</l>
+                        <l n="486"> On s’émeut à sa voix, on tremble à sa venue.</l>
+                        <l n="487"> Israël se soumet à sa haute raison.</l>
+                        <l n="488"> Le conseil des anciens s’assemble en sa maison ;</l>
+                        <l n="489"> Sa demeure est sacrée, et si quelque transfuge</l>
+                        <l n="490"> Lui porte nos secrets, il y trouve un refuge.</l>
+                        <l n="491"> Au perfide Achior elle offre son appui ;</l>
+                        <l n="492"> Elle sert sa vengeance et conspire avec lui.</l>
+                        <l n="493"> C’est pourquoi, renonçant à l’appareil funèbre</l>
+                        <l n="494"> Du pompeux désespoir qui la rendait célèbre,</l>
+                        <l n="495"> Elle a fait succéder le sourire aux douleurs,</l>
+                        <l n="496"> L’éclat de sa parure au faste de ses pleurs.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, vivement. </speaker>
+                        <l n="497"> Il vous sied d’insulter aux larmes d’une épouse !</l>
+                        <l n="498"> Ln si long désespoir doit vous rendre jalouse ;</l>
+                        <l n="499"> À pleurer vos parents vous mettez moins d’orgueil,</l>
+                        <l n="500"> Et c’est chez leur bourreau que vous portez leur deuil.</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME. </speaker>
+                        <l n="501"> Enfin !... j’ai su trouver une arme qui la blesse !</l>
+                        <l n="502"> Mais tu ne me fais point rougir de ma faiblesse.</l>
+                        <l n="503"> Oui, j’aime ce héros que toi seule as dompté,</l>
+                        <l n="504"> Et lu me paieras cher son infidélité !</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="505"> Eh ! madame, c’est là le moindre de ses crimes.</l>
+                        <l n="506"> Votre père et vos sœurs sont tombés ses victimes ;</l>
+                        <l n="507"> Il vous est apparu tout couvert de leur sang.</l>
+                        <l n="508"> Il vous a tout ravi, patrie, honneur et rang ;</l>
+                        <l n="509"> Dans vos propres États, de ravage en ravage,</l>
+                        <l n="510"> À son char il vous a traînée en esclavage,</l>
+                        <l n="511"> Jouissant d’un affront lentement dévoré ;</l>
+                        <l n="512"> Et, pour prix de ces soins, vous l’avez adoré.</l>
+                        <l n="513"> Voilà par quels bienfaits il a touché votre âme !</l>
+                        <l n="514"> S’il vous trompe aujourd’hui, c’est peut-être, madame,</l>
+                        <l n="515"> Que de votre constance épuisant le trésor,</l>
+                        <l n="516"> Par un crime de plus il veut vous plaire encor.</l>
+                        <l n="517"> Sa cruauté vous charme ! et bien loin de vous nuire,</l>
+                        <l n="518"> En le rendant coupable on l’aide à vous séduire.</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME. </speaker>
+                        <l n="519"> Elle ose m’accuser d’oublier nos malheurs !</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="520"> Ne m’avez-vous pas fait un crime de mes pleurs ?</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME. </speaker>
+                        <l n="521"> Ah ! c’est trop prolonger une lutte inégale ;</l>
+                        <l n="522"> Tu vas voir si je suis une faible rivale.</l>
+                        <l n="523"> Tout le camp d’Holopherne à mon ordre est soumis.</l>
+                        <l n="524"> J’ai pour moi ses soldats, ses gardes, ses amis,</l>
+                        <l n="525"> Ses flatteurs, et sa cour à me suivre empressée ;</l>
+                        <l n="526"> J’ai presque son pouvoir.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="527"> Mais, moi, j’ai sa pensée.</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME. </speaker>
+                        <l n="528"> Je règne dans ce camp, ta le sauras bientôt.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="529"> Ce soir tu l’auras fui, je n’aurai dit qu’un mot.</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME. </speaker>
+                        <l n="530"> Espion des Hébreux, je saurai te confondre,</l>
+                        <l n="531"> Aux soupçons d’Holopherne il te faudra répondre ;</l>
+                        <l n="532"> Tu ne t’attendais pas, en venant aujourd’hui,</l>
+                        <l n="533"> À trouver tant d’amour entre ta haine et lui ;</l>
+                        <l n="534"> Mais à tes lâches coups la victime est ravie ;</l>
+                        <l n="535"> Pour le frapper, Judith, il faut prendre ma vie :</l>
+                        <l n="536"> Car je suis son égide et son armure !... Adieu.</l>
+            <stage><em>Elle sort.</em></stage>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="537"> Armure de l’impie... et moi... glaive de Dieu !</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#zelpha">
+            <speaker> ZELPHA. </speaker>
+                        <l n="538"> Madame, de vos plans la ruse est découverte.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="539"> Prévenons Achior pour conjurer sa perte ;</l>
+                        <l n="540"> Dis-lui qu’on nous surveille, et qu’il parte à l’instant.</l>
+                        <l n="541"> Va vite lui donner cet avis important.</l>
+            <stage><em>Zelpha sort.</em></stage>
+                        <l n="542"> Le destin d’Israël dépend de mon adresse ;</l>
+                        <l n="543"> C’en est fait... d’Holopherne éprouvons la tendresse.</l>
+                        <l n="544"> Sur son cœur inconstant sans crainte il faut agir...</l>
+                        <l n="545"> Il faut lui plaire... hélas !... et plaire, c’est rougir !</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="546"> Du conseil j’ai changé la volonté cruelle :</l>
+                        <l n="547"> Je viens vous apporter cette heureuse nouvelle.</l>
+                        <l n="548"> Vous triomphez, madame, et d’un supplice affreux</l>
+                        <l n="549"> Votre seule prière a sauvé les Hébreux.</l>
+                        <l n="550"> L’aqueduc relevé leur rendra l’eau du fleuve.</l>
+                        <l n="551"> De ma soumission faut-il une autre preuve ?</l>
+                        <l n="552"> Ce soir, en leur faveur, je vais écrire au roi,</l>
+                        <l n="553"> Et je sais réussir quand j’engage ma foi.</l>
+                        <l n="554"> Vous demandez pour eux la vie et l’esclavage.</l>
+                        <l n="555"> Je veux en votre nom leur offrir davantage,</l>
+                        <l n="556"> En obtenant pour eux aussi la liberté.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, à part. </speaker>
+                        <l n="557"> Il feint habilement la générosité.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="558"> Jaloux de mériter votre reconnaissance,</l>
+                        <l n="559"> Pour la première fois je chéris ma puissance ;</l>
+                        <l n="560"> Je révoque avec joie un ordre rigoureux,</l>
+                        <l n="561"> Et je ne voudrais voir ici que des heureux.</l>
+                        <l n="562"> De mon amour, Judith, vous pouvez tout attendre.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, à part. </speaker>
+                        <l n="563"> Quel langage, seigneur ! est-ce à moi de l’entendre ?</l>
+            <stage><em>Haut.</em></stage>
+                        <l n="564"> De si beaux sentiments sont dignes d’un vainqueur.</l>
+                        <l n="565"> La gloire est confiante, elle ennoblit le cœur.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="566"> La gloire ! dites-vous ; oh ! non, ce n’est pas elle :</l>
+                        <l n="567"> Son bonheur est amer, son ivresse est cruelle ;</l>
+                        <l n="568"> Par ses vaincs grandeurs on n’est point corrigé...</l>
+                        <l n="569"> Mais j’aime... et par l’amour tout mon cœur est changé.</l>
+                        <l n="570"> Comme un crime orgueilleux je maudis cette gloire.</l>
+                        <l n="571"> Je hais le sang versé qui donne la victoire ;</l>
+                        <l n="572"> Aux lois de la pitié dans mes rêves soumis,</l>
+                        <l n="573"> Je voudrais pardonner à tous mes ennemis.</l>
+                        <l n="574"> Un règne bienfaisant dans mon destin commence.</l>
+                        <l n="575"> Oui, j’aime, et par l’amour j’ai compris la clémence.</l>
+                        <l n="576"> Ah ! pour moi, cet amour est un songe si beau !</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, à part. </speaker>
+                        <l n="577"> Ô profane bonheur rêvé sur un tombeau !</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="578"> Que de fois, pénétrant dans la funèbre enceinte,</l>
+                        <l n="579"> Je vous vis à genoux près d’une tombe sainte !</l>
+                        <l n="580"> Tremblant, je vous suivais dans l’ombre des sentiers ;</l>
+                        <l n="581"> Et seul je restais là des jours, des jours entiers,</l>
+                        <l n="582"> À nourrir mes regards de votre douce image,</l>
+                        <l n="583"> À vous rendre en secret un inutile hommage,</l>
+                        <l n="584"> Triste des vains désirs qu’il fallait réprimer,</l>
+                        <l n="585"> Mais heureux de vous voir et fier de vous aimer.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, à part. </speaker>
+                        <l n="586"> Écouter ces aveux, c’est s’abaisser au crime ;</l>
+                        <l n="587"> Mais il faut qu’elle parte... Ah ! Phédyme !... Phédyme !...</l>
+            <stage><em>Haut.</em></stage>
+                        <l n="588"> Eh quoi ! de votre absence on ne s’alarmait pas ?...</l>
+                        <l n="589"> Nul regard inquiet ne surveillait vos pas ?</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="590"> Je suis libre, Judith, aucun nœud ne m’enchaîne.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="591"> Mais une femme ici commande en souveraine !</l>
+                        <l n="592"> Elle est belle, seigneur...</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, vivement. </speaker>
+                        <l n="593"> Oh ! moins belle que toi.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="594"> C’est votre esclave.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="595"> Oui ; c’est la fille d’un roi</l>
+                        <l n="596"> Que nous avons vaincu.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="597"> C’est votre prisonnière !</l>
+                        <l n="598"> L’esclavage est cruel pour une âme si fière.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="599"> Sans doute elle est à plaindre.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="600"> Ah ! vous l’aimiez, alors ?</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="601"> Non... j’aimais à combattre, à vaincre ses remords.</l>
+                        <l n="602"> À parer noblement ma marche triomphale</l>
+                        <l n="603"> Des superbes langueurs d’une esclave royale ;</l>
+                        <l n="604"> Je me plaisais à voir se changer chaque jour</l>
+                        <l n="605"> Son dédain en sourire et sa haine en amour ;</l>
+                        <l n="606"> Mais je n’éprouvais pas de tendresse pour elle,</l>
+                        <l n="607"> Et je puis l’oublier sans me croire infidèle.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="608"> Je ne sais... mais je crains son orgueil irrité.</l>
+                        <l n="609"> Seigneur... accordez-moi...</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="610"> Parle.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="611"> Sa liberté.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="612"> Sa liberté ! Pourquoi ? Ce caprice m’étonne.</l>
+                        <l n="613"> C’est ton esclave aussi, prends-la, je te la donne.</l>
+                        <l n="614"> Tu peux la renvoyer ou la vendre à ton gré.</l>
+                        <l n="615"> Dispose de son sort, à tout je souscrirai.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="616"> Il n’appartient qu’à vous de lui parler en maître.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="617"> Ah ! tu veux commander sans te faire connaître ?</l>
+                        <l n="618"> Soit ; je porterai seul les rigueurs du pouvoir.</l>
+                        <l n="619"> Demain je lui dirai...</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="620"> Demain ?</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="621"> Eh bien ! ce soir.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, à part. </speaker>
+                        <l n="622"> Ce soir !</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="623"> Plaire à Judith est ma plus douce étude,</l>
+                        <l n="624"> Et je suis trop flatté de son inquiétude</l>
+                        <l n="625"> Pour ne pas obéir dès qu’elle ordonnera.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, à part. </speaker>
+                        <l n="626"> Quelle épreuve, Seigneur ! mais elle partira.</l>
+            <stage><em>On entend un grand bruit de voix confuses, de pas précipités.</em></stage>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="627"> D’où vient cette rumeur ?</l>
+                </sp>
+        <sp who="#plusieurs-voix">
+            <speaker> PLUSIEURS VOIX. </speaker>
+                        <l n="628"> Mort à Judith !</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, à Judith prête à sortir. </speaker>
+                        <l n="629"> Arrête !</l>
+                        <l n="630"> Mort à Judith ! qu’entends-je ?... Ils demandent sa tête !</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#nassar">
+            <speaker> NASSAR. </speaker>
+                        <l n="631"> Prince, au nom de Judith le camp s’est révolté.</l>
+                        <l n="632"> On connaît ses projets et sa complicité.</l>
+                        <l n="633"> On prétend qu’en secret Achior l’a suivie.</l>
+                        <l n="634"> Les rois vos alliés vous demandent sa vie.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="635"> Ils osent contre moi se révolter aussi,</l>
+                        <l n="636"> Ces rois ?... Qu’ils viennent donc !</l>
+                </sp>
+        <sp who="#nassar">
+            <speaker> NASSAR. </speaker>
+                        <l n="637"> Ils viennent... les voici.</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, JUDITH, PHÉDYME, PHARÈS, MINDUS, ÉRIOCH, NASSAR, OFFICIERS, GARDES </speaker>
+            <stage><em>Tout le temps de cette scène, Phédyme se tenant à l’écart observe Judith avec inquiétude.</em></stage>
+                </sp>
+        <sp who="#pharès">
+            <speaker> PHARÈS. </speaker>
+                        <l n="638"> Nous avons découvert une odieuse trame :</l>
+                        <l n="639"> Vos jours sont menacés, seigneur, par cette femme.</l>
+                        <l n="640"> Elle vient dans le camp surprendre nos secrets.</l>
+                        <l n="641"> Le salut de l’État, nos droits, vos intérêts,</l>
+                        <l n="642"> Ne nous permettent pas de garder le silence.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, au comble de la fureur. </speaker>
+                        <l n="643"> Non, jamais on ne vit une telle insolence !</l>
+                        <l n="644"> Est-ce à moi que l’on parle ? À quoi donc me sert-il</l>
+                        <l n="645"> D’avoir grandi mon nom de péril en péril,</l>
+                        <l n="646"> D’avoir détruit vingt rois, commandé vingt armées ;</l>
+                        <l n="647"> D’avoir pris et repris cent villes enflammées ;</l>
+                        <l n="648"> D’avoir dans tous les champs et dans tous les sillons,</l>
+                        <l n="649"> Comme un torrent humain, roulé mes bataillons ;</l>
+                        <l n="650"> D’épouvanter le monde et d’étonner l’histoire ;</l>
+                        <l n="651"> De peser sur mon temps comme un fléau de gloire ;</l>
+                        <l n="652"> D’être Holopherne enfin !... s’il est dit qu’on pourra</l>
+                        <l n="653"> Se jouer de mon nom ; s’il est dit qu’on viendra,</l>
+                        <l n="654"> Par le plus lâche coup, me provoquant moi-même,</l>
+                        <l n="655"> Insulter sous mes yeux une femme que j’aime ?</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, à part. </speaker>
+                        <l n="656"> C’est lui qui me défend !</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="657"> Ah !... je crains mon courroux !...</l>
+                        <l n="658"> Non, je n’attendais pas tant d’audace de vous.</l>
+                        <l n="659"> Mais vous oubliez donc qui vous êtes, faux braves ?</l>
+                        <l n="660"> Des vaincus épargnés, de pauvres rois esclaves,</l>
+                        <l n="661"> Sans royaume, sans droits ; des traîtres pardonnes,</l>
+                        <l n="662"> À ma solde vendus, à ma suite traînés,</l>
+                        <l n="663"> Dont j’amuse l’orgueil par un semblant de trône,</l>
+                        <l n="664"> À qui je jette un peu de ma gloire en aumône ;</l>
+                        <l n="665"> Trop heureux de guider encor dans nos combats</l>
+                        <l n="666"> Leurs sujets prisonniers, dont j’ai fait mes soldats.</l>
+                        <l n="667"> Eh ! quel maître nouveau, quel énorme salaire</l>
+                        <l n="668"> Vous excite à braver le vent de ma colère ?</l>
+                        <l n="669"> Mais c’en est trop ! je veux qu’ici même, à l’instant,</l>
+                        <l n="670"> On rende à cette femme un hommage éclatant.</l>
+                        <l n="671"> Oui !... je veux, pour venger cette injure mortelle,</l>
+                        <l n="672"> Voir tous ces insolents prosternés devant elle ;</l>
+                        <l n="673"> Je veux qu’ils viennent tous, honteux, humiliés,</l>
+                        <l n="674"> Déposer en tremblant leurs armes à ses pieds ;</l>
+                        <l n="675"> Je veux que dans mon camp et dans toute l’Asie,</l>
+                        <l n="676"> On adore à genoux celle que j’ai choisie !...</l>
+                </sp>
+        <sp who="#mindus">
+            <speaker> MINDUS. </speaker>
+                        <l n="677"> Qu’entends-je ?... Mon épée... aller la déposer</l>
+                        <l n="678"> En hommage à ses pieds !... Ah ! plutôt la briser !</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="679"> Tremble !... Ton sort dépend de ton obéissance.</l>
+                </sp>
+        <sp who="#mindus">
+            <speaker> MINDUS. </speaker>
+                        <l n="680"> Prince !</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, à part. </speaker>
+                        <l n="681"> Dieu d’Israël, j’invoque ta puissance.</l>
+                        <l n="682"> Seule contre leur rage en vain je combattrais ;</l>
+                        <l n="683"> Mais fais-moi pénétrer leurs coupables secrets,</l>
+                        <l n="684"> Prête-moi tes clartés pour lire dans leurs âmes,</l>
+                        <l n="685"> Et Judith va d’un mot confondre ces infâmes !</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="686"> L’ancien roi de Tharsis est lent à m’obéir.</l>
+                </sp>
+        <sp who="#mindus">
+            <speaker> MINDUS. </speaker>
+                        <l n="687"> Moi, j’irais...</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, à Mindus. </speaker>
+                        <l n="688"> Sois moins fier : on pourrait te trahir.</l>
+            <stage><em>Montrant Holopherne.</em></stage>
+                        <l n="689"> On sait de quel complot ton orgueil le menace.</l>
+                        <l n="690"> Tu le crains, tu le hais, tu convoites sa place.</l>
+                        <l n="691"> Ton zèle cache mal tes sentiments jaloux.</l>
+                        <l n="692"> Complice d’Achior...</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="693"> D’Achior !</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="694"> À genoux !...</l>
+            <stage><em>Mindus confondu se prosterne aux pieds de Judith.</em></stage>
+                </sp>
+        <sp who="#pharès">
+            <speaker> PHARÈS. </speaker>
+                        <l n="695"> En vain à l’imiter sa faiblesse m’engage,</l>
+                        <l n="696"> Nul remords ne m’oblige à cet indigne hommage.</l>
+                        <l n="697"> Moi, Pharès ! oh ! jamais...</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, avec inspiration, marchant vers Pharès. </speaker>
+                        <l n="698"> Pharès n’est pas ton nom.</l>
+                        <l n="699"> Pharès !... il a péri sur le rocher d’Hermon.</l>
+                        <l n="700"> Toi-même dans son sein tu plongeas ton épée,</l>
+                        <l n="701"> Tu posas sur ton front sa couronne usurpée...</l>
+                </sp>
+        <sp who="#pharès">
+            <speaker> PHARÈS. </speaker>
+                        <l n="702"> Grands dieux !</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="703"> C’était ton frère, il tomba sous tes coups.</l>
+                        <l n="704"> Meurtrier de Pharès !...</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="705"> Que dit-elle ?</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="706"> À genoux !</l>
+            <stage><em>Pharès épouvanté tombe à genoux.</em></stage>
+                </sp>
+        <sp who="#érioch">
+            <speaker> ÉRIOCH. </speaker>
+                        <l n="707"> Tous les deux à ses pieds !... Malgré moi, ce mystère</l>
+                        <l n="708"> M’inspire de l’effroi.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, le regardant fixement. </speaker>
+                        <l n="709"> Sur ce visage austère</l>
+                        <l n="710"> Je ne lis point de crime et point de trahison...</l>
+                        <l n="711"> Seigneur !... quelle clarté !... Jadason !...</l>
+                </sp>
+        <sp who="#érioch">
+            <speaker> ÉRIOCH. </speaker>
+                        <l n="712"> Jadason !</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="713"> C’est le nom, n’est-ce pas, d’une bataille affreuse</l>
+                        <l n="714"> Que ta peur évita par une fuite heureuse ?</l>
+                        <l n="715"> Tout le temps du combat, tremblant, tu t’es caché ;</l>
+                        <l n="716"> Et le soir on t’a vu, sur un brancard couché,</l>
+                        <l n="717"> Pour rendre, en la voilant, ta lâcheté plus sûre,</l>
+                        <l n="718"> Grimacer les douleurs d’une feinte blessure.</l>
+                </sp>
+        <sp who="#érioch">
+            <speaker> ÉRIOCH. </speaker>
+                        <l n="719"> Qui m’a trahi, grands dieux ! et comment savez-vous...</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, avec indignation. </speaker>
+                        <l n="720"> Fuyard de Jadason ! à genoux !</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="721"> À genoux !</l>
+            <stage><em>Érioch anéanti tombe à genoux.</em></stage>
+                        <l n="722"> Elle lit dans les cœurs, tout cède à son empire !</l>
+                </sp>
+        <sp who="#pharès">
+            <speaker> PHARÈS. </speaker>
+                        <l n="723"> Nous sommes dévoilés.</l>
+                </sp>
+        <sp who="#érioch">
+            <speaker> ÉRIOCH. </speaker>
+                        <l n="724"> Un Dieu vengeur l’inspire.</l>
+                </sp>
+        <sp who="#pharés">
+            <speaker> PHARÉS. </speaker>
+                        <l n="725"> Contre ce Dieu cruel nous lutterons en vain.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="726"> Perfides alliés, je vous connais enfin !</l>
+                        <l n="727"> Toi, Pharès, meurtrier ! toi, lâche ! toi, transfuge !</l>
+                        <l n="728"> Gardes, désarmez-les, et demain qu’on les juge,</l>
+                        <l n="729"> Et qu’ils ne comptent plus au rang de mes soldats.</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME, à part. </speaker>
+                        <l n="730"> Laissons-la triompher, mais surveillons ses pas.</l>
+            <stage><em>Les rois rendent leur épée aux officiers, les soldats les emmènent hors de la tente. Phédyme s’éloigne mystérieusement en traversant le théâtre.</em></stage>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE à Judith, apercevant Phédyme. </speaker>
+                        <l n="731"> Cette femme a sur toi fait éclater l’orage.</l>
+                        <l n="732"> Ah ! je saurai punir cet imprudent outrage.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, à part. </speaker>
+                        <l n="733"> Dieu m’a prêté sa voix et j’ai su les braver ;</l>
+                        <l n="734"> Mais que lui dire, à lui qui vient de me sauver ?</l></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="735"> Un magique pouvoir t’a révélé leurs crimes.</l>
+                        <l n="736"> Comme ils sont tous tombés à tes accents sublimes !</l>
+                        <l n="737"> Judith, est-ce donc toi qu’ils osaient insulter ?</l>
+                        <l n="738"> Toi que tout Israël s’honore d’écouter !</l>
+                        <l n="739"> Toi, dont le nom si noble et si pur est l’emblème</l>
+                        <l n="740"> Des plus saintes vertus ! toi, la beauté suprême !</l>
+                        <l n="741"> À qui tout doit paraître un hommage insolent,</l>
+                        <l n="742"> Et que moi j’ose à peine admirer en tremblant !</l>
+                        <l n="743"> Oui, près d’eux, tu m’as vu terrible en ma colère ;</l>
+                        <l n="744"> Mais près de toi, j’ai peur... j’ai peur de te déplaire.</l>
+                        <l n="745"> Ce tigre rugissant du désert descendu</l>
+                        <l n="746"> Ne sait plus que gémir comme un agneau perdu.</l>
+                        <l n="747"> Oh ! que l’amour rend humble au jour de la victoire !</l>
+                        <l n="748"> Qu’est-ce qu’un vain succès et qu’importe la gloire,</l>
+                        <l n="749"> La gloire des héros, si le plus renommé,</l>
+                        <l n="750"> Si le plus orgueilleux n’est pas le plus aimé !</l>
+                        <l n="751"> Mais, hélas ! je le vois, mon amour vous offense.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, avec égarement. </speaker>
+                        <l n="752"> Oui, vous avez eu tort de prendre ma défense.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="753"> Moi ?</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="754"> Je vous dis, seigneur, que vous avez eu tort,</l>
+                        <l n="755"> Que je vous ai trompé, que je veux votre mort ;</l>
+                        <l n="756"> Qu’avec vos ennemis je suis d’intelligence,</l>
+                        <l n="757"> Que je suis l’instrument d’une horrible vengeance,</l>
+                        <l n="758"> Que ceux qui m’accusaient venaient vous sauver, vous !</l>
+                        <l n="759"> Qu’il fallait, sans pitié, me livrer à leurs coups.</l>
+                        <l n="760"> Ah ! j’aurais moins souffert de cette mort si prompte</l>
+                        <l n="761"> Que de tous ces honneurs qui me couvrent de honte.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="762"> Quel désespoir l’égaré ?... Judith, calme-toi ;</l>
+                        <l n="763"> Leur indigne soupçon n’a point changé ma foi.</l>
+                        <l n="764"> Avec mes ennemis je ne puis te confondre,</l>
+                        <l n="765"> Mon amour seul m’éclaire !</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, à part. </speaker>
+                        <l n="766"> Hélas ! faut-il répondre</l>
+                        <l n="767"> Par tant de perfidie à tant de loyauté !</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="768"> Moi, de ton noble cœur je n’ai jamais douté.</l>
+                        <l n="769"> Eh ! comment douterais-je ? en toi tout me rassure,</l>
+                        <l n="770"> Et ton maintien si digne, et ta beauté si pure,</l>
+                        <l n="771"> Et ta voix dont la grâce a pénétré mon cœur :</l>
+                        <l n="772"> Ah ! de traîtres accents auraient moins de douceur !</l>
+                        <l n="773"> Un perfide regard n’aurait pas tant de charme ;</l>
+                        <l n="774"> La haine se devine et le mensonge alarme.</l>
+                        <l n="775"> Un faux bonheur nous jette un soupçon douloureux.</l>
+                        <l n="776"> Va, si tu me trompais, je serais moins heureux.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, à part. </speaker>
+                        <l n="777"> Ô mon Dieu ! tu l’entends ! est-ce là ta victime ?</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="778"> Et pourquoi m’immoler, Judith ? quel est mon crime ?</l>
+                        <l n="779"> Je sauve ton pays que tu croyais perdu ;</l>
+                        <l n="780"> Par mon ordre, Israël à sa gloire est rendu.</l>
+                        <l n="781"> Nos intérêts unis bientôt seront les mêmes ;</l>
+                        <l n="782"> Je servirai ton Dieu, s’il permet que tu m’aimes ;</l>
+                        <l n="783"> Enfin, pour commander, pour régner en ma cour.</l>
+                        <l n="784"> Que t’importe ma mort ?... n’as-tu pas mon amour ?</l>
+                        <l n="785"> Non, non, je ne crains pas que ta ruse me livre ;</l>
+                        <l n="786"> Pour te donner mes jours tu me laisseras vivre...</l>
+                        <l n="787"> Mais contre ta douleur vainement je combats.</l>
+                        <l n="788"> Tu détournes les yeux... tu ne m’écoutes pas.</l>
+                        <l n="789"> De tes vils ennemis tu me crois le complice,</l>
+                        <l n="790"> Tu te venges sur moi de leur lâche injustice ;</l>
+                        <l n="791"> Et m’accablant aussi d’un injuste courroux.</l>
+                        <l n="792"> Tu me fuis, tu me liais...</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="793"> Moi ? je priais pour vous !</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="794"> Ô joie !... elle a mêlé mon nom dans ses prières !...</l>
+                        <l n="795"> Dès l’enfance endurci dans nos luttes guerrières,</l>
+                        <l n="796"> Je ne connaissais pas ces mots consolateurs.</l>
+                        <l n="797"> Ah ! Judith !...</l>
+            <stage><em>Apercevant Nassar.</em></stage>
+                        <l n="798"> Qui vient donc ?...</l>
+                </sp>
+        <sp who="#nassar">
+            <speaker> NASSAR. </speaker>
+                        <l n="799"> Prince, sur les hauteurs</l>
+                        <l n="800"> On vient de signaler un courrier de Xinive...</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, épouvanté. </speaker>
+                        <l n="801"> Un messager... du roi ?...</l>
+                </sp>
+        <sp who="#nassar">
+            <speaker> NASSAR. </speaker>
+                        <l n="802"> Dans l’instant il arrive.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, à Judith. </speaker>
+                        <l n="803"> Je cours le recevoir... et je reviens vers toi.</l></div>
+        <div type="scene" xml:id=" X ">
+            <head> Scène X </head>
+        <sp who="#judith">
+            <speaker> JUDITH, seule </speaker>
+                        <l n="804"> Le malheureux, qui m’aime et qui se fie à moi !</l>
+                        <l n="805"> Ah ! vivre tout un jour de ruse, de mensonge,</l>
+                        <l n="806"> C’est un supplice affreux... indigne... et quand je songe</l>
+                        <l n="807"> À l’horrible devoir qu’il me faut accomplir.</l>
+                        <l n="808"> Mon âme se révolte, et je me sens faiblir...</l>
+                        <l n="809"> Moi, mentir ! moi, Judith !... où suis-je descendue !...</l>
+                        <l n="810"> Et lui... contre les siens comme il m’a défendue !...</l>
+                        <l n="811"> Et j’irais, me courbant sous un ordre cruel,</l>
+                        <l n="812"> Lorsqu’il agit pour nous, lorsqu’il sauve Israël,</l>
+                        <l n="813"> Lorsqu’il veut, de son roi guidant l’esprit sauvage,</l>
+                        <l n="814"> Préserver nos tribus d’un honteux esclavage,</l>
+                        <l n="815"> J’irais, moi, par un coup lâchement médité,</l>
+                        <l n="816"> L’immoler, et punir sa générosité ?...</l>
+                        <l n="817"> Ah ! ce n’est plus sa mort que le Seigneur ordonne !...</l>
+                        <l n="818"> S’il comprend la pitié, c’est que Dieu lui pardonne !</l>
+                        <l n="819"> Ses secours, ses bienfaits, doivent me désarmer !...</l>
+                        <l n="820"> Frapper un cœur si noble et si digne d’aimer !</l>
+                        <l n="821"> Frapper... mais je n’ai plus de fureur qui m’entraîne !</l>
+                        <l n="822"> Du sang !... il faut du sang !... mais je n’ai plus de haine !</l>
+                        <l n="823"> Plus de haine !... et d’où vient que ma colère a fui ?...</l>
+                        <l n="824"> Je demandais sa mort... et je tremble pour lui !...</l>
+                        <l n="825"> Ce changement, Seigneur, est-il donc votre ouvrage ?</l>
+                        <l n="826"> Non, c’est un piège affreux... Dieu m’éprouve... courage !</l>
+                        <l n="827"> Il me livre aux démons qui viennent me tenter,</l>
+                        <l n="828"> Et pour que je triomphe il veut me voir lutter...</l>
+                        <l n="829"> À l’amour d’Holopherne ils me disent sensible !...</l>
+                        <l n="830"> Moi, l’aimer !... moi, l’aimer !... démons, c’est impossible !</l>
+                        <l n="831"> Un moment j’ai repris ma parure d’orgueil,</l>
+                        <l n="832"> Mais mon cœur déchiré n’a point quitté son deuil.</l>
+                        <l n="833"> L’ombre de mon époux habile ma demeure ;</l>
+                        <l n="834"> Depuis trois ans, démons, vous voyez que je pleure,</l>
+                        <l n="835"> Que j’ai la même foi, que j’ai le même amour.</l>
+                        <l n="836"> Et que mon désespoir n’a pas vieilli d’un jour.</l>
+                        <l n="837"> Je vis pour honorer cette sainte mémoire...</l>
+                        <l n="838"> Holopherne... un héros !... Eh ! que me fait la gloire ?</l>
+                        <l n="839"> Elle n’a point d’écho dans mon cœur attristé ;</l>
+                        <l n="840"> La gloire de Judith est son humilité.</l>
+                        <l n="841"> Il m’aime !... eh bien ?... il m’aime !... Oh ! leur rage redouble.</l>
+                        <l n="842"> Comme ils savent crier le seul mot qui me trouble !</l>
+                        <l n="843"> Ils viennent m’insulter par leur rire moqueur...</l>
+                        <l n="844"> Ils aveuglent mes yeux !... Ils m’arrachent le cœur !...</l>
+                        <l n="845"> Les cruels !... je succombe, et l’abîme m’attire !</l>
+                        <l n="846"> Grâce ! grâce !... de moi le Seigneur se retire...</l>
+                        <l n="847"> Je fais pour l’implorer des efforts superflus :</l>
+                        <l n="848"> Mes deux mains pour prier ne se rejoignent plus...</l>
+                        <l n="849"> Dieu ! voilà le Serpent... qui me poursuit comme Ève !</l>
+                        <l n="850"> Voilà, dans les roseaux, sa tête qui se lève...</l>
+                        <l n="851"> Il me parle !... il me parle !... Il enivre mes sens</l>
+                        <l n="852"> Des parfums corrupteurs de l’infernal encens !...</l>
+                        <l n="853"> Israël, c’en est fuit, ta patrie est vendue...</l>
+                        <l n="854"> L’enfer... l’enfer triomphe... et Judith est perdue !</l>
+            <stage><em>Elle s évanouit. La toile tombe.</em></stage></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#achior">
+            <speaker> ACHIOR, UN GARDE </speaker>
+            <stage><em>Achior, déguisé en esclave arabe, s’avance en regardant autour de lui avec inquiétude. Le garde s’oppose à son passage.</em></stage>
+                </sp>
+        <sp who="#le-garde">
+            <speaker> LE GARDE. </speaker>
+                        <l n="855"> On ne peut pénétrer dans cet appartement.</l>
+            <stage><em>Reconnaissant Achior.</em></stage>
+                        <l n="856"> Ah ! seigneur, pardonnez ; sous ce déguisement</l>
+                        <l n="857"> Je n’ai point reconnu notre ancien chef...</l>
+                </sp>
+        <sp who="#achior">
+            <speaker> ACHIOR. </speaker>
+                        <l n="858"> Silence !</l>
+                </sp>
+        <sp who="#un-garde">
+            <speaker> LE GARDE. </speaker>
+                        <l n="859"> Je suis à vous, seigneur.</l>
+                </sp>
+        <sp who="#achior">
+            <speaker> ACHIOR. </speaker>
+                        <l n="860"> Dans le camp, ma présence</l>
+                        <l n="861"> Est un secret.</l>
+                </sp>
+        <sp who="#un-garde">
+            <speaker> LE GARDE. </speaker>
+                        <l n="862"> Comptez sur ma fidélité.</l>
+                </sp>
+        <sp who="#achior">
+            <speaker> ACHIOR. </speaker>
+                        <l n="863"> La tente de Judith ?</l>
+                </sp>
+        <sp who="#un-garde">
+            <speaker> LE GARDE. </speaker>
+                        <l n="864"> Elle est de ce côté.</l>
+            <stage><em>Achior ouvre la porte qui mène dans la tente de Judith ; Zelpha vient à lui ; elle s’étonne et s’effraye en reconnaissant Achior.</em></stage>
+                </sp>
+        <sp who="#zelpha">
+            <speaker> ZELPHA. </speaker>
+                        <l n="865"> C’est vous !</l>
+                </sp>
+        <sp who="#achior">
+            <speaker> ACHIOR. </speaker>
+                        <l n="866"> Judith est là ?</l>
+                </sp>
+        <sp who="#zelpha">
+            <speaker> ZELPHA. </speaker>
+                        <l n="867"> Devant Dieu prosternée,</l>
+                        <l n="868"> Elle achève en priant cette affreuse journée.</l>
+                </sp>
+        <sp who="#achior">
+            <speaker> ACHIOR, mystérieusement. </speaker>
+                        <l n="869"> On a reçu ce soir un message de mort...</l>
+                        <l n="870"> Dis-lui de tout tenter par un dernier effort.</l>
+                        <l n="871"> Le temps est précieux, la tâche est difficile.</l>
+                        <l n="872"> Dans l’un des souterrains qui mènent à la ville,</l>
+                        <l n="873"> Grâce au plan des remparts qu’un esclave a livré,</l>
+                        <l n="874"> Les soldats d’Holopherne ont déjà pénétré ;</l>
+                        <l n="875"> C’est là qu’ils vont couver le feu de l’incendie.</l>
+                        <l n="876"> J’ai démêlé leur trame habilement ourdie.</l>
+                        <l n="877"> Un de mes alliés ici m’a reconnu,</l>
+                        <l n="878"> De ces lâches projets ses soins m’ont prévenu.</l>
+                        <l n="879"> Tous seront massacrés ; les enfants et les femmes</l>
+                        <l n="880"> Tomberont sous le fer, périront dans les flammes.</l>
+                        <l n="881"> Tel est l’ordre du roi qu’on adore en ce lieu,</l>
+                        <l n="882"> Du roi que l’Assyrie a proclamé son dieu.</l>
+                        <l n="883"> On lui résiste en vain ; sa puissance est extrême,</l>
+                        <l n="884"> Et son nom fait trembler Holopherne lui-même.</l>
+                </sp>
+        <sp who="#zelpha">
+            <speaker> ZELPHA. </speaker>
+                        <l n="885"> Mais, seigneur, Holopherne a promis son appui</l>
+                        <l n="886"> Aux Hébreux...</l>
+                </sp>
+        <sp who="#achior">
+            <speaker> ACHIOR. </speaker>
+                        <l n="887"> Leur destin ne dépend plus de lui !</l>
+                        <l n="888"> Holopherne vous trompe, et leur perte s’apprête ;</l>
+                        <l n="889"> Il ne peut les sauver qu’en leur laissant sa tête ;</l>
+                        <l n="890"> Sa mort, oui, sa mort seule, épouvantant les cœurs,</l>
+                        <l n="891"> De tant de nations peut nous rendre vainqueurs.</l>
+                        <l n="892"> Va, que de nos projets Judith soit avertie.</l>
+                        <l n="893"> Ce soir... les assiégés vont faire une sortie...</l>
+                        <l n="894"> Dans l’ombre ils attendront, faisant taire leurs pas,</l>
+                        <l n="895"> Le moment de venir se joindre à mes soldats.</l>
+                        <l n="896"> Judith par un signal nous le fera connaître.</l>
+                        <l n="897"> Qu’elle pose... une lampe... auprès de la fenêtre,</l>
+                        <l n="898"> Et sa pâle lueur nous traçant le chemin,</l>
+                        <l n="899"> Nous fondrons sur le camp les armes à la main.</l>
+                </sp>
+        <sp who="#un-garde">
+            <speaker> LE GARDE. </speaker>
+                        <l n="900"> C’est le prince... fuyez !</l>
+                </sp>
+        <sp who="#achior">
+            <speaker> ACHIOR, revenant, bas à Zelpha. </speaker>
+                        <l n="901"> Si Judith peut surprendre</l>
+                        <l n="902"> Le mot d’ordre...</l>
+                </sp>
+        <sp who="#zelpha">
+            <speaker> ZELPHA. </speaker>
+                        <l n="903"> Seigneur, je courrai vous l’apprendre.</l>
+            <stage><em>Achior s’éloigne mystérieusement. Zelpha, apercevant les officiers d’Holopherne, rentre dans la tente de Judith.</em></stage></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, tenant une lettre à la main. </speaker>
+                        <l n="904"> Le destin me punit d’un rêve généreux,</l>
+                        <l n="905"> Et vainement Judith m’intéresse aux Hébreux ;</l>
+                        <l n="906"> Le roi veut que mon bras les livre à sa furie.</l>
+                        <l n="907"> Par son nom, par l’honneur du trône d’Assyrie,</l>
+                        <l n="908"> Il a juré leur mort ; je ne puis hésiter.</l>
+                        <l n="909"> Et quel homme à cet ordre oserait résister ?</l>
+            <stage><em>Il ouvre la lettre et lit.</em></stage>
+                        <l n="910"> « Je suis roi, je suis dieu. Sur la terre et sur l’onde</l>
+                        <l n="911"> « J’accomplis en marchant la conquête du monde ;</l>
+                        <l n="912"> « Et vous pouvez souffrir que mon pas éternel</l>
+                        <l n="913"> « S’arrête un jour devant un hameau d’Israël !</l>
+                        <l n="914"> « Malheur, malheur à vous, si demain Béthulie</l>
+                        <l n="915"> « Sous ses remparts fumants n’est pas ensevelie !</l>
+                        <l n="916"> « S’il reste un seul Hébreu dans ses murs renversés,</l>
+                        <l n="917"> « Je croirai ce qu’on dit, que vous me trahissez ;</l>
+                        <l n="918"> « Et je vous punirai comme on punit un traître.</l>
+                        <l n="919"> « Adorez cet écrit, que signe votre maître. »</l>
+                        <l n="920"> Ah ! l’on me dénonçait aux soupçons de mon roi !...</l>
+                        <l n="921"> Eh bien, par mes fureurs il faut prouver ma foi !</l>
+                        <l n="922"> Pour expier l’erreur d’une folle clémence.</l>
+                        <l n="923"> Il faut que cette nuit le massacre commence ;</l>
+                        <l n="924"> Il faut que dès demain cette antique cité</l>
+                        <l n="925"> Ne soit plus qu’un vain nom par le temps emporté,</l>
+                        <l n="926"> Un amas de débris, une cendre fumante</l>
+                        <l n="927"> Que balaye en passant l’aile de la tourmente,</l>
+                        <l n="928"> Et qu’enfin ce hameau, sous mes coups châtié,</l>
+                        <l n="929"> Ne soit plus pour ma gloire un remords de pitié.</l>
+                        <l n="930"> Mais Judith !... triomphante à la cour d’Assyrie,</l>
+                        <l n="931"> Les honneurs lui feront oublier sa patrie.</l>
+                        <l n="932"> Phédyme a vu mourir son père détrôné,</l>
+                        <l n="933"> Et, pour un peu d’amour, Phédyme a pardonné ;</l>
+                        <l n="934"> Et d’un coupable choix sa faiblesse s’honore.</l>
+                        <l n="935"> Quoi ! malgré ma défense elle revient encore !</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME. </speaker>
+                        <l n="936"> Rassurez-vous, seigneur, j’ai perdu tout espoir.</l>
+                        <l n="937"> C’est pour vous dire adieu que j’ai voulu vous voir.</l>
+                        <l n="938"> De vos ordres cruels je ne viens pas me plaindre ;</l>
+                        <l n="939"> Regardez, je suis calme, et je sais me contraindre ;</l>
+                        <l n="940"> Mais un affreux péril vous menace aujourd’hui,</l>
+                        <l n="941"> Et, tremblante, je viens vous armer contre lui.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="942"> Phédyme, aucun danger ne menace ma vie.</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME. </speaker>
+                        <l n="943"> D’un horrible soupçon malgré moi poursuivie,</l>
+                        <l n="944"> Pour vos jours je crains tout, le fer et le poison...</l>
+                        <l n="945"> Et l’on respire ici l’air de la trahison.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="946"> Oh ! vous venez encor...</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME. </speaker>
+                        <l n="947"> Je n’ai point parlé d’elle !</l>
+                        <l n="948"> Mais, seigneur, permettez qu’une esclave fidèle</l>
+                        <l n="949"> Vous garde, et de ces lieux connaissant les détours,</l>
+                        <l n="950"> Puisse au moindre danger vous porter ses secours.</l>
+                        <l n="951"> Redoutez la douceur de cette main fatale !</l>
+                        <l n="952"> Ô dieux, pourquoi faut-il qu’elle soit ma rivale !</l>
+                        <l n="953"> On ne m’écoute pas... mes cris sont superflus...</l>
+                        <l n="954"> Quel homme ose écouter celle qu’il n’aime plus !</l>
+                        <l n="955"> Il croit que je la hais parce qu’elle sait plaire,</l>
+                        <l n="956"> Il prend mon désespoir pour une humble colère ;</l>
+                        <l n="957"> Il ne devine pas que, bravant ses mépris,</l>
+                        <l n="958"> Généreuse, je veux le sauver à tout prix.</l>
+                        <l n="959"> Oh ! laisse-moi du moins, dans ce péril extrême,</l>
+                        <l n="960"> Laisse-moi te défendre et te garder moi-même :</l>
+                        <l n="961"> J’oublierai ce lien qui consolait mes jours,</l>
+                        <l n="962"> Je verrai sans pleurer tes nouvelles amours.</l>
+                        <l n="963"> Judith commandera, j’obéirai près d’elle,</l>
+                        <l n="964"> Je lui pardonnerai, je dirai qu’elle est belle ;</l>
+                        <l n="965"> Mais tu me laisseras toujours veiller sur toi...</l>
+                        <l n="966"> Et l’on n’osera pas te frapper devant moi !</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, avec bonté. </speaker>
+                        <l n="967"> Phédyme, il faut partir ; Judith a ma promesse.</l>
+                        <l n="968"> Éloigne de ton cœur un soupçon qui me blesse.</l>
+                        <l n="969"> Va, ne crains rien pour moi ; dans ce camp, dans ma cour,</l>
+                        <l n="970"> De fidèles amis me gardent nuit et jour.</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME. </speaker>
+                        <l n="971"> Mais la mort en secret peut vous être donnée.</l>
+                        <l n="972"> On peut vous présenter la coupe empoisonnée...</l>
+                        <l n="973"> À Judith vous offrez un splendide festin</l>
+                        <l n="974"> Ce soir... vous recevrez la coupe de sa main...</l>
+                        <l n="975"> Oh ! de grâce, exigez... c’est ma seule prière,</l>
+                        <l n="976"> Exigez qu’elle boive... avant vous, la première...</l>
+                        <l n="977"> Et si dans ce moment vous la voyez trembler...</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="978"> La haine vous égare, et c’est trop l’accabler !</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME. </speaker>
+                        <l n="979"> Eh ! tu ne vois donc pas que Judith me renvoie,</l>
+                        <l n="980"> Comme un garde importun qui veille sur sa proie !</l>
+                        <l n="981"> Elle hait ma présence et veut nous séparer.</l>
+                        <l n="982"> Ah ! cette crainte seule aurait dû t’éclairer !</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="983"> Mais par d’autres motifs elle pourrait vous craindre.</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME. </speaker>
+                        <l n="984"> Oh ! je comprends ! Judith excelle en l’art de feindre.</l>
+                        <l n="985"> Elle ose te flatter par de jaloux combats...</l>
+                        <l n="986"> Elle !... jalouse !...</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="987"> Eh bien ?...</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME. </speaker>
+                        <l n="988"> Elle ne t’aime pas !</l>
+            <stage><em>Voyant la fureur d’Holopherne.</em></stage>
+                        <l n="989"> Tu frémis à ce mot... Ah ! c’est là ma vengeance !</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, avec violence. </speaker>
+                        <l n="990"> Sans doute, elle n’a point votre noble indulgence ;</l>
+                        <l n="991"> Mais ne peut-on prouver un tendre sentiment</l>
+                        <l n="992"> Sans avoir immolé son père à son amant ?</l>
+                        <l n="993"> Croyez-vous que le prix d’un dévouement se compte</l>
+                        <l n="994"> Par ce qu’il a coûté de remords et de honte ?</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME. </speaker>
+                        <l n="995"> Ô de l’amour éteint inévitable loi !</l>
+                        <l n="996"> Si généreux pour elle... et si lâche pour moi !</l>
+                        <l n="997"> Elle trompe, on l’écoute, et sa parole enivre...</l>
+                        <l n="998"> Elle apporte la mort... et pour elle on veut vivre !</l>
+                        <l n="999"> On la traite en idole, on lui parle en tremblant ;</l>
+                        <l n="1000"> Et Ton m’accable, moi, d’un mépris insolent !...</l>
+                        <l n="1001"> Elle hait, on le voit, sa vengeance menace...</l>
+                        <l n="1002"> Et c’est moi que l’on craint et c’est moi que l’on chasse !</l>
+                        <l n="1003"> M’arrachant le seul bien qui me reste aujourd’hui,</l>
+                        <l n="1004"> Le droit de le défendre et de mourir pour lui !</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="1005"> Eh ! renoncez, madame, à cet effort sublime.</l>
+                        <l n="1006"> Ne lui ravissez pas son heureuse victime ;</l>
+                        <l n="1007"> Livrez-moi sans pitié : je bénirai mon sort</l>
+                        <l n="1008"> Si son amour me donne une si belle mort.</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME. </speaker>
+                        <l n="1009"> Ah ! de ce tendre espoir ne berce point ton âme :</l>
+                        <l n="1010"> Tu ne soumettras pas cette orgueilleuse femme,</l>
+                        <l n="1011"> Non, jamais... Son mépris me vengera du tien ;</l>
+                        <l n="1012"> Sa perfide douceur ne t’accordera rien,</l>
+                        <l n="1013"> Et tu seras mourant sur ta sanglante couche</l>
+                        <l n="1014"> Avant qu’un mot d’amour ne tombe de sa bouche !</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, la menaçant. </speaker>
+                        <l n="1015"> Va-t’en !...</l>
+                </sp>
+        <sp who="#phédyme">
+            <speaker> PHÉDYME. </speaker>
+                        <l n="1016"> Tu crois mourir heureux entre ses bras ?</l>
+                        <l n="1017"> Frappe... va, je triomphe... elle ne t’aime pas !</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, aux gardes. </speaker>
+                        <l n="1018"> Venez, et qu’on l’enchaîne au milieu des esclaves !</l>
+            <stage><em>Phédyme est emmenée par les gardes. </em></stage></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="1019"> Ah ! tu veux m’attendrir, Phédyme, et tu me braves !</l>
+                        <l n="1020"> Dieux !... elle m’a laissé tous ses dards en partant !</l>
+                        <l n="1021"> Moi, soupçonner Judith !... moi, moi qui l’aime tant...</l>
+                        <l n="1022"> Ô supplice ! nourrir cet effroyable doute,</l>
+                        <l n="1023"> Voir dans l’être adoré l’ennemi qu’on redoute,</l>
+                        <l n="1024"> Fuir et craindre Judith !... la faire espionner...</l>
+                        <l n="1025"> Non !... j’aime mieux mourir que de la soupçonner ;</l>
+                        <l n="1026"> J’aime mieux devenir sa victime insensée</l>
+                        <l n="1027"> Que de la voir jamais rougir de ma pensée !...</l>
+                        <l n="1028"> Cependant, elle hait nos prêtres et nos dieux...</l>
+                        <l n="1029"> Nos usages sacrés lui semblent odieux...</l>
+                        <l n="1030"> Elle est Juive, elle est sainte, et Moïse l’inspire...</l>
+                        <l n="1031"> Veuve, elle redoutait l’amour et son empire ;</l>
+                        <l n="1032"> Et tout à coup... Mon cœur n’ose s’interroger...</l>
+                        <l n="1033"> L’attrait qu’elle a pour moi, c’est l’attrait du danger...</l>
+                        <l n="1034"> Sa douleur, sa fierté, tout en elle est mystère...</l>
+                        <l n="1035"> Et ce matin encor, son trouble involontaire</l>
+                        <l n="1036"> D’un infâme complot semblait me prévenir...</l>
+                        <l n="1037"> Mais elle ne vient pas... Qui peut la retenir ?</l>
+            <stage><em>À Nassar.</em></stage>
+                        <l n="1038"> As-tu parlé ce soir à Judith elle-même ?</l>
+                </sp>
+        <sp who="#nassar">
+            <speaker> NASSAR. </speaker>
+                        <l n="1039"> Au festin solennel, par votre ordre suprême,</l>
+                        <l n="1040"> J’ai convié Judith ; elle viendra, seigneur.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="1041"> Et Judith a sans crainte accepté cet honneur ?</l>
+                        <l n="1042"> Tu n’as pas remarqué... Mais je l’entends... c’est elle.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#judith">
+            <speaker> JUDITH, ZELPHA, HOLOPHERNE, NASSAR </speaker>
+            <stage><em>Les esclaves apportent la table du festin.</em></stage>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, à part. </speaker>
+                        <l n="1043"> Je vais donc la revoir !... hélas !</l>
+            <stage><em>Apercevant Judith.</em></stage>
+                        <l n="1044"> Dieux, qu’elle est belle !</l>
+                        <l n="1045"> Les plus affreux soupçons tombent à son aspect,</l>
+                        <l n="1046"> La colère se change en timide respect...</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, à part. </speaker>
+                        <l n="1047"> Il me trompait... J’éprouve une rage inconnue...</l>
+                        <l n="1048"> Enfin, Dieu soit loué ! ma haine est revenue !</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, à part. </speaker>
+                        <l n="1049"> Mais elle semble fuir un pénible entretien ;</l>
+                        <l n="1050"> Son regard courroucé semble éviter le mien.</l>
+            <stage><em>À Judith.</em></stage>
+                        <l n="1051"> Pourquoi viens-tu si tard ?</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, avec amertume. </speaker>
+                        <l n="1052"> Demandez à Phédyme.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="1053"> Oh ! de ses longs adieux ne me fais pas un crime.</l>
+            <stage><em>À part.</em></stage>
+                        <l n="1054"> Eh quoi ! je l’accusais, prompt à me défier ;</l>
+                        <l n="1055"> Et c’est moi qu’elle force à se justifier !</l>
+                        <l n="1056"> Mais l’instant est venu de l’épreuve mortelle :</l>
+                        <l n="1057"> Présentons-lui la coupe... Ô dieux ! la prendra-t-elle ?</l>
+                        <l n="1058"> Si, trouvant un prétexte, elle allait refuser !...</l>
+                        <l n="1059"> Si par sa propre crainte elle allait s’accuser !...</l>
+                        <l n="1060"> J’ai vu bien des combats, j’ai vécu de carnage,</l>
+                        <l n="1061"> Jamais pareil effroi n’a glacé mon courage.</l>
+            <stage><em>Conduisant Judith vers la table.</em></stage>
+                        <l n="1062"> Voulez-vous présider aux plaisirs du festin,</l>
+                        <l n="1063"> Et, par les mêmes vœux mêlant notre destin,</l>
+                        <l n="1064"> Souffrir que pour tous deux la coupe soit remplie ?</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="1065"> Oui, seigneur, au succès de ma tâche accomplie</l>
+                        <l n="1066"> J’ose boire avec vous ; car mon cœur est joyeux,</l>
+                        <l n="1067"> Et je sens que ce jour est un jour glorieux.</l>
+            <stage><em>Judith prend un des flacons d’or et verse le vin dans la coupe que lui présente Holopherne ; puis elle porte la coupe à ses lèvres.</em></stage>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, à part. </speaker>
+                        <l n="1068"> Ah ! je respire enfin !... rien n’a trahi son trouble.</l>
+                        <l n="1069"> Oh ! ma foi se réveille, et mon amour redouble...</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="1070"> Un courrier de Ninive est arrivé ce soir ?</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="1071"> Oui, par un envoyé le roi me fait savoir</l>
+                        <l n="1072"> Qu’il presse mon retour à la cour d’Assyrie.</l>
+                        <l n="1073"> Vous y viendrez, Judith ?</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="1074"> Pour ma pauvre patrie</l>
+                        <l n="1075"> J’irai de votre maître implorer les bontés.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="1076"> Là, vous ferez pâlir nos plus fières beautés.</l>
+                        <l n="1077"> Quel triomphe pour moi ! car ce jour vous engage.</l>
+                        <l n="1078"> Vous connaissez nos lois... vous savez qu’un usage,</l>
+                        <l n="1079"> Un usage à la fois charmant et rigoureux,</l>
+                        <l n="1080"> Nous fait un déshonneur de n’être point heureux.</l>
+                        <l n="1081"> L’imprudent qui verrait son ardeur méprisée</l>
+                        <l n="1082"> De la cour, aussitôt, deviendrait la risée...</l>
+                        <l n="1083"> Mille regards moqueurs le poursuivraient toujours...</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="1084"> Oh ! l’on ne rira pas, seigneur, de nos amours !</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="1085"> Ce bonheur est si grand que j’ose à peine y croire !</l>
+                        <l n="1086"> Tu ne me hais donc pas ?</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="1087"> Vous plaire, c’est ma gloire !</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, mystérieusement. </speaker>
+                        <l n="1088"> Tu l’as promis, Judith ! Dans ma tente... à minuit...</l>
+                        <l n="1089"> Tu viendras... elle est là... cette porte y conduit...</l>
+                        <l n="1090"> Tu me dis d’espérer !... Oh ! ce n’est point un rêve...</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, s’inclinant. </speaker>
+                        <l n="1091"> Seigneur...</l>
+            <stage><em>À part, en regardant la porte.</em></stage>
+                        <l n="1092"> Sur les rideaux j’ai vu briller un glaive.</l>
+            <stage><em>Tous deux se lèvent. Les esclaves emportent la table du festin.</em></stage>
+                </sp>
+        <sp who="#nassar">
+            <speaker> NASSAR, bas à Holopherne. </speaker>
+                        <l n="1093"> Tous les feux sont éteints dans les murs assiégés ;</l>
+                        <l n="1094"> Au fond des souterrains nos soldats partagés</l>
+                        <l n="1095"> Attendent le moment de marcher sur la ville,</l>
+                        <l n="1096"> Qui dans un faux espoir trouve un sommeil tranquille.</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="1097"> Va, dirige leurs coups, et reviens me chercher</l>
+                        <l n="1098"> Au point du jour.</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, bas à Zelpha, lui montrant la porte de sa tente. </speaker>
+                        <l n="1099"> C’est là qu’il faudra te cacher.</l>
+                        <l n="1100"> Zelpha, tu resteras derrière cette porte ;</l>
+                        <l n="1101"> Mais ne te montre pas à moins que je ne sorte.</l>
+                        <l n="1102"> Je poserai la lampe ici, de ce côté.</l>
+                        <l n="1103"> Achior reviendra guidé par sa clarté.</l>
+                        <l n="1104"> Ses soldats avec nous sont tous d’intelligence.</l>
+                </sp>
+        <sp who="#nassar">
+            <speaker> NASSAR, à Holopherne. </speaker>
+                        <l n="1105"> Le mot d’ordre, seigneur ?</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE. </speaker>
+                        <l n="1106"> « Babylone et vengeance ! »</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, bas à Zelpha. </speaker>
+                        <l n="1107"> Retiens bien ces deux mots.</l>
+            <stage><em>Zelpha sort. Nassar se retire dans le fond du théâtre.</em></stage>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, à Judith, avec tendresse. </speaker>
+                        <l n="1108"> Judith, pardonne-moi !</l>
+                        <l n="1109"> C’est un crime... un moment j’ai douté de ta foi...</l>
+                        <l n="1110"> De cet affreux soupçon mon âme est soulagée ;</l>
+                        <l n="1111"> Mais comme j’ai souffert !... Ma douleur t’a vengée,</l>
+                        <l n="1112"> Et ce n’est pas à toi, Judith, de m’en punir.</l>
+                        <l n="1113"> Oh ! viens, viens dissiper ce cruel souvenir !</l>
+                        <l n="1114"> Livre ta destinée à cet amour si tendre.</l>
+                        <l n="1115"> Je ne te quitte pas, Judith ; je vais t’attendre.</l>
+                        <l n="1116"> Que mon cœur va frémir au doux bruit de tes pas !</l>
+                        <l n="1117"> Tu ne peux me tromper : tu viendras ! tu viendras !...</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, tremblante. </speaker>
+                        <l n="1118"> Dieu m’a dit : « Tu seras l’épouse et la servante. »</l>
+                        <l n="1119"> Je suis soumise à Dieu...</l>
+            <stage><em>À part.</em></stage>
+                        <l n="1120"> Cet amour m’épouvante !</l>
+                </sp>
+        <sp who="#holopherne">
+            <speaker> HOLOPHERNE, avec passion. </speaker>
+                        <l n="1121"> Est-il vrai ?... n’est-ce pas un prestige du cœur ?...</l>
+                        <l n="1122"> Cette femme... aujourd’hui... promise à mon bonheur.</l>
+                        <l n="1123"> C’est elle !... c’est Judith !... c’est la femme que j’aime !</l>
+                        <l n="1124"> Ô pensée enivrante ! ô délire suprême !</l>
+                        <l n="1125"> Vertige de l’espoir, extase, enchantement !</l>
+                        <l n="1126"> Félicité cruelle ! adorable tourment !</l>
+                        <l n="1127"> Délicieux fardeau de tristesse et de joie !</l>
+                        <l n="1128"> Torrents de voluptés où mon âme se noie !</l>
+                        <l n="1129"> Non ! je ne savais pas avant cet heureux jour</l>
+                        <l n="1130"> Quels siècles on peut vivre en une heure d’amour !</l>
+            <stage><em>Il sort. Ses officiers, ses pages raccompagnent. Les esclaves emportent les flambeaux ; ils ne laissent que la lampe, et ferment les rideaux dans le fond du théâtre.</em></stage></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#judith">
+            <speaker> JUDITH, seule, avec exaltation </speaker>
+                        <l n="1131"> Dieu puissant, rendez-moi ma première assurance.</l>
+                        <l n="1132"> De moi seule Israël attend sa délivrance...</l>
+                        <l n="1133"> Pour vaincre ce héros prêtez-moi votre appui.</l>
+                        <l n="1134"> Son amour est un crime, armez-moi contre lui ;</l>
+                        <l n="1135"> Endormez son espoir par des songes funèbres...</l>
+                        <l n="1136"> Cachez-moi, cachez-moi dans de chastes ténèbres !</l>
+                        <l n="1137"> Éteignez cet amour par votre ordre allumé ;</l>
+                        <l n="1138"> Faites qu’il n’aime plus, qu’il n’ait jamais aimé !...</l>
+                        <l n="1139"> Dans un sommeil sauveur ordonnez qu’il m’oublie ;</l>
+                        <l n="1140"> Éloignez de ses yeux mon image embellie ;</l>
+                        <l n="1141"> Effacez cet éclat, ces brillantes couleurs</l>
+                        <l n="1142"> Qui, profanes, cachaient la trace de mes pleurs ;</l>
+                        <l n="1143"> Reprenez cet attrait dont vous m’aviez parée,</l>
+                        <l n="1144"> Cilice de beauté dont je suis déchirée !</l>
+                        <l n="1145"> En m’ôtant mon pouvoir... venez me secourir...</l>
+                        <l n="1146"> S’il m’aime encor... Seigneur... c’est à moi de mourir !</l>
+                        <l n="1147"> Je frissonne... Un nuage a passé sur ma vue...</l>
+            <stage><em>Elle entr’ouvre le rideau de la tente et revient sur le devant de la scène.</em></stage>
+                        <l n="1148"> Ô miracle !... Seigneur, vous m’avez entendue !...</l>
+                        <l n="1149"> Vous avez eu pitié de ma faiblesse... Il dort !...</l>
+                        <l n="1150"> Oui... je vous ai compris... oui, vous voulez sa mort...</l>
+                        <l n="1151"> Donnons-leur le signal... un seul instant me reste...</l>
+            <stage><em>Elle prend la lampe et va la poser sur la fenêtre. Elle regarde dans le lointain.</em></stage>
+                        <l n="1152"> Dans la ville... le feu !... le feu !... retard funeste...</l>
+            <stage><em>Elle prend un glaive dans un des trophées suspendus aux piliers, et marche vers la tente. Tout à coup elle s’arrête.</em></stage>
+                        <l n="1153"> Il dort !... et dans son sang mon bras va se plonger...</l>
+                        <l n="1154"> Mais ils dorment aussi ceux qu’ils vont égorger !</l>
+            <stage><em>Elle entre dans les appartements d’Holopherne. Au même instant la porte de la tente de Judith s’ouvre.</em></stage></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#zelpha">
+            <speaker> ZELPHA, à voix basse. </speaker>
+                        <l n="1155"> Où courez-vous, seigneur ? c’est là qu’il faut attendre.</l>
+                </sp>
+        <sp who="#achior">
+            <speaker> ACHIOR, à voix basse. </speaker>
+                        <l n="1156"> Mais tu ne vois donc pas qu’elle nous fait surprendre,</l>
+                        <l n="1157"> Que nous sommes trahis, que nous sommes perdus,</l>
+                        <l n="1158"> Qu’à son indigne amour elle nous a vendus,</l>
+                        <l n="1159"> Que nous venons trop tard, et qu’elle a changé l’heure ;</l>
+                        <l n="1160"> Qu’elle livre Israël, et qu’il faut qu’elle meure ?</l>
+                        <l n="1161"> Ah ! nous sommes tombés dans un lâche complot !</l>
+                        <l n="1162"> La perfide l’aimait !...</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, un glaive à la main. </speaker>
+                        <l n="1163"> Vous pouvez parler haut...</l>
+                </sp>
+        <sp who="#achior">
+            <speaker> ACHIOR. </speaker>
+                        <l n="1164"> C’est elle !</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH, avec exaltation. </speaker>
+                        <l n="1165"> Dieu puissant ! ma tâche est achevée.</l>
+                </sp>
+        <sp who="#zelpha">
+            <speaker> ZELPHA relève le rideau du milieu : on aperçoit dans le fond de la tente Holopherne étendu mort sur son lit. </speaker>
+                        <l n="1166"> Ciel !</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="1167"> Israël est libre, et Judith est sauvée !</l>
+            <stage><em>À Achior.</em></stage>
+                        <l n="1168"> Je l’aimais... disais-tu ?... que t’en semble à présent ?...</l>
+                        <l n="1169"> Mais quel froid me saisit... que ce glaive est pesant !</l>
+            <stage><em>Elle laisse tomber le glaive. Tumulte. Des soldats envahissent le théâtre et s’emparent des issues.</em></stage></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#osias">
+            <speaker> OSIAS. </speaker>
+                        <l n="1170"> L’impie épouvanté nous laisse la victoire !</l>
+                        <l n="1171"> Honneur à vous, Judith !</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="1172"> Je ne veux point de gloire.</l>
+                </sp>
+        <sp who="#osias">
+            <speaker> OSIAS. </speaker>
+                        <l n="1173"> Et que veux-tu pour prix d’un dévouement si beau ?</l>
+                </sp>
+        <sp who="#judith">
+            <speaker> JUDITH. </speaker>
+                        <l n="1174"> Le droit d’aller prier seule sur un tombeau,</l>
+                        <l n="1175"> Et de finir mes jours humblement dans les larmes.</l>
+                        <l n="1176"> Vous, achevez mon œuvre, allez combattre.</l>
+                </sp>
+        <sp who="#tous">
+            <speaker> TOUS. </speaker>
+                        <l n="1177"> Aux armes !!!</l>
+            <stage><em>La toile tombe.</em></stage>
+                        <l n="1178"> </l>
+                        <l n="1179"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

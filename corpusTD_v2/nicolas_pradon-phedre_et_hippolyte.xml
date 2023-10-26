@@ -1,0 +1,2637 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Phèdre et Hippolyte</title>
+                <title type="sub">Tragédie</title>
+            <author>
+                <persName>
+                    <forename>Nicolas</forename>
+                    <surname>Pradon</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/phèdre-et-hippolyte-nicolas-pradon </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1677-01-03">Représentée pour la première fois, à Paris, sur le Théâtre de l’Hôtel Guénégaud, le 3 janvier 1677.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="thésée" sex="SEX">
+                            <persName>THÉSÉE</persName>
+                        </person>
+                        <person xml:id="phèdre" sex="SEX">
+                            <persName>PHÈDRE</persName>
+                        </person>
+                        <person xml:id="hippolyte" sex="SEX">
+                            <persName>HIPPOLYTE</persName>
+                        </person>
+                        <person xml:id="aricie" sex="SEX">
+                            <persName>ARICIE</persName>
+                        </person>
+                        <person xml:id="idas" sex="SEX">
+                            <persName>IDAS</persName>
+                        </person>
+                        <person xml:id="arcas" sex="SEX">
+                            <persName>ARCAS</persName>
+                        </person>
+                        <person xml:id="cléone" sex="SEX">
+                            <persName>CLÉONE</persName>
+                        </person>
+                        <person xml:id="mégiste" sex="SEX">
+                            <persName>MÉGISTE</persName>
+                        </person>
+                        <person xml:id="gardes" sex="SEX">
+                            <persName>GARDES</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Tragédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q80930]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">PHÈDRE ET HIPPOLYTE</titlePart>
+            <titlePart type="sub">TRAGÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre de l’Hôtel Guénégaud, le 3 janvier 1677.</ab><!--@date="1677-01-03"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> À MADAME LA DUCHESSE DE BOUILLON</salute>
+            </opener>
+        <p> M</span>ADAME<span style="letter-spacing:-.3pt">, </p>
+        <p> Souffrez qu’Hippolyte forte aujourd’hui du fonds de ses Forêts, pour venir rendre hommage à Votre A</span>LTESSE</span></span><span style="letter-spacing:-.3pt">. Bien que ce Prince fut le plus habile Chasseur de son temps, son adresse aurait cédé sans doute à celle que vous faites admirer si souvent à toute la France dans ce noble Exercice, et il aurait été charmé de vous y voir avec tout cet éclat et cette grâce qui vous accompagnent toujours. Ne vous étonnez pas, M</span><span style="font-size:10.0pt"><span style="letter-spacing:-.3pt">ADAME</span></span><span style="letter-spacing:-.3pt">, s’il vous paraît dépouillé de cette fierté farouche et de cette insensibilité qui lui était si naturelle ; mais en aurait-il pu conserver auprès des charmes de V</span><span style="font-size:10.0pt"><span style="letter-spacing:-.3pt">OTRE</span></span><span style="letter-spacing:-.3pt"> A</span><span style="font-size:10.0pt"><span style="letter-spacing:-.3pt">LTESSE</span></span><span style="letter-spacing:-.3pt"> ? Enfin si les Anciens nous l’ont dépeint comme il a été dans Trézène, du moins il paraîtra comme il a dû être à Paris ; et rien déplaise à toute l’Antiquité, ce jeune Héros aurait eu mauvaise grâce de venir tout hérissé des épines du Grec, dans une Cour aussi galante que la nôtre. Ce n’est pas, M</span><span style="font-size:10.0pt"><span style="letter-spacing:-.3pt">ADAME</span></span><span style="letter-spacing:-.3pt">, que V</span><span style="font-size:10.0pt"><span style="letter-spacing:-.3pt">OTRE</span></span><span style="letter-spacing:-.3pt"> A</span><span style="font-size:10.0pt"><span style="letter-spacing:-.3pt">LTESSE</span></span><span style="letter-spacing:-.3pt"> ne pénètre admirablement toutes les beautés des Anciens. Outre le mérite de sa personne et l’éclat de son Rang, elle possède encore au dessus de celles de son Sexe, des avantages plus solides du côté de l’Esprit, puisque (si je l’ose dire) elle sait puiser dans leurs sources les beautés d’Horace et d’Ovide, et des plus célèbres auteurs dont elle nous pourrait donner des leçons. On sait d’ailleurs, M</span><span style="font-size:10.0pt"><span style="letter-spacing:-.3pt">ADAME</span></span><span style="letter-spacing:-.3pt">, que V. A</span><span style="font-size:10.0pt"><span style="letter-spacing:-.3pt">LTESSE</span></span><span style="letter-spacing:-.3pt"> ne juge jamais des Ouvrages par cabale, ou par prévention ; mais toujours avec un discernement si juste, accompagné de tant de pénétration et de délicatesse, et dans une si grande droiture de raison, quelle ne laisse rien a répondre aux plus entêtés. Ce sont ces raisons, M</span><span style="font-size:10.0pt"><span style="letter-spacing:-.3pt">ADAME</span></span><span style="letter-spacing:-.3pt">, qui ont forcé Hippolyte à venir vous rendre ses respects, et vous remercier des bontés dont V. A</span><span style="font-size:10.0pt"><span style="letter-spacing:-.3pt">LTESSE<span style="letter-spacing:-.3pt"> l’a déjà daigné honorer au Théâtre : il vous en demande la continuation sur le papier ; heureux ! s’il peut avoir l’honneur de vous plaire une seconde fois. Quoi qu’il en fait, je lui aurai toujours l’obligation, d’avoir servi de prétexte à mettre votre illustre Nom a la tête de cet Ouvrage, pour rendre témoignage a toute la France des obligations que je vous ai, et du profond respect avec lequel je serai toujours, </p>
+        <p> M</span>ADAME<span style="letter-spacing:-.3pt">, </p>
+        <p> DE</span></span> V</span><span style="font-size:10.0pt"><span style="letter-spacing:-.3pt">OTRE</span></span><span style="letter-spacing:-.3pt"> A</span><span style="font-size:10.0pt"><span style="letter-spacing:-.3pt">LTESSE<span style="letter-spacing:-.3pt">, </p>
+        <p> Le très humble et très obéissant Serviteur. </p>
+        <p> P</span>RADON<span style="letter-spacing:-.3pt">.  </p>
+    </div>
+           <div type="act" xml:id="1">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="1"> Oui, j’en frémis, Idas, tant de tristes présages</l>
+                        <l n="2"> Sont du Ciel en courroux les funestes messages.</l>
+                        <l n="3"> Je ne sais par quel crime Hippolyte odieux</l>
+                        <l n="4"> Peut attirer sur lui les menaces des Dieux.</l>
+                        <l n="5"> Je vois toutes les nuits cent images funèbres</l>
+                        <l n="6"> Qui mêlent leur horreur à celle des ténèbres.</l>
+                        <l n="7"> Ce matin, dans le Temple où j’ai sacrifié.</l>
+                        <l n="8"> Au col de la Victime un Serpent s’est lié,</l>
+                        <l n="9"> Qui lui perçant la gorge, en écumant de rage,</l>
+                        <l n="10"> M’en a fait rejaillir le sang sur le visage.</l>
+                        <l n="11"> Le Prêtre, à ce prodige, interdit et tremblant,</l>
+                        <l n="12"> Seul auprès de l’Autel m’a laissé tout sanglant.</l>
+                        <l n="13"> Je suis sorti du Temple, et jamais Sacrifice</l>
+                        <l n="14"> Ne s’est vu commencé sous un plus noir auspice ;</l>
+                        <l n="15"> Ah ! j’en frissonne encore, et vois de tous côtés</l>
+                        <l n="16"> Et la foudre qui gronde, et les Dieux irrités.</l>
+                </sp>
+        <sp who="#idas">
+            <speaker> IDAS. </speaker>
+                        <l n="17"> Ce prodige, Seigneur, me surprend et m’étonne : </l>
+                        <l n="18"> À ce récit affreux moi-même je frissonne ; </l>
+                        <l n="19"> Mais il faut espérer de la bonté des Dieux...</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="20"> Éloignons-nous de Phèdre, et fuyons de ces lieux. </l>
+                        <l n="21"> Oui, c’est par elle, Idas, que le Ciel nous menace :</l>
+                        <l n="22"> Le désir de la gloire, et Phèdre, tout me chasse ; </l>
+                        <l n="23"> Je crains qu’elle ne soit le fatal instrument </l>
+                        <l n="24"> De la haine des Dieux et de leur châtiment.</l>
+                </sp>
+        <sp who="#idas">
+            <speaker> IDAS. </speaker>
+                        <l n="25"> Je vous entends, Seigneur, au retour de Thésée </l>
+                        <l n="26"> Vous craignez les malheurs d’un second Hyménée :</l>
+                        <l n="27"> Le nom d’une Marâtre est toujours odieux ;</l>
+                        <l n="28"> Mais Seigneur, si j’en crois le rapport de mes yeux,</l>
+                        <l n="29"> Phèdre, pour adoucir ce titre de Marâtre,</l>
+                        <l n="30"> Vous chérit, vous respecte, enfin vous idolâtre, </l>
+                        <l n="31"> À tant d’égards, de soins...</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="32"> Et c’est là, cher Idas, </l>
+                        <l n="33"> Ce trop d’égards, de soins, qui fait mon embarras ; </l>
+                        <l n="34"> Sa trop tendre amitié me pèse et m’importune, </l>
+                        <l n="35"> Qu’elle jouisse en paix d’une illustre fortune ; </l>
+                        <l n="36"> Que mon Père pour elle avance son retour ;</l>
+                        <l n="37"> Qu’il lui jure à mes yeux une éternelle amour, </l>
+                        <l n="38"> Que Phèdre ait pour Thésée une tendresse extrême ; </l>
+                        <l n="39"> J’y consens, à l’autel je la conduis moi-même ; </l>
+                        <l n="40"> Et je voudrais déjà que l’un à l’autre unis </l>
+                        <l n="41"> Phèdre eût le nom de Mère, et moi celui de Fils. </l>
+                        <l n="42"> L’absence de Thésée est tout ce qui me gêne.</l>
+                        <l n="43"> Je veux donc aujourd’hui m’éloigner de Trézène ;</l>
+                        <l n="44"> Suivre, ou chercher mon Père, et quittant ce Palais, </l>
+                        <l n="45"> L’abandonner à Phèdre, et ne la voir jamais.</l>
+                </sp>
+        <sp who="#idas">
+            <speaker> IDAS. </speaker>
+                        <l n="46"> Quoi ! Seigneur, croyez-vous pouvoir suivre Thésée ?</l>
+                        <l n="47"> La route des Enfers est-ce une route aisée ?</l>
+                        <l n="48"> Et par toute la Grèce un bruit est répandu </l>
+                        <l n="49"> Que dans ces tristes lieux Thésée est descendu. </l>
+                        <l n="50"> Ne trouvant plus de monstre à vaincre sur la terre, </l>
+                        <l n="51"> Il porte en d’autres lieux son bras et le tonnerre, </l>
+                        <l n="52"> Il va jusqu’aux enfers rétablir l’équité, </l>
+                        <l n="53"> Et du sein de la mort à l’immortalité.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="54"> Quoi ! Tu ne rougis pas d’une telle faiblesse ?</l>
+                        <l n="55"> Prétends-tu m’éblouir des Fables de la Grèce ?</l>
+                        <l n="56"> Peux-tu croire un mensonge ? Ah ! ces illusions</l>
+                        <l n="57"> Sont d’un Peuple grossier les vaines visions ;</l>
+                        <l n="58"> Sans doute que Thésée a voulu faire croire</l>
+                        <l n="59"> Que jusques aux Enfers il peut porter sa gloire :</l>
+                        <l n="60"> Mais jamais aux Mortels de cet affreux séjour</l>
+                        <l n="61"> L’inexorable sort n’a permis le retour. </l>
+                        <l n="62"> Peut-il, enorgueilli d’une Race Divine,</l>
+                        <l n="63"> Dans les bras de Pluton enlever Proserpine ?</l>
+                        <l n="64"> Traverser le Cocyte avec Pirythoüs,</l>
+                        <l n="65"> Bien qu’ils soient des Héros, Idas, c’est un abus :</l>
+                        <l n="66"> Quoiqu’au-dessus de nous ils sont ce que nous sommes ;</l>
+                        <l n="67"> Et comme nous enfin les Héros sont des Hommes.</l>
+                </sp>
+        <sp who="#idas">
+            <speaker> IDAS. </speaker>
+                        <l n="68"> Mais, Seigneur, où Thésée a-t-il tourné ses pas ?</l>
+                        <l n="69"> En quels lieux, quels Pays ?</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="70"> Nous l’ignorons, Idas ;</l>
+                        <l n="71"> Après la mort d’Égée on sait que dans Athènes</l>
+                        <l n="72"> La brigue de Pallas lui donna mille peines : </l>
+                        <l n="73"> Il vint mettre en ces lieux la reine en sûreté,</l>
+                        <l n="74"> Et jura de punir cette ingrate Cité.</l>
+                        <l n="75"> Ils étaient sur le point d’unir leur destinée ;</l>
+                        <l n="76"> Et leur foi mutuelle était déjà donnée.</l>
+                        <l n="77"> La mort de mon Aïeul en recula le jour, </l>
+                        <l n="78"> Avec Pirythoüs il sortit de sa Cour.</l>
+                        <l n="79"> Ainsi, de cet Hymen la Pompe fût remise :</l>
+                        <l n="80"> Sans doute ils ont formé quelque haute entreprise.</l>
+                        <l n="81"> Phèdre le vit partir, et le vit sans regret ;</l>
+                        <l n="82"> Et de tous leurs desseins ignore le secret.</l>
+                        <l n="83"> J’en veux être éclairci, je veux chercher mon Père :</l>
+                        <l n="84"> Mais apprends aujourd’hui ce qui me désespère.</l>
+                        <l n="85"> Prêt à suivre Thésée et sortir de ces lieux,</l>
+                        <l n="86"> Pour soutenir en moi l’honneur du sang des Dieux,</l>
+                        <l n="87"> Te l’avouerai-je enfin ? quand la gloire m’entraîne, </l>
+                        <l n="88"> Que de puissants liens m’attachent à Trézène !</l>
+                </sp>
+        <sp who="#idas">
+            <speaker> IDAS. </speaker>
+                        <l n="89"> Qui peut vous retenir, Seigneur, en cette Cour ? </l>
+                        <l n="90"> Vous êtes l’ennemi déclaré de l’Amour,</l>
+                        <l n="91"> Vous n’aimez que la Chasse et le plaisir pénible.</l>
+                        <l n="92"> On vous donne partout le titre d’insensible ;</l>
+                        <l n="93"> Et votre Père même et chagrin, et jaloux,</l>
+                        <l n="94"> Mit Phèdre en votre garde, et se confie en vous.</l>
+                        <l n="95"> La belle Æglé ; surtout la Princesse Aricie,</l>
+                        <l n="96"> Que l’on voit avec Phèdre étroitement unie,</l>
+                        <l n="97"> Qui doit porter un jour la Couronne d’Argos, </l>
+                        <l n="98"> Et qui charma le cœur d’un des Fils de Minos,</l>
+                        <l n="99"> Ne touchent point le vôtre ; et cette jeune Hélène</l>
+                        <l n="100"> Que Thésée enferma dans les Murs de Trézène,</l>
+                        <l n="101"> Et dont l’enlèvement nous coûta...</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="102"> C’est assez,</l>
+                        <l n="103"> Sauvons-nous de ces Dieux qui nous ont menacés.</l>
+                        <l n="104"> Ne sondes point un cœur que j’ai peine à connaître.</l>
+                        <l n="105"> Je crois voir Aricie : oui, je la vois paraître.</l>
+                        <l n="106"> Laisse-nous un moment, et sans plus différer,</l>
+                        <l n="107"> Pour mon départ, Idas, va-t’en tout préparer.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="108"> Madame, vous passiez sans doute chez la Reine ; </l>
+                        <l n="109"> Mais puis que je suis prêt d’abandonner Trézène,</l>
+                        <l n="110"> Souffrez que je vous parle, et qu’en quittant la Cour...</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="111"> Quoi, Seigneur, vous partez ?</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="112"> Peut-être dès ce jour :</l>
+                        <l n="113"> Je vais chercher Thésée.</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="114"> Ah Ciel ! est-il possible !</l>
+                        <l n="115"> Qu’à ce départ, Seigneur, Phèdre sera sensible !</l>
+                        <l n="116"> Mais quoi ? vous n’avez rien qui vous retienne ici ?</l>
+                        <l n="117"> Thésée est loin de nous, vous nous quittez aussi ?</l>
+                        <l n="118"> Sans trouble, sans chagrin vous sortez d’une Ville </l>
+                        <l n="119"> Où... Que l’on est heureux d’être né si tranquille !</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="120"> Si j’étais si tranquille en sortant de ce lieu, </l>
+                        <l n="121"> Sans crainte, sans chagrin je vous dirais adieu,</l>
+                        <l n="122"> Madame, et cependant...</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="123"> Seigneur, parlons sans feinte :</l>
+                        <l n="124"> Quand on est sans amour, on est toujours sans crainte</l>
+                        <l n="125"> Votre superbe cœur l’a toujours outragé.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="126"> Eh ! Madame, vos yeux ne l’ont-ils point vengé ?</l>
+                        <l n="127"> Assez, et trop longtemps, d’une bouche profane</l>
+                        <l n="128"> Je méprisai l’Amour, et j’adorai Diane ;</l>
+                        <l n="129"> Solitaire, farouche, on me voyait toujours</l>
+                        <l n="130"> Chasser dans nos Forêts les Lions et les Ours ;</l>
+                        <l n="131"> Mais un soin plus pressant m’occupe et m’embarrasse :</l>
+                        <l n="132"> Depuis que je vous vois j’abandonne la Chasse,</l>
+                        <l n="133"> Elle fit autrefois mes plaisirs les plus doux ;</l>
+                        <l n="134"> Et quand j’y vais, ce n’est que pour penser à vous.</l>
+                        <l n="135"> Tous nos Grecs m’accusant d’une triste indolence,</l>
+                        <l n="136"> Font un crime à mon cœur de son indifférence ; </l>
+                        <l n="137"> Et je crains que vos yeux qui le trouvaient si fier,</l>
+                        <l n="138"> Ne prennent trop de soin de le justifier ;</l>
+                        <l n="139"> Mais le sang dont je sors leur devait faire croire</l>
+                        <l n="140"> Que le fils de Thésée était né pour la gloire, </l>
+                        <l n="141"> Madame ; et vous voyant ils devaient présumer</l>
+                        <l n="142"> Que le cœur d’Hippolyte était fait pour aimer.</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="143"> Seigneur, je vous écoute, et ne sais que répondre.</l>
+                        <l n="144"> Cet aveu surprenant ne sert qu’à me confondre :</l>
+                        <l n="145"> Comme il est imprévu, je tremble que mon cœur</l>
+                        <l n="146"> Ne tombe un peu trop tôt dans une douce erreur ; </l>
+                        <l n="147"> Mais puisque vous partez je ne dois plus me taire :</l>
+                        <l n="148"> Je souhaite, Seigneur, que vous soyez sincère ;</l>
+                        <l n="149"> Peut-être j’en dis trop, et déjà je rougis</l>
+                        <l n="150"> Et de ce que j’écoute et de ce que je dis ;</l>
+                        <l n="151"> Ce départ cependant m’arrache un aveu tendre,</l>
+                        <l n="152"> Que de longtemps encor vous ne deviez entendre,</l>
+                        <l n="153"> Et dont mon cœur confus, d’un silence discret,</l>
+                        <l n="154"> En soupirant tout bas m’avait fait un secret.</l>
+                        <l n="155"> Je ne sais dans quel trouble un tel aveu me jette ;</l>
+                        <l n="156"> Mais enfin, loin de vous je vais être inquiète, </l>
+                        <l n="157"> Et si vous consultiez ici mes sentiments,</l>
+                        <l n="158"> Vous pourriez bien, Seigneur, n’en partir de longtemps.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="159"> Ah ! Madame, faut-il que par un sort bizarre, </l>
+                        <l n="160"> Quand l’Amour nous unit, la Gloire nous sépare ? </l>
+                        <l n="161"> Puis qu’enfin de Thésée Hippolyte jaloux</l>
+                        <l n="162"> Veut en suivant son Père être digne de vous. </l>
+                        <l n="163"> Que me sert de sortir d’une race Divine, </l>
+                        <l n="164"> Si mon cœur ne répond à sa noble origine ?</l>
+                        <l n="165"> Je suis chargé d’un nom qu’il me faut soutenir :</l>
+                        <l n="166"> Je suis fils de Thésée, et dois m’en souvenir ;</l>
+                        <l n="167"> Et je n’ai point encor par aucune victoire</l>
+                        <l n="168"> D’alliance avec lui du côté de la Gloire. </l>
+                        <l n="169"> Consentez donc, Madame, à ce juste départ.</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="170"> Ah ! pour y consentir je sens qu’il est trop tard,</l>
+                        <l n="171"> Seigneur, et croyez-vous qu’il soit temps de m’apprendre </l>
+                        <l n="172"> Sur le point d’un départ, que votre cœur est tendre ?</l>
+                        <l n="173"> Ce départ me confond, cet aveu me surprend. </l>
+                        <l n="174"> Hélas ! que n’êtes-vous encore indifférent !</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="175"> Non, Madame, croyez qu’Hippolyte vous aime, </l>
+                        <l n="176"> Qu’en s’éloignant de vous il s’arrache à lui-même. </l>
+                        <l n="177"> Mais j’ai mille raisons d’abandonner ces lieux. </l>
+                        <l n="178"> Que dirai-je ? J’y crains la colère des Dieux : </l>
+                        <l n="179"> Sans doute un grand malheur nous menace ; et peut-être </l>
+                        <l n="180"> Vous vous repentirez...</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="181"> Je le dois bien connaître : </l>
+                        <l n="182"> Ce malheur me regarde, et puis que vous partez, </l>
+                        <l n="183"> Sans doute contre moi les Dieux sont irrités.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="184"> Non, non, c’est sur moi seul que tombent leurs menaces.</l>
+                        <l n="185"> De l’illustre Thésée il faut suivre les traces ;</l>
+                        <l n="186"> Et s’il le faut encore avouer entre nous,</l>
+                        <l n="187"> Je m’éloigne bien plus de Phèdre que de vous. </l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="188"> Ah ! Seigneur, je le vois, vous haïssez la Reine,</l>
+                        <l n="189"> Vous ne pouvez souffrir qu’elle règne à Trézène ;</l>
+                        <l n="190"> Et le bandeau Royal qu’elle porte à vos yeux,</l>
+                        <l n="191"> Au front d’une marâtre est sans doute odieux.</l>
+                        <l n="192"> Cette Phèdre pourtant si charmante et si fière</l>
+                        <l n="193"> Fait voir une amitié pour vous tendre et sincère ;</l>
+                        <l n="194"> Oui, Seigneur, tous les jours mes yeux en sont témoins :</l>
+                        <l n="195"> Peut-être pour Thésée en aurait-elle moins.</l>
+                        <l n="196"> Dans votre air, de Thésée elle trouve l’image :</l>
+                        <l n="197"> Ces traits qui lui sont chers sont sur votre visage.</l>
+                        <l n="198"> Je l’écoute avec joie, hélas ! je m’applaudis</l>
+                        <l n="199"> Que brûlant pour le Père elle adore le fils.</l>
+                        <l n="200"> Tous ses soins vont pour vous jusqu’à l’inquiétude ;</l>
+                        <l n="201"> Et je rougis, Seigneur, de votre ingratitude.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="202"> Ah ! Madame !</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="203"> Hier encor elle parlait de vous </l>
+                        <l n="204"> D’un air, dont mon esprit était presque jaloux.</l>
+                        <l n="205"> Que j’endurais, Seigneur, une dure contrainte, </l>
+                        <l n="206"> Quand lui cachant mes feux sous une injuste feinte </l>
+                        <l n="207"> Elle me reprochait alors avec ardeur</l>
+                        <l n="208"> Que je parlais de vous avec trop de froideur.</l>
+                        <l n="209"> On dirait à la voir languissante, abattue,</l>
+                        <l n="210"> Qu’un poison lent, secret, la consume, la tue ; </l>
+                        <l n="211"> Et de son cher époux le triste éloignement </l>
+                        <l n="212"> Depuis un si longtemps la touche tendrement.</l>
+                        <l n="213"> Elle pleure souvent, sans cesse elle soupire : </l>
+                        <l n="214"> L’absence de Thésée est pour elle un martyre...</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="215"> Et pour elle et pour nous que n’est-il retour !</l>
+                        <l n="216"> Madame, vous verriez l’excès de son amour. </l>
+                        <l n="217"> Elle vient, je vous quitte.</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="218"> Hélas ! il fuit la Reine, </l>
+                        <l n="219"> Et son empressement n’attire que sa haine. </l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE, à part. </speaker>
+                        <l n="220"> Arrête, Phèdre, arrête, et cours plutôt cacher </l>
+                        <l n="221"> Un secret que l’Amour commence à t’arracher ;</l>
+                        <l n="222"> Et vous, cruels Tyrans, impétueuse flamme, </l>
+                        <l n="223"> Gloire, dépit, raison, qui déchirez mon âme, </l>
+                        <l n="224"> Secret fardeau pesant qui me fait soupirer, </l>
+                        <l n="225"> Hélas ! pour un moment laissez-moi respirer. </l>
+                        <l n="226"> Princesse, vous voyez une Reine affligée</l>
+                        <l n="227"> Dans les plus noirs chagrins mortellement plongée, </l>
+                        <l n="228"> Qui ne peut plus se taire, et qui n’ose parler, </l>
+                        <l n="229"> Et qui cherche partout qui peut la consoler. </l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="230"> Madame, je conçois les douleurs d’une Amante, </l>
+                        <l n="231"> Quand d’un Héros qu’elle aime elle est longtemps absente.</l>
+                        <l n="232"> Vous adorez Thésée, et sans doute les Dieux</l>
+                        <l n="233"> Par son heureux retour exauceront vos vœux :</l>
+                        <l n="234"> Ils seront attendris de l’état pitoyable... </l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="235"> Que vous connaissez mal la douleur qui m’accable ! </l>
+                        <l n="236"> Je ne pourrais le voir sans un mortel effroi, </l>
+                        <l n="237"> Et Thésée infidèle a dégagé ma foi.</l>
+                        <l n="238"> Toute la Grèce sait que Phèdre infortunée,</l>
+                        <l n="239"> De même qu’Ariane en est abandonnée ; </l>
+                        <l n="240"> Sur le point d’un hymen il ose me trahir, </l>
+                        <l n="241"> Il me quitte l’Ingrat, et je dois le haïr ;</l>
+                        <l n="242"> Et bien que contre lui tout me parle et m’irrite, </l>
+                        <l n="243"> Je ne saurais haïr le père d’Hippolyte.</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="244"> Ah ! conservez, Madame, un si beau sentiment : </l>
+                        <l n="245"> Thésée est votre Époux et toujours votre Amant,</l>
+                        <l n="246"> Bien qu’il vous ait quittée, il n’est point infidèle.</l>
+                        <l n="247"> Il court sans balancer où la Gloire l’appelle.</l>
+                        <l n="248"> Les Héros comme lui, par cent périls divers,</l>
+                        <l n="249"> Vont chercher les Tyrans au bout de l’Univers, </l>
+                        <l n="250"> Et souvent sa valeur à son Amour fatale</l>
+                        <l n="251"> Vous donne dans son cœur la Gloire pour Rivale,</l>
+                        <l n="252"> Mais son retour enfin...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="253"> À ce fatal retour,</l>
+                        <l n="254"> Pour Rival à sa Gloire il trouvera l’Amour,</l>
+                        <l n="255"> Mais peut-être un Amour qui nous sera funeste, </l>
+                        <l n="256"> Un Amour malheureux que ma vertu déteste.</l>
+                        <l n="257"> Aricie, il est temps de vous tirer d’erreur :</l>
+                        <l n="258"> Je vous aime, apprenez le secret de mon cœur ;</l>
+                        <l n="259"> Et les soupirs de Phèdre et le feu qui l’agite,</l>
+                        <l n="260"> Ne vont point à Thésée, et cherchent Hippolyte. </l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="261"> Hippolyte !</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="262"> Et Trézène est le fatal séjour</l>
+                        <l n="263"> Où le fils de Thésée alluma cet amour.</l>
+                        <l n="264"> On fut à notre abord rendre les Dieux propices,</l>
+                        <l n="265"> Au temple de Diane on fit des Sacrifices,</l>
+                        <l n="266"> D’une pompeuse Fête Hippolyte eut les soins : </l>
+                        <l n="267"> Mes yeux, mes tristes yeux, en furent les témoins.</l>
+                        <l n="268"> Escorté d’une illustre et superbe Jeunesse,</l>
+                        <l n="269"> En lui je vis l’honneur et la fleur de la Grèce.</l>
+                        <l n="270"> L’air d’un jeune Héros, un front majestueux,</l>
+                        <l n="271"> La douceur de ses traits, et le feu de ses yeux, </l>
+                        <l n="272"> Cette fierté charmante, et ce grand caractère</l>
+                        <l n="273"> (Tel que porte le front de son auguste père)</l>
+                        <l n="274"> Éblouirent mes yeux, et passant en mon cœur</l>
+                        <l n="275"> Je connus Hippolyte, et sentis mon vainqueur.</l>
+                        <l n="276"> Il offrit la victime, et d’un désir profane</l>
+                        <l n="277"> J’enviais en secret le bonheur de Diane ;</l>
+                        <l n="278"> J’aurais voulu lui faire un larcin de ses vœux,</l>
+                        <l n="279"> Je conjurais Vénus de lui donner mes feux.</l>
+                        <l n="280"> Mais la Déesse enfin me punit de ce crime :</l>
+                        <l n="281"> Du sacrifice hélas ! Phèdre fut la victime ; </l>
+                        <l n="282"> Et sans plus respecter la sainteté du lieu,</l>
+                        <l n="283"> Mon cœur n’y reconnut qu’Hippolyte pour Dieu.</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="284"> Ah ! Madame, Thésée avec plus de justice </l>
+                        <l n="285"> Devait être l’objet d’un si beau Sacrifice.</l>
+                        <l n="286"> Mais brûlant pour son fils, Dieux ! que prétendez-vous ? </l>
+                        <l n="287"> Hippolyte ! le fils de votre illustre Époux !</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="288"> Non, non, les derniers nœuds des Lois de l’Hyménée </l>
+                        <l n="289"> Avec Thésée encor ne m’ont point enchaînée. </l>
+                        <l n="290"> Je porte sa couronne, il a reçu ma foi ;</l>
+                        <l n="291"> Et ce sont mes serments qui parlent contre moi. </l>
+                        <l n="292"> Les Dieux n’allument point de feux illégitimes : </l>
+                        <l n="293"> Ils seraient criminels en inspirant les crimes ; </l>
+                        <l n="294"> Et lorsque leur courroux a versé dans mon sein </l>
+                        <l n="295"> Cette flamme fatale et ce mortel venin,</l>
+                        <l n="296"> Ils ont sauvé ma Gloire, et leur courroux funeste </l>
+                        <l n="297"> Ne sait point aux mortels inspirer un inceste.</l>
+                        <l n="298"> Et mon âme est malpropre à soutenir l’horreur </l>
+                        <l n="299"> De ce crime, l’objet de leur juste fureur.</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="300"> Mais, Madame, songez qu’Hippolyte inflexible,</l>
+                        <l n="301"> Aux charmes de l’Amour ne fut jamais sensible. </l>
+                        <l n="302"> Son naturel sauvage et sa sombre fierté</l>
+                        <l n="303"> Lui font toujours fermer les yeux à la beauté. </l>
+                        <l n="304"> La farouche Amazone, Antiope sa mère, </l>
+                        <l n="305"> Lui donna dès l’enfance une humeur triste et fière ; </l>
+                        <l n="306"> Et farouche comme elle, et dans nos bois errant, </l>
+                        <l n="307"> Solitaire, il promène un cœur indifférent.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="308"> Hélas ! je me croyais plus superbe et plus fière :</l>
+                        <l n="309"> De la race des Dieux, fille de la Lumière, </l>
+                        <l n="310"> Avec dédain j’ai vu des Rois humiliés</l>
+                        <l n="311"> En la Cour de Minos soupirer à mes pieds ; </l>
+                        <l n="312"> Mais Dieux ! nous méprisons les conquêtes faciles, </l>
+                        <l n="313"> Nous voulons ébranler les cœurs les plus tranquilles ; </l>
+                        <l n="314"> Et c’est le piège adroit où l’Amour nous surprend, </l>
+                        <l n="315"> Quand il arme nos yeux contre un Indifférent.</l>
+                        <l n="316"> Par orgueil on veut vaincre, on s’attache, on s’oublie, </l>
+                        <l n="317"> En voulant l’attendrir on se trouve attendrie ;</l>
+                        <l n="318"> Notre fierté commence à nous abandonner, </l>
+                        <l n="319"> Et l’on prend de l’Amour lorsqu’on croit en donner.</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="320"> Que je vous plains, Madame, et que vous devez craindre !</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="321"> C’est trop longtemps me taire, et c’est trop me contraindre :</l>
+                        <l n="322"> Parlons, puisqu’il y va du repos de mes jours.</l>
+                        <l n="323"> Ne me refusez pas de fidèles secours :</l>
+                        <l n="324"> J’aime Hippolyte, aimez Deucalion mon frère : </l>
+                        <l n="325"> Son cœur brûle pour vous d’une flamme sincère :</l>
+                        <l n="326"> Et pour unir la Crète au Royaume d’Argos, </l>
+                        <l n="327"> Il doit mettre à vos pieds le Sceptre de Minos ; </l>
+                        <l n="328"> Oui, Princesse, portez une double Couronne ;</l>
+                        <l n="329"> Pour moi, qui suis les Lois que mon amour m’ordonne,</l>
+                        <l n="330"> Aux ordres du destin je vais m’abandonner.</l>
+                        <l n="331"> Hippolyte dans peu se verra couronner : </l>
+                        <l n="332"> J’ai préparé l’esprit du Peuple de Trézène</l>
+                        <l n="333"> À le proclamer Roi comme il me nomma Reine.</l>
+                        <l n="334"> De la mort de Thésée on va semer le bruit ; </l>
+                        <l n="335"> Et pour ce grand dessein j’ai si bien tout conduit,</l>
+                        <l n="336"> Qu’il faudra qu’Hippolyte à mes vœux moins contraire</l>
+                        <l n="337"> Reçoive cette main destinée à son père ;</l>
+                        <l n="338"> Et que s’il veut régner, le Trône étant à moi,</l>
+                        <l n="339"> Qu’il ne puisse y monter qu’en recevant ma foi. </l>
+                        <l n="340"> Quoi ? de ce grand projet Aricie est surprise ?</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="341"> Madame, je frémis d’une telle entreprise, </l>
+                        <l n="342"> Et je tremble pour vous... enfin pour votre Amour.</l>
+                        <l n="343"> Juste Dieux ! si Thésée avançait son retour,</l>
+                        <l n="344"> Que feriez-vous, Madame ?</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="345"> Ah ! ma chère Aricie,</l>
+                        <l n="346"> Il est plus d’un chemin pour sortir de la vie.</l>
+                        <l n="347"> Mais mon frère dans peu viendra me secourir ;</l>
+                        <l n="348"> Et j’attends une Armée avant que de mourir.</l>
+                        <l n="349"> Je sais quelle amitié pour moi vous intéresse :</l>
+                        <l n="350"> Unissons-nous ensemble, et plaignez ma faiblesse,</l>
+                        <l n="351"> J’aime, je brûle, ainsi l’ont ordonné les Dieux ;</l>
+                        <l n="352"> La mort, la seule mort, peut éteindre mes feux. </l>
+                        <l n="353"> Puis que le destin veut que j’adore Hippolyte,</l>
+                        <l n="354"> J’obéis, son Arrêt me tient lieu de mérite ;</l>
+                        <l n="355"> Mais si je suis réduite à ne rien espérer,</l>
+                        <l n="356"> Je puis tout perdre. Adieu, je vais tout préparer,</l>
+                        <l n="357"> Et pour ce grand dessein, où mon Amour m’entraîne, </l>
+                        <l n="358"> Travailler en amante, et commander en Reine.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#aricie">
+            <speaker> ARICIE </speaker>
+                        <l n="359"> Ah ! Dieux ! c’était donc là cette tendre amitié,</l>
+                        <l n="360"> Ces maux et ces langueurs de qui j’avais pitié !</l>
+                        <l n="361"> Ses feux m’ont abusée, et j’en suis interdite !</l>
+                        <l n="362"> Phèdre, Phèdre à mes yeux brûle pour Hippolyte.</l>
+                        <l n="363"> Crédule et jeune encor, jusqu’à ce triste jour</l>
+                        <l n="364"> Je n’ai su démêler l’Amitié de l’Amour ;</l>
+                        <l n="365"> Mais quoi ! ses yeux remplis de langueur et de flamme,</l>
+                        <l n="366"> Trahissaient si souvent le secret de son âme !</l>
+                        <l n="367"> Ses soupirs et ses feux me devaient éclairer ;</l>
+                        <l n="368"> Et la simple amitié fait-elle soupirer ?</l>
+                        <l n="369"> Cependant Phèdre cède au torrent qui l’entraîne :</l>
+                        <l n="370"> Que faire ? Juste Ciel ! elle est Amante et Reine,</l>
+                        <l n="371"> Cher Hippolyte hélas ! tu voyais ce danger,</l>
+                        <l n="372"> Elle peut tout, du moins elle peut se venger.</l>
+                        <l n="373"> Fuis de ces tristes lieux ; va, si tu m’en veux croire,</l>
+                        <l n="374"> Mettre en dépôt ton cœur dans le sein de la Gloire :</l>
+                        <l n="375"> Et malgré mon Amour qui veut me démentir,</l>
+                        <l n="376"> Je cours en soupirant t’ordonner de partir.</l></div></div>
+           <div type="act" xml:id="2">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="377"> Je n’en puis revenir, et j’en soupire encore. </l>
+                        <l n="378"> Pourquoi me cachiez-vous que Phèdre vous adore ?</l>
+                        <l n="379"> Sa bouche en m’accablant a dissipé l’erreur</l>
+                        <l n="380"> Dont ses soupirs devaient avoir instruit mon cœur.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="381"> Madame, de quel front pouvais-je vous apprendre</l>
+                        <l n="382"> Ce secret si fatal que vous deviez entendre ? </l>
+                        <l n="383"> Hélas ! était-ce à moi de parler ?</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE </speaker>
+                        <l n="384"> Non, Seigneur,</l>
+                        <l n="385"> Ce n’était point à vous, mais c’était à mon cœur :</l>
+                        <l n="386"> C’était moi qui devais être plus pénétrante.</l>
+                        <l n="387"> Et sans être jalouse hélas ! est-on Amante ?</l>
+                        <l n="388"> Quoi donc ! tranquillement j’ai vu Phèdre pleurer ! </l>
+                        <l n="389"> J’ai pu la voir sans crainte à vos yeux soupirer !</l>
+                        <l n="390"> Non, Seigneur, l’amitié ne fut jamais si tendre ;</l>
+                        <l n="391"> Et sans crime, l’Amour ne pouvait s’y méprendre.</l>
+                        <l n="392"> Mais enfin, c’en est fait, et je veux m’en punir,</l>
+                        <l n="393"> C’est à présent, Seigneur, que je dois vous bannir : </l>
+                        <l n="394"> Moi-même loin d’ici je consens...</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="395"> Ah ! Madame,</l>
+                        <l n="396"> Je ne connaissais pas la force de ma flamme,</l>
+                        <l n="397"> Et je sens que mon cœur par un prompt repentir</l>
+                        <l n="398"> À cet éloignement a peine à consentir ;</l>
+                        <l n="399"> Je le pressais tantôt, vous m’osiez le défendre :</l>
+                        <l n="400"> Vous le pressez, mon cœur refuse de s’y rendre. </l>
+                        <l n="401"> Tremblant auprès de vous, incertain, et confus, </l>
+                        <l n="402"> Je ressens des transports qui m’étaient inconnus. </l>
+                        <l n="403"> Quand je veux rappeler en ma triste mémoire,</l>
+                        <l n="404"> Que mon Père me parle aussi bien que ma gloire, </l>
+                        <l n="405"> Je l’entends près de Phèdre ; et lorsque je vous vois, </l>
+                        <l n="406"> L’Amour parle, et mon cœur n’écoute que sa voix.</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="407"> Ah ! Seigneur, craignons Phèdre : et je n’ose vous dire </l>
+                        <l n="408"> Son pouvoir, ses desseins, son amour : j’en soupire.</l>
+                        <l n="409"> Elle est belle, elle règne, et peut unir son sort... </l>
+                        <l n="410"> Que feriez-vous, Seigneur, si Thésée était mort ?</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="411"> Je vous couronnerais, Madame, dans Trézène, </l>
+                        <l n="412"> Aux yeux de Phèdre même.</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="413"> Ah ! redoutez sa haine,</l>
+                        <l n="414"> Je connais sa fureur, il faut la ménager.</l>
+                        <l n="415"> Un amour offensé peut-il pas se venger ? </l>
+                        <l n="416"> Si Phèdre pénétrait ce dangereux mystère,</l>
+                        <l n="417"> Je serais exposée à toute sa colère :</l>
+                        <l n="418"> Heureuse, si moi seule attirais son courroux !</l>
+                        <l n="419"> Mais hélas ! je craindrais qu’il ne tombât sur vous.</l>
+                        <l n="420"> Que dirai-je ? je crains vos yeux, votre visage.</l>
+                        <l n="421"> Et pourquoi n’a-t-il plus cet air triste et sauvage,</l>
+                        <l n="422"> Qui glaçait autrefois mes feux et mes désirs ?</l>
+                        <l n="423"> Ah ! s’il se peut, Seigneur, étouffez vos soupirs :</l>
+                        <l n="424"> Rappelez, rappelez votre heureuse indolence :</l>
+                        <l n="425"> Que l’Amour vous redonne un air d’indifférence ;</l>
+                        <l n="426"> Et pour cacher à Phèdre une innocente ardeur,</l>
+                        <l n="427"> Demandez à vos feux une feinte froideur.</l>
+                        <l n="428"> Mais non, partez plutôt, et suivez votre père :</l>
+                        <l n="429"> Voyez ce qu’il a fait, ce que vous devez faire.</l>
+                        <l n="430"> Le départ est plus sûr ; et dut-il m’accabler, </l>
+                        <l n="431"> Rappelez ces vertus qui me faisaient trembler.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="432"> Quoi ? donc...</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="433"> J’aperçois Phèdre : ah ! cachons notre flamme,</l>
+                        <l n="434"> Et craignons que nos yeux ne trahissent notre âme.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="435"> Je ne réponds de rien en l’état où je suis.</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="436"> Souvenez-vous, Seigneur, de qui vous êtes fils.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="437"> On vient de nous donner de sensibles alarmes, </l>
+                        <l n="438"> Seigneur, et qui pourraient nous coûter bien des larmes :</l>
+                        <l n="439"> Idas prépare tout ; et pour un grand dessein </l>
+                        <l n="440"> On dit que vous partez peut-être dès demain. </l>
+                        <l n="441"> Quoi ? Seigneur, croyez-vous que le Peuple tranquille</l>
+                        <l n="442"> Vous laisse après Thésée abandonner sa Ville ? </l>
+                        <l n="443"> Mais pour vous faire encor demeurer avec nous, </l>
+                        <l n="444"> Vous verrez tous les Grecs tomber à vos genoux. </l>
+                        <l n="445"> Vous connaissez l’Amour du peuple de Trézène : </l>
+                        <l n="446"> Il ne souffrira point...</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="447"> J’aimerais mieux sa haine, </l>
+                        <l n="448"> Madame : prétend-il pour me prouver sa foi, </l>
+                        <l n="449"> Disposer d’Hippolyte et du fils de son Roi ? </l>
+                        <l n="450"> Je veux suivre mon père : et ce départ l’étonne !</l>
+                        <l n="451"> Quoi ? sorti d’Antiope, une illustre Amazone,</l>
+                        <l n="452"> Et fils du grand Thésée, il sait trop qu’aujourd’hui</l>
+                        <l n="453"> Je n’ai rien fait encor digne d’elle ou de lui.</l>
+                        <l n="454"> À mon âge Thésée avait purgé la terre</l>
+                        <l n="455"> De cent monstres cruels qui lui faisaient la guerre,</l>
+                        <l n="456"> Et dès les premiers coups qui partaient de ses mains,</l>
+                        <l n="457"> Attachait à son bras le repos des Humains. </l>
+                        <l n="458"> Qu’ai-je fait jusqu’ici qu’errant de solitaire</l>
+                        <l n="459"> Entendre en soupirant les hauts faits de mon père ?</l>
+                        <l n="460"> Mon Aïeul Pytheüs prit soin de m’élever :</l>
+                        <l n="461"> Je cherchai les périls que je pouvais braver :</l>
+                        <l n="462"> Et ce Peuple est témoin que le fils de Thésée</l>
+                        <l n="463"> A du sang des Lions fait rougir son Épée.</l>
+                        <l n="464"> La Chasse seule alors eut pour moi des attraits :</l>
+                        <l n="465"> De Monstres à mon tour je purgeai nos Forêts :</l>
+                        <l n="466"> Et j’ai perdu des coups, qui méritaient peut-être</l>
+                        <l n="467"> D’accabler des Tyrans qui m’auraient fait connaître. </l>
+                        <l n="468"> Cependant jusqu’ici ma stérile valeur</l>
+                        <l n="469"> D’un vil sang répandu ne peut me faire honneur ;</l>
+                        <l n="470"> Mon nom à peine écrit sur l’écorce des Arbres,</l>
+                        <l n="471"> N’est point encor gravé sur l’airain ou les marbres ;</l>
+                        <l n="472"> Et le nom d’Hippolyte, et ses plus grands exploits, </l>
+                        <l n="473"> Sont connus seulement aux Échos de nos Bois,</l>
+                        <l n="474"> Quand le nom glorieux de l’illustre Thésée</l>
+                        <l n="475"> Occupe avec éclat toute la Renommée.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="476"> De si grands sentiments sont dignes d’un Héros.</l>
+                        <l n="477"> L’on vous a toujours vu l’ennemi du repos ;</l>
+                        <l n="478"> Et votre âme, Seigneur, de la Gloire embrasée,</l>
+                        <l n="479"> Fait reconnaître en vous le fils du grand Thésée :</l>
+                        <l n="480"> Mais qui nous défendra contre nos Ennemis ?</l>
+                        <l n="481"> Le Père est mort peut-être, et nous perdons le fils,</l>
+                        <l n="482"> Ce fils qu’avec raison la Grèce aime, révère ; </l>
+                        <l n="483"> Ce fils l’auguste image et le cœur de son père,</l>
+                        <l n="484"> Dont les traits sont si chers à mes sens désolés,</l>
+                        <l n="485"> D’un père (quoi qu’ingrat) à qui vous ressemblez,</l>
+                        <l n="486"> Seigneur, il m’abandonne, et du moins s’il respire,</l>
+                        <l n="487"> Pour Phèdre encor, peut-être en secret il soupire ; </l>
+                        <l n="488"> Et son cœur est touché d’un reste de pitié,</l>
+                        <l n="489"> Quand le vôtre insensible aux traits de l’amitié,</l>
+                        <l n="490"> Dans son indifférence, et cruel, et barbare,</l>
+                        <l n="491"> Rend Hippolyte hélas ! de ses regards avare.</l>
+                        <l n="492"> Ah ! Seigneur, si jamais votre cœur enflammé</l>
+                        <l n="493"> Connaissait la douceur d’aimer et d’être aimé...</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="494"> Ah ! qu’il est dangereux de le trop bien connaître,</l>
+                        <l n="495"> Madame, cet amour qui devient notre Maître !</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="496"> Tout aime cependant, et l’Amour est si doux :</l>
+                        <l n="497"> La nature en naissant le fait naître avec nous, </l>
+                        <l n="498"> L’Univers n’eut jamais de Peuple si sauvage,</l>
+                        <l n="499"> Qui des premiers soupirs ne lui rende l’hommage.</l>
+                        <l n="500"> Si tôt que la nature apprend à respirer,</l>
+                        <l n="501"> L’Amour en même temps apprend à soupirer ;</l>
+                        <l n="502"> Un Scythe, un barbare aime, et le seul Hippolyte ;</l>
+                        <l n="503"> Est plus fier mille fois qu’un barbare et qu’un Scythe.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="504"> Ah ! Madame, depuis que j’ai reçu le jour,</l>
+                        <l n="505"> Je n’aime que la Gloire, et déteste l’Amour.</l>
+                        <l n="506"> Il regarde Aricie.</l>
+                        <l n="507"> Mais les brûlants désirs que sa beauté m’inspire,</l>
+                        <l n="508"> Attendrissent mon cœur, il gémit, il soupire,</l>
+                        <l n="509"> C’est elle qui le touche : il la voit, il s’y rend...</l>
+                        <l n="510"> Vous voyez que mon cœur n’est pas indifférent,</l>
+                        <l n="511"> À Phèdre.</l>
+                        <l n="512"> Madame ; mais aussi c’est cette même gloire</l>
+                        <l n="513"> Qu’Hippolyte a toujours présente en sa mémoire.</l>
+                        <l n="514"> L’image de Thésée et de ses grands exploits, </l>
+                        <l n="515"> Excite ma vertu, l’appelle à haute voix :</l>
+                        <l n="516"> C’est elle qu’il faut suivre, et qu’adore Hippolyte ;</l>
+                        <l n="517"> Et c’est pour elle enfin qu’il faut que je vous quitte.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="518"> Ah ! Seigneur, demeurez, ne précipitez pas</l>
+                        <l n="519"> Un départ qui m’annonce un funeste trépas.</l>
+                        <l n="520"> Sans Thésée ou sans vous je ne saurais plus vivre.</l>
+                        <l n="521"> Si vous partez enfin, Phèdre saura vous suivre.</l>
+                        <l n="522"> Si Thésée était mort, hélas ! dans mes malheurs</l>
+                        <l n="523"> J’attendrais votre main pour essuyer mes pleurs ;</l>
+                        <l n="524"> Mais enfin ce départ ne sert qu’à me confondre :</l>
+                        <l n="525"> Et de Phèdre, Seigneur, devez-vous pas répondre ?</l>
+                        <l n="526"> Elle est en votre garde, et son sort en vos mains ;</l>
+                        <l n="527"> Mais vous êtes toujours le plus fier des Humains.</l>
+                        <l n="528"> Ah ! Princesse, parlez, joignez-vous à mes larmes.</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="529"> Madame, pour un cœur la Gloire a bien des charmes. </l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="530"> Si ce départ, Seigneur, se pouvait différer ?</l>
+                        <l n="531"> Faut-il pas quelques jours pour vous y préparer ?</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE, tout bas. </speaker>
+                        <l n="532"> Partez, Seigneur, partez.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE, à Phèdre. </speaker>
+                        <l n="533"> Hé le puis-je, Madame,</l>
+                        <l n="534"> Différer un départ ?... Quel trouble dans mon âme ?</l>
+                        <l n="535"> Cependant je prévois qu’il faudra différer</l>
+                        <l n="536"> Ce départ, dont mon cœur commence à murmurer.</l>
+                        <l n="537"> Je dois trop de respect aux ordres d’une Reine.</l>
+                        <l n="538"> Pour quelques jours encor je demeure à Trézène :</l>
+                        <l n="539"> Oui, j’obéis, Madame, et cet ordre est si doux,</l>
+                        <l n="540"> Qui malgré mes desseins me retient près de vous, </l>
+                        <l n="541"> Que ma gloire jalouse en demeure interdite.</l>
+                        <l n="542"> Mais hélas ! je ne suis ni barbare, ni Scythe.</l>
+                        <l n="543"> Adieu, Madame.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="544"> Ah Ciel ! qu’ose-t-il déclarer ?</l>
+                        <l n="545"> Tout farouche qu’il est, je le vois soupirer.</l>
+                        <l n="546"> En croirai-je mes yeux ? Ah ! ma chère Aricie, </l>
+                        <l n="547"> Depuis quand Hippolyte a-t-il l’âme attendrie ?</l>
+                        <l n="548"> Oui, j’ai lu dans ses yeux une tendre langueur : </l>
+                        <l n="549"> Son désordre annonçait le trouble de son cœur :</l>
+                        <l n="550"> Son visage inquiet m’a paru moins farouche :</l>
+                        <l n="551"> Malgré lui ses soupirs échappaient de sa bouche : </l>
+                        <l n="552"> En parlant pour la Gloire il parlait faiblement ;</l>
+                        <l n="553"> Et contre l’Amour même il parlait tendrement.</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="554"> Mais s’il vous en souvient, l’exemple de son père</l>
+                        <l n="555"> D’Hippolyte a fait voir l’âme et le caractère.</l>
+                        <l n="556"> Quel désir de la Gloire, et quelle avidité</l>
+                        <l n="557"> Nous marquait d’un Héros la noble activité ?</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="558"> Je ne sais si la gloire excitait son envie ;</l>
+                        <l n="559"> Mais cette activité s’est bientôt ralentie :</l>
+                        <l n="560"> Et bien qu’elle ait pour lui des charmes assez doux,</l>
+                        <l n="561"> Il partait, cependant il demeure avec nous. </l>
+                        <l n="562"> Son esprit agité, sa douce incertitude...</l>
+                        <l n="563"> Mais depuis quelque temps il hait la solitude,</l>
+                        <l n="564"> Il n’est plus si souvent dans le fonds des Forêts,</l>
+                        <l n="565"> Il va moins à la Chasse, il demeure au Palais,</l>
+                        <l n="566"> Il n’a plus l’air sauvage, il nous cherche, il soupire : </l>
+                        <l n="567"> Je repasse en secret tout ce qu’il a su dire,</l>
+                        <l n="568"> La Gloire le pressait de sortir de ma Cour ;</l>
+                        <l n="569"> Mais Dieux ! y serait-il arrêté par l’Amour ?</l>
+                        <l n="570"> Et, si nous en croyons à ce même Hippolyte,</l>
+                        <l n="571"> Il n’est plus, a-t-il dit, ni barbare, ni Scythe. </l>
+                        <l n="572"> Si son cœur est sensible, il peut l’être pour moi :</l>
+                        <l n="573"> Je pourrai lui donner la Couronne et ma foi.</l>
+                        <l n="574"> Thésée est loin de nous, un rayon d’espérance</l>
+                        <l n="575"> Me flatte ; et l’on peut tout par la persévérance.</l>
+                        <l n="576"> Princesse, ah ! je commence enfin à respirer : </l>
+                        <l n="577"> Thésée est mort peut-être, et je dois espérer...</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#cléone">
+            <speaker> CLÉONE. </speaker>
+                        <l n="578"> Apprenez le bonheur que le Ciel nous envoie :</l>
+                        <l n="579"> Tout le peuple à grands flots par mille cris de joie </l>
+                        <l n="580"> Solennise, Madame, un si fortuné jour, </l>
+                        <l n="581"> Et de l’heureux Thésée annonce le retour. </l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="582"> Ah Ciel !</l>
+                </sp>
+        <sp who="#cléone">
+            <speaker> CLÉONE. </speaker>
+                        <l n="583"> Du fier Pallas il a puni l’audace, </l>
+                        <l n="584"> Aux Portes de Trézène Hippolyte l’embrasse, </l>
+                        <l n="585"> Tous deux vers le Palais...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="586"> Il suffit, laissez-nous.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="587"> Ô Ciel ! injuste Ciel ! ce sont là de tes coups :</l>
+                        <l n="588"> Achève, et pour punir mon amour et mes crimes, </l>
+                        <l n="589"> Du centre de la terre ouvre-moi les abîmes.</l>
+                        <l n="590"> Thésée est à Trézène ! Ah ! funeste retour</l>
+                        <l n="591"> Qui m’arrache à jamais l’espoir de mon amour !</l>
+                        <l n="592"> Quoi ? l’âme toute en feu d’Hippolyte embrasée,</l>
+                        <l n="593"> Irai-je recevoir l’infortuné Thésée, </l>
+                        <l n="594"> Irai-je m’exposer à ses chagrins jaloux ?</l>
+                        <l n="595"> Thésée est cependant un Héros, mon Époux :</l>
+                        <l n="596"> Je l’aimai, je l’avoue, il eut pour moi des charmes.</l>
+                        <l n="597"> Au défaut de mon cœur je te donne des larmes,</l>
+                        <l n="598"> Héros, que malgré moi je quitte et je trahis ;</l>
+                        <l n="599"> Mais hélas ! ne t’en prends qu’aux vertus de ton fils.</l>
+                        <l n="600"> Pourquoi l’as-tu fait naître avec tant de mérite ?</l>
+                        <l n="601"> Pourquoi te trouves-tu le père d’Hippolyte ?</l>
+                        <l n="602"> Et puisque c’est ton sang qui triomphe de toi,</l>
+                        <l n="603"> Accuses-en les Dieux, sans te plaindre de moi. </l>
+                        <l n="604"> Que ne puis-je changer de cœur et de visage !</l>
+                        <l n="605"> Je crains que de son fils il n’y trouve l’image :</l>
+                        <l n="606"> Mon trouble, ma rougeur, mes regards languissants,</l>
+                        <l n="607"> Tout parle d’Hippolyte et du feu que je sens.</l>
+                        <l n="608"> Mon front va me trahir, et ma langue interdite</l>
+                        <l n="609"> M’accuser à Thésée, et nommer Hippolyte.</l>
+                        <l n="610"> Mes yeux en sont remplis, mon cœur en est atteint ;</l>
+                        <l n="611"> Et dans tous mes transports Hippolyte est dépeint.</l>
+                        <l n="612"> Il vient avec Thésée : ah Ciel ! ils sont ensemble : </l>
+                        <l n="613"> Je les verrai tous deux : ah ! Princesse, j’en tremble. </l>
+                        <l n="614"> J’entends du bruit, on vient, je cours dans ce malheur </l>
+                        <l n="615"> Leur cacher mon Amour, ma rage, et ma douleur.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="616"> Quoi, Seigneur, est-ce vous ? Ah Dieux ! quelle allégresse </l>
+                        <l n="617"> Pour nous, pour Hippolyte, et pour toute la Grèce, </l>
+                        <l n="618"> De revoir un Héros toujours victorieux... </l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="619"> Madame, avec plaisir je reviens dans ces lieux, </l>
+                        <l n="620"> Et suis charmé de voir une belle Princesse </l>
+                        <l n="621"> Prendre encor quelque part en ce qui m’intéresse.</l>
+                        <l n="622"> Allez trouver la Reine, allez la préparer </l>
+                        <l n="623"> À revoir un Époux à ses pieds soupirer. </l>
+                        <l n="624"> Je connais l’amitié qui vous lie avec elle :</l>
+                        <l n="625"> Princesse, portez-en la première nouvelle. </l>
+                        <l n="626"> Je vous suivrai de près, et dans peu de moments </l>
+                        <l n="627"> Ayant donné quelque ordre, avec vous je m’y rends.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="628"> Vous me voyez, mon Fils, une insigne victoire</l>
+                        <l n="629"> Ajoute un nouveau lustre à l’éclat de ma gloire ;</l>
+                        <l n="630"> Non pas, comme l’ont crû mille Peuples divers,</l>
+                        <l n="631"> Qui me font aujourd’hui revenir des Enfers.</l>
+                        <l n="632"> Du reste des humains je distingue Hippolyte.</l>
+                        <l n="633"> À cent autres j’ai peint le Styx et le Cocyte, </l>
+                        <l n="634"> La flamme et les horreurs de ces Fleuves ardents,</l>
+                        <l n="635"> Et la sombre pâleur de leurs mannes errants ;</l>
+                        <l n="636"> Mais je crois vous devoir un récit plus sincère :</l>
+                        <l n="637"> Votre esprit est guéri des erreurs du vulgaire.</l>
+                        <l n="638"> J’ai dû par politique en répandre le bruit ; </l>
+                        <l n="639"> J’ai d’un pareil projet un vain Peuple séduit.</l>
+                        <l n="640"> Apprenez donc, mon Fils, que sortant de Trézène,</l>
+                        <l n="641"> Je suspendis l’amour pour faire agir la haine.</l>
+                        <l n="642"> Pallas me fit quitter Phèdre pour le punir,</l>
+                        <l n="643"> Et différer l’hymen qui nous allait unir :</l>
+                        <l n="644"> Le superbe Pallas par de sourdes intrigues</l>
+                        <l n="645"> Formait depuis longtemps de redoutables brigues ;</l>
+                        <l n="646"> Et déjà comme lui ses orgueilleux Enfants</l>
+                        <l n="647"> Dans Athènes marchaient sur les pas des Tyrans.</l>
+                        <l n="648"> Je pouvais, il est vrai, venir à force ouverte</l>
+                        <l n="649"> Avec cent mille bras travailler à leur perte.</l>
+                        <l n="650"> Et j’aurais vu bientôt mes desseins achevés</l>
+                        <l n="651"> Sur le débris des Murs que j’avais élevés ;</l>
+                        <l n="652"> Mais j’aurais confondu le crime et l’innocence.</l>
+                        <l n="653"> Je donnai quelque temps pour mûrir ma vengeance.</l>
+                        <l n="654"> D’Athènes je voulus moi-même me bannir ;</l>
+                        <l n="655"> Et je n’oubliai tout que pour m’en souvenir.</l>
+                        <l n="656"> Un grand dessein se forme à l’ombre du mystère :</l>
+                        <l n="657"> L’art de la Politique est d’apprendre à se taire.</l>
+                        <l n="658"> Je me tus, je partis avec Pirythoüs ; </l>
+                        <l n="659"> Et dans plusieurs Pays passant en inconnus,</l>
+                        <l n="660"> Nous avons étouffé des victoires célèbres,</l>
+                        <l n="661"> Et cent faits éclatants sous d’heureuses ténèbres.</l>
+                        <l n="662"> J’ai déguisé mon nom, de crainte que mon bras</l>
+                        <l n="663"> Ne trahit mon dessein, ne l’apprit à Pallas : </l>
+                        <l n="664"> Plus que mes ennemis j’ai redouté Thésée :</l>
+                        <l n="665"> Et craignant que ma gloire, ou que ma renommée,</l>
+                        <l n="666"> Ne courut déceler mon nom à l’Univers,</l>
+                        <l n="667"> J’ai su l’ensevelir jusque dans les Enfers.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="668"> Ce grand projet, Seigneur, charmait la Populace,</l>
+                        <l n="669"> Et la Grèce imbécile adorait une audace</l>
+                        <l n="670"> Qui devait...</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="671"> Écoutez un dessein mieux formé,</l>
+                        <l n="672"> Et les puissants motifs qui m’avaient animé.</l>
+                        <l n="673"> Quand Pallas me croyait ou mort, ou dans les chaînes,</l>
+                        <l n="674"> J’endormis sa prudence, et volé vers Athènes :</l>
+                        <l n="675"> Je m’y rends inconnu, j’y gagne en peu de temps</l>
+                        <l n="676"> Des Amis, des Soldats, et des Chefs importants.</l>
+                        <l n="677"> Il se trouve surpris, il se met en défense :</l>
+                        <l n="678"> Mais mon bras dans son sang assouvit ma vengeance.</l>
+                        <l n="679"> Ses Gardes, ses Enfants viennent de toutes parts, </l>
+                        <l n="680"> Et font tomber sur nous une grêle de dards,</l>
+                        <l n="681"> Pirythoüs succombe, et ma juste colère </l>
+                        <l n="682"> Immole les Enfants sur le corps de leur Père.</l>
+                        <l n="683"> J’en fais un sacrifice aux mannes irrités</l>
+                        <l n="684"> D’un Ami tout sanglant qui tombe à mes côtés.</l>
+                        <l n="685"> À mille coups affreux, enfin à cette Épée</l>
+                        <l n="686"> Toute Athènes frémit et reconnut Thésée :</l>
+                        <l n="687"> Elle tombe à mes pieds, et presque en un instant</l>
+                        <l n="688"> Fut d’un Peuple rebelle un peuple obéissant.</l>
+                        <l n="689"> De tout ce que j’ai fait j’ai voulu vous instruire. </l>
+                        <l n="690"> Voilà, dans ses projets, comme on doit se conduire, </l>
+                        <l n="691"> Avec quelle prudence on forme un grand dessein, </l>
+                        <l n="692"> Et comme on doit agir et de tête et de main.</l>
+                        <l n="693"> Voilà par quelle route Alcide qu’on renomme, </l>
+                        <l n="694"> Devenant un Héros, s’est distingué d’un Homme.</l>
+                        <l n="695"> Je l’ai suivi : mon Fils, devenez-en jaloux : </l>
+                        <l n="696"> Soyez notre Rival, et faites plus que nous.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="697"> Seigneur, à quelle ardeur votre exemple me livre ?</l>
+                        <l n="698"> Pour faire plus qu’Alcide, il ne faut que vous suivre :</l>
+                        <l n="699"> Et marchant sur les pas que vous m’avez tracés,</l>
+                        <l n="700"> Passer tous les Héros qui nous ont devancés.</l>
+                        <l n="701"> Vous m’avez enseigné le chemin de la gloire ;</l>
+                        <l n="702"> Et je brûle, Seigneur...</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="703"> Il m’est doux de le croire.</l>
+                        <l n="704"> Voyons Phèdre, et donnons quelque chose à l’amour.</l>
+                        <l n="705"> Je l’adore, et je vais l’épouser en ce jour. </l>
+                        <l n="706"> Puissent les justes Dieux oublier leurs menaces,</l>
+                        <l n="707"> Et verser loin de nous leurs fatales disgrâces.</l>
+                        <l n="708"> Mais mon Fils me rassure, et je vois mon erreur :</l>
+                        <l n="709"> Phèdre chérit Thésée, et je connais son cœur :</l>
+                        <l n="710"> Sans doute elle a fait voir pendant ma longue absence</l>
+                        <l n="711"> Bien de l’inquiétude et de l’impatience.</l>
+                        <l n="712"> Parlait-elle souvent de Thésée ?</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="713"> Oui, Seigneur </l>
+                        <l n="714"> Mais vous connaîtrez mieux ses transports, son ardeur,</l>
+                        <l n="715"> Vous-même...</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="716"> Allons, mon Fils, sans tarder davantage, </l>
+                        <l n="717"> De mon cœur à ses yeux faire un nouvel hommage :</l>
+                        <l n="718"> Et remplissant bientôt ses plus ardents souhaits, </l>
+                        <l n="719"> Voir le plus heureux jour que nous verrons jamais.</l></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="720"> Oui, je romps avec vous pour un soin trop fidèle.</l>
+                        <l n="721"> Que vous avais-je fait pour m’être si cruelle,</l>
+                        <l n="722"> Lorsque votre barbare et funeste amitié</l>
+                        <l n="723"> Vous rend inexorable à force de pitié ?</l>
+                        <l n="724"> J’étais heureusement tombée évanouie :</l>
+                        <l n="725"> Mes mortelles douleurs allaient finir ma vie :</l>
+                        <l n="726"> Seule et sans nul secours, preste à finir mon sort, </l>
+                        <l n="727"> Dans cet affreux sommeil j’envisageais la mort ; </l>
+                        <l n="728"> Enfin sans mouvement en proie à ma faiblesse, </l>
+                        <l n="729"> Par un dernier soupir j’étouffais ma tendresse,</l>
+                        <l n="730"> Quand vos cruels secours sont venus m’arracher </l>
+                        <l n="731"> La douceur qu’au tombeau mon âme allait chercher.</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="732"> Madame, je devais avoir soin d’une vie </l>
+                        <l n="733"> Si chère à votre Époux...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="734"> Non, vous m’avez trahie :</l>
+                        <l n="735"> Et mes yeux se couvrant d’un éternel sommeil, </l>
+                        <l n="736"> N’auraient point vu Thésée à leur triste réveil. </l>
+                        <l n="737"> À peine en respirant, ma débile paupière</l>
+                        <l n="738"> Jouissait à regret d’une faible lumière, </l>
+                        <l n="739"> Quand Thésée et son Fils ont paru dans ces lieux :</l>
+                        <l n="740"> Tremblante j’ai voulu tourner sur lui les yeux.</l>
+                        <l n="741"> J’ai rougi, j’ai pâli : languissante, interdite, </l>
+                        <l n="742"> J’ai voulu voir Thésée, et n’ai vu qu’Hippolyte,</l>
+                        <l n="743"> J’ai soupiré, frémi : mes pleurs en ce moment </l>
+                        <l n="744"> À mon crédule Époux ont caché mon Amant.</l>
+                        <l n="745"> Dans mon trouble Thésée a su trouver des charmes :</l>
+                        <l n="746"> En secret je l’ai vu s’applaudir de mes larmes ;</l>
+                        <l n="747"> Et lui-même abusé de mea sens interdits,</l>
+                        <l n="748"> A reçu des soupirs envoyés à son Fils. </l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="749"> Ce Héros méritait ses soupirs pour lui-même :</l>
+                        <l n="750"> Madame, il a pour vous une tendresse extrême :</l>
+                        <l n="751"> Et votre cœur rempli des vœux qu’il a trahis,</l>
+                        <l n="752"> Doit de l’amour au Père, et de l’estime au Fils.</l>
+                        <l n="753"> Oui, Madame, songez que le jaloux Thésée</l>
+                        <l n="754"> Brûlant pour vous, vous croit de sa flamme embrasée : </l>
+                        <l n="755"> Et voyez les périls où vous vous exposez,</l>
+                        <l n="756"> Si bientôt par malheur vous l’en désabusez.</l>
+                        <l n="757"> Quand Thésée est jaloux, il y va de la vie ;</l>
+                        <l n="758"> La Mère d’Hippolyte éprouva sa furie</l>
+                        <l n="759"> Pour un léger soupçon ; et peut être son Fils</l>
+                        <l n="760"> Servirait de victime à ses soupirs trahis.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="761"> Thésée aime Hippolyte, et toute la tempête</l>
+                        <l n="762"> En épargnant son sang tomberait sur ma tête :</l>
+                        <l n="763"> Et tranquille, j’irais pour un destin si beau</l>
+                        <l n="764"> Affronter sans pâlir les horreurs du tombeau. </l>
+                        <l n="765"> Mais enfin, je ne sais si je me suis flattée :</l>
+                        <l n="766"> D’Hippolyte tantôt j’ai vu l’âme agitée.</l>
+                        <l n="767"> Vous étiez près de moi ; ne vous souvient-il pas</l>
+                        <l n="768"> Qu’en nous voyant, le Prince a soupiré tout bas, </l>
+                        <l n="769"> Son désordre a fait voir un feu qu’il voulait taire : </l>
+                        <l n="770"> Il n’a pu le cacher même aux yeux de son Père.</l>
+                        <l n="771"> Thésée est pénétrant : il a paru surpris</l>
+                        <l n="772"> De trouver de l’Amour dans les yeux de son Fils ;</l>
+                        <l n="773"> Ce Fils qu’il avait cru jusqu’alors insensible.</l>
+                        <l n="774"> L’embarras de Thésée était assez visible : </l>
+                        <l n="775"> Et sur la foi d’un air et chagrin, et jaloux,</l>
+                        <l n="776"> Je me suis crue hélas ! digne de son courroux.</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="777"> Ah ! chérissez plutôt un Héros qui vous aime : </l>
+                        <l n="778"> Vous perdrez Hippolyte, et vous perdrez vous-même : </l>
+                        <l n="779"> Pour lui tous vos soupirs seront empoisonnés ; </l>
+                        <l n="780"> Et songez en l’aimant que vous l’assassinez... </l>
+                        <l n="781"> Que deviendrais-je hélas ! si cet Amant si tendre</l>
+                        <l n="782"> Périssait... Oui, Madame, et vous devez m’entendre, </l>
+                        <l n="783"> J’y prends sans y penser même intérêt que vous, </l>
+                        <l n="784"> Songez encore un coup que Thésée est jaloux : </l>
+                        <l n="785"> Respectez un hymen qui vous tient enchaînée : </l>
+                        <l n="786"> Respectez un grand Roi qui vous a couronnée.</l>
+                        <l n="787"> Thésée a vos serments, Thésée a votre foi.</l>
+                        <l n="788"> Hélas ! de si beaux nœuds...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="789"> Dieux ! qu’est-ce que je vois ? </l>
+                        <l n="790"> L’intérêt d’Hippolyte et celui de Thésée</l>
+                        <l n="791"> Frappent sensiblement votre âme embarrassée :</l>
+                        <l n="792"> Et vous feriez juger à vos sens interdits</l>
+                        <l n="793"> Que le Père vous touche ici moins que le Fils.</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="794"> Moi, Madame ?</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="795"> Oui, vous ? Justes Dieux ! ah ! je tremble : </l>
+                        <l n="796"> Il soupirait, Madame, et nous étions ensemble ; </l>
+                        <l n="797"> Est-ce vous, qui tantôt l’avez fait demeurer ? </l>
+                        <l n="798"> Est-ce vous ? est-ce moi qui l’ai fait soupirer ?</l>
+                        <l n="799"> Parlez, qui de nous deux ?...</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="800"> Ah ! sans doute, Madame, </l>
+                        <l n="801"> S’il soupire, vos yeux ont fait naître sa flamme. </l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="802"> Souhaitez-le du moins, voyez avec horreur </l>
+                        <l n="803"> Et toute ma tendresse, et toute ma fureur. </l>
+                        <l n="804"> Le retour de Thésée et m’étonne et m’accable :</l>
+                        <l n="805"> Je suis dans un état affreux, épouvantable.</l>
+                        <l n="806"> Je vous aime, Aricie, et ma tendre amitié, </l>
+                        <l n="807"> Ma rage, ou mon Amour, vous doit faire pitié. </l>
+                        <l n="808"> Des Hommes et des Dieux j’éprouve la colère :</l>
+                        <l n="809"> Vous, Thésée, Hippolyte, et tout me désespère :</l>
+                        <l n="810"> Du moins que l’amitié dans ce funeste jour </l>
+                        <l n="811"> Ne coûte point encor un crime à mon amour. </l>
+                        <l n="812"> Vos discours m’ont fait voir une flamme fatale ;</l>
+                        <l n="813"> Cachez, cachez à Phèdre une heureuse Rivale : </l>
+                        <l n="814"> Épargnez-moi le crime où je vais succomber ;</l>
+                        <l n="815"> Et détournez les coups qui sont prêts à tomber.</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="816"> Ah ! Madame, croyez...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="817"> Je crois tout, Aricie : </l>
+                        <l n="818"> Vous savez mon secret, c’est fait de votre vie,</l>
+                        <l n="819"> Si vous osez jamais... Le Roi vient : laissez-nous, </l>
+                        <l n="820"> Et de Phèdre jalouse évitez le courroux.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="821"> Enfin, les Dieux, Madame, avec plus de justice</l>
+                        <l n="822"> Exigent de nos cœurs un nouveau sacrifice.</l>
+                        <l n="823"> Ils vous rendent Thésée, et dans cet heureux jour</l>
+                        <l n="824"> Me redonnent l’objet d’une si tendre amour.</l>
+                        <l n="825"> Je viens avec plaisir remettre dans vos chaînes</l>
+                        <l n="826"> Et le cœur de Thésée, et la superbe Athènes.</l>
+                        <l n="827"> Mais il faut aujourd’hui par des nœuds éternels, </l>
+                        <l n="828"> À la face des Dieux, au pied de leurs Autels, </l>
+                        <l n="829"> Pour accomplir les Lois d’un si saint Hyménée,</l>
+                        <l n="830"> Renouveler la foi que vous m’avez donnée ;</l>
+                        <l n="831"> Par mon ordre le Peuple en ce même moment</l>
+                        <l n="832"> En prépare la pompe avec empressement ;</l>
+                        <l n="833"> Mais je veux qu’Hippolyte... Ah ! Dieux ! pourquoi ces larmes, </l>
+                        <l n="834"> Madame ? et quels soupirs ?...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="835"> J’ai de justes alarmes,</l>
+                        <l n="836"> Seigneur ; je crains pour vous qu’un père furieux</l>
+                        <l n="837"> Ne me vienne bientôt arracher de ces lieux ;</l>
+                        <l n="838"> Et que de notre Hymen l’appareil si célèbre, </l>
+                        <l n="839"> Ne serve à mon cercueil d’une pompe funèbre.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="840"> Madame, expliquez-vous ?</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="841"> Apprenez en deux mots</l>
+                        <l n="842"> Le funeste secret du dessein de Minos.</l>
+                        <l n="843"> Mon frère arme, Seigneur, déjà sa flotte est prête ;</l>
+                        <l n="844"> Tout ce grand appareil menace votre tête :</l>
+                        <l n="845"> Il vous traite partout d’injuste ravisseur,</l>
+                        <l n="846"> Ænarus avec eux vient pour venger ma sœur.</l>
+                        <l n="847"> Oui, dans l’île de Naxe Ariane trahie</l>
+                        <l n="848"> Lui doit donner la main pour prix de votre vie.</l>
+                        <l n="849"> Phèdre fut cause hélas ! de cette trahison :</l>
+                        <l n="850"> C’est ma fatale main qui détruit ma Maison.</l>
+                        <l n="851"> Tout mon sang à la fois, et père, et sœur, et frère,</l>
+                        <l n="852"> Sont armés contre nous d’une juste colère.</l>
+                        <l n="853"> Songez, Seigneur, songez à chercher du secours ;</l>
+                        <l n="854"> Différez notre hymen encor de quelques jours. </l>
+                        <l n="855"> Vous seul et sans Armée...</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="856"> Est-ce là cette crainte </l>
+                        <l n="857"> Et l’indigne douleur dont votre âme est atteinte ? </l>
+                        <l n="858"> Mais pour vous rassurer et calmer vos ennuis, </l>
+                        <l n="859"> Ouvrez les yeux, Madame, et voyez qui je suis ; </l>
+                        <l n="860"> Oubliez les périls où mon amour me jette.</l>
+                        <l n="861"> Je ne crains point Minos, ni les forces de Crète : </l>
+                        <l n="862"> Le sang du Minotaure à ses yeux répandu, </l>
+                        <l n="863"> Un repos éternel à mon Pays rendu,</l>
+                        <l n="864"> Cynnis et Cereyon mes premières victimes, </l>
+                        <l n="865"> Cette épée en tout temps qui sait punir les crimes, </l>
+                        <l n="866"> Fumante encor du sang du perfide Pallas, </l>
+                        <l n="867"> Répondent de Minos et de tous nos États. </l>
+                        <l n="868"> Il doit se souvenir que Thésée intrépide</l>
+                        <l n="869"> A marché jusqu’ici sur les traces d’Alcide :</l>
+                        <l n="870"> Et nous avons tous deux sans armer les Humains</l>
+                        <l n="871"> Moissonné nos lauriers avec nos propres mains.</l>
+                        <l n="872"> Ænarus et Minos savent trop qui nous sommes.</l>
+                        <l n="873"> L’on ne nous vit jamais suivis de cent mille hommes</l>
+                        <l n="874"> Attaquer, conquérir, renverser les États :</l>
+                        <l n="875"> Alcide seul l’a fait, et le doit à son bras.</l>
+                        <l n="876"> Aidé de sa valeur et de sa renommée,</l>
+                        <l n="877"> Son bras seul jusqu’ici lui tint lieu d’une Armée :</l>
+                        <l n="878"> Et si dans l’Univers il a tout fait trembler, </l>
+                        <l n="879"> Je le suivrai, Madame, et lui veux ressembler.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="880"> Un Héros cependant peut tomber comme un autre, </l>
+                        <l n="881"> Seigneur ; mon intérêt est ici joint au vôtre :</l>
+                        <l n="882"> Je crains qu’on ne m’enlève à ce que j’aime... Hélas ! </l>
+                        <l n="883"> Nous devons assembler nos Peuples, nos Soldats, </l>
+                        <l n="884"> Opposer une Armée aux forces de mon frère,</l>
+                        <l n="885"> Et différer l’Hymen...</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="886"> Il n’est pas nécessaire, </l>
+                        <l n="887"> Et les murs de Trézène, et ses fiers Habitants, </l>
+                        <l n="888"> Vous offriraient sans moi de braves Combattants. </l>
+                        <l n="889"> Mais les Dieux me font craindre un péril domestique </l>
+                        <l n="890"> Contre qui doit s’armer toute ma politique. </l>
+                        <l n="891"> Je tremble au souvenir d’un Oracle fatal,</l>
+                        <l n="892"> Qui menace mon cœur d’un trop heureux Rival ;</l>
+                        <l n="893"> Mais d’un Rival si cher que je n’ose le dire.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="894"> Quel Oracle, Seigneur, quel Rival ?</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="895"> J’en soupire,</l>
+                        <l n="896"> Madame, mais enfin l’Oracle de Délos</l>
+                        <l n="897"> En passant m’a rendu ces redoutables mots. </l>
+                        <l n="898"> Tu seras à ton retour</l>
+                        <l n="899"> Ah ! Madame, voilà sa réponse funeste. </l>
+                        <l n="900"> Vos yeux comme les miens ont tantôt vu le reste. </l>
+                        <l n="901"> Je crains l’oracle, hélas ! ce que j’aime le mieux, </l>
+                        <l n="902"> Ce fils qui m’est si cher, il soupire à vos yeux ;</l>
+                        <l n="903"> Les miens en sont témoins.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="904"> Dieux ! serait-il possible ?</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="905"> Ce Fils indifférent, je l’ai trouvé sensible ;</l>
+                        <l n="906"> Et lorsque la princesse était auprès de vous,</l>
+                        <l n="907"> Sans doute elle aura vu son trouble comme nous.</l>
+                        <l n="908"> Les transports, que pour moi vous avez fait paraître,</l>
+                        <l n="909"> L’ont chagriné Madame ; il me l’a fait connaître :</l>
+                        <l n="910"> Par un dédain secret expliquant ses désirs, </l>
+                        <l n="911"> Ses soupirs insolents ont suivi vos soupirs :</l>
+                        <l n="912"> J’ai lu dans ses regards sa téméraire flamme.</l>
+                        <l n="913"> L’oracle l’a prédit : sera-t-il vrai, Madame,</l>
+                        <l n="914"> Qu’une main qui m’est chère, à mon fatal retour,</l>
+                        <l n="915"> Osera m’enlever l’objet de mon amour ?</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="916"> Hippolyte, Seigneur, saura tromper l’Oracle :</l>
+                        <l n="917"> Thésée est à ses feux un invincible obstacle :</l>
+                        <l n="918"> Il connaît les liens qui m’attachent à vous ; </l>
+                        <l n="919"> Il doit trembler au nom et de père et d’Époux ;</l>
+                        <l n="920"> Hélas ! s’il avait vu dans le fonds de mon âme</l>
+                        <l n="921"> L’ardeur qui me dévore, et l’excès de ma flamme, </l>
+                        <l n="922"> Il eut rougi, l’Ingrat...</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="923"> Madame, c’est assez.</l>
+                        <l n="924"> Par ce perfide seul mes feux sont offensés. </l>
+                        <l n="925"> Je connais votre Amour, et dans cette disgrâce </l>
+                        <l n="926"> Ce n’est que par mon fils que le Ciel me menace. </l>
+                        <l n="927"> Mais je veux par l’Arrêt que je vais prononcer, </l>
+                        <l n="928"> Faire mentir ces Dieux qui m’osent menacer : </l>
+                        <l n="929"> Et pour mieux étouffer ma juste jalousie, </l>
+                        <l n="930"> Je veux...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="931"> Quoi donc ? Seigneur.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="932"> Qu’il épouse Aricie. </l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="933"> Aricie !</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="934"> Oui, Madame ; il faut dès aujourd’hui </l>
+                        <l n="935"> Parler à la princesse, et l’unir avec lui.</l>
+                        <l n="936"> J’ai des raisons d’État qui veulent qu’Aricie </l>
+                        <l n="937"> Par l’ordre de son père à mon fils soit unie ;</l>
+                        <l n="938"> Par un traité secret nous en sommes d’accord : </l>
+                        <l n="939"> Il faut par cet hymen disposer de son sort, </l>
+                        <l n="940"> Et sans plus différer, qu’une même journée </l>
+                        <l n="941"> M’unissant avec vous, voie un double Hyménée.</l>
+                        <l n="942"> Que l’on cherche Hippolyte ?</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="943"> Ah ! Seigneur, arrêtez :</l>
+                        <l n="944"> Laissez-moi lui parler, je sais vos volontés : </l>
+                        <l n="945"> Chargez Phèdre du soin d’en instruire Hippolyte.</l>
+                        <l n="946"> Je crains que contre un fils un père ne s’irrite. </l>
+                        <l n="947"> Je veux parler pour vous, et lui faire savoir </l>
+                        <l n="948"> Vos ordres souverains, et quel est son devoir. </l>
+                        <l n="949"> Vos discours seraient pleins d’aigreur et de colère, </l>
+                        <l n="950"> Peut-être oublieriez vous que vous êtes son père. </l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="951"> Oui, je lui parlerais avec trop de hauteur : </l>
+                        <l n="952"> Vous tournerez son âme avec plus de douceur.</l>
+                        <l n="953"> Vous tirez mon esprit d’un embarras extrême, </l>
+                        <l n="954"> Madame ; je le sais, vous m’aimez, je vous aime.</l>
+                        <l n="955"> Faites-lui voir son crime à soupirer pour vous ; </l>
+                        <l n="956"> Montrez-lui dans Thésée un père, et votre époux, </l>
+                        <l n="957"> Pour éteindre ses feux découvrez-lui votre âme, </l>
+                        <l n="958"> Dépeignez-lui pour moi l’excès de votre flamme ;</l>
+                        <l n="959"> Répétez-lui cent fois, pour le désespérer,</l>
+                        <l n="960"> Qu’en vain, pour Phèdre en vain il ose soupirer. </l>
+                        <l n="961"> Surtout, tournez ses vœux du côté d’Aricie ; </l>
+                        <l n="962"> Faites qu’à cet ingrat elle se voit unie ;</l>
+                        <l n="963"> Vantez-en le mérite, et surtout la beauté ; </l>
+                        <l n="964"> Que vos mains, de ses fers chargent sa liberté.</l>
+                        <l n="965"> (Je sais que vous aimez cette illustre Princesse) </l>
+                        <l n="966"> Ah ! Madame, tâchez d’y tourner sa tendresse.</l>
+                        <l n="967"> Je vais vous envoyer Hippolyte ; et du moins </l>
+                        <l n="968"> Qu’il tremble... Mais enfin j’attends tout de vos soins.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE </speaker>
+                        <l n="969"> Que de trouble et d’horreurs dont mon âme est saisie !</l>
+                        <l n="970"> Tu veux, cruel, tu veux que j’unisse Aricie</l>
+                        <l n="971"> À ton fils, et tu crois te servir de ma main</l>
+                        <l n="972"> Pour ma Rivale... oui, pour lui percer le sein.</l>
+                        <l n="973"> Mais Ciel ! en cet instant qu’étais-je devenue,</l>
+                        <l n="974"> Si je n’eusse surpris cet ordre qui me tue ?</l>
+                        <l n="975"> Thésée allait parler, son fils allait venir :</l>
+                        <l n="976"> Hélas ! qu’aurais-je fait le voyant obéir ?</l>
+                        <l n="977"> De son sort et du mien je suis encor maîtresse ;</l>
+                        <l n="978"> Il faut sonder son cœur, surprendre sa tendresse.</l>
+                        <l n="979"> Je dois feindre ; je dois... mais hélas ! quel effroi !</l>
+                        <l n="980"> Si j’y trouve des feux pour un autre que moi. </l>
+                        <l n="981"> Verrai-je sans horreur cette flamme fatale</l>
+                        <l n="982"> Qui me perdra... Mais non, je perdrai ma Rivale.</l>
+                        <l n="983"> Cependant si les Dieux parlent en ma faveur,</l>
+                        <l n="984"> S’ils prédisent des maux qui feraient mon bonheur...</l>
+                        <l n="985"> L’embarras de Thésée, et l’amour qui l’agite, </l>
+                        <l n="986"> Tous ses soupçons jaloux tombants sur Hippolyte,</l>
+                        <l n="987"> S’accordent à l’Oracle, et me font pressentir...</l>
+                        <l n="988"> Mais le cœur d’un Ingrat les peut tous démentir.</l>
+                        <l n="989"> Je ne le sais que trop, dans ce fatal mystère</l>
+                        <l n="990"> Les Dieux parlent en vain, si l’amour sait se taire</l>
+                        <l n="991"> Je vais voir Hippolyte, et chercher dans ses yeux</l>
+                        <l n="992"> Mon Arrêt, mon Destin, mon Oracle, et mes Dieux.</l>
+                        <l n="993"> Il vient, dissimulons.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="994"> C’est par l’ordre d’un père </l>
+                        <l n="995"> Que j’exige de vous un aveu nécessaire ;</l>
+                        <l n="996"> Et puis que vous pouvez le faire en liberté, </l>
+                        <l n="997"> Je vous demande au moins de la sincérité.</l>
+                        <l n="998"> Pour moi, vous le savez, son auguste Hyménée</l>
+                        <l n="999"> Fera voir ma fortune à la sienne enchaînée. </l>
+                        <l n="1000"> Thésée a mes serments, et je l’épouse enfin ;</l>
+                        <l n="1001"> Je cède à mon étoile, et subis mon destin. </l>
+                        <l n="1002"> Mais, Seigneur, nous voulons apprendre l’un et l’autre, </l>
+                        <l n="1003"> Quand nous donnons nos cœurs, si vous gardez le vôtre ;</l>
+                        <l n="1004"> Et si l’Hymen pour vous avait quelques appas, </l>
+                        <l n="1005"> Seigneur, la jeune Hélène...</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="1006"> Ah ! ne m’en parlez pas, </l>
+                        <l n="1007"> Madame, je hais trop le joug de l’Hyménée : </l>
+                        <l n="1008"> Je ne souffrirai point que mon âme enchaînée </l>
+                        <l n="1009"> Par d’éternels liens gémisse sous le poids</l>
+                        <l n="1010"> D’un Hymen, qui nous rend l’esclave de ses Lois.</l>
+                        <l n="1011"> Notre âme au même objet pour jamais attachée, </l>
+                        <l n="1012"> Que par la seule mort n’en peut être arrachée ;</l>
+                        <l n="1013"> Et cette jeune Hélène avec tous ses appas, </l>
+                        <l n="1014"> Si j’en crois à mon cœur, ne le touchera pas.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="1015"> Vous êtes donc, Seigneur, toujours fier, inflexible :</l>
+                        <l n="1016"> À l’Amour, à l’Hymen, votre cœur insensible </l>
+                        <l n="1017"> En dédaigne le joug, chérit sa liberté ;</l>
+                        <l n="1018"> Et puis qu’un si grand cœur refuse avec fierté </l>
+                        <l n="1019"> La plus grande Beauté de l’Europe et l’Asie, </l>
+                        <l n="1020"> Je n’ose vous parler d’Æglé, ni d’Aricie.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="1021"> Madame, Hélène est belle, et peut se faire aimer ; </l>
+                        <l n="1022"> Mais les yeux d’Aricie auraient de quoi charmer... </l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="1023"> Aux charmes d’Aricie il n’est rien d’impossible ;</l>
+                        <l n="1024"> Mais par bonheur, Seigneur, vous êtes insensible.</l>
+                        <l n="1025"> Vous avez de bons yeux pour en voir tout le prix ; </l>
+                        <l n="1026"> Mais enfin votre cœur n’en fut jamais épris.</l>
+                        <l n="1027"> Oui, je vous applaudis de votre indifférence ;</l>
+                        <l n="1028"> Elle va me permettre une illustre Alliance</l>
+                        <l n="1029"> Qui doit unir la Crète au Royaume d’Argos,</l>
+                        <l n="1030"> Et qui fera dans peu ma paix avec Minos. </l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="1031"> Quoi, Madame ?</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="1032"> Seigneur, je prétends, et j’espère</l>
+                        <l n="1033"> Unir dans peu de jour Aricie à mon frère. </l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="1034"> Vous, Madame ?</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="1035"> Oui, moi. Quel intérêt, Seigneur,</l>
+                        <l n="1036"> Prenez-vous à l’Hymen...</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="1037"> L’intérêt de mon cœur,</l>
+                        <l n="1038"> Madame ; et vous verrez peut-être votre frère</l>
+                        <l n="1039"> Me payer de son sang ce dessein téméraire.</l>
+                        <l n="1040"> Je périrai plutôt avant ce coup fatal... </l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="1041"> Que dites-vous ? ah Dieux !</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="1042"> Que je suis son Rival,</l>
+                        <l n="1043"> Que j’en fis un secret, que j’adore Aricie,</l>
+                        <l n="1044"> Et qu’à me l’arracher il y va de la vie,</l>
+                        <l n="1045"> Je n’en fais plus mystère, et je saurai si bien...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="1046"> Je connais ton secret, Ingrat, apprends le mien :</l>
+                        <l n="1047"> Ton heureuse imprudence, et ton ardeur fatale,</l>
+                        <l n="1048"> M’ont enfin malgré toi découvert ma Rivale. </l>
+                        <l n="1049"> Tremble : je la connais, Phèdre dans son malheur</l>
+                        <l n="1050"> Lui fera voir dans peu sa Rivale en fureur ;</l>
+                        <l n="1051"> Car dans mon désespoir et ma douleur extrême</l>
+                        <l n="1052"> Je rougirais, ingrat, de dire que je t’aime.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="1053"> Moi, Madame ?</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="1054"> Oui, toi : c’en est fait pour jamais ;</l>
+                        <l n="1055"> Je t’aimais, il est vrai, barbare, et je te hais...</l>
+                        <l n="1056"> Je t’aimais cependant, et tu l’as dû connaître :</l>
+                        <l n="1057"> Mille fois dans mes yeux ma flamme a dû paraître.</l>
+                        <l n="1058"> Infidèle à Thésée, et toute entière à toi,</l>
+                        <l n="1059"> Tu lui volais mon cœur, mes serments, et ma foi :</l>
+                        <l n="1060"> Oui, cruel ; et c’est là ce qui me désespère,</l>
+                        <l n="1061"> Rends-moi mon cœur, ingrat, pour le rendre à ton père.</l>
+                        <l n="1062"> Pour toi seul j’immolai ma gloire et mon repos :</l>
+                        <l n="1063"> Ton amour me força d’oublier ce Héros :</l>
+                        <l n="1064"> Je sentis que mon âme allait être enchaînée :</l>
+                        <l n="1065"> Par un fatal penchant je me vis entraînée :</l>
+                        <l n="1066"> J’en ai gémi longtemps, j’ai longtemps combattu ;</l>
+                        <l n="1067"> Et suis réduite enfin à pleurer ma vertu. </l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="1068"> Non, ce n’est point à moi que ce discours s’adresse,</l>
+                        <l n="1069"> Madame ; et vous voulez surprendre ma tendresse.</l>
+                        <l n="1070"> C’est sans doute à Thésée, et ce n’est pas à moi</l>
+                        <l n="1071"> Que vous avez donné votre cœur, votre foi.</l>
+                        <l n="1072"> Songez, songez, Madame, à la grandeur du crime</l>
+                        <l n="1073"> Qui nous perdrait tous deux...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="1074"> J’en serais la victime ;</l>
+                        <l n="1075"> Mais puisque malgré moi tu lui voles son bien,</l>
+                        <l n="1076"> C’est ton crime, barbare, et ce n’est pas le mien.</l>
+                        <l n="1077"> Ah ! c’en est fait, cruel, toujours fier et farouche,</l>
+                        <l n="1078"> Aucun soupir pour moi n’échappe de ta bouche ; </l>
+                        <l n="1079"> Tu vois sans t’émouvoir mes pressantes douleurs ; </l>
+                        <l n="1080"> Avec tranquillité tu jouis de mes pleurs :</l>
+                        <l n="1081"> Je connais que ton cœur brûle pour Aricie :</l>
+                        <l n="1082"> Tu la veux épouser, mais tremble pour sa vie :</l>
+                        <l n="1083"> Je perdrai ton Amante, et moi-même en mourant, </l>
+                        <l n="1084"> Hélas ! j’irai percer son cœur en soupirant ;</l>
+                        <l n="1085"> Et ma Rivale heureuse au milieu des alarmes, </l>
+                        <l n="1086"> Voyant couler sur elle et mon sang et mes larmes, </l>
+                        <l n="1087"> Peut-être en ce moment, malgré tout son effroi, </l>
+                        <l n="1088"> En mourant de ma main, aura pitié de moi. </l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="1089"> Ah ! songez que ma vie est unie à la sienne, </l>
+                        <l n="1090"> Que pour la perdre il faut commencer par la mienne, </l>
+                        <l n="1091"> Que je ne connais plus ni respect, ni devoir, </l>
+                        <l n="1092"> Madame, et que je puis...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="1093"> Tu vois mon désespoir :</l>
+                        <l n="1094"> Je puis tout perdre hélas ! dans ma fureur extrême, </l>
+                        <l n="1095"> Aricie, et Thésée, Hippolyte, et moi-même.</l>
+                        <l n="1096"> Mon Frère n’est pas loin, son armée à tes yeux </l>
+                        <l n="1097"> Pourra me secourir et désoler ces lieux :</l>
+                        <l n="1098"> Ma rage et son amour pourront tout entreprendre.</l>
+                        <l n="1099"> Je mettrai ce Palais et ma Rivale en cendre ;</l>
+                        <l n="1100"> Et si tu m’y contrains par l’éclat de tes feux,</l>
+                        <l n="1101"> C’est ton crime, barbare, ou le crime des Dieux.</l>
+                        <l n="1102"> Il n’est rien de si saint que je ne sacrifie... </l>
+                        <l n="1103"> Après cela, tu peux Épouser Aricie.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE </speaker>
+                        <l n="1104"> Ciel ! voilà les malheurs que tu m’avais prédits.</l>
+                        <l n="1105"> Ah ! Père infortuné, mais plus malheureux Fils,</l>
+                        <l n="1106"> Que vas-tu devenir ? et que pourras-tu faire ?</l>
+                        <l n="1107"> Iras-tu découvrir ce funeste mystère ?</l>
+                        <l n="1108"> Et portant à Thésée un poignard dans le sein, </l>
+                        <l n="1109"> De ta Princesse encor seras-tu l’assassin ?</l>
+                        <l n="1110"> Je plains Phèdre : elle m’aime, et je crains sa furie.</l>
+                        <l n="1111"> Mon amour imprudent assassine Aricie :</l>
+                        <l n="1112"> Phèdre l’a découvert, elle peut s’en venger. </l>
+                        <l n="1113"> Que de périls à craindre ! Il faut la ménager :</l>
+                        <l n="1114"> Dissimulons encor. Dans son désordre extrême </l>
+                        <l n="1115"> Sans doute que son cœur se trahira lui-même. </l>
+                        <l n="1116"> Quels malheurs je prévois ! Allons hors de ces lieux </l>
+                        <l n="1117"> Consulter mon Amour, Aricie, et les Dieux.</l></div></div>
+           <div type="act" xml:id="4">
+           <head> ACTE IV </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1118"> Non, je saurai punir une telle insolence :</l>
+                        <l n="1119"> Que l’on me laisse seul songer à ma vengeance. </l>
+                        <l n="1120"> Qu’on se retire, Arcas, je le veux...</l>
+                </sp>
+        <sp who="#arcas">
+            <speaker> ARCAS. </speaker>
+                        <l n="1121"> Mais, Seigneur, </l>
+                        <l n="1122"> De grâce, apprenez-moi quel crime ?...</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1123"> Ma fureur </l>
+                        <l n="1124"> Va bientôt éclater contre ce qui l’irrite.</l>
+                        <l n="1125"> Pouvais-je croire hélas ! que Phèdre... qu’Hippolyte... </l>
+                        <l n="1126"> Ah ! j’en frémis, Arcas.</l>
+                </sp>
+        <sp who="#arcas">
+            <speaker> ARCAS. </speaker>
+                        <l n="1127"> Dieux ! vous les menacez, </l>
+                        <l n="1128"> Seigneur, ces noms si chers que vous me prononcez.</l>
+                        <l n="1129"> Est-ce la Reine enfin qui vous trahit ?...</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1130"> La Reine ?</l>
+                        <l n="1131"> Ah ! laisse-moi cacher mon Amour et ma haine :</l>
+                        <l n="1132"> Laisse-moi mon secret, je te connais, Arcas ;</l>
+                        <l n="1133"> Le bras déjà levé, tu retiendrais ce bras. </l>
+                        <l n="1134"> Mais je veux qu’aujourd’hui tombant sur ma victime, </l>
+                        <l n="1135"> Il découvre à tes yeux le Coupable, et le crime.</l>
+                </sp>
+        <sp who="#arcas">
+            <speaker> ARCAS. </speaker>
+                        <l n="1136"> Considérez, Seigneur, qu’il ne sera plus temps,</l>
+                        <l n="1137"> Quand vous aurez puni ce crime...</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1138"> Je t’entends :</l>
+                        <l n="1139"> Mais je veux prendre seul le soin de ma vengeance : </l>
+                        <l n="1140"> Je saurai mesurer la peine à cette offense.</l>
+                        <l n="1141"> Sûr de son amitié, pouvais-je avoir raison</l>
+                        <l n="1142"> Prévoir une si lâche et noir trahison ?</l>
+                        <l n="1143"> Devais-je redouter cette flamme ennemie,</l>
+                        <l n="1144"> Et que ma Gloire un jour tremblât d’une infamie ? </l>
+                        <l n="1145"> Je ne m’attendais pas à mon triste retour,</l>
+                        <l n="1146"> De trouver dans son cœur ce criminel amour.</l>
+                </sp>
+        <sp who="#arcas">
+            <speaker> ARCAS, à part. </speaker>
+                        <l n="1147"> C’est la Reine sans doute. Ah ! Seigneur, si la Reine </l>
+                        <l n="1148"> Par un coupable Amour allume votre haine, </l>
+                        <l n="1149"> Hippolyte...</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1150"> Apprends donc que par un coup fatal </l>
+                        <l n="1151"> Hippolyte aime Phèdre, et qu’il est mon Rival.</l>
+                </sp>
+        <sp who="#arcas">
+            <speaker> ARCAS. </speaker>
+                        <l n="1152"> Quels témoins avez-vous de son crime ?</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1153"> Mes yeux, </l>
+                        <l n="1154"> Ses soupirs, Phèdre enfin, et lui-même, et les Dieux. </l>
+                        <l n="1155"> Je ne te dirai point qu’un Oracle funeste </l>
+                        <l n="1156"> M’a prédit ce malheur, mais écoute le reste.</l>
+                        <l n="1157"> Tu verras mieux que moi dans ce Fils odieux</l>
+                        <l n="1158"> Le fidèle instrument des menaces des Dieux. </l>
+                        <l n="1159"> Oui, j’en doutais encor, j’avais quelque espérance : </l>
+                        <l n="1160"> Je dormais sur la foi de son indifférence.</l>
+                        <l n="1161"> Son cœur fier et farouche (hé qui l’eût pu penser) </l>
+                        <l n="1162"> Entre les Dieux et lui me faisait balancer.</l>
+                        <l n="1163"> Hélas ! il m’a tiré de cette incertitude :</l>
+                        <l n="1164"> Pour Phèdre j’ai trop vu sa tendre inquiétude :</l>
+                        <l n="1165"> Et ses soupirs plus sûrs qu’un Oracle fatal, </l>
+                        <l n="1166"> M’ont fait en frémissant connaître mon Rival. </l>
+                </sp>
+        <sp who="#arcas">
+            <speaker> ARCAS. </speaker>
+                        <l n="1167"> Mais s’il aime, Seigneur, les yeux de la Princesse </l>
+                        <l n="1168"> Ont pu toucher son cœur, mériter sa tendresse </l>
+                        <l n="1169"> Peut-être qu’Aricie...</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1170"> Il la refuse, Arcas.</l>
+                </sp>
+        <sp who="#arcas">
+            <speaker> ARCAS. </speaker>
+                        <l n="1171"> Il la refuse ? ah ! Dieux !</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1172"> Ne t’en étonnes pas.</l>
+                        <l n="1173"> Puisqu’il aime la Reine, il n’est que trop possible</l>
+                        <l n="1174"> Qu’à l’Hymen d’Aricie il paraisse insensible.</l>
+                        <l n="1175"> La Reine même hélas ! m’avait prêté sa voix</l>
+                        <l n="1176"> Pour marquer à l’ingrat mes ordres et mon choix :</l>
+                        <l n="1177"> Pour ce perfide encor je sondais ma clémence :</l>
+                        <l n="1178"> J’attendais sa réponse avec impatience ; </l>
+                        <l n="1179"> Quand je l’ai vu sortir d’avec Phèdre. À mes yeux</l>
+                        <l n="1180"> Il a paru surpris, ce Fils audacieux :</l>
+                        <l n="1181"> Il voulait m’éviter, j’ai percé le mystère :</l>
+                        <l n="1182"> Ses yeux étaient brillants d’amour et de colère :</l>
+                        <l n="1183"> Son visage irrité, tout ému, plein de feu, </l>
+                        <l n="1184"> D’un refus insolent me prédisait l’aveu.</l>
+                        <l n="1185"> Alors en l’arrêtant j’ai voulu me contraindre ;</l>
+                        <l n="1186"> Pour le faire expliquer, mon courroux a su feindre.</l>
+                        <l n="1187"> J’ai parlé d’Aricie, et d’Hymen à la fois,</l>
+                        <l n="1188"> Il a rougi, l’ingrat, et tremblé de ce choix ; </l>
+                        <l n="1189"> J’ai beaucoup de respect, Seigneur, pour la Princesse</l>
+                        <l n="1190"> (M’a-t-il dit) mais l’Hymen n’a pour nous rien qui presse :</l>
+                        <l n="1191"> Je suis jeune, elle est jeune, et l’on peut différer</l>
+                        <l n="1192"> Cet Hymen... À ces mots je l’ai vu soupirer :</l>
+                        <l n="1193"> Son désordre m’a dit tout ce qu’il voulait taire. </l>
+                        <l n="1194"> J’ai contraint cependant ma trop juste colère :</l>
+                        <l n="1195"> Et sans plus douter ses mauvaises raisons, </l>
+                        <l n="1196"> Il m’a trop éclairci mes funestes soupçons.</l>
+                </sp>
+        <sp who="#arcas">
+            <speaker> ARCAS. </speaker>
+                        <l n="1197"> Dieux ! que croire ?</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1198"> Aussitôt j’ai passé chez la Reine.</l>
+                        <l n="1199"> Ses yeux étincelants de colère et de haine, </l>
+                        <l n="1200"> Où des larmes encor coulaient abondamment,</l>
+                        <l n="1201"> M’ont su tracer sa honte et son ressentiment.</l>
+                        <l n="1202"> Hélas ! qu’en cet état une Amante a de charmes !</l>
+                        <l n="1203"> Ma vue et mon abord ont redoublé ses larmes ;</l>
+                        <l n="1204"> Et pour mieux expliquer ses mortels déplaisirs, </l>
+                        <l n="1205"> Elle a laissé parler ses yeux et ses soupirs.</l>
+                        <l n="1206"> Phèdre ne fut jamais si touchante et si tendre :</l>
+                        <l n="1207"> Loin d’accuser l’Ingrat, elle veut le défendre.</l>
+                        <l n="1208"> Mais plus elle s’efforce à le justifier,</l>
+                        <l n="1209"> Plus je vois son audace, et ne puis l’oublier. </l>
+                        <l n="1210"> Pour un perfide encor sa bonté s’intéresse :</l>
+                        <l n="1211"> Pour pallier son crime, elle parle, elle presse ;</l>
+                        <l n="1212"> Mais ses soupirs, ses pleurs, et tous ses tristes soins,</l>
+                        <l n="1213"> Du crime qu’elle tait sont autant de témoins.</l>
+                        <l n="1214"> Je prévois donc, Arcas, qu’il faudra me défaire</l>
+                        <l n="1215"> D’un Rival insolent, et d’un Fils téméraire.</l>
+                        <l n="1216"> Je ne réponds de rien, s’il paraît à mes yeux ;</l>
+                        <l n="1217"> Et je veux pour jamais le bannir de ces lieux.</l>
+                </sp>
+        <sp who="#arcas">
+            <speaker> ARCAS. </speaker>
+                        <l n="1218"> La Reine vient, Seigneur.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1219"> Dans ma fureur extrême </l>
+                        <l n="1220"> Pour m’apaiser encor elle vient elle-même :</l>
+                        <l n="1221"> Mais elle espère en vain...</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="1222"> Seigneur, au nom des Dieux, </l>
+                        <l n="1223"> Écoutez un peu moins un transport furieux.</l>
+                        <l n="1224"> La douleur et l’Amour dont mon âme est atteinte </l>
+                        <l n="1225"> Pour votre sang me donne une mortelle crainte :</l>
+                        <l n="1226"> Et dans le triste état où je vous ai laissé, </l>
+                        <l n="1227"> Je crains trop les éclats d’un Amour offensé.</l>
+                        <l n="1228"> Mais, Seigneur, la Nature en faveur d’Hippolyte</l>
+                        <l n="1229"> Doit parler pour un Fils.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1230"> À ce nom qui m’irrite,</l>
+                        <l n="1231"> Plus odieux pour moi que Procruste ou Cynnis,</l>
+                        <l n="1232"> Je ne reconnais plus qu’un monstre dans mon Fils. </l>
+                        <l n="1233"> Hélas ! qui l’aurait crû qu’un Chasseur solitaire,</l>
+                        <l n="1234"> Dont le front paraissait triste, farouche, austère,</l>
+                        <l n="1235"> Ennemi des plaisirs, et qui n’eût autrefois</l>
+                        <l n="1236"> Rien d’humain, que les yeux, la démarche, et la voix,</l>
+                        <l n="1237"> Commençât à brûler par de honteuses flammes, </l>
+                        <l n="1238"> Et courut choisir Phèdre entre toutes les Femmes</l>
+                        <l n="1239"> Pour s’instruire à ses yeux comme il faut soupirer,</l>
+                        <l n="1240"> Et prit un cœur humain pour me déshonorer ?</l>
+                        <l n="1241"> Mais enfin, depuis quand ce Chasseur si sauvage</l>
+                        <l n="1242"> A-t-il changé d’humeur, d’esprit, et de langage, </l>
+                        <l n="1243"> Sans respect du Bandeau qu’il voit sur votre front ?</l>
+                        <l n="1244"> Depuis quel temps, l’Ingrat, vous fait-il cet affront ?</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="1245"> Ce n’est que d’aujourd’hui que sa perfide flamme</l>
+                        <l n="1246"> D’un aveu qui m’outrage assassine mon âme ;</l>
+                        <l n="1247"> Et jamais à ma honte un aveu si cruel</l>
+                        <l n="1248"> Ne pouvait me frapper par un coup plus mortel.</l>
+                        <l n="1249"> J’avais crû comme vous Hippolyte inflexible ;</l>
+                        <l n="1250"> Et cependant, Seigneur, il n’est que trop sensible :</l>
+                        <l n="1251"> Il m’a su détromper, et dans ce triste jour</l>
+                        <l n="1252"> L’audace de son cœur a trahi son amour. </l>
+                        <l n="1253"> Oui, Seigneur, quand je songe à ce feu téméraire,</l>
+                        <l n="1254"> Ah ! je rougis encor de honte et de colère,</l>
+                        <l n="1255"> J’en soupire de rage, et mon cœur offensé</l>
+                        <l n="1256"> Tremble pour l’avenir, et frémit du passé.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1257"> Madame, c’est à moi que s’adresse l’offense ; </l>
+                        <l n="1258"> C’est à moi seul aussi d’en prendre la vengeance.</l>
+                        <l n="1259"> Je suis charmé de voir qu’un si juste courroux</l>
+                        <l n="1260"> Contre ce fils ingrat va m’unir avec vous ;</l>
+                        <l n="1261"> Mais ne redoutez plus sa flamme téméraire :</l>
+                        <l n="1262"> Pour vous en garantir je sais ce qu’il faut faire ; </l>
+                        <l n="1263"> Rassurez-vous. Je suis tout prêt à le punir.</l>
+                        <l n="1264"> Oubliez le passé sans craindre l’avenir.</l>
+                        <l n="1265"> Je vous épargnerai cette fatale vue,</l>
+                        <l n="1266"> Qui blesse notre Amour, vous chagrine, vous tue.</l>
+                        <l n="1267"> Le conseil en est pris, Madame ; et désormais</l>
+                        <l n="1268"> Hippolyte à vos yeux ne paraîtra jamais.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="1269"> Ah ! Seigneur, qu’avez-vous résolu ?</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1270"> Non, Madame, </l>
+                        <l n="1271"> Le Perfide aujourd’hui d’une insolente flamme </l>
+                        <l n="1272"> Ne méprisera plus et les Dieux, et les Lois, </l>
+                        <l n="1273"> Puisqu’il vous a parlé pour la dernière fois. </l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="1274"> Pour la dernière fois ! quelle funeste envie !</l>
+                        <l n="1275"> Quoi ? Seigneur, voulez-vous attenter à sa vie ?</l>
+                        <l n="1276"> Songez-vous sans pâlir, qu’en lui perçant le flanc </l>
+                        <l n="1277"> Ce serait vous venger sur votre propre sang ?</l>
+                        <l n="1278"> C’est votre fils, Seigneur, c’est ce cher Hippolyte, </l>
+                        <l n="1279"> De qui toute la Grèce adore le mérite,</l>
+                        <l n="1280"> Dont le front vous fait voir votre image et vos traits, </l>
+                        <l n="1281"> Et de qui la valeur vous doit suivre de près.</l>
+                        <l n="1282"> Oubliez comme moi son amour et son crime :</l>
+                        <l n="1283"> Ne vous immolez pas cette chère victime : </l>
+                        <l n="1284"> À notre amour, Seigneur, vous devez la donner : </l>
+                        <l n="1285"> Et si vous aimez Phèdre, il faut lui pardonner.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1286"> Non, ne m’en parlez plus ; et sans vous mettre en peine </l>
+                        <l n="1287"> D’un Rival insolent qui mérite ma haine,</l>
+                        <l n="1288"> Tant de bontés, de soins, pour lui sont superflus ; </l>
+                        <l n="1289"> Son Arrêt est donné, vous ne le verrez plus.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE </speaker>
+                        <l n="1290"> Je ne le verrai plus ! malheureuse princesse !</l>
+                        <l n="1291"> Peux-tu voir en ce jour ta barbare tendresse</l>
+                        <l n="1292"> Te rendre la nature et les Dieux ennemis,</l>
+                        <l n="1293"> Et par la main du père assassiner le fils ?</l>
+                        <l n="1294"> Le cruel cependant me va perdre lui-même :</l>
+                        <l n="1295"> Il adore Aricie, il me hait, et je l’aime :</l>
+                        <l n="1296"> Je respecte son cœur quand il perce le mien ;</l>
+                        <l n="1297"> Et tremblante, je veux qu’on épargne le sien.</l>
+                        <l n="1298"> Sur le bord de la tombe où son amour m’entraîne,</l>
+                        <l n="1299"> Puis-je encore à l’ingrat refuser de la haine ?</l>
+                        <l n="1300"> Il m’offense, il m’outrage : ah ! c’est trop balancer ;</l>
+                        <l n="1301"> N’ayons plus de pitié pour qui m’ose offenser.</l>
+                        <l n="1302"> Meurs, barbare... Mais quoi ? je soupire, je tremble.</l>
+                        <l n="1303"> Dieux ! a-t-on tant de haine et tant d’amour ensemble ? </l>
+                        <l n="1304"> Gloire, honte, dépit, douleur, rage, pitié,</l>
+                        <l n="1305"> Raison, haine, fureur, jalousie, amitié,</l>
+                        <l n="1306"> Tous déchirent mon âme en ce désordre extrême :</l>
+                        <l n="1307"> J’aime ce que je hais, et je hais ce que j’aime :</l>
+                        <l n="1308"> Tous ces cruels Tyrans m’entraînent tour à tour ;</l>
+                        <l n="1309"> Mais la haine est toujours plus faible que l’amour.</l>
+                        <l n="1310"> Je me suis assurée en secret d’Aricie :</l>
+                        <l n="1311"> Un Ordre de ma part lui peut ôter la vie :</l>
+                        <l n="1312"> J’ai remis ma Rivale en de fidèles mains.</l>
+                        <l n="1313"> Mais Dieux ! pour un Ingrat je pâlis et je crains. </l>
+                        <l n="1314"> Oui, consulte ton cœur, princesse infortunée,</l>
+                        <l n="1315"> Verras-tu sans frémir trancher sa destinée ?</l>
+                        <l n="1316"> Verras-tu sans honneur un père furieux</l>
+                        <l n="1317"> Dans le sang de son Fils se baigner à tes yeux ?</l>
+                        <l n="1318"> Et c’est toi cependant qui d’une main timide</l>
+                        <l n="1319"> Pousse le bras d’un père à faire un parricide ;</l>
+                        <l n="1320"> Quand ton coupable cœur, dans le feu qu’il ressent,</l>
+                        <l n="1321"> Sait qu’Hippolyte hélas ! en est trop innocent.</l>
+                        <l n="1322"> Innocent ! et c’est là ce qui fait tout son crime ;</l>
+                        <l n="1323"> C’est par-là que de Phèdre il sera la victime : </l>
+                        <l n="1324"> La victime ! Ah grands Dieux ! quels funestes désirs !</l>
+                        <l n="1325"> Quelle victime, hélas ! qui coûte des soupirs.</l>
+                        <l n="1326"> Sors, malheureuse, sors, pour finir tant d’alarmes :</l>
+                        <l n="1327"> Va, ne perds plus de temps à répandre des larmes ;</l>
+                        <l n="1328"> Cours aux pieds de Thésée, et le tirant d’erreur, </l>
+                        <l n="1329"> Découvre-lui ton crime, et te perces le cœur,</l>
+                        <l n="1330"> Dérobe ta Rivale à l’horreur qui l’agite ;</l>
+                        <l n="1331"> Et puisque tu ne peux vivre pour Hippolyte,</l>
+                        <l n="1332"> Rends-toi toute à la gloire, et mourant aujourd’hui,</l>
+                        <l n="1333"> Fais-lui voir Phèdre au moins toute digne de lui. </l>
+                        <l n="1334"> Dieux ! il vient.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="1335"> Il me faut éclaircir d’un mystère.</l>
+                        <l n="1336"> Si j’ai tu par respect ce qu’il a fallu taire,</l>
+                        <l n="1337"> Madame, et si pour vous je me suis arraché</l>
+                        <l n="1338"> Aux plus étroits liens qui m’avaient attaché,</l>
+                        <l n="1339"> Si j’ai su différer le bonheur de ma vie, </l>
+                        <l n="1340"> Apprenez-moi de grâce ou peut être Aricie.</l>
+                        <l n="1341"> Je la cherche partout, et ne la trouve pas,</l>
+                        <l n="1342"> Madame ; tirez-moi d’un cruel embarras.</l>
+                        <l n="1343"> Vous savez l’intérêt de l’amour qui me presse :</l>
+                        <l n="1344"> Il faut sans balancer me rendre ma Princesse. </l>
+                        <l n="1345"> Parlez, expliquez-vous ?... Dieux ! qu’est-ce que je vois ?</l>
+                        <l n="1346"> Que dois-je croire ? hélas ! c’est attenter sur moi, </l>
+                        <l n="1347"> C’est sur mon propre sang, sur mon cœur, sur ma vie...</l>
+                        <l n="1348"> Dites, répondez-moi, qu’a-t-on fait d’Aricie ?</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="1349"> Vous devez me parler avec moins de fierté, </l>
+                        <l n="1350"> Prince, pour votre gloire, et pour sa sûreté. </l>
+                        <l n="1351"> À qui parle si haut, je ne sais point répondre.</l>
+                        <l n="1352"> Quand on a de l’orgueil, j’ai l’art de le confondre, </l>
+                        <l n="1353"> Vous cherchez Aricie, et vous craignez sa mort :</l>
+                        <l n="1354"> Tremblez devant qui peut décider de son sort. </l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="1355"> Je vous entends, Madame, et vois ce qu’il faut craindre ;</l>
+                        <l n="1356"> Mais je puis la venger, et c’est trop me contraindre.</l>
+                        <l n="1357"> Craignez à votre tour un Amant furieux</l>
+                        <l n="1358"> Qui pourrait tout...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="1359"> J’ai su l’arrêter en ces lieux :</l>
+                        <l n="1360"> Elle est en mon pouvoir ; et pour venger ma flamme</l>
+                        <l n="1361"> Je n’ai qu’à dire un mot, elle est morte.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="1362"> Ah Madame !</l>
+                        <l n="1363"> Quelle étrange fureur vous anime...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="1364"> Écoutez :</l>
+                        <l n="1365"> C’est assez, et c’est trop fatiguer mes bontés.</l>
+                        <l n="1366"> Apprends, cruel, apprends qu’en perdant l’espérance</l>
+                        <l n="1367"> Du moins pour assurer mon secret, ma vengeance, </l>
+                        <l n="1368"> J’ai remis ton Amante en de fidèles mains,</l>
+                        <l n="1369"> Hélas ! je balançais mes funestes desseins :</l>
+                        <l n="1370"> Peut-être j’allais faire un noble sacrifice ;</l>
+                        <l n="1371"> À ma Rivale, à toi j’allais rendre justice, </l>
+                        <l n="1372"> À Thésée, aux Dieux même ; et mourant sans effroi</l>
+                        <l n="1373"> J’aurais versé du sang et des larmes pour toi :</l>
+                        <l n="1374"> Contre elle cependant tu m’as déterminée.</l>
+                        <l n="1375"> Je mourrai, mais viens voir trancher sa destinée.</l>
+                        <l n="1376"> Mes yeux se repaîtront de son sang odieux :</l>
+                        <l n="1377"> Je vais faire expirer ma Rivale à tes yeux ;</l>
+                        <l n="1378"> Et me voyant moi-même interdite, éperdue,</l>
+                        <l n="1379"> Barbare, elle verra que ton Amour la tue.</l>
+                        <l n="1380"> Après, donne un cours libre à ta juste fureur,</l>
+                        <l n="1381"> Venge ton Aricie, et me perces le cœur ;</l>
+                        <l n="1382"> Et la mort de ta main remplissant mon envie,</l>
+                        <l n="1383"> Me sera mille fois plus douce que la vie.</l>
+                        <l n="1384"> Viens avec moi, cruel ?</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="1385"> Madame, demeurez :</l>
+                        <l n="1386"> Tournez plutôt sur moi des coups plus assurés ;</l>
+                        <l n="1387"> Et sans aller plus loin chercher une vengeance,</l>
+                        <l n="1388"> En punissant le crime, épargnez l’innocence, </l>
+                        <l n="1389"> Je voudrais sans blesser et Thésée et les Dieux,</l>
+                        <l n="1390"> Pouvoir vous faire ici l’hommage de mes vœux,</l>
+                        <l n="1391"> Rendre à votre mérite un tribut légitime ;</l>
+                        <l n="1392"> Mais quand je le pourrais, le ferais-je sans crime ?</l>
+                        <l n="1393"> Et l’Amour en Tyran qui dispose de nous, </l>
+                        <l n="1394"> Me donne à la Princesse, et m’éloigne de vous.</l>
+                        <l n="1395"> Malgré nous à son gré le Destin nous entraîne :</l>
+                        <l n="1396"> Il verse dans nos cœurs ou l’amour, ou la haine :</l>
+                        <l n="1397"> On n’en est point le maître ; et chacun en naissant</l>
+                        <l n="1398"> Reçoit une influence, et court à son penchant.</l>
+                        <l n="1399"> Je répète à regret que j’adore Aricie ;</l>
+                        <l n="1400"> Mais pour vous en venger je vous offre ma vie :</l>
+                        <l n="1401"> Épargnez la princesse, et par un coup mortel</l>
+                        <l n="1402"> Vengez sur tout mon sang cet aveu criminel.</l>
+                        <l n="1403"> Que tardez-vous, Madame, à punir un Coupable ?</l>
+                        <l n="1404"> Pour Hippolyte ingrat soyez moins pitoyable :</l>
+                        <l n="1405"> À vos justes rigueurs il vient s’abandonner.</l>
+                        <l n="1406"> Déchirez donc ce cœur qu’il ne peut vous donner...</l>
+                        <l n="1407"> Madame, vous pleurez sans me vouloir entendre !</l>
+                        <l n="1408"> C’est du sang, et non pas des pleurs qu’il faut répandre. </l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="1409"> Quel sang puis-je verser, Ingrat ? est-ce le tien ?</l>
+                        <l n="1410"> Et tu sais que pour toi je répondrais le mien ;</l>
+                        <l n="1411"> Et quand tu m’attendris, et que tu me désarmes,</l>
+                        <l n="1412"> Près de toi, je ne puis répandre que des larmes.</l>
+                        <l n="1413"> Je sais qu’en cet instant, dans l’état où je suis, </l>
+                        <l n="1414"> Tu fais ce que tu dois, je fais ce que je puis :</l>
+                        <l n="1415"> Je connais ton devoir et le mien, pour m’y rendre,</l>
+                        <l n="1416"> Je tâche en vain... pourquoi rends-tu mon cœur si tendre ?</l>
+                        <l n="1417"> Je connais tout mon crime, et ne puis l’éviter.</l>
+                        <l n="1418"> Montre-moi des vertus que je puisse imiter ;</l>
+                        <l n="1419"> Et puis que mon amour s’accroît par mon estime,</l>
+                        <l n="1420"> Ta vertu ne me sert qu’à faire un nouveau crime.</l>
+                        <l n="1421"> Impitoyables Dieux ! tranchez mes tristes jours.</l>
+                        <l n="1422"> Ô Mort ! des malheureux l’asile et le recours,</l>
+                        <l n="1423"> Finissez de ces Dieux la haine et l’injustice.</l>
+                        <l n="1424"> Chaque instant de ma vie est un trop long supplice.</l>
+                        <l n="1425"> Qu’ai-je dit ? qu’ai-je fait ? quel crime ai-je commis</l>
+                        <l n="1426"> Pour oublier Thésée, et brûler pour son fils ?</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="1427"> Souffrez que son amour et vous parle, et vous touche :</l>
+                        <l n="1428"> Écoutez-le, Madame ; il emprunte ma bouche :</l>
+                        <l n="1429"> Il se met à genoux.</l>
+                        <l n="1430"> Pour le père, voyez le fils à vos genoux :</l>
+                        <l n="1431"> Il joint le nom d’Amant avec celui d’Époux.</l>
+                        <l n="1432"> Recevez un amour...</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#thésée">
+            <speaker> THÉSÉE, en entrant s’arrête, et veut mettre l’Épée à la main. </speaker>
+                        <l n="1433"> Dieux ! que vois-je ? Ah ! Perfide,</l>
+                        <l n="1434"> Tu périras.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE, en l’arrêtant. </speaker>
+                        <l n="1435"> Seigneur, votre main parricide</l>
+                        <l n="1436"> Pourrait sur votre sang...</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1437"> Le traître à vos genoux </l>
+                        <l n="1438"> Ne mérite que trop l’éclat de mon courroux ; </l>
+                        <l n="1439"> Laissez, laissez, Madame...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="1440"> Eh ! que voulez-vous faire ?</l>
+                        <l n="1441"> Songez au nom des Dieux que vous êtes son père :</l>
+                        <l n="1442"> Épargnez votre sang, et répandez le mien.</l>
+                        <l n="1443"> C’est le crime de Phèdre, et ce n’est pas le sien. </l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1444"> Ah ! Monstre, fils ingrat, tu demeures stupide,</l>
+                        <l n="1445"> Tu trembles, je le vois, ton crime t’intimide.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="1446"> Mon silence, Seigneur, et ma stupidité</l>
+                        <l n="1447"> Ne sont point un effet de ma timidité.</l>
+                        <l n="1448"> Tout ce que vous voyez a droit de me confondre :</l>
+                        <l n="1449"> Contre un père irrité je n’ai rien à répondre.</l>
+                        <l n="1450"> Après cela, Seigneur, vous pouvez m’accabler :</l>
+                        <l n="1451"> Hippolyte attendra son Arrêt sans trembler.</l>
+                        <l n="1452"> Je vous quitte ; et dans peu vous pourrez me connaître.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1453"> Quoi donc ? tranquillement je vois partir le traître, </l>
+                        <l n="1454"> Je demeure immobile, une secrète horreur</l>
+                        <l n="1455"> Et m’arrête le bras, et me glace le cœur ?</l>
+                        <l n="1456"> Ah Ciel ! pour détourner une juste vengeance,</l>
+                        <l n="1457"> La Nature et les Dieux sont-ils d’intelligence ?</l>
+                        <l n="1458"> Ce sont ces mêmes Dieux jaloux de leur Arrêt</l>
+                        <l n="1459"> Qui prétendent tourner mon cœur comme il leur plaît :</l>
+                        <l n="1460"> Ils empruntent pour eux la voix de la Nature,</l>
+                        <l n="1461"> Mais j’en veux étouffer jusqu’au moindre murmure ;</l>
+                        <l n="1462"> Et s’ils parlent encor pour un perfide fils,</l>
+                        <l n="1463"> La nature et les Dieux seront mes ennemis. </l>
+                        <l n="1464"> Ils osent protéger le crime et l’injustice ;</l>
+                        <l n="1465"> Et c’est par là qu’il faut qu’Hippolyte périsse.</l>
+                        <l n="1466"> C’est trop peu que l’exil ; holà, Gardes, à moi.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="1467"> Ah ! Seigneur, arrêtez, que de trouble, d’effroi !</l>
+                        <l n="1468"> Perdez, perdez plutôt la fatale furie</l>
+                        <l n="1469"> Qui vous fait immoler une si chère vie.</l>
+                        <l n="1470"> Quoi ? je verrais périr ce prince infortuné ?</l>
+                        <l n="1471"> Et ma perfide main l’aurait assassiné ?</l>
+                        <l n="1472"> Hé ! de grâce, Seigneur, épargnez-moi ce crime.</l>
+                        <l n="1473"> D’un remords éternel vous seriez la victime :</l>
+                        <l n="1474"> Vous ne verriez jamais Phèdre qu’avec horreur :</l>
+                        <l n="1475"> Je deviendrais l’objet d’une juste fureur,</l>
+                        <l n="1476"> Celui de votre haine et de votre vengeance.</l>
+                        <l n="1477"> Par pitié laissez-moi ce reste d’innocence :</l>
+                        <l n="1478"> Je la demande en pleurs en ce malheureux jour ;</l>
+                        <l n="1479"> Et du moins que je meure avecque votre amour.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1480"> Ah ! Madame, je sais discerner le Coupable.</l>
+                        <l n="1481"> Votre cœur innocent du crime qui m’accable</l>
+                        <l n="1482"> Marque votre tendresse avec assez d’éclat ;</l>
+                        <l n="1483"> Et vous en avez trop encor pour cet Ingrat. </l>
+                        <l n="1484"> Vous parlez pour mon sang ; et mon âme interdite</l>
+                        <l n="1485"> Refuse de connaître un fils dans Hippolyte :</l>
+                        <l n="1486"> Je n’y vois qu’un Rival, qui redouble aujourd’hui</l>
+                        <l n="1487"> Ma tendresse pour vous, et ma haine pour lui.</l>
+                        <l n="1488"> Mais de peur que l’Ingrat n’irrite cette haine, </l>
+                        <l n="1489"> Je m’en vais pour jamais l’exiler de Trézène.</l>
+                        <l n="1490"> C’est à vous que j’adresse un vœu si solennel,</l>
+                        <l n="1491"> Justes Dieux ! punissez un fils si criminel !</l>
+                        <l n="1492"> Et toi, Neptune, et toi dont la Race Divine</l>
+                        <l n="1493"> De Thésée anoblît le sang et l’origine, </l>
+                        <l n="1494"> Plongeant ce sang impur dans l’abîme des eaux,</l>
+                        <l n="1495"> Donne ce monstre en proie à des Monstres nouveaux.</l>
+                        <l n="1496"> Et vous, Dieux ! qui là-haut faites trembler la terre,</l>
+                        <l n="1497"> Lancez sur ce perfide un éclat de tonnerre :</l>
+                        <l n="1498"> Ma gloire est votre ouvrage, il la veut outrager ; </l>
+                        <l n="1499"> Et c’est bien moins à moi qu’à vous à la venger.</l>
+                        <l n="1500"> Il sort.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="1501"> Et toi, Ciel ! qui connais l’innocence et le crime, </l>
+                        <l n="1502"> Sauve Hippolyte, frappe, et choisis ta victime.</l></div></div>
+           <div type="act" xml:id="5">
+           <head> ACTE V </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="1503"> Princesse, pardonnez à mes emportements : </l>
+                        <l n="1504"> Oubliez mes fureurs dans mes embrassements : </l>
+                        <l n="1505"> Si je vous ai donné de mortelles alarmes, </l>
+                        <l n="1506"> Si dans mon désespoir j’ai fait couler vos larmes ;</l>
+                        <l n="1507"> J’ai d’un cruel destin éprouvé le courroux, </l>
+                        <l n="1508"> Et mon cœur a souffert mille fois plus que vous. </l>
+                        <l n="1509"> Malgré tous mes transports et ma funeste envie, </l>
+                        <l n="1510"> Hippolyte aujourd’hui vous redonne la vie.</l>
+                        <l n="1511"> Après ce que j’ai vu, ce qu’il a fait pour moi, </l>
+                        <l n="1512"> C’est là le moindre prix que je doive à sa foi.</l>
+                        <l n="1513"> Je lui dois en ce jour et la vie, et la gloire :</l>
+                        <l n="1514"> Et pour en conserver l’éternelle mémoire, </l>
+                        <l n="1515"> Je veux... Adieu, Princesse.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="1516"> Ah Ciel ! qu’entends-je ? hélas ! </l>
+                        <l n="1517"> Cléone, conçois-tu mon cruel embarras ?</l>
+                        <l n="1518"> Conçois-tu les raisons du retour de la Reine ?</l>
+                        <l n="1519"> Ses remords imprévus ont étouffé sa haine.</l>
+                        <l n="1520"> Je suis libre, je vis, et crains pour mon amour </l>
+                        <l n="1521"> Les funestes raisons de ce fatal retour.</l>
+                        <l n="1522"> Tu vis avec horreur sa noire jalousie </l>
+                        <l n="1523"> Se nourrir de l’espoir de m’arracher la vie,</l>
+                        <l n="1524"> Furieuse tantôt m’ayant fait arrêter,</l>
+                        <l n="1525"> Je voyais le trépas sans pouvoir l’éviter ;</l>
+                        <l n="1526"> Et dans son Cabinet en secret enfermée </l>
+                        <l n="1527"> J’attendais mon destin sans en être alarmée.</l>
+                </sp>
+        <sp who="#cléone">
+            <speaker> CLÉONE. </speaker>
+                        <l n="1528"> Quoi ? vous ne craigniez pas son funeste transport, </l>
+                        <l n="1529"> Madame, et sans pâlir vous attendiez la mort ?</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="1530"> Le dirai-je, Cléone ? à sa fureur en proie</l>
+                        <l n="1531"> Je sentais dans mon cœur une secrète joie ;</l>
+                        <l n="1532"> Ses menaces, ses pleurs, son éclatant courroux,</l>
+                        <l n="1533"> Avaient pour mon Amour quelque chose de doux.</l>
+                        <l n="1534"> Dans ses plus vifs transports de douleur et de rage</l>
+                        <l n="1535"> Je voyais mon bonheur écrit sur son visage : </l>
+                        <l n="1536"> Je lisais à travers son trouble et son effroi</l>
+                        <l n="1537"> Les dédains d’Hippolyte, et sa flamme pour moi.</l>
+                        <l n="1538"> Bien que son désespoir me dut rendre alarmée,</l>
+                        <l n="1539"> Je mourrais, il est vrai ; mais je mourrais aimée ;</l>
+                        <l n="1540"> Et pour se consoler dans les plus grands malheurs,</l>
+                        <l n="1541"> On voit avec plaisir une Rivale en pleurs.</l>
+                        <l n="1542"> Cependant à présent sa fureur est éteinte :</l>
+                        <l n="1543"> Ce calme inopiné me donne de la crainte.</l>
+                        <l n="1544"> La Reine vient en pleurs me plaindre, m’embrasser,</l>
+                        <l n="1545"> Me rendre libre enfin : Ciel ! que dois-je penser ?</l>
+                        <l n="1546"> Contre moi sans raison se vit-elle animée ?</l>
+                        <l n="1547"> D’Hippolyte inconstant serais-je moins aimée ?</l>
+                        <l n="1548"> Ou mon cruel amant plus timide que moi,</l>
+                        <l n="1549"> Pour le prix de mes jours lui donne-t-il sa foi ?</l>
+                </sp>
+        <sp who="#cléone">
+            <speaker> CLÉONE. </speaker>
+                        <l n="1550"> Quoi ? lorsque vous voyez sa fureur ralentie, </l>
+                        <l n="1551"> Vous craignez sa clémence, et redoutez la vie,</l>
+                        <l n="1552"> Madame ? Je ne sais si vos feux sont trahis ;</l>
+                        <l n="1553"> Mais Thésée irrité ne veut plus voir son Fils :,</l>
+                        <l n="1554"> Hippolyte en ce jour est l’objet de sa haine.</l>
+                        <l n="1555"> On dit même en secret qu’il brûle pour la Reine, </l>
+                        <l n="1556"> Ce bruit est répandu, l’on parle tout bas,</l>
+                        <l n="1557"> Et l’on croit dans Trézène...</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="1558"> Ah Dieux ! n’achève pas.</l>
+                        <l n="1559"> Thésée est irrité, la Reine est adoucie ;</l>
+                        <l n="1560"> Elle est venue en pleurs me redonner la vie :</l>
+                        <l n="1561"> Et la cruelle hélas ! dans mon funeste sort,</l>
+                        <l n="1562"> M’arrachant mon Amant, me redonne la mort.</l>
+                        <l n="1563"> Dieux ! que fait cet ingrat lorsque Phèdre m’accable ?</l>
+                        <l n="1564"> Il viendrait me trouver s’il n’était point coupable.</l>
+                        <l n="1565"> Je le verrais, Cléone, et loin de m’oublier,</l>
+                        <l n="1566"> Il chercherait du moins à se justifier.</l>
+                        <l n="1567"> Mais il ne paraît point, tout est dans le silence :</l>
+                        <l n="1568"> Et Thésée irrité ne prend pas sa défense.</l>
+                        <l n="1569"> La Reine, sans courroux le condamne aujourd’hui ;</l>
+                        <l n="1570"> Et je n’ai que mon cœur qui parle encor pour lui. </l>
+                        <l n="1571"> Juste Ciel ! qui voyez mon amour et ma peine, </l>
+                        <l n="1572"> De Phèdre rendez-moi la colère et la haine !</l>
+                        <l n="1573"> Dut-elle me coûter tout mon sang en ce jour,</l>
+                        <l n="1574"> Qu’Hippolyte à ses yeux me rende son amour !</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1575"> Ah ! venez prendre part en la douleur d’un Père </l>
+                        <l n="1576"> Dont un Fils insolent irrite la colère.</l>
+                        <l n="1577"> Son audace aujourd’hui me trouble, me confond ;</l>
+                        <l n="1578"> Mais, Madame, avec moi vous partagez l’affront.</l>
+                        <l n="1579"> Le Traître, comme à moi, vous a fait un outrage.</l>
+                        <l n="1580"> D’une éternelle paix vous étiez le seul gage ;</l>
+                        <l n="1581"> Mon Fils au Roi d’Argos pour vous se vit promis, </l>
+                        <l n="1582"> Et vous fûtes par lui destinée à mon Fils.</l>
+                        <l n="1583"> Envoyée en ma Cour par le Roi votre Père,</l>
+                        <l n="1584"> De nos secrets desseins je vous fis un mystère :</l>
+                        <l n="1585"> J’attendais qu’Hippolyte en voyant vos beautés</l>
+                        <l n="1586"> Par son propre penchant suivit vos volontés : </l>
+                        <l n="1587"> Mais son humeur farouche et son indifférence</l>
+                        <l n="1588"> Suspendit pour un temps cette illustre alliance :</l>
+                        <l n="1589"> Je le vis à regret. À mon fatal retour</l>
+                        <l n="1590"> J’ai trouvé dans son cœur un détestable amour ;</l>
+                        <l n="1591"> Et loin de s’enflammer d’une ardeur légitime, </l>
+                        <l n="1592"> Il n’aime le plaisir qu’assaisonné de crime.</l>
+                        <l n="1593"> Les menaces des Dieux, ses regards, ses soupirs,</l>
+                        <l n="1594"> M’avaient fait pressentir ses injustes désirs.</l>
+                        <l n="1595"> Au perfide aujourd’hui je vous ai proposée ;</l>
+                        <l n="1596"> Et, Madame, à ma honte il vous a refusée. </l>
+                        <l n="1597"> Sans respect d’un Hymen qui doit m’être si cher,</l>
+                        <l n="1598"> Il soupire pour Phèdre, et veut me l’arracher,</l>
+                        <l n="1599"> J’en suis trop éclairci ; sans redouter ma haine,</l>
+                        <l n="1600"> Je l’ai trouvé, l’Ingrat, seul aux pieds de la Reine :</l>
+                        <l n="1601"> Une juste fureur m’ordonnait son trépas ;</l>
+                        <l n="1602"> Mais Phèdre et la Nature ont retenu mon bras :</l>
+                        <l n="1603"> Et de peur que ce bras pour punir le Perfide,</l>
+                        <l n="1604"> Sans épargner mon sang, ne fasse un parricide,</l>
+                        <l n="1605"> J’abandonne ce Fils, et ce Monstre odieux,</l>
+                        <l n="1606"> Et j’ai remis le soin de ma vengeance aux Dieux. </l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="1607"> Apprenez donc, Seigneur, les malheurs d’Aricie.</l>
+                        <l n="1608"> Je croyais qu’il m’aimait, et l’Ingrat m’a trahie.</l>
+                        <l n="1609"> Lui-même, ce matin m’est venu déclarer </l>
+                        <l n="1610"> Que j’allumais le feu qui le fit soupirer.</l>
+                        <l n="1611"> Pour me persuader de toute sa tendresse, </l>
+                        <l n="1612"> Mon cœur n’a consulté que ma propre faiblesse ; </l>
+                        <l n="1613"> Et son amour n’était qu’un Amour affecté </l>
+                        <l n="1614"> Que mes faibles attraits n’avaient pas mérité.</l>
+                        <l n="1615"> Pour Phèdre il m’osa feindre une immortelle haine ;</l>
+                        <l n="1616"> Et cependant l’Ingrat court aux pieds de la Reine. </l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1617"> Quoi donc ? il vous voyait ; il vous rendait des soins ?</l>
+                        <l n="1618"> Il vous aimait, Madame ?</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="1619"> Il le feignait du moins : </l>
+                        <l n="1620"> Oui, tantôt devant vous il me faisait entendre </l>
+                        <l n="1621"> Qu’il m’aimait, mais d’un air si touchant et si tendre, </l>
+                        <l n="1622"> Que j’en étais charmée, et mon cœur abusé</l>
+                        <l n="1623"> Par Hippolyte alors n’était pas refusé.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1624"> Ah Dieux ! c’était pour vous qu’il soupirait, Madame ;</l>
+                        <l n="1625"> Devant Phèdre à mes yeux vous allumiez sa flamme ;</l>
+                        <l n="1626"> Pour vous tous ses soupirs...</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="1627"> Il m’en flattait, Seigneur ;</l>
+                        <l n="1628"> Et j’avais pour garants d’une si douce erreur</l>
+                        <l n="1629"> Son aveu, les transports qu’il m’avait fait paraître,</l>
+                        <l n="1630"> Tous ses brûlants soupirs dont il n’était plus maître,</l>
+                        <l n="1631"> Que devant Phèdre même il n’a pu retenir,</l>
+                        <l n="1632"> Et que par mon trépas elle a voulu punir.</l>
+                        <l n="1633"> Quand on voit sa Rivale à sa perte animée, </l>
+                        <l n="1634"> Hélas ! peut-on douter que l’on ne soit aimée ?</l>
+                        <l n="1635"> Sans respect des liens qui l’attachaient à vous,</l>
+                        <l n="1636"> La flamme d’Hippolyte allumait son courroux.</l>
+                        <l n="1637"> Votre absence nourrit cette flamme fatale :</l>
+                        <l n="1638"> Elle aimait Hippolyte, et j’étais sa Rivale.</l>
+                        <l n="1639"> Elle m’a crue aimée ; et dans ce triste jour</l>
+                        <l n="1640"> J’ai par mille périls acheté cet amour ;</l>
+                        <l n="1641"> Et j’espérais du moins voyant sa jalousie,</l>
+                        <l n="1642"> Payer un peu d’amour aux dépends de ma vie.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1643"> Dieux ! qu’entends-je, Madame ? interdit, étonné, </l>
+                        <l n="1644"> Vous me rendez l’effroi que je vous ai donné !</l>
+                        <l n="1645"> Quel horrible nuage ! et quel affreux mystère !</l>
+                        <l n="1646"> Trop malheureux Amant ! mais trop barbare Père !</l>
+                        <l n="1647"> Les Dieux m’ont-ils trompé dans ce funeste jour ?</l>
+                        <l n="1648"> Ou mes yeux n’ont-ils pu démêler cet amour ?</l>
+                        <l n="1649"> Mon Fils est mon Rival, ou Phèdre est infidèle ;</l>
+                        <l n="1650"> Hippolyte innocent, ou Phèdre criminelle :</l>
+                        <l n="1651"> L’un ou l’autre m’offense ; et j’ai pour ennemis</l>
+                        <l n="1652"> Ou le sang, ou l’amour, ma Maîtresse, ou mon Fils.</l>
+                        <l n="1653"> Hélas ! de quel côté que paraisse le crime, </l>
+                        <l n="1654"> Il n’offre à ma fureur qu’une chère victime :</l>
+                        <l n="1655"> Et Père malheureux, Amant désespéré,</l>
+                        <l n="1656"> Faut-il de tous côtés que je sois déchiré ?</l>
+                        <l n="1657"> Et que pour me venger d’une injuste tendresse,</l>
+                        <l n="1658"> Je me doive immoler mon Fils, ou ma Maîtresse ? </l>
+                        <l n="1659"> Ah ! Madame, je n’ose emprunter des clartés :</l>
+                        <l n="1660"> Je cherche de l’erreur et des obscurités.</l>
+                        <l n="1661"> Je crains de rencontrer Hippolyte fidèle ;</l>
+                        <l n="1662"> Et je tremble de voir la Reine criminelle.</l>
+                        <l n="1663"> Dieux ! quand je réfléchis sur ses emportements, </l>
+                        <l n="1664"> Sa douleur pour mon Fils, ses tendres mouvements ;</l>
+                        <l n="1665"> Quand je l’ai menacé pour Phèdre, quelle atteinte !</l>
+                        <l n="1666"> Que de pleurs, de soupirs ! que d’horreur, et de crainte !</l>
+                        <l n="1667"> Ah ! ses injustes feux ont su trop éclater,</l>
+                        <l n="1668"> Et même je n’ai pas la douceur d’en douter. </l>
+                        <l n="1669"> Cependant Hippolyte est sorti de Trézène :</l>
+                        <l n="1670"> Je l’ai banni, Madame, et chargé de ma haine :</l>
+                        <l n="1671"> Mes imprécations dans mon jaloux transport,</l>
+                        <l n="1672"> Pour toute grâce aux Dieux ont demandé sa mort.</l>
+                        <l n="1673"> Et je crains que suivant l’effet de leur menace</l>
+                        <l n="1674"> Ils n’accordent trop tôt cette funeste grâce.</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="1675"> Seigneur, qu’avez-vous fait dans votre emportement ?</l>
+                        <l n="1676"> Je crains pour votre Fils, je crains pour mon Amant. </l>
+                        <l n="1677"> Rappelez au plutôt ce seul Fils qui vous reste.</l>
+                        <l n="1678"> Rétractez près des Dieux un Arrêt si funeste.</l>
+                        <l n="1679"> Que deviendrais-je hélas ! si pour vous en punir</l>
+                        <l n="1680"> Ces Dieux trop prompts...</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1681"> Je vais le faire revenir.</l>
+                        <l n="1682"> Qu’on coure après mon Fils, Gardes qu’on le ramène :</l>
+                        <l n="1683"> Mais en partant, ici faites venir la Reine :</l>
+                        <l n="1684"> Je veux la voir ; je veux lui parler devant vous, </l>
+                        <l n="1685"> À Aricie.</l>
+                        <l n="1686"> Dans ses feux criminels allumer mon courroux,</l>
+                        <l n="1687"> Nourrir ma jalousie, irriter ma colère,</l>
+                        <l n="1688"> Perdre le nom d’Amant, prendre celui de Père,</l>
+                        <l n="1689"> Et dans ses traîtres yeux, sans espoir de retour,</l>
+                        <l n="1690"> Boire à longs traits la haine où je puisai l’amour.</l>
+                        <l n="1691"> Mais j’aperçois Mégiste ; hé bien, que fait la Reine ?,</l>
+                        <l n="1692"> Viendra-t-elle ?</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#mégiste">
+            <speaker> MÉGISTE. </speaker>
+                        <l n="1693"> Seigneur, elle est hors de Trézène :</l>
+                        <l n="1694"> Sur son Char, d’Hippolyte elle a suivi les pas. </l>
+                        <l n="1695"> L’un et l’autre partis...</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="1696"> Je suis trahie, hélas !</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1697"> Ciel ! qu’entends-je ? mon Fils est-il d’intelligence</l>
+                        <l n="1698"> Avec Phèdre ? et tous deux me font-ils cette offense ?</l>
+                        <l n="1699"> L’oracle est accompli, Fils trop audacieux, </l>
+                        <l n="1700"> Ta fureur sait tenir la parole des Dieux. </l>
+                        <l n="1701"> Oui, j’ai trop différé d’en faire ma victime.</l>
+                        <l n="1702"> La nature tâchait de me cacher son crime, .</l>
+                        <l n="1703"> Les Dieux qui l’ont permis ne l’en puniraient pas ;</l>
+                        <l n="1704"> Et je vais confier ma vengeance à mon bras.</l>
+                        <l n="1705"> Grâce à ces Dieux cruels, grâce à leur injustice :</l>
+                        <l n="1706"> De ce monstre je vais leur faire un sacrifice.</l>
+                        <l n="1707"> Rien ne m’arrête plus, je cours sur leur Autel</l>
+                        <l n="1708"> Répandre avec plaisir un sang si criminel.</l>
+                        <l n="1709"> Je servirai de prêtre, et de mes mains sanglantes</l>
+                        <l n="1710"> J’irai leur présenter ses entrailles fumantes.</l>
+                        <l n="1711"> Ils verront à travers de son cœur enflammé,</l>
+                        <l n="1712"> Les horreurs de ce feu qu’ils avaient allumé. </l>
+                        <l n="1713"> J’en frémirai sans doute, et vengeant mon injure</l>
+                        <l n="1714"> Il en pourra coûter des pleurs à la Nature.</l>
+                        <l n="1715"> Et s’ils forcent le Père à m’assurer le Fils,</l>
+                        <l n="1716"> Peut-être ils frémiront de se voir obéis.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#idas">
+            <speaker> IDAS. </speaker>
+                        <l n="1717"> Ah ! Seigneur, apprenez l’aventure funeste</l>
+                        <l n="1718"> D’Hippolyte.</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="1719"> Quoi donc ?</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1720"> Parle, achève le reste, </l>
+                        <l n="1721"> Les Dieux ont-ils puni ce téméraire fils ?</l>
+                </sp>
+        <sp who="#idas">
+            <speaker> IDAS. </speaker>
+                        <l n="1722"> Tous vos désirs cruels ont été trop remplis.</l>
+                        <l n="1723"> Après qu’il eût parlé quelque temps à la Reine,</l>
+                        <l n="1724"> Cher Idas, m’a-t-il dit, abandonnons Trézène : </l>
+                        <l n="1725"> Mon père me l’ordonne, et mon cœur y consent :</l>
+                        <l n="1726"> Je serais criminel d’y paraître innocent.</l>
+                        <l n="1727"> Phèdre malgré ses feux, malgré sa jalousie,</l>
+                        <l n="1728"> A calmé sa colère, et me rend Aricie :</l>
+                        <l n="1729"> Mais par reconnaissance Hippolyte en ce jour</l>
+                        <l n="1730"> Par un heureux exil éteindra cet amour.</l>
+                        <l n="1731"> Partons, Idas, partons sans revoir ma Princesse :</l>
+                        <l n="1732"> Je mourrais à ses pieds de douleur, de tendresse.</l>
+                        <l n="1733"> Sauvons-nous en Argos, et sortons de ce pas ;</l>
+                        <l n="1734"> Car si je la voyais je ne partirais pas. </l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="1735"> Cher Prince !</l>
+                </sp>
+        <sp who="#idas">
+            <speaker> IDAS. </speaker>
+                        <l n="1736"> Sur son Char il monte avecque adresse.</l>
+                        <l n="1737"> Ses superbes chevaux dont il sait la vitesse,</l>
+                        <l n="1738"> De leurs hennissements font retentir les airs,</l>
+                        <l n="1739"> Et partant de la main devancent les éclairs.</l>
+                        <l n="1740"> Je cours à toute bride, et le suis avec peine, </l>
+                        <l n="1741"> Il se tourne cent fois vers les murs de Trézène :</l>
+                        <l n="1742"> Il s’éloigne à regret d’un rivage si cher,</l>
+                        <l n="1743"> Et va plus lentement sur le bord de la Mer.</l>
+                        <l n="1744"> Dans un calme profond la Mer ensevelie,</l>
+                        <l n="1745"> Ainsi qu’un vaste Étang paraissait endormie ;</l>
+                        <l n="1746"> Et le Zéphyr à peine en ce calme si beau</l>
+                        <l n="1747"> Frisait légèrement la surface de l’eau ;</l>
+                        <l n="1748"> Quand de son propre sein s’élève un prompt orage,</l>
+                        <l n="1749"> L’eau s’enfle à gros bouillons menaçant le rivage :</l>
+                        <l n="1750"> L’un sur l’autre entassés, les flots audacieux</l>
+                        <l n="1751"> Vont braver en grondant la foudre dans les cieux,</l>
+                        <l n="1752"> Une Montagne d’eaux s’élançant vers le sable, </l>
+                        <l n="1753"> Roule, s’ouvre, et vomit un Monstre épouvantable :</l>
+                        <l n="1754"> Sa forme est d’un Taureau, ses yeux et ses naseaux</l>
+                        <l n="1755"> Répandent un déluge et des flammes et d’eaux.</l>
+                        <l n="1756"> De ses longs beuglements les rochers retentissent,</l>
+                        <l n="1757"> Jusqu’au fonds des forêts les cavernes gémissent,</l>
+                        <l n="1758"> Dans la vague écumante il nage en bondissant,</l>
+                        <l n="1759"> Et le flot irrité le suit en mugissant.</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="1760"> Hélas !</l>
+                </sp>
+        <sp who="#idas">
+            <speaker> IDAS. </speaker>
+                        <l n="1761"> À cet aspect, les chevaux d’Hippolyte</l>
+                        <l n="1762"> Tous remplis de frayeur veulent prendre la fuite :</l>
+                        <l n="1763"> De la voix, de la main il eut les arrêter,</l>
+                        <l n="1764"> Pour un combat affreux que son bras va tenter.</l>
+                        <l n="1765"> Essayons, a-t-il dit, si le sang de Thésée</l>
+                        <l n="1766"> Sur les taureaux emporte une victoire aisée, </l>
+                        <l n="1767"> Le Minotaure en Crète à son bras était dû,</l>
+                        <l n="1768"> Et les Dieux réservaient ce monstre à ma vertu.</l>
+                        <l n="1769"> Mais ses chevaux fougueux que le Monstre intimide,</l>
+                        <l n="1770"> Ne reconnaissent plus de maître ni de guide.</l>
+                        <l n="1771"> Ils emportent le Char, prennent le frein aux dents :</l>
+                        <l n="1772"> La crainte les maîtrise, et les rend plus ardents.</l>
+                        <l n="1773"> Tout blanchissants d’écume ils s’élancent de rage</l>
+                        <l n="1774"> À travers les rochers qui sont près du rivage.</l>
+                        <l n="1775"> Hippolyte alors tombe, et d’un trait malheureux</l>
+                        <l n="1776"> S’embarrasse en tombant d’indissolubles nœuds ;</l>
+                        <l n="1777"> Par les rennes traîné dont le nœud se resserre,</l>
+                        <l n="1778"> Sa tête qui bondît ensanglante la terre,</l>
+                        <l n="1779"> Sur les rochers pointus qui lui percent le flanc</l>
+                        <l n="1780"> Il trace avec horreur des vestiges de sang.</l>
+                        <l n="1781"> Enfin le nœud se rompt, et les chevaux en fuite</l>
+                        <l n="1782"> Sur la terre étendu laissent choir Hippolyte.</l>
+                        <l n="1783"> J’y cours baigné de pleurs, et le trouve expirant :</l>
+                        <l n="1784"> La Reine, qui de loin nous suivait en tremblant,</l>
+                        <l n="1785"> Toute éperdue arrive en ces tristes alarmes.</l>
+                        <l n="1786"> Sur le corps d’Hippolyte elle verse des larmes, </l>
+                        <l n="1787"> Embrasse avec transport ce Prince malheureux,</l>
+                        <l n="1788"> Tâche à le rappeler par des cris douloureux,</l>
+                        <l n="1789"> Et lui voyant encor quelque reste de vie,</l>
+                        <l n="1790"> Lui prononce le nom de sa chère Aricie.</l>
+                        <l n="1791"> Le Prince ouvre les yeux, et d’un regard mourant</l>
+                        <l n="1792"> Il cherche la princesse encore en soupirant :</l>
+                        <l n="1793"> Il ne trouve que Phèdre, et sa triste paupière </l>
+                        <l n="1794"> Se ferme, et pour jamais refuse la lumière.</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="1795"> Destin, cruel Destin, tes ordres sont suivis, </l>
+                        <l n="1796"> Hippolyte est donc mort ?</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1797"> Ah Madame ! ah mon Fils ! </l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="1798"> Ah ! Seigneur, punissez la cause criminelle </l>
+                        <l n="1799"> Qui plonge votre Fils dans la nuit éternelle.</l>
+                        <l n="1800"> Phèdre perd Hippolyte, ose vous outrager, </l>
+                        <l n="1801"> Seigneur, et nous pleurons au lieu de le venger.</l>
+                </sp>
+        <sp who="#idas">
+            <speaker> IDAS. </speaker>
+                        <l n="1802"> Au lieu de vous venger, vous la plaindrez, Madame ;</l>
+                        <l n="1803"> Phèdre éteint dans son sang sa déplorable flamme.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1804"> Ciel !</l>
+                </sp>
+        <sp who="#idas">
+            <speaker> IDAS. </speaker>
+                        <l n="1805"> À peine Hippolyte avait fermé les yeux, </l>
+                        <l n="1806"> Qu’accusant son Amour, et le monstre, et les Dieux, </l>
+                        <l n="1807"> Par un coup de poignard elle tire sanglante </l>
+                        <l n="1808"> Sa main, qui de son sang paraît toute fumante.</l>
+                        <l n="1809"> J’y cours, mais de ce coup son grand cœur s’applaudit :</l>
+                        <l n="1810"> Sur le prince elle voit son sang qui rejaillit :</l>
+                        <l n="1811"> Oui, dit-elle, je veux que mon sang te ranime, </l>
+                        <l n="1812"> Cher Prince, ou qu’il te serve aujourd’hui de victime, </l>
+                        <l n="1813"> Pour expier mon crime, et venger tes malheurs ; </l>
+                        <l n="1814"> Reçois, cher Hippolyte, et mon âme, et mes pleurs, </l>
+                        <l n="1815"> Et quand tu me fuirais dans le Royaume sombre,</l>
+                        <l n="1816"> Que mon Ombre sanglante unie à ta chère Ombre, </l>
+                        <l n="1817"> Jusqu’au fonds des Enfers te suive pas à pas, </l>
+                        <l n="1818"> Et te chérisse encore au-delà du trépas !</l>
+                        <l n="1819"> Elle tombe à ces mots : son âme fugitive</l>
+                        <l n="1820"> Va rejoindre Hippolyte en l’infernale Rive ;</l>
+                        <l n="1821"> Et malgré les rigueurs de son funeste sort, </l>
+                        <l n="1822"> Son Amour va braver le Destin et la Mort.</l>
+                </sp>
+        <sp who="#aricie">
+            <speaker> ARICIE. </speaker>
+                        <l n="1823"> Il faut suivre Hippolyte, il faut suivre la Reine :</l>
+                        <l n="1824"> Oui, comme elle mourons. </l>
+                        <l n="1825"> Elle sort.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="1826"> Gardes, qu’on la ramène :</l>
+                        <l n="1827"> Craignons qu’elle ne suive et la Reine, et mon Fils, </l>
+                        <l n="1828"> C’en est trop, Dieux cruels ! vous êtes obéis. </l>
+                        <l n="1829"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

@@ -1,0 +1,2378 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Aristodème</title>
+                <title type="sub">Tragédie</title>
+            <author>
+                <persName>
+                    <forename>Claude</forename>
+                    <surname>Boyer</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/aristodème-claude-boyer </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1647">Représentée pour la première fois, en 1647.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="euphaes" sex="SEX">
+                            <persName>EUPHAES</persName>
+                        </person>
+                        <person xml:id="aristodème" sex="SEX">
+                            <persName>ARISTODÈME</persName>
+                        </person>
+                        <person xml:id="alcidamas" sex="SEX">
+                            <persName>ALCIDAMAS</persName>
+                        </person>
+                        <person xml:id="cresphonte" sex="SEX">
+                            <persName>CRESPHONTE</persName>
+                        </person>
+                        <person xml:id="argie" sex="SEX">
+                            <persName>ARGIE</persName>
+                        </person>
+                        <person xml:id="mérope" sex="SEX">
+                            <persName>MÉROPE</persName>
+                        </person>
+                        <person xml:id="alcmène" sex="SEX">
+                            <persName>ALCMÈNE</persName>
+                        </person>
+                        <person xml:id="arcas" sex="SEX">
+                            <persName>ARCAS</persName>
+                        </person>
+                        <person xml:id="troupe-de-soldats" sex="SEX">
+                            <persName>TROUPE DE SOLDATS</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Tragédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q80930]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">ARISTODÈME</titlePart>
+            <titlePart type="sub">TRAGÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, en 1647.</ab><!--@date="1647"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> À MONSIEUR LE CHEVALIER DE RIVIÈRE</salute>
+            </opener>
+        <p> <strong>CONSEILLER DU ROI EN SES CONSEILS,</strong> </p>
+        <p> <strong>Gouverneur de la ville d’Épernay, premier Gentilhomme de la Chambre de monseigneur le Prince, et Gouverneur, pour son Altesse de la ville et Château de Nérac et duché d’Albret</strong> </p>
+        <p> Monsieur, </p>
+        <p>             Je présume trop de cette bonté avec laquelle vous reçûtes mon premier présent, pour manquer de confiance dans la liberté que je prends de vous présenter aujourd’hui Aristodème : Puisque vous avez souffert que je misse votre nom à la tête d’un Ouvrage qui ne vous était conne que sur la foi d’autrui, j’ai lieu d’espérer que vous ferez la même grâce à un Ouvrage que vous avez vu, et qui vous doit la meilleure partie de sa réputation. Si votre générosité devait être sollicitée par d’autres motifs que par ceux de sa propre gloire, je pourrais, Monsieur, vous faire souvenir qu’Aristodème a eu l’honneur de plaire à un Prince qui n’est pas moins considérable par les lumières de son esprit, que par les merveilles de sa valeur : Mais, quoique le respect que vous rendez aux sentiments d’un jugement si éclairé soit plutôt l’effet d’une judicieuse déférence que de l’autorité de son rang ; Je ne veux pas toutefois prêter au présent que je vous fais une si puissante recommandation, de peur de rendre suspecte au public l’approbation que vous lui avez déjà donnée, et d’amoindrir la grâce de votre protection. Je veux, Monsieur, vous la devoir toute entière, et bien que je sache que vous voulez tenir toute la dignité de votre nom de la grandeur du Maître que vous servez, je considère en vous un éclat qui vous est si propre et si naturel, qu’il est bien aisé de voir qu’il ne vient que de vous, et qu’il est moins en vous l’ouvrage que le principe et le fondement de votre faveur. Et je m’assure, Monsieur, que si votre modestie me permettait de vous présenter à vous-même un tableau de ce que vous êtes, on y observerait des traits qui vous sont si particuliers, qu’il ne faudrait que jeter les yeux dessus lui pour vous distinguer de tout ce qui n’est pas vous-même ; Cette parfaite intelligence dans toute sorte d’affaires, cette adresse à les conduire, et cette promptitude à les exécuter, se trouvent rarement dans une autre personne, que dans la votre ; et sans aller trop loin je puis tirer de ce que vous avez fait dans nos derniers désordres une preuve assez illustre de cette haute prudence ; mais je laisse à l’histoire qui est la dépositaire des grandes actions, à publier des choses dont l’éclat s’effacerait dans l’obscurité d’une lettre. Je me contente, Monsieur, de vous considérer dans ces soins généreux que vous rendez continuellement à ceux que vous aimez, et surtout aux personnes de votre pays ; puisque par là j’espère non seulement de vous engager puissamment dans la protection d’Aristodème, qui a donné tout son sang pour le sien, mais encore de vous faire agréer l’inviolable protestation que j’ai faite d’être plus qu’homme de monde, </p>
+        <p>             Monsieur, </p>
+        <p>             Votre très humble et très obéissant serviteur, </p>
+        <p> BOYER </p>
+    </div>
+           <div type="act" xml:id="1">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="1"> En vain contre l’effort d’une sanglante guerre,</l>
+                        <l n="2"> Retranchés sur ce mont qui semble fuir la terre,</l>
+                        <l n="3"> Nous défendons l’honneur du nom Messénien</l>
+                        <l n="4"> Si le démon de Sparte est plus fort que le sien.</l>
+                        <l n="5"> Il triomphe, et malgré les efforts de nos armes</l>
+                        <l n="6"> Après tout notre sang nous arrache des larmes.</l>
+                        <l n="7"> Oui, Princes, en l’état où nous réduit le sort</l>
+                        <l n="8"> Où le moindre malheur est celui de la mort.</l>
+                        <l n="9"> À l’effroyable objet des maux qu’on nous prépare</l>
+                        <l n="10"> Je sens que malgré moi ma confiance s’égare ;</l>
+                        <l n="11"> Et je ne saurais voir qu’avec la larme à l’œil</l>
+                        <l n="12"> Toute la Messénie au bord de son cercueil.</l>
+                        <l n="13"> Hélas ! pour quel forfait, pour quel crime exécrable</l>
+                        <l n="14"> Lui faites-vous, grands Dieux, un sort si déplorable ?</l>
+                        <l n="15"> Ou pourquoi si ce coup ne pouvait s’éviter</l>
+                        <l n="16"> Attendiez-vous mon règne à le faire éclater ?</l>
+                        <l n="17"> Dieu du mont Ithomé, Dieu de toute la terre</l>
+                        <l n="18"> Qui souvent de ce Temple as lancé le tonnerre,</l>
+                        <l n="19"> Souffres-tu qu’aujourd’hui tes ennemis mortels</l>
+                        <l n="20"> Nous viennent égorger au pied de tes Autels ?</l>
+                        <l n="21"> Que leur Religion dans le sang étouffée</l>
+                        <l n="22"> Renouvelle à tes yeux les désordres d’Amphée ?</l>
+                        <l n="23"> Et que Sparte employant le fer et le flambeau</l>
+                        <l n="24"> De ton Temple et du mont fasse un ardent tombeau ?</l>
+                        <l n="25"> Est-ce ainsi puissant Dieu que tu nous abandonnes ?</l>
+                        <l n="26"> Messène va périr puisque tu nous l’ordonnes ;</l>
+                        <l n="27"> Mais notre désespoir se mêlant à nos coups,</l>
+                        <l n="28"> Ceux qui la font périr, périront avec nous.</l>
+                        <l n="29"> Vaillant Aristodème, et toi mon cher Cresphonte</l>
+                        <l n="30"> Que l’ennemi jamais n’éprouva qu’à sa honte,</l>
+                        <l n="31"> Et qui sans être issu du sang Messénien,</l>
+                        <l n="32"> De Messène pourtant t’es rendu le soutien ;</l>
+                        <l n="33"> Prévenez avec moi la cruelle disgrâce</l>
+                        <l n="34"> Dont depuis si longtemps le destin nous menace ;</l>
+                        <l n="35"> Et pour ne pas nous voir honteusement soumis</l>
+                        <l n="36"> S’il faut tomber, tombons avec nos ennemis.</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="37"> N’aggravez pas, Seigneur, les malheurs de Messène,</l>
+                        <l n="38"> Bien que le Ciel sur elle ait déployé sa haine,</l>
+                        <l n="39"> Après les grands exploits qu’a faits votre valeur</l>
+                        <l n="40"> Elle peut hardiment défier le malheur :</l>
+                        <l n="41"> Et tant que votre bras soutiendra sa querelle</l>
+                        <l n="42"> Si Sparte ne fléchit la guerre est immortelle,</l>
+                        <l n="43"> Du superbe sommet de ce mont orgueilleux</l>
+                        <l n="44"> Le mal qu’ils nous ont fait retombera sur eux.</l>
+                        <l n="45"> Nous le renverserons dessus leurs propres têtes,</l>
+                        <l n="46"> De ces lieux élevés partiront les tempêtes,</l>
+                        <l n="47"> Dont les traits par nous-même heureusement conduits</l>
+                        <l n="48"> Les réduiront bientôt où nous sommes réduits.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="49"> Aristodème, perds cette espérance vaine,</l>
+                        <l n="50"> Juge plus sainement des malheurs de Messène,</l>
+                        <l n="51"> Et sache qu’ils sont tels que pour borner leur cours</l>
+                        <l n="52"> Les Dieux ont trop longtemps différé leur secours.</l>
+                        <l n="53"> À peine ils le pourraient de puissance absolue,</l>
+                        <l n="54"> Mais déjà dans le Ciel sa perte est résolue.</l>
+                        <l n="55"> Les prodiges sanglants qui nous ont menacés</l>
+                        <l n="56"> Nous font voir contre nous tous les Dieux courroucés.</l>
+                        <l n="57"> Tout le monde a tremblé sous un coup de tonnerre,</l>
+                        <l n="58"> Cent fantômes hideux se sont levés de terre,</l>
+                        <l n="59"> Et remplissant ces lieux de tristesse et d’effroi</l>
+                        <l n="60"> Androcle et ses amis ont paru devant moi.</l>
+                        <l n="61"> Tel qu’alors qu’opposant sa puissance Royale</l>
+                        <l n="62"> À la guerre qu’il crût à son pays fatale,</l>
+                        <l n="63"> Beaucoup plus fort que lui, quoiqu’en un même rang,</l>
+                        <l n="64"> Mon père Antiochus la signa de son sang.</l>
+                        <l n="65"> L’heure vient, m’a-t-il dit, où le Ciel délibère</l>
+                        <l n="66"> De me venger sur toi du crime de ton père.</l>
+                        <l n="67"> Mais las ! par des rigueurs que j’ai peine à souffrir</l>
+                        <l n="68"> Toute la Messénie avec toi doit périr.</l>
+                        <l n="69"> À ces mots il se perd dans le sein d’une nue,</l>
+                        <l n="70"> Les épais tourbillons qui m’en ôtent la vue,</l>
+                        <l n="71"> Sont sans cesse percés de mille et mille éclairs</l>
+                        <l n="72"> Qui peignent nos malheurs dans le vague des airs.</l>
+                        <l n="73"> On oit bruire partout des instruments de guerre :</l>
+                        <l n="74"> Une pluie de sang tombe sur cette terre,</l>
+                        <l n="75"> La couvre de serpents, d’insectes, et d’abord</l>
+                        <l n="76"> Nous respirons un air de poison et de mort,</l>
+                        <l n="77"> Un si triste destin eut-il jamais d’exemple ?</l>
+                </sp>
+        <sp who="#épébole">
+            <speaker> ÉPÉBOLE. </speaker>
+                        <l n="78"> Joignez à ces horreurs ce qui se fait au Temple.</l>
+                        <l n="79"> Déjà près de l’Autel les Prêtres par trois fois</l>
+                        <l n="80"> Avaient sommé les Dieux d’accourir à leurs voix.</l>
+                        <l n="81"> La pureté du feu prêt pour le sacrifice</l>
+                        <l n="82"> Nous faisait espérer un succès plus propice.</l>
+                        <l n="83"> L’encens montait au Ciel avecque liberté,</l>
+                        <l n="84"> Mais sitôt qu’à la dextre un foudre eut éclaté,</l>
+                        <l n="85"> Le Ministre effrayé lâche les deux victimes</l>
+                        <l n="86"> Qui devaient expier la grandeur de nos crimes.</l>
+                        <l n="87"> L’une échappe et s’enfuit, l’autre court à l’Autel,</l>
+                        <l n="88"> Arrête, tombe et meurt avant le coup mortel.</l>
+                        <l n="89"> Le Prêtre épouvanté de voir ses funérailles</l>
+                        <l n="90"> Cherche encor nos destins au fond de ses entrailles.  </l>
+                        <l n="91"> Mais passant plus avant il voit avec erreur,</l>
+                        <l n="92"> Un serpent qui mourait en lui rongeant le cœur.</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="93"> Ô de nos derniers maux triste et dernier présage !</l>
+                        <l n="94"> C’est ce prodige affreux qui m’ôte le courage.</l>
+                        <l n="95"> Tout est perdu pour nous.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="96"> C’est l’extrême malheur</l>
+                        <l n="97"> Qui des vrais généreux redouble la valeur.</l>
+                        <l n="98"> Allons doncques amis où nous attend la gloire,</l>
+                        <l n="99"> Une éclatante mort vaut mieux qu’une victoire.</l>
+                        <l n="100"> Puisque c’est triompher des hommes et du sort</l>
+                        <l n="101"> De finir de beaux jours par une illustre mort.</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="102"> Suivons un sentiment si noble et si sublime.</l>
+                        <l n="103"> Mais Alcidamas vient.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="104"> Enfin, Roi magnanime,</l>
+                        <l n="105"> Les Dieux vont retirer Messène de ses fers,</l>
+                        <l n="106"> Ils ont déjà, touchés des maux qu’elle a soufferts,</l>
+                        <l n="107"> Commencé son salut par un fameux miracle,</l>
+                        <l n="108"> Nous n’attendions plus rien du côté de l’Oracle,</l>
+                        <l n="109"> Tisis étant cru mort, à peine à nos esprits</l>
+                        <l n="110"> Restait le souvenir du soin qu’il avait pris.</l>
+                        <l n="111"> Cependant il revient, et son zèle invincible</l>
+                        <l n="112"> Nous porte d’Apollon le remède infaillible.</l>
+                        <l n="113"> Il revient, et le Dieu qu’il porte dans son sein</l>
+                        <l n="114"> Du camp des ennemis l’a tiré par la main.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="115"> Quoi ! Tisis vit encor, ô frivole espérance !</l>
+                </sp>
+        <sp who="#épébole">
+            <speaker> ÉPÉBOLE. </speaker>
+                        <l n="116"> Mais quand bien son salut aurait quelque apparence,</l>
+                        <l n="117"> Peut-il pour nous revoir aborder des remparts           </l>
+                        <l n="118"> Que nos fiers ennemis ceignent de toutes parts ?</l>
+                        <l n="119"> Ne vous trompez-vous point ?</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="120"> Par cette défiance</l>
+                        <l n="121"> Vous accusez les Dieux de manquer de puissance ;</l>
+                        <l n="122"> Mais, Seigneur, écoutez ce qu’ils ont fait pour nous,</l>
+                        <l n="123"> Et par là connaissez la fin de leur courroux.    </l>
+                        <l n="124"> Marchant sous la faveur du Dieu qui l’accompagne,</l>
+                        <l n="125"> Tisis touchait déjà les bords de la montagne,</l>
+                        <l n="126"> Quand voyant tous nos champs couverts de pavillons,</l>
+                        <l n="127"> Tant de corps détachés, tant d’épais bataillons</l>
+                        <l n="128"> De nos murs ruinés lui défendre l’entrée,</l>
+                        <l n="129"> L’âme de déplaisir et de douleur outrée,</l>
+                        <l n="130"> Il tourna vers le Ciel ses yeux grossis de pleurs,</l>
+                        <l n="131"> Et par ces tristes mots déplore nos malheurs.</l>
+                        <l n="132"> Je te vois cher pays au bord de ta ruine,</l>
+                        <l n="133"> Et pouvant arrêter la colère divine,</l>
+                        <l n="134"> Alors que je te vois sur le point de périr</l>
+                        <l n="135"> Je porte ton remède et ne puis te guérir.</l>
+                        <l n="136"> Ô Dieu qui m’a commis ta volonté suprême,</l>
+                        <l n="137"> M’abandonneras-tu dans ce besoin extrême ?</l>
+                        <l n="138"> Non, non, je sens ton aide, elle vient à propos.</l>
+                        <l n="139"> Au camp des ennemis il s’engage à ces mots,</l>
+                        <l n="140"> Et trouvant un quartier sans beaucoup de défense,</l>
+                        <l n="141"> Où le rapide Haly des montagnes s’élance,</l>
+                        <l n="142"> Il surprend l’ennemi, l’enfonce, se fait jour,</l>
+                        <l n="143"> Le seul fleuve pour lors s’oppose à son retour,</l>
+                        <l n="144"> Mais l’extrême danger redoublant son courage,</l>
+                        <l n="145"> Il pousse son cheval qui le passe à la nage :</l>
+                        <l n="146"> L’ennemi qui le suit confus, épouvanté,</l>
+                        <l n="147"> Sur un pont de bateaux gagne l’autre côté,</l>
+                        <l n="148"> Se range sur les bords, couvre tout le rivage,</l>
+                        <l n="149"> Et lui prépare au port un assuré naufrage.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="150"> Dans cette extrémité que fera-t-il grands Dieux ?</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="151"> La mort de toutes parts se présente à ses yeux,</l>
+                        <l n="152"> Dans les eaux, sur la terre, il la voit infaillible :</l>
+                        <l n="153"> Mais à tous ces périls son esprit insensible</l>
+                        <l n="154"> De l’amour du pays occupé pleinement,</l>
+                        <l n="155"> S’il craint en cet état c’est pour nous seulement.</l>
+                        <l n="156"> Cependant le vieux fleuve ennuyé de sa chaîne,</l>
+                        <l n="157"> Connaissant son vainqueur et celui de Messène,</l>
+                        <l n="158"> Va rendre sur les bords ce précieux fardeau.</l>
+                        <l n="159"> L’ennemi qui craignait de le perdre dans l’eau</l>
+                        <l n="160"> Lui fait place, il paraît sur sa natale terre,</l>
+                        <l n="161"> Il s’avance, et sentant que l’ennemi l’enserre</l>
+                        <l n="162"> Il voit sans se troubler par ce second effort</l>
+                        <l n="163"> Dresser superbement l’appareil de sa mort.</l>
+                        <l n="164"> Il les prévient, il part, et plus vite qu’un foudre</l>
+                        <l n="165"> D’abord aux plus ardents il fait mordre la poudre,</l>
+                        <l n="166"> Les renverse à ses pieds l’un sur l’autre entassés,</l>
+                        <l n="167"> Et se fait un rempart de morts ou de blessés,</l>
+                        <l n="168"> Les coups marquent du Dieu l’infaillible présence.</l>
+                        <l n="169"> Mais malgré sa valeur, malgré sa résistance,</l>
+                        <l n="170"> Contre tant d’ennemis ne pouvant se sauver</l>
+                        <l n="171"> Blessé, mourant il tombe, et l’on court l’achever.</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="172"> Ah ! Tisis que ta mort nous va coûter de larmes.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="173"> Justes Dieux !</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="174"> Il allait expirer sous leurs armes,</l>
+                        <l n="175"> Quand du milieu des airs une terrible voix</l>
+                        <l n="176"> Leur fait ouïr ces mots par trois diverses fois.</l>
+                        <l n="177"> Sacrilèges, sauvez le porteur de l’Oracle.</l>
+                        <l n="178"> Ces Tigres furieux frappés de ce miracle,</l>
+                        <l n="179"> Voyant combien le Ciel prenait soin de ses jours</l>
+                        <l n="180"> Oubliant leur fureur, s’offrent à son secours.</l>
+                        <l n="181"> Ils voulaient l’emporter dans leur tente prochaine :</l>
+                        <l n="182"> Mais Tisis dans l’ardeur de secourir Messène,</l>
+                        <l n="183"> Se servant du pouvoir que lui donnaient les Dieux,</l>
+                        <l n="184"> Commande qu’aussitôt on le porte en ces lieux.</l>
+                        <l n="185"> On obéit, il vient environné de gloire,</l>
+                        <l n="186"> Ses ennemis confus annoncent sa victoire</l>
+                        <l n="187"> Par de profonds soupirs et de tristes regards,</l>
+                        <l n="188"> Et portent leur vainqueur au pied de nos remparts,</l>
+                        <l n="189"> Et c’est là que j’ai su ce succès admirable.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="190"> Grands Dieux ! Après un sort à ce point favorable</l>
+                        <l n="191"> J’ose tout espérer.</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="192"> Grâces aux immortels ;</l>
+                        <l n="193"> Que de mille présents on charge leurs Autels.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="194"> Allons par mille jeux célébrer la journée</l>
+                        <l n="195"> Qui des Messéniens change la destinée.           </l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="196"> Ah ! Si pour l’honorer par un dernier bonheur,</l>
+                        <l n="197"> Connaissant de quel feu je brûle pour ta sœur,</l>
+                        <l n="198"> Tu voulais achever cet heureux hyménée</l>
+                        <l n="199"> Pour qui semblent les Dieux marquer cette journée,</l>
+                        <l n="200"> Que je serais heureux si dans un même jour</l>
+                        <l n="201"> Je faisais triompher Messène et mon amour.</l>
+                        <l n="202"> Car pour rendre aujourd’hui ma victoire achevée,</l>
+                        <l n="203"> Si je voyais ta sœur sur mon trône élevée</l>
+                        <l n="204"> J’irais pour l’affermir par mille exploits divers,</l>
+                        <l n="205"> Vaincre nos ennemis, subjuguer l’Univers,</l>
+                        <l n="206"> Et pour faire partout régner ma souveraine</l>
+                        <l n="207"> Joindre toute la terre aux États de Messène.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="208"> L’honneur que vous offrez est pour nous trop charmant</l>
+                        <l n="209"> Pour le vouloir, Seigneur, différer d’un moment.</l>
+                        <l n="210"> Et puisqu’un meilleur sort aujourd’hui nous envoie,</l>
+                        <l n="211"> En nous rendant Tisis, tant de sujets de joie,</l>
+                        <l n="212"> Célébrons un hymen si longtemps désiré,</l>
+                        <l n="213"> Qu’un malheur sans relâche a toujours différé.</l>
+                        <l n="214"> Seigneur par son aveu que le mien autorise,</l>
+                        <l n="215"> Si vous le souhaitez, ma sœur vous est acquise.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="216"> Que te pourrai-je rendre après un tel bienfait ?</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="217"> Hélas ! Si mon mérite égalait mon souhait,</l>
+                        <l n="218"> Si ce Prince touché des peines que j’endure</l>
+                        <l n="219"> Voulait.</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="220"> Alcidamas vous me faites injure.</l>
+                        <l n="221"> Quoi ? Ne savez-vous pas que ma fille est à vous ?</l>
+                        <l n="222"> Oui, puisque le destin se déclare pour nous :</l>
+                        <l n="223"> Ce jour si vous voulez verra votre hyménée.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="224"> Que je baise ses mains.</l>
+                </sp>
+        <sp who="#épébole">
+            <speaker> ÉPÉBOLE s’en va. </speaker>
+                        <l n="225"> Ô cruelle journée !</l>
+                        <l n="226"> Je l’aime et pleure.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="227"> Tisis devant nos Dieux</l>
+                        <l n="228"> Vient exposer l’oracle et mourir à leurs yeux.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="229"> Ah ! Tisis.</l>
+                </sp>
+        <sp who="#tisis">
+            <speaker> TISIS. </speaker>
+                        <l n="230"> Grâce au Dieu qui m’a sauvé la vie,</l>
+                        <l n="231"> Je revois mes amis, mon Prince, et ma patrie.</l>
+                        <l n="232"> Trop heureux puisqu’encor au dernier de mes jours</l>
+                        <l n="233"> Je leur rends en mourant un utile secours.</l>
+                        <l n="234"> Que te rendrai-je, ô Dieu ! pour un bienfait si rare ?</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="235"> Hélas !</l>
+                </sp>
+        <sp who="#tisis">
+            <speaker> TISIS. </speaker>
+                        <l n="236"> Qu’à l’adorer un chacun se prépare.</l>
+                        <l n="237"> Peuple Messénien, vous Princes, vous mon Roi,</l>
+                        <l n="238"> Oyez, oyez le Dieu qui vous parle par moi.</l>
+                </sp>
+        <sp who="#oracle">
+            <speaker> ORACLE. </speaker>
+                        <l n="239"> Que l’on jette le sort sur les Vierges d’Égypte,</l>
+                        <l n="240"> Que l’une de ce sang immolée au Cocyte,</l>
+                        <l n="241"> Aux lieux d’où le Haly précipite ses eaux,</l>
+                        <l n="242"> Pour apaiser Androcle, et ses mânes funèbres,</l>
+                        <l n="243"> Sans regret et dans les ténèbres</l>
+                        <l n="244"> Tombe sous les sacrés couteaux.</l>
+                        <l n="245"> Voilà ce que les Dieux m’ordonnaient de vous dire,</l>
+                        <l n="246"> Faites leur volonté, qu’on m’emporte, j’expire.</l>
+                        <l n="247"> Adieu Roi, Peuple, Amis que je ne verrai plus,</l>
+                        <l n="248"> Usez bien de l’Oracle, ou vous êtes perdus.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#le-roi">
+            <speaker> LE ROI lit l’Oracle. </speaker>
+                        <l n="249"> Que nous demandez-vous ? Grands Dieux !</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="250"> Aristodème,</l>
+                        <l n="251"> Qu’est-ce ci ?</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="252"> Justes Dieux sauvez-moi du blasphème !</l>
+                        <l n="253"> Ah ! Seigneur.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="254"> C’est à vous que l’Oracle a parlé,</l>
+                        <l n="255"> Prince c’est votre sang qui doit être immolé.</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="256"> Les Dieux veulent mon sang, je veux leur satisfaire,</l>
+                        <l n="257"> Pour celui de la fille offrir celui du père ;</l>
+                        <l n="258"> Je vous l’offre, grands Dieux, acceptez mon trépas,</l>
+                        <l n="259"> Mais je vois bien, cruels vous ne le voulez pas.</l>
+                        <l n="260"> Et vous me demandez pour sauver ma patrie</l>
+                        <l n="261"> Un sang qui m’est plus cher, donc je te perds Argie.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="262"> Le Ciel peut la sauver.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="263"> Quoi cher Prince ?</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="264"> Seigneur,</l>
+                        <l n="265"> Ma sœur doit aspirer à ce fatal bonheur.          </l>
+                        <l n="266"> Elle est du sang d’Épyte.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="267"> Ah ! Frère trop barbare.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="268"> Mais trop sensible amant.</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="269"> Le mal qu’on nous prépare</l>
+                        <l n="270"> Menace également et ma fille et ta sœur ;</l>
+                        <l n="271"> Le sort doit disposer d’un si funeste honneur.</l>
+                        <l n="272"> Étant seules du sang propre à ce sacrifice,</l>
+                        <l n="273"> Il faudra que pour nous l’une ou l’autre périsse.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="274"> Ah ! Que notre salut nous sera cher vendu.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="275"> Est-ce là ce secours si longtemps attendu ?</l>
+                        <l n="276"> Dieux cruels, Dieux sanglants, et vous mânes funèbres</l>
+                        <l n="277"> Qui pour nous tourmenter sortez de vos ténèbres ;</l>
+                        <l n="278"> Androcle objet rempli de menace et d’effroi.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="279"> Que ne demandiez-vous qu’on vous offrît un Roi ?</l>
+                        <l n="280"> Après un tel Arrêt qui serait légitime,</l>
+                        <l n="281"> J’eusse été sans tarder le Prêtre et la victime.</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="282"> L’un et l’autre ressent une pareille ardeur.</l>
+                        <l n="283"> Je réponds pour ma fille, il répond pour sa sœur.</l>
+                        <l n="284"> Puisqu’il faut par leur sang sauver la Messénie,</l>
+                        <l n="285"> Que l’on les jette au sort.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="286"> Dieux ! Quelle tyrannie ?</l>
+                        <l n="287"> Que ne nous montrez-vous quel est notre désir :</l>
+                        <l n="288"> Sans remettre au hasard le pouvoir de choisir.</l>
+                        <l n="289"> Faudra-t-il que le sort.</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="290"> N’importe, qu’il choisisse.</l>
+                        <l n="291"> Allons, allons pourvoir à ce grand Sacrifice.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS, parlant au Roi. </speaker>
+                        <l n="292"> Vous y résolvez-vous ?</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="293"> Ah ! Cher Prince.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="294"> Ah ! Seigneur.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="295"> Tu perds Alcidamas ta maîtresse ou ta sœur.</l>
+                        <l n="296"> Sauvez Mérope, ô Dieux !</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="297"> Pour sauver sa patrie</l>
+                        <l n="298"> Si l’une doit périr, grands Dieux sauvez Argie.</l></div></div>
+           <div type="act" xml:id="2">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="299"> Argie, à qui le Ciel m’unit si fortement,</l>
+                        <l n="300"> Enfin nous approchons de ce fatal moment,</l>
+                        <l n="301"> Où pour calmer des Dieux la colère obstinée</l>
+                        <l n="302"> L’une ou l’autre doit voir sa course terminée,</l>
+                        <l n="303"> Et recevoir au gré des caprices du sort</l>
+                        <l n="304"> L’irrévocable arrêt ou de vie ou de mort.</l>
+                        <l n="305"> C’est nous seules, c’est nous que l’Oracle demande,</l>
+                        <l n="306"> Une Vierge Épityde en doit être l’offrande.</l>
+                        <l n="307"> Si seules nous restons du sang Épytien</l>
+                        <l n="308"> On ne lui peut offrir que ton sang ou le mien.</l>
+                        <l n="309"> Que si l’une des deux y doit perdre la vie,</l>
+                        <l n="310"> Quelle sera-ce enfin de Mérope ou d’Argie ?</l>
+                        <l n="311"> Dans la nécessité de cette triste loi</l>
+                        <l n="312"> Ah ! Je crains tout pour elle, et ne crains rien pour moi.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="313"> Épargne ma faiblesse, et tâche de suspendre</l>
+                        <l n="314"> Le noble sentiment d’une amitié si tendre.</l>
+                        <l n="315"> Ici tes sentiments vont affaiblir les miens,</l>
+                        <l n="316"> Plus tu crains pour mes jours plus je crains pour les tiens.</l>
+                        <l n="317"> Quoi ? Si c’est un honneur que le Ciel me destine,</l>
+                        <l n="318"> Si ma mort, du pays divertit la ruine,</l>
+                        <l n="319"> Voyant couler mon sang pour un sujet si beau</l>
+                        <l n="320"> Voudrais-tu de tes pleurs arroser mon tombeau ?</l>
+                        <l n="321"> Pour moi je te le dis, malgré cette tendresse</l>
+                        <l n="322"> Qui fait que pour tes jours mon âme s’intéresse,</l>
+                        <l n="323"> Si le Ciel veut ton sang, et néglige le mien,</l>
+                        <l n="324"> Je pleurerai mon sort, loin de pleurer le tien.</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="325"> Tu voudrais en mourant me conserver la vie,</l>
+                        <l n="326"> Et tu ne peux souffrir que je te porte envie,</l>
+                        <l n="327"> Ah ! C’est faire à ma gloire une trop dure loi</l>
+                        <l n="328"> De vouloir que j’en sois moins jalouse que toi.</l>
+                        <l n="329"> Laisse-moi cet honneur, et permets que j’espère</l>
+                        <l n="330"> De sauver par ma perte et ma sœur et mon frère,</l>
+                        <l n="331"> Amour l’unit à toi par de si forts liens</l>
+                        <l n="332"> Que le cours de ses jours se règle sur les tiens.</l>
+                        <l n="333"> Et s’il faut aujourd’hui que tu perdes la vie</l>
+                        <l n="334"> La mort d’Alcidamas suivra celle d’Argie.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="335"> Je ne connais que trop l’amour d’Alcidamas,</l>
+                        <l n="336"> Mais s’il plaignait ma perte, il ne m’aimerait pas ;</l>
+                        <l n="337"> Et sa lâche pitié mériterait ma haine</l>
+                        <l n="338"> S’il ne pouvait la vaincre en faveur de Messène :</l>
+                        <l n="339"> Et si par son trépas il osait lui ravir</l>
+                        <l n="340"> Un bras qui l’a servie et qui peut la servir.</l>
+                        <l n="341"> Si j’en suis la victime, il doit voir avec joie</l>
+                        <l n="342"> Cet éclatant honneur que le Ciel nous envoie ;</l>
+                        <l n="343"> Et loin de l’effacer par de lâches soupirs</l>
+                        <l n="344"> Joindre pour l’obtenir ses vœux à mes désirs.</l>
+                        <l n="345"> Que s’il voit que mon sang ne lui soit pas utile</l>
+                        <l n="346"> Qu’il baigne alors du sien les cendres de la ville ;</l>
+                        <l n="347"> Pour me faire un spectacle aussi charmant que beau</l>
+                        <l n="348"> Que dessous sa ruine il s’érige un tombeau.</l>
+                        <l n="349"> Que sa propre défaite égale une victoire,</l>
+                        <l n="350"> Et que même en tombant il se couvre de gloire.</l>
+                        <l n="351"> C’est de ce noble orgueil qu’il se doit enflammer,</l>
+                        <l n="352"> Et s’il veut que je l’aime, et s’il ose m’aimer.</l>
+                        <l n="353"> Je l’aime cependant, et mon humeur sévère</l>
+                        <l n="354"> En faveur de la sœur a fléchi pour le frère.</l>
+                        <l n="355"> J’avais peine à souffrir son courage bouillant,</l>
+                        <l n="356"> Volage, impérieux, inquiet, turbulent.</l>
+                        <l n="357"> Et si pour son amour j’eus de la complaisance,</l>
+                        <l n="358"> C’est lors que sa vertu régla sa violence.</l>
+                        <l n="359"> Mais je le haïrais s’il fallait qu’aujourd’hui</l>
+                        <l n="360"> Nous rougissions du feu que j’ai conçu pour lui.</l>
+                        <l n="361"> Pour le rendre durable autant que légitime</l>
+                        <l n="362"> Il faut que son courage égale mon estime.</l>
+                        <l n="363"> Si tu vois chère sœur, si tu vois que le Roi</l>
+                        <l n="364"> N’ait pas sur ce sujet mêmes pensers pour toi,</l>
+                        <l n="365"> Imite mon exemple, et pour vivre sans blâme</l>
+                        <l n="366"> Dépouille cette amour qui règne dans ton âme,</l>
+                        <l n="367"> Et si pour sa vertu tu daignas l’y placer,          </l>
+                        <l n="368"> En la voyant périr tâche de l’en chasser...</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="369"> Hélas !</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="370"> Qu’est-ce ma sœur ?</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="371"> Je l’aime, et j’en soupire,</l>
+                        <l n="372"> Il règne dans mon cœur comme dans cet Empire,</l>
+                        <l n="373"> Et malgré mes efforts ce Monarque absolu</l>
+                        <l n="374"> A pris plus de pouvoir que je n’aurais voulu.</l>
+                        <l n="375"> Quoique ce cœur soit plein de cette illustre envie</l>
+                        <l n="376"> Qui fait qu’avec plaisir je renonce à la vie ;</l>
+                        <l n="377"> Je vois ce beau désir mêlé de quelque ennui,</l>
+                        <l n="378"> Et crains également pour mon frère et pour lui.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="379"> Quoi ? Ma sœur, est-ce ainsi qu’on renonce à la gloire ?</l>
+                        <l n="380"> Quoi ? Veux-tu sans combat me céder la victoire ?</l>
+                        <l n="381"> Ta générosité si tôt s’évanouit ?</l>
+                        <l n="382"> Et loin de t’éclairer ton amour t’éblouit ?</l>
+                        <l n="383"> S’il te souvient ma sœur du dessein de l’Oracle,</l>
+                        <l n="384"> Ta douleur à ta gloire est un puissant obstacle,          </l>
+                        <l n="385"> Il veut que la victime approche de l’Autel,</l>
+                        <l n="386"> Et voie avec plaisir tomber le coup mortel.</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="387"> Je le vois bien, ma sœur, tu seras la victime,</l>
+                        <l n="388"> Les Dieux ne sauraient faire un choix plus légitime,</l>
+                        <l n="389"> Je ne mérite pas une si belle mort,</l>
+                        <l n="390"> Et ce n’est que sur toi que tombera le sort.</l>
+                        <l n="391"> Déjà le Temple s’ouvre, et cet Arrêt sévère</l>
+                        <l n="392"> Éclate évidemment sur le front de ton père.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="393"> Mon père, qui mourra de Mérope ou de moi ?</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="394"> Hélas !</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="395"> Vous soupirez.</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="396"> Ô rigoureuse loi !</l>
+                        <l n="397"> Si j’ose interpréter ses soupirs et sa plainte,</l>
+                        <l n="398"> J’y vois le triste effet de ma trop juste crainte,</l>
+                        <l n="399"> Je te perds, chère sœur, comme je l’ai prédit.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="400"> Mon père, est-ce ma mort qui vous rend interdit ?</l>
+                        <l n="401"> Pouvez-vous, devenu jaloux de ma victoire,</l>
+                        <l n="402"> Par une injuste plainte en effacer la gloire ?</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="403"> Nos maux ne seront point par ton sang effacés.</l>
+                        <l n="404"> Non, ma fille, le Ciel ne t’aime pas assez.</l>
+                        <l n="405"> Mérope c’est pour vous que le sort se déclare,</l>
+                        <l n="406"> C’est à vous qu’il réserve une faveur si rare.</l>
+                        <l n="407"> Mais bien que votre sort me semble noble et doux</l>
+                        <l n="408"> Je ne puis m’empêcher de soupirer pour vous,</l>
+                        <l n="409"> Voyant que le malheur dont elle est poursuivie</l>
+                        <l n="410"> Doit coûter à Messène une si belle vie.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="411"> Ô Ciel ! Qu’ai-je entendu ? Cet Arrêt me surprend,</l>
+                        <l n="412"> Et bien que préparée à ce malheur si grand</l>
+                        <l n="413"> Je n’en puis sans frémir entendre la nouvelle.</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="414"> Hé quoi ? Votre vertu vous abandonne-t-elle ?</l>
+                        <l n="415"> Suivre des sentiments quand vous les condamnez,</l>
+                        <l n="416"> C’est bien mal pratiquer ce que vous enseignez :</l>
+                        <l n="417"> Rendez-vous à vous-même, et que votre courage</l>
+                        <l n="418"> S’oppose fortement à ce dernier orage.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="419"> Je n’ai pu de mes sens vaincre la trahison,</l>
+                        <l n="420"> L’amour verse ces pleurs, et non pas la raison,</l>
+                        <l n="421"> Au lieu de m’en blâmer, il faut que l’on m’en loue.</l>
+                        <l n="422"> Si mon œil les reprend mon cœur les désavoue ;</l>
+                        <l n="423"> Et malgré moi je donne en cette extrémité</l>
+                        <l n="424"> Des marques de tendresse, et non de lâcheté.</l>
+                        <l n="425"> Non je ne change point, et mon âme est ravie,</l>
+                        <l n="426"> Qu’un si beau trépas suive une si belle vie ;</l>
+                        <l n="427"> Donc puisqu’il plaît aux Dieux va généreuse sœur</l>
+                        <l n="428"> Recevoir un laurier d’immortelle splendeur,</l>
+                        <l n="429"> Avec moins de regret je perds cette Couronne,</l>
+                        <l n="430"> Puisque le Ciel me l’ôte afin qu’il te la donne.</l>
+                        <l n="431"> Va pendant que ta sœur d’un esprit plus remis          </l>
+                        <l n="432"> Partagera ta gloire autant qu’il est permis :</l>
+                        <l n="433"> Si ta perte nous sauve, ainsi que j’ose croire,</l>
+                        <l n="434"> On me verra jouir du fruit de ta victoire ;</l>
+                        <l n="435"> Non je ne mourrai point, mais si mon cher pays</l>
+                        <l n="436"> Voit son plus doux espoir et nos désirs trahis</l>
+                        <l n="437"> Alors sans plus tarder j’irai joindre ton ombre,</l>
+                        <l n="438"> Et poussant des sanglots et des soupirs sans nombre,</l>
+                        <l n="439"> Nous n’aurons désormais de plus doux entretien</l>
+                        <l n="440"> Que celui du débris du nom Messénien.</l>
+                        <l n="441"> Non, Sparte n’aura pas le cruel avantage</l>
+                        <l n="442"> De me voir soupirer sous un triste esclavage,</l>
+                        <l n="443"> Si les Messéniens secondent mes desseins</l>
+                        <l n="444"> Ils ne succomberont que par leurs propres mains.</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="445"> De grâce espérons mieux de la bonté céleste ;</l>
+                        <l n="446"> Mon trépas n’aura point de suite si funeste,</l>
+                        <l n="447"> Si mon sang n’éteignait la colère des Dieux</l>
+                        <l n="448"> D’adorables qu’ils sont ils seraient odieux.</l>
+                        <l n="449"> C’est crime d’en douter, ils tiendront leur parole.</l>
+                        <l n="450"> Mais dans ce doux espoir tout ce qui me console</l>
+                        <l n="451"> C’est de voir que l’amour, dont tu brûles pour moi,</l>
+                        <l n="452"> Souffre qu’après ma mort, je vive encore en toi.</l>
+                        <l n="453"> Pour mourir pleinement glorieuse et contente</l>
+                        <l n="454"> Il ne me restait plus que cette douce attente.</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="455"> Mérope, en me voyant de douleur transporté</l>
+                        <l n="456"> Cachez mieux cet excès de générosité.</l>
+                        <l n="457"> Votre illustre vertu redouble ici ma peine,</l>
+                        <l n="458"> Elle me fait trop voir ce que perdra Messène,</l>
+                        <l n="459"> Et jusques à quel point va le courroux des Cieux.</l>
+                        <l n="460"> Puisqu’il faut l’apaiser d’un sang si précieux.</l>
+                        <l n="461"> Dieux ! Si je puis choquer vos décrets sans blasphème</l>
+                        <l n="462"> Vous deviez demander celui d’Aristodème.</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="463"> Quoi, Seigneur, mon bonheur vous fait aussi souffrir</l>
+                        <l n="464"> Quand la faveur du Ciel me destine à mourir,</l>
+                        <l n="465"> Jaloux d’un si beau sort vous me portez envie.</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="466"> Que ne puis-je en mourant vous conserver la vie ?</l>
+                        <l n="467"> Messène en mon trépas ne peut perdre que moi.</l>
+                        <l n="468"> Mais las ! En vous perdant elle perdra son Roi.</l>
+                        <l n="469"> Votre frère ni lui dedans cette occurrence</l>
+                        <l n="470"> N’ont pu près des Autels seconder ma constance.</l>
+                        <l n="471"> L’esprit de tous les deux tout noble et grand qu’il est           </l>
+                        <l n="472"> N’a pas osé du son voir prononcer l’Arrêt.</l>
+                        <l n="473"> Pour s’en instruire enfin l’un et l’autre s’avance,</l>
+                        <l n="474"> Je vous laisse ce soin, j’évite leur présence.</l>
+                        <l n="475"> Et je cours cependant d’un pas précipité</l>
+                        <l n="476"> Remettre les esprits d’un peuple épouvanté.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="477"> Aristodème fuit et se cache à ma vue,</l>
+                        <l n="478"> Je conçois de sa fuite un soupçon qui me tue.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="479"> Qu’en croirai-je moi-même ? Et qu’en dois-je juger ?</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="480"> Hélas ! De tous côtés j’ai de quoi m’affliger,</l>
+                        <l n="481"> Ou je perds une sœur, ou je perds une amante,          </l>
+                        <l n="482"> Tout désir m’est fatal, tout succès m’épouvante :</l>
+                        <l n="483"> Cruelle destinée !</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="484"> Ah ! ma sœur.</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="485"> Ah ! ma sœur.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="486"> Leurs visages sont peints d’une égale douleur,</l>
+                        <l n="487"> Et dans le triste excès du mal qui les opprime</l>
+                        <l n="488"> Je ne puis discerner qui sera la victime.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="489"> Hélas !</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="490"> Doncques le Ciel vous condamne à mourir ?</l>
+                        <l n="491"> Est-ce le seul moyen qui nous peut secourir ?</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="492"> De grâce expliquez mieux mes soupirs et mes larmes,</l>
+                        <l n="493"> Dans un si beau trépas je trouverais des charmes.</l>
+                        <l n="494"> Il serait plein pour moi de gloire et de douceur,</l>
+                        <l n="495"> Mais tout me semble horrible en celui de ma sœur,</l>
+                        <l n="496"> C’est par l’arrêt du sort qu’elle nous est ravie,</l>
+                        <l n="497"> Et le cruel qu’il est me condamne à la vie.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="498"> Est-ce à ce rude coup que tu m’as condamné</l>
+                        <l n="499"> Grand Dieu ? Tombe plutôt ce trône infortuné.          </l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="500"> Que dites-vous, Seigneur ?</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="501"> Ah ! Ma sœur, ah ! Princesse.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="502"> Épargne, Alcidamas, la douleur qui me presse.</l>
+                        <l n="503"> Si tu m’aimes encor, si tu plains mon malheur</l>
+                        <l n="504"> Viens seconder mes soins pour conserver ta sœur.</l>
+                        <l n="505"> Adieu, Mérope, adieu je sens que mon courage</l>
+                        <l n="506"> Cède insensiblement à ce dernier orage ;</l>
+                        <l n="507"> Et malgré mon effort de douleur abattu</l>
+                        <l n="508"> Voit avec déplaisir chanceler ma vertu.</l>
+                        <l n="509"> Va, suis l’ordre des Dieux, que rien ne te retienne,</l>
+                        <l n="510"> Laisse-moi ma vertu je te laisse la tienne.</l>
+                        <l n="511"> MÉROPE.</l>
+                        <l n="512"> Quoi ? Si tôt me quitter ? Arrête encor.</l>
+                        <l n="513"> ARGIE.</l>
+                        <l n="514"> Hélas !</l>
+                        <l n="515"> MÉROPE.</l>
+                        <l n="516"> Aime-moi chère sœur, même après le trépas.</l>
+                        <l n="517"> Adieu.</l>
+                        <l n="518"> ARGIE.</l>
+                        <l n="519"> Prince sur moi dans un coup si funeste,</l>
+                        <l n="520"> Tu tiens entre tes mains tout l’espoir qui me reste.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="521"> Vous voulez donc mourir.</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="522"> Grand Prince, Qu’est-ce ci ?</l>
+                        <l n="523"> Loin de me consoler vous m’affligez aussi ?</l>
+                        <l n="524"> Quand le Ciel à nos vœux devenu plus propice</l>
+                        <l n="525"> Nous retire du bord d’un affreux précipice :</l>
+                        <l n="526"> Est-ce d’un œil si triste et si peu satisfait</l>
+                        <l n="527"> Que l’on doit recevoir un si rare bienfait ?</l>
+                        <l n="528"> Ah ! Reconnaissez mieux cette faveur insigne,</l>
+                        <l n="529"> En paraître affligé serait s’en rendre indigne ;</l>
+                        <l n="530"> Que si l’amour produit un si bas sentiment</l>
+                        <l n="531"> Pour être meilleur Roi ne soyez plus amant.</l>
+                        <l n="532"> Ou bien songez pour vaincre un si dangereux zèle</l>
+                        <l n="533"> Que je ne puis tomber d’une chute plus belle.</l>
+                        <l n="534"> Ni subir un trépas plus noble ni plus doux,</l>
+                        <l n="535"> Puisqu’il doit conserver et votre État et vous.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="536"> Ah ! Périsse plutôt mon État et moi-même,</l>
+                        <l n="537"> J’abandonne pour vous et sceptre et diadème :</l>
+                        <l n="538"> C’est un pesant fardeau que je n’ai dû porter</l>
+                        <l n="539"> Qu’autant qu’il m’a servi pour vous mieux mériter.</l>
+                        <l n="540"> Par ce fidèle aveu jugez s’il est possible</l>
+                        <l n="541"> Que je montre à ce coup un courage insensible ;</l>
+                        <l n="542"> Quand votre mort assure et ma vie et mon rang,</l>
+                        <l n="543"> Moi je refuserais des pleurs à ce beau sang ?</l>
+                        <l n="544"> Plus vous me témoignez une ardeur si fidèle,</l>
+                        <l n="545"> Plus je me montrerais indigne de ce zèle,</l>
+                        <l n="546"> Plus vous le signalez en ces illustres soins ;</l>
+                        <l n="547"> Enfin plus vous m’aimez, je vous aimerais moins.</l>
+                        <l n="548"> Il faut que mon amour comme le vôtre éclate,</l>
+                        <l n="549"> Si le Ciel veut qu’ici je montre une âme ingrate,</l>
+                        <l n="550"> S’il ose condamner des sentiments si beaux</l>
+                        <l n="551"> Qu’il garde son remède et nous laisse nos maux.</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="552"> Craignez que sa bonté ne se change en colère,</l>
+                        <l n="553"> Ce transport violent ne peut que lui déplaire,</l>
+                        <l n="554"> Si vous osez, Seigneur, résister à sa loi</l>
+                        <l n="555"> Vous allez perdre et vous et votre peuple et moi.</l>
+                        <l n="556"> Au lieu qu’en subissant cette loi souveraine</l>
+                        <l n="557"> Je puis vous conserver, aussi bien que Messène.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="558"> Il ne saurait plus loin étendre son courroux,</l>
+                        <l n="559"> Qu’importe qu’aujourd’hui tout périsse avec vous,</l>
+                        <l n="560"> Vous me tenez lieu seule et de peuple et d’Empire,</l>
+                        <l n="561"> Si je vous perds mon sort ne saurait être pire.</l>
+                        <l n="562"> Ce n’est pas que je veuille empêcher son arrêt,</l>
+                        <l n="563"> Je le respecte encor à cause qu’il vous plaît.</l>
+                        <l n="564"> Suivez votre destin, je vous laisse à vous-même,</l>
+                        <l n="565"> Voyez, belle Princesse, à quel point je vous aime ;</l>
+                        <l n="566"> Je veux vous imitant devenir généreux,</l>
+                        <l n="567"> Il veut une victime, et j’en veux offrir deux.</l>
+                        <l n="568"> Me voici résolu de ne pas vous survivre,</l>
+                        <l n="569"> Au moins ne m’a-t-il pas défendu de vous suivre,</l>
+                        <l n="570"> Et si je m’en souviens son arrêt rigoureux</l>
+                        <l n="571"> Ne m’ôte pas l’espoir qui reste aux malheureux.</l>
+                        <l n="572"> Choisissant votre sang mon trépas lui doit plaire,</l>
+                        <l n="573"> L’amour qui nous unit l’a rendu nécessaire,</l>
+                        <l n="574"> Et le Ciel qui vous perd par la bouche du sort,</l>
+                        <l n="575"> Avec le même Arrêt me condamne à la mort.</l>
+                        <l n="576"> Il faut pour me sauver qu’il en choisisse un autre.</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="577"> Donc le fruit de ma mort va périr par la vôtre ?</l>
+                        <l n="578"> Mon sort en vous quittant me semblait assez doux</l>
+                        <l n="579"> Quand j’osais espérer que je mourrais pour vous,</l>
+                        <l n="580"> Mais par vos cruautés ma mort perd tous ses charmes.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="581"> Vous en devriez trouver dans la fin de mes larmes,</l>
+                        <l n="582"> Et sachant que la mort en doit borner le cours</l>
+                        <l n="583"> Ne vous pas obstiner à prolonger mes jours,</l>
+                        <l n="584"> Est-ce m’aimer ?</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="585"> Voyez où l’amour m’a réduite.</l>
+                        <l n="586"> J’abhorre mon trépas quand j’en prévois la suite.</l>
+                        <l n="587"> Trop sensible pour vous, insensible pour moi,</l>
+                        <l n="588"> Je vois le mien sans peur, le vôtre avec effroi.</l>
+                        <l n="589"> Qu’ai-je dit ? Je le dois avouer à ma honte,</l>
+                        <l n="590"> Messène est la plus faible, et mon feu la surmonte,</l>
+                        <l n="591"> Voyant que mon trépas vous va faire périr,</l>
+                        <l n="592"> Oubliant mon pays j’ai regret de mourir.</l>
+                        <l n="593"> Êtes-vous satisfait de cet aveu si lâche ?           </l>
+                        <l n="594"> Je souffre pour vous seul cette honteuse tache,</l>
+                        <l n="595"> Pour vous seul je me rends par ce zèle obstiné</l>
+                        <l n="596"> Indigne de l’honneur qui m’était destiné.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="597"> Que cet aveu charmant serait digne d’estime</l>
+                        <l n="598"> S’il obligeait les Dieux à changer de victime,</l>
+                        <l n="599"> Et si pour ce beau sang qu’ils exigent de nous</l>
+                        <l n="600"> Ou le mien ou tout autre apaisait leur courroux.</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="601"> Votre amour vous aveugle, et sait mal se défendre,</l>
+                        <l n="602"> D’une indigne pitié qui tâche à vous surprendre,</l>
+                        <l n="603"> Si ce cœur amoureux a bien pu surmonter</l>
+                        <l n="604"> L’extrême déplaisir que j’ai de vous quitter.</l>
+                        <l n="605"> Quand de lâches pensers vous défendent de vivre</l>
+                        <l n="606"> Résistez au transport qui vous force à me suivre.</l>
+                        <l n="607"> J’acquerrai de la gloire en cherchant le trépas.</l>
+                        <l n="608"> Mais la vôtre redouble en ne me suivant pas.</l>
+                        <l n="609"> Adieu.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="610"> Vous me quittez.</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="611"> Prince il faut s’y résoudre.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="612"> Elle part, je la perds, ô dernier coup de foudre</l>
+                        <l n="613"> Je ne puis résister à ton cruel effort,</l>
+                        <l n="614"> Et je tombe déjà par la peur de sa mort.</l>
+                        <l n="615"> Douleurs, justes douleurs accablez mon courage,</l>
+                        <l n="616"> Et par un trait mortel achevez votre ouvrage.</l></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="617"> Quoi ? Mérope est sauvée ! Elle ne mourra pas ?</l>
+                        <l n="618"> Que dans ce changement je rencontre d’appas ?</l>
+                </sp>
+        <sp who="#alcmène">
+            <speaker> ALCMÈNE. </speaker>
+                        <l n="619"> Ignoriez-vous encor cet important mystère ?</l>
+                        <l n="620"> Tout le monde l’a su.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="621"> Quoi ?      </l>
+                </sp>
+        <sp who="#alcmène">
+            <speaker> ALCMÈNE. </speaker>
+                        <l n="622"> Qu’Ismire est sa mère.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="623"> Quoi ? La Prêtresse Ismire ?</l>
+                </sp>
+        <sp who="#alcmène">
+            <speaker> ALCMÈNE. </speaker>
+                        <l n="624"> On a longtemps couvert</l>
+                        <l n="625"> Aux yeux de tout le monde un crime qui la perd.</l>
+                        <l n="626"> Sachez donc un secret caché par son silence.</l>
+                        <l n="627"> Ismire ne pouvant sauver son innocence,</l>
+                        <l n="628"> D’un hymen contracté contre un vœu solennel,</l>
+                        <l n="629"> Et n’osant publier cet acte criminel,</l>
+                        <l n="630"> Pour sauver d’un affront Ismire et sa famille,</l>
+                        <l n="631"> Lisciscus avoua Mérope pour sa fille,</l>
+                        <l n="632"> L’assura dans sa mort, et depuis son trépas</l>
+                        <l n="633"> Elle a passé pour sœur du Prince Alcidamas.</l>
+                        <l n="634"> Mais Ismire voyant qu’on l’offrait pour victime,</l>
+                        <l n="635"> A cru que son silence augmenterait son crime,</l>
+                        <l n="636"> Son zèle et sa pitié nous dessillent les yeux.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="637"> Ton amour a formé ce projet glorieux</l>
+                        <l n="638"> Fidèle Alcidamas, pour ce bienfait extrême</l>
+                        <l n="639"> Que ne te dois-je point ?</l>
+                </sp>
+        <sp who="#alcmène">
+            <speaker> ALCMÈNE. </speaker>
+                        <l n="640"> Il s’est servi lui-même,</l>
+                        <l n="641"> Il a sauvé sa sœur, et sachez qu’aujourd’hui</l>
+                        <l n="642"> Épébole a moins fait, mais plus osé que lui.</l>
+                        <l n="643"> Cet étranger.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="644"> Enfin votre discours m’offense,</l>
+                        <l n="645"> Épébole est trop cher à votre confidence,</l>
+                        <l n="646"> Sitôt qu’Alcidamas s’offre à mon souvenir</l>
+                        <l n="647"> Avec votre inconnu voulez-vous l’en bannir ?</l>
+                </sp>
+        <sp who="#alcmène">
+            <speaker> ALCMÈNE. </speaker>
+                        <l n="648"> Il mérite beaucoup, et je ne m’en puis taire.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="649"> Alcmène, ce discours peut enfin me déplaire,</l>
+                        <l n="650"> Croyez-en davantage, et nous en dites moins.</l>
+                </sp>
+        <sp who="#alcmène">
+            <speaker> ALCMÈNE, bas. </speaker>
+                        <l n="651"> Pauvre Prince, qu’en vain je te donne mes soins.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="652"> Mais que fait-on au Temple ?</l>
+                </sp>
+        <sp who="#alcmène">
+            <speaker> ALCMÈNE. </speaker>
+                        <l n="653"> On voit la populace,</l>
+                        <l n="654"> Ne sachant par quel sang détourner la menace</l>
+                        <l n="655"> Qui dans tout ce pays a porté la terreur,</l>
+                        <l n="656"> Se couvrir de tristesse et pâlir de frayeur.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="657"> Parmi tant d’affligés que fait Aristodème ?</l>
+                        <l n="658"> Mais il vient.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="659"> Je la vois ; mon cœur c’est elle-même,</l>
+                        <l n="660"> Fuyons, fuyons ses yeux, perdons-la sans la voir :</l>
+                        <l n="661"> Mais plutôt à ses yeux faisons notre devoir.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="662"> Hé ! bien Seigneur, les Dieux nous ont fait grâce entière,</l>
+                        <l n="663"> Leur extrême bonté répond à ma prière.</l>
+                        <l n="664"> Ma sœur ne mourra point ; que ce succès est doux.</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="665"> Il l’est pour toi ma fille, et ne l’est pas pour tous.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="666"> Il doit l’être, Seigneur, puisqu’il est légitime,</l>
+                        <l n="667"> Nous nous acquitterons par une autre victime.          </l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="668"> Oui, sans plus consulter sur ce choix important,</l>
+                        <l n="669"> Je t’apprends que c’est toi que cet honneur attend.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="670"> Cette grâce, Seigneur, surpasse la première.</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="671"> Mais le vouloir des Dieux se perd dans la dernière.</l>
+                        <l n="672"> Ils demandent du sang, mais par la main du sort</l>
+                        <l n="673"> Et de ma propre main je te livre à la mort.</l>
+                        <l n="674"> Ah ! Lâche, soutiens mieux la grandeur de ton zèle,</l>
+                        <l n="675"> Si c’est dessein pour toi, c’est un hasard pour elle.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="676"> Non, je l’avais prévu, ne me dérobez rien,</l>
+                        <l n="677"> Sachez que votre choix ne prévient pas le mien.</l>
+                        <l n="678"> Quand aux Dieux, pour ma sœur, j’osais demander grâce,</l>
+                        <l n="679"> Je leur offrais un sang qui peut remplir sa place.</l>
+                        <l n="680"> Il est vrai que du sort je tiens ce beau trépas,</l>
+                        <l n="681"> Puisque c’est un bonheur que je n’espérais pas.</l>
+                        <l n="682"> Grâces aux immortels, qui pour se satisfaire</l>
+                        <l n="683"> Aux désirs de la fille ajoutent ceux du père.</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="684"> Hélas !</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="685"> Vous soupirez, est-ce pour nos malheurs ?</l>
+                        <l n="686"> Est-ce pour une mort qui doit tarir nos pleurs ?</l>
+                        <l n="687"> La nue est sur le point de crever sur nos têtes,</l>
+                        <l n="688"> Et je cours au-devant de ses noires tempêtes,</l>
+                        <l n="689"> Je suis entre la foudre et les Messéniens,</l>
+                        <l n="690"> Et prête d’éclater seule je la retiens.</l>
+                        <l n="691"> Pourrai-je de mes jours faire un plus digne usage</l>
+                        <l n="692"> Qu’en les sacrifiant à ce noble avantage ?</l>
+                        <l n="693"> Puis-je aller à la mort par un chemin plus beau          </l>
+                        <l n="694"> Qu’en cherchant sur l’autel un illustre tombeau ?</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="695"> Ah ! Ma fille, ah ! Mon sang, souffre que je t’embrasse,</l>
+                        <l n="696"> Que tu vas élever l’honneur de notre race ?</l>
+                        <l n="697"> Pardonne des soupirs, pardonne-moi des pleurs</l>
+                        <l n="698"> Témoins de ta vertu, mieux que de mes douleurs.</l>
+                        <l n="699"> J’ai voulu découvrir quelle est ton assurance,</l>
+                        <l n="700"> Par un trait de faiblesse éprouver ta constance ;</l>
+                        <l n="701"> Et par l’impression de ces soupirs forcés</l>
+                        <l n="702"> Voir si tes nobles vœux pourraient être effacés.</l>
+                        <l n="703"> Mais je le reconnais, ô sang d’Aristodème,</l>
+                        <l n="704"> La nièce d’Épytus sera toujours la même.</l>
+                        <l n="705"> Je te vois maintenant aller d’un front égal</l>
+                        <l n="706"> Sur les Autels des Dieux souffrir le coup fatal.</l>
+                        <l n="707"> Par un beau sacrifice arrêter le tonnerre,</l>
+                        <l n="708"> Et noyer dans ton sang le flambeau de la guerre.</l>
+                        <l n="709"> Soupçons, et vous soupirs à mon cœur échappés</l>
+                        <l n="710"> Je vous vois maintenant heureusement trompés.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="711"> Oui, sans que de ma part vous craigniez quelque obstacle</l>
+                        <l n="712"> Vous pouvez hardiment me promettre à l’Oracle.</l>
+                        <l n="713"> Je saurai comme il faut dégager votre foi,</l>
+                        <l n="714"> Et l’on doit s’assurer et de vous et de moi.</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="715"> Hélas ! Ta fermeté me surprend et m’étonne.</l>
+                        <l n="716"> Voyant tant de vertu, la mienne m’abandonne,</l>
+                        <l n="717"> Et ma gloire indignée a peine à m’arracher</l>
+                        <l n="718"> Le désir d’un honneur qui me coûte si cher.</l>
+                        <l n="719"> Mais, sentiments d’un cœur à soi-même infidèle,</l>
+                        <l n="720"> Mourez, mourez de honte, et respectez mon zèle ;</l>
+                        <l n="721"> C’est dedans ce combat que vous devez périr,</l>
+                        <l n="722"> Et c’est vaincre pour vous que d’y savoir mourir ;</l>
+                        <l n="723"> Je cours ravir le peuple, et par cette nouvelle</l>
+                        <l n="724"> Lui faire ressentir les effets de mon zèle.</l>
+                        <l n="725"> Après ce grand effort prends mes derniers adieux,</l>
+                        <l n="726"> Je ne te verrai plus qu’entre les mains des Dieux.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#alcmène">
+            <speaker> ALCMÈNE. </speaker>
+                        <l n="727"> Ah ! Madame, est-ce là cette belle journée</l>
+                        <l n="728"> Qui devait achever cet heureux hyménée ?</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="729"> Aimable Alcidamas ! Je te perds et te plains,</l>
+                        <l n="730"> Insensible à mon mal c’est pour toi que je crains,</l>
+                        <l n="731"> Que si dans cette mort je trouve quelques charmes</l>
+                        <l n="732"> Souviens-toi qu’en mourant je te donne des larmes.</l>
+                        <l n="733"> Mais il vient, et la joie éclate sur son front.</l>
+                        <l n="734"> Hélas ! Qu’il va souffrir d’un changement si prompt.</l>
+                        <l n="735"> D’où te vient ce transport, et quel Dieu te l’envoie ?</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="736"> Vous pouvez aisément expliquer cette joie,</l>
+                        <l n="737"> Sachant que nul bonheur n’a droit de me ravir,</l>
+                        <l n="738"> Que celui seulement que j’ai de vous servir.</l>
+                        <l n="739"> Les Dieux sauvent Mérope et se lavent du crime</l>
+                        <l n="740"> D’avoir contre vos vœux choisi cette victime.</l>
+                        <l n="741"> Il est vrai qu’à ce bien mêlant quelque rigueur</l>
+                        <l n="742"> En servant mon amour ils m’ôtent une sœur,</l>
+                        <l n="743"> Puisque pour la sauver d’un trépas nécessaire</l>
+                        <l n="744"> Il a fallu qu’Ismire ait passé pour sa mère.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="745"> Son mérite chez toi lui rend son premier rang,</l>
+                        <l n="746"> Mais puisqu’enfin les Dieux veulent un autre sang,</l>
+                        <l n="747"> Afin de m’acquitter de ce bienfait extrême,</l>
+                        <l n="748"> Si je t’ôte une sœur je me donne moi-même.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="749"> Princesse à quel bonheur...</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE, l’interrompant. </speaker>
+                        <l n="750"> Si proche du trépas</l>
+                        <l n="751"> En te faisant ce don je ne rougirai pas.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="752"> Vous parlez de mourir quand vous me faites grâce.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="753"> Mérope étant sauvée, il faut remplir sa place.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="754"> J’ai su mettre à couvert des jours si précieux,</l>
+                        <l n="755"> Étant seule du sang que demandent nos Dieux,</l>
+                        <l n="756"> On ne peut par le sort satisfaire à l’Oracle.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="757"> Mon zèle généreux a levé cet obstacle.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="758"> Quoi, Madame, quel zèle est injuste à ce point</l>
+                        <l n="759"> D’offrir aux Dieux un sang qu’ils ne demandent point ?</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="760"> Ce zèle est, comme aux Dieux, à moi-même fidèle,</l>
+                        <l n="761"> De leur ôter ta sœur et de m’offrir pour elle.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="762"> Avez-vous résolu d’éprouver mon amour ?</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="763"> Le salut de Mérope a mis ta flamme au jour,</l>
+                        <l n="764"> Elle paraît assez dans ce bienfait extrême.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="765"> Appelez-vous bienfait ce qui vous perd vous-même ?</l>
+                        <l n="766"> Mais pour vous conserver j’irai tout découvrir,</l>
+                        <l n="767"> Et Mérope est ma sœur si vous voulez mourir.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="768"> On ne nous trompe pas avec cet artifice.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="769"> Me traitez-vous, Madame, avec tant d’injustice ?</l>
+                        <l n="770"> Donc je vous ai perdue, au lieu de vous sauver ?</l>
+                        <l n="771"> Et par le même soin qui vous doit conserver.</l>
+                        <l n="772"> Donc de ma propre main j’immole ma Princesse,</l>
+                        <l n="773"> Pour sauver une sœur je perds une maîtresse ?</l>
+                        <l n="774"> Et pour me mettre encor au point de tout souffrir</l>
+                        <l n="775"> Vous vous donnez à moi quand vous allez mourir.</l>
+                        <l n="776"> Si cet aveu vous rend digne de cette peine,</l>
+                        <l n="777"> Reprenez votre amour, laissez-moi votre haine.</l>
+                        <l n="778"> Que sous le poids mortel de mille déplaisirs</l>
+                        <l n="779"> Ce cœur.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="780"> Épargnez-moi d’inutiles soupirs,</l>
+                        <l n="781"> Qui ne servant ici qu’à souiller ma mémoire</l>
+                        <l n="782"> N’empêchent pas ma mort, et m’en ôtent la gloire.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="783"> Ah ! Vous ne mourrez point. Que tous les immortels</l>
+                        <l n="784"> Soient plutôt sans victime ainsi que sans Autels,</l>
+                        <l n="785"> Que nos fiers ennemis dessous leur tyrannie</l>
+                        <l n="786"> Fassent plutôt gémir toute la Messénie ;</l>
+                        <l n="787"> Que ce mont ébranlé par mille tremblements</l>
+                        <l n="788"> Se renverse sur moi jusqu’à ses fondements ;</l>
+                        <l n="789"> Et pour tout hasarder dans ce péril extrême</l>
+                        <l n="790"> Que vous me haïssiez autant que je vous aime.         </l>
+                        <l n="791"> Ne vous étonnez pas d’un désordre si grand,</l>
+                        <l n="792"> Alors que je vous perds tout m’est indifférent.</l>
+                        <l n="793"> Pardonnez toutefois à mon dernier blasphème,</l>
+                        <l n="794"> Si j’ose en vous perdant m’aigrir contre moi-même,</l>
+                        <l n="795"> Dépiter tous les Dieux, défier leur courroux,</l>
+                        <l n="796"> Ma fureur ne doit pas aller jusques à vous.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="797"> Elle ose toutefois pour ternir ma mémoire</l>
+                        <l n="798"> Arrêter un dessein qui me couvre de gloire ;</l>
+                        <l n="799"> Quoi ? Lâche Alcidamas, tu voudrais empêcher</l>
+                        <l n="800"> Un trépas que l’honneur me doit rendre si cher ?</l>
+                        <l n="801"> Le salut du pays, le vœu d’Aristodème</l>
+                        <l n="802"> M’y forceraient sans doute en dépit de moi-même.</l>
+                        <l n="803"> Quand la compassion de tes tendres soupirs</l>
+                        <l n="804"> Me pourrait inspirer de contraires désirs.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="805"> Quoi ? Votre père même, ah ! Fatale aventure,</l>
+                        <l n="806"> Ingrat à mon amour autant qu’à la nature.</l>
+                        <l n="807"> Lui qui doit être ici mon unique secours</l>
+                        <l n="808"> À la fureur des Dieux abandonne vos jours.</l>
+                        <l n="809"> Voyez jusqu’où le Ciel fait monter sa colère.</l>
+                        <l n="810"> Afin de me punir tout me devient contraire,</l>
+                        <l n="811"> Il nous fait voir le sang armé contre le sang,</l>
+                        <l n="812"> Et se sert de moi-même à me percer le flanc.</l>
+                        <l n="813"> Mais malgré tous les Dieux, votre père et moi-même</l>
+                        <l n="814"> Seul je vous sauverai de ce péril extrême.</l>
+                        <l n="815"> J’irai sur les Autels signaler ma douleur,</l>
+                        <l n="816"> J’irai vous arracher au Sacrificateur,</l>
+                        <l n="817"> Et de quelque façon que ce coup réussisse</l>
+                        <l n="818"> J’irai par mille morts troubler le sacrifice.</l>
+                        <l n="819"> On verra par l’effort d’un amour furieux</l>
+                        <l n="820"> Sous des autels brisés les images des Dieux.</l>
+                        <l n="821"> Et ces cruels tyrans qu’on peint avec la foudre</l>
+                        <l n="822"> Renversés de leur trône et cachés sous la poudre.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="823"> Ah ! Ne t’emporte point à ces lâches douleurs,</l>
+                        <l n="824"> Et par ton désespoir n’accrois point nos malheurs ;</l>
+                        <l n="825"> Si tu dois trébucher tombe au moins avec gloire,</l>
+                        <l n="826"> Que ton sang soit le prix d’une illustre victoire,</l>
+                        <l n="827"> Ou plutôt souviens-toi que je porte en ce flanc</l>
+                        <l n="828"> De quoi fléchir les Dieux sans y mêler ton sang,</l>
+                        <l n="829"> Et que tous deux vainqueurs du malheur où nous sommes</l>
+                        <l n="830"> J’apaiserai les Dieux quand tu vaincras les hommes.</l>
+                        <l n="831"> Vis doncques pour ta gloire, et malgré ta douleur</l>
+                        <l n="832"> Laisse-nous un espoir fondé sur ta valeur,</l>
+                        <l n="833"> Et ne nous ôte pas par une mort cruelle</l>
+                        <l n="834"> Les effets de ma mort, et le fruit de mon zèle.</l>
+                        <l n="835"> Si le respect des Dieux, si l’amour de ton Roi</l>
+                        <l n="836"> N’empêchent pas ta mort, vis pour l’amour de moi.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="837"> Ah ! Pitié rigoureuse ! Ah ! Cruelle tendresse !</l>
+                        <l n="838"> Qu’ai-je fait contre vous trop aimable Princesse</l>
+                        <l n="839"> Qui vous puisse obliger à prolonger un sort</l>
+                        <l n="840"> Dont l’extrême rigueur est pire que la mort ?</l>
+                        <l n="841"> Quel crime ai-je commis qui me condamne à vivre.</l>
+                        <l n="842"> Et qui m’ôte aujourd’hui la gloire de vous suivre,</l>
+                        <l n="843"> Ou plutôt quel motif vous oblige à périr ?</l>
+                        <l n="844"> Quand par d’autres moyens on nous peut secourir ?</l>
+                        <l n="845"> Si vous m’aimiez.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="846"> Hélas ! Plût aux Dieux que mon âme</l>
+                        <l n="847"> Pût au moins quand je meurs, te découvrir ma flamme.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="848"> Doncques par cet amour si cher à mes désirs,</l>
+                        <l n="849"> Qui fait toute ma joie et tous mes déplaisirs :</l>
+                        <l n="850"> Par cet œil adoré plus craint que le tonnerre</l>
+                        <l n="851"> Qui ne devrait périr qu’avec toute la terre ;</l>
+                        <l n="852"> Par ce torrent de pleurs dont le deuil des mortels</l>
+                        <l n="853"> Doit avec votre sang arroser nos Autels :</l>
+                        <l n="854"> Par l’effroyable objet de cette mort cruelle</l>
+                        <l n="855"> Qui frappe mon amour d’une crainte mortelle,</l>
+                        <l n="856"> Par ce grand désespoir.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="857"> Ah ! Prince c’est assez,</l>
+                        <l n="858"> N’exige pas de moi des sentiments forcés ;</l>
+                        <l n="859"> Adieu, je fuis des pleurs qui troublent ma constance,</l>
+                        <l n="860"> Te consolent les Dieux que ta douleur offense.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS, seul </speaker>
+                        <l n="861"> Allez impitoyable, abandonnez ces lieux,</l>
+                        <l n="862"> Fuyez un misérable, et courez à vos Dieux ;</l>
+                        <l n="863"> À ces Dieux sans amour, à ces Dieux homicides</l>
+                        <l n="864"> Du sang des innocents cruellement avides ;</l>
+                        <l n="865"> À ces Dieux impuissants, dont le secours fatal</l>
+                        <l n="866"> Ne peut guérir nos maux que par un plus grand mal,</l>
+                        <l n="867"> Et dont l’oracle obscur qui ne sait nous apprendre</l>
+                        <l n="868"> Quels vœux il faut former, quel sang il faut répandre,</l>
+                        <l n="869"> Nous faisant immoler ce qu’il faut conserver,</l>
+                        <l n="870"> Nous fait souiller d’un sang qui nous devrait laver.</l>
+                        <l n="871"> Mais où m’emportez-vous inutiles blasphèmes,</l>
+                        <l n="872"> Vous me secourez mal dans ces malheurs extrêmes ;</l>
+                        <l n="873"> Enlevons un trésor que l’on nous veut ravir :</l>
+                        <l n="874"> Mais hélas ! C’est la perdre au lieu de la servir.</l>
+                        <l n="875"> Je vois luire partout le flambeau de la guerre,</l>
+                        <l n="876"> Et c’est ici pour nous le seul bout de la terre.</l>
+                        <l n="877"> Doncques par des efforts qui me seront permis          </l>
+                        <l n="878"> Éclate ma fureur contre nos ennemis.</l>
+                        <l n="879"> Et qu’un torrent de sang qu’on peut verser sans crime</l>
+                        <l n="880"> Nous épargne le sang d’une seule victime.</l>
+                        <l n="881"> Si tes vœux, juste Ciel, ne sont pas satisfaits,</l>
+                        <l n="882"> Si ton courroux encor résiste à nos souhaits,</l>
+                        <l n="883"> Nos exploits t’apprendront qu’en l’état où nous sommes</l>
+                        <l n="884"> Nous pouvons triompher et des Dieux et des hommes,</l>
+                        <l n="885"> Et que sans se fier à quelque autre pouvoir</l>
+                        <l n="886"> On peut tout espérer d’un juste désespoir.</l>
+                        <l n="887"> Cher et noble dessein, mais dessein téméraire,</l>
+                        <l n="888"> Seul, sans aucun secours, quel effort puis-je faire</l>
+                        <l n="889"> Épébole ?</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#épébole">
+            <speaker> ÉPÉBOLE. </speaker>
+                        <l n="890"> Ah ! Seigneur, je ressens vos douleurs.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="891"> N’as-tu, contre mon mal, que le secours des pleurs ?</l>
+                        <l n="892"> Il faut tout hasarder pour sauver la Princesse.</l>
+                </sp>
+        <sp who="#épébole">
+            <speaker> ÉPÉBOLE. </speaker>
+                        <l n="893"> Mon cœur pour son salut à ce point s’intéresse.</l>
+                        <l n="894"> Que si vous consentez à ce que je ferai,</l>
+                        <l n="895"> Je vous promets, Seigneur, que je la sauverai.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="896"> Oui, je consens à tout pour secourir Argie.</l>
+                </sp>
+        <sp who="#épébole">
+            <speaker> ÉPÉBOLE. </speaker>
+                        <l n="897"> Votre aveu me suffit pour lui sauver la vie ;</l>
+                        <l n="898"> Mais peut-être il vous nuit plus que vous ne pensez.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="899"> Qu’elle vive.</l>
+                </sp>
+        <sp who="#épébole">
+            <speaker> ÉPÉBOLE. </speaker>
+                        <l n="900"> Craignez.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="901"> N’importe.</l>
+                </sp>
+        <sp who="#épébole">
+            <speaker> ÉPÉBOLE. </speaker>
+                        <l n="902"> C’est assez.</l></div></div>
+           <div type="act" xml:id="4">
+           <head> ACTE IV </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="903"> Quoi Seigneur ? Quoi mon frère est-ce ainsi que l’on me joue ?</l>
+                        <l n="904"> Est-ce pour me sauver que l’on me désavoue ?</l>
+                        <l n="905"> Ah ! Loin de me sauver par ce sanglant affront</l>
+                        <l n="906"> Vous rendez mon trépas plus funeste et plus prompt.         </l>
+                        <l n="907"> Souffrez, loin de m’ôter un honneur si sublime,</l>
+                        <l n="908"> Puisque je dois mourir, que je meure en victime.</l>
+                        <l n="909"> Et ton frère trop lâche, amant plein de rigueur</l>
+                        <l n="910"> Regarde par quel soin tu rachètes ta sœur.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="911"> Ah ! Ma sœur !</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="912"> Par ce nom qui m’a rendu mon frère,</l>
+                        <l n="913"> Apprenez que ma mort est un coup nécessaire,</l>
+                        <l n="914"> Qu’on ne songe donc plus d’offrir aux immortels</l>
+                        <l n="915"> Que ce sang, que le sort destine à leurs Autels.</l>
+                        <l n="916"> Que tarde-t-on ?</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS, au roi. </speaker>
+                        <l n="917"> Seigneur.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="918"> Faible et lâche tendresse.</l>
+                        <l n="919"> Tu trahis ton pays pour sauver ta maîtresse,</l>
+                        <l n="920"> Veux-tu pour lui ravir l’honneur de ce trépas</l>
+                        <l n="921"> Offrir aux Dieux un sang qu’ils ne demandent pas,</l>
+                        <l n="922"> Exposer de nouveau ta malheureuse terre.</l>
+                        <l n="923"> À de maux plus cruels que celui de la guerre.</l>
+            <stage><em>À Aristodème.</em></stage>
+                        <l n="924"> Prince, hélas ! À quel point l’emporte sa douleur ?</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="925"> Perds, perds, Alcidamas, ou règle ton ardeur.</l>
+                        <l n="926"> En vain pour détourner le trépas de ma fille</l>
+                        <l n="927"> Tu veux faire rentrer Mérope en ta famille,</l>
+                        <l n="928"> Elle n’est point du sang dont l’Oracle a parlé :</l>
+                        <l n="929"> Et le mien seulement lui doit être immolé.</l>
+                        <l n="930"> Ne nous enviez pas un honneur si funeste</l>
+                        <l n="931"> Mérope, et jouissez du bonheur qui vous reste,</l>
+                        <l n="932"> Mon Prince vous doit rendre en vous donnant sa foi</l>
+                        <l n="933"> Plus d’éclat qu’on en tire à descendre d’un Roi.</l>
+            <stage><em>À Alcidamas.</em></stage>
+                        <l n="934"> Vous amant généreux, montrez cette grande âme,</l>
+                        <l n="935"> Secondez noblement le zèle qui m’enflamme,</l>
+                        <l n="936"> Ne vous dérobez pas cet éclat glorieux ;</l>
+                        <l n="937"> Consentez au présent que nous faisons aux Dieux :</l>
+                        <l n="938"> Et si pour le pays votre cœur s’intéresse,</l>
+                        <l n="939"> Si je donne mon sang, donnez une maîtresse.</l>
+                        <l n="940"> Que le père et l’amant triomphent en ce jour,</l>
+                        <l n="941"> Moi des forces du sang, vous de celles d’amour.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="942"> Ne vous étonnez pas dans cette conjoncture</l>
+                        <l n="943"> Si vous voyant trop fort à vaincre la nature,</l>
+                        <l n="944"> Et prodigue d’un sang qu’on destine à l’Autel,</l>
+                        <l n="945"> Je me montre ennemi d’un zèle si cruel.</l>
+                        <l n="946"> Tout intérêt me choque, et tout devoir me blesse,</l>
+                        <l n="947"> S’il m’ose conseiller de perdre une maîtresse.</l>
+                        <l n="948"> L’amour, ce Dieu puissant est un tyran jaloux</l>
+                        <l n="949"> Qui ne cède jamais le droit qu’il a sur nous.</l>
+                        <l n="950"> Ne pensez pas pourtant qu’une ardeur criminelle</l>
+                        <l n="951"> Envers notre pays refroidisse mon zèle ;</l>
+                        <l n="952"> En sauvant votre sang, je sauve le pays,</l>
+                        <l n="953"> Je veux vaincre une erreur qui vous aurait trahis.</l>
+                        <l n="954"> Apaisez-vous le Ciel par une juste offrande ?</l>
+                        <l n="955"> Donnez-lui comme moi le sang qu’il vous demande,</l>
+                        <l n="956"> Puisqu’il faut vous fléchir par la mort de ma sœur,</l>
+                        <l n="957"> Détrompez les grands Dieux, d’une fatale erreur.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="958"> C’est trop, Alcidamas, cette ardeur obstinée</l>
+                        <l n="959"> Par les Dieux, par vous-même, est déjà condamnée.</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="960"> Souffrez donc qu’un trépas trop longtemps attendu</l>
+                        <l n="961"> Rende à mon sang l’honneur que Mérope a perdu.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="962"> Dieux ! Si par un tel sang il faut vous satisfaire</l>
+                        <l n="963"> Acceptez une fille offerte par son père.</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="964"> Ah Seigneur !</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="965"> Ah ! Grand Roi j’embrasse vos genoux.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="966"> Voulez-vous de nos Dieux irriter le courroux ?</l>
+                        <l n="967"> Du moins pour mériter l’effet de sa parole,</l>
+                        <l n="968"> Différez cette plainte au retour d’Épébole,</l>
+                        <l n="969"> Il est dedans le camp pour voir nos ennemis,</l>
+                        <l n="970"> Et ses soins obtiendront ce qu’il nous a promis.</l>
+                        <l n="971"> Mais je le vois qui vient.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="972"> Hé ! bien ami fidèle</l>
+                        <l n="973"> As-tu vu Théopompe ? Et Sparte fléchit-elle ?</l>
+                </sp>
+        <sp who="#épébole">
+            <speaker> ÉPÉBOLE. </speaker>
+                        <l n="974"> Tout incline à la paix.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="975"> Ce succès me surprend,</l>
+                        <l n="976"> Et j’admire un miracle et si prompt et si grand.</l>
+                </sp>
+        <sp who="#épébole">
+            <speaker> ÉPÉBOLE. </speaker>
+                        <l n="977"> Vous en verrez un autre en lisant cette lettre,</l>
+                        <l n="978"> Puis vous saurez d’Arcas les desseins de son maître.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI lit la lettre. </speaker>
+                        <l n="979"> Puisque les Dieux enfin rendent à nos souhaits</l>
+                        <l n="980"> Un fils longtemps caché sous le nom d’Épébole :</l>
+                        <l n="981"> Qu’il dispose à son gré du traité de la paix,</l>
+                        <l n="982"> Et pour mieux assurer la foi de ma parole</l>
+                        <l n="983"> Et pour hâter l’effet de mes justes desseins</l>
+                        <l n="984"> Je le remets entre vos mains.</l>
+                </sp>
+        <sp who="#théopompe">
+            <speaker> THÉOPOMPE. </speaker>
+                        <l n="985"> Ah Cresphonte !</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="986"> Ah ! Prince incomparable.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS, à Cresphonte. </speaker>
+                        <l n="987"> Dieux que votre retour me sera favorable,</l>
+                        <l n="988"> Que ne puis-je, Seigneur, en cet heureux moment</l>
+                        <l n="989"> Égaler les effets à mon ressentiment ?</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="990"> Mais, Prince, quel motif ou quelle défiance</l>
+                        <l n="991"> Vous ont fait si longtemps cacher votre naissance ?</l>
+                </sp>
+        <sp who="#cresphonte">
+            <speaker> CRESPHONTE. </speaker>
+                        <l n="992"> Apprenez, apprenez ce qu’a fait mon amour.</l>
+                        <l n="993"> J’étais auprès d’Androcle inconnu dans sa cour,</l>
+                        <l n="994"> Où l’on vit votre père exposer cette terre</l>
+                        <l n="995"> Au succès incertain d’une si longue guerre.</l>
+                        <l n="996"> Androcle en ma faveur traversant son dessein</l>
+                        <l n="997"> Il vint nous attaquer les armes à la main ;</l>
+                        <l n="998"> Dans ce désordre affreux ou l’un et l’autre Prince</l>
+                        <l n="999"> En deux puissants partis arma cette Province,</l>
+                        <l n="1000"> Androcle succombant sous le premier effort</l>
+                        <l n="1001"> Je suivis sa disgrâce, et je passai pour mort.</l>
+                        <l n="1002"> Mon père qui le crut arme avec diligence,</l>
+                        <l n="1003"> Et vient dans tous ces lieux signaler ma vengeance.</l>
+                        <l n="1004"> Tandis j’aimais Argie, et sa possession</l>
+                        <l n="1005"> Bornait toute ma gloire et mon ambition.</l>
+                        <l n="1006"> Je rentre en votre Cour, où mon amour fidèle</l>
+                        <l n="1007"> Par des vœux seulement se déclarait pour elle,</l>
+                        <l n="1008"> Sachant qu’Alcidamas ce Prince généreux,</l>
+                        <l n="1009"> Par l’espoir d’un hymen s’opposait à mes vœux :</l>
+                        <l n="1010"> Mais mon père aujourd’hui favorable à ma peine</l>
+                        <l n="1011"> Remettant dans mes mains les États de Messène,</l>
+                        <l n="1012"> J’ose me déclarer, et je puis mettre au jour</l>
+                        <l n="1013"> Ma naissance et mes vœux, ma gloire et mon amour.</l>
+                        <l n="1014"> Vous donc, Roi magnanime, et vous Aristodème</l>
+                        <l n="1015"> Montrez un cœur sensible à mon ardeur extrême,</l>
+                        <l n="1016"> Et si je m’offre à vous avec trop peu d’appas</l>
+                        <l n="1017"> Considérez la main qui vous rend vos États.</l>
+                        <l n="1018"> Et qui s’intéressant pour le salut d’Argie</l>
+                        <l n="1019"> Vient poser à ses pieds toute la Messénie.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="1020"> Dieux ! Qu’est-ce que j’entends ?</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="1021"> Ah ! Prince généreux</l>
+                        <l n="1022"> Qui pourrait justement s’opposer à vos vœux ?</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="1023"> Ou le trône ou l’Autel attendent ta maîtresse,</l>
+            <stage><em>À Alcidamas. </em></stage>
+                        <l n="1024"> Cher Prince, si pour nous ta pitié s’intéresse,</l>
+                        <l n="1025"> Puisque tu ne saurais la conserver pour toi.</l>
+                        <l n="1026"> Garde-la de périr, et pour elle et pour moi.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="1027"> Où me réduisez-vous, Cresphonte, Aristodème ?</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="1028"> La veux-tu voir périr ?</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="1029"> Non, qu’elle vive, et l’aime.</l>
+                </sp>
+        <sp who="#aristodème">
+            <speaker> ARISTODÈME. </speaker>
+                        <l n="1030"> Je vais la disposer à ce rare bonheur.</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="1031"> Mon frère...</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="1032"> Laissez-lui digérer sa douleur,</l>
+                        <l n="1033"> Si son cœur est touché par la perte d’Argie</l>
+                        <l n="1034"> Il doit baiser la main qui lui sauve la vie.</l>
+                </sp>
+        <sp who="#cresphonte">
+            <speaker> CRESPHONTE. </speaker>
+                        <l n="1035"> Que je souffre en voyant les maux que je lui fais.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="1036"> Je vais avec Arcas consulter de la paix.</l>
+            <stage><em>À Mérope</em></stage>
+                        <l n="1037"> Venez, vous que le Ciel destine à ma Couronne</l>
+                        <l n="1038"> Recevoir votre part des soins qu’elle vous donne.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="1039"> Est-ce là ce secours que vous m’aviez promis,</l>
+                        <l n="1040"> Ami plus dangereux que tous nos ennemis.</l>
+                </sp>
+        <sp who="#cresphonte">
+            <speaker> CRESPHONTE. </speaker>
+                        <l n="1041"> Ah ! Prince pardonnez à l’éclat de ma flamme,</l>
+                        <l n="1042"> Je n’attends de vos feux ni reproche ni blâme,</l>
+                        <l n="1043"> Ce n’est pas contre vous que j’ose disputer</l>
+                        <l n="1044"> Un bien que votre amour pouvait seul mériter,</l>
+                        <l n="1045"> Ce n’est qu’à vos malheurs que je dérobe Argie,</l>
+                        <l n="1046"> Et sans considérer en lui sauvant la vie</l>
+                        <l n="1047"> À qui peut, ou servir, ou nuire cet effort,</l>
+                        <l n="1048"> Par un zèle amoureux je l’arrache à la mort.</l>
+                        <l n="1049"> Je sais qu’en la sauvant de ce péril extrême,</l>
+                        <l n="1050"> Après l’aveu du Roi, celui d’Aristodème,</l>
+                        <l n="1051"> Je la puis justement disputer contre tous ;</l>
+                        <l n="1052"> Toutefois je ne veux la tenir que de vous.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="1053"> Hélas ! Cette bonté rend mon tourment plus rude,</l>
+                        <l n="1054"> Je fais ce que je puis pour fuir l’ingratitude,</l>
+                        <l n="1055"> Mais ne pouvant céder ni retenir mon bien,</l>
+                        <l n="1056"> Quand je veux tout donner je ne vous donne rien.</l>
+                        <l n="1057"> Après l’aveu du Roi, celui d’Aristodème,</l>
+                        <l n="1058"> La Princesse arrachée à ce péril extrême,</l>
+                        <l n="1059"> Je vous cède, Seigneur, un bien qui m’est si cher,</l>
+                        <l n="1060"> Et c’est moi toutefois qui dois vous l’arracher.</l>
+                </sp>
+        <sp who="#cresphonte">
+            <speaker> CRESPHONTE. </speaker>
+                        <l n="1061"> Quoi ? Vous me l’ôteriez après l’avoir cédée,</l>
+                        <l n="1062"> Quand ce n’est qu’en priant que je l’ai demandée.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="1063"> Un obstacle secret vous ôte ce présent,</l>
+                        <l n="1064"> Je suis juste, Seigneur, si je fus complaisant,</l>
+                        <l n="1065"> Je l’ai tu par respect devant Aristodème,</l>
+                        <l n="1066"> Et je devrais encor le cacher à vous-même,</l>
+                        <l n="1067"> Si je ne savais bien qu’un aveu généreux</l>
+                        <l n="1068"> Doit borner un respect qui nuirait à nous deux.</l>
+                        <l n="1069"> N’espérez plus, chassez une flamme obstinée.</l>
+                </sp>
+        <sp who="#cresphonte">
+            <speaker> CRESPHONTE. </speaker>
+                        <l n="1070"> Comment ?</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="1071"> Elle est à moi par les lois d’hyménée.</l>
+                </sp>
+        <sp who="#cresphonte">
+            <speaker> CRESPHONTE. </speaker>
+                        <l n="1072"> Que ces mots sur mon cœur font un puissant effet,</l>
+                        <l n="1073"> Et qu’ils vous vengent bien du mal qu’on vous a fait.</l>
+                        <l n="1074"> Hé bien ! Il faut quitter des espérances vaines,</l>
+                        <l n="1075"> Jouissez de mes soins, et du fruit de mes peines.</l>
+                        <l n="1076"> Ingrat Aristodème où me réduisez-vous ?</l>
+                        <l n="1077"> Si vous m’avez charmé par un espoir si doux,</l>
+                        <l n="1078"> Regardez ce que souffre une amour méprisée ;</l>
+                        <l n="1079"> Et par un faux espoir lâchement abusée.</l>
+                        <l n="1080"> Ah ! Ce n’est pas ainsi qu’il en fallait user,</l>
+                        <l n="1081"> Il fallait me conduire, et non pas m’abuser.</l>
+                        <l n="1082"> Et si vous négligiez de soulager ma peine, Vous deviez respecter le maître de Messène.</l>
+                        <l n="1083"> Mais puisqu’il faut agir avec des ingrats</l>
+                        <l n="1084"> Si vous gardez vos biens, rendez-moi vos États.</l>
+                        <l n="1085"> Si vous vouliez la paix vous me rendriez Argie,</l>
+                        <l n="1086"> Sans m’ôter pour jamais le repos de ma vie.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="1087"> Si c’est un coup du sort qui nous rend malheureux,</l>
+                        <l n="1088"> Plus nous sommes ingrats, rendez-vous généreux.</l>
+                </sp>
+        <sp who="#cresphonte">
+            <speaker> CRESPHONTE. </speaker>
+                        <l n="1089"> Qu’il est doux d’inspirer une si noble envie</l>
+                        <l n="1090"> Quand on se peut vanter de posséder Argie ;</l>
+                        <l n="1091"> Mais non, je vais trouver l’auteur de mes malheurs,</l>
+                        <l n="1092"> Et tâcher d’égaler sa honte à mes douleurs.</l>
+                        <l n="1093"> Oui, Prince, il apprendra, l’ingrat Aristodème,</l>
+                        <l n="1094"> À quel point m’a choqué son lâche stratagème,</l>
+                        <l n="1095"> Je vais lui déclarer son crime et mon malheur,</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS, seul </speaker>
+                        <l n="1096"> Hélas ! De tous côtés ma peine est infinie,</l>
+                        <l n="1097"> Par tout, cruel destin, je sens ta tyrannie.</l>
+                        <l n="1098"> Je veux par l’imposture assurer mon amour ;</l>
+                        <l n="1099"> Et ce crime me perd, si on le met au jour.</l>
+                        <l n="1100"> Où me suis-je emporté ? Qu’ai-je fait téméraire ?</l>
+                        <l n="1101"> Mais enfin qu’ai-je fait que je ne dusse faire,</l>
+                        <l n="1102"> Si la Princesse osait condamner cet effort</l>
+                        <l n="1103"> J’aurais pour l’apaiser mon amour, ou ma mort.</l>
+                        <l n="1104"> Mais Dieux de quel transport est-elle possédée.</l>
+                        <l n="1105"> Évitons.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="1106"> Fuis, ingrat, après m’avoir cédée</l>
+                        <l n="1107"> Mais sache que ce don te doit être fatal,</l>
+                        <l n="1108"> Non que par mon aveu je sois à ton rival ;</l>
+                        <l n="1109"> Mais je sors de tes mains, et je veux qu’il m’obtienne</l>
+                        <l n="1110"> De ma main seulement, et non pas de la tienne.</l>
+                        <l n="1111"> Va perfide.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="1112"> Ah ! Madame, écoutez un moment</l>
+                        <l n="1113"> Donnez plus de matière à ce ressentiment.</l>
+                        <l n="1114"> Écoutez, écoutez un aveu téméraire,</l>
+                        <l n="1115"> Non celui que j’ai fait, mais que je devais faire,</l>
+                        <l n="1116"> Connaissant son mérite autant que mes défauts,</l>
+                        <l n="1117"> Et ce que vous valez, et le peu que je vaux,</l>
+                        <l n="1118"> Sachant bien que sans lui vous me seriez ravie,</l>
+                        <l n="1119"> Que pour payer des soins qui vous sauvent la vie,</l>
+                        <l n="1120"> C’est lui seul maintenant qui vous doit posséder,</l>
+                        <l n="1121"> Sans honte, et sans regret je devais vous céder.</l>
+                        <l n="1122"> Je l’ai fait par respect aux yeux de votre père,</l>
+                        <l n="1123"> Si cet aveu contraint aigrit votre colère,</l>
+                        <l n="1124"> Princesse, ce présent ne peut m’être fatal,</l>
+                        <l n="1125"> Puisqu’au même moment je l’ôte à mon rival.</l>
+                        <l n="1126"> Par force, ou par justice il vous rend à ma flamme.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="1127"> Pardonne, Alcidamas.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="1128"> Écoutez tout, Madame,</l>
+                        <l n="1129"> C’est à moi qu’il vous rend, mais las le croirez-vous ?</l>
+                        <l n="1130"> Non comme à son rival, mais comme à votre époux.</l>
+                        <l n="1131"> Cet hymen supposé m’a rendu ma Princesse.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="1132"> Qu’entends-je ? Ah ! C’est ainsi que tu perds ta maîtresse,</l>
+                        <l n="1133"> Tu devais m’obtenir en ce fatal moment           </l>
+                        <l n="1134"> Non de ta trahison, mais de moi seulement.</l>
+                        <l n="1135"> Dois-je chérir des feux qui me couvrent de honte,</l>
+                        <l n="1136"> Qui par le crime seul triomphent de Cresphonte,</l>
+                        <l n="1137"> Et qui par un affront à mon honneur fatal</l>
+                        <l n="1138"> Me donnent plus d’horreur que ceux de mon rival.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="1139"> Vengez-vous, vengez-vous et punissez mon crime,</l>
+                        <l n="1140"> Mon amour qui l’a fait vous offre la victime,</l>
+                        <l n="1141"> Si devant d’autres yeux il le faut expier</l>
+                        <l n="1142"> Je répandrai mon sang pour vous justifier</l>
+                        <l n="1143"> Et devant mon rival, et devant votre père.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="1144"> Quoi ? Mon père l’a su, Dieux ! Quelle est sa colère ?</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="1145"> Je vais pour l’apaiser mettre mon crime au jour.</l>
+                        <l n="1146"> Cependant pardonnez ce crime à mon amour.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="1147"> Ah ! Je ne fais point grâce à qui m’ôte mon père,</l>
+                        <l n="1148"> Et sans plus différer je vais le satisfaire.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="1149"> Madame.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="1150"> Laissez-moi.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="1151"> Je ne vous quitte point.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="1152"> Cette obstination me pique au dernier point.</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="1153"> Quoi ? Je vous quitterais sans avoir votre grâce.</l>
+                </sp>
+        <sp who="#argie">
+            <speaker> ARGIE. </speaker>
+                        <l n="1154"> Va, ce n’est pas ainsi qu’un tel affront s’efface.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS, seul </speaker>
+                        <l n="1155"> Non, non, pour m’en laver, Princesse, il faut mourir,</l>
+                        <l n="1156"> C’est le seul désespoir qui me peut secourir,</l>
+                        <l n="1157"> Mais au moins en suivant une si noble envie</l>
+                        <l n="1158"> Tranchons avec honneur une honteuse vie.</l>
+                        <l n="1159"> Portons sur l’ennemi ce sanglant désespoir,</l>
+                        <l n="1160"> Pour redoubler ses coups faisons-en un devoir.</l>
+                        <l n="1161"> Oui, considère-toi comme chargé des crimes</l>
+                        <l n="1162"> Qu’on ne peut expier que par mille victimes.</l>
+                        <l n="1163"> Et pour accroître encor l’effet de tes douleurs</l>
+                        <l n="1164"> Cruel regarde en toi l’auteur de nos malheurs.</l>
+                        <l n="1165"> Mais aussi souviens-toi qu’une illustre victoire         </l>
+                        <l n="1166"> Doit effacer ta honte et racheter ta gloire.</l>
+                        <l n="1167"> Affranchir ce pays, fléchir les immortels,</l>
+                        <l n="1168"> Venger l’honneur du trône, et celui des Autels,</l>
+                        <l n="1169"> Rejoindre heureusement la sœur avec le frère,</l>
+                        <l n="1170"> Et rendre à son amour, et la fille et le père.</l>
+                        <l n="1171"> Engageons notre Roi dans un si beau dessein,</l>
+                        <l n="1172"> Qu’il seconde le Dieu qui règne dans mon sein,</l>
+                        <l n="1173"> Si je lui rends Mérope, il doit me rendre Argie.</l>
+                        <l n="1174"> Qu’il serve mon amour avec la Messénie,</l>
+                        <l n="1175"> Qu’il rompe avec honneur un funeste traité</l>
+                        <l n="1176"> Sans attendre ce coup d’un rival dépité.</l>
+                        <l n="1177"> Aussi bien cette paix n’est qu’une fausse amorce,</l>
+                        <l n="1178"> S’il la faut acquérir, gagnons-la par la force.</l>
+                        <l n="1179"> Reprends tous tes États ambitieux rival,</l>
+                        <l n="1180"> L’offre que tu nous fais est un présent fatal,</l>
+                        <l n="1181"> Moins digne de nos vœux qu’il ne l’est de nos larmes,</l>
+                        <l n="1182"> Nous nous affranchirons par l’effort de nos armes.</l>
+                        <l n="1183"> Que s’il faut succomber sous la haine des Cieux,</l>
+                        <l n="1184"> Tu pourras triompher, mais non pas à nos yeux.</l></div></div>
+           <div type="act" xml:id="5">
+           <head> ACTE V </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#cresphonte">
+            <speaker> CRESPHONTE. </speaker>
+                        <l n="1185"> Mérope, quel effroi trouble votre visage ?</l>
+                        <l n="1186"> J’y lis d’un grand malheur quelque nouveau présage.</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="1187"> Mais que puis-je moi-même en ce funeste jour</l>
+                        <l n="1188"> Juger de notre sort et de votre retour ?</l>
+                        <l n="1189"> Venez-vous relever ou détruire Messène ?</l>
+                        <l n="1190"> Portez-vous en ces lieux ou l’amour ou la haine</l>
+                        <l n="1191"> Et le cruel dépit qui vous en a chassé</l>
+                        <l n="1192"> Par un contraire effet sera-t-il effacé ?</l>
+                        <l n="1193"> Vous ne répondez rien.</l>
+                </sp>
+        <sp who="#cresphonte">
+            <speaker> CRESPHONTE. </speaker>
+                        <l n="1194"> Lisez dans mon silence</l>
+                        <l n="1195"> De vos maux redoublés l’extrême violence :</l>
+                        <l n="1196"> Sparte est victorieuse, et vous êtes défaits.</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="1197"> Hélas !</l>
+                </sp>
+        <sp who="#cresphonte">
+            <speaker> CRESPHONTE. </speaker>
+                        <l n="1198"> J’avais dessein de couronner la paix,</l>
+                        <l n="1199"> Et bien que mon départ fît craindre un sort contraire,</l>
+                        <l n="1200"> Malgré l’affront reçu Messène m’était chère ;</l>
+                        <l n="1201"> Mais votre Alcidamas a mal interprété</l>
+                        <l n="1202"> Un départ innocent, mais trop précipité.</l>
+                        <l n="1203"> Jetant l’esprit du Roi dans les mêmes alarmes,</l>
+                        <l n="1204"> Il l’a même obligé de recourir aux armes.</l>
+                        <l n="1205"> À peine étais-je au camp qu’ils ont fondu sur nous,</l>
+                        <l n="1206"> Poussés d’un même esprit et d’un même courroux.</l>
+                        <l n="1207"> Ainsi leur désespoir a détruit mon ouvrage.</l>
+                        <l n="1208"> Je ne vous dirai point ce qu’a fait leur courage,</l>
+                        <l n="1209"> Contemplant les grands coups de ces deux furieux,</l>
+                        <l n="1210"> J’ai longtemps soupçonné le rapport de mes yeux.</l>
+                        <l n="1211"> Mais ce n’est rien au prix du grand Aristodème,</l>
+                        <l n="1212"> Je le méconnaissais, ce n’était plus lui-même.</l>
+                        <l n="1213"> M’approchant il m’a dit, mais d’un ton affligé,</l>
+                        <l n="1214"> Je suis content, Cresphonte, et vous êtes vengé.</l>
+                        <l n="1215"> À ces mots je l’ai vu partir comme un tonnerre,</l>
+                        <l n="1216"> Et semblable au démon qui préside à la guerre,</l>
+                        <l n="1217"> Rompre nos escadrons, voler de rang en rang,</l>
+                        <l n="1218"> Et combler tout le camp de désordre et de sang.</l>
+                        <l n="1219"> Par des corps entassés il marque ses vestiges,</l>
+                        <l n="1220"> Et le Sparte confus de ces sanglants prodiges,</l>
+                        <l n="1221"> N’a soin que d’éviter les redoutables coups</l>
+                        <l n="1222"> Dont son bras les moissonne en son bouillant courroux.</l>
+                        <l n="1223"> Cette grande âme enfin de douleur accablée</l>
+                        <l n="1224"> Se dérobe à ma vue entrant dans la mêlée ;</l>
+                        <l n="1225"> Mais comme je cherchais ses pas victorieux</l>
+                        <l n="1226"> Je vois votre grand Roi tomber devant mes yeux.</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="1227"> Hélas !</l>
+                </sp>
+        <sp who="#cresphonte">
+            <speaker> CRESPHONTE. </speaker>
+                        <l n="1228"> À cet objet le Sparte prend courage,</l>
+                        <l n="1229"> Et pour mieux assouvir sa belliqueuse rage,</l>
+                        <l n="1230"> Si mes soins vigilants ne l’eussent conservé</l>
+                        <l n="1231"> Des bras de ses sujets il l’aurait enlevé.</l>
+                        <l n="1232"> De cet illustre Roi le corps plein d’ouvertures</l>
+                        <l n="1233"> Au défaut de la voix parle par ses blessures,</l>
+                        <l n="1234"> Et semble s’écrier, sauvez-moi de leurs mains.</l>
+                        <l n="1235"> Et ma langue et mon bras secondent ses desseins.</l>
+                        <l n="1236"> Je repousse les uns, et j’anime les autres ;</l>
+                        <l n="1237"> J’arrête nos soldats et j’exhorte les vôtres.</l>
+                        <l n="1238"> Quoi, dis-je, souffrez-vous qu’on vous enlève un Roi ?</l>
+                        <l n="1239"> Et pour qui meurt pour vous manquerez-vous de foi ?</l>
+                        <l n="1240"> Ce discours fait cesser la frayeur qui les trouble.</l>
+                        <l n="1241"> Leur âme s’affermit, et leur pitié redouble.</l>
+                        <l n="1242"> Enfin pour seconder leur généreux effort</l>
+                        <l n="1243"> Abandonnant les miens je l’amène en ce fort.</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="1244"> Donc je le puis revoir.</l>
+                </sp>
+        <sp who="#cresphonte">
+            <speaker> CRESPHONTE. </speaker>
+                        <l n="1245"> Il ne vit plus, Madame,</l>
+                        <l n="1246"> Dans mes bras, à mes yeux, ce Prince a rendu l’âme.</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE. </speaker>
+                        <l n="1247"> Il ne vit plus ! Ô mort que je ne puis souffrir !</l>
+                </sp>
+        <sp who="#cresphonte">
+            <speaker> CRESPHONTE. </speaker>
+                        <l n="1248"> Oyez ce qu’il a dit sur le point de mourir.</l>
+                        <l n="1249"> Si j’ai pu voir, dit-il, vos Autels sans victime,</l>
+                        <l n="1250"> Souvenez-vous, Grands Dieux ! Que l’amour fit mon crime.</l>
+                        <l n="1251"> Que s’il a pu choquer votre gloire et mon rang</l>
+                        <l n="1252"> Pour pouvoir l’expier je vous offre mon sang.</l>
+                        <l n="1253"> Puis se tournant vers moi m’adresse ce langage.</l>
+                        <l n="1254"> Cresphonte, me dit-il, dont l’illustre courage</l>
+                        <l n="1255"> A paru si souvent parmi les Messéniens,</l>
+                        <l n="1256"> Et qui pour les servir abandonnas les tiens,</l>
+                        <l n="1257"> S’il reste de ce zèle un rayon dans ton âme</l>
+                        <l n="1258"> Prends soin des beaux objets de notre chaste flamme.</l>
+                        <l n="1259"> Qu’Argie et que Mérope en cette extrémité</l>
+                        <l n="1260"> Éprouvent jusqu’au bout ta générosité ;</l>
+                        <l n="1261"> Sois aussi doux vainqueur que défenseur fidèle,</l>
+                        <l n="1262"> Si je ne puis la voir ni prendre congé d’elle,</l>
+                        <l n="1263"> Et si le Ciel me traite avec tant de rigueur,</l>
+                        <l n="1264"> Lui découvrant mon sort, découvre lui mon cœur.</l>
+                        <l n="1265"> Dis-lui que les malheurs où le Ciel l’abandonne</l>
+                        <l n="1266"> M’affligent beaucoup plus que la mort qu’il me donne,</l>
+                        <l n="1267"> Et que j’estimerais mon destin trop heureux</l>
+                        <l n="1268"> Si la rigueur rendait le sien moins rigoureux,</l>
+                        <l n="1269"> Qu’elle apprenne ma mort, mais qu’elle s’en console.</l>
+                        <l n="1270"> Mérope... Ce cher nom lui coupe la parole,</l>
+                        <l n="1271"> Sa paupière se ferme à la clarté du jour,</l>
+                        <l n="1272"> Et son dernier soupir parle de son amour.</l>
+                        <l n="1273"> Mais enfin...</l>
+                </sp>
+        <sp who="#mérope">
+            <speaker> MÉROPE, l’interrompant. </speaker>
+                        <l n="1274"> Permettez à ma douleur extrême</l>
+                        <l n="1275"> Que j’aille à ce grand Roi rendre l’honneur suprême.</l>
+                        <l n="1276"> Ne m’accompagnez point, ce funeste devoir</l>
+                        <l n="1277"> Loin de me consoler croîtrait mon désespoir :</l>
+                        <l n="1278"> Gardez pour vos malheurs toute votre constance,</l>
+                        <l n="1279"> Vous en avez besoin dedans cette occurrence.</l>
+                        <l n="1280"> Vous n’êtes mieux traité, ni plus heureux que moi.</l>
+                        <l n="1281"> Quel coup peut s’égaler à la perte du Roi ?</l>
+                        <l n="1282"> Adieu.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#cresphonte">
+            <speaker> CRESPHONTE. </speaker>
+                        <l n="1283"> Silence obscur que je ne puis comprendre !</l>
+            <stage><em>À Alcmène.</em></stage>
+                        <l n="1284"> Explique à mon amour ce que je viens d’entendre,</l>
+                        <l n="1285"> C’est lui seul, c’est lui seul qui craint à cette fois.</l>
+                </sp>
+        <sp who="#alcmène">
+            <speaker> ALCMÈNE. </speaker>
+                        <l n="1286"> Que n’étais-je sans yeux ? Que ne suis-je sans voix ?</l>
+                        <l n="1287"> Pour ne pas raconter cette étrange disgrâce ?</l>
+                </sp>
+        <sp who="#cresphonte">
+            <speaker> CRESPHONTE. </speaker>
+                        <l n="1288"> Parle, et n’amoindris pas le coup qui me menace.</l>
+                </sp>
+        <sp who="#alcmène">
+            <speaker> ALCMÈNE. </speaker>
+                        <l n="1289"> À peine Aristodème, enflammé de courroux,</l>
+                        <l n="1290"> Que sa fille vous eût dédaigné pour époux,</l>
+                        <l n="1291"> Eût su d’Alcidamas le discours téméraire,</l>
+                        <l n="1292"> Par le funeste aveu que vous veniez d’en faire,</l>
+                        <l n="1293"> Qu’il estima qu’Argie après l’avoir aimé</l>
+                        <l n="1294"> Avait sans son aveu cet hymen consommé.</l>
+                        <l n="1295"> Plein de ce sentiment il entre dans le Temple,</l>
+                        <l n="1296"> Mais avec un transport qui n’eut jamais d’exemple,</l>
+                        <l n="1297"> Son esprit en désordre, et ses yeux égarés</l>
+                        <l n="1298"> Ne savent où guider ses pas mal assurés.</l>
+                        <l n="1299"> Il paraissait aux miens plus grand que de coutume.</l>
+                        <l n="1300"> D’une maligne ardeur son visage s’allume,</l>
+                        <l n="1301"> Son cœur gros de soupirs l’un par l’autre opprimés</l>
+                        <l n="1302"> N’exhale sa douleur qu’en sanglots mal formés.</l>
+                        <l n="1303"> Quelquefois immobile, et puis tout hors d’haleine</l>
+                        <l n="1304"> Il s’arrête tantôt, et tantôt se promène,</l>
+                        <l n="1305"> Quelque fois sur la terre il attache ses yeux,</l>
+                        <l n="1306"> Puis par de longs regards semble percer les Cieux.</l>
+                        <l n="1307"> Enfin son corps tremblant, et son âme inquiète</l>
+                        <l n="1308"> Cherchant à demeurer dans une ferme assiette</l>
+                        <l n="1309"> Il vient se prosterner aux marches de l’Autel,</l>
+                        <l n="1310"> Comme pour y souffrir le dernier coup mortel.</l>
+                        <l n="1311"> Puis tout à coup de terre il relève sa vue,</l>
+                        <l n="1312"> Et du grand Jupiter regardant la statue,</l>
+                        <l n="1313"> Ne pouvant autrement exprimer ses douleurs</l>
+                        <l n="1314"> Lui parle quelque temps par un torrent de pleurs.</l>
+                        <l n="1315"> Sa voix dedans son sein trop longtemps retenue</l>
+                        <l n="1316"> Comme un foudre enfermé dans celui de la nue,</l>
+                        <l n="1317"> Rompt enfin sa prison, et par un triste éclat</l>
+                        <l n="1318"> Ouvre de son esprit le déplorable état.</l>
+                        <l n="1319"> Dieu, dit-il, qui voyez qu’une fille infidèle</l>
+                        <l n="1320"> Viole vos décrets et s’oppose à mon zèle,</l>
+                        <l n="1321"> Que n’exterminez-vous pour venger notre honneur</l>
+                        <l n="1322"> Cette âme subornée avec son suborneur ?</l>
+                        <l n="1323"> Vous devez protéger votre gloire et la mienne,</l>
+                        <l n="1324"> Vengez-vous, vengez-moi, que rien ne vous retienne,</l>
+                        <l n="1325"> Si le Roi les soutient, qu’il sache que les Rois</l>
+                        <l n="1326"> Tiennent de vous leur force, et sont dessous vos lois,</l>
+                        <l n="1327"> Si vous ne daignez pas faire un tel sacrifice,</l>
+                        <l n="1328"> Servez-vous de mon bras pour ce sanglant office ;</l>
+                        <l n="1329"> Donnez-moi, s’il se peut, votre foudre à lancer,</l>
+                        <l n="1330"> Et bientôt à vos pieds je vais les renverser.</l>
+                        <l n="1331"> Il finissait ces mots, quand sa fille tremblante</l>
+                        <l n="1332"> Pour montrer à quel point elle était innocente,</l>
+                        <l n="1333"> La voix lui défaillant au fort de ses douleurs</l>
+                        <l n="1334"> Vient fondant à ses pieds les laver par ses pleurs.</l>
+                        <l n="1335"> Cet abord le surprend, et la voyant muette</l>
+                        <l n="1336"> Il est de ce silence un mauvais interprète,</l>
+                        <l n="1337"> Prend son étonnement pour un aveu secret,</l>
+                        <l n="1338"> Et d’un œil indigné ne la voit qu’à regret.</l>
+                        <l n="1339"> Puis soudain transporté comme d’un zèle extrême,</l>
+                        <l n="1340"> Je t’adore, dit-il, divinité suprême,</l>
+                        <l n="1341"> Et te rendrai sans cesse un honneur immortel,</l>
+                        <l n="1342"> Puisqu’enfin tu conduis la victime à l’Autel.</l>
+                        <l n="1343"> J’entends ce que tu veux, en Vierge ou violée</l>
+                        <l n="1344"> Ma fille par mes mains te doit être immolée,</l>
+                        <l n="1345"> Et doit perdre la vie en ce fatal moment</l>
+                        <l n="1346"> Pour le bien du pays, ou pour son châtiment.</l>
+                </sp>
+        <sp who="#cresphonte">
+            <speaker> CRESPHONTE. </speaker>
+                        <l n="1347"> Je frémis.</l>
+                </sp>
+        <sp who="#alcmène">
+            <speaker> ALCMÈNE. </speaker>
+                        <l n="1348"> À ces mots il tire son épée,</l>
+                        <l n="1349"> L’âme de désespoir et de rage occupée,</l>
+                        <l n="1350"> Et fermant son oreille aux tendresses du sang</l>
+                        <l n="1351"> D’une main parricide il lui perce le flanc.</l>
+                </sp>
+        <sp who="#cresphonte">
+            <speaker> CRESPHONTE. </speaker>
+                        <l n="1352"> Ô prodige d’horreur ! Ô monstre de nature !</l>
+                </sp>
+        <sp who="#alcmène">
+            <speaker> ALCMÈNE. </speaker>
+                        <l n="1353"> Son sang sort de sa plaie, et sortant il murmure.</l>
+                        <l n="1354"> Mais malgré sa faiblesse embrassant ses genoux,</l>
+                        <l n="1355"> Sa fille tâche encor à fléchir son courroux,</l>
+                        <l n="1356"> Pour ne pas l’écouter il détourne sa vue,</l>
+                        <l n="1357"> Plus que le coup mortel cette rigueur la tue,</l>
+                        <l n="1358"> Et voyant qu’il s’échappe à ses bras languissants</l>
+                        <l n="1359"> S’efforce à l’arrêter par ces tristes accents.</l>
+                        <l n="1360"> Pour le moins quand je meurs écoutez-moi mon père,</l>
+                        <l n="1361"> Dans l’état où je suis ne saurais-je vous plaire ?</l>
+                        <l n="1362"> Goûtez votre vengeance et repaissez vos yeux</l>
+                        <l n="1363"> De la perte d’un sang qui vous est odieux.</l>
+                        <l n="1364"> Souffrez qu’il puisse au moins laver mon infamie.</l>
+                        <l n="1365"> Sa voix réveille enfin la nature endormie,</l>
+                        <l n="1366"> Il commence à la voir d’un œil plus adouci.</l>
+                        <l n="1367"> Tout ce qu’elle ressent, il le ressent aussi.</l>
+                        <l n="1368"> À ce soudain bonheur que le ciel lui renvoie,</l>
+                        <l n="1369"> Argie allait mourir par un excès de joie,</l>
+                        <l n="1370"> Mais le désir de voir ses parents détrompés</l>
+                        <l n="1371"> Rappelle les esprits qu’elle avait dissipés.</l>
+                        <l n="1372"> Au point qu’avec le corps l’âme faisait divorce</l>
+                        <l n="1373"> Par un soudain miracle on voit croître sa force,</l>
+                        <l n="1374"> Et pousser ce discours pour se justifier</l>
+                        <l n="1375"> D’un soupçon que son sang ne pouvait expier.</l>
+                        <l n="1376"> Je ne suis plus, dit-elle, en état de rien feindre,</l>
+                        <l n="1377"> Car enfin en mourant qu’est-ce que je puis craindre ?           </l>
+                        <l n="1378"> Aussi ne crains-je point, arbitres immortels,</l>
+                        <l n="1379"> De jurer à mon père, et devant vos Autels</l>
+                        <l n="1380"> Qu’Alcidamas a feint le crime qu’il m’impose,</l>
+                        <l n="1381"> Justes Dieux ! Si ma mort mérite quelque chose</l>
+                        <l n="1382"> Désabusez mon père, et souffrez qu’aujourd’hui</l>
+                        <l n="1383"> Je paye en expirant pour Messène et pour lui ;</l>
+                        <l n="1384"> Ses vœux sont exaucés, cette belle victime</l>
+                        <l n="1385"> Tombant dedans son sang se lave de son crime.</l>
+                </sp>
+        <sp who="#cresphonte">
+            <speaker> CRESPHONTE. </speaker>
+                        <l n="1386"> Et vous l’avez souffert, Dieux ! Insensibles Dieux !</l>
+                </sp>
+        <sp who="#alcmène">
+            <speaker> ALCMÈNE. </speaker>
+                        <l n="1387"> Quand les siens sont fermés, son père ouvre les yeux,         </l>
+                        <l n="1388"> Et voit dessus l’Autel pour comble de misères</l>
+                        <l n="1389"> Son innocence écrite en sanglants caractères.</l>
+                        <l n="1390"> Alors le désespoir s’emparant de son cœur</l>
+                        <l n="1391"> Il devient à lui-même un objet plein d’horreur,</l>
+                        <l n="1392"> Il se fuit, et voulant s’éloigner de son crime</l>
+                        <l n="1393"> Il sort, puis revenant, innocente victime</l>
+                        <l n="1394"> Prends, dit-il, dans ces pleurs, prends mes derniers adieux.</l>
+                        <l n="1395"> Se levant à ces mots il échappe à nos yeux,</l>
+                        <l n="1396"> Il court sur l’ennemi.</l>
+                </sp>
+        <sp who="#cresphonte">
+            <speaker> CRESPHONTE. </speaker>
+                        <l n="1397"> N’en dis pas davantage,</l>
+                        <l n="1398"> J’ai vu dans le combat ce qu’a fait son courage,          </l>
+                        <l n="1399"> Mais s’il avait alors mille traits à lancer,</l>
+                        <l n="1400"> C’est par moi, c’est par moi qu’il devait commencer.</l>
+                        <l n="1401"> Si j’échappe belle ombre aux traits de votre père,</l>
+                        <l n="1402"> Souffrez que par mes mains j’aille vous satisfaire.</l>
+                        <l n="1403"> Toi conduis-moi de grâce auprès de son tombeau.</l>
+                        <l n="1404"> Mais je vois dans le Temple un spectacle nouveau.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="1405"> Puisque les ennemis sont maîtres de la ville,</l>
+                        <l n="1406"> Grands Dieux qui m’accordez ce Temple pour asile</l>
+                        <l n="1407"> Souffrez pour m’affranchir de la honte des fers</l>
+                        <l n="1408"> Que je retrouve Argie alors que je la perds ;</l>
+                        <l n="1409"> Que vois-je ?</l>
+                </sp>
+        <sp who="#cresphonte">
+            <speaker> CRESPHONTE. </speaker>
+                        <l n="1410"> Ah ! Pauvre amant d’une illustre Princesse,</l>
+                        <l n="1411"> Que je te plains !</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="1412"> Approche, et viens voir ta maîtresse,</l>
+                        <l n="1413"> Vois le triste cercueil où son corps est réduit,</l>
+                        <l n="1414"> Voilà de notre amour le déplorable fruit,</l>
+                        <l n="1415"> Par les mains de son père elle a perdu la vie ;</l>
+                        <l n="1416"> Mais c’est plutôt par nous qu’elle lui fut ravie</l>
+                        <l n="1417"> C’est ma lâche imposture, et ma jalouse humeur,</l>
+                        <l n="1418"> C’est ton zèle, cruel, qui lui perça le cœur,</l>
+                        <l n="1419"> Mais je dois expier et l’un et l’autre crime,</l>
+                        <l n="1420"> De ses mânes sacrés je serai la victime ;</l>
+                        <l n="1421"> Jouis, jouis du trône où t’appellent les Dieux,</l>
+                        <l n="1422"> Après la mort d’Argie il m’est trop odieux,</l>
+                        <l n="1423"> Sur le corps de son Roi Mérope l’a suivie,</l>
+                        <l n="1424"> Son père en combattant a vu trancher sa vie,</l>
+                        <l n="1425"> Et je veux accablé d’un excès de douleur,</l>
+                        <l n="1426"> Confondre en ce moment mon sang avec le leur.</l>
+            <stage><em>Il se frappe.</em></stage>
+                </sp>
+        <sp who="#alcmène">
+            <speaker> ALCMÈNE, accourant. </speaker>
+                        <l n="1427"> Que faites-vous, Seigneur ?</l>
+                </sp>
+        <sp who="#cresphonte">
+            <speaker> CRESPHONTE. </speaker>
+                        <l n="1428"> Ô Dieux !</l>
+                </sp>
+        <sp who="#alcidamas">
+            <speaker> ALCIDAMAS. </speaker>
+                        <l n="1429"> Cresphonte, Alcmène,</l>
+                        <l n="1430"> Je vais rejoindre Argie, et pour calmer la haine</l>
+                        <l n="1431"> Qu’excita dans son âme un discours criminel,</l>
+                        <l n="1432"> Exposer à ses yeux un regret éternel :</l>
+                        <l n="1433"> Belle ombre, en quelque lieu que tu sois devenue,</l>
+                        <l n="1434"> Sur cet infortuné daigne porter la vue,</l>
+                        <l n="1435"> D’un œil moins irrité regarde son trépas,</l>
+                        <l n="1436"> Sa dernière action ne te déplaira pas,</l>
+                        <l n="1437"> Si son crime n’a pu mériter quelque grâce,</l>
+                        <l n="1438"> Il ne tient pas à moi que mon sang ne l’efface,</l>
+                        <l n="1439"> Et mon cœur transpercé de son juste remords,</l>
+                        <l n="1440"> Se plaint de ne pouvoir endurer mille morts.</l>
+                        <l n="1441"> Je me meurs.</l>
+                </sp>
+        <sp who="#alcmène">
+            <speaker> ALCMÈNE. </speaker>
+                        <l n="1442"> Ô malheur !</l>
+                </sp>
+        <sp who="#cresphonte">
+            <speaker> CRESPHONTE. </speaker>
+                        <l n="1443"> Ô funeste aventure !</l>
+                        <l n="1444"> Allons-lui promptement donner la sépulture,</l>
+                        <l n="1445"> Et pour ne pas trahir un exemple si beau,</l>
+                        <l n="1446"> Ensevelissons-nous dans le même tombeau.</l>
+                        <l n="1447"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

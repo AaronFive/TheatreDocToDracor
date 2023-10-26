@@ -1,0 +1,2216 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Le Père prudent et équitable</title>
+                <title type="sub">Comédie</title>
+            <author>
+                <persName>
+                    <surname>Marivaux</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/?q=node/537 </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1706">Représentée pour la première fois en 1706.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="démocrite" sex="SEX">
+                            <persName>DÉMOCRITE</persName>
+                        </person>
+                        <person xml:id="philine" sex="SEX">
+                            <persName>PHILINE</persName>
+                        </person>
+                        <person xml:id="toinette" sex="SEX">
+                            <persName>TOINETTE</persName>
+                        </person>
+                        <person xml:id="cléandre" sex="SEX">
+                            <persName>CLÉANDRE</persName>
+                        </person>
+                        <person xml:id="crispin" sex="SEX">
+                            <persName>CRISPIN</persName>
+                        </person>
+                        <person xml:id="ariste" sex="SEX">
+                            <persName>ARISTE</persName>
+                        </person>
+                        <person xml:id="maître-jacques" sex="SEX">
+                            <persName>MAÎTRE JACQUES</persName>
+                        </person>
+                        <person xml:id="le-chevalier" sex="SEX">
+                            <persName>LE CHEVALIER.</persName>
+                        </person>
+                        <person xml:id="le-financier" sex="SEX">
+                            <persName>LE FINANCIER.</persName>
+                        </person>
+                        <person xml:id="frontin" sex="SEX">
+                            <persName>FRONTIN</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Comédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q40831]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">LE PÈRE PRUDENT ET ÉQUITABLE</titlePart>
+            <titlePart type="sub">COMÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois en 1706.</ab><!--@date="1706"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> À MONSIEUR ROGIER</salute>
+            </opener>
+        <p> SEIGNEUR DU BUISSON, CONSEILLER DU ROI, LIEUTENANT GÉNÉRAL CIVIL ET DE POLICE EN LA SÉNÉCHAUSSÉE ET SIÈGE PRÉSIDIAL DE LIMOGES </p>
+        <p> Monsieur, </p>
+        <p> Le hasard m’ayant fait tomber entre les mains cette petite pièce comique, je prends la liberté de vous la présenter, dans l’espérance qu’elle pourra, pour quelques moments, vous délasser des grands soins qui vous occupent, et qui font l’avantage du public. </p>
+        <p> Je pourrais ici trouver matière à un éloge sincère et sans flatterie ; mais tant d’autres l’ont déjà fait et le font encore tous les jours qu’il est inutile de mêler mes faibles expressions aux nobles et justes idées que tout le monde a de vous ; pour moi, content de vous admirer, je borne ma hardiesse à vous demander l’honneur de votre protection et de me dire, avec un très profond respect, </p>
+        <p> Monsieur, </p>
+        <p> Le très humble et très obéissant serviteur. </p>
+        <p> M*** </p>
+    </div>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="1"> Je veux être obéi ; votre jeune cervelle</l>
+                        <l n="2"> Pour l’utile, aujourd’hui, choisit la bagatelle.</l>
+                        <l n="3"> Cléandre, ce mignon, à vos yeux est charmant :</l>
+                        <l n="4"> Mais il faut l’oublier, je vous le dis tout franc.</l>
+                        <l n="5"> Vous rechignez, je crois, petite créature !</l>
+                        <l n="6"> Ces morveuses, à peine ont-elles pris figure</l>
+                        <l n="7"> Qu’elles sentent déjà ce que c’est que l’amour.</l>
+                        <l n="8"> Eh bien donc ! vous serez mariée en ce jour !</l>
+                        <l n="9"> Il s’offre trois partis : un homme de finance,</l>
+                        <l n="10"> Un jeune Chevalier, le plus noble de France,</l>
+                        <l n="11"> Et Ariste, qui doit arriver aujourd’hui.</l>
+                        <l n="12"> Je le souhaiterais, que vous fussiez à lui.</l>
+                        <l n="13"> Il a de très grands biens, il est près du village ;</l>
+                        <l n="14"> Il est vrai que l’on dit qu’il n’est pas de votre âge :</l>
+                        <l n="15"> Mais qu’importe après tout ? La jeune de Faubon</l>
+                        <l n="16"> En est-elle moins bien pour avoir un barbon ?</l>
+                        <l n="17"> Non. Sans aller plus loin, voyez votre cousine ;</l>
+                        <l n="18"> Avec son vieux époux sans cesse elle badine ;</l>
+                        <l n="19"> Elle saute, elle rit, elle danse toujours.</l>
+                        <l n="20"> Ma fille, les voilà les plus charmants amours.</l>
+                        <l n="21"> Nous verrons aujourd’hui ce que c’est que cet homme.</l>
+                        <l n="22"> Pour les autres, je sais aussi comme on les nomme :</l>
+                        <l n="23"> Ils doivent, sur le soir, me parler tous les deux.</l>
+                        <l n="24"> Ma fille, en voilà trois ; choisissez l’un d’entre eux,</l>
+                        <l n="25"> Je le veux bien encor ; mais oubliez Cléandre ;</l>
+                        <l n="26"> C’est un colifichet qui voudrait nous surprendre,</l>
+                        <l n="27"> Dont les biens, embrouillés dans de très grands procès,</l>
+                        <l n="28"> Peut-être ne viendront qu’après votre décès.</l>
+                </sp>
+        <sp who="#philine">
+            <speaker> PHILINE. </speaker>
+                        <l n="29"> Si mon cœur...</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="30"> Taisez-vous, je veux qu’on m’obéisse.</l>
+                        <l n="31"> Vous suivez sottement votre amoureux caprice ;</l>
+                        <l n="32"> C’est faire votre bien que de vous résister,</l>
+                        <l n="33"> Et je ne prétends point ici vous consulter.</l>
+                        <l n="34"> Adieu.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#philine">
+            <speaker> PHILINE. </speaker>
+                        <l n="35"> Dis-moi, que faire après ce coup terrible ?</l>
+                        <l n="36"> Tout autre que Cléandre à mes yeux est horrible.</l>
+                        <l n="37"> Quel malheur !</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="38"> Il est vrai.</l>
+                </sp>
+        <sp who="#philine">
+            <speaker> PHILINE. </speaker>
+                        <l n="39"> Dans un tel embarras,</l>
+                        <l n="40"> Plutôt que de choisir, je prendrais le trépas.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#cléandre">
+            <speaker> CLÉANDRE. </speaker>
+                        <l n="41"> N’avez-vous pu, Madame, adoucir votre père ?</l>
+                        <l n="42"> À nous unir tous deux est-il toujours contraire ?</l>
+                </sp>
+        <sp who="#philine">
+            <speaker> PHILINE. </speaker>
+                        <l n="43"> Oui, Cléandre.</l>
+                </sp>
+        <sp who="#cléandre">
+            <speaker> CLÉANDRE. </speaker>
+                        <l n="44"> À quoi donc vous déterminez-vous ?</l>
+                </sp>
+        <sp who="#philine">
+            <speaker> PHILINE. </speaker>
+                        <l n="45"> À rien.</l>
+                </sp>
+        <sp who="#cléandre">
+            <speaker> CLÉANDRE. </speaker>
+                        <l n="46"> Je l’avouerai, le compliment est doux.</l>
+                        <l n="47"> Vous m’aimez cependant ; au péril qui nous presse,</l>
+                        <l n="48"> Quand je tremble d’effroi, rien ne vous intéresse.</l>
+                        <l n="49"> Nous sommes menacés du plus affreux malheur :</l>
+                        <l n="50"> Sans alarme pourtant...</l>
+                </sp>
+        <sp who="#philine">
+            <speaker> PHILINE. </speaker>
+                        <l n="51"> Doutez-vous que mon cœur,</l>
+                        <l n="52"> Cher Cléandre, avec vous ne partage vos craintes ?</l>
+                        <l n="53"> De nos communs chagrins je ressens les atteintes ;</l>
+                        <l n="54"> Mais quel remède, enfin, y pourrai-je apporter ?</l>
+                        <l n="55"> Mon père me contraint, puis-je lui résister ?</l>
+                        <l n="56"> De trois maris offerts il faut que je choisisse,</l>
+                        <l n="57"> Et ce choix à mon cœur est un cruel supplice.</l>
+                        <l n="58"> Mais à quoi me résoudre en cette extrémité,</l>
+                        <l n="59"> Si de ces trois partis mon père est entêté ?</l>
+                        <l n="60"> Qu’exigez-vous de moi ?</l>
+                </sp>
+        <sp who="#cléandre">
+            <speaker> CLÉANDRE. </speaker>
+                        <l n="61"> À quoi bon vous le dire,</l>
+                        <l n="62"> Philine, si l’amour n’a pu vous en instruire ?</l>
+                        <l n="63"> Il est des moyens sûrs, et quand on aime bien...</l>
+                </sp>
+        <sp who="#philine">
+            <speaker> PHILINE. </speaker>
+                        <l n="64"> Arrêtez, je comprends, mais je n’en ferai rien.</l>
+                        <l n="65"> Si mon amour m’est cher, ma vertu m’est plus chère.</l>
+                        <l n="66"> Non, n’attendez de moi rien qui lui soit contraire ;</l>
+                        <l n="67"> De ces moyens si sûrs ne me parlez jamais.</l>
+                </sp>
+        <sp who="#cléandre">
+            <speaker> CLÉANDRE. </speaker>
+                        <l n="68"> Quoi !</l>
+                </sp>
+        <sp who="#philine">
+            <speaker> PHILINE. </speaker>
+                        <l n="69"> Si vous m’en parlez, je vous fuis désormais.</l>
+                </sp>
+        <sp who="#cléandre">
+            <speaker> CLÉANDRE. </speaker>
+                        <l n="70"> Eh bien ! fuyez, ingrate, et riez de ma perte.</l>
+                        <l n="71"> Votre injuste froideur est enfin découverte.</l>
+                        <l n="72"> N’attendez point de moi de marques de douleur ;</l>
+                        <l n="73"> On ne perd presque rien à perdre un mauvais cœur ;</l>
+                        <l n="74"> Et ce serait montrer une faiblesse extrême,</l>
+                        <l n="75"> Par de lâches transports de prouver qu’on vous aime,</l>
+                        <l n="76"> Vous qui n’avez pour moi qu’insensibilité.</l>
+                        <l n="77"> Doit-on par des soupirs payer la cruauté ?</l>
+                        <l n="78"> C’en est fait, je vous laisse à votre indifférence ;</l>
+                        <l n="79"> Je vais mettre à vous fuir mon unique constance ;</l>
+                        <l n="80"> Et si vous m’accablez d’un si cruel destin,</l>
+                        <l n="81"> Vous ne jouirez pas du moins de mon chagrin.</l>
+                </sp>
+        <sp who="#philine">
+            <speaker> PHILINE. </speaker>
+                        <l n="82"> Je ne vous retiens pas, devenez infidèle ;</l>
+                        <l n="83"> Donnez-moi tous les noms d’ingrate et de cruelle ;</l>
+                        <l n="84"> Je ne regrette point un amant tel que vous,</l>
+                        <l n="85"> Puisque de ma vertu vous n’êtes point jaloux.</l>
+                </sp>
+        <sp who="#cléandre">
+            <speaker> CLÉANDRE. </speaker>
+                        <l n="86"> Finissons là-dessus ; quand on est sans tendresse</l>
+                        <l n="87"> On peut faire aisément des leçons de sagesse,</l>
+                        <l n="88"> Philine, et quand un cœur chérit comme le mien...</l>
+                        <l n="89"> Mais quoi ! vous le vanter ne servirait de rien.</l>
+                        <l n="90"> Je vous ai mille fois montré toute mon âme,</l>
+                        <l n="91"> Et vous n’ignorez pas combien elle eut de flamme ;</l>
+                        <l n="92"> Mon crime est d’avoir eu le cœur trop enflammé ;</l>
+                        <l n="93"> Vous m’aimeriez encor, si j’avais moins aimé.</l>
+                        <l n="94"> Mais, dussé-je, Philine, être accablé de haine,</l>
+                        <l n="95"> Je sens que je ne puis renoncer à ma chaîne.</l>
+                        <l n="96"> Adieu, Philine, adieu ; vous êtes sans pitié,</l>
+                        <l n="97"> Et je n’exciterais que votre inimité.</l>
+                        <l n="98"> Rien ne vous attendrit : quel cœur ! qu’il est barbare !</l>
+                        <l n="99"> Le mien dans les soupirs s’abandonne et s’égare.</l>
+                        <l n="100"> Ha ! qu’il m’eût été doux de conserver mes feux !</l>
+                        <l n="101"> Plus content mille fois... Que je suis malheureux !</l>
+                        <l n="102"> Adieu, chère Philine...</l>
+            <stage><em>Il s’en va et il revient.</em></stage>
+                        <l n="103"> Avant que je vous quitte...</l>
+                        <l n="104"> De quelques feints regrets du moins plaignez ma fuite.</l>
+                </sp>
+        <sp who="#philine">
+            <speaker> PHILINE, s’en allant aussi et soupirant. </speaker>
+                        <l n="105"> Ah !</l>
+                </sp>
+        <sp who="#cléandre">
+            <speaker> CLÉANDRE l’arrête. </speaker>
+                        <l n="106"> Mais où fuyez-vous ? arrêtez donc vos pas.</l>
+                        <l n="107"> Je suis prêt d’obéir ; et ne me fuyez pas.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="108"> Votre père pourrait, Madame, vous surprendre ;</l>
+                        <l n="109"> Vous savez qu’il n’est pas fort prudent de l’attendre ;</l>
+                        <l n="110"> Finissez vos débats, et calmez le chagrin...</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="111"> Oui, croyez-en, Madame, et Toinette et Crispin ;</l>
+                        <l n="112"> Faites la paix tous deux.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="113"> Quoi ! toujours triste mine !</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="114"> Parbleu ! qu’avez-vous donc, Monsieur, qui vous chagrine ?</l>
+                        <l n="115"> Je suis de vos amis, ouvrez-moi votre cœur :</l>
+                        <l n="116"> À raconter sa peine on sent de la douceur.</l>
+                        <l n="117"> Chassez de votre esprit toute triste pensée.</l>
+                        <l n="118"> Votre bourse, Monsieur, serait-elle épuisée ?</l>
+                        <l n="119"> C’est, il faut l’avouer, un destin bien fatal ;</l>
+                        <l n="120"> Mais en revanche, aussi, c’est un destin banal.</l>
+                        <l n="121"> Nombre de gens, atteints de la même faiblesse,</l>
+                        <l n="122"> Dans leur triste gousset logent la sécheresse :</l>
+                        <l n="123"> Mais Crispin fut toujours un généreux garçon ;</l>
+                        <l n="124"> Je vous offre ma bourse, usez-en sans façon.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="125"> Ah ! que vous m’ennuyez ! pour finir vos alarmes,</l>
+                        <l n="126"> C’est un fort bon moyen que de verser des larmes !</l>
+                        <l n="127"> Retournez au logis passer votre chagrin.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="128"> Et retournons au nôtre y prendre un doigt de vin.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="129"> Que vous êtes enfants !</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="130"> Leur douloureux martyre,</l>
+                        <l n="131"> En les faisant pleurer, me fait crever de rire.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="132"> Qu’un air triste et mourant vous sied bien à tous deux !</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="133"> Qu’il est beau de pleurer, quand on est amoureux !</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="134"> Eh bien ! finissez-vous ? toi, Crispin, tiens ton maître.</l>
+                        <l n="135"> Hélas ! que vous avez de peine à vous connaître !</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="136"> Ils ne se disent mot, Toinette ; sifflons-les.</l>
+                        <l n="137"> On siffle bien aussi messieurs les perroquets.</l>
+                </sp>
+        <sp who="#cléandre">
+            <speaker> CLÉANDRE. </speaker>
+                        <l n="138"> Promettez-moi, Philine, une vive tendresse.</l>
+                </sp>
+        <sp who="#philine">
+            <speaker> PHILINE. </speaker>
+                        <l n="139"> Je n’aurai pas de peine à tenir ma promesse.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="140"> Quel aimable jargon ! je me sens attendrir ;</l>
+                        <l n="141"> Si vous continuez, je vais m’évanouir.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="142"> Hélas ! beau Cupidon ! le douillet personnage !</l>
+                        <l n="143"> Mais, Madame, en un mot, cessez ce badinage.</l>
+                        <l n="144"> Votre père viendra.</l>
+                </sp>
+        <sp who="#cléandre">
+            <speaker> CLÉANDRE. </speaker>
+                        <l n="145"> Non, il ne suffit pas</l>
+                        <l n="146"> D’avoir pour à présent terminé nos débats.</l>
+                        <l n="147"> Voyons encore ici quel biais l’on pourrait prendre,</l>
+                        <l n="148"> Pour nous unir enfin, ce qu’on peut entreprendre.</l>
+                </sp>
+        <sp who="#philine">
+            <speaker> PHILINE, à Toinette. </speaker>
+                        <l n="149"> De mon père tu sais quelle est l’intention.</l>
+                        <l n="150"> Il m’offre trois partis : Ariste, un vieux barbon ;</l>
+                        <l n="151"> L’autre est un chevalier, l’autre homme de finance ;</l>
+                        <l n="152"> Mais Ariste, ce vieux, aurait la préférence :</l>
+                        <l n="153"> Il a de très grands biens, et mon père aujourd’hui</l>
+                        <l n="154"> Pourrait le préférer à tout autre parti.</l>
+                        <l n="155"> Il arrive en ce jour.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="156"> Je le sais, mais que faire ?</l>
+                        <l n="157"> Je ne vois rien ici qui ne vous soit contraire.</l>
+                        <l n="158"> Dans ta tête, Crispin, cherche, invente un moyen.</l>
+                        <l n="159"> Pour moi, je suis à bout, et je ne trouve rien.</l>
+                        <l n="160"> Remue un peu, Crispin, ton imaginative.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="161"> En fait de tours d’esprit, la femelle est plus vive.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="162"> Pour moi, je doute fort qu’on puisse rien trouver.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN, tout d’un coup en enthousiasme. </speaker>
+                        <l n="163"> Silence ! par mes soins je prétends vous sauver.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="164"> Dieux ! quel enthousiasme !</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="165"> Halte là ! mon génie</l>
+                        <l n="166"> Va des fureurs du sort affranchir votre vie.</l>
+                        <l n="167"> Ne redoutez plus rien ; je vais tarir vos pleurs,</l>
+                        <l n="168"> Et vous allez par moi voir finir vos malheurs.</l>
+                        <l n="169"> Oui, quoique le destin vous livre ici la guerre,</l>
+                        <l n="170"> Si Crispin est pour vous...</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="171"> Quel bruit pour ne rien faire !</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="172"> Osez-vous me troubler, dans l’état où je suis ?</l>
+                        <l n="173"> Si ma main... Mais, plutôt, rappelons nos esprits.</l>
+                        <l n="174"> J’enfante...</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="175"> Un avorton.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="176"> Le dessein d’une intrigue.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="177"> Eh ! ne dirait-on pas qu’il médite une ligue ?</l>
+                        <l n="178"> Venons, venons au fait.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="179"> Enfin je l’ai trouvé.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="180"> Ha ! votre enthousiasme est enfin achevé.</l>
+            <stage><em>Crispin, parlant à Philine.</em></stage>
+                        <l n="181"> D’Ariste vous craignez la subite arrivée.</l>
+                </sp>
+        <sp who="#philine">
+            <speaker> PHILINE. </speaker>
+                        <l n="182"> Peut-être qu’à ce vieux je me verrais livrée.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN, à Cléandre. </speaker>
+                        <l n="183"> Vaines terreurs, chansons. Vous, vous êtes certain</l>
+                        <l n="184"> De ne pouvoir jamais lui donner votre main ?</l>
+                </sp>
+        <sp who="#cléandre">
+            <speaker> CLÉANDRE. </speaker>
+                        <l n="185"> Oui vraiment.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="186"> Avec moi, tout ceci bagatelle.</l>
+                </sp>
+        <sp who="#cléandre">
+            <speaker> CLÉANDRE. </speaker>
+                        <l n="187"> Hé que faire ?</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="188"> Ah ! parbleu, ménagez ma cervelle.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="189"> Benêt !</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="190"> Sans compliment : c’est dans cette journée,</l>
+                        <l n="191"> Qu’Ariste doit venir pour tenter hyménée ?</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="192"> Sans doute.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="193"> Du voyage il perdra tous les frais.</l>
+                        <l n="194"> Je saurai de ces lieux l’éloigner pour jamais.</l>
+                        <l n="195"> Quand il sera parti, je prendrai sa figure :</l>
+                        <l n="196"> D’un campagnard grossier imitant la posture,</l>
+                        <l n="197"> J’irai trouver ce père, et vous verrez enfin</l>
+                        <l n="198"> Et quel trésor je suis, et ce que vaut Crispin.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="199"> Mais enfin, lui parti, cet homme de finance,</l>
+                        <l n="200"> De La Boursinière, est rival d’importance.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="201"> Nous pourvoirons à tout.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="202"> Ce chevalier charmant ?...</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="203"> Ce sont de nos cadets brouillés avec l’argent :</l>
+                        <l n="204"> Chez les vieilles beautés est leur bureau d’adresse.</l>
+                        <l n="205"> Qu’il y cherche fortune.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="206"> Hé oui, mais le temps presse.</l>
+                        <l n="207"> Ne t’amuse donc pas, Crispin ; il faut pourvoir</l>
+                        <l n="208"> À chasser tous les trois, et même dès ce soir.</l>
+                        <l n="209"> Ariste étant parti, dis-nous par quelle adresse,</l>
+                        <l n="210"> Des deux autres messieurs...</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="211"> J’ai des tours de souplesse</l>
+                        <l n="212"> Dont l’effet sera sûr... À propos, j’ai besoin</l>
+                        <l n="213"> De quelque habit de femme.</l>
+                </sp>
+        <sp who="#cléandre">
+            <speaker> CLÉANDRE. </speaker>
+                        <l n="214"> Hé bien ! j’en aurai soin :</l>
+                        <l n="215"> Va, je t’en donnerai.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="216"> Je connais certain drôle,</l>
+                        <l n="217"> Que je dois employer, et qui jouera son rôle.</l>
+            <stage><em>Se tournant vers Cléandre et Philine, il dit :</em></stage>
+                        <l n="218"> Vous, ne paraissez pas ; et vous, ne craignez rien :</l>
+                        <l n="219"> Tout doit vous réussir, cet oracle est certain.</l>
+                        <l n="220"> Je ne m’éloigne pas. Avertis-moi, Toinette,</l>
+                        <l n="221"> Si l’un des trois arrive, afin que je l’arrête.</l>
+                </sp>
+        <sp who="#cléandre">
+            <speaker> CLÉANDRE. </speaker>
+                        <l n="222"> Adieu, chère Philine.</l>
+                </sp>
+        <sp who="#philine">
+            <speaker> PHILINE. </speaker>
+                        <l n="223"> Adieu.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#cléandre">
+            <speaker> CLÉANDRE. </speaker>
+                        <l n="224"> Mais dis, Crispin,</l>
+                        <l n="225"> Pour tromper Démocrite es-tu bien assez fin ?</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="226"> Reposez-vous sur moi, dormez en assurance,</l>
+                        <l n="227"> Et méritez mes soins par votre confiance.</l>
+                        <l n="228"> De ce que j’entreprends je sors avec honneur,</l>
+                        <l n="229"> Ou j’en sors, pour le moins, toujours avec bonheur.</l>
+                </sp>
+        <sp who="#cléandre">
+            <speaker> CLÉANDRE. </speaker>
+                        <l n="230"> Que tu me rends content ! Si j’épouse Philine,</l>
+                        <l n="231"> Je te fonde, Crispin, une sûre cuisine.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="232"> Je savais autrefois quelques mots de latin :</l>
+                        <l n="233"> Mais depuis qu’à vos pas m’attache le destin,</l>
+                        <l n="234"> De tous les temps, celui que garde ma mémoire.</l>
+                        <l n="235"> C’est le futur, soit dit sans taxer votre gloire,</l>
+                        <l n="236"> Vous dites au futur : Ça, tu seras payé ;</l>
+                        <l n="237"> Pour de présent, caret : vous l’avez oublié.</l>
+                </sp>
+        <sp who="#cléandre">
+            <speaker> CLÉANDRE. </speaker>
+                        <l n="238"> Va, tu ne perdras rien ; ne te mets point en peine.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="239"> Quand vous vous marierez, j’aurai bien mon étrenne.</l>
+                        <l n="240"> Sortons ; mais quel serait ce grand original ?</l>
+                        <l n="241"> Ma foi, ce pourrait bien être notre animal.</l>
+                        <l n="242"> Allez chez vous m’attendre.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#maître-jacques">
+            <speaker> MAÎTRE JACQUES. </speaker>
+                        <l n="243"> C’est là, monsieur Ariste :</l>
+                        <l n="244"> Velà bian la maison, je le sens à la piste ;</l>
+                        <l n="245"> Mais l’homme que voici nous instruira de ça.</l>
+                        <l n="246"> Crispin, s’entortillant le nez dans son manteau.</l>
+                        <l n="247"> Que cherchez-vous, Messieurs ?</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="248"> Ne serait-ce pas là</l>
+                        <l n="249"> La maison d’un nommé le Seigneur Démocrite ?</l>
+                </sp>
+        <sp who="#maître-jacques">
+            <speaker> MAÎTRE JACQUES. </speaker>
+                        <l n="250"> Je sons partis tous deux pour lui rendre visite.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="251"> Oui, que demandez-vous ?</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="252"> J’arrive ici pour lui.</l>
+                </sp>
+        <sp who="#maître-jacques">
+            <speaker> MAÎTRE JACQUES. </speaker>
+                        <l n="253"> C’est que ce Démocrite avertit celui-ci</l>
+                        <l n="254"> Qu’il lui baillait sa fille, et ça m’a fait envie ;</l>
+                        <l n="255"> Je venions assister à la çarimonie.</l>
+                        <l n="256"> Je devons épouser la fille de Jacquet,</l>
+                        <l n="257"> Et je venions un peu voir comment ça se fait.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="258"> Est-ce Ariste ?</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="259"> C’est moi.</l>
+                </sp>
+        <sp who="#maître-jacques">
+            <speaker> MAÎTRE JACQUES. </speaker>
+                        <l n="260"> Velà sa portraiture,</l>
+                        <l n="261"> Tout comme l’a bâti notre mère nature.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="262"> Moi, je suis Démocrite.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="263"> Ah ! quel heureux hasard !</l>
+                        <l n="264"> Démocrite, pardon si j’arrive un peu tard.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="265"> Vous vous moquez de moi.</l>
+                </sp>
+        <sp who="#maître-jacques">
+            <speaker> MAÎTRE JACQUES. </speaker>
+                        <l n="266"> Velà donc le biau-père ?</l>
+                        <l n="267"> Oh ! bian, pisque c’est vous, souffrez donc sans mystère</l>
+                        <l n="268"> Que je vous dégauchisse un petit compliment,</l>
+                        <l n="269"> En vous remarcissant de votre traitement.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="270"> Vous me comblez d’honneur ; je voudrais que ma fille</l>
+                        <l n="271"> Pût, dans la suite, Ariste, unir notre famille.</l>
+                        <l n="272"> On nous a fait de vous un si sage récit.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="273"> Je ne mérite pas tout ce qu’on en a dit.</l>
+                </sp>
+        <sp who="#maître-jacques">
+            <speaker> MAÎTRE JACQUES. </speaker>
+                        <l n="274"> Palsangué ! qu’ils feront tous deux un beau carrage</l>
+                        <l n="275"> Je ne sais pas au vrai si la fille est bian sage ;</l>
+                        <l n="276"> Mais, margué ! je m’en doute.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="277"> Il ne me sied pas bien</l>
+                        <l n="278"> De la louer moi-même et d’en dire du bien.</l>
+                        <l n="279"> Vous en pourrez juger, elle est très vertueuse.</l>
+                </sp>
+        <sp who="#maître-jacques">
+            <speaker> MAÎTRE JACQUES. </speaker>
+                        <l n="280"> Biau-père, dites-moi, n’est-elle pas rêveuse ?</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="281"> Monsieur sera content s’il devient son époux.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="282"> C’est, je l’ose assurer, mon souhait le plus doux ;</l>
+                        <l n="283"> Et quoique dans ces lieux j’aie fait ma retraite...</l>
+                </sp>
+        <sp who="#maître-jacques">
+            <speaker> MAÎTRE JACQUES, vite. </speaker>
+                        <l n="284"> C’est qu’en ville autrefois sa fortune était faite.</l>
+                        <l n="285"> Il était emplouyé dans un très grand emploi ;</l>
+                        <l n="286"> Mais on le rechercha de par Monsieur le Roi.</l>
+                        <l n="287"> Il avait un biau train ; quelques farmiers venirent ;</l>
+                        <l n="288"> Ah ! les méchants bourriaux ! les farmiers le forcirent</l>
+                        <l n="289"> À compter. Ils disiont que Monsieur avait pris</l>
+                        <l n="290"> Plus d’argent qu’il ne faut et qu’il n’était permis ;</l>
+                        <l n="291"> Enfin, tout ci, tout ça, ces gens, pour son salaire,</l>
+                        <l n="292"> Vouliont, ce disaient-ils, lui faire pardre terre.</l>
+                        <l n="293"> Ceti-ci prit la mouche ; il leur plantit tout là,</l>
+                        <l n="294"> Et de ci les valets, et les cheviaux de là ;</l>
+                        <l n="295"> Et Monsieur, bien fâché d’une telle avanie,</l>
+                        <l n="296"> S’en venit dans les champs vivre en mélancoulie.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="297"> Le fait est seulement que, lassé du fracas,</l>
+                        <l n="298"> Le séjour du village a pour moi plus d’appas.</l>
+                </sp>
+        <sp who="#maître-jacques">
+            <speaker> MAÎTRE JACQUES, apercevant Toinette à une fenêtre. </speaker>
+                        <l n="299"> Ah ! le friand minois que je vois qui regarde !</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE, à la fenêtre. </speaker>
+                        <l n="300"> Eh ! qui sont donc ces gens ?</l>
+                </sp>
+        <sp who="#maître-jacques">
+            <speaker> MAÎTRE JACQUES. </speaker>
+                        <l n="301"> L’agriable camarde !</l>
+                        <l n="302"> Biau-père, c’est l’enfant dont vous voulez parler ?</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="303"> Il est vrai, c’est ma fille ; et je vais l’appeler.</l>
+                        <l n="304"> Ma fille, descendez.</l>
+            <stage><em>Il fait signe à Toinette.</em></stage>
+                </sp>
+        <sp who="#maître-jacques">
+            <speaker> MAÎTRE JACQUES. </speaker>
+                        <l n="305"> Morgué, qu’elle est gentille !</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#crispin">
+            <speaker> CRISPIN, allant au-devant de Toinette, et lui disant bas. </speaker>
+                        <l n="306"> Fais ton rôle, entends-tu ? je te nomme ma fille,</l>
+                        <l n="307"> Et cet homme est Ariste. Approchez-vous de nous,</l>
+                        <l n="308"> Ma fille, et saluez votre futur époux.</l>
+                </sp>
+        <sp who="#maître-jacques">
+            <speaker> MAÎTRE JACQUES. </speaker>
+                        <l n="309"> Jarnigué, la friponne ! elle aurait ma tendresse.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="310"> Je serais trop heureux, Monsieur, je le confesse.</l>
+                        <l n="311"> Madame a des appas dont on est si charmé,</l>
+                        <l n="312"> Qu’en la voyant d’abord on se sent enflammé.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="313"> Est-il vrai, trouvez-vous que je sois bien aimable ?</l>
+                        <l n="314"> On ne voit, me dit-on, rien de plus agréable ;</l>
+                        <l n="315"> En gros je suis parfaite, et charmante en détail :</l>
+                        <l n="316"> Mes yeux sont tout de feu, mes lèvres de corail,</l>
+                        <l n="317"> Le nez le plus friand, la taille la plus fine.</l>
+                        <l n="318"> Mais mon esprit encor vaut bien mieux que ma mine.</l>
+                        <l n="319"> Gageons que votre cœur ne tient pas d’un filet ?</l>
+                        <l n="320"> Fripon, vous soupirez, avouez-le tout net.</l>
+                        <l n="321"> Il est tout interdit.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="322"> Tu réponds à merveilles ;</l>
+                        <l n="323"> Courage sur ce ton.</l>
+                </sp>
+        <sp who="#maître-jacques">
+            <speaker> MAÎTRE JACQUES. </speaker>
+                        <l n="324"> Ça ravit mes oreilles.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="325"> Que veut dire ceci ? veut-elle badiner ?</l>
+                        <l n="326"> Cet air et ses discours ont droit de m’étonner.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="327"> Je vois que le pauvre homme a perdu la parole :</l>
+                        <l n="328"> S’il devenait muet, papa, je deviens folle.</l>
+                        <l n="329"> Parlez donc, cher amant, petit mari futur ;</l>
+                        <l n="330"> Sied-il bien aux amants d’avoir le cœur si dur ?</l>
+                        <l n="331"> Allez, petit ingrat, vous méritez ma haine.</l>
+                        <l n="332"> Je ferai désormais la fière et l’inhumaine.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="333"> Je n’y comprends plus rien.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="334"> Tourne vers moi les yeux,</l>
+                        <l n="335"> Et vois combien les miens sont tendres amoureux.</l>
+                        <l n="336"> Ha ! que pour toi déjà j’ai conçu de tendresse !</l>
+                        <l n="337"> Ô trop heureux mortel de m’avoir pour maîtresse !</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="338"> Dans quel égarement...</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="339"> Vous ne me dites mot !</l>
+                        <l n="340"> Je vous croyais poli, mais vous n’êtes qu’un sot.</l>
+                        <l n="341"> Moi devenir sa femme ! ha, ha, quelle figure !</l>
+                        <l n="342"> Marier un objet, chef-d’œuvre de nature,</l>
+                        <l n="343"> Fi donc ! avec un singe aussi vilain que lui !</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE, bas. </speaker>
+                        <l n="344"> La guenon !</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="345"> Cher papa, non, j’en mourrais d’ennui.</l>
+                        <l n="346"> Je suis, vous le savez, sujette à la migraine ;</l>
+                        <l n="347"> L’aspect de ce magot la rendrait quotidienne.</l>
+                        <l n="348"> Que je le hais déjà ! je ne le puis souffrir.</l>
+                        <l n="349"> S’il devient mon époux, ma vertu va finir ;</l>
+                        <l n="350"> Je ne réponds de rien.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="351"> Quelle étrange folie !</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="352"> Son humeur est contraire à la mélancolie.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="353"> À l’autre !</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="354"> Expliquez-vous, ne vous plaît-elle pas ?</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="355"> Sans son extravagance elle aurait des appas.</l>
+                        <l n="356"> Retirons-nous d’ici, laissons ces imbéciles :</l>
+                        <l n="357"> Ils auraient de l’argent à courir dans les villes.</l>
+                        <l n="358"> Nous venons de bien loin pour ne voir que des fous.</l>
+                </sp>
+        <sp who="#maître-jacques">
+            <speaker> MAÎTRE JACQUES. </speaker>
+                        <l n="359"> Adieu, biauté quinteuse ; adieu donc, sans courroux.</l>
+                        <l n="360"> La peste les étouffe.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="361"> Mon humeur est mutine :</l>
+                        <l n="362"> Point de bruit, s’il vous plaît, ou bien sur votre échine</l>
+                        <l n="363"> J’apostrophe un ergo qu’on nomme in barbara.</l>
+                </sp>
+        <sp who="#maître-jacques">
+            <speaker> MAÎTRE JACQUES. </speaker>
+                        <l n="364"> Ah ! morgué, le biau nid que j’avions trouvé là !</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="365"> Il est congédié.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="366"> Grâces à mon adresse.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="367"> Je te trouve en effet digne de ma tendresse.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="368"> Est-il vrai, sieur Crispin ? ah ! vous vous ravalez.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="369"> Vous ne savez donc pas tout ce que vous valez ?</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="370"> C’est trop se prodiguer.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="371"> Je ne puis m’en défendre :</l>
+                        <l n="372"> Les grands hommes souvent se plaisent à descendre.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="373"> Démocrite paraît : adieu, songe au projet.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="374"> Ne t’embarrasse pas : va, je sais mon sujet.</l>
+                        <l n="375"> Je vais me dire Ariste, et trouver Démocrite,</l>
+                        <l n="376"> Et je saurai chasser les autres dans la suite.</l>
+                        <l n="377"> Mais prends garde, l’un d’eux pourrait bien arriver :</l>
+                        <l n="378"> Je ne m’écarte point, viens vite me trouver.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="379"> Ils ne viendront qu’au soir rendre visite au père.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="380"> Je pourrai donc les voir et terminer l’affaire.</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="381"> Toinette !</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="382"> Eh bien ! Monsieur ?</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="383"> Puisque c’est aujourd’hui</l>
+                        <l n="384"> Qu’Ariste doit venir, ayez soin que pour lui</l>
+                        <l n="385"> L’on prépare un régal : ma fille est prévenue...</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="386"> Je sais fort bien, Monsieur, qu’elle attend sa venue ;</l>
+                        <l n="387"> Mais, pour être sa femme, il est un peu trop vieux.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="388"> Il a plus de raison.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="389"> En sera-t-elle mieux ?</l>
+                        <l n="390"> La raison, à son âge, est, ma foi, bagatelle,</l>
+                        <l n="391"> Et la raison n’est pas le charme d’une belle.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="392"> Mais elle doit suffire.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="393"> Oui, pour de vieux époux ;</l>
+                        <l n="394"> Mais les jeunes, Monsieur, n’en sont pas si jaloux.</l>
+                        <l n="395"> Un peu moins de raison, plus de galanterie ;</l>
+                        <l n="396"> Et voilà ce qui fait le plaisir de la vie.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="397"> C’en est fait, taisez-vous, je lui laisse le choix :</l>
+                        <l n="398"> Qu’elle prenne celui qui lui plaira des trois.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="399"> Mais...</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="400"> Mais retirez-vous, et gardez le silence !</l>
+                        <l n="401"> Parbleu, c’est bien à vous à taxer ma prudence !</l></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE, seul </speaker>
+                        <l n="402"> En effet, est-il rien de plus avantageux ?</l>
+                        <l n="403"> Quoi ! je préférerais, pour je ne sais quels feux,</l>
+                        <l n="404"> Un jeune homme sans biens à trois partis sortables !</l>
+                        <l n="405"> Que faire, sans le bien, des figures aimables ?</l>
+                        <l n="406"> S’il gagnait son procès, cet amant si chéri,</l>
+                        <l n="407"> En ce cas, il pourrait devenir son mari :</l>
+                        <l n="408"> Mais vider des procès, c’est une mer à boire.</l></div>
+        <div type="scene" xml:id=" X ">
+            <head> Scène X </head>
+        <sp who="#le-chevalier">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="409"> C’est ici.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE, ne voyant pas le Chevalier. </speaker>
+                        <l n="410"> C’est moi seul, enfin, que j’en veux croire.</l>
+                </sp>
+        <sp who="#le-chevalier">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="411"> Le seigneur Démocrite est-il pas logé là ?</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="412"> Voulez-vous lui parler ?</l>
+                </sp>
+        <sp who="#le-chevalier">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="413"> Oui, Monsieur.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="414"> Le voilà.</l>
+                </sp>
+        <sp who="#le-chevalier">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="415"> La rencontre est heureuse, et ma joie est extrême,</l>
+                        <l n="416"> En arrivant d’abord, de vous trouver vous-même.</l>
+                        <l n="417"> Philine est le sujet qui m’amène vers vous :</l>
+                        <l n="418"> Mon bonheur sera grand si je suis son époux.</l>
+                        <l n="419"> Je suis le chevalier de la Minardinière.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="420"> Ah ! je comprends, Monsieur, et la chose est fort claire ;</l>
+                        <l n="421"> Je suis instruit de tout ; j’espérais de vous voir,</l>
+                        <l n="422"> Comme on me l’avait dit, aujourd’hui sur le soir.</l>
+                </sp>
+        <sp who="#le-chevalier">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="423"> Puis-je croire, Monsieur, que votre aimable fille</l>
+                        <l n="424"> Voudra bien consentir d’unir notre famille ?</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="425"> Je suis persuadé que vous lui plairez fort.</l>
+                        <l n="426"> Si vous ne lui plaisiez, elle aurait un grand tort ;</l>
+                        <l n="427"> Mais comme vous avez pressé votre visite,</l>
+                        <l n="428"> Et qu’on n’espérait pas que vous vinssiez si vite,</l>
+                        <l n="429"> Elle est chez un parent, même assez loin d’ici.</l>
+                        <l n="430"> Si vous vouliez, Monsieur, revenir aujourd’hui,</l>
+                        <l n="431"> Vous vous verriez tous deux, et l’on prendrait mesure.</l>
+                </sp>
+        <sp who="#le-chevalier">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="432"> Vous pouvez ordonner, et c’est me faire injure</l>
+                        <l n="433"> Que de penser, Monsieur, que je plaignis mes pas,</l>
+                        <l n="434"> Et l’espoir qui me flatte a pour moi trop d’appas.</l>
+                        <l n="435"> Je reviens sur le soir.</l></div>
+        <div type="scene" xml:id=" XI ">
+            <head> Scène XI </head>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE, seul </speaker>
+                        <l n="436"> Je fais avec prudence</l>
+                        <l n="437"> De ne l’avoir trompé par aucune assurance.</l>
+                        <l n="438"> Il est bon de choisir ; j’en dois voir encor deux,</l>
+                        <l n="439"> Et ma fille à son gré choisira l’un d’entre eux.</l>
+                        <l n="440"> Ariste et l’autre ici doivent bientôt se rendre,</l>
+                        <l n="441"> Et j’aurai dans ce jour l’un des trois pour mon gendre.</l>
+                        <l n="442"> Quelque mérite enfin qu’ait notre Chevalier,</l>
+                        <l n="443"> Il faut attendre Ariste et notre financier.</l>
+                        <l n="444"> L’heure approche, et bientôt...</l></div>
+        <div type="scene" xml:id=" XII ">
+            <head> Scène XII </head>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="445"> Morbleu de Démocrite !</l>
+                        <l n="446"> Je pense qu’à mes yeux sa maison prend la fuite.</l>
+                        <l n="447"> Depuis longtemps ici que je la cherche en vain,</l>
+                        <l n="448"> J’aurais, je gage, bu dix chopines de vin.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="449"> Quel ivrogne ! parlez, auriez-vous quelque affaire</l>
+                        <l n="450"> Avec lui ?</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="451"> Babillard, vous plaît-il de vous taire ?</l>
+                        <l n="452"> Vous interroge-t-on ?</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="453"> Mais c’est moi qui le suis.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="454"> Ah ! ah ! je me reprends, si je me suis mépris.</l>
+                        <l n="455"> Comment vous portez-vous ? Je me porte à merveille,</l>
+                        <l n="456"> Et je suis toujours frais, grâce au jus de la treille.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="457"> Votre nom, s’il vous plaît ?</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="458"> Et mon surnom aussi.</l>
+                        <l n="459"> Je suis Antoine Ariste, arrivé d’aujourd’hui.</l>
+                        <l n="460"> Exprès pour épouser votre fille, je pense :</l>
+                        <l n="461"> Car le doute est fondé dessus l’expérience.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="462"> Vous êtes goguenard ; je suis pourtant charmé</l>
+                        <l n="463"> De vous voir.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="464"> Dites-moi, pourrai-je en être aimé ?</l>
+                        <l n="465"> Voyons-la.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="466"> Je le veux : qu’on appelle ma fille.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="467"> Je me promets de faire une grande famille ;</l>
+                        <l n="468"> J’aime fort à peupler.</l></div>
+        <div type="scene" xml:id=" XIII ">
+            <head> Scène XIII </head>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="469"> La voilà.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="470"> Je la vois.</l>
+                        <l n="471"> Mon humeur lui plaira, j’en juge à son minois.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="472"> Ma fille, c’est Ariste.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="473"> Oh ! oh ! que de fontange !</l>
+                        <l n="474"> Il faut quitter cela, ma mignonne, mon ange.</l>
+                </sp>
+        <sp who="#philine">
+            <speaker> PHILINE. </speaker>
+                        <l n="475"> Eh ! pourquoi les quitter ?</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="476"> Quelles sont vos raisons ?</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="477"> Oui, oui, parmi les bœufs, les vaches, les dindons,</l>
+                        <l n="478"> Il vous fera beau voir de rubans tout ornée !</l>
+                        <l n="479"> Dans huit jours vous serez couleur de cheminée.</l>
+                        <l n="480"> Tous mes biens sont ruraux, il faut beaucoup de soin :</l>
+                        <l n="481"> Tantôt c’est au grenier, pour descendre du foin ;</l>
+                        <l n="482"> Veiller sur les valets, leur préparer la soupe ;</l>
+                        <l n="483"> Filer tantôt du lin, et tantôt de l’étoupe ;</l>
+                        <l n="484"> À faute de valets, souvent laver les plats,</l>
+                        <l n="485"> Éplucher la salade, et refaire les draps ;</l>
+                        <l n="486"> Se lever avant jour, en jupe ou camisole ;</l>
+                        <l n="487"> Pour éveiller ses gens, crier comme une folle :</l>
+                        <l n="488"> Voilà, ma chère enfant, désormais votre emploi,</l>
+                        <l n="489"> Et de ce que je veux faites-vous une loi.</l>
+                </sp>
+        <sp who="#philine">
+            <speaker> PHILINE. </speaker>
+                        <l n="490"> Dieux ! quel original ! je n’en veux point, mon père !</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="491"> Ce rustique bourgeois commence à me déplaire.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="492"> Ses souliers, pour les champs, sont un peu trop mignons :</l>
+                        <l n="493"> Dans une basse-cour, des sabots seront bons.</l>
+                </sp>
+        <sp who="#philine">
+            <speaker> PHILINE. </speaker>
+                        <l n="494"> Des sabots !</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="495"> Des sabots !</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="496"> Oui, des sabots, ma fille.</l>
+                        <l n="497"> Sachez qu’on en porta toujours dans ma famille ;</l>
+                        <l n="498"> Et j’ai même un cousin, à présent financier,</l>
+                        <l n="499"> Qui jadis, sans reproche, était un sabotier.</l>
+                        <l n="500"> Croyez-moi, vous serez mille fois plus charmante,</l>
+                        <l n="501"> Quand, au lieu de damas, habillée en servante,</l>
+                        <l n="502"> Et devenue enfin une grosse dondon,</l>
+                        <l n="503"> De ma maison des champs vous prendrez le timon.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="504"> Le prenne qui voudra : mais je vous remercie.</l>
+                        <l n="505"> Non, je n’en vis jamais, de si sot, en ma vie.</l>
+                        <l n="506"> Adieu, sieur campagnard : je vous donne un bonsoir.</l>
+                        <l n="507"> Pour ma fille, jamais n’espérez de l’avoir.</l>
+                        <l n="508"> Laissons-le.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="509"> Dieu vous gard. Parbleu ! qu’elle choisisse ;</l>
+                        <l n="510"> Qu’elle prenne un garçon, Normand, Breton ou Suisse ;</l>
+                        <l n="511"> Et que m’importe à moi !</l></div>
+        <div type="scene" xml:id=" XIV ">
+            <head> Scène XIV </head>
+        <sp who="#crispin">
+            <speaker> CRISPIN, seul </speaker>
+                        <l n="512"> Pour la subtilité,</l>
+                        <l n="513"> Je pense qu’ici-bas mon pareil n’est pas né.</l>
+                        <l n="514"> Que d’adresse, morbleu ! De Paris jusqu’à Rome</l>
+                        <l n="515"> On ne trouverait pas un aussi galant homme.</l>
+                        <l n="516"> Oui, je suis, dans mon genre, un grand original ;</l>
+                        <l n="517"> Les autres, après moi, n’ont qu’un talent banal.</l>
+                        <l n="518"> En fait d’esprit, de ton, les anciens ont la gloire ;</l>
+                        <l n="519"> Qu’ils viennent avec moi disputer la victoire.</l>
+                        <l n="520"> Un modèle pareil va tous les effacer.</l>
+                        <l n="521"> Il est vrai que de soi c’est un peu trop penser ;</l>
+                        <l n="522"> Mais quoi ! je ne mens pas, et je me rends justice ;</l>
+                        <l n="523"> Un peu de vanité n’est pas un si grand vice.</l>
+                        <l n="524"> Ce n’est pourtant pas tout : reste deux, et partant</l>
+                        <l n="525"> Il faut les écarter ; le cas est important.</l>
+                        <l n="526"> Ces deux autres messieurs n’ont point vu Démocrite ;</l>
+                        <l n="527"> Aucun d’eux n’est venu pour lui rendre visite.</l>
+                        <l n="528"> Toinette m’en assure ; elle veille au logis :</l>
+                        <l n="529"> Si quelqu’un arrivait, elle en aurait avis.</l>
+                        <l n="530"> Je connais nos rivaux : même, par aventure,</l>
+                        <l n="531"> À tous les deux jadis je servis de Mercure.</l>
+                        <l n="532"> Je vais donc les trouver, et par de faux discours,</l>
+                        <l n="533"> Pour jamais dans leurs cœurs éteindre leurs amours.</l>
+                        <l n="534"> J’ai déjà prudemment prévenu certain drôle,</l>
+                        <l n="535"> Qui d’un faux financier jouera fort bien le rôle.</l>
+                        <l n="536"> Mais le voilà qui vient, notre vrai financier.</l>
+                        <l n="537"> Courage, il faut ici faire un tour du métier.</l>
+                        <l n="538"> Il arrive à propos.</l></div>
+        <div type="scene" xml:id=" XV ">
+            <head> Scène XV </head>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER, arrivant sans voir Crispin. </speaker>
+                        <l n="539"> Oui, voilà sa demeure ;</l>
+                        <l n="540"> Sans doute je pourrai le trouver à cette heure.</l>
+                        <l n="541"> Mais, est-ce toi, Crispin ?</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="542"> C’est votre serviteur.</l>
+                        <l n="543"> Et quel hasard, Monsieur, ou plutôt quel bonheur</l>
+                        <l n="544"> Fait qu’on vous trouve ici ?</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="545"> J’y fais un mariage.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="546"> Vous mariez quelqu’un dans ce petit village ?</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="547"> Connais-tu Démocrite ?</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="548"> Hé ! je loge chez lui.</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="549"> Quoi ! tu loges chez lui ? j’y viens moi-même aussi.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="550"> Hé qu’y faire ?</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="551"> J’y viens pour épouser sa fille.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="552"> Quoi ! vous vous alliez avec cette famille !</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="553"> Hé, ne fais-je pas bien ?</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="554"> Je suis de la maison,</l>
+                        <l n="555"> Et je ne puis parler.</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="556"> Tu me donnes soupçon :</l>
+                        <l n="557"> De grâce, explique-toi.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="558"> Je n’ose vous rien dire.</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="559"> Quoi ! tu me cacherais ?...</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="560"> Je n’aime point à nuire.</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="561"> Crispin, encore un coup...</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="562"> Ah ! si l’on m’entendait,</l>
+                        <l n="563"> Je serais mort, Monsieur, et l’on m’assommerait.</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="564"> Quoi ! Crispin autrefois qui fut à mon service ! ...</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="565"> Enfin, vous voulez donc, Monsieur, que je périsse ?</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="566"> Ne t’embarrasse pas.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="567"> Gardez donc le secret.</l>
+                        <l n="568"> Je suis perdu, Monsieur, si vous n’êtes discret.</l>
+                        <l n="569"> Je tremble.</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="570"> Parle donc.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="571"> Eh bien donc ! cette fille,</l>
+                        <l n="572"> Son père et ses parents et toute la famille,</l>
+                        <l n="573"> Tombent d’un certain mal que je n’ose nommer.</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="574"> Ha Crispin, quelle horreur ! tu me fais frissonner.</l>
+                        <l n="575"> Je venais de ce pas rendre visite au père,</l>
+                        <l n="576"> Et peut-être, sans toi, j’eus terminé l’affaire.</l>
+                        <l n="577"> À présent, c’en est fait, je ne veux plus le voir,</l>
+                        <l n="578"> Je m’en retourne enfin à Paris dès ce soir.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="579"> Je m’enfuis, mais sur tout gardez bien le silence.</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="580"> Tiens !</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="581"> Je n’exige pas, Monsieur, de récompense.</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="582"> Tiens donc.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="583"> Vous le voulez, il faut vous obéir.</l>
+                        <l n="584"> Adieu, Monsieur : motus !</l></div>
+        <div type="scene" xml:id=" XVI ">
+            <head> Scène XVI </head>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER, seul </speaker>
+                        <l n="585"> Qu’allais-je devenir ?</l>
+                        <l n="586"> J’aurais, sans son avis, fait un beau mariage !</l>
+                        <l n="587"> Elle m’eût apporté belle dot en partage !</l>
+                        <l n="588"> Je serais bien fâché d’être époux à ce prix ;</l>
+                        <l n="589"> Je ne suis point assez de ses appas épris.</l>
+                        <l n="590"> Retirons-nous... Pourtant un peu de bienséance,</l>
+                        <l n="591"> À vrai dire, n’est pas de si grande importance.</l>
+                        <l n="592"> Démocrite m’attend : avant que de quitter,</l>
+                        <l n="593"> Il est bon de le voir et de me rétracter.</l></div>
+        <div type="scene" xml:id=" XVII ">
+            <head> Scène XVII </head>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER, TOINETTE, DÉMOCRITE </speaker>
+            <stage><em>Le Financier frappe.</em></stage>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE, à la porte. </speaker>
+                        <l n="594"> Que voulez-vous, Monsieur ?</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="595"> Le seigneur Démocrite</l>
+                        <l n="596"> Est-il là ? je venais pour lui rendre visite.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="597"> Non.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE, à une fenêtre. </speaker>
+                        <l n="598"> Qui frappe là-bas ? à qui donc en veut-on ?</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER répond. </speaker>
+                        <l n="599"> Le seigneur Démocrite est-il en sa maison ?</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="600"> J’y suis et je descends.</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="601"> Vous vous trompiez, la belle.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="602"> D’accord.</l>
+            <stage><em>Et à part.</em></stage>
+                        <l n="603"> C’est bien en vain que j’ai fait sentinelle.</l>
+                        <l n="604"> Tout ceci va fort mal : les desseins de Crispin,</l>
+                        <l n="605"> Autant qu’on peut juger, n’auront pas bonne fin.</l>
+                        <l n="606"> Je ne m’en mêle plus.</l></div>
+        <div type="scene" xml:id=" XVIII ">
+            <head> Scène XVIII </head>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="607"> J’étais dans l’espérance</l>
+                        <l n="608"> De pouvoir avec vous contracter alliance.</l>
+                        <l n="609"> Un accident, Monsieur, m’oblige de partir :</l>
+                        <l n="610"> J’ai cru de mon devoir de vous en avertir.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="611"> Vous êtes donc Monsieur de la Boursinière ?</l>
+                        <l n="612"> Et quel malheur, Monsieur, quelle subite affaire</l>
+                        <l n="613"> Peut, en si peu de temps, causer votre départ ?</l>
+                        <l n="614"> À cet éloignement ma fille a-t-elle part ?</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="615"> Non, Monsieur.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="616"> Permettez pourtant que je soupçonne ;</l>
+                        <l n="617"> Et dans l’étonnement qu’un tel départ me donne,</l>
+                        <l n="618"> J’entrevois que peut-être ici quelque jaloux</l>
+                        <l n="619"> Pourrait, en ce moment, vous éloigner de nous.</l>
+                        <l n="620"> Vous ne répondez rien, avouez-moi la chose ;</l>
+                        <l n="621"> D’un changement si grand apprenez-moi la cause.</l>
+                        <l n="622"> J’y suis intéressé ; car si des envieux</l>
+                        <l n="623"> Vous avaient fait, Monsieur, des rapports odieux,</l>
+                        <l n="624"> Je ne vous retiens pas, mais daignez m’en instruire.</l>
+                        <l n="625"> Il faut vous détromper.</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="626"> Que pourrais-je vous dire ?</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="627"> Non, non, il n’est plus temps de vouloir le celer.</l>
+                        <l n="628"> Je vois trop ce que c’est, et vous pouvez parler.</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="629"> N’avez-vous pas chez vous un valet que l’on nomme Crispin ?</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="630"> Moi ? de ce nom je ne connais personne.</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="631"> Le fourbe ! il m’a trompé.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="632"> Eh bien donc ? ce Crispin ?</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="633"> Il s’est dit de chez vous.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="634"> Il ment, c’est un coquin.</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="635"> Un mal affreux, dit-il, attaquait votre fille.</l>
+                        <l n="636"> Il en a dit autant de toute la famille.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="637"> D’un rapport si mauvais je ne puis me fâcher.</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="638"> Mais il faut le punir, et je vais le chercher.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="639"> Allez, je vous attends.</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="640"> Au reste, je vous prie,</l>
+                        <l n="641"> Que je ne souffre point de cette calomnie.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="642"> J’ai le cœur mieux placé.</l></div>
+        <div type="scene" xml:id=" XIX ">
+            <head> Scène XIX </head>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE, sans le voir. </speaker>
+                        <l n="643"> Quelle méchanceté !</l>
+                        <l n="644"> Qui peut être l’auteur de cette fausseté ?</l>
+                </sp>
+        <sp who="#frontin">
+            <speaker> FRONTIN, contrefaisant le Financier. </speaker>
+                        <l n="645"> Le rôle que Crispin ici me donne à faire</l>
+                        <l n="646"> N’est pas des plus aisés, et veut bien du mystère.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE, sans le voir. </speaker>
+                        <l n="647"> Souvent, sans le savoir, on a des ennemis</l>
+                        <l n="648"> Cachés sous le beau nom de nos meilleurs amis.</l>
+                </sp>
+        <sp who="#frontin">
+            <speaker> FRONTIN. </speaker>
+                        <l n="649"> Connaissez-vous ici le seigneur Démocrite ?</l>
+                        <l n="650"> Je viens exprès ici pour lui rendre visite.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="651"> C’est moi.</l>
+                </sp>
+        <sp who="#frontin">
+            <speaker> FRONTIN. </speaker>
+                        <l n="652"> J’en suis ravi : ce que j’ai de crédit</l>
+                        <l n="653"> Est à votre service.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="654"> Eh ! mais, dans quel esprit</l>
+                        <l n="655"> Me l’offrez-vous, à moi ? votre nom, que je sache,</l>
+                        <l n="656"> M’est inconnu ; qu’importe ?... On dirait qu’il se fâche.</l>
+                        <l n="657"> Est-on Turc avec ceux que l’on ne connaît pas ?</l>
+                        <l n="658"> Je ne suis pas de ceux qui font tant de fracas.</l>
+                </sp>
+        <sp who="#frontin">
+            <speaker> FRONTIN. </speaker>
+                        <l n="659"> En buvant tous les deux, nous saurons qui nous sommes.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE, bas. </speaker>
+                        <l n="660"> Il est, je l’avouerai, de ridicules hommes.</l>
+                </sp>
+        <sp who="#frontin">
+            <speaker> FRONTIN. </speaker>
+                        <l n="661"> Je suis de vos amis, je vous dirai mon nom.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="662"> Il ne s’agit ici de nom ni de surnom.</l>
+                </sp>
+        <sp who="#frontin">
+            <speaker> FRONTIN. </speaker>
+                        <l n="663"> Vous êtes aujourd’hui d’une humeur chagrinante :</l>
+                        <l n="664"> Mon amitié pourtant n’est pas indifférente.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="665"> Finissons, s’il vous plaît.</l>
+                </sp>
+        <sp who="#frontin">
+            <speaker> FRONTIN. </speaker>
+                        <l n="666"> Je le veux. Dites-moi</l>
+                        <l n="667"> Comment va notre enfant ? Elle est belle, ma foi ;</l>
+                        <l n="668"> Je veux dès aujourd’hui lui donner sérénade.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="669"> Qu’elle se porte bien, ou qu’elle soit malade,</l>
+                        <l n="670"> Que vous importe à vous ?</l>
+                </sp>
+        <sp who="#frontin">
+            <speaker> FRONTIN. </speaker>
+                        <l n="671"> Je la connais fort bien ;</l>
+                        <l n="672"> Elle est riche, papa : mais vous n’en dites rien ;</l>
+                        <l n="673"> Il ne tiendra qu’à vous de terminer l’affaire.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="674"> Je n’entends rien, Monsieur, à tout ce beau mystère.</l>
+                </sp>
+        <sp who="#frontin">
+            <speaker> FRONTIN. </speaker>
+                        <l n="675"> Vous le dites.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="676"> J’en jure.</l>
+                </sp>
+        <sp who="#frontin">
+            <speaker> FRONTIN. </speaker>
+                        <l n="677"> Oh ! point de jurement.</l>
+                        <l n="678"> Je ne vous en crois pas, même à votre serment.</l>
+                        <l n="679"> Démocrite, entre nous, point tant de modestie.</l>
+                        <l n="680"> Venons au fait.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="681"> Monsieur, avez-vous fait partie</l>
+                        <l n="682"> De vous moquer de moi ?</l>
+                </sp>
+        <sp who="#frontin">
+            <speaker> FRONTIN. </speaker>
+                        <l n="683"> Morbleu ! point de détours.</l>
+                        <l n="684"> Faites venir ici l’objet de mes amours.</l>
+                        <l n="685"> La friponne, je crois qu’elle en sera bien aise ;</l>
+                        <l n="686"> Et vous l’êtes aussi, papa, ne vous déplaise.</l>
+                        <l n="687"> J’en suis ravi de même, et nous serons tous trois.</l>
+                        <l n="688"> En même temps, ici, plus contents que des rois.</l>
+                        <l n="689"> Savez-vous qui je suis ?</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="690"> Il ne m’importe guère.</l>
+                </sp>
+        <sp who="#frontin">
+            <speaker> FRONTIN. </speaker>
+                        <l n="691"> Ah ! si vous le saviez, vous diriez le contraire.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="692"> Moi !</l>
+                </sp>
+        <sp who="#frontin">
+            <speaker> FRONTIN. </speaker>
+                        <l n="693"> Je gage que si. Je suis, pour abréger...</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="694"> Je n’y prends nulle part, et ne veux point gager.</l>
+                </sp>
+        <sp who="#frontin">
+            <speaker> FRONTIN. </speaker>
+                        <l n="695"> C’est qu’il a peur de perdre.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="696"> Eh bien ! soit : je me lasse</l>
+                        <l n="697"> De ce galimatias ; expliquez-vous de grâce.</l>
+                </sp>
+        <sp who="#frontin">
+            <speaker> FRONTIN. </speaker>
+                        <l n="698"> Je suis le financier qui devait sur le soir,</l>
+                        <l n="699"> Pour ce que vous savez, vous parler et vous voir.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE, étonné. </speaker>
+                        <l n="700"> Quelle est donc cette énigme ?</l>
+                </sp>
+        <sp who="#frontin">
+            <speaker> FRONTIN. </speaker>
+                        <l n="701"> Un peu de patience ;</l>
+                        <l n="702"> J’adoucirai bientôt votre aigre révérence.</l>
+                        <l n="703"> J’ai mille francs et plus de revenu par jour :</l>
+                        <l n="704"> Dites, avec cela peut-on faire l’amour ?</l>
+                        <l n="705"> Grand nombre de chevaux, de laquais, d’équipages.</l>
+                        <l n="706"> Quand je me marierai, ma femme aura des pages.</l>
+                        <l n="707"> Voyez-vous cet habit ? il est beau, somptueux ;</l>
+                        <l n="708"> Un autre avec cela ferait le glorieux :</l>
+                        <l n="709"> Fi ! c’est un guenillon que je porte en campagne :</l>
+                        <l n="710"> Vous croiriez ma maison un pays de cocagne.</l>
+                        <l n="711"> Voulez-vous voir mon train ? il est fort près d’ici.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="712"> Je m’y perds.</l>
+                </sp>
+        <sp who="#frontin">
+            <speaker> FRONTIN. </speaker>
+                        <l n="713"> Ma livrée est magnifique aussi.</l>
+                        <l n="714"> Papa, savez-vous bien qu’un excès de tendresse</l>
+                        <l n="715"> Va rendre votre enfant de tant de biens maîtresse ?</l>
+                        <l n="716"> Vous avez, m’a-t-on dit, en rente, vingt mil francs.</l>
+                        <l n="717"> Partagez-nous-en dix, et nous serons contents.</l>
+                        <l n="718"> Après cela, mourez pour nous laisser le reste.</l>
+                        <l n="719"> Dites, en vérité, puis-je être plus modeste ?</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="720"> Non, je n’y connais rien ; Monsieur le financier,</l>
+                        <l n="721"> Ou qui que vous soyez, il faudrait vous lier ;</l>
+                        <l n="722"> Je ne puis démêler si c’est la fourberie,</l>
+                        <l n="723"> Ou si ce n’est enfin que pure frénésie</l>
+                        <l n="724"> Qui vous conduit ici : mais n’y revenez plus.</l>
+                </sp>
+        <sp who="#frontin">
+            <speaker> FRONTIN. </speaker>
+                        <l n="725"> Adieu, je mangerai tout seul mes revenus.</l>
+                        <l n="726"> Vinssiez-vous à présent prier pour votre fille,</l>
+                        <l n="727"> J’abandonne à jamais votre ingrate famille.</l>
+            <stage><em>Frontin sort en riant.</em></stage></div>
+        <div type="scene" xml:id=" XX ">
+            <head> Scène XX </head>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE, seul </speaker>
+                        <l n="728"> Je ne puis débrouiller tout ce galimatias,</l>
+                        <l n="729"> Et tout ceci me met dans un grand embarras.</l></div>
+        <div type="scene" xml:id=" XXI ">
+            <head> Scène XXI </head>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="730"> N’est-ce pas vous, Monsieur, qu’on nomme Démocrite ?</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="731"> Oui.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="732"> Vous êtes, dit-on, un homme de mérite ;</l>
+                        <l n="733"> Et j’espère, Monsieur, de votre probité,</l>
+                        <l n="734"> Que vous écouterez mon infélicité :</l>
+                        <l n="735"> Mais puis-je dans ces lieux me découvrir sans crainte ?</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="736"> Ne craignez rien.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="737"> Ô ciel ! sois touché de ma plainte !</l>
+                        <l n="738"> Vous me voyez, Monsieur, réduite au désespoir,</l>
+                        <l n="739"> Causé par un ingrat qui m’a su décevoir.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="740"> Dans un malheur si grand, pourrais-je quelque chose ?</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="741"> Oui, Monsieur, vous allez en apprendre la cause :</l>
+                        <l n="742"> Mais la force me manque, et, dans un tel récit,</l>
+                        <l n="743"> Mon cœur respire à peine, et ma douleur s’aigrit.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="744"> Calmez les mouvements dont votre âme agitée...</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="745"> Hélas ! par les sanglots ma voix est arrêtée :</l>
+                        <l n="746"> Mais enfin, il est temps d’avouer mon malheur.</l>
+                        <l n="747"> Daigne le juste ciel terminer ma douleur !</l>
+                        <l n="748"> J’aime depuis longtemps un Chevalier parjure,</l>
+                        <l n="749"> Qui sut de ses serments déguiser l’imposture,</l>
+                        <l n="750"> Le cruel ! J’eus pitié de tous ses feints tourments.</l>
+                        <l n="751"> Hélas ! de son bonheur je hâtai les moments.</l>
+                        <l n="752"> Je l’épousai, Monsieur : mais notre mariage,</l>
+                        <l n="753"> À l’insu des parents, se fit dans un village ;</l>
+                        <l n="754"> Et croyant avoir mis ma conscience en repos,</l>
+                        <l n="755"> Je me livrai, Monsieur. Pour comble de tous maux,</l>
+                        <l n="756"> Il différa toujours de m’avouer pour femme.</l>
+                        <l n="757"> Je répandis des pleurs pour attendrir son âme.</l>
+                        <l n="758"> Hélas ! épargnez-moi ce triste souvenir,</l>
+                        <l n="759"> Et ne remédions qu’aux maux de l’avenir.</l>
+                        <l n="760"> Cet ingrat chevalier épouse votre fille.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="761"> Quoi ! c’est celui qui veut entrer dans ma famille ?</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="762"> Lui-même ! vous voyez la noire trahison.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="763"> Cette action est noire.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="764"> Hélas ! c’est un fripon.</l>
+                        <l n="765"> Cet ingrat m’a séduite : Ha Monsieur, quel dommage</l>
+                        <l n="766"> De tromper lâchement une fille à mon âge !</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="767"> Il vient bien à propos, nous pourrons lui parler.</l>
+            <stage><em>Crispin veut s’en aller.</em></stage>
+                        <l n="768"> Non, non, je vais sortir.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="769"> Pourquoi vous en aller ?</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="770"> Ah ! c’est un furieux.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="771"> Tenez-vous donc derrière ;</l>
+                        <l n="772"> Il ne vous verra pas.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="773"> J’ai peur.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="774"> Laissez-moi faire.</l></div>
+        <div type="scene" xml:id=" XXII ">
+            <head> Scène XXII </head>
+        <sp who="#le-chevalier">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="775"> Quoique j’eus résolu de ne plus vous revoir</l>
+                        <l n="776"> Et que je dus partir de ces lieux dès ce soir,</l>
+                        <l n="777"> J’ai cru devoir encor rétracter ma parole,</l>
+                        <l n="778"> Résolu de ne point épouser une folle.</l>
+                        <l n="779"> Je suis fâché, Monsieur, de vous parler si franc ;</l>
+                        <l n="780"> Mais vous méritez bien un pareil compliment,</l>
+                        <l n="781"> Puisque vous me trompiez, sans un avis fidèle.</l>
+                        <l n="782"> Votre fille est fort riche, elle est jeune, elle est belle ;</l>
+                        <l n="783"> Mais les fréquents accès qui troublent son esprit</l>
+                        <l n="784"> Ne sont pas de mon goût.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="785"> Eh ! qui vous l’a donc dit</l>
+                        <l n="786"> Qu’elle eût de ces accès ?</l>
+                </sp>
+        <sp who="#le-chevalier">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="787"> J’ai promis de me taire.</l>
+                        <l n="788"> Celui de qui je tiens cet avis salutaire,</l>
+                        <l n="789"> Je le connais fort bien, et vous le connaissez.</l>
+                        <l n="790"> Cet homme est de chez vous, c’est vous en dire assez.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="791"> Cet homme a déjà fait une autre menterie :</l>
+                        <l n="792"> C’est un nommé Crispin, insigne en fourberie ;</l>
+                        <l n="793"> Je n’en sais que le nom, il n’est point de chez moi.</l>
+                        <l n="794"> Mais vous, n’avez-vous point engagé votre foi ?</l>
+                        <l n="795"> Vous êtes interdit ! que prétendiez-vous faire ?</l>
+                        <l n="796"> Vous marier deux fois ?</l>
+                </sp>
+        <sp who="#le-chevalier">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="797"> Quel est donc ce mystère ?</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="798"> Vous devriez rougir d’une telle action :</l>
+                        <l n="799"> C’est du ciel s’attirer la malédiction.</l>
+                        <l n="800"> Et ne savez-vous pas que la polygamie</l>
+                        <l n="801"> Est ici cas pendable et qui coûte la vie ?</l>
+                </sp>
+        <sp who="#le-chevalier">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="802"> Moi, je suis marié ! qui vous fait ce rapport ?</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="803"> Oui, voilà mon auteur, regardez si j’ai tort.</l>
+                </sp>
+        <sp who="#le-chevalier">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="804"> Eh bien ?</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="805"> C’est votre femme.</l>
+                </sp>
+        <sp who="#le-chevalier">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="806"> Ah ! le plaisant visage,</l>
+                        <l n="807"> Le ragoûtant objet que j’avais en partage !</l>
+                        <l n="808"> Mais je crois la connaître. Ah parbleu ! c’est Crispin,</l>
+                        <l n="809"> Lui-même.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE, étonné. </speaker>
+                        <l n="810"> Ce fripon, cet insigne coquin ?</l>
+                </sp>
+        <sp who="#le-chevalier">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="811"> Malheureux, tu m’as dit que Philine était folle,</l>
+                        <l n="812"> Réponds donc !</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="813"> Ah, Monsieur, j’ai perdu la parole.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="814"> Arrêtons ce maraud.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="815"> Oui, je suis un fripon :</l>
+                        <l n="816"> Ayez pitié de moi.</l>
+                </sp>
+        <sp who="#le-chevalier">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="817"> Mille coups de bâton,</l>
+                        <l n="818"> Fourbe, vont te payer.</l></div>
+        <div type="scene" xml:id=" XXIII ">
+            <head> Scène XXIII </head>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="819"> Ma peine est inutile,</l>
+                        <l n="820"> Je crois que notre fourbe a regagné la ville,</l>
+                        <l n="821"> Je n’ai pu le trouver.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="822"> Regardez ce minois ;</l>
+                        <l n="823"> Le reconnaissez-vous ?</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="824"> Eh ! c’est Crispin, je crois.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="825"> C’est lui-même.</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="826"> Voleur !</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN, en tremblant. </speaker>
+                        <l n="827"> Ah ! je suis prêt à rendre</l>
+                        <l n="828"> L’argent que j’ai reçu... vous me l’avez fait prendre.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE, au financier. </speaker>
+                        <l n="829"> Qui m’aurait envoyé tantôt certain fripon ?</l>
+                        <l n="830"> Il s’est dit financier, et prenait votre nom.</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="831"> Le mien ?</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="832"> Oui, le coquin ne disait que sottises.</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER, à Crispin. </speaker>
+                        <l n="833"> N’était-ce pas de toi qu’il les avait apprises ?</l>
+                        <l n="834"> Parle.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="835"> Vous l’avez dit, oui, j’ai fait tout le mal ;</l>
+                        <l n="836"> Mais à mon crime, hélas ! mon regret est égal.</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="837"> Ah ! monsieur l’hypocrite !</l></div>
+        <div type="scene" xml:id=" XXIV ">
+            <head> Scène XXIV </head>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="838"> Il faut nous en instruire.</l>
+                </sp>
+        <sp who="#maître-jacques">
+            <speaker> MAÎTRE JACQUES. </speaker>
+                        <l n="839"> Pargué, ces biaux messieurs pourront bian nous le dire.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="840"> Démocrite, Messieurs, est-il connu de vous ?</l>
+                </sp>
+        <sp who="#maître-jacques">
+            <speaker> MAÎTRE JACQUES. </speaker>
+                        <l n="841"> C’est que j’en savons un qui s’est moqué de nous.</l>
+                        <l n="842"> Velà, Monsieur, Ariste.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE, avec précipitation. </speaker>
+                        <l n="843"> Ariste ?</l>
+                </sp>
+        <sp who="#maître-jacques">
+            <speaker> MAÎTRE JACQUES. </speaker>
+                        <l n="844"> Oui, lui-même.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="845"> Mais cela ne se peut, ma surprise est extrême.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="846"> C’est cependant mon nom.</l>
+                </sp>
+        <sp who="#maître-jacques">
+            <speaker> MAÎTRE JACQUES. </speaker>
+                        <l n="847"> J’étions venus tantôt</l>
+                        <l n="848"> Pour le voir : mais j’avons trouvé queuque maraud,</l>
+                        <l n="849"> Qui disait comme ça qu’il était Démocrite.</l>
+                        <l n="850"> Mais le drôle a bian mal payé notre visite.</l>
+                        <l n="851"> Il avait avec lui queuque friponne itou,</l>
+                        <l n="852"> Qui tournait son esprit tout sens dessus dessous :</l>
+                        <l n="853"> Alle faisait la folle, et se disait la fille</l>
+                        <l n="854"> De ce biau Démocrite ; elle était bian habile.</l>
+                        <l n="855"> Enfin ils ont tant fait, qu’Ariste que velà,</l>
+                        <l n="856"> Qui venait pour les voir, les a tous plantés là.</l>
+                        <l n="857"> Or j’avons vu tantôt passer ce méchant drôle ;</l>
+                        <l n="858"> J’ons tous deux en ce temps lâché quelque parole,</l>
+                        <l n="859"> Montrant ce Démocrite. « Hé bon ! ce n’est pas li »,</l>
+                        <l n="860"> À dit un paysan de ce village-ci.</l>
+                        <l n="861"> Dame ! ça nous a fait sopçonner queuque chose.</l>
+                        <l n="862"> Monsieur, je sons trompé, j’en avons une dose,</l>
+                        <l n="863"> Ai-je dit, moi. Pargué ! pour être plus certain,</l>
+                        <l n="864"> Je venons en tout ça savoir encor la fin.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="865"> La chose est comme il dit.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="866"> C’est encor ton ouvrage,</l>
+                        <l n="867"> Dis, coquin ?</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="868"> Il est vrai.</l>
+                </sp>
+        <sp who="#maître-jacques">
+            <speaker> MAÎTRE JACQUES. </speaker>
+                        <l n="869"> Quel est donc ce visage ?</l>
+                        <l n="870"> C’est notre homme !</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE, à Ariste. </speaker>
+                        <l n="871"> C’est lui, mais le fourbe a plus fait,</l>
+                        <l n="872"> Il m’a trompé de même, et vous a contrefait.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="873"> Hélas !</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="874"> Vous étiez trois qui demandiez ma fille ;</l>
+                        <l n="875"> Et qui vouliez, Messieurs, entrer dans ma famille,</l>
+                        <l n="876"> Ma fille aimait déjà, elle avait fait son choix,</l>
+                        <l n="877"> Et refusait toujours d’épouser l’un des trois.</l>
+                        <l n="878"> Je vous ménageai tous, dans la douce espérance</l>
+                        <l n="879"> Avec un de vous trois d’entrer en alliance ;</l>
+                        <l n="880"> J’ignore les raisons qui poussent ce coquin.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="881"> Je vais tout avouer : je m’appelle Crispin,</l>
+                        <l n="882"> Écoutez-moi sans bruit, quatre mots font l’affaire.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE frappe. Un laquais paraît qui fait venir Philine. </speaker>
+                        <l n="883"> Qu’on appelle ma fille. À tout ce beau mystère</l>
+                        <l n="884"> A-t-elle quelque part ?</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="885"> Vous allez le savoir :</l>
+                        <l n="886"> Ces trois messieurs devaient vous parler sur le soir,</l>
+                        <l n="887"> Et l’un des trois allait devenir votre gendre.</l>
+                        <l n="888"> Cléandre, au désespoir, voulait aller se pendre ;</l>
+                        <l n="889"> Il aime votre fille, il en est fort aimé.</l>
+                        <l n="890"> Or, étant son valet, dans cette extrémité,</l>
+                        <l n="891"> Je m’offris sur le champ de détourner l’orage,</l>
+                        <l n="892"> Et Toinette avec moi joua son personnage.</l>
+                        <l n="893"> De tout ce qui s’est fait, enfin, je suis l’auteur ;</l>
+                        <l n="894"> Mais je me repens bien d’être né trop bon cœur :</l>
+                        <l n="895"> Sans cela...</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="896"> Franc coquin !</l>
+            <stage><em>Et puis à sa fille qui entre.</em></stage>
+                        <l n="897"> Vous voilà donc, ma fille !</l>
+                        <l n="898"> En fait de tours d’esprit, vous êtes fort habile,</l>
+                        <l n="899"> Mais votre habileté ne servira de rien :</l>
+                        <l n="900"> Vous n’épouserez point un jeune homme sans bien.</l>
+                        <l n="901"> Déterminez-vous donc.</l>
+                </sp>
+        <sp who="#philine">
+            <speaker> PHILINE. </speaker>
+                        <l n="902"> Mettez-vous à ma place,</l>
+                        <l n="903"> Mon père, et dites-moi ce qu’il faut que je fasse.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE, à Crispin. </speaker>
+                        <l n="904"> Toi, sors d’ici, maraud, et ne parais jamais.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN, s’en allant. </speaker>
+                        <l n="905"> Je puis dire avoir vu le bâton de bien près.</l>
+            <stage><em>Il dit le vers suivant à Cléandre qui entre.</em></stage>
+                        <l n="906"> Vous venez à propos : quoi ! vous osez paraître !</l></div>
+        <div type="scene" xml:id=" XXV ">
+            <head> Scène XXV </head>
+        <sp who="#cléandre">
+            <speaker> CLÉANDRE. </speaker>
+                        <l n="907"> De mon destin, Monsieur, je viens vous rendre maître ;</l>
+                        <l n="908"> Pardonnez aux effets d’un violent amour,</l>
+                        <l n="909"> Et vous-même dictez notre arrêt en ce jour.</l>
+                        <l n="910"> Je me suis, il est vrai, servi de stratagème ;</l>
+                        <l n="911"> Mais que ne fait-on pas, pour avoir ce qu’on aime ?</l>
+                        <l n="912"> On m’enlevait l’objet de mes plus tendres feux,</l>
+                        <l n="913"> Et, pour tout avouer, nous nous aimons tous deux.</l>
+                        <l n="914"> Vous connaissez, Monsieur, mon sort et ma famille ;</l>
+                        <l n="915"> Mon procès est gagné, j’adore votre fille :</l>
+                        <l n="916"> Prononcez, et s’il faut embrasser vos genoux...</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="917"> De vos liens, pour moi, je ne suis point jaloux.</l>
+                </sp>
+        <sp who="#le-chevalier">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="918"> À vos désirs aussi je suis prêt à souscrire</l>
+                </sp>
+        <sp who="#le-financier">
+            <speaker> LE FINANCIER. </speaker>
+                        <l n="919"> Je me dépars de tout, je ne puis pas plus dire.</l>
+                </sp>
+        <sp who="#philine">
+            <speaker> PHILINE. </speaker>
+                        <l n="920"> Mon père, faites-moi grâce, et mon cœur est tout prêt</l>
+                        <l n="921"> S’il faut à mon amant renoncer pour jamais.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="922"> Hélas ! que de douceur !</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="923"> Monsieur, soyez sensible.</l>
+                </sp>
+        <sp who="#démocrite">
+            <speaker> DÉMOCRITE. </speaker>
+                        <l n="924"> C’en est fait, et mon cœur cesse d’être inflexible.</l>
+                        <l n="925"> Levez-vous, finissez tous vos remerciements :</l>
+                        <l n="926"> Je ne sépare plus de si tendres amants.</l>
+                        <l n="927"> Ces messieurs resteront pour la cérémonie.</l>
+                        <l n="928"> Soyez contents tous deux, votre peine est finie.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN, à Toinette. </speaker>
+                        <l n="929"> Finis la mienne aussi, marions-nous tous deux.</l>
+                        <l n="930"> Je suis pressé, Toinette.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="931"> Es-tu bien amoureux ?</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="932"> Ha ! l’on ne vit jamais pareille impatience,</l>
+                        <l n="933"> Et l’amour dans mon cœur épuise sa puissance.</l>
+                        <l n="934"> Viens, ne retarde point l’instant de nos plaisirs :</l>
+                        <l n="935"> Prends ce baiser pour gage, objet de mes désirs</l>
+                        <l n="936"> Un seul ne suffit pas.</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="937"> Quelle est donc ta folie ?</l>
+                        <l n="938"> Que fais-tu ?</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="939"> Je pelote en attendant partie.</l>
+                </sp>
+        <sp who="#cléandre">
+            <speaker> CLÉANDRE. </speaker>
+                        <l n="940"> Puisque vous vous aimez, je veux vous marier.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="941"> Le veux-tu ?</l>
+                </sp>
+        <sp who="#toinette">
+            <speaker> TOINETTE. </speaker>
+                        <l n="942"> J’y consens.</l>
+                </sp>
+        <sp who="#crispin">
+            <speaker> CRISPIN. </speaker>
+                        <l n="943"> Tu te fais bien prier !</l>
+                        <l n="944"> </l>
+                        <l n="945"> </l></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

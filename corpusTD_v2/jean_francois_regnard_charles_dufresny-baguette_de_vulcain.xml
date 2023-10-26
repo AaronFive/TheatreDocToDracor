@@ -1,0 +1,695 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">La Baguette de Vulcain</title>
+                <title type="sub">Comédie</title>
+            <author>
+                <persName>
+                    <forename>Jean-François</forename>
+                    <forename>-</forename>
+                    <forename>Charles</forename>
+                    <surname>Regnard</surname>
+                    <surname>Dufresny</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/?q=node/661 </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1693-01-10">Représentée pour la première fois, à Paris, sur le Théâtre de l’Hôtel de Bourgogne, le 10 janvier 1693.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="roger" sex="SEX">
+                            <persName>ROGER</persName>
+                        </person>
+                        <person xml:id="bradamante" sex="SEX">
+                            <persName>BRADAMANTE</persName>
+                        </person>
+                        <person xml:id="mélisse" sex="SEX">
+                            <persName>MÉLISSE</persName>
+                        </person>
+                        <person xml:id="floridan" sex="SEX">
+                            <persName>FLORIDAN</persName>
+                        </person>
+                        <person xml:id="zerbin" sex="SEX">
+                            <persName>ZERBIN</persName>
+                        </person>
+                        <person xml:id="gabrine" sex="SEX">
+                            <persName>GABRINE</persName>
+                        </person>
+                        <person xml:id="un-géant" sex="SEX">
+                            <persName>UN GÉANT</persName>
+                        </person>
+                        <person xml:id="brandimart" sex="SEX">
+                            <persName>BRANDIMART</persName>
+                        </person>
+                        <person xml:id="un-druide" sex="SEX">
+                            <persName>UN DRUIDE</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Comédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q40831]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">LA BAGUETTE DE VULCAIN</titlePart>
+            <titlePart type="sub">COMÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre de l’Hôtel de Bourgogne, le 10 janvier 1693.</ab><!--@date="1693-01-10"-->
+        </performance>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#roger">
+            <speaker> ROGER, seul </speaker>
+            <stage><em>Le théâtre représente une grotte obscure, défendue par un géant couché à l’entrée de la grotte.</em></stage>
+            <stage><em>Une marche militaire, et un bruit de trompettes et de tambours, annoncent l’arrivée de Roger.</em></stage>
+                        <l n="1"> Enfin, Roger, voici le jour où tu dois donner des marques de ta valeur et délivrer Bradamante de l’enchantement où elle est depuis deux cents ans.</l>
+                        <l n="2"> Ô Amour ! petit dieu félon,</l>
+                        <l n="3"> Toi qui fais flamber ton brandon</l>
+                        <l n="4"> Dans le tréfond de ma poitrine,</l>
+                        <l n="5"> Corrobore mon cœur craintif</l>
+                        <l n="6"> Par un julep confortatif ;</l>
+                        <l n="7"> Car l’hideux aspect de la mine</l>
+                        <l n="8"> De ce géant rébarbatif</l>
+                        <l n="9"> Fait jà sur moi, pauvre chétif,</l>
+                        <l n="10"> Les effets d’une médecine.</l>
+                        <l n="11"> Toi, glouton, ribaut Sarrasin,</l>
+                        <l n="12"> Qui, par ton dol et mal engin,</l>
+                        <l n="13"> Retiens ma gente tourterelle ;</l>
+                        <l n="14"> Dis-moi si tes bras pourfendants</l>
+                        <l n="15"> Ont bien pu garder si longtemps</l>
+                        <l n="16"> L’honneur de cette jouvencelle ?</l>
+                        <l n="17"> Hélas ! dans nos jours verglissants,</l>
+                        <l n="18"> Pour conserver une pucelle</l>
+                        <l n="19"> Jusqu’à l’âge de quatorze ans,</l>
+                        <l n="20"> Combien faudrait-il de géants !</l>
+                        <l n="21"> Mais il est temps de mettre fin à l’œuvre encommencée. Combattons ce géant pendant qu’il est endormi.</l>
+            <stage><em>Roger combat le Géant, le vainc ; ensuite il touche la caverne de sa baguette, et elle se change en un jardin agréable, au milieu duquel est Bradamante, endormie sur un lit de fleurs.</em></stage></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="22"> Allons, allons, debout : depuis deux cents ans de sommeil, n’êtes-vous pas lasse de dormir ? On ne saurait tirer une femme du lit.</l>
+                </sp>
+        <sp who="#bradamante">
+            <speaker> BRADAMANTE se réveille. </speaker>
+                        <l n="23"> Où suis-je ?</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="24"> Je vous demande pardon, la belle, si je vous ai interrompue dans un rêve dont peut-être vous auriez été bien aise de voir la fin.</l>
+                </sp>
+        <sp who="#bradamante">
+            <speaker> BRADAMANTE. </speaker>
+                        <l n="25"> Ciel ! que vois-je ?</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="26"> Le coloris de mon visage vous surprend ? Apprenez que depuis deux cents ans les hommes ont changé du blanc au noir, et les femmes du noir au blanc et au rouge.</l>
+                </sp>
+        <sp who="#bradamante">
+            <speaker> BRADAMANTE. </speaker>
+                        <l n="27"> Quoi ! il y a deux cents ans que je n’ai vu le jour ?</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="28"> Assurément.</l>
+                </sp>
+        <sp who="#bradamante">
+            <speaker> BRADAMANTE. </speaker>
+                        <l n="29"> Hélas ! je ne trouverai donc plus l’amant qui m’était destiné pour époux ?</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+            <stage>Oh ! pour des amants, vous n’en manquerez pas ; mais pour des épouseux, <em>rara avis in terris</em>. Vous étiez donc fille quand vous vous êtes endormie ?</stage>
+                </sp>
+        <sp who="#bradamante">
+            <speaker> BRADAMANTE. </speaker>
+                        <l n="30"> Vraiment oui.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="31"> Et l’êtes-vous encore ?</l>
+                </sp>
+        <sp who="#bradamante">
+            <speaker> BRADAMANTE. </speaker>
+                        <l n="32"> Assurément.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="33"> La chose est problématique, et je crois que vous n’auriez pas dormi si tranquillement. Mais dites-moi, je vous prie, comment faisait-on l’amour, de votre temps ?</l>
+                </sp>
+        <sp who="#bradamante">
+            <speaker> BRADAMANTE. </speaker>
+                        <l n="34"> Le cœur se payait par le cœur. Une fille croyait tout ce que lui disait son amant, et l’amant ne disait que ce qu’il pensait. La tendresse durait autant que la vie ; plus on était amoureux, plus on était aimé ; plus on était aimé, plus on était fidèle ; et on ne consultait que l’amour pour faire les mariages.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="35"> Oh ! que ce n’est plus le temps ! Quand on veut se marier aujourd’hui, on va chez le père et la mère marchander une fille comme une aune de drap : et tel qui croit acheter la pièce tout entière trouve souvent qu’on en a levé bien des échantillons. Mais de votre temps, comment un mari vivait-il avec sa femme ?</l>
+                </sp>
+        <sp who="#bradamante">
+            <speaker> BRADAMANTE. </speaker>
+                        <l n="36"> Dans une union charmante ; la volonté, les biens, les plaisirs, tout devenait commun sitôt qu’on s’était donné la foi.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="37"> Oh ! que ce n’est plus le temps ! Premièrement, dans ce siècle-ci, il n’y a plus de foi à donner, et la communauté ne subsiste que dans les articles du contrat. Un mari n’a rien de commun avec sa femme que le nom et la qualité ; il a sa table seul, son carrosse seul, sa chambre seul ; il n’y a que son lit que bien souvent il n’a pas tout seul. Mais de votre temps, avait-on trouvé l’art de s’égorger avec la plume ! Plaidait-on vigoureusement ? Qui est-ce qui rendait la justice ?</l>
+                </sp>
+        <sp who="#bradamante">
+            <speaker> BRADAMANTE. </speaker>
+                        <l n="38"> C’étaient d’anciens et vénérables magistrats, qui passaient la nuit à examiner les procès, et le jour à les juger.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="39"> Oh ! que ce n’est plus le temps ! La plus grande partie de nos juges passent présentement la nuit à courir le bal, et le jour à dormir à l’audience.</l>
+                </sp>
+        <sp who="#bradamante">
+            <speaker> BRADAMANTE. </speaker>
+                        <l n="40"> Comment peuvent-ils donc apprendre leur métier ?</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="41"> Cela n’empêche pas qu’ils ne sachent la procédure comme des Césars, surtout en amour ; et les arrêts qu’ils rendent auprès des dames sont, l’été, par défaut contre les officiers, et l’hiver, contradictoires avec les financiers. De votre temps, avait-on des comédies ?</l>
+                </sp>
+        <sp who="#bradamante">
+            <speaker> BRADAMANTE. </speaker>
+                        <l n="42"> Les plus divertissantes du monde : elles étaient agréablement mêlées de danses et de symphonies.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="43"> Oh ! que ce n’est plus le temps ! Tout cela est retranché, et nos théâtres seraient terriblement lugubres, si messieurs du parterre ne prenaient soin quelquefois de les égayer avec leur symphonie.</l>
+                </sp>
+        <sp who="#bradamante">
+            <speaker> BRADAMANTE. </speaker>
+                        <l n="44"> Mais, après avoir satisfait à toutes vos questions, ne puis-je savoir, brave champion, à qui je suis redevable de ma délivrance ?</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+            <stage>À moi, qui suis la fleur de la chevalerie, le redresseur des torts et le syndic de toute la magie. Je vais vous faire voir des effets de ma puissance. <em>Alli Astaroth, Abracadabra Barbara celarent darii, ferio baralipton.</em></stage>
+            <stage><em>En disant ces mots, il touche de sa baguette les figures enchantées de la suite de Bradamante, qui s’animent au son des violons.</em></stage></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#mélisse">
+            <speaker> MÉLISSE. </speaker>
+                        <l n="45"> Que je suis malheureuse ! Je vois tout le monde en joie ; mais pour moi, je ne saurais rire.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="46"> Qu’avez-vous donc, la belle larmoyeuse ?</l>
+                </sp>
+        <sp who="#mélisse">
+            <speaker> MÉLISSE, pleurant. </speaker>
+                        <l n="47"> J’avais un mari... hi ! quand je fus enchantée... hé ! et je ne le trouve plus... hu ! hu !</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="48"> Quoi ! la perte d’un mari vous afflige si fort ? Vous avez beau pleurer en musique, vous ne trouverez guère de veuves qui fassent la contrepartie avec vous.</l>
+                </sp>
+        <sp who="#mélisse">
+            <speaker> MÉLISSE. </speaker>
+                        <l n="49"> Monsieur le sorcier, vous qui êtes si habile homme, ne pourriez-vous pas me faire retrouver mon cher époux ?</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="50"> Rien ne m’est impossible. Par la vertu de cette baguette, je découvre les eaux et les trésors les plus cachés ; c’est avec cette baguette que je suis les meurtriers à la piste, par mer et par terre ; et c’est enfin avec cette baguette que je retrouve les maris perdus.</l>
+                </sp>
+        <sp who="#mélisse">
+            <speaker> MÉLISSE. </speaker>
+                        <l n="51"> Est-il possible ? Je crois que sans moi vous n’auriez guère de pratique ; car un mari est un meuble qui ne se perd pas aisément, et je n’ai point encore vu d’affiches pour des maris perdus.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="52"> Mais il est bon de vous avertir que ma baguette n’a de vertu que sur des maris d’une certaine espèce. Parlez-moi franchement : avez-vous toujours été bien fidèle au vôtre ?</l>
+                </sp>
+        <sp who="#mélisse">
+            <speaker> MÉLISSE. </speaker>
+                        <l n="53"> Si j’ai été fidèle ? J’aurais dévisagé un homme qui aurait eu la hardiesse de me regarder seulement entre deux yeux.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="54"> Tant pis ! je ne saurais rien faire pour vous.</l>
+                </sp>
+        <sp who="#mélisse">
+            <speaker> MÉLISSE. </speaker>
+                        <l n="55"> Et pourquoi ?</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="56"> C’est que ma baguette est un présent qui m’a été fait par Vulcain : elle n’a point de vertu sur les maris dont les femmes ont été fidèles ; mais quand elle approche d’un mari tant soit peu vulcanisé... Voyez, examinez bien votre conduite. Pour peu que vous ayez écorné la fidélité matrimoniale, je vous réponds de retrouver votre mari.</l>
+                </sp>
+        <sp who="#mélisse">
+            <speaker> MÉLISSE. </speaker>
+                        <l n="57"> Et mais... mais...</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="58"> Allez, allez ; parlez en toute assurance.</l>
+                </sp>
+        <sp who="#mélisse">
+            <speaker> MÉLISSE. </speaker>
+                        <l n="59"> Il venait chez nous autrefois un certain petit plumet qui était terriblement sémillant. Monsieur, est-ce assez pour la baguette ?</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="60"> Ho ! non, non.</l>
+                </sp>
+        <sp who="#mélisse">
+            <speaker> MÉLISSE. </speaker>
+                        <l n="61"> J’ai reçu aussi des présents d’un banquier qui faisait tout ce qu’il pouvait pour faire profiter son argent auprès de moi. Monsieur, est-ce assez pour la baguette ?</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="62"> Eh ! non, vous dis-je, non.</l>
+                </sp>
+        <sp who="#mélisse">
+            <speaker> MÉLISSE. </speaker>
+                        <l n="63"> Oh, dame ! s’il faut tant de choses !</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="64"> Mais que diable ! il faut ce qu’il faut, une fois.</l>
+                </sp>
+        <sp who="#mélisse">
+            <speaker> MÉLISSE. </speaker>
+                        <l n="65"> Attendez, attendez.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="66"> Hé ! là, voyez, voyez.</l>
+                </sp>
+        <sp who="#mélisse">
+            <speaker> MÉLISSE. </speaker>
+                        <l n="67"> Il fréquentait aussi au logis un petit blondin à rabat, qui...</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="68"> Doucement. Cet homme à rabat était-il de la grande ou de la petite espèce ?</l>
+                </sp>
+        <sp who="#mélisse">
+            <speaker> MÉLISSE. </speaker>
+                        <l n="69"> Mais son rabat était de trois doigts plus court que celui d’un conseiller, et nous allions souvent nous promener ensemble.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="70"> Il n’y a pas encore là de quoi faire tourner la baguette.</l>
+                </sp>
+        <sp who="#mélisse">
+            <speaker> MÉLISSE. </speaker>
+                        <l n="71"> Il me mena une fois promener hors de la ville ; mais malheureusement la flèche de son carrosse rompit, et nous fûmes obligés de coucher à sa maison de campagne.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="72"> Oh ! en voilà plus qu’il n’en faut. Nous retrouverons votre mari, fût-il au centre de la terre. Voyez la vertu de ma baguette.</l>
+            <stage><em>Roger fait tourner sa baguette, qui prend la figure d’un croissant ; aussitôt le mari de Mélisse paraît.</em></stage></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#roger">
+            <speaker> ROGER, MÉLISSE, LE MARI DE MÉLISSE, UN DRUIDE </speaker>
+            <stage><em>Le mari de Mélisse est inquiet du mouvement de la baguette, et en demande la raison.</em></stage>
+                </sp>
+        <sp who="#mélisse">
+            <speaker> MÉLISSE, à son mari. </speaker>
+                        <l n="73"> Va, va, mon mari, ne te chagrine point : tu m’as plus d’obligation que tu ne penses ; car sans moi tu n’aurais jamais été retrouvé.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="74"> Cela est vrai ; sans la flèche rompue, vous étiez un homme perdu.</l>
+            <stage><em>Le mari de Mélisse insiste et se fâche.</em></stage>
+                        <l n="75"> Puisque vous voulez être éclairci, voilà le Druide, qui est l’oracle de ce pays-ci, qui va vous éclaircir.</l>
+                </sp>
+        <sp who="#le-druide">
+            <speaker> LE DRUIDE chante. </speaker>
+                        <l n="76"> Une femme est encor trop sage,</l>
+                        <l n="77"> Lorsqu’après avoir fait naufrage,</l>
+                        <l n="78"> Elle veut bien cacher l’écueil à son époux :</l>
+                        <l n="79"> Mais un mari, qui connaît son dommage,</l>
+                        <l n="80"> Doit filer doux,</l>
+                        <l n="81"> De peur d’apprendre au voisinage</l>
+                        <l n="82"> Qu’il a raison d’être jaloux.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER chante sur l’air : Réveillez-vous, belle endormie. </speaker>
+                        <l n="83"> Ne crains pas que lé voisin cause,</l>
+                        <l n="84"> Son mal est trop égal au tien :</l>
+                        <l n="85"> Quand on le sait, c’est peu de chose ;</l>
+                        <l n="86"> Quand on l’ignore, ce n’est rien.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#floridan">
+            <speaker> FLORIDAN. </speaker>
+                        <l n="87"> En me rendant le jour,</l>
+                        <l n="88"> Rendez le calme à mon amour.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="89"> En quatre mots, dites-moi votre affaire.</l>
+                </sp>
+        <sp who="#floridan">
+            <speaker> FLORIDAN. </speaker>
+                        <l n="90"> Avant d’être enchanté, cette jeune bergère,</l>
+                        <l n="91"> Entre plusieurs amants, me choisit pour époux.</l>
+                        <l n="92"> Ce nom, qui vous paraît si doux,</l>
+                        <l n="93"> Ne peut encore me satisfaire ;</l>
+                        <l n="94"> Et je sais que, pour l’ordinaire,</l>
+                        <l n="95"> L’amant que l’on distingue avec de si beaux nœuds</l>
+                        <l n="96"> N’est pas toujours le plus heureux.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="97"> Je vous entends, du moins je vous devine ;</l>
+                        <l n="98"> Ou je me trompe, ou vous avez la mine</l>
+                        <l n="99"> D’être le fils d’un fermier bien rente,</l>
+                        <l n="100"> Dont le riche mérite a si fort éclaté,</l>
+                        <l n="101"> Aux yeux d’une avare maîtresse,</l>
+                        <l n="102"> Qu’elle a refusé la tendresse</l>
+                        <l n="103"> De vos rivaux.</l>
+                </sp>
+        <sp who="#floridan">
+            <speaker> FLORIDAN. </speaker>
+                        <l n="104"> Mon père était rentier ;</l>
+                        <l n="105"> Mais je n’ai point traité l’amour en financier,</l>
+                        <l n="106"> Et j’ai gagné son cœur à force de tendresse.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="107"> J’en doute fort ; mais baste, on vous le laisse,</l>
+                        <l n="108"> Puisque par un contrat vous l’avez acheté :</l>
+                        <l n="109"> Il est à vous, j’entends pour la propriété ;</l>
+                        <l n="110"> Car l’usufruit, c’est autre chose ;</l>
+                        <l n="111"> Il faut que la femme en dispose.</l>
+                </sp>
+        <sp who="#floridan">
+            <speaker> FLORIDAN. </speaker>
+                        <l n="112"> Cet usufruit est encor de mon lot ;</l>
+                        <l n="113"> Pour le céder, il faudrait être un sot.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="114"> Un sot, d’accord.</l>
+                </sp>
+        <sp who="#floridan">
+            <speaker> FLORIDAN. </speaker>
+                        <l n="115"> Oh ! point de raillerie :</l>
+                        <l n="116"> Une femme n’est pas comme une métairie ;</l>
+                        <l n="117"> J’en veux être le maître et non pas le fermier ;</l>
+                        <l n="118"> Et par la sambleu ! le premier.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="119"> Oh ! tout beau ; respect au Druide :</l>
+                        <l n="120"> Je ne fais qu’opiner, mais c’est lui qui décide.</l>
+                </sp>
+        <sp who="#un-druide">
+            <speaker> LE DRUIDE chante. </speaker>
+                        <l n="121"> Ne craignez rien, l’hymen est votre asile ;</l>
+                        <l n="122"> Le nom d’époux écarte les rivaux :</l>
+                        <l n="123"> De votre Iris la garde est inutile ;</l>
+                        <l n="124"> Ne songez plus qu’à garder vos troupeaux.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER chante sur l’air : </speaker>
+                        <l n="125"> Ô le bon temps</l>
+                        <l n="126"> Où l’hymen servait d’asile !</l>
+                        <l n="127"> Mais pour à présent,</l>
+                        <l n="128"> Toureloure, loure, loure,</l>
+                        <l n="129"> Ce n’est qu’un manteau pour couvrir l’amant !</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="130"> À qui donc, s’il vous plaît,</l>
+                        <l n="131"> En veut ce grand benêt ?</l>
+                </sp>
+        <sp who="#zerbin">
+            <speaker> ZERBIN. </speaker>
+                        <l n="132"> Je venons... pour... tenez, j’enrage :</l>
+                        <l n="133"> Enfin, je nous plaignons de n’avoir point d’enfants.</l>
+                        <l n="134"> Je crois que je n’avons pas l’âge ;</l>
+                        <l n="135"> Et c’est la faute à nos parents,</l>
+                        <l n="136"> Qui nous ont mis trop tôt en mariage.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="137"> Quel âge avez-vous, bonnes gens ?</l>
+                </sp>
+        <sp who="#zerbin">
+            <speaker> ZERBIN. </speaker>
+                        <l n="138"> Je n’ai guère que quarante ans.</l>
+                </sp>
+        <sp who="#gabrine">
+            <speaker> GABRINE. </speaker>
+                        <l n="139"> J’aurai trente ans viennent les preunes.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="140"> Les pauvres petits sont tout jeunes.</l>
+                        <l n="141"> À trente ans porter fruit ! Oh ! cela ne se peut.</l>
+                        <l n="142"> Cependant, si votre époux veut,</l>
+                        <l n="143"> Je pourrai vous donner une dispense d’âge.</l>
+                        <l n="144"> Mais depuis quand, la belle, êtes-vous en ménage ?</l>
+                </sp>
+        <sp who="#gabrine">
+            <speaker> GABRINE. </speaker>
+                        <l n="145"> Je ne sais pas compter le temps par l’almanach ;</l>
+                        <l n="146"> Mais j’ai bien remarqué que, depuis ce temps-là,</l>
+                        <l n="147"> Ma vache a fait deux viaux.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="148"> C’est qu’elle était en âge.</l>
+                        <l n="149"> Mais qui peut donc causer votre stérilité ?</l>
+                        <l n="150"> N’avez-vous pas tous deux, depuis le mariage,</l>
+                        <l n="151"> Sous le même toit habité ?</l>
+                </sp>
+        <sp who="#zerbin">
+            <speaker> ZERBIN. </speaker>
+                        <l n="152"> Oh ! qu’oui ; car un jour Mathurine</l>
+                        <l n="153"> Nous enfermit dans la cuisine ;</l>
+                        <l n="154"> Et quand je fûmes là tous deux,</l>
+                        <l n="155"> Je demeurîmes si honteux...</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="156"> C’est la pudeur de l’extrême jeunesse.</l>
+                </sp>
+        <sp who="#gabrine">
+            <speaker> GABRINE. </speaker>
+                        <l n="157"> Moi, pour ne le point voir j’usis d’une finesse ;</l>
+                        <l n="158"> Je me fermis les yeux avecque mes cinq doigts.</l>
+                </sp>
+        <sp who="#zerbin">
+            <speaker> ZERBIN. </speaker>
+                        <l n="159"> Moi, je n’en fis pas à deux fois ;</l>
+                        <l n="160"> Je grimpis tout au haut de notre cheminée,</l>
+                        <l n="161"> Et j’y fus sans grouiller toute l’après-dînée.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="162"> Et depuis ce temps-là ?</l>
+                </sp>
+        <sp who="#zerbin">
+            <speaker> ZERBIN. </speaker>
+                        <l n="163"> Je nous fuyons, faut voir.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="164"> Et, malgré tout cela,</l>
+                        <l n="165"> Vous ne sauriez avoir lignée ?</l>
+                        <l n="166"> Je vois bien du malheur à votre destinée ;</l>
+                        <l n="167"> Car je connais bien des époux,</l>
+                        <l n="168"> Qui prennent à se fuir autant de soin que vous,</l>
+                        <l n="169"> Et qui, malgré leur mésintelligence,</l>
+                        <l n="170"> Ont des enfants en abondance.</l>
+                </sp>
+        <sp who="#zerbin">
+            <speaker> ZERBIN. </speaker>
+                        <l n="171"> Que ces pères-là sont heureux !</l>
+                        <l n="172"> Hélas ! que ne suis-je comme eux !</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="173"> Leurs femmes sont bien plus heureuses.</l>
+                </sp>
+        <sp who="#gabrine">
+            <speaker> GABRINE. </speaker>
+                        <l n="174"> Qu’elles doivent être joyeuses</l>
+                        <l n="175"> D’avoir tant de petits marmots</l>
+                        <l n="176"> Qui ne coûtent rien à leur père !</l>
+                        <l n="177"> Apprenez-moi comme il faut faire.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="178"> Le Druide à l’instant vous en dira deux mots.</l>
+                </sp>
+        <sp who="#un-druide">
+            <speaker> LE DRUIDE chante. </speaker>
+                        <l n="179"> Je ne veux point troubler votre innocence,</l>
+                        <l n="180"> Ni vous montrer un chemin trop battu ;</l>
+                        <l n="181"> Pour être sage, une heureuse indolence</l>
+                        <l n="182"> Vaut souvent mieux qu’une faible vertu.</l>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER chante. </speaker>
+                        <l n="183"> Au bon vieux temps</l>
+                        <l n="184"> La femme était sans science ;</l>
+                        <l n="185"> Mais pour à présent</l>
+                        <l n="186"> Toureloure, loure, loure,</l>
+                        <l n="187"> La fille sait tout avant quatorze ans.</l></div>
+        <div type="scene" xml:id=" divertissement ">
+            <head> Divertissement </head>
+        <sp who="#un-druide">
+            <speaker> LE DRUIDE. </speaker>
+                        <l n="188"> La verte jeunesse,</l>
+                        <l n="189"> Qui tourne à tout vent,</l>
+                        <l n="190"> Doit jouir sans cesse</l>
+                        <l n="191"> Du plaisir présent ;</l>
+                        <l n="192"> Mais la jouissance</l>
+                        <l n="193"> Du vieillard cassé,</l>
+                        <l n="194"> C’est la souvenance</l>
+                        <l n="195"> Du bon temps passé.</l>
+                </sp>
+        <sp who="#le-chœur">
+            <speaker> LE CHŒUR. </speaker>
+            <stage>C’est la souvenance, <em>etc.</em></stage>
+                </sp>
+        <sp who="#gabrine">
+            <speaker> GABRINE. </speaker>
+                        <l n="196"> Dans notre village,</l>
+                        <l n="197"> Grâce à nos parents,</l>
+                        <l n="198"> Toute fille est sage</l>
+                        <l n="199"> Jusqu’à cinquante ans ;</l>
+                        <l n="200"> Car c’est être sage</l>
+                        <l n="201"> D’avoir des amants :</l>
+                        <l n="202"> Suivons donc l’usage</l>
+                        <l n="203"> De ce bon vieux temps.</l>
+                </sp>
+        <sp who="#le-chœur">
+            <speaker> LE CHŒUR. </speaker>
+            <stage>Suivons donc l’usage, <em>etc.</em></stage>
+                </sp>
+        <sp who="#brandimart">
+            <speaker> BRANDIMART. </speaker>
+                        <l n="204"> Qu’un siècle d’absence</l>
+                        <l n="205"> Échauffe un mari !</l>
+                        <l n="206"> Mais cette apparence</l>
+                        <l n="207"> M’a bien refroidi,</l>
+                        <l n="208"> Pour garder mon âme</l>
+                        <l n="209"> D’un soin inutile[1],</l>
+                        <l n="210"> J’ai trouvé ma femme ;</l>
+                        <l n="211"> Quelqu’un la veut-il ?</l>
+                </sp>
+        <sp who="#le-chœur">
+            <speaker> LE CHŒUR. </speaker>
+            <stage>J’ai trouvé ma femme, <em>etc.</em></stage>
+                </sp>
+        <sp who="#mélisse">
+            <speaker> MÉLISSE. </speaker>
+                        <l n="212"> Malgré l’apparence</l>
+                        <l n="213"> Qui frappe tes yeux,</l>
+                        <l n="214"> Dors en assurance,</l>
+                        <l n="215"> Tu seras heureux ;</l>
+                        <l n="216"> Rallume ta flamme,</l>
+                        <l n="217"> Je jure ma foi</l>
+                        <l n="218"> Qu’il n’est point de femme</l>
+                        <l n="219"> Plus sage que moi.</l>
+                </sp>
+        <sp who="#le-chœur">
+            <speaker> LE CHŒUR. </speaker>
+            <stage>Qu’il n’est point de femme, <em>etc.</em></stage>
+                </sp>
+        <sp who="#floridan">
+            <speaker> FLORIDAN. </speaker>
+                        <l n="220"> Qui pour l’hyménée</l>
+                        <l n="221"> Prend jeune câlin,</l>
+                        <l n="222"> À la destinée</l>
+                        <l n="223"> D’un marchand de vin ;</l>
+                        <l n="224"> Vainement il tente</l>
+                        <l n="225"> De garder son muid ;</l>
+                        <l n="226"> Vin nouveau s’évente,</l>
+                        <l n="227"> Vin gardé s’aigrit.</l>
+                </sp>
+        <sp who="#le-chœur">
+            <speaker> LE CHŒUR. </speaker>
+            <stage>Vin nouveau s’évente, <em>etc.</em></stage>
+                </sp>
+        <sp who="#bradamante">
+            <speaker> BRADAMANTE. </speaker>
+                        <l n="228"> Toi, qui peux tout faire</l>
+                        <l n="229"> Par enchantement,</l>
+                        <l n="230"> Reprends ta lumière,</l>
+                        <l n="231"> Ou rends mon amant :</l>
+                        <l n="232"> Le soleil qui brille</l>
+                        <l n="233"> Fait quelque plaisir ;</l>
+                        <l n="234"> Mais, pour rester fille,</l>
+                        <l n="235"> J’aime autant dormir.</l>
+                </sp>
+        <sp who="#le-chœur">
+            <speaker> LE CHŒUR. </speaker>
+            <stage>Mais, pour rester fille, <em>etc.</em></stage>
+                </sp>
+        <sp who="#roger">
+            <speaker> ROGER. </speaker>
+                        <l n="236"> Il n’est rien qu’on n’tente</l>
+                        <l n="237"> Pour avoir la foi</l>
+                        <l n="238"> D’une Bradamante</l>
+                        <l n="239"> Faite comme toi ;</l>
+                        <l n="240"> Quel plaisir, fillette,</l>
+                        <l n="241"> D’être ton mari,</l>
+                        <l n="242"> Si de la baguette</l>
+                        <l n="243"> On est garanti !</l>
+                </sp>
+        <sp who="#le-chœur">
+            <speaker> LE CHŒUR. </speaker>
+            <stage>Si de la baguette, <em>etc.</em></stage>
+            <stage><a href="#_ftnref1" name="_ftn1" title="" id="_ftn1">[1]</a> <em>Inutile</em>, rime féminine, ne rime point avec <em>veut-il</em>. Dans les éditions précédentes, on imprimait <em>inutil</em>.</stage>
+                        <l n="244"> </l></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

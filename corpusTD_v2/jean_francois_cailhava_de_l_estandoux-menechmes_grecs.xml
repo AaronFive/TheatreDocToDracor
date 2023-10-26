@@ -1,0 +1,2626 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Les Ménechmes grecs</title>
+                <title type="sub">Comédie</title>
+            <author>
+                <persName>
+                    <forename>Jean-François</forename>
+                    <surname>Cailhava</surname>
+                    <linkname>de</linkname>
+                    <surname>L’estandoux</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/les-ménechmes-grecs-jean-françois-cailhava-de-l’estandoux </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1791-01-13">Représentée pour la première fois, à Paris, sur le Théâtre du Palais-Royal, le 13 janvier 1791.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="ménechme-le-voyageur" sex="SEX">
+                            <persName>MÉNECHME le voyageur</persName>
+                        </person>
+                        <person xml:id="ménechme-le-marié" sex="SEX">
+                            <persName>MÉNECHME le marié</persName>
+                        </person>
+                        <person xml:id="la-femme-de-ménechme" sex="SEX">
+                            <persName>LA FEMME DE MÉNECHME</persName>
+                        </person>
+                        <person xml:id="érotie" sex="SEX">
+                            <persName>ÉROTIE</persName>
+                        </person>
+                        <person xml:id="demiphon" sex="SEX">
+                            <persName>DEMIPHON</persName>
+                        </person>
+                        <person xml:id="le-médecin" sex="SEX">
+                            <persName>LE MÉDECIN</persName>
+                        </person>
+                        <person xml:id="les-élèves-du-médecin" sex="SEX">
+                            <persName>LES ÉLÈVES du médecin</persName>
+                        </person>
+                        <person xml:id="dromon" sex="SEX">
+                            <persName>DROMON</persName>
+                        </person>
+                        <person xml:id="mirtilde" sex="SEX">
+                            <persName>MIRTILDE</persName>
+                        </person>
+                        <person xml:id="messénion" sex="SEX">
+                            <persName>MESSÉNION</persName>
+                        </person>
+                        <person xml:id="le-maître-d’hôtel-d’érotie" sex="SEX">
+                            <persName>LE MAÎTRE D’HÔTEL d’Érotie</persName>
+                        </person>
+                        <person xml:id="esclaves-de-tout-sexe" sex="SEX">
+                            <persName>ESCLAVES de tout sexe</persName>
+                        </person>
+                        <person xml:id="personnages-muets-ou-parlant-peu" sex="SEX">
+                            <persName>PERSONNAGES muets ou parlant peu</persName>
+                        </person>
+                        <person xml:id="le-comédien-qui-débite-le-prologue" sex="SEX">
+                            <persName>LE COMÉDIEN qui débite le Prologue</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Comédie</term>
+                    <term> [indéfini] </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q40831]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">LES MÉNECHMES GRECS</titlePart>
+            <titlePart type="sub">COMÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre du Palais-Royal, le 13 janvier 1791.</ab><!--@date="1791-01-13"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> À MONSIEUR BAILLY</salute>
+            </opener>
+        <p> Il y a quatre ans que, sous un des paisibles berceaux de votre solitude, je vous lus cette Comédie ; que vous me donnâtes de très bons conseils, et que je résolus de m’acquitter en vous la dédiant. Le suffrage d’un Peuple libre, qui vous a porté depuis aux plus grandes places, ne change rien à mon projet. Je présente mon hommage au Philosophe sensible, au grand Écrivain, à l’Homme vertueux, qui m’a cru digne d’être son ami, et je saisis l’occasion de m’en glorifier.  </p>
+        <p> CAILHAVA.  </p>
+    </div>
+           <div type="act" xml:id="1">
+           <head> PROLOGUE </head></div>
+           <div type="act" xml:id="2">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#i>le-marié">
+            <speaker> MÉNECHME le marié, toujours avec l’air et le ton du sang-froid, mais un peu railleur </speaker>
+                        <l n="1"> Oui ; ma très honorée femme ! vous êtes bien aimable, bien honnête ; mais vous avez de l’humeur, sans que je sache pourquoi : cela vous amuse ; il ne faut pas disputer des goûts. Moi, je vais tâcher de m’amuser aussi de mon côté. </l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE, son caractère est de mettre à tout un air d’importance et de mystère. </speaker>
+                        <l n="2"> Serviteur, Seigneur Ménechme. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="3"> Salut au plus célèbre de nos Orfèvres. – J’allais chez vous. </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="4"> Je me doutais que vous aviez quelque chose à m’ordonner ; vous avez beaucoup regarde dans ma boutique, dit ma femme. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="5"> Votre femme rêve, mon cher Dromond, il y a plus de huit jours que je n’ai traversé les galeries de Thémis. </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE, avec dédain. </speaker>
+                        <l n="6"> On n’y vend plus rien – pas même la Justice. </l>
+                        <l n="7"> Fièrement. </l>
+                        <l n="8"> Je loge sous les fameux portiques de Philippe. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="9"> Je l’ignorais. – Savez-vous garder un secret ? </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="10"> En doutez-vous ? les Bijoutiers sont obligés, par état, à la plus grande discrétion. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="11"> Sur certains profits ? </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="12"> Point ! n’avons-nous pas le secret de toutes les familles, même celui de la république ? lorsqu’il est question d’éblouir une belle, de corrompre un Juge, de gagner un homme en place, Bijoux de trotter, vaisselle d’Or et d’Argent de circuler. Eh ? à qui se confie-t-on ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="13"> Personne n’écoute, et l’appartement de ma femme ne donne pas sur cette place. </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="14"> Il n’y a ici que vous et moi. – Vous êtes seul.</l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="15"> J’étais hier chez la plus aimable de nos femmes à talents, chez Érotie. Je riais d’entendre nos célèbres philosophes y disserter sur les modes les ajustements, les Bijoux, quand la belle marqua la plus grande envie d’avoir une pierre gravée, précisément comme celle-ci. Je lus dans les regards de ses adorateurs le désir de se prévenir mutuellement. Pourriez-vous me procurer le plaisir de les devancer ? </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="16"> Voyons. – Ces pierres sont fort rares ; pour moi je n’en connais qu’une autre dans Épidamne ; mais nous l’aurons – avec de l’Argent. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="17"> Allez vite l’acheter à quel prix que ce soit. </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="18"> Un moment. Comme vous êtes vif ! </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="19"> Pas excessivement. On m’accuse même du contraire ; mais faites comme si je l’étais. </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="20"> La bague dont je vous parle appartient au grand pourvoyeur de l’armée. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="21"> Tant-pis. </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE, mystérieusement. </speaker>
+                        <l n="22"> Tant mieux... chut... le voici, le secret de la république... le grand pourvoyeur a mal arrangé quelques chiffres ; il est forcé, ne fût-ce que par pudeur, de vendre ses tableaux ses bijoux, et dès ce soir j’achète celui dont vous avez besoin. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="23"> Je puis donc sur votre parole faire présent de celui-ci à Érotie, et je mettrai dans l’écrin de ma femme... </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="24"> La bague du pourvoyeur. Impossible ! dans ce siècle galant, de manquer à sa chère moitié avec plus de délicatesse ! </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, d’un ton moitié grave, moitié sentimental. </speaker>
+                        <l n="25"> Il en faut.</l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="26"> Tel vous critiquera, qui, sans tant de façons à fait disparaître les pierreries de sa femme, pour les donner tout uniment à quelque Nymphe des chœurs ; mais prenez-y garde ; puisque vous destinez ce cadeau à une connaisseuse, il aurait grand besoin d’être remonté. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="27"> Nous verrons dans la suite. Je ne veux pas être prévenu, vous dis-je. Érotie est au bain ; à son retour j’irai lui demander à dîner, et lui offrir... </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE, bas. </speaker>
+                        <l n="28"> Chut. Démiphon. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, bas. </speaker>
+                        <l n="29"> Mon beau père ! tâchons qu’il ne s’empare pas de moi ; il est bonhomme, mais bavard. </l>
+                        <l n="30"> L’Orfèvre sort. </l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="31"> Tout à vous cher beau-père. Vous allez voir votre fille : cela est bien, très bien ! vous m’excuserez, si je vous laisse. Une affaire essentielle... </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="32"> Qui, oui, ne vous gênez pas.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#le-viellard">
+            <speaker> LE VIELLARD, seul </speaker>
+                        <l n="33"> Oh ! oh ! il paraît ignorer que sa femme m’a envoyé chercher – « Mon père, mon » cher père venez au plus vite » ; – Au plus vite ! au plus vite ! vous en parlez bien à votre aise : ignorez-vous que cette maudite vieillesse n’arrive qu’avec une suite nombreuse et que je porte mes vieux ans sur le dos, comme une vilaine marchandise bien lourde. Holà ! quelqu’un. </l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="34"> Ma fille est-elle malade ? À tout événement j’ai passé chez son médecin. </l>
+                </sp>
+        <sp who="#l’esclave">
+            <speaker> L’ESCLAVE. </speaker>
+                        <l n="35"> Notre maîtresse paraît un peu rêveuse, un peu inquiète ; mais elle se porte bien. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="36"> En ce cas là, dis-lui de venir ici ; je veux rester au Soleil ; c’est le dernier ami des vieillards. </l>
+                        <l n="37"> L’esclave sort. </l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, seul </speaker>
+                        <l n="38"> Du moment qu’on commence à compter les beaux jours, on en devient avare ; l’on veut en jouir. </l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="39"> Bonjour, ma fille, qu’est-ce ? pourquoi m’envoyez-vous chercher. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="40"> Ah !mon père, je suis bien malheureuse. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="41"> Malheureuse ! malheureuse ! je ne vois pas trop pourquoi. Vous vivez dans l’aisance, vous portez le lin le plus beau, le tissu le plus fin ; votre maison est vaste, magnifiquement meublée, et remplie d’esclaves fainéants ; – vous êtes mère, que désirez-vous donc ? </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="42"> Daignez de grâce m’entendre. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="43"> Soit, pourvu que vous ne me parliez de rien qui m’affecte. Quand à mon âge on a dit du mal du temps présent et qu’on a, surtout, bien digéré, on s’est acquitté des affaires les plus importantes. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="44"> Dites-moi, mon père... </l>
+                        <l n="45"> Hésitant.</l>
+                        <l n="46"> une femme jalouse est-elle bien insupportable ? </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, vivement. </speaker>
+                        <l n="47"> Je vous en réponds ! je ne l’ai pas mal éprouvé. Feue votre mère (que Pluton veuille garder soigneusement) ne l’était pas mal. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="48"> Je ne suis pas jalouse au moins ! gardez-vous de le croire ! mais... il me semble que Ménechme va souvent... là... chez cette joueuse de Luth, notre voisine. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, à part. </speaker>
+                        <l n="49"> Ah ! le gaillard ; qu’est devenu le temps ou j’étais le favori de ces belles ? </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="50"> Vous parlez bas, mon père. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="51"> Oui, oui ; je songe, que je ne suis pas tendre, moi ! et je saurai bien dire à votre époux ; « Seigneur Ménechme, vous ne m’en imposez pas avec ce ton flegmatique que vous avez pris depuis votre mariage, comme l’on prend un habit de costume. Souvenez-vous que, malgré les nuages répandus sur votre naissance, je vous ai donné ma fille avec une dot considérable. Croyez-vous m’en récompenser, en rendant malheureux ce que j’ai de plus cher au monde ? Allez, vous êtes un ingrat, un homme sans foi, un... »  – Eh ! bien, ma fille, que dis-tu de ce ton ? </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="52"> Qu’il ne vous va pas, mon père ; vous êtes naturellement si bon ! si j’osais même dire, un peu faible, ah ! comme votre fille, qu’un rien alarme, et rassure aussitôt. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="53"> Que voulez-vous ? que demandez-vous donc ? </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="54"> Ma tendresse, l’ambition de posséder tout entier le cœur de mon mari, peuvent m’avoir alarmée mal-à-propos ; daignez voir et raisonner pour votre fille ; venez m’annoncer que je suis une visionnaire ; que Ménechme ne respire que pour moi, comme je ne respire que pour le rendre le plus heureux de tous les hommes, et je serai bien satisfaite. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="55"> À la bonne heure, voilà qui est raisonnable ; mais j’exige que vous ne témoigniez ni humeur, ni dépit à votre mari, tant que vous ne pourrez pas lui prouver quelques torts : et alors, laissez-moi le soin de les lui reprocher. Sans vanité, j’étais éloquent autrefois ! et si cette qualité ne diminue pas avec l’âge... Comme tant d’autres. Suffit. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="56"> Vous le voulez, j’y consens. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="57"> C’est à merveille ; embrassez-moi ; allons, allons, soyez plus tranquille. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME, rentrant. </speaker>
+                        <l n="58"> Malheureuse sensibilité ! feras-tu toujours le tourment des gens qui savent aimer ? </l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, seul </speaker>
+                        <l n="59"> Que nous sommes bons, nous autres vieillards, de nous intéresser aux peines des amants ! le plaisir de se raccommoder efface, embellit même les chagrins qu’ils se sont donnés ; mais la consolation n’arrive que bien faiblement jusqu’à nous, pauvres barbons. </l></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, vif, leste, et admirant tout ce qu’il voit. </speaker>
+                        <l n="60"> La grande, la magnifique cité ! </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="61"> Comme les colonnes y sont devenues à la mode ! c’est une manie. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, bas. </speaker>
+                        <l n="62"> Quoi ! Ménechme a déjà terminé cette affaire si essentielle qui l’appelait ailleurs. Il examine bien la maison d’Érotie. Les soupçons de ma fille feraient-ils fondés ? Il me vient une bonne idée. Dromond et lui étaient tout à l’heure fort occupés ; s’il y a quelqu’amourette sur jeu, l’Orfèvre est sûrement du secret ; il faut que je l’interroge finement. </l>
+                        <l n="63"> À Ménechme, en lui tendant la main. </l>
+                        <l n="64"> Serviteur, serviteur ; j’ai à mon tour une certaine affaire en tête... </l></div>
+        <div type="scene" xml:id=" X ">
+            <head> Scène X </head>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="65"> Eh bien ! ne voilà-t-il pas encore un homme qui me salue sans me connaître ? J’arrive à Épidamne pour la première fois, et depuis le Port jusqu’ici, dix personnes m’ont demandé des nouvelles de ma santé. Les Épidamniens sont bien polis envers les étrangers. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="66"> Ah ! ah ! Seigneur Ménechme ; vous n’avez qu’à vous fier à ces prévenances ; si vous saviez combien il en est d’intéressées dans cette Ville ; je l’ai habitée, avant de vous appartenir. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="67"> Tout m’y paraît enchanteur ! on y est à la ville ; on y est à la campagne ; les Dames s’y promènent sans façons dans le simple négligé du matin, et parées de leurs propres charmes. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="68"> À peu près. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="69"> Sous quelqu’ajustement qu’elles soient, elles sont ravissantes. La dernière qu’on voit est toujours la plus belle ; on la prendrait pour Vénus, ou pour une de ses favorites. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="70"> Jamais l’indulgente Déesse n’eût en effet plus de Prêtresses qu’ici. Comme elles exercent les devoirs de l’hospitalité ! comme elles se piquent de faire aux étrangers les honneurs de la Patrie ! </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="71"> Tu n’aimes pas Épidamne, à ce qu’il me paraît. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="72"> Je la connais trop bien, cette charmante, cette dangereuse Cité ; le rendez-vous des vices et des vertus ; de l’ignorance et des beaux arts ; des grandeurs et de la petitesse. Je la connais trop bien pour ne pas l’admirer et la craindre cette nouvelle Thèbes, dont le tableau souvent terrible, mais plus souvent gracieux, afflige et charme en même temps. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="73"> L’on m’avait bien dit, lorsque je t’achetai, que tu n’étais pas un homme ordinaire. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="74"> C’est selon. Quand on n’a voulu faire de moi qu’un valet, je me suis borné à troquer quelques heures du travail de mes mains contre le plaisir d’être logé, vêtu, nourri sans la moindre inquiétude. Mes Patrons ont-ils désiré que le cœur fut pour quelque chose dans notre marché ; mon zèle s’est manifesté de toutes les manières, et ils m’ont payé avec de l’estime, de la considération. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="75"> Je suis disposé, mon cher Messénion, à faire avec toi cet échange... </l></div>
+        <div type="scene" xml:id=" XI ">
+            <head> Scène XI </head>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE, à part. </speaker>
+                        <l n="76"> Bon ! le voilà </l>
+                        <l n="77"> Bas à Ménechme.</l>
+                        <l n="78"> J’ai quelque chose de la dernière importance à vous communiquer. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="79"> À moi ? </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="80"> Oui, mais ce témoin... </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="81"> Je n’ai rien de caché pour lui. </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="82"> Soit. – Je crains bien que votre femme n’ait découvert votre caprice pour la belle Érotie, surtout l’histoire de la bague. Votre beau père m’a fait prier de passer chez lui. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="83"> Un moment. </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE, à part. </speaker>
+                        <l n="84"> Il a quelque chose d’extraordinaire. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, à Messénion. </speaker>
+                        <l n="85"> Que penses-tu de cet homme ? </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="86"> Je pense que c’est un de ces fripons bien prévenants, dont je vous parlais tout à l’heure. Il n’est pas bien instruit, puisque vous ne fûtes jamais marié ; mais... il est question d’une belle : on a deviné vos goûts. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="87"> Il est bien plus simple de croire que c’est une méprise. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="88"> Oh ! oui, une méprise ! on peut aisément s’en assurer.</l>
+                        <l n="89"> Haut à l’Orfèvre. </l>
+                        <l n="90"> Puis-je vous demander si vous connaissez... </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="91"> Qui ? le Seigneur Ménechme ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, à part. </speaker>
+                        <l n="92"> Quelle surprise ! </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, à Ménechme, à part. </speaker>
+                        <l n="93"> Eh ! bien, Seigneur. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="94"> Tu m’auras nommé, il aura retenu mon nom. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="95"> Voyons encore. </l>
+                        <l n="96"> Haut à l’Orfèvre.</l>
+                        <l n="97"> Cependant le Seigneur Ménechme est étranger. </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="98"> Qui le fait mieux que moi ? je l’ai vu débarquer ; je ne l’ai presque pas perdu de vue depuis son arrivée. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, à part, à Ménechme. </speaker>
+                        <l n="99"> Vous l’entendez ; il se sera informé au Port de votre nom ; de votre fortune ; de là son plan, qui, quoique d’abord un peu embarrassé en apparence... </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="100"> Il n’y a qu’à se moquer de lui, de ce qu’il projette, et l’envoyer promener. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, haut à l’Orfèvre. </speaker>
+                        <l n="101"> Nous sommes occupés, laissez-vous, je vous prie. </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE, à Ménechme. </speaker>
+                        <l n="102"> Vous n’y pensez pas. Encore une fois, si votre beau-père me parle de la bague. Que dois-je répondre ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, impatienté. </speaker>
+                        <l n="103"> Tout ce qu’il vous plaira. </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="104"> Vous vous en rapportez donc à moi ? à la bonne heure. Je verrai les questions qu’on me fera. </l>
+                        <l n="105"> Il fait quelque pas et revient. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="106"> Encore ! </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="107"> Surtout n’allez pas vous troubler ni marquer le moindre embarras, quand on vous parlera de la belle. Érotie et de votre présent. J’aurai tout prévu, tout arrangé d’après nos projets : vous pouvez y compter. </l></div>
+        <div type="scene" xml:id=" ΧΙΙ ">
+            <head> Scène ΧΙΙ </head>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="108"> C’est bien plutôt de ses projets qu’il parle cet homme officieux ! Il s’en va fort satisfait, je gage, d’avoir tendu quelques fils imperceptibles avec lesquels on ourdira, on tramera une intrigue, qui se mêlera insensiblement, et dont vous aurez toutes les peines du monde à vous débarrasser. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="109"> Ba ! tu vois tout en noir. – Écoute, que signifie ce bruit ? on croirait entendre la marotte de Momus. </l>
+                        <l n="110"> On entend des grelots. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="111"> On se tromperait de peu : ce sont les jeunes gens qui ont couronné leurs coursiers de grelots, pour briller à l’une des trois fêtes du Bois sacré ; et ils se croiront couverts de gloire, si leurs habits, leurs chars et leurs maîtresses ont été distingués. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="112"> Allons les voir passer. Cette curiosité est permise à un étranger ; mais, nous reviendrons dans cette place, elle me plaît ; j’aimerais à l’habiter ; les palais qui l’entourent me paraissent autant de temples. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="113"> La plupart sont en effet dédiés à Plutus, à l’Amour – et surtout à Vulcain. </l></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="114"> Plains-moi, ma chère Mirtilde : je me suis baignée à côté de femmes qui avoient des Essences passées, et je crois respirer encore ces vilaines Odeurs. – Quand ma salle des Bains sera-t-elle donc finie ?... je le vois bien, il faudra que comme Phœnisse je m’attache un Architecte. </l>
+                        <l n="115"> Quelques esclaves entrent chez Érotie.</l></div>
+        <div type="scene" xml:id=" ΙΙ ">
+            <head> Scène ΙΙ </head>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="116"> Salut à la belle, à la ravissante Érotie. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="117"> Eh ! bonjour. Voilà qui est singulier, j’ai cru vous avoir vu tout à l’heure, de ce côté devant le Lycée ; vous paraissiez même surpris d’y voir entrer des Disciples de soixante ans, et des jolies Philosophes de seize, quand je vous ai adressé des agaceries que je me reproche, puisqu’elles ne vous font point parvenues. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="118"> Toujours bonne ; aussi viens-je sans façon vous demander à dîner. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE, minaudant. </speaker>
+                        <l n="119"> Ah ! j’ai si mal dormi, j’ai de l’humeur, et je ne serais pas aimable. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="120"> Je vous en défie. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE, souriant. </speaker>
+                        <l n="121"> Croyez-vous. – À propos je suis une étourdie – Mirtilde ; n’ai-je point promis d’être d’un grand festin chez l’une de nos premières Citoyennes ? </l>
+                </sp>
+        <sp who="#mirtilde">
+            <speaker> MIRTILDE. </speaker>
+                        <l n="122"> Oui, Madame. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE, avec humeur. </speaker>
+                        <l n="123"> Rien n’est plus excédent ! Cette femme à des étrangers, elle veut se parer de moi, de mes talents, d’honneur ! il y a des jours, où ma célébrité me pèse, me fatigue ; mais il faut bien faire quelque chose pour les prôneurs. – Ah ! ah ! je ne vous connaissais pas ce bijou. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, lui présentant la bague. </speaker>
+                        <l n="124"> Vous voudrez bien l’embellir j’espère. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="125"> Moi, mon cher, Ménechme ! </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="126"> N’est-ce pas à peu près ce que vous avez paru désirer ? </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="127"> Mais, mais, où avez-vous donc fait cette délicieuse découverte j’avais tant cherché. – Comme il est complaisant ! – C’est bien la plus excellente gravure ! – Comme il est aimable ! La plus belle tête ! – C’est qu’il est adorable mon cher Ménechme. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="128"> Je suis flatté qu’une bagatelle, un rien. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE, avec dignité. </speaker>
+                        <l n="129"> Voilà pourquoi j’accepte de vous ce présent, et si je fais élever quelque jour une Pyramide ou construire un théâtre, ce ne seront pas les hommes aimables qui y contribueront. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="130"> Aussi délicate, que belle !</l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="131"> Le cadeau est charmant. il est charmant ! quand je me serai régalée du plaisir de le porter, je ferai monter la pierre sur un fond Octogone. Je travaille depuis deux jours à les mettre à la mode, et vous savez, comme les femmes qui affectent le plus de nous dédaigner, saisissent avec empressement nos goûts, nos parures, même notre ton, nos manières, et quelque fois nos mines qui, par parenthèse, leur vont fort mal. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="132"> J’ai déjà prévenu le célèbre Dromond. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE, part d’un grand éclat de rire. </speaker>
+                        <l n="133"> Il me passe par la tête une idée assez folle, et qui me réjouit beaucoup. Je suis tentée, de laisser là mon illustre Citoyenne, son festin, ses convives Je crois voir la mine qu’ils feront, et leur désespoir ; quand on leur dira... que je suis indisposée ! ne puis-je pas avoir comme une autre mes extinctions de voix, mes éblouissements ?... oui voilà qui est décidé je suis malade, bien malade ! malade à périr ! et vous assisterez à mon petit couvert.</l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="134"> L’idée est des plus heureuses.</l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="135"> Mirtilde, donnez des ordres à mon maître d’hôtel. </l>
+                        <l n="136"> Mirtilde entre un instant chez Érotie. </l>
+                        <l n="137"> Nous dînerons dans mon petit cabinet – j’en raffole ! la tête m’en tourne ! je suis bien aise que vous le voyez avant tout le monde. Le Labyrinthe, et les jardins irréguliers de Phinelé, la maison couverte en cuivre de Parthénis, tous les Temples dédiés par nos belles au Dieu du mystère, n’attireront pas, j’en suis sure, un aussi grand nombre de connaisseurs. Je l’ai fait orner de nouveau, exprès, pour occuper vingt Artistes du plus grand mérite qu’on laisse languir dans l’oubli. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="138"> Peut-être n’ont-ils pas eu l’adresse de dire qu’ils venaient de loin. </l>
+                        <l n="139"> Le maître d’hôtel traverse le théâtre précédé de deux Esclaves. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="140"> Précisément. – C’est ma manie à moi, que l’amour des talents : je me plais à les accueillir, à les enrichir... à les protéger. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="141"> Et voilà ce qui met les belles bien au-dessus d’un Conquérant. Ses victoires détruisent les chefs-d’œuvre de l’art, les vôtres les multiplient. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="142"> Ajoutez qu’une belle ne doit ses conquêtes qu’à elle-même. – Sans adieu. Je vous demande le temps de faire un peu de toilette... Si je me trouve jolie, attendez-vous à me voir bien méchante ; sinon je serai la bonté même, un pauvre petit mouton... je vanterai... jus qu’aux talents de mes rivales. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="143"> Vous serez toujours le désespoir des femmes, et l’admiration des hommes. </l></div>
+        <div type="scene" xml:id=" ΙΙΙ ">
+            <head> Scène ΙΙΙ </head>
+        <sp who="#i>le-marié">
+            <speaker> MÉNECHME le marié, seul </speaker>
+                        <l n="144"> Voilà, je crois mes petites affaires assez bien arrangées. – Où sont-ils les maris qui s’ennuient chez eux ? qu’ils viennent prendre exemple sur moi, je ne me plains pas, je ne fais point tapage, j’ai l’art de me ménager en secret de petites consolations et mes jours toujours purs, toujours sereins. – Ma femme. – Ah ! je me trompe, le temps s’obscurcit. </l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME, à l’esclave </speaker>
+                        <l n="145"> Va dire promptement à mon père que pour cette fois j’ai le plus grand besoin de sa présence. –Le perfide peut seul m’avoir fait ce larcin... et pour qui ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="146"> Qu’est-ce ? vous n’avez pas l’air bien satisfaite. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="147"> J’aurais tort, ne suis-je pas la femme la plus heureuse ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="148"> Tant mieux. – </l>
+                        <l n="149"> À part. </l>
+                        <l n="150"> Gare l’orage. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="151"> N’ai-je pas l’époux le plus tendre ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="152"> Rien n’est plus vrai. –</l>
+                        <l n="153"> À part.</l>
+                        <l n="154"> Il est prêt d’éclater. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="155"> Le plus délicat ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, à part. </speaker>
+                        <l n="156"> Elle fait quelque chose, mais quoi ? je crains de me trahir. – </l>
+                        <l n="157"> Haut. </l>
+                        <l n="158"> Voilà comme vous êtes mon cœur ; vous avez la manie, de ne jamais dire ce qui vous déplaît. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="159"> Eh ! la belle occasion, si je n’avais promis... Ah ! mon père, mon père... </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="160"> Ne suis-je pas, de votre aveu, l’époux le plus tendre ? </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="161"> Il est vrai. – </l>
+                        <l n="162"> À part. </l>
+                        <l n="163"> Le traître ! </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="164"> Le plus délicat ? </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="165"> Assurément. </l>
+                        <l n="166"> À part. </l>
+                        <l n="167"> – L’infidèle. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="168"> Vous convenez que vous êtes la femme la plus heureuse. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME, avec vivacité. </speaker>
+                        <l n="169"> Est-ce que je me plains ? est-ce que j’ai un air fâché ? ne suis-je pas au contraire fort calme ? d’ailleurs voici mon père ; il jugera de l’innocence de vos procédés. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, à part. </speaker>
+                        <l n="170"> Je ne suis pas du tout à mon aise.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, enchanté. </speaker>
+                        <l n="171"> Un tendre tête à tête ! à merveille mes enfants ! j’aime à vous voir d’aussi bonne intelligence. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="172"> Mon père... </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, l’interrompant. </speaker>
+                        <l n="173"> Voilà, ma chère fille, l’effet de la douceur que je vous ai recommandée. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="174"> Apprenez... </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, l’interrompant toujours. </speaker>
+                        <l n="175"> Un raccommodement ! rien n’est plus agréable ! et ne pas attendre d’être chez soi, cette impatience m’enchante. Voilà comme j’étais. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="176"> Non. Vous n’avez jamais ressemblé au plus indigne des hommes. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, avec impatience. </speaker>
+                        <l n="177"> Oh ! voyons. Expliquons nous ; que je sache enfin qui je dois gronder que je le gronde que ce soit fini une fois pour toutes. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="178"> Vous allez frémir. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, à part. </speaker>
+                        <l n="179"> Encore une fois, que fait-elle ? ma situation est assez embarrassante. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="180"> N’a t-il pas eu l’indignité de prendre dans mon écriain... </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, avec finesse. </speaker>
+                        <l n="181"> Dans son écrin. Ménechme l’y voilà. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, embarrassé. </speaker>
+                        <l n="182"> Oui, l’y voilà. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, riant. </speaker>
+                        <l n="183"> Ah ! ah ! la chose est trop plaisante. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="184"> Vous riez ! </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, surpris. </speaker>
+                        <l n="185"> Il rit ! </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="186"> Je me doutais bien, qu’elle prendrait mal cette espièglerie, si elle s’en apercevait. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="187"> Je m’en doutais aussi. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="188"> Vous voulez que je lui sache gré de m’avoir enlevé une bague d’un grand prix. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="189"> Sans doute. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, à part. </speaker>
+                        <l n="190"> Le malin vieillard s’amuse à me railler. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="191"> Si vous saviez pourquoi ce larcin ! </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="192"> Je ne le devine que trop ! est-il rien de plus affreux. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="193"> Dites de plus galant. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="194"> Pour Érotie. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, à part. </speaker>
+                        <l n="195"> Hai ! </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="196"> Pour vous. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="197"> Vous me feriez mourir de dépit – parlez du moins, perfide. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="198"> Moi ? je m’en garderai bien. N’avez-vous pas voulu que votre père jugeât de l’innocence de mes procédés ? ce sont vos propres mots. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="199"> Son sang-froid redouble ma colère. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="200"> Allons, mon gendre, allons, allons il faut la mettre dans le secret. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="201"> Puisque vous le savez... </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="202"> Comment, si je le sais ! oh ! je ne suis pas dupe. Je vous ai surpris ce matin avec Dromond.</l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, à part. </speaker>
+                        <l n="203"> Avec Dromond, je suis perdu. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="204"> Je l’ai envoyé chercher, je l’ai finement interrogé, il a voulu feindre, mais il a fini... </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="205"> Par vous tout dire ? </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="206"> Oui. Il m’a fait l’aveu le plus Sincère. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, à part. </speaker>
+                        <l n="207"> Le traître ! </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME, vivement. </speaker>
+                        <l n="208"> Il se trouble. – Eh ! bien mon père, que vous a dit Dromond ? </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="209"> Que Ménechme trouvant la bague trop simple pour une femme jeune, riche aimable lui a ordonné de l’embellir, et de la rendre plus digne de vous. Eh ! grondez maintenant le tour est-il d’un mari ? </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="210"> Serait-il possible ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, à part respirant. </speaker>
+                        <l n="211"> Ah !... je reviens de loin. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="212"> Que je suis confuse ! </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="213"> Sans doute ! pour certaines femmes il est bien plus agréable d’avoir à se plaindre, que d’avouer un tort – avancez Ménechme, et embrassez-vous. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, passant entre la femme et le Vieillard. </speaker>
+                        <l n="214"> Sais-je toujours un monstre ? </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="215"> Ah ! mon ami si tu étais coupable, je t’aime tant qu’il aurait bien fallu finir par te pardonner ; je te demande de me traiter de même.</l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="216"> Et pour te convaincre que mon larcin n’était pas destiné à une autre, je vais le chercher, et le rapporter tel qu’il sera, au véritable objet de ma tendresse.</l>
+                        <l n="217"> Il la conduit vers sa maison. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="218"> Le voilà le Phénix des maris. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME, de sa porte. </speaker>
+                        <l n="219"> Tu ne me trompes point, Ménechme, je te reverrai bientôt ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="220"> Tu peux t’en fier à mon impatience. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="221"> Rentrés, je suis sa caution. </l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, ramenant son gendre. </speaker>
+                        <l n="222"> Hum ! sans moi la jeune tête allait-elle partir ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="223"> Il y a quelqu’apparence. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="224"> Convenez-en : vous avez été intrigué, quand je vous ai parlé de Dromond. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="225"> Beaucoup ! </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="226"> Vous vous doutiez bien que je l’aurais contraint à me dire la vérité. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="227"> Je le craignais. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="228"> Il a bien vu que je n’étais pas de ces hommes crédules, à qui l’on persuade ce qu’on veut. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="229"> À qui le dites vous – je vais joindre Dromond. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="230"> Et le quereller, n’est-ce pas ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="231"> Puisque vous le voulez je le remercierai, et </l>
+                        <l n="232"> À part. </l>
+                        <l n="233"> je reviendrai bien vite avec la bague... du Pourvoyeur. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="234"> À merveille. C’est on ne peut pas mieux arrangé ! </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="235"> Votre suffrage me fait grand plaisir. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="236"> Par où passez-vous donc ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="237"> Laissez faire, Dromond doit être à certaine vente où je suis plus sur de le trouver. </l>
+                        <l n="238"> Il sort. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, de loin. </speaker>
+                        <l n="239"> Je tiendrai compagnie à ma fille, et à votre retour nous dînerons gaiement ensemble. </l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#le-maître-d’hôtel-d’érotie">
+            <speaker> LE MAÎTRE D’HÔTEL. </speaker>
+                        <l n="240"> Vous dînerez ensemble, dites-vous, est-ce que vous êtes de la partie ? cela m’étonne. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="241"> Il est bien surprenant en effet que je dîne avec mon gendre. </l>
+                </sp>
+        <sp who="#le-maître-d’hôtel-d’érotie">
+            <speaker> LE MAÎTRE D’HÔTEL. </speaker>
+                        <l n="242"> De par comus, vous rencontrez bien ! j’ai là des mets qu’on réservait pour la table du plus friand de nos grands-Prêtres ; mais d’après Mirtilde, Ménechme devait dîner tête-à-tête avec Érotie. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="243"> Ménechme doit dîner tête-à-tête Érotie ! </l>
+                </sp>
+        <sp who="#le-maître-d’hôtel-d’érotie">
+            <speaker> LE MAÎTRE-D’HÔTEL. </speaker>
+                        <l n="244"> Sans doute. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="245"> Ah le traître ! le perfide ! et j’offrais d’être sa caution. C’est pour étourdir sa femme sur ses infidélités qu’il lui fait des cadeaux[1]. Je ne suis pas un beau-père bien ridicule, mais il me semble qu’au moment d’une réconciliation surtout, il peut bien garder quelques ménagements et dîner chez lui. Allons bien vite lui écrire, et, l’esclave l’attendra ici. La précaution est très essentielle ! </l>
+                        <l n="246"> Le Maître-d’Hôtel fait signe au Vieillard d’entrer chez Érotie ; il entre chez sa fille avec humeur. </l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#le-maître-d’hôtel-seul">
+            <speaker> LE MAÎTRE-D’HÔTEL seul </speaker>
+                        <l n="247"> Voilà un dîner qui trouble bien la cervelle du bonhomme. – Oh ! oh ! dépêchons-nous. Notre convive n’était pas loin. </l></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="248"> Quel tableau mouvant ! comme il est agréable ! comme il se renouvelle avec rapidité ! j’aime ces Amazones, qui, la tête surmontée du panache de Minerve, volent à travers une nuée de poussière dans des Chars brillants et semblent vouloir devancer le Zéphyr. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="249"> Pour moi, elles me font trembler – je préfère ces Enchanteresses qui gardent le terre-à terre, et font d’un air distrait, avec leurs petites baguettes, des cercles, des conjurations pour enchaîner les libertés. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="250"> Convenons l’un et l’autre que toutes ces beautés cèdent la pomme à la femme adorable, divine, qui a daigne me sourire devant le Lycée ; ses traits font pour toujours gravés là. </l></div>
+        <div type="scene" xml:id=" X ">
+            <head> Scène X </head>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="251"> Que mes esclaves dressent avec foin les lits de table ; qu’ils préparent les couronnes de fleurs et qu’on brule les parfums les plus exquis. </l>
+                </sp>
+        <sp who="#mirtilde">
+            <speaker> MIRTILDE, rentrant. </speaker>
+                        <l n="252"> Oui belle Érotie. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="253"> Érotie ! nous sommes perdus ! la voilà déjà cette Érotie dont l’homme officieux nous a parlé. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="254"> Ah ! Messénion. C’est elle, c’est la beauté que je viens d’admirer ! Quels yeux ! quel son de voix. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="255"> Oui, elle est Sirène, soyez Ulysse. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE, après avoir regardé quelque temps. </speaker>
+                        <l n="256"> Eh bien ! que faites-vous là ? je ne suis pas du tout satisfaite de votre peu d’empressement, je vous en avertis. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="257"> Hélas, madame, vous vous méprenez sans doute. À qui croyez-vous adresser un reproche aussi flatteur ? </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="258"> À qui donc si ce n’est à mon cher Ménechme ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, bas à Messénion. </speaker>
+                        <l n="259"> Tout le monde sait donc mon nom ; il semble faire proverbe. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, bas. </speaker>
+                        <l n="260"> L’homme officieux à la mémoire heureuse. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="261"> Donnez-moi la main, et venez vous mettre à table. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="262"> On ne peut inviter avec plus de grâce, cependant vous trouverez bon que je me dispense d’accepter. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="263"> Pourquoi donc m’avez-vous demandé à dîner ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="264"> Quand ? </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="265"> Ce matin. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, à part avec joie. </speaker>
+                        <l n="266"> Bon ! la voilà qui s’embarrasse. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="267"> Auriez-vous peur d’être entendu de votre femme.</l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, bas. </speaker>
+                        <l n="268"> Oui ; votre femme de la façon du fourbe qui vous a vu débarquer ; ils sont en déroute. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="269"> Vous riez ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="270"> Apprenez qu’on vous a trompée. Jamais je ne fus marié. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="271"> Oh ! la plaisanterie est trop forte, et dure trop longtemps. Je suis piquée au vif. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, bas. </speaker>
+                        <l n="272"> Ma foi, je vais céder à son invitation, Mais regarde là donc. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="273"> Vous êtes cause que j’ai manqué de parole à la meilleure compagnie. – Il n’est pas tard, et je puis la surprendre agréablement. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="274"> Daignez m’écouter. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="275"> Non. Du moins l’on me saura gré de ma complaisance. – </l>
+                        <l n="276"> À l’un de ses esclaves. </l>
+                        <l n="277"> Qu’on avertisse le conducteur de mon char. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="278"> Je n’ai qu’un mot à vous dire, pour me justifier. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="279"> Je ne veux rien entendre. –</l>
+                        <l n="280"> À un second esclave. </l>
+                        <l n="281"> Qu’on attèle les plus rapides de mes Coursiers. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, à part. </speaker>
+                        <l n="282"> Tout coup vaille. Elle emploie la ruse, imitons là. </l>
+                        <l n="283"> Bas à Érotie d’un air mystérieux.</l>
+                        <l n="284"> – cet esclave est l’espion de ma femme. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE, s’arrêtant. </speaker>
+                        <l n="285"> Tout de bon ? ceci devient différent. – </l>
+                        <l n="286"> À ses esclaves. </l>
+                        <l n="287"> Qu’on ne se presse pas. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, à part </speaker>
+                        <l n="288"> Que lui dit-il ? il paraît la calmer. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="289"> J’ai feint de refuser, crainte qu’il n’instruisit ma jalouse. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="290"> En ce cas là. Je vous pardonne le moment d’humeur que vous m’avez donné. –</l>
+                        <l n="291"> À ses esclaves. </l>
+                        <l n="292"> je ne sortirai pas. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, à part. </speaker>
+                        <l n="293"> Oh ! la dangereuse femelle ! </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="294"> Débarrassez-vous de votre importun et venez bien vite me joindre. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="295"> Je brule de vous suivre. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE, lui donnant sa main à baiser. </speaker>
+                        <l n="296"> Je reconnais enfin mon cher Ménechme.</l></div>
+        <div type="scene" xml:id=" XI ">
+            <head> Scène XI </head>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, riant. </speaker>
+                        <l n="297"> Eh bien ! Messénion, que dis-tu de mon aventure ? </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="298"> Moi ! Seigneur, je dis qu’elle file assez bien, c’est-à-dire de manière à ne pas laisser voir comme elle finira. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="299"> Elle est trop plaisante, et je veux m’en amuser. Je te conseille d’en rire avec moi. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, avec un rire forcé. </speaker>
+                        <l n="300"> Rions, puisque vous le voulez. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="301"> Va ; la belle en sera pour ses parfums et ses couronnes. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, vivement. </speaker>
+                        <l n="302"> Vous ne vous doutez point des pièges qu’on vous tendra. Voilà d’abord Érotie amenée sur la scène, comme je l’avais prédit. Je ne serais pas surpris que pour avoir du renfort, on ne vous mit aux prises avec la prétendue épouse, peut-être même le beau-père. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, légèrement. </speaker>
+                        <l n="303"> Eh bien ! l’épouse et le beau-père seront plaisantés ; ne m’as-tu pas prévenu ? </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="304"> Jusque ici ce sont les feuilles qui sont tombées sur vous, mais craignez que les arbres ne vous écrasent. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="305"> Suis-je un enfant. – Tu ne crains pas j’espère pour ma tendre innocence. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="306"> Je crains pour notre Dieu Tutélaire, pour votre bourse enfin, sans le secours de laquelle nous ne pouvons retourner à Syracuse. – De grâce, que je la voie encore une fois pour lui faire mes derniers adieux. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, tirant sa bourse de sous sa ceinture. </speaker>
+                        <l n="307"> Tiens, fais disparaître le valet moraliste, et j’accorde au valet honnête-homme la confiance qu’il mérite, je te charge du sac pécuniaire. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="308"> Quoi ! tout de bon ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="309"> Je te donne la journée pour reconnaître Épidamne et ce soir, si je tarde trop, tu viendras me chercher. </l></div>
+        <div type="scene" xml:id=" XII ">
+            <head> Scène XII </head>
+        <sp who="#l’esclave">
+            <speaker> L’ESCLAVE. </speaker>
+                        <l n="310"> Seigneur cette lettre est pour vous. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="311"> Pour moi ! – Qui peut m’écrire ? </l>
+                        <l n="312"> Il hésite et prend enfin le rouleau.</l>
+                        <l n="313"> Le voilà parti. </l></div>
+        <div type="scene" xml:id=" XIII ">
+            <head> Scène XIII </head>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, avec intérêt. </speaker>
+                        <l n="314"> Lisez de grâce. </l>
+                </sp>
+        <sp who="#ménechme-lit">
+            <speaker> MÉNECHME lit. </speaker>
+                        <l n="315"> « Démiphon à son cher Ménechme salut. » – Eh bien ! ne voilà-t-il pas encore une connaissance intime. « Je ne suis pas un censeur bien rigide ,mon cher Ménechme, quoique vieux je trouve bon que les jeunes gens goûtent les plaisirs de leur âge ; mais je veux qu’ils sachent se les procurer de manière à être heureux dans leur maison. » </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="316"> Ah ! ah ! de la morale ? comme elle vient à propos. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="317"> Messénion ? </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="318"> Seigneur ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="319"> Vous êtes un mauvais railleur. Vous avez fait écrire cette lettre. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="320"> Comment l’aurais-je pu ? vous ai-je quitté depuis votre arrivée ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="321"> Il dit vrai. Continuons. « Nos femmes à talents sont charmantes ; celles surtout qui se distinguent comme Érotie méritent des autels. » </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="322"> Un moment ! comme Érotie ! voilà qui achève de me justifier. Savais-je que vous vous passionneriez pour cette belle ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="323"> Tu as saison. Mais par quel enchantement le moraliste le fait-il ? je l’ignorais moi-même, il n’y a qu’un instant. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="324"> Je suis comme vous ; j’ai beau creuser mon cerveau. </l>
+                </sp>
+        <sp who="#ménechme-lit">
+            <speaker> MÉNECHME lit. </speaker>
+                        <l n="325"> « Rendons leur un juste tribut d’admiration et d’applaudissements, mais cédons, nous autres Citoyens aux grands de la République, le bonheur de suivre publiquement leur char : soyez surtout assez prudent pour ne pas dîner chez elle aujourd’hui, je l’exige ». Plus je réfléchis, moins je comprends pour quoi et comment ce Démiphon, que je ne connais pas, peut si promptement s’intéresser à moi. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, à part. </speaker>
+                        <l n="326"> Ah ! si les leçons du Vieillard pouvaient venir à mon secours. –</l>
+                        <l n="327"> Haut. </l>
+                        <l n="328"> Seigneur, que pensez-vous du sermon ? il me paraît bien raisonné : il nous vient de quelque Dieu qui nous aime. – Vous rêvez. Que décidez-vous ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, vivement. </speaker>
+                        <l n="329"> Qu’Érotie est la beauté même, qu’il est doux de lui rendre les armes, puisqu’elle réunit toutes les grâces à des talents distingués ; que tout galant homme doit s’en faire honneur, et que Vieillard n’en parle que par envie. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="330"> Songez... </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, du ton le plus positif. </speaker>
+                        <l n="331"> Paix, songez-vous même, que je suis le maître et vous l’esclave. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, confondu. </speaker>
+                        <l n="332"> J’obéis, Seigneur. Vous ne pouviez en moins de mots me dire plus de choses.</l></div>
+        <div type="scene" xml:id=" XIV ">
+            <head> Scène XIV </head>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, seul </speaker>
+                        <l n="333"> Le voilà lancé, mais je le tiens l’objet de mes tendres soucis ; je le presse sur mon sein. J’empêcherai sur mon honneur que ce butin précieux ne nous soit enlevé par le Pirate qui nous poursuit. – Ah ! comme il est heureux le Seigneur Ménechme, d’avoir à son service un homme sage, prudent, fidèle, surtout ! Un autre esclave à ma place... Attendez que pourrait-il faire ?... Ah ! ah ! bien des choses... il pourrait d’abord mettre une lacune de quelques mers entre son maître et lui, ensuite le misérable faquin d’esclave pourrait devenir... quoi ? avec de l’Or on a le choix... il pourrait devenir un faquin d’importance, n’est-ce rien ?... Puis grâce à cette métamorphose aussi prompte que commune. – Tout beau, Messénion, apprenez, vous qui raisonnez si bien, qu’on ne doit jamais calculer les avantages que le vice a sur la vertu, et pour cause. </l></div></div>
+           <div type="act" xml:id="4">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, le voyageur sortant enchanté de chez Érotie, et couronné de fleurs ; il doit être plus gai que dans les Scènes précédentes </speaker>
+                        <l n="334"> J’ai prudemment éludé quelques questions d’Érotie, auxquelles je n’entendais rien ; mais on dira de cette belle tout ce qu’on voudra, son éclat éblouit, sa gaieté amuse, la langueur intéresse, ses talents enchantent, ravissent, et je ne vois plus en elle qu’une femme accomplie ! Allons vite, faire remonter cette pierre, puis qu’elle le désire. – Ô Dieux ! quel contretemps. J’ai remis ma bourse à Messénion, je lui ai donné la journée pour se promener. Imprudent que je suis ! où le trouver ? Érotie va m’accuser d’indifférence ; je lui ai promis de lui rapporter la bague ce soir même... à qui m’adresser sans argent, sans crédit ?...Si je connaissais du moins un Orfèvre... </l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE, se trouvant derrière Ménechme. </speaker>
+                        <l n="335"> Le voilà l’Orfèvre. Fort à votre service. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="336"> En voici bien d’une autre ! </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="337"> J’arrive à-propos, à ce qu’il me paraît. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="338"> Très à-propos, si c’est pour me servir, et mon esclave n’aurait pas eu tort de vous nommer l’homme officieux. </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="339"> Il me semble que je mérite assez cette épithète. Cette couronne de festins, votre air joyeux, tout me dit que votre dîné chez Érotie a réussi. Aurait-il eu lieu, si comme je vous l’ai promis ce matin, je n’avais arrangé vos affaires ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="340"> Je vous en remercie. Quel festin, que celui où la volupté, après avoir choisi les mets les plus délicats, les vins les plus délicieux, sourit elle-même sur la bouche de l’enchanteresse qui préside à la fête, brille dans ses yeux, dirige tous les gestes, et se joue jusques dans les vêtements légers de vingt esclaves jolies ! </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="341"> Je suis charmé de vous avoir rendu un service dont vous paraissez si satisfait. – Voulez vous que je m’occupe présentement de remonter cette bague ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="342"> Allons, le voilà encore du secret. </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="343"> Je suis fâché de vous dire que vous ne devez plus compter sur le grand pourvoyeur. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="344"> Peu m’importe. Grâces à vous, je peux me passer de tous les pourvoyeurs du monde. </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="345"> Tant mieux ! j’aime à être achalandé. – Voici des fonds à la mode, des fonds octogones. Choisissez. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="346"> Des fonds octogones ? mot à mot ce que m’a dit Érotie. – Quand lui avez vous parlé ?</l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="347"> Jamais. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="348"> Qui vous a vu de sa part ? </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="349"> Personne. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, à part. </speaker>
+                        <l n="350"> Comment donc fait-il tout ? Comment arrange-t-il tout ? Messénion se trompe. Cette ville est peuplée de devins bien plus que de fripons. </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="351"> Vous semblez indécis. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="352"> C’est que par malheur je n’ai pas d’argent sur moi. </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="353"> En avez-vous besoin avec Dromond ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, à part. </speaker>
+                        <l n="354"> Je reste confondu. –</l>
+                        <l n="355"> Haut.</l>
+                        <l n="356"> Je vous annonce que je ne veux pas perdre ce bijou de vue.</l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="357"> J’en suis charmé. Quand vous serez dans mon magasin, peut-être aurez-vous fantaisie de quelque chose ; il est tout à votre service. Déterminez-vous, et je suis à vos ordres. – Souvenez-vous de mon adresse ; sous les Portiques de Philippe. Le premier Bijoutier à gauche, après le nouveau Temple de Thalie. </l></div>
+        <div type="scene" xml:id=" ΙΙΙ ">
+            <head> Scène ΙΙΙ </head>
+        <sp who="#i>le-voyageur">
+            <speaker> MÉNECHME le voyageur, seul </speaker>
+                        <l n="358"> Qu’est-ce que je risque, en ayant l’œil sur les ouvriers, et sur leur ouvrage ? Rien. D’ailleurs, je n’ai pas d’autre ressource. Trop heureux qu’elle s’offre comme par enchantement ! allons sous les Portiques de Philippe, chez le premier Bijoutier à gauche. </l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="359"> Il a reçu ma lettre, et il ne rentre pas ! mais n’est-ce pas lui avec une couronne de festin sur la tête? – Ménechme. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="360"> Qui m’appelle ? </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="361"> C’est moi. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="362"> Que désirez-vous, bonhomme ? </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="363"> Le bonhomme désire vous dire que votre femme vous attend pour dîner, et que vous l’offensez, en donnant la préférence à sa rivale. Il me semble que le bonhomme ne radote point encore. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="364"> En êtes-vous bien sûr ? </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="365"> Comment, si j’en suis sûr ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="366"> Pour moi, j’en doute, surtout, quand vous me parlez de ma femme. On me l’a bien annoncée, mais je ne l’ai jamais aperçue. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="367"> Quoi ! vous osez désavouer la plus respectable des épouses ! démentez donc ces yeux qui vous ont vu devant l’Autel de l’Hymen, les témoins qui vous y ont accompagné, la dot de mille talents d’or que je vous ai comptés. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="368"> Mille talents d’or ! auriez-vous encore quelques filles à marier ? </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="369"> Le trait est fort ! – mais surcroit d’inquiétude. La voici cette infortunée ; pouvait-elle arriver plus mal-à-propos ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="370"> Ma femme ! je ne suis pas fâché de faire connaissance avec elle. </l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="371"> Je l’avouerai, mon cher Ménechme soupçons n’étaient pas bien dissipés, tu me les pardonnes, puisque tu ne m’en es que plus cher ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, après avoir admiré sa belle-sœur. </speaker>
+                        <l n="372"> Beau-père, votre fille est charmante ! </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="373"> Elle fait du moins t’aimer. Bon ! voilà ma bague ; comme elle va m’être précieuse. Je n’en porterai pas d’autre. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="374"> Elle est naïve, elle annonce sans façon ce qui lui plaît. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="375"> Donne, c’est un présent de l’Amour, et l’amour le reçoit. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="376"> Ce Dieu fait, si je fus jamais assez impoli pour ne pas prévenir les désirs des jolies femmes. Mais ce bijou appartient à une autre beauté, avec qui je viens de faire un repas délicieux.</l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME, aperçoit la couronne. </speaker>
+                        <l n="377"> Ah ! mon père ! et j’avais tort d’être alarmée ! </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="378"> Peut-on déchirer avec cette barbarie un cœur sensible ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="379"> Ma foi, vous êtes difficiles. Je crois pour tant ne pas manquer aux égards que la politesse grecque prescrit à tout galant homme. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="380"> C’en est trop. Quand l’insulte et le mépris sont poussés au dernier point, il ne faut plus s’amuser à gémir. Je veux absolument me séparer du plus indigne des maris. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="381"> Vous séparer ! miséricorde ! il faudrait plaider ; et que deviendraient mes projets de repos ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, galamment. </speaker>
+                        <l n="382"> Oh ! point de procès, je vous prie. Vous êtes jeune et belle. Je le perdrais. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="383"> Je serais forcé de me morfondre à la colonne, au jugement, de courir après tous les suppôts de la chicane : il faudrait des soins pour ceux-ci, des solliciteuses pour ceux-là, de l’argent pour tous. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="384"> Je vivais pour un ingrat. Je ne respirerai plus que pour son fils. S’il a ses traits, il n’aura certainement pas la cruauté d’un perfide que je hais – que j’adore ! </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, les rapprochant avec affectation. </speaker>
+                        <l n="385"> Oh ! ça, expliquons-nous. – Est-ce que j’ai déjà les honneurs de la paternité ? </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, attendri. </speaker>
+                        <l n="386"> Il y a cinq ans que je pressai, pour la première fois contre mon sein votre enfant, et en songeant à lui, votre âme n’est point attendrie ! Ah ! Ménechme, vous avez bien mal profité des avis que je vous ai donnez dans ma lettre. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="387"> Quoi ! vous êtes l’homme aux conseils ? Ah ! je ne suis plus surpris si vous m’avez salué ce matin à mon arrivée. Vous aviez des projets fort honnêtes. Ah ! le rusé Vieillard ! </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, après avoir longtemps considéré Ménechme, passe entre lui et sa fille. </speaker>
+                        <l n="388"> Ma fille, j’ouvre enfin les yeux et je me rassure. Cette couronne de festin, ce qu’il fait, ce qu’il dit, tout nous prouve qu’il pourrait bien у avoir sur jeu un peu trop de vin de Lemnos. – Il est bon ; mais il grimpe à la tête. – Oui, c’est cela, et nous avons tort de nous affecter. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="389"> Ah ! voici du nouveau. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="390"> En effet ! cet air vif, étourdi, qui ne lui est pas familier... serait-il vrai... Ah ! je respire ; mon cœur avait grand besoin de pouvoir l’excuser. </l>
+                        <l n="391"> Elle passe entre son père et Ménechme. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="392"> Oui, mon adorable... Je viens de sabler du nectar à la table des Grâces. Aussi mon ivresse ne ressemble-t-elle pas à celle des profanes qui s’enivrent sans volupté. Vous le voyez. Je fais toujours respecter les belles. Je veux tout ce qu’elles veulent, et pour vous plaire je deviens un Dieu. Vous voyez en moi le Dieu Bacchus lui-même. J’aime à retrouver en vous ma charmante Érigonne, et dans ce vieillard, mon père nourricier. </l>
+                        <l n="393"> Il va joindre le Vieillard. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="394"> Il commence à me reconnaître. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="395"> Adieu mon bon Silène, je couronne en par tant le patron des buveurs. </l>
+                        <l n="396"> Il lui met la couronne sur la tête et se sauve.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="397"> Moi, le bon Silène ! Ménechme, mon cher Ménechme arrêtez-vous. – Je vais le suivre, et je promets de le ramener. Va, ne te chagrine pas. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="398"> Mon père, je vous le recommande ; songez que depuis quelques instants, il doit me paraître moins coupable. </l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, seul </speaker>
+                        <l n="399"> Oh ! ciel ! que d’incidents fâcheux pour un homme que l’émotion seule fatigue tâchons ce pendant de rejoindre... Ah ! le pauvre garçon le voilà qui revient chez lui aussi tranquillement que s’il était à jeun. </l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, à part. </speaker>
+                        <l n="400"> Quoi ! dans si peu de temps... il y a dans tout ceci quelque chose d’extraordinaire. Oh Dieux, si l’on avait versé quelque filtre dans sa coupe, profitons de ce calme pour avertir mon médecin, et glissons nous tout doucement, tout doucement, afin de ne pas l’effaroucher. </l></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#i>le-marié">
+            <speaker> MÉNECHME le marié, seul </speaker>
+                        <l n="401"> J’aurais du m’en douter. Le Pourvoyeur obtient une plus belle retraite que s’il n’eut point prévariqué, par conséquent plus de vente, prions Érotie de me rendre la pomme de discorde ; je lui ferai en échange un autre cadeau ; et toi, dont l’éloquence est si persuasive surtout auprès des femmes, Mercure, divin Mercure, inspire moi ; je te promets le plus beau caducée d’Épidamne... Et il y a de quoi choisir. </l></div>
+        <div type="scene" xml:id=" X ">
+            <head> Scène X </head>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="402"> Je vous aperçois, et je viens à vous. Cela est assez galant, j’espère. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, à part. </speaker>
+                        <l n="403"> Bon ! ceci est d’un bon augure. –</l>
+                        <l n="404"> Haut. </l>
+                        <l n="405"> Plaignez-moi, belle Érotie, d’avoir tardé si longtemps à vous rejoindre, et quoi que je me sente grand appétit... </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE, surprise. </speaker>
+                        <l n="406"> Grand appétit ! mon dîner n’était donc pas de votre gout ? mon cuisinier jouit pourtant de quelque célébrité ; plus d’un Parasite travaille à lui faire un nom, et ces Messieurs ne décident pas en l’air. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="407"> Vous voulez me punir de m’être fait attendre. Mille pardons. Ma femme et mon beau-père en font cause. C’est une aventure qu’il faut que je vous raconte... </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE, regardant autour d’elle. </speaker>
+                        <l n="408"> Attendez un instant.</l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="409"> Que cherchez-vous ? </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE, d’un air mystérieux. </speaker>
+                        <l n="410"> Est-il caché par-là ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="411"> Qui ? </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="412"> L’espion. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="413"> Quel ? </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="414"> Celui de votre femme. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="415"> Ah ! vous savez que ma femme à un espion ? qui vous l’a dit ? </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="416"> Vous-même. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="417"> Je l’ignorais. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="418"> Vous le saviez du moins ce matin, quand vous avez fait semblant... Encore une fois est-il là ? je crains de vous compromettre, en vérité je suis trop bonne. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="419"> C’est aussi sur votre bonté que je compte. Ma femme fait que j’ai pris dans son écrin la bague... </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE, avec orgueil. </speaker>
+                        <l n="420"> Dont vous m’avez fait présent ? quelle indignité ! </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="421"> J’en conviens, mais est-ce à vous de me la reprocher si cruellement ? </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="422"> Et à qui donc, si ce n’est à moi que vous exposiez au désagrément de se parer des dépouilles d’une autre ? une femme comme moi. – Terpsicore n’a pas une surnuméraire dans les écoles qui ne rougit d’un tel affront. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="423"> Sacrifiez-moi donc, je vous prie ce bijoux qui vous déplait tant, et demain vous me per, mettrez de vous en présenter un plus beau. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="424"> Non, Seigneur, vous pouvez même garder le seul que j’ai eu la complaisance d’accepter. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="425"> En ce cas là. Faites moi le plaisir de me le rendre. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="426"> Comment le pourrais-je ? il est sans doute chez l’Orfèvre qui doit l’embellir. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="427"> Quoi ! vous avez entendu ce que j’ai dit à ma femme ? il fallait bien trouver une excuse. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="428"> D’honneur ! si je comprends rien à votre Énigme... </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="429"> En bonne foi si j’entends la moindre chose à ce que vous me dites... </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE. </speaker>
+                        <l n="430"> Ah ! Ménechme, Ménechme, pour vous éloigner de moi, d’une personne qui jouit de quelque considération, vous pouviez prendre une tournure plus honnête. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="431"> Érotie, Érotie, pour m’interdire votre société, vous pouviez prendre un autre instant, et un autre prétexte. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE, impérieusement. </speaker>
+                        <l n="432"> Songez surtout, je vous prie, ale manière dont vous parlerez de moi dans le monde ; réfléchissez qu’en me manquant, ce sont peut être les plus grands de la République que vous offensez. Adieu, seigneur. </l></div>
+        <div type="scene" xml:id=" XI ">
+            <head> Scène XI </head>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, seul, quand Érotie est un peu loin  </speaker>
+                        <l n="433"> Adieu la bague ; Je ne suis pas mal et je fais une petite réflexion ; Voilà deux maisons où j’étais à peu-près le maître ce matin ; maintenant l’une m’est interdite et je n’ose rentrer dans l’autre. Quel parti prendre ? voyons. </l>
+                        <l n="434"> Il se promène en rêvant. </l></div>
+        <div type="scene" xml:id=" XII ">
+            <head> Scène XII </head>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="435"> Il est bien question ici de vin de Lemnos ou de philtre. Je viens de le rencontrer et j’ai vu dans sa tête comme à travers un cristal qu’il était travaillé du mal de Cérès. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="436"> Mon gendre fou, grands dieux... mon ami vous paraissez chagrin connaîtriez vous votre état ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="437"> Hélas oui ! je suis bien à plaindre. Ma femme abusant de l’avantage que va lui donner ma première faute prendra désormais un furieux empire sur moi. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="438"> Rassurez-vous. Ma fille est si bonne ! </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="439"> Oui, d’ailleurs caprice pour caprice il vaut mieux souffrir ceux de la femme, et je jure de fuir Érotie. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, au Médecin. </speaker>
+                        <l n="440"> Rien n’est plus singulier que ces lueurs de bon sens. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="441"> Le croiriez-vous ? elle a refusé de me rendre l’anneau. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, à part au Médecin. </speaker>
+                        <l n="442"> Il a oublié qu’il l’avait tout à l’heure. Ah ! la machine se détraque de nouveau. </l>
+                </sp>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="443"> Vous en verrez bien d’autres. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="444"> Il fallait tout de fuite avouer vos torts à votre femme. Mais vous venez de la traiter avec un mépris, une ironie. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="445"> Qui ? </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="446"> Vous. Pour premier compliment vous lui dites que vous n’êtes pas son mari ; vous plaisantez sur votre prétendue paternité ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="447"> J’aurais été capable d’une pareille infamie ! moi ? quel malheureux peut avancer ?... peut soutenir... </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="448"> Ce malheureux c’est moi. </l>
+                </sp>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN, se mettant entre eux. </speaker>
+                        <l n="449"> Eh bien ! qu’allez-vous faire ? la paix, la paix, vous dis-je. Voulez-vous déranger encore d’avantage un cerveau démonté. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, au Médecin. </speaker>
+                        <l n="450"> Un mot à l’écart. – Est-ce qu’il y aurait un peu de folie dans tout ceci ? </l>
+                </sp>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="451"> Comment un peu ; beaucoup. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="452"> Ah ! le pauvre homme, que je le plains ! </l>
+                </sp>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN, à part. </speaker>
+                        <l n="453"> Bon il croit son beau-père fou ! </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="454"> Là, là, calmez-vous, mon cher Démiphon. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="455"> Oui, parlons doucement, dites-moi, mon ami ; vous souvenez-vous d’avoir été Dieu. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="456"> Hélas ! où prend-t-il ces extravagances. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="457"> Et ma fille qui était Érigone, moi le bon Silène que vous avez couronné de fleurs. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="458"> De par la sage Minerve peut-on déraisonner aussi complètement. </l>
+                </sp>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="459"> Écoutez-moi ; l’un de vous deux est fou à lier. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="460"> Certainement.</l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="461"> Il n’est que trop vrai. </l>
+                </sp>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="462"> Comme le propre de cette maladie est de persuader à ceux qui en sont affligés qu’ils ne l’ont pas et qu’ils croient au contraire la voir chez tous ceux qui les approchent, vous vous regardez mutuellement en pitié. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, à part. </speaker>
+                        <l n="463"> En effet son état me touche sensiblement.</l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, à part. </speaker>
+                        <l n="464"> Je le plains de tout mon cœur. </l>
+                </sp>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="465"> Ne vous affligez pas ; le malade sera bientôt guéri, surtout, si je le traite chez moi ; je vais commander à mes élèves de me l’amener ; attendez un instant et faites-vous mutuellement compagnie. </l>
+                        <l n="466"> Il sort.</l></div>
+        <div type="scene" xml:id=" ΧΙΙΙ ">
+            <head> Scène ΧΙΙΙ </head>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, à part. </speaker>
+                        <l n="467"> Ce que c’est de nous ! </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, à part. </speaker>
+                        <l n="468"> Ah ! pauvre humanité ! pauvre humanité ! </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="469"> Ne vous impatientez pas. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="470"> Ni vous. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, à part. </speaker>
+                        <l n="471">  Rien n’est plus singulier, il croit me garder. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD, à part. </speaker>
+                        <l n="472"> Il pense réellement veiller sur moi... </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="473"> C’est encore un bonheur, sans cela il faudrait user de force. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="474"> C’est encore une faveur du ciel ; sans cela il s’échapperait. </l></div>
+        <div type="scene" xml:id=" XIV ">
+            <head> Scène XIV </head>
+        <sp who="#premier-élève">
+            <speaker> PREMIER ÉLÈVE. </speaker>
+                        <l n="475"> Le voilà. </l>
+                </sp>
+        <sp who="#deuxième-élève">
+            <speaker> DEUXIÈME ÉLÈVE. </speaker>
+                        <l n="476"> C’est lui. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="477"> Bon ! ils approchent. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="478"> Je respire ; ils sont tout près. </l>
+                </sp>
+        <sp who="#premier-élève">
+            <speaker> PREMIER ÉLÈVE, saisissant Ménechme. </speaker>
+                        <l n="479"> Venez avec nous jeune homme. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="480"> Qu’appelez vous jeune homme ! c’est au contraire ce Vieillard. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="481"> Adieu. Je m’enferme pour consoler ma fille et pour n’avoir pas le cœur déchiré. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="482"> Courez donc après. </l>
+                </sp>
+        <sp who="#deuxième-élève">
+            <speaker> DEUXIÈME ÉLÈVE. </speaker>
+                        <l n="483"> Oh nous connaissons bien le Seigneur Ménechme ! </l></div>
+        <div type="scene" xml:id=" XV ">
+            <head> Scène XV </head>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, au fond du Théâtre. </speaker>
+                        <l n="484"> On parle de mon maître. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="485"> Insolents ! vous osez porter la main sur moi ! </l>
+                </sp>
+        <sp who="#premier-élève">
+            <speaker> PREMIER ÉLÈVE. </speaker>
+                        <l n="486"> Vous êtes malade nous avons sur vous droit de vie et de mort. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="487"> Droit de vie et de mort ! Rassurez-vous Seigneur Ménechme, le fidèle Messénion vole à votre secours. – Tiens garde ce coup. Tiens, voilà pour toi. </l>
+                </sp>
+        <sp who="#deuxième-élève">
+            <speaker> DEUXIÈME ÉLÈVE. </speaker>
+                        <l n="488"> Oser traiter de la sorte deux membres de la Médecine ! </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="489"> Elle s’en vengera bravement, quand elle me trouvera enchainé dans mon lit. </l>
+                        <l n="490"> Il les poursuit. </l></div>
+        <div type="scene" xml:id=" XVI ">
+            <head> Scène XVI </head>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, le marié, seul </speaker>
+                        <l n="491"> Il n’est pas malheureux d’avoir été secouru par cet honnête esclave qui me connaît, et que je ne me souviens pas d’avoir jamais vu. – Par Pollux, il semble, que depuis ce matin, mon bon, et mon mauvais génie se fassent un plaisir de se contrarier... voyons lequel des deux triomphera. </l></div>
+        <div type="scene" xml:id=" XVII ">
+            <head> Scène XVII </head>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="492"> Eh bien ! Seigneur, convenez que si je raisonne quelquefois passablement, je n’agis pas mal aussi. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="493"> Me voilà convaincu de la dernière de ces vérités, et les drôles que tu as poursuivis le sont encore mieux. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="494"> N’est ce pas une gentillesse de votre Érotie ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="495"> Tu m’y fais songer. Car je ne la reconnais plus. Aussi me voilà bien guéri. De quelque côté que vienne le danger dont tu m’as délivré, je t’en remercie. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="496"> Vous vous moquez ; pouvais-je moins faire pour mon maître ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, à part. </speaker>
+                        <l n="497"> Son maître ? est-ce encore un fou ? </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="498"> Convenez aussi que vous ne pouvez pas moins faire que de me donner la liberté. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="499"> Très volontiers, pour ce qu’il m’en coûte. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="500"> Nous n’avons pas ici de témoins, mais jurez par tous les dieux... </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="501"> Je jure par tous les dieux... que je n’ai aucun droit sur toi. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="502"> À la bonne heure, et pour vous convaincre que je suis digne de cette faveur, examinez scrupuleusement votre bourse ; je puis vous la remettre, puisque vous êtes guéri des charmes de votre Circé. </l>
+                </sp>
+        <sp who="#ménechme-la-prend-pour-l’examiner">
+            <speaker> MÉNECHME la prend pour l’examiner. </speaker>
+                        <l n="503"> C’est ma bourse, dis-tu ? </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="504"> Elle même, je n’y ai pas touché. – Quoi ! </l>
+                        <l n="505"> Les deux Elèves reparaissent. </l>
+                        <l n="506"> ces drôles reparaissent encore : ah ! je vais les accommoder de la bonne manière. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, l’arrêtant. </speaker>
+                        <l n="507"> Reprends donc la bourse. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="508"> Ma foi, seigneur Ménechme ; c’est à vous qu’elle appartient, c’est à vous de la garder quand je vais me jeter dans la mêlée. </l>
+                        <l n="509"> Il court sur les élèves.</l></div>
+        <div type="scene" xml:id=" XVIII ">
+            <head> Scène XVIII </head>
+        <sp who="#i>le-marié">
+            <speaker> MÉNECHME le marié, et toujours flegmatiquement malgré sa surprise </speaker>
+                        <l n="510"> Je ne suis pas homme à m’étonner de peu, cependant de tout ce qui m’arrive, ce dernier trait ne me paraît pas le moins extraordinaire c’est mon bon génie qui l’emporte dans ce moment – allons consulter quelques amis sur ma bonne et mauvaise fortune : tout ceci me paraît une énigme en action ; la devine qui pourra. </l></div></div>
+           <div type="act" xml:id="5">
+           <head> ACTE IV </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#i>le-voyageur">
+            <speaker> MÉNECHME le voyageur, seul </speaker>
+                        <l n="511"> Bon ! je ne vois plus un seul de mes importuns. Je m’en suis débarrassé assez plaisamment. C’est à l’Amour à m’en récompenser. </l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="512"> Où volez-vous, Seigneur ? je vous croyais prêt à vous rembarquer, pour fuir une ville où vous avez couru tant de périls. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="513"> Bah ! bah ! tu me vois glorieux de la manière leste, adroite, intelligente avec laquelle j’ai fait tête aux différents orages, à la vérité tu me les avais prédits. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, avec confiance. </speaker>
+                        <l n="514"> Oui. J’avais vu les nuages se ramasser.</l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="515"> Cette épouse si bien annoncée a paru.</l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="516"> Tout de bon ! </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="517"> Oui, nous sommes mariés depuis longtemps à ce que m’a dit le Conseiller Démiphon. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="518"> Il s’est enfin montré, cet homme de bien. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="519"> Homme de bien, comme les autres. N’est-il pas mon beau-père ? </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="520"> Je reste stupéfait. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="521"> J’ai encore un enfant, sans m’en être douté. Rien n’est plus intéressant, comme tu vois. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="522"> Oh ! ce n’est pas là le merveilleux. Beaucoup d’honnêtes gens ont de ces bonheurs inespérés. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="523"> Je me suis amusé de tous ces fripons, je les ai embarrassés dans leurs propres filets. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="524"> Peu s’en est fallu que vous ne vous soyez mal tiré des derniers. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="525"> On feignait de me croire pris de vin. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="526"> Et qui vous fait jouer ce tour là ? Érotie. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="527"> Non. Elle m’aime trop ! </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="528"> Bon ! tout à l’heure, il convenait des torts de la belle, Amour ! amour ! </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="529"> Érotie est une Divinité. Le Magistrat, le guerrier, le Sacrificateur, se font une volupté de l’adorer. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="530"> Et d’apporter à ses pieds l’or des épices, des capitulations, des offrandes. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="531"> Ah ! Messénion, que tu me fais bien sentir toute ma félicité ! comme tu me pénètres de reconnaissance pour Érotie. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="532"> En ce cas là je suis loin de mon but. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="533"> Conçois-tu combien il est flatteur de voir le rang, les honneurs, la fortune, perdre de leur crédit et disparaître devant le plus petit de mes soins. Vois comme il est beau de régner sur un cœur qui commande à tant d’autres. Apprécie, si tu le peux, la conquête d’une femme qui a les regards de toute une ville fixés sur elle. Mon triomphe est multiplié à l’infini par tous les yeux qui l’admirent, par toutes les bouches qui font son éloge, par tous les désirs, tous les soupirs qui s’échappent vers elle. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="534"> Ah ! Seigneur. Du moment que votre amour propre s’est ligué contre vous, tout est dit. </l></div>
+        <div type="scene" xml:id=" ΙΙΙ ">
+            <head> Scène ΙΙΙ </head>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="535"> La voilà ! la voilà qui paraît sur son balcon. Ses esclaves apportent son lut, elle va sans doute s’accompagner... Chut, chut, ne nous privons Pas du plaisir de l’entendre, tu vas éprouver avec quel charme elle fait passer la volupté dans tous les cours. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="536"> Si tantôt l’on vous accusait d’ivresse à tort, il n’en est pas de même en ce moment. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="537"> Paix, te dis-je, et dès qu’elle m’apercevra, ses regards, ses gestes, son empressement, tout fera voir, à quel point je suis chéri. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE, chante. </speaker>
+                        <l n="538"> Air.</l>
+                        <l n="539"> L’enfant qu’on adore à Cythère, </l>
+                        <l n="540"> Certain soir qu’il boudait sa mère,</l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="541"> Quand on voit Érotie et qu’on l’entend, on ne fait, si on doit la placer au rang des Muses ou des Grâces. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE, appelle froidement. </speaker>
+                        <l n="542"> Mirtilde. </l>
+                </sp>
+        <sp who="#mirtilde">
+            <speaker> MIRTILDE, de loin. </speaker>
+                        <l n="543"> J’accours.</l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="544"> Vois-tu qu’elle agréable surprise, et quel empressement. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="545"> Je ne m’y connais pas, ou je ne vois rien de tout cela.</l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, sèchement. </speaker>
+                        <l n="546"> Tu dis vrai, tu ne t’y connais pas. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE, à Mirtilde. </speaker>
+                        <l n="547"> N’ai-je pas entendu quelqu’un ? </l>
+                </sp>
+        <sp who="#mirtilde">
+            <speaker> MIRTILDE, avec surprise. </speaker>
+                        <l n="548"> C’est Ménechme, et il porte l’anneau ! </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, le montrant, d’un air satisfait. </speaker>
+                        <l n="549"> Le voilà, le voilà ! il est maintenant moins indigne de la plus belle des mains. </l>
+                </sp>
+        <sp who="#érotie">
+            <speaker> ÉROTIE, avec le plus grand dédain. </speaker>
+                        <l n="550"> Je n’avais pas besoin de cette dernière preuve pour me convaincre qu’il était le plus faux, le plus dangereux des hommes. </l>
+                        <l n="551"> Elle rentre chez elle.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, après la plus grande surprise. </speaker>
+                        <l n="552"> Voilà le caprice le mieux conditionné. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="553"> Quoi ! Seigneur. La bague dont l’homme officieux nous a parlé à notre arrivée, circule donc aussi à travers cette intrigue ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="554"> Je ne sais trop comment, mais tu vois. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, d’un ton railleur. </speaker>
+                        <l n="555"> Heureusement que vos présents vous reviennent ! </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="556"> Tu es dans l’erreur. J’ai fait remonter cette pierre, et voilà, tout. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="557"> En vérité, vous êtes trop bon de feindre avec votre serviteur. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="558"> Examine-la donc incrédule. Elle est d’un prix assez considérable ; ou aurais-je trouvé de s’argent pour la payer ? </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="559"> Où vous en avez pris pour la faire remonter. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="560"> L’homme officieux ne s’est point démenti, il est bijoutier, et m’a fort obligeamment offert du crédit ; mais pour remonter la bague seulement. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="561"> Vous voulez rire, Seigneur, il vous aura paru plus simple de faire ce que je redoutais si fort, de puiser à pleines mains dans votre bourse. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="562"> Oublies-tu que je te l’ai remise ? </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="563"> Non. Mais j’oublie encore moins que je vous l’ai rendue, et voilà le dangereux. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="564"> Tu me l’as rendue, à moi ! </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="565"> Ah ! nous sommes ruinés ! il ne faut pas être surpris, si Érotie lui refuse la porte ; ses tendres désirs sont satisfaits. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="566"> Explique-toi, malheureux, que veux-tu dire ? Quand m’as-tu rendu ma bourse ? </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="567"> Tout à l’heure, après vous avoir débarrassé de deux fripons. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="568"> Deux fripons ! en avais-je à redouter de plus dangereux que toi ? J’admire avec quelle adresse, en m’étalant de grands principes, il a su m’inspirer assez de confiance pour lui livrer ma bourse. – Scélérat, il faut que tu sois le coquin le plus réfléchi, le plus profond... </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="569"> Trêve d’admiration, on je pourrais admirer à mon tour la précaution de me la confier, cette maudite bourse assez longtemps, pour que l’ayant vue entre mes mains, quelqu’un puisse déposer contre moi. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="570"> Rends-moi mon bien, ou rien ne peut te dérober à la punition que mérite l’esclave le plus coupable. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, fièrement. </speaker>
+                        <l n="571"> Un esclave ! oubliez-vous que je suis libre, que vous m’avez donné la liberté pour prix de mes services ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="572"> Pour prix de tes services ! ô comble de l’impudence ! je t’ai donné la liberté ! où font les témoins. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="573"> Craignez de les irriter. Ces témoins font les Dieux devant qui vous avez juré que vous rompiez mes fers.</l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME. </speaker>
+                        <l n="574"> Imposteur ! il ne te manquait plus qu’à te jouer des Immortels. Je cours chez le premier Ephore. </l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, seul </speaker>
+                        <l n="575"> Et moi, je vous y suis. Je parois sans crainte devant un Magistrat, quand c’est le Peuple qui l’a choisi, et surtout quand les vertus et non l’intérêt personnel l’enchaînent à sa place. </l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#premier-élève">
+            <speaker> PREMIER ÉLÈVE. </speaker>
+                        <l n="576"> Halte-là ! nous sommes les plus forts main tenant, et nous allons vous rendre avec usure, tous les coups que vous nous avez distribués. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, accablé. </speaker>
+                        <l n="577"> Eh ! mes amis, je ne me défendrai pas. La vie m’est devenue insupportable. Assommez-moi, j’y consens.</l>
+                </sp>
+        <sp who="#deuxième-élève">
+            <speaker> DEUXIÈME ÉLÈVE. </speaker>
+                        <l n="578"> Vous mériteriez en effet que nous prissions notre revanche. Pour quoi faire évader le fou que nous tenions ? </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="579"> Quoi ! l’homme que vous vouliez arrêter est fou ? </l>
+                </sp>
+        <sp who="#premier-élève">
+            <speaker> PREMIER ÉLÈVE. </speaker>
+                        <l n="580"> Sans doute. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="581"> Le Seigneur Ménechme ? </l>
+                </sp>
+        <sp who="#deuxième-élève">
+            <speaker> DEUXIÈME ÉLÈVE. </speaker>
+                        <l n="582"> Le Seigneur Ménechme lui-même. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="583"> Est-il possible ? </l>
+                </sp>
+        <sp who="#premier-élève">
+            <speaker> PREMIER ÉLÈVE. </speaker>
+                        <l n="584"> Quel privilège aurait-il ? </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="585"> Ah ! mes amis, mes chers amis, que je vous embrasse. </l>
+                        <l n="586"> Les quatre Élèves s’écartent vivement. </l>
+                </sp>
+        <sp who="#deuxième-élève">
+            <speaker> DEUXIÈME ÉLÈVE. </speaker>
+                        <l n="587"> Oui, comme tantôt. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="588"> Ne craignez rien, j’étais si malheureux, que cette nouvelle, toute triste qu’elle est, me réjouit presque pour moi, pour Ménechme. </l>
+                        <l n="589"> Avec sensibilité. </l>
+                        <l n="590"> Ah ! mon cher Maître, j’aime bien mieux accuser ton esprit que ton cœur. Que ne me parliez-vous tantôt de sa maladie. </l>
+                </sp>
+        <sp who="#premier-élève">
+            <speaker> PREMIER ÉLÈVE. </speaker>
+                        <l n="591"> Vous nous en avez bien donné le temps. </l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="592"> Eh bien ! est-il pris ? </l>
+                </sp>
+        <sp who="#deuxième-élève">
+            <speaker> DEUXIÈME ÉLÈVE. </speaker>
+                        <l n="593"> Nous le tenions, voilà un homme qui l’a fait échapper. </l>
+                </sp>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="594"> Il est bien hardi. Je ne sais à quoi il tient que je ne le traite au lieu du malade. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="595"> Rassurez-vous, Seigneur, je suis plus intéressé que vous à le faire rattraper. Il ne peut être loin... Courons après lui... – Ah ! mon Patron, mon cher Patron ! je te ferai fidèle jusqu’au dernier moment de ma vie. </l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="596"> Où en est le traitement, cher Docteur ? </l>
+                </sp>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="597"> Oh vraiment ! la plus grande manie des sons est de fuir les remèdes. Le notre court les champs, mais on le suit de près. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="598"> Entre nous, Docteur, êtes-vous bien sûr de le guérir ? </l>
+                </sp>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="599"> Peut-on faire une pareille demande à un homme de ma réputation ? </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="600"> Il en est tant d’usurpées chez Apollon ! </l></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="601"> Seigneur Démiphon, je viens vous porter plainte contre votre gendre. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="602"> Eh ! de par tous les dieux voilà ce que je craignais il se sera donné en spectacle. </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="603"> Je lui ai remonté une bague... à crédit... et un quart-d’heure après ne désavoue-t-il pas cette dette ? Ne m’appelle-t-il pas publiquement un fripon, et dans ma boutique même, un fripon, moi un fripon ! </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="604"> Ne faites pas tant de bruit, je vous payerai. Ignorez-vous qu’il est tout-a-coup devenu fou, qu’on court après lui pour l’arrêter ? </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="605"> Ah ! si je l’avais su. J’ai des garçons vigoureux qui l’auraient enveloppé. </l>
+                        <l n="606"> Il fait un mouvement pour sortir et revient se placer entre le Vieillard et le Médecin. </l>
+                        <l n="607"> Mais il est trop loin. En vérité, seigneur, votre malheur me touche infiniment... je vous plains de tout mon cœur, et – Je vais transporter l’article de votre gendre sur votre compte. </l></div>
+        <div type="scene" xml:id=" X ">
+            <head> Scène X </head>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME, s’échappant de chez elle. </speaker>
+                        <l n="608"> Vous voulez en vain me retenir, mon mari est en danger ; je ne lui trouve plus de torts. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="609"> Où courez-vous ? </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="610"> Où mon devoir, où mon cœur m’appellent, auprès de Ménechme. </l>
+                </sp>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="611"> Soyez tranquille, on va l’amener chez moi. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="612"> Chez vous ! mon mari depuis qu’il est à plaindre, n’a-t-il plus des esclaves, une maison... une épouse ! – Ménechme est naturellement bon, sensible. Il verra mes soins ; le plaisir que j’aurai à les lui prodiguer ! j’aime à croire qu’ils seront plus efficaces. </l>
+                </sp>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="613"> Vous souffririez trop à le voir pâle, défait, égaré... </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="614"> Cessez de me tenir des propos aussi barbares qu’injurieux à mon amour, et aux sentiments que j’ai voués à un autre moi-même. </l>
+                </sp>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="615"> Je précipiterai le nombre des crises. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="616"> Mon père, c’est vous qui m’avez donné Ménechme, rendez-le moi dans le moment où il a le plus grand besoin d’une épouse tendre attentive, complaisante ; qui sait, a mes soupçons, mes craintes, mes inquiétudes n’ont pas contribué... Ah ! j’en frémis... et j’aurais la cruauté de l’abandonner ! non. Le voir guérir par mes soins, ou mourir avec lui, c’est le vœu de mon cœur. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="617"> Ne voilà-t-il pas qu’elle me fait pleurer ! </l></div>
+        <div type="scene" xml:id=" XI ">
+            <head> Scène XI </head>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="618"> Nous le tenons ! nous le tenons ! Il vient de repasser devant ma boutique, mes garçons vous l’amènent. </l></div>
+        <div type="scene" xml:id=" XII ">
+            <head> Scène XII </head>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, accourant d’un autre côté. </speaker>
+                        <l n="619"> Victoire ! Je savais bien qu’il n’échapperait pas à mon zèle. Voici le malade. </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE, fièrement. </speaker>
+                        <l n="620"> Que parlez-vous de votre zèle ? c’est moi qui l’ai fait prendre. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, mesurant l’Orfèvre. </speaker>
+                        <l n="621"> C’est moi, et je ne vous conseille pas de me disputer cet avantage, j’en suis trop fier. </l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE, à la Cantonade. </speaker>
+                        <l n="622"> Approchez, et faites voir la vérité. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, à l’autre Cantonade. </speaker>
+                        <l n="623"> Dépêchez-vous, pour prouver ce que j’avance. </l></div>
+        <div type="scene" xml:id=" XIII ">
+            <head> Scène XIII </head>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME le voyageur. </speaker>
+                        <l n="624"> Scélérats ! vous voilà donc tous réunis pour mettre le comble à votre perfidie. </l>
+                </sp>
+        <sp who="#i>le-marié">
+            <speaker> MÉNECHME le marié, aux Élèves. </speaker>
+                        <l n="625"> Savez-vous que vous pourriez m’impatienter à la fin ? </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME, à son beau-frère, qui s’est avancé entre elle et l’Orfèvre. </speaker>
+                        <l n="626"> Mon ami, je ne te quitter plus. Je veux te prodiguer nuit et jour les plus tendres soins. </l>
+                </sp>
+        <sp who="#ménechme-le-marié">
+            <speaker> MÉNECHME le marié s’avance entre sa femme et le Vieillard. </speaker>
+                        <l n="627"> Je vous en dispense. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="628"> Que vois-je ! </l>
+                        <l n="629"> Tous les Acteurs frappés de la ressemblance, restent étonnés et dans diverses attitudes, les quatre Élèves et les quatre garçons Orfèvres font aussi tableau dans le fonds. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="630"> Deux Ménechmes ? </l>
+                </sp>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="631"> Bon ! deux hommes à guérir. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="632"> Comment démêler... </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="633"> Un moment... si c’était... Pourquoi non... les Vieux Esclaves de mon Maître m’ont raconté... Dieux immortels ! je vous rends grâces. Pe sonne n’est fou. </l>
+                </sp>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="634"> Quel conte ! </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="635"> Préparez un laurier pour Messénion. Grâce à lui, vous allez voir clair dans les événements de cette journée. Comment vous appelez-vous ? </l>
+                </sp>
+        <sp who="#les-deux-ménechmes-ensemble">
+            <speaker> LES DEUX MÉNECHMES ensemble. </speaker>
+                        <l n="636"> Ménechme. </l>
+                        <l n="637"> Ils s’avancent l’un vers l’autre.</l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, les séparant. </speaker>
+                        <l n="638"> Que je m’empare du milieu du tableau. Je suis le personnage essentiel dans ce moment, et que les deux Ménechmes restent éloignés l’un de l’autre. –</l>
+                        <l n="639"> Les Ménechmes reprennent leur place. </l>
+                        <l n="640"> Quel est celui qui dans son enfance s’appelait Sosicle ? </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME le voyageur. </speaker>
+                        <l n="641"> Moi. </l>
+                </sp>
+        <sp who="#ménechme-le-marié">
+            <speaker> MÉNECHME le marié. </speaker>
+                        <l n="642"> Sosicle ! j’ai quelqu’idée confuse... </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="643"> Par conséquent vous êtes mon Maître.</l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="644"> Quant à vous, Seigneur, vous avez été perdu dans votre enfance, à Farente. </l>
+                </sp>
+        <sp who="#ménechme-le-marié">
+            <speaker> MÉNECHME le marié. </speaker>
+                        <l n="645"> Qui, à ce qu’a publié mon père adoptif.</l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION. </speaker>
+                        <l n="646"> Le voici arrivé, le moment de la joie, des transports, des embrassements ! mon Maître voilà le frère Jumeau que vous et votre famille avez cru mort. – Et pour preuve, le chiffre de votre maison doit être imprimé sur sa poitrine, il servait à vous distinguer dans votre enfance... </l>
+                </sp>
+        <sp who="#ménechme-le-marié">
+            <speaker> MÉNECHME le marié. </speaker>
+                        <l n="647"> Il n’en impose pas. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, le voyageur quitte se place pour courir à son frère. </speaker>
+                        <l n="648"> Ah ! mon frère ! j’ai le bonheur de vous retrouver, je ne vous quitte plus. </l>
+                        <l n="649"> Ils s’embrassent. Ménechme le Voyageur pousse son frère vers sa femme, et se place entre lui et le Vieillard. </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME, à son mari. </speaker>
+                        <l n="650"> Comment mon cœur a-t-il pu  se méprendre. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="651"> Cet honnête-homme à raison. Que de choses s’expliquent, où vont s’arranger d’elles-mêmes. D’abord, nous savons jusqu’à quel point la science du Docteur est infaillible. </l>
+                </sp>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN, sortant avec ses Élèves. </speaker>
+                        <l n="652"> Patience, vous serez malade quelque jour. </l></div>
+        <div type="scene" xml:id=" XIV ">
+            <head> Scène XIV </head>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME, le voyageur, à la belle-sœur, sans quitter sa place. </speaker>
+                        <l n="653"> La bague vous revient. </l>
+                </sp>
+        <sp who="#i>le-marié">
+            <speaker> MÉNECHME le marié, toujours entre son frère et sa femme. </speaker>
+                        <l n="654"> À vous la bourse. </l>
+                </sp>
+        <sp who="#i>le-voyageur">
+            <speaker> MÉNECHME le voyageur, tire mystérieusement dessous sa ceinture la lettre du Vieillard, et dit tout bas à son frère. </speaker>
+                        <l n="655"> À qui la réprimande ? </l>
+                        <l n="656"> Son frère et le Vieillard lui font un signe d’intelligence, le marié dérobe la lettre aux regards de sa femme, qu’il flatte, pour lui cacher son embarras. Ménechme le Voyageur, ajoute bas. </l>
+                        <l n="657"> Je suis bon frère, je me charge des torts. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="658"> Ma fille apprendra à se défier des apparences </l>
+                </sp>
+        <sp who="#la-femme-de-ménechme">
+            <speaker> LA FEMME DE MÉNECHME. </speaker>
+                        <l n="659"> Et mon père satisfait de nous voir tous heureux, n’aura plus qu’à vivre tranquille. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="660"> Ah ! vraiment oui, tranquille ! ne faut-t-il pas que j’ordonne des fêtes pour la réunion des deux Ménechmes, que je cherche une femme à celui qui arrive.</l>
+                </sp>
+        <sp who="#l’orfèvre">
+            <speaker> L’ORFÈVRE. </speaker>
+                        <l n="661"> Que vous achetiez des présents de noce. </l>
+                </sp>
+        <sp who="#le-vieillard">
+            <speaker> LE VIEILLARD. </speaker>
+                        <l n="662"> Que je veille sur l’éducation de leurs enfants. Je le vois enfin, l’honnête-homme se trompe, quand il pense avoir un seul jour le loisir de ne rien faire. </l>
+                        <l n="663"> Feinte sortie. </l>
+                </sp>
+        <sp who="#ménechme-le-voyageur">
+            <speaker> MÉNECHME le voyageur. </speaker>
+                        <l n="664"> Eh ! j’oubliais, que mon frère ta promis la liberté, je te l’accorde. </l>
+                </sp>
+        <sp who="#messénion">
+            <speaker> MESSÉNION, noblement. </speaker>
+                        <l n="665"> Je l’avais oublié moi-même, – toute mon ambition se bornait dans ce moment à mériter vos suffrages.</l>
+                        <l n="666"> [1] Pendant que le Vieillard se parle, le Maître d’Hôtel donne des ordres aux Esclaves qui entrent.</l>
+                        <l n="667"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

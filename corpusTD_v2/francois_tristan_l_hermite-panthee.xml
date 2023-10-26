@@ -1,0 +1,2524 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Panthée</title>
+                <title type="sub">Tragédie</title>
+            <author>
+                <persName>
+                    <forename>François</forename>
+                    <surname>Tristan</surname>
+                    <surname>L’hermite</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/panthée-françois-tristan-l’hermite </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1637">Représentée pour la première fois, à Paris, sur le Théâtre du Jeu de Paume du Marais, en 1637.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="cyrus" sex="SEX">
+                            <persName>CYRUS</persName>
+                        </person>
+                        <person xml:id="chrisanthe" sex="SEX">
+                            <persName>CHRISANTHE</persName>
+                        </person>
+                        <person xml:id="hidaspe" sex="SEX">
+                            <persName>HIDASPE</persName>
+                        </person>
+                        <person xml:id="panthée" sex="SEX">
+                            <persName>PANTHÉE</persName>
+                        </person>
+                        <person xml:id="araspe" sex="SEX">
+                            <persName>ARASPE</persName>
+                        </person>
+                        <person xml:id="charis" sex="SEX">
+                            <persName>CHARIS</persName>
+                        </person>
+                        <person xml:id="roxane" sex="SEX">
+                            <persName>ROXANE</persName>
+                        </person>
+                        <person xml:id="artabase" sex="SEX">
+                            <persName>ARTABASE</persName>
+                        </person>
+                        <person xml:id="mitrane" sex="SEX">
+                            <persName>MITRANE</persName>
+                        </person>
+                        <person xml:id="abradate" sex="SEX">
+                            <persName>ABRADATE</persName>
+                        </person>
+                        <person xml:id="des-soldats" sex="SEX">
+                            <persName>DES SOLDATS</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Tragédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q80930]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">PANTHÉE</titlePart>
+            <titlePart type="sub">TRAGÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre du Jeu de Paume du Marais, en 1637.</ab><!--@date="1637"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> AU LECTEUR CRITIQUE</salute>
+            </opener>
+        <p> Lecteur, si la Fortune avait soin de ma vie, </p>
+        <p> Au lieu qu’elle est toujours contraire aux beaux esprits ; </p>
+        <p> Il m’importerait peu si les dents de l’Envie </p>
+        <p> Osaient insolemment déchirer mes écrits. </p>
+        <p> Pourtant, à ton abord un doux espoir me flatte, </p>
+        <p> J’ai fort peu de savoir, avec un mal de rate ; </p>
+        <p> Et par là j’ai besoin d’ouïr tes sentiments. </p>
+        <p> Car selon ton mérite, ou ton insuffisance, </p>
+        <p> Ou je profiterai de tes enseignements, </p>
+        <p> Ou du moins je rirai de ton impertinence. </p>
+    </div>
+           <div type="act" xml:id="1">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="1"> Chrisante, ils sont défaits, et c’est notre destin</l>
+                        <l n="2"> De revenir chargés d’honneur et de butin,</l>
+                        <l n="3"> Après avoir dompté cette injuste Puissance</l>
+                        <l n="4"> Qui veut insolemment opprimer l’innocence.</l>
+                        <l n="5"> Les Dieux que ce désordre avait mis en courroux,</l>
+                        <l n="6"> Ont montré clairement qu’ils combattent pour nous,</l>
+                        <l n="7"> Et font leur propre fait des armes légitimes,</l>
+                        <l n="8"> Qu’on nous voit employer au châtiment des crimes.</l>
+                        <l n="9"> Les Perses en effet ont paru plus qu’humains,</l>
+                        <l n="10"> Lorsqu’avec ces grands cris ils sont venus aux mains</l>
+                        <l n="11"> Partout les ennemis troublés de cette audace</l>
+                        <l n="12"> Ont pris chacun de nous pour le Dieu de la Thrace.</l>
+                        <l n="13"> Ils se sont ébranlés en nous voyant marcher,</l>
+                        <l n="14"> Et des traits infinis qu’ils ont peu décocher</l>
+                        <l n="15"> Comme ils se renversaient les uns dessus les autres ;</l>
+                        <l n="16"> Ce n’est que par hasard qu’ils ont blessé des nôtres.</l>
+                        <l n="17"> Que leur Cavalerie a plié lâchement</l>
+                        <l n="18"> Nous voyant avancés dans leur retranchement :</l>
+                        <l n="19"> Dans la confusion que l’épouvante apporte,</l>
+                        <l n="20"> Les soldats et les chefs se sont troublés de sorte,</l>
+                        <l n="21"> Qu’ils se sont séparés dès lors également</l>
+                        <l n="22"> Et de l’obéissance et du commandement.</l>
+                        <l n="23"> S’ils se fussent battus avec plus de courage,</l>
+                        <l n="24"> Ils en eussent reçu moins de désavantage :</l>
+                        <l n="25"> Car dans cette déroute on peut bien faire état</l>
+                        <l n="26"> Qu’il en est mort vingt fois plus que dans le combat.</l>
+                        <l n="27"> Deux Rois à notre abord combattants en personne</l>
+                        <l n="28"> Ont servi par malheur de victime à Bellonne :</l>
+                        <l n="29"> Et cet autre Tyran qui me pensait braver</l>
+                        <l n="30"> S’est vu honteusement réduit à se sauver.</l>
+                </sp>
+        <sp who="#chrisanthe">
+            <speaker> CHRISANTHE. </speaker>
+                        <l n="31"> Sire, cette journée est vraiment mémorable,</l>
+                        <l n="32"> Et ce dernier succès se peut dire admirable.</l>
+                        <l n="33"> Mais aussi l’on peut dire avecque vérité,</l>
+                        <l n="34"> Qu’on en doit tout l’honneur à votre Majesté ;</l>
+                        <l n="35"> Elle a fait le devoir, et pris toute la peine,</l>
+                        <l n="36"> Et d’un brave Soldat et d’un grand Capitaine :</l>
+                        <l n="37"> Elle a couru par tout où le danger était,</l>
+                        <l n="38"> Et forcé tous les pas que l’on nous disputait.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="39"> Que le vieux Astiage en recevra de joie !</l>
+                        <l n="40"> Il mourra de plaisir s’il faut qu’il me revoie.</l>
+                        <l n="41"> Mais pour lui témoigner par avant ce bonheur</l>
+                        <l n="42"> Combien nos combattants ce sont acquis d’honneur ;</l>
+                        <l n="43"> Les Lettres que j’écris, s’en vont accompagnées</l>
+                        <l n="44"> De Tiares froissés et d’Enseignes gagnées,</l>
+                        <l n="45"> Afin que de ma part en superbe appareil</l>
+                        <l n="46"> On en dresse un Trophée au Temple du Soleil,</l>
+                        <l n="47"> Et que la Perse voie avec qu’elle furie</l>
+                        <l n="48"> Nous avons attaqué les Tyrans d’Assyrie.</l>
+                        <l n="49"> Mais nous n’avons rien fait de battre l’ennemi,</l>
+                        <l n="50"> Si cet embrasement n’est éteint qu’à demi.</l>
+                        <l n="51"> Jusqu’ici notre peine est une peine ingrate,</l>
+                        <l n="52"> Si portants la terreur jusqu’aux bords de l’Euphrate,</l>
+                        <l n="53"> Nous n’allons écheler ces murs audacieux</l>
+                        <l n="54"> Que l’orgueil de Nembrot éleva jusqu’aux Cieux.</l>
+                </sp>
+        <sp who="#chrisanthe">
+            <speaker> CHRISANTHE. </speaker>
+                        <l n="55"> Sire, dans le bonheur, je tiens que la prudence</l>
+                        <l n="56"> Doit mêler sagement la crainte à l’espérance,</l>
+                        <l n="57"> Respecter la Fortune et ne s’engager pas</l>
+                        <l n="58"> Sans quelque défiance à suivre ses appas.</l>
+                        <l n="59"> Cette aveugle Déesse est toujours infidèle,</l>
+                        <l n="60"> On est souvent trompé quand on s’assure en elle ;</l>
+                        <l n="61"> Elle a l’esprit léger et le gout dépravé,</l>
+                        <l n="62"> Et laisse choir souvent ce qu’elle a relevé.</l>
+                        <l n="63"> Que votre Majesté dans ses desseins regarde</l>
+                        <l n="64"> Au salut important du Corps qu’elle hasarde.</l>
+                        <l n="65"> C’est la fleur de l’Asie : et si par un malheur</l>
+                        <l n="66"> La force et le grand nombre accablaient la valeur,</l>
+                        <l n="67"> On verrait aussitôt la Perse et la Médie</l>
+                        <l n="68"> Languir d’une fâcheuse et longue maladie ;</l>
+                        <l n="69"> Et des fers outrageux nous viendraient métriser,</l>
+                        <l n="70"> Que sans quelque miracle on ne pourrait briser.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="71"> Je sers trop bien les Dieux pour craindre ces disgrâces</l>
+                        <l n="72"> J’imite leurs bontés, je marche sur leurs traces :</l>
+                        <l n="73"> C’est leur secret conseil qui me fait mettre aux champs,</l>
+                        <l n="74"> Pour conserver les bons et perdre les méchants.</l>
+                        <l n="75"> La Fortune en son cours suit leur sainte ordonnance.</l>
+                        <l n="76"> Et selon leurs décrets règle son inconstance.</l>
+                        <l n="77"> Cette Divinité qui marche sur les flots,</l>
+                        <l n="78"> N’est que l’occasion prise bien à propos</l>
+                        <l n="79"> Lorsqu’avec hardiesse on fait une entreprise,</l>
+                        <l n="80"> Et que pour quelque bien le Ciel la favorise.</l>
+                        <l n="81"> Il est bien malaisé qu’on ne soit pas heureux</l>
+                        <l n="82"> Quand on fait des desseins justes et généreux :</l>
+                        <l n="83"> Car lorsqu’à nos souhaits le Ciel n’est pas propice,</l>
+                        <l n="84"> Cet obstacle ne vient que de notre injustice.</l>
+                        <l n="85"> De moi, je ne suis point un insolent vainqueur,</l>
+                        <l n="86"> Je redonne les biens pour acquérir le cœur ;</l>
+                        <l n="87"> Et fais voir clairement que je ne fais la guerre</l>
+                        <l n="88"> Que pour mieux établir la paix dessus la Terre :</l>
+                        <l n="89"> Je ne m’attaque point à qui vit justement ;</l>
+                        <l n="90"> Et quand je peux punir je pardonne aisément.</l>
+                        <l n="91"> Je ne veux de témoin que le Roi d’Arménie :</l>
+                        <l n="92"> Si j’impose des lois avecque tyrannie,</l>
+                        <l n="93"> J’ai triomphé deux fois de ce Prince indompté,</l>
+                        <l n="94"> L’une par ma valeur, l’autre par ma bonté :</l>
+                        <l n="95"> Mes bienfaits l’ont étreint d’une chaine éternelle.</l>
+                        <l n="96"> Changeant la vieille haine en amitié nouvelle.</l>
+                        <l n="97"> Et je fais à Panthée un si doux traitement,</l>
+                        <l n="98"> Qu’Abradate en aura quelque ressentiment :</l>
+                        <l n="99"> Pour peu que sa Vertu réponde à sa naissance,</l>
+                        <l n="100"> Il m’en témoignera de la reconnaissance ;</l>
+                        <l n="101"> En quelqu’autre rencontre il s’en ressentira,</l>
+                        <l n="102"> Et chez les étrangers ce trait me servira.</l>
+                </sp>
+        <sp who="#hidaspe">
+            <speaker> HIDASPE. </speaker>
+                        <l n="103"> Quand on vous amena cette belle captive,</l>
+                        <l n="104"> Elle était sans mentir aussi morte que vive :</l>
+                        <l n="105"> En son visage pâle on n’apercevait pas</l>
+                        <l n="106"> Ce qu’il a maintenant de grâces et d’appas :</l>
+                        <l n="107"> Mais dans cet accident sa peur l’avait trompée,</l>
+                        <l n="108"> Et par votre bonté sa crainte est dissipée.</l>
+                        <l n="109"> Ô Dieux ! qu’elle s’en loue.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="110"> Hidaspe, c’est ainsi</l>
+                        <l n="111"> Que nous devons traiter : Mais que veut celui-ci ?</l>
+                </sp>
+        <sp who="#un-garde">
+            <speaker> UN GARDE. </speaker>
+                        <l n="112"> C’est la Reine étrangère.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="113"> Allons au devant d’elle ;</l>
+            <stage><em>Il parle à l’oreille de Chrisante.</em></stage>
+                        <l n="114"> Araspe en m’en parlant me la dépeint si belle,</l>
+                        <l n="115"> Que je croirais faillir et beaucoup hasarder</l>
+                        <l n="116"> Si dans cet entretien j’osais la regarder :</l>
+                        <l n="117"> Je crains que le plaisir qu’on trouve en sa présence.</l>
+                        <l n="118"> Ne fasse négliger les choses d’importance.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="119"> Que fait votre Empereur, ne peut-on pas le voir ?</l>
+                </sp>
+        <sp who="#le-garde">
+            <speaker> LE GARDE. </speaker>
+                        <l n="120"> Madame, le voici qui vient vous recevoir.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="121"> Ne vous affligez pas belle et chaste Panthée,</l>
+                        <l n="122"> C’est en femme de Roi que vous serez traitée,</l>
+                        <l n="123"> Et le terme absolu de votre liberté</l>
+                        <l n="124"> Dépendra désormais de votre volonté ;</l>
+                        <l n="125"> Sitôt que d’Abradate on aura des nouvelles,</l>
+                        <l n="126"> Je vous ferai guider par des troupes ridelles,</l>
+                        <l n="127"> Dont l’assuré convoi ne vous quittera pas</l>
+                        <l n="128"> Qu’il ne vous ait du camp remise entre ses bras.</l>
+                        <l n="129"> Cyrus ayant su vaincre emportera la gloire</l>
+                        <l n="130"> D’avoir su noblement user de la victoire ;</l>
+                        <l n="131"> En vous rendant l’honneur et la civilité</l>
+                        <l n="132"> Que veulent votre sexe et votre qualité.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="133"> Délices de l’Asie et l’honneur des Monarques,</l>
+                        <l n="134"> En qui l’on voit des Dieux tant d’immortelles marques :</l>
+                        <l n="135"> Prince qu’on peut nommer le plus grand des humains,</l>
+                        <l n="136"> Je bénis ma disgrâce étant entre vos mains</l>
+                        <l n="137"> Et ce trait de malheur si doucement s’efface,</l>
+                        <l n="138"> Que je pense faillir en l’appelant disgrâce :</l>
+                        <l n="139"> Selon que vos bontés me le font éprouver,</l>
+                        <l n="140"> C’est le plus grand bonheur qui me peut arriver.</l>
+                        <l n="141"> L’accident est bien doux qui me fait reconnaître</l>
+                        <l n="142"> Celui que mon Seigneur doit choisir pour son maître ;</l>
+                        <l n="143"> Et de qui le mérite est si grand, qu’aujourd’hui</l>
+                        <l n="144"> Tout l’Univers encor doit relever de lui.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="145"> Madame, avec excès votre bonté me flatte.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="146"> Seigneur, votre bonté s’est acquise Abradate ;</l>
+                        <l n="147"> J’ai dépêché des miens pour lui faire savoir</l>
+                        <l n="148"> Qu’elles sont vos vertus, et quel est son devoir.</l>
+                        <l n="149"> S’il n’a changé d’esprit j’ose bien me promettre</l>
+                        <l n="150"> Qu’il viendra vous trouver ayant reçu ma lettre,</l>
+                        <l n="151"> Et qu’il vous servira s’il est autant heureux</l>
+                        <l n="152"> Qu’il a toujours été fidele et généreux.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="153"> Madame, je n’ai point mérité cette grâce.</l>
+                        <l n="154"> Mais pourrait-il quitter le party qu’il embrasse,</l>
+                        <l n="155"> Et laisser des voisins pour suivre un Étranger ?</l>
+                        <l n="156"> Sa réputation y courrait du danger ;</l>
+                        <l n="157"> Je donne à vos propos une entière créance :</l>
+                        <l n="158"> Mais ces grandes faveurs passent mon espérance.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="159"> Si le Roi d’Assyrie était encor vivant,</l>
+                        <l n="160"> Ce discours pourrait être un propos décevant :</l>
+                        <l n="161"> De lui, son alliance était fort souhaitable,</l>
+                        <l n="162"> Ce Prince était dévot, généreux, équitable,</l>
+                        <l n="163"> Tenait exactement ce qu’il avait promis,</l>
+                        <l n="164"> Et méritait par là d’avoir beaucoup d’Amis.</l>
+                        <l n="165"> Mais ce nouveau Tyran, lâche et cruel ensemble</l>
+                        <l n="166"> Encor qu’il soit son fils, n’a rien qui lui ressemble,</l>
+                        <l n="167"> Il est impie, injuste, insolent et trompeur,</l>
+                        <l n="168"> Il ne se fait servir qu’en donnant de la peur ;</l>
+                        <l n="169"> Son âme dans le crime est toujours occupée,</l>
+                        <l n="170"> Ce n’est que de la boue en du sang détrempée.</l>
+                        <l n="171"> On ne peut l’assister sans quelque lâcheté,</l>
+                        <l n="172"> Et l’on peut le quitter par générosité.</l>
+                        <l n="173"> Seigneur, tout à loisir vous pourrez vous instruire</l>
+                        <l n="174"> Des soins malicieux qu’il a pris pour me nuire.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="175"> Pour vous nuire, Madame, et de quelle façon ?</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="176"> Mettant de mon amour Abradate en soupçon :</l>
+                        <l n="177"> N’ayant peu m’acquérir par douceur ni par force,</l>
+                        <l n="178"> Il s’en voulut venger en causant ce divorce.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="179"> Cet acte, sans mentir, fait horreur et pitié,</l>
+                        <l n="180"> Un moindre coup peut rompre une grande amitié :</l>
+                        <l n="181"> J’ai su d’un Gouverneur d’une de ces Provinces,</l>
+                        <l n="182"> Qu’on le pourrait compter entre les mauvais Princes.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="183"> Je me doute à peu près quel est ce Gouverneur,</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="184"> C’est un père affligé !</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="185"> Je le connais, Seigneur,</l>
+                        <l n="186"> Il n’avait qu’un seul fils dont il plaint la disgrâce ;</l>
+                        <l n="187"> Ce Monarque brutal le menant à la chasse,</l>
+                        <l n="188"> Le traversa d’un dard, par un jaloux ennui</l>
+                        <l n="189"> De le voir plus dispos et plus adroit que lui.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="190"> C’est celui-là, Madame, et je ne pouvais croire</l>
+                        <l n="191"> Qu’un Prince eut peu commettre une action si noire ;</l>
+                        <l n="192"> Un Roi doit s’appliquer à de meilleurs objets,</l>
+                        <l n="193"> Gouverner son esprit ainsi que ses sujets ;</l>
+                        <l n="194"> Et mêlant la justice a des bontés extrêmes,</l>
+                        <l n="195"> En commandant autrui, se commander soi-même.</l>
+                        <l n="196"> Je me trouve possible aussi grand terrien</l>
+                        <l n="197"> Que le Roi de Lydie et que l’Assyrien :</l>
+                        <l n="198"> Mais dans une grandeur assez considérable,</l>
+                        <l n="199"> Je ne fais vanité que d’être raisonnable ;</l>
+                        <l n="200"> De révérer les Dieux, d’aimer mes alliés,</l>
+                        <l n="201"> De pardonner à ceux qui se sont oubliés,</l>
+                        <l n="202"> Et donner à mon peuple un assez beau modèle</l>
+                        <l n="203"> Pour se rendre dévot, vaillant, sage et fidèle.</l>
+                        <l n="204"> Je connais la vertu du Roi votre mari ;</l>
+                        <l n="205"> Et l’estimant beaucoup, je serais bien marri</l>
+                        <l n="206"> Si nous devions un jour devenir frères d’armes,</l>
+                        <l n="207"> Que vous eussiez jamais de matières de larmes ;</l>
+                        <l n="208"> Je vous assurerais de ne pas négliger</l>
+                        <l n="209"> Les soins de vous servir et de vous protéger.</l>
+                        <l n="210"> Mais croyez-vous en fin causer cette alliance ?</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="211"> J’en attends la nouvelle avec impatience :</l>
+                        <l n="212"> Les Cieux de cet effet, par mes vœux sont pressés.</l>
+                        <l n="213"> Et de si justes vœux sont possible exaucés.</l>
+            <stage><em>Panthée se lève.</em></stage>
+                        <l n="214"> Mais dans les grands emplois d’une valeur si rare,</l>
+                        <l n="215"> Seigneur, de votre temps vous devez être avare.</l>
+                        <l n="216"> Aussi je ne dois pas en discours ennuyeux</l>
+                        <l n="217"> Faire en vain consumer des moments précieux.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="218"> Madame, vos vertus, comme votre naissance,</l>
+                        <l n="219"> Vous donnent où je suis une entière puissance :</l>
+                        <l n="220"> Commandez à mes gens tout ce qu’il vous plaira,</l>
+                        <l n="221"> Ici comme dans Suze on vous obéira.</l>
+                        <l n="222"> Araspe, fais toujours avec un soin extrême</l>
+                        <l n="223"> Qu’on respecte Madame à l’égal de moi-même.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="224"> Sire, on ne saurait voir ce miracle des Cieux</l>
+                        <l n="225"> Sans lui rendre aussi tôt l’honneur qu’on doit aux Dieux.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="226"> Il en peut bien parler avec beaucoup d’estime,</l>
+                        <l n="227"> Cette grande louange est vraiment légitime.</l>
+                        <l n="228"> Nous ne fîmes jamais un plus riche butin</l>
+                        <l n="229"> S’il faut que son mari suive notre destin ;</l>
+                        <l n="230"> Nous y rencontrerions l’utile et l’honorable ;</l>
+                        <l n="231"> Et ce serait pour faire un progrès admirable.</l>
+                        <l n="232"> Mais je ne puis penser qu’étant homme de cœur,</l>
+                        <l n="233"> Il quitte le vaincu pour suivre le vainqueur :</l>
+                        <l n="234"> En cette occasion, ce serait la pensée,</l>
+                        <l n="235"> D’une âme fort légère, ou fort intéressée,</l>
+                        <l n="236"> Quelque raison qu’on ait, on est dans le mépris</l>
+                        <l n="237"> Lorsque l’on abandonne un party qu’on a pris.</l>
+                </sp>
+        <sp who="#hidaspe">
+            <speaker> HIDASPE. </speaker>
+                        <l n="238"> Sire, quand le dépit s’empare de notre âme,</l>
+                        <l n="239"> Nous mettons en oubli la louange et le blâme ;</l>
+                        <l n="240"> Et sans aucun égard de honte ou de danger,</l>
+                        <l n="241"> Tous nos raisonnements tendent à nous venger.</l>
+                        <l n="242"> Abradate offensé par cet indigne Prince,</l>
+                        <l n="243"> Qui d’un joug tyrannique opprime sa Province,</l>
+                        <l n="244"> Croit peut-être aujourd’hui s’en pouvoir séparer</l>
+                        <l n="245"> Sans courre de hasard de se déshonorer.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="246"> Hidaspe, il se peut faire, et des Dieux bons et sages</l>
+                        <l n="247"> Nous pouvons espérer de plus grands avantages.</l>
+                        <l n="248"> Mais allons voir le camp de l’un à l’autre bout,</l>
+                        <l n="249"> Visiter les cartiers, et donner ordre à tout.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="250"> Pour voir le plus grand Roi que le Ciel ait fait naître,</l>
+                        <l n="251"> Il faut porter les yeux sur le Roi notre maître ;</l>
+                        <l n="252"> De tous ceux que l’on tient pour images des Dieux,</l>
+                        <l n="253"> C’est le vivant portrait qui ressemble le mieux.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="254"> Et pour voir une Reine en vertus sans pareille,</l>
+                        <l n="255"> Qu’on peut avec raison nommer une merveille :</l>
+                        <l n="256"> Pour l’excellent esprit et la rare beauté</l>
+                        <l n="257"> Il faut porter les yeux sur votre Majesté.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="258"> Cette comparaison assez mal assortie,</l>
+                        <l n="259"> Blessant la vérité choque ma modestie :</l>
+                        <l n="260"> Cyrus est un miracle en rares qualités</l>
+                        <l n="261"> Qu’on ne doit comparer qu’à des Divinités.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="262"> Madame, dans ce rang vous pourriez prendre place.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="263"> Vous voulez me flattant adoucir ma disgrâce,</l>
+                        <l n="264"> C’est en continuant vos soins accoutumés,</l>
+                        <l n="265"> Avec beaucoup d’esprit montrer que vous m’aimez.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="266"> On ne peut rien aimer qui soit plus adorable.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="267"> De cette affection je vous suis redevable ;</l>
+                        <l n="268"> Cyrus n’eut peu me faire un traitement si doux,</l>
+                        <l n="269"> En me donnant en garde à tout autre qu’à vous.</l>
+                        <l n="270"> Mais toujours vos respects, vos soins, et votre adresse,</l>
+                        <l n="271"> En déguisant mes maux consolent ma tristesse ;</l>
+                        <l n="272"> Aucun autre des siens n’aurait eu la bonté</l>
+                        <l n="273"> De me laisser si libre en ma captivité.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="274"> Hé ! Madame, cessez.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="275"> Si j’en ai la puissance,</l>
+                        <l n="276"> Vous ne vous plaindrez pas de ma reconnaissance,</l>
+                        <l n="277"> Vous pourrez employer Abradate.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="278"> Ô grands Dieux</l>
+                        <l n="279"> Que ce nom m’est fatal, et qu’il m’est odieux !</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="280"> Quel accident soudain change votre visage ?</l>
+                        <l n="281"> C’est de quelque rechute un assuré présage ;</l>
+                        <l n="282"> Après avoir été malade extrêmement,</l>
+                        <l n="283"> Vous ne deviez jamais sortir si promptement.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="284"> La mort s’en va bien tôt punir mon imprudence !</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="285"> Charis, qu’on le secoure, il tombe en défaillance :</l>
+                        <l n="286"> Je ne puis voir son mal sans en avoir pitié.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="287"> Ô trait, pour mon malheur, trop doux de la moitié !</l>
+                </sp>
+        <sp who="#roxane">
+            <speaker> ROXANE. </speaker>
+                        <l n="288"> Le cœur vous fait-il mal ?</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="289"> Roxane, c’est ma peine :</l>
+                </sp>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="290"> Je demeure avec lui, suivez un peu la Reine,</l>
+                        <l n="291"> Et renvoyez quelqu’un pour en avoir du soin.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="292"> N’en prenez pas la peine, il n’en est plus besoin :</l>
+                        <l n="293"> Où pourrait-on trouver deux compagnes ridelles,</l>
+                        <l n="294"> Qui fussent plus que vous, ni courtoises, ni belles ?</l>
+                        <l n="295"> Les Grâces dans le Ciel sont un moindre ornement,</l>
+                        <l n="296"> Et vous ne leur cédez qu’en nombre seulement.</l>
+                        <l n="297"> Aussi le Sort vous mit auprès d’une maîtresse,</l>
+                        <l n="298"> Qu’on ne peut estimer moindre qu’une Déesse ;</l>
+                        <l n="299"> Que ses yeux ont d’éclat, que son visage est doux :</l>
+                        <l n="300"> Ô Dieux ! qu’elle a d’appas !</l>
+                </sp>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="301"> Elle en a trop pour vous :</l>
+                        <l n="302"> Un vermillon se mêle à votre couleur blême,</l>
+                        <l n="303"> Vous pourriez bien l’aimer.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="304"> Il est vrai que je l’aime</l>
+                        <l n="305"> Celui qui la peut voir sans avoir de l’amour,</l>
+                        <l n="306"> Est indigne de voir la lumière du jour,</l>
+                        <l n="307"> Sous un visage d’homme il porte un cœur de marbre,</l>
+                        <l n="308"> Et n’a pas plus de sens qu’un rocher ou qu’un arbre.</l>
+                </sp>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="309"> En fin vous l’aimez donc, il faut le confesser ?</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="310"> Oui, mais c’est d’un amour qui ne peut l’offenser :</l>
+                        <l n="311"> C’est d’une saincte ardeur, bien qu’elle soit extrême,</l>
+                        <l n="312"> Qui ne sera jamais nuisible qu’à moi-même.</l>
+                </sp>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="313"> J’ai regret de vous voir dans cette passion ;</l>
+                        <l n="314"> Assurez-vous par là de ma discrétion.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="315"> S’il faut que la Nature en l’air d’un beau visage,</l>
+                        <l n="316"> De la grandeur de l’âme exprime un témoignage,</l>
+                        <l n="317"> Qu’on puisse du dedans juger par le dehors,</l>
+                        <l n="318"> Et qu’un Esprit bien fait n’habite qu’un beau corps.</l>
+                        <l n="319"> Charis est une noble et divine personne,</l>
+                        <l n="320"> Elle a des sentiments dignes d’une Couronne ;</l>
+                        <l n="321"> Et ce que la Fortune a de prospérités</l>
+                        <l n="322"> Ne saurait égaler ses rares qualités.</l>
+                        <l n="323"> Je crois que pour tout l’or des Princes de Lydie,</l>
+                        <l n="324"> Vous ne commettriez pas la moindre perfidie :</l>
+                        <l n="325"> Que c’est sans intérêt lorsque vous obligez,</l>
+                        <l n="326"> Et que votre faveur est pour les affligés.</l>
+                        <l n="327"> C’est à vous seule aussi que je fais confidence,</l>
+                        <l n="328"> Et de mon infortune, et de mon imprudence.</l>
+                </sp>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="329"> Araspe pour avoir plus de contentement.</l>
+                        <l n="330"> Ne vous obstinez pas d’aimer si hautement,</l>
+                        <l n="331"> Il faut régler son vol : car lorsque l’on s’égare</l>
+                        <l n="332"> On a le plus souvent la fortune d’Icare,</l>
+                        <l n="333"> On ne peut sans péril approcher d’un Soleil.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="334"> Hélas ! je ne saurais suivre votre conseil,</l>
+                        <l n="335"> Un destin tout-puissant, une invincible Étoile</l>
+                        <l n="336"> Aux yeux de ma Raison attache un sombre voile.</l>
+                        <l n="337"> Je sais bien que je sers une ingrate Beauté,</l>
+                        <l n="338"> Et qu’aimant sans espoir j’ai des feux sans clarté.</l>
+                        <l n="339"> Ah ! le cœur me soulève en pensant à ses charmes ;</l>
+                        <l n="340"> Permettez que je donne un cours libre à mes larmes,</l>
+                        <l n="341"> Et connaissant le mal qui cause mon trépas,</l>
+                        <l n="342"> En plaignant mon malheur ne le divulguez pas.</l>
+                </sp>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="343"> N’en ayez point de peur, je plains votre aventure,</l>
+                        <l n="344"> Et veux avecques vous cacher votre blessure.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="345"> Suivez vos sentiments.</l>
+                </sp>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="346"> Ils sont trop généreux,</l>
+                        <l n="347"> Pour me faire attacher au sort d’un malheureux.</l>
+                        <l n="348"> Mais à qui vous estime, il serait désirable</l>
+                        <l n="349"> Que ce mal si cruel ne fut pas incurable.</l></div></div>
+           <div type="act" xml:id="2">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#araspe">
+            <speaker> ARASPE </speaker>
+                        <l n="350"> Hôtes du silence et de l’ombre,</l>
+                        <l n="351"> Où l’air est si frais et si sombre :</l>
+                        <l n="352"> Arbres qui connaissez l’état de ma langueur,</l>
+                        <l n="353"> Soyez les confidents des peines que j’endure,</l>
+                        <l n="354"> Et souffrez que je grave en votre écorce dure</l>
+                        <l n="355"> Le beau nom que l’Amour a gravé dans mon cœur.</l>
+                        <l n="356"> Amour, ce Conseiller perfide,</l>
+                        <l n="357"> Ce jeune aveugle qui me guide,</l>
+                        <l n="358"> A causé tous les maux qui me font soupirer ;</l>
+                        <l n="359"> Il a porté mon Âme à suivre ses caprices,</l>
+                        <l n="360"> Et l’a conduite en fin parmi des précipices,</l>
+                        <l n="361"> D’où jamais ma raison ne peut la retirer.</l>
+                        <l n="362"> Il ma fait observer les charmes</l>
+                        <l n="363"> D’une Reine fondante en larmes.</l>
+                        <l n="364"> Et qui pourrait du Ciel tous les Décrets changer.</l>
+                        <l n="365"> Ô qu’elle est redoutable encore qu’elle pleure !</l>
+                        <l n="366"> Qui peut voir ses beaux yeux sans mourir tout à l’heure,</l>
+                        <l n="367"> Peut voir des Basilics sans crainte et sans danger.</l>
+                        <l n="368"> Ses yeux, ces lumières fatales,</l>
+                        <l n="369"> Sont des Planètes sans égales,</l>
+                        <l n="370"> Qui peuvent à leur gré disposer de mon sort.</l>
+                        <l n="371"> Mais, ô simplicité qui n’a point de seconde !</l>
+                        <l n="372"> En nommant ses beaux yeux les plus beaux du monde,</l>
+                        <l n="373"> Je loue innocemment les Auteurs de ma mort.</l>
+                        <l n="374"> Hélas ! je suis si misérable</l>
+                        <l n="375"> En l’état triste et déplorable</l>
+                        <l n="376"> Où d’abord m’a réduit l’éclat de ses beaux yeux ;</l>
+                        <l n="377"> Et tant d’ennuis secrets me font toujours la guerre,</l>
+                        <l n="378"> Que le temps qui me reste à vivre sur la Terre</l>
+                        <l n="379"> Ne me saurait suffire à me plaindre des Cieux.</l>
+                        <l n="380"> Depuis la fatale journée</l>
+                        <l n="381"> Que l’Amour et la Destinée</l>
+                        <l n="382"> Offrirent à ma vue un chef-d’œuvre si beau,</l>
+                        <l n="383"> J’ai toujours soupiré d’un mal inconsolable ;</l>
+                        <l n="384"> Et n’ai peu concevoir de penser raisonnable</l>
+                        <l n="385"> Qui ne m’ait conseillé de courir au Tombeau.</l>
+                        <l n="386"> Ô qu’elle est ingrate et cruelle,</l>
+                        <l n="387"> À l’heure que j’eus pitié d’elle,</l>
+                        <l n="388"> Voyant ses bras captifs sous de honteux liens,</l>
+                        <l n="389"> J’allais tarir ses pleurs ; elle me mit en flamme ;</l>
+                        <l n="390"> Je rassurai son cœur, elle troubla mon âme,</l>
+                        <l n="391"> Et me donna des fers quand je rompis les siens.</l>
+                        <l n="392"> Mes soins, ni ma persévérance,</l>
+                        <l n="393"> Ne me donnent point d’espérance</l>
+                        <l n="394"> Que jamais sa pitié récompense ma foi :</l>
+                        <l n="395"> Mais quel bien manquerait au bonheur de ma vie</l>
+                        <l n="396"> Et quels Rois glorieux me pourraient faire envie,</l>
+                        <l n="397"> Si ce divin Objet avait pitié de moi ?</l>
+                        <l n="398"> Ô frivoles discours, paroles insensées,</l>
+                        <l n="399"> Abradate est l’objet de toutes ses pensées :</l>
+                        <l n="400"> C’est lui que la Fortune avec trop de rigueur</l>
+                        <l n="401"> À placé dans son lit, et gravé dans son cœur :</l>
+                        <l n="402"> C’est son éloignement qui la rend triste et blême</l>
+                        <l n="403"> C’est lui qui la possède en son absence même :</l>
+                        <l n="404"> Et c’est la seule amour que son cœur concevra ;</l>
+                        <l n="405"> Au moins autant de temps qu’Abradate vivra.</l>
+                        <l n="406"> Ennemi de mon bien, obstacle de ma joie,</l>
+                        <l n="407"> Que le Sort enrichit d’une si belle proie,</l>
+                        <l n="408"> Où te retire-tu ? je veux t’aller chercher,</l>
+                        <l n="409"> Et l’épée à la main te la faire lâcher :</l>
+                        <l n="410"> Je ne puis encourir de honte ni de blâme,</l>
+                        <l n="411"> Si j’arrache le cœur a qui vole mon âme ;</l>
+                        <l n="412"> Aura-t-il sans péril mis ma vie en danger ?</l>
+                        <l n="413"> Et faut-il que je meure ainsi sans me venger ?</l>
+                        <l n="414"> Mais ô dérèglement du mal qui me tourmente !</l>
+                        <l n="415"> Panthée est à la fois sa femme et son Amante,</l>
+                        <l n="416"> Et pensant par sa mort adoucir mon ennui,</l>
+                        <l n="417"> J’attenterais sur elle entreprenant sur lui ;</l>
+                        <l n="418"> Je me perdrais moi-même, et j’irais par les armes</l>
+                        <l n="419"> Confondre en ce malheur mon sang avec ses larmes.</l>
+                        <l n="420"> Si l’Hymen seulement s’opposait à mon bien,</l>
+                        <l n="421"> Il me serait aisé de rompre son lien ;</l>
+                        <l n="422"> Mais l’invincible Amour qui joint leurs cœurs ensemble,</l>
+                        <l n="423"> Ne permettra jamais que rien les désassemble.</l>
+                        <l n="424"> Dieux ! je la vois venir avec tous mes plaisirs,</l>
+                        <l n="425"> Cet objet dans mon cœur redouble mes désirs,</l>
+                        <l n="426"> Amour, divin Auteur de mes impatiences,</l>
+                        <l n="427"> Toi qui passes pour Maître en toutes les sciences,</l>
+                        <l n="428"> Inspire moi de grâce, et me fais inventer</l>
+                        <l n="429"> Un secret pour lui plaire et pour me contenter,</l>
+            <stage><em>Il tire des Tablettes.</em></stage>
+                        <l n="430"> Voici de quoi produire un subtil artifice,</l>
+                        <l n="431"> Amour, il vient de toi, fais donc qu’il réussisse.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="432"> Charis, console-moi dans mes secrets tourments</l>
+                        <l n="433"> Et ne me cèle point quels sont tes sentiments ;</l>
+                        <l n="434"> Pense-tu qu’aujourd’hui mon Abradate arrive</l>
+                        <l n="435"> Et s’il séjourne plus, pense-tu que je vive ?</l>
+                </sp>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="436"> Madame, il ne saurait retarder plus d’un jour.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="437"> Tu dis un jour Charis ? c’est trop pour mon amour.</l>
+                        <l n="438"> Tu sais qu’avec excès le Ciel me persécute</l>
+                        <l n="439"> Quand j’en suis séparée une seule minute,</l>
+                        <l n="440"> Et tu me dis un jour ? Ah ! tu ne pense pas</l>
+                        <l n="441"> De combien cette absence avance mon trépas,</l>
+                        <l n="442"> Et qu’infailliblement il faudra que je meure.</l>
+                        <l n="443"> Si pour me consoler il ne vient dans une heure.</l>
+                        <l n="444"> Ô Dieux ! si tu savais ce que c’est que d’aimer,</l>
+                        <l n="445"> Quand d’un feu légitime on se sent enflammer,</l>
+                        <l n="446"> Et que la raison suit l’instinct de la Nature ;</l>
+                        <l n="447"> Tu connaîtrais bien mieux la peine que j’endure.</l>
+                        <l n="448"> Tu saurais si le Sort afflige au dernier point</l>
+                        <l n="449"> Lorsqu’on aime un objet, et qu’on ne le voit point ;</l>
+                        <l n="450"> Et blâmerais bien fort les dures tyrannies</l>
+                        <l n="451"> Qui séparent les corps de deux Âmes unies.</l>
+                </sp>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="452"> Madame, si mes vœux pouvaient être exaucés,</l>
+                        <l n="453"> J’épargnerais beaucoup des pleurs que vous versez,</l>
+                        <l n="454"> Exempte des ennuis que le Ciel vous envoie,</l>
+                        <l n="455"> Vous n’en rependriez plus si ce n’était de joie.</l>
+                        <l n="456"> Mais votre Majesté devrait moins s’affliger</l>
+                        <l n="457"> Ayant avec tant d’heur surmonté le danger :</l>
+                        <l n="458"> Elle offense les Dieux avec ses défiances,</l>
+                        <l n="459"> Et nuit à sa santé par ses impatiences.</l>
+                        <l n="460"> La tristesse et la peur troublent les matelots</l>
+                        <l n="461"> Quand les vents mutinés font soulever les flots,</l>
+                        <l n="462"> Et que malgré leur art, les vagues orgueilleuses</l>
+                        <l n="463"> Font prendre à leurs vaisseaux des routes périlleuses</l>
+                        <l n="464"> Mais si tôt que Neptune émue du mauvais temps,</l>
+                        <l n="465"> Remet en leur devoir ses sujets inconstants,</l>
+                        <l n="466"> Dès lors des navigants qui craignaient le naufrage,</l>
+                        <l n="467"> La frayeur se dissipe aussi tôt que l’orage.</l>
+                        <l n="468"> Vous seule hors du péril craignez le mauvais sort.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="469"> Charis, le plus souvent on fait naufrage au port :</l>
+                        <l n="470"> Et l’aveugle fortune avecque trop d’empire,</l>
+                        <l n="471"> Préside sur l’état du bonheur où j’aspire.</l>
+                        <l n="472"> Puis j’appréhende fort les maux que me prédit</l>
+                        <l n="473"> Un songe dont l’effroi rend mon sens interdit.</l>
+                        <l n="474"> Le Soleil poursuivant la nuit aux voiles sombres,</l>
+                        <l n="475"> À coups de traits dorés avait chassé les ombres ;</l>
+                        <l n="476"> Et les petits oiseaux que réveille l’amour</l>
+                        <l n="477"> Célébraient en chantant la naissance du jour</l>
+                        <l n="478"> Lorsque ce songe affreux dont l’horreur m’épouvante</l>
+                        <l n="479"> Ma fait voir d’Abradate une image vivante.</l>
+                        <l n="480"> De ses vaines couleurs il me la si bien peint,</l>
+                        <l n="481"> Que j’ai cru voir sa taille et ses yeux et son teint,</l>
+                        <l n="482"> Le vrai ton de sa voix a frappé mon oreille,</l>
+                        <l n="483"> Son visage était gai, sa bouche était vermeille,</l>
+                        <l n="484"> Du bien de me revoir il rendait grâces aux Dieux,</l>
+                        <l n="485"> Et son contentement se lisait dans ses yeux.</l>
+                        <l n="486"> Mais comme je goûtais cette douceur extrême,</l>
+                        <l n="487"> Je l’ai vu tout à coup triste, sanglant, et blême,</l>
+                        <l n="488"> Le harnois éclatant qu’il avait endossé</l>
+                        <l n="489"> De mille étranges coups me semblait tout percé ;</l>
+                        <l n="490"> D’une voix languissante, et d’une bouche morte,</l>
+                        <l n="491"> Cette ombre de mon bien m’a parlé de la sorte.</l>
+                        <l n="492"> « Cesse de te flatter d’un espoir décevant ;</l>
+                        <l n="493"> « Mes jours sont achevés, je ne suis plus vivant,</l>
+                        <l n="494"> « Et ton âme occupée à tant de sacrifices,</l>
+                        <l n="495"> « Ne peut pour mon salut rendre les Dieux propices.</l>
+                        <l n="496"> « Mars qui dans les combats enviait ma valeur,</l>
+                        <l n="497"> « M’offrit par jalousie en victime au malheur.</l>
+                        <l n="498"> « Mais puisque je suis mort avec assez de gloire,</l>
+                        <l n="499"> « Fais que toujours au moins je vive en ta mémoire.</l>
+                        <l n="500"> Lors le cœur tout transi j’ai couru l’embrasser,</l>
+                        <l n="501"> Mais d’un baiser si froid il m’est venu glacer,</l>
+                        <l n="502"> Que par un grand effort j’ai rompu tous ces charmes,</l>
+                        <l n="503"> M’éveillant en sursaut les yeux couverts de larmes.</l>
+                        <l n="504"> C’est ce qui m’inquiète, et qui me vient troubler,</l>
+                        <l n="505"> Qui cause mes soupirs, et qui me fais trembler :</l>
+                        <l n="506"> Mais Charis, que dis-tu de ce funeste songe ?</l>
+                </sp>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="507"> Je dis que ce n’est rien qu’un déplaisant mensonge.</l>
+                        <l n="508"> Madame, votre esprit s’entretient tout le jour</l>
+                        <l n="509"> Des malheurs que peut craindre une fidèle amour</l>
+                        <l n="510"> Lorsqu’aimant un objet avecque violence,</l>
+                        <l n="511"> On souffre pour long-temps les rigueurs de l’absence.</l>
+                        <l n="512"> C’est la malignité de ces impressions</l>
+                        <l n="513"> Qui vous a fait avoir ces noires visions :</l>
+                        <l n="514"> Mais ne vous troublez point de ces tristes mensonges</l>
+                        <l n="515"> Et pour n’avoir la nuit que d’agréables songes,</l>
+                        <l n="516"> Bannissant la tristesse, ordonnez à vos sens</l>
+                        <l n="517"> De vous entretenir d’objets divertissants :</l>
+                        <l n="518"> S’en est le vrai secret.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="519"> Charis, je te veux croire :</l>
+                        <l n="520"> Mais quoi, toujours ce songe occupe ma mémoire.</l>
+                </sp>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="521"> Vous plaît-il de tourner vers ces arbres couverts</l>
+                        <l n="522"> Qui gardent la fraîcheur sous leurs feuillages vers ?</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="523"> Allons.</l>
+                </sp>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="524"> Je vois par terre un homme qui repose.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="525"> Il ne repose point, il écrit quelque chose.</l>
+                </sp>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="526"> Madame, c’est Araspe, ou mon œil me déçoit.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="527"> Passons derrière lui : mais il nous aperçoit.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="528"> Qu’est-ce qu’écrit Araspe en cette solitude ?</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="529"> Madame, c’est un lieu dont je fais mon étude ;</l>
+                        <l n="530"> J’y viens de composer en faveur d’un Amant</l>
+                        <l n="531"> De qui la passion me touche tendrement.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="532"> C’est un Amant possible absent de sa Maîtresse ?</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="533"> C’est un homme accablé de l’ennui qui le presse</l>
+                        <l n="534"> Il adore un objet aussi beau que le jour,</l>
+                        <l n="535"> Et n’a jamais osé lui dire son amour.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="536"> Sans doute ce respect le rendra plus aimable.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="537"> Madame, ce respect la rendu misérable,</l>
+                        <l n="538"> Et c’est sur ce subiet que j’ai fait un discours,</l>
+                        <l n="539"> Dont les raisonnements viennent à son secours,</l>
+                        <l n="540"> Représentants l’ardeur de ses flammes secrètes.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="541"> Je vous l’ai vu tantôt écrire en ces Tablettes ;</l>
+                        <l n="542"> Je ne veux pas pourtant demander à les voir.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="543"> Madame, commandez, vous avez tout pouvoir :</l>
+                        <l n="544"> Mais ici j’ai tracé d’un mauvais caractère</l>
+                        <l n="545"> Et fort confusément, cet amoureux mystère.</l>
+                        <l n="546"> Il est vrai que par cœur j’ai peu le retenir.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="547"> Vous auriez trop de peine à vous en souvenir.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="548"> Madame, nullement : mais puisque l’Éloquence</l>
+                        <l n="549"> A beaucoup d’ornements qui sont de conséquence,</l>
+                        <l n="550"> Afin que ce discours face mieux son effet,</l>
+                        <l n="551"> Je le vais réciter, ainsi que je l’ai fait.</l>
+                        <l n="552"> Vous savez que pour rendre un discours agréable,</l>
+                        <l n="553"> Avec le ton de voix le geste est désirable.</l>
+                        <l n="554"> Mais je serai contraint le récitant trop bas.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="555"> Nullement, parlez haut, Charis n’écoute pas.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="556"> Je ne cèlerai plus l’extrême violence</l>
+                        <l n="557"> Qui paraît en mes yeux, et parle en mon silence,</l>
+                        <l n="558"> Que le cours de mes pleurs vous a peu figurer,</l>
+                        <l n="559"> Et dont mes longs soupirs vous doivent assurer,</l>
+                        <l n="560"> Madame, je vous aime ; ô Cieux ! le teint vous change</l>
+                        <l n="561"> À la confession de cette erreur étrange,</l>
+                        <l n="562"> Et l’insolent aveu d’un crime sans pareil,</l>
+                        <l n="563"> Pour ma confusion fait rougir un Soleil.</l>
+                        <l n="564"> Mais l’ombre de ma mort fut-elle en ce nuage</l>
+                        <l n="565"> Qui trouble l’air serein de votre beau visage,</l>
+                        <l n="566"> Et l’éclair que vos yeux me viennent d’envoyer</l>
+                        <l n="567"> Ne fut-il allumé que pour me foudroyer.</l>
+                        <l n="568"> Je ne puis me dédire en ce péril extrême,</l>
+                        <l n="569"> Je ne le puis celer, Madame, je vous aime,</l>
+                        <l n="570"> Et j’aime mieux mourir adorant vos appas,</l>
+                        <l n="571"> Que me rendre immortel ne les adorant pas.</l>
+                        <l n="572"> Je sais que votre race aux Astres élevée</l>
+                        <l n="573"> Voit sa gloire fameuse en cent marbres gravée,</l>
+                        <l n="574"> Et que peu de Héros nous sont représentés</l>
+                        <l n="575"> Qu’on puisse comparer à ceux dont vous sortez :</l>
+                        <l n="576"> Ainsi mon vol hautain attend un sort funeste,</l>
+                        <l n="577"> Je suis comme Ixion dans le Palais céleste ;</l>
+                        <l n="578"> N’étant rien qu’un mortel, j’ose porter les yeux</l>
+                        <l n="579"> Dessus une Beauté qui vient du sang des Dieux.</l>
+                        <l n="580"> Mais si de la clémence autant que du visage</l>
+                        <l n="581"> Vous ressemblez aux Dieux dont vous êtes l’image,</l>
+                        <l n="582"> Quelque soudain dépit qui vous vienne embraser,</l>
+                        <l n="583"> Mon malheur trouvera de quoi vous apaiser.</l>
+                        <l n="584"> Vous plaindrez un effet dont vous êtes la cause,</l>
+                        <l n="585"> Et direz qu’en faisant ce que le Ciel impose</l>
+                        <l n="586"> Par la nécessité d’un arrêt tout-puissant,</l>
+                        <l n="587"> On peut commettre un crime et rester innocent.</l>
+                        <l n="588"> Hélas ! quand je vous vois, ô bonheur trop fragile !</l>
+                        <l n="589"> Je vivais tout à moi, j’avais l’esprit tranquille,</l>
+                        <l n="590"> Et ne me proposais en cet état heureux</l>
+                        <l n="591"> Ni rien de malaisé, ni rien de dangereux ;</l>
+                        <l n="592"> La raison dans mon âme étendait sa puissance,</l>
+                        <l n="593"> Et trouvait en mes sens beaucoup d’obéissance.</l>
+                        <l n="594"> Mais vos rares beautés ne mirent qu’un moment</l>
+                        <l n="595"> À troubler la douceur de mon gouvernement ;</l>
+                        <l n="596"> Elles vinrent changer tout mon bonheur en rage.</l>
+                        <l n="597"> Mes plaisirs en tourments, ma bonace en orage,</l>
+                        <l n="598"> Et d’un des plus contents qui parussent au jour,</l>
+                        <l n="599"> Firent par un prodige un martyr de l’Amour.</l>
+                        <l n="600"> Je ne me rendis pas sans quelque résistance,</l>
+                        <l n="601"> Mon jugements s’émeut et se mit en défense,</l>
+                        <l n="602"> Opposant à ce mal qui fut désespéré,</l>
+                        <l n="603"> Tout ce que sait l’esprit le plus considéré.</l>
+                        <l n="604"> Mais comme dans l’enclos d’une ville surprise</l>
+                        <l n="605"> Où l’ennemi prend place où la flamme est éprise,</l>
+                        <l n="606"> Les tristes habitants que l’horreur vient troubler,</l>
+                        <l n="607"> En cette extrémité ne peuvent s’assembler,</l>
+                        <l n="608"> L’alarme vient trop tard, en vain l’on s’évertue,</l>
+                        <l n="609"> Le vainqueur est partout qui ravage et qui tue ;</l>
+                        <l n="610"> Et du peuple effrayé le plus pressant souci,</l>
+                        <l n="611"> Est de sauver sa vie en lui criant merci.</l>
+                        <l n="612"> Ainsi quand votre image entra dans ma pensée,</l>
+                        <l n="613"> Qui par tant de beaux traits fut aussi tôt forcée,</l>
+                        <l n="614"> La solide froideur du plus sage discours</l>
+                        <l n="615"> Ne lui sut apporter qu’un débile secours.</l>
+                        <l n="616"> Arbres vous le savez, témoignez à Madame</l>
+                        <l n="617"> De combien de raisons je combattis ma flamme ;</l>
+                        <l n="618"> Et comme sa beauté troubla mes sentiments,</l>
+                        <l n="619"> Et triompha toujours de mes raisonnements.</l>
+                        <l n="620"> Des pleurs que j’ai versez rendez-lui témoignage,</l>
+                        <l n="621"> Dites-lui de quels cris j’ai percé ce bocage :</l>
+                        <l n="622"> Et comme m’obstinant contre mes propres vœux,</l>
+                        <l n="623"> J’en ai battu ma tête et tiré mes cheveux.</l>
+                        <l n="624"> Dites-lui de quel soin j’ai cherché du remède</l>
+                        <l n="625"> Aux violents assauts du mal qui me possède ;</l>
+                        <l n="626"> Réclamant ciel et terre en cette adversité,</l>
+                        <l n="627"> Et comme tout cela ne m’a point profité.</l>
+                        <l n="628"> Après ce long récit, ô belle et sage Reine,</l>
+                        <l n="629"> Si ma fidèle amour mérite votre haine,</l>
+                        <l n="630"> Je tiens tous mes devoirs pour une trahison,</l>
+                        <l n="631"> Et ma mort sur le champ vous en fera raison.</l>
+                        <l n="632"> Mais s’il faut que mon zèle excuse mon audace.</l>
+                        <l n="633"> Et qu’en votre pitié je trouve quelque place ;</l>
+                        <l n="634"> Je vous rendrai service avec tant de respect</l>
+                        <l n="635"> Que jamais mon amour n’aura rien de suspect :</l>
+                        <l n="636"> Ô divine Beauté ! pourvu que je vous voie</l>
+                        <l n="637"> Je ne demande point de plus parfaite joie ;</l>
+                        <l n="638"> Je ne veux qu’observer vos célestes appas,</l>
+                        <l n="639"> Je ne veux que baiser les marques de vos pas.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE, se levant. </speaker>
+                        <l n="640"> J’écoutais ce discours comme une raillerie,</l>
+                        <l n="641"> Mais s’il s’adresse à moi cessez-le je vous prie :</l>
+                        <l n="642"> À moi ? parler d’amour ? vous vous êtes mépris,</l>
+                        <l n="643"> Moi ? vous perdez le sens, reprenez vos esprits ;</l>
+                        <l n="644"> Je serais le sujet de vos flammes secrètes ?</l>
+                        <l n="645"> Savez-vous qui je suis, songez-vous qui vous êtes :</l>
+                        <l n="646"> Quoi ? vous ne respectez dans cette passion</l>
+                        <l n="647"> Ni mes chastes amours, ni ma condition ?</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="648"> Je sais que pour atteindre au bonheur où j’aspire,</l>
+                        <l n="649"> Il faut tenir au moins les rênes d’un Empire :</l>
+                        <l n="650"> Mais le défaut d’un sceptre est un empêchement,</l>
+                        <l n="651"> Que ma fidèle amour pourrait vaincre aisément.</l>
+                        <l n="652"> Cyrus comme il lui plaît élève les personnes,</l>
+                        <l n="653"> Il dispense à son gré les fers et les couronnes.</l>
+                        <l n="654"> Et de tant de faveur il daigne m’honorer</l>
+                        <l n="655"> Que d’un Maître si grand je puis tout espérer.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="656"> Comment ? un téméraire aura donc eu l’audace</l>
+                        <l n="657"> De me parler ainsi sans périr sur la place ?</l>
+                        <l n="658"> Ah ! ce trait insolent m’offense au dernier point,</l>
+                        <l n="659"> Et je crois que Cyrus ne l’approuvera point :</l>
+                        <l n="660"> Il a tant de vertu qu’il m’en fera justice,</l>
+                        <l n="661"> Il faut que de ce pas Charis l’en avertisse,</l>
+                        <l n="662"> Charis.</l>
+                </sp>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="663"> Que vous plaît-il Madame ?</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="664"> Suivez-moi.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE, seul. </speaker>
+                        <l n="665"> Voilà donc tout le prix que remporte ma foi ?</l>
+                        <l n="666"> J’ai donc de tant de pleurs fait hommage à tes charmes</l>
+                        <l n="667"> Pour n’en recueillir rien que des sujets de larmes.</l>
+                        <l n="668"> Barbare, me traiter avec tant de rigueur ?</l>
+                        <l n="669"> Je t’ai donc offensée en te donnant mon cœur :</l>
+                        <l n="670"> C’est par là que ta haine à ma perte s’attache,</l>
+                        <l n="671"> Pour le recevoir mieux tu veux qu’on me l’arrache.</l>
+                        <l n="672"> Puisqu’il ne te plaît pas de l’avoir autrement,</l>
+                        <l n="673"> Je le veux bien ainsi pour ton contentement.</l>
+                        <l n="674"> Va rends moi criminel, contente ton envie,</l>
+                        <l n="675"> Fais qu’on m’ôte à la fois, et l’honneur et la vie.</l>
+                        <l n="676"> Intéresse Cyrus en ton inimitié,</l>
+                        <l n="677"> Et me rends par ta plainte indigne de pitié.</l>
+                        <l n="678"> Dis-lui que mes forfaits n’ont jamais eu d’exemples.</l>
+                        <l n="679"> Que ma main sacrilège a saccagé des Temples ;</l>
+                        <l n="680"> Et que dans mille excès mes actes odieux,</l>
+                        <l n="681"> Ont ému contre moi les hommes et les Dieux.</l>
+                        <l n="682"> De quelque étrange fait dont ta bouche m’accuse</l>
+                        <l n="683"> Je n’y chercherai point de raison ni d’excuse ;</l>
+                        <l n="684"> Et me privant du jour, la colère du Roi</l>
+                        <l n="685"> Me fera mille fois plus de faveur que toi :</l>
+                        <l n="686"> Quand la mort m’aura mis hors de ta servitude</l>
+                        <l n="687"> J’en serai redevable à ton ingratitude.</l>
+                        <l n="688"> Je t’ai donc offensée en vouant à tes yeux</l>
+                        <l n="689"> Ce vif et clair rayon que j’ai reçu des Cieux ?</l>
+                        <l n="690"> En te faisant un don de cette Âme immortelle</l>
+                        <l n="691"> Qui fut pour t’adorer à soi-même infidèle.</l>
+                        <l n="692"> Qui laissant son bonheur pour chérir ta prison,</l>
+                        <l n="693"> Se rendit indocile aux lois de la raison :</l>
+                        <l n="694"> Et qui déterminé à cette erreur extrême</l>
+                        <l n="695"> Vit encor plus en toi que non pas en moi-même ?</l>
+                        <l n="696"> Ce trait digne de haine et de ressentiment,</l>
+                        <l n="697"> A mérité sans doute un cruel châtiment :</l>
+                        <l n="698"> Cet affront est sanglant, cette atteinte est sensible,</l>
+                        <l n="699"> Ne la pardonne point, elle est irrémissible.</l>
+                        <l n="700"> Vous devant qui son crime est si lâche et si noir,</l>
+                        <l n="701"> Témoins de son orgueil et de mon désespoir,</l>
+                        <l n="702"> Dieux ! si votre équité ne manque de puissance ;</l>
+                        <l n="703"> Punissez sur le champ cette méconnaissance ;</l>
+                        <l n="704"> À des cœurs moins ingrats vous avez fait sentir</l>
+                        <l n="705"> D’un indigne mépris un juste repentir ;</l>
+                        <l n="706"> Vous les avez cachés sous l’écorce des arbres,</l>
+                        <l n="707"> Vous en avez formé des rochers et des marbres ;</l>
+                        <l n="708"> Montrez votre justice à venger mon trépas,</l>
+                        <l n="709"> Ne lui pardonnez point : mais ne l’affligez pas,</l>
+                        <l n="710"> Ou si vous l’affligez, ne faites donc répandre</l>
+                        <l n="711"> Des pleurs à ses beaux yeux que sur ma triste cendre :</l>
+                        <l n="712"> S’il faut que ma disgrâce émeuve vos bontés,</l>
+                        <l n="713"> Agissez seulement contre ses cruautés ;</l>
+                        <l n="714"> Ne la transformez point en une autre nature,</l>
+                        <l n="715"> Qu’elle change d’humeur, et non pas de figure.</l>
+                        <l n="716"> Mais, ô divers transports de mes pensers errants !</l>
+                        <l n="717"> Ô désordre confus de desseins différents !</l>
+                        <l n="718"> Je déteste son nom, je la hais, je l’abhorre,</l>
+                        <l n="719"> Je la fui, je la crains, et si je l’aime encore.</l>
+                        <l n="720"> Je sens mon feu s’éteindre, et puis se rallumer,</l>
+                        <l n="721"> Je ne la puis haïr, je ne la puis aimer,</l>
+                        <l n="722"> Je sais qu’elle est ingrate, et je la trouve belle,</l>
+                        <l n="723"> Qu’elle est mon ennemie, et si je suis pour elle,</l>
+                        <l n="724"> Il faut pour satisfaire à la rigueur du sort</l>
+                        <l n="725"> Guérir de tant de maux par une seule mort.</l></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="726"> Haris, cet insolent me parler de la sorte ?</l>
+                </sp>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="727"> Madame il est perdu.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="728"> Qu’il meure, il ne m’importe.</l>
+                        <l n="729"> Il n’a pas redouté que sa faveur cessât,</l>
+                        <l n="730"> Ni qu’il fut maltraité, pourvu qu’il m’offensât.</l>
+                        <l n="731"> N’a-t-il pas entrepris l’insolent et le traître,</l>
+                        <l n="732"> D’aggraver mes malheurs en dépit de son maître ?</l>
+                        <l n="733"> Quel supplice si grand pourrait être inventé</l>
+                        <l n="734"> Qui n’eut trop de douceur pour sa témérité ?</l>
+                </sp>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="735"> Est-il pour un Amant un plus cruel martyre</l>
+                        <l n="736"> Que de n’obtenir pas les choses qu’il désire ?</l>
+                        <l n="737"> Et puisqu’il est ainsi que l’on pardonne aux fous,</l>
+                        <l n="738"> Araspe est insensé, de qui vous plaignez-vous ?</l>
+                        <l n="739"> Un homme à qui les maux sont de chères délices,</l>
+                        <l n="740"> Qui trouve à soupirer ses plus doux exercices.</l>
+                        <l n="741"> Et s’obstine toujours contre sa guérison,</l>
+                        <l n="742"> Madame, à votre avis, a-t-il de la raison ?</l>
+                        <l n="743"> Et n’exercez-vous pas une rigueur extrême,</l>
+                        <l n="744"> Si vous voulez qu’il meure à cause qu’il vous aime ?</l>
+                        <l n="745"> Certes ce procéder si vous y pensiez bien,</l>
+                        <l n="746"> Vous semblerait étrange autant comme le sien ;</l>
+                        <l n="747"> Et vous ferait quitter ce désir de vengeance,</l>
+                        <l n="748"> Pour traiter son erreur avec plus d’indulgence.</l>
+                        <l n="749"> S’il n’eut pris de l’amour pour votre Majesté</l>
+                        <l n="750"> Eût-il peu soupirer pour quelque autre Beauté ?</l>
+                        <l n="751"> Voyez votre Miroir pour juger de son crime,</l>
+                        <l n="752"> Il fournira pour lui d’excuse légitime ;</l>
+                        <l n="753"> Et vous découvrira par mille appas divers,</l>
+                        <l n="754"> Qu’il pourrait pour complice avoir tout l’univers.</l>
+                        <l n="755"> « Une Beauté parfaite est une tyrannie</l>
+                        <l n="756"> « Dont ne peut s’affranchir le plus ferme Génie ;</l>
+                        <l n="757"> « Elle embrase les Dieux, tout cède à son pouvoir,</l>
+                        <l n="758"> « Et pour ne l’aimer pas il ne faut pas la voir.</l>
+                        <l n="759"> C’est le malheur d’Araspe, en voilà l’origine,</l>
+                        <l n="760"> On le fit gardien d’une Beauté divine :</l>
+                        <l n="761"> Et son cœur qui soudain se sentit enflammer</l>
+                        <l n="762"> N’eut rien d’assez puissant pour s’empêcher d’aimer.</l>
+                        <l n="763"> Vous direz que pressé d’une ardeur sans mesure</l>
+                        <l n="764"> Il a trop entrepris découvrant sa blessure.</l>
+                        <l n="765"> Ayant perdu le sens, il a fait l’insensé ;</l>
+                        <l n="766"> En cela votre honneur est-il intéressé ?</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="767"> En aucune façon, pourvu qu’on le punisse.</l>
+                </sp>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="768"> On ne peut le punir qu’à votre préjudice :</l>
+                        <l n="769"> Faut-il que le bruit coure en la bouche de tous</l>
+                        <l n="770"> Que vous ayant aimée un homme est mort pour vous ?</l>
+                        <l n="771"> Madame, vous savez que par la Renommée</l>
+                        <l n="772"> La femme la plus chaste est par fois diffamée :</l>
+                        <l n="773"> Ce Fantôme indiscret, ce Monstre inquiété,</l>
+                        <l n="774"> Qui confond le mensonge avec la vérité ;</l>
+                        <l n="775"> En divulguant un bruit qu’aura semé l’envie,</l>
+                        <l n="776"> Tachera bien souvent une innocente vie.</l>
+                        <l n="777"> Par là, de mille objets remplis de chasteté</l>
+                        <l n="778"> L’honneur se rend suspect à la Postérité.</l>
+                        <l n="779"> « Les plus sages du temps jamais ne se hasardent</l>
+                        <l n="780"> « À donner de l’éclat aux bruits qui les regardent ;</l>
+                        <l n="781"> « Aimants mieux étouffer leurs mécontentements,</l>
+                        <l n="782"> « Que d’en faire à leur dam des éclaircissements.</l>
+                        <l n="783"> « Que peut dire Abradate arrivant dans l’armée</l>
+                        <l n="784"> « S’il sait qu’Araspe meurt pour vous avoir aimée ?</l>
+                        <l n="785"> Je connais son humeur et que pour votre bien</l>
+                        <l n="786"> Il est avantageux qu’il n’en apprenne rien.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="787"> Araspe en sera quitte en changeant de demeure.</l>
+                </sp>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="788"> Madame nullement, je crains fort qu’il ne meure,</l>
+                        <l n="789"> Sans doute il vous ferait plus de pitié qu’à moi</l>
+                        <l n="790"> Si vous saviez l’état où j’ai laissé le Roi :</l>
+                        <l n="791"> Car votre Âme où l’on voit des bontés adorables</l>
+                        <l n="792"> Compatît aisément au sort des misérables.</l>
+                        <l n="793"> Cyrus ne fut jamais si troublé qu’aujourd’hui ;</l>
+                        <l n="794"> Malgré cette vertu que l’on admire en lui,</l>
+                        <l n="795"> Quand j’ai de votre part fait ce triste message,</l>
+                        <l n="796"> L’excès de la colère a troublé son visage :</l>
+                        <l n="797"> Il n’a peu s’empêcher de jurer hautement</l>
+                        <l n="798"> Qu’Araspe en recevrait le juste châtiment.</l>
+                        <l n="799"> Madame, employez-vous à détourner la foudre</l>
+                        <l n="800"> Qui pour vous contenter le va réduire en poudre.</l>
+                        <l n="801"> Tout le camp en aurait de sensibles douleurs ;</l>
+                        <l n="802"> Ne lui fournissez point ces matières de pleurs.</l>
+                        <l n="803"> C’est assez que ce coup ait menacé sa tête ;</l>
+                        <l n="804"> Ayant ému les flots apaisés la tempête.</l>
+                        <l n="805"> « Vous avez fait la femme en voulant vous venger,</l>
+                        <l n="806"> « Faites la Déité le sauvant du danger.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="807"> Mais s’il est impuni j’aurai sujet de craindre</l>
+                        <l n="808"> Que de son mal encor d’autres se viennent plaindre.</l>
+                </sp>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="809"> Madame, croyez-moi, cela n’adviendra pas.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="810"> Roxane accourt vers nous, qui peut hâter ses pas.</l>
+                        <l n="811"> Me vient-elle avertir de rien qui me contente ?</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#roxane">
+            <speaker> ROXANE. </speaker>
+                        <l n="812"> Madame, un Suzien qu’on mène en votre Tente</l>
+                        <l n="813"> Dit qu’il est envoyé par le Roi votre époux,</l>
+                        <l n="814"> Et qu’il a de sa part quelques lettres pour vous.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="815"> Allons voir le Courier qu’Abradate m’envoie ;</l>
+                        <l n="816"> Charis à ce rapport je nage dans la joie.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#mitrane">
+            <speaker> MITRANE. </speaker>
+                        <l n="817"> Araspe, sauvez-vous, étant bien averti</l>
+                        <l n="818"> Qu’on est prêt de vous faire un fort mauvais parti.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="819"> Moi ? que je me déguise et que je me retire</l>
+                        <l n="820"> Pour emporter ailleurs ma honte et mon martyre ?</l>
+                        <l n="821"> Je brave le malheur qui me peut arriver,</l>
+                        <l n="822"> Et ne sais que la mort qui me puisse sauver :</l>
+                        <l n="823"> C’est la Divinité que j’appelle à mon aide,</l>
+                        <l n="824"> C’est mon plus sûr Asile et mon dernier remède ;</l>
+                        <l n="825"> Quelque étrange appareil qu’on face pour ma mort</l>
+                        <l n="826"> Je puis bien dépiter les menaces du sort.</l>
+                        <l n="827"> Penses-tu que mon âme en soit épouvantée</l>
+                        <l n="828"> Après avoir souffert les mépris de Panthée ?</l>
+                        <l n="829"> Je n’ai plus rien à craindre après cette rigueur,</l>
+                        <l n="830"> Et je vais accepter ma perte de bon cœur.</l>
+                        <l n="831"> Allons trouver Cyrus pour voir si mon audace</l>
+                        <l n="832"> Attendra sans frémir le coup de ma disgrâce,</l>
+                        <l n="833"> Tu sauras s’il est vrai qu’à l’objet du danger</l>
+                        <l n="834"> L’assiette de mon cœur soit sujette à changer.</l>
+                </sp>
+        <sp who="#mitrane">
+            <speaker> MITRANE. </speaker>
+                        <l n="835"> Nous l’avons assez vu dans le péril des armes,</l>
+                        <l n="836"> Ô Dieux !</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="837"> Mon cher Mitrane, essuie un peu tes larmes,</l>
+                        <l n="838"> Puisque ton amitié monte jusqu’à ce point,</l>
+                        <l n="839"> Sers moi, je t’en conjure, et ne me pleure point.</l>
+                        <l n="840"> Si l’Astre qui préside au point de la naissance</l>
+                        <l n="841"> Te donna pour Araspe un peu de bienveillance,</l>
+                        <l n="842"> Et si dans nos combats j’ai fait quelque action</l>
+                        <l n="843"> Qui fortif1e en toi cette inclination,</l>
+                        <l n="844"> Je veux bien de ta foi des preuves plus certaines,</l>
+                        <l n="845"> Le deuil est inutile à soulager mes peines :</l>
+                        <l n="846"> Si mon triste destin te fait quelque pitié,</l>
+                        <l n="847"> Fai moi connaître mieux ta fidèle amitié,</l>
+                        <l n="848"> Je m’en vais éprouver cette grande colère,</l>
+                        <l n="849"> Viens être de ma fin le témoin oculaire,</l>
+                        <l n="850"> Et quand ta piété m’aura fermé les yeux,</l>
+                        <l n="851"> Va trouver de ma part ce Chef-d’œuvre des cieux,</l>
+                        <l n="852"> Cette Princesse altière, et cette ingrate Reine,</l>
+                        <l n="853"> Qui rejette mes vœux avecque tant de haine,</l>
+                        <l n="854"> Cette Beauté superbe a qui ma passion</l>
+                        <l n="855"> Apporta tant d’horreur et tant d’aversion.</l>
+                        <l n="856"> Conte-lui de ma mort l’agréable nouvelle,</l>
+                        <l n="857"> Dis-lui qu’en expirant j’ai toujours parlé d’elle,</l>
+                        <l n="858"> Et que rendant l’esprit comme elle a désiré,</l>
+                        <l n="859"> Contre tant de rigueur je n’ai point murmuré.</l>
+                        <l n="860"> Dis-lui qu’on n’a point vu qu’en expiant mon crime</l>
+                        <l n="861"> J’offrisse à son Autel une indigne Victime,</l>
+                        <l n="862"> Et que voyant venir le coup de mon trépas,</l>
+                        <l n="863"> Je n’ai rien témoigné de faible ni de bas.</l>
+                        <l n="864"> Dépeins-lui ma constance, et la mets en son lustre ;</l>
+                        <l n="865"> Jure lui que mon âme, était une âme illustre,</l>
+                        <l n="866"> Et que dès le moment que j’entrai sous sa loi,</l>
+                        <l n="867"> J’eus l’esprit, le courage, et la grandeur d’un Roi.</l>
+                        <l n="868"> Elle n’est point de marbre, et tu verras possible</l>
+                        <l n="869"> Que ce triste récit la trouvera sensible :</l>
+                        <l n="870"> Peut-être en son visage un mouvement secret</l>
+                        <l n="871"> Fera voir de mon sort tant soit peu de regret.</l>
+                        <l n="872"> Mitrane, s’il est vrai que ma perte la touche,</l>
+                        <l n="873"> Qu’il en puisse coûter un hélas à sa bouche,</l>
+                        <l n="874"> Un soupir à son cœur, une larme à ses yeux ;</l>
+                        <l n="875"> Dès lors cette faveur me rend égal aux Dieux,</l>
+                        <l n="876"> Et mon ombre la bas, de ces douceurs ravie,</l>
+                        <l n="877"> N’aura point désormais de regret à la vie.</l>
+                </sp>
+        <sp who="#mitrane">
+            <speaker> MITRANE. </speaker>
+                        <l n="878"> Vous me faites mourir de tenir ces discours,</l>
+                        <l n="879"> N’avancez point ainsi, le terme de vos jours :</l>
+            <stage><em>Artabaze entre avec des soldats.</em></stage>
+                        <l n="880"> Mais cet homme sévère et de mauvais présage</l>
+                        <l n="881"> Semble avoir votre Arrêt écrit sur son visage.</l>
+                        <l n="882"> Vous deviez vous résoudre à partir promptement.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="883"> La chose est résolue, avançons seulement :</l>
+                        <l n="884"> C’est ce que je désire.</l>
+                </sp>
+        <sp who="#mitrane">
+            <speaker> MITRANE. </speaker>
+                        <l n="885"> Et ce que j’appréhende.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#artabase">
+            <speaker> ARTABAZE. </speaker>
+                        <l n="886"> Je viens vous avertir que Cyrus vous demande.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="887"> Il faut l’aller trouver : savez-vous point pourquoi ?</l>
+                </sp>
+        <sp who="#artabase">
+            <speaker> ARTABAZE. </speaker>
+                        <l n="888"> Je ne pénètre pas dans les secrets du Roi :</l>
+                        <l n="889"> L’ordre qu’il ma donné veut qu’avec diligence</l>
+                        <l n="890"> Je vous mène vers lui sans autre connaissance.</l>
+                </sp>
+        <sp who="#mitrane">
+            <speaker> MITRANE. </speaker>
+                        <l n="891"> Ô rencontre funeste ! Ô Ministre maudit !</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="892"> Viens Mitrane, et fais bien tout ce que je tai dit.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="893"> En vain par tant de soins et par tant de travaux</l>
+                        <l n="894"> J’ai fait entrer l’envie au cœur de mes Rivaux :</l>
+                        <l n="895"> Et la Fortune en vain conduisant la victoire</l>
+                        <l n="896"> Ma toujours assisté dans l’amour de la gloire,</l>
+                        <l n="897"> Puisqu’un jeune insolent a la témérité</l>
+                        <l n="898"> De faire ce mépris de mon autorité.</l>
+                        <l n="899"> Ma réputation se tache par ce crime,</l>
+                        <l n="900"> On en voit tout à coup décroître mon estime,</l>
+                        <l n="901"> Et de quelque façon qu’Araspe soit puni,</l>
+                        <l n="902"> L’éclat de ma grandeur en demeure terni.</l>
+                        <l n="903"> Comment ? sans respecter les ordres que je donne,</l>
+                        <l n="904"> Fâcher une Beauté qui porte une couronne,</l>
+                        <l n="905"> Dont même le mari se rend mon allié ?</l>
+                        <l n="906"> Je l’avais fait trop grand, il s’est trop oublié.</l>
+                </sp>
+        <sp who="#chrisanthe">
+            <speaker> CHRISANTE. </speaker>
+                        <l n="907"> Sire, en toutes les Cours l’imprudence est commune</l>
+                        <l n="908"> À tous les jeunes gens qu’élève la Fortune ;</l>
+                        <l n="909"> L’homme faible et léger sans un secours divin</l>
+                        <l n="910"> S’enivre de faveur comme l’on fait de vin,</l>
+                        <l n="911"> Il trouve en s’élevant que ses sens le trahissent,</l>
+                        <l n="912"> Que la tête lui tourne, et ses yeux s’éblouissent ;</l>
+                        <l n="913"> Et comme sans mesure il veut toujours monter,</l>
+                        <l n="914"> Son étourdissement le fait précipiter.</l>
+                        <l n="915"> Mais Araspe abusant d’une bonté si rare,</l>
+                        <l n="916"> A fait à cette Reine un acte de barbare.</l>
+                        <l n="917"> Qui n’étant retenu d’aucun mors vertueux,</l>
+                        <l n="918"> Donne à ses appétits un cours impétueux.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="919"> Ah ! je l’ai trop aimé ce jeune téméraire,</l>
+                        <l n="920"> Qui sans doute est party de peur de ma colère ;</l>
+                        <l n="921"> Des plaintes de Panthée il aura su le bruit :</l>
+                        <l n="922"> Mais voici l’insolent qu’Artabaze conduit,</l>
+                        <l n="923"> Dites-lui qu’il s’avance.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#cyrus">
+            <speaker> CYRUS. Il lui parle en particulier. </speaker>
+                        <l n="924"> Ingrate créature,</l>
+                        <l n="925"> Indigne de ta race et de ma nourriture,</l>
+                        <l n="926"> Je te faisais garder une femme de Roi,</l>
+                        <l n="927"> Tu lui devais porter même respect qu’à moi.</l>
+                        <l n="928"> Dis-moi donc insolent, qui t’a donné l’audace</l>
+                        <l n="929"> D’oser l’importuner sans craindre ma disgrâce ?</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="930"> Un ami du désordre, un infracteur de lois,</l>
+                        <l n="931"> Qui trouble également les Bergers et les Rois ;</l>
+                        <l n="932"> Amour, ce doux Tyran de tout ce qui respire,</l>
+                        <l n="933"> Et qui ne connaît rien de grand que son Empire.</l>
+                        <l n="934"> Vous m’avez fait garder une rare Beauté,</l>
+                        <l n="935"> Près de qui l’on ne peut garder sa liberté ;</l>
+                        <l n="936"> Je n’ai peu refuser mon cœur à cette belle,</l>
+                        <l n="937"> Et si j’en avais mille ils seraient tous pour elle.</l>
+                        <l n="938"> Les puissances du Ciel et celles des Enfers</l>
+                        <l n="939"> Ne me sauraient jamais tirer hors de ses fers,</l>
+                        <l n="940"> Je veux jusqu’à la mort l’adorer en mon âme,</l>
+                        <l n="941"> Et dans ma cendre encore en conserver la flamme.</l>
+                        <l n="942"> Si le crime est si grand d’aimer en lieu si beau,</l>
+                        <l n="943"> Je serai criminel jusques dans le tombeau :</l>
+                        <l n="944"> Charmé de tant d’appas je ne suis pas capable</l>
+                        <l n="945"> De vivre un seul moment sans en être coupable,</l>
+                        <l n="946"> Ne pardonnez donc point à ma témérité,</l>
+                        <l n="947"> Je suis atteint d’un crime, et j’ai bien mérité</l>
+                        <l n="948"> Puisque j’ai pu déplaire à cette belle Reine,</l>
+                        <l n="949"> Que votre affection se convertisse en haine.</l>
+                        <l n="950"> Commandez sur le champ, qu’on termine mon sort,</l>
+                        <l n="951"> Il ne m’importe pas de quel genre de mort ;</l>
+                        <l n="952"> En l’état où je suis, les feux, les précipices,</l>
+                        <l n="953"> Le fer et le poison, me seront des délices,</l>
+                        <l n="954"> Je les tiens à faveur, et promets hautement</l>
+                        <l n="955"> D’en goûter l’amertume avec ravissement.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="956"> Il a perdu le sens, voyez qu’elle manie,</l>
+                        <l n="957"> Comme l’Amour le traite avecque tyrannie ;</l>
+                        <l n="958"> L’état où je le vois me donne du regret :</l>
+                        <l n="959"> Mais il faut le traiter en malade indiscret,</l>
+                        <l n="960"> Puisqu’il nous a fait voir par un trait si sensible,</l>
+                        <l n="961"> Qu’à d’importants sujets sa folie est nuisible.</l>
+                        <l n="962"> Comme un morceau de fer qu’attire également</l>
+            <stage><em>Cyrus se lève.</em></stage>
+                        <l n="963"> La secrète vertu de deux pierres d’aimant ;</l>
+                        <l n="964"> Par un contraire effort parmi l’air se balance,</l>
+                        <l n="965"> Tiré de deux cotés de même violence :</l>
+                        <l n="966"> Ainsi sur ce sujet, mon esprit agité</l>
+                        <l n="967"> Vague entre la douceur et la sévérité.</l>
+                        <l n="968"> Dans ses divers pensers, se suspend en soi-même,</l>
+                        <l n="969"> Et ne se peut résoudre en cette peine extrême.</l>
+                        <l n="970"> Mon cœur se sent piquer d’honneur et d’amitié,</l>
+                        <l n="971"> L’un émeut mon courroux, l’autre me fait pitié ;</l>
+                        <l n="972"> Souffrir que dans ma Cour on prenne la licence</l>
+                        <l n="973"> De fâcher une Reine avec tant d’insolence,</l>
+                        <l n="974"> C’est passer pour barbare à la postérité,</l>
+                        <l n="975"> C’est manquer de sagesse et manquer de bonté.</l>
+                        <l n="976"> Perdre aussi ce que j’aime, et dont dès mon bas âge</l>
+                        <l n="977"> J’ai toujours reconnu l’esprit et le courage ;</l>
+                        <l n="978"> Un serviteur ardant, un homme plein de foi,</l>
+                        <l n="979"> Qui semble n’être né que pour mourir pour moi.</l>
+                        <l n="980"> Abandonner Araspe, Ah ! c’est une personne</l>
+                        <l n="981"> Que je puis balancer avec une couronne :</l>
+                        <l n="982"> J’ai beau délibérer en cette occasion,</l>
+                        <l n="983"> Je ne puis rien penser qu’à ma confusion.</l>
+                        <l n="984"> Mais voici cet objet qui n’a rien de vulgaire,</l>
+                        <l n="985"> Excepté le défaut de ne pardonner guère :</l>
+                        <l n="986"> Son courroux me vient-il encor solliciter ?</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="987"> Seigneur, d’un pas hâté je viens vous visiter,</l>
+                        <l n="988"> C’est pour vous faire part de ma secrète joie,</l>
+                        <l n="989"> Vous montrant ce papier, que Monseigneur m’envoie ;</l>
+                        <l n="990"> Voyez s’il vous honore, et croyez désormais</l>
+                        <l n="991"> Que je sais bien tenir tout ce que je promets.</l>
+                        <l n="992"> Mais ce qui rend encor ces nouvelles meilleures,</l>
+                        <l n="993"> C’est que nous le verrons au plus tard dans deux heures.</l>
+                        <l n="994"> Il vient accompagné de deux mille chevaux</l>
+                        <l n="995"> Pour être plus utile à vos nobles travaux.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="996"> Mon âme est de merveille également saisie,</l>
+                        <l n="997"> Et de sa diligence et de sa courtoisie.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="998"> Sans doute c’est un Prince et de cœur et d’esprit,</l>
+                        <l n="999"> Mais de grâce Seigneur lisez ce qu’il m’écrit.</l>
+            <stage><em>Lettre d’Abradate à Panthée.</em></stage>
+                        <l n="1000"> Ce Roi, qui respectant le destin de la guerre,</l>
+                        <l n="1001"> Tu m’en as peint l’image avecque tant de charmes</l>
+                        <l n="1002"> Comme c’est ton désir, crois que c’est mon envie</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="1003"> Madame, les honneurs dont il me va chargeant</l>
+                        <l n="1004"> Font voir en ce papier qu’il est fort obligeant,</l>
+                        <l n="1005"> Par ses grands compliments il ma voulu confondre,</l>
+                        <l n="1006"> À ces civilités je ne saurais répondre :</l>
+                        <l n="1007"> Mais si pour le servir je suis assez puissant,</l>
+                        <l n="1008"> Il ne me tiendra pas pour un méconnaissant :</l>
+                        <l n="1009"> Assurez l’en, de grâce, et tirez par avance</l>
+                        <l n="1010"> Quelque fidèle effet, de mon obéissance.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1011"> Digne libérateur de tous les oppressés,</l>
+                        <l n="1012"> Que la voix des mortels ne peut louer assez :</l>
+                        <l n="1013"> Puisque je vous acquiert ce serviteur fidèle,</l>
+                        <l n="1014"> J’ose vous demander une grâce nouvelle.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="1015"> C’est Madame ?</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1016"> D’ôter de votre souvenir</l>
+                        <l n="1017"> L’imprudence d’Araspe, et ne le point punir.</l>
+                        <l n="1018"> Sa faute est excusable, il faut que je le die,</l>
+                        <l n="1019"> Après une cruelle et longue maladie</l>
+                        <l n="1020"> Sa raison la quitté, son sens s’est affaibli,</l>
+                        <l n="1021"> Vous mettrez s’il vous plaît cette faute en oubli :</l>
+                        <l n="1022"> Je vous en veux prier.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="1023"> Commandez-moi, Madame,</l>
+                        <l n="1024"> Encor que son erreur soit si digne de blâme</l>
+                        <l n="1025"> Et de punition, puisqu’il vous plaît ainsi,</l>
+                        <l n="1026"> Si vous lui pardonnez, je lui pardonne aussi :</l>
+                        <l n="1027"> Mais c’est faire paraître une clémence extrême.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1028"> C’est imiter, Seigneur, et les Dieux et vous même,</l>
+                        <l n="1029"> Qui voulûtes changer ma disgrâce en bonheur,</l>
+                        <l n="1030"> Lorsque je pouvais perdre, et la vie et l’honneur.</l>
+            <stage><em>Panthée sort.</em></stage></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="1031"> Araspe, cette belle a demandé ta vie :</l>
+                        <l n="1032"> Et j’ai facilement contenté son envie :</l>
+                        <l n="1033"> Que dis tu de Cyrus et de cette Beauté ?</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="1034"> Je dis que vous avez tous deux trop de bonté !</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="1035"> Et bien, dis moi, l’amour est-elle volontaire ?</l>
+                        <l n="1036"> Ne te donnais-je pas un avis salutaire</l>
+                        <l n="1037"> Quand je te détournais de la voir si souvent ?</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="1038"> Je suis par ce malheur devenu plus savant ?</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="1039"> Au reste, je te fais une expresse défense</l>
+                        <l n="1040"> De lui dire jamais un seul mot qui l’offense.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="1041"> Hé, Sire, à l’offenser je n’ai jamais pensé ;</l>
+                        <l n="1042"> Les Cieux me sont témoins que je suis l’offensé.</l></div></div>
+           <div type="act" xml:id="4">
+           <head> ACTE IV </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#abradate">
+            <speaker> ABRADATE. </speaker>
+                        <l n="1043"> Oui, oui, l’Assyrien tend à nous opprimer,</l>
+                        <l n="1044"> Et Cyrus paraît tel que nous devons l’aimer :</l>
+                        <l n="1045"> Éloignant donc l’orgueil fuyons l’ingratitude,</l>
+                        <l n="1046"> Et pour nous affranchir entrons en servitude.</l>
+                        <l n="1047"> Cyrus mérite bien de m’imposer sa loi,</l>
+                        <l n="1048"> Vous ayant conservée il a trop fait pour moi.</l>
+                        <l n="1049"> Et désormais le bien qui reste en ma puissance,</l>
+                        <l n="1050"> Est d’un trop petit prix pour ma reconnaissance :</l>
+                        <l n="1051"> Après cette faveur ne pouvant faire mieux,</l>
+                        <l n="1052"> Je puis trahir pour lui les hommes et les Dieux ;</l>
+                        <l n="1053"> Ce bien fait est si grand, que si je le puis croire,</l>
+                        <l n="1054"> Je dois aveuglement m’immoler à sa gloire :</l>
+                        <l n="1055"> Mais est-il si parfait qu’il est représenté ?</l>
+                        <l n="1056"> Cette rare peinture est un portrait flatté.</l>
+                        <l n="1057"> Si peu qu’un jeune Prince est ou vaillant, ou sage,</l>
+                        <l n="1058"> La Renommée en dit mille fois davantage ;</l>
+                        <l n="1059"> Puis il faut qu’en parlant de son libérateur,</l>
+                        <l n="1060"> Le plus sévère esprit devienne un peu flatteur.</l>
+                        <l n="1061"> Il faut que d’un bienfait une âme se ressente,</l>
+                        <l n="1062"> Ou qu’elle soit fort lâche et fort méconnaissante ;</l>
+                        <l n="1063"> Sans doute votre esprit, qui n’a point de défaut,</l>
+                        <l n="1064"> Le lotie avec excès, en le mettant si haut.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1065"> Cyrus m’a fait faveur, mais je lui rends justice,</l>
+                        <l n="1066"> Quand j’atteste qu’il est inaccessible au vice,</l>
+                        <l n="1067"> Et qu’on peut l’élever entre les immortels,</l>
+                        <l n="1068"> Si les grandes vertus méritent des Autels :</l>
+                        <l n="1069"> Qu’en grandeur de courage il est inimitable,</l>
+                        <l n="1070"> Qu’il se montre clément, qu’il paraît équitable,</l>
+                        <l n="1071"> Et qu’à sa continence on ne peut reprocher</l>
+                        <l n="1072"> Qu’il soit quelque Beauté qui le puisse toucher.</l>
+                </sp>
+        <sp who="#abradate">
+            <speaker> ABRADATE. </speaker>
+                        <l n="1073"> Je crois que par un soin de la chaste Minerve,</l>
+                        <l n="1074"> Contre les traits d’Amour son âme se conserve.</l>
+                        <l n="1075"> Mais avec tout cela, voudriez vous bien jurer</l>
+                        <l n="1076"> Qu’il eut pu jusques ici vous voir sans soupirer ?</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1077"> Quoi, ne savez vous pas qu’il ne ma jamais vue ?</l>
+                </sp>
+        <sp who="#abradate">
+            <speaker> ABRADATE. </speaker>
+                        <l n="1078"> De mémoire en ce lieu vous semblez dépourvue.</l>
+                        <l n="1079"> C’est bien me découvrir ce qu’on m’avait celé :</l>
+                        <l n="1080"> Tellement que Cyrus ne vous a point parlé ?</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1081"> Il ma parlé trois fois : mais ce Prince est si sage</l>
+                        <l n="1082"> Qu’il n’a jamais porté les yeux sur mon visage.</l>
+                </sp>
+        <sp who="#abradate">
+            <speaker> ABRADATE. </speaker>
+                        <l n="1083"> Ô Réplique subtile et produite à propos !</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1084"> Quel étrange penser trouble votre repos ?</l>
+                        <l n="1085"> De quoi palissez vous, qu’elle atteinte vous blesse ?</l>
+                        <l n="1086"> Avez-vous un esprit capable de faiblesse :</l>
+                        <l n="1087"> Avez-vous de ma foi conçu quelque soupçon ?</l>
+                        <l n="1088"> Doutez-vous de Panthée ?</l>
+                </sp>
+        <sp who="#abradate">
+            <speaker> ABRADATE. </speaker>
+                        <l n="1089"> En aucune façon.</l>
+                        <l n="1090"> Mais je crains les malheurs qui sont inévitables</l>
+                        <l n="1091"> À ceux que le Destin veut rendre misérables.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1092"> Douter de ma constance et de ma chasteté ?</l>
+                </sp>
+        <sp who="#abradate">
+            <speaker> ABRADATE. </speaker>
+                        <l n="1093"> Nullement, mon esprit n’en a jamais douté :</l>
+                        <l n="1094"> Mais bien...</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1095"> Quoi ?</l>
+                </sp>
+        <sp who="#abradate">
+            <speaker> ABRADATE. </speaker>
+                        <l n="1096"> Qu’une injuste et cruelle puissance</l>
+                        <l n="1097"> N’ait usé contre vous de quelque violence :</l>
+                        <l n="1098"> Si vous me le celiez de peur de m’affliger,</l>
+                        <l n="1099"> Ce serait de nouveau lâchement m’outrager.</l>
+                        <l n="1100"> S’il a fait à Panthée une si grande injure,</l>
+                        <l n="1101"> À ce premier abord devant les Dieux je jure</l>
+                        <l n="1102"> Que pour lui témoigner combien j’y prends de part,</l>
+                        <l n="1103"> Je le vais saluer de vingt coups de poignard.</l>
+                        <l n="1104"> Ma main de cet affront justement animée,</l>
+                        <l n="1105"> Saura trouver son cœur, au cœur de son Armée :</l>
+                        <l n="1106"> Ma mort suivra de près cette témérité,</l>
+                        <l n="1107"> Mais le perfide aura ce qu’il a mérité.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1108"> Dans l’appréhension d’un mal imaginaire</l>
+                        <l n="1109"> Vous avez un transport qui n’est point ordinaire.</l>
+                </sp>
+        <sp who="#abradate">
+            <speaker> ABRADATE. </speaker>
+                        <l n="1110"> C’est contre ces assauts que j’ai peu de vertu,</l>
+                        <l n="1111"> Et par là qu’aisément je puis être abattu.</l>
+                        <l n="1112"> Ah ! la crainte que j’ai d’un si sensible outrage</l>
+                        <l n="1113"> Me trouble tout le sens de douleur et de rage.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1114"> Ô ridicule peur !</l>
+                </sp>
+        <sp who="#abradate">
+            <speaker> ABRADATE. </speaker>
+                        <l n="1115"> Ridicule, et pourquoi ?</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1116"> Pour ce qu’elle est indigne et de vous et de moi ;</l>
+                        <l n="1117"> Et qu’enfin votre esprit paraît trop susceptible</l>
+                        <l n="1118"> De l’appréhension d’une chose impossible.</l>
+                </sp>
+        <sp who="#abradate">
+            <speaker> ABRADATE. </speaker>
+                        <l n="1119"> Les Dieux par ce malheur ne pouvaient me punir ?</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1120"> Non, jamais ce malheur ne pouvait avenir.</l>
+                </sp>
+        <sp who="#abradate">
+            <speaker> ABRADATE. </speaker>
+                        <l n="1121"> Je connais votre foi, je sais votre constance :</l>
+                        <l n="1122"> Mais malgré vos clameurs et votre résistance,</l>
+                        <l n="1123"> Ce Prince autorisé d’un pouvoir absolu,</l>
+                        <l n="1124"> À peu faire en son camp tout ce qu’il a voulu ;</l>
+                        <l n="1125"> Qui pourrait détourner la furieuse envie</l>
+                        <l n="1126"> De celui qui sur nous a pouvoir de la vie ?</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1127"> Qui pourrait détourner le généreux effort</l>
+                        <l n="1128"> De celle à qui la honte est pire que la mort ?</l>
+                        <l n="1129"> Si dans un tel péril je me fusse trouvée</l>
+                        <l n="1130"> En une extrémité ce poignard m’eut sauvée,</l>
+                        <l n="1131"> Et me garantissant d’un si lâche attentat,</l>
+                        <l n="1132"> Eût maintenu ma gloire en son premier état.</l>
+                        <l n="1133"> Voilà le confident qui durant votre absence</l>
+                        <l n="1134"> Avec fidélité gardait mon innocence :</l>
+                        <l n="1135"> Voilà le Protecteur de ma pudicité,</l>
+                        <l n="1136"> Qui m’aurait secourue en cette adversité.</l>
+                        <l n="1137"> Je m’en étais saisie afin de me défendre</l>
+                        <l n="1138"> Des violents efforts qui me pouvaient surprendre</l>
+                        <l n="1139"> Ce fer en un besoin se cachant dans mon cœur</l>
+                        <l n="1140"> Eût trompé les désirs d’un insolent vainqueur.</l>
+                        <l n="1141"> Mais le sage Cyrus est un Prince héroïque</l>
+                        <l n="1142"> Qui n’eut jamais pour moi de penser impudique,</l>
+                        <l n="1143"> Ou dès le même instant qu’il en fut échauffé,</l>
+                        <l n="1144"> Il fut par la raison dans son Âme étouffé.</l>
+                        <l n="1145"> Vous reste-t-il encor quelque fâcheux ombrage ?</l>
+                </sp>
+        <sp who="#abradate">
+            <speaker> ABRADATE. </speaker>
+                        <l n="1146"> Cet éclaircissement dissipe ce nuage :</l>
+                        <l n="1147"> Mais mon esprit confus va devenir jaloux</l>
+                        <l n="1148"> Des rares qualités de Cyrus, et de vous.</l>
+                        <l n="1149"> Ô grandeur de vertu, qui n’eut jamais d’exemple !</l>
+                        <l n="1150"> Ô générosité digne vraiment d’un Temple !</l>
+                        <l n="1151"> Dieux, qui dans ce Monarque, et dans cette Beauté</l>
+                        <l n="1152"> Mites tant de sagesse, et tant de chasteté ;</l>
+                        <l n="1153"> Faites que par le monde en tous lieux soit portée</l>
+                        <l n="1154"> La gloire de Cyrus, et celle de Panthée,</l>
+                        <l n="1155"> Et faites que bien tôt mes bonnes actions</l>
+                        <l n="1156"> Méritent leur estime, et leurs affections.</l>
+                        <l n="1157"> Et vous, pardonnez-moi, beaux yeux remplis de charmes.</l>
+                        <l n="1158"> Je suis assez puni d’avoir causé vos larmes,</l>
+                        <l n="1159"> J’ai tort d’avoir tremblé, d’une vaine terreur :</l>
+                        <l n="1160"> Mais l’excès de l’amour a causé cette erreur,</l>
+                        <l n="1161"> Et le soudain pardon jamais ne se refuse</l>
+                        <l n="1162"> Aux transports violents qui portent cette excuse.</l>
+                        <l n="1163"> « Comme les bruits confus accompagnent le jour,</l>
+                        <l n="1164"> « Toujours la jalousie accompagne l’Amour ;</l>
+                        <l n="1165"> « Partout où va ce Dieu, va ce Fantôme sombre</l>
+                        <l n="1166"> « Qui le suit de si près qu’on le prend pour son ombre.</l>
+                        <l n="1167"> « Aussi lorsqu’on se voit possesseur d’un grand bien</l>
+                        <l n="1168"> « C’est l’estimer bien peu que de ne craindre rien.</l>
+                        <l n="1169"> « Et surtout la beauté semble avoir quelque amorce,</l>
+                        <l n="1170"> « Pour se faire ravir par adresse ou par force.</l>
+                        <l n="1171"> Cependant j’ai failli, mais pardonnez le moi :</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1172"> Je ne saurais punir mon Seigneur et mon Roi,</l>
+                        <l n="1173"> Mais il a des pensers qui ne doivent point naître</l>
+                        <l n="1174"> En un esprit si fort, et qui m’a peu connaître.</l>
+                </sp>
+        <sp who="#abradate">
+            <speaker> ABRADATE. </speaker>
+                        <l n="1175"> Mais, me pardonnez-vous ?</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1176"> Oui, je vous le promets,</l>
+                        <l n="1177"> Pourvu que ces soupçons ne reviennent jamais.</l>
+                </sp>
+        <sp who="#abradate">
+            <speaker> ABRADATE. </speaker>
+                        <l n="1178"> Allons voir ce grand Roi, dont l’agréable Empire</l>
+                        <l n="1179"> Ne s’étendra jamais si loin que je désire.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="1180"> Qu’on le fasse punir l’indiscret espion,</l>
+                        <l n="1181"> Qui sème dans mon camp son appréhension :</l>
+                        <l n="1182"> Et qu’on charge de fers, ou qu’on laisse au bagage,</l>
+                        <l n="1183"> Ceux de qui son rapport a glacé le courage.</l>
+                        <l n="1184"> Il a pris l’épouvante et la voudrait donner</l>
+                        <l n="1185"> À ceux que les périls ne peuvent étonner,</l>
+                        <l n="1186"> Qu’au milieu des combats on n’a jamais vu blêmes,</l>
+                        <l n="1187"> Et qui parmi les coups font les périls eux-mêmes.</l>
+                        <l n="1188"> Mais je ne puis penser qu’une vaine vapeur</l>
+                        <l n="1189"> Étonne des soldats incapables de peur,</l>
+                        <l n="1190"> Des cœurs ambitieux d’acquérir de la gloire,</l>
+                        <l n="1191"> Et que vient de flatter le gain d’une victoire.</l>
+                        <l n="1192"> Ceux où l’on voit briller de si grandes vertus</l>
+                        <l n="1193"> Ne tournent point le dos à ceux qu’ils ont battus.</l>
+                        <l n="1194"> En est-il parmi vous que j’estime si braves</l>
+                        <l n="1195"> Qui portassent envie au malheur des Esclaves ?</l>
+                        <l n="1196"> Aimants mieux soupirer sous le joug d’un vainqueur</l>
+                        <l n="1197"> Que l’épée à la main mourir en gens de cœur ?</l>
+                        <l n="1198"> Celui que la frayeur jusqu’à ce point possède</l>
+                        <l n="1199"> Selon mon ingénient, n’est ni Perse ni Mède :</l>
+                        <l n="1200"> Qu’il passe vers Crésus, il lui sera permis ;</l>
+                        <l n="1201"> Je le crains plus ici qu’entre les ennemis.</l>
+                        <l n="1202"> Mais ils sont cependant moins forts que nous ne sommes,</l>
+                        <l n="1203"> Ils ont plus d’attirail, et nous avons plus d’hommes ;</l>
+                        <l n="1204"> Quand ils s’assembleraient encor des millions,</l>
+                        <l n="1205"> Ce ne sont que des Cerfs qu’affrontent des Lyons :</l>
+                        <l n="1206"> Ces lâches Lydiens nourris dans l’abondance</l>
+                        <l n="1207"> Parmi les jeux, l’amour, les festins et la dance,</l>
+                        <l n="1208"> Se sont trop amollis en leur oisiveté,</l>
+                        <l n="1209"> Pour subsister long-temps dans l’incommodité :</l>
+                        <l n="1210"> Mes soldats mieux instruits au métier de la Guerre</l>
+                        <l n="1211"> Étant accoutumés à dormir sur la terre,</l>
+                        <l n="1212"> À s’exercer beaucoup, et manger sobrement,</l>
+                        <l n="1213"> Se peuvent assurer de les vaincre aisément.</l>
+                        <l n="1214"> Pour se charger bien tôt d’honneur et de richesse,</l>
+                        <l n="1215"> On n’a rien qu’à me suivre au milieu de la presse ;</l>
+                        <l n="1216"> Je serai satisfait si l’on fait comme moi,</l>
+                        <l n="1217"> On lâchera le pied quand je prendrai l’effroi.</l>
+                </sp>
+        <sp who="#hidaspe">
+            <speaker> HIDASPE. </speaker>
+                        <l n="1218"> Sire, au premier rapport du soldat qui proteste</l>
+                        <l n="1219"> Que le camp de Crésus est si fort et si leste,</l>
+                        <l n="1220"> Et qu’il l’a vu vers nous marcher si promptement ;</l>
+                        <l n="1221"> Nous nous sommes émus mais sans étonnement :</l>
+                        <l n="1222"> Car entre vos soldats on n’entend que des plaintes</l>
+                        <l n="1223"> D’un désir de combattre et non d’aucunes craintes.</l>
+                        <l n="1224"> Nous nous sommes émus, comme il advient parfois</l>
+                        <l n="1225"> Au Lyon qui découvre un Taureau dans un bois ;</l>
+                        <l n="1226"> Il s’émeut, il frémît, non de peur, mais de joie</l>
+                        <l n="1227"> De pouvoir aborder une si bonne proie.</l>
+                        <l n="1228"> Je suis bien assuré de dix mille soldats</l>
+                        <l n="1229"> Qui d’un nombre plus grand ne s’étonneront pas,</l>
+                        <l n="1230"> Encor que nuit et jour ils soient dessus les armes,</l>
+                        <l n="1231"> Ils ne s’ébranlent point pour ces grandes alarmes ;</l>
+                        <l n="1232"> Et comme l’on a vu dans les combats passés</l>
+                        <l n="1233"> C’est toujours par-devant qu’ils se trouvent blessés.</l>
+                        <l n="1234"> Rien que le seul repos n’affaiblît leur audace,</l>
+                        <l n="1235"> Ils iront dans la flamme, ils iront dans la glace,</l>
+                        <l n="1236"> Et jusques aux enfers leur valeur passera</l>
+                        <l n="1237"> Quand votre Majesté me le commandera.</l>
+                </sp>
+        <sp who="#chrisanthe">
+            <speaker> CHRISANTE. </speaker>
+                        <l n="1238"> Tous ceux que je conduits sont de même nature,</l>
+                        <l n="1239"> Ont même discipline et même nourriture,</l>
+                        <l n="1240"> On n’a rien qu’à marcher contre les ennemis</l>
+                        <l n="1241"> Et nous vous tiendrons tous ce qu’il vous a promis.</l>
+                        <l n="1242"> Quand même étant ligués pour nous réduire en poudre,</l>
+                        <l n="1243"> Les Dieux sur notre camp devraient lancer la foudre.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="1244"> Puisque je dois la vie à votre Majesté,</l>
+                        <l n="1245"> Je lui rendrai bientôt ce qu’elle m’a prêté :</l>
+                        <l n="1246"> Ou par un grand succès je lui ferai paraître,</l>
+                        <l n="1247"> Qu’avec beaucoup d’ardeur, je sers un si grand Maître.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="1248"> Mes amis, ces propos, dignes de gens de cœur,</l>
+                        <l n="1249"> M’assurent aujourd’hui du titre de vainqueur :</l>
+                        <l n="1250"> Le Prince est bien timide, ou l’espérance est morte,</l>
+                        <l n="1251"> Quand de si braves Chefs lui parlent de la sorte :</l>
+                        <l n="1252"> Mon dessein ne saurait avoir qu’un bon succès</l>
+                        <l n="1253"> Soutenu de vertus qui vont jusqu’à l’excès :</l>
+                        <l n="1254"> Puis je ne cèle pas que mon espoir se flatte</l>
+                        <l n="1255"> De ce nouveau renfort que me donne Abradate :</l>
+                        <l n="1256"> Ses chariots armés feront un grand effet,</l>
+                        <l n="1257"> Pourvu qu’on suive bien le dessein que j’ai fait,</l>
+                        <l n="1258"> Je les ferai marcher ; Mais j’aperçois Panthée</l>
+                        <l n="1259"> Qui de contentement est toute transportée ;</l>
+                        <l n="1260"> Elle tient par là main son mari qui la suit.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1261"> Seigneur, de vos bienfaits voici le digne fruit,</l>
+                        <l n="1262"> Voilà cette Rançon que je vous ai promise :</l>
+                        <l n="1263"> Quand vos heureux succès m’ont ôté la franchise ;</l>
+                        <l n="1264"> Vous m’avez bien traitée, et pour m’en revancher</l>
+                        <l n="1265"> Je vous offre un trésor que j’estime bien cher.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="1266"> J’estime ce Trésor d’une valeur extrême ;</l>
+                        <l n="1267"> Et l’acceptant de vous je me donne à lui-même.</l>
+                </sp>
+        <sp who="#abradate">
+            <speaker> ABRADATE. </speaker>
+                        <l n="1268"> Seigneur, au dernier point vous m’avez obligé,</l>
+                        <l n="1269"> Ne vous attachant pas au sort d’un affligé ;</l>
+                        <l n="1270"> Et daignant, par un trait de clémence admirable,</l>
+                        <l n="1271"> Respecter la douleur d’un Prince misérable.</l>
+                        <l n="1272"> Vous auriez peu me perdre, usant de la rigueur</l>
+                        <l n="1273"> Que peut impunément exercer un vainqueur,</l>
+                        <l n="1274"> Mais vous avez fait voir qu’en cet âge où nous sommes,</l>
+                        <l n="1275"> Les Dieux daignent encor se déguiser en hommes,</l>
+                        <l n="1276"> Et qu’ayant quelque fois la foudre dans les mains,</l>
+                        <l n="1277"> Ils ont compassion des larmes des humains.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="1278"> Cette civilité n’est point une merveille,</l>
+                        <l n="1279"> Vous l’auriez exercée en rencontre pareille,</l>
+                        <l n="1280"> Tout ce qu’a de meilleur cette bonne action,</l>
+                        <l n="1281"> C’est qu’elle est le ciment de notre affection.</l>
+                        <l n="1282"> Les Amis tels que vous apportent plus de gloire,</l>
+                        <l n="1283"> Et plus d’utilité qu’une grande victoire.</l>
+                </sp>
+        <sp who="#abradate">
+            <speaker> ABRADATE. </speaker>
+                        <l n="1284"> Seigneur, en votre nom j’espère d’en gagner,</l>
+                        <l n="1285"> Ou du moins en mourant je saurai témoigner</l>
+                        <l n="1286"> Qu’en un fragile corps est une âme bien née,</l>
+                        <l n="1287"> Quand je rendrai la vie à qui me l’a donnée.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="1288"> M’ayant fait allier d’un Roi si généreux</l>
+                        <l n="1289"> Les Cieux me donneront des succès plus heureux ;</l>
+                        <l n="1290"> Mais qu’ils me soient amis, ou qu’ils me soient contraires,</l>
+                        <l n="1291"> Nous vivrons désormais vous et moi comme frères.</l>
+                        <l n="1292"> Cependant vous savez que l’ennemi paraît,</l>
+                        <l n="1293"> Qu’il faut que promptement chacun se tienne prêt,</l>
+                        <l n="1294"> Et que par le bon ordre augmentant les courages,</l>
+                        <l n="1295"> Nous allions dans le champ prendre nos avantages ;</l>
+                        <l n="1296"> Des éminents endroits nous saisir promptement,</l>
+                        <l n="1297"> Et faire entendre à tous notre commandement.</l>
+                </sp>
+        <sp who="#abradate">
+            <speaker> ABRADATE. </speaker>
+                        <l n="1298"> Seigneur, en ce beau jour vous plaira-t-il que j’aille</l>
+                        <l n="1299"> Combattre avec les miens au front de la bataille ?</l>
+                        <l n="1300"> Mes chariots de Guerre étant bien attelés</l>
+                        <l n="1301"> Feront en cet endroit des effets signalés.</l>
+                        <l n="1302"> C’est là qu’assurément, ainsi que j’ose croire,</l>
+                        <l n="1303"> Ces machines pourront ébaucher la Victoire ;</l>
+                        <l n="1304"> Seigneur, vous plairait-il me tant favoriser ?</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="1305"> Il ne m’est pas permis de vous rien refuser :</l>
+                        <l n="1306"> Oui, vous commanderez, aujourd’hui, l’avant-garde,</l>
+                        <l n="1307"> Je le trouve à propos, cet honneur vous regarde,</l>
+                        <l n="1308"> Je vous dirai tout l’ordre en tenant le Conseil ;</l>
+                        <l n="1309"> Mais il faut écouter ce Prêtre du Soleil.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#calcas">
+            <speaker> CALCAS. </speaker>
+                        <l n="1310"> Sire, les ennemis apprêtent des génisses</l>
+                        <l n="1311"> Pour s’acquérir les Dieux par de grands sacrifices,</l>
+                        <l n="1312"> J’en viens donner avis à votre Majesté.</l>
+                        <l n="1313"> Qui les peut devancer en cette piété,</l>
+                        <l n="1314"> Et dessus son Armée arrêter la victoire</l>
+                        <l n="1315"> En faisant honorer la cause de sa gloire :</l>
+                        <l n="1316"> Fera-t-on maintenant prière aux immortels ?</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="1317"> Oui, oui, nous vous suivons, préparez les Autels ;</l>
+                        <l n="1318"> Lorsque devant les Dieux tous bons de leur nature,</l>
+                        <l n="1319"> Nous avons exercé des rigueurs sans mesure,</l>
+                        <l n="1320"> Il ne faut pas penser que nous les apaisions</l>
+                        <l n="1321"> Par des vases fumants et des effusions.</l>
+                        <l n="1322"> Détectant en leurs cœurs la noirceur de nos vices,</l>
+                        <l n="1323"> Ils détournent leurs yeux de tous nos sacrifices,</l>
+                        <l n="1324"> Ont l’encens en horreur et sont plus irrités,</l>
+                        <l n="1325"> Plus notre hypocrisie invoque leurs bontés.</l>
+                        <l n="1326"> Les rebelles vassaux qui sans craindre la guerre</l>
+                        <l n="1327"> Osent braver les Dieux, du Ciel et de la Terre,</l>
+                        <l n="1328"> Refusant les tributs qui leur sont imposés,</l>
+                        <l n="1329"> Ne font guères de vœux qui soient autorisés.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1330"> Seigneur, vos sentiments, de même que vos gestes</l>
+                        <l n="1331"> À notre jugement sont des choses célestes.</l></div></div>
+           <div type="act" xml:id="5">
+           <head> ACTE V </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="1332"> Selon mes vœux secrets il a perdu la vie,</l>
+                        <l n="1333"> Ce glorieux objet de ma jalouse envie ;</l>
+                        <l n="1334"> Cet Amant fortuné, ce prodige en bonheur,</l>
+                        <l n="1335"> Pour dernier avantage est mort au lit d’honneur.</l>
+                        <l n="1336"> Ô faveur des destins ! admirable aventure !</l>
+                        <l n="1337"> La gloire l’a suivi jusqu’à la sépulture.</l>
+                        <l n="1338"> Comme il s’est vu lassé de mille actes guerriers,</l>
+                        <l n="1339"> Il a rendu l’esprit accablé de lauriers.</l>
+                        <l n="1340"> Et lorsqu’il est tombé sanglant sur la poussière</l>
+                        <l n="1341"> Les mains de la Victoire ont fermé sa paupière.</l>
+                        <l n="1342"> Que la terre, ô grands Dieux ! soit légère à ses os,</l>
+                        <l n="1343"> Pourvu que mon bonheur succède à son repos ;</l>
+                        <l n="1344"> Et qu’après ce grand deuil qu’on fait sur sa disgrâce</l>
+                        <l n="1345"> Je sois assez heureux pour occuper sa place.</l>
+                        <l n="1346"> Mais ce n’est rien qu’un bruit : Peux-tu bien m’assurer</l>
+                        <l n="1347"> Qu’Abradate soit mort ?</l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="1348"> Je vous en puis jurer.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="1349"> Tu sais comme le sang qu’on perd en abondance</l>
+                        <l n="1350"> Fait ordinairement tomber en défaillance ;</l>
+                        <l n="1351"> Et par cet accident, sur un léger rapport,</l>
+                        <l n="1352"> Un homme évanoui peut passer pour un mort.</l>
+                        <l n="1353"> Mais quand le Médecin promptement le visite,</l>
+                        <l n="1354"> Avec peu de secours on voit qu’il ressuscite.</l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="1355"> Il n’en va pas ainsi d’Abradate.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="1356"> Et comment ?</l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="1357"> Pour ce qu’il est tout prêt à mettre au monument.</l>
+                        <l n="1358"> On a trouvé son corps tout couvert de blessures ;</l>
+                        <l n="1359"> Ce n’étaient en tous lieux que larges ouvertures,</l>
+                        <l n="1360"> Qui montrent que la Parque en demandant ses droits,</l>
+                        <l n="1361"> A coupé de ses jours le fil en vingt endroits.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="1362"> Il faut que je t’embrasse et que je te conjure</l>
+                        <l n="1363"> De me conter au long toute cette aventure :</l>
+                        <l n="1364"> Car je n’en suis encore informé qu’à demi.</l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="1365"> Comme nous avons vu paraître l’ennemi,</l>
+                        <l n="1366"> Après avoir reçu les ordres pour combattre</l>
+                        <l n="1367"> Nous l’avons abordé d’un cœur opiniâtre.</l>
+                        <l n="1368"> Lui pour nous enfermer, étant assez puissant</l>
+                        <l n="1369"> Étendait son grand Corps en forme de croissant.</l>
+                        <l n="1370"> Des Troupes là dessus ont été dispersées</l>
+                        <l n="1371"> Pour rompre dès l’abord, ces pointes avancées,</l>
+                        <l n="1372"> Cependant qu’Abradate avec beaucoup d’effet</l>
+                        <l n="1373"> Donnait dans le milieu de ce cercle imparfait.</l>
+                        <l n="1374"> Ces chariots armez qui semblent à la foudre</l>
+                        <l n="1375"> Font couler tout en sang, font voler tout en poudre :</l>
+                        <l n="1376"> Par eux les bataillons qu’on voit les plus pressés</l>
+                        <l n="1377"> Sont presque en un instant rompus et renversés.</l>
+                        <l n="1378"> Ils coupent mille corps avec leurs faux tranchantes,</l>
+                        <l n="1379"> Ils enflamment les airs de fascines brulantes,</l>
+                        <l n="1380"> Et tant de traits lancés pleuvant tout à l’entour,</l>
+                        <l n="1381"> Que sous cette ombre épaisse il fait nuit en plein jour.</l>
+                        <l n="1382"> Le feu, le fer, les coups, et les cris pitoyables</l>
+                        <l n="1383"> Forment là de l’Enfer des tableaux effroyables.</l>
+                        <l n="1384"> L’audace et la valeur qui conduisent la mort,</l>
+                        <l n="1385"> Font avec Abradate un si puissant effort</l>
+                        <l n="1386"> Qu’on voit naître de sang des torrents dans la pleine,</l>
+                        <l n="1387"> Dont les meilleurs chevaux peuvent sortir à peine.</l>
+                        <l n="1388"> Le Pactole frémit parmi ses flots dorés,</l>
+                        <l n="1389"> Les voyant tout à coup de pourpre colorés,</l>
+                        <l n="1390"> Il en gronde à son bord et trouve bien étrange</l>
+                        <l n="1391"> Qu’on fasse dans son lit cet odieux mélange.</l>
+                        <l n="1392"> Aussi le grand Achille entrant dans les combats,</l>
+                        <l n="1393"> Mit avecque le fer moins de Troyens à bas :</l>
+                        <l n="1394"> Lorsque pour arrêter ces funestes ravages</l>
+                        <l n="1395"> Le Scamandre en colère inonda ses rivages.</l>
+                        <l n="1396"> En une heure de temps devant ce jeune Roi</l>
+                        <l n="1397"> Qui portait en tous lieux le trépas et l’effroi,</l>
+                        <l n="1398"> Le Cappadocien sans ordre et sans conduite</l>
+                        <l n="1399"> Prit enfin le party d’une honteuse fuite.</l>
+                        <l n="1400"> Les Peuples d’Arabie au combat attachés,</l>
+                        <l n="1401"> De la même terreur furent aussi touchés.</l>
+                        <l n="1402"> Lorsque celui du Nil de nature aguerrie</l>
+                        <l n="1403"> Tout-à-coup faisant ferme arrêta sa furie.</l>
+                        <l n="1404"> Le combat recommence avec tant de chaleur,</l>
+                        <l n="1405"> Que l’on n’a jamais vu plus d’effets de valeur.</l>
+                        <l n="1406"> Alors en un moment dans les vastes campagnes</l>
+                        <l n="1407"> Les grands monceaux de corps élèvent des montagnes.</l>
+                        <l n="1408"> Et le destin par là fait terminer le cours</l>
+                        <l n="1409"> Du vaillant Abradate en la fleur de ses jours.</l>
+                        <l n="1410"> Car ainsi qu’il poursuit la victoire certaine,</l>
+                        <l n="1411"> Son char vient à verser au milieu de la plaine :</l>
+                        <l n="1412"> Et son corps par les siens ne peut être recoud</l>
+                        <l n="1413"> Qu’il n’ai été percé de plus de mille coups :</l>
+                        <l n="1414"> Car des Égyptiens c’est la brutale envie</l>
+                        <l n="1415"> De venger mille morts sur une seule vie.</l>
+                        <l n="1416"> Ainsi ce jeune Prince accablé d’ennemis,</l>
+                        <l n="1417"> Voit ses illustres jours à la Parque soumis.</l>
+                        <l n="1418"> Depuis, la généreuse et fidèle Panthée,</l>
+                        <l n="1419"> À qui cette nouvelle aussitôt fut portée,</l>
+                        <l n="1420"> L’enleva sur un char avec un si grand deuil,</l>
+                        <l n="1421"> Qu’on les mettra tous deux dans un même cercueil :</l>
+                        <l n="1422"> Car elle fait bien voir qu’elle n’a pas d’envie</l>
+                        <l n="1423"> De survivre longtemps la moitié de sa vie.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="1424"> Si vous êtes touchés de l’excès de mes maux,</l>
+                        <l n="1425"> Dieux, rendez par pitié ce pronostique faux.</l>
+                        <l n="1426"> Il m’a percé le cœur avec cette parole !</l>
+                        <l n="1427"> Mais où dit-on qu’elle est ?</l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="1428"> Sur les bords du Pactole.</l>
+                        <l n="1429"> Où plaignant le malheur de son vaillant Époux,</l>
+                        <l n="1430"> Elle pleure sans cesse et se meurtrît de coups.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="1431"> Ainsi, dans le bonheur que le destin m’envoie,</l>
+                        <l n="1432"> Toujours quelque accident vient traverser ma joie.</l>
+                        <l n="1433"> Pourrai-je sans douleur observer ses douleurs ?</l>
+                        <l n="1434"> Pourrai-je m’empêcher de pleurer de ses pleurs ?</l>
+                        <l n="1435"> Verrai-je sans mourir cet objet plein de charmes</l>
+                        <l n="1436"> S’exhaler en soupirs et se résoudre en larmes :</l>
+                        <l n="1437"> Et que pour regretter l’état où je la veux,</l>
+                        <l n="1438"> Elle irrite ses mains contre ses beaux cheveux :</l>
+                        <l n="1439"> Dieux ! depuis que l’Amour me tient à la torture</l>
+                        <l n="1440"> Il verse dans mon sein l’absinthe toute pure :</l>
+                        <l n="1441"> Et le cruel qu’il est, ne me saurait donner</l>
+                        <l n="1442"> L’ombre d’une douceur sans me l’empoisonner :</l>
+                        <l n="1443"> Mais que veut ce Soldat qui vient si hors d’haleine ?</l>
+                </sp>
+        <sp who="#des-soldats">
+            <speaker> SOLDAT. </speaker>
+                        <l n="1444"> Seigneur, Cyrus est prêt d’aller trouver la Reine,</l>
+                        <l n="1445"> Il sort du pavillon pour tourner vers le sien.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="1446"> Allons nous affliger de notre propre bien.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1447"> Quel objet m’apparaît ? Quelle image agréable</l>
+                        <l n="1448"> Me promet de la joie et me rend misérable ?</l>
+                        <l n="1449"> Représente ma vie et me voile au trépas ?</l>
+                        <l n="1450"> Ô charmante merveille ! ô funeste prodige !</l>
+                        <l n="1451"> C’est tout ce que j’adore, et tout ce qui m’afflige,</l>
+                        <l n="1452"> C’est mon cher Abradate, et si ce ne l’est pas.</l>
+                        <l n="1453"> Ce n’est rien que son corps, son Âme en est partie,</l>
+                        <l n="1454"> Les Dieux m’ont enlevé la meilleure partie</l>
+                        <l n="1455"> De cet aimable tout dont mon bien dépendait.</l>
+                        <l n="1456"> Arbitres des mortels dont le soin nous regarde,</l>
+                        <l n="1457"> Est-ce là le dépôt que vous aviez en garde,</l>
+                        <l n="1458"> Et qu’avec tant de soin l’on vous recommandait ?</l>
+                        <l n="1459"> Tant de pleurs répandus et tant de sacrifices,</l>
+                        <l n="1460"> Pour le faire marcher sous vos divins auspices.</l>
+                        <l n="1461"> N’ont peu vous obliger d’en prendre du souci ?</l>
+                        <l n="1462"> N’avez-vous accepté mon encens ni mes larmes,</l>
+                        <l n="1463"> Que pour l’abandonner dans le péril des armes ;</l>
+                        <l n="1464"> Et l’avez-vous reçu pour me le rendre ainsi ?</l>
+                        <l n="1465"> Mais l’excès des douleurs rend ma plainte indiscrète ;</l>
+                        <l n="1466"> Pardonnez-moi, grands Dieux ; celui que je regrette</l>
+                        <l n="1467"> Reçoit de votre part un traitement bien doux ;</l>
+                        <l n="1468"> Ce Héros glorieux, dont la vie est si belle,</l>
+                        <l n="1469"> N’a quitté maintenant sa dépouille mortelle</l>
+                        <l n="1470"> Que pour avoir l’honneur d’être pareil à vous.</l>
+                        <l n="1471"> Sans doute il est assis là-haut à votre table ;</l>
+                        <l n="1472"> Il y boit à longs traits d’un Nectar délectable :</l>
+                        <l n="1473"> Et des biens eternels il est fait héritier :</l>
+                        <l n="1474"> Mais, souffrez que je sois avec lui transportée,</l>
+                        <l n="1475"> Car tandis qu’il vivra séparé de Panthée,</l>
+                        <l n="1476"> Vous n’aurez pas le bien de l’avoir tout entier.</l>
+                        <l n="1477"> Attendant que la mort vienne finir mes plaintes ;</l>
+                        <l n="1478"> Ô beau corps tout percé de mortelles atteintes :</l>
+                        <l n="1479"> Reliques d’Abradate, Objet qui m’es si cher :</l>
+                        <l n="1480"> Pour les derniers honneurs que le devoir m’ordonne,</l>
+                        <l n="1481"> Reçois ces tièdes pleurs que mon amour te donne</l>
+                        <l n="1482"> Avecque ces cheveux que je vais m’arracher.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="1483"> Que faites-vous, Madame ? Et quel transport extrême</l>
+                        <l n="1484"> Vous fait cruellement agir contre vous-même ?</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1485"> Charis, je m’abandonne au cours de mon malheur ;</l>
+                        <l n="1486"> Je ne suis plus à moi, je suis à la douleur.</l>
+                        <l n="1487"> Il faut que j’obéisse à ses lois les plus tendres,</l>
+                        <l n="1488"> Et que je fonde en pleurs dessus ces chères cendres.</l>
+                </sp>
+        <sp who="#roxane">
+            <speaker> ROXANE. </speaker>
+                        <l n="1489"> Pour quelque temps, Madame, il les faut arrêter :</l>
+                        <l n="1490"> Voyez-vous pas Cyrus qui vient vous visiter ?</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="1491"> Madame, avec vos pleurs je viens mêler mes larmes</l>
+                        <l n="1492"> Sur votre cher époux et sur mon frère d’armes.</l>
+                        <l n="1493"> Qui fut bien le plus noble et le plus vaillant Roi</l>
+                        <l n="1494"> Qui jamais témoigna son courage et sa foi :</l>
+                        <l n="1495"> Quelle perte, ô grands Dieux ! quel accident funeste</l>
+                        <l n="1496"> Nous le ravit si tôt ?</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE, découvrant le corps d’Abradate. </speaker>
+                        <l n="1497"> Voilà ce qu’il en reste.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="1498"> Ah ! Madame !</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1499"> Ah ! Seigneur ! voyez un peu les coups,</l>
+                        <l n="1500"> Qu’avec tant de courage il a reçus pour vous :</l>
+                        <l n="1501"> En ce corps tout sanglant, chaque atteinte mortelle</l>
+                        <l n="1502"> Montre s’il vous aimait, et s’il vous fut fidèle.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="1503"> Ô vaillant Abradate ! ô Prince généreux !</l>
+                        <l n="1504"> Qui fus avec excès de la gloire amoureux ;</l>
+                        <l n="1505"> Sans doute tu devais, ô grand homme de guerre !</l>
+                        <l n="1506"> Posséder ses faveurs plus longtemps sur la terre :</l>
+                        <l n="1507"> Nous devions mettre ensemble, après ces grands combats,</l>
+                        <l n="1508"> Les murs de Babylone et ceux de Sardes bas ;</l>
+                        <l n="1509"> Et sans que jamais rien nous mît en jalousie,</l>
+                        <l n="1510"> Partager entre nous le reste de l’Asie ;</l>
+                        <l n="1511"> Toujours tes intérêts auraient été les miens ;</l>
+                        <l n="1512"> Et j’aurais prodigué mes forces et mes biens</l>
+                        <l n="1513"> Pour te placer au rang des plus heureux Monarques</l>
+                        <l n="1514"> Que le Ciel ait soumis à l’Empire des Parques.</l>
+                        <l n="1515"> Mais par cet accident, les Astres ennemis,</l>
+                        <l n="1516"> Sans rompre l’amitié, divisent les Amis,</l>
+                        <l n="1517"> Ton mérite toujours vivra dans ma mémoire,</l>
+                        <l n="1518"> Et mille monuments élevés à ta gloire</l>
+                        <l n="1519"> Se couvriront de marbre afin de faire foi</l>
+                        <l n="1520"> Que j’eus beaucoup d’estime et d’amitié pour toi.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1521"> Ah ! vous l’honorez trop par ces bontés insignes ;</l>
+                        <l n="1522"> Ses services, Seigneur, n’en ont pas été dignes.</l>
+                        <l n="1523"> Mais sans le coup fatal qui me le vient d’ôter,</l>
+                        <l n="1524"> Il aurait essayé de les mieux mériter.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="1525"> Madame, pleut aux Dieux que selon mon envie</l>
+                        <l n="1526"> La moitié de mon sang lui pût rendre la vie,</l>
+                        <l n="1527"> Je ne tarderais guère à le ressusciter,</l>
+                        <l n="1528"> Vous n’auriez pas le temps de m’en solliciter.</l>
+                        <l n="1529"> Pour soulager ensemble, et mon deuil, et vos peines,</l>
+                        <l n="1530"> Je me ferais sur l’heure ouvrir toutes les veines.</l>
+                        <l n="1531"> Mais le pesant sommeil qui lui ferme les yeux,</l>
+                        <l n="1532"> Les prive pour jamais de la clarté des Cieux.</l>
+                        <l n="1533"> Maintenant nos regrets, nos soupirs et nos larmes,</l>
+                        <l n="1534"> Pour ranimer son corps sont d’inutiles charmes.</l>
+                        <l n="1535"> Il est vrai qu’à bon droit vous plaignez son trépas,</l>
+                        <l n="1536"> Ma timide raison ne vous console pas :</l>
+                        <l n="1537"> En cette occasion je commettrais un crime,</l>
+                        <l n="1538"> Si je ne trouvais pas votre ennui légitime.</l>
+                        <l n="1539"> Ne tyrannisez point de si justes douleurs,</l>
+                        <l n="1540"> Retenant par respect vos soupirs et vos pleurs :</l>
+                        <l n="1541"> Ce vif ressentiment accroît votre mérite,</l>
+                        <l n="1542"> Je ne censure pas des choses que j’imite.</l>
+                        <l n="1543"> Il faudra qu’en ces maux le temps et la raison</l>
+                        <l n="1544"> Agissent à loisir pour votre guérison.</l>
+                        <l n="1545"> Mais cependant Crésus dans Sardes se renferme,</l>
+                        <l n="1546"> Sa dernière disgrâce est proche de son terme,</l>
+                        <l n="1547"> Ses soldats effrayés sont en division,</l>
+                        <l n="1548"> Et je dois me servir de cette occasion :</l>
+                        <l n="1549"> Le suivre, l’assiéger, le forcer et le prendre,</l>
+                        <l n="1550"> Tandis qu’en ce désordre il ne se peut défendre ;</l>
+                        <l n="1551"> De peur que reprenant des forces et du cœur,</l>
+                        <l n="1552"> Il réunit en état de vaincre son vainqueur.</l>
+                        <l n="1553"> « Lorsqu’au métier de Mars les jugements s’égarent</l>
+                        <l n="1554"> « Les fautes que l’on fait à peine se réparent,</l>
+                        <l n="1555"> Je me servirais mal de la faveur des Dieux</l>
+                        <l n="1556"> Si je ne me rendais le maître de ces lieux :</l>
+                        <l n="1557"> Et manquant en un point de telle conséquence,</l>
+                        <l n="1558"> Je me ferais blâmer de beaucoup d’imprudence.</l>
+                        <l n="1559"> Je suis par ces raisons pressé de vous quitter :</l>
+                        <l n="1560"> Mais ce ne sera pas sans vous faire escorter</l>
+                        <l n="1561"> De dix mille des miens, dont le secours fidèle,</l>
+                        <l n="1562"> Soit que vous retourniez sur les rives d’Ebelle,</l>
+                        <l n="1563"> Ou que vous vouliez voir le Palais paternel,</l>
+                        <l n="1564"> Vous y saura fonder un repos éternel.</l>
+                        <l n="1565"> Madame, en quelle part prendrez-vous votre route ?</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1566"> Seigneur, de ce dessein je suis encore en doute !</l>
+                        <l n="1567"> Il est vrai que devant que vous puissiez partir,</l>
+                        <l n="1568"> Je crois que je pourrai vous en faire avertir.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="1569"> Vous plaît-il un des miens ?</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1570"> Il n’est point nécessaire.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="1571"> Qu’Hidaspe, s’il vous plaît, ait soin de cette affaire ?</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1572"> Je ne résiste point à vos commandements :</l>
+                        <l n="1573"> Mais pour me laisser libre en mes ressentiments</l>
+                        <l n="1574"> Tandis que je donne air au deuil qui me tourmente,</l>
+                        <l n="1575"> Il se pourra tenir au dedans de ma tante.</l>
+                </sp>
+        <sp who="#cyrus">
+            <speaker> CYRUS. </speaker>
+                        <l n="1576"> Il est pour vous servir et pour vous honorer.</l>
+            <stage><em>Cyrus se retire.</em></stage>
+                </sp>
+        <sp who="#hidaspe">
+            <speaker> HIDASPE. </speaker>
+                        <l n="1577"> Madame, en quel endroit me dois-je retirer ?</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1578"> Allez avec les miens au long de ce rivage,</l>
+                        <l n="1579"> Afin qu’en liberté je pleure mon veuvage.</l>
+                        <l n="1580"> Que j’embrasse ce corps où mon cœur se mouvait ;</l>
+                        <l n="1581"> Que je baise ce sang où mon âme vivait,</l>
+                        <l n="1582"> Et blâme en liberté, dans de si grands désastres,</l>
+                        <l n="1583"> La Fortune, la Mort, les Destins, et les Astres :</l>
+                        <l n="1584"> Quand il en sera temps je vous appellerai,</l>
+                        <l n="1585"> Et vous saurez alors quel dessein je ferai.</l>
+                </sp>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="1586"> Madame, avec sujet tout le monde appréhende</l>
+                        <l n="1587"> Que dans les mouvements d’une douleur si grande,</l>
+                        <l n="1588"> Et qui combat si fort contre votre raison,</l>
+                        <l n="1589"> Vous tombiez sans secours dans quelque pâmoison.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1590"> Charis, vous savez bien qu’à garder le silence,</l>
+                        <l n="1591"> La douleur retenue accroît sa violence :</l>
+                        <l n="1592"> Souffrez que librement elle puisse éclater,</l>
+                        <l n="1593"> Elle est comme un torrent qu’on voudrait arrêter ;</l>
+                        <l n="1594"> À son cours violent je veux ouvrir la bonde ;</l>
+                        <l n="1595"> Faites, pour mon repos, retirer tout le monde ;</l>
+                        <l n="1596"> Apportez près de moi ces vases seulement,</l>
+                        <l n="1597"> Et qu’on me laisse seule en mon ressentiment.</l>
+                </sp>
+        <sp who="#roxane">
+            <speaker> ROXANE. </speaker>
+                        <l n="1598"> Madame, quel moyen que l’on vous abandonne ?</l>
+                        <l n="1599"> Que je demeure au moins près de votre personne.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE. </speaker>
+                        <l n="1600"> Ah ! que vous m’affligez avecque votre soin,</l>
+                        <l n="1601"> Durant ce juste deuil vous me verrez de loin.</l>
+                </sp>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="1602"> Araspe, éloignons-nous, car son humeur austère</l>
+                        <l n="1603"> Abhorre les témoins en ce triste mystère.</l>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="1604"> Allons, belle Charis, et prions bien les Dieux</l>
+                        <l n="1605"> De calmer son esprit, et d’essuyer ses yeux.</l>
+                </sp>
+        <sp who="#panthée">
+            <speaker> PANTHÉE, seule. </speaker>
+                        <l n="1606"> Que leur départ m’est doux en ma belle entreprise !</l>
+                        <l n="1607"> Et que j’ai de bonheur de me voir en franchise !</l>
+                        <l n="1608"> Maintenant, ô beau corps, privé de sentiment,</l>
+                        <l n="1609"> Je te puis de mes pleurs arroser librement ;</l>
+                        <l n="1610"> Je te puis témoigner sans en être empêchée,</l>
+                        <l n="1611"> Comment au dernier point ton malheur m’a touchée,</l>
+                        <l n="1612"> Et comme la rigueur qui t’a privé du jour</l>
+                        <l n="1613"> Ne saurait amortir l’ardeur de mon amour.</l>
+                        <l n="1614"> Ton visage changé n’a point changé mon âme,</l>
+                        <l n="1615"> Tu n’es plus rien que glace et je suis toute en flamme</l>
+                        <l n="1616"> Mon cœur est tout ouvert des coups qui t’ont blessé</l>
+                        <l n="1617"> Bien que tu sois parti, je ne t’ai point laissé ;</l>
+                        <l n="1618"> Mon esprit suit toujours ton ombre qui s’envole,</l>
+                        <l n="1619"> Et ma bouche mourante à la tienne se colle.</l>
+                        <l n="1620"> Mais tu verses du sang quand je te viens baiser ;</l>
+                        <l n="1621"> Parla de ton malheur veux-tu point m’accuser ?</l>
+                        <l n="1622"> Ah ! cet indice seul donne assez de lumière</l>
+                        <l n="1623"> Pour montrer clairement que je suis ta meurtrière.</l>
+                        <l n="1624"> Il est vrai, t’inspirant un funeste dessein</l>
+                        <l n="1625"> Je pratiquai le fer qui t’a percé le sein,</l>
+                        <l n="1626"> Il faut le confesser, je suis ton homicide,</l>
+                        <l n="1627"> J’attentai sur ta vie en te rendant perfide,</l>
+                        <l n="1628"> Je fus l’occasion de ce funeste effet,</l>
+                        <l n="1629"> J’assignai sur ton sang ta dette d’un bienfait.</l>
+                        <l n="1630"> Pour obliger Cyrus qui m’avait asservie,</l>
+                        <l n="1631"> J’engageai lâchement ton honneur et ta vie :</l>
+                        <l n="1632"> On te verrait encore assister ton parti</l>
+                        <l n="1633"> Sans mes inventions qui t’en ont diverti ;</l>
+                        <l n="1634"> Ce fut à ma prière et par mon industrie,</l>
+                        <l n="1635"> Que tu te résolus de trahir ta patrie ;</l>
+                        <l n="1636"> De quitter au besoin tes amis affligés</l>
+                        <l n="1637"> Et d’oublier tes Dieux qui s’en sont bien vengés.</l>
+                        <l n="1638"> Maintenant, Cher époux, pour réparer ce crime</l>
+                        <l n="1639"> Il faut que je commette un meurtre légitime.</l>
+                        <l n="1640"> Je te veux apaiser par un noble trépas,</l>
+                        <l n="1641"> Je me veux dérober pour te joindre là-bas ;</l>
+                        <l n="1642"> Et te dire à jamais avecque repentance,</l>
+                        <l n="1643"> Que je ne failli point sans beaucoup d’innocence.</l>
+                        <l n="1644"> J’en atteste les Cieux, et ce coup fera foi</l>
+                        <l n="1645"> Qu’au moins je n’ai peu vivre un seul jour après toi.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#roxane">
+            <speaker> ROXANE. </speaker>
+                        <l n="1646"> Charis, avançons-nous, j’entends un grand murmure !</l>
+                        <l n="1647"> Ô cruel accident ! ô funeste aventure !</l>
+                </sp>
+        <sp who="#charis">
+            <speaker> CHARIS. </speaker>
+                        <l n="1648"> Ô de tous nos malheurs, le malheur le plus grand !</l>
+                        <l n="1649"> Qui le plus nous afflige et le plus nous surprend.</l>
+            <stage><em>Charis et Roxane s’évanouissent auprès de Panthée.</em></stage>
+                </sp>
+        <sp who="#araspe">
+            <speaker> ARASPE. </speaker>
+                        <l n="1650"> Quel accident nouveau les trouble de la sorte ?</l>
+                        <l n="1651"> Quoi, la Reine est blessée ? ô grands Dieux elle est morte.</l>
+                        <l n="1652"> Ses yeux n’ont plus d’éclat ; son teint est sans couleur ;</l>
+                        <l n="1653"> Un eternel glaçon lui ravît la chaleur.</l>
+                        <l n="1654"> Ô triste événement d’un espoir ridicule !</l>
+                        <l n="1655"> Ô trop facile Araspe ! ô Cyrus trop crédule !</l>
+                        <l n="1656"> Devais-je pas prévoir le coup de son trépas ?</l>
+                        <l n="1657"> Devais-je en ce péril l’abandonner d’un pas ?</l>
+                        <l n="1658"> Ne savais-je pas bien qu’Amour l’avait unie</l>
+                        <l n="1659"> Avecque son Époux d’une ardeur infinie ;</l>
+                        <l n="1660"> Et que depuis sa perte elle séchait d’ennui</l>
+                        <l n="1661"> D’être encore un moment sans se rejoindre à lui ?</l>
+                        <l n="1662"> Ô gloire de ton sexe ! ô miroir de ton Âge !</l>
+                        <l n="1663"> Ô merveilleux esprit ! ô généreux courage !</l>
+                        <l n="1664"> Ayant perdu l’espoir que tu me viens d’ôter,</l>
+                        <l n="1665"> En ton ressentiment je te veux imiter :</l>
+                        <l n="1666"> Car cette même ardeur qui t’empêche de vivre,</l>
+                        <l n="1667"> Au point de ton départ me contraint de te suivre.</l>
+                        <l n="1668"> Malgré tous les efforts de ton cruel orgueil</l>
+                        <l n="1669"> Je te veux adorer au delà du cercueil.</l>
+                        <l n="1670"> Et donner par ce coup une preuve évidente</l>
+                        <l n="1671"> Que contre mon amour la mort est impuissante.</l>
+                </sp>
+        <sp who="#hidaspe">
+            <speaker> HIDASPE. </speaker>
+                        <l n="1672"> Dieux ! c’est un accident qu’on ne peut empêcher,</l>
+                        <l n="1673"> Il s’est précipité du haut de ce rocher,</l>
+                        <l n="1674"> Après s’être percé d’une mortelle atteinte.</l>
+                        <l n="1675"> De deux morts à la fois il a fini sa plainte.</l>
+                        <l n="1676"> Avancez-vous, soldats, cherchez-le promptement,</l>
+                        <l n="1677"> Et voyez s’il lui reste encor du sentiment :</l>
+                        <l n="1678"> Courez, il ne faut pas qu’il manque d’assistance ;</l>
+                        <l n="1679"> Vite, et qu’on le secoure avecque diligence.</l>
+                        <l n="1680"> Quel désastre ! ô Cyrus, comment l’apprendras-tu</l>
+                        <l n="1681"> Sans que ce rude coup ébranle ta vertu ?</l>
+                        <l n="1682"> Vous autres, emportez et le corps de la Reine</l>
+                        <l n="1683"> Et ses filles d’honneur dans la Tante prochaine.</l>
+                        <l n="1684"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

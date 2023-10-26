@@ -1,0 +1,2006 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">La Mort de César</title>
+                <title type="sub">Tragédie</title>
+            <author>
+                <persName>
+                    <forename>Georges</forename>
+                    <linkname>de</linkname>
+                    <surname>Scudéry</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/la-mort-de-césar-georges-de-scudéry </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1636">Représentée pour la première fois, à Paris, sur le Théâtre de l’Hôtel de Bourgogne, en 1636.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="césar" sex="SEX">
+                            <persName>CÉSAR</persName>
+                        </person>
+                        <person xml:id="calphurnie" sex="SEX">
+                            <persName>CALPHURNIE</persName>
+                        </person>
+                        <person xml:id="brute" sex="SEX">
+                            <persName>BRUTE</persName>
+                        </person>
+                        <person xml:id="porcie" sex="SEX">
+                            <persName>PORCIE</persName>
+                        </person>
+                        <person xml:id="cassie" sex="SEX">
+                            <persName>CASSIE</persName>
+                        </person>
+                        <person xml:id="lépide" sex="SEX">
+                            <persName>LÉPIDE</persName>
+                        </person>
+                        <person xml:id="antoine" sex="SEX">
+                            <persName>ANTOINE</persName>
+                        </person>
+                        <person xml:id="labeo" sex="SEX">
+                            <persName>LABEO</persName>
+                        </person>
+                        <person xml:id="quintus" sex="SEX">
+                            <persName>QUINTUS</persName>
+                        </person>
+                        <person xml:id="albin" sex="SEX">
+                            <persName>ALBIN</persName>
+                        </person>
+                        <person xml:id="chœur-d’autres-sénateurs" sex="SEX">
+                            <persName>CHŒUR d’autres sénateurs</persName>
+                        </person>
+                        <person xml:id="artemidore" sex="SEX">
+                            <persName>ARTEMIDORE</persName>
+                        </person>
+                        <person xml:id="émilie" sex="SEX">
+                            <persName>ÉMILIE</persName>
+                        </person>
+                        <person xml:id="philippus" sex="SEX">
+                            <persName>PHILIPPUS</persName>
+                        </person>
+                        <person xml:id="chœur-du-peuple-romain" sex="SEX">
+                            <persName>CHŒUR du peuple Romain</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Tragédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q80930]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">LA MORT DE CÉSAR</titlePart>
+            <titlePart type="sub">TRAGÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre de l’Hôtel de Bourgogne, en 1636.</ab><!--@date="1636"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> AU LECTEUR</salute>
+            </opener>
+        <p> Il est des Tragédies, comme des beautés sérieuses, elles ne plaisent pas à tout le monde : ce genre de Poème, qui n’a pour objet que d’émouvoir les passions, et de donner de l’horreur et de la pitié, ne saurait être le divertissement de ces humeurs enjouées, qui n’en trouver qu’à rire. Quelque sublime que soit l’esprit de Sénèque, celui de Plaute leur agréera davantage : et sans doute ils préféreront la naïveté de l’un, à la magnificence de l’autre. Mais pour moi, sans condamner le sentiment de personne, pour autoriser le mien, soit qu’il vienne de ma raison, ou de mon tempérament, j’avoue que le Poème grave, attire mon inclination toute entière : et que je me fais violence, lorsqu’on me voit travailler, sur un sujet qui ne l’est pas. Comme toutes les choses qui sont en la Nature, vont à leur centre, avec une merveilleuse facilité, je sens bien que mon génie s’élève, plus aisément qu’il ne s’abaisse : et que le style pompeux me coûte moins que le populaire. J’ai plus de peine, à faire parler des Bergers que des Rois ; et les maximes de la Morale et de la Politique s’offrent plutôt à mon imagination, que je n’y trouve cette humble et douce façon d’écrire, que demande un ouvrage Comique. Ce discours (Lecteur) est plus un effet de ma crainte, que de ma vanité, et je veux plutôt excuser mes autres pièces, que te louer celle-ci. Ce n’est pas que je la juge absolument mauvaise, mon opinion particulière serait trop orgueilleuse, si elle voulait combattre la générale : et je ne mettrais jamais au jour, une chose que j’en croirais indigne. Je sais bien que cette Tragédie est dans les Règles, qu’elle n’a qu’une principale action, où toutes les autres aboutissent, que la bienséance des choses s’y voit assez observée, le Théâtre assez bien entendu, et les pensées, et la locution, assez proportionnées à la grandeur de mon sujet ; et qu’enfin, si je dois tirer quelque gloire de la Poésie, il faut que cet ouvrage me la donne. Mais avec tout cela, je t’avoue, que l’idée que j’ai conçu de cet Art, est si haute, que mes paroles n’en sauraient approcher, et qu’à la représentation de mes Poèmes, je suis toujours le moins satisfait. Ne t’imagine donc pas, de voir un Tableau fini, puisque j’écris à tous ceux qui partent de ma main, S</span>CUDERY</span></span> <span style="font-size:10.0pt"><span style="letter-spacing:-.3pt">FAISAIT CETTE PEINTURE</span></span><span style="letter-spacing:-.3pt">, et non pas jamais, A </span><span style="font-size:10.0pt"><span style="letter-spacing:-.3pt">FAIT</span></span><span style="letter-spacing:-.3pt"> : tant il est vrai que j’ébauche mieux que je n’achève, tant il est certain que je le connais. Au reste, je dois t’avertir, que je fais dire des choses à Brutus, que l’Histoire met en la bouche de Décimus Brutus Albinus, mais ne crois pas que ce rapport de noms ait embrouillé mon jugement, et m’ait fait prendre l’un pour l’autre : j’ai trop étudié Plutarque, pour tomber en cette erreur, dont je ne suis point capable ? Mais c’est un dessein qui regarde le Théâtre, et qui pour faire mieux agir le principal acteur, s’écarte un peu de la vérité, dans une chose de nulle importance. Je sais bien que Brutus a des Sectateurs, qui ne le trouveront pas bon, mais outre que j’écris sous une Monarchie et non pas dans une République, je confesse que je n’ai pas de ce Romain, les hauts sentiments qu’ils en ont ; car s’il aimait tant la liberté de sa Patrie, je trouve qu’il devait mourir avec elle ; après la perte le bataille de Pharsale, sans attendre cette de Philippes. Il ne devait point devenir le flatteur de C</span><span style="font-size:10.0pt"><span style="letter-spacing:-.3pt">ÉSAR<span style="letter-spacing:-.3pt">, pour s’en rendre après l’assassin ; ou plutôt la Parricide : et s’il aimait tant la Philosophie, il devait finir sans lui dire des injures, et ne pas faire voir qu’il était heureux. Mais j’ai tort de songer aux fautes des grands hommes de l’Antiquité, lorsque je fais imprimer les miennes : et j’aurais plus de raison, de chercher de quoi faire mon apologie, que leur censure. Mais je ne veux ni te flatter, ni te prévenir ; je te laisse ton jugement libre et ne te le demande qu’équitable. </p>
+    </div>
+           <div type="act" xml:id="1">
+           <head> PROLOGUE </head></div>
+           <div type="act" xml:id="2">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="1"> Ne délibérons plus, le sort en est jeté :</l>
+                        <l n="2"> L’excès de prévoyance est une lâcheté : </l>
+                        <l n="3"> Il faut pour ce grand coup choisir l’heure opportune,</l>
+                        <l n="4"> Et puis s’abandonner aux mains de la fortune.</l>
+                        <l n="5"> Fléau des faibles, image du danger,</l>
+                        <l n="6"> Vous choquez un dessein qui ne saurait changer,</l>
+                        <l n="7"> Il est juste, il est beau, c’est ce que je te demande :</l>
+                        <l n="8"> Ma main, résolvons nous ; l’honneur nous le commande :</l>
+                        <l n="9"> Montrons le même cœur qu’ont montré nos parents,</l>
+                        <l n="10"> Et que le Nom de Brute est fatal aux Tyrans.</l>
+                </sp>
+        <sp who="#cassie">
+            <speaker> CASSIE. </speaker>
+                        <l n="11"> Jeune et vaillant Héros, de qui la République</l>
+                        <l n="12"> Espère sa franchise, et sa splendeur antique :</l>
+                        <l n="13"> Tu veux suivre un chemin que les tiens ont battu,</l>
+                        <l n="14"> Comme illustre héritier de leur haute vertu :</l>
+                        <l n="15"> Poursuis brave Guerrier, imite leur mémoire,</l>
+                        <l n="16"> Car le même labeur t’acquière la même gloire,</l>
+                        <l n="17"> Pour devoir l’entreprendre il ne te manque rien ;</l>
+                        <l n="18"> Vers toi se tourne l’œil de tous les gens de bien :</l>
+                        <l n="19"> Puisqu’un nouveau Tarquin ainsi nous persécute,</l>
+                        <l n="20"> Fais voir qu’on trouve encore un véritable Brute,</l>
+                        <l n="21"> Ennemi des Tyrans, de qui l’autorité,</l>
+                        <l n="22"> Veut opprimer le peuple, et notre liberté ;</l>
+                        <l n="23"> Fais voir qu’un siècle infâme, en toi fit naître un homme,</l>
+                        <l n="24"> Digne de la grandeur de la première Rome.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="25"> Les peuples que le sort a soumis à des Rois,</l>
+                        <l n="26"> En doivent révérer la personne et les lois,</l>
+                        <l n="27"> C’est là mon sentiment, et je tiens que sans crime,</l>
+                        <l n="28"> On ne peut renverser un Trône légitime :</l>
+                        <l n="29"> Mais César est injuste, en nous nouant ôter</l>
+                        <l n="30"> Ce que tous les trésors ne sauraient acheter :</l>
+                        <l n="31"> D’égal il se fait Maître ; et Rome enfin trompée ;</l>
+                        <l n="32"> Voit bien que c’est pour lui qu’elle a vaincu Pompée,</l>
+                        <l n="33"> Que c’étaient deux Rivaux également épris,</l>
+                        <l n="34"> Qui faisaient un combat dont elle était le prix,</l>
+                        <l n="35"> Qu’ils avaient même but ; et voulaient entreprendre</l>
+                        <l n="36"> D’ôter la liberté, faignant de la défendre : </l>
+                        <l n="37"> De sorte qu’en leur gain nous ne pouvions gagner,</l>
+                        <l n="38"> Puisqu’ils avaient tous deux le dessein de régner ;</l>
+                        <l n="39"> Et que de quelque part qu’eut penché la balance,</l>
+                        <l n="40"> Rome devait souffrir la même violence.</l>
+                        <l n="41"> Ô droit ! ô bonnes mœurs ! ô justice des Cieux !</l>
+                        <l n="42"> Combien peu vous respecte un cœur ambitieux ?</l>
+                        <l n="43"> Et de quoi n’est capable une âme déréglée,</l>
+                        <l n="44"> Quand par l’éclat d’un Sceptre elle s’est aveuglée ?</l>
+                        <l n="45"> Quels crimes n’ont commis ces Tigres inhumains ?</l>
+                        <l n="46"> N’ont-ils pas oublié qu’ils étaient nés Romains ?</l>
+                        <l n="47"> Et lorsqu’ils disputaient la puissance Royale,</l>
+                        <l n="48"> N’ont-ils pas fait rougir les plaines de Pharsale ?</l>
+                        <l n="49"> Moi-même (ô souvenir ! plein de ressentiment)</l>
+                        <l n="50"> Ai vu des flots de sang, et des monts d’ossements ;</l>
+                        <l n="51"> Et pour atteindre au but de leurs folles envies,</l>
+                        <l n="52"> Les Parques ont tranché plus de cent mille vies !</l>
+                        <l n="53"> Ha César ! ô tyran ! c’en est trop enduré ;</l>
+                        <l n="54"> Le Ciel veut ton trépas, et Brute l’a juré.</l>
+                </sp>
+        <sp who="#cassie">
+            <speaker> CASSIE. </speaker>
+                        <l n="55"> Ha ! l’illustre serment, ha ! la belle entreprise ;</l>
+                        <l n="56"> C’est de cette façon que l’on s’immortalise ;</l>
+                        <l n="57"> Voilà ce grand dessein digne d’être admiré,</l>
+                        <l n="58"> Qui de tous les Romains s’est vu tant désiré.</l>
+                        <l n="59"> Fatale ambition, détestable folie,</l>
+                        <l n="60"> Qui coûtes tant de sang à la pauvre Italie :</l>
+                        <l n="61"> Monstre, à qui l’Univers semblent encor trop petit.</l>
+                        <l n="62"> Pour saouler pleinement ton avide appétit ;</l>
+                        <l n="63"> Voici le dernier jour de ta rage homicide,</l>
+                        <l n="64"> Le bruit de nos soupirs vient d’éveiller Alcide.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="65"> Ha ! tu me traites mal, rare et fidèle ami ;</l>
+                        <l n="66"> Mon cœur était pensif, mais non pas endormi ;</l>
+                        <l n="67"> Il pèse mûrement tout ce qu’il propose,</l>
+                        <l n="68"> Et souvent il agit, qu’on juge qu’il repose.</l>
+                        <l n="69"> Un dessein périlleux se doit examiner,</l>
+                        <l n="70"> Et ce ne n’est assez que de l’imaginer,</l>
+                        <l n="71"> Il faut en avoir la fin premier que s’y résoudre :</l>
+                        <l n="72"> Un homme préparé ne craindrais pas la foudre :</l>
+                        <l n="73"> Ce qu’on pense en tumulte est sujet à faillir,</l>
+                        <l n="74"> Par le moindre accident qui nous viennent assaillir.</l>
+                        <l n="75"> Mais avant qu’entreprendre une haute aventure,</l>
+                        <l n="76"> Quand un solide esprit s’en est fait la peinture,</l>
+                        <l n="77"> Rien ne l’étonne plus, ni faible, ni mutin,</l>
+                        <l n="78"> Il fait, et laisse faire au suprême destin.</l>
+                        <l n="79"> C’est l’état où je suis, bave et sage Cassie.</l>
+                        <l n="80"> Mais ce don vient du Ciel, et je l’en remercie,</l>
+                        <l n="81"> Faisons voir ce que peut (aux Romains ébahis)</l>
+                        <l n="82"> Et l’amour des vertus, et celle du pays :</l>
+                        <l n="83"> Et résolus de faire un acte mémorable,</l>
+                        <l n="84"> Tâchons de prendre un lieu qui nous soit favorable.</l>
+                </sp>
+        <sp who="#cassie">
+            <speaker> CASSIE. </speaker>
+                        <l n="85"> Pour avoir sans péril notre commun repos,</l>
+                        <l n="86"> La Sénat (ce me semble) est le plus à propos.</l>
+                        <l n="87"> Sa garde ailleurs partout le suit comme son ombre.</l>
+                        <l n="88"> Mais là, comme en vertu nous le passons en nombre :</l>
+                        <l n="89"> Si ta main seulement veut signer son trépas,</l>
+                        <l n="90"> Celle de nos amis ne nous manquera pas.</l>
+                        <l n="91"> Tu sais bien qu’ils sont prêts de suivre ta fortune,</l>
+                        <l n="92"> Et d’avoir le danger, et la gloire commune ;</l>
+                        <l n="93"> Mais quel est ce danger ! si chacun est pour toi ;</l>
+                        <l n="94"> Et si tous ont horreur du simple nom de Roi ?</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="95"> Cette belle espérance est encore incertaine ?</l>
+                        <l n="96"> Le captif à la fin s ?accoutume à la chaîne.</l>
+                        <l n="97"> Tout mal par l’habitude est facile à souffrir,</l>
+                        <l n="98"> Plus qu’un remède amer qu’on tâche en vain d’offrir,</l>
+                        <l n="99"> Ces cœurs peu généreux, ces âmes abaissées :</l>
+                        <l n="100"> Quel honneur a quitté, que la gloire a laissées :</l>
+                        <l n="101"> Ce faible, et lâche peuple, après avoir permis</l>
+                        <l n="102"> Tout ce qu’ont désiré ses mortels ennemis,</l>
+                        <l n="103"> Au milieu du péril, se croit sur le rivage,</l>
+                        <l n="104"> Et baise encor, la main qui le met en servage.</l>
+                        <l n="105"> D’une feinte douceur, d’un souris attrayant,</l>
+                        <l n="106"> L’adresse de César le pipe en le voyant ;</l>
+                        <l n="107"> Sa ruse son esprit, sait déguiser les choses,</l>
+                        <l n="108"> Et cacher finement les fers dessous les roses :</l>
+                        <l n="109"> L’or, dont il est prodigue, établit son pouvoir,</l>
+                        <l n="110"> Et sa main donne tout, afin de tout avoir :</l>
+                        <l n="111"> De sorte que le peuple ayant pris cette amorce,</l>
+                        <l n="112"> Agit contre soi-même, autorise la force,</l>
+                        <l n="113"> Lui prépare le trône, et l’excite à monter,</l>
+                        <l n="114"> Devient souple, servile, et se laisse dompter.</l>
+                        <l n="115"> Ainsi quelque dessein que notre vertu prenne,</l>
+                        <l n="116"> Ces esclaves d’un roi banniront cette Reine,</l>
+                        <l n="117"> Seront contre eux pour lui : mais sans plus discourir,</l>
+                        <l n="118"> Libre nous sommes nés, libres il faut mourir.</l>
+                </sp>
+        <sp who="#cassie">
+            <speaker> CASSIE. </speaker>
+                        <l n="119"> Le temps produira ses effets ordinaires :</l>
+                        <l n="120"> Brute, je connais bien l’amour des mercenaires,</l>
+                        <l n="121"> César ne vivant plus, ces amis d’intérêt,</l>
+                        <l n="122"> Approuveront sa mort, en béniront l’arrêt,</l>
+                        <l n="123"> Et vrais Caméléon plus changeants que Neptune,</l>
+                        <l n="124"> Ils suivront le parti qui suivra la fortune.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="125"> Il n’appartient qu’aux Dieux de savoir l’avenir</l>
+                        <l n="126"> Commençons toujours bien, et laissons les finir :</l>
+                        <l n="127"> Notre prudence est courte, et la leur infinie ;</l>
+                        <l n="128"> Elle sera pour nous, contre la tyrannie ;</l>
+                        <l n="129"> Leur bonté les oblige en ce pressant besoin,</l>
+                        <l n="130"> De voir notre conduite ; et d’en prendre le soin.</l>
+                </sp>
+        <sp who="#cassie">
+            <speaker> CASSIE. </speaker>
+                        <l n="131"> Nous mêmes conduisons nos faits et nos années :</l>
+                        <l n="132"> Nous seuls pouvons former nos bonnes destinées :</l>
+                        <l n="133"> Brute, s’il est des Dieux, ils s’occupent ailleurs,</l>
+                        <l n="134"> Qu’à nous rendre contents, et nos destins meilleurs.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="135"> L’on voit en tes discours, l’on oit en mes répliques,</l>
+                        <l n="136"> La Secte d’Épicure, et celle des Stoïques :</l>
+                        <l n="137"> Mais pourtant nos pensers, ennemi des tyrans,</l>
+                        <l n="138"> Vont en un même lieu, par sentiers différents.</l>
+                </sp>
+        <sp who="#cassie">
+            <speaker> CASSIE. </speaker>
+                        <l n="139"> Mets ta main dans le mienne ; ici je te proteste,</l>
+                        <l n="140"> (Et soit notre aventure, ou prospère ou funeste)</l>
+                        <l n="141"> De suivre désormais ta fortune et tes pas,</l>
+                        <l n="142"> Soit que tu veuille vivre, ou courir au trépas.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="143"> Dieux justes ! Dieux vengeurs ! ennemis du parjure,</l>
+                        <l n="144"> Écoutez no serments, Brute vous en conjure :</l>
+                        <l n="145"> Punissez l’infracteur qui manquera de foi,</l>
+                        <l n="146"> Et si je l’abandonne, ô Dieux foudroyez-moi.</l>
+                </sp>
+        <sp who="#cassie">
+            <speaker> CASSIE. </speaker>
+                        <l n="147"> Brute en te donnant son cœur, prends celui de Cassie.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="148"> Trêve de ce discours, voici venir Porcie ;</l>
+                        <l n="149"> Va-t’en voir nos Amis, je te suivrai de près,</l>
+                        <l n="150"> Couronné de lauriers, ou couverts de Cyprès.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#porcie">
+            <speaker> PORCIE. </speaker>
+                        <l n="151"> Ne me direz vos point quelle humeur solitaire,</l>
+                        <l n="152"> Vous éloigne de moi, vous oblige à vous taire ?</l>
+                        <l n="153"> Auriez-vous reconnu mon esprit indiscret,</l>
+                        <l n="154"> Capable en trahissant, d’user mal d’un secret ?</l>
+                        <l n="155"> Brute, s’il a commis une telle imprudence,</l>
+                        <l n="156"> Privez-le de l’honneur de votre confidence ;</l>
+                        <l n="157"> Ayant bien mérité ce juste châtiment,</l>
+                        <l n="158"> Je n’appellerai point de votre jugement ;</l>
+                        <l n="159"> Je subirai sans plaindre, un Arrêt légitime ;</l>
+                        <l n="160"> Mais que je sache au moins l’espèce de mon crime ;</l>
+                        <l n="161"> Je ne m’en souviens pas ; et loin d’y consentir,</l>
+                        <l n="162"> Sans savoir qui il est, j’en ai du repentir.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="163"> Ha ! que tu fondes mal ta faible conjecture :</l>
+                        <l n="164"> La peine que je sens, et d’une autre nature ;</l>
+                        <l n="165"> Le corps, et non l’esprit, en souffre la rigueur ;</l>
+                        <l n="166"> Et je ne sais point l’art de te cacher mon cœur.</l>
+                        <l n="167"> Depuis neuf ou dix jours une douleur confuse,</l>
+                        <l n="168"> Me prive de sommeil que la nuit me refuses</l>
+                        <l n="169"> Certaine pesanteur occupe tous mes sens ;</l>
+                        <l n="170"> Et j’ignore le nom de ce mal que je sens.</l>
+                </sp>
+        <sp who="#porcie">
+            <speaker> PORCIE. </speaker>
+                        <l n="171"> Que la feinte me sied à l’âme généreuse !</l>
+                        <l n="172"> Ou je suis criminelle, ou je suis malheureuse !</l>
+                        <l n="173"> Vous perdez le repas ; vous perdez le repos,</l>
+                        <l n="174"> Des soupirs continus tranchent tous vos propos,</l>
+                        <l n="175"> Vous refusez en tous lieux, et contre votre usage </l>
+                        <l n="176"> Une morne tristesse, est peinte en ce visage ;</l>
+                        <l n="177"> C’est ce qu’on ne fait point pour un mal inconnu,</l>
+                        <l n="178"> Il nous doit advenir, ou nous est advenu.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="179"> Aussi peu l’un que l’autre ; et c’est ce qui t’oblige</l>
+                        <l n="180"> À ne t’affliger pas, croyant que je m’afflige.</l>
+                </sp>
+        <sp who="#porcie">
+            <speaker> PORCIE. </speaker>
+                        <l n="181"> Ha ! ne contestez plus, contentez mes désirs :</l>
+                        <l n="182"> Quoi ! n’ai-je point de part aux maux, comme aux plaisirs ?</l>
+                        <l n="183"> Quoi ! votre âme croit donc quelque ennui qui la tienne ;</l>
+                        <l n="184"> Que le vice du sexe a pouvoir sur la mienne ?</l>
+                        <l n="185"> Qu’elle ne saurait taire un secret important ?</l>
+                        <l n="186"> Brute, s’il est ainsi, que je meure à l’instant :</l>
+                        <l n="187"> Ne me regardez plus que comme une infidèle,</l>
+                        <l n="188"> N’écoutez pas ma plainte, ou bien vous moquez d’elle.</l>
+                        <l n="189"> Mais si cette amitiés qui joignait nos esprits,</l>
+                        <l n="190"> (Qui dure pas l’estime, et meurt par le mépris)</l>
+                        <l n="191"> Subsiste encore en vous, jugez mieux de mon âme,</l>
+                        <l n="192"> Et sachez que Porcie endurerait la flamme,</l>
+                        <l n="193"> Avant que de secourir ce qu’elle doit cacher,</l>
+                        <l n="194"> Et que pour voir son cœur, il faudrait l’arracher.</l>
+                        <l n="195"> Arbitres du présent, et des choses passées, </l>
+                        <l n="196"> Qui seuls avez pouvoir de lire en nos pensées,</l>
+                        <l n="197"> Dieux justes, dieux cléments, permettez aujourd’hui,</l>
+                        <l n="198"> Que Brute y puisse voir l’amour que j’ai pour lui ;</l>
+                        <l n="199"> Afin qu’il puisse croire en la voyant extrême,</l>
+                        <l n="200"> Que me dire un secret, c’est le dire à lui-même.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="201"> Ha ! c’est trop ; je me rends ; et contre mon dessein,</l>
+                        <l n="202"> Ton zèle, et ton amour, s’en vont m’ouvrir le sein.</l>
+                        <l n="203"> Connaissant ton pouvoir, tu me fais violence ;</l>
+                        <l n="204"> Car ce n’est qu’à regret que je romps mon silence !</l>
+                        <l n="205"> Mais comme j’en usais pour ne pas t’affliger,</l>
+                        <l n="206"> Je le quitte, de peur de désobliger.</l>
+                        <l n="207"> Prépare ton oreille ; excite ton courage ;</l>
+                        <l n="208"> Et juge dans le port quel doit être l’orage :</l>
+                        <l n="209"> Sache que je m’apprête à faire un coup si grand,</l>
+                        <l n="210"> Qu’il fait presque trembler la main qui l’entreprend.</l>
+                </sp>
+        <sp who="#porcie">
+            <speaker> PORCIE. </speaker>
+                        <l n="211"> Mon cœur n’est point outré, ni ma paupière humide ;</l>
+                        <l n="212"> La fille de Caton ne peut être timide :</l>
+                        <l n="213"> Fais agir ta prudence ; elle suivra ton sort,</l>
+                        <l n="214"> Quand il devrait passer par les mains de la mort.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="215"> Ô d’un père excellent, excellente héritière !</l>
+                        <l n="216"> On voit qu’il t’a laissé la vertu toute entière[1] :</l>
+                        <l n="217"> (Vertu, que dans sa fin l’Univers admira)</l>
+                        <l n="218"> Et qu’il te fit sortir de ce qu’il déchira.</l>
+                        <l n="219"> L’amour de son pays, qui lui coûta la vie,</l>
+                        <l n="220"> Ma fait suivre ses pas, ma donne même envie,</l>
+                        <l n="221"> Et pour dire en un mot tout ce que j’ai pensé[2],</l>
+                        <l n="222"> Je suis prêt d’achever ce qu’il a commencé.</l>
+                </sp>
+        <sp who="#porcie">
+            <speaker> PORCIE. </speaker>
+                        <l n="223"> N’attendez pas de moi des marques de faiblesse,</l>
+                        <l n="224"> Je hais trop le Tyran, s’il vous choque, il me blesse :</l>
+                        <l n="225"> L’image de Caton qui me suit en tous lieux,</l>
+                        <l n="226"> Semble offrir son poignard, et son sang à mes yeux :</l>
+                        <l n="227"> Mais Brute, ma douleur n’est pas sans allégeance ;</l>
+                        <l n="228"> Un extrême plaisir se trouve en la vengeance ;</l>
+                        <l n="229"> Et loin d’avoir des pleurs capables d’arrêter,</l>
+                        <l n="230"> J’en répandrais plutôt pour vous solliciter.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="231"> Ô miracle ! ô grand cœur ! à qui tout cela cède ;</l>
+                        <l n="232"> Dieux, que je suis puissant, puisque je te possède.</l>
+                </sp>
+        <sp who="#porcie">
+            <speaker> PORCIE. </speaker>
+                        <l n="233"> Oui, vous y régner seul ; rien ne peut l’asservir ;</l>
+                        <l n="234"> Et ce cœur est un lieu qu’on ne vous peut ravir.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="235"> Adieu, l’heure m’appelle ; avant que je te voie,</l>
+                        <l n="236"> Nous serons dans l’excès de tristesse ou de joie.</l>
+                </sp>
+        <sp who="#porcie">
+            <speaker> PORCIE. </speaker>
+                        <l n="237"> Moi, je vais de ce pas au pied de nos autels,</l>
+                        <l n="238"> Offrir des vœux pour vous, à tous les immortels.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="239"> Encor un coup, Adieu.</l>
+                </sp>
+        <sp who="#porcie">
+            <speaker> PORCIE. </speaker>
+                        <l n="240"> Mon âme vous veut suivre.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="241"> C’est fait ; Brute ou César s’en vont cesser de vivre.</l></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#lépide">
+            <speaker> LÉPIDE. </speaker>
+                        <l n="242"> À ceux de qui la main gouverne l’Univers,</l>
+                        <l n="243"> Les plus grands ennemis sont les moins découverts :</l>
+                        <l n="244"> La douceur de César se trouvera déçue,</l>
+                        <l n="245"> Et sa clémence enfin n’aura pas bonne issue,</l>
+                        <l n="246"> Ne régner qu’à demi, c’est avoir mauvais jeu ;</l>
+                        <l n="247"> Et notre Dictateur en fait trop, ou trop peu.</l>
+                        <l n="248"> Un calme si profond, m’afflige, et le menace ;</l>
+                        <l n="249"> Jamais Pilote expert n’aima tant la bonace :</l>
+                        <l n="250"> Elle porte souvent (lorsqu’elle veut changer)</l>
+                        <l n="251"> Des l’extrême repos, à l’extrême danger.</l>
+                        <l n="252"> Les flots les plus unis sont sujets à l’orage ;</l>
+                        <l n="253"> Un instant voit leur paix, un instant voit leur rage ;</l>
+                        <l n="254"> Et dans les grands États, comme en cet élément,</l>
+                        <l n="255"> Même péril se trouve, et même changement. </l>
+                        <l n="256"> Fasse le ciel (Antoine) en ces choses futures :</l>
+                        <l n="257"> Que je me sois trompé dedans mes conjectures ;</l>
+                        <l n="258"> Et que le grand César (à qui rien ne défaut)</l>
+                        <l n="259"> N’ai point de précipice, étant monté si haut.</l>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="260"> Je tiens que cette crainte a la raison pour guide ;</l>
+                        <l n="261"> Votre avis est le mien, sage et prudent Lépide ;</l>
+                        <l n="262"> Cet excès de clémence a déjà trop permis ;</l>
+                        <l n="263"> Tout doit être suspect, venant des ennemis :</l>
+                        <l n="264"> Et de quelques bienfaits qu’on les réconcilie,</l>
+                        <l n="265"> Les croire, c’est faiblesse, et les aimer folie.</l>
+                        <l n="266"> Celui dont ce discours a forme son objet,</l>
+                        <l n="267"> Porte écrit sur le front quelque mauvais projet ;</l>
+                        <l n="268"> Son humeur sombre et noire, est un signe visible,</l>
+                        <l n="269"> Que pour troubler autrui son cœur n’est point paisible,</l>
+                        <l n="270"> Il rumine sans doute, un dessein important :</l>
+                        <l n="271"> Oui, Brute m’est suspect.</l>
+                </sp>
+        <sp who="#lépide">
+            <speaker> LÉPIDE. </speaker>
+                        <l n="272"> Je vous en dis autant.</l>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="273"> Et César néanmoins en a l’âme charmée,</l>
+                        <l n="274"> Se repose sur lui des soins de son armée,</l>
+                        <l n="275"> N’a jamais de pensers qui ne lui soient ouverts,</l>
+                        <l n="276"> Et le rend après lui Maître de l’Univers.</l>
+                        <l n="277"> Le Sénat d’autre part va jusqu’à l’insolence,</l>
+                        <l n="278"> Et pour rompre sa chaîne a rompu son silence ;</l>
+                        <l n="279"> Murmure effrontément contre le Dictateur,</l>
+                        <l n="280"> Se plaint de son pouvoir, l’appelle usurpateur,</l>
+                        <l n="281"> Et tâche d’exciter quelque dextre hardie,</l>
+                        <l n="282"> À la sanglante fin de cette Tragédie.</l>
+                        <l n="283"> Ô bonté de César cause de ma douleur, </l>
+                        <l n="284"> Tu le seras un jour de son propre malheur.</l>
+                        <l n="285"> Quiconque tien en main la puissance usurpée,</l>
+                        <l n="286"> En tout temps, en tous lieux, y doit tenir l’épée ;</l>
+                        <l n="287"> Tel Prince doit avoir (comme celui d’Enfer)</l>
+                        <l n="288"> Et le Trône de flamme, et le Sceptre de fer :</l>
+                        <l n="289"> Et comme il est servi par la seule contrainte,</l>
+                        <l n="290"> Il doit s’environner de terreur et de criante ;</l>
+                        <l n="291"> Abattre les plus grands, qui choquent son pouvoir,</l>
+                        <l n="292"> Pour contenir le reste aux termes du devoir ;</l>
+                        <l n="293"> Et de leur infortune augmentant sa puissance,</l>
+                        <l n="294"> Avoir moins de sujets, et plus d’obéissance.</l>
+                </sp>
+        <sp who="#lépide">
+            <speaker> LÉPIDE. </speaker>
+                        <l n="295"> Ce mal est en un point qu’on le peut éviter :</l>
+                        <l n="296"> César pèche en douceur, mais il la peut quitter :</l>
+                        <l n="297"> L’amitié la plus franche, est la plus estimable ;</l>
+                        <l n="298"> En cette occasion, le silence est blâmable ;</l>
+                        <l n="299"> Parlons, mais hardiment, puis qu’il en est de saison :</l>
+                        <l n="300"> Et haut ; dans le dessein d’éveiller la raison :</l>
+                        <l n="301"> César mérite bien une amitié fidèle.</l>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="302"> Allons à son Palais où l’heure nous appelle.</l>
+                        <l n="303"> Pour le suivre au Sénat, après que nos propos</l>
+                        <l n="304"> Auront mis son esprit, et le nôtre en repos.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#calphurnie">
+            <speaker> CALPHURNIE, CÉSAR, PHILIPPUS </speaker>
+                        <l n="305"> La chambre de César s’ouvre, sa femme est sur in lit endormie, il achève de s’habiller.</l>
+                </sp>
+        <sp who="#calphurnie">
+            <speaker> CALPHURNIE. </speaker>
+                        <l n="306"> Au secours mes Amis, des Tigres sanguinaires,</l>
+                        <l n="307"> Exerçants sur César leurs fureurs ordinaires.</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="308"> La peine qu’elle sent, me touche de pitié :</l>
+                        <l n="309"> Ce songe, est un effet d’une forte amitié</l>
+                        <l n="310"> Qui peignant mon visage, en l’imaginative,</l>
+                        <l n="311"> Lui fait tenir certain que ce malheur arrive.</l>
+                </sp>
+        <sp who="#calphurnie">
+            <speaker> CALPHURNIE. </speaker>
+                        <l n="312"> Ô Dieux ! rien ne s’oppose, à ce sanglant effort ;</l>
+                        <l n="313"> Il n’en peut plus, il tombe, il se meurt, il est mort.</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="314"> Il la faut éveiller : répondez-moi dormeuse.</l>
+                </sp>
+        <sp who="#calphurnie">
+            <speaker> CALPHURNIE. </speaker>
+                        <l n="315"> Qui m’appelle ? où sont-ils ? revenez, troupe affreuse.</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="316"> Vous même, revenez d’un assoupissement,</l>
+                        <l n="317"> Qui nous a fait souffrir tous deux également.</l>
+                </sp>
+        <sp who="#calphurnie">
+            <speaker> CALPHURNIE. </speaker>
+                        <l n="318"> Est-ce vous mon César ? hélas ! est-il possible,</l>
+                        <l n="319"> Que vous soyez vivant, et que je sois sensible ?</l>
+                        <l n="320"> Vous me venez de rendre un service important :</l>
+                        <l n="321"> Vous me ressuscitez, en vous ressuscitant ;</l>
+                        <l n="322"> Et par vous et pour moi la force est dissipée.</l>
+                        <l n="323"> Des plus noire vapeurs dont l’âme soit trompée.</l>
+                        <l n="324"> Mais Dieux ? m’est-il permis par un discours flatteur,</l>
+                        <l n="325"> De mépriser ce songe, et l’appeler menteur ?</l>
+                        <l n="326"> Et m’ayant si bien peint un astre si tragique,</l>
+                        <l n="327"> Le dois-je croire faut ? ou songe prophétique ?</l>
+                        <l n="328"> Vous, dont la volonté règle mon sentiment,</l>
+                        <l n="329"> Assistez, ma raison de votre jugement ;</l>
+                        <l n="330"> Je sens bien qu’elle est faible, et que le mal l’emporte,</l>
+                        <l n="331"> Elle s’oppose en vain, et la crainte est plus forte.</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="332"> Quoi ! vous laissez vous vaincre aux effets de la peur</l>
+                        <l n="333"> Vous qui ne combattez que contre une vapeur ?</l>
+                        <l n="334"> Et cet esprit solide, en sa douleur amère,</l>
+                        <l n="335"> Ne peut-il se sauver des mains d’une chimère ?</l>
+                        <l n="336"> Puisqu’en me renvoyant vous avez de l’effroi,</l>
+                        <l n="337"> Ce fantôme est plus fort, ni que vous, ni que moi.</l>
+                        <l n="338"> Mon amour s’en offense, et ce mépris la blesse ;</l>
+                        <l n="339"> Pour témoigner la votre ayez moins de faiblesse :</l>
+                        <l n="340"> Chassez nue frayeur qui n’a point de sujet ;</l>
+                        <l n="341"> Et par votre récit montrez-moi son objet.</l>
+                </sp>
+        <sp who="#calphurnie">
+            <speaker> CALPHURNIE. </speaker>
+                        <l n="342"> Ha ! ne conservez pas cette fatale envie :</l>
+                        <l n="343"> Étouffez, ce désir, si vous aimez ma vie :</l>
+                        <l n="344"> Ce prodige est si noir, qu’on n’en peut discourir,</l>
+                        <l n="345"> Le seul penser m’en met aux termes de mourir :</l>
+                        <l n="346"> Et bien que je me plaise ne mon obéissance,</l>
+                        <l n="347"> Ce que vous demandez n’est pas en ma puissance.</l>
+                        <l n="348"> Disons-le toutefois : la parque dans ses mains,</l>
+                        <l n="349"> A retouché les jours du plus grand des humains ;</l>
+                        <l n="350"> Et quoi que ce malheur ne subsiste qu’en songe,</l>
+                        <l n="351"> Je crains avec horreur ce funeste mensonge.</l>
+                        <l n="352"> Ô ! vous qui pénétrez dans un lâche attentat,</l>
+                        <l n="353"> Bons Dieux, sauvez César pour sauver l’État ;</l>
+                        <l n="354"> Sans doute il périrait dedans son infortune ;</l>
+                        <l n="355"> Et désormais sa perte, est la perte commune.</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="356"> Ces vœux justes et saints voleront jusqu’au Ciel,</l>
+                        <l n="357"> Ils pourraient adoucir un astre tout le fiel ;</l>
+                        <l n="358"> Et de quelque façon que le sort me regarde,</l>
+                        <l n="359"> Je me tiens assuré d’une si bonne garde ;</l>
+                        <l n="360"> Puisqu’ils partent d’un cœur, et si pur, et si net.</l>
+                        <l n="361"> Mais l’heure du Sénat m’appelle au cabinet,</l>
+                        <l n="362"> Qu’on me donne ma robe.</l>
+                </sp>
+        <sp who="#calphurnie">
+            <speaker> CALPHURNIE. </speaker>
+                        <l n="363"> Ha ! ce peu de croyance,</l>
+                        <l n="364"> Veut offusquer les yeux de votre prévoyance ;</l>
+                        <l n="365"> César, vous refusez d’un esprit étonné,</l>
+                        <l n="366"> Un avertissement que les Dieux m’ont donné.</l>
+                        <l n="367"> Oui les Dieux m’ont fait voir votre perte assurée,</l>
+                        <l n="368"> Si vous n’oyez les cris d’une désespérée,</l>
+                        <l n="369"> Qui se jette à vos pieds, embrasse vos genoux,</l>
+                        <l n="370"> Et vous conjure ici de prendre garde à vous.</l>
+                        <l n="371"> Ce songe est un éclair qui devance un tonnerre,</l>
+                        <l n="372"> Dont le courroux du Ciel semble avertir la terre ;</l>
+                        <l n="373"> Recevez le conseil de ce cœur affligé ;</l>
+                        <l n="374"> Et ne vous perdez pas pour l’avoir négligé.</l>
+                        <l n="375"> Au moins, craignez un peu le mal que e soupçonne :</l>
+                        <l n="376"> Souffrez que tous vos gens suivent votre personne ;</l>
+                        <l n="377"> Afin que leur secours vous puisse garantir,</l>
+                        <l n="378"> Du triste sentiment d’un tardif repentir.</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="379"> César ne peut rien craindre ; et son âme affermie,</l>
+                        <l n="380"> Voit gémir sous ses pies la fortune ennemie :</l>
+                        <l n="381"> Consolez vous mon cœur, perdez ce souvenir ;</l>
+                        <l n="382"> Et laissons au destin le soin de l’avenir ;</l>
+                        <l n="383"> Il nous fait arriver où son vouloir nous mène.</l>
+                </sp>
+        <sp who="#calphurnie">
+            <speaker> CALPHURNIE. </speaker>
+                        <l n="384"> Ô ! le faible secours, qu’est la prudence humaine.</l>
+                        <l n="385"> La chambre se referme.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="386"> Enfin obtiendrons-nous le suprême bonheur ?</l>
+                        <l n="387"> Voit-on en nos Amis un sentiment d’honneur ?</l>
+                        <l n="388"> As-tu bien observé les traits de leur visage ;</l>
+                        <l n="389"> N’y remarques-tu rien de sinistre présage ;</l>
+                        <l n="390"> Cette première ardeur est-elle dans leur sein ?</l>
+                        <l n="391"> Ne succombent-ils point sous le fait du dessein ?</l>
+                        <l n="392"> N’ont-ils point mis d’obstacle à leur gloire prochaine ?</l>
+                        <l n="393"> Leurs esprits sont-ils joints par une même chaîne ?</l>
+                        <l n="394"> Vont-ils d’un même pied ? l’auras-tu bien pu voir ?</l>
+                        <l n="395"> Et bref, qui règne en eux, ou la crainte, ou l’espoir ?</l>
+                </sp>
+        <sp who="#cassie">
+            <speaker> CASSIE. </speaker>
+                        <l n="396"> Jamais Lyre d’Orphée, en douceur infinie,</l>
+                        <l n="397"> Ne fut si bien d’accord, et n’eut tant d’harmonie ;</l>
+                        <l n="398"> Ha ! qu’ils sont éloignés de la peur du trépas ;</l>
+                        <l n="399"> Un puissant aiguillon sollicite leurs pas :</l>
+                        <l n="400"> Et pareils aux Dauphins qui sautent dans l’orage.</l>
+                        <l n="401"> Tous ont le même but, et le même courage :</l>
+                        <l n="402"> Tous regardent le mot, comme un souverain bien :</l>
+                        <l n="403"> Quiconque ne la craint, ne saurait craindre rien,</l>
+                        <l n="404"> C’est pour les grands esprits une pierre de touche,</l>
+                        <l n="405"> Aussi tous nos amis, te jurent par la bouche,</l>
+                        <l n="406"> Que cet objet terrible, aux cœurs peu généreux,</l>
+                        <l n="407"> Ne peut jamais avoir que des attraits pour eux ;</l>
+                        <l n="408"> Et qu’ils suivront ton sort, ou funeste ou prospère,</l>
+                        <l n="409"> Juge ayant cet esprit, s’il craint, ou s’il espère.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="410"> Je doute que j’en ai, n’est pas sans fondement :</l>
+                        <l n="411"> Tel homme ne craint point l’aspect du monument,</l>
+                        <l n="412"> Qui craindra pour son bien, pour son fils, pour sa femme ;</l>
+                        <l n="413"> En tous n’éclate pas cette fermeté d’âme,</l>
+                        <l n="414"> Qui pour suivre l’honnête, oblige ne le faisant,</l>
+                        <l n="415"> De mettre sous le pied, l’utile et le plaisant.</l>
+                        <l n="416"> Il est divers degrés de constance, et de force :</l>
+                        <l n="417"> Il ne faut pas juger de l’arbre et de l’écorce :</l>
+                        <l n="418"> L’apparence est trompeuse ; et souvent un ami,</l>
+                        <l n="419"> Qu’on estime parfait, ne l’est qu’à demi.</l>
+                        <l n="420"> Le temps fait toujours voir ces choses éclaircies :</l>
+                        <l n="421"> Peu de Brutes enfin, et fort peu de Cassies.</l>
+                        <l n="422"> Crois aussi bien que moi, que pour de si grands coups,</l>
+                        <l n="423"> Il est peu de romains qui soient égaux à nous.</l>
+                        <l n="424"> Mais grâce aux immortels, ce peu nous favorise :</l>
+                        <l n="425"> Je vois, je vois déjà, le bout de l’entreprise :</l>
+                        <l n="426"> Tous les Astres bénins, vont au gré de vos vœux ;</l>
+                        <l n="427"> Ha ! belle occasion, montre nous tes cheveux ;</l>
+                        <l n="428"> Puisqu’on te tend la main (te rendant secourable)</l>
+                        <l n="429"> Fais nous voir du temps une heure favorable.</l>
+                </sp>
+        <sp who="#cassie">
+            <speaker> CASSIE. </speaker>
+                        <l n="430"> Avant que de courir le plus grand des hasards,</l>
+                        <l n="431"> Nos amis assemblés dedans le champ de Mars,</l>
+                        <l n="432"> Désirent ta présence ; espérant que ta vue,</l>
+                        <l n="433"> Approuvera à la foi, dont leur âme est pourvue,</l>
+                        <l n="434"> Ils pensent que ton œil inspira la valeur,</l>
+                        <l n="435"> Et que ce grand courage, augmentera le leur.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="436"> Pour cette volonté qui gouverne la mienne,</l>
+                        <l n="437"> Il n’est rien d’impossible, et rien qu’elle n’obtienne.</l>
+                        <l n="438"> Il est juste, allons-y ; voyons ces vrais Romains ;</l>
+                        <l n="439"> Et joignons pour l’État, et nos cœurs et nos mains.</l>
+                        <l n="440"> Une dernière fois allons pour nous résoudre,</l>
+                        <l n="441"> D’abaisser un orgueil, si digne de la foudre :</l>
+                        <l n="442"> Oui, oui, n’abusons plus d’un silence discret,</l>
+                        <l n="443"> Et gardons que le temps n’ouvre notre secret :</l>
+                        <l n="444"> Mais quel deuil est écrit sur le front de Porcie ?</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#porcie">
+            <speaker> PORCIE. </speaker>
+                        <l n="445"> Funeste présage ! ô triste prophétie !</l>
+                </sp>
+        <sp who="#cassie">
+            <speaker> CASSIE. </speaker>
+                        <l n="446"> Aurais-tu découvert ce dessein important ?</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="447"> Ton esprit en ma place, en aurait fait autant :</l>
+                        <l n="448"> Je lis dedans son cœur, elle voit dans mon âme.</l>
+                </sp>
+        <sp who="#cassie">
+            <speaker> CASSIE. </speaker>
+                        <l n="449"> Un secret n’est pas bien dans celui d’une femme.</l>
+                        <l n="450"> De quel mal inconnu souffres-tu la rigueur ?</l>
+                </sp>
+        <sp who="#porcie">
+            <speaker> PORCIE. </speaker>
+                        <l n="451"> D’un mal qui vous regarde, et qui m’ôte le cœur :</l>
+                        <l n="452"> Hélas ! qui le croirait, ô tristesse infinie !</l>
+                        <l n="453"> Les Dieux sont contre nous, et pour la tyrannie.</l>
+                </sp>
+        <sp who="#cassie">
+            <speaker> CASSIE. </speaker>
+                        <l n="454"> On dirait à l’ouïr, que le Ciel s’est ouvert.</l>
+                </sp>
+        <sp who="#porcie">
+            <speaker> PORCIE. </speaker>
+                        <l n="455"> Leur courroux s’est fait voir au sacrifice offert.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="456"> Fais-nous savoir au moins qui te rend désolée ?</l>
+                </sp>
+        <sp who="#porcie">
+            <speaker> PORCIE. </speaker>
+                        <l n="457"> Des marques de malheur, en la bête immolée ;</l>
+                        <l n="458"> Ha Brute le destin s’oppose à nos désirs ;</l>
+                        <l n="459"> Menace votre tête, et détruit mes plaisirs.</l>
+                </sp>
+        <sp who="#cassie">
+            <speaker> CASSIE. </speaker>
+                        <l n="460"> Étrange aveuglement de ce siècle où nous sommes !</l>
+                        <l n="461"> Ô faiblesse d’esprit ! stupidité des hommes ;</l>
+                        <l n="462"> De croire follement, que leur bien, et leur mal,</l>
+                        <l n="463"> Est écrit au poumon d’un chétif animal ;</l>
+                        <l n="464"> Et que de certains Dieux, les troupes affamées,</l>
+                        <l n="465"> Viennent dessus l’Autel se paître de fumées.</l>
+                        <l n="466"> Oracle, Sacrifice, augure, vol d’oiseaux,</l>
+                        <l n="467"> Dieux du Ciel, de l’Enfer, de la terre, et des eaux,</l>
+                        <l n="468"> Invention humaine, aussi belle que feinte,</l>
+                        <l n="469"> Vous ne me donnez point de sentiment de crainte,</l>
+                        <l n="470"> Je pénètre le voile, et découvre à travers,</l>
+                        <l n="471"> Que rien que le hasard, ne conduit l’Univers :</l>
+                        <l n="472"> Jugez après cela de votre prophétie.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="473"> Je serai toujours Brute, et toi toujours Cassie :</l>
+                        <l n="474"> Les écrits d’Épicure ont séduit ta raison.</l>
+                        <l n="475"> Mais toi, finis un deuil qui n’est pas de saison ;</l>
+                        <l n="476"> Il parle à sa femme.</l>
+                        <l n="477"> Mon cœur, tu connais bien quelque mal qui m’arrive,</l>
+                        <l n="478"> Que nous sommes trop loin pour regarder la rive,</l>
+                        <l n="479"> Dans la lice d’honneur, il faut aller au bout.</l>
+                </sp>
+        <sp who="#porcie">
+            <speaker> PORCIE. </speaker>
+                        <l n="480"> Oui Brute, C’en est fait ; mon esprit s’y résout :</l>
+                        <l n="481"> Il se rit maintenant de la force ennemie ;</l>
+                        <l n="482"> Vous réveillez en moi la constance endormie ;</l>
+                        <l n="483"> Je veux aimer la gloire, elle plaît à mes yeux ;</l>
+                        <l n="484"> Et laisser l’avenir, dans le secret des Dieux.</l>
+                        <l n="485"> Allez donc mon cher Brute, où l’honneur vous appelle ;</l>
+                        <l n="486"> Servez bien le public, épousez sa querelle ;</l>
+                        <l n="487"> Et quand un bel exploit vous aura couronnés,</l>
+                        <l n="488"> Oubliez ma faiblesse, et me le pardonnez.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="489"> Allons cher compagnon, prendre cette couronne ;</l>
+                        <l n="490"> Il entend de Porcie.</l>
+                        <l n="491"> Et suivre le conseil, que la vertu nous donne.</l></div></div>
+           <div type="act" xml:id="4">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#césar">
+            <speaker> CÉSAR, ANTOINE, LÉPIDE, PHILIPPUS </speaker>
+                        <l n="492"> La chambre de César s’ouvre.</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="493"> Entre les vrais Amis on ne doit rien cacher :</l>
+                        <l n="494"> Rien, venant de leur part, ne me saurait fâcher :</l>
+                        <l n="495"> J’écoute leurs avis, franc d’orgueil et d’envie,</l>
+                        <l n="496"> Et fais de leurs Conseils des règles à ma vie.</l>
+                        <l n="497"> J’aime l’amitié franche, et sans déguisement ;</l>
+                        <l n="498"> Tout le monde chez moi peut agir librement ;</l>
+                        <l n="499"> Dire ses sentiments ; entrer en confidence,</l>
+                        <l n="500"> Et corriger ma faute avec sa prudence</l>
+                        <l n="501"> La plus forte raison peut souvent sommeiller :</l>
+                        <l n="502"> Et notre propre sens n’est pas bon conseiller :</l>
+                        <l n="503"> Notre esprit contre nous a des forces extrêmes ;</l>
+                        <l n="504"> Nous voyons en autrui, beaucoup mieux qu’en nous-mêmes ;</l>
+                        <l n="505"> Et qui se veut sauver d’un si dangereux pas,</l>
+                        <l n="506"> Doit croire ses Amis, et ne se croire pas.</l>
+                        <l n="507"> Je fonde mon repos dessus cette maxime :</l>
+                        <l n="508"> Parlez donc hardiment, vous le pouvez sans crime,</l>
+                        <l n="509"> Je tiens que c’est me rendre un service important ; </l>
+                        <l n="510"> Je n’ai pas un esprit qu’on charme en la flattant ;</l>
+                        <l n="511"> Loin de cette faiblesse, il cherche la censure,</l>
+                        <l n="512"> Et caresse la main qui lui fait la blessure :</l>
+                        <l n="513"> Voilà comme César traite avec ses Amis,</l>
+                        <l n="514"> Or souvenez-vous donc que tout vous est permis.</l>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="515"> Après cette assurance il faut que je vous die,</l>
+                        <l n="516"> Que nous avons pour vous une amitié hardie,</l>
+                        <l n="517"> Qui ne sent point l’esclave, et qui ne saurait voir</l>
+                        <l n="518"> Que César use mal d’un absolu pouvoir :</l>
+                        <l n="519"> Votre excès de bonté va jusqu’à la mollesse :</l>
+                        <l n="520"> (Pardonnez-moi ce mot s’il est vrai qu’il vous blesse)</l>
+                        <l n="521"> Et vous ressouvenez comme un grand Potentat,</l>
+                        <l n="522"> Se doit faire des lois des maximes d’État :</l>
+                        <l n="523"> C’est d’elles qu’il apprend à régir les Provinces ;</l>
+                        <l n="524"> Le peuple a des vertus, qui font défauts aux Princes,</l>
+                        <l n="525"> Rien ne doit être égal entre ces deux humeurs ;</l>
+                        <l n="526"> Ils diffèrent de rang, qu’ils diffèrent de mœurs :</l>
+                        <l n="527"> Ce que l’un aimera que l’autre le haïsse ;</l>
+                        <l n="528"> Et bref, que l’un commande, et que l’autre obéisse.</l>
+                        <l n="529"> Le peuple est insolent quand on le traite bien ;</l>
+                        <l n="530"> La douceur vous peut nuire, et ne vous sert de rien</l>
+                        <l n="531"> Ces âmes du commun, tiennent de leur naissance,</l>
+                        <l n="532"> Insensibles toujours à la reconnaissance ;</l>
+                        <l n="533"> Les bienfaits n’ont pour eux, que de faibles appas, </l>
+                        <l n="534"> Si bien que le plus sûr est de les tenir bas.</l>
+                        <l n="535"> C’est le moyen de faire, en vivant de la sorte,</l>
+                        <l n="536"> Que votre autorité soit toujours le plus forte ;</l>
+                        <l n="537"> La rigueur les instruit ; leur montre le devoir ;</l>
+                        <l n="538"> Et leur ôte le vice, avecque le pouvoir.</l>
+                        <l n="539"> Un esprit populaire, est souple dans la peine,</l>
+                        <l n="540"> Et semblable au Lion, il est doux à la chaîne ;</l>
+                        <l n="541"> Il reconnaît son Maître, et pareil en ce point ;</l>
+                        <l n="542"> Il le craint, et le suit ; mais il ne l’aime point.</l>
+                        <l n="543"> Il a toujours dans l’âme une vieille querelle,</l>
+                        <l n="544"> Pour cette liberté qui lui fut naturelle,</l>
+                        <l n="545"> Et tout usurpateur ; après l’avoir soumis,</l>
+                        <l n="546"> En comptant ses sujets, compte ses ennemis,</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="547"> Si ce discours est vrai, c’est pour la tyrannie :</l>
+                        <l n="548"> Mais quand je régirais des Tigres d’Hircanie,</l>
+                        <l n="549"> Avecque la douceur dont je les ai traités,</l>
+                        <l n="550"> Je les désarmerais de tant de cruautés.</l>
+                        <l n="551"> Quel bien pouvait avoir cette franchise antique,</l>
+                        <l n="552"> Que je n’aie augmenté dans notre République ?</l>
+                        <l n="553"> Suis-je avare, ou cruel ? ai-je souillé mes mains,</l>
+                        <l n="554"> Par le désir de l’or, ou du sang des Romains ?</l>
+                        <l n="555"> Et hors le seul honneur de ce grade où nous sommes :</l>
+                        <l n="556"> Ai-je rien au dessus du vulgaire des hommes ?</l>
+                        <l n="557"> Ils m’ont fait Dictateur, je vis en Citoyen ;</l>
+                        <l n="558"> J’oblige tout le monde, en ayant le moyen ;</l>
+                        <l n="559"> Pour leur donner la paix, mon esprit est en guerre,</l>
+                        <l n="560"> Et faut que mes soucis courent toute la terre :</l>
+                        <l n="561"> Ha ! que je connais bien au mal que j’ai pour eux,</l>
+                        <l n="562"> Que le plus élevé, n’est pas le plus heureux,</l>
+                        <l n="563"> Que le champ des grandeurs, est un champ infertile ;</l>
+                        <l n="564"> Et que le vrai plaisir, n’est point, s’il n’est tranquille.</l>
+                        <l n="565"> Soyez de mon avis, et changeant de propos,</l>
+                        <l n="566"> Croyez que mon travail vaut moins que leur repos ;</l>
+                        <l n="567"> Et que tant de labeurs m’ont donné quelque place ;</l>
+                        <l n="568"> En l’estime du peuple, et dans sa bonne grâce.</l>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="569"> Ce peuple est une mer, qui n’a rien d’arrêté ;</l>
+                        <l n="570"> On doit craindre l’effet de sa légèreté :</l>
+                        <l n="571"> Il se lasse de tout ; et son âme inconstante,</l>
+                        <l n="572"> Entre aimer et haïr, paraît toujours flottante ;</l>
+                        <l n="573"> Il est à qui lui donne : on vous le peut ravir,</l>
+                        <l n="574"> Par le même métal qui vous en fait servir :</l>
+                        <l n="575"> Et porter sa faiblesse à la fatale envie,</l>
+                        <l n="576"> De vous ôter un jour, et le sceptre, et la vie ;</l>
+                        <l n="577"> Il faut lever le masque, en lui donnant terreur ;</l>
+                        <l n="578"> Et prendre le pouvoir, et le nom d’Empereur.</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="579"> Ce remède est fâcheux, il a trop d’amertume :</l>
+                        <l n="580"> C’est insensiblement que le joug s’accoutume,</l>
+                        <l n="581"> On doit tromper le peuple avec dextérité,</l>
+                        <l n="582"> Comme on ôte aux oiseaux la douce liberté ;</l>
+                        <l n="583"> Espérer tout du temps, le choisir, et l’attendre ;</l>
+                        <l n="584"> Et cacher les filets, qui le doivent surprendre.</l>
+                        <l n="585"> Au reste, pour mes jours, j’en regarde la fin,</l>
+                        <l n="586"> Comme un pont résolu de l’arrêt du destin ;</l>
+                        <l n="587"> Et tiens par le discours dont mon âme est pourvue,</l>
+                        <l n="588"> Que la plus douce mort, est la plus imprévue.</l>
+                </sp>
+        <sp who="#lépide">
+            <speaker> LÉPIDE. </speaker>
+                        <l n="589"> Achevons de parler, sans perdre le respect.</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="590"> Dites tout, chers amis.</l>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="591"> Brute nous est suspect :</l>
+                        <l n="592"> C’est après votre rang, que son âme soupire.</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="593"> Il est certain que Brute, est digne de l’Empire ;</l>
+                        <l n="594"> Mais il attendra bien que le Ciel en son cours,</l>
+                        <l n="595"> Mette sur l’horizon le dernier de mes jours :</l>
+                        <l n="596"> Je suis mon ennemi, s’il est mon adversaire.</l>
+                        <l n="597"> Ha ! que vous traitez mal une vertu sincère, </l>
+                        <l n="598"> Qui souvent éprouvée, est sans comparaison ;</l>
+                        <l n="599"> Et qu’on ne peut choquer, qu’en choquant la raison.</l>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="600"> Fasse le juste Ciel, que nos peurs frivoles,</l>
+                        <l n="601"> Et que l’événement s’accorde à vos paroles.</l>
+                </sp>
+        <sp who="#philippus">
+            <speaker> PHILIPPUS. </speaker>
+                        <l n="602"> Le Sacrifice est prêt.</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="603"> Allons prier les Dieux,</l>
+                        <l n="604"> De vous ouvrir son cœur, ou de m’ouvrir les yeux.</l>
+                        <l n="605"> Le château se referme.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="606"> Je croirais faire tort à vos cœurs invincibles,</l>
+                        <l n="607"> De tâcher par discours de les rendre sensibles</l>
+                        <l n="608"> Ils aiment trop l’honneur, pour ne le suivre pas,</l>
+                        <l n="609"> Quand un si beau sentier conduirait au trépas :</l>
+                        <l n="610"> Aussi votre valeur m’étant trop bien connue,</l>
+                        <l n="611"> Je ne dis rien, sinon qu’enfin l’heure est venue,</l>
+                        <l n="612"> Où la force, l’esprit, l’amour, et le devoir,</l>
+                        <l n="613"> En faveur du pays se pourront faire voir.</l>
+                        <l n="614"> Oui, c’est un grand jour, si digne de mémoire,</l>
+                        <l n="615"> Qu’il nous faut couronner par les mains de la gloire ;</l>
+                        <l n="616"> Elle nous y semond ; et jamais de guerrier,</l>
+                        <l n="617"> Ne purent obtenir de si dignes lauriers,</l>
+                        <l n="618"> Nous sauvons en ce jour, par la perte d’un homme,</l>
+                        <l n="619"> Nos pas nous seulement, mais l’Empire de Rome :</l>
+                        <l n="620"> Et quand ce haut dessein nous deviendrait fatal,</l>
+                        <l n="621"> C’est vivre que mourir, pour le pays natal.</l>
+                        <l n="622"> Employons donc pour lui toute notre industrie ;</l>
+                        <l n="623"> Il s’agit de sauver, et nous et la Patrie ; </l>
+                        <l n="624"> Il s’agit de sauver encor la liberté,</l>
+                        <l n="625"> Qui vaut plus que le bien, et plus que la clarté ;</l>
+                        <l n="626"> Sus donc braves Romains, achevons l’entreprise ;</l>
+                        <l n="627"> La mal est arrivé sur le point de sa crise ;</l>
+                        <l n="628"> Il faut pour nous guérir faire un dernier effort,</l>
+                        <l n="629"> Qui nous fasse trouver le naufrage ou le port.</l>
+                        <l n="630"> Mais de quelque façon que soit votre fortune,</l>
+                        <l n="631"> Brute qui vous chérit, la veut avoir commune ;</l>
+                        <l n="632"> Il vous donne sa foi qui ne saurait changer ;</l>
+                        <l n="633"> Et dans ce beau dessin où l’honneur nous embarque,</l>
+                        <l n="634"> Rien ne vous l’ôtera que les mains de la Parque :</l>
+                        <l n="635"> Mais il croit bien aussi que vos cœurs généreux,</l>
+                        <l n="636"> Auront toujours pour lui, l’amour qu’il a pour eux.</l>
+                </sp>
+        <sp who="#cassie">
+            <speaker> CASSIE. </speaker>
+                        <l n="637"> Il est temps de parler, l’honneur vous le commande ;</l>
+                        <l n="638"> Maintenant votre esprit a tout ce qu’il demande ;</l>
+                        <l n="639"> Brute s’est expliqué ; témoignez aujourd’hui,</l>
+                        <l n="640"> Qu’on en saurait rien craindre, étant avecque lui :</l>
+                        <l n="641"> Pour moi je lui promets que l’aspect des tortures,</l>
+                        <l n="642"> Ni l’aigre sentiment des peines les plus dures,</l>
+                        <l n="643"> Ne pourront ébranler mon courage affermi :</l>
+                        <l n="644"> Et ‘avoir le premier du sang de l’ennemi.</l>
+                </sp>
+        <sp who="#labeo">
+            <speaker> LABEO. </speaker>
+                        <l n="645"> Mon cœur est dans mes yeux ou je veux qu’on le voie,</l>
+                        <l n="646"> Sachant qu’il y paraît plein d’ardeur et de joie ;</l>
+                        <l n="647"> Déjà depuis longtemps ou l’oyait soupirer,</l>
+                        <l n="648"> Dans les pensers d’un bien qu’il n’osait espérer :</l>
+                        <l n="649"> Mais puisque Brute parle, et qu’une si grande âme, </l>
+                        <l n="650"> Brûle du même feu dont la mienne est en flamme,</l>
+                        <l n="651"> Est-il quelque plaisir qui se compare au mien ?</l>
+                        <l n="652"> Non, non, pour obtenir cette gloire immortelle,</l>
+                        <l n="653"> Il ne manquera pas d’un service fidèle ;</l>
+                        <l n="654"> Les hommes comme nous ne savent point trahir :</l>
+                        <l n="655"> C’est à lui d’ordonner, c’est à nous d’obéir.</l>
+                </sp>
+        <sp who="#quintus">
+            <speaker> QUINTUS. </speaker>
+                        <l n="656"> Quand l’Ennemi commun serait invulnérable,</l>
+                        <l n="657"> Mon bras entreprendrait sa défaite honorable ;</l>
+                        <l n="658"> L’œil de Brute m’inspire, un désir violent,</l>
+                        <l n="659"> Qui trouve que le temps n’a son vol que trop lent :</l>
+                        <l n="660"> Une juste colère excite mon courage,</l>
+                        <l n="661"> Après ce haut exploit qui va finir l’orage ;</l>
+                        <l n="662"> Et je ne me veux plus estimer vrai Romain,</l>
+                        <l n="663"> Que le sang de César, n’ait fait rougir ma main.</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="664"> Brute ne sait-il pas que mon âme méprise,</l>
+                        <l n="665"> L’amitié du Tyran, pour avoir la franchise ?</l>
+                        <l n="666"> Et que foulant aux pieds tant de trésors offerts,</l>
+                        <l n="667"> Je romps avecque lui, pour rompre enfin nos fers ? </l>
+                        <l n="668"> Il m’aime (il est certain) mais sans gratitude,</l>
+                        <l n="669"> Je puis à sa ruine appliquer mon étude,</l>
+                        <l n="670"> Le faible cède au fort ; et le premier devoir,</l>
+                        <l n="671"> Fait pencher la balance, ayant plus de pouvoir :</l>
+                        <l n="672"> L’amour de la patrie, emporte tous les autres ;</l>
+                        <l n="673"> Et pour le faire court, mes desseins sont les vôtres.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="674"> Il suffit, chers Amis, je me tiens satisfait : </l>
+                        <l n="675"> Mais avant que nos mains en viennent à l’effet,</l>
+                        <l n="676"> De grâce, qu’un de vous, que la prudence guide,</l>
+                        <l n="677"> Ait soin d’ôter Antoine, et d’éloigner Lépide ;</l>
+                        <l n="678"> Je connais leur courage il est haut et franc ;</l>
+                        <l n="679"> Et puis notre courroux ne vaut pas tant de sang ;</l>
+                        <l n="680"> Nous voulons que d’un seul, la trame soit coupée ;</l>
+                        <l n="681"> Contre un seul la Justice élève son épée ;</l>
+                        <l n="682"> Il n’en faut pas venir à l’extrême rigueur.</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="683"> Je suivrai le chemin que m’enseigne un grand cœur.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="684"> De crainte d’être vus que chacun se dérobe ;</l>
+                        <l n="685"> Et que tous aillent prendre un poignard sous la robe,</l>
+                        <l n="686"> Car j’ai déjà la mien.</l>
+                </sp>
+        <sp who="#cassie">
+            <speaker> CASSIE. </speaker>
+                        <l n="687"> Nous en avons aussi.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="688"> Allons ; cela va bien ; retirons nous d’ici :</l>
+                        <l n="689"> La fortune souvent favorise le crime :</l>
+                        <l n="690"> Allez dans le Sénat, attendre la victime,</l>
+                        <l n="691"> Ma main veut à ce jour la conduire à l’autel,</l>
+                        <l n="692"> Et pour vous sauver tous, donner le coup mortel.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#artemidore">
+            <speaker> ARTEMIDORE </speaker>
+                        <l n="693"> Il les écoutait caché derrière une colonne.</l>
+                        <l n="694"> Qu’ai-je entendu, bons Dieux ! est-il bien véritable,</l>
+                        <l n="695"> Que je n’ai point songé ce conseil détestable ?</l>
+                        <l n="696"> Ô l’étrange dessein ! ô l’horrible attentat !</l>
+                        <l n="697"> Ils parlent de sauver, et vont perdre l’État : </l>
+                        <l n="698"> Mais, sans perdre moi-même un temps nécessaire,</l>
+                        <l n="699"> Découvrons à César cette importante affaire,</l>
+                        <l n="700"> Afin que sa prudence ait loisir d’y pourvoir :</l>
+                        <l n="701"> Il semble que les Dieux m’enseignent mon devoir.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#calphurnie">
+            <speaker> CALPHURNIE. </speaker>
+                        <l n="702"> S’il est vrai que le temps ait mis en vos pensées, </l>
+                        <l n="703"> Un oubli général des affaires passées,</l>
+                        <l n="704"> Et que ce grand esprit que l’on remarque en vous,</l>
+                        <l n="705"> Ne garde pour César, ni haine, ni courroux ;</l>
+                        <l n="706"> Je vous conjure au nom de la pudique flamme,</l>
+                        <l n="707"> Que vous avez au cœur, et que je porte en l’âme,</l>
+                        <l n="708"> D’avoir quelque pitié de l’extrême douleur,</l>
+                        <l n="709"> Que mon visage blême a peinte en sa couleur ;</l>
+                        <l n="710"> Pour une vision qui m’a prise endormie :</l>
+                        <l n="711"> Et de me découvrir en véritable Amie,</l>
+                        <l n="712"> Si l’on n’aurait rien dit dedans votre maison...</l>
+                </sp>
+        <sp who="#porcie">
+            <speaker> PORCIE l’interrompt. </speaker>
+                        <l n="713"> Quoi ! vous nous soupçonnez de quelque trahison ?</l>
+                        <l n="714"> Ha ! je ne puis souffrir une si rude offense :</l>
+                        <l n="715"> Brute a trop de vertu, qui parle en sa défense ;</l>
+                        <l n="716"> Et sans doute César qui connaît bien sa foi,</l>
+                        <l n="717"> Apprenant ce discours, s’en plaindra comme moi :</l>
+                        <l n="718"> Oui, oui, je lui dirai, l’outrage insupportable,</l>
+                        <l n="719"> Qu’endure en notre endroit l’amitié véritable.</l>
+                </sp>
+        <sp who="#calphurnie">
+            <speaker> CALPHURNIE. </speaker>
+                        <l n="720"> N’importe ; un grand malheur le menace aujourd’hui ;</l>
+                        <l n="721"> Et la peur que j’en ai m’appelle auprès de lui.</l>
+                        <l n="722"> Elle s’en va.</l>
+                </sp>
+        <sp who="#porcie">
+            <speaker> PORCIE dit ces vers par ironie. </speaker>
+                        <l n="723"> Qu’elle sait dextrement d’un artifice extrême, </l>
+                        <l n="724"> Surprendre les secrets que l’on cache en soi-même !</l>
+                        <l n="725"> Ô Dieux ! qu’elle a d’adresse, et qu’il est malaisé</l>
+                        <l n="726"> D’éviter les filets de cet esprit rusé !</l>
+                        <l n="727"> Chose étrange pourtant, qu’elle ait vu par le songe,</l>
+                        <l n="728"> Cet enfant du sommeil, ce père du mensonge,</l>
+                        <l n="729"> Un dessein qui n’est su que des Dieux seulement :</l>
+                        <l n="730"> Ce prodige nouveau confond mon jugement</l>
+                        <l n="731"> Réveille ma douleur, et ma crainte endormie ;</l>
+                        <l n="732"> Las ! aurons-nous toujours le fortune ennemie ?</l>
+                        <l n="733"> Il faut avertir Brute ; ô Dieux qui connaissez,</l>
+                        <l n="734"> Que d’un juste désir nos esprits sont poussés,</l>
+                        <l n="735"> Regardez de bon œil l’entreprise avancée,</l>
+                        <l n="736"> Et la faites finir comme elle est commencée.</l></div></div>
+           <div type="act" xml:id="5">
+           <head> ACTE IV </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#césar">
+            <speaker> CÉSAR, ANTOINE, LÉPIDE </speaker>
+                        <l n="737"> La chambre de César s’ouvre.</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="738"> Pour ce mal advenir, dont je suis menacé,</l>
+                        <l n="739"> Il m’étonne aussi peu, comme a fait le passé :</l>
+                        <l n="740"> Et mon esprit égal, sans tristesse, ni joie,</l>
+                        <l n="741"> Voit toujours d’une même œil ce que le Ciel m’envoie :</l>
+                        <l n="742"> À quoi sert aux mortels de vouloir murmurer</l>
+                        <l n="743"> Contre un mal nécessaire, et qu’il faut endurer ?</l>
+                        <l n="744"> Si l’on doit voir la fin de leurs tristes années,</l>
+                        <l n="745"> Veulent-ils appeler des lois des destinées ?</l>
+                        <l n="746"> Arrêter le Soleil au milieu de son cours ?</l>
+                        <l n="747"> Et forcer la Nature à leur donner des jours ?</l>
+                        <l n="748"> Il faut que la raison fasse mieux son office :</l>
+                        <l n="749"> Et quelque signe affreux qu’ait eu le sacrifice,</l>
+                        <l n="750"> C’est à moi d’obéir, et de baisser les yeux,</l>
+                        <l n="751"> Remettant ma fortune entre les mains des Dieux :</l>
+                        <l n="752"> Elles m’ont empêché de voir mes funérailles,</l>
+                        <l n="753"> Dans le sanglant péril de près de cent batailles,</l>
+                        <l n="754"> De plus de mille assauts, et de tant de dangers.</l>
+                        <l n="755"> Que l’on m’a vu courir aux climats étrangers,</l>
+                        <l n="756"> Or les Dieux n’ont-ils pas (pour être en ma défense)</l>
+                        <l n="757"> Et la même douceur, et la même puissance ?</l>
+                        <l n="758"> S’ils veulent me sauver, qui peut me faire mal ?</l>
+                        <l n="759"> Et qui me peut sauver si mon sort est fatal[3] ?</l>
+                        <l n="760"> Je ne m’afflige point d’une crainte inutile ;</l>
+                        <l n="761"> Mon âme est en repos : mon esprit est tranquille ;</l>
+                        <l n="762"> Et le même raison qui me fait discourir,</l>
+                        <l n="763"> Ne m’apprend-elle pas que César doit mourir ?</l>
+                        <l n="764"> J’aurai le même sort du fondateur de Rome :</l>
+                        <l n="765"> Car ce nom de César n’ôte point celui d’homme :</l>
+                        <l n="766"> Mais je ne me plains pas d’un si faible pouvoir ;</l>
+                        <l n="767"> J’ai cherché de la gloire, et je crois en avoir :</l>
+                        <l n="768"> Or comme elle est durable, et d’essence immortelle,</l>
+                        <l n="769"> C’est de là que j’attends que le mienne soit elle :</l>
+                        <l n="770"> C’est par là que mon cœur se moque du trépas,</l>
+                        <l n="771"> Et par là seulement César ne mourra pas.</l>
+                        <l n="772"> Cessez donc, chers amis, d’avoir l’esprit en peine ;</l>
+                        <l n="773"> Soit la mort que j’attends, ou bien proche ou lointaine,</l>
+                        <l n="774"> Il m’est indifférent quand j’en serai vaincu ;</l>
+                        <l n="775"> Celui ne meurt point tôt qui n’ pas mal vécu :</l>
+                        <l n="776"> Assez longue est la vie, étant faite assez bonne ;</l>
+                        <l n="777"> Et qui plutôt la passe a plutôt la couronne :</l>
+                        <l n="778"> C’est là que l’envieux laisse l’homme de bien :</l>
+                        <l n="779"> Et pour être en estime, il faut n’être plus rien.</l>
+                        <l n="780"> Ainsi donc soit ma fin, naturelle, ou contrainte,</l>
+                        <l n="781"> Je la verrai venir sans tristesse, ni crainte ;</l>
+                        <l n="782"> Et ne m’importe pas si la Parque m’abat,</l>
+                        <l n="783"> Au lit au Capitole, ou dedans un combat,</l>
+                        <l n="784"> Le genre différent ne fait rien à la chose.</l>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="785"> Par un si beau discours j’aurais la bouche close,</l>
+                        <l n="786"> Si l’amitié de flamme en voulant s’exhaler,</l>
+                        <l n="787"> Ne forçait mon esprit, et ma langue à parler[4] :</l>
+                        <l n="788"> Mais je retourne encore à ma frayeur première :</l>
+                        <l n="789"> Un animal sans cœur, un soleil sans lumière,</l>
+                        <l n="790"> Un songe épouvantable, et qui parle de mort,</l>
+                        <l n="791"> L’aigle de ce Palais, qui tombe sans effort,</l>
+                        <l n="792"> Une main de soldat qui paraît enflammée,</l>
+                        <l n="793"> Qui brûle bien longtemps, et n’est point consommée,</l>
+                        <l n="794"> Des signes dans le Ciel, des hiboux en plein jour,</l>
+                        <l n="795"> Qu’on a vu se poser sur les toits d’alentour,</l>
+                        <l n="796"> Et par des cris affreux, annoncer nos désastres :</l>
+                        <l n="797"> Ce jour qu’on vous a dit que menacent les Astres ;</l>
+                        <l n="798"> Ces fantômes volants qu’on a vu cette nuit,</l>
+                        <l n="799"> Et votre chambre ouverte avec un si grand bruit,</l>
+                        <l n="800"> D’une main invisible, et qui n’est pas peu forte,</l>
+                        <l n="801"> Ces prodiges ensemble advenus de la sorte,</l>
+                        <l n="802"> Détruisent vos raisons ; et font voir à nos yeux,</l>
+                        <l n="803"> La favorable avis que vous donnent les Dieu :</l>
+                        <l n="804"> Mais inutilement leur bonté s’est offerte :</l>
+                        <l n="805"> Ils veulent nous sauver ; vous voulez votre perte :</l>
+                        <l n="806"> Le Ciel vous avertit ; vous ne le croyez pas ;</l>
+                        <l n="807"> Vous fuyez de la vie, et cherchez le trépas ;</l>
+                        <l n="808"> Que pouvons nous attendre en l’état ou nous sommes,</l>
+                        <l n="809"> Si César ne croit plus ni les Dieux ni les hommes ?</l>
+                </sp>
+        <sp who="#lépide">
+            <speaker> LÉPIDE. </speaker>
+                        <l n="810"> Ce traître qui s’approche excite mon courroux.</l>
+                        <l n="811"> Brute arrive.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="812"> Le Sénat assemblé n’attend plus qu’après vous :</l>
+                        <l n="813"> Pour payer la valeur du plus brave des Princes,</l>
+                        <l n="814"> Il vous déclare Roi de toutes les Provinces ;</l>
+                        <l n="815"> Et veut que (hors d’ici) vous ayez souverain,</l>
+                        <l n="816"> La Couronne à la tête, et le Sceptre à la main.</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="817"> Ha Brute ! dans le Trône où le destin m’appelle</l>
+                        <l n="818"> Que ferai-je pour vous, après cette nouvelle,</l>
+                        <l n="819"> Où le cœur à l’amour utilement se joint ?</l>
+                        <l n="820"> Ou bien pour mieux parler que ne ferai-je point ?</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="821"> Être chéri de vous, ma vaut plus qu’un Empire,</l>
+                        <l n="822"> Et c’est l’unique gloire où mon désir aspire.</l>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="823"> Je m’étonne bien fort (puisque vous l’aimez tant)</l>
+                        <l n="824"> Que lorsqu’il s’est agi d’un service important,</l>
+                        <l n="825"> Et qu’on a vu sa vie, au bout de son épée,</l>
+                        <l n="826"> Que vous ayez suivi le parti de Pompée ?</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="827"> Vous avez un esprit qui s’étonne de rien :</l>
+                        <l n="828"> Et si je ne voyais votre chef et le mien,</l>
+                        <l n="829"> Je saurais vous tirer de merveille et de doute :</l>
+                        <l n="830"> Mais nous sommes dans Rome, et César nous écoute.</l>
+                </sp>
+        <sp who="#lépide">
+            <speaker> LÉPIDE. </speaker>
+                        <l n="831"> Ce silence est timide, autant qu’il est discret :</l>
+                        <l n="832"> Répondre sans répondre est un fort beau secret ;</l>
+                        <l n="833"> Mais vous être pourtant (ou mon âme est trompée)</l>
+                        <l n="834"> Le gendre de Caton, et l’Ami de Pompée.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="835"> Je fus et l’un et l’autre, et le tins à bonheur :</l>
+                        <l n="836"> Maintenant je suis Brute, et fort homme d’honneur.</l>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="837"> On chante votre nom, du Tibre, jusqu’au Tage.</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="838"> Tout beau ; je vous défends de parler davantage :</l>
+                        <l n="839"> Antoine, oubliez-vous ce qu’on doit au respect ?</l>
+                        <l n="840"> Allons je vais montrer si Brute m’est suspect.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#calphurnie">
+            <speaker> CALPHURNIE. </speaker>
+                        <l n="841"> César, ne sortez point, ou bien sortez en armes ;</l>
+                        <l n="842"> Hé de grâce donnez quelque chose à mes larmes :</l>
+                        <l n="843"> Remettez aujourd’hui le Sénat à demain :</l>
+                        <l n="844"> Y va-t-il du salut de tout le genre humain,</l>
+                        <l n="845"> Que vous n’en puissiez pas différer l’assemblée,</l>
+                        <l n="846"> Afin de rendre calme une âme si troublée,</l>
+                        <l n="847"> Et détourner l’effet d’un songe infortuné,</l>
+                        <l n="848"> Qui m’a dit que César doit être assassiné ?</l>
+                        <l n="849"> Il faut absolument que Monseigneur demeure,</l>
+                        <l n="850"> Ou qu’il prenne poignard, et que sa femme meure.</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="851"> Brute, que ferons-nous, la dis-je contenter ?</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="852"> Dieux, un si fort esprit se laisse donc tenter !</l>
+                        <l n="853"> Quoi pourrez-vous souffrir qu’on dise avecque blâme,</l>
+                        <l n="854"> Que César croit, et craint, les songes d’une femme ?</l>
+                        <l n="855"> Et vous-même vous faire un si sanglant affront,</l>
+                        <l n="856"> Qu’il s’attaque aux Lauriers qui vous ceignent le front.</l>
+                        <l n="857"> Ha ! rejetez bien loin cette fatale envie :</l>
+                        <l n="858"> Qui peut voir à regret une si belle vie ?</l>
+                        <l n="859"> Et lequel des mortels oserait concevoir</l>
+                        <l n="860"> Seulement un penser contre votre pouvoir ?</l>
+                        <l n="861"> Non, non, espérez mieux des bonnes destinées :</l>
+                        <l n="862"> Autant que de vertus, César aura d’années :</l>
+                        <l n="863"> Et si le sort lui seul ne se rend criminel,</l>
+                        <l n="864"> Pour le bien du public vous serez éternel.</l>
+                        <l n="865"> Achevez donc César une importante affaire :</l>
+                        <l n="866"> Ou venez dire au moins que le Sénat diffère :</l>
+                        <l n="867"> Si le faible soupçon attaque un si grand cœur.</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="868"> Ce Brute ardent et prompt est toujours le vainqueur.</l>
+                        <l n="869"> Il parle à sa femme.</l>
+                        <l n="870"> Je le veux bien ; sortons : une si courte absence,</l>
+                        <l n="871"> Ne viendra pas à bout de votre patience,</l>
+                        <l n="872"> Une heure de conseil suffira pour ce jour.</l>
+                </sp>
+        <sp who="#calphurnie">
+            <speaker> CALPHURNIE. </speaker>
+                        <l n="873"> Ce funeste départ, n’aura point de retour :</l>
+                        <l n="874"> Ô déloyal flatteur ! dont son âme obsédée,</l>
+                        <l n="875"> Se trouve pour sa perte, aveuglément guidée,</l>
+                        <l n="876"> Puisses-tu recevoir le loyer mérité ;</l>
+                        <l n="877"> Et le Ciel punissant ton infidélité,</l>
+                        <l n="878"> Te rende (malheureux) le mépris de la terre, </l>
+                        <l n="879"> La haine des mortels, et l’objet du tonnerre.</l>
+                        <l n="880"> La chambre se ferme.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#porcie">
+            <speaker> PORCIE </speaker>
+                        <l n="881"> Je succombe, il est vrai, dans un si haut dessein :</l>
+                        <l n="882"> J’ai devant que César un poignard dans le sein :</l>
+                        <l n="883"> Désirs impatients, cruelle incertitude,</l>
+                        <l n="884"> Espoir, crainte, douleur, tristesse, inquiétude,</l>
+                        <l n="885"> Tyrans de mon esprit régnerez vous longtemps ?</l>
+                        <l n="886"> Accordez-moi la mort ou le bien que j’attends :</l>
+                        <l n="887"> C’est trop tenir (grands Dieux) une âme à la torture :</l>
+                        <l n="888"> Tous les maux (près des miens) ne le sont qu’en peinture :</l>
+                        <l n="889"> Et le plus tourmenté des hôtes des Enfers,</l>
+                        <l n="890"> Le ferait davantage en ceux que j’ai soufferts.</l>
+                        <l n="891"> Aussi quelque secours que la raison me donne,</l>
+                        <l n="892"> Je sens bien qu’elle est faible, et qu’elle m’abandonne ;</l>
+                        <l n="893"> Et quand tout l’Univers entendrait mes clameurs,</l>
+                        <l n="894"> Il faut que je me plaigne, et dise que je meurs.</l>
+                        <l n="895"> Ha Brute ! un prompt retour nous est bien nécessaire.</l>
+                        <l n="896"> Vous me faites mourir, avec votre adversaire ;</l>
+                        <l n="897"> Et bien que le discours fasse un puissant effort.</l>
+                        <l n="898"> J’aimerais mieux souffrir, César, que votre mot.</l>
+                        <l n="899"> Sortez de mon esprit faiblesse infortunée ;</l>
+                        <l n="900"> Vous déplaisez à Brute, il vous a condamnée ; </l>
+                        <l n="901"> Pourquoi retournez-vous ? fuyez, fuyez d’ici ;</l>
+                        <l n="902"> Je veux bien espérer, Brute le veut ainsi,</l>
+                        <l n="903"> Ô nouvelle agréable, autant que souhaitée,</l>
+                        <l n="904"> Je vais voir si quelqu’un ne t’a point apportée.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="905"> Ainsi tant de désirs ont pénétré les Cieux :</l>
+                        <l n="906"> Et le Sénat enfin inspiré par les Dieux,</l>
+                        <l n="907"> Suivant les immortels la sagesse profonde, </l>
+                        <l n="908"> Va faire en ce beau jour le plus grand Roi du monde.</l>
+                        <l n="909"> Ha ! qu’il fera bon voir votre extrême bonté,</l>
+                        <l n="910"> Au milieu de la pompe, et de la Majesté,</l>
+                        <l n="911"> Tempérer doucement cette grandeur sévère ;</l>
+                        <l n="912"> Faisant aimer le Trône autant qu’on le révère.</l>
+                        <l n="913"> Ha ! que de grands exploits ; ah ! que de hauts projets ;</l>
+                        <l n="914"> Je meurs que je ne suis déjà de vos sujets ;</l>
+                        <l n="915"> Voyant en vous des Dieux une vivante image,</l>
+                        <l n="916"> Quel sera l’insensé qui ne vous rende hommage ?</l>
+                        <l n="917"> Et qui ne préférât (loin de le dédaigner)</l>
+                        <l n="918"> L’honneur de vous servir à celui de régner ?</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="919"> Ha Brute ! si j’arrive à cette heure opportune ;</l>
+                        <l n="920"> Que vous aurez de part à ma bonne fortune :</l>
+                        <l n="921"> Il ne vous manquera que le seul nom de Roi ;</l>
+                        <l n="922"> Grade, que vos vertus vous donnent après moi. </l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="923"> Sur mon peu de valeur, je règle mon attente.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#artemidore">
+            <speaker> ARTEMIDORE. </speaker>
+                        <l n="924"> Je viens pour t’avertir d’une affaire importante ;</l>
+                        <l n="925"> César, prends ce billet ; et le lis promptement.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="926"> Faisons agir l’adresse avec le jugement ;</l>
+                        <l n="927"> La mine est éventée, et mon âme est déçue :</l>
+                        <l n="928"> Il l’empêche de lire.</l>
+                        <l n="929"> Labyrinthe des grands n’auras-tu point d’issue ?</l>
+                        <l n="930"> Ne peut-on éviter un soin si déplaisant ?</l>
+                        <l n="931"> Déchargez vous la main d’un fardeau si pesant ;</l>
+                        <l n="932"> Si fâcheux à souffrir, et si peu nécessaire.</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="933"> Lisez.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="934"> Ha ! l’impudence ; ô l’importante affaire !</l>
+                        <l n="935"> Il feint de se moquer.</l>
+                        <l n="936"> Lui qui veut une charge est digne de l’avoir :</l>
+                        <l n="937"> Mais voici le Sénat qui vient vous recevoir ;</l>
+                        <l n="938"> Mêlez un peu le grave avec la modestie.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="939"> Un certain messager, étant venu d’Ostie,</l>
+                        <l n="940"> Vous cherche et l’un et l’autre, il dit être pressé,</l>
+                        <l n="941"> Je vous en avertis.</l>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="942"> Où l’avez-vous laissé ?</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="943"> Au pied de l’Aventin, prêt d’entrer dans la place.</l>
+                </sp>
+        <sp who="#lépide">
+            <speaker> LÉPIDE. </speaker>
+                        <l n="944"> Allons voir ce qu’il veut.</l>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="945"> Albin, je vous rends grâce.</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="946"> Oui, tu me la dois rendre, avec beaucoup d’amour,</l>
+                        <l n="947"> Puisque ce faux avis te conserve le jour.</l>
+                        <l n="948"> Entrons, pour avoir part à la prochaine gloire,</l>
+                        <l n="949"> Comme nous en aurons aux fruits de la victoire.</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#césar">
+            <speaker> CÉSAR, BRUTE, LÉPIDE, CASSIE, QUINTUS, ALBIN, CHŒUR d’autres sénateurs </speaker>
+                        <l n="950"> La salle su Sénat s’ouvre.</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="951"> Qu’on ne m’en parle plus ; Cimber est criminel :</l>
+                        <l n="952"> Je m’oblige en ce lieu d’un serment solennel,</l>
+                        <l n="953"> De n’accorder jamais cette injuste requête ;</l>
+                        <l n="954"> Qu’il garde son exil, s’il veut garder sa tête ;</l>
+                        <l n="955"> Je suis clément, mais juste ; on se doit souvenir,</l>
+                        <l n="956"> Comme je sais payer, que je saurai punir.</l>
+                        <l n="957"> Me préservant les Dieux de la honteuse tâche,</l>
+                        <l n="958"> Qu’imprime aux Dictateurs, le commandement lâche.</l>
+                        <l n="959"> Une telle prière est digne de mépris :</l>
+                        <l n="960"> Elle doit s’adresser à de faibles esprits,</l>
+                        <l n="961"> Mais non pas à César ; qui sans craindre personne,</l>
+                        <l n="962"> Suit toujours les conseils que la vertu lui donne :</l>
+                        <l n="963"> Quoi, Brute, est-ce là donc ce qu’on vous a promis ?</l>
+                </sp>
+        <sp who="#cassie">
+            <speaker> CASSIE. </speaker>
+                        <l n="964"> Hé !</l>
+                        <l n="965"> Il s’approche de César.</l>
+                        <l n="966"> Donnez quelque chose aux pleurs de ses amis ;</l>
+                        <l n="967"> César, ayez pitié d’une extrême infortune.</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="968"> Allez ; </l>
+                        <l n="969"> Il le repousse.</l>
+                        <l n="970"> Retirez-vous ; ce discours m’importune.</l>
+                </sp>
+        <sp who="#cassie">
+            <speaker> CASSIE. </speaker>
+                        <l n="971"> Puisque tout le Sénat, doit subir cette loi,</l>
+                        <l n="972"> Prends ce premier hommage en qualité de roi.</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="973"> Ha ! Perfide Casca, bons Dieux que veux-tu faire ?</l>
+                </sp>
+        <sp who="#cassie">
+            <speaker> CASSIE. </speaker>
+                        <l n="974"> Purger Rome d’un monstre ; </l>
+                        <l n="975"> Ils tirent tous des poignards.</l>
+                        <l n="976"> assiste-moi mon frère.</l>
+                        <l n="977"> César s’enveloppe de sa robe suivant l’histoire.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="978"> Brute que tu chéris te veut ôter d’ici,</l>
+                        <l n="979"> Ce coup t’est favorable. </l>
+                        <l n="980"> La salle se ferme pour n’ensanglanter pas la face du théâtre contre les règles.</l>
+                </sp>
+        <sp who="#césar">
+            <speaker> CÉSAR. </speaker>
+                        <l n="981"> Et toi mon fils aussi. </l>
+                        <l n="982"> Ils sortent tous avec le poignard sanglant à la main après avoir tué César.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="983"> Il est mort ; c’en est fait ; le voilà sans parole :</l>
+                        <l n="984"> Pour notre sûreté, montons au Capitole.</l></div></div>
+           <div type="act" xml:id="6">
+           <head> ACTE V </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="985"> Soupçons trop bien fondés, doutes trop éclaircis,</l>
+                        <l n="986"> Que pour n’être pas crus, nous aurons de soucis !</l>
+                        <l n="987"> Déplorable César, que j’ai bien connaissance</l>
+                        <l n="988"> Qu’un Astre malheureux éclaira ta naissance !</l>
+                        <l n="989"> Ô comme la fortune a montré son pouvoir !</l>
+                        <l n="990"> Elle ne t’éleva que pour te faire choir.</l>
+                        <l n="991"> Dieux, ne savais-tu point la maxime important,</l>
+                        <l n="992"> Que puisqu’elle était femme elle était inconstante ?</l>
+                        <l n="993"> Qu’elle aime pour trahir, se plaît au changement,</l>
+                        <l n="994"> Et fait tout par caprice, et rien par jugement.</l>
+                        <l n="995"> Hélas frêles Grandeurs, pompe mal assurée,</l>
+                        <l n="996"> Belle flamme d’éclair, de si courte durée,</l>
+                        <l n="997"> Quiconque en te servant, perd son temps, et ses pas,</l>
+                        <l n="998"> Montre certainement qu’il ne te connaît pas.</l>
+                        <l n="999"> Mais comme des Nochers qu’enveloppe l’orage,</l>
+                        <l n="1000"> Prenons pour nous sauver la débris du naufrage,</l>
+                        <l n="1001"> Et tâchons d’exciter d’un généreux transport</l>
+                        <l n="1002"> Le peuple comme nous, à venger cette mort :</l>
+                        <l n="1003"> Faisons voir que César vit en notre mémoire,</l>
+                        <l n="1004"> Peignons ses assassins d’une couleur si noire,</l>
+                        <l n="1005"> Que le peuple irrité contre l’acte commis,</l>
+                        <l n="1006"> Aille épandre le sang sous ses ennemis.</l>
+                        <l n="1007"> Notre antique amitié demande cet office ;</l>
+                        <l n="1008"> Et cet Héros mérite un si grand sacrifice.</l>
+                        <l n="1009"> Oui Brute déloyal, esprit double et pervers,</l>
+                        <l n="1010"> Ce bras t’ira chercher au bout de l’univers,</l>
+                        <l n="1011"> Dépêchons un Courrier afin d’avoir Octave ;</l>
+                        <l n="1012"> Il nous est nécessaire, il est jeune il est brave ;</l>
+                        <l n="1013"> Et puis le sang l’oblige après un tel malheur,</l>
+                        <l n="1014"> De joindre son courage avec notre valeur.</l>
+                </sp>
+        <sp who="#lépide">
+            <speaker> LÉPIDE. </speaker>
+                        <l n="1015"> Allons allons Antoine, où ce penser nous mène,</l>
+                        <l n="1016"> Nous trois aurons en main la puissance Romaine ;</l>
+                        <l n="1017"> Le travail et l’honneur seront pris en commun :</l>
+                        <l n="1018"> Et ces traîtres auront trois Maîtres, au lieu d’un.</l>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="1019"> Pour le bien de l’État, il nous y faut résoudre :</l>
+                        <l n="1020"> Oui, contre ces Titans, je prépare une foudre ;</l>
+                        <l n="1021"> Mais foudre d’éloquence, et qu’il leur fera voir,</l>
+                        <l n="1022"> Qu’elle a dessus l’esprit un merveilleux pouvoir.</l>
+                        <l n="1023"> Allons parler au peuple, afin que je l’anime,</l>
+                        <l n="1024"> Par le sanglant portrait d’un si funeste crime.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#calphurnie">
+            <speaker> CALPHURNIE, ÉMILIE </speaker>
+                        <l n="1025"> La chambre de Calphurnie s’ouvre, elle est en deuil.</l>
+                </sp>
+        <sp who="#émilie">
+            <speaker> ÉMILIE. </speaker>
+                        <l n="1026"> Le remède d’un mal qu’on ne peut empêcher,</l>
+                        <l n="1027"> C’est de n’y songer pas, et de n’en plus chercher :</l>
+                        <l n="1028"> Madame, au nom des Dieux, un peu de résistance :</l>
+                        <l n="1029"> À ce coup de malheur opposés la constance ;</l>
+                        <l n="1030"> Et ne pouvant sauver cet excellent époux,</l>
+                        <l n="1031"> En sauvant la raison, Madame, sauvez-vous.</l>
+                </sp>
+        <sp who="#calphurnie">
+            <speaker> CALPHURNIE. </speaker>
+                        <l n="1032"> Ce Conseil criminel, me ferait criminelle :</l>
+                        <l n="1033"> La plainte que je fais se doit rendre éternelle :</l>
+                        <l n="1034"> On voit toujours aux cœurs qui furent bien unis,</l>
+                        <l n="1035"> La tristesse infinie aux malheurs infinis.</l>
+                        <l n="1036"> Oui, le devoir m’oblige à vivre de la sorte :</l>
+                        <l n="1037"> La douleur la plus juste est ici la plus forte,</l>
+                        <l n="1038"> Après avoir perdu ce généreux Hector,</l>
+                        <l n="1039"> C’est être sans raison, que d’en avoir encor.</l>
+                        <l n="1040"> Perdre César bons Dieux ! qui peut avoir envie,</l>
+                        <l n="1041"> Après cet accident de conserver sa vie ?</l>
+                        <l n="1042"> Et de quelque propos qu’on flatte son malheur,</l>
+                        <l n="1043"> Est-il quelque plaisir après cette douleur ?</l>
+                </sp>
+        <sp who="#émilie">
+            <speaker> ÉMILIE. </speaker>
+                        <l n="1044"> Oui, Madame, il en est.</l>
+                </sp>
+        <sp who="#calphurnie">
+            <speaker> CALPHURNIE. </speaker>
+                        <l n="1045"> Je le crois impossible.</l>
+                </sp>
+        <sp who="#émilie">
+            <speaker> ÉMILIE. </speaker>
+                        <l n="1046"> Vous en goûterez un, bien grand, et bien sensible,</l>
+                        <l n="1047"> Lorsque ses assassins, ces tigres furieux,</l>
+                        <l n="1048"> Sentirons à leur tour la colère des Cieux :</l>
+                        <l n="1049"> Ô que votre âme alors se trouvera changée,</l>
+                        <l n="1050"> En les voyant punis, et vous voyant vengée !</l>
+                        <l n="1051"> Toutes les voluptés que cherchent nos désirs ;</l>
+                        <l n="1052"> Les objets dont les sens font naître leurs plaisirs :</l>
+                        <l n="1053"> Les biens, ni les grandeurs, n’ont rien qui se compare,</l>
+                        <l n="1054"> Aux douceurs qu’on éprouve en la mort d’un barbare.</l>
+                        <l n="1055"> Quand il nous a ravi (par la rage animé)</l>
+                        <l n="1056"> Celui que nous aimons, comme il était aimé.</l>
+                        <l n="1057"> Madame, vivez donc, puisque cette espérance,</l>
+                        <l n="1058"> N’étant pas sans raison, n’est pas sans apparence,</l>
+                        <l n="1059"> Suspendez la douleur puisqu’il vous est permis ;</l>
+                        <l n="1060"> Et ne vous perdez point qu’après vos ennemis.</l>
+                </sp>
+        <sp who="#calphurnie">
+            <speaker> CALPHURNIE. </speaker>
+                        <l n="1061"> Chère ombre, qui peux voir dans une âme fidèle,</l>
+                        <l n="1062"> Et l’amour immortel et la haine immortelle,</l>
+                        <l n="1063"> Joints ta main à la mienne, et me vient secourir,</l>
+                        <l n="1064"> Puisque je ne vis plus, que pour les voir mourir.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#philippus">
+            <speaker> PHILIPPUS, CALPHURNIE, ÉMILIE </speaker>
+                        <l n="1065"> La chambre se referme.</l>
+                </sp>
+        <sp who="#philippus">
+            <speaker> PHILIPPUS. </speaker>
+                        <l n="1066"> Le Sénat et le peuple.</l>
+                </sp>
+        <sp who="#calphurnie">
+            <speaker> CALPHURNIE. </speaker>
+                        <l n="1067"> Ha ! ce discours me tue :</l>
+                        <l n="1068"> Mais si faut-il portant que mon cœur s’évertue :</l>
+                        <l n="1069"> Je t’entends bien ; faisons au-delà du pouvoir,</l>
+                        <l n="1070"> Pour rendre au grand César se funeste devoir.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="1071"> Ces hommes sans courage, et plein d’ingratitude,</l>
+                        <l n="1072"> Sont dignes de leur honte, et de leur servitude :</l>
+                        <l n="1073"> Loin de briser le joug qu’on leur avait ôté,</l>
+                        <l n="1074"> Les lâches ont horreur du nom de liberté :</l>
+                        <l n="1075"> Hélas ! vois quelle force, et quel espoir nous reste :</l>
+                        <l n="1076"> Ils jugent ta présence, et mon abord funeste,</l>
+                        <l n="1077"> Rien ne peut relever leur esprit abattu :</l>
+                        <l n="1078"> Et je ne vois pour nous que la seule vertu.</l>
+                        <l n="1079"> Une molle tristesse est peinte sur leur visage ;</l>
+                        <l n="1080"> Et l’effet a suivi le funeste présage.</l>
+                        <l n="1081"> Infâmes cœurs faillis, esclaves sans honneur,</l>
+                        <l n="1082"> Sachez qu’en me fuyant, vous fuyez le bonheur,</l>
+                        <l n="1083"> Que vous allez rendre dessous la tyrannie,</l>
+                        <l n="1084"> Et que le repentir suivra l’ignominie.</l>
+                        <l n="1085"> Mais à qui ces discours veulent-ils s’adresser ?</l>
+                        <l n="1086"> Insensibles qu’ils sont, que sert de les presser ?</l>
+                        <l n="1087"> La valeur, et nos lois, se trouvent méprisées ;</l>
+                        <l n="1088"> Les Romains ne sont plus que femmes déguisées ;</l>
+                        <l n="1089"> En ne voient en eux qu’artifice, et que fard,</l>
+                        <l n="1090"> Il leur faut la quenouille, et non pas le poignard.</l>
+                        <l n="1091"> Et bien, servez méchants, contentez votre envie :</l>
+                        <l n="1092"> Faites que votre mort s’égale à votre vie :</l>
+                        <l n="1093"> Publiez hautement que César a vaincu,</l>
+                        <l n="1094"> Et mourez dans les fers où vous avez vécu.</l>
+                        <l n="1095"> Ployez sous la grandeur de quelque nouveau Maître ;</l>
+                        <l n="1096"> Adorez son mérite avant que le connaître,</l>
+                        <l n="1097"> Il montre son poignard.</l>
+                        <l n="1098"> Allez bâtir son Trône, allez baiser ses pas ;</l>
+                        <l n="1099"> Il n’importe, pourvu que Brute n’en soit pas.</l>
+                        <l n="1100"> Je garde encor ce fer pour un nouveau Monarque :</l>
+                        <l n="1101"> Son Empire est sujet à celui de la Parque :</l>
+                        <l n="1102"> Et bien que vos avis se trouvent différents,</l>
+                        <l n="1103"> Je suis toujours moi-même, envers tous les Tyrans.</l>
+                        <l n="1104"> Que le peuple me quitte, et que le sort me brave,</l>
+                        <l n="1105"> Brute peut bien mourir, mais non pas en Esclave :</l>
+                        <l n="1106"> Dans le chemin d’honneur, étant trop avancé,</l>
+                        <l n="1107"> On le verra finir comme il a commencé.</l>
+                </sp>
+        <sp who="#cassie">
+            <speaker> CASSIE. </speaker>
+                        <l n="1108"> Tous ceux que ta valeur attache à ta fortune,</l>
+                        <l n="1109"> Sont Nochers, que jamais n’a fait pâlir Neptune :</l>
+                        <l n="1110"> Quand l’Univers les verrait contre eux se verrait conjuré,</l>
+                        <l n="1111"> L’univers les verrait d’un visage assuré.</l>
+                        <l n="1112"> Leur grande âme et forte, incapable de change,</l>
+                        <l n="1113"> Tâche de mériter une injuste louange ;</l>
+                        <l n="1114"> Si bien que la fortune, avec tout son pouvoir,</l>
+                        <l n="1115"> Ne saurait les ôter du chemin du devoir.</l>
+                        <l n="1116"> Marche (si tu le veux) après notre sortie,</l>
+                        <l n="1117"> Vers les climats lointains de la froide Scythie,</l>
+                        <l n="1118"> Cherche (si tu le veux) quelque meilleur destin,</l>
+                        <l n="1119"> Dans ceux que le Soleil visite le matin,</l>
+                        <l n="1120"> Nous te suivrons partout, et saches que notre âme,</l>
+                        <l n="1121"> Méprisera pour toi, le fer, l’onde, et la flamme ;</l>
+                        <l n="1122"> Oubliera le pays, les parents et le bien ;</l>
+                        <l n="1123"> Fais donc quand tu voudras, notre destin tien.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="1124"> Sortons, mon cher ami, de cette infâme Rome,</l>
+                        <l n="1125"> Où le vice masqué sous le visage d’homme,</l>
+                        <l n="1126"> Où l’avarice règne avec la lâcheté ;</l>
+                        <l n="1127"> Où l’on voit chacun libre[5], et point de liberté ?</l>
+                        <l n="1128"> Où le crime impuni montre son insolence ;</l>
+                        <l n="1129"> Ou la vertu gémit sous un honteux silence ;</l>
+                        <l n="1130"> Et bref, où les forfaits, arrivent à tel point.</l>
+                        <l n="1131"> Que pour être innocent, il faut ne l’être point.</l>
+                        <l n="1132"> Allons vers Antium former un corps d’armée :</l>
+                        <l n="1133"> Il naîtra des Soldats de notre Renommée :</l>
+                        <l n="1134"> Assemblons nos Amis ; partons en combattant.</l>
+                </sp>
+        <sp who="#cassie">
+            <speaker> CASSIE. </speaker>
+                        <l n="1135"> Je m’en vais les trouver.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="1136"> J’y suis dans un instant.</l>
+                        <l n="1137"> Porcie arrive.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="1138"> En ce nouveau travail, que le destin me donne,</l>
+                        <l n="1139"> Il faut, hélas ! il faut, que Brute t’abandonne ;</l>
+                        <l n="1140"> Ce mal persécutant, que rien n’a diverti,</l>
+                        <l n="1141"> Est le plus grands des miens, et le plus ressenti.</l>
+                        <l n="1142"> Je quitterais la vie, avecque moins de peine :</l>
+                        <l n="1143"> Mais quoi, la destinée est toujours souveraine ;</l>
+                        <l n="1144"> Il lui plaît, il le faut : que sert de reculer ?</l>
+                        <l n="1145"> L’arrêt est prononcé, je n’en peux appeler.</l>
+                </sp>
+        <sp who="#porcie">
+            <speaker> PORCIE. </speaker>
+                        <l n="1146"> Brute s’en va partir ! ô tristesse infinie !</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="1147"> De la mort d’un Tyran, renaît la tyrannie :</l>
+                        <l n="1148"> Son sang envenimé fait revoir aujourd’hui</l>
+                        <l n="1149"> En dépit de ma main, des monstres comme lui,</l>
+                        <l n="1150"> L’éclat de ma vertu les choque, et leur fait ombre :</l>
+                        <l n="1151"> À faute de raison on la vainc par le nombre : </l>
+                        <l n="1152"> Et je me vois forcé de partir de ce lieu,</l>
+                        <l n="1153"> (Au moins si sans mourir je peux te dire Adieu)</l>
+                        <l n="1154"> De quelque bon discours dont mon âme se pare,</l>
+                        <l n="1155"> Elle sent la rigueur du coup qui la sépare,</l>
+                        <l n="1156"> Je reste sans consistance en l’état où je suis,</l>
+                        <l n="1157"> Et je succombe enfin sous l’effort des ennuis.</l>
+                        <l n="1158"> Oui partir sans douleur m’est un acte impossible,</l>
+                        <l n="1159"> Je perds en te quittant, le titre d’invincible,</l>
+                        <l n="1160"> Et malgré ma raison, je me sens arracher.</l>
+                        <l n="1161"> Il entend ses larmes.</l>
+                        <l n="1162"> Ce que l’honneur m’oblige encore de te cacher.</l>
+                        <l n="1163"> Mais toi chère Porcie, en ce funeste orage,</l>
+                        <l n="1164"> Prends ce que je n’ai plus ; sers toi de mon courage ;</l>
+                        <l n="1165"> Fais agir ta vertu dans un sort si douteux ;</l>
+                        <l n="1166"> Mon amour le permet, je n’en suis point honteux.</l>
+                </sp>
+        <sp who="#porcie">
+            <speaker> PORCIE </speaker>
+                        <l n="1167"> On verra que je suis (quoi que l’on exécute)</l>
+                        <l n="1168"> La fille de Caton, et la femme de Brute :</l>
+                        <l n="1169"> Que l’Univers entier s’assemble contre toi,</l>
+                        <l n="1170"> Aussi bien que ton cœur subsistera ma foi.</l>
+                        <l n="1171"> La peine la plus grande et la mieux inventée,</l>
+                        <l n="1172"> Don l’âme d’un mortel puisse être tourmentée,</l>
+                        <l n="1173"> Ma verra conserver tout ce que j’ai promis,</l>
+                        <l n="1174"> Et je ferai pâlir tes plus fiers ennemis.</l>
+                        <l n="1175"> Ma force, et ta vertu feront honte à leur vice ;</l>
+                        <l n="1176"> Je trouverai la gloire au milieu du supplice ;</l>
+                        <l n="1177"> Et toute leur puissance, et toute leur rigueur,</l>
+                        <l n="1178"> N’ébranlerons jamais, ton âme, ni mon cœur.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="1179"> Ha ! ce divin propos m’échauffe, et me ranime :</l>
+                        <l n="1180"> Après ‘lavoir goûté, la faiblesse est un crime :</l>
+                        <l n="1181"> Je pars, mon cher amour, je pars, mais résolu,</l>
+                        <l n="1182"> De mourir noblement, si le sort l’a voulu.</l>
+                </sp>
+        <sp who="#porcie">
+            <speaker> PORCIE. </speaker>
+                        <l n="1183"> Ma fin suivant la tienne (en étant éclaircie)[6]</l>
+                        <l n="1184"> Sera digne de Brute, et digne de Porcie.</l>
+                </sp>
+        <sp who="#brute">
+            <speaker> BRUTE. </speaker>
+                        <l n="1185"> Puisse le Ciel touché, par un désir si beau,</l>
+                        <l n="1186"> Nous rejoindre à la vie, ou du moins au tombeau.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="1187"> Oraison funèbre.</l>
+                        <l n="1188"> Le Grand César est mort ; se second Alexandre ;</l>
+                        <l n="1189"> (Hélas ! qui le croira) n’est plus qu’un peu de cendre :</l>
+                        <l n="1190"> Il montre l’urne où sont les cendres de César.</l>
+                        <l n="1191"> Et cette urne contient (ô triste souvenir)</l>
+                        <l n="1192"> Ce que tout l’Univers ne pouvait contenir.</l>
+                        <l n="1193"> Mais quel étrange sort le dérobe à la terre ?</l>
+                        <l n="1194"> Est-il mort dans son lit ? est-il mort à la guerre ?</l>
+                        <l n="1195"> Ou si la forte amour que les Dieux ont pour lui,</l>
+                        <l n="1196"> Sans mal, et sans douleur nous l’enlève aujourd’hui ?</l>
+                        <l n="1197"> Non, il a bien souffert un traitement plus rude,</l>
+                        <l n="1198"> Et de la perfidie et de l’ingratitude :</l>
+                        <l n="1199"> Je frissonne d’horreur d’y penser seulement ;</l>
+                        <l n="1200"> Et vous allez avoir le même sentiment.</l>
+                        <l n="1201"> Qu’on aille aux chauds des fers de l’ardente Libye,</l>
+                        <l n="1202"> Ou dans les vastes champs de l’affreuse Arabie,</l>
+                        <l n="1203"> Qu’on visite l’Afrique, et son peuple noirci,</l>
+                        <l n="1204"> On n’y verra jamais tant de monstres qu’ici.</l>
+                        <l n="1205"> Mais ces monstres encor ne sont pas ordinaires ;</l>
+                        <l n="1206"> Ils sont des plus cruels et des plus sanguinaires ;</l>
+                        <l n="1207"> Et pour vous faire voir que sans doute ils sont tels,</l>
+                        <l n="1208"> Ils font mourir César, le milieu des mortels.</l>
+                        <l n="1209"> Mais comme quoi mourir ? jamais la barbarie</l>
+                        <l n="1210"> Les Lions qu’on irrite, et qu’on met en furie,</l>
+                        <l n="1211"> Au milieu des Captifs, que leur rage a défaits,</l>
+                        <l n="1212"> N’a produit à vos yeux de si sanglants effets,</l>
+                        <l n="1213"> Vingt et trois fois leurs mains (si dignes de la flamme)</l>
+                        <l n="1214"> Ont ouvert le passage à sa généreuse âme,</l>
+                        <l n="1215"> Et César à la fin percé de tant de coups,</l>
+                        <l n="1216"> A perdu tout le sang qu’il conservait pour vous.</l>
+                        <l n="1217"> Ha ! l’excès de douleur, me coupe la parole ;</l>
+                        <l n="1218"> Et je m’afflige plus que je ne vous console :</l>
+                        <l n="1219"> Illustre, et grand César, tu m’entends avouer,</l>
+                        <l n="1220"> Qu’il faut que je me plaigne, au lieu de te louer.</l>
+                        <l n="1221"> Vingt et trois coups méchants ! au moins dites quel crime</l>
+                        <l n="1222"> A fait le Dictateur, et ce qui vous anime ?</l>
+                        <l n="1223"> Ils ne répondent rien ; et César n’est blâmé,</l>
+                        <l n="1224"> Que pour ce qu’il aimait, et qu’il était aimé.</l>
+                        <l n="1225"> Oui, peuple, votre amour lui a fait perdre la vie :</l>
+                        <l n="1226"> Car toujours l’innocence est sujette à l’envie :</l>
+                        <l n="1227"> Qui de tous les mortels, peut avec vérité,</l>
+                        <l n="1228"> Dire qu’il a souffert ce qu’il a mérité ?</l>
+                        <l n="1229"> Et qui peut justement se plaindre de cet homme,</l>
+                        <l n="1230"> Qui semblait s’immoler pour la grandeur de Rome ?</l>
+                        <l n="1231"> Démons[7] dont la fureur est sans comparaison,</l>
+                        <l n="1232"> Parlez, ils sont muets, à faute de raison :</l>
+                        <l n="1233"> Mais traîtres, cachez-vous dans le centre du monde,</l>
+                        <l n="1234"> Mesurez la grandeur de la terre et de l’onde,</l>
+                        <l n="1235"> Fuyez, fuyez toujours, tâchez de vous sauver,</l>
+                        <l n="1236"> Le bras puissant des Dieux vous saura bien trouver</l>
+                        <l n="1237"> Portant en votre sein l’oiseau de Prométhée,</l>
+                        <l n="1238"> Par un cuisant remord, votre âme tourmentée,</l>
+                        <l n="1239"> Vous faisant endurer des tourments éternels,</l>
+                        <l n="1240"> Vous serez les bourreaux comme les criminels. </l>
+                        <l n="1241"> Et vous, peuple Romain, perdez-vous la mémoire,</l>
+                        <l n="1242"> Que des mains de César vous tenez votre gloire ?</l>
+                        <l n="1243"> Ne vous souvient-il plus qu’il rangea sous vos lois,</l>
+                        <l n="1244"> Ces peuples aguerris, ces généreux Gaulois ?</l>
+                        <l n="1245"> Et que fendant les flots de l’ultime campagne,</l>
+                        <l n="1246"> Il porta votre nom dans le Grande-Bretagne,</l>
+                        <l n="1247"> Et fit voler votre Aigle, et régner en des lieux,</l>
+                        <l n="1248"> Qui n’étaient commandés ni connus que des Dieux ?</l>
+                        <l n="1249"> Que si l’on oubliait sa valeur infinie,</l>
+                        <l n="1250"> Afrique, Espagne, Grèce, Égypte, Germanie,</l>
+                        <l n="1251"> Et tant d’autres climats que César a domptés ;</l>
+                        <l n="1252"> Parlez de ces hauts faits, comme de ces bontés.</l>
+                        <l n="1253"> Tibre, qu’il a rendu le plus fameux des fleuves,</l>
+                        <l n="1254"> Toi qui vis la valeur, par de si belles preuves,</l>
+                        <l n="1255"> Dis-nous combine de fois César est retourné,</l>
+                        <l n="1256"> Dans le char de triomphe ; et combine couronné :</l>
+                        <l n="1257"> Mais comme une vertu semble en former une autre,</l>
+                        <l n="1258"> Il ne voulait du bien, que pour le faire vôtre :</l>
+                        <l n="1259"> Voyez comme l’amour qui conduisait sa main,</l>
+                        <l n="1260"> Comblait de ses bienfaits tout le peuple Romain</l>
+                        <l n="1261"> Lisez ce Testament ; </l>
+                        <l n="1262"> Il montre le testament de César.</l>
+                        <l n="1263"> il l’écrivit lui-même :</l>
+                        <l n="1264"> Ô d’un cœur libéral, magnificence extrême !</l>
+                        <l n="1265"> Il vous y donne à tous ; et l’un de ses meurtriers,</l>
+                        <l n="1266"> Se trouve encore mis entre ses héritiers.</l>
+                        <l n="1267"> Et quoi tant de faveur rend votre âme obligée,</l>
+                        <l n="1268"> Et sa funeste mort ne sera point vengée ?</l>
+                        <l n="1269"> Il faut se déclarer, sus dont, répondez-tous :</l>
+                        <l n="1270"> Il montre la robe de César au peuple.</l>
+                        <l n="1271"> C’EST LE SANG DE CÉSAR (ROMAINS) QUI PARLE À VOUS.</l>
+                        <l n="1272"> Voyez de son destin les pitoyables marques,</l>
+                        <l n="1273"> Qui virent à regret les yeux mêmes des Parques ;</l>
+                        <l n="1274"> Ne punirez-vous pas la rage de ces loups ?</l>
+                        <l n="1275"> C’EST LE SANG DE CÉSAR (ROMAINS) QUI PARLE À VOUS.</l>
+                        <l n="1276"> Quoi voulez-vous souffrir que les races futures,</l>
+                        <l n="1277"> En frémissant d’horreur de voir nos aventures</l>
+                        <l n="1278"> Vous blâme comme Brute, en manquant de courroux ?</l>
+                        <l n="1279"> C’EST LE SANG DE CÉSAR (ROMAINS) QUI PARLE À VOUS.</l>
+                        <l n="1280"> Au moins n’oubliez pas qu’Antoine plus fidèle,</l>
+                        <l n="1281"> Montrant votre devoir, fit paraître son zèle ;</l>
+                        <l n="1282"> Et que pour s’acquitter, il vous dit à genoux,</l>
+                        <l n="1283"> C’EST LE SANG DE CÉSAR (ROMAINS) QUI PARLE À VOUS.</l>
+                </sp>
+        <sp who="#calphurnie">
+            <speaker> CALPHURNIE  se met à genoux et hausse son voile. </speaker>
+                        <l n="1284"> Pour vous faire courir à de si justes armes,</l>
+                        <l n="1285"> Souffrez-moi de mêler ce sang avec mes larmes :</l>
+                        <l n="1286"> Et si quelque pitié règne en vos cœurs pour moi,</l>
+                        <l n="1287"> Gardez bien d’en avoir, de ces hommes sans foi.</l>
+                </sp>
+        <sp who="#un-citoyen">
+            <speaker> UN CITOYEN. </speaker>
+                        <l n="1288"> D’une lâche pitié nos cœurs sont incapables :</l>
+                        <l n="1289"> Qui défend les méchants, est au rang des coupables :</l>
+                        <l n="1290"> Allons, allons changer ce discours en effets ;</l>
+                        <l n="1291"> Et de ce même feu consumer leurs Palais.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#un-autre-citoyen">
+            <speaker> UN AUTRE CITOYEN </speaker>
+                        <l n="1292"> Il arrive.</l>
+                        <l n="1293"> Sénateurs, apprenez la plus grande merveille,</l>
+                        <l n="1294"> Qui peut-être jamais ait frappé votre oreille :</l>
+                        <l n="1295"> Hier au soir ennuyé de voir tant de méchants,</l>
+                        <l n="1296"> J’allai passer le nuit dans la douceur de champs :</l>
+                        <l n="1297"> Mais revenant au point que la clarté s’allume,</l>
+                        <l n="1298"> Mon œil a vu César, plus grand que de coutume[8],</l>
+                        <l n="1299"> D’un port majestueux, d’un regard éclatant,</l>
+                        <l n="1300"> Qui s’élevait sur Rome, et qui dans un instant,</l>
+                        <l n="1301"> Par cette agilité dont une âme est pourvue,</l>
+                        <l n="1302"> A traversé les airs, ayant lassé ma vue :</l>
+                        <l n="1303"> Mais au même moment s’est fait voir à mes yeux,</l>
+                        <l n="1304"> Un Astre tout nouveau qui brillait dans les Cieux,</l>
+                        <l n="1305"> Qu’aucun doute ici de ce rapport fidèle.</l>
+                </sp>
+        <sp who="#antoine">
+            <speaker> ANTOINE. </speaker>
+                        <l n="1306"> Bienheureux Messager ! agréable nouvelle !</l>
+                        <l n="1307"> Romains, Vénus sans doute, a mis en ce haut rang,</l>
+                        <l n="1308"> Celui que la Nature a tiré de son sang,</l>
+                        <l n="1309"> Ce grand neveu d’Énée[9], ou plutôt son mérité,</l>
+                        <l n="1310"> Qui trouvait parmi nous la terre trop petite,</l>
+                        <l n="1311"> Lui donne cette place entre les immortels,</l>
+                        <l n="1312"> Et nous demande à tous, l’Encens, et les Autels.</l>
+                        <l n="1313"> Qui voudrait refuser son cœur même en offrande,</l>
+                        <l n="1314"> À ce Dieu, qu’à fait tel une vertu si grande ?</l>
+                        <l n="1315"> Pour croire ce miracle, il ne faut point le voir</l>
+                        <l n="1316"> Mais, Romains, savez-vous quel est votre devoir ?</l>
+                        <l n="1317"> Deux sénateurs reprennent l’urne, un autre porte la robe de César et tous se retirent.</l>
+                        <l n="1318"> Puisqu’il a mérité de la Chose Publique ;</l>
+                        <l n="1319"> Qu’elle érige en son Nom un Temple magnifique,</l>
+                        <l n="1320"> Allons le desseigner : et qu’on sache en tous lieux,</l>
+                        <l n="1321"> QUE L’ILLUSTRE CÉSAR, EST AU NOMBRE DES DIEUX.</l>
+                        <l n="1322"> [1] Il entend les entrailles de Caton d’Utique.</l>
+                        <l n="1323"> [2] Il veut délivrer la République.</l>
+                        <l n="1324"> [3] Il prend fatal pour malheureux.</l>
+                        <l n="1325"> [4] Prodiges arrivés en la mort de César, pris de l’histoire.</l>
+                        <l n="1326"> [5] Il entend par libre, vicieux.</l>
+                        <l n="1327"> [6] Ce qu’elle dit regarde les charbons ardents qu’elle avala depuis.</l>
+                        <l n="1328"> [7] Il entend par Démons les meurtriers de César.</l>
+                        <l n="1329"> [8] Ce discours est tiré de l’histoire Romaine.</l>
+                        <l n="1330"> [9] César se disait de la race d’Énée, comme Antoine de celle d’Hercule.</l>
+                        <l n="1331"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

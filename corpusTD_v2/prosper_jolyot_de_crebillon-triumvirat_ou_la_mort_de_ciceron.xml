@@ -1,0 +1,2383 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Le Triumvirat</title>
+                <title type="sub">Tragédie</title>
+            <author>
+                <persName>
+                    <forename>Prosper</forename>
+                    <forename>Jolyot</forename>
+                    <linkname>de</linkname>
+                    <surname>Crébillon</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/?q=node/195 </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1754-12-23">Représentée pour la première fois, à Paris, sur le Théâtre de la rue des Fossés Saint-Germain, le 23 décembre 1754.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="octave-césar" sex="SEX">
+                            <persName>OCTAVE CÉSAR</persName>
+                        </person>
+                        <person xml:id="lépide" sex="SEX">
+                            <persName>LÉPIDE</persName>
+                        </person>
+                        <person xml:id="cicéron" sex="SEX">
+                            <persName>CICÉRON</persName>
+                        </person>
+                        <person xml:id="tullie" sex="SEX">
+                            <persName>TULLIE</persName>
+                        </person>
+                        <person xml:id="sextus" sex="SEX">
+                            <persName>SEXTUS</persName>
+                        </person>
+                        <person xml:id="mécène" sex="SEX">
+                            <persName>MÉCÈNE</persName>
+                        </person>
+                        <person xml:id="philippe" sex="SEX">
+                            <persName>PHILIPPE</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Tragédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q80930]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">LE TRIUMVIRAT</titlePart>
+            <titlePart type="sub">TRAGÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre de la rue des Fossés Saint-Germain, le 23 décembre 1754.</ab><!--@date="1754-12-23"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> À MADAME BIGNON, MAÎTRESSE DES REQUÈTES</salute>
+            </opener>
+        <p> Madame, </p>
+        <p> Vous dédier <em>le Triumvirat</em>, c’est offrir un enfant à sa mère : heureux, si vous vous en fussiez moins rapportée à moi pour son éducation ! plus heureux encore si vous eussiez pu le douer d’une portion de ce génie si sage et si éclairé qui fut votre partage, mais qu’une modestie portée jusqu’à l’excès vous force trop souvent de condamner à un silence injurieux pour vos amis ! Y en a-t-il qui se lassent de vous entendre ? Quand on sait si bien penser et si bien parler, je crois, Madame, qu’il est honteux de se taire. Je souhaite que ce reproche fasse plus d’effet sur vous que n’en ont fait sur moi vos judicieux avis ; mais on n’est pas poète impunément. Malgré un grand nombre de fautes que j’aurais pu éviter si je n’eusse consulté que vous, je me flatte que vous daignerez accepter sans répugnance l’hommage que je vous rends, avec serment d’être plus docile dans le nouvel ouvrage que vous me forcez d’entreprendre. Vouloir bien devenir à votre âge le précepteur d’un homme de quatre-vingt-un ans est un trait digne de vous. </p>
+        <p> Je suis avec le plus profond respect, </p>
+        <p> Madame, </p>
+        <p> Votre très humble et très obéissant serviteur. </p>
+        <p> JOLYOT DE CRÉBILLON. </p>
+    </div>
+           <div type="act" xml:id="1">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#tullie">
+            <speaker> TULLIE </speaker>
+                        <l n="1"> Où vais-je, infortunée ? et quel espoir me luit ?</l>
+                        <l n="2"> Que de cris ! que de pleurs ! et quelle affreuse nuit !</l>
+                        <l n="3"> Effroyable séjour des horreurs de la guerre,</l>
+                        <l n="4"> Lieux inondés du sang des maîtres de la terre,</l>
+                        <l n="5"> Lieux dont le seul aspect fit trembler tant de rois,</l>
+                        <l n="6"> Palais où Cicéron triompha tant de fois,</l>
+                        <l n="7"> Désormais trop heureux de cacher ce grand homme,</l>
+                        <l n="8"> Sauvez le seul Romain qui soit encor dans Rome.</l>
+            <stage><em>Apercevant le tableau des proscrits.</em></stage>
+                        <l n="9"> Que vois-je à la lueur de ce cruel flambeau ?</l>
+                        <l n="10"> Ah ! que de noms sacrés proscrits sur ce tableau !</l>
+                        <l n="11"> Rome, il ne manque plus, pour combler ta misère,</l>
+                        <l n="12"> Que d’y tracer le nom de mon malheureux père,</l>
+                        <l n="13"> Qu’on peut, sans t’offenser, nommer aussi le tien.</l>
+                        <l n="14"> Hélas ! après les dieux il est ton seul soutien.</l>
+            <stage><em>À la statue de César.</em></stage>
+                        <l n="15"> Toi, qui fis en naissant honneur à la nature,</l>
+                        <l n="16"> Sans avoir des vertus que l’heureuse imposture ;</l>
+                        <l n="17"> Trop aimable tyran, illustre ambitieux,</l>
+                        <l n="18"> Qui triompha du sort, de Caton et des dieux ;</l>
+                        <l n="19"> Brutus, s’il est ton fils, a plus fait pour ta gloire</l>
+            <stage><em>Elle montre le nom d’Octave à la tête des proscripteurs.</em></stage>
+                        <l n="20"> Que ce tigre adopté pour flétrir ta mémoire.</l>
+                        <l n="21"> César, vois à quel titre il prétend t’égaler :</l>
+                        <l n="22"> Mais c’est en proscrivant qu’il sait se signaler.</l>
+                        <l n="23"> Sacrifie à nos pleurs ce successeur profane ;</l>
+                        <l n="24"> Si ton cœur l’a choisi ta gloire le condamne :</l>
+                        <l n="25"> Ce n’est pas sous son nom qu’un glorieux burin</l>
+                        <l n="26"> Enchaînera jamais et la Seine et le Rhin.</l>
+                        <l n="27"> Sous un joug anobli par l’éclat de tes armes,</l>
+                        <l n="28"> Nous respirions du moins sans honte et sans alarmes.         </l>
+                        <l n="29"> Loin de rougir des fers qu’illustrait ta valeur,</l>
+                        <l n="30"> On se croyait paré des lauriers du vainqueur ;</l>
+                        <l n="31"> Mais sous le joug honteux et d’Antoine et d’Octave,</l>
+                        <l n="32"> Rome, arbitre des rois, va gémir en esclave.</l>
+                        <l n="33"> Quel spectacle nouveau vient me remplir d’effroi ?</l>
+            <stage><em>À la statue de Pompée.</em></stage>
+                        <l n="34"> Ah ! Pompée, est-ce là ce qui reste de toi ?</l>
+                        <l n="35"> Misérables débris de la grandeur humaine,</l>
+                        <l n="36"> Douloureux monument de vengeance et de haine,</l>
+                        <l n="37"> Plus on dispersera vos restes immortels,</l>
+                        <l n="38"> Et plus vous trouverez et d’encens et d’autels.</l>
+                        <l n="39"> Et toi, digne héritier d’un nom que Rome adore,</l>
+                        <l n="40"> Héros qu’en ses malheurs chaque jour elle implore,</l>
+                        <l n="41"> Pour nous venger d’Octave, accours, vaillant Sextus ;</l>
+                        <l n="42"> À ce nouveau César sois un nouveau Brutus :</l>
+                        <l n="43"> Octave est si cruel, qu’il rendrait légitime</l>
+                        <l n="44"> Ce qui même à ses yeux pourrait paraître un crime...</l>
+                        <l n="45"> Mais dans l’obscurité qu’est-ce que j’entrevois ?</l>
+                        <l n="46"> Hélas ! que je le plains ! c’est le chef des Gaulois.</l>
+                        <l n="47"> Tandis que pour mon père il expose sa vie,</l>
+                        <l n="48"> Mon père pour jamais va lui ravir Tullie.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="49"> Que cherchez-vous ici, généreux Clodomir ?</l>
+                </sp>
+        <sp who="#clodomir">
+            <speaker> CLODOMIR. </speaker>
+                        <l n="50"> Ce que les malheureux cherchent tous, à mourir.</l>
+                        <l n="51"> Madame, c’en est fait, la colère céleste</l>
+                        <l n="52"> Va bientôt des Romains détruire ce qui reste.</l>
+                        <l n="53"> Le jour n’éclaire plus que des objets affreux,</l>
+                        <l n="54"> Et l’air ne retentit que de cris douloureux :</l>
+                        <l n="55"> Les autels ne sont plus qu’un refuge effroyable</l>
+                        <l n="56"> Que souille impunément le glaive impitoyable.</l>
+                        <l n="57"> Un tribun massacré par ses propres soldats</l>
+                        <l n="58"> Ne sert que de signal pour d’autres attentats.</l>
+                        <l n="59"> Un fils, presque à mes yeux, vient de livrer son père :</l>
+                        <l n="60"> J’ai vu ce même fils égorgé par sa mère.</l>
+                        <l n="61"> On ne voit que des corps mutilés et sanglants,</l>
+                        <l n="62"> Des esclaves traîner leurs maîtres expirants.</l>
+                        <l n="63"> Le carnage assouvi réchauffe le carnage.</l>
+                        <l n="64"> J’ai vu des furieux dont la haine et la rage</l>
+                        <l n="65"> Se disputaient des cœurs encor tout palpitants :</l>
+                        <l n="66"> On dirait à les voir l’un l’autre s’excitants,</l>
+                        <l n="67"> Déployer à l’envi leur fureur meurtrière,</l>
+                        <l n="68"> Que c’est le dernier jour de la nature entière ; </l>
+                        <l n="69"> Et pour comble de maux dans ces cruels instants,</l>
+                        <l n="70"> Rien ne m’annonce ici les secours que j’attends.</l>
+                        <l n="71"> D’infortunés proscrits, une troupe choisie</l>
+                        <l n="72"> Va bientôt par mes soins se trouver dans Ostie.</l>
+                        <l n="73"> J’ai sauvé Messala, Métellus et Pison ;</l>
+                        <l n="74"> Mais ce n’est rien pour moi si je n’ai Cicéron ;</l>
+                        <l n="75"> C’est à ce tendre soin que mon amour s’applique,</l>
+                        <l n="76"> Pour sauver à la fois vous et la république.</l>
+                        <l n="77"> Fuyez, belle Tullie, et daignez un moment</l>
+                        <l n="78"> Vous attendrir aux pleurs d’un malheureux amant.</l>
+                        <l n="79"> C’est pour vous, digne objet qui causez mes alarmes,</l>
+                        <l n="80"> Que le plus fier des cœurs a pu verser des larmes.</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="81"> Moi, fuir ! Ah, Clodomir, c’est en moi, dans mon sein,</l>
+                        <l n="82"> Que Rome doit trouver son salut ou sa fin.</l>
+                        <l n="83"> Les pleurs, pour m’ébranler, sont de trop faibles armes :</l>
+                        <l n="84"> La vie a ses attraits, mais la mort a ses charmes.</l>
+                </sp>
+        <sp who="#clodomir">
+            <speaker> CLODOMIR. </speaker>
+                        <l n="85"> N’accablez point, Tullie, une âme au désespoir.</l>
+                        <l n="86"> Si ma douleur n’a rien qui vous puisse émouvoir,</l>
+                        <l n="87"> Écoutez-moi du moins en ce moment funeste.</l>
+                        <l n="88"> De ce père si cher, le seul bien qui vous reste,</l>
+                        <l n="89"> L’implacable Fulvie a juré le trépas ;</l>
+                        <l n="90"> Vous la verrez bientôt l’arracher de vos bras,</l>
+                        <l n="91"> Et couvrir de son sang cette auguste retraite,</l>
+                        <l n="92"> Qui n’est pour Cicéron ni sûre ni secrète.</l>
+                        <l n="93"> Octave a découvert qu’il était en ces lieux :</l>
+                        <l n="94"> Rien n’échappe aux regards de cet ambitieux.</l>
+                        <l n="95"> Dangereux et prudent, plus adroit que sincère,          </l>
+                        <l n="96"> Il ne s’attachera qu’à tromper votre père.</l>
+                        <l n="97"> Mécène est avec lui. Ce sage courtisan,</l>
+                        <l n="98"> Peu digne du malheur de servir un tyran,</l>
+                        <l n="99"> Vient flatter Cicéron d’une faveur ouverte,</l>
+                        <l n="100"> Sans savoir que peut-être, il travaille à sa perte.</l>
+                        <l n="101"> Octave vous adore, et prétend, à son tour,</l>
+                        <l n="102"> Que votre père et vous couronniez son amour.</l>
+                        <l n="103"> Et moi, qui vous aimais plus qu’on n’aime la vie,</l>
+                        <l n="104"> Je vous perds avec elle, adorable Tullie.</l>
+                        <l n="105"> Votre hymen mettra fin à leur division,</l>
+                        <l n="106"> Et c’est mon sang qui va sceller leur union.</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="107"> Votre sang ! Ah ! croyez qu’il n’est point de puissance</l>
+                        <l n="108"> Que je n’ose braver ici pour sa défense.</l>
+                        <l n="109"> Eh ! quel sang fut jamais si précieux pour nous ?</l>
+                        <l n="110"> Est-il quelque Romain qui le soit plus que vous ?</l>
+                        <l n="111"> Clodomir, il est temps de vous ouvrir mon âme.</l>
+                        <l n="112"> J’ai vu sans m’offenser éclater votre flamme :</l>
+                        <l n="113"> J’ai souffert sans courroux qu’un amour malheureux,</l>
+                        <l n="114"> Malgré ma dignité, m’entretînt de ses feux ;</l>
+                        <l n="115"> Et cédant sans effort au penchant invincible</l>
+                        <l n="116"> Qui triomphait d’un cœur si longtemps insensible,</l>
+                        <l n="117"> Mon devoir contre vous n’a jamais combattu.</l>
+                        <l n="118"> L’amour pour vos pareils devient une vertu ;</l>
+                        <l n="119"> Et la vôtre d’accord avec mon innocence,</l>
+                        <l n="120"> Ne m’a point fait rougir de ma reconnaissance.</l>
+                        <l n="121"> Je ne vous cache point que mes vœux les plus doux</l>
+                        <l n="122"> Se bornaient à l’espoir de vous voir mon époux ;</l>
+                        <l n="123"> Mais vous n’ignorez pas que la fierté romaine</l>
+                        <l n="124"> Jamais dans ses hymens n’admet ni roi ni reine ;</l>
+                        <l n="125"> Qu’étranger, et surtout sorti du sang des rois,</l>
+                        <l n="126"> Notre union ne peut dépendre de mon choix.</l>
+                        <l n="127"> Parmi tant de malheurs que nous avons à craindre,</l>
+                        <l n="128"> De celui-ci mon cœur n’aurait osé se plaindre,</l>
+                        <l n="129"> Si ce cœur pénétré de vos soins généreux,</l>
+                        <l n="130"> N’avait cru vous devoir de si tendres aveux.</l>
+                        <l n="131"> C’en est fait, Clodomir : la fortune inhumaine</l>
+                        <l n="132"> Vient de briser les nœuds d’une innocente chaîne.</l>
+                        <l n="133"> Plaignez-moi, plaignez-vous ; mais respectez mon cœur,</l>
+                        <l n="134"> Ses regrets, son devoir, sa gloire et sa candeur.</l>
+                        <l n="135"> Un rival... (à ces mots, ne craignez rien d’Octave ;</l>
+                        <l n="136"> Un tyran à mes yeux ne vaut pas un esclave) ;</l>
+                        <l n="137"> Un rival plus heureux va causer nos malheurs            ;</l>
+                        <l n="138"> Et ne n’oserai plus vous donner que des pleurs.</l>
+                        <l n="139"> Pour la dernière fois, écoutez leur langage :</l>
+                        <l n="140"> Votre amour n’en doit pas exiger davantage.</l>
+                        <l n="141"> Le fils du grand Pompée... Hélas ! que n’est-ce vous !</l>
+                        <l n="142"> Que j’eusse avec plaisir accepté mon époux !</l>
+                        <l n="143"> C’est vous en dire assez, et j’en dis trop peut-être.</l>
+                        <l n="144"> Adieu. Bientôt Sextus en ces lieux va paraître ;</l>
+                        <l n="145"> Consultez mon devoir... Ah ! fuyez, Clodomir :</l>
+                        <l n="146"> Quelqu’un vient, et je crois que c’est un triumvir.</l>
+                        <l n="147"> Mon père vous attend.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#lépide">
+            <speaker> LÉPIDE. </speaker>
+                        <l n="148"> Vertueuse Tullie,</l>
+                        <l n="149"> Arrêtez un moment ; c’est moi qui vous en prie.</l>
+                        <l n="150"> Confondez-vous Lépide avec des furieux,</l>
+                        <l n="151"> Opprobres à la fois des hommes et des dieux ?          </l>
+                        <l n="152"> Triumvir malgré moi, tyran sans barbarie,</l>
+                        <l n="153"> Je venais avec vous pleurer sur la patrie,</l>
+                        <l n="154"> Et dire à votre père un éternel adieu.    </l>
+                        <l n="155"> Ma vertu souffre trop en ce funeste lieu,</l>
+                        <l n="156"> Dont je ne puis chasser mes collègues impies,</l>
+                        <l n="157"> Monstres dans les enfers nourris par les Furies ;</l>
+                        <l n="158"> Et le sénat en proie à ces deux inhumains,</l>
+                        <l n="159"> Me charge des forfaits réservés à leurs mains.</l>
+                        <l n="160"> Tandis que nos malheurs sont leur unique ouvrage,</l>
+                        <l n="161"> La haine et le mépris vont être mon partage.</l>
+                        <l n="162"> Sur un honteux soupçon, et si peu mérité,</l>
+                        <l n="163"> Du cœur de Cicéron j’attends plus d’équité.</l>
+                        <l n="164"> Mais de ces lieux cruels il faut que je m’exile :</l>
+                        <l n="165"> Dans l’Espagne, où j’ai su me choisir un asile,</l>
+                        <l n="166"> Je vais chercher, madame, un ciel moins corrompu,</l>
+                        <l n="167"> Pour sauver mon honneur, mon nom, et ma vertu.</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="168"> Ah ! la vertu qui fuit ne vaut pas le courage</l>
+                        <l n="169"> Du crime audacieux qui sait braver l’orage.</l>
+                        <l n="170"> Que peut craindre un Romain des caprices du sort,</l>
+                        <l n="171"> Tant qu’il lui reste un bras pour se donner la mort ?</l>
+                        <l n="172"> Avez-vous oublié que Rome est votre mère ?</l>
+                        <l n="173"> Demeurez, imitez l’exemple de mon père ;</l>
+                        <l n="174"> Et de votre vertu ne nous vantez l’éclat</l>
+                        <l n="175"> Qu’après une victoire, ou du moins un combat.</l>
+                        <l n="176"> On n’encensa jamais la vertu fugitive,</l>
+                        <l n="177"> Et celle d’un Romain doit être plus active :</l>
+                        <l n="178"> On ne le reconnaît qu’à son dernier soupir.</l>
+                        <l n="179"> Son honneur est de vaincre, et vaincu de mourir :</l>
+                        <l n="180"> De toute autre vertu rejetez le mensonge.</l>
+                        <l n="181"> La mort pour un Romain n’est que la fin d’un songe.</l>
+                        <l n="182"> Mais Cicéron qui vient vous dira mieux que moi</l>
+                        <l n="183"> Qu’un grand homme n’est rien, s’il ne l’est que pour soi.</l>
+            <stage><em>Elle sort.</em></stage></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="184"> Près de voir consommer mon destin déplorable.</l>
+            <stage><em>Montrant le tableau des proscrits.</em></stage>
+                        <l n="185"> Et parer de mon nom cette odieuse table,</l>
+                        <l n="186"> Je ne m’attendais pas qu’un lâche triumvir</l>
+                        <l n="187"> Vînt m’apporter lui-même un ordre de mourir.</l>
+                        <l n="188"> Hélas ! c’est aujourd’hui tout ce que je désire :</l>
+                        <l n="189"> Vous n’aurez pas besoin, cruel, de me proscrire.</l>
+                </sp>
+        <sp who="#lépide">
+            <speaker> LÉPIDE. </speaker>
+                        <l n="190"> Rendez plus de justice aux soins d’un tendre ami.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="191"> Eh ! quel autre dessein peut vous conduire ici ?</l>
+                        <l n="192"> Lépide, est-ce bien vous ? Quoi ! ce même Lépide    </l>
+                        <l n="193"> Qui s’enorgueillissait d’une vertu rigide,</l>
+                        <l n="194"> De nos derniers malheurs sacrilège artisan,</l>
+                        <l n="195"> À mes yeux indignés n’offre plus qu’un tyran !</l>
+                </sp>
+        <sp who="#lépide">
+            <speaker> LÉPIDE. </speaker>
+                        <l n="196"> Cicéron, respectez l’amitié qui nous lie :</l>
+                        <l n="197"> La mienne vous révère, et la vôtre s’oublie.</l>
+                        <l n="198"> Quoi ! si savant dans l’art de lire au fond des cœurs,</l>
+                        <l n="199"> C’est vous qui des tyrans m’imputez les fureurs !</l>
+                        <l n="200"> Ah ! de leur cruauté loin que je sois complice,</l>
+                        <l n="201"> Il n’est point de moments où mon cœur n’en gémisse.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="202"> Faites moins éclater une feinte douleur</l>
+                        <l n="203"> Qui ne sert qu’à prouver que vous manquez de cœur.</l>
+                        <l n="204"> Pourquoi donc vous unir à la toute-puissance,</l>
+                        <l n="205"> Dès que vous n’en pouvez réprimer la licence,</l>
+                        <l n="206"> Ni soutenir un rang qui doit régler vos pas ?</l>
+                        <l n="207"> Si votre cœur est pur, vos mains ne le sont pas.</l>
+                        <l n="208"> Le sang coule à vos yeux, vous n’osez le défendre ;</l>
+                        <l n="209"> C’est vous qui le versez en le laissant répandre ;</l>
+                        <l n="210"> D’Antoine et de César collègue sans honneur,</l>
+                        <l n="211"> Lorsque vous en pourriez devenir la terreur,</l>
+                        <l n="212"> À peine vous osez disputer votre tête,</l>
+                        <l n="213"> Trop heureux en fuyant d’éviter la tempête !   </l>
+                        <l n="214"> Inutile tyran d’un peuple malheureux,</l>
+                        <l n="215"> Soyez du moins pour nous un tyran courageux ;</l>
+                        <l n="216"> Et, si c’est à régner que votre cœur aspire,</l>
+                        <l n="217"> Sauvez donc les sujets qui forment votre empire.</l>
+                        <l n="218"> Unissons nos efforts et notre désespoir :</l>
+                        <l n="219"> Du sénat expirant ranimons le pouvoir.</l>
+                        <l n="220"> Lorsque de Rome en feu, ses cris se font entendre,</l>
+                        <l n="221"> Attendez-vous sa fin pour pleurer sur sa cendre ?</l>
+                        <l n="222"> Ouvrez les yeux, Lépide, et revenez à vous.</l>
+                        <l n="223"> Rome en pleurs avec moi vous implore à genoux.</l>
+                        <l n="224"> Devenons tour à tour pères de la patrie,</l>
+                        <l n="225"> Et rendons aux Romains une nouvelle vie.</l>
+                        <l n="226"> Dussions-nous à la mort nous livrer sans succès,</l>
+                        <l n="227"> Nous revivrons tous deux pour ne mourir jamais.</l>
+                </sp>
+        <sp who="#lépide">
+            <speaker> LÉPIDE. </speaker>
+                        <l n="228"> Pour le salut de Rome inutile espérance !</l>
+                        <l n="229"> Abandonnez aux dieux le soin de sa défense.</l>
+                        <l n="230"> Il n’est plus de Romains, ni de lois, ni d’état ;</l>
+                        <l n="231"> C’est votre nom lui seul qui fait tout le sénat.</l>
+                        <l n="232"> Romain trop vertueux, dans ce malheur extrême,</l>
+                        <l n="233"> Ne songez qu’à sauver votre fille et vous-même.</l>
+                        <l n="234"> Tout l’univers en vain s’intéresse à vos jours,</l>
+                        <l n="235"> Si la fureur d’Antoine en veut trancher le cours.</l>
+                        <l n="236"> Échauffé par les cris d’une femme inhumaine</l>
+                        <l n="237"> Que des fleuves de sang satisferaient à peine,</l>
+                        <l n="238"> Ce cruel veut vous mettre au nombre des proscrits,</l>
+                        <l n="239"> Et vous pouvez juger quel en sera le prix.</l>
+                        <l n="240"> Je crains qu’à vos dépens Octave ne se venge,</l>
+                        <l n="241"> Et que de Lucius vous ne soyez l’échange.</l>
+                        <l n="242"> Octave, qui poursuit l’oncle du triumvir,</l>
+                        <l n="243"> Ne se rendra jamais qu’on ne l’ait fait mourir ;</l>
+                        <l n="244"> Et l’on n’apaisera la haine de Fulvie</l>
+                        <l n="245"> Que de tout votre sang on ne l’ait assouvie.</l>
+                        <l n="246"> Il est vrai que contre eux Octave vous défend ;</l>
+                        <l n="247"> Mais de ses intérêts son amitié dépend.</l>
+                        <l n="248"> La seule ambition gouverna sa jeunesse,</l>
+                        <l n="249"> Et le gouvernera jusques dans sa vieillesse.</l>
+                        <l n="250"> Ainsi n’attendez rien de ce volage appui,</l>
+                        <l n="251"> Que vous perdrez demain, si ce n’est aujourd’hui.</l>
+                        <l n="252"> J’ai fixé mon séjour sur les rives du Tage :</l>
+                        <l n="253"> C’est sur ces bords heureux devenus mon partage,</l>
+                        <l n="254"> D’un pouvoir usurpé restes injurieux,</l>
+                        <l n="255"> Que je veux transporter Cicéron et mes dieux.</l>
+                        <l n="256"> Venez y partager l’empire et ma fortune,</l>
+                        <l n="257"> Qu’une tendre amitié doit nous rendre commune.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="258"> Qu’entends-je ?</l>
+                </sp>
+        <sp who="#lépide">
+            <speaker> LÉPIDE. </speaker>
+                        <l n="259"> Et dans ces lieux quel est donc votre espoir ?</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="260"> J’y veux avec le mien remplir votre devoir ;</l>
+                        <l n="261"> J’y veux faire moi seul, ce qu’y doit faire un homme</l>
+                        <l n="262"> Qui veut mourir pour Rome, ou mourir avec Rome.</l>
+                        <l n="263"> Vous croyez, je le vois, parler au Cicéron</l>
+                        <l n="264"> De qui la fermeté n’illustra point le nom ;</l>
+                        <l n="265"> Mais je vous ferai voir que ma seule sagesse</l>
+                        <l n="266"> Me fit, sur ma douceur soupçonner de faiblesse.</l>
+                        <l n="267"> Dans les temps orageux où mon autorité</l>
+                        <l n="268"> N’avait dans le sénat qu’un pouvoir limité,</l>
+                        <l n="269"> Je laissai de Sylla triompher l’insolence.</l>
+                        <l n="270"> Le respect sur César m’imposa le silence ;</l>
+                        <l n="271"> Et ce même César prouve que la douceur</l>
+                        <l n="272"> Peut, ainsi que la gloire, habiter un grand cœur.</l>
+                        <l n="273"> Quand par des soins prudents j’ai conjuré l’orage,</l>
+                        <l n="274"> Si l’on m’a reproché de manquer de courage,</l>
+                        <l n="275"> Les désordres présents, ma mort, et mes revers</l>
+                        <l n="276"> Vont me justifier aux yeux de l’univers.</l>
+                </sp>
+        <sp who="#lépide">
+            <speaker> LÉPIDE. </speaker>
+                        <l n="277"> Et sur quoi voulez-vous que l’on vous justifie ?</l>
+                        <l n="278"> Vivez pour illustrer encor plus votre vie.</l>
+                        <l n="279"> Je crains un désespoir. Ah ! mon cher Cicéron,</l>
+                        <l n="280"> Le ciel ne vous fit point pour imiter Caton.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="281"> L’exemple de Caton serait honteux à suivre :</l>
+                        <l n="282"> Plus le malheur est grand, plus il est grand de vivre.</l>
+                </sp>
+        <sp who="#lépide">
+            <speaker> LÉPIDE. </speaker>
+                        <l n="283"> Voilà les sentiments qu’a dû vous inspirer</l>
+                        <l n="284"> Cette gloire où vous seul avez droit d’aspirer.</l>
+                        <l n="285"> Mais laissez-moi le soin d’une tête si chère :</l>
+                        <l n="286"> Daignez me confier et la fille et le père :</l>
+                        <l n="287"> Que je puisse, en sauvant des jours si précieux,</l>
+                        <l n="288"> Me flatter avec vous d’un retour en ces lieux.</l>
+                        <l n="289"> Conservons au Sénat un ami si fidèle,</l>
+                        <l n="290"> À Rome, un magistrat qui fût si digne d’elle :</l>
+                        <l n="291"> Dans notre exil commun venez me consoler.</l>
+                        <l n="292"> Voulez-vous qu’à mes yeux je vous voie immoler ?</l>
+                        <l n="293"> D’Octave prévenant redoutez les finesses ;</l>
+                        <l n="294"> Mais craignez encor moins son art que ses promesses.</l>
+                        <l n="295"> Je vais guider vos pas en des lieux écartés</l>
+                        <l n="296"> Où l’on ne peut jamais vous découvrir.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="297"> Partez :</l>
+                        <l n="298"> J’aurai moins à rougir de me donner un maître           ,</l>
+                        <l n="299"> Que de suivre un ami si peu digne de l’être.</l>
+                        <l n="300"> Que César me soutienne ou me manque de foi,</l>
+                        <l n="301"> Antoine, vous, et lui, tout est égal pour moi.</l>
+                        <l n="302"> Si le destin me garde une fin malheureuse,</l>
+                        <l n="303"> La fuite ne pourrait que la rendre honteuse.</l>
+                        <l n="304"> Je n’ai connu qu’un bien ; c’était la liberté :</l>
+                        <l n="305"> Je l’ai perdu. Grands dieux ! qui me l’avez ôté,</l>
+                        <l n="306"> Que ne m’arrachiez-vous une importune vie</l>
+                        <l n="307"> Qu’en vain votre courroux réserve à l’infamie ?</l>
+                </sp>
+        <sp who="#lépide">
+            <speaker> LÉPIDE. </speaker>
+                        <l n="308"> Je ne vous presse plus, mais avant mon départ,</l>
+                        <l n="309"> D’un secret important je veux vous faire part.</l>
+                        <l n="310"> Sextus, que l’on croyait au rivage d’Ostie,</l>
+                        <l n="311"> Est depuis quelque temps caché dans l’Italie :</l>
+                        <l n="312"> Je soupçonne de plus qu’il pourrait être ici.</l>
+                        <l n="313"> Gardez-vous d’embrasser ce dangereux parti.</l>
+                        <l n="314"> Celui des conjurés serait moins sûr encore :</l>
+                        <l n="315"> Ce sont des assassins que l’univers abhorre ;</l>
+                        <l n="316"> Et, si jamais César peut découvrir Sextus,</l>
+                        <l n="317"> Vous vous perdez tous deux ainsi que Métellus.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="318"> Que m’importe Sextus ? et que voulez-vous dire ?</l>
+                </sp>
+        <sp who="#lépide">
+            <speaker> LÉPIDE. </speaker>
+                        <l n="319"> Ce que pour vous sauver mon amitié m’inspire.</l>
+                        <l n="320"> En vain vous prétendez, sous le nom d’un Gaulois,</l>
+                        <l n="321"> Nous cacher un guerrier connu par tant d’exploits.</l>
+                        <l n="322"> Cicéron, mon dessein n’est pas de vous surprendre :</l>
+                        <l n="323"> Je sais tout, j’ai tout vu ; cessez de vous défendre.</l>
+                        <l n="324"> J’ai trop aimé Pompée, et trop connu ses fils,</l>
+                        <l n="325"> Pour croire qu’à Sextus mes yeux se soient mépris :</l>
+                        <l n="326"> Je viens de l’entrevoir.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="327"> Eh bien ! si de son père</l>
+                        <l n="328"> La mémoire aujourd’hui peut vous être encor chère,</l>
+                        <l n="329"> Loin de rougir des biens qu’il répandit sur vous,</l>
+                        <l n="330"> Qu’un noble souvenir vous les rappelle tous.</l>
+                        <l n="331"> De ce nom si vanté ranimons la puissance,</l>
+                        <l n="332"> Et d’un fils malheureux embrassez la défense ;</l>
+                        <l n="333"> Détruisons les tyrans et le triumvirat,</l>
+                        <l n="334"> Ou formons-en un autre appuyé du sénat.</l>
+                        <l n="335"> Qu’aux transports d’un ami votre vertu réponde ;</l>
+                        <l n="336"> Devenons les soutiens et les maîtres du monde ;</l>
+                        <l n="337"> Mais ne le soumettons à notre autorité</l>
+                        <l n="338"> Que pour donner aux lois toute leur liberté.</l>
+                </sp>
+        <sp who="#lépide">
+            <speaker> LÉPIDE. </speaker>
+                        <l n="339"> De ce rare projet j’admire la noblesse :</l>
+                        <l n="340"> J’en conçois la grandeur encor mieux la faiblesse.</l>
+                        <l n="341"> Je vois des généraux qui n’auront pour soldats</l>
+                        <l n="342"> Que des proscrits errant de climats en climats.</l>
+                        <l n="343"> Croyez-moi, Cicéron ; votre unique espérance</l>
+                        <l n="344"> Est de pouvoir d’Antoine éviter la vengeance.</l>
+                        <l n="345"> Fuyez avec Sextus, ou fuyez avec moi.</l>
+                        <l n="346"> Choisissez l’un de nous, et comptez sur ma foi ;        </l>
+                        <l n="347"> Mais pour jamais de Rome il faut que je m’exile.</l>
+                        <l n="348"> Pour la dernière fois, je vous offre un asile.</l>
+                        <l n="349"> Adieu.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#cicéron">
+            <speaker> CICÉRON </speaker>
+                        <l n="350"> Faible tyran, garde pour tes pareils</l>
+                        <l n="351"> Ton amitié, tes soins, ta honte, et tes conseils ;</l>
+                        <l n="352"> Lâche, plus digne encor de mépris que de haine !...</l>
+                        <l n="353"> Déjà le jour plus grand m’annonce que Mécène,</l>
+                        <l n="354"> Qui dans ce trouble affreux s’intéresse à la paix,</l>
+                        <l n="355"> Doit être dès longtemps rentré dans ce palais :</l>
+                        <l n="356"> Allons. Mais il est temps que j’instruise ma fille</l>
+                        <l n="357"> D’un secret qui peut perdre ou sauver ma famille.</l>
+                        <l n="358"> Sur nos desseins communs craignons moins d’alarmer</l>
+                        <l n="359"> Un grand cœur qui sait plus que de savoir aimer.</l>
+                        <l n="360"> De ses frayeurs pour moi, Sextus qui se défie</l>
+                        <l n="361"> Ne connaît pas encor tout le cœur de Tullie.</l>
+                        <l n="362"> Non, ne lui laissons plus ignorer un secret</l>
+                        <l n="363"> Que ma tendre amitié lui cachait à regret.</l>
+                        <l n="364"> Clodomir, devenu le fils du grand Pompée,</l>
+                        <l n="365"> Ne pourra me blâmer de l’avoir détrompée.</l>
+                        <l n="366"> Unissons-les ; donnons à César un rival</l>
+                        <l n="367"> Dont le nom seul pourra lui devenir fatal.</l>
+                        <l n="368"> Essayons cependant de fléchir un barbare,      </l>
+                        <l n="369"> Pour suspendre les coups que sa main nous prépare ;</l>
+                        <l n="370"> Mais, s’il veut s’emparer du pouvoir souverain,</l>
+                        <l n="371"> À son ambition nous pourrons mettre un frein.</l>
+                        <l n="372"> Dieu puissant des Romains, indomptable génie,</l>
+                        <l n="373"> Aujourd’hui dieu du meurtre et de la tyrannie,</l>
+                        <l n="374"> Si je ne puis changer tes décrets immortels,</l>
+                        <l n="375"> Fais-moi du moins mourir aux pieds de tes autels.</l></div></div>
+           <div type="act" xml:id="2">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="376"> Oui, Mécène, je sais qu’une ardente vengeance</l>
+                        <l n="377"> A souvent confondu le crime et l’innocence ;</l>
+                        <l n="378"> Qu’à des yeux prévenus le mal paraît un bien ;</l>
+                        <l n="379"> Que la haine est injuste et n’examine rien :</l>
+                        <l n="380"> Mais je sais encor mieux qu’une aveugle clémence,</l>
+                        <l n="381"> Loin d’arrêter le crime en nourrit la licence.</l>
+                        <l n="382"> Plus on doit épargner les hommes vertueux,</l>
+                        <l n="383"> Plus il faut des méchants faire un exemple affreux.</l>
+                        <l n="384"> Quel que soit mon courroux, il est si légitime</l>
+                        <l n="385"> Qu’il ne me permet pas le choix d’une victime.</l>
+                        <l n="386"> Le seul infortuné digne de mes regrets,</l>
+                        <l n="387"> Dont la mort flétrirait à jamais nos décrets,</l>
+                        <l n="388"> C’est l’orateur fameux pour qui Rome m’implore,</l>
+                        <l n="389"> Et qu’un funeste amour me rend plus cher encore,    </l>
+                        <l n="390"> Le divin Cicéron, dont le nom glorieux</l>
+                        <l n="391"> Triomphera toujours dans ces augustes lieux.</l>
+                        <l n="392"> Je veux le rendre aux pleurs de l’aimable Tullie,</l>
+                        <l n="393"> Et le sauver des coups de l’indigne Fulvie.</l>
+                        <l n="394"> Tu l’as vu cette nuit : conçois-tu quelque espoir</l>
+                        <l n="395"> Qu’il veuille en ma faveur employer son pouvoir ?</l>
+                        <l n="396"> Il est bon qu’en public il prenne ma défense,</l>
+                        <l n="397"> Pour disposer le peuple à plus d’obéissance,</l>
+                        <l n="398"> Et que par ses amis il inspire au sénat</l>
+                        <l n="399"> De réunir en moi tout le triumvirat.</l>
+                        <l n="400"> César, pour rétablir l’État en décadence,          </l>
+                        <l n="401"> Crut devoir s’emparer de la toute-puissance ;</l>
+                        <l n="402"> Il sentit, et j’ai dû le sentir comme lui,</l>
+                        <l n="403"> Qu’il ne faut aux Romains qu’un seul maître aujourd’hui.</l>
+                </sp>
+        <sp who="#mécène">
+            <speaker> MÉCÈNE. </speaker>
+                        <l n="404"> Cicéron désormais n’a qu’un désir unique ;</l>
+                        <l n="405"> C’est de vous voir, Seigneur, sauver la république,</l>
+                        <l n="406"> D’Antoine qu’il méprise abaisser la grandeur,</l>
+                        <l n="407"> Devenir du sénat l’âme et le protecteur :</l>
+                        <l n="408"> Sur tout autre projet il sera peu flexible.</l>
+                        <l n="409"> Cependant à vos soins il m’a paru sensible.</l>
+                        <l n="410"> Essayez d’engager ce fier républicain</l>
+                        <l n="411"> À vous laisser jouir du pouvoir souverain :</l>
+                        <l n="412"> C’est sur ce point qu’il faut le vaincre ou le séduire.</l>
+                        <l n="413"> Cicéron, dès qu’il peut vous servir ou vous nuire,     </l>
+                        <l n="414"> Ne vous laisse qu’un choix, le perdre ou le sauver.</l>
+                        <l n="415"> Le plus digne de vous est de le conserver.</l>
+                        <l n="416"> Son amitié, son nom, ses conseils, sa prudence,</l>
+                        <l n="417"> Son crédit au sénat, surtout son éloquence,</l>
+                        <l n="418"> Deviendraient votre appui dans un péril pressant.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="419"> Rien n’est si dangereux dans un état naissant,</l>
+                        <l n="420"> Que ces hommes de bien que le public admire ;</l>
+                        <l n="421"> Qui, sur le préjugé d’un vertueux délire,</l>
+                        <l n="422"> N’embrassent le parti des autels ou des lois,</l>
+                        <l n="423"> Que pour tyranniser les peuples ou les rois.</l>
+                        <l n="424"> J’aperçois Cicéron ; laisse-nous seuls, Mécène.</l>
+            <stage><em>À part.</em></stage>
+                        <l n="425"> Que sa douleur me trouble et me cause de peine !</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="426"> À votre nom célèbre on doit trop de respect,</l>
+                        <l n="427"> Pour croire que le mien vous puisse être suspect.</l>
+                        <l n="428"> Quoique des triumvirs il ait lieu de se plaindre,</l>
+                        <l n="429"> Cicéron près de moi sait qu’il n’a rien à craindre.</l>
+                        <l n="430"> Comme il s’agit de Rome, à ce nom si chéri</l>
+                        <l n="431"> Je suis sûr de trouver votre cœur attendri,</l>
+                        <l n="432"> Et que vous me verrez ici sans répugnance.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="433"> Comment avez-vous pu désirer ma présence ?</l>
+                        <l n="434"> César, en quel état vous offrez-vous à moi ?</l>
+                        <l n="435"> Ah ! ce n’est ni son fils, ni César que je voi :</l>
+                        <l n="436"> Vos mains n’en ont que trop souillé la ressemblance,</l>
+                        <l n="437"> Et Rome n’en peut trop pleurer la différence.</l>
+                        <l n="438"> Malheureux ! pouvez-vous, sans l’inonder de pleurs,</l>
+                        <l n="439"> Sur son sein déchiré déployer vos fureurs ?</l>
+                        <l n="440"> Ô César ! ce n’est pas ton sang qui l’a fait naître :</l>
+                        <l n="441"> Brutus qui l’a versé méritait mieux d’en être ;</l>
+                        <l n="442"> Le meurtre des vaincus ne souillait point tes pas ;</l>
+                        <l n="443"> Ta valeur subjuguait, mais ne proscrivait pas :</l>
+                        <l n="444"> Si tu versais du sang pour soutenir ta gloire,</l>
+                        <l n="445"> De ta clémence en pleurs tu parais la victoire.</l>
+                        <l n="446"> Et vous, sans redouter l’exemple de sa mort,</l>
+                        <l n="447"> Vous semblez n’envier que son funeste sort :</l>
+                        <l n="448"> Peu jaloux d’hériter de ses sages maximes ;</l>
+                        <l n="449"> Cruel, vous ne songez qu’à parer des victimes.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="450"> D’un reproche odieux qui blesse mon honneur,</l>
+                        <l n="451"> Cicéron, modérez l’indiscrète rigueur.</l>
+                        <l n="452"> Mais pour justifier un discours qui m’étonne,</l>
+                        <l n="453"> Et que mon amitié cependant vous pardonne,</l>
+                        <l n="454"> César que vous venez de placer dans les cieux,</l>
+                        <l n="455"> Et que pour m’abaisser vous égalez aux dieux,          </l>
+                        <l n="456"> En quels lieux, répondez, a-t-il perdu la vie ?</l>
+                        <l n="457"> Fut-ce aux bords de la Seine, ou dans Alexandrie ?</l>
+                        <l n="458"> Est-ce aux champs de Pharsale, où pour votre bonheur</l>
+                        <l n="459"> La victoire à genoux couronnait sa valeur ?</l>
+                        <l n="460"> Non ; ce fut au sénat, et dans le sein de Rome,</l>
+                        <l n="461"> Que l’on osa trancher les jours de ce grand homme.</l>
+                        <l n="462"> Et vous m’osez blâmer de répandre le sang</l>
+                        <l n="463"> De ceux dont la fureur lui déchira le flanc !</l>
+                        <l n="464"> Quel autre ai-je proscrit, orateur téméraire ?</l>
+                        <l n="465"> Je voudrais en pouvoir couvrir toute la terre :</l>
+                        <l n="466"> Quelque sang qu’à sa mort j’ose sacrifier,</l>
+                        <l n="467"> Je n’en connais aucun digne de l’expier.</l>
+                        <l n="468"> Du meurtre de César condamner la vengeance,</l>
+                        <l n="469"> C’est des plus noirs forfaits consacrer la licence.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="470"> Un meurtre, quel qu’en soit le prétexte ou l’objet,</l>
+                        <l n="471"> Pour les cœurs vertueux fut toujours un forfait.</l>
+                        <l n="472"> Mais les républicains ne se font pas un crime</l>
+                        <l n="473"> D’immoler un tyran, même digne d’estime :</l>
+                        <l n="474"> Ils ne regardent point leur tyran comme un roi</l>
+                        <l n="475"> Qu’élève au-dessus d’eux la naissance ou la loi ;</l>
+                        <l n="476"> Et, sans avoir pour lui les lois ni la naissance,</l>
+                        <l n="477"> César osa des rois s’arroger la puissance.         </l>
+                        <l n="478"> Non que des conjurés j’approuve la fureur :</l>
+                        <l n="479"> Je déteste leur crime, encor plus son vengeur ;</l>
+                        <l n="480"> Car vous multipliez à tel point les supplices,</l>
+                        <l n="481"> À Brutus vous cherchez tant de nouveaux complices,</l>
+                        <l n="482"> Qu’il semble que César renaisse chaque jour,</l>
+                        <l n="483"> Et que chacun de nous l’assassine à son tour.</l>
+                        <l n="484"> Contre un peuple à genoux armer la tyrannie,</l>
+                        <l n="485"> De l’univers entier détruire l’harmonie,</l>
+                        <l n="486"> Et de ses ennemis se défaire à son choix ;</l>
+                        <l n="487"> Rendre le glaive seul l’interprète des lois ;</l>
+                        <l n="488"> Employer pour venger le meurtre de son père,</l>
+                        <l n="489"> Des flammes ou du fer l’odieux ministère ;</l>
+                        <l n="490"> Donner à ses proscrits pour juges ses soldats ;</l>
+                        <l n="491"> Du neveu de César voilà les magistrats.</l>
+                        <l n="492"> Qui vous a confié l’autorité suprême ?</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="493"> Le besoin de l’état, mon épée, et moi-même.</l>
+                        <l n="494"> Et de quel droit enfin osez-vous aujourd’hui</l>
+                        <l n="495"> Interroger César, et César votre appui ?</l>
+                        <l n="496"> Revenez d’une erreur qui vous serait fatale :</l>
+                        <l n="497"> Un homme tel que moi, ne veut rien qui l’égale,</l>
+                        <l n="498"> Dès que César n’est plus et qu’il revit en moi,</l>
+                        <l n="499"> Qui d’entre les Romains doit me donner la loi ?</l>
+                        <l n="500"> Croyez-vous rétablir par votre politique           ,</l>
+                        <l n="501"> D’un peuple et d’un sénat l’union chimérique ?</l>
+                        <l n="502"> Ce n’était qu’un vain nom dès le temps de Sylla,       </l>
+                        <l n="503"> Qui s’est évanoui depuis Catilina.</l>
+                        <l n="504"> Si de nos Scipions les jours pouvaient renaître,</l>
+                        <l n="505"> Ce n’est que sous moi seul qu’on les verrait paraître ;          </l>
+                        <l n="506"> Mais vous voyez assez qu’il n’est aucun espoir</l>
+                        <l n="507"> De remettre les lois dans leur premier pouvoir.</l>
+                        <l n="508"> Le glaive qui vous fit gagner tant de victoires,</l>
+                        <l n="509"> Et qui de nos exploits embellit tant d’histoires ;</l>
+                        <l n="510"> Le glaive qui vous fit triompher tant de fois,</l>
+                        <l n="511"> Vous subjugue à son tour et triomphe des lois.</l>
+                        <l n="512"> Dès qu’il faut obéir, le parti le plus sage</l>
+                        <l n="513"> Est de savoir se faire un heureux esclavage.</l>
+                        <l n="514"> La liberté n’est plus qu’un bien d’opinion ;</l>
+                        <l n="515"> Le nom de république, une autre illusion</l>
+                        <l n="516"> Dont il faut rejeter l’orgueilleuse chimère,</l>
+                        <l n="517"> Source de trop de maux pour vous être encor chère.</l>
+                        <l n="518"> Qu’espérez-vous enfin quand tout est renversé,</l>
+                        <l n="519"> Quand le sénat n’est plus qu’un troupeau dispersé ?</l>
+                        <l n="520"> Où sont vos légions pour soutenir la gloire</l>
+                        <l n="521"> De ce corps, dont sans vous on perdrait la mémoire ?</l>
+                        <l n="522"> En vain vous prétendez affranchir les Romains</l>
+                        <l n="523"> Du joug qu’ils imposaient au reste des humains :</l>
+                        <l n="524"> L’univers nous demande une forme nouvelle,</l>
+                        <l n="525"> Et Rome un empereur qui commande avec elle.</l>
+                        <l n="526"> Trop heureux les Romains si pour ce haut emploi</l>
+                        <l n="527"> Ils n’avaient désormais à redouter que moi !</l>
+                        <l n="528"> Mon collègue insolent vous fait assez connaître</l>
+                        <l n="529"> Que d’un emploi si noble il se rendrait le maître,</l>
+                        <l n="530"> Si vous pouviez souffrir qu’il osât s’en saisir ;</l>
+                        <l n="531"> Mais vous me choisirez, si vous savez choisir.</l>
+                        <l n="532"> Le cruel triumvir demande votre tête :</l>
+                        <l n="533"> Son crédit l’obtiendra si le mien ne l’arrête.</l>
+                        <l n="534"> Un intérêt si cher doit nous concilier.</l>
+                        <l n="535"> Pour mieux détruire Antoine , il nous faut allier.</l>
+                        <l n="536"> Vos vertus, vos malheurs, mon amour pour Tullie,</l>
+                        <l n="537"> Mon honneur, tout m’engage à vous sauver la vie.</l>
+                        <l n="538"> Vous fûtes autrefois mon premier protecteur ;</l>
+                        <l n="539"> Votre bouche longtemps s’ouvrit en ma faveur ;</l>
+                        <l n="540"> Je vous dois mes grandeurs, une amitié sincère.</l>
+                        <l n="541"> Aimez-moi, Cicéron, et devenez mon père.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="542"> Abdique, je t’adopte, et ma fille est à toi,</l>
+                        <l n="543"> Pourvu qu’elle consente à te donner sa foi,</l>
+                        <l n="544"> Qu’elle daigne accepter l’époux de Scribonie,</l>
+                        <l n="545"> Et qu’au sort d’un César elle veuille être unie.</l>
+                        <l n="546"> Je doute cependant qu’élevée en mon sein,     </l>
+                        <l n="547"> Un tyran, quel qu’il soit, puisse obtenir sa main.</l>
+                        <l n="548"> Elle vient, tu pourras t’expliquer avec elle ;</l>
+                        <l n="549"> Si tu l’aimes, tu dois la prendre pour modèle.</l>
+                        <l n="550"> Rentre dans ton devoir, sois romain ; à ce prix</l>
+                        <l n="551"> Tu deviendras bientôt son époux et mon fils :</l>
+                        <l n="552"> Mais si tu veux toujours tenir Rome asservie,</l>
+                        <l n="553"> Tu peux quand tu voudras me livrer à Fulvie.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE </speaker>
+                        <l n="554"> L’excès où Cicéron vient de s’abandonner</l>
+                        <l n="555"> M’éclaire et d’un complot me le fait soupçonner.</l>
+                        <l n="556"> C’est lui qui doit trembler, et c’est lui qui menace !</l>
+                        <l n="557"> Sans Brutus ou Sextus, il aurait moins d’audace.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="558"> Tandis que pour lui seul je venais en ces lieux,</l>
+                        <l n="559"> Cicéron tout à coup disparaît à mes yeux ;</l>
+                        <l n="560"> Je n’en ai pas moins vu qu’une peine mortelle</l>
+                        <l n="561"> Accablait son grand cœur d’une douleur nouvelle.</l>
+                        <l n="562"> Se peut-il qu’un objet si digne de pitié</l>
+                        <l n="563"> Ne puisse triompher de votre inimitié ?</l>
+                        <l n="564"> Languissant, malheureux, sans amis, sans défense,</l>
+                        <l n="565"> Aurait-il de César essuyé quelque offense ?</l>
+                        <l n="566"> J’ai vu que tout en pleurs il s’éloignait de vous,</l>
+                        <l n="567"> Et vos yeux sont encor enflammés de courroux.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="568"> Si les vôtres daignaient lire au fond de mon âme,</l>
+                        <l n="569"> Ils seraient peu troublés du courroux qui l’enflamme,</l>
+                        <l n="570"> Et vous jugeriez mieux des sentiments d’un cœur</l>
+                        <l n="571"> Digne de s’enflammer d’une plus noble ardeur.</l>
+                        <l n="572"> Quelque haine que fasse éclater votre père,</l>
+                        <l n="573"> Pour oser le haïr sa fille m’est trop chère.</l>
+                        <l n="574"> Je n’oublierai jamais qu’en vous donnant le jour,</l>
+                        <l n="575"> C’est à lui que je dois l’objet de mon amour.</l>
+                        <l n="576"> Ah ! loin de l’outrager, c’est Cicéron lui-même,</l>
+                        <l n="577"> Qui venge ses chagrins sur un cœur qui vous aime.</l>
+                        <l n="578"> Plus il est malheureux, plus je m’attache à lui,</l>
+                        <l n="579"> Surtout depuis qu’il n’a que moi seul pour appui.</l>
+                        <l n="580"> C’est pour lui conserver et les biens et la vie,</l>
+                        <l n="581"> Que j’arme contre moi la cruelle Fulvie.</l>
+                        <l n="582"> Lorsque César enfin s’offre pour votre époux,</l>
+                        <l n="583"> Cicéron est encor plus injuste que vous.</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="584"> Je vous croyais toujours l’époux de Scribonie.</l>
+                        <l n="585"> Mais avec vos pareils, malheur à qui s’allie !</l>
+                        <l n="586"> À vous voir d’un hymen nous imposer la loi,</l>
+                        <l n="587"> On croirait que César peut disposer de moi ;</l>
+                        <l n="588"> Et qu’au mépris des lois, au défaut du divorce,</l>
+                        <l n="589"> Il peut quand il voudra m’obtenir par la force ;</l>
+                        <l n="590"> Et qu’enfin, au-dessus d’un citoyen romain,</l>
+                        <l n="591"> Il veut de ses amours traiter en souverain.</l>
+                        <l n="592"> Encor si vous aviez abdiqué la puissance,</l>
+                        <l n="593"> Ou plutôt d’un tyran abdiqué l’arrogance,</l>
+                        <l n="594"> Vous pourriez à vos vœux permettre quelque espoir.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="595"> Si j’osais abdiquer le souverain pouvoir,</l>
+                        <l n="596"> Quel rang pourrais-je offrir désormais à Tullie ?</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="597"> Le rang d’un citoyen, père de la patrie,</l>
+                        <l n="598"> D’un Romain, qui ne sait briguer d’autres honneurs</l>
+                        <l n="599"> Que ceux dont la vertu couronne les grands cœurs.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="600"> Prévenu comme vous des chimères romaines,</l>
+                        <l n="601"> Si de l’autorité j’abandonnais les rênes</l>
+                        <l n="602"> Pour régler ma fortune au gré de mon amour,</l>
+                        <l n="603"> Antoine voudra-t-il abdiquer à son tour ?</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="604"> Eh ! que peut m’importer que le cruel abdique,</l>
+                        <l n="605"> Dès que nous n’avons plus ni lois ni république ?</l>
+                        <l n="606"> Impérieux amant, qui me parlez en roi,</l>
+                        <l n="607"> Savez-vous que Brutus est moins romain que moi ?</l>
+                        <l n="608"> Régnez si vous l’osez ; mais croyez que Tullie</l>
+                        <l n="609"> Saura bien se soustraire à votre tyrannie.</l>
+                        <l n="610"> Si du sort des tyrans vous bravez les hasards,</l>
+                        <l n="611"> Il naîtra des Brutus autant que de Césars.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="612"> De la part de Tullie un dédaigneux silence</l>
+                        <l n="613"> Eût été plus séant que tant de violence.</l>
+                        <l n="614"> Je ne m’attendais pas qu’un si cruel mépris</l>
+                        <l n="615"> De tout ce que j’ai fait dût être un jour le prix.</l>
+                        <l n="616"> De l’ingrat Cicéron j’ai souffert les caprices,</l>
+                        <l n="617"> Sans me plaindre de lui ni de ses injustices ;</l>
+                        <l n="618"> Votre père au Sénat m’a cent fois outragé ;</l>
+                        <l n="619"> Dans ses emportements il n’a rien ménagé ;</l>
+                        <l n="620"> Avec mes ennemis son cœur d’intelligence</l>
+                        <l n="621"> N’a jamais respiré que haine et que vengeance ;</l>
+                        <l n="622"> Tandis qu’avec ardeur je combattais les siens,</l>
+                        <l n="623"> Cicéron à me perdre encourageait les miens ;</l>
+                        <l n="624"> Je viens d’en essuyer la plus sanglante injure,</l>
+                        <l n="625"> Sans qu’elle ait excité le plus léger murmure :</l>
+                        <l n="626"> Et l’on m’outrage, moi ! je suis un inhumain,  </l>
+                        <l n="627"> Dont sans crime, à son gré, l’on peut percer le sein !</l>
+                        <l n="628"> Pourquoi ? parce qu’on veut arracher aux supplices</l>
+                        <l n="629"> Du meurtre de César l’auteur et les complices,</l>
+                        <l n="630"> Et que le furieux qui lui perça le flanc</l>
+                        <l n="631"> S’abreuve dans le mien du reste de son sang.</l>
+                        <l n="632"> César, qui jusqu’au ciel vit élever sa gloire,</l>
+                        <l n="633"> Immortel ornement du temple de mémoire ;</l>
+                        <l n="634"> César, indignement traîné dans le sénat,</l>
+                        <l n="635"> N’est point encor vengé d’un si noir attentat :</l>
+                        <l n="636"> Et, si je veux vous plaire, il faut que je l’oublie ;</l>
+                        <l n="637"> Que je laisse un champ libre au père de Tullie,</l>
+                        <l n="638"> Qui veut que de César les lâches meurtriers</l>
+                        <l n="639"> Rentrent dans le sénat couronnés de lauriers,</l>
+                        <l n="640"> Et que, sacrifiant à Brutus son idole,</l>
+                        <l n="641"> J’aille de son poignard orner le Capitole !</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="642"> Auriez-vous prétendu qu’à vos ordres soumis</l>
+                        <l n="643"> Cicéron à vos coups dût livrer ses amis ;</l>
+                        <l n="644"> Que, de vos cruautés, spectateur immobile,</l>
+                        <l n="645"> Son cœur désespéré vous laisserait tranquille ?          </l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="646"> D’autres soins le devraient occuper aujourd’hui.</l>
+                        <l n="647"> Antoine, avec fureur soulevé contre lui,</l>
+                        <l n="648"> Me demande à grands cris le sang de votre père ;</l>
+                        <l n="649"> Notre hymen peut sauver une tête si chère.</l>
+                        <l n="650"> Quoique d’un triumvir tout soit à redouter,</l>
+                        <l n="651"> À peine sur ce point on daigne m’écouter :</l>
+                        <l n="652"> Le péril cependant redouble, et le temps presse.</l>
+                        <l n="653"> Au sort de Cicéron, Rome qui s’intéresse</l>
+                        <l n="654"> Sans doute avec plaisir verrait notre union</l>
+                        <l n="655"> Le terme spécieux de la proscription.</l>
+                        <l n="656"> Devenez de la paix le lien et le gage ;</l>
+                        <l n="657"> C’est l’unique moyen de dissiper l’orage.</l>
+                        <l n="658"> Je vois ce qui vous flatte en ce cruel instant ;</l>
+                        <l n="659"> C’est le frivole honneur d’un refus éclatant :</l>
+                        <l n="660"> Mais ne présumez pas que je me détermine</l>
+                        <l n="661"> À me priver du rang que le ciel me destine.</l>
+                        <l n="662"> Si je m’en dépouillais ce serait me livrer</l>
+                        <l n="663"> Au premier assassin qui voudrait s’illustrer.</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="664"> Après ce fier aveu, je crois, pour vous confondre,</l>
+                        <l n="665"> N’avoir à votre amour que deux mots à répondre.</l>
+                        <l n="666"> Je ne vous aime point. J’aimerais mieux la mort</l>
+                        <l n="667"> Que de me voir un jour unie à votre sort.</l>
+                        <l n="668"> Cependant, si César veut déposer l’empire,</l>
+                        <l n="669"> À son fatal hymen je suis prête à souscrire ;</l>
+                        <l n="670"> Dût mon cœur indigné n’y consentir jamais,</l>
+                        <l n="671"> Je me sacrifierai pour le bien de la paix :</l>
+                        <l n="672"> Mais, si vous usurpez l’autorité suprême,</l>
+                        <l n="673"> Vous pouvez de mon sang teindre le diadème.</l>
+                        <l n="674"> Que ne peut ma mort seule en relever le prix,</l>
+                        <l n="675"> Et sauver de vos coups tant d’illustres proscrits !</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="676"> Ah ! c’en est trop : songez, orgueilleuse Tullie,</l>
+                        <l n="677"> Que c’est vous qui livrez votre père à Fulvie.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#tullie">
+            <speaker> TULLIE </speaker>
+                        <l n="678"> Barbare, que mon cœur ne peut trop dédaigner,</l>
+                        <l n="679"> Nous saurons mieux mourir que tu ne sais régner !</l>
+                        <l n="680"> Dieux cruels, épuisez sur moi votre colère,</l>
+                        <l n="681"> Ou de son désespoir daignez sauver mon père !</l>
+                        <l n="682"> Ô Romains ! que l’honneur de mériter ce nom</l>
+                        <l n="683"> Coûte cher, si l’on veut imiter Cicéron !</l>
+                        <l n="684"> Tout est perdu pour moi.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#clodomir">
+            <speaker> CLODOMIR. </speaker>
+                        <l n="685"> Je vous cherchais, madame.</l>
+                        <l n="686"> Quel trouble à mon aspect s’empare de votre âme !</l>
+                        <l n="687"> Quoi ! vous levez au ciel vos yeux baignés de pleurs !</l>
+                        <l n="688"> N’ai-je donc pas assez éprouvé de malheurs ?</l>
+                        <l n="689"> Les premiers n’ont que trop exercé ma constance.</l>
+                        <l n="690"> Ah ! Tullie, autrefois ma plus chère espérance,</l>
+                        <l n="691"> Pardonnez à mon cœur quelques transports jaloux :</l>
+                        <l n="692"> L’heureux César va-t-il devenir votre époux ?</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="693"> Eh ! plût au ciel n’avoir d’autre malheur à craindre !</l>
+                        <l n="694"> Vous et moi nous serions peut-être moins à plaindre.</l>
+                        <l n="695"> Offrez à ma douleur de plus dignes objets.</l>
+                        <l n="696"> Accablé de ses maux, consumé de regrets,</l>
+                        <l n="697"> Mon père avant sa mort, veut que notre hyménée</l>
+                        <l n="698"> Éclaire de ses feux cette horrible journée.</l>
+                        <l n="699"> Eh ! que lui servira d’unir des malheureux</l>
+                        <l n="700"> Menacés comme lui du sort le plus affreux ?</l>
+                        <l n="701"> Quel temps a-t-on choisi pour me faire connaître</l>
+                        <l n="702"> Un époux qui n’aura qu’un seul moment à l’être ?</l>
+                        <l n="703"> Sextus, mon cher Sextus, renoncez à ma main ;</l>
+                        <l n="704"> Ce n’est pas moi qui dois borner votre destin.</l>
+                        <l n="705"> Lorsque j’ai désiré que vous fussiez Pompée,</l>
+                        <l n="706"> Hélas ! qu’en ce souhait mon âme s’est trompée !</l>
+                        <l n="707"> À peine mon amour voit combler ce désir,</l>
+                        <l n="708"> Que je perds à la fois Sextus et Clodomir.</l>
+                        <l n="709"> Pourquoi de votre nom m’a-t-on fait un mystère ?</l>
+                </sp>
+        <sp who="#sextus">
+            <speaker> SEXTUS. </speaker>
+                        <l n="710"> J’ai cru devoir moi-même y forcer votre père ;</l>
+                        <l n="711"> Je craignais de jeter dans un cœur généreux</l>
+                        <l n="712"> Trop d’effroi s’il avait à trembler pour nous deux.</l>
+                        <l n="713"> D’ailleurs convenait-il au fils du grand Pompée</l>
+                        <l n="714"> De se montrer ici sans éclat, sans armée,</l>
+                        <l n="715"> Lui qui ne prétendait s’offrir à vos regards</l>
+                        <l n="716"> Qu’en protecteur de Rome et vainqueur des Césars ?</l>
+                        <l n="717"> Et que ne veut-on pas quand l’amour est extrême ?</l>
+                        <l n="718"> Clodomir désirait d’être aimé pour lui-même :</l>
+                        <l n="719"> Sextus sans votre amour pouvait-il être heureux ?</l>
+                        <l n="720"> Mais en d’autres climats venez combler mes vœux.</l>
+                        <l n="721"> Vous pleurez ! Depuis quand votre cœur intrépide</l>
+                        <l n="722"> N’oppose-t-il au sort qu’un désespoir timide ?</l>
+                        <l n="723"> Je viens de rassembler quelques soldats épars,</l>
+                        <l n="724"> Dispersés sous leurs chefs autour de ces remparts :</l>
+                        <l n="725"> Vous les trouverez tous ardents à vous défendre ;</l>
+                        <l n="726"> Et, si de la valeur le succès doit dépendre,</l>
+                        <l n="727"> J’espère que la mienne y pourra concourir,</l>
+                        <l n="728"> Ne dût-il m’en rester que l’honneur de mourir.</l>
+                        <l n="729"> Dès que pour vous dans Rome il n’est plus d’espérance,</l>
+                        <l n="730"> Allons de la Sicile implorer l’assistance.</l>
+                        <l n="731"> Ma flotte nous attend ; je règne sur les eaux :</l>
+                        <l n="732"> Engageons votre père à fuir sur mes vaisseaux.</l>
+                        <l n="733"> Il est honteux pour lui de se laisser proscrire.</l>
+                        <l n="734"> Vous avez sur son cœur un souverain empire ;</l>
+                        <l n="735"> Venez : faisons-lui voir qu’un glorieux retour</l>
+                        <l n="736"> Peut le mettre en état de proscrire à son tour.</l>
+                        <l n="737"> S’il veut m’accompagner, je réponds de sa vie ;</l>
+                        <l n="738"> Et l’amour couronné répondra de Tullie.</l></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="739"> Héritier des vertus du plus grand des Romains,</l>
+                        <l n="740"> Si digne de mémoire et des honneurs divins,</l>
+                        <l n="741"> Adoré dans la paix, redouté dans la guerre,</l>
+                        <l n="742"> Qui vit parer son char du globe de la terre ;</l>
+                        <l n="743"> Fils de Pompée enfin, à cet auguste nom</l>
+                        <l n="744"> Vous daignez allier celui de Cicéron !</l>
+                        <l n="745"> Je ne vous ceindrai point le front d’un diadème ;</l>
+                        <l n="746"> Je n’ai plus de trésors que cet autre moi-même.</l>
+                        <l n="747"> Ô mon fils ! puisse-t-il faire votre bonheur,</l>
+                        <l n="748"> Et vous être aussi cher qu’il le fut à mon cœur !</l>
+                        <l n="749"> Et vous, unique bien, que le destin me laisse,</l>
+                        <l n="750"> Délices de ma vie, espoir de ma vieillesse,</l>
+                        <l n="751"> Qui n’avez plus pour dot que mon âme et mes pleurs,</l>
+                        <l n="752"> Puissiez-vous n’hériter jamais de mes malheurs !</l>
+                        <l n="753"> Je veux, avant ma mort, que ma main vous unisse.</l>
+                        <l n="754"> J’ai promis à Sextus ce tendre sacrifice ;</l>
+                        <l n="755"> Mais, après cet hymen qui va combler vos vœux,</l>
+                        <l n="756"> Fuyez, éloignez-vous d’un père malheureux.</l>
+                        <l n="757"> Je ne veux plus vous voir dans une triste ville</l>
+                        <l n="758"> Où les morts même ont peine à trouver un asile.</l>
+                        <l n="759"> Approchez, mes enfants, venez, embrassez-moi :</l>
+                        <l n="760"> Jurez-vous dans mon sein une constante foi ;</l>
+                        <l n="761"> De nos derniers adieux scellons une alliance</l>
+                        <l n="762"> Que nous désirions tous avec impatience.</l>
+                        <l n="763"> Que vois-je ? On se refuse à mes embrassements !</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="764"> Qu’exigez-vous de nous dans ces cruels moments ?</l>
+                        <l n="765"> Quoi ! lorsqu’avec bonté votre amour nous assemble,</l>
+                        <l n="766"> Ne nous unissez-vous que pour mourir ensemble ?</l>
+                        <l n="767"> Et comment sans frémir pouvez-vous ordonner</l>
+                        <l n="768"> À Sextus comme à moi de vous abandonner ?</l>
+                        <l n="769"> Quel nouveau désespoir contre nous vous anime ?</l>
+                        <l n="770"> De nos soins mutuels nous feriez-vous un crime ?</l>
+                        <l n="771"> C’est vous-même, seigneur, qui dans ce triste jour</l>
+                        <l n="772"> Me faites malgré moi douter de votre amour.</l>
+                        <l n="773"> Quoi ! ce père, l’objet de toute ma tendresse,  </l>
+                        <l n="774"> Qui me cherchait encor quoiqu’il me vît sans cesse ;</l>
+                        <l n="775"> Ce père, qui semblait ne vivre que pour moi,</l>
+                        <l n="776"> Ne pourra désormais me voir qu’avec effroi !</l>
+                        <l n="777"> Quel transport imprévu de votre âme s’empare ?</l>
+                        <l n="778"> Apprenez-vous d’Octave à devenir barbare ?</l>
+                        <l n="779"> La flotte de Sextus nous attend tous au port ;</l>
+                        <l n="780"> Faites-vous sur vous-même un généreux effort.</l>
+                        <l n="781"> C’est votre fille en pleurs, cette même Tullie,</l>
+                        <l n="782"> Du père le plus tendre, autrefois si chérie,</l>
+                        <l n="783"> Qui, la mort dans le sein, vous demande à genoux</l>
+                        <l n="784"> De ne lui point ravir ce qu’elle tient de vous.</l>
+                        <l n="785"> Ma vie est dans vos mains et ne tient qu’à la vôtre ;</l>
+                        <l n="786"> Daignez en ce moment nous suivre l’un et l’autre ;</l>
+                        <l n="787"> Ce lieu n’est point encor entouré de soldats</l>
+                        <l n="788"> Qui puissent observer ou retenir vos pas ;</l>
+                        <l n="789"> Nous pouvons en secret gagner les bords du Tibre :</l>
+                        <l n="790"> Mon père, suivez-nous, puisque vous êtes libre,</l>
+                        <l n="791"> Et que vous n’êtes pas au nombre des proscrits.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="792"> Ah ! c’est moins par respect pour moi, que par mépris.</l>
+                        <l n="793"> Ne pouvant m’effrayer, Antoine m’humilie :   </l>
+                        <l n="794"> C’est pour flétrir mon nom que le cruel m’oublie.</l>
+                        <l n="795"> Si sa main m’eût proscrit, l’univers aurait su</l>
+                        <l n="796"> Que parmi ces héros, du moins j’aurais vécu.</l>
+                        <l n="797"> Pour braver mes tyrans, je veux mourir dans Rome :</l>
+                        <l n="798"> En implorant ses dieux, c’est moi seul qu’elle nomme.</l>
+                        <l n="799"> Je ne priverai point de mes derniers soupirs</l>
+                        <l n="800"> Ce lieu qui fut l’objet de mes premiers désirs.</l>
+                        <l n="801"> J’ai tant vécu pour moi, si peu pour ma patrie,</l>
+                        <l n="802"> Que je veux dans son sein du moins finir ma vie.</l>
+                        <l n="803"> Si je fuyais, César qui me redoute encor,</l>
+                        <l n="804"> À ses projets bientôt donnerait plus d’essor.</l>
+                </sp>
+        <sp who="#sextus">
+            <speaker> SEXTUS. </speaker>
+                        <l n="805"> Cessez de vous flatter d’une espérance vaine :</l>
+                        <l n="806"> César aime Tullie, et craint peu votre haine.</l>
+                        <l n="807"> Dans ses murs malheureux, Rome va succomber :</l>
+                        <l n="808"> Croyez-vous qu’avec elle, il soit beau de tomber,</l>
+                        <l n="809"> Lorsqu’en lui conservant un ami si fidèle</l>
+                        <l n="810"> Nous pouvons espérer de renaître avec elle ?</l>
+                        <l n="811"> N’avons-nous pas ailleurs des secours assurés,</l>
+                        <l n="812"> La Sicile, Brutus, Rhodes, les conjurés ?</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="813"> Qui ? moi, mon fils, que j’aille errant dans la Sicile,</l>
+                        <l n="814"> Allumer le flambeau d’une guerre !</l>
+                </sp>
+        <sp who="#sextus">
+            <speaker> SEXTUS. </speaker>
+                        <l n="815"> Eh ! comment pouvez-vous désormais l’éviter ?</l>
+                        <l n="816"> Ce n’est pas vous d’ailleurs qui l’allez susciter.          </l>
+                        <l n="817"> Il n’est point aujourd’hui de climat sur la terre</l>
+                        <l n="818"> Qui puisse être à l’abri des fureurs de la guerre :</l>
+                        <l n="819"> Traversez l’univers de l’un à l’autre bout,</l>
+                        <l n="820"> Vous trouverez la guerre et des Romains partout,</l>
+                        <l n="821"> Enfants infortunés d’une ville déserte</l>
+                        <l n="822"> Qui ne peut plus sentir vos soins ni votre perte.</l>
+                        <l n="823"> Pourquoi vous obstiner à mourir dans ses murs ?</l>
+                        <l n="824"> Donnons-lui des secours plus brillants et plus sûrs.</l>
+                        <l n="825"> Croyez-vous qu’il sera pour vous plus honorable</l>
+                        <l n="826"> D’être aux yeux de César traîné comme un coupable.</l>
+                        <l n="827"> Pour servir de risée au soldat furieux,</l>
+                        <l n="828"> Qui fera peu de cas d’un nom si glorieux ?</l>
+                        <l n="829"> Rome n’est plus qu’un spectre, une ombre en Italie,</l>
+                        <l n="830"> Dont le corps tout entier est passé dans l’Asie.</l>
+                        <l n="831"> C’est là que notre honneur nous appelle aujourd’hui :</l>
+                        <l n="832"> Rendons-nous à sa voix et marchons avec lui.</l>
+                        <l n="833"> Ce n’est pas le climat qui lui donna la vie,</l>
+                        <l n="834"> C’est le cœur du Romain qui forme sa patrie.</l>
+                        <l n="835"> Qui doit s’intéresser à Rome plus que moi ?</l>
+            <stage><em>Il montre la statue de Pompée renversée.</em></stage>
+                        <l n="836"> Voyez ces monuments de douleur et d’effroi ;</l>
+                        <l n="837"> Ces marbres mutilés dont le morne silence</l>
+                        <l n="838"> N’en demande pas moins de sang pour leur vengeance</l>
+                        <l n="839"> Il ne leur reste plus que le nom précieux</l>
+                        <l n="840"> D’un héros que l’on vit marcher égal aux dieux.</l>
+                        <l n="841"> Votre sort est écrit sous ce nom redoutable,</l>
+                        <l n="842"> À tout mortel fameux exemple formidable ;</l>
+                        <l n="843"> Et pour le prévenir, vous n’avez qu’à vouloir.</l>
+                        <l n="844"> La honte suit toujours un lâche désespoir.</l>
+                        <l n="845"> Il vaut mieux se flatter d’un espoir téméraire,</l>
+                        <l n="846"> Que de céder au sort, dès qu’il nous est contraire :</l>
+                        <l n="847"> Il faut du moins mourir les armes à la main,</l>
+                        <l n="848"> Le seul genre de mort digne d’un vrai Romain.</l>
+                        <l n="849"> Mais mourir pour mourir n’est qu’une folle ivresse,</l>
+                        <l n="850"> Triste enfant de l’orgueil, que nourrit la paresse.</l>
+                        <l n="851"> Ranimez-vous, mon père, et soyez plus jaloux</l>
+                        <l n="852"> De la haute vertu que j’admirais en vous.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="853"> S’il est vrai que Sextus la respecte et l’admire,</l>
+                        <l n="854"> Qu’il règle donc ses soins sur ceux qu’elle m’inspire.</l>
+                </sp>
+        <sp who="#sextus">
+            <speaker> SEXTUS. </speaker>
+                        <l n="855"> C’est-à-dire, Seigneur, que pour vous imiter</l>
+                        <l n="856"> Il faut mourir ensemble et ne nous point quitter.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="857"> Ah ! Sextus, quoi ! c’est vous qui voulez que je fuie !</l>
+                        <l n="858"> Non, ne vous flattez pas que je passe en Asie,</l>
+                        <l n="859"> Ni que, des conjurés empruntant le secours,</l>
+                        <l n="860"> De mes jours malheureux, j’aille flétrir le cours.</l>
+                        <l n="861"> Rien ne peut m’engager à quitter l’Italie.</l>
+                        <l n="862"> Cependant je suis prêt, pour contenter Tullie,</l>
+                        <l n="863"> À sortir avec vous de ce triste palais.</l>
+                        <l n="864"> La nuit, à Tusculum, nous nous joindrons après :</l>
+                        <l n="865"> Au bois le plus prochain, ma fille ira m’attendre.</l>
+                        <l n="866"> Dans deux heures, Sextus, ayez soin de vous rendre</l>
+                        <l n="867"> Avec quelques soldats, au pont Sublicien.</l>
+                        <l n="868"> Le temps ne permet pas un plus long entretien :</l>
+                        <l n="869"> Adieu. Mais avant tout, je veux revoir Mécène.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="870"> Ah ! Sextus ! notre fuite est encore incertaine ;</l>
+                        <l n="871"> Mécène à Cicéron fera changer d’avis,</l>
+                        <l n="872"> Et les plus généreux, ne seront point suivis.</l>
+                        <l n="873"> On vient : éloignez-vous ; c’est César qui s’avance.    </l>
+                </sp>
+        <sp who="#sextus">
+            <speaker> SEXTUS. </speaker>
+                        <l n="874"> Il serait dangereux d’éviter sa présence :</l>
+                        <l n="875"> Le tyran nous a vus ; je me rendrais suspect</l>
+                        <l n="876"> Si je disparaissais à son premier aspect.</l>
+                        <l n="877"> Il croit que sur ses bords la Seine m’a vu naître ;</l>
+                        <l n="878"> Et d’ailleurs je crains peu César, quel qu’il puisse être.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="879"> Je cherchais Cicéron, je veux encor le voir,</l>
+                        <l n="880"> Quoique sa dureté me laisse peu d’espoir...</l>
+                        <l n="881"> Mais que fait près de vous ce Gaulois dont l’audace</l>
+                        <l n="882"> Semble vouloir ici me disputer la place ?</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="883"> Quel rang près de Tullie auriez-vous prétendu,</l>
+                        <l n="884"> Pour croire qu’à tout autre, il serait défendu ?</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="885"> En des lieux où je crois pouvoir parler en maître,</l>
+                        <l n="886"> Sans mes ordres exprès, on ne doit point paraître,</l>
+                        <l n="887"> Et surtout un Gaulois. Qu’il retourne en son camp ;</l>
+                        <l n="888"> C’est parmi ses soldats qu’il trouvera son rang.          </l>
+                </sp>
+        <sp who="#sextus">
+            <speaker> SEXTUS. </speaker>
+                        <l n="889"> Depuis quand sommes-nous sous ton obéissance,</l>
+                        <l n="890"> Pour oser me parler avec tant d’arrogance ?</l>
+                        <l n="891"> Le sort de mes pareils ne dépend point de toi ;</l>
+                        <l n="892"> Je ne relève ici que des dieux, et de moi.</l>
+                        <l n="893"> Aux lois du grand César nous rendîmes hommage ;</l>
+                        <l n="894"> Mais ce ne fut jamais à titre d’esclavage.</l>
+                        <l n="895"> Comme de la valeur il connaissait le prix,</l>
+                        <l n="896"> Il estimait en nous ce qui manque à son fils.</l>
+                        <l n="897"> Sans le fer des Gaulois, le César qui me brave</l>
+                        <l n="898"> Eût vu borner sa gloire, au simple nom d’Octave.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="899"> Qu’entends-je ? Holà, licteurs !</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="900"> César, modère-toi.</l>
+                        <l n="901"> Apprends que ce guerrier est ici sur ma foi,</l>
+                        <l n="902"> Sur celle des Romains, dont tu n’es pas le maître,</l>
+                        <l n="903"> Malgré tous les projets que tu formes pour l’être.</l>
+                        <l n="904"> Si tu te plains de lui, pourquoi l’outrageais-tu ?</l>
+                        <l n="905"> Penses-tu n’outrager que des cœurs sans vertu ?</l>
+                        <l n="906"> S’il te faut des garants, je réponds de la sienne ;</l>
+                        <l n="907"> Commence à nous donner des preuves de la tienne.</l>
+                        <l n="908"> Si de l’humanité tu méconnais la voix,</l>
+                        <l n="909"> Des peuples alliés, respecte au moins les droits.</l>
+                        <l n="910"> Sois humain, généreux, et cesse de proscrire,</l>
+                        <l n="911"> Si tu veux sur les cœurs t’établir un empire.    </l>
+                        <l n="912"> L’art de se faire aimer, et celui de régner</l>
+                        <l n="913"> Sont deux arts que ton père aurait dû t’enseigner.</l>
+                        <l n="914"> Mais en vain tu prétends livrer à ta vengeance</l>
+                        <l n="915"> Un guerrier qui n’est point soumis à ta puissance :</l>
+                        <l n="916"> Jusqu’au dernier soupir je défendrai ses jours.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="917"> Ingrate, qui des miens voulez trancher le cours,</l>
+                        <l n="918"> Et de mes ennemis me rendre la victime,</l>
+                        <l n="919"> Vous justifiez trop le courroux qui m’anime.</l>
+                        <l n="920"> Ce n’est pas d’aujourd’hui que cet audacieux,</l>
+                        <l n="921"> Qui veut ne relever que de vous et des dieux,</l>
+                        <l n="922"> Dans ses divers complots, plus ardent que vous-même,</l>
+                        <l n="923"> Brave des triumvirs l’autorité suprême.</l>
+                        <l n="924"> Je sais qu’il a sauvé Messala, Métellus,</l>
+                        <l n="925"> Lucilius, Pison, les fils de Lentulus :</l>
+                        <l n="926"> Mais malgré son orgueil, je lui ferai connaître</l>
+                        <l n="927"> Que je puis à mes lois l’immoler comme un traître.</l>
+                </sp>
+        <sp who="#sextus">
+            <speaker> SEXTUS. </speaker>
+                        <l n="928"> En sauvant tes proscrits, j’ai fait ce que j’ai dû :</l>
+                        <l n="929"> Ton père en pareil cas, eût loué ma vertu.</l>
+                        <l n="930"> Toi-même, applaudissant à mes soins magnanimes,</l>
+                        <l n="931"> Tu devrais me louer de t’épargner des crimes,</l>
+                        <l n="932"> Et rougir, quand tu crois être au-dessus de moi,</l>
+                        <l n="933"> Qu’un Gaulois, à tes yeux, soit plus romain que toi.</l>
+                        <l n="934"> Viole nos traités, punis-moi d’aimer Rome,</l>
+                        <l n="935"> Et d’oser de nous deux être le plus grand homme.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="936"> Téméraire étranger, tu m’apprends mon devoir ;</l>
+                        <l n="937"> Et ta mort...</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="938"> Si ma voix est sur toi sans pouvoir,</l>
+                        <l n="939"> De ce rival des dieux interroge l’image ;</l>
+            <stage><em>Elle lui montre la statue de César.</em></stage>
+                        <l n="940"> Que sa clémence au moins devienne ton partage.</l>
+                        <l n="941"> Du grand nom de César, si tu veux hériter,</l>
+                        <l n="942"> Dans ses soins vertueux commence à l’imiter.</l>
+                        <l n="943"> Épargne ce guerrier, je demande sa vie :          </l>
+                        <l n="944"> Ose me refuser !</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="945"> Imprudente Tullie,</l>
+                        <l n="946"> Qui voulez de régner me donner des leçons,</l>
+                        <l n="947"> Que ne me donnez-vous de plus nobles soupçons ?</l>
+                        <l n="948"> De la vertu du moins, empruntez le langage.</l>
+                        <l n="949"> J’aurais trop à rougir d’en dire davantage.</l>
+                        <l n="950"> Mais je ne crois pouvoir mieux vous humilier,           </l>
+                        <l n="951"> Qu’en vous abandonnant le soin de ce guerrier,</l>
+                        <l n="952"> Que je crois en effet plus digne de clémence,</l>
+                        <l n="953"> Qu’il ne se croit encor digne de ma vengeance.</l>
+                        <l n="954"> Adieu.</l>
+            <stage><em>Aux licteurs.</em></stage>
+                        <l n="955"> Vous, suivez-moi.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="956"> Sextus, qu’avez-vous fait ?           </l>
+                </sp>
+        <sp who="#sextus">
+            <speaker> SEXTUS. </speaker>
+                        <l n="957"> Trop peu pour mon courroux, puisqu’il est sans effet.</l>
+                        <l n="958"> Tout César n’est ici qu’un objet de colère.</l>
+                        <l n="959"> Héritier de l’ingrat qui détruisit mon père,</l>
+                        <l n="960"> Octave n’est pour moi qu’un rival odieux</l>
+                        <l n="961"> Dont l’orgueilleux mépris m’a rendu furieux.</l>
+                        <l n="962"> Tenté plus d’une fois d’en punir l’insolence...</l>
+                        <l n="963"> Qu’il rende de ses jours grâce à votre présence.</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="964"> Sextus, ce fier rival n’en est pas un pour vous :</l>
+                        <l n="965"> Un amant méprisé ne fait point de jaloux.        </l>
+                        <l n="966"> Mais un grand cœur doit-il céder sans espérance</l>
+                        <l n="967"> Aux dangereux appas d’une aveugle vengeance ?</l>
+                        <l n="968"> Ah ! quand même à César on donnerait la mort,</l>
+                        <l n="969"> Son trépas seul peut-il relever votre sort ?</l>
+                        <l n="970"> Tout vous promet ailleurs de hautes destinées,</l>
+                        <l n="971"> Qui sans gloire, en ces lieux, se verraient terminées.</l>
+                        <l n="972"> Fuyons, mon cher Sextus : fuir n’est un déshonneur</l>
+                        <l n="973"> Que pour ceux dont on peut soupçonner la valeur :</l>
+                        <l n="974"> Fuyons, loin de tenter des efforts inutiles.</l>
+                        <l n="975"> Tandis qu’en ce palais on nous laisse tranquilles,</l>
+                        <l n="976"> Allons sans plus tarder rejoindre Cicéron.</l>
+                        <l n="977"> La vertu de Mécène exempte de soupçon,</l>
+                        <l n="978"> Ne nous en doit pas moins alarmer sur son zèle.</l>
+                        <l n="979"> Je vois, sur son départ que mon père chancelle :</l>
+                        <l n="980"> Courons le raffermir. Octave est violent ;</l>
+                        <l n="981"> Pour nous perdre tous trois, il ne faut qu’un moment.</l>
+                </sp>
+        <sp who="#sextus">
+            <speaker> SEXTUS. </speaker>
+                        <l n="982"> Ah ! ne redoutez rien : je connais la prudence</l>
+                        <l n="983"> De ce nouveau tyran peu sûr de sa puissance.</l>
+                        <l n="984"> Comme il me croit Gaulois, et qu’il a besoin d’eux,</l>
+                        <l n="985"> Il craint trop d’irriter ces peuples dangereux.</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="986"> Jugez de ses frayeurs à l’objet qui s’avance ;</l>
+                        <l n="987"> C’est l’affranchi chargé du soin de sa vengeance,       </l>
+                        <l n="988"> Qui vient vous immoler ou s’assurer de vous.</l>
+                        <l n="989"> Ah ! Sextus, laissez-moi m’offrir seule à ses coups.</l>
+                </sp>
+        <sp who="#sextus">
+            <speaker> SEXTUS. </speaker>
+                        <l n="990"> Vous exposer pour moi, c’est m’outrager, Tullie.</l>
+                        <l n="991"> M’enviez-vous l’honneur de défendre ma vie ?          </l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#sextus">
+            <speaker> SEXTUS, à Philippe. </speaker>
+                        <l n="992"> Approche, digne chef des infâmes humains</l>
+                        <l n="993"> Que César entretient pour ses lâches desseins !</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE, à part. </speaker>
+                        <l n="994"> Quel trouble dans mon cœur élève sa présence !</l>
+                        <l n="995"> Ô mes yeux, contemplez : voilà sa ressemblance,</l>
+                        <l n="996"> Le port majestueux de cet homme divin</l>
+                        <l n="997"> Qui tout percé de coups vint mourir sur mon sein.</l>
+                        <l n="998"> Hélas ! si c’était lui... Mais puis-je méconnaître</l>
+                        <l n="999"> Et les traits et la voix de mon auguste maître ?</l>
+                        <l n="1000"> Quelle horreur en ces lieux règne de toutes parts !</l>
+                        <l n="1001"> Dieux ! quel spectacle affreux vient frapper mes regards !</l>
+            <stage><em>Il s’appuie sur les débris de la statue de Pompée.</em></stage>
+                        <l n="1002"> Chers débris, monuments de la fureur d’Octave,</l>
+                        <l n="1003"> Arrosez-vous des pleurs d’un vertueux esclave ;</l>
+                        <l n="1004"> Ou plutôt revivez, triste objet de mes vœux,</l>
+                        <l n="1005"> Et venez recevoir l’âme d’un malheureux.</l>
+                        <l n="1006"> Je me meurs.</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="1007"> Que dit-il ? et qu’est-ce qui l’arrête ?</l>
+                </sp>
+        <sp who="#sextus">
+            <speaker> SEXTUS. </speaker>
+                        <l n="1008"> Avance ; à m’immoler ta main est-elle prête ?</l>
+                        <l n="1009"> Que vois-je ? quel mortel se présente à mes yeux ?</l>
+                        <l n="1010"> Grands dieux ! n’est-il donc plus de vertus sous les cieux ?</l>
+                        <l n="1011"> L’erreur qui me flattait malgré moi se dissipe.</l>
+                        <l n="1012"> Qui m’eût dit qu’à regret je reverrais Philippe ?</l>
+                        <l n="1013"> Ce fidèle affranchi du plus grand des mortels,</l>
+                        <l n="1014"> Qui semblait avec lui partager ses autels,</l>
+                        <l n="1015"> Que ses derniers soupirs avaient couverts de gloire ;</l>
+                        <l n="1016"> Ce Philippe autrefois si cher à ma mémoire,</l>
+                        <l n="1017"> Qui sut de la vertu m’aplanir les chemins,</l>
+                        <l n="1018"> Philippe est devenu chef de mes assassins !</l>
+                        <l n="1019"> Tu pleures, cœur ingrat ! Que de torrents de larmes</l>
+                        <l n="1020"> Il faudrait pour laver tes parricides armes !</l>
+                        <l n="1021"> Va, comble tes forfaits ; si tes barbares mains</l>
+                        <l n="1022"> N’ont point assez trempé dans le sang des Romains,</l>
+                        <l n="1023"> Viens, cruel, dans le mien anoblir ton épée ;</l>
+                        <l n="1024"> Plonge-la dans le sein du malheureux Pompée.</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="1025"> Ah, Sextus !</l>
+                </sp>
+        <sp who="#sextus">
+            <speaker> SEXTUS. </speaker>
+                        <l n="1026"> Serais-tu capable d’un remords ?</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="1027"> Écoutez-moi, mon maître, où me donnez la mort.</l>
+                        <l n="1028"> Daignez vous rappeler l’histoire de ma vie :</l>
+                        <l n="1029"> D’aucun crime jamais elle ne fut flétrie.</l>
+                </sp>
+        <sp who="#sextus">
+            <speaker> SEXTUS. </speaker>
+                        <l n="1030"> Lève-toi.</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="1031"> Non, seigneur ; souffrez qu’à vos genoux,</l>
+                        <l n="1032"> Avant que de mourir, je m’explique avec vous.</l>
+                </sp>
+        <sp who="#sextus">
+            <speaker> SEXTUS. </speaker>
+                        <l n="1033"> Lève-toi.</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="1034"> Se peut-il que mon illustre élève</l>
+                        <l n="1035"> Contre un infortuné s’indigne et se soulève ?</l>
+                        <l n="1036"> A-t-il pu soupçonner un cœur tel que le mien</l>
+                        <l n="1037"> De vouloir enfoncer un poignard dans le sien ?</l>
+            <stage><em>Il montre la statue de Pompée.</em></stage>
+                        <l n="1038"> Hélas ! depuis la mort de ce maître adorable,</l>
+                        <l n="1039"> Je n’ai fait que gémir de son sort déplorable.   </l>
+                        <l n="1040"> Octave, prévenu que j’avais mérité</l>
+                        <l n="1041"> Qu’un maître pût compter sur ma fidélité,</l>
+                        <l n="1042"> Me prévint, et bientôt m’accorda son estime.</l>
+                        <l n="1043"> On sait que ce tyran s’est fait une maxime</l>
+                        <l n="1044"> D’attacher à son sort les hommes généreux</l>
+                        <l n="1045"> Qui par quelques vertus se sont rendus fameux.</l>
+                        <l n="1046"> C’est ainsi que j’ai su gagner sa confiance :</l>
+                        <l n="1047"> Mais, dans l’art de tromper imitant sa science,</l>
+                        <l n="1048"> Philippe n’a jamais trempé dans ses forfaits,</l>
+                        <l n="1049"> Et Rome n’a de moi reçu que des bienfaits.</l>
+                        <l n="1050"> Mais c’est par d’autres soins qu’un esclave fidèle</l>
+                        <l n="1051"> Doit vous justifier son amour et son zèle.</l>
+                        <l n="1052"> Octave ne croit plus que vous soyez Gaulois :</l>
+                        <l n="1053"> Votre noble fierté, les accents de la voix,</l>
+                        <l n="1054"> Vos soins pour les proscrits, échappés vers Ostie,</l>
+                        <l n="1055"> Et l’ardeur que pour vous fait éclater Tullie,</l>
+                        <l n="1056"> Alarment à tel point ce cœur né soupçonneux,</l>
+                        <l n="1057"> Qu’il voudrait vous pouvoir sacrifier tous deux ;</l>
+                        <l n="1058"> Et, sans bien pénétrer quelle est votre origine,</l>
+                        <l n="1059"> Il veut que cette nuit ma main vous assassine,</l>
+                        <l n="1060"> Sans croire cependant que vous soyez Sextus :</l>
+                        <l n="1061"> Mais il vous croit du moins un ami de Brutus.</l>
+                        <l n="1062"> Il vient de me quitter pour passer chez Fulvie :</l>
+                        <l n="1063"> Je crains qu’à Cicéron il n’en coûte la vie.</l>
+                        <l n="1064"> Les moments vous sont chers, et c’est fait de vos jours,</l>
+                        <l n="1065"> Si de ceux du tyran je n’abrège le cours.</l>
+                        <l n="1066"> Pour sauver l’un de vous, il faut immoler l’autre :</l>
+                        <l n="1067"> Choisissez du trépas de César ou du vôtre.</l>
+                        <l n="1068"> Rien n’est sacré pour moi, dès qu’il s’agit de vous.</l>
+                </sp>
+        <sp who="#sextus">
+            <speaker> SEXTUS. </speaker>
+                        <l n="1069"> L’assassinat, Philippe, est indigne de nous.</l>
+                        <l n="1070"> Avant que d’éclater tu pouvais l’entreprendre ;</l>
+                        <l n="1071"> Mais, instruit du projet, je dois te le défendre.</l>
+                        <l n="1072"> Je m’en ferais un crime après l’avoir appris,</l>
+                        <l n="1073"> Et l’on t’eût pardonné de l’avoir entrepris.</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="1074"> On ne peut trop louer un soin si magnanime :</l>
+                        <l n="1075"> Mais je vois d’un autre œil l’autel et la victime.</l>
+                        <l n="1076"> Le destin n’a point mis des sentiments égaux</l>
+                        <l n="1077"> Dans l’âme de l’esclave et celle du héros.</l>
+                        <l n="1078"> Mon devoir le plus saint, c’est de sauver mon maître.</l>
+                        <l n="1079"> Qui d’Octave ou de vous, aujourd’hui le doit être ?</l>
+                        <l n="1080"> César ne fut jamais ni mon dieu, ni mon roi ;</l>
+                        <l n="1081"> Et le plus fier tyran n’est qu’un homme pour moi.</l>
+                        <l n="1082"> Si, pour vous soutenir, une égale fortune</l>
+                        <l n="1083"> Rendait entre vous deux la puissance commune,</l>
+                        <l n="1084"> Et que de l’immoler vous eussiez le dessein,</l>
+                        <l n="1085"> Sextus pourrait ailleurs chercher un assassin.</l>
+                        <l n="1086"> Mais s’armer du poignard qu’un lâche nous destine,</l>
+                        <l n="1087"> Ce n’est que le punir alors qu’on l’assassine.</l>
+                        <l n="1088"> Se laisser prévenir est moins une vertu</l>
+                        <l n="1089"> Que l’imbécillité d’un courage abattu.</l>
+                        <l n="1090"> Il ne vous reste plus qu’une fuite douteuse :</l>
+                        <l n="1091"> Pour le fils de Pompée elle serait honteuse.</l>
+                        <l n="1092"> Bientôt de toutes parts vous serez observé :</l>
+                        <l n="1093"> Prévenez donc le coup qui vous est réservé.</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="1094"> Rejetez les conseils que Philippe vous donne ;</l>
+                        <l n="1095"> Mais fuyons, puisqu’ainsi votre honneur nous l’ordonne.</l>
+                        <l n="1096"> Allons trouver mon père, et remettons aux dieux</l>
+                        <l n="1097"> Le soin de nous sauver de ces funestes lieux.</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="1098"> Moi, je vais retrouver César : daignez attendre</l>
+                        <l n="1099"> Que je sois en état du moins de vous défendre.</l>
+                        <l n="1100"> Vous verriez, si mon bras ne peut vous secourir,</l>
+                        <l n="1101"> Que Philippe avec vous est digne de mourir.</l></div></div>
+           <div type="act" xml:id="4">
+           <head> ACTE IV </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#cicéron">
+            <speaker> CICÉRON </speaker>
+                        <l n="1102"> Orgueilleux monuments d’une grandeur passée,</l>
+                        <l n="1103"> Qui par celles des dieux n’était point effacée ;</l>
+                        <l n="1104"> Et vous, marbres sacrés de nos premiers aïeux,</l>
+                        <l n="1105"> Qui faisiez l’ornement de ces superbes lieux ;</l>
+                        <l n="1106"> En vain, de vos travaux célébrant la mémoire,</l>
+                        <l n="1107"> Rome a cru de vos noms éterniser la gloire :</l>
+                        <l n="1108"> Bientôt vous ne serez qu’un horrible débris,</l>
+                        <l n="1109"> Et de nouveaux objets de larmes et de cris.</l>
+                        <l n="1110"> Déjà les rejetons de vos tiges fameuses,</l>
+                        <l n="1111"> D’Antoine et de César victimes malheureuses,</l>
+                        <l n="1112"> N’offrent plus à nos yeux qu’un mélange confus</l>
+                        <l n="1113"> De morts et de mourants dans la fange étendus.</l>
+            <stage><em>Il jette les yeux sur le tableau des proscriptions, et il y voit son nom.</em></stage>
+                        <l n="1114"> Mais, parmi tant d’horreurs, quelle gloire imprévue</l>
+                        <l n="1115"> Vient ranimer mon cœur et briller à ma vue ?</l>
+                        <l n="1116"> Mon nom ne sera plus étouffé dans l’oubli,</l>
+                        <l n="1117"> Et dans ses dignités le voilà rétabli.</l>
+                        <l n="1118"> Enfin je suis proscrit : que mon âme est ravie !</l>
+                        <l n="1119"> Je renais au moment qu’on m’arrache la vie.</l>
+                        <l n="1120"> Héros infortunés, souffrez que ce tableau</l>
+                        <l n="1121"> Me serve, ainsi qu’à vous, de trône et de tombeau.</l>
+                        <l n="1122"> Je mourrai dans ton sein, ô ma chère patrie !</l>
+                        <l n="1123"> Eh ! que ne peut mon sang épuiser la furie</l>
+                        <l n="1124"> Des cruels triumvirs qui s’abreuvent du tien !</l>
+                        <l n="1125"> Qu’avec plaisir pour toi j’aurais donné le mien !</l>
+                        <l n="1126"> Au milieu des tourments, je serais mort tranquille.</l>
+                        <l n="1127"> Je vivais pour toi seule, et je meurs inutile.</l>
+                        <l n="1128"> Quelqu’un vient. C’en est fait ; voici l’heureux instant</l>
+                        <l n="1129"> Qui va livrer ma tête au glaive qui l’attend.</l>
+                        <l n="1130"> Mais je l’espère en vain ; c’est le sage Mécène,</l>
+                        <l n="1131"> Qu’une pitié cruelle en tremblant me ramène,</l>
+                        <l n="1132"> Et qui me croit peut-être accablé de douleur</l>
+                        <l n="1133"> À l’aspect du seul bien qui peut toucher mon cœur.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#mécène">
+            <speaker> MÉCÈNE. </speaker>
+                        <l n="1134"> Malgré les soins divers dont vous étiez la proie,</l>
+                        <l n="1135"> Je lis dans vos regards une secrète joie</l>
+                        <l n="1136"> Qui dissipe ma crainte et flatte mon espoir.</l>
+                        <l n="1137"> César l’augmente encor dès qu’il veut vous revoir.</l>
+                        <l n="1138"> Ah ! Cicéron, souffrez que je vous concilie.</l>
+                        <l n="1139"> Pour triompher d’Antoine, et pour braver Fulvie,</l>
+                        <l n="1140"> Accordez votre fille aux soins officieux</l>
+                        <l n="1141"> D’un ami qui voudrait pouvoir l’unir aux dieux :</l>
+                        <l n="1142"> Renoncez à l’orgueil de ces vertus austères</l>
+                        <l n="1143"> Qu’en des temps moins cruels se prescrivaient nos pères.</l>
+                        <l n="1144"> Ce n’est qu’en se pliant à la nécessité</l>
+                        <l n="1145"> Que l’on peut des tyrans tromper l’autorité.</l>
+                        <l n="1146"> Un torrent n’a jamais causé plus de ravage</l>
+                        <l n="1147"> Que lorsqu’à son courant on ferme le passage.</l>
+                        <l n="1148"> Laissez-le s’écouler, et nous donnez la paix :</l>
+                        <l n="1149"> Couronnez par ce don tous vos autres bienfaits.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="1150"> César vous aurait-il chargé de la conclure,</l>
+                        <l n="1151"> Rebuté d’outrager les dieux et la nature ?</l>
+                        <l n="1152"> Moins pressé de la soif de grossir ses trésors,</l>
+                        <l n="1153"> Vous aurait-il promis de respecter les morts,</l>
+                        <l n="1154"> De ne point dépouiller leurs enfants et leurs femmes</l>
+                        <l n="1155"> Des biens que ce cruel prodigue à des infâmes ?</l>
+                        <l n="1156"> Ignorez-vous encor que des édits nouveaux</l>
+                        <l n="1157"> Ordonnent de fouiller jusque dans les tombeaux ;</l>
+                        <l n="1158"> Que son avidité, par des lois inhumaines,</l>
+                        <l n="1159"> Impose des tributs jusqu’aux dames romaines ?</l>
+                        <l n="1160"> Vous fait-il espérer que de notre union</l>
+                        <l n="1161"> L’instant sera la fin de la proscription ?</l>
+                </sp>
+        <sp who="#mécène">
+            <speaker> MÉCÈNE. </speaker>
+                        <l n="1162"> C’est pour vous que d’hier César l’a suspendue.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="1163"> Eh bien ! sur ce tableau daignez jeter la vue,</l>
+            <stage><em>Il lui montre le tableau de la proscription.</em></stage>
+                        <l n="1164"> Pour mieux me distinguer, c’est mon funeste nom</l>
+                        <l n="1165"> Qui seul en fait le prix.</l>
+                </sp>
+        <sp who="#mécène">
+            <speaker> MÉCÈNE. </speaker>
+                        <l n="1166"> Dieux ! quelle trahison !</l>
+                        <l n="1167"> César aurait dicté cet arrêt sanguinaire !</l>
+                        <l n="1168"> Mais non : je reconnais la main du téméraire</l>
+                        <l n="1169"> Qui seul aura tracé cet horrible décret.</l>
+                        <l n="1170"> Eh ! quel autre qu’Antoine eût commis ce forfait ?     </l>
+                        <l n="1171"> César jusqu’à ce point, eût-il flétri sa gloire ?</l>
+                        <l n="1172"> Si je l’en soupçonnais, ou si j’osais le croire,</l>
+                        <l n="1173"> Loin de tenter encor de le justifier,</l>
+                        <l n="1174"> Je serais le premier à le sacrifier.</l>
+                        <l n="1175"> S’il est vrai que César ait voulu vous proscrire,</l>
+                        <l n="1176"> Sur ce même tableau je vais me faire inscrire.</l>
+                        <l n="1177"> Adieu. Si je ne puis vous sauver de ses coups,</l>
+                        <l n="1178"> Vous me verrez combattre et mourir avec vous.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#cicéron">
+            <speaker> CICÉRON </speaker>
+                        <l n="1179"> Eh ! qu’importe à César que nous mourions ensemble,</l>
+                        <l n="1180"> Et qu’un même supplice aux enfers nous rassemble ?</l>
+                        <l n="1181"> Que je plains ton erreur, aveugle courtisan,</l>
+                        <l n="1182"> Si tu crois par ta mort attendrir un tyran !</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="1183"> Je le vois, terminons ma course infortunée</l>
+                        <l n="1184"> Par l’emploi que m’avait commis ma destinée.</l>
+                        <l n="1185"> Parlons : fassent les dieux que mes derniers accents</l>
+                        <l n="1186"> Ne se réduisent point à des cris impuissants !</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1187"> Cicéron, en ces lieux, n’a-t-il point vu Mécène ?</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="1188"> Je ne l’ai que trop vu pour accroître ma peine.</l>
+                        <l n="1189"> Mais sur un autre point, César, écoute-moi ;</l>
+                        <l n="1190"> C’est l’unique faveur que j’exige de toi.</l>
+                        <l n="1191"> Je vois avec pitié que ta rigueur extrême</l>
+                        <l n="1192"> Attirera bientôt la foudre sur toi-même.</l>
+                        <l n="1193"> Si, pour nous accabler de maux et de douleurs,</l>
+                        <l n="1194"> La terre a ses tyrans, le ciel a ses vengeurs.</l>
+                        <l n="1195"> Crains, malgré ton pouvoir, que quelque main hardie</l>
+                        <l n="1196"> Ne te punisse un jour de tant de barbarie.</l>
+                        <l n="1197"> Quels monstres ont jamais immolé des enfants ?</l>
+                        <l n="1198"> Peut-on trop respecter ces êtres innocents ?</l>
+                        <l n="1199"> Hélas ! de tes fureurs, victimes lamentables,</l>
+                        <l n="1200"> Leurs mères ne sont pas pour toi plus redoutables,</l>
+                        <l n="1201"> Et cependant tu veux les priver de leurs biens :</l>
+                        <l n="1202"> César leur eût plutôt prodigué tous les siens.</l>
+                        <l n="1203"> C’était par des bienfaits qu’il vengeait une injure.</l>
+                        <l n="1204"> Son fils, pour se venger, détruirait la nature.</l>
+                        <l n="1205"> Est-ce ainsi que tu veux succéder à César,       </l>
+                        <l n="1206"> Ce héros qui traînait tous les cœurs à son char ?</l>
+                        <l n="1207"> Imite sa bonté ; crois-moi, fais-nous connaître</l>
+                        <l n="1208"> Que tu peux l’égaler, le surpasser peut-être.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1209"> Et pourquoi n’imputer qu’à moi seul ces décrets</l>
+                        <l n="1210"> Dont Rome a ressenti de si cruels effets ?</l>
+                        <l n="1211"> Antoine est-il pour eux un dieu plus favorable ?</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="1212"> Eh ! qui pourrait fléchir ce tigre inexorable,</l>
+                        <l n="1213"> Dans l’ivresse, l’orgueil, et le luxe allaité,</l>
+                        <l n="1214"> Monstre que le destin n’a que trop bien traité,</l>
+                        <l n="1215"> Et qui, pour ton malheur, nourri dans le carnage,</l>
+                        <l n="1216"> N’a pour toute vertu qu’une valeur sauvage ?</l>
+                        <l n="1217"> César, dès qu’il s’agit d’avoir recours aux dieux,</l>
+                        <l n="1218"> Qui d’Antoine ou de toi leur ressemble le mieux ?</l>
+                        <l n="1219"> Le ciel de ses bienfaits t’enrichit sans mesure ;</l>
+                        <l n="1220"> Respecte les faveurs que te fit la nature.</l>
+                        <l n="1221"> Que n’as-tu pas reçu de ta prodigue main ?</l>
+                        <l n="1222"> Tous les dons d’un génie au-dessus de l’humain.</l>
+                        <l n="1223"> Lorsqu’il ne tient qu’à toi d’être adoré dans Rome,</l>
+                        <l n="1224"> Te sied-il d’être Antoine, ou de n’être qu’un homme ?</l>
+                        <l n="1225"> Sois César, sois un dieu, tu le peux, tu le dois ;</l>
+                        <l n="1226"> Trop heureux que le sort te laisse un si beau choix !</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1227"> Tu n’auras pas en vain recours à ma clémence,</l>
+                        <l n="1228"> Ni d’un sexe timide embrassé la défense.</l>
+                        <l n="1229"> Je souscris à tes soins, je veux en ta faveur</l>
+                        <l n="1230"> Abolir ces décrets qui te font tant d’horreur.</l>
+                        <l n="1231"> Au sort des malheureux une âme si sensible</l>
+                        <l n="1232"> Pour moi seul aujourd’hui sera-t-elle inflexible ?</l>
+                        <l n="1233"> Je viens sur ta fierté faire un dernier effort.</l>
+                        <l n="1234"> Qu’avec mon amitié la tienne soit d’accord.</l>
+                        <l n="1235"> Je ne refuse rien lorsque ta voix m’implore :</l>
+                        <l n="1236"> Laisse-moi triompher du fiel qui te dévore ;</l>
+                        <l n="1237"> Réunissons deux cœurs divisés trop longtemps</l>
+                        <l n="1238"> Pour des cœurs vertueux j’ose dire aussi grands.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="1239"> Octave, tu me fis admirer ton enfance :</l>
+                        <l n="1240"> J’attendais encor plus de ton adolescence ;</l>
+                        <l n="1241"> Tu m’as trompé. Les cœurs remplis d’ambition</l>
+                        <l n="1242"> Sont sans foi, sans honneur et sans affection :</l>
+                        <l n="1243"> Occupés seulement de l’objet qui les guide,</l>
+                        <l n="1244"> Ils n’ont de l’amitié que le masque perfide ;</l>
+                        <l n="1245"> Prodigues de serments, avares des effets,</l>
+                        <l n="1246"> Le poison est caché même sous leurs bienfaits.</l>
+                        <l n="1247"> La gloire d’un grand homme est pour eux un supplice,</l>
+                        <l n="1248"> Et pour lui, tôt ou tard, devient un précipice.</l>
+                        <l n="1249"> Je n’espère plus rien, et je crains encor moins.</l>
+                        <l n="1250"> Garde pour tes amis tes bontés et tes soins ;</l>
+                        <l n="1251"> Pour en être, il faudrait aimer la tyrannie.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1252"> Déchire le bandeau d’une aveugle manie,</l>
+                        <l n="1253"> Erreur dont ton orgueil s’est laissé prévenir ;</l>
+                        <l n="1254"> Et rougis des discours que tu m’oses tenir.</l>
+                        <l n="1255"> Que peut me reprocher ton injuste colère ?</l>
+                        <l n="1256"> Qu’ai-je fait qu’avant moi n’eût fait ici mon père ?</l>
+                        <l n="1257"> N’obéissait-on pas lorsque César vivait ?</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="1258"> Sois seulement son ombre, et je suis ton sujet.</l>
+                        <l n="1259"> Du bonheur des humains sage dépositaire,</l>
+                        <l n="1260"> En faisant toujours bien, ne songe qu’à bien faire :</l>
+                        <l n="1261"> Sois clément, vertueux, et rétablis les lois ;</l>
+                        <l n="1262"> Je serai le premier à te donner ma voix.</l>
+                        <l n="1263"> Mais, tant que je verrai des tigres en furie</l>
+                        <l n="1264"> Déchirer les enfants de ma triste patrie,</l>
+                        <l n="1265"> Je ferai de mes cris retentir l’univers,</l>
+                        <l n="1266"> Et je les porterai jusque dans les enfers.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1267"> Pour me livrer la guerre avec plus d’assurance,</l>
+                        <l n="1268"> Des hommes et des temps pèse la circonstance.</l>
+                        <l n="1269"> Mon père n’eut jamais que sa gloire à venger ;           </l>
+                        <l n="1270"> Ainsi César pouvait pardonner sans danger :</l>
+                        <l n="1271"> Pour un autre César il n’eut point à proscrire.</l>
+                        <l n="1272"> Qui d’ailleurs eût osé lui disputer l’empire ?</l>
+                        <l n="1273"> Je ne suis entouré que de vils sénateurs,</l>
+                        <l n="1274"> Opprobres des humains, lâches perturbateurs,</l>
+                        <l n="1275"> Que se fût immolés la justice ordinaire,</l>
+                        <l n="1276"> Dont Brutus a voulu lui-même se défaire,</l>
+                        <l n="1277"> Et que ce meurtrier n’a laissés dans ces lieux</l>
+                        <l n="1278"> Que pour m’assassiner ou me rendre odieux :</l>
+                        <l n="1279"> Car de mes ennemis l’indigne politique</l>
+                        <l n="1280"> Ne tend qu’à me charger de la haine publique.</l>
+                        <l n="1281"> Mais en de vains discours, c’est trop nous engager :</l>
+                        <l n="1282"> Je ne suis pas venu pour me faire juger.</l>
+                        <l n="1283"> Pour la dernière fois je demande Tullie.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="1284"> Faut-il que jusque-là ta grandeur s’humilie ?</l>
+                        <l n="1285"> D’un amour simulé laissons là les attraits.</l>
+                        <l n="1286"> Va, je t’ai pénétré plus que tu ne voudrais.</l>
+                        <l n="1287"> Les doux liens du cœur, étrangers dans ton âme,</l>
+                        <l n="1288"> Ne triompheront point de l’ardeur qui t’enflamme ;</l>
+                        <l n="1289"> C’est la soif de régner, voilà ce que tu veux :</l>
+                        <l n="1290"> Mais, comme il faut voiler ce projet dangereux,</l>
+                        <l n="1291"> Tu veux en imposer par l’hymen de Tullie ;</l>
+                        <l n="1292"> Faire croire aux Romains, puisqu’à toi je m’allie,       </l>
+                        <l n="1293"> Que j’épouse à mon tour ta haine et ta fureur,</l>
+                        <l n="1294"> En faveur d’un hymen qui me comble d’honneur ;</l>
+                        <l n="1295"> Si je t’ouvre un chemin à la grandeur suprême,</l>
+                        <l n="1296"> Que je l’aplanis moins pour toi que pour moi-même ;</l>
+                        <l n="1297"> Et qu’enfin c’est moi seul qui dicte tes arrêts :</l>
+                        <l n="1298"> Prétexte précieux pour m’immoler après.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1299"> Si j’avais de te perdre une secrète envie,</l>
+                        <l n="1300"> Qui pourrait m’engager à retenir Fulvie ?</l>
+                        <l n="1301"> Imprudent orateur, songe que ton orgueil</l>
+                        <l n="1302"> A de tes intérêts toujours été l’écueil.</l>
+                        <l n="1303"> S’il me faut pour régner, l’appui d’une famille,</l>
+                        <l n="1304"> Qu’ai-je besoin, dis-moi, de toi ni de ta fille ?</l>
+                        <l n="1305"> Ingrat, si tu jouis de la clarté du jour,</l>
+                        <l n="1306"> Apprends que tu ne dois ce bien qu’à mon amour.</l>
+                        <l n="1307"> Vois ton nom.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="1308"> Je l’ai vu, César, je t’en rends grâce :</l>
+                        <l n="1309"> Mais il ne s’agit pas du sort qui me menace ;</l>
+                        <l n="1310"> Il s’agit des Romains. Pour la dernière fois,</l>
+                        <l n="1311"> D’un ami malheureux daigne écouter la voix.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1312"> Je n’écoute plus rien d’un ami si perfide.</l>
+                        <l n="1313"> Ce n’est pas l’intérêt de Rome qui te guide :    </l>
+                        <l n="1314"> Ce fameux Clodomir, ce rival odieux,</l>
+                        <l n="1315"> Qu’avec tant de secret tu cachais en ces lieux,</l>
+                        <l n="1316"> Injurieux objet d’une lâche tendresse,</l>
+                        <l n="1317"> Est le seul où ton cœur aujourd’hui s’intéresse.          </l>
+                        <l n="1318"> C’est l’amant de Tullie, ose me le nier.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="1319"> Je ne chercherai pas à m’en justifier.</l>
+                        <l n="1320"> Pourquoi de ce rival te ferais-je un mystère ?</l>
+                        <l n="1321"> A-t-il trempé ses mains dans le sang de ton père ?</l>
+                        <l n="1322"> Ou, si c’est un forfait que d’aimer les Romains,          </l>
+                        <l n="1323"> Implacable tyran, détruis tous les humains.</l>
+                        <l n="1324"> C’est dans la cruauté que brille ton courage.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1325"> Ah ! c’est pousser trop loin le mépris et l’outrage.</l>
+                        <l n="1326"> Adieu ; je t’abandonne à mon inimitié.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="1327"> Va, fuis ; je l’aime mieux encor que ta pitié.</l>
+                        <l n="1328"> Celle de tes pareils à la fois déshonore</l>
+                        <l n="1329"> Et celui qu’elle épargne et celui qui l’implore.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#cicéron">
+            <speaker> CICÉRON </speaker>
+                        <l n="1330"> Mais que sont devenus mes enfants malheureux,</l>
+                        <l n="1331"> Depuis l’instant fatal qui m’a séparé d’eux ?</l>
+                        <l n="1332"> Ma fille dans sa fuite a-t-elle été surprise ?</l>
+                        <l n="1333"> Ou Sextus aurait-il manqué son entreprise ?</l>
+                        <l n="1334"> Hélas ! de Tusculum s’ils ont pris le chemin,  </l>
+                        <l n="1335"> Dans mes tristes foyers ils m’attendront en vain ;</l>
+                        <l n="1336"> Je ne reverrai plus ce couple que j’adore.</l>
+                        <l n="1337"> Eh ! puis-je désirer de les revoir encore ?</l>
+                        <l n="1338"> J’obtiens le seul honneur que j’avais tant souhaité,</l>
+                        <l n="1339"> Et du moins je pourrai mourir en liberté...</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="1340"> Mais je vois mes enfants ; chers témoins de ma joie,</l>
+                        <l n="1341"> C’est pour la partager que le ciel vous envoie.</l>
+                        <l n="1342"> Le destin va bientôt terminer mes malheurs,</l>
+                        <l n="1343"> Et mon sort est trop beau pour mériter des pleurs.</l>
+                        <l n="1344"> Viens, ma fille ; jouis des honneurs de ton père ;</l>
+                        <l n="1345"> Vois, lis sur ce tableau la fin de ma misère.</l>
+                        <l n="1346"> Sextus, vous m’avez vu le front humilié</l>
+                        <l n="1347"> Que parmi ces grands noms le mien fut oublié.</l>
+                        <l n="1348"> Je me plaignais à tort des mépris d’un barbare ;</l>
+                        <l n="1349"> Pardonnons-lui tous deux un affront qu’il répare.</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="1350"> Seigneur, est-ce donc là ce destin glorieux</l>
+                        <l n="1351"> Qui doit être pour nous si grand, si précieux ?</l>
+                        <l n="1352"> Mourir dans les tourments, victime de Fulvie,</l>
+                        <l n="1353"> C’est mourir dans l’opprobre et dans l’ignominie.</l>
+                        <l n="1354"> Eh ! comment, sans rougir d’un si cruel transport,</l>
+                        <l n="1355"> Pouvez-vous avec joie annoncer votre mort ?</l>
+                        <l n="1356"> Changerez-vous toujours d’avis et de conduite ?</l>
+                        <l n="1357"> Un grand cœur doit avoir plus d’ordre et plus de suite.</l>
+                        <l n="1358"> À peine vous formez un généreux dessein,</l>
+                        <l n="1359"> Qu’à l’instant même il est banni de votre sein.</l>
+                        <l n="1360"> À l’amour paternel un faux honneur succède ;</l>
+                        <l n="1361"> Et plus le mal est grand, plus on fuit le remède.</l>
+                        <l n="1362"> César ne vous a point encore abandonné :</l>
+                        <l n="1363"> Si nous mourons, c’est vous qui l’aurez ordonné.</l>
+                        <l n="1364"> Vous le savez, la mort n’a rien qui m’épouvante :</l>
+                        <l n="1365"> Des cœurs infortunés c’est la plus douce attente.</l>
+                        <l n="1366"> Ce qui me fait gémir, c’est de voir votre cœur</l>
+                        <l n="1367"> S’honorer d’un trépas qui n’est qu’un déshonneur.</l>
+                        <l n="1368"> Mais, de ce même fer dont l’amour de Tullie</l>
+                        <l n="1369"> S’est armé pour défendre une si belle vie,        </l>
+                        <l n="1370"> Si vous vous obstinez à rester en ces lieux,</l>
+                        <l n="1371"> Je saurai malgré vous m’immoler à vos yeux.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="1372"> Ah ! ma fille, étouffez ce transport téméraire.</l>
+                </sp>
+        <sp who="#sextus">
+            <speaker> SEXTUS. </speaker>
+                        <l n="1373"> Mon père, il vous apprend ce que vous devez faire.</l>
+                        <l n="1374"> Se peut-il qu’un grand cœur se montre si jaloux</l>
+                        <l n="1375"> Des honneurs qu’un esclave obtiendrait comme vous ?</l>
+                        <l n="1376"> Quel misérable orgueil pour une âme romaine !</l>
+                        <l n="1377"> Ah ! loin de nous vanter une gloire si vaine,</l>
+                        <l n="1378"> Rougissez de vous voir proscrit sur ce tableau.</l>
+                        <l n="1379"> C’est dans le ciel qu’il faut inscrire un nom si beau.</l>
+                        <l n="1380"> Des plus nobles proscrits je viens d’armer l’élite ;</l>
+                        <l n="1381"> C’est à mourir entre eux que l’honneur nous invite.</l>
+                        <l n="1382"> Laisserez-vous périr ces guerriers généreux</l>
+                        <l n="1383"> Qui s’exposent pour vous au sort le plus affreux ?</l>
+                        <l n="1384"> Un Romain, tant qu’il veut peut rétablir sa gloire :</l>
+                        <l n="1385"> C’est en cherchant la mort qu’il trouve la victoire.</l>
+                        <l n="1386"> Lorsqu’il faut terminer ses déplorables jours, </l>
+                        <l n="1387"> Est-ce au fer des bourreaux qu’il faut avoir recours ?</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="1388"> Ah ! je n’aspire point aux honneurs de la guerre :</l>
+                        <l n="1389"> Le ciel ne m’a point fait pour désoler la terre,</l>
+                        <l n="1390"> Ni pour briller dans l’art des travaux meurtriers.</l>
+                        <l n="1391"> Ainsi que ses vertus, chacun a ses lauriers.</l>
+                        <l n="1392"> Et que peut m’importer, dès qu’il faut que je meure,</l>
+                        <l n="1393"> Quelle main me viendra marquer ma dernière heure ?</l>
+                        <l n="1394"> Lorsqu’on ne peut plus vivre, il faut savoir mourir,</l>
+                        <l n="1395"> Et se rendre quand rien ne peut nous secourir.</l>
+                        <l n="1396"> À quoi me servira votre valeur suprême,</l>
+                        <l n="1397"> Plus terrible cent fois pour moi que la mort même ?</l>
+                        <l n="1398"> Tullie est un héros au-dessus du trépas,</l>
+                        <l n="1399"> Qui viendra se lancer à travers les soldats.</l>
+                        <l n="1400"> Voulez-vous qu’à mes yeux on égorge ma fille,</l>
+                        <l n="1401"> Et l’héritier qui peut relever ma famille ?</l>
+                        <l n="1402"> Et comment osez-vous hasarder vos amis,</l>
+                        <l n="1403"> Dès que le moindre espoir ne nous est plus permis ?</l>
+                        <l n="1404"> Dans l’ardeur de tenter une vaine défense,</l>
+                        <l n="1405"> Les ferez-vous périr pour toute récompense ?</l>
+                </sp>
+        <sp who="#sextus">
+            <speaker> SEXTUS. </speaker>
+                        <l n="1406"> Eh bien ! si rien ne peut nous sauver de la mort,</l>
+                        <l n="1407"> Nous mourrons tous du moins dignes d’un meilleur sort.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="1408"> C’est parler en soldat, dont l’ardente manie</l>
+                        <l n="1409"> Méprise également et la mort et la vie.</l>
+                        <l n="1410"> Je suis père, et je dois penser mieux qu’un amant</l>
+                        <l n="1411"> Qui ne consulte plus que son emportement.</l>
+                        <l n="1412"> On n’en veut qu’à moi seul en ce moment funeste ;</l>
+                        <l n="1413"> Faut-il imprudemment sacrifier le reste ?</l>
+                        <l n="1414"> Mon sang apaisera la fureur des tyrans.</l>
+                        <l n="1415"> Ah ! laissez-lui l’honneur de sauver mes enfants ;</l>
+                        <l n="1416"> Calmez les fiers transports de ce cœur indomptable :</l>
+                        <l n="1417"> Ma mort est désormais un mal inévitable.</l>
+                        <l n="1418"> Ma fille, qui n’a plus d’autre soutien que vous,</l>
+                        <l n="1419"> Aura-t-elle à pleurer son père et son époux ?</l>
+                        <l n="1420"> Adieu, mon cher Sextus ; adieu, chère Tullie :</l>
+                        <l n="1421"> Pour m’aimer plus longtemps, conservez votre vie.</l>
+                        <l n="1422"> On vient. Ah ! c’en est fait. Dieux, quel moment affreux !</l>
+                        <l n="1423"> Hélas ! pour ma défense ils se perdront tous deux.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#philippe">
+            <speaker> PHILIPPE, à Sextus. </speaker>
+                        <l n="1424"> Vos amis, assemblés sous diverses cohortes,</l>
+                        <l n="1425"> Pour vous accompagner, sont déjà loin des portes.</l>
+            <stage><em>À Tullie.</em></stage>
+                        <l n="1426"> Madame, en ce moment, daignez suivre ses pas.</l>
+                        <l n="1427"> Du sort de Cicéron ne vous alarmez pas.</l>
+                        <l n="1428"> Octave, qui ne veut que semer l’épouvante,</l>
+                        <l n="1429"> A cru, pour ébranler votre âme trop constante,</l>
+                        <l n="1430"> Devoir ranger son nom au nombre des proscrits ;</l>
+                        <l n="1431"> Mais, malgré le courroux dont son cœur est épris,</l>
+                        <l n="1432"> Il ne peut consentir à livrer votre père.</l>
+                        <l n="1433"> Ainsi ne craignez rien de sa feinte colère.</l>
+            <stage><em>À Cicéron.</em></stage>
+                        <l n="1434"> Loin de vouloir, seigneur, en terminer le cours,</l>
+                        <l n="1435"> Il vient de m’ordonner de veiller sur vos jours.</l>
+                        <l n="1436"> Marchons à Tusculum, tandis qu’avec Tullie</l>
+                        <l n="1437"> Sextus ira se rendre au rivage d’Ostie.</l>
+                </sp>
+        <sp who="#cicéron">
+            <speaker> CICÉRON. </speaker>
+                        <l n="1438"> Adieu, tristes témoins de mes vœux superflus :</l>
+                        <l n="1439"> Palais infortuné, je ne vous verrai plus.</l></div></div>
+           <div type="act" xml:id="5">
+           <head> ACTE V </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE </speaker>
+                        <l n="1440"> Je le connais enfin, ce rival trop heureux</l>
+                        <l n="1441"> Que pour nous son seul nom, rendait si dangereux,</l>
+                        <l n="1442"> L’audacieux Sextus, que César, trop facile,</l>
+                        <l n="1443"> Laissa vivre, ou plutôt régner, dans la Sicile,</l>
+                        <l n="1444"> Et dont il n’est sorti que dans le noir dessein</l>
+                        <l n="1445"> De me plonger peut-être un poignard dans le sein.</l>
+                        <l n="1446"> Le traître n’a que trop attenté sur ma vie,</l>
+                        <l n="1447"> En séduisant le cœur de l’ingrate Tullie.</l>
+                        <l n="1448"> Que de soins différents m’agitent tour à tour !</l>
+                        <l n="1449"> Un peuple mutiné, l’ambition, l’amour.</l>
+                        <l n="1450"> Sont-ce donc là les biens que tu cherchais, Octave,</l>
+                        <l n="1451"> Et dont pour ton honneur, tu n’es que trop esclave ?</l>
+                        <l n="1452"> Règne, puisque tu veux soumettre l’univers ;</l>
+                        <l n="1453"> Mais, en l’en accablant, partage moins ses fers.</l>
+                        <l n="1454"> Sextus, qui te bravait, échappe à ta vengeance.</l>
+                        <l n="1455"> Avec une valeur égale à sa naissance,</l>
+                        <l n="1456"> Que n’ai-je point encore à redouter de lui ?</l>
+                        <l n="1457"> Voilà ce qui me doit occuper aujourd’hui.</l>
+                        <l n="1458"> Sans être secouru que de sa seule épée,</l>
+                        <l n="1459"> Sextus par ses exploits fait revivre Pompée :</l>
+                        <l n="1460"> Nous le verrons bientôt disputer avec nous</l>
+                        <l n="1461"> Un fardeau dont le poids ne paraît que trop doux.</l>
+                        <l n="1462"> Mais je saurai bientôt prévenir son attente :</l>
+                        <l n="1463"> Immolons à la fois Sextus et son amante.</l>
+                        <l n="1464"> Heureusement Tullie est encor dans nos mains,</l>
+                        <l n="1465"> Et de Rome son père a repris les chemins ;</l>
+                        <l n="1466"> Bientôt Hérennius qui devait l’y conduire,</l>
+                        <l n="1467"> De son sort, quel qu’il soit, aura soin de m’instruire.</l>
+                        <l n="1468"> Mais Mécène paraît.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1469"> Cher ami, que mon cœur</l>
+                        <l n="1470"> Avait besoin de toi pour calmer ma douleur !</l>
+                        <l n="1471"> Philippe m’a trahi : cet esclave infidèle,</l>
+                        <l n="1472"> Que je croyais si sûr et si rempli de zèle,</l>
+                        <l n="1473"> Par ses fausses vertus abusant mes esprits,</l>
+                        <l n="1474"> Était d’intelligence avec tous les proscrits.</l>
+                        <l n="1475"> C’est lui qui les a tous sauvés de ma poursuite,</l>
+                        <l n="1476"> Et qui seul de Sextus a préparé la fuite.</l>
+                </sp>
+        <sp who="#mécène">
+            <speaker> MÉCÈNE. </speaker>
+                        <l n="1477"> Philippe n’a jamais mieux rempli son devoir</l>
+                        <l n="1478"> Qu’en trompant votre haine et votre fol espoir.</l>
+                        <l n="1479"> Et, d’ailleurs devait-il vous livrer son élève ?</l>
+                        <l n="1480"> À ce nom si chéri déjà l’on se soulève.</l>
+                        <l n="1481"> Si par malheur Sextus fût resté dans vos mains,</l>
+                        <l n="1482"> Vous eussiez contre vous armé tous les Romains.</l>
+                        <l n="1483"> Mais n’êtes-vous point las de tant de barbarie,</l>
+                        <l n="1484"> Et d’exercer ici l’empire des Furies ?</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1485"> Qu’entends-je ?</l>
+                </sp>
+        <sp who="#mécène">
+            <speaker> MÉCÈNE. </speaker>
+                        <l n="1486"> Les discours d’un ami vertueux,</l>
+                        <l n="1487"> Dont vous approuveriez le zèle impétueux,</l>
+                        <l n="1488"> Si de quelque retour votre âme était capable ;</l>
+                        <l n="1489"> Mais aux cris comme aux pleurs, elle est impénétrable.</l>
+                        <l n="1490"> Vous ne serez que trop entouré de flatteurs,</l>
+                        <l n="1491"> Et que trop inspiré par de vils délateurs :</l>
+                        <l n="1492"> C’est l’unique entretien où vous trouviez des charmes.</l>
+                        <l n="1493"> Je ne puis plus vous voir sans répandre des larmes.</l>
+                        <l n="1494"> L’ami que j’avais cru digne d’être adoré,</l>
+                        <l n="1495"> C’est le même par qui je suis déshonoré.</l>
+                        <l n="1496"> Tandis que c’est lui seul qui détruit, persécute,</l>
+                        <l n="1497"> Aux pleurs qu’il fait verser c’est moi qui suis en butte.</l>
+                        <l n="1498"> Vos soldats rebutés de servir d’assassins,</l>
+                        <l n="1499"> M’ont déjà reproché vos ordres inhumains.</l>
+                        <l n="1500"> On dirait qu’en effet votre cœur sanguinaire</l>
+                        <l n="1501"> Fait du sang des mortels sa substance ordinaire,</l>
+                        <l n="1502"> Qu’il ne voit qu’à regret des hommes innocents :</l>
+                        <l n="1503"> Car vous les croyez tous criminels ou méchants ;</l>
+                        <l n="1504"> Et bientôt à vos yeux dans son sein déplorable,</l>
+                        <l n="1505"> Rome n’offrira plus qu’un gouffre abominable,</l>
+                        <l n="1506"> Que vous achèverez de combler de forfaits.</l>
+                        <l n="1507"> Mais comme je suis las d’en supporter le faix,</l>
+                        <l n="1508"> Adieu.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1509"> Quoi ! c’est ainsi que Mécène me quitte !</l>
+                        <l n="1510"> D’où peut naître, dis-moi, le transport qui t’agite ?</l>
+                        <l n="1511"> Ah ! loin de redoubler mon trouble et ma terreur,</l>
+                        <l n="1512"> De l’état où je suis, adoucis la rigueur.</l>
+                        <l n="1513"> Tu sais que dès hier, j’ai cessé de proscrire.</l>
+                        <l n="1514"> Antoine, qui jouit avec moi de l’empire,</l>
+                        <l n="1515"> Pour me perdre d’honneur, par ses détours secrets,</l>
+                        <l n="1516"> Fait passer sous mon nom ses horribles décrets.</l>
+                </sp>
+        <sp who="#mécène">
+            <speaker> MÉCÈNE. </speaker>
+                        <l n="1517"> Est-ce à vous de ramper sous les lois d’un infâme</l>
+                        <l n="1518"> Asservi lâchement aux fureurs d’une femme ?</l>
+                        <l n="1519"> Triumvir comme lui, libre de tout oser,</l>
+                        <l n="1520"> Au plus cruel trépas il fallait s’exposer,</l>
+                        <l n="1521"> Et laver dans son sang une pareille injure.</l>
+                        <l n="1522"> Un affront vit toujours sur le front qui l’endure ;</l>
+                        <l n="1523"> Qui ne s’en venge pas est fait pour le souffrir.</l>
+                        <l n="1524"> On croirait, à vous voir tour à tour vous flétrir</l>
+                        <l n="1525"> Par l’odieux trafic des plus illustres têtes,</l>
+                        <l n="1526"> Que vous vous partagez le fruit de vos conquêtes.</l>
+                        <l n="1527"> Il abandonne un oncle ; et vous, un protecteur</l>
+                        <l n="1528"> Dont vous avez longtemps recherché la faveur,</l>
+                        <l n="1529"> À qui seul vous devez votre grandeur suprême,</l>
+                        <l n="1530"> Et qu’il fallait sauver aux dépens de vous-même.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1531"> Cesse de m’effrayer, et me nomme l’objet</l>
+                        <l n="1532"> Qui fait couler tes pleurs.</l>
+                </sp>
+        <sp who="#mécène">
+            <speaker> MÉCÈNE. </speaker>
+                        <l n="1533"> Ingrat ! qu’avez-vous fait ?</l>
+                        <l n="1534"> Hélas ! hier encore il existait un homme</l>
+                        <l n="1535"> Qui fit par ses vertus les délices de Rome,</l>
+                        <l n="1536"> Mémorable à jamais par ses talents divers,</l>
+                        <l n="1537"> Dont le génie heureux éclairait l’univers ;</l>
+                        <l n="1538"> Il n’est plus... Son salut vous eût couvert de gloire,</l>
+                        <l n="1539"> Et de vos cruautés effacé la mémoire.   </l>
+                        <l n="1540"> Qu’ai-je besoin encor de vous dire son nom ?</l>
+                        <l n="1541"> Ah ! laissez-moi vous fuir et pleurer Cicéron.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1542"> Qui ? moi, j’aurais livré ce mortel admirable !</l>
+                        <l n="1543"> Et c’est de ce forfait toi qui me crois coupable !</l>
+                </sp>
+        <sp who="#mécène">
+            <speaker> MÉCÈNE. </speaker>
+                        <l n="1544"> C’est en l’abandonnant que vous l’avez livré.</l>
+                        <l n="1545"> De sang et de fureur votre cœur enivré,</l>
+                        <l n="1546"> Soigneux de me cacher la moitié de ses crimes,          </l>
+                        <l n="1547"> Laisse au Tibre le soin de compter ses victimes.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1548"> Ah ! Mécène, un moment du moins écoute-moi :</l>
+                        <l n="1549"> Je ne veux entre nous d’autre juge que toi.</l>
+                        <l n="1550"> Moi-même, pour sauver le père de Tullie,</l>
+                        <l n="1551"> J’ai disposé sa fuite à l’insu de Fulvie,</l>
+                        <l n="1552"> Et chargé de ce soin Léna, Salvidius,</l>
+                        <l n="1553"> Soutenus par Philippe et par Hérennius ;</l>
+                        <l n="1554"> C’est par eux qu’en secret je le faisais conduire,</l>
+                        <l n="1555"> Sans prévoir que peut-être on pouvait les séduire.</l>
+                        <l n="1556"> Comment s’en défier, et surtout de Léna,</l>
+                        <l n="1557"> Tribun, que j’ai reçu de la main d’Agrippa ?</l>
+                        <l n="1558"> D’ailleurs à Cicéron Léna devait la vie.</l>
+                </sp>
+        <sp who="#mécène">
+            <speaker> MÉCÈNE. </speaker>
+                        <l n="1559"> C’est à son défenseur, lui seul qui l’a ravie.</l>
+                        <l n="1560"> L’intrépide orateur a vu sans s’ébranler</l>
+                        <l n="1561"> Lever sur lui le bras qui l’allait immoler.</l>
+                        <l n="1562"> « C’est toi, Léna, dit-il ; que rien ne te retienne.</l>
+                        <l n="1563"> « J’ai défendu ta vie, arrache-moi la mienne,</l>
+                        <l n="1564"> « Je ne me repens point d’avoir sauvé tes jours,</l>
+                        <l n="1565"> « Puisque des miens, c’est toi qui dois trancher le cours. »</l>
+                        <l n="1566"> À ces mots, Cicéron lui présente la tête</l>
+                        <l n="1567"> En s’écriant : « Léna, frappe ; la voilà prête ! »</l>
+                        <l n="1568"> Léna, tandis que l’air retentissait de cris,</l>
+                        <l n="1569"> L’abat, court chez Fulvie en demander le prix.</l>
+                        <l n="1570"> Un objet si touchant loin d’attendrir son âme,</l>
+                        <l n="1571"> N’a fait que redoubler le courroux qui l’enflamme.</l>
+                        <l n="1572"> Les yeux étincelants de rage et de fureur,</l>
+                        <l n="1573"> Elle embrasse Léna sans honte et sans pudeur ;</l>
+                        <l n="1574"> Saisit avec transport cette tête divine,</l>
+                        <l n="1575"> Qui semble avec les dieux disputer d’origine,</l>
+                        <l n="1576"> En arrache... Épargnez à ma vive douleur</l>
+                        <l n="1577"> La suite d’un récit qui vous ferait horreur.</l>
+                        <l n="1578"> Nous ne l’entendrons plus du feu de son génie</l>
+                        <l n="1579"> Répandre dans nos cœurs le charme et l’harmonie.</l>
+                        <l n="1580"> Fulvie a déchiré de ses indignes mains</l>
+                        <l n="1581"> Cet objet précieux, l’oracle des humains :</l>
+                        <l n="1582"> Mais on ne m’a point dit après ce coup funeste,</l>
+                        <l n="1583"> Ce que sa barbarie a pu faire du reste.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1584"> Eh bien ! sur Cicéron suis-je justifié ?</l>
+                </sp>
+        <sp who="#mécène">
+            <speaker> MÉCÈNE. </speaker>
+                        <l n="1585"> Si ce n’est pas César, qui l’a sacrifié,</l>
+                        <l n="1586"> Que de sa mort du moins, la plus haute vengeance</l>
+                        <l n="1587"> De César soupçonné fasse voir l’innocence.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1588"> Si je m’en vengerai ! Quoi ! tu peux en douter ?</l>
+                        <l n="1589"> Ta douleur sur ce point n’a rien à redouter :</l>
+                        <l n="1590"> Ma haine désormais ne peut être assouvie</l>
+                        <l n="1591"> Qu’en noyant dans son sang l’exécrable Fulvie.</l>
+                        <l n="1592"> Ce n’est pas Lucius qui m’en fera raison ;</l>
+                        <l n="1593"> C’est Antoine qui doit payer pour Cicéron.</l>
+                        <l n="1594"> Si tu m’aimes encore, va me chercher sa fille ;</l>
+                        <l n="1595"> Je veux de ce grand homme adopter la famille.</l>
+                        <l n="1596"> De tes cris, de tes pleurs tu m’as importuné ;</l>
+                        <l n="1597"> Rends-moi de Cicéron le reste infortuné.</l>
+                        <l n="1598"> Pardonne à mon dépit une fatale feinte</l>
+                        <l n="1599"> Qui porte à ma tendresse une si rude atteinte.</l>
+                        <l n="1600"> En croyant l’effrayer, hélas ! je l’ai perdu.</l>
+                        <l n="1601"> Par pitié, rends sa fille à mon cœur éperdu.</l>
+                        <l n="1602"> Je ne me connais plus : que mon sort t’attendrisse !</l>
+                </sp>
+        <sp who="#mécène">
+            <speaker> MÉCÈNE. </speaker>
+                        <l n="1603"> C’est vouloir de vos maux accroître le supplice.</l>
+                        <l n="1604"> Eh ! comment osez-vous souhaiter de la voir ?</l>
+                        <l n="1605"> Pourrez-vous soutenir ses pleurs, son désespoir ?</l>
+                        <l n="1606"> Peignez-vous les tourments où Tullie est en proie.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1607"> Ah ! n’importe, Mécène ; il faut que je la voie.</l>
+                </sp>
+        <sp who="#mécène">
+            <speaker> MÉCÈNE. </speaker>
+                        <l n="1608"> Il est vrai que Tullie est rentrée en ces lieux,</l>
+                        <l n="1609"> Et j’ai cru qu’il fallait la soustraire à vos yeux.</l>
+                        <l n="1610"> Sans vouloir cependant la voir ni la contraindre,</l>
+                        <l n="1611"> (De son juste courroux que ne doit-on pas craindre ?)</l>
+                        <l n="1612"> J’ai pris soin seulement qu’en ces moments affreux</l>
+                        <l n="1613"> On ne l’instruisît point de son sort rigoureux.</l>
+                        <l n="1614"> N’allez point irriter une âme impérieuse</l>
+                        <l n="1615"> Dont rien n’arrêterait la haine audacieuse.</l>
+                        <l n="1616"> Quels efforts aujourd’hui n’a point tentés son bras</l>
+                        <l n="1617"> Pour Sextus, entraîné par ses propres soldats !</l>
+                        <l n="1618"> La dignité des mœurs, la vertu la plus pure,</l>
+                        <l n="1619"> Ne sont pas les seuls dons que lui fit la nature :</l>
+                        <l n="1620"> Tullie en a reçu la valeur de Sextus,</l>
+                        <l n="1621"> Les charmes de son sexe et le cœur d’un Brutus ;</l>
+                        <l n="1622"> Et vous la renverrez, si vous daignez m’en croire.</l>
+                        <l n="1623"> Tant d’amour convient-il avec autant de gloire ?</l>
+                        <l n="1624"> Qu’espérez-vous d’un cœur épris d’un autre amant ?</l>
+                        <l n="1625"> Faites-en à Sextus un généreux présent.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1626"> Mes fureurs n’ont que trop justifié sa haine...</l>
+                        <l n="1627"> C’en est fait, j’y consens ; renvoyons-la, Mécène :</l>
+                        <l n="1628"> Puisqu’il faut s’occuper de soins plus glorieux...</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1629"> Je la vois... Juste ciel ! Cachons-nous à ses yeux.</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="1630"> Pourquoi me fuyez-vous, César ? Je suis vaincue.</l>
+                        <l n="1631"> Les soldats de Sextus l’ont soustrait à ma vue :</l>
+                        <l n="1632"> Vous avez triomphé de moi comme de lui.</l>
+                        <l n="1633"> Hélas ! dans mes malheurs où trouver un appui ?</l>
+                        <l n="1634"> Ne redoutez plus rien de la fière Tullie :</l>
+                        <l n="1635"> Il n’est point de fierté que le sort n’humilie.</l>
+                        <l n="1636"> Loin de vous refuser à mes tristes regards,</l>
+                        <l n="1637"> Faites revivre en vous la bonté des Césars.</l>
+                        <l n="1638"> Si j’ai porté trop loin les mépris et l’audace,</l>
+            <stage><em>Elle lui montre la statue de César.</em></stage>
+                        <l n="1639"> Au nom de ce héros daignez me faire grâce.</l>
+                        <l n="1640"> Ah ! seigneur, par pitié rendez-moi Cicéron ;</l>
+                        <l n="1641"> Honorez-nous tous deux d’un généreux pardon.</l>
+                        <l n="1642"> En des temps plus heureux votre haine endurcie</l>
+                        <l n="1643"> Eût été désarmée au seul nom de Tullie.         </l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1644"> Ce nom n’est point encore effacé de mon cœur :</l>
+                        <l n="1645"> Un seul jour n’éteint point une si vive ardeur ;</l>
+                        <l n="1646"> Et des feux que Tullie allume dans une âme</l>
+                        <l n="1647"> Elle ne sait que trop éterniser la flamme :</l>
+                        <l n="1648"> Et, malgré le mépris dont vous payez mes vœux,</l>
+                        <l n="1649"> J’oublie, en vous voyant, que je suis malheureux ;</l>
+                        <l n="1650"> Et j’ose me flatter que, moins préoccupée,</l>
+                        <l n="1651"> Vous eussiez respecté César devant Pompée.</l>
+                        <l n="1652"> Le ciel ne le fit point pour être mon égal ;</l>
+                        <l n="1653"> Il n’est pas même fait pour être mon rival.</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="1654"> Ah ! César, est-il temps de me chercher des crimes ?</l>
+                        <l n="1655"> Daignez vous occuper de soins plus légitimes.</l>
+                        <l n="1656"> Vous avez trop connu le cœur de Cicéron,</l>
+                        <l n="1657"> Pour en avoir conçu le plus léger soupçon.</l>
+                        <l n="1658"> Si de quelque refus vous avez à vous plaindre,</l>
+                        <l n="1659"> Son austère vertu ne laisse rien à craindre.</l>
+                        <l n="1660"> A-t-il des conjurés emprunté le secours,</l>
+                        <l n="1661"> Ou versé dans les cœurs le poison des discours ?</l>
+                        <l n="1662"> Il a toujours gardé le plus profond silence :</l>
+                        <l n="1663"> Sa fuite ne peut être un motif de vengeance,</l>
+                        <l n="1664"> Puisque vous-même avez ordonné son départ.</l>
+                        <l n="1665"> Philippe était d’ailleurs chargé de votre part,</l>
+                        <l n="1666"> Avec Hérennius, du soin de le défendre.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1667"> Mais si vous n’aviez point dessein de me surprendre,</l>
+                        <l n="1668"> Auriez-vous de Sextus accompagné les pas,</l>
+                        <l n="1669"> Et pour le soutenir corrompu mes soldats ?</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="1670"> Quel peut être l’effroi que Sextus vous inspire ?</l>
+                        <l n="1671"> Ce n’est pas en fuyant qu’on dispute un empire.</l>
+                        <l n="1672"> L’a-t-on vu contre vous soulever les esprits,</l>
+                        <l n="1673"> Ou d’un nom redouté ranimer les débris ?</l>
+                        <l n="1674"> Il en eût recouvré la puissance usurpée,</l>
+                        <l n="1675"> S’il se fût un moment fait voir comme Pompée.</l>
+                        <l n="1676"> Ah ! du sort de Sextus, ne soyez point jaloux :</l>
+                        <l n="1677"> Philippe n’a voulu que l’éloigner de vous.</l>
+                        <l n="1678"> Son maître infortuné, qui n’a plus d’autre asile,</l>
+                        <l n="1679"> Va sans doute avec lui regagner la Sicile.</l>
+                        <l n="1680"> Faites-vous un ami de ce jeune héros :  </l>
+                        <l n="1681"> Il est digne de vous par ses nobles travaux.</l>
+                        <l n="1682"> César, vous ignorez qu’une main meurtrière</l>
+                        <l n="1683"> Vous aurait sans Sextus privé de la lumière.</l>
+                        <l n="1684"> Tandis que votre haine éclate contre lui,</l>
+                        <l n="1685"> C’est sa seule vertu qui vous sauve aujourd’hui.</l>
+                        <l n="1686"> Pour l’en récompenser, permettez que mon père</l>
+                        <l n="1687"> Aille près de Sextus terminer sa misère :</l>
+                        <l n="1688"> Prenez en leur faveur des sentiments plus doux.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1689"> Mais, madame, Sextus est-il donc votre époux ?</l>
+                        <l n="1690"> Sitôt qu’à votre hymen je ne dois plus prétendre,</l>
+                        <l n="1691"> Aux vœux de mon rival, je consens de vous rendre.</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="1692"> Ah ! César, vos détours sont trop ingénieux.</l>
+                        <l n="1693"> Plus sincère que vous, je m’expliquerai mieux.</l>
+                        <l n="1694"> De Sextus, il est vrai, je dois être l’épouse.</l>
+                        <l n="1695"> Loin de vouloir tromper votre flamme jalouse,</l>
+                        <l n="1696"> J’avouerai sans rougir que nous avons tous deux,</l>
+                        <l n="1697"> Malgré tant de malheurs, brûlé des mêmes feux :</l>
+                        <l n="1698"> Mais, quel que soit l’amour qu’il inspire à Tullie,</l>
+                        <l n="1699"> Si vous m’aimez encor, je vous le sacrifie.</l>
+                        <l n="1700"> Vous pouvez d’un seul mot rendre mon sort heureux.</l>
+                        <l n="1701"> Parlez, me voilà prête à contenter vos vœux.</l>
+                        <l n="1702"> Un si grand sacrifice est le prix de mon père :</l>
+                        <l n="1703"> Rendez à ma douleur une tête si chère ;</l>
+                        <l n="1704"> Apprenez-moi du moins ce qu’il est devenu.</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1705"> Hérennius ici n’a point encor paru.</l>
+                        <l n="1706"> Mécène, en attendant prenez soin de Tullie :</l>
+                        <l n="1707"> Je vais sur Cicéron interroger Fulvie.</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="1708"> Non, César, demeurez... Mais quel objet nouveau</l>
+                        <l n="1709"> Vient frapper mes regards sous ce triste tableau ?</l>
+                        <l n="1710"> Hélas ! je reconnais la céleste tribune</l>
+                        <l n="1711"> Que mon père occupait avant son infortune.</l>
+                        <l n="1712"> C’est de là que, rempli d’un feu toujours divin,</l>
+                        <l n="1713"> Il semblait prononcer les arrêts du destin...</l>
+                        <l n="1714"> Plus j’ose l’observer, plus ma frayeur augmente.</l>
+                        <l n="1715"> Mécène... la tribune... elle est toute sanglante.</l>
+                        <l n="1716"> Ce voile encor fumant cache quelque forfait.</l>
+            <stage><em>Elle monte à la tribune et lève le voile.</em></stage>
+                        <l n="1717"> N’importe, je veux voir. Dieux ! quel affreux objet !</l>
+                        <l n="1718"> La tête de mon père !... Ah ! monstre impitoyable,</l>
+                        <l n="1719"> À quels yeux offres-tu ce spectacle effroyable ?</l>
+                </sp>
+        <sp who="#octave-césar">
+            <speaker> OCTAVE. </speaker>
+                        <l n="1720"> L’horreur qui me saisit à ce terrible aspect</l>
+                        <l n="1721"> Pourrait justifier l’homme le plus suspect.</l>
+                        <l n="1722"> On n’en peut accuser que la main de Fulvie.</l>
+                </sp>
+        <sp who="#tullie">
+            <speaker> TULLIE. </speaker>
+                        <l n="1723"> La tienne a-t-elle moins fait voir de barbarie ?</l>
+                        <l n="1724"> Ne lui conteste point un coup digne de toi.</l>
+                        <l n="1725"> Ô Sextus ! tout est mort et pour vous et pour moi.</l>
+                        <l n="1726"> Traître, pour assouvir la fureur qui t’anime,</l>
+            <stage><em>Elle se tue.</em></stage>
+                        <l n="1727"> Tourne les yeux ; voilà ta dernière victime.</l>
+                        <l n="1728"> </l>
+                        <l n="1729"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

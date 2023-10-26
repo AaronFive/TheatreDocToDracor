@@ -1,0 +1,2677 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Agamemnon</title>
+                <title type="sub">Tragédie</title>
+            <author>
+                <persName>
+                    <forename>Claude</forename>
+                    <surname>Boyer</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/agamemnon-claude-boyer </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1680-03-12">Représentée pour la première fois, à Paris, sur le Théâtre de l’Hôtel Guénégaud, le 12 mars 1680.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="agamemnon" sex="SEX">
+                            <persName>AGAMEMNON</persName>
+                        </person>
+                        <person xml:id="clytemnestre" sex="SEX">
+                            <persName>CLYTEMNESTRE</persName>
+                        </person>
+                        <person xml:id="oreste" sex="SEX">
+                            <persName>ORESTE</persName>
+                        </person>
+                        <person xml:id="cassandre" sex="SEX">
+                            <persName>CASSANDRE</persName>
+                        </person>
+                        <person xml:id="pylade" sex="SEX">
+                            <persName>PYLADE</persName>
+                        </person>
+                        <person xml:id="eurybate" sex="SEX">
+                            <persName>EURYBATE</persName>
+                        </person>
+                        <person xml:id="arbas" sex="SEX">
+                            <persName>ARBAS</persName>
+                        </person>
+                        <person xml:id="doride" sex="SEX">
+                            <persName>DORIDE</persName>
+                        </person>
+                        <person xml:id="ismène" sex="SEX">
+                            <persName>ISMÈNE</persName>
+                        </person>
+                        <person xml:id="suite-d’agamemnon" sex="SEX">
+                            <persName>SUITE d’Agamemnon</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Tragédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q80930]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">AGAMEMNON</titlePart>
+            <titlePart type="sub">TRAGÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre de l’Hôtel Guénégaud, le 12 mars 1680.</ab><!--@date="1680-03-12"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> À MADAME LA DUCHESSE DE BOUILLON</salute>
+            </opener>
+        <p> Madame, </p>
+        <p> J’ai sujet de craindre que le destin de cette Tragédie n’ait quelque chose de semblable à celui d’Agamemnon. Ce Roi, Chef de toute la Grèce, périt au sein de sa famille, après avoir heureusement évité les périls d’une guerre de dix années ; Et peut-être que mon Ouvrage exposé de plus près aux yeux des Critiques, succombera sous leurs atteintes, quelque heureux succès qu’il ait eu pendant ses Représentations. Quel moyen de l’en garantir si vous ne daignez agréer que je le mette sous la protection de Votre Altesse ? L’éclat de votre Rang, et de vos rares qualités inspirent pour vous une vénération qui fera taire les Censeurs ; Et si les Anciens respectaient tout ce qui était consacré à leurs Déités fabuleuses, j’espère avec plus de raison, qu’on sera contraint d’épargner tout ce qui portera un nom aussi glorieux que le vôtre. Mais, Madame, ce n’est pas seulement un asile que je cherche auprès de Votre Altesse, quand je lui présente ce Poème. L’accueil et l’appui favorable dont vous honorez les Sciences, cette connaissance parfaite que vous avez de ce qu’il y a de plus singulier chez les Grecs et chez les Latins, font que l’on vous doit comme un tribut tout ce qu’on produit de plus beau dans l’empire des belles Lettres. Pour moi, Madame, qui ai déjà trouvé un Mécène en Votre Altesse, non seulement je vous offre ces prémices, mais je fais vœu de vous consacrer tous les fruits de mes études et de mes veilles, et d’être toute ma vie avec un profond respect, </p>
+        <p> Madame, </p>
+        <p> De Votre Altesse, </p>
+        <p> Le très humble et très obéissant serviteur, </p>
+        <p> PADER D’ASSEZAN. </p>
+    </div>
+           <div type="act" xml:id="1">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1"> Oui, Pylade, il est vrai, la valeur et l’adresse</l>
+                        <l n="2"> Ont de l’Asie enfin fait triompher la Grèce.</l>
+                        <l n="3"> De tous côtés en foule on vient dans cette Cour,</l>
+                        <l n="4"> Croyant d’Agamemnon célébrer le retour,</l>
+                        <l n="5"> Et toi-même suivant le zèle qui te guide,</l>
+                        <l n="6"> Pour voler dans Mycènes as quitté la Phocide.</l>
+                        <l n="7"> Cependant cher Ami, tes soins sont superflus.</l>
+                        <l n="8"> Les Troyens sont vengés : mon Père ne vit plus.</l>
+                </sp>
+        <sp who="#pylade">
+            <speaker> PYLADE. </speaker>
+                        <l n="9"> Il n’est plus ! ô disgrâce à jamais déplorable !</l>
+                        <l n="10"> Des caprices du fort exemple mémorable !</l>
+                        <l n="11"> Monarque infortuné ! mais de grâce, Seigneur,</l>
+                        <l n="12"> Quand, comment a péri cet illustre Vainqueur ?</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="13"> Après que pour venger l’enlèvement d’Hélène</l>
+                        <l n="14"> Il eut mis Ilion sous le joug de Mycènes.</l>
+                        <l n="15"> Enfin à la faveur et des Vents et des Eaux</l>
+                        <l n="16"> Il retournait en Grèce avec mille Vaisseaux.</l>
+                        <l n="17"> De proie et de captifs cette flotte chargée</l>
+                        <l n="18"> Couvrait presque déjà tout la mer Égée,</l>
+                        <l n="19"> Déjà du haut des mâts les experts Matelots</l>
+                        <l n="20"> Découvraient les sommets des montagnes d’Argos :</l>
+                        <l n="21"> Quand après un long calme il s’élève un orage</l>
+                        <l n="22"> Qui des Grecs les plus fiers fait trembler le courage ;</l>
+                        <l n="23"> Et bientôt les écueils, l’eau, la foudre et les vents</l>
+                        <l n="24"> Font périr à l’envie leurs vaisseaux triomphants.</l>
+                        <l n="25"> Celui d’Agamemnon, par les vagues émues,</l>
+                        <l n="26"> Tantôt presqu’englouti, tantôt parmi les nues,</l>
+                        <l n="27"> Enfin malgré les vœux et tout l’Art des Nochers</l>
+                        <l n="28"> Heurte, s’ouvre et le brise entre d’affreux rochers.</l>
+                </sp>
+        <sp who="#pylade">
+            <speaker> PYLADE. </speaker>
+                        <l n="29"> Juste Ciel !</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="30"> Pour cacher des objets si funèbres,</l>
+                        <l n="31"> La tempête et la nuit redoublent leurs ténèbres</l>
+                        <l n="32"> Et des flots agités les contraires efforts</l>
+                        <l n="33"> Dispersent en cent lieux le débris et les Morts.</l>
+                </sp>
+        <sp who="#pylade">
+            <speaker> PYLADE. </speaker>
+                        <l n="34"> Mais enfin sait-on bien qu’Agamemnon lui-même,</l>
+                        <l n="35"> Seigneur, ait succombé dans ce péril extrême ?</l>
+                        <l n="36"> La douleur quelquefois trouble, aveugle, séduit </l>
+                        <l n="37"> Et le bruit de la perte est peut-être un faux bruit.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="38"> Ah Pylade ! Eurybate échappé de l’orage</l>
+                        <l n="39"> Vint d’abord de mon Père annoncer le naufrage,</l>
+                        <l n="40"> Et depuis quelques Grecs arrivés dans ce Port</l>
+                        <l n="41"> N’ont que trop confirmé son funeste rapport.</l>
+                        <l n="42"> Encor, si sur les bords l’onde daignant le rendre,</l>
+                        <l n="43"> J’avais dans un tombeau pu renfermer sa cendre :</l>
+                        <l n="44"> Mais Oreste est privé de ce bien précieux</l>
+                        <l n="45"> Qu’au plus simple des Grecs ont accordé les Cieux,</l>
+                        <l n="46"> Et ma douleur n’a pu que par des sacrifices</l>
+                        <l n="47"> À ses Mânes errants rendre les Dieux propices.</l>
+                        <l n="48"> Voilà par quel destin ces Dieux nous ont trahis.</l>
+                        <l n="49"> Voilà le sort du Père, apprends celui du Fils.</l>
+                        <l n="50"> Le grand Agamemnon ayant mis Troie en cendre</l>
+                        <l n="51"> Des filles de Priam ne voulut que Cassandre,</l>
+                        <l n="52"> Et bientôt avec elle envoya dans ces lieux</l>
+                        <l n="53"> Du butin le plus rare un amas glorieux.</l>
+                        <l n="54"> Quel devins-je au moment que je fus sur la rive</l>
+                        <l n="55"> Recevoir dans un Char cette illustre Captive !</l>
+                        <l n="56"> Ces dépouilles Amies, qu’on traînait sur ses pas,</l>
+                        <l n="57"> Armes, Étendards, tout relevait ses appas.</l>
+                        <l n="58"> Quelquefois à la voir ferme, fière et constante</l>
+                        <l n="59"> On eût dit qu’à Mycènes elle entrait triomphante.</l>
+                        <l n="60"> Quelquefois sur son front une noble douleur</l>
+                        <l n="61"> Faisait aux plus cruels déplorer son malheur.</l>
+                        <l n="62"> Hélas ! bien plus que tous je plaignis sa misère.</l>
+                        <l n="63"> Je fus presque indigné des exploits de mon Père.</l>
+                        <l n="64"> J’admirais sa vertu, j’admirais ses appas.</l>
+                        <l n="65"> Dans ces lieux en tremblant je conduisis ses pas.</l>
+                        <l n="66"> Que te dirai-je enfin ? je pris toute la flamme</l>
+                        <l n="67"> Que l’Amour peut jamais allumer dans un âme,</l>
+                        <l n="68"> Et je sens plus de maux par cette passion</l>
+                        <l n="69"> Que les Grecs n’en ont fait les murs d’Ilion.</l>
+                </sp>
+        <sp who="#pylade">
+            <speaker> PYLADE. </speaker>
+                        <l n="70"> Quoi, Cassandre pour vous, Seigneur, trop insensible ?</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="71"> Justes Dieux ! qu’elle a vu mes feux d’un œil terrible !</l>
+                        <l n="72"> Dès l’enfance vouée au culte des Autels</l>
+                        <l n="73"> Elle abhorre l’amour des profanes mortels.</l>
+                        <l n="74"> Elle hait, cher Pylade, un Amant dont le Père</l>
+                        <l n="75"> A détruit sa famille, a causé a misère,</l>
+                        <l n="76"> Et toujours trop fidèle à ses vives douleurs,</l>
+                        <l n="77"> Sa plus douce réponse est de verser des pleurs.</l>
+                </sp>
+        <sp who="#pylade">
+            <speaker> PYLADE. </speaker>
+                        <l n="78"> Vos vertus, votre amour, vos soins, votre constance,</l>
+                        <l n="79"> Charmeront ses ennuis, vaincront la résistance.</l>
+                        <l n="80"> Mais la Reine sait-elle ?...</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="81"> Hélas ! que me dis-tu ?</l>
+                        <l n="82"> Clytemnestre la plaint et chérit sa vertu.</l>
+                        <l n="83"> Cependant Clytemnestre et dédaigne et déteste</l>
+                        <l n="84"> Le sang d’un Ennemi dont Cassandre est le reste</l>
+                        <l n="85"> Et perdant tout espoir d’obtenir rien sur moi,</l>
+                        <l n="86"> En prenant un époux elle veut faire un Roi.</l>
+                </sp>
+        <sp who="#pylade">
+            <speaker> PYLADE. </speaker>
+                        <l n="87"> Jusque-là le dépit fait emporter la Reine !</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="88"> Déjà pour son Hymen tout s’apprête à Mycènes,</l>
+                        <l n="89"> Et le superbe Égisthe est cet indigne époux...</l>
+                </sp>
+        <sp who="#pylade">
+            <speaker> PYLADE. </speaker>
+                        <l n="90"> Égisthe ! Ah que ce choix est à craindre pour vous !</l>
+                        <l n="91"> Chargé pendant dix ans par le Roi votre Père,</l>
+                        <l n="92"> Du soin de seconder la Reine votre Mère,</l>
+                        <l n="93"> Ce perfide aura su par de secrets complots</l>
+                        <l n="94"> S’assurer des plus grands de Mycènes et d’Argos.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="95"> Oui, Pylade : d’abord les uns ont fait connaître</l>
+                        <l n="96"> Que lassés d’une Reine ils veulent voir un Maître :</l>
+                        <l n="97"> D’autres ont soutenu que l’État veut un Roi,</l>
+                        <l n="98"> Plus savant à régner et moins jeune que moi.</l>
+                        <l n="99"> Ce sont les sentiments qu’Égisthe leur inspire,</l>
+                        <l n="100"> Et c’est par ces degrés qu’il s’élève à l’Empire.</l>
+                </sp>
+        <sp who="#pylade">
+            <speaker> PYLADE. </speaker>
+                        <l n="101"> N’offrez donc point, Seigneur, en cette occasion</l>
+                        <l n="102"> Des prétextes nouveaux à son ambition.</l>
+                        <l n="103"> Étouffez ou cachez cet Amour que Cassandre...</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="104"> Moi cacher un Amour si glorieux, si tendre !</l>
+                        <l n="105"> Un amour que le Ciel alluma dans mon sein !</l>
+                        <l n="106"> Ah plutôt...</l>
+                </sp>
+        <sp who="#pylade">
+            <speaker> PYLADE. </speaker>
+                        <l n="107"> Mais, Seigneur, quel est votre dessein ?</l>
+                        <l n="108"> Connais, puisqu’il le faut, mon âme tout entière.</l>
+                        <l n="109"> Je veux... mais quelqu’un vient : C’est la Reine ma Mère ;</l>
+                        <l n="110"> Je dois tâcher encor de fléchir son courroux.</l>
+                        <l n="111"> Va, tu sauras après à quoi je me résous.</l>
+            <stage><em>À part. </em></stage>
+                        <l n="112"> Que son front marge une âme en secret agitée !</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="113"> Mon fils, vous le savez, vous m’avez irritée ;</l>
+                        <l n="114"> Mais n’importe, du sang j’écoute encor la voix</l>
+                        <l n="115"> Et je viens vous parler pour la dernière fois.</l>
+                        <l n="116"> Avec combien de soin, avec quelle tendresse</l>
+                        <l n="117"> M’a-t-on vue élever votre illustre jeunesse !</l>
+                        <l n="118"> Quel plaisir si j’avais dans les bras d’un Époux</l>
+                        <l n="119"> Pu remettre en son fils un Prince tel que vous !</l>
+                        <l n="120"> Il n’est plus : Il a fait un funeste naufrage.</l>
+                        <l n="121"> Son Trône par sa mort devient votre héritage :</l>
+                        <l n="122"> Cependant les mutins viennent à haute voix</l>
+                        <l n="123"> De demander qu’Égisthe ici donne des Lois.</l>
+                        <l n="124"> Ne craignez rien, mon fils : Je suis et Mère et Reine ;</l>
+                        <l n="125"> Je mettrai dans vos mains la grandeur souveraine ;</l>
+                        <l n="126"> Mais il faut qu’un Hymen auguste, avantageux,</l>
+                        <l n="127"> En rende encor le jour plus saint et plus pompeux.</l>
+                        <l n="128"> Ouvre les yeux, voyez auprès de votre Mère</l>
+                        <l n="129"> Les filles de ces Rois qu’assembla votre Père.</l>
+                        <l n="130"> Pour chacune à l’envie l’on brigue en cette Cour.</l>
+                        <l n="131"> Choisissez, épousez dès demain, dès ce jour</l>
+                        <l n="132"> La Princesse ou de Crète, ou de Sparte, ou d’Athènes.</l>
+                        <l n="133"> De l’État à ce prix je vous remets les Reines ;</l>
+                        <l n="134"> Mais n’en murmurez pas : je sais ce que je dois,</l>
+                        <l n="135"> À vous, à vos sujets, à tous les Grecs, à moi.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="136"> Je conçois vos bontés, je vois votre prudence.</l>
+                        <l n="137"> Je sens pour vous Respect, Amour, Reconnaissance.</l>
+                        <l n="138"> Mais que j’en donnerais des gages peu certains,</l>
+                        <l n="139"> Si j’osais arracher le Sceptre de vos mains !</l>
+                        <l n="140"> Régnez encor, régnez. Ne croyez point, Madame,</l>
+                        <l n="141"> Qu’on se veuille soustraire aux ordres d’une femme.</l>
+                        <l n="142"> Les Reines comme vous valent les plus grands Rois,</l>
+                        <l n="143"> Et l’État ne doit point vous imposer des Lois.</l>
+                        <l n="144"> S’il faut un Maître, enfin j’en accepte le titre ;</l>
+                        <l n="145"> Mais des droits souverains soyez toujours l’arbitre.</l>
+                        <l n="146"> Voyez toujours mon Peuple à vos pieds prosterné,</l>
+                        <l n="147"> Vous aurez en moi-même un sujet couronné,</l>
+                        <l n="148"> J’en atteste les Dieux. Quand à mon Hyménée,</l>
+                        <l n="149"> Quel besoin pour l’Empire en presse la journée ?</l>
+                        <l n="150"> Il faut sans ce secours vaincre la trahison,</l>
+                        <l n="151"> Il faut enfin qu’Oreste imite Agamemnon.</l>
+                        <l n="152"> Son bras et non l’Hymen fournit à la Couronne</l>
+                        <l n="153"> Les Champs Arcadiens, Corinthe, Sicionne,</l>
+                        <l n="154"> Et s’il faut à mon tour étendre nos États,</l>
+                        <l n="155"> Je ne veux rien devoir qu’au secours de mon bras.</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="156"> Donnez d’autres raisons à qui sait vous entendre.</l>
+                        <l n="157"> Je vois que vous aimez toujours votre Cassandre.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="158"> Est-ce un crime si grand de s’en laisser charmer ?</l>
+                        <l n="159"> Un invincible instinct me force de l’aimer.</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="160"> Cette nécessité d’aimer n’est que faiblesse</l>
+                        <l n="161"> Et choisir dans un sang ennemi de la Grèce,</l>
+                        <l n="162"> C’est une lâcheté trop honteuse à mon sang.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="163"> Reine, méprisez-vous celles de votre rang ?</l>
+                        <l n="164"> Mère, condamnez-vous l’excusable faiblesse</l>
+                        <l n="165"> D’un fils charmé des yeux d’une auguste Princesse ?</l>
+                        <l n="166"> Vous pour moi si sensible et si juste pour tous !</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="167"> Je suis la même encor ; mais vous, ingrat, mais vous,</l>
+                        <l n="168"> Gardez-vous pour Cassandre une flamme rebelle,</l>
+                        <l n="169"> Quand vos seuls intérêts me font armer contre elle ?</l>
+                        <l n="170"> La verrai-je pour dot n’apporter à mon fils,</l>
+                        <l n="171"> Que des pleurs, que des fers, que de tristes débris ?</l>
+                        <l n="172"> Sans Amis, sans Parents, Captive, misérable...</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="173"> Pour être infortunée est-elle moins aimable ?</l>
+                        <l n="174"> La vertu dans les fers, la beauté dans les pleurs,</l>
+                        <l n="175"> N’attire-t-elle pas la pitié des grands cœurs ?</l>
+                        <l n="176"> Plus elle est malheureuse et plus elle m’est chère.</l>
+                        <l n="177"> Quel plaisir de pouvoir réparer sa misère !</l>
+                        <l n="178"> Mais vous la haïssez, Madame.</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="179"> Je le dois,</l>
+                        <l n="180"> Et vous devez aussi la haïr comme moi.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="181"> Sur votre haine hélas dois-je régler la mienne ?</l>
+                        <l n="182"> Quelles raisons ?...</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="183"> Songez que Cassandre est Troyenne.</l>
+                        <l n="184"> Que son frère Pâris, ce lâche ravisseur</l>
+                        <l n="185"> Fût dans Sparte enlever la Princesse ma sœur.</l>
+                        <l n="186"> Pour ouvrir à nos Grecs le chemin de l’Asie,</l>
+                        <l n="187"> Il fallut immoler ma fille Iphigénie.</l>
+                        <l n="188"> Troie a fait succomber nos plus braves Héros.</l>
+                        <l n="189"> Ses vainqueurs, mon Époux a péri sous les flots :</l>
+                        <l n="190"> Et vous épouseriez cette même Cassandre,</l>
+                        <l n="191"> Que d’un sang si fatal les Dieux ont fait descendre ?</l>
+                        <l n="192"> Ah laissez-là plutôt en proie à ses douleurs</l>
+                        <l n="193"> Prédire l’Avenir pleine de ses fureurs</l>
+                        <l n="194"> Et pousser dans les airs ces tristes Prophéties,</l>
+                        <l n="195"> Que ses propres malheurs n’ont que trop éclaircies,</l>
+                        <l n="196"> Et n’allez point en lâche à son sang odieux</l>
+                        <l n="197"> Mêler le plus beau sang de la terre et des Dieux.</l>
+                        <l n="198"> Je vois bien, fils ingrat, que ce discours te gêne.</l>
+                        <l n="199"> Mais je le redis, règne et fais une autre Reine,</l>
+                        <l n="200"> Ou par mon propre Hymen je m’en vais faire un Roi.</l>
+                        <l n="201"> Clytemnestre en ces lieux peut encor plus que toi.</l>
+                        <l n="202"> L’Autel est préparé, la Victime est ornée,</l>
+                        <l n="203"> Le Prêtre, tout est prêt pour ce grand Hyménée.</l>
+                        <l n="204"> Cruel, ne veux-tu point te garantir d’un mal ?...</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="205"> Oui je l’empêcherai cet Hymen fatal,</l>
+                        <l n="206"> Madame, je saurai...</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="207"> Quoi jusqu’à la menace !</l>
+                        <l n="208"> Insolent, osez-vous ?...</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="209"> Excusez mon audace.</l>
+                        <l n="210"> Contre Égisthe mon cœur tourne tout son courroux,</l>
+                        <l n="211"> Et ne confondra point ce perfide avec vous.</l>
+                        <l n="212"> Tant que vous serez seule au rang de Souveraine</l>
+                        <l n="213"> Votre fils à vos lois se soumettra sans peine.</l>
+                        <l n="214"> Mais avant qu’avec vous on partage ce rang,</l>
+                        <l n="215"> Cet injuste dessein coûtera bien du sang.</l>
+                        <l n="216"> Je vous laisse y penser.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="217"> Ô Ciel, quelle arrogance !</l>
+                        <l n="218"> De tous mes soins pour lui cruelle récompense !</l>
+                        <l n="219"> J’ai garanti ses jours des périls les plus grands</l>
+                        <l n="220"> Ou l’absence d’un Père expose les Enfants.</l>
+                        <l n="221"> Fille, Veuve de Rois et seule dans Mycènes</l>
+                        <l n="222"> Depuis dix ans entiers Maîtresse Souveraine,</l>
+                        <l n="223"> Je lui cède mon rang et cet indigne fils...</l>
+                        <l n="224"> Ah, mon Hymen, Ingrat, punira tes mépris.</l>
+                        <l n="225"> Non que mon seul dépit contre un fils téméraire</l>
+                        <l n="226"> Me contraigne à l’éclat que je suis preste à faire.</l>
+                        <l n="227"> Mais...</l>
+                </sp>
+        <sp who="#doride">
+            <speaker> DORIDE. </speaker>
+                        <l n="228"> Quel autre motif vous y force en ce jour ?</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="229"> Te le dirai-je ? Hélas, Doride, c’est l’amour.</l>
+                </sp>
+        <sp who="#doride">
+            <speaker> DORIDE. </speaker>
+                        <l n="230"> Dieux, que m’apprenez-vous ? quoi se peut-il, Madame,</l>
+                        <l n="231"> Que pour Égisthe !...</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="232"> Égisthe a su toucher mon âme.</l>
+                        <l n="233"> Tout me le fait aimer, un astre injurieux,</l>
+                        <l n="234"> Le temps l’occasion, le Roi, mon fils, les Dieux.</l>
+                </sp>
+        <sp who="#doride">
+            <speaker> DORIDE. </speaker>
+                        <l n="235"> Hé quoi, Madame ?...</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="236"> Apprends par quelle destinée</l>
+                        <l n="237"> Dans ce fatal amour je me trouve entraînée.</l>
+                        <l n="238"> Tu sais qu’écoutant trop un Oracle inhumain,</l>
+                        <l n="239"> Dans l’Aulide arrêté par un calme soudain,</l>
+                        <l n="240"> Mon époux préférant sa Gloire à sa famille</l>
+                        <l n="241"> Pour obtenir les Vents sacrifia ma fille.</l>
+                        <l n="242"> Quelle douleur pour moi, quels transports, quel courroux !</l>
+                        <l n="243"> Je le nommais cent fois lâche et perfide Époux,</l>
+                        <l n="244"> Roi cruel, Père indigne. Il partit, son absence</l>
+                        <l n="245"> De mes emportements calma la violence,</l>
+                        <l n="246"> Des devoirs de son rang je compris les rigueurs</l>
+                        <l n="247"> Et je vins dans Mycènes enfermer mes douleurs.</l>
+                        <l n="248"> Cependant par quels soins, avec combien de zèle</l>
+                        <l n="249"> Égisthe combattait ma tristesse mortelle !</l>
+                        <l n="250"> M’aidait à soutenir le fardeau de l’État !</l>
+                        <l n="251"> Travaillait, s’exposait pour en croître l’éclat !</l>
+                </sp>
+        <sp who="#doride">
+            <speaker> DORIDE. </speaker>
+                        <l n="252"> On l’admirait, Madame.</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="253"> Hélas ! qui l’eut pu croire ?</l>
+                        <l n="254"> Égisthe trahissant son devoir et sa gloire,</l>
+                        <l n="255"> Sous ce zèle apparent, sous ce dehors trompeur</l>
+                        <l n="256"> Cachait pour Clytemnestre une coupable ardeur.</l>
+                </sp>
+        <sp who="#doride">
+            <speaker> DORIDE. </speaker>
+                        <l n="257"> Ciel, qu’entends-je !</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="258"> Il m’en fit un aveu téméraire.</l>
+                        <l n="259"> Ah que n’en crus-je alors ma trop juste colère.</l>
+                        <l n="260"> Je voulais sur le champ le perdre ou le bannir,</l>
+                        <l n="261"> J’y prévis des périls, je dus les prévenir,</l>
+                        <l n="262"> Je me tus : seulement j’employais mon adresse</l>
+                        <l n="263"> Pour pouvoir rappeler mon Époux dans la Grèce,</l>
+                        <l n="264"> J’écrivis, je pressai. Vaine précaution !</l>
+                        <l n="265"> Son grand cœur ne songeait qu’à détruire Ilion,</l>
+                        <l n="266"> Ne cherchait qu’une gloire à tous les deux fatale.</l>
+                        <l n="267"> Bien plus.</l>
+                </sp>
+        <sp who="#doride">
+            <speaker> DORIDE. </speaker>
+                        <l n="268"> Quoi ?</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="269"> Dans son Camp j’avais une Rivale :</l>
+                        <l n="270"> Il aimait Briséis, il me manquait de foi.</l>
+                        <l n="271"> Quel surcroît de douleur et de dépit pour moi !</l>
+                        <l n="272"> Pleine de mes chagrins, sombre, inquiète, triste,</l>
+                        <l n="273"> J’en conçus plus d’horreur pour la flamme d’Égisthe,</l>
+                        <l n="274"> Je l’évitais partout. Ce mépris généreux</l>
+                        <l n="275"> Irritait sa constance et redoublait ses feux.</l>
+                        <l n="276"> Pour le bien de l’État, ses soins, sa vigilance</l>
+                        <l n="277"> Me forcèrent enfin à quelque complaisance :</l>
+                        <l n="278"> Un funeste poison se glissa dans mon sein,</l>
+                        <l n="279"> Et pour comble de maux un récit trop certain</l>
+                        <l n="280"> M’apprit qu’Agamemnon sur les bords du Scamandre</l>
+                        <l n="281"> S’était laissé charmer aux beautés de Cassandre,</l>
+                        <l n="282"> Qu’il voulait l’arracher au culte de ses Dieux,</l>
+                        <l n="283"> Que peut-être il venait l’épouser à mes yeux.</l>
+                        <l n="284"> Je ne le cèle point, toutes ces perfidies</l>
+                        <l n="285"> Jetèrent dans mon cœur les plus noires furies,</l>
+                        <l n="286"> Et troublant ma raison m’allaient presqu’engager</l>
+                        <l n="287"> Dans tout ce qu’a d’affreux l’ardeur de se venger.</l>
+                        <l n="288"> Toutefois tu le sais, quelle atteinte mortelle</l>
+                        <l n="289"> M’a porté de sa mort la funeste nouvelle !</l>
+                        <l n="290"> J’ai pleuré, j’ai gémi : sans ton cruel secours,</l>
+                        <l n="291"> De mes jours malheureux j’aurais tranché le cours.</l>
+                        <l n="292"> De mille vains tombeaux j’honorais sa mémoire,</l>
+                        <l n="293"> J’allais tout oublier pour soutenir ma gloire.</l>
+                        <l n="294"> Mais quand je vois mon fils aimer ce que je hais</l>
+                        <l n="295"> Oublier son devoir, sa gloire, mes bienfaits,</l>
+                        <l n="296"> Me braver ; le courroux s’empare de mon âme.</l>
+                        <l n="297"> Je n’examine point si c’est fureur ou flamme,</l>
+                        <l n="298"> Si c’est haine, vengeance, orgueil, ambition ;</l>
+                        <l n="299"> Tout soutient aujourd’hui ma résolution :</l>
+                        <l n="300"> La mort de mon Époux, l’orgueil d’un fils rebelle.</l>
+                        <l n="301"> La pompe est toute preste et le peuple m’appelle.</l>
+                        <l n="302"> Aussi bien désormais je ne puis résister</l>
+                        <l n="303"> Au torrent que je sens malgré moi m’emporter.</l>
+                        <l n="304"> Allons au Temple, il faut que ma vengeance éclate,</l>
+                        <l n="305"> Il faut que mon Hymen... mais que veut Eurybate ?</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#eurybate">
+            <speaker> EURYBATE. </speaker>
+                        <l n="306"> Ah, Madame ! Apprenez quel est nôtre bonheur.</l>
+                        <l n="307"> La mort d’Agamemnon n’est qu’un bruit imposteur</l>
+                        <l n="308"> Que mes sens abusés ont semé dans Mycènes.</l>
+                        <l n="309"> Eace en a porté la nouvelle certaine :</l>
+                        <l n="310"> Il est avec Égisthe.</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="311"> Agamemnon : ô Dieux !</l>
+                        <l n="312"> Je verrai mon Époux, il revient en ces lieux !</l>
+                </sp>
+        <sp who="#eurybate">
+            <speaker> EURYBATE. </speaker>
+                        <l n="313"> Emporté tout d’un coup par l’effort de l’orage</l>
+                        <l n="314"> Loin de l’endroit fatal ou nous fîmes naufrage,</l>
+                        <l n="315"> Lorsque la Mer allait engloutir ce Héros</l>
+                        <l n="316"> Par un Vaisseau des siens il fut tiré des flots.</l>
+                        <l n="317"> Échappé, grâce au Ciel de ces périls funestes,</l>
+                        <l n="318"> Il a su de sa flotte assembler tous les restes ;</l>
+                        <l n="319"> Mais toujours quelque obstacle empêchant son retour,</l>
+                        <l n="320"> Il n’a pu vers Mycènes aborder qu’en ce jour.</l>
+                        <l n="321"> Déjà de ses Vaisseaux la richesse et le nombre</l>
+                        <l n="322"> Oreste jusqu’à nos bords leur éclat et leur ombre.</l>
+                        <l n="323"> Oreste avec les siens court, vole vers le Port.</l>
+                        <l n="324"> Après vous avoir fait ce fidèle rapport,</l>
+                        <l n="325"> Je dois le suivre.</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="326"> Allez, j’approuve votre zèle :</l>
+                        <l n="327"> Je vous suivrai de près.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="328"> Quelle grande nouvelle !</l>
+                        <l n="329"> Dieux ! qu’est-ce que je sens, quel trouble dans mon cœur,</l>
+                        <l n="330"> Quel désordre confond ma joie et ma douleur ?</l>
+                        <l n="331"> Mais qu’est-ce qui retient ma première tendresse ?</l>
+                        <l n="332"> Le vainqueur d’Ilion, le vengeur de la Grèce,</l>
+                        <l n="333"> Le Chef de tant de Rois, le grand Agamemnon</l>
+                        <l n="334"> Revient ! que tout s’efface à l’éclat de ce nom.</l>
+                        <l n="335"> Que tout s’évanouisse au bruit de tant de gloire.</l>
+                        <l n="336"> Qu’il occupe à lui seul mon cœur et ma mémoire.</l>
+                        <l n="337"> Je vous sens revenir mes premiers sentiments,</l>
+                        <l n="338"> Gloire, vertu, devoir, généreux mouvements :</l>
+                        <l n="339"> Je brûle de revoir un Époux que j’adore.</l>
+                        <l n="340"> Mais grands Dieux quel chagrin m’accable, me dévore,</l>
+                        <l n="341"> Quand je vois que bientôt cet Époux va savoir</l>
+                        <l n="342"> Les honteux sentiments que j’ai pu concevoir :</l>
+                        <l n="343"> Malheureuse !</l>
+                </sp>
+        <sp who="#doride">
+            <speaker> DORIDE. </speaker>
+                        <l n="344"> Ah ! Chassez des pensées trop timides,</l>
+                        <l n="345"> Madame.</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="346"> Je connais la fierté des Atrides</l>
+                        <l n="347"> Et surtout mes remords dissipant mon erreur</l>
+                        <l n="348"> Des projets que j’ai faits je vois toute l’horreur.</l>
+                        <l n="349"> Est-ce la foi constante et cette douleur tendre</l>
+                        <l n="350"> Qu’une Épouse fidèle aurait dû à sa cendre !</l>
+                        <l n="351"> Sous couleur de venger de trop justes mépris</l>
+                        <l n="352"> J’allais mettre à son Trône un autre que son fils !</l>
+                        <l n="353"> À quels lâches transports m’étais-je abandonnée !</l>
+                        <l n="354"> Il va voir l’appareil d’un indigne Hyménée !</l>
+                        <l n="355"> Fuyons, partons, quittons ce Palais, ces États,</l>
+                        <l n="356"> Et qu’un exil du moins purge mes attentats.</l>
+                </sp>
+        <sp who="#doride">
+            <speaker> DORIDE. </speaker>
+                        <l n="357"> Vous, fuir ? De quelle crainte êtes-vous prévenue ?</l>
+                        <l n="358"> Juste Ciel ! Votre flamme à moi seule est connue.</l>
+                        <l n="359"> Qui peut de ce secret instruire votre Époux ?</l>
+                        <l n="360"> Ah ! la fuite ferait un témoin contre vous.</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="361"> Mon Hymen résolu va tout faire comprendre.</l>
+                </sp>
+        <sp who="#doride">
+            <speaker> DORIDE. </speaker>
+                        <l n="362"> Je vois mille raisons pour pouvoir vous défendre,</l>
+                        <l n="363"> Et tous vos vains projets s’étouffant aujourd’hui,</l>
+                        <l n="364"> Le bruit n’en ira pas peut-être jusqu’à lui.</l>
+                        <l n="365"> Mais quand il saurait tout, un projet d’Hyménée</l>
+                        <l n="366"> À d’éternels remords vous a-t-il condamnée ?</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="367"> D’un projet si honteux, de cette trahison,</l>
+                        <l n="368"> Des remords éternels me demandent raison,</l>
+                        <l n="369"> Et mes troubles cruels vont mettre en évidence...</l>
+                </sp>
+        <sp who="#doride">
+            <speaker> DORIDE. </speaker>
+                        <l n="370"> De ces troubles enfin calmez la violence.</l>
+                        <l n="371"> Agamemnon revient : Il est près de ces lieux.</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="372"> Allons le recevoir et laissons faire aux Dieux.</l></div></div>
+           <div type="act" xml:id="2">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="373"> Laisse-moi la fureur dont je suis animée.</l>
+                        <l n="374"> Dans un gouffre de maux les Dieux m’ont abîmée.</l>
+                        <l n="375"> Je ne reconnais plus ni raison ni devoir,</l>
+                        <l n="376"> Et ma seule espérance est dans mon désespoir :</l>
+                        <l n="377"> La mort est le seul bien que mon cœur peut attendre.</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="378"> Quoi, Madame, faut-il que l’illustre Cassandre,</l>
+                        <l n="379"> Ce digne sang des Rois, des Héros et des Dieux ?...</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="380"> Ah, ne me vante plus un sang si glorieux.</l>
+                        <l n="381"> N’expose à mes regards que nos longues misères,</l>
+                        <l n="382"> Tous les miens massacrés, la mort de tous mes frères,</l>
+                        <l n="383"> Mon père dépouillé des honneurs de son rang,</l>
+                        <l n="384"> Ses cheveux blancs, souillés de poussière et de sang,</l>
+                        <l n="385"> Et sa tête autrefois auguste et révérée</l>
+                        <l n="386"> Par de barbares mains de son corps séparée.</l>
+                        <l n="387"> Peins-moi le corps d’Hector encore tout fumant</l>
+                        <l n="388"> Autour de nos Remparts traîné honteusement.</l>
+                        <l n="389"> Offre-moi de Pyrrhus l’impitoyable haine,</l>
+                        <l n="390"> Sur le tombeau d’Achille égorgeant Polyxène,</l>
+                        <l n="391"> Astyanax lancé du haut de nos Remparts</l>
+                        <l n="392"> De ses propres bourreaux effrayant les regards.</l>
+                        <l n="393"> Fais-moi voir des Autels où j’étais attachée</l>
+                        <l n="394"> Par une main impie enlevée, arrachée.</l>
+                        <l n="395"> Mais qu’est-ce que j’entends ? pour comble de malheur,</l>
+                        <l n="396"> J’entends de toutes parts le nom de mon vainqueur :</l>
+                        <l n="397"> Il revient triomphant. Que de cris d’allégresse !</l>
+                        <l n="398"> Je vois de tous côtés la foule qui le presse.</l>
+                        <l n="399"> Je vois pour l’honorer tous les Grecs assemblés,</l>
+                        <l n="400"> Tandis qu’Ilion n’offre à mes sens désolés,</l>
+                        <l n="401"> Que cendre, que tombeaux, que campagnes désertes,</l>
+                        <l n="402"> Éternels monuments de mes sanglantes pertes :</l>
+                        <l n="403"> Tandis que pénétrant jusques aux sombres bords</l>
+                        <l n="404"> Je vois Priam suivi d’une foule de morts,</l>
+                        <l n="405"> Dont les cris douloureux partout se font entendre</l>
+                        <l n="406"> Et percent jusqu’au cœur de la triste Cassandre.</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="407"> Hé, Madame, oubliez ces cruels entretiens.</l>
+                        <l n="408"> Oubliez le destin de Troie et des Troyens :</l>
+                        <l n="409"> Oreste vous adore.</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="410"> Ah ! que n’oses-tu dire ?</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="411"> Dieux ! quel trouble nouveau ce nom seul vous inspire ?</l>
+                        <l n="412"> Le haïssez-vous tant lui qui par tant de soins ?...</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="413"> Si je le haïssais je me troublerais moins.</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="414"> Ainsi, Madame ?...</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="415"> Hélas, j’ai cru que dans Mycènes,</l>
+                        <l n="416"> Je ne verrais qu’objets de terreur et de haine,</l>
+                        <l n="417"> Que de fiers ennemis horribles à mes yeux,</l>
+                        <l n="418"> Des lâches Ménélas, des Pyrrhus odieux,</l>
+                        <l n="419"> Et mes yeux n’ont rien vu de pareil dans Oreste.</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="420"> J’en rends grâce, Madame, à la bonté céleste.</l>
+                        <l n="421"> Les Dieux pour relever votre fort abattu</l>
+                        <l n="422"> Ont permis que ce Prince...</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="423"> Hélas, que me dis-tu ?</l>
+                        <l n="424"> Des maux les plus cruels dont j’ai lieu de me plaindre,</l>
+                        <l n="425"> L’Amour est le malheur que j’ai le plus à craindre.</l>
+                        <l n="426"> Je ne te dirai point que ma race, mon nom,</l>
+                        <l n="427"> Ma gloire me refuse au fils d’Agamemnon :</l>
+                        <l n="428"> Qu’Agamemnon lui-même a pris soin de me plaire</l>
+                        <l n="429"> Et que je dois haïr et le fils et le père.</l>
+                        <l n="430"> Ces sacrés Ornements, ces Voiles que tu vois</l>
+                        <l n="431"> Me font contre l’amour de trop sévères lois.</l>
+                        <l n="432"> Tu m’as vue aux autels à jamais consacrée,</l>
+                        <l n="433"> De victimes, d’encens, de prêtres entourée,</l>
+                        <l n="434"> Par un Culte assidu mériter ce grand nom,</l>
+                        <l n="435"> Ce titre glorieux d’Amante d’Apollon,</l>
+                        <l n="436"> Et ce Dieu que je sers par ses vives lumières,</l>
+                        <l n="437"> Du plus sombre Avenir m’ouvrir tous les mystères</l>
+                        <l n="438"> Mais dès que d’un Mortel j’osai souffrir les vœux,</l>
+                        <l n="439"> Le Dieu qui m’inspirait retira tous ses feux.</l>
+                        <l n="440"> On croit que l’Avenir m’est une nuit obscure,</l>
+                        <l n="441"> Et ce que je prédis passe pour imposture.</l>
+                        <l n="442"> Les Dieux jaloux d’un cœur qu’ils veulent tout pour eux</l>
+                        <l n="443"> Font à ce cœur trop tendre un sort si rigoureux,</l>
+                        <l n="444"> Que n’étant pas contents de me punir moi-même,</l>
+                        <l n="445"> Leur haine éclate encor contre tout ce qui m’aime.</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="446"> Attachée à ces Dieux qui vous traitent si mal,</l>
+                        <l n="447"> Quel fruit recevez-vous d’un culte si fatal !</l>
+                        <l n="448"> De vos propres vainqueurs la haine est moins funeste.</l>
+                        <l n="449"> Vos Dieux vous servent moins que l’Amoureux Oreste.</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="450"> Le voici, mon courroux, ma haine, ma douleur,</l>
+                        <l n="451"> Cachés au moins, cachés le secret de mon cœur.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="452"> Madame, enfin les Dieux m’ont renvoyé mon Père.</l>
+                        <l n="453"> Il n’a pu qu’un moment entretenir ma Mère,</l>
+                        <l n="454"> Occupé des respects dont le peuple et la Cour</l>
+                        <l n="455"> D’un Roi victorieux honorent le retour :</l>
+                        <l n="456"> Il vous verra bientôt. En attendant, Madame,</l>
+                        <l n="457"> Puis-je vous demander le destin de ma flamme ?</l>
+                        <l n="458"> Tant de pleurs, tant d’ennuis, tant de soins, tant d’ardeur,</l>
+                        <l n="459"> Rien enfin ne peut-il fléchir votre rigueur ?</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="460"> Quoi toujours ce discours ? Dieux ! qu’est-ce que vous faites ?</l>
+                        <l n="461"> Songez-vous qui je suis, songez-vous qui vous êtes ?</l>
+                        <l n="462"> Nous sommes ennemis : Est-il rien entre nous</l>
+                        <l n="463"> Qui puisse autoriser un langage si doux ?</l>
+                        <l n="464"> Mais que dis-je ? des Grecs la barbare furie</l>
+                        <l n="465"> M’a ravi liberté, parents, amis, patrie,</l>
+                        <l n="466"> Et vous-même à mes maux affectant d’insulter,</l>
+                        <l n="467"> Seigneur, vous vous plaisez à persécuter ?</l>
+                        <l n="468"> Abusant de mes fers vous voulez...</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="469"> Ah Madame !</l>
+                        <l n="470"> Par quel cruel discours accablez-vous mon âme ?</l>
+                        <l n="471"> Ciel, verrez-vous toujours comme un crime odieux</l>
+                        <l n="472"> L’amour, l’ardent amour que j’expose à vos yeux ?</l>
+                        <l n="473"> Si c’est un crime, hélas ! mon destin, mon envie</l>
+                        <l n="474"> Est d’être criminel tout le temps de ma vie,</l>
+                        <l n="475"> De ne perdre jamais l’espoir d’un feu si beau</l>
+                        <l n="476"> Et de porter ma flamme au-delà du tombeau.</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="477"> Et mon destin, Seigneur, est d’avoir l’âme pleine</l>
+                        <l n="478"> De tragiques fureurs, de désespoir, de haine,</l>
+                        <l n="479"> De me nourrir toujours d’amertume et de pleurs,</l>
+                        <l n="480"> De craindre, d’annoncer, de souffrir des malheurs.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="481"> Un sort si malheureux, adorable Princesse,</l>
+                        <l n="482"> Un destin si cruel doit-il durer sans cesse ?</l>
+                        <l n="483"> Si les Grecs maintenant ont détruit vos États,</l>
+                        <l n="484"> Le Ciel un jour mettra tous leurs Trônes à bas :</l>
+                        <l n="485"> Tout change tour à tour, tout succombe, tout passe.</l>
+                        <l n="486"> Je sais quels attentats ont éteint votre race ;</l>
+                        <l n="487"> Mais, Madame, du moins par son heureux secours</l>
+                        <l n="488"> Mon Père a conservé votre gloire et vos jours.</l>
+                        <l n="489"> Loin de vous retenir en esclave à Mycènes,</l>
+                        <l n="490"> Peut-être voudra-t-il pour vous en faire Reine,</l>
+                        <l n="491"> Pour voir avec nos cœurs nos Empires unis</l>
+                        <l n="492"> Vous assurez son Trône en vous donnant son fils.</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="493"> Ah ! Seigneur.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="494"> Si les Grecs vous ont trop outragée</l>
+                        <l n="495"> Par leurs pertes, déjà n’êtes-vous pas vengée ?</l>
+                        <l n="496"> Bien plus, dans cette Cour cent maux que je prévois,</l>
+                        <l n="497"> Vont peut-être éclater par le retour du Roi :</l>
+                        <l n="498"> L’ambitieux Égisthe est puissant dans Mycènes.</l>
+                        <l n="499"> Mais dussent tous les Grecs mériter votre haine,</l>
+                        <l n="500"> Devez-vous me punir des maux qu’ils vous ont faits</l>
+                        <l n="501"> Moi que dans vos États vous ne vîtes jamais,</l>
+                        <l n="502"> Moi qui m’applaudissais d’un âge ou ma faiblesse</l>
+                        <l n="503"> M’épargna les fureurs, les crimes de la Grèce ?</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="504"> Hélas !</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="505"> Si mon respect, ma tendresse, ma foi,</l>
+                        <l n="506"> N’excitent rien en vous qui vous parle pour moi,</l>
+                        <l n="507"> Frappez, percez ce cœur accable de tristesse.</l>
+                        <l n="508"> Punissez-en Oreste, Agamemnon, la Grèce,</l>
+                        <l n="509"> Éteignez dans mon sang mes téméraires feux :</l>
+                        <l n="510"> Que ma mort...</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="511"> Votre mort n’est pas ce que je veux.</l>
+                        <l n="512"> Étouffez seulement une flamme funeste,</l>
+                        <l n="513"> On me dédaigne ici, Seigneur, on me déteste.</l>
+                        <l n="514"> N’ayez aussi pour moi que mépris et qu’horreur.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="515"> Qui moi, Madame ? ô Dieux !</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="516"> Craignez au moins, Seigneur,</l>
+                        <l n="517"> Que Cassandre en ces lieux, que cette infortunée</l>
+                        <l n="518"> Ne verse un noir poison sur votre destinée.</l>
+                        <l n="519"> De mon triste ascendant telle est la dure Loi,</l>
+                        <l n="520"> Que je traîne partout le malheur avec moi.</l>
+                        <l n="521"> Vous êtes né, Seigneur, d’Atrée et de Tantale</l>
+                        <l n="522"> Et je sors comme vous d’une race fatale,</l>
+                        <l n="523"> Funeste à mes amis, funeste mes amants.</l>
+                        <l n="524"> Tremblez, Prince, voyez leurs affreux châtiments</l>
+                        <l n="525"> Corèbe à mon Hymen destiné par mon père</l>
+                        <l n="526"> À peine entré dans Troie y perdit la lumière.</l>
+                        <l n="527"> D’un téméraire amour votre Ajax embrasé</l>
+                        <l n="528"> S’est vu presqu’à mes yeux par la foudre écrasé.</l>
+                        <l n="529"> Craignez, Prince, craignez leur exemple funeste.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="530"> Tombe, tombe sur moi la colère céleste.</l>
+                        <l n="531"> Votre Amant ose ici défier tous vos Dieux,</l>
+                        <l n="532"> Si leur haine s’attache à ce nom glorieux.</l>
+                        <l n="533"> Mais peut-être comme eux me haïssant vous-même...</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="534"> Vous parler des malheurs que je crains pour qui m’aime,</l>
+                        <l n="535"> Et les craindre pour vous est-ce là vous haïr ?</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="536"> Ah Madame !</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="537"> Arrêtez, craignez de vous trahir</l>
+                        <l n="538"> Par l’appas trop flatteur d’un espoir favorable.</l>
+                        <l n="539"> Rien n’est si malheureux rien n’est si déplorable</l>
+                        <l n="540"> Que le sort d’un mortel que mes yeux ont charmé,</l>
+                        <l n="541"> Quels seraient vos malheurs si vous étiez aimé ?</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="542"> Vous ne m’aimez donc pas et je n’oserais croire...</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="543"> Le Roi vient : Tout vous nuit, mon sort, les Dieux, ma gloire,</l>
+                        <l n="544"> Et je trouve au Roi même un obstacle en ces lieux</l>
+                        <l n="545"> Aussi grand que mon sort, que ma gloire et les Dieux.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="546"> Ah si vous n’êtes point à mes vœux trop contraire,</l>
+                        <l n="547"> J’ose tout espérer des tendresses d’un père.</l>
+                        <l n="548"> Quels vœux ne seront point par le sang écoutez ?</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON, à sa suite. </speaker>
+                        <l n="549"> Que l’on me laisse ici. Vous Arbas arrêtez.</l>
+                        <l n="550"> Et vous pour m’acquitter envers le Ciel propice</l>
+                        <l n="551"> Donnez l’ordre mon fils d’un pompeux sacrifice</l>
+                        <l n="552"> Pour nos heureux succès rendre grâces aux Dieux,</l>
+                        <l n="553"> C’est le premier devoir d’un Roi victorieux.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON, continue. </speaker>
+                        <l n="554"> Avoir tous les honneurs qu’on me rend dans Mycènes,</l>
+                        <l n="555"> Mon bonheur est parfait et ma gloire est certaine.</l>
+                        <l n="556"> Cependant que d’ennuis viennent le traverser !</l>
+                </sp>
+        <sp who="#arbas">
+            <speaker> ARBAS. </speaker>
+                        <l n="557"> Et de quoi votre esprit va-t-il s’embarrasser ?</l>
+                        <l n="558"> Grâces au Ciel Seigneur vous avez eu la joie</l>
+                        <l n="559"> D’étaler sur ces bords le triomphe de Troie</l>
+                        <l n="560"> Et vous pouvez, sauvé de la Guerre et des flots,</l>
+                        <l n="561"> Espérer dans Mycènes un solide repos.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="562"> Qu’on en croit aisément une faible apparence !</l>
+                        <l n="563"> Un triomphe pareil n’est pas tout ce qu’on pense.</l>
+                        <l n="564"> Un mélange cruel en corrompt les douceurs.</l>
+                </sp>
+        <sp who="#arbas">
+            <speaker> ARBAS. </speaker>
+                        <l n="565"> Dieux ! quel est ce discours ? d’où naissent vos douleurs ?</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="566"> Qu’ai-je après tant d’exploits conduit sur ce rivage</l>
+                        <l n="567"> Que les restes affreux d’un funeste naufrage ?</l>
+                        <l n="568"> Rebut infortuné de la fureur des eaux,</l>
+                        <l n="569"> J’ai vu qu’on m’élevait ici de vains tombeaux.</l>
+                        <l n="570"> À travers une joie apparente et contrainte</l>
+                        <l n="571"> J’entrevois des éclats de douleur et de crainte,</l>
+                        <l n="572"> La Cour me semble triste et le Peuple étonné</l>
+                        <l n="573"> Égisthe est interdit, Oreste est consterné ;</l>
+                        <l n="574"> Et surtout, s’il te faut expliquer ma pensée,</l>
+                        <l n="575"> La Reine m’a paru surprise, embarrassée.</l>
+                        <l n="576"> Son trouble que j’ai feint de ne pas remarquer,</l>
+                        <l n="577"> Des bruits tristes, confus, qu’on n’ose m’expliquer,</l>
+                        <l n="578"> Des secrètes terreurs que je ne puis comprendre...</l>
+                </sp>
+        <sp who="#arbas">
+            <speaker> ARBAS. </speaker>
+                        <l n="579"> N’est-ce point que le bruit de vos feux pour Cassandre.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="580"> Oui cher Arbas, sans doute et cette passion</l>
+                        <l n="581"> Va causer des malheurs au vainqueur d’Ilion.</l>
+                        <l n="582"> Tu le sais toutefois, par quelle résistance</l>
+                        <l n="583"> J’ai tenté d’étouffer ce feu dans sa naissance !</l>
+                        <l n="584"> Souvent près de Cassandre au lieu d’être indigné</l>
+                        <l n="585"> Je me suis applaudi de me voir dédaigné.</l>
+                        <l n="586"> Malgré tous mes efforts voyant durer ma flamme,</l>
+                        <l n="587"> J’ai cherché par l’absence à dégager mon âme :</l>
+                        <l n="588"> Même affectant l’orgueil d’un Roi victorieux,</l>
+                        <l n="589"> J’ai fait venir Cassandre en Esclave en ces lieux,</l>
+                        <l n="590"> Elle partit de Troie éplorée, éperdue,</l>
+                        <l n="591"> Et moi je respirais éloigné de sa vue.</l>
+                        <l n="592"> Mais Dieux ! dès que j’ai vu les murs de ce Palais</l>
+                        <l n="593"> J’ai senti tout mon cœur rappelant ses attraits,</l>
+                        <l n="594"> Plus pressé pour la voir de voler dans Mycènes,</l>
+                        <l n="595"> Que par l’ardeur de voir et mon fils et la Reine.</l>
+                </sp>
+        <sp who="#arbas">
+            <speaker> ARBAS. </speaker>
+                        <l n="596"> Seigneur vous pouvez tout, mais de grâce en ce jour</l>
+                        <l n="597"> Souffrez que je combatte un si funeste amour.</l>
+                        <l n="598"> Pourriez-vous consentir ?...</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="599"> Arrête, oses-tu croire</l>
+                        <l n="600"> Que j’écoute un amour si fatal à ma gloire ?</l>
+                        <l n="601"> Dans l’âge où tu me vois, au déclin de mes jours</l>
+                        <l n="602"> J’aurais trop à rougir de ces folles amours.</l>
+                        <l n="603"> Dans l’Asie et parmi la licence des Armes</l>
+                        <l n="604"> Mes yeux en Briséis ont pu trouver des charmes ;</l>
+                        <l n="605"> Mais parmi ma famille, au sein de mes États</l>
+                        <l n="606"> Je dois de mon amour vaincre l’indigne appas.</l>
+                        <l n="607"> Que dis-je ? Quand on est à ce comble de gloire</l>
+                        <l n="608"> Ou par tant de travaux m’a conduit la victoire,</l>
+                        <l n="609"> De l’Univers entier on voit sur soi les yeux</l>
+                        <l n="610"> Détourner, arrêter leurs regards curieux,</l>
+                        <l n="611"> Et la moindre faiblesse offre trop à l’envie</l>
+                        <l n="612"> De quoi flétrir l’éclat de la plus belle vie.</l>
+                </sp>
+        <sp who="#arbas">
+            <speaker> ARBAS. </speaker>
+                        <l n="613"> Ah ! j’avais bien prévu dans cette occasion</l>
+                        <l n="614"> Qu’un vainqueur si fameux vaincrait sa passion.</l>
+                        <l n="615"> Quel triomphe pour vous ! Quelle gloire nouvelle !</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="616"> Qu’il en coûte mon cœur une peine cruelle !</l>
+                        <l n="617"> Mais pour la mieux guérir, cessons de les revoir</l>
+                        <l n="618"> Ces appas qui sur moi prennent trop de pouvoir.</l>
+                        <l n="619"> Je veux que dans Argos Cassandre se retire.</l>
+                        <l n="620"> Je fais tout préparer, tu pourras l’y conduire :</l>
+                        <l n="621"> Trop heureux si je puis en cet illustre jour</l>
+                        <l n="622"> Triomphant pleinement de Troie et de l’amour</l>
+                        <l n="623"> Assurer mon repos, consacrer ma mémoire,</l>
+                        <l n="624"> Goûter tranquillement les fruits de ma victoire.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#eurybate">
+            <speaker> EURYBATE. </speaker>
+                        <l n="625"> Ah Seigneur ! excusez mon abord indiscret,</l>
+                        <l n="626"> Mais je viens vous apprendre un important secret.</l>
+                        <l n="627"> Ici, presqu’à vos yeux on cabale, on conspire,</l>
+                        <l n="628"> On veut vous arracher la vie avec l’Empire.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="629"> Juste Ciel !</l>
+                </sp>
+        <sp who="#eurybate">
+            <speaker> EURYBATE. </speaker>
+                        <l n="630"> D’un projet si noir, si plein d’horreur,</l>
+                        <l n="631"> Le croirez-vous ? Égisthe est le coupable auteur</l>
+                        <l n="632"> Et d’un des conjurés le remord favorable</l>
+                        <l n="633"> Vient de me découvrir ce forfait exécrable.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="634"> Le perfide ! en partant on me vit dans ses bras</l>
+                        <l n="635"> Remettre, abandonner mes enfants, mes États,</l>
+                        <l n="636"> Et quand je viens l’ingrat laisse aller sa furie</l>
+                        <l n="637"> Jusqu’à vouloir m’ôter et l’Empire et la vie !</l>
+                        <l n="638"> Ô trahison ! avant qu’il puisse rien tenter,</l>
+                        <l n="639"> Prends mes gardes Arbas et va, cours l’arrêter.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON, continue. </speaker>
+                        <l n="640"> Ah lâche, quelques coups que ta fureur m’apprête,</l>
+                        <l n="641"> Je les ferai bientôt retomber sur ta tête.</l>
+                        <l n="642"> Mais depuis quand, comment ce traître dans son sein</l>
+                        <l n="643"> A-t-il pu concevoir cet horrible dessein ?</l>
+                </sp>
+        <sp who="#eurybate">
+            <speaker> EURYBATE. </speaker>
+                        <l n="644"> Il a toujours pour vous cette haine funeste,</l>
+                        <l n="645"> Que pour le sang d’Atrée a le sang de Thyeste</l>
+                        <l n="646"> Et brûlant en secret du désir de régner,</l>
+                        <l n="647"> Pour remplir son orgueil ne veut rien épargner.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="648"> Mais tandis que j’étais éloigné de Mycènes</l>
+                        <l n="649"> N’a-t-il rien attenté contre Oreste ou la Reine ?</l>
+                        <l n="650"> Dis-moi tout ce qu’ici tes yeux en ont pu voir,</l>
+                        <l n="651"> Tout ce qu’on t’en a dit, je prétends tout savoir.</l>
+                </sp>
+        <sp who="#eurybate">
+            <speaker> EURYBATE. </speaker>
+                        <l n="652"> Seigneur dispensez-moi.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="653"> Dieux ! quel est ce mystère</l>
+                        <l n="654"> Que je brûle d’apprendre et qu’on cherche à me taire.</l>
+                        <l n="655"> Parle, je te l’ordonne.</l>
+                </sp>
+        <sp who="#eurybate">
+            <speaker> EURYBATE. </speaker>
+                        <l n="656"> Hé bien, il faut parler.</l>
+                        <l n="657"> Apprenez ce qu’en vain je voudrais vous celer,</l>
+                        <l n="658"> Aussi bien il vaut mieux qu’une bouche fidèle</l>
+                        <l n="659"> À votre empressement l’expose et le révèle.</l>
+                        <l n="660"> Au bruit de votre mort qu’on a crue avec moi,</l>
+                        <l n="661"> L’État là d’une Reine enfin voulait un Roi ;</l>
+                        <l n="662"> Mais en le demandant il faisait bien connaître,</l>
+                        <l n="663"> Que s’il ne l’obtenait il se ferait un maître.</l>
+                        <l n="664"> Égisthe qui briguait en secret pour ce choix</l>
+                        <l n="665"> Seigneur, était nommé d’une commune voix.</l>
+                        <l n="666"> On brûlait de le voir par l’Hymen de la Reine</l>
+                        <l n="667"> Élevé dès ce jour au Trône de Mycènes,</l>
+                        <l n="668"> Et quoi que Clytemnestre enfin pût opposer,</l>
+                        <l n="669"> Égisthe l’emportait, elle allait l’épouser.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="670"> L’épouser ? ô destins ! ô fortune jalouse !</l>
+                        <l n="671"> Quel accueil ai-je ici d’un Peuple, d’une Épouse !</l>
+                        <l n="672"> Quel retour ! quel triomphe ! ah voilà ces horreurs</l>
+                        <l n="673"> Que m’ont fait pressentir mes secrètes terreurs.</l>
+                        <l n="674"> Sur le bruit incertain d’une mort si cruelle,</l>
+                        <l n="675"> La Reine à ma mémoire aussitôt infidèle,</l>
+                        <l n="676"> Par son impatience allait aux yeux de tous</l>
+                        <l n="677"> D’un indigne sujet se faire un autre Époux !</l>
+                        <l n="678"> Quels soins a-t-elle pris pour recueillir ma cendre ?</l>
+                        <l n="679"> Et quel temps pour les pleurs qu’elle devait répandre !</l>
+                        <l n="680"> Ô Grecs que j’ai vengés et vous lâches sujets,</l>
+                        <l n="681"> Mon fils, Dieux, souffrez-vous ces indignes projets !</l>
+                        <l n="682"> Céder à des mutins avec tant de faiblesse !</l>
+            <stage><em>À Eurybate. </em></stage>
+                        <l n="683"> Quoi tandis que mon bras fait triompher la Grèce,</l>
+                        <l n="684"> Tandis que devenu le Chef de tant de Rois</l>
+                        <l n="685"> Je fais aller si loin le bruit de mes Exploits,</l>
+                        <l n="686"> Tandis qu’un monde entier jouit de ma victoire,</l>
+                        <l n="687"> Et qu’au prix de mon sang je me couvre de gloire,</l>
+                        <l n="688"> Elle allait dépouiller l’héritier de mon rang !</l>
+                        <l n="689"> Elle allait enlever la Couronne à mon sang ?</l>
+                        <l n="690"> Ô trop sensible affront pour un Roi, pour un Père !</l>
+                        <l n="691"> Ô trop injuste Reine et trop barbare Mère !</l>
+                </sp>
+        <sp who="#eurybate">
+            <speaker> EURYBATE. </speaker>
+                        <l n="692"> Seigneur mille raisons s’opposaient à ce choix.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="693"> Est-il quelque raison pour détruire ses droits ?</l>
+                        <l n="694"> L’ingrate ! cet amour que tes yeux m’ont vu prendre</l>
+                        <l n="695"> Dans les veux de l’aimable et divine Cassandre,</l>
+                        <l n="696"> Ce doit au pur respect du conjugal amour.</l>
+                        <l n="697"> Pour goûter sans remord un glorieux retour,</l>
+                        <l n="698"> Pour faire à Clytemnestre une pleine allégresse,</l>
+                        <l n="699"> J’éloignais pour jamais une illustre Princesse,</l>
+                        <l n="700"> Et par ce digne effort, mais trop cruel pour moi,</l>
+                        <l n="701"> J’assurais à la Reine et mon cœur et ma foi.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="702"> Seigneur est-il bien vrai ce qu’on vient de m’apprendre ?</l>
+                        <l n="703"> On dit que dans Argos vous envoyez Cassandre,</l>
+                        <l n="704"> Et que daignant ainsi l’éloigner de nos yeux,</l>
+                        <l n="705"> Vous prétendez...</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="706"> Cassandre est encor dans ces lieux ;</l>
+                        <l n="707"> Mais Égisthe qui même attentait sur ma vie</l>
+                        <l n="708"> Va bientôt expier sa noire perfidie.</l>
+                        <l n="709"> Vous, craignez ce qu’un Juge, un Monarque, un Époux</l>
+                        <l n="710"> Dans sa juste fureur ordonnera de vous.</l>
+                        <l n="711"> Dans cet appartement Gardes qu’on la retienne.</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="712"> Ô Ciel ! quelle surprise est égale à la mienne !</l>
+                        <l n="713"> Qu’ai-je entendu ? Cassandre est encor dans ces lieux.</l>
+                        <l n="714"> Égisthe ose former des complots furieux !</l>
+                        <l n="715"> Et pour combler encor ma honte et mon supplice</l>
+                        <l n="716"> On me fait arrêter, on me croit sa complice !</l>
+                        <l n="717"> Et peut-être est-il vrai que sa témérité</l>
+                        <l n="718"> N’agit que par l’espoir dont je l’avais flatté.</l>
+                </sp>
+        <sp who="#doride">
+            <speaker> DORIDE. </speaker>
+                        <l n="719"> Que votre sort, Madame, est un sort déplorable !</l>
+                        <l n="720"> D’un si noir attentat le Roi vous croit coupable !</l>
+                        <l n="721"> Non, il aime Cassandre, et dans ce triste jour</l>
+                        <l n="722"> Votre crime envers lui c’est ce fatal amour.</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="723"> Oui, Oui, Doride, il l’aime et son indigne flamme</l>
+                        <l n="724"> Embrasse avidement tout ce qui perd sa femme.</l>
+                        <l n="725"> Mais contre cet amour quel secours, quel espoir !</l>
+                        <l n="726"> Opposons-lui son fils, sa vertu, son devoir,</l>
+                        <l n="727"> Et si je ne puis vaincre une ardeur si fatale</l>
+                        <l n="728"> Doride, il faut périr ou perdre ma Rivale.</l></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#arbas">
+            <speaker> ARBAS. </speaker>
+                        <l n="729"> Oui j’ai suivi, Seigneur, votre ordre et mon devoir.</l>
+                        <l n="730"> L’ambitieux Égisthe est en votre pouvoir :</l>
+                        <l n="731"> Égisthe est arrêté malgré sa résistance.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="732"> Il suffit, laisse-moi. Mais pour plus d’assurance,</l>
+                        <l n="733"> Veille, prends garde à tout, songe Arbas, que ton Roi</l>
+                        <l n="734"> Daigne plus que jamais se reposer sur toi.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="735"> Viens Eurybate, approche : as-tu dit à la Reine,</l>
+                        <l n="736"> Que mon juste courroux la bannit de Mycènes ?</l>
+                        <l n="737"> Ira-t-elle dans Sparte ?</l>
+                </sp>
+        <sp who="#eurybate">
+            <speaker> EURYBATE. </speaker>
+                        <l n="738"> Oui Seigneur.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="739"> De quel front,</l>
+                        <l n="740"> De quel air reçoit-elle un châtiment si prompt ?</l>
+                </sp>
+        <sp who="#eurybate">
+            <speaker> EURYBATE. </speaker>
+                        <l n="741"> En épouse soumise, en Reine malheureuse,</l>
+                        <l n="742"> Avec une douleur sage et respectueuse.</l>
+                        <l n="743"> Et si j’osais vous dire un mot en sa faveur.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="744"> Rien ne peu affaiblir son crime et ma fureur.</l>
+                        <l n="745"> Absent depuis dix ans, je volais vers Mycènes,</l>
+                        <l n="746"> Impatient d’y voir une épouse, une Reine,</l>
+                        <l n="747"> Me garder toute entière une tendre amitié :</l>
+                        <l n="748"> Ravi de partager avec cette moitié,</l>
+                        <l n="749"> Ce grand amas de gloire et ce comble de joie,</l>
+                        <l n="750"> Que vient de m’assurer la Conquête de Troie.</l>
+                        <l n="751"> J’allais même, éloignant Cassandre de ces lieux.</l>
+                        <l n="752"> Affliger pour jamais et mon cœur et mes yeux.</l>
+                        <l n="753"> Que j’avais de faiblesse ! ah mon cher Eurybate,</l>
+                        <l n="754"> Je sacrifiais tout à cette épouse ingrate.</l>
+                        <l n="755"> Grâce à sa trahison qui souffre qu’un vainqueur,</l>
+                        <l n="756"> Au gré de ses désirs dispose de son cœur.</l>
+                </sp>
+        <sp who="#eurybate">
+            <speaker> EURYBATE. </speaker>
+                        <l n="757"> Mais pour Cassandre enfin, n’est-elle pas éteinte</l>
+                        <l n="758"> Cette amour que j’ai vu vous causer tant de crainte ?</l>
+                        <l n="759"> Vous avez résolu qu’elle parte demain :</l>
+                        <l n="760"> Vous voulez...</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="761"> Il est vrai, j’avais fait ce dessein.</l>
+                        <l n="762"> Mais je viens de la voir, et j’ai repris pour elle</l>
+                        <l n="763"> Des désirs si pressants, une flamme si belle ;</l>
+                        <l n="764"> Que bien loin de vouloir l’éloigner de mes yeux,</l>
+                        <l n="765"> Je prétends avec moi qu’elle règne en ces lieux.</l>
+                </sp>
+        <sp who="#eurybate">
+            <speaker> EURYBATE. </speaker>
+                        <l n="766"> Quoi, Seigneur, lui donner la place de la Reine ?</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="767"> La Reine en est indigne, elle sort de Mycènes.</l>
+                        <l n="768"> Le divorce Eurybate est commun parmi nous :</l>
+                        <l n="769"> Je sens même en secret murmurer mon courroux,</l>
+                        <l n="770"> Quand à ce châtiment je veux borner sa peine.</l>
+                        <l n="771"> Mais ne me parle plus de l’objet de ma haine.</l>
+                        <l n="772"> Parle-moi seulement du choix qui m’a charmé,</l>
+                        <l n="773"> De ce divin objet que les Dieux ont aimé,</l>
+                        <l n="774"> Beauté sans art, fierté sons orgueil, sans faiblesse,</l>
+                        <l n="775"> Dans la honte des fers tout l’air d’une Princesse.</l>
+                        <l n="776"> Dis-moi qu’elle est des Dieux l’interprète et la voix,</l>
+                        <l n="777"> Qui nous eut épargné la mort de tant de Rois</l>
+                        <l n="778"> Et de tant de fureurs les barbares spectacles,</l>
+                        <l n="779"> Si l’aveugle Troyen avait cru ses Oracles.</l>
+                        <l n="780"> Je te dirai bien plus ; ce n’est pas sans dessein</l>
+                        <l n="781"> Que le Ciel a versé cet amour dans mon sein.</l>
+                        <l n="782"> Penses-tu qu’au retour d’une effroyable Guerre</l>
+                        <l n="783"> Où des torrents de sang ont inondé la terre,</l>
+                        <l n="784"> Où ma fureur m’a fait tant de noms odieux,</l>
+                        <l n="785"> Où je me suis chargé de la haine des Dieux ;</l>
+                        <l n="786"> Crois-tu, qu’on les apaise avec quelques victimes ?</l>
+                        <l n="787"> Il faut bien autrement expier tous mes crimes.</l>
+                        <l n="788"> Pour recouvrer Hélène exigeait-t-on de moi</l>
+                        <l n="789"> De remplir tant d’États de carnage et d’effroi ?</l>
+                        <l n="790"> Des enfants égorgés, des filles immolées,</l>
+                        <l n="791"> Des vieillards massacrés, des mères désolées,</l>
+                        <l n="792"> Tous demandent justice et c’est moi leur vainqueur</l>
+                        <l n="793"> Qui dois venger leur sang et servir leur douleur.</l>
+                        <l n="794"> De tant d’illustres morts qui ne sont que poussière,</l>
+                        <l n="795"> La gloire dans Cassandre est encor toute entière :</l>
+                        <l n="796"> C’est en elle qu’il faut relever ses aïeux,</l>
+                        <l n="797"> Réparer leur disgrâce et satisfaire aux Dieux.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="798"> Ah, Seigneur ! qu’ai-je appris, quand je recouvre un père,</l>
+                        <l n="799"> Faudra-t-il que l’exil me ravisse ma mère ?</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="800"> Je devrais la traiter avec plus de rigueur.</l>
+                        <l n="801"> L’infidèle ! est-ce là cet amour ?...</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="802"> Ah Seigneur !</l>
+                        <l n="803"> Doutez-vous que son cœur vous aime, vous adore ?</l>
+                        <l n="804"> Tout jeune que j’étais il me souvient encore,</l>
+                        <l n="805"> Que mourante et sans voix en vous disant adieu,</l>
+                        <l n="806"> Quand pour vaincre Ilion vous quittâtes ce lieu,</l>
+                        <l n="807"> Clytemnestre à la vie à peine fut rendue.</l>
+                        <l n="808"> Dans ce triste Palais languissante, abattue,</l>
+                        <l n="809"> Sans cesse on l’entendait gémir de ses ennuis.</l>
+                        <l n="810"> Que de jours douloureux ! que de cruelles nuits !</l>
+                        <l n="811"> Combien en m’embrassant, l’esprit rempli d’alarmes,</l>
+                        <l n="812"> Ses yeux sur mon visage ont répandu de larmes !</l>
+                        <l n="813"> Avec quel zèle ardent et quels soins curieux</l>
+                        <l n="814"> Elle faisait sans cesse observer tous les lieux,</l>
+                        <l n="815"> Où vous aviez voulu que nous eussions la joie</l>
+                        <l n="816"> De voir l’heureux signal du triomphe de Troie !</l>
+                        <l n="817"> Sans moi, sans mon secours, l’erreur de votre mort,</l>
+                        <l n="818"> Son désespoir, Seigneur, allait finir son sort.</l>
+                        <l n="819"> Ces regrets, ces tombeaux, ces pleurs, ces sacrifices...</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="820"> Ce sont fausses douleurs et trompeurs artifices.</l>
+                        <l n="821"> En arrivant ici, parmi ces monuments</l>
+                        <l n="822"> On ne voit que festons, autels, vases fumants,</l>
+                        <l n="823"> Trop indigne appareil d’un fatal hyménée.</l>
+                        <l n="824"> Mon retour différé d’une seule journée,</l>
+                        <l n="825"> J’allais voir sur le Trône un autre Roi que vous !</l>
+                        <l n="826"> J’allais entre ses bras trouver un autre Époux !</l>
+                        <l n="827"> Ô trop dignes sujets d’une implacable haine !</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="828"> Ah, Seigneur ! tous les Grecs assemblés dans Mycènes</l>
+                        <l n="829"> Sont témoins qu’à grands cris on demandait un Roi,</l>
+                        <l n="830"> Qui dans l’art de régner fut plus savant que moi.</l>
+                        <l n="831"> On nommait même Égisthe. Hélas, que pouvait faire,</l>
+                        <l n="832"> Pour un fils malheureux une impuissante mère ?</l>
+                        <l n="833"> Elle allait à l’Autel en Victime d’État,</l>
+                        <l n="834"> Et cet Hymen contre elle était un attentat.</l>
+                        <l n="835"> Mais j’aurais bien rompu ce funeste Hyménée.</l>
+                        <l n="836"> J’en eusse ensanglanté la fatale journée.</l>
+                        <l n="837"> J’aurais tout soulevé, j’aurais de coups mortels,</l>
+                        <l n="838"> Percé le traître Égisthe aux pieds de nos autels.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="839"> Et la Reine voulait dans ce péril extrême</l>
+                        <l n="840"> Par son indigne Hymen vous plonger elle-même ?</l>
+                        <l n="841"> Ah ! si contre son fils quelques lâches sujets,</l>
+                        <l n="842"> Osaient d’un téméraire appuyer les projets :</l>
+                        <l n="843"> Si ses yeux devaient voir exposer cette Ville</l>
+                        <l n="844"> Aux tragiques horreurs d’une Guerre civile,</l>
+                        <l n="845"> Devait-elle embrasser que le parti d’un fils ?</l>
+                        <l n="846"> Non, Prince, vous et moi, nous étions tous trahis,</l>
+                        <l n="847"> Mais ne m’en parlez plus, que demain elle parte,</l>
+                        <l n="848"> Et qu’elle aille à jamais se renfermer dans Sparte.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="849"> Suspendez votre arrêt : que sur moi seulement,</l>
+                        <l n="850"> Sur le seul criminel tombe le châtiment ;</l>
+                        <l n="851"> La Reine est innocente, et puisque son silence</l>
+                        <l n="852"> L’accuse, je lui dois rendre son innocence.</l>
+                        <l n="853"> Malgré tous nos mutins il ne tenait qu’à moi</l>
+                        <l n="854"> D’accepter la Couronne et de me faire Roi,</l>
+                        <l n="855"> Ma mère me l’offrait, je régnais dans Mycènes,</l>
+                        <l n="856"> Si j’avais de sa main voulu prendre une Reine.</l>
+                        <l n="857"> Mais je n’écoutais rien qu’un téméraire amour,</l>
+                        <l n="858"> Résolu de tout perdre et le Trône et le jour,</l>
+                        <l n="859"> S’il fallait les sauver en perdant ce que j’aime.</l>
+                        <l n="860"> C’est ce fatal amour donc la fureur extrême</l>
+                        <l n="861"> Forçait seule la Reine à faire un autre Roi.</l>
+                        <l n="862"> J’aime Cassandre enfin : Elle a mon cœur, ma foi.</l>
+                        <l n="863"> Jamais l’Amour, les Dieux n’ont jeté dans une âme</l>
+                        <l n="864"> Des transports plus pressants, une plus vive flamme :</l>
+                        <l n="865"> Je dois, je veux l’aimer jusques dans le tombeau,</l>
+                        <l n="866"> Trop heureux d’expirer pour un crime si beau</l>
+                        <l n="867"> Et plus heureux encor d’en mériter la peine,</l>
+                        <l n="868"> Si mon sang peut laver le crime de la Reine.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="869"> Où suis-je ? qu’ai-je ouï ? justes Dieux quel poison</l>
+                        <l n="870"> Répandez-vous toujours sur moi, sur ma maison !</l>
+                        <l n="871"> Allez trop digne fils d’une coupable mère,</l>
+                        <l n="872"> Vanter loin de ma vue un crime téméraire ;</l>
+                        <l n="873"> Ou ne vous offrez plus, fils ingrat, à mes yeux,</l>
+                        <l n="874"> Qu’affranchi d’un amour qui m’est trop odieux.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#eurybate">
+            <speaker> EURYBATE. </speaker>
+                        <l n="875"> Qu’ai-je entendu Seigneur !</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="876"> Ô disgrâce nouvelle,</l>
+                        <l n="877"> Qui vient frapper mon cœur d’une atteinte mortelle !</l>
+                        <l n="878"> La Reine, mon devoir, les Dieux, tout en ce jour,</l>
+                        <l n="879"> Semble ouvrir un Champ libre à mon ardent amour,</l>
+                        <l n="880"> Et cependant Oreste adore ce j’aime !</l>
+                        <l n="881"> Je rencontre un Rival dans un autre moi-même !</l>
+                        <l n="882"> Ma Captive triomphe, et par mon propre fils,</l>
+                        <l n="883"> Je vois tous mes desseins et tous mes vœux trahis !</l>
+                </sp>
+        <sp who="#eurybate">
+            <speaker> EURYBATE. </speaker>
+                        <l n="884"> La Reine vient, Seigneur, accablée, éperdue.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="885"> La Reine ! ah qu’a jamais elle évite ma vue.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="886"> Non, c’est trop de rigueur, quoi que vous ordonniez,</l>
+                        <l n="887"> Pour la dernière fois je me jette à vos pieds.</l>
+                        <l n="888"> Je ne viens pas ici rappeler dans votre âme,</l>
+                        <l n="889"> Par de tendres adieux votre première flamme :</l>
+                        <l n="890"> Vous m’en jugez indigne, et c’est assez, Seigneur,</l>
+                        <l n="891"> Pour ne prétendre plus de place en votre cœur.</l>
+                        <l n="892"> Mais ne pourrai-je au moins dans un sort si funeste,</l>
+                        <l n="893"> Vous parler en faveur du malheureux Oreste ?</l>
+                        <l n="894"> Il adore Cassandre, et jusques à ce jour</l>
+                        <l n="895"> Il m’a vue obstinée à troubler son amour.</l>
+                        <l n="896"> Je le devais, croyant votre perte certaine ;</l>
+                        <l n="897"> Mais les temps ont changé : vous êtes dans Mycènes.</l>
+                        <l n="898"> Permettez que prenant un plus juste dessein,</l>
+                        <l n="899"> Je présente à mon fils Cassandre de ma main.</l>
+                        <l n="900"> Permettez qu’en partant, sa déplorable mère</l>
+                        <l n="901"> Répare ainsi les maux qu’elle a voulu lui faire.</l>
+                        <l n="902"> Que je vois à mon fils une épouse en ces lieux,</l>
+                        <l n="903"> Et puisse-t-il dans Sparte un jour fermer mes yeux.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="904"> Ce langage, Madame, a droit de me surprendre.</l>
+                        <l n="905"> D’où vous vient pour Oreste une amitié si tendre ?</l>
+                        <l n="906"> Un zèle si nouveau ? sans vous, sans vos avis,</l>
+                        <l n="907"> Je saurai bien régler le destin de mon fils.</l>
+                        <l n="908"> Laissez de son Hymen tout le soin à son père.</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="909"> Pourquoi, Seigneur, pourquoi vouloir priver sa mère,</l>
+                        <l n="910"> D’un devoir si sacré, d’un spectacle si doux ?</l>
+                        <l n="911"> Et du dernier bienfait qu’elle espère de vous ?</l>
+                        <l n="912"> Pourquoi ne point unir Oreste avec Cassandre ?</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="913"> J’ai mes raisons, Madame, et ne dois point en rendre :</l>
+                        <l n="914"> C’est assez et c’est trop que je daigne en ce jour</l>
+                        <l n="915"> Pardonner à mon fils son téméraire amour.</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="916"> Achevez, achevez, cessez de vous contraindre.</l>
+                        <l n="917"> Je sais tout, je vois tout : il n’est plus temps de feindre.</l>
+                        <l n="918"> Seigneur, la Renommée en contant vos Exploits,</l>
+                        <l n="919"> N’a pas pour vous louer donné toutes ses voix.</l>
+                        <l n="920"> À votre honte ici sa bouche a fait entendre</l>
+                        <l n="921"> Le bruit injurieux de vos feux pour Cassandre.</l>
+                        <l n="922"> Pour vous, pour mon repos, je voulais en douter ;</l>
+                        <l n="923"> Mais, vos cruels refus les font trop éclater.</l>
+                        <l n="924"> Poursuivez élevez votre Esclave à ma place.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="925"> Quel reproche au moment qu’il faut demander grâce !</l>
+                        <l n="926"> Quand un nouvel Hymen occupait tous vos soins,</l>
+                        <l n="927"> Aviez-vous de ma mort de fidèles témoins ?</l>
+                        <l n="928"> Il fallait en courant de rivage en rivage</l>
+                        <l n="929"> Par des signes certains confirmer mon naufrage.</l>
+                        <l n="930"> Mère d’Oreste, enfin Veuve d’Agamemnon,</l>
+                        <l n="931"> Il fallait soutenir l’éclat de grand nom.</l>
+                        <l n="932"> Il fallait à mon ombre être toujours fidèle,</l>
+                        <l n="933"> Oser tout pour un fils, contre un Peuple rebelle.</l>
+                        <l n="934"> Mais enfin c’en est fait, plus d’Hymen entre nous,</l>
+                        <l n="935"> Plus de rang en ces lieux, plus de Trône pour vous.</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="936"> Je quitte avec plaisir le Trône des Atrides,</l>
+                        <l n="937"> Ce Palais teint du sang de tant de Parricides,</l>
+                        <l n="938"> Cet Empire odieux, déshonoré cent fois.</l>
+                        <l n="939"> Par la haine des Dieux et les crimes des Rois.</l>
+                        <l n="940"> Le divorce, l’exil ont pour moi plus de charmes</l>
+                        <l n="941"> Qu’un séjour où mes yeux ont versé tant de larmes,</l>
+                        <l n="942"> Qu’un Époux dont la vie a cent fois démenti</l>
+                        <l n="943"> Le sang de Jupiter dont il se croit sorti.</l>
+                        <l n="944"> Mais avant que je parte il faut que je te laisse</l>
+                        <l n="945"> L’image des forfaits qui te suivront sans cesse.</l>
+                        <l n="946"> Souviens-toi qu’autrefois un vain orgueil du rang</l>
+                        <l n="947"> De ma fille à mes yeux te fit verser le sang :</l>
+                        <l n="948"> La triste Iphigénie... Ah funeste spectacle !</l>
+                        <l n="949"> Calchas même eut horreur de son barbare Oracle.</l>
+                        <l n="950"> Les flammes du bûcher cherchant à s’éloigner</l>
+                        <l n="951"> Respectaient la Victime et voulaient l’épargner.</l>
+                        <l n="952"> Souviens-toi quelle ardeur malheureuse, inutile,</l>
+                        <l n="953"> Enleva Briséis d’entre les bras d’Achille.</l>
+                        <l n="954"> Mais c’est trop peu : tu viens assujettir ton fils</l>
+                        <l n="955"> Aux enfants qui naîtront de la sœur de Pâris !</l>
+                        <l n="956"> Digne Époux ! grand Monarque ! ô père et juste et tendre !</l>
+                        <l n="957"> Ô Héros ! Aime, Épouse et fais régner Cassandre.</l>
+                        <l n="958"> Mais pour le châtiment de ce crime odieux,</l>
+                        <l n="959"> Crains tes remords, ton fils, moi, les Grecs, tous les Dieux.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="960"> Ah que l’emportement que sa fureur déploie,</l>
+                        <l n="961"> Dans mon cœur étonné jette une prompte joie !</l>
+                        <l n="962"> Et d’un funeste Hymen déchirant tous les nœuds,</l>
+                        <l n="963"> Dégage heureusement un Époux malheureux !</l>
+                        <l n="964"> Allons chercher Cassandre, et laissons de mon âme</l>
+                        <l n="965"> Échapper à ses yeux tout l’espoir de ma flamme.</l>
+                </sp>
+        <sp who="#eurybate">
+            <speaker> EURYBATE. </speaker>
+                        <l n="966"> Ah laissez-là partir : quel est votre dessein !</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="967"> D’aller lui présenter et mon Sceptre et ma main,</l>
+                        <l n="968"> Mais elle vient.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="969"> Seigneur, jusqu’où va votre haine :</l>
+                        <l n="970"> Après m’avoir captive envoyée à Mycènes :</l>
+                        <l n="971"> On dit que vous voulez m’envoyer dans Argos !</l>
+                        <l n="972"> Faudra-t-il traversant et les Monts et les Flots,</l>
+                        <l n="973"> Que j’aille encor traîner ma misère et mes chaînes.</l>
+                        <l n="974"> Dans Ithaque, en Epire, en Crète, dans Athènes</l>
+                        <l n="975"> Et ferez-vous partout aux Grecs victorieux,</l>
+                        <l n="976"> De la triste Cassandre un trophée odieux ?</l>
+                        <l n="977"> Ah ! s’il faut de ces lieux éloigner ma présence,</l>
+                        <l n="978"> Daignez me renvoyer au lieu de ma naissance.</l>
+                        <l n="979"> Je puisse revoir ses débris, ses tombeaux.</l>
+                        <l n="980"> Objets à ma douleur plus charmants et plus beaux,</l>
+                        <l n="981"> Que la pompe et l’orgueil des villes de la Grèce.</l>
+                        <l n="982"> Que le triste Ilion voie encore sa Princesse</l>
+                        <l n="983"> Honorer la misère, adoucir les malheurs</l>
+                        <l n="984"> Des vivants par ses soins et des morts par ses pleurs.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="985"> Quoi, Madame, avez-vous tant d’horreur pour Mycènes ?</l>
+                        <l n="986"> Vous êtes dans ma Cour et libre et souveraine.</l>
+                        <l n="987"> Mais ces soins, ces respects qu’on vous rend en ces lieux,</l>
+                        <l n="988"> Ont-ils trop peu d’appas pour arrêter vos yeux ?</l>
+                        <l n="989"> Aimez-vous mieux aller sur les bords du Scamandre</l>
+                        <l n="990"> Y voir Troie embrasée et pleurer sur sa cendre,</l>
+                        <l n="991"> Que me voir dans ma Cour environné de Rois,</l>
+                        <l n="992"> Plus que jamais Madame asservi sous vos lois ;</l>
+                        <l n="993"> Après tous vos mépris dont j’ai souffert l’outrage,</l>
+                        <l n="994"> De mon fidèle amour renouveler l’hommage ?</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="995"> Qu’entends-je ?</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="996"> Avez-vous crû que l’absence ou le temps</l>
+                        <l n="997"> Éteindrait dans mon cœur des feux si violents ?</l>
+                        <l n="998"> Ah ! si ce cœur pour vous a brûlé devant Troie,</l>
+                        <l n="999"> De quels tourments depuis me suis-je vu la proie !</l>
+                        <l n="1000"> Dans les premiers transports de mes ardents désirs</l>
+                        <l n="1001"> Je n’osais qu’en tremblant expliquer mes soupirs.</l>
+                        <l n="1002"> Mais enfin dégagé d’une Épouse perfide,</l>
+                        <l n="1003"> Ma passion muette, étonnée et timide,</l>
+                        <l n="1004"> Ne peut-elle parler quand pour vous couronner,</l>
+                        <l n="1005"> J’ai tout mon cœur, ma main, mon Sceptre à vous donner ?</l>
+                        <l n="1006"> Permettez donc, Madame...</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1007"> Ah ! cessez ce langage,</l>
+                        <l n="1008"> Et ne m’accablez point par ce dernier outrage.</l>
+                        <l n="1009"> Juste Ciel ! quoi j’ai vu nos États saccagés,</l>
+                        <l n="1010"> Mon père massacré, tous les miens égorgés !</l>
+                        <l n="1011"> Les Troyens sont détruits ! Ilion est en cendre !</l>
+                        <l n="1012"> Quel temps, quel appareil pour l’Hymen de Cassandre !</l>
+                        <l n="1013"> La fille de Priam, l’Amante d’Apollon,</l>
+                        <l n="1014"> Unirait son destin au sort d’Agamemnon !</l>
+                        <l n="1015"> On me verrait porter cette main innocente,</l>
+                        <l n="1016"> Dans une main encor de sang toute fumante !</l>
+                        <l n="1017"> J’irais vous épouser sur des Autels parés</l>
+                        <l n="1018"> Des drapeaux des Troyens sanglants et déchirés !</l>
+                        <l n="1019"> Ah, Seigneur ! que sur moi votre vengeance assemble</l>
+                        <l n="1020"> Tous les maux qu’ont soufferts tous les Troyens ensemble :</l>
+                        <l n="1021"> On me verra sans crainte expirer à vos yeux,</l>
+                        <l n="1022"> Fidèle à ma douleur, à ma gloire, à mes Dieux.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="1023"> Quoi je serai toujours en bute à votre haine !</l>
+                        <l n="1024"> Dans vos Temples Achille épousa Polyxène,</l>
+                        <l n="1025"> Et Pyrrhus doit s’unir à la veuve d’Hector !</l>
+                        <l n="1026"> Le seul Agamemnon ?...</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1027"> Je vous le dis encor,</l>
+                        <l n="1028"> Dussé-je m’attirer votre fureur extrême.</l>
+                        <l n="1029"> Je hais Agamemnon beaucoup plus qu’il ne m’aime.</l>
+                        <l n="1030"> De nôtre inimitié c’est la fatale loi,</l>
+                        <l n="1031"> Et ma haine, Seigneur, ne mourra qu’avec moi.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="1032"> Mais cette haine enfin et si pleine et si fière,</l>
+                        <l n="1033"> Cette invincible horreur, vient-elle toute entière</l>
+                        <l n="1034"> De la fatale loi qui nous fait ennemis ?</l>
+                        <l n="1035"> Haïssez-vous ainsi tous les Grecs et mon fils ?</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1036"> Votre fils ! Quoi, Seigneur ? Vous croyez...</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="1037"> Ah, Madame !</l>
+                        <l n="1038"> Ce trouble fait trop voir le secret de votre âme.</l>
+                        <l n="1039"> Voilà cette douleur, cette gloire, ces Dieux,</l>
+                        <l n="1040"> Dont votre amour voulait se couvrir à mes yeux.</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1041"> Non Seigneur, je n’ai point l’âme assez inhumaine,</l>
+                        <l n="1042"> Pour confondre avec vous votre fils dans ma haine.</l>
+                        <l n="1043"> Loin de causer mes maux il leur donne des pleurs,</l>
+                        <l n="1044"> Et si l’accablement, l’excès de mes malheurs</l>
+                        <l n="1045"> Permettait à mon cœur de prendre quelque flamme...</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="1046"> Il n’en a pris que trop, avouez-le, Madame.</l>
+                        <l n="1047"> Mon malheur est enfin pleinement éclairci.</l>
+                        <l n="1048"> Femme, sujets, enfants, amis et vous aussi :</l>
+                        <l n="1049"> Tout me hait, tout me perd et tout me désespère.</l>
+                        <l n="1050"> Mais je ne prétends plus contraindre ma colère,</l>
+                        <l n="1051"> Et c’est sur ce Rival qui vous devient si cher,</l>
+                        <l n="1052"> Que mon ressentiment se va tout attacher.</l>
+                        <l n="1053"> J’ai trop d’amour encor pour l’ingrate Cassandre.</l>
+                        <l n="1054"> Mais, je ne dis qu’un mot, c’est à vous de l’entendre,</l>
+                        <l n="1055"> Votre vainqueur est maître et d’Oreste et de vous.</l>
+                        <l n="1056"> Votre vainqueur enfin veut être votre Époux.</l>
+                        <l n="1057"> Songez-y bien, adieu.</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1058"> Ciel ! que viens-je d’entendre !</l>
+                        <l n="1059"> Oreste infortuné ! malheureuse Cassandre !</l>
+                        <l n="1060"> Hélas ! je sens mon cœur si sensible à tes feux</l>
+                        <l n="1061"> Cher Prince, et cependant loin de te rendre heureux ;</l>
+                        <l n="1062"> Ton amante s’expose aux fureurs de ton père !</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="1063"> Ah, Madame espérez...</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1064"> Que veux-tu que j’espère,</l>
+                        <l n="1065"> D’un vainqueur endurci, d’un Roi dont les Aïeux</l>
+                        <l n="1066"> Par leurs crimes cent fois ont effrayé les Dieux ?</l>
+                        <l n="1067"> Ah ! si malgré les pleurs de toute sa famille,</l>
+                        <l n="1068"> Ce barbare en partant sacrifia sa fille,</l>
+                        <l n="1069"> Dieux ! que n’osera point son horrible courroux</l>
+                        <l n="1070"> Ismène, contre un fils dont il est trop jaloux ?</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="1071"> Hé bien, puisqu’il le faut, par cet Hymen funeste,</l>
+                        <l n="1072"> D’un péril trop certain garantissez Oreste.</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1073"> Juste Ciel ! quel conseil ! quel indigne secours !</l>
+                        <l n="1074"> Allons plutôt finir ma misère et mes jours.</l>
+                        <l n="1075"> Allons, d’Agamemnon flattant l’injuste flamme,</l>
+                        <l n="1076"> Irriter contre lui les fureurs de sa femme,</l>
+                        <l n="1077"> Mettre en trouble Mycènes et voir ses Citoyens</l>
+                        <l n="1078"> S’immoler de leur main aux mânes des Troyens.</l>
+                        <l n="1079"> Allons enfin.</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="1080"> Hé bien dans ce désordre extrême,</l>
+                        <l n="1081"> Que ferez-vous ?</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1082"> Hélas ! le sais-je encor moi-même ?</l>
+                        <l n="1083"> Ombres de mes parents et vous Dieux que je sers,</l>
+                        <l n="1084"> Dieux qui voyez la honte et l’horreur de mes fers,</l>
+                        <l n="1085"> Quel secours dois-je offrir à l’ardeur qui m’emporte ?</l>
+                        <l n="1086"> Donnez-moi vos conseils : quels qu’ils soient il n’importe</l>
+                        <l n="1087"> Pourvu que ces conseils secondent le courroux</l>
+                        <l n="1088"> De ce cœur tout rempli de sa gloire et de vous.</l></div></div>
+           <div type="act" xml:id="4">
+           <head> ACTE IV </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="1089"> Oui c’en est fait, Cassandre oublie enfin la haine.</l>
+                        <l n="1090"> Cassandre veut monter au Trône de Mycènes.</l>
+                        <l n="1091"> Elle veut m’épouser elle veut dès ce jour,</l>
+                        <l n="1092"> Payer par son Hymen mes soins et mon amour.</l>
+                </sp>
+        <sp who="#eurybate">
+            <speaker> EURYBATE. </speaker>
+                        <l n="1093"> Seigneur m’est-il permis d’expliquer ma surprise ?</l>
+                        <l n="1094"> Je connais mal Cassandre, ou Cassandre déguise.</l>
+                        <l n="1095"> Quel charme, quel miracle a si subitement</l>
+                        <l n="1096"> Dans un cœur ennemi fait ce grand changement ?</l>
+                        <l n="1097"> Ne vous flattez-vous point et voulez-vous qu’on croie,</l>
+                        <l n="1098"> Qu’il n’est rien qui résiste au fier vainqueur de Troie ?</l>
+                        <l n="1099"> Mais comment pourront voir cet Hymen odieux,</l>
+                        <l n="1100"> Ces Grecs que votre gloire assemble dans ces lieux ?</l>
+                        <l n="1101"> N’auront-ils vu Cassandre envoyée à Mycènes,</l>
+                        <l n="1102"> Que pour remplir le rang dont vous chassez la Reine ?</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="1103"> Ils verront qu’ennemi de l’infidélité,</l>
+                        <l n="1104"> Je rends à la vertu ce qu’elle a mérité ;</l>
+                        <l n="1105"> Que juste possesseur de la grandeur suprême,</l>
+                        <l n="1106"> Je dispose à mon gré, du Trône et de moi-même.</l>
+                        <l n="1107"> Les Grecs prétendraient-ils tyranniser mes veux ?</l>
+                        <l n="1108"> Et dans quel temps encor ! quand j’ai tout fait pour eux !</l>
+                        <l n="1109"> Quant au prix de mon sang j’ai vengé les ravages</l>
+                        <l n="1110"> Qu’autrefois les Troyens ont fait sur leurs rivages !</l>
+                        <l n="1111"> Que dis-je ? quand je viens d’assurer pour toujours,</l>
+                        <l n="1112"> Leurs biens, leur liberté, leur honneur et leurs jours !</l>
+                        <l n="1113"> Du butin partagé sur les bords du Scamandre,</l>
+                        <l n="1114"> Je me suis réservé la divine Cassandre :</l>
+                        <l n="1115"> Nos Chefs me l’ont cédée, et je puis à mon tour</l>
+                        <l n="1116"> Donner, comme ils ont fait, quelque chose à l’amour.</l>
+                </sp>
+        <sp who="#eurybate">
+            <speaker> EURYBATE. </speaker>
+                        <l n="1117"> Je ne vous presse point par ces raisons de gloire</l>
+                        <l n="1118"> Qui rendent un grand cœur jaloux de sa mémoire,</l>
+                        <l n="1119"> Par des raisons d’État qui parlent contre vous.</l>
+                        <l n="1120"> Mais par ces noms sacrés et de père et d’Époux ;</l>
+                        <l n="1121"> Mais partout ce qu’ils ont et de tendre et d’auguste.</l>
+                        <l n="1122"> Aimez-vous mieux les noms de cruel et d’injuste ?</l>
+                        <l n="1123"> Voulez-vous accabler une illustre moitié ?</l>
+                        <l n="1124"> Désespérer d’un fils si digne de pitié ?</l>
+                        <l n="1125"> Seigneur...</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="1126"> N’augmente point la cruelle tendresse,</l>
+                        <l n="1127"> Qui me parle en secret et murmure sans cesse.</l>
+                        <l n="1128"> Ah ! Je n’aime que trop ceux que je dois haïr.</l>
+                        <l n="1129"> Mais enfin pour tous deux faudra-t-il me trahir ?</l>
+                        <l n="1130"> Qu’esclave malheureux d’un fils et d’une femme,</l>
+                        <l n="1131"> Un vainqueur se refuse aux douceurs de sa flamme ?</l>
+                        <l n="1132"> Des Rois mes Compagnons, mes Voisins, mes Amis,</l>
+                        <l n="1133"> Qui brûlent tous de faire un gendre de mon fils,</l>
+                        <l n="1134"> Me verront-ils pour lui choisir une ennemie ?</l>
+                </sp>
+        <sp who="#eurybate">
+            <speaker> EURYBATE. </speaker>
+                        <l n="1135"> Mais, Seigneur, avec vous la verront-ils unie ?</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="1136"> Ces raisons contre un fils ne sont pas contre moi.</l>
+                        <l n="1137"> Cassandre est dans mes fers, j’ai vaincu, je suis Roi :</l>
+                        <l n="1138"> À mon Hymen enfin Cassandre est résolue.</l>
+                        <l n="1139"> Mais je veux à mon fils en épargner a vue.</l>
+                        <l n="1140"> Je viens de le mander. Il paraît, laisse-nous.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1141"> Quelle bonté Seigneur, m’appelle auprès de vous ?</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="1142"> Vous savez à quel point la Reine votre mère,</l>
+                        <l n="1143"> Par son ingratitude excite ma colère.</l>
+                        <l n="1144"> Cependant je veux bien que le bannissement</l>
+                        <l n="1145"> Et le divorce seul bornent son châtiment :</l>
+                        <l n="1146"> Voulant lui faire grâce, il faut que son absence,</l>
+                        <l n="1147"> À la confusion épargne ma présence.</l>
+                        <l n="1148"> Je fais plus, sachant bien qu’une tendre amitié</l>
+                        <l n="1149"> Vous fait de ses malheurs ressentir la moitié,</l>
+                        <l n="1150"> Vous irez avec elle à Sparte où je l’envoie :</l>
+                        <l n="1151"> La présence d’un fils lui rendra quelque joie.</l>
+                        <l n="1152"> C’est là que vous pourrez commencer de gagner</l>
+                        <l n="1153"> Ces Peuples, ces États où vous devez régner ;</l>
+                        <l n="1154"> Car enfin vous savez que l’Hymen d’Hermione,</l>
+                        <l n="1155"> Sur votre tête un jour doit mettre une Couronne :</l>
+                        <l n="1156"> Un accord arrêté par son père et par moi,</l>
+                        <l n="1157"> À cet Hymen pour vous engage nôtre foi.</l>
+                        <l n="1158"> C’est trop peu, voulant mieux consoler votre absence,</l>
+                        <l n="1159"> Je partage avec vous la suprême puissance</l>
+                        <l n="1160"> Et content de Mycènes où je règne en repos,</l>
+                        <l n="1161"> Sans attendre ma mort, je vous fais Roi d’Argos.</l>
+                        <l n="1162"> Vous recevez cette offre avec si peu de joie,</l>
+                        <l n="1163"> Que je ne sais mon fils ce qu’il faut que j’en croie.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1164"> Dès l’enfance privé du plaisir de vous voir,</l>
+                        <l n="1165"> Votre retour faisait mon plus charmant espoir,</l>
+                        <l n="1166"> Et vous ne voulez pas, Seigneur, que j’en jouisse !</l>
+                        <l n="1167"> Qu’ai-je fait à vos yeux digne de ce supplice ?</l>
+                        <l n="1168"> Je ne m’attendais pas qu’à votre heureux retour,</l>
+                        <l n="1169"> Mon départ, ma disgrâce en dût marquer le jour</l>
+                        <l n="1170"> Vous me flattez en vain par l’offre d’un Empire.</l>
+                        <l n="1171"> Ce n’est point pour ce rang que mon âme soupire :</l>
+                        <l n="1172"> Quelle honte pour moi d’ôter à votre main</l>
+                        <l n="1173"> La plus belle moitié du pouvoir souverain !</l>
+                        <l n="1174"> Au retour d’une illustre et fameuse victoire,</l>
+                        <l n="1175"> Laissez-moi prés de vous jouir de votre gloire.</l>
+                        <l n="1176"> Je suis jeune et c’est vous qui devez m’enseigner</l>
+                        <l n="1177"> Par vos propres leçons le grand art de régner.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="1178"> Si l’hymen d’Hermione et juste et nécessaire,</l>
+                        <l n="1179"> Si le trône d’Argos, si l’exil d’une mère,</l>
+                        <l n="1180"> N’ont rien qui vous oblige à quitter ce séjour,</l>
+                        <l n="1181"> Je vois trop jusqu’où va l’erreur de votre amour.</l>
+                        <l n="1182"> Quoi, je verrai mon fils au moment que j’arrive</l>
+                        <l n="1183"> Prisonnier et chargé des fers de ma Captive !</l>
+                        <l n="1184"> Est-ce ainsi que fuyant un indigne repos,</l>
+                        <l n="1185"> Vous marchez comme moi sur les pas des Héros ?</l>
+                        <l n="1186"> Pélops, Thésée, Hercule, ont-ils dans leur jeunesse</l>
+                        <l n="1187"> Langui honteusement aux pieds d’une Maîtresse ?</l>
+                        <l n="1188"> Ils ont fini par où vous voulez commencer.</l>
+                        <l n="1189"> Dans les bras de l’Amour on peut se délasser,</l>
+                        <l n="1190"> Quand par un nom fameux et tout brillant de gloire,</l>
+                        <l n="1191"> On a su pour jamais assurer sa mémoire.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1192"> L’Amour qui dans mon cœur allume tous ses feux</l>
+                        <l n="1193"> N’y mettra rien, Seigneur, de bas et de honteux.</l>
+                        <l n="1194"> Tout faible que j’étais par le défaut de l’âge</l>
+                        <l n="1195"> Troie aurait vu briller ce fer sur son rivage,</l>
+                        <l n="1196"> Si l’excès importun de l’amour maternel</l>
+                        <l n="1197"> Ne m’avait retenu par un soin trop cruel,</l>
+                        <l n="1198"> Et n’eut cru, jugeant mal des grandes destinées</l>
+                        <l n="1199"> Qu’il faut que la valeur dépende des années.</l>
+                        <l n="1200"> Sans cesse je m’offrais vos Exploits, vos Combats</l>
+                        <l n="1201"> Et mes désirs faisaient ce qu’a fait votre bras.</l>
+                        <l n="1202"> Et si jamais le sort pour me combler de joie,</l>
+                        <l n="1203"> Présente à mon courage une seconde Troie,</l>
+                        <l n="1204"> Vous verrez si l’amour a jeté dans mon cœur,</l>
+                        <l n="1205"> Une indigne faiblesse, une honteuse ardeur.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="1206"> Pouvait-il y jeter un sentiment plus lâche ?</l>
+                        <l n="1207"> Vous voyez à quel joug votre amour vous attache.</l>
+                        <l n="1208"> Cassandre a-t-elle enfin de quoi vous couronner ?</l>
+                        <l n="1209"> Quels États, quels amis vous peut-elle donner ?</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1210"> Je puis, Seigneur, je puis au seul nom de Cassandre</l>
+                        <l n="1211"> Relever et tirer Ilion de sa cendre,</l>
+                        <l n="1212"> De son Trône abattu ramasser le débris,</l>
+                        <l n="1213"> Où le père a vaincu faire régner le fils,</l>
+                        <l n="1214"> Par ma main, par mes soins rétablir un Empire</l>
+                        <l n="1215"> Que vous eûtes sans moi la gloire de détruire.</l>
+                        <l n="1216"> Je puis, aimant Cassandre, amener à ses pieds</l>
+                        <l n="1217"> Des Peuples asservis, des Rois humiliés,</l>
+                        <l n="1218"> Vous faire voir enfin par plus d’une victoire</l>
+                        <l n="1219"> Qu’un feu tel que le mien sait conduire à la gloire,</l>
+                        <l n="1220"> Qu’aimer pour les grands cœurs est un illustre emploi,</l>
+                        <l n="1221"> Et que l’amour peut tout quand il agit pour soi.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="1222"> Mais quand toute la Grèce est soigneuse et jalouse,</l>
+                        <l n="1223"> De l’honneur de pouvoir vous donner une Épouse,</l>
+                        <l n="1224"> Voulez-vous qu’au mépris des filles de vingt Rois,</l>
+                        <l n="1225"> Pour Cassandre à leurs yeux j’approuve votre choix ?</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1226"> Je dois tout à la Grèce, au lieu de ma naissance ;</l>
+                        <l n="1227"> Mais le choix de ma flamme est hors de leur puissance.</l>
+                        <l n="1228"> Je dois encore plus à mon Père, à mon Roi ;</l>
+                        <l n="1229"> Mais, Seigneur, mon amour ne dépend plus de moi.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="1230"> J’ai pitié de votre âge et plains votre tendresse,</l>
+                        <l n="1231"> Où je vois tant d’erreur avec tant de faiblesse.</l>
+                        <l n="1232"> Mais enfin, apprenez pour guérir votre amour,</l>
+                        <l n="1233"> Que je donne à Cassandre un Époux dès ce jour.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1234"> Un autre épouserait la Princesse que j’aime !</l>
+                        <l n="1235"> Et quel est cet Époux ? qui Seigneur ?</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="1236"> C’est moi-même.</l>
+                        <l n="1237"> Elle-même y consent. Puisque vous m’y forcez,</l>
+                        <l n="1238"> Je vous le dis : suivez la Reine, obéissez.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1239"> Ciel ! qu’ai-je entendu ! je frissonne, je tremble.</l>
+                        <l n="1240"> Je vois en ce malheur tous mes malheurs ensemble</l>
+                        <l n="1241"> Par ce fatal amour les Dieux ont commencé</l>
+                        <l n="1242"> Ce long amas d’horreurs dont je suis menacé.</l>
+                </sp>
+        <sp who="#pylade">
+            <speaker> PYLADE. </speaker>
+                        <l n="1243"> Détournez, prévenez ces fatales menaces.</l>
+                        <l n="1244"> Puisque l’amour ici commence vos disgrâces,</l>
+                        <l n="1245"> Arrêtez-en le cours, Prince, dérobez-vous</l>
+                        <l n="1246"> Au cruel ascendant que ce Dieu prend sur nous.</l>
+                        <l n="1247"> Que l’exemple du fils fasse rougir le père.</l>
+                        <l n="1248"> Cette illustre Cassandre et qui vous est si chère</l>
+                        <l n="1249"> Elle dont vous croyiez avoir touché le cœur,</l>
+                        <l n="1250"> Vous voyez qu’elle veut épouser son vainqueur.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1251"> Que dis-tu cher Pylade ! ah respecte sa gloire.</l>
+                        <l n="1252"> Quoi Cassandre pourrait ?... Non je ne le puis croire</l>
+                        <l n="1253"> Et je mériterais tout son ressentiment,</l>
+                        <l n="1254"> Si je la soupçonnais d’un pareil changement.</l>
+                        <l n="1255"> Je veux m’en éclaircir.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1256"> Ah ! qu’ai-je appris, Madame !</l>
+                        <l n="1257"> De quel espoir mon père ose flatter sa flamme !</l>
+                        <l n="1258"> Ô Dieux ! à son hymen vous auriez consenti !</l>
+                        <l n="1259"> Votre sang, votre cœur se serait démenti ?</l>
+                        <l n="1260"> Cassandre sans pitié du fils et de la mère,</l>
+                        <l n="1261"> Cassandre court au trône, à l’hymen de mon père</l>
+                        <l n="1262"> Le croirai-je, Madame !</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1263"> Oui, malgré mes souhaits,</l>
+                        <l n="1264"> Il faut qu’un même sort nous unisse à jamais.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1265"> Vous unisse à jamais ? ô ciel ! cette Princesse,</l>
+                        <l n="1266"> Elle qui faisait voir tant d’horreur pour la Grèce,</l>
+                        <l n="1267"> Qui voyait en mon père un vainqueur odieux,</l>
+                        <l n="1268"> Elle que je voyais si pleine de ses Dieux.</l>
+                        <l n="1269"> Se faire de l’Hymen un effroyable crime,</l>
+                        <l n="1270"> Elle qui m’honorant de toute son estime,</l>
+                        <l n="1271"> Sans confondre en son cœur le père avec le fils</l>
+                        <l n="1272"> Semblait me distinguer de tous ses ennemis,</l>
+                        <l n="1273"> Elle-même m’annonce un Hymen si funeste !</l>
+                        <l n="1274"> Elle aime Agamemnon et désespère Oreste !</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1275"> Ô discours plein pour moi de honte et de rigueur !</l>
+                        <l n="1276"> Je déteste toujours la Grèce et mon vainqueur.</l>
+                        <l n="1277"> À ces Dieux que je sers attachée et fidèle</l>
+                        <l n="1278"> Je conserve toujours même ardeur, même zèle ;</l>
+                        <l n="1279"> J’estime vos vertus, je plains votre malheur,</l>
+                        <l n="1280"> Et je voudrais enfin... mais que puis-je, Seigneur ?</l>
+                        <l n="1281"> Victime déplorable, Esclave infortunée,</l>
+                        <l n="1282"> À l’autel malgré moi je me vois entraînée.</l>
+                        <l n="1283"> C’est un arrêt du sort aussi bien que du Roi.</l>
+                        <l n="1284"> Des Dieux même, des Dieux l’impérieuse loi,</l>
+                        <l n="1285"> Leur redoutable voix dont je me sens pressée,</l>
+                        <l n="1286"> Ont fait résoudre enfin mon âme balancée</l>
+                        <l n="1287"> Et quel que soit, Seigneur, mon dessein à vos yeux,</l>
+                        <l n="1288"> La gloire me l’inspire aussi bien que les Dieux.</l>
+                        <l n="1289"> Mais que dis-je ? au milieu du malheur qui m’accable,</l>
+                        <l n="1290"> J’entends encor un Dieu qui vous est favorable</l>
+                        <l n="1291"> J’entends encor un Dieu que je n’ose nommer,</l>
+                        <l n="1292"> Un Dieu qui pour vos jours vient encor m’alarmer.</l>
+                        <l n="1293"> Quels horribles périls, quelle affreuse tempête,</l>
+                        <l n="1294"> Auraient fait mes refus tomber sur votre tête !</l>
+                        <l n="1295"> Et que n’eut point enfin attenté contre vous,</l>
+                        <l n="1296"> Un vainqueur, un rival, un père, un Roi jaloux !</l>
+                        <l n="1297"> Allez, Seigneur, fuyez sa haine et sa colère.</l>
+                        <l n="1298"> Sparte vous tend les bras, suivez-y votre mère.</l>
+                        <l n="1299"> Partez sans balancer et sans être jaloux,</l>
+                        <l n="1300"> D’un Roi plus malheureux plus à plaindre que vous.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1301"> Ah ! je vois trop d’où part un conseil si funeste.</l>
+                        <l n="1302"> Plus que tous vos vainqueurs vous détestez Oreste</l>
+                        <l n="1303"> Et vous ne me flattez d’une fausse douceur,</l>
+                        <l n="1304"> Que pour mieux trouver l’art de tourmenter mon cœur.</l>
+                        <l n="1305"> Vous allez à l’autel par un ordre suprême ?</l>
+                        <l n="1306"> Ah plutôt à l’Hymen vous consentez vous-même.</l>
+                        <l n="1307"> D’Agamemnon pour moi vous craignez le courroux !</l>
+                        <l n="1308"> Il est bien moins cruel, moins barbare que vous.</l>
+                        <l n="1309"> Achevez cet Hymen, la honte de mon père,</l>
+                        <l n="1310"> Mon dernier désespoir et l’horreur de ma mère :</l>
+                        <l n="1311"> Faites-vous dans Mycènes un destin glorieux.</l>
+                        <l n="1312"> Haï, persécuté des hommes et de Dieux,</l>
+                        <l n="1313"> Je quitte pour jamais parents, Trônes, Maîtresse.</l>
+                        <l n="1314"> Je quitte pour jamais Mycènes, Argos, la Grèce.</l>
+                        <l n="1315"> Je me livre en aveugle aux horreurs de mon sort.</l>
+                        <l n="1316"> Je déteste la vie et vais chercher la mort :</l>
+                        <l n="1317"> Adieu, Madame.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="1318"> Hélas ! par quel discours funeste,</l>
+                        <l n="1319"> Venez-vous d’accabler le malheureux Oreste !</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1320"> Laisse-le fuir Ismène, il n’est point de séjour,</l>
+                        <l n="1321"> Plus à craindre pour lui que cette affreuse Cour</l>
+                        <l n="1322"> Au dessein que j’ai fait sa fuite est nécessaire.</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="1323"> Et quel est ce dessein, vous épousez son père !</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1324"> Oreste, Agamemnon, tous l’ont pu croire ainsi ;</l>
+                        <l n="1325"> Mais toi qui me connais le peux-tu croire aussi ?</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="1326"> Quel est donc ce secret ?</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1327"> Hé bien, il faut t’apprendre,</l>
+                        <l n="1328"> Un projet étonnant, mais digne de Cassandre.</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="1329"> Quoi ?</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1330"> Je veux sous l’espoir d’un Hymen solennel,</l>
+                        <l n="1331"> Tromper Agamemnon, l’attirer à l’Autel :</l>
+                        <l n="1332"> Là, brûlant d’apaiser par un grand sacrifice,</l>
+                        <l n="1333"> Tous les Dieux, tout mon sang qui demande justice,</l>
+                        <l n="1334"> Je veux Ismène au lieu de lui donner la main,</l>
+                        <l n="1335"> Que cette main lui porte un poignard dans le sein,</l>
+                        <l n="1336"> Et de ce même fer me perçant avec joie,</l>
+                        <l n="1337"> Consommer dignement tout le destin de Troie.</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="1338"> Quel dessein !</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1339"> Quel plaisir d’immoler le vainqueur,</l>
+                        <l n="1340"> Le destructeur de Troie et mon persécuteur !</l>
+                        <l n="1341"> D’envoyer par un coup qui finit ma misère,</l>
+                        <l n="1342"> L’ombre d’Agamemnon à l’ombre de mon père !</l>
+                        <l n="1343"> Et d’aller aux Enfers m’offrir à tous les miens,</l>
+                        <l n="1344"> Après avoir vengé tout le sang des Troyens !</l>
+                        <l n="1345"> Mais faut-il de ces soins remplie, embarrassée,</l>
+                        <l n="1346"> Essuyer le courroux d’une Reine offensée.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="1347"> Non, non, ne craignez point cet injuste courroux.</l>
+                        <l n="1348"> Je viens plutôt gémir et me plaindre avec vous :</l>
+                        <l n="1349"> Je suis seule coupable, et quoi qu’on puisse croire,</l>
+                        <l n="1350"> Madame, je vous crois trop sensible à la gloire,</l>
+                        <l n="1351"> À l’excès de mes maux, aux larmes de mon fils,</l>
+                        <l n="1352"> Pour fonder votre espoir sur nos tristes débris</l>
+                        <l n="1353"> Et si d’Agamemnon vous flattez l’espérance,</l>
+                        <l n="1354"> C’est pour ne pas aigrir toute sa violence.</l>
+                        <l n="1355"> Ce torrent arrêté peut reprendre son cours.</l>
+                        <l n="1356"> Pour Oreste, pour vous je ne vois qu’un secours</l>
+                        <l n="1357"> Dans l’état déplorable où vous êtes réduite,</l>
+                        <l n="1358"> Et ce secours enfin, Madame, c’est la fuite.</l>
+                        <l n="1359"> Venez, vous vous ferez en fuyant avec nous,</l>
+                        <l n="1360"> D’une Reine une mère et d’un Prince un Époux ;</l>
+                        <l n="1361"> Vous fuirez un tyran. L’entreprise est aisée.</l>
+                        <l n="1362"> J’ai des amis : la suite est déjà disposée.</l>
+                        <l n="1363"> Quittons secrètement ces détestables bords.</l>
+                        <l n="1364"> Sparte dans peu de jours nous verra dans ses ports,</l>
+                        <l n="1365"> Et pour nous protéger tous ses Princes, mon Père,</l>
+                        <l n="1366"> Armeront, s’il le faut, toute la Grèce entière.</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1367"> Madame vous voyez quel confus embarras,</l>
+                        <l n="1368"> M’ont causé vos bontés que je n’attendais pas.</l>
+                        <l n="1369"> Mais pourquoi vous flatter d’une vaine espérance ?</l>
+                        <l n="1370"> Comment tromper du Roi les soins, la vigilance ?</l>
+                        <l n="1371"> Pour sortir de ces lieux nos efforts seraient vains,</l>
+                        <l n="1372"> Où retombant bientôt dans ses cruelles mains,</l>
+                        <l n="1373"> Ciel ! que n’oserait point sa vengeance funeste,</l>
+                        <l n="1374"> Sur vos jours, sur Cassandre et sur tout sur Oreste !</l>
+                        <l n="1375"> Mais quand nous pourrions fuir sans peur d’être arrêtés,</l>
+                        <l n="1376"> Quand nous serions dans Sparte où sont nos sûretés ?</l>
+                        <l n="1377"> Sur quelque grand secours que votre espoir se fonde,</l>
+                        <l n="1378"> Le vainqueur des Troyens peut vaincre tout le monde.</l>
+                        <l n="1379"> Pour venger ses affronts que ne ferait-il pas,</l>
+                        <l n="1380"> Lui qui par tant de sang a vengé Ménélas !</l>
+                        <l n="1381"> Suivons puisqu’il le faut nos tristes destinées.</l>
+                        <l n="1382"> Par un noir ascendant nous sommes entraînées.</l>
+                        <l n="1383"> Vous allez endurer un divorce cruel,</l>
+                        <l n="1384"> Un exil rigoureux : moi, je vais à l’Autel</l>
+                        <l n="1385"> Suivre un vainqueur, un Roi que mon âme déteste ;</l>
+                        <l n="1386"> Je vais enfin je vais par cet hymen funeste,</l>
+                        <l n="1387"> Porter sur lui... que dis-je ? oui je vais sur le Roi,</l>
+                        <l n="1388"> Porter tous les malheurs que je traîne après moi.</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="1389"> Artifice trompeur ! vains détours ! ah, Madame !</l>
+                        <l n="1390"> Mes yeux enfin, mes yeux lisent trop dans votre âme.</l>
+                        <l n="1391"> Il vaut mieux vous unir au sort d’Agamemnon,</l>
+                        <l n="1392"> Confondre votre Race avec un si grand nom,</l>
+                        <l n="1393"> De vos malheurs ainsi réparer tout l’outrage,</l>
+                        <l n="1394"> Triompher et Régner.</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1395"> Je ferai davantage</l>
+                        <l n="1396"> Et pousserai si loin ce dessein glorieux...</l>
+                        <l n="1397"> Mais c’est assez, le temps vous éclaircira mieux.</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="1398"> Arrêtez et sachez que perdre un Diadème,</l>
+                        <l n="1399"> Que perdre Agamemnon est un malheur extrême ;</l>
+                        <l n="1400"> Mais moindre que de voir une Ennemie aux fers,</l>
+                        <l n="1401"> Ma Rivale usurper la place que je pers.</l>
+                        <l n="1402"> Pour prévenir l’affront de vous voir couronnée,</l>
+                        <l n="1403"> Mille morts marqueront cette affreuse journée.</l>
+                        <l n="1404"> Vous qui pour l’avenir avez tant de clartés</l>
+                        <l n="1405"> Ignorez-vous les maux qui vous sont apprêtés ?</l>
+                        <l n="1406"> Sans consulter vos Dieux j’ose vous les prédire.</l>
+                        <l n="1407"> Croyez-en ma fureur, c’est le Dieu qui m’inspire.</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1408"> Vous ne m’affligez point en m’annonçant la mort.</l>
+                        <l n="1409"> Je suis bien mieux que vous instruite de mon sort,</l>
+                        <l n="1410"> Je lis trop dans le vôtre et commence de plaindre</l>
+                        <l n="1411"> Mille horribles malheurs que vous avez à craindre</l>
+                        <l n="1412"> Tonnez, accablez-moi de noms injurieux.</l>
+                        <l n="1413"> Le temps et la raison vous ouvriront les yeux.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="1414"> Ah ! Ce n’est pas ainsi qu’on trompe ma vengeance.</l>
+                        <l n="1415"> Tu crois que mon départ te met en assurance.</l>
+                        <l n="1416"> Tout ce jour reste encor à mon ressentiment,</l>
+                        <l n="1417"> Et pour servir ma haine il ne faut qu’un moment.</l>
+                </sp>
+        <sp who="#doride">
+            <speaker> DORIDE. </speaker>
+                        <l n="1418"> Quel est votre courroux ! quoi pour perdre Cassandre ? ...</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="1419"> Des traits de ma fureur rien ne la peut défendre.</l>
+                </sp>
+        <sp who="#doride">
+            <speaker> DORIDE. </speaker>
+                        <l n="1420"> À vos ressentiments quels chemins sont ouverts ?</l>
+                        <l n="1421"> Égisthe est prisonnier.</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="1422"> Allons briser ses fers.</l>
+                        <l n="1423">  J’ai des amis encor : mes bienfaits, ma prudence,</l>
+                        <l n="1424"> Ont su pendant dix ans établir ma puissance.</l>
+                        <l n="1425"> Meure Cassandre aux yeux et dans les bras du Roi,</l>
+                        <l n="1426"> Et tombe son courroux sur Égisthe et sur moi.</l></div></div>
+           <div type="act" xml:id="5">
+           <head> ACTE V </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1427"> Ne t’abuses-tu point ? dis-tu vrai chère Ismène ?</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="1428"> Oui, c’en est fait, Oreste est parti de Mycènes</l>
+                        <l n="1429"> Madame ; mais le Roi vient d’en être averti.</l>
+                        <l n="1430"> Et pour le suivre, Arbas par son ordre est sorti.</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1431"> Ah ! puisse-t-il d’Arbas tromper la diligence.</l>
+                        <l n="1432"> Puisse loin de sa vue éclater ma vengeance.</l>
+                        <l n="1433"> Sa présence en ces lieux, je le nierais en vain,</l>
+                        <l n="1434"> Étonnait mon courage et retenait ma main.</l>
+                        <l n="1435"> Quel que soit mon courroux contre un vainqueur funeste,</l>
+                        <l n="1436"> Ce vainqueur chère Ismène est le père d’Oreste,</l>
+                        <l n="1437"> Et par quelque fureur qu’on le prive du jour</l>
+                        <l n="1438"> On le quitte à regret quand on tient à l’amour.</l>
+                        <l n="1439"> N’importe, Oreste fuit : il faut me satisfaire.</l>
+                        <l n="1440"> J’épargne aux yeux du fils le meurtre de son père</l>
+                        <l n="1441"> Et réduite à périr dans le même moment,</l>
+                        <l n="1442"> J’épargne mon trépas aux yeux de mon Amant.</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="1443"> Ensanglanter vos mains par un meurtre effroyable !</l>
+                        <l n="1444"> Vous avez pu verser en Prêtresse adorable</l>
+                        <l n="1445"> Le sang des animaux sur les sacrés Autels.</l>
+                        <l n="1446"> Mais tremper votre main dans le sang des mortels !</l>
+                        <l n="1447"> Dans votre propre sang, dans le seul qui nous reste</l>
+                        <l n="1448"> De tant d’illustres Rois, d’une Race céleste !</l>
+                        <l n="1449"> Pourriez-vous conserver ce dessein furieux ;</l>
+                        <l n="1450"> Hélas !</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1451"> Retiens tes pleurs, ou les cache à mes yeux.</l>
+                        <l n="1452"> Laisse-moi m’affranchir, de ma disgrâce extrême.</l>
+                        <l n="1453"> Dois-je survivre à Troie, à ma gloire, à moi-même ;</l>
+                        <l n="1454"> Surtout dois-je survivre aux faiblesses d’un cœur.</l>
+                        <l n="1455"> Qui malgré moi se rend au fils de mon vainqueur ;</l>
+                        <l n="1456"> Tout ce que de tes soins Ismène j’ose attendre :</l>
+                        <l n="1457"> De ces bords ennemis daigne enlever ma cendre</l>
+                        <l n="1458"> Et va la renfermer en fuyant de ces lieux</l>
+                        <l n="1459"> Dans les tristes tombeaux de mes sacrés Aïeux.</l>
+                        <l n="1460"> Et vous qui garantis des fureurs de la Guerre,</l>
+                        <l n="1461"> Errez de toutes parts sur l’Onde et sur la Terre,</l>
+                        <l n="1462"> Dispersez, fugitifs, déplorables Troyens,</l>
+                        <l n="1463"> Les Dieux rendent vos jours plus heureux que les miens.</l>
+                        <l n="1464"> Mais c’est trop différer, il est temps d’entreprendre.</l>
+                        <l n="1465"> Il est temps d’immoler Agamemnon, Cassandre.</l>
+                        <l n="1466"> Quel plus digne spectacle aux yeux des immortels !</l>
+                        <l n="1467"> Quel plus grand sacrifice honora leurs Autels !</l>
+                        <l n="1468"> Mais quel trouble soudain, quelque effort que je fasse,</l>
+                        <l n="1469"> Me retient en ce lieu, m’épouvante, me glace ?</l>
+                        <l n="1470"> De quels frémissements mon corps est agité ?</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="1471"> Ah ! croyez que du Ciel la suprême bonté</l>
+                        <l n="1472"> Veut étouffer en vous un dessein trop coupable.</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1473"> Non non, j’entends d’où vient ce trouble redoutable.</l>
+                        <l n="1474"> C’est Apollon, c’est lui qu’on a vu tant de fois,</l>
+                        <l n="1475"> À mon père, aux Troyens s’expliquer par ma voix.</l>
+                        <l n="1476"> Ce Dieu dont la fureur dans tout mon sang s’allume,</l>
+                        <l n="1477"> M’inspire des transports plus grands que de coutume.</l>
+                        <l n="1478"> Ne me presse pas tant Dieu, que veux-tu de moi ?</l>
+                        <l n="1479"> Esclave d’un mortel je ne suis plus à toi.</l>
+                        <l n="1480"> Après avoir perdu mes parents, mon Empire,</l>
+                        <l n="1481"> Je n’ai rien à prévoir, je n’ai rien à prédire.</l>
+                        <l n="1482"> Mais je pers mes efforts : un trop cruel devoir</l>
+                        <l n="1483"> Asservit mon destin à son divin pouvoir,</l>
+                        <l n="1484"> Son esprit me domine et je sens que je cède</l>
+                        <l n="1485"> Aux pressantes ardeurs du Dieu qui me possède.</l>
+                        <l n="1486"> Quelle horreur ! mes cheveux hérissés, séparés,</l>
+                        <l n="1487"> Rompent tous les liens de mes voiles sacrées.</l>
+                        <l n="1488"> Quelle invisible main malgré moi les arrache ?</l>
+                        <l n="1489"> Mais quels sont ces objets où mon regard s’attache ?</l>
+                        <l n="1490"> Ô dieux ! Dans ma fureur je revois les forfaits</l>
+                        <l n="1491"> Jadis exécutés dans cet affreux Palais :</l>
+                        <l n="1492"> Noirs desseins, trahisons, événements funestes,</l>
+                        <l n="1493"> Meurtres, impiétés, parricides, incestes.</l>
+                        <l n="1494"> Sur tout je te revois trop barbare appareil</l>
+                        <l n="1495"> Du destin dont l’horreur fit pâlir le Soleil.</l>
+                        <l n="1496"> Je vois encor, je vois la terre divisée,</l>
+                        <l n="1497"> L’Asie est toute en feu, l’Europe est embrasée.</l>
+                        <l n="1498"> Mais où m’emportez-vous impétueux transports ?</l>
+                        <l n="1499"> Ilion s’offre à moi, je me vois sur ses bords.</l>
+                        <l n="1500"> Ses Temples, ses Palais, ses Remparts si superbes</l>
+                        <l n="1501"> Sont réduits en poussière ou cachez sous les herbes.</l>
+                        <l n="1502"> Est-ce pour irriter ma haine et mes douleurs</l>
+                        <l n="1503"> Que vous me faites voir tant de sang, tant de pleurs ?</l>
+                        <l n="1504"> Mânes de mes parents, Ombres trop inquiètes,</l>
+                        <l n="1505"> Agamemnon mourra, vous serez satisfaites.</l>
+                        <l n="1506"> Les Dieux veulent punir l’ennemi des Troyens,</l>
+                        <l n="1507"> Le digne fils d’Atrée et le bourreau des miens.</l>
+                        <l n="1508"> Déjà dans l’avenir je prévois son supplice.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="1509"> Madame tout est prêt : l’autel, le sacrifice,</l>
+                        <l n="1510"> La pompe de l’Hymen. Le Trône vous attend</l>
+                        <l n="1511"> Et l’Amour vient hâter cet Hymen éclatant.</l>
+                        <l n="1512"> Allons.</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1513"> Ne parle plus d’amour et d’Hyménée.</l>
+                        <l n="1514"> Je croyais disposer de notre destinée.</l>
+                        <l n="1515"> Mais le Ciel me fait voir ses secrets souverains</l>
+                        <l n="1516"> Et ton sort et le mien ne sont plus dans nos mains.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="1517"> Dieux ! quel est ce désordre et que n’osez-vous dire ?</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1518"> Ce qu’ici ma fureur, ce qu’Apollon m’inspire.</l>
+                        <l n="1519"> Agamemnon, les Dieux veulent finir mon sort</l>
+                        <l n="1520"> Et l’aveugle destin précipite ta mort.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="1521"> Hé n’est-ce point, Madame, une menace vaine</l>
+                        <l n="1522"> Que me font beaucoup moins vos Dieux que votre haine</l>
+                        <l n="1523"> Que peut craindre un Monarque au sein de ses États</l>
+                        <l n="1524"> Que peut craindre un vainqueur ?</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1525"> Tout ce qu’il ne craint pas.</l>
+                        <l n="1526"> Oui, c’est dans ces moments de pleine confiance,</l>
+                        <l n="1527"> Que tu vas voir, trop fier d’une vaine puissance,</l>
+                        <l n="1528"> Ta grandeur renversée et tes projets trahis.</l>
+                        <l n="1529"> Je prévois ton trépas, je le vois, j’en jouis :</l>
+                        <l n="1530"> Je goûte dans ton sang la vengeance de Troie,</l>
+                        <l n="1531"> Et ce jour fortuné qui me comble de joie,</l>
+                        <l n="1532"> Est un jour plus cruel pour toi, pour tous les tiens,</l>
+                        <l n="1533"> Que dix ans de malheurs ne furent aux Troyens,</l>
+                        <l n="1534"> Mais c’est peu que ta mort m’ait pleinement vengée.</l>
+                        <l n="1535"> Par un crime étonnant Clytemnestre égorgée,</l>
+                        <l n="1536"> À tes mânes sanglants ira se réunir.</l>
+                        <l n="1537"> Mais pourquoi jusque-là percer dans l’avenir ?</l>
+                        <l n="1538"> Hélas ! je vois ton fils... ah déplorable Oreste !</l>
+                        <l n="1539"> J’ai commencé tes maux, quelle suite funeste !</l>
+                        <l n="1540"> Oui je le vois ton fils tremblant, épouvanté,</l>
+                        <l n="1541"> Errant de toutes parts, de fureur agité.</l>
+                        <l n="1542"> Ciel, quelle est sa disgrâce ! elle est si peu commune,</l>
+                        <l n="1543"> Que des yeux ennemis pleurent son infortune.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="1544"> Remettez-vous, Madame, et calmez des fureurs</l>
+                        <l n="1545"> Qui vous font vainement prédire ces malheurs.</l>
+                </sp>
+        <sp who="#cassandre">
+            <speaker> CASSANDRE. </speaker>
+                        <l n="1546"> Respecte en ma fureur le Dieu qui me la donne.</l>
+                        <l n="1547"> Mais elle se dissipe et le Dieu m’abandonne.</l>
+                        <l n="1548"> Laisse-moi respirer : mon esprit et mon corps</l>
+                        <l n="1549"> Succombent fatigués de ces derniers transports.</l>
+                        <l n="1550"> Je t’ai déjà prédit et ma mort et la tienne.</l>
+                        <l n="1551"> Adieu, songe à ta gloire et laisse-moi la mienne.</l>
+                        <l n="1552"> L’instant fatal approche accepte ton trépas.</l>
+                        <l n="1553"> Les arrêts du destin ne se révoquent pas.</l>
+                        <l n="1554"> Si pourtant sans remords, sans crainte, sans scrupule,</l>
+                        <l n="1555"> À mes prédictions tu te rends incrédule :</l>
+                        <l n="1556"> Si tu braves les Dieux de ma gloire jaloux,</l>
+                        <l n="1557"> Si ton impiété méprise leur courroux,</l>
+                        <l n="1558"> Si tu t’oses livrer à l’Hymen de Cassandre,</l>
+                        <l n="1559"> Viens m’épouser au Temple où je m’en vais t’attendre.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON, seul </speaker>
+                        <l n="1560"> Oui j’irai t’épouser. Mais qu’est-ce que je sens ?</l>
+                        <l n="1561"> Quelle secrète horreur ! que de troubles pressants !</l>
+                        <l n="1562"> Croirais-je les malheurs qu’on vient de me prédire ?</l>
+                        <l n="1563"> La crainte sur mon cœur prend-elle quelque empire ?</l>
+                        <l n="1564"> Non, c’est la main des Dieux dont je sens le pouvoir</l>
+                        <l n="1565"> Qui frappe mon esprit et presse mon devoir.</l>
+                        <l n="1566"> Que faisais-je ? ayant su, par des chemins contraires</l>
+                        <l n="1567"> Éviter de si loin la route de mes pères,</l>
+                        <l n="1568"> Faut-il que l’Univers qui distinguait mon nom</l>
+                        <l n="1569"> Avec tous mes Aïeux confonde Agamemnon !</l>
+                        <l n="1570"> Vois ton fils désolé te fuir, quitter Mycènes.</l>
+                        <l n="1571"> Vois l’affreux désespoir où tu plonges la Reine,</l>
+                        <l n="1572"> Quand d’un Hymen forcé le projet seulement</l>
+                        <l n="1573"> Est puni du divorce et du bannissement.</l>
+                        <l n="1574"> Au culte des Autels Cassandre si attachée.</l>
+                        <l n="1575"> Elle a pour toi toujours une haine cachée.</l>
+                        <l n="1576"> Oreste a su plaire. Et tes feux criminels</l>
+                        <l n="1577"> La voudraient arracher à ton fils, aux Autels !</l>
+                        <l n="1578"> Ah lâche ! ouvre les yeux et cesse de te rendre</l>
+                        <l n="1579"> Trop digne des malheurs que t’a prédits Cassandre.</l>
+                        <l n="1580"> Fais révoquer au sort l’arrêt qu’il a donné,</l>
+                        <l n="1581"> Ou fais rougir les Dieux de t’avoir condamné.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#arbas">
+            <speaker> ARBAS. </speaker>
+                        <l n="1582"> Oreste qui fuyait est enfin dans Mycènes,</l>
+                        <l n="1583"> Seigneur, auprès de vous Pylade le ramène.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1584"> Oui, Seigneur, je reviens : mais Dieux ! ne pouvez-vous</l>
+                        <l n="1585"> De l’illustre Cassandre être l’heureux Époux,</l>
+                        <l n="1586"> Sans que de cet Hymen dont la rigueur m’accable,</l>
+                        <l n="1587"> Spectateur désolé, Victime déplorable,</l>
+                        <l n="1588"> Dans le temple, à vos yeux, entre vos bras, Seigneur</l>
+                        <l n="1589"> Oreste aille expirer d’amour et de douleur ?</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="1590"> Non mon fils c’en est fait ; vos larmes, votre fuite,</l>
+                        <l n="1591"> Le déplorable état où ma gloire est réduite</l>
+                        <l n="1592"> Cassandre, Clytemnestre et ces puissantes voix</l>
+                        <l n="1593"> Que les Dieux font parler dans les cœurs des grands Rois,</l>
+                        <l n="1594"> Tout me presse pour vous, tout m’invite à me rendre.</l>
+                        <l n="1595"> Je vous donne, ou plutôt je vous cède Cassandre.</l>
+                        <l n="1596"> Obtenez son aveu ; je suis prêt dès ce jour</l>
+                        <l n="1597"> À voir par son hymen couronner votre amour.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1598"> Qu’ai-je ouï ! quel bonheur ! faut-il que je le croie !</l>
+                        <l n="1599"> Quelle gloire pour vous et pour moi quelle joie !</l>
+                        <l n="1600"> Quel effort ! quel triomphe ! ah de grâce Seigneur,</l>
+                        <l n="1601"> Poursuivez, achevez de vaincre votre cœur.</l>
+                        <l n="1602"> Après m’avoir rendu ma Maîtresse et mon Père,</l>
+                        <l n="1603"> Daignez, Seigneur, daignez me rendre encor ma Mère :</l>
+                        <l n="1604"> Qu’un fils qui vous doit tout aussi bien que le jour</l>
+                        <l n="1605"> Rétablisse entre vous la concorde et l’amour.</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="1606"> Ah je n’ai plus besoin du secours de vos larmes.</l>
+                        <l n="1607"> Pour triompher de moi j’ai d’assez fortes armes :</l>
+                        <l n="1608"> Je pardonne à la Reine, et de tous ses projets,</l>
+                        <l n="1609"> Je ne veux accuser qu’Égisthe et mes sujets.</l>
+                        <l n="1610"> Je vous rends votre mère et Cassandre et moi-même.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1611"> Ainsi vous me rendez, Seigneur, tout ce que j’aime ?</l>
+                </sp>
+        <sp who="#agamemnon">
+            <speaker> AGAMEMNON. </speaker>
+                        <l n="1612"> Ce n’est que d’aujourd’hui, mon fils, que j’ai vaincu.</l>
+                        <l n="1613"> D’aujourd’hui seulement j’ai régné, j’ai vécu.</l>
+                        <l n="1614"> La gloire de ce jour passe toute la joie</l>
+                        <l n="1615"> Que versa dans mon cœur la Conquête de Troie :</l>
+                        <l n="1616"> J’en rends grâces aux Dieux et puisse désormais</l>
+                        <l n="1617"> Régner dans ma famille une éternelle paix.</l>
+                        <l n="1618"> Allez trouver la Reine, allez lui tout apprendre.</l>
+                        <l n="1619"> Moi, je vais de ce pas en avertir Cassandre,</l>
+                        <l n="1620"> Lui demander pour vous et cette même foi</l>
+                        <l n="1621"> Et cette même main que je voulais pour moi.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#pylade">
+            <speaker> PYLADE. </speaker>
+                        <l n="1622"> Quelle félicité surprenante et soudaine !</l>
+                        <l n="1623"> Quel changement cher Prince !</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1624"> Allons trouver la Reine.</l>
+                        <l n="1625"> Elle paraît.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="1626"> Que vois-je ? Oreste dans ces lieux !</l>
+                        <l n="1627"> Fuyons mon fils, fuyons, dérobons à nos yeux</l>
+                        <l n="1628"> Le spectacle cruel de tout ce qui se passe.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1629"> Ah plutôt demeurons : tout a changé de face,</l>
+                        <l n="1630"> Tout rit à nos souhaits, Madame, un sort plus doux</l>
+                        <l n="1631"> Et m’a rendu mon père et vous rend votre Époux.</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="1632"> Cassandre court au Temple et le peuple autour d’elle</l>
+                        <l n="1633"> Célèbre en murmurant cet Hymen infidèle.</l>
+                        <l n="1634"> Agamemnon la suit plein d’amour, plein d’ardeur.</l>
+                        <l n="1635"> Et d’un frivole espoir vous flattez votre cœur !</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1636"> Non non, Agamemnon triomphe de sa flamme.</l>
+                        <l n="1637"> Il se rend à lui-même, à son fils, à sa femme.</l>
+                        <l n="1638"> Il me cède Cassandre et va presser pour moi</l>
+                        <l n="1639"> Le succès de mes vœux et le don de sa foi.</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE. </speaker>
+                        <l n="1640"> Ciel qu’entends-je ?</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1641"> Oui, lui-même il vient de me le dire</l>
+                        <l n="1642"> Et par son ordre exprès j’allais vous en instruire.</l>
+                </sp>
+        <sp who="#clytemnestre">
+            <speaker> CLYTEMNESTRE, à part. </speaker>
+                        <l n="1643"> Ah Cassandre ! ah mon fils ! daignez le détourner</l>
+                        <l n="1644"> Dieux, cet ordre cruel que je viens de donner.</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1645"> Quel est ce prompt départ, quel trouble, quel langage,</l>
+                        <l n="1646"> Cher amie ? Mais que vois-je ? ah funeste présage !</l>
+                        <l n="1647"> Que m’apprennent ces pleurs, ce désordre confus ?</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="1648"> C’est vous, Seigneur ! hélas ! Cassandre ne vit plus.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1649"> Cassandre ne vit plus ! le voilà ce mystère,</l>
+                        <l n="1650"> Du désordre, des pleurs, du départ de ma mère.</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="1651"> Pour dérober Cassandre aux vœux d’Agamemnon</l>
+                        <l n="1652"> Clytemnestre, d’Égisthe a rompu la prison.</l>
+                        <l n="1653"> Ce barbare pressé d’exécuter son crime</l>
+                        <l n="1654"> Cherche Cassandre au Temple, où voyant sa Victime,</l>
+                        <l n="1655"> Il s’avance, il l’approche environné des siens.</l>
+            <stage><em>Meurs fatale beauté, meurs reste des Troyens. </em></stage>
+            <stage>Dit-il en la frappant, <em>ta mort venge la Reine</em>.</stage>
+            <stage>Elle tombe en mourant<em>. Je meurs</em>, dit-elle, <em>Ismène</em> :</stage>
+            <stage><em>Mes malheurs sont finis ; mais quand je pers le jour, </em></stage>
+            <stage><em>Oreste que de maux vont suivre ton amour ! </em></stage>
+            <stage><em>Que le mien craint pour toi la colère céleste ! </em></stage>
+            <stage><em>Puisse ma mort te faire un destin moins funeste. </em></stage>
+                        <l n="1656"> Là, par de long regards qui percent jusqu’aux Cieux,</l>
+                        <l n="1657"> Elle semble implorer la clémence des Dieux,</l>
+                        <l n="1658"> Elle expire et j’allais, pleine d’impatience,</l>
+                        <l n="1659"> D’Agamemnon pour elle implorer la vengeance.</l></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1660"> Elle est morte ! en quel temps ! ah moment trop fatal !</l>
+                        <l n="1661"> Quand le Roi me la cède et n’est plus mon Rival !</l>
+                        <l n="1662"> Et lorsque je la pers, pour combler ma misère</l>
+                        <l n="1663"> Pylade, je la pers par l’ordre de ma mère !</l>
+                        <l n="1664"> Mais que fais-je ? suis-moi, seconde ma douleur.</l></div>
+        <div type="scene" xml:id=" X ">
+            <head> Scène X </head>
+        <sp who="#eurybate">
+            <speaker> EURYBATE. </speaker>
+                        <l n="1665"> Où courez-vous ? sachez un plus cruel malheur.</l>
+                        <l n="1666"> Agamemnon.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1667"> Hé bien ?</l>
+                </sp>
+        <sp who="#eurybate">
+            <speaker> EURYBATE. </speaker>
+                        <l n="1668"> Ce vainqueur de l’Asie,</l>
+                        <l n="1669"> Ce Roi dont les flots même ont respecté la vie,</l>
+                        <l n="1670"> Après dix ans d’absence en ces lieux de retour,</l>
+                        <l n="1671"> Par un lâche attentat vient de perdre le jour.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1672"> Ô comble de disgrâce ! ô destin trop contraire !</l>
+                        <l n="1673"> Perdre eu un même jour ma Maîtresse et mon Père !</l>
+                        <l n="1674"> Ah ! par quel sort fatal, par quelle trahison.</l>
+                        <l n="1675"> A-t-on pu triompher du grand Agamemnon !</l>
+                </sp>
+        <sp who="#eurybate">
+            <speaker> EURYBATE. </speaker>
+                        <l n="1676"> Le Roi pressé pour vous d’un soin ardent et tendre,</l>
+                        <l n="1677"> Dans le Temple, Seigneur, allait chercher Cassandre.</l>
+                        <l n="1678"> À peine il est entré qu’Égisthe furieux,</l>
+                        <l n="1679"> Suivi de conjurés se présente à nos yeux,</l>
+                        <l n="1680"> Nous attaque : du Roi l’adresse et le courage,</l>
+                        <l n="1681"> Font de ces assassins un horrible carnage.</l>
+                        <l n="1682"> Mais Dieux ! de toutes parts, surpris enveloppé,</l>
+                        <l n="1683"> De mille coups mortels en même instant frappé,</l>
+                        <l n="1684"> Il voit à gros bouillons tout son sang se répandre,</l>
+                        <l n="1685"> Chancelle, tombe, meurt presqu’aux pieds de Cassandre.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1686"> Ciel !</l>
+                </sp>
+        <sp who="#eurybate">
+            <speaker> EURYBATE. </speaker>
+                        <l n="1687"> Égisthe effrayé de ce crime odieux,</l>
+                        <l n="1688"> Craignant également Vous, le Peuple et les Dieux,</l>
+                        <l n="1689"> Échappe à nos regards par sa fuite soudaine.</l>
+                        <l n="1690"> Cependant dans le Temple on voit entrer la Reine,</l>
+                        <l n="1691"> Qui voyant, mais trop tard, que ses transports jaloux</l>
+                        <l n="1692"> Croyant perdre Cassandre ont perdu son Époux,</l>
+                        <l n="1693"> De remord, de douleur et rage saisie,</l>
+                        <l n="1694"> Dans la foule des morts tombe presque sans vie.</l>
+                        <l n="1695"> Ainsi, tandis qu’au Temple accablez de douleur,</l>
+                        <l n="1696"> Les uns forment des vœux, d’autres versent des pleurs,</l>
+                        <l n="1697"> Je viens vous annoncer cet affreux parricide,</l>
+                        <l n="1698"> Heureux si garanti des fureurs d’un perfide,</l>
+                        <l n="1699"> J’expirais à vos yeux en vous le racontant.</l>
+                </sp>
+        <sp who="#oreste">
+            <speaker> ORESTE. </speaker>
+                        <l n="1700"> C’est trop gémir, je vois ce que mon Père attend.</l>
+                        <l n="1701"> Je vois ce que demande et ma gloire et Cassandre</l>
+                        <l n="1702"> Poursuivons l’assassin, allons tout entreprendre.</l>
+                        <l n="1703"> Et que tout l’Avenir apprenant mon malheur,</l>
+                        <l n="1704"> Admire ma vengeance et plaigne ma douleur.</l>
+                        <l n="1705"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

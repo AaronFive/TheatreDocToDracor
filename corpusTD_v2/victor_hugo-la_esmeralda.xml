@@ -1,0 +1,2431 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">La Esmeralda</title>
+            <author>
+                <persName>
+                    <forename>Victor</forename>
+                    <surname>Hugo</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/?q=node/400 </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="print" when="1836">
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="la-esmeralda" sex="SEX">
+                            <persName>LA ESMERALDA</persName>
+                        </person>
+                        <person xml:id="phœbus-de-châteaupers" sex="SEX">
+                            <persName>PHŒBUS DE CHÂTEAUPERS</persName>
+                        </person>
+                        <person xml:id="claude-frollo" sex="SEX">
+                            <persName>CLAUDE FROLLO</persName>
+                        </person>
+                        <person xml:id="quasimodo" sex="SEX">
+                            <persName>QUASIMODO</persName>
+                        </person>
+                        <person xml:id="fleur-de-lys" sex="SEX">
+                            <persName>FLEUR-DE-LYS</persName>
+                        </person>
+                        <person xml:id="madame-aloise-de-gondelaurier" sex="SEX">
+                            <persName>MADAME ALOISE DE GONDELAURIER</persName>
+                        </person>
+                        <person xml:id="diane" sex="SEX">
+                            <persName>DIANE</persName>
+                        </person>
+                        <person xml:id="bérangère" sex="SEX">
+                            <persName>BÉRANGÈRE</persName>
+                        </person>
+                        <person xml:id="le-vicomte-de-gif" sex="SEX">
+                            <persName>LE VICOMTE DE GIF</persName>
+                        </person>
+                        <person xml:id="m.-de-chevreuse" sex="SEX">
+                            <persName>M. DE CHEVREUSE</persName>
+                        </person>
+                        <person xml:id="m.-de-morlaix" sex="SEX">
+                            <persName>M. DE MORLAIX</persName>
+                        </person>
+                        <person xml:id="clopin-trouillefou" sex="SEX">
+                            <persName>CLOPIN TROUILLEFOU</persName>
+                        </person>
+                        <person xml:id="le-crieur-public" sex="SEX">
+                            <persName>LE CRIEUR PUBLIC</persName>
+                        </person>
+                        <person xml:id="peuple" sex="SEX">
+                            <persName>PEUPLE</persName>
+                        </person>
+                        <person xml:id="truands" sex="SEX">
+                            <persName>TRUANDS</persName>
+                        </person>
+                        <person xml:id="archers" sex="SEX">
+                            <persName>ARCHERS</persName>
+                        </person>
+                        <person xml:id="etc" sex="SEX">
+                            <persName>Etc.</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> [indéfini]</term>
+                    <term> vers </term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">LA ESMERALDA</titlePart>
+            <titlePart type="sub">[INDÉFINI]</titlePart>
+        </docTitle>
+        <docDate when="1836">[Date Print Line]</docDate>
+        
+           <div type="act" xml:id="1">
+           <head> LIBRETTO </head></div>
+           <div type="act" xml:id="2">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#truands">
+            <speaker> CHŒUR DES TRUANDS. </speaker>
+                        <l n="1"> Vive Clopin, roi de Thune !</l>
+                        <l n="2"> Vivent les gueux de Paris !</l>
+                        <l n="3"> Faisons nos coups à la brune,</l>
+                        <l n="4"> Heure où tous les chats sont gris.</l>
+                        <l n="5"> Dansons ! narguons pape et bulle,</l>
+                        <l n="6"> Et raillons-nous dans nos peaux,</l>
+                        <l n="7"> Qu’avril mouille ou que juin brûle</l>
+                        <l n="8"> La plume de nos chapeaux !</l>
+                        <l n="9"> Sachons flairer dans l’espace</l>
+                        <l n="10"> L’estoc de l’archer vengeur,</l>
+                        <l n="11"> Ou le sac d’argent qui passe</l>
+                        <l n="12"> Sur le dos du voyageur !</l>
+                        <l n="13"> Nous irons au clair de lune</l>
+                        <l n="14"> Danser avec les esprits... –</l>
+                        <l n="15"> Vive Clopin, roi de Thune !</l>
+                        <l n="16"> Vivent les gueux de Paris !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO, à part, derrière un pilier, dans un coin du théâtre. Il est enveloppé d’un grand manteau qui cache son habit de prêtre. </speaker>
+                        <l n="17"> Au milieu de la ronde infâme,</l>
+                        <l n="18"> Qu’importe le soupir d’une âme ?</l>
+                        <l n="19"> Je souffre ! oh ! jamais plus de flamme</l>
+                        <l n="20"> Au sein d’un volcan ne gronda.</l>
+            <stage><em>Entre la Esmeralda en dansant.</em></stage>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+                        <l n="21"> La voilà ! la voilà ! c’est elle ! Esmeralda ! </l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO, à part. </speaker>
+                        <l n="22"> C’est elle ! oh ! oui, c’est elle !</l>
+                        <l n="23"> Pourquoi, sort rigoureux,</l>
+                        <l n="24"> L’as-tu faite si belle,</l>
+                        <l n="25"> Et moi si malheureux ?</l>
+            <stage><em>Elle arrive au milieu du théâtre. Les truands font cercle avec admiration autour d’elle. Elle danse. </em></stage>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="26"> Je suis l’orpheline,</l>
+                        <l n="27"> Fille des douleurs,</l>
+                        <l n="28"> Qui sur vous s’incline</l>
+                        <l n="29"> En jetant des fleurs ;</l>
+                        <l n="30"> Mon joyeux délire</l>
+                        <l n="31"> Bien souvent soupire ;</l>
+                        <l n="32"> Je montre un sourire,</l>
+                        <l n="33"> Je cache des pleurs !</l>
+                        <l n="34"> Je danse, humble fille,</l>
+                        <l n="35"> Au bord du ruisseau,</l>
+                        <l n="36"> Ma chanson babille</l>
+                        <l n="37"> Comme un jeune oiseau ;</l>
+                        <l n="38"> Je suis la colombe</l>
+                        <l n="39"> Qu’on blesse et qui tombe.</l>
+                        <l n="40"> La nuit de la tombe</l>
+                        <l n="41"> Couvre mon berceau !</l>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+                        <l n="42"> Danse, jeune fille !</l>
+                        <l n="43"> Tu nous rends plus doux.</l>
+                        <l n="44"> Prends-nous pour famille,</l>
+                        <l n="45"> Et joue avec nous,</l>
+                        <l n="46"> Comme l’hirondelle</l>
+                        <l n="47"> À la mer se mêle,</l>
+                        <l n="48"> Agaçant de l’aile</l>
+                        <l n="49"> Le flot en courroux !</l>
+                        <l n="50"> C’est la jeune fille !</l>
+                        <l n="51"> L’enfant du malheur !</l>
+                        <l n="52"> Quand son regard brille,</l>
+                        <l n="53"> Adieu la douleur !</l>
+                        <l n="54"> Son chant nous rassemble.</l>
+                        <l n="55"> De loin elle semble</l>
+                        <l n="56"> L’abeille qui tremble</l>
+                        <l n="57"> Au bout d’une fleur.</l>
+                        <l n="58"> Danse, jeune fille,</l>
+                        <l n="59"> Tu nous rends plus doux.</l>
+                        <l n="60"> Prends-nous pour famille,</l>
+                        <l n="61"> Et joue avec nous !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO, à part. </speaker>
+                        <l n="62"> Frémis, jeune fille !</l>
+                        <l n="63"> Le prêtre est jaloux !</l>
+            <stage><em>Claude veut se rapprocher de la Esmeralda, qui se détourne de lui avec une sorte d’effroi. Entre la procession du pape des fous. Torches, lanternes et musique. On porte au milieu du cortège, sur un brancard couvert de chandelles, Quasimodo, chapé et mitré.</em></stage>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+                        <l n="64"> Saluez, clercs de basoche !</l>
+                        <l n="65"> Hubins, coquillards, cagoux !</l>
+                        <l n="66"> Saluez tous ! il approche.</l>
+                        <l n="67"> Voici le pape des fous !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO, apercevant Quasimodo, s’élance vers lui avec un geste de colère. </speaker>
+                        <l n="68"> Quasimodo ! quel rôle étrange !</l>
+                        <l n="69"> Ô profanation ! ici !</l>
+                        <l n="70"> Quasimodo !</l>
+                </sp>
+        <sp who="#quasimodo">
+            <speaker> QUASIMODO. </speaker>
+                        <l n="71"> Grand Dieu ! qu’entends-je ?</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="72"> Ici ! te dis-je !</l>
+                </sp>
+        <sp who="#quasimodo">
+            <speaker> QUASIMODO, se jetant en bas de la litière. </speaker>
+                        <l n="73"> Me voici !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="74"> Sois anathème !</l>
+                </sp>
+        <sp who="#quasimodo">
+            <speaker> QUASIMODO. </speaker>
+                        <l n="75"> Dieu ! c’est lui-même !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="76"> Audace extrême !</l>
+                </sp>
+        <sp who="#quasimodo">
+            <speaker> QUASIMODO. </speaker>
+                        <l n="77"> Instant d’effroi !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="78"> À genoux, traître !</l>
+                </sp>
+        <sp who="#quasimodo">
+            <speaker> QUASIMODO. </speaker>
+                        <l n="79"> Pardonnez, maître !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="80"> Non, je suis prêtre !</l>
+                </sp>
+        <sp who="#quasimodo">
+            <speaker> QUASIMODO. </speaker>
+                        <l n="81"> Pardonnez-moi !</l>
+            <stage><em>Claude Frollo arrache les ornements pontificaux de Quasimodo et les foule aux pieds. Les truands, sur lesquels Claude jette des regards irrités, commencent à murmurer et se forment en groupes menaçants autour de lui.</em></stage>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#truands">
+            <speaker> LES TRUANDS. </speaker>
+                        <l n="82"> Il nous menace,</l>
+                        <l n="83"> Ô compagnons,</l>
+                        <l n="84"> Dans cette place</l>
+                        <l n="85"> Où nous régnons !</l>
+                </sp>
+        <sp who="#quasimodo">
+            <speaker> QUASIMODO. </speaker>
+                        <l n="86"> Que veut l’audace</l>
+                        <l n="87"> De ces larrons ?</l>
+                        <l n="88"> On le menace,</l>
+                        <l n="89"> Mais nous verrons !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="90"> Impure race !</l>
+                        <l n="91"> Juifs et larrons !</l>
+                        <l n="92"> On me menace,</l>
+                        <l n="93"> Mais nous verrons !</l>
+            <stage><em>La colère des truands éclate.</em></stage>
+                </sp>
+        <sp who="#truands">
+            <speaker> LES TRUANDS. </speaker>
+                        <l n="94"> Arrête ! arrête ! arrête !</l>
+                        <l n="95"> Meure le trouble-fête !</l>
+                        <l n="96"> Il paiera de sa tête !</l>
+                        <l n="97"> En vain il se débat !</l>
+                </sp>
+        <sp who="#quasimodo">
+            <speaker> QUASIMODO. </speaker>
+                        <l n="98"> Qu’on respecte sa tête !</l>
+                        <l n="99"> Et que chacun s’arrête,</l>
+                        <l n="100"> Ou je change la fête</l>
+                        <l n="101"> En un sanglant combat !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="102"> Ce n’est point pour sa tête</l>
+                        <l n="103"> Que Frollo s’inquiète.</l>
+            <stage><em>Il met la main sur la poitrine.</em></stage>
+                        <l n="104"> C’est là qu’est la tempête,</l>
+                        <l n="105"> C’est là qu’est le combat !</l>
+            <stage><em>Au moment où la fureur des truands est au comble, Clopin Trouillefou paraît au fond du théâtre.</em></stage>
+                </sp>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN. </speaker>
+                        <l n="106"> Qui donc ose attaquer, dans ce repaire infâme,</l>
+                        <l n="107"> L’archidiacre mon seigneur,</l>
+                        <l n="108"> Et Quasimodo le sonneur</l>
+                        <l n="109"> De Notre-Dame ?</l>
+                </sp>
+        <sp who="#truands">
+            <speaker> LES TRUANDS, s’arrêtant. </speaker>
+                        <l n="110"> C’est Clopin, notre roi !</l>
+                </sp>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN. </speaker>
+                        <l n="111"> Manants, retirez-vous !</l>
+                </sp>
+        <sp who="#truands">
+            <speaker> LES TRUANDS. </speaker>
+                        <l n="112"> Il faut obéir !</l>
+                </sp>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN. </speaker>
+                        <l n="113"> Laissez-nous.</l>
+            <stage><em>Les truands se retirent dans les masures. La Cour des miracles reste déserte. Clopin s’approche mystérieusement de Claude.</em></stage></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN. </speaker>
+                        <l n="114"> Quel motif vous avait jeté dans cette orgie ?</l>
+                        <l n="115"> Avez-vous, monseigneur, quelque ordre à me donner ?</l>
+                        <l n="116"> Vous êtes mon maître en magie.</l>
+                        <l n="117"> Parlez ; je ferai tout.</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE. Il saisit vivement Clopin par le bras et l’attire sur le devant du théâtre. </speaker>
+                        <l n="118"> Je viens tout terminer.</l>
+                        <l n="119"> Écoute.</l>
+                </sp>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN. </speaker>
+                        <l n="120"> Monseigneur !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="121"> Plus que jamais je l’aime !</l>
+                        <l n="122"> D’amour et de douleur tu me vois palpitant.</l>
+                        <l n="123"> Il me la faut cette nuit même !</l>
+                </sp>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN. </speaker>
+                        <l n="124"> Vous l’allez voir ici passer dans un instant.</l>
+                        <l n="125"> C’est le chemin de sa demeure.</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO, à part. </speaker>
+                        <l n="126"> Oh ! l’enfer me saisit !</l>
+            <stage><em>Haut.</em></stage>
+                        <l n="127"> Bientôt, dis-tu ?</l>
+                </sp>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN. </speaker>
+                        <l n="128"> Sur l’heure.</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="129"> Seule ?</l>
+                </sp>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN. </speaker>
+                        <l n="130"> Seule.</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="131"> Il suffit.</l>
+                </sp>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN. </speaker>
+                        <l n="132"> Attendrez-vous ?</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="133"> J’attend.</l>
+                        <l n="134"> Que je l’obtienne ou que je meure !</l>
+                </sp>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN. </speaker>
+                        <l n="135"> Puis-je vous servir ?</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="136"> Non.</l>
+            <stage><em>Il fait signe à Clopin de s’éloigner, après lui avoir jeté sa bourse. Resté seul avec Quasimodo, il l’amène sur le devant du théâtre.</em></stage>
+                        <l n="137"> Viens, j’ai besoin de toi.</l>
+                </sp>
+        <sp who="#quasimodo">
+            <speaker> QUASIMODO. </speaker>
+                        <l n="138"> C’est bien.</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="139"> Pour une chose impie, affreuse, extrême.</l>
+                </sp>
+        <sp who="#quasimodo">
+            <speaker> QUASIMODO. </speaker>
+                        <l n="140"> Vous êtes mon seigneur.</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="141"> Les fers, la mort, la loi,</l>
+                        <l n="142"> Nous bravons tout.</l>
+                </sp>
+        <sp who="#quasimodo">
+            <speaker> QUASIMODO. </speaker>
+                        <l n="143"> Comptez sur moi.</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO, impétueusement. </speaker>
+                        <l n="144"> J’enlève la fille bohème !</l>
+                </sp>
+        <sp who="#quasimodo">
+            <speaker> QUASIMODO. </speaker>
+                        <l n="145"> Maître, prenez mon sang – sans me dire pourquoi.</l>
+            <stage><em>Sur un signe de Claude Frollo, il se retire vers le fond du théâtre et laisse son maître sur le devant de la scène.</em></stage>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="146"> Ô ciel ! avoir donné ma pensée aux abîmes,</l>
+                        <l n="147"> Avoir de la magie essayé tous les crimes,</l>
+                        <l n="148"> Être tombé plus bas que l’enfer ne descend,</l>
+                        <l n="149"> Prêtre, à minuit, dans l’ombre épier une femme,</l>
+                        <l n="150"> Et songer, dans l’état où se trouve mon âme,</l>
+                        <l n="151"> Que Dieu me regarde à présent !</l>
+                        <l n="152"> Eh bien ! oui ! qu’importe !</l>
+                        <l n="153"> Le destin m’emporte,</l>
+                        <l n="154"> Sa main est trop forte,</l>
+                        <l n="155"> Je cède à sa loi !</l>
+                        <l n="156"> Mon sort recommence !</l>
+                        <l n="157"> Le prêtre en démence</l>
+                        <l n="158"> N’a plus d’espérance</l>
+                        <l n="159"> Et n’a plus d’effroi !</l>
+                        <l n="160"> Démon qui m’enivres,</l>
+                        <l n="161"> Qu’évoquent mes livres,</l>
+                        <l n="162"> Si tu me la livres,</l>
+                        <l n="163"> Je me livre à toi !</l>
+                        <l n="164"> Reçois sous ton aile</l>
+                        <l n="165"> Le prêtre infidèle !</l>
+                        <l n="166"> L’enfer avec elle,</l>
+                        <l n="167"> C’est mon ciel, à moi !</l>
+                        <l n="168"> Viens donc, ô jeune femme !</l>
+                        <l n="169"> C’est moi qui te réclame !</l>
+                        <l n="170"> Viens, prends-moi sans retour !</l>
+                        <l n="171"> Puisqu’un Dieu, puisqu’un maître,</l>
+                        <l n="172"> Dont le regard pénètre</l>
+                        <l n="173"> Notre cœur nuit et jour,</l>
+                        <l n="174"> Exige en son caprice</l>
+                        <l n="175"> Que le prêtre choisisse</l>
+                        <l n="176"> Du ciel ou de l’amour !</l>
+            <stage>Eh bien ! oui ! <em>etc.</em></stage>
+                </sp>
+        <sp who="#quasimodo">
+            <speaker> QUASIMODO, revenant. </speaker>
+                        <l n="177"> Maître, l’instant s’approche.</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="178"> Oui, l’heure est solennelle,</l>
+                        <l n="179"> Mon sort se décide, tais-toi.</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO et QUASIMODO. </speaker>
+                        <l n="180"> La nuit est sombre,</l>
+                        <l n="181"> J’entends des pas,</l>
+                        <l n="182"> Quelqu’un dans l’ombre,</l>
+                        <l n="183"> Ne vient-il pas ?</l>
+            <stage><em>Ils vont écouter au fond du théâtre.</em></stage>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#le-guet">
+            <speaker> LE GUET, passant derrière les maisons. </speaker>
+                        <l n="184"> Paix et vigilance !</l>
+                        <l n="185"> Ouvrons, loin du bruit,</l>
+                        <l n="186"> L’oreille au silence,</l>
+                        <l n="187"> Et l’œil à la nuit.</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE et QUASIMODO. </speaker>
+                        <l n="188"> Dans l’ombre on s’avance,</l>
+                        <l n="189"> Quelqu’un vient sans bruit.</l>
+                        <l n="190"> Oui, faisons silence !</l>
+                        <l n="191"> C’est le guet de nuit.</l>
+            <stage><em>Le chant s’éloigne.</em></stage>
+                </sp>
+        <sp who="#quasimodo">
+            <speaker> QUASIMODO. </speaker>
+                        <l n="192"> Le guet s’en va !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="193"> Notre crainte le suit.</l>
+            <stage><em>Claude Frollo et Quasimodo regardent avec anxiété vers la rue par laquelle doit venir la Esmeralda.</em></stage>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#quasimodo">
+            <speaker> QUASIMODO. </speaker>
+                        <l n="194"> L’amour conseille,</l>
+                        <l n="195"> L’espoir rend fort</l>
+                        <l n="196"> Celui qui veille</l>
+                        <l n="197"> Lorsque tout dort.</l>
+                        <l n="198"> Je la devine,</l>
+                        <l n="199"> Je l’entrevoi,</l>
+                        <l n="200"> Fille divine !</l>
+                        <l n="201"> Viens sans effroi !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="202"> L’amour conseille,</l>
+                        <l n="203"> L’espoir rend fort</l>
+                        <l n="204"> Celui qui veille</l>
+                        <l n="205"> Lorsque tout dort.</l>
+                        <l n="206"> Je la devine,</l>
+                        <l n="207"> Je l’entrevoi,</l>
+                        <l n="208"> Fille divine !</l>
+                        <l n="209"> Elle est à moi !</l>
+            <stage><em>Entre la Esmeralda. Ils se jettent sur elle, et veulent l’entraîner. Elle se débat.</em></stage>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="210"> Au secours ! au secours ! à moi !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO et QUASIMODO. </speaker>
+                        <l n="211"> Tais-toi ! jeune fille ! tais-toi !</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS DE CHÂTEAUPERS, entrant à la tête d’un gros d’archers. </speaker>
+                        <l n="212"> De par le roi !</l>
+            <stage><em>Dans le tumulte, Claude s’échappe. Les archers saisissent Quasimodo.</em></stage>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS, aux archers, montrant Quasimodo. </speaker>
+                        <l n="213"> Arrêtez-le ! serrez ferme !</l>
+                        <l n="214"> Qu’il soit seigneur ou valet !</l>
+                        <l n="215"> Nous allons, pour qu’on l’enferme,</l>
+                        <l n="216"> Le conduire au Châtelet !</l>
+            <stage><em>Les archers emmènent Quasimodo au fond. La Esmeralda, remise de sa frayeur, s’approche de Phœbus avec une curiosité mêlée d’admiration, et l’attire doucement sur le devant de la scène.</em></stage>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA, à Phœbus. </speaker>
+                        <l n="217"> Daignez me dire</l>
+                        <l n="218"> Votre nom, sire !</l>
+                        <l n="219"> Je le requiers !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="220"> Phœbus, ma fille,</l>
+                        <l n="221"> De la famille</l>
+                        <l n="222"> De Châteaupers.</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="223"> Capitaine ?</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="224"> Oui, ma reine.</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="225"> Reine ! oh ! non.</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="226"> Grâce extrême !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="227"> Phœbus, j’aime</l>
+                        <l n="228"> Votre nom ! </l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="229"> Sur mon âme,</l>
+                        <l n="230"> J’ai, madame,</l>
+                        <l n="231"> Une lame</l>
+                        <l n="232"> De renom !</l>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA, à Phœbus. </speaker>
+                        <l n="233"> Un beau capitaine,</l>
+                        <l n="234"> Un bel officier,</l>
+                        <l n="235"> À mine hautaine,</l>
+                        <l n="236"> À corset d’acier,</l>
+                        <l n="237"> Souvent, mon beau sire,</l>
+                        <l n="238"> Prend nos pauvres cœurs,</l>
+                        <l n="239"> Et ne fait que rire</l>
+                        <l n="240"> De nos yeux en pleurs.</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS, à part. </speaker>
+                        <l n="241"> Pour un capitaine,</l>
+                        <l n="242"> Pour un officier,</l>
+                        <l n="243"> L’amour peut à peine</l>
+                        <l n="244"> Vivre un jour entier.</l>
+                        <l n="245"> Tout soldat désire</l>
+                        <l n="246"> Cueillir toute fleur,</l>
+                        <l n="247"> Plaisir sans martyre,</l>
+                        <l n="248"> Amour sans douleur !</l>
+            <stage><em>À la Esmeralda.</em></stage>
+                        <l n="249"> Un esprit</l>
+                        <l n="250"> Radieux</l>
+                        <l n="251"> Me sourit</l>
+                        <l n="252"> Dans tes yeux.</l>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="253"> Un beau capitaine,</l>
+                        <l n="254"> Un bel officier,</l>
+                        <l n="255"> À mine hautaine,</l>
+                        <l n="256"> À corset d’acier,</l>
+                        <l n="257"> Quand aux yeux il brille,</l>
+                        <l n="258"> Fait longtemps penser</l>
+                        <l n="259"> Toute pauvre fille</l>
+                        <l n="260"> Qui l’a vu passer ! </l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS, à part. </speaker>
+                        <l n="261"> Pour un capitaine,</l>
+                        <l n="262"> Pour un officier,</l>
+                        <l n="263"> L’amour peut à peine</l>
+                        <l n="264"> Vivre un jour entier.</l>
+                        <l n="265"> C’est l’éclair qui brille,</l>
+                        <l n="266"> Il faut courtiser</l>
+                        <l n="267"> Toute belle fille</l>
+                        <l n="268"> Que l’on voit passer !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA, elle se pose devant le capitaine et l’admire. </speaker>
+                        <l n="269"> Seigneur Phœbus, que je vous voie</l>
+                        <l n="270"> Et que je vous admire encor !</l>
+                        <l n="271"> Oh ! la belle écharpe de soie,</l>
+                        <l n="272"> La belle écharpe à franges d’or !</l>
+            <stage><em>Phœbus détache son écharpe et la lui offre.</em></stage>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="273"> Vous plaît-elle ?</l>
+            <stage><em>La Esmeralda prend l’écharpe et s’en pare.</em></stage>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="274"> Qu’elle est belle !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="275"> Un moment !</l>
+            <stage><em>Il s’approche d’elle et cherche à l’embrasser.</em></stage>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA, reculant. </speaker>
+                        <l n="276"> Non, de grâce !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS, qui insiste. </speaker>
+                        <l n="277"> Qu’on m’embrasse !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA, reculant toujours. </speaker>
+                        <l n="278"> Non, vraiment !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS, riant. </speaker>
+                        <l n="279"> Une belle,</l>
+                        <l n="280"> Si rebelle,</l>
+                        <l n="281"> Si cruelle !...</l>
+                        <l n="282"> C’est charmant. </l>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="283"> Non, beau capitaine !</l>
+                        <l n="284"> Je dois refuser.</l>
+                        <l n="285"> Sais-je où l’on m’entraîne</l>
+                        <l n="286"> Avec un baiser ?</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="287"> Je suis capitaine,</l>
+                        <l n="288"> Je veux un baiser,</l>
+                        <l n="289"> Ma belle africaine,</l>
+                        <l n="290"> Pourquoi refuser ?</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="291"> Donne un baiser ! donne, ou je vais le prendre !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="292"> Non, laissez-moi ; je ne veux rien entendre !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="293"> Un seul baiser ! ce n’est rien, sur ma foi !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="294"> Rien pour vous, sire, hélas ! et tout pour moi !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="295"> Regarde-moi ! tu verras si je t’aime !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="296"> Je ne veux pas regarder en moi-même !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="297"> L’amour, ce soir, veut entrer dans ton cœur.</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="298"> L’amour ce soir, et demain le malheur !</l>
+            <stage><em>Elle glisse de ses bras et s’enfuit. Phœbus, désappointé, se retourne vers Quasimodo, que les gardes tiennent lié au fond du théâtre.</em></stage>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="299"> Elle m’échappe, elle résiste !</l>
+                        <l n="300"> Belle aventure en vérité !</l>
+                        <l n="301"> Des deux oiseaux de nuit je garde le plus triste ;</l>
+                        <l n="302"> Le rossignol s’en va, le hibou m’est resté.</l>
+            <stage><em>Il se remet à la tête de sa troupe, et sort emmenant Quasimodo.</em></stage>
+                </sp>
+        <sp who="#chœur-de-la-ronde-du-guet">
+            <speaker> CHŒUR DE LA RONDE DU GUET. </speaker>
+                        <l n="303"> Paix et vigilance !</l>
+                        <l n="304"> Ouvrons, loin du bruit,</l>
+                        <l n="305"> L’oreille au silence</l>
+                        <l n="306"> Et l’œil à la nuit !</l>
+            <stage><em>Ils s’éloignent peu à peu et disparaissent.</em></stage></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+                        <l n="307"> – Il enlevait une fille !</l>
+                        <l n="308"> – Comment ! vraiment ?</l>
+                        <l n="309"> – Vous voyez comme on l’étrille</l>
+                        <l n="310"> En ce moment !</l>
+                        <l n="311"> – Entendez-vous, mes commères ?</l>
+                        <l n="312"> Quasimodo</l>
+                        <l n="313"> S’en vient chasser sur les terres</l>
+                        <l n="314"> De Cupido !</l>
+                </sp>
+        <sp who="#peuple">
+            <speaker> UNE FEMME DU PEUPLE. </speaker>
+                        <l n="315"> Il passera dans ma rue</l>
+                        <l n="316"> Au retour du pilori,</l>
+                        <l n="317"> Et c’est Pierrat Torterue</l>
+                        <l n="318"> Qui va nous faire le cri.</l>
+                </sp>
+        <sp who="#le-crieur-public">
+            <speaker> LE CRIEUR. </speaker>
+                        <l n="319"> De par le roi, que Dieu garde,</l>
+                        <l n="320"> L’homme qu’ici l’on regarde</l>
+                        <l n="321"> Sera mis, sous bonne garde,</l>
+                        <l n="322"> Pour une heure au pilori !</l>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+                        <l n="323"> À bas ! à bas !</l>
+                        <l n="324"> Le bossu, le sourd, le borgne !</l>
+                        <l n="325"> Ce Barabbas !</l>
+                        <l n="326"> Je crois, mortdieu, qu’il nous lorgne !</l>
+                        <l n="327"> À bas le sorcier !</l>
+                        <l n="328"> Il grimace, il rue !</l>
+                        <l n="329"> Il fait aboyer</l>
+                        <l n="330"> Les chiens dans la rue !</l>
+                        <l n="331"> – Corrigez bien ce bandit !</l>
+                        <l n="332"> – Doublez le fouet et l’amende !</l>
+                </sp>
+        <sp who="#quasimodo">
+            <speaker> QUASIMODO. </speaker>
+                        <l n="333"> À boire ! </l>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+                        <l n="334"> Qu’on le pende !</l>
+                </sp>
+        <sp who="#quasimodo">
+            <speaker> QUASIMODO. </speaker>
+                        <l n="335"> À boire !</l>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+                        <l n="336"> Sois maudit !</l>
+            <stage><em>Depuis quelques instants la Esmeralda s’est mêlée à la foule. Elle a observé Quasimodo avec surprise d’abord, puis avec pitié. Tout à coup, au milieu des cris du peuple, elle monte au pilori, détache une petite gourde de sa ceinture, et donne à boire à Quasimodo.</em></stage>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+                        <l n="337"> Que fais-tu, belle fille ?</l>
+                        <l n="338"> Laisse Quasimodo !</l>
+                        <l n="339"> À Belzébuth qui grille</l>
+                        <l n="340"> On ne donne pas d’eau !</l>
+            <stage><em>Elle descend du pilori. Les archers détachent et emmènent Quasimodo.</em></stage>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+                        <l n="341"> – Il enlevait une femme !</l>
+                        <l n="342"> Qui ? ce butor ?</l>
+                        <l n="343"> – Mais c’est affreux ! c’est infâme !</l>
+                        <l n="344"> – C’est un peu fort !</l>
+                        <l n="345"> – Entendez-vous, mes commères ?</l>
+                        <l n="346"> Quasimodo</l>
+                        <l n="347"> Osait chasser sur les terres</l>
+                        <l n="348"> De Cupido !</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS, FLEUR-DE-LYS, MADAME ALOISE DE GONDELAURIER </speaker>
+            <stage><em>Une salle magnifique où se font des préparatifs de fête.</em></stage>
+                </sp>
+        <sp who="#madame-aloise-de-gondelaurier">
+            <speaker> MADAME ALOISE. </speaker>
+                        <l n="349"> Phœbus, mon futur gendre, écoutez, je vous aime,</l>
+                        <l n="350"> Soyez maître céans comme un autre moi-même ;</l>
+                        <l n="351"> Ayez soin que ce soir chacun s’égaye ici.</l>
+                        <l n="352"> Et vous, ma fille, allons, tenez-vous prête.</l>
+                        <l n="353"> Vous serez la plus belle encor dans cette fête,</l>
+                        <l n="354"> Soyez la plus joyeuse aussi !</l>
+            <stage><em>Elle va au fond, et donne des ordres aux valets qui disposent la fête.</em></stage>
+                </sp>
+        <sp who="#fleur-de-lys">
+            <speaker> FLEUR-DE-LYS, à Phœbus. </speaker>
+                        <l n="355"> Monsieur, depuis l’autre semaine</l>
+                        <l n="356"> On vous a vu deux fois à peine.</l>
+                        <l n="357"> Cette fête enfin vous ramène.</l>
+                        <l n="358"> Enfin ! c’est bien heureux vraiment !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="359"> Ne grondez pas, je vous supplie !</l>
+                </sp>
+        <sp who="#fleur-de-lys">
+            <speaker> FLEUR-DE-LYS. </speaker>
+                        <l n="360"> Ah ! je le vois, Phœbus m’oublie !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="361"> Je vous jure...</l>
+                </sp>
+        <sp who="#fleur-de-lys">
+            <speaker> FLEUR-DE-LYS. </speaker>
+                        <l n="362"> Pas de serment !</l>
+                        <l n="363"> On ne jure que lorsqu’on ment !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="364"> Vous oublier ! quelle folie ?</l>
+                        <l n="365"> N’êtes-vous pas la plus jolie !</l>
+                        <l n="366"> Ne suis-je pas le mieux aimant ? </l>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS, à part. </speaker>
+                        <l n="367"> Comme ma belle fiancée</l>
+                        <l n="368"> Gronde aujourd’hui !</l>
+                        <l n="369"> Le soupçon est dans sa pensée,</l>
+                        <l n="370"> Ah ! quel ennui !</l>
+                        <l n="371"> Belles, les amants qu’on rudoie</l>
+                        <l n="372"> S’en vont ailleurs.</l>
+                        <l n="373"> On en prend plus avec la joie</l>
+                        <l n="374"> Qu’avec les pleurs.</l>
+                </sp>
+        <sp who="#fleur-de-lys">
+            <speaker> FLEUR-DE-LYS, à part. </speaker>
+                        <l n="375"> Me trahir, moi, sa fiancée,</l>
+                        <l n="376"> Qui suis à lui !</l>
+                        <l n="377"> Moi qui n’ai que lui pour pensée</l>
+                        <l n="378"> Et pour ennui !</l>
+                        <l n="379"> Ah ! qu’il s’absente ou qu’il me voie,</l>
+                        <l n="380"> Que de douleurs !</l>
+                        <l n="381"> Présent, il dédaigne ma joie ;</l>
+                        <l n="382"> Absent, mes pleurs !</l>
+                </sp>
+        <sp who="#fleur-de-lys">
+            <speaker> FLEUR-DE-LYS. </speaker>
+                        <l n="383"> L’écharpe, que pour vous, Phœbus, j’ai festonnée,</l>
+                        <l n="384"> Qu’en avez-vous donc fait ? je ne vous la vois pas !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS, troublé. </speaker>
+                        <l n="385"> L’écharpe ?... Je ne sais...</l>
+            <stage><em>À part.</em></stage>
+                        <l n="386"> Mortdieu ! le mauvais pas !</l>
+                </sp>
+        <sp who="#fleur-de-lys">
+            <speaker> FLEUR-DE-LYS. </speaker>
+                        <l n="387"> Vous l’avez oubliée !</l>
+            <stage><em>À part.</em></stage>
+                        <l n="388"> À qui l’a-t-il donnée,</l>
+                        <l n="389"> Et pour qui suis-je abandonnée ?</l>
+                </sp>
+        <sp who="#madame-aloise-de-gondelaurier">
+            <speaker> MADAME ALOISE, remontant vers eux et tâchant de les accorder. </speaker>
+                        <l n="390"> Mon Dieu ! mariez-vous ! vous bouderez après.</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS, à Fleur-de-Lys. </speaker>
+                        <l n="391"> Non, je ne l’ai pas oubliée.</l>
+                        <l n="392"> Je l’ai, je m’en souviens, soigneusement pliée</l>
+                        <l n="393"> Dans un coffret d’émail que j’ai fait faire exprès.</l>
+            <stage><em>Avec passion, à Fleur-de-Lys, qui boude encore.</em></stage>
+                        <l n="394"> Je vous jure que je vous aime</l>
+                        <l n="395"> Plus qu’on n’aimerait Vénus même.</l>
+                </sp>
+        <sp who="#fleur-de-lys">
+            <speaker> FLEUR-DE-LYS. </speaker>
+                        <l n="396"> Pas de serment ! pas de serment !</l>
+                        <l n="397"> On ne jure que lorsqu’on ment !</l>
+                </sp>
+        <sp who="#madame-aloise-de-gondelaurier">
+            <speaker> MADAME ALOISE. </speaker>
+                        <l n="398"> Enfants ! pas de querelle. Aujourd’hui tout est joie.</l>
+                        <l n="399"> Viens, ma fille, il faut qu’on nous voie.</l>
+                        <l n="400"> Voici qu’on va venir. Chaque chose a son tour.</l>
+            <stage><em>Aux valets.</em></stage>
+                        <l n="401"> Allumez les flambeaux, et que le bal s’apprête.</l>
+                        <l n="402"> Je veux que tout soit beau, qu’on s’y croie en plein jour !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="403"> Puisqu’on a Fleur-de-Lys, rien ne manque à la fête.</l>
+                </sp>
+        <sp who="#fleur-de-lys">
+            <speaker> FLEUR-DE-LYS. </speaker>
+                        <l n="404"> Phœbus, il y manque l’amour !</l>
+            <stage><em>Elles sortent.</em></stage>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS, regardant sortir Fleur-de-Lys. </speaker>
+                        <l n="405"> Elle dit vrai ; près d’elle encore</l>
+                        <l n="406"> Mon cœur est rempli de souci.</l>
+                        <l n="407"> Celle que j’aime, à qui je pense dès l’aurore,</l>
+                        <l n="408"> Hélas ! elle n’est pas ici !</l>
+            <stage><em>Air.</em></stage>
+                        <l n="409"> Fille ravissante !</l>
+                        <l n="410"> À toi mes amours !</l>
+                        <l n="411"> Belle ombre dansante</l>
+                        <l n="412"> Qui remplis mes jours,</l>
+                        <l n="413"> Et, toujours absente,</l>
+                        <l n="414"> M’apparais toujours !</l>
+                        <l n="415"> Elle est rayonnante et douce</l>
+                        <l n="416"> Comme un nid dans les rameaux,</l>
+                        <l n="417"> Comme une fleur dans la mousse,</l>
+                        <l n="418"> Comme un bien parmi des maux !</l>
+                        <l n="419"> Humble fille et vierge fière,</l>
+                        <l n="420"> Ame chaste en liberté,</l>
+                        <l n="421"> La pudeur sous sa paupière</l>
+                        <l n="422"> Émousse la volupté !</l>
+                        <l n="423"> C’est, dans la nuit sombre</l>
+                        <l n="424"> Un ange des cieux,</l>
+                        <l n="425"> Au front voilé d’ombre,</l>
+                        <l n="426"> À l’œil plein de feux !</l>
+                        <l n="427"> Toujours je vois son image,</l>
+                        <l n="428"> Brillante ou sombre parfois ;</l>
+                        <l n="429"> Mais toujours, astre ou nuage,</l>
+                        <l n="430"> C’est au ciel que je la vois !</l>
+                        <l n="431"> Fille ravissante !</l>
+                        <l n="432"> À toi mes amours !</l>
+                        <l n="433"> Belle ombre dansante</l>
+                        <l n="434"> Qui remplis mes jours,</l>
+                        <l n="435"> Et, toujours absente,</l>
+                        <l n="436"> M’apparais toujours !</l>
+            <stage><em>Entrent plusieurs seigneurs et dames en habits de fête.</em></stage></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#le-vicomte-de-gif">
+            <speaker> LE VICOMTE DE GIF. </speaker>
+                        <l n="437"> Salut, nobles châtelaines !</l>
+                </sp>
+        <sp who="#madame-aloise-de-gondelaurier">
+            <speaker> MADAME ALOISE, PHŒBUS, FLEUR-DE-LYS, saluant. </speaker>
+                        <l n="438"> Bonjour, noble chevalier !</l>
+                        <l n="439"> Oubliez soucis et peines</l>
+                        <l n="440"> Sous ce toit hospitalier !</l>
+                </sp>
+        <sp who="#m.-de-morlaix">
+            <speaker> M. DE MORLAIX. </speaker>
+                        <l n="441"> Mesdames, Dieu vous envoie</l>
+                        <l n="442"> Santé, plaisir et bonheur !</l>
+                </sp>
+        <sp who="#madame-aloise-de-gondelaurier">
+            <speaker> MADAME ALOISE, PHŒBUS, FLEUR-DE-LYS. </speaker>
+                        <l n="443"> Que le ciel vous rende en joie</l>
+                        <l n="444"> Vos bons souhaits, beau seigneur !</l>
+                </sp>
+        <sp who="#m.-de-chevreuse">
+            <speaker> M. DE CHEVREUSE. </speaker>
+                        <l n="445"> Mesdames, du fond de l’âme</l>
+                        <l n="446"> Je suis à vous comme à Dieu.</l>
+                </sp>
+        <sp who="#madame-aloise-de-gondelaurier">
+            <speaker> MADAME ALOISE, PHŒBUS, FLEUR-DE-LYS. </speaker>
+                        <l n="447"> Beau sire, que Notre-Dame</l>
+                        <l n="448"> Vous soit en aide en tout lieu !</l>
+            <stage><em>Entrent tous les conviés.</em></stage>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+                        <l n="449"> Venez tous à la fête !</l>
+                        <l n="450"> Page, dame et seigneur !</l>
+                        <l n="451"> Venez tous à la fête,</l>
+                        <l n="452"> Des fleurs sur votre tête,</l>
+                        <l n="453"> La joie au fond du cœur !</l>
+            <stage><em>Les conviés s’accostent et se saluent. Des valets circulent dans la foule, portant des plateaux chargés de fleurs et de fruits. Cependant un groupe de jeunes filles s’est formé près d’une fenêtre, à droite. Tout à coup l’une d’elles appelle les autres et leur fait signe de se pencher hors de la fenêtre.</em></stage>
+                </sp>
+        <sp who="#diane">
+            <speaker> DIANE, regardant au dehors. </speaker>
+                        <l n="454"> Oh ! viens donc voir, viens donc voir, Bérangère !</l>
+                </sp>
+        <sp who="#bérangère">
+            <speaker> BÉRANGÈRE, regardant dans la rue. </speaker>
+                        <l n="455"> Qu’elle est vive ! qu’elle est légère !</l>
+                </sp>
+        <sp who="#diane">
+            <speaker> DIANE. </speaker>
+                        <l n="456"> C’est une fée ou c’est l’Amour...</l>
+                </sp>
+        <sp who="#le-vicomte-de-gif">
+            <speaker> LE VICOMTE DE GIF, riant. </speaker>
+                        <l n="457"> Qui danse dans le carrefour ?</l>
+                </sp>
+        <sp who="#m.-de-chevreuse">
+            <speaker> M. DE CHEVREUSE, après avoir regardé. </speaker>
+                        <l n="458"> Eh ! mais, c’est la magicienne !</l>
+                        <l n="459"> Phœbus, c’est ton égyptienne</l>
+                        <l n="460"> Que l’autre nuit, avec valeur,</l>
+                        <l n="461"> Tu sauvas des mains d’un voleur.</l>
+                </sp>
+        <sp who="#le-vicomte-de-gif">
+            <speaker> LE VICOMTE DE GIF. </speaker>
+                        <l n="462"> Oui, oui, c’est la bohémienne !</l>
+                </sp>
+        <sp who="#m.-de-morlaix">
+            <speaker> M. DE MORLAIX. </speaker>
+                        <l n="463"> Elle est belle comme le jour !</l>
+                </sp>
+        <sp who="#diane">
+            <speaker> DIANE, à Phœbus. </speaker>
+                        <l n="464"> Si vous la connaissez, dites-lui qu’elle vienne</l>
+                        <l n="465"> Nous égayer de quelque tour.</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS, regardant à son tour d’un air distrait. </speaker>
+                        <l n="466"> Il se peut bien que ce soit elle.</l>
+            <stage><em>À monsieur de Gif.</em></stage>
+                        <l n="467"> Mais crois-tu qu’elle se rappelle...</l>
+                </sp>
+        <sp who="#fleur-de-lys">
+            <speaker> FLEUR-DE-LYS, qui observe et qui écoute. </speaker>
+                        <l n="468"> De vous toujours on se souvient.</l>
+                        <l n="469"> Voyons, appelez-la, dites-lui qu’elle monte.</l>
+            <stage><em>À part. </em></stage>
+                        <l n="470"> Je verrai s’il faut croire à ce que l’on raconte.</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS, à Fleur-de-Lys. </speaker>
+                        <l n="471"> Vous le voulez ? Eh bien ! essayons.</l>
+            <stage><em>Il fait signe à la danseuse de monter.</em></stage>
+                </sp>
+        <sp who="#les-jeunes-filles">
+            <speaker> LES JEUNES FILLES. </speaker>
+                        <l n="472"> Elle vient.</l>
+                </sp>
+        <sp who="#m.-de-chevreuse">
+            <speaker> M. DE CHEVREUSE. </speaker>
+                        <l n="473"> Sous le porche elle est disparue.</l>
+                </sp>
+        <sp who="#diane">
+            <speaker> DIANE. </speaker>
+                        <l n="474"> Comme elle a laissé là ce bon peuple ébahi !</l>
+                </sp>
+        <sp who="#le-vicomte-de-gif">
+            <speaker> LE VICOMTE DE GIF. </speaker>
+                        <l n="475"> Dames, vous allez voir la nymphe de la rue.</l>
+                </sp>
+        <sp who="#fleur-de-lys">
+            <speaker> FLEUR-DE-LYS, à part. </speaker>
+                        <l n="476"> Qu’au signe de Phœbus elle a vite obéi !</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS, FLEUR-DE-LYS, MADAME ALOISE, LE VICOMTE DE GIF, M. DE MORLAIX, M. DE CHEVREUSE, MADAME DE GONDELAURIER, FLEUR-DE-LYS, DIANE, BÉRANGÈRE, DAMES, SEIGNEURS, LA ESMERALDA </speaker>
+            <stage><em>Entre la bohémienne, timide, confuse, et radieuse. Mouvement d’admiration. La foule s’écarte devant elle. </em></stage>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+                        <l n="477"> Regardez ! son beau front brille entre les plus beaux,</l>
+                        <l n="478"> Comme ferait un astre entouré de flambeaux !</l>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="479"> Oh ! la divine créature !</l>
+                        <l n="480"> Amis, de ce bal enchanté</l>
+                        <l n="481"> Elle est la reine, je vous jure.</l>
+                        <l n="482"> Sa couronne c’est sa beauté !</l>
+            <stage><em>Il se tourne vers messieurs de Gif et de Chevreuse.</em></stage>
+                        <l n="483"> Amis, j’en ai l’âme échauffée !</l>
+                        <l n="484"> Je braverais guerre et malheur,</l>
+                        <l n="485"> Si je pouvais, charmante fée,</l>
+                        <l n="486"> Cueillir ton amour dans sa fleur !</l>
+                </sp>
+        <sp who="#m.-de-chevreuse">
+            <speaker> M. DE CHEVREUSE. </speaker>
+                        <l n="487"> C’est une céleste figure !</l>
+                        <l n="488"> Un de ces rêves enchantés</l>
+                        <l n="489"> Qui flottent dans la nuit obscure</l>
+                        <l n="490"> Et sèment l’ombre de clartés !</l>
+                        <l n="491"> Dans le carrefour elle est née.</l>
+                        <l n="492"> Ô jeux aveugles du malheur !</l>
+                        <l n="493"> Quoi ! dans l’eau du ruisseau traînée,</l>
+                        <l n="494"> Hélas ! une si belle fleur !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA, l’œil fixé sur Phœbus dans la foule. </speaker>
+                        <l n="495"> C’est mon Phœbus, j’en étais sûre,</l>
+                        <l n="496"> Tel qu’en mon cœur il est resté !</l>
+                        <l n="497"> Ah ! sous la soie ou sous l’armure,</l>
+                        <l n="498"> C’est toujours lui, grâce et beauté !</l>
+                        <l n="499"> Phœbus ! ma tête est embrasée.</l>
+                        <l n="500"> Tout me brûle, joie et douleurs.</l>
+                        <l n="501"> La terre a besoin de rosée,</l>
+                        <l n="502"> Et mon âme a besoin de pleurs !</l>
+                </sp>
+        <sp who="#fleur-de-lys">
+            <speaker> FLEUR-DE-LYS. </speaker>
+                        <l n="503"> Qu’elle est belle ! j’en étais sûre.</l>
+                        <l n="504"> Oui, je dois être, en vérité,</l>
+                        <l n="505"> Bien jalouse, si je mesure</l>
+                        <l n="506"> Ma jalousie à sa beauté !</l>
+                        <l n="507"> Mais peut-être, prédestinées,</l>
+                        <l n="508"> Sous la rude main du malheur,</l>
+                        <l n="509"> Elle et moi, nous serons fanées</l>
+                        <l n="510"> Toutes les deux dans notre fleur !</l>
+                </sp>
+        <sp who="#madame-aloise-de-gondelaurier">
+            <speaker> MADAME ALOISE. </speaker>
+                        <l n="511"> C’est une belle créature !</l>
+                        <l n="512"> Il est étrange, en vérité,</l>
+                        <l n="513"> Qu’une bohémienne impure</l>
+                        <l n="514"> Ait tant de charme et de beauté !</l>
+                        <l n="515"> Mais qui connaît la destinée ?</l>
+                        <l n="516"> Souvent le serpent oiseleur</l>
+                        <l n="517"> Cache sa tête empoisonnée</l>
+                        <l n="518"> Sous le buisson le plus en fleur.</l>
+                </sp>
+        <sp who="#tous">
+            <speaker> TOUS, ensemble. </speaker>
+                        <l n="519"> Elle a le calme et la beauté</l>
+                        <l n="520"> Du ciel dans les beaux soirs d’été !</l>
+                </sp>
+        <sp who="#madame-aloise-de-gondelaurier">
+            <speaker> MADAME ALOISE, à la Esmeralda. </speaker>
+                        <l n="521"> Allons, enfant, allons, la belle,</l>
+                        <l n="522"> Venez, et dansez-nous quelque danse nouvelle.</l>
+            <stage><em>La Esmeralda se prépare à danser et tire de son sein l’écharpe que lui a donnée Phœbus. </em></stage>
+                </sp>
+        <sp who="#fleur-de-lys">
+            <speaker> FLEUR-DE-LYS. </speaker>
+                        <l n="523"> Mon écharpe !... Phœbus, je suis trompée ici,</l>
+                        <l n="524"> Et ma rivale, la voici !</l>
+            <stage><em>Fleur-de-Lys arrache l’écharpe à la Esmeralda, et tombe évanouie. Tout le bal s’ameute en désordre contre l’égyptienne, qui se réfugie près de Phœbus.</em></stage>
+                </sp>
+        <sp who="#tous">
+            <speaker> TOUS. </speaker>
+                        <l n="525"> Est-il vrai ? Phœbus l’aime !</l>
+                        <l n="526"> Infâme ! sors d’ici.</l>
+                        <l n="527"> Ton audace est extrême</l>
+                        <l n="528"> De nous braver ainsi.</l>
+                        <l n="529"> Ô comble d’impudence !</l>
+                        <l n="530"> Retourne aux carrefours</l>
+                        <l n="531"> Faire admirer ta danse</l>
+                        <l n="532"> Aux marchands des faubourgs !</l>
+                        <l n="533"> Que sur l’heure on la chasse !</l>
+                        <l n="534"> À la porte ! il le faut.</l>
+                        <l n="535"> Une fille si basse</l>
+                        <l n="536"> Élever l’œil si haut !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="537"> Oh ! défends-moi toi-même,</l>
+                        <l n="538"> Mon Phœbus, défends-moi.</l>
+                        <l n="539"> L’humble fille bohème</l>
+                        <l n="540"> N’espère ici qu’en toi.</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="541"> Je l’aime, et n’aime qu’elle,</l>
+                        <l n="542"> Je suis son défenseur.</l>
+                        <l n="543"> Je combattrai pour elle.</l>
+                        <l n="544"> Mon bras est à mon cœur.</l>
+                        <l n="545"> S’il faut qu’on la soutienne,</l>
+                        <l n="546"> Eh bien ! je la soutien !</l>
+                        <l n="547"> Son injure est la mienne,</l>
+                        <l n="548"> Et son honneur le mien !</l>
+                </sp>
+        <sp who="#tous">
+            <speaker> TOUS. </speaker>
+                        <l n="549"> Quoi ! voilà ce qu’il aime !</l>
+                        <l n="550"> Hors d’ici ! hors d’ici !</l>
+                        <l n="551"> Quoi ! c’est une bohème</l>
+                        <l n="552"> Qu’il nous préfère ainsi !</l>
+                        <l n="553"> Ah ! tous les deux, silence</l>
+                        <l n="554"> Sur une telle ardeur !</l>
+            <stage><em>À Phœbus.</em></stage>
+                        <l n="555"> Vous, c’est trop d’insolence !</l>
+            <stage><em>À la Esmeralda.</em></stage>
+                        <l n="556"> Toi, c’est trop d’impudeur !</l>
+            <stage><em>Phœbus et ses amis protègent la bohémienne entourée des menaces de tous les conviés de madame de Gondelaurier. La Esmeralda se dirige en chancelant vers la porte. La toile tombe.<a name="11" id="11"></a></em></stage></div></div>
+           <div type="act" xml:id="4">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS, LE VICOMTE DE GIF, M. DE MORLAIX, M. DE CHEVREUSE, et plusieurs autres amis de Phœbus, assis à des tables, buvant et chantant, puis DOM CLAUDE FROLLO </speaker>
+            <stage><em>Le préau extérieur d’un cabaret. À droite la taverne. À gauche des arbres. Au fond une porte et un petit mur très bas qui clôt le préau. Au loin la croupe de Notre-Dame, avec ses deux tours et sa flèche, et une silhouette sombre du vieux Paris qui se détache sur le ciel rouge du couchant. La Seine au bas du tableau.</em></stage>
+            <stage><em>Chanson.          </em></stage>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+                        <l n="557"> Sois propice et salutaire,</l>
+                        <l n="558"> Notre-Dame de Saint-Lô,</l>
+                        <l n="559"> Au soudard qui sur la terre,</l>
+                        <l n="560"> N’a de haine que pour l’eau !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="561"> Donne au brave,</l>
+                        <l n="562"> En tous lieux,</l>
+                        <l n="563"> Bonne cave</l>
+                        <l n="564"> Et beaux yeux !</l>
+                        <l n="565"> L’heureux drille !</l>
+                        <l n="566"> Fais qu’il pille</l>
+                        <l n="567"> Jeune fille</l>
+                        <l n="568"> Et vin vieux !</l>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+            <stage>Sois propice, <em>etc.</em></stage>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="569"> Qu’une belle</l>
+                        <l n="570"> Au cœur froid</l>
+                        <l n="571"> Soit rebelle,</l>
+                        <l n="572"> – On en voit, –</l>
+                        <l n="573"> Il plaisante</l>
+                        <l n="574"> La méchante,</l>
+                        <l n="575"> Puis il chante,</l>
+                        <l n="576"> Puis il boit !</l>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+            <stage>Sois propice, <em>etc.</em></stage>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="577"> Le jour passe ;</l>
+                        <l n="578"> Ivre ou non,</l>
+                        <l n="579"> Il embrasse</l>
+                        <l n="580"> Sa Toinon, </l>
+                        <l n="581"> Et, farouche,</l>
+                        <l n="582"> Il se couche</l>
+                        <l n="583"> Sur la bouche</l>
+                        <l n="584"> D’un canon !</l>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+            <stage>Sois propice, <em>etc.</em></stage>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="585"> Et son âme,</l>
+                        <l n="586"> Qui souvent</l>
+                        <l n="587"> D’une femme</l>
+                        <l n="588"> Va rêvant,</l>
+                        <l n="589"> Est contente</l>
+                        <l n="590"> Quand la tente</l>
+                        <l n="591"> Palpitante</l>
+                        <l n="592"> Tremble au vent !</l>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+                        <l n="593"> Sois propice et salutaire,</l>
+                        <l n="594"> Notre-Dame de Saint-Lô,</l>
+                        <l n="595"> Au soudard qui sur la terre</l>
+                        <l n="596"> N’a de haine que pour l’eau !</l>
+            <stage><em>Entre Claude Frollo, qui va s’asseoir à une table éloignée de celle où est Phœbus, et paraît d’abord étranger à ce qui se passe autour de lui.</em></stage>
+                </sp>
+        <sp who="#le-vicomte-de-gif">
+            <speaker> LE VICOMTE DE GIF, à Phœbus. </speaker>
+                        <l n="597"> Cette égyptienne si belle,</l>
+                        <l n="598"> Qu’en fais-tu donc, décidément ?</l>
+            <stage><em>Mouvement d’attention de Claude Frollo.</em></stage>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="599"> Ce soir, dans une heure, avec elle,</l>
+                        <l n="600"> J’ai rendez-vous.</l>
+                </sp>
+        <sp who="#tous">
+            <speaker> TOUS. </speaker>
+                        <l n="601"> Vraiment ?</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="602"> Vraiment !</l>
+            <stage><em>L’agitation de Claude Frollo redouble.</em></stage>
+                </sp>
+        <sp who="#le-vicomte-de-gif">
+            <speaker> LE VICOMTE DE GIF. </speaker>
+                        <l n="603"> Dans une heure ?</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="604"> Dans un moment !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="605"> Oh ! l’amour, volupté suprême !</l>
+                        <l n="606"> Se sentir deux dans un seul cœur !</l>
+                        <l n="607"> Posséder la femme qu’on aime !</l>
+                        <l n="608"> Être l’esclave et le vainqueur !</l>
+                        <l n="609"> Avoir son âme ! avoir ses charmes !</l>
+                        <l n="610"> Son chant qui sait vous apaiser !</l>
+                        <l n="611"> Et ses beaux yeux remplis de larmes,</l>
+                        <l n="612"> Qu’on essuie avec un baiser !</l>
+            <stage><em>Pendant qu’il chante, les autres boivent et choquent leurs verres.</em></stage>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+                        <l n="613"> C’est le bonheur suprême,</l>
+                        <l n="614"> En quelque temps qu’on soit,</l>
+                        <l n="615"> De boire à ce qu’on aime</l>
+                        <l n="616"> Et d’aimer ce qu’on boit !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="617"> Amis, la plus jolie,</l>
+                        <l n="618"> Une grâce accomplie !</l>
+                        <l n="619"> Ô délire ! ô folie !</l>
+                        <l n="620"> Amis, elle est à moi !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO, à part. </speaker>
+                        <l n="621"> À l’enfer je m’allie.</l>
+                        <l n="622"> Malheur sur elle et toi !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="623"> Le plaisir nous convie !</l>
+                        <l n="624"> Épuisons sans retour</l>
+                        <l n="625"> Le meilleur de la vie</l>
+                        <l n="626"> Dans un instant d’amour !</l>
+                        <l n="627"> Qu’importe après que l’on meure !</l>
+                        <l n="628"> Donnons cent ans pour une heure,</l>
+                        <l n="629"> L’éternité pour un jour !</l>
+            <stage><em>Le couvre-feu sonne. Les amis de Phœbus se lèvent de table, remettent leurs épées, leurs chapeaux, leurs manteaux, et s’apprêtent à partir.</em></stage>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+                        <l n="630"> Phœbus, l’heure t’appelle,</l>
+                        <l n="631"> Oui, c’est le couvre-feu !</l>
+                        <l n="632"> Va retrouver ta belle !</l>
+                        <l n="633"> À la garde de Dieu !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="634"> Vraiment ! l’heure m’appelle,</l>
+                        <l n="635"> Oui, c’est le couvre-feu !</l>
+                        <l n="636"> Je vais trouver ma belle !</l>
+                        <l n="637"> À la garde de Dieu !</l>
+            <stage><em>Les amis de Phœbus sortent.<a name="12" id="12"></a></em></stage></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO, arrêtant Phœbus au moment où il se dispose à sortir. </speaker>
+                        <l n="638"> Capitaine !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="639"> Quel est cet homme ?</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="640"> Écoutez-moi.</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="641"> Dépêchons-nous !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="642"> Savez-vous bien comment se nomme</l>
+                        <l n="643"> Celle qui vous attend ce soir au rendez-vous ?</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="644"> Eh ! pardieu ! c’est mon amoureuse,</l>
+                        <l n="645"> Celle qui m’aime et me plaît fort ;</l>
+                        <l n="646"> C’est ma chanteuse, ma danseuse,</l>
+                        <l n="647"> C’est Esmeralda.</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="648"> C’est la mort !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="649"> L’ami, vous êtes fou, d’abord ;</l>
+                        <l n="650"> Ensuite, allez au diable !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="651"> Écoutez !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="652"> Que m’importe !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="653"> Phœbus, si vous passez le seuil de cette porte...</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="654"> Vous êtes fou !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="655"> Vous êtes mort.</l>
+            <stage><em>Duo.</em><br></p><em>Duo.</em><br>Tremble ! c’est une égyptienne !</stage>
+                        <l n="656"> Elles n’ont ni loi, ni remord.</l>
+                        <l n="657"> Leur amour déguise leur haine,</l>
+                        <l n="658"> Et leur couche est un lit de mort !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS, riant. </speaker>
+                        <l n="659"> Mon cher, rajustez votre cape.</l>
+                        <l n="660"> Rentrez à l’hôpital des fous.</l>
+                        <l n="661"> Il me paraît qu’on s’en échappe.</l>
+                        <l n="662"> Que Jupiter, saint Esculape,</l>
+                        <l n="663"> Et le diable soient avec vous !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="664"> Ce sont des femmes infidèles.</l>
+                        <l n="665"> Crois-en les publiques rumeurs.</l>
+                        <l n="666"> Tout est ténèbres autour d’elles.</l>
+                        <l n="667"> Phœbus, n’y va pas, ou tu meurs !</l>
+            <stage><em>L’insistance de Claude Frollo paraît troubler Phœbus, qui considère son interlocuteur avec anxiété.</em></stage>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="668"> Il m’étonne,</l>
+                        <l n="669"> Il me donne</l>
+                        <l n="670"> Malgré moi quelques soupçons !</l>
+                        <l n="671"> Cette ville,</l>
+                        <l n="672"> Peu tranquille,</l>
+                        <l n="673"> Est pleine de trahisons !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="674"> Je l’étonne,</l>
+                        <l n="675"> Je lui donne</l>
+                        <l n="676"> Malgré lui quelques soupçons.</l>
+                        <l n="677"> L’imbécile,</l>
+                        <l n="678"> Dans la ville,</l>
+                        <l n="679"> Ne voit plus que trahisons !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="680"> Croyez-moi, monseigneur, évitez la sirène</l>
+                        <l n="681"> Dont le piège vous attend.</l>
+                        <l n="682"> Plus d’une bohémienne</l>
+                        <l n="683"> A poignardé dans sa haine</l>
+                        <l n="684"> Un cœur d’amour palpitant.</l>
+            <stage><em>Phœbus, qu’il veut entraîner, se ravise et le repousse.</em></stage>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="685"> Mais suis-je fou moi-même ?</l>
+                        <l n="686"> Maure, juive ou bohème,</l>
+                        <l n="687"> Qu’importe quand on aime !</l>
+                        <l n="688"> L’amour doit tout couvrir.</l>
+                        <l n="689"> Laisse-nous ! il m’appelle !</l>
+                        <l n="690"> Ah ! si la mort, c’est elle,</l>
+                        <l n="691"> Quand la mort est si belle,</l>
+                        <l n="692"> Il est doux de mourir !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE, le retenant. </speaker>
+                        <l n="693"> Arrête ! Une bohème !</l>
+                        <l n="694"> Ta folie est extrême !</l>
+                        <l n="695"> Oses-tu donc toi-même</l>
+                        <l n="696"> À ta perte courir ?</l>
+                        <l n="697"> Crains la femme infidèle</l>
+                        <l n="698"> Qui dans l’ombre t’appelle !</l>
+                        <l n="699"> Mais quoi ! tu cours près d’elle ?</l>
+                        <l n="700"> Va, si tu veux mourir !</l>
+            <stage><em>Phœbus sort vivement, malgré Claude Frollo. Claude Frollo reste un moment sombre et comme indécis ; puis il suit Phœbus.</em></stage></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN, à Claude. </speaker>
+                        <l n="701"> D’ici vous pourrez voir, sans être vu vous-même,</l>
+                        <l n="702"> Le capitaine et la bohème.</l>
+            <stage><em>Il lui montre un enfoncement derrière une tapisserie.</em></stage>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="703"> Les hommes apostés sont-ils prêts ?</l>
+                </sp>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN. </speaker>
+                        <l n="704"> Ils sont prêts.</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="705"> Que jamais de ceci l’on ne trouve la source.</l>
+                        <l n="706"> Silence ! prenez cette bourse,</l>
+                        <l n="707"> Vous en aurez autant après !</l>
+            <stage><em>Claude Frollo se place dans la cachette. Clopin sort avec précaution. Entrent la Esmeralda et Phœbus.</em></stage>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO, à part. </speaker>
+                        <l n="708"> Ô fille adorée,</l>
+                        <l n="709"> Au destin livrée !</l>
+                        <l n="710"> Elle entre parée</l>
+                        <l n="711"> Pour sortir en deuil !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA, à Phœbus. </speaker>
+                        <l n="712"> Monseigneur le comte,</l>
+                        <l n="713"> Mon cœur que je dompte</l>
+                        <l n="714"> Est rempli de honte</l>
+                        <l n="715"> Et rempli d’orgueil ! </l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS, à la Esmeralda. </speaker>
+                        <l n="716"> Oh ! comme elle est rose !</l>
+                        <l n="717"> Quand la porte est close,</l>
+                        <l n="718"> Ma belle, on dépose</l>
+                        <l n="719"> Toute crainte au seuil.</l>
+            <stage><em>Phœbus fait asseoir la Esmeralda sur le banc près de lui.</em></stage>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="720"> M’aimes-tu ?</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="721"> Je t’aime !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO, à part. </speaker>
+                        <l n="722"> Ô torture !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="723"> Ô l’adorable créature !</l>
+                        <l n="724"> Vous êtes divine, en honneur !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="725"> Votre bouche est une flatteuse !</l>
+                        <l n="726"> Tenez, je suis toute honteuse !</l>
+                        <l n="727"> N’approchez pas tant, monseigneur !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="728"> Ils s’aiment ! que je les envie !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="729"> Mon Phœbus, je vous dois la vie !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="730"> Et moi, je te dois le bonheur !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="731"> Oh ! sois sage !</l>
+                        <l n="732"> Encourage</l>
+                        <l n="733"> D’un visage</l>
+                        <l n="734"> Gracieux</l>
+                        <l n="735"> La petite</l>
+                        <l n="736"> Qui palpite,</l>
+                        <l n="737"> Interdite,</l>
+                        <l n="738"> Sous tes yeux !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="739"> Ô ma reine,</l>
+                        <l n="740"> Ma sirène,</l>
+                        <l n="741"> Souveraine</l>
+                        <l n="742"> De beauté !</l>
+                        <l n="743"> Douce fille,</l>
+                        <l n="744"> Dont l’œil brille</l>
+                        <l n="745"> Et pétille</l>
+                        <l n="746"> De fierté !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="747"> Les attendre !</l>
+                        <l n="748"> Les entendre !</l>
+                        <l n="749"> Qu’elle est tendre !</l>
+                        <l n="750"> Qu’il est beau !</l>
+                        <l n="751"> Sois joyeuse !</l>
+                        <l n="752"> Sois heureuse !</l>
+                        <l n="753"> Moi, je creuse</l>
+                        <l n="754"> Le tombeau !</l>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="755"> Fée ou femme,</l>
+                        <l n="756"> Sois ma dame !</l>
+                        <l n="757"> Car mon âme,</l>
+                        <l n="758"> Nuit et jour,</l>
+                        <l n="759"> Te désire,</l>
+                        <l n="760"> Te respire,</l>
+                        <l n="761"> Et t’admire,</l>
+                        <l n="762"> Mon amour !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="763"> Je suis femme,</l>
+                        <l n="764"> Et mon âme,</l>
+                        <l n="765"> Toute flamme,</l>
+                        <l n="766"> Tout amour,</l>
+                        <l n="767"> Est, beau sire,</l>
+                        <l n="768"> Une lyre</l>
+                        <l n="769"> Qui soupire</l>
+                        <l n="770"> Nuit et jour !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="771"> Attends, femme,</l>
+                        <l n="772"> Que ma flamme</l>
+                        <l n="773"> Et ma lame</l>
+                        <l n="774"> Aient leur tour !</l>
+                        <l n="775"> Oui, j’admire</l>
+                        <l n="776"> Leur sourire,</l>
+                        <l n="777"> Leur délire,</l>
+                        <l n="778"> Leur amour !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="779"> Sois toujours rose et vermeille !</l>
+                        <l n="780"> Rions à notre heureux sort !</l>
+                        <l n="781"> À l’amour qui se réveille,</l>
+                        <l n="782"> À la pudeur qui s’endort !</l>
+                        <l n="783"> Ta bouche, c’est le ciel même !</l>
+                        <l n="784"> Mon âme veut s’y poser.</l>
+                        <l n="785"> Puisse mon souffle suprême</l>
+                        <l n="786"> S’en aller dans ce baiser !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="787"> Ta voix plaît à mon oreille ;</l>
+                        <l n="788"> Ton sourire est doux et fort !</l>
+                        <l n="789"> L’insouciance vermeille</l>
+                        <l n="790"> Rit dans tes yeux et m’endort.</l>
+                        <l n="791"> Tes vœux sont ma loi suprême,</l>
+                        <l n="792"> Mais je dois m’y refuser.</l>
+                        <l n="793"> Ma vertu, mon bonheur même</l>
+                        <l n="794"> S’en iraient dans ce baiser !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="795"> Ne frappez point leur oreille,</l>
+                        <l n="796"> Pas rapprochés de la mort !</l>
+                        <l n="797"> Ma haine jalouse veille</l>
+                        <l n="798"> Sur leur amour qui s’endort !</l>
+                        <l n="799"> La mort décharnée et blême</l>
+                        <l n="800"> Entre eux deux va se poser !</l>
+                        <l n="801"> Phœbus, ton souffle suprême</l>
+                        <l n="802"> S’en ira dans ce baiser !</l>
+            <stage><em>Claude Frollo se jette sur Phœbus et le poignarde, puis il ouvre la fenêtre du fond, par laquelle il disparaît. La Esmeralda tombe avec un grand cri sur le corps de Phœbus. Entrent en tumulte les hommes apostés, qui la saisissent et semblent l’accuser. La toile tombe.<a name="14" id="14"></a></em></stage></div></div>
+           <div type="act" xml:id="5">
+           <head> ACTE IV </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#em>une-prison.-au-fond">
+            <speaker> Une prison. Au fond, une porte. LA ESMERALDA, seule, enchaînée, couchée sur la paille </speaker>
+                        <l n="803"> Quoi ! lui dans le sépulcre, et moi dans cet abîme !</l>
+                        <l n="804"> Moi prisonnière et lui victime !</l>
+                        <l n="805"> Oui, je l’ai vu tomber. Il est mort en effet !</l>
+                        <l n="806"> Et ce crime, ô ciel ! un tel crime !</l>
+                        <l n="807"> On dit que c’est moi qui l’ai fait !</l>
+                        <l n="808"> La tige de nos jours est brisée encor verte !</l>
+                        <l n="809"> Phœbus en s’en allant me montre le chemin !</l>
+                        <l n="810"> Hier sa fosse s’est ouverte,</l>
+                        <l n="811"> La mienne s’ouvrira demain !</l>
+            <stage><em>Romance.</em></stage>
+                        <l n="812"> Phœbus ! n’est-il sur la terre</l>
+                        <l n="813"> Aucun pouvoir salutaire</l>
+                        <l n="814"> À ceux qui se sont aimés ?</l>
+                        <l n="815"> N’est-il ni philtres ni charmes</l>
+                        <l n="816"> Pour sécher des yeux en larmes,</l>
+                        <l n="817"> Pour rouvrir des yeux fermés !</l>
+                        <l n="818"> Dieu bon, que je supplie</l>
+                        <l n="819"> Et la nuit et le jour,</l>
+                        <l n="820"> Daignez m’ôter ma vie</l>
+                        <l n="821"> Ou m’ôter mon amour !</l>
+                        <l n="822"> Mon Phœbus, ouvrons nos ailes</l>
+                        <l n="823"> Vers les sphères éternelles,</l>
+                        <l n="824"> Où l’amour est immortel !</l>
+                        <l n="825"> Retournons où tout retombe !</l>
+                        <l n="826"> Nos corps ensemble à la tombe,</l>
+                        <l n="827"> Nos âmes ensemble au ciel !</l>
+                        <l n="828"> Dieu bon, que je supplie</l>
+                        <l n="829"> Et la nuit et le jour,</l>
+                        <l n="830"> Daignez m’ôter ma vie</l>
+                        <l n="831"> Ou m’ôter mon amour !</l>
+            <stage><em>La porte s’ouvre. Entre Claude Frollo, une lampe à la main, le capuchon rabattu sur le visage. Il vient se placer, immobile, en face de la Esmeralda.</em></stage>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA, se levant en sursaut. </speaker>
+                        <l n="832"> Quel est cet homme ?</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO, voilé par son capuchon. </speaker>
+                        <l n="833"> Un prêtre.</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="834"> Un prêtre ! Quel mystère !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="835"> Êtes-vous prête ?</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="836"> À quoi ?</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="837"> Prête à mourir.</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="838"> Oui.</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="839"> Bien.</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="840"> Sera-ce bientôt ? Répondez-moi, mon père !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="841"> Demain.</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="842"> Pourquoi pas aujourd’hui ?</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="843"> Quoi ! vous souffrez donc bien ?</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="844"> Oui, je souffre !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="845"> Peut-être</l>
+                        <l n="846"> Moi qui vivrai demain, je souffre plus que vous.</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="847"> Vous ? qui donc êtes-vous ? </l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="848"> La tombe est entre nous !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="849"> Votre nom ?</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="850"> Vous voulez le savoir ?</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="851"> Oui.</l>
+            <stage><em>Il lève son capuchon. </em></stage>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="852"> Le prêtre !</l>
+                        <l n="853"> C’est le prêtre ! ô ciel ! ô mon Dieu !</l>
+                        <l n="854"> C’est bien son front de glace et son regard de feu !</l>
+                        <l n="855"> C’est bien le prêtre ! c’est lui-même !</l>
+                        <l n="856"> C’est lui qui me poursuit sans trêve nuit et jour !</l>
+                        <l n="857"> C’est lui qui l’a tué, mon Phœbus, mon amour !</l>
+                        <l n="858"> Monstre ! je vous maudis à mon heure suprême !</l>
+                        <l n="859"> Que vous ai-je donc fait ? quel est votre dessein ?</l>
+                        <l n="860"> Que voulez-vous de moi, misérable assassin ?</l>
+                        <l n="861"> Vous me haïssez donc ?</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="862"> Je t’aime !</l>
+                        <l n="863"> Je t’aime, c’est infâme !</l>
+                        <l n="864"> Je t’aime en frémissant !</l>
+                        <l n="865"> Mon amour, c’est mon âme.</l>
+                        <l n="866"> Mon amour, c’est mon sang.</l>
+                        <l n="867"> Oui, sous tes pieds je tombe,</l>
+                        <l n="868"> Et, je le dis,</l>
+                        <l n="869"> Je préfère ta tombe</l>
+                        <l n="870"> Au paradis.</l>
+                        <l n="871"> Plains-moi ! Quoi ! je succombe,</l>
+                        <l n="872"> Et tu maudis !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="873"> Il m’aime ! ô comble d’épouvante !</l>
+                        <l n="874"> Il me tient, l’horrible oiseleur !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="875"> La seule chose en moi vivante,</l>
+                        <l n="876"> C’est mon amour et ma douleur !</l>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="877"> Détresse extrême !</l>
+                        <l n="878"> Quelle rigueur !</l>
+                        <l n="879"> Hélas ! je t’aime !</l>
+                        <l n="880"> Nuit de douleur !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="881"> Moment suprême !</l>
+                        <l n="882"> Tremble, ô mon cœur !</l>
+                        <l n="883"> Ô ciel ! il m’aime !</l>
+                        <l n="884"> Nuit de terreur !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO, à part. </speaker>
+                        <l n="885"> Dans mes mains elle palpite !</l>
+                        <l n="886"> Enfin le prêtre a son tour !</l>
+                        <l n="887"> Dans la nuit je l’ai conduite,</l>
+                        <l n="888"> Je vais la conduire au jour.</l>
+                        <l n="889"> La mort, qui vient à ma suite,</l>
+                        <l n="890"> Ne la rendra qu’à l’amour !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="891"> Par pitié ! laissez-moi vite !</l>
+                        <l n="892"> Phœbus est mort, c’est mon tour !</l>
+                        <l n="893"> Hélas ! je suis interdite</l>
+                        <l n="894"> Devant votre affreux amour,</l>
+                        <l n="895"> Comme l’oiseau qui palpite</l>
+                        <l n="896"> Sous le regard du vautour !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="897"> Accepte-moi ! je t’aime ! oh ! viens, je t’en conjure.</l>
+                        <l n="898"> Pitié pour moi ! pitié pour toi ! fuyons ! tout dort !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="899"> Votre prière est une injure !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="900"> Aimes-tu mieux mourir ?</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="901"> Le corps meurt, l’âme sort !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="902"> Mourir, c’est bien affreux !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="903"> Taisez-vous, bouche impure !</l>
+                        <l n="904"> Votre amour rend belle la mort !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="905"> Choisis, choisis. – Claude ou la mort !</l>
+            <stage><em>Claude tombe aux pieds d’Esmeralda, suppliant. Elle le repousse.</em></stage>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="906"> Non, meurtrier ! jamais ! silence !</l>
+                        <l n="907"> Ton lâche amour est une offense.</l>
+                        <l n="908"> Plutôt la tombe où je m’élance !</l>
+                        <l n="909"> Sois maudit parmi les maudits !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="910"> Tremble ! l’échafaud te réclame !</l>
+                        <l n="911"> Sais-tu que je porte en mon âme</l>
+                        <l n="912"> Des projets de sang et de flamme</l>
+                        <l n="913"> De l’enfer dans l’ombre applaudis ?</l>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="914"> Oh ! je t’adore !</l>
+                        <l n="915"> Donne ta main !</l>
+                        <l n="916"> Tu peux encore</l>
+                        <l n="917"> Vivre demain !</l>
+                        <l n="918"> Ô nuit d’alarmes !</l>
+                        <l n="919"> Nuit de remord !</l>
+                        <l n="920"> Pour moi les larmes !</l>
+                        <l n="921"> Pour toi la mort !</l>
+                        <l n="922"> Dis-moi : Je t’aime !</l>
+                        <l n="923"> Pour te sauver ! –</l>
+                        <l n="924"> L’aube suprême</l>
+                        <l n="925"> Va se lever.</l>
+                        <l n="926"> Ah ! puisqu’en vain je t’implore,</l>
+                        <l n="927"> Puisque ta haine me fuit,</l>
+                        <l n="928"> Adieu donc ! un jour encore,</l>
+                        <l n="929"> Et puis l’éternelle nuit !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="930"> Va, je t’abhorre,</l>
+                        <l n="931"> Prêtre inhumain !</l>
+                        <l n="932"> Le meurtre encore</l>
+                        <l n="933"> Rougit ta main !</l>
+                        <l n="934"> Ô nuit d’alarmes !</l>
+                        <l n="935"> Nuit de remord !</l>
+                        <l n="936"> Assez de larmes !</l>
+                        <l n="937"> Je veux la mort !</l>
+                        <l n="938"> Dans les fers même</l>
+                        <l n="939"> Je t’ai bravé.</l>
+                        <l n="940"> Sois anathème !</l>
+                        <l n="941"> Sois réprouvé !</l>
+                        <l n="942"> Va, ton crime te dévore,</l>
+                        <l n="943"> Phœbus vers Dieu me conduit.</l>
+                        <l n="944"> Le ciel m’ouvre son aurore !</l>
+                        <l n="945"> L’enfer t’attend dans sa nuit !</l>
+            <stage><em>Un geôlier paraît. Claude Frollo lui fait signe d’emmener la Esmeralda, et sort, pendant qu’on entraîne la bohémienne.<a name="15" id="15"></a></em></stage></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#quasimodo">
+            <speaker> QUASIMODO. </speaker>
+                        <l n="946"> Mon Dieu ! j’aime,</l>
+                        <l n="947"> Hors moi-même,</l>
+                        <l n="948"> Tout ici !</l>
+                        <l n="949"> L’air qui passe</l>
+                        <l n="950"> Et qui chasse</l>
+                        <l n="951"> Mon souci !</l>
+                        <l n="952"> L’hirondelle</l>
+                        <l n="953"> Si fidèle</l>
+                        <l n="954"> Aux vieux toits !</l>
+                        <l n="955"> Les chapelles</l>
+                        <l n="956"> Sous les ailes</l>
+                        <l n="957"> De la croix !</l>
+                        <l n="958"> Toute rose</l>
+                        <l n="959"> Qui fleurit !</l>
+                        <l n="960"> Toute chose</l>
+                        <l n="961"> Qui sourit !</l>
+                        <l n="962"> Triste ébauche,</l>
+                        <l n="963"> Je suis gauche,</l>
+                        <l n="964"> Je suis laid.</l>
+                        <l n="965"> Point d’envie !</l>
+                        <l n="966"> C’est la vie</l>
+                        <l n="967"> Comme elle est !</l>
+                        <l n="968"> Joie ou peine,</l>
+                        <l n="969"> Nuit d’ébène</l>
+                        <l n="970"> Ou ciel bleu,</l>
+                        <l n="971"> Que m’importe !</l>
+                        <l n="972"> Toute porte</l>
+                        <l n="973"> Mène à Dieu !</l>
+                        <l n="974"> Noble lame,</l>
+                        <l n="975"> Vil fourreau,</l>
+                        <l n="976"> Dans mon âme</l>
+                        <l n="977"> Je suis beau !</l>
+                        <l n="978"> Cloches grosses et frêles,</l>
+                        <l n="979"> Sonnez, sonnez toujours !</l>
+                        <l n="980"> Confondez vos voix grêles</l>
+                        <l n="981"> Et vos murmures sourds !</l>
+                        <l n="982"> Chantez dans les tourelles !</l>
+                        <l n="983"> Bourdonnez dans les tours !</l>
+                        <l n="984"> Çà, qu’on sonne !</l>
+                        <l n="985"> Qu’à grand bruit</l>
+                        <l n="986"> On bourdonne</l>
+                        <l n="987"> Jour et nuit !</l>
+                        <l n="988"> Nos fêtes seront splendides.</l>
+                        <l n="989"> Aidé par vous, j’en réponds.</l>
+                        <l n="990"> Sautez à bonds plus rapides</l>
+                        <l n="991"> Dans les airs que nous frappons !</l>
+                        <l n="992"> Voilà les bourgeois stupides</l>
+                        <l n="993"> Qui se hâtent sur les ponts !</l>
+                        <l n="994"> Ça, qu’on sonne,</l>
+                        <l n="995"> Qu’on bourdonne</l>
+                        <l n="996"> Jour et nuit !</l>
+                        <l n="997"> Toute fête</l>
+                        <l n="998"> Se complète</l>
+                        <l n="999"> Par le bruit !</l>
+            <stage><em>Il se retourne vers la façade de l’église.</em></stage>
+                        <l n="1000"> J’ai vu dans la chapelle une tenture noire !</l>
+                        <l n="1001"> Hélas ! va-t-on traîner quelque misère ici ?</l>
+                        <l n="1002"> Dieu ! quel pressentiment... Non, je n’y veux pas croire !</l>
+            <stage><em>Entrent Claude Frollo et Clopin, sans voir Quasimodo.</em></stage>
+                        <l n="1003"> C’est mon maître. – Observons. – Il est bien sombre aussi.</l>
+            <stage><em>Il se cache dans un angle obscur du portail.</em></stage>
+                        <l n="1004"> Ô ma maîtresse ! ô Notre-Dame !</l>
+                        <l n="1005"> Prenez mes jours, sauvez son âme !</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="1006"> Donc Phœbus est à Montfort ?</l>
+                </sp>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN. </speaker>
+                        <l n="1007"> Monseigneur, il n’est pas mort !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="1008"> Pourvu qu’ici rien ne l’amène !</l>
+                </sp>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN. </speaker>
+                        <l n="1009"> Ne vous en mettez pas en peine,</l>
+                        <l n="1010"> Il est trop faible encor pour un si long chemin.</l>
+                        <l n="1011"> S’il venait, sa mort serait sûre.</l>
+                        <l n="1012"> Monseigneur, soyez-en certain,</l>
+                        <l n="1013"> Chaque pas qu’il ferait rouvrirait sa blessure.</l>
+                        <l n="1014"> Ne craignez rien pour ce matin.</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="1015"> Ah ! qu’aujourd’hui du moins seul je la tienne,</l>
+                        <l n="1016"> Pour vivre ou mourir, dans ma main !</l>
+                        <l n="1017"> Enfer ! pour aujourd’hui je te donne demain !</l>
+            <stage><em>À Clopin.</em></stage>
+                        <l n="1018"> Bientôt on va mener ici l’égyptienne.</l>
+                        <l n="1019"> Toi, que de tout il te souvienne !</l>
+            <stage><em>Duo.</em></stage>
+                        <l n="1020"> Sur la place avec les tiens...</l>
+                </sp>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN. </speaker>
+                        <l n="1021"> Bien.</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="1022"> Tiens-toi dans l’ombre.</l>
+                        <l n="1023"> Si je crie : À moi ! tu viens.</l>
+                </sp>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN. </speaker>
+                        <l n="1024"> Oui.</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="1025"> Soyez en nombre.</l>
+                </sp>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN. </speaker>
+                        <l n="1026"> Donc si vous criez : À moi !...</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="1027"> Oui.</l>
+                </sp>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN. </speaker>
+                        <l n="1028"> J’accours près d’elle,</l>
+                        <l n="1029"> Je l’arrache aux gens du roi...</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="1030"> Bien.</l>
+                </sp>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN. </speaker>
+                        <l n="1031"> À vous la belle !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="1032"> À la foule mêlez-vous.</l>
+                        <l n="1033"> Et peut-être</l>
+                        <l n="1034"> Ce cœur deviendra plus doux</l>
+                        <l n="1035"> Pour le prêtre.</l>
+                        <l n="1036"> Alors vous accourez tous...</l>
+                </sp>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN. </speaker>
+                        <l n="1037"> Oui, mon maître.</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="1038"> Tenez-vous partout serrés.</l>
+                </sp>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN. </speaker>
+                        <l n="1039"> Oui.</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="1040"> Cachez vos armes</l>
+                        <l n="1041"> Pour ne pas donner d’alarmes.</l>
+                </sp>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN. </speaker>
+                        <l n="1042"> Maître, vous verrez.</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="1043"> Mais que l’enfer la remporte,</l>
+                        <l n="1044"> Compagnon,</l>
+                        <l n="1045"> Si la folle à cette porte</l>
+                        <l n="1046"> Me dit non !</l>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="1047"> Destinée ! ô jeu funeste !</l>
+                        <l n="1048"> Ami, je compte sur toi.</l>
+                        <l n="1049"> Sur la chance qui me reste</l>
+                        <l n="1050"> Je me penche avec effroi. </l>
+                </sp>
+        <sp who="#clopin-trouillefou">
+            <speaker> CLOPIN. </speaker>
+                        <l n="1051"> Ne craignez rien de funeste,</l>
+                        <l n="1052"> Monseigneur, comptez sur moi.</l>
+                        <l n="1053"> À la chance qui vous reste</l>
+                        <l n="1054"> Confiez-vous sans effroi.</l>
+            <stage><em>Ils sortent avec précaution. Le peuple commence à arriver sur la place.</em></stage></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+                        <l n="1055"> À Notre-Dame</l>
+                        <l n="1056"> Venez tous voir</l>
+                        <l n="1057"> La jeune femme</l>
+                        <l n="1058"> Qui meurt ce soir !</l>
+                        <l n="1059"> Cette bohémienne</l>
+                        <l n="1060"> A poignardé, je croi,</l>
+                        <l n="1061"> Un archer capitaine,</l>
+                        <l n="1062"> Le plus beau qu’ait le roi !</l>
+                        <l n="1063"> Eh quoi ! si belle</l>
+                        <l n="1064"> Et si cruelle !</l>
+                        <l n="1065"> Entendez-vous ?</l>
+                        <l n="1066"> Comment y croire ?</l>
+                        <l n="1067"> L’âme si noire</l>
+                        <l n="1068"> Et l’œil si doux !</l>
+                        <l n="1069"> C’est une chose affreuse !</l>
+                        <l n="1070"> Ce que c’est que de nous !</l>
+                        <l n="1071"> La pauvre malheureuse !</l>
+                        <l n="1072"> Venez, accourez tous !</l>
+                        <l n="1073"> À Notre-Dame</l>
+                        <l n="1074"> Venez tous voir</l>
+                        <l n="1075"> La jeune femme</l>
+                        <l n="1076"> Qui meurt ce soir !</l>
+            <stage><em>La foule grossit. Rumeur. Un cortège sinistre commence à déboucher sur la place du Parvis. Files de pénitents noirs. Bannières de la Miséricorde. Flambeaux. Archers. Gens de justice et du guet. Les soldats écartent la foule. Paraît la Esmeralda, en chemise, la corde au cou, pieds nus, couverte d’un grand crêpe noir. Près d’elle, un moine avec un crucifix. Derrière elle, les bourreaux et les gens du roi. Quasimodo, appuyé aux contreforts du portail, observe avec attention. Au moment où la condamnée arrive devant la façade, on entend un chant grave et lointain venir de l’intérieur de l’église, dont les portes sont fermées.</em></stage>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR, dans l’église. </speaker>
+            <stage><em>Omnes fluctus fluminis</em></stage>
+            <stage><em>Transierunt super me</em></stage>
+            <stage><em>In imo voraginis</em></stage>
+            <stage><em>Ubi plorant animæ.</em></stage>
+            <stage><em>Le chant s’approche lentement. Il éclate enfin près des portes, qui s’ouvrent tout à coup et laissent voir l’intérieur de l’église occupé par une longue procession de prêtres en habits de cérémonie et précédés de bannières. Claude Frollo, en costume sacerdotal, est en tête de la procession. Il s’avance vers la condamnée.</em></stage>
+                </sp>
+        <sp who="#peuple">
+            <speaker> LE PEUPLE. </speaker>
+                        <l n="1077"> Vive aujourd’hui, morte demain !</l>
+                        <l n="1078"> Doux Jésus, tendez-lui la main !</l>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="1079"> C’est mon Phœbus qui m’appelle</l>
+                        <l n="1080"> Dans la demeure éternelle</l>
+                        <l n="1081"> Où Dieu nous tient sous son aile !</l>
+                        <l n="1082"> Béni soit mon sort cruel !</l>
+                        <l n="1083"> Au fond de tant de misère,</l>
+                        <l n="1084"> Mon cœur qui se brise espère.</l>
+                        <l n="1085"> Je vais mourir pour la terre,</l>
+                        <l n="1086"> Je vais naître pour le ciel !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="1087"> Mourir si jeune, si belle !</l>
+                        <l n="1088"> Hélas ! le prêtre infidèle</l>
+                        <l n="1089"> Est bien plus condamné qu’elle !</l>
+                        <l n="1090"> Mon supplice est éternel.</l>
+                        <l n="1091"> Pauvre fille de misère,</l>
+                        <l n="1092"> Que j’ai prise dans ma serre,</l>
+                        <l n="1093"> Tu vas mourir pour la terre !</l>
+                        <l n="1094"> Moi, je suis mort pour le ciel !</l>
+                </sp>
+        <sp who="#peuple">
+            <speaker> LE PEUPLE. </speaker>
+                        <l n="1095"> Hélas ! c’est une infidèle !</l>
+                        <l n="1096"> Le ciel, qui tous nous appelle,</l>
+                        <l n="1097"> N’a point de portes pour elle.</l>
+                        <l n="1098"> Son supplice est éternel.</l>
+                        <l n="1099"> La mort, oh ! quelle misère !</l>
+                        <l n="1100"> La tient dans sa double serre ;</l>
+                        <l n="1101"> Elle est morte pour la terre !</l>
+                        <l n="1102"> Elle est morte pour le ciel !</l>
+            <stage><em>La procession s’approche, Claude aborde la Esmeralda.</em></stage>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA, glacée de terreur. </speaker>
+                        <l n="1103"> C’est le prêtre !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO, bas. </speaker>
+                        <l n="1104"> Oui, c’est moi ; je t’aime et je t’implore.</l>
+                        <l n="1105"> Dis un seul mot, je puis encore,</l>
+                        <l n="1106"> Je puis encore te sauver.</l>
+                        <l n="1107"> Dis-moi : Je t’aime.</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="1108"> Je t’abhorre.</l>
+                        <l n="1109"> Va-t’en.</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="1110"> Alors meurs donc ! j’irai te retrouver.</l>
+            <stage><em>Il se tourne vers la foule.</em></stage>
+                        <l n="1111"> Peuple, au bras séculier nous livrons cette femme.</l>
+                        <l n="1112"> À ce suprême instant, puisse sur sa pauvre âme</l>
+                        <l n="1113"> Passer le souffle du Seigneur !</l>
+            <stage><em>Au moment où les hommes de justice mettent la main sur la Esmeralda, Quasimodo saute dans la place, repousse les archers, saisit la Esmeralda dans ses bras, et se jette dans l’église avec elle.</em></stage>
+                </sp>
+        <sp who="#quasimodo">
+            <speaker> QUASIMODO. </speaker>
+                        <l n="1114"> Asile ! asile ! asile !</l>
+                </sp>
+        <sp who="#peuple">
+            <speaker> LE PEUPLE. </speaker>
+                        <l n="1115"> Asile ! asile ! asile !</l>
+                        <l n="1116"> Noël, gens de la ville !</l>
+                        <l n="1117"> Noël au bon sonneur !</l>
+                        <l n="1118"> Ô destinée !</l>
+                        <l n="1119"> La condamnée</l>
+                        <l n="1120"> Est au Seigneur.</l>
+                        <l n="1121"> Le gibet tombe,</l>
+                        <l n="1122"> Et l’Éternel,</l>
+                        <l n="1123"> Au lieu de tombe,</l>
+                        <l n="1124"> Ouvre l’autel.</l>
+                        <l n="1125"> Bourreaux, arrière,</l>
+                        <l n="1126"> Et gens du roi !</l>
+                        <l n="1127"> Cette barrière</l>
+                        <l n="1128"> Borne la loi.</l>
+                        <l n="1129"> C’est toi qui changes</l>
+                        <l n="1130"> Tout en ce lieu.</l>
+                        <l n="1131"> Elle est aux anges,</l>
+                        <l n="1132"> Elle est à Dieu !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO, faisant faire silence d’un geste. </speaker>
+                        <l n="1133"> Elle n’est pas sauvée, elle est égyptienne.</l>
+                        <l n="1134"> Notre-Dame ne peut sauver qu’une chrétienne.</l>
+                        <l n="1135"> Même embrassant l’autel les païens sont proscrits.</l>
+            <stage><em>Aux gens du roi.</em></stage>
+                        <l n="1136"> Au nom de monseigneur l’évêque de Paris,</l>
+                        <l n="1137"> Je vous rends cette femme impure.</l>
+                </sp>
+        <sp who="#quasimodo">
+            <speaker> QUASIMODO, aux archers. </speaker>
+                        <l n="1138"> Je la défendrai, je le jure !</l>
+                        <l n="1139"> N’approchez pas.</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO, aux archers. </speaker>
+                        <l n="1140"> Vous hésitez !</l>
+                        <l n="1141"> Obéissez à l’instant même.</l>
+                        <l n="1142"> Arrachez du saint lieu cette fille bohème.</l>
+            <stage><em>Les archers s’avancent. Quasimodo se place entre eux et la Esmeralda.</em></stage>
+                </sp>
+        <sp who="#quasimodo">
+            <speaker> QUASIMODO. </speaker>
+                        <l n="1143"> Jamais !</l>
+            <stage><em>On entend un cavalier accourir et crier du dehors.</em></stage>
+                        <l n="1144"> Arrêtez !</l>
+            <stage><em>La foule s’écarte.</em></stage>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS, apparaissant à cheval, pâle, haletant, épuisé comme un homme qui vient de faire une longue course. </speaker>
+                        <l n="1145"> Arrêtez !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="1146"> Phœbus !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO, à part, terrifié. </speaker>
+                        <l n="1147"> La trame se déchire !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS, se jetant à bas du cheval. </speaker>
+                        <l n="1148"> Dieu soit loué ! je respire.</l>
+                        <l n="1149"> J’arrive à temps. Celle-ci</l>
+                        <l n="1150"> Est innocente, et voici</l>
+                        <l n="1151"> Mon assassin !</l>
+            <stage><em>Il désigne Claude Frollo.</em></stage>
+                </sp>
+        <sp who="#tous">
+            <speaker> TOUS. </speaker>
+                        <l n="1152"> Ciel ! le prêtre ?</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="1153"> Le prêtre est seul coupable, et je le prouverai.</l>
+                        <l n="1154"> Qu’on l’arrête.</l>
+                </sp>
+        <sp who="#peuple">
+            <speaker> LE PEUPLE. </speaker>
+                        <l n="1155"> Ô surprise !</l>
+            <stage><em>Les archers entourent Claude Frollo.</em></stage>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="1156"> Ah ! Dieu seul est le maître !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="1157"> Phœbus !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="1158"> Esmeralda !</l>
+            <stage><em>Ils se jettent dans les bras l’un de l’autre.</em></stage>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="1159"> Mon Phœbus adoré !</l>
+                        <l n="1160"> Nous vivrons.</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS. </speaker>
+                        <l n="1161"> Tu vivras.</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="1162"> Pour nous le bonheur brille.</l>
+                </sp>
+        <sp who="#peuple">
+            <speaker> LE PEUPLE. </speaker>
+                        <l n="1163"> Vivez tous deux !</l>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="1164"> Entends ces joyeuses clameurs !</l>
+                        <l n="1165"> À tes pieds reçois l’humble fille.</l>
+                        <l n="1166"> – Ciel ! tu pâlis ! Qu’as-tu !</l>
+                </sp>
+        <sp who="#phœbus-de-châteaupers">
+            <speaker> PHŒBUS, chancelant. </speaker>
+                        <l n="1167"> Je meurs !</l>
+            <stage><em>Elle le reçoit dans ses bras. Attente et anxiété dans la foule.</em></stage>
+                        <l n="1168"> Chaque pas que j’ai fait vers toi, ma bien-aimée,</l>
+                        <l n="1169"> A rouvert ma blessure à peine encor fermée.</l>
+                        <l n="1170"> J’ai pris pour moi la tombe et te laisse le jour.</l>
+                        <l n="1171"> J’expire. Le sort te venge.</l>
+                        <l n="1172"> Je vais voir, ô mon pauvre ange,</l>
+                        <l n="1173"> Si le ciel vaut ton amour !</l>
+                        <l n="1174"> – Adieu !</l>
+            <stage><em>Il expire.</em></stage>
+                </sp>
+        <sp who="#la-esmeralda">
+            <speaker> LA ESMERALDA. </speaker>
+                        <l n="1175"> Phœbus ! il meurt ! en un instant tout change !</l>
+            <stage><em>Elle tombe sur son corps.</em></stage>
+                        <l n="1176"> Je te suis dans l’éternité !</l>
+                </sp>
+        <sp who="#claude-frollo">
+            <speaker> CLAUDE FROLLO. </speaker>
+                        <l n="1177"> Fatalité !</l>
+                </sp>
+        <sp who="#peuple">
+            <speaker> LE PEUPLE. </speaker>
+                        <l n="1178"> Fatalité !</l>
+                        <l n="1179"> </l>
+                        <l n="1180"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

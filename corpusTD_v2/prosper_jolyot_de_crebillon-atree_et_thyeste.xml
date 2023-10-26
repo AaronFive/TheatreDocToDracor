@@ -1,0 +1,2287 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Atrée et Thyeste</title>
+                <title type="sub">Tragédie</title>
+            <author>
+                <persName>
+                    <forename>Prosper</forename>
+                    <forename>Jolyot</forename>
+                    <linkname>de</linkname>
+                    <surname>Crébillon</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/?q=node/171 </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1707-03-14">Représentée pour la première fois, à Paris, sur le Théâtre de la rue des Fossés Saint-Germain, le 14 mars 1707.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="atrée" sex="SEX">
+                            <persName>ATRÉE</persName>
+                        </person>
+                        <person xml:id="thyeste" sex="SEX">
+                            <persName>THYESTE</persName>
+                        </person>
+                        <person xml:id="plisthène" sex="SEX">
+                            <persName>PLISTHÈNE</persName>
+                        </person>
+                        <person xml:id="théodamie" sex="SEX">
+                            <persName>THÉODAMIE</persName>
+                        </person>
+                        <person xml:id="euristhène" sex="SEX">
+                            <persName>EURISTHÈNE</persName>
+                        </person>
+                        <person xml:id="alcimédon" sex="SEX">
+                            <persName>ALCIMÉDON</persName>
+                        </person>
+                        <person xml:id="thessandre" sex="SEX">
+                            <persName>THESSANDRE</persName>
+                        </person>
+                        <person xml:id="léonide" sex="SEX">
+                            <persName>LÉONIDE</persName>
+                        </person>
+                        <person xml:id="suite-d’atrée" sex="SEX">
+                            <persName>SUITE D’ATRÉE</persName>
+                        </person>
+                        <person xml:id="gardes" sex="SEX">
+                            <persName>GARDES</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Tragédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q80930]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">ATRÉE ET THYESTE</titlePart>
+            <titlePart type="sub">TRAGÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre de la rue des Fossés Saint-Germain, le 14 mars 1707.</ab><!--@date="1707-03-14"-->
+        </performance>
+           <div type="act" xml:id="1">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="1"> Avec l’éclat du jour, je vois enfin renaître</l>
+                        <l n="2"> L’espoir et la douceur de me venger d’un traître !</l>
+                        <l n="3"> Les vents, qu’un dieu contraire enchaînait loin de nous,</l>
+                        <l n="4"> Semblent avec les flots exciter mon courroux :</l>
+                        <l n="5"> Le calme, si longtemps fatal à ma vengeance,</l>
+                        <l n="6"> Avec mes ennemis n’est plus d’intelligence :</l>
+                        <l n="7"> Le soldat ne craint plus qu’un indigne repos</l>
+                        <l n="8"> Avilisse l’honneur de ses derniers travaux.</l>
+                        <l n="9"> Allez, Alcimédon ; que la flotte d’Atrée</l>
+                        <l n="10"> Se prépare à voguer loin de l’île d’Eubée :</l>
+                        <l n="11"> Puisque les dieux jaloux ne l’y retiennent plus,</l>
+                        <l n="12"> Portez à tous ses chefs mes ordres absolus.</l>
+            <stage><em>À ses gardes.</em></stage>
+                        <l n="13"> Que tout soit prêt. Et vous, que l’on cherche Plisthène ;</l>
+                        <l n="14"> Je l’attends en ces lieux. Toi, demeure, Euristhène.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="15"> Enfin ce jour heureux, ce jour tant souhaité,</l>
+                        <l n="16"> Ranime dans mon cœur l’espoir et la fierté ;</l>
+                        <l n="17"> Athènes, trop longtemps l’asile de Thyeste,</l>
+                        <l n="18"> Éprouvera bientôt le sort le plus funeste ;</l>
+                        <l n="19"> Mon fils, prêt à servir un si juste transport,</l>
+                        <l n="20"> Va porter dans ses murs et la flamme et la mort.        </l>
+                </sp>
+        <sp who="#euristhène">
+            <speaker> EURISTHÈNE. </speaker>
+                        <l n="21"> Ainsi, loin d’épargner l’infortuné Thyeste,</l>
+                        <l n="22"> Vous détruisez encor l’asile qui lui reste !</l>
+                        <l n="23"> Ah ! seigneur, si le sang qui vous unit tous deux</l>
+                        <l n="24"> N’est plus qu’un titre vain pour ce roi malheureux,</l>
+                        <l n="25"> Songez que rien ne peut mieux remplir votre envie</l>
+                        <l n="26"> Que le barbare soin de prolonger sa vie.</l>
+                        <l n="27"> Accablé des malheurs qu’il éprouve aujourd’hui,</l>
+                        <l n="28"> Le laisser vivre encor, c’est se venger de lui.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="29"> Que je l’épargne, moi ! lassé de le poursuivre,</l>
+                        <l n="30"> Pour me venger de lui, que je le laisse vivre !</l>
+                        <l n="31"> Ah ! quels que soient les maux que Thyeste ait soufferts,</l>
+                        <l n="32"> Il n’aura contre moi d’asile qu’aux enfers :</l>
+                        <l n="33"> Mon implacable cœur l’y poursuivrait encore,</l>
+                        <l n="34"> S’il pouvait s’y venger d’un traître que j’abhorre.</l>
+                        <l n="35"> Après l’indigne affront que m’a fait son amour            ,</l>
+                        <l n="36"> Je serai sans honneur tant qu’il verra le jour.</l>
+                        <l n="37"> Un ennemi qui peut pardonner une offense,</l>
+                        <l n="38"> Ou manque de courage, ou manque de puissance.</l>
+                        <l n="39"> Rien ne peut arrêter mes transports furieux :</l>
+                        <l n="40"> Je voudrais me venger, fût-ce même des dieux.          </l>
+                        <l n="41"> Du plus puissant de tous j’ai reçu la naissance ;</l>
+                        <l n="42"> Je le sens au plaisir que me fait la vengeance.</l>
+                        <l n="43"> Enfin mon cœur se plaît dans cette inimitié ;</l>
+                        <l n="44"> Et s’il a des vertus, ce n’est pas la pitié.</l>
+                        <l n="45"> Ne m’oppose donc plus un sang que je déteste ;        </l>
+                        <l n="46"> Ma raison m’abandonne au seul nom de Thyeste :</l>
+                        <l n="47"> Instruit par ses fureurs à ne rien ménager,</l>
+                        <l n="48"> Dans les flots de son sang je voudrais le plonger.</l>
+                        <l n="49"> Qu’il n’accuse que lui du malheur qui l’accable ;</l>
+                        <l n="50"> Le sang qui nous unit me rend-il seul coupable ?</l>
+                        <l n="51"> D’un criminel amour le perfide enivré,</l>
+                        <l n="52"> A-t-il eu quelque égard pour un nœud si sacré ?</l>
+                        <l n="53"> Mon cœur, qui sans pitié lui déclare la guerre,</l>
+                        <l n="54"> Ne cherche à le punir qu’au défaut du tonnerre.</l>
+                </sp>
+        <sp who="#euristhène">
+            <speaker> EURISTHÈNE. </speaker>
+                        <l n="55"> Depuis vingt ans entiers ce courroux affaibli</l>
+                        <l n="56"> Semblait pourtant laisser Thyeste dans l’oubli.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="57"> Dis plutôt qu’à punir mon âme ingénieuse</l>
+                        <l n="58"> Méditait dès ce temps une vengeance affreuse :</l>
+                        <l n="59"> Je n’épargnais l’ingrat que pour mieux l’accabler :</l>
+                        <l n="60"> C’est un projet enfin à te faire trembler.</l>
+                        <l n="61"> Instruit des noirs transports où mon âme est livrée,</l>
+                        <l n="62"> Lis mieux dans le secret et dans le cœur d’Atrée :</l>
+                        <l n="63"> Je ne veux découvrir l’un et l’autre qu’à toi ;</l>
+                        <l n="64"> Et je te les cachais, sans soupçonner ta foi.</l>
+                        <l n="65"> Écoute. Il te souvient de ce triste hyménée</l>
+                        <l n="66"> Qui d’Ærope à mon sort unit la destinée :</l>
+                        <l n="67"> Cet hymen me mettait au comble de mes vœux ;</l>
+                        <l n="68"> Mais à peine aux autels j’en eus formé les nœuds,</l>
+                        <l n="69"> Qu’à ces mêmes autels, et par la main d’un frère,</l>
+                        <l n="70"> Je me vis enlever une épouse si chère.</l>
+                        <l n="71"> Tes yeux furent témoins des transports de mon cœur :</l>
+                        <l n="72"> À peine mon amour égalait ma fureur ;</l>
+                        <l n="73"> Jamais amant trahi ne l’a plus signalée.</l>
+                        <l n="74"> Mycènes, tu le sais, sans pitié désolée,</l>
+                        <l n="75"> Par le fer et le feu vit déchirer son sein ;           </l>
+                        <l n="76"> Mon amour outragé me rendit inhumain.</l>
+                        <l n="77"> Enfin par ma valeur Ærope recouvrée</l>
+                        <l n="78"> Après un an revint entre les mains d’Atrée.</l>
+                        <l n="79"> Quoique déjà l’hymen, ou plutôt le dépit,</l>
+                        <l n="80"> Eussent depuis ce temps mis une autre en mon lit,</l>
+                        <l n="81"> Malgré tous les appas d’une épouse nouvelle,</l>
+                        <l n="82"> Ærope à mes regards n’en parut que plus belle.</l>
+                        <l n="83"> Mais en vain mon amour brûlait de nouveaux feux,</l>
+                        <l n="84"> Elle avait à Thyeste engagé tous ses vœux ;</l>
+                        <l n="85"> Et liée à l’ingrat d’une secrète chaîne,</l>
+                        <l n="86"> Ærope, le dirai-je ? en eut pour fruit Plisthène.</l>
+                </sp>
+        <sp who="#euristhène">
+            <speaker> EURISTHÈNE. </speaker>
+                        <l n="87"> Dieux ! qu’est-ce que j’entends ? Quoi ! Plisthène, seigneur,</l>
+                        <l n="88"> Reconnu dans Argos pour votre successeur,</l>
+                        <l n="89"> Pour votre fils, enfin ?</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="90"> C’est lui-même, Euristhène :</l>
+                        <l n="91"> C’est ce même guerrier, c’est ce même Plisthène</l>
+                        <l n="92"> Que ma cour aujourd’hui croit encor, sous ce nom,</l>
+                        <l n="93"> Frère de Ménélas, frère d’Agamemnon.</l>
+                        <l n="94"> Tu sais, pour me venger de sa perfide mère,</l>
+                        <l n="95"> À quel excès fatal me porta ma colère :</l>
+                        <l n="96"> Heureux, si le poison qui servit ma fureur</l>
+                        <l n="97"> De mon indigne amour eût étouffé l’ardeur !</l>
+                        <l n="98"> Celui de l’infidèle éclatait pour Thyeste</l>
+                        <l n="99"> Au milieu des horreurs du sort le plus funeste.</l>
+                        <l n="100"> Je ne puis sans frémir y penser aujourd’hui :</l>
+                        <l n="101"> Ærope, en expirant, brûlait encor pour lui ;</l>
+                        <l n="102"> Voilà ce qu’en un mot surprit ma vigilance</l>
+                        <l n="103"> À ceux qui de l’ingrate avaient la confidence.</l>
+            <stage><em>Il lui montre en ce moment une lettre d’Ærope. </em></stage>
+                </sp>
+        <sp who="#lettre-d’ærope">
+            <speaker> Lettre d’Ærope. </speaker>
+                        <l n="104"> « D’Atrée en ce moment j’éprouve le courroux,</l>
+                        <l n="105"> « Cher Thyeste, et je meurs sans regretter la vie :</l>
+                        <l n="106"> « Puisque je ne l’aimais que pour vivre avec vous,</l>
+                        <l n="107"> « Je ne murmure point qu’elle me soit ravie.</l>
+                        <l n="108"> « Plisthène fut le fruit de nos tristes amours :</l>
+                        <l n="109"> « S’il passe jusqu’à vous, prenez soin de ses jours ;</l>
+                        <l n="110"> « Qu’il fasse quelquefois ressouvenir son père</l>
+                        <l n="111"> « Du malheureux amour qu’avait pour lui sa mère. »</l>
+                        <l n="112"> Juge de quel succès ses soins furent suivis :</l>
+                        <l n="113"> Je retins à la fois son billet et son fils.</l>
+                        <l n="114"> Je voulus étouffer ce monstre en sa naissance,</l>
+                        <l n="115"> Mais mon cœur plus prudent l’adopta par vengeance ;        </l>
+                        <l n="116"> Et, méditant dès lors le plus affreux projet,</l>
+                        <l n="117"> Je le fis au palais apporter en secret.</l>
+                        <l n="118"> Un fils venait de naître à la nouvelle reine :</l>
+                        <l n="119"> Pour remplir mes projets, je le nommai Plisthène,</l>
+                        <l n="120"> Et mis le fils d’Ærope au berceau de ce fils,</l>
+                        <l n="121"> Dont depuis m’ont privé les destins ennemis.</l>
+                        <l n="122"> C’est sous un nom si cher qu’Argos l’a vu paraître ;</l>
+                        <l n="123"> Je fis périr tous ceux qui pouvaient le connaître ;</l>
+                        <l n="124"> Et, laissant ce secret entre les dieux et moi,</l>
+                        <l n="125"> Je ne l’ai jusqu’ici confié qu’à ta foi.</l>
+                        <l n="126"> Après ce que tu sais, sans que je te l’apprenne,</l>
+                        <l n="127"> Tu vois à quel dessein j’ai conservé Plisthène,</l>
+                        <l n="128"> Et, puisque la pitié n’a point sauvé ses jours,</l>
+                        <l n="129"> À quel usage enfin j’en destine le cours.</l>
+                </sp>
+        <sp who="#euristhène">
+            <speaker> EURISTHÈNE. </speaker>
+                        <l n="130"> Quoi ! seigneur, sans frémir du transport qui vous guide,</l>
+                        <l n="131"> Vous pourriez réserver Plisthène au parricide ?</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="132"> Oui, je veux que ce fruit d’un amour odieux</l>
+                        <l n="133"> Signale quelque jour ma fureur en ces lieux ;</l>
+                        <l n="134"> Sous le nom de mon fils, utile à ma colère,</l>
+                        <l n="135"> Qu’il porte le poignard dans le sein de son père ;</l>
+                        <l n="136"> Que Thyeste en mourant, de son malheur instruit,</l>
+                        <l n="137"> De ses lâches amours reconnaisse le fruit.</l>
+                        <l n="138"> Oui, je veux que, baigné dans le sang de ce traître,</l>
+                        <l n="139"> Plisthène verse un jour le sang qui l’a fait naître,</l>
+                        <l n="140"> Et que le sien après, par mes mains répandu,</l>
+                        <l n="141"> Dans sa source à l’instant se trouve confondu.</l>
+                        <l n="142"> Contre Thyeste enfin tout paraît légitime,</l>
+                        <l n="143"> Je n’arme contre lui que le fruit de son crime :</l>
+                        <l n="144"> Son forfait mit au jour ce prince malheureux ;</l>
+                        <l n="145"> Il faut, par un forfait, les en priver tous deux.</l>
+                        <l n="146"> Thyeste est sans soupçons, et son âme abusée</l>
+                        <l n="147"> Ne me croit occupé que de l’île d’Eubée :</l>
+                        <l n="148"> Je ne suis en effet descendu dans ces lieux</l>
+                        <l n="149"> Que pour mieux dérober mon secret à ses yeux.</l>
+                        <l n="150"> Athènes, disposée à servir ma vengeance,</l>
+                        <l n="151"> Avec moi dès longtemps agit d’intelligence ;</l>
+                        <l n="152"> Et son roi, craignant tout de ma juste fureur,</l>
+                        <l n="153"> De son nom seulement cherche à couvrir l’honneur.</l>
+                        <l n="154"> Du jour que mes vaisseaux menaceront Athènes,</l>
+                        <l n="155"> De ce jour tu verras Thyeste dans mes chaînes :</l>
+                        <l n="156"> Ma flotte me répond de ce qu’on m’a promis ;</l>
+                        <l n="157"> Je répondrai bientôt et du père et du fils.</l>
+                </sp>
+        <sp who="#euristhène">
+            <speaker> EURISTHÈNE. </speaker>
+                        <l n="158"> Eh bien ! sur votre frère épuisez votre haine ;</l>
+                        <l n="159"> Mais du moins épargnez les vertus de Plisthène.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="160"> Plisthène, né d’un sang au crime accoutumé,</l>
+                        <l n="161"> Ne démentira point le sang qui l’a formé ;</l>
+                        <l n="162"> Et comme il a déjà tous les traits de sa mère,</l>
+                        <l n="163"> Il aurait quelque jour les vices de son père.</l>
+                        <l n="164"> Quel peut être le fruit d’un couple incestueux ?</l>
+                        <l n="165"> Moi-même j’avais cru Thyeste vertueux :</l>
+                        <l n="166"> Il m’a trompé ; son fils me tromperait de même.</l>
+                        <l n="167"> D’ailleurs il lui faudrait laisser mon diadème ;</l>
+                        <l n="168"> Le titre de mon fils l’assure de ce rang :</l>
+                        <l n="169"> En faudra-t-il pour lui priver mon propre sang ?</l>
+                        <l n="170"> Que dis-je ? pour venger l’affront le plus funeste,</l>
+                        <l n="171"> En dépouiller mes fils pour le fils de Thyeste ?</l>
+                        <l n="172"> C’est ma seule fureur qui prolonge ses jours ;</l>
+                        <l n="173"> Il est temps désormais qu’elle en tranche le cours :</l>
+                        <l n="174"> Je veux, par les forfaits où ma haine me livre,</l>
+                        <l n="175"> Me payer des moments que je l’ai laissé vivre.</l>
+                        <l n="176"> Que l’on approuve ou non un dessein si fatal,</l>
+                        <l n="177"> Il m’est doux de verser tout le sang d’un rival.</l>
+                        <l n="178"> Mais Plisthène paraît. Songe que ma vengeance</l>
+                        <l n="179"> Renferme des secrets consacrés au silence.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="180"> Prince, cet heureux jour, mais si lent à mon gré,         </l>
+                        <l n="181"> Presse enfin un départ trop longtemps différé ;</l>
+                        <l n="182"> Tout semble en ce moment proscrire un infidèle.</l>
+                        <l n="183"> La mer mugit au loin, et le vent vous appelle :</l>
+                        <l n="184"> Le soldat, dont ce bruit a réveillé l’ardeur,</l>
+                        <l n="185"> Au seul nom de son chef, se croit déjà vainqueur ;</l>
+                        <l n="186"> Il n’en attend pas moins de sa valeur suprême,</l>
+                        <l n="187"> Que ce qu’en vit Élis, Rhodes, cette île même :</l>
+                        <l n="188"> Et moi, que ce héros ne sert point à demi,</l>
+                        <l n="189"> J’en attends encor plus que n’en craint l’ennemi.</l>
+                        <l n="190"> Je connais de ce chef la valeur et le zèle,</l>
+                        <l n="191"> Je sais que je n’ai point de sujet plus fidèle :</l>
+                        <l n="192"> Aujourd’hui cependant souffrez sans murmurer</l>
+                        <l n="193"> Que votre père encor cherche à s’en assurer.</l>
+                        <l n="194"> L’affront est grand, l’ardeur de s’en venger extrême :</l>
+                        <l n="195"> Jurez-moi donc, mon fils, par les dieux, par moi-même,</l>
+                        <l n="196"> Si le destin pour nous se déclare jamais,</l>
+                        <l n="197"> Que vous me vengerez au gré de mes souhaits.</l>
+                        <l n="198"> Oui, je puis m’en flatter, je connais trop Plisthène ;</l>
+                        <l n="199"> Plus ardent que moi-même, il servira ma haine ;</l>
+                        <l n="200"> À peine mon courroux égale son grand cœur :</l>
+                        <l n="201"> Il vengera son père.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="202"> En doutez-vous, seigneur ?</l>
+                        <l n="203"> Eh ! depuis quand ma foi vous est-elle suspecte ?</l>
+                        <l n="204"> Avez-vous des desseins que mon cœur ne respecte ?</l>
+                        <l n="205"> Ah ! si vous en doutiez, de mon sang le plus pur...</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="206"> Mon fils, sans en douter, je veux en être sûr.</l>
+                        <l n="207"> Jurez-moi qu’à mes lois votre main asservie</l>
+                        <l n="208"> Vengera mes affronts au gré de mon envie.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="209"> Seigneur, je n’ai point cru que, pour servir mon roi</l>
+                        <l n="210"> Il fallût exciter ni ma main, ni ma foi.</l>
+                        <l n="211"> Faut-il par des serments que mon cœur vous rassure ?         </l>
+                        <l n="212"> Le soupçonner, seigneur, c’est lui faire une injure :</l>
+                        <l n="213"> Vous me verrez toujours contre vos ennemis</l>
+                        <l n="214"> Remplir tous les devoirs de sujet et de fils.</l>
+                        <l n="215"> Oui, j’atteste des dieux la majesté sacrée,</l>
+                        <l n="216"> Que je serai soumis aux volontés d’Atrée ;</l>
+                        <l n="217"> Que par moi seul enfin son courroux assouvi</l>
+                        <l n="218"> Fera voir à quel point je lui suis asservi.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="219"> Ainsi, prêt à punir l’ennemi qui m’offense,</l>
+                        <l n="220"> Je puis tout espérer de votre obéissance ;</l>
+                        <l n="221"> Et le lâche, à mes yeux par vos mains égorgé,</l>
+                        <l n="222"> Ne triomphera plus de m’avoir outragé.</l>
+                        <l n="223"> Allez : que votre bras, à l’Attique funeste,</l>
+                        <l n="224"> S’apprête à m’immoler le perfide Thyeste.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="225"> Moi, seigneur ?</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="226"> Oui, mon fils. D’où naît ce changement ?</l>
+                        <l n="227"> Quel repentir succède à votre empressement ?</l>
+                        <l n="228"> Quelle était donc l’ardeur que vous faisiez paraître ?</l>
+                        <l n="229"> Tremblez-vous, lorsqu’il faut me délivrer d’un traître ?</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="230"> Non. Mais daignez m’armer pour un emploi plus beau :</l>
+                        <l n="231"> Je serai son vainqueur, et non pas son bourreau.</l>
+                        <l n="232"> Songez-vous bien quel nœud vous unit l’un et l’autre ?       </l>
+                        <l n="233"> En répandant son sang, je répandrais le vôtre.</l>
+                        <l n="234"> Ah ! seigneur ! est-ce ainsi que l’on surprend ma foi ?</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="235"> Les dieux m’en sont garants ; c’en est assez pour moi.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="236"> Juste ciel !</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="237"> J’entrevois dans votre âme interdite</l>
+                        <l n="238"> De secrets sentiments dont la mienne s’irrite.</l>
+                        <l n="239"> Étouffez des regrets désormais superflus ;</l>
+                        <l n="240"> Partez, obéissez, et ne répliquez plus.</l>
+                        <l n="241"> Des bords athéniens j’attends quelque nouvelle.</l>
+                        <l n="242"> Vous, cependant, volez où l’honneur vous appelle :</l>
+                        <l n="243"> Que ma flotte avec vous se dispose à partir ;</l>
+                        <l n="244"> Et quand tout sera prêt, venez m’en avertir :</l>
+                        <l n="245"> Je veux de ce départ être témoin moi-même.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="246"> Qu’ai-je fait, malheureux ! quelle imprudence extrême !</l>
+                        <l n="247"> Je ne sais quel effroi s’empare de mon cœur ;</l>
+                        <l n="248"> Mais tout mon sang se glace, et je frémis d’horreur.</l>
+                        <l n="249"> Dieux, que dans mes serments malgré moi j’intéresse,</l>
+                        <l n="250"> Perdez le souvenir d’une indigne promesse ;</l>
+                        <l n="251"> Ou recevez ici le serment que je fais,</l>
+                        <l n="252"> En dussé-je périr, de n’obéir jamais.</l>
+                        <l n="253"> Mais pourquoi m’alarmer d’un serment si funeste ?</l>
+                        <l n="254"> Que peut craindre un grand cœur quand sa vertu lui reste ?</l>
+                        <l n="255"> Athènes me répond d’un trépas glorieux ;</l>
+                        <l n="256"> Et j’y cours m’affranchir d’un serment odieux.</l>
+                        <l n="257"> Survivre aux maux cruels dont le destin m’accable,</l>
+                        <l n="258"> Ce serait, plus que lui, m’en rendre un jour coupable.</l>
+                        <l n="259"> Haï, persécuté, chargé d’un crime affreux,</l>
+                        <l n="260"> Dévoré sans espoir d’un amour malheureux,</l>
+                        <l n="261"> Malgré tant de mépris, que je chéris encore,</l>
+                        <l n="262"> La mort est désormais le seul dieu que j’implore ;</l>
+                        <l n="263"> Trop heureux de pouvoir arracher en un jour</l>
+                        <l n="264"> Ma gloire à mes serments, mon cœur à son amour !</l>
+                </sp>
+        <sp who="#thessandre">
+            <speaker> THESSANDRE. </speaker>
+                        <l n="265"> Que dites-vous, seigneur ? Quoi ! pour une inconnue...</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="266"> Peux-tu me condamner, Thessandre ? tu l’as vue.</l>
+                        <l n="267"> Non, jamais plus de grâce et plus de majesté</l>
+                        <l n="268"> N’ont distingué les traits de la divinité.</l>
+                        <l n="269"> Sa beauté, tout enfin, jusqu’à son malheur même,</l>
+                        <l n="270"> N’offre en elle qu’un front digne du diadème ;</l>
+                        <l n="271"> De superbes débris, une noble fierté,</l>
+                        <l n="272"> Tout en elle du sang marque la dignité.</l>
+                        <l n="273"> Je te dirai bien plus : cette même inconnue</l>
+                        <l n="274"> Voit mon âme à regret dans ses fers retenue ;</l>
+                        <l n="275"> Et qui peut dédaigner mon amour et mon rang</l>
+                        <l n="276"> Ne peut être formé que d’un illustre sang.</l>
+                        <l n="277"> Quoi qu’il en soit, mon cœur, charmé de ce qu’il aime,</l>
+                        <l n="278"> N’examine plus rien dans son amour extrême.</l>
+                        <l n="279"> Quel cœur n’eût-elle pas attendri, justes dieux !</l>
+                        <l n="280"> Dans l’état où le sort vint l’offrir à mes yeux ?</l>
+                        <l n="281"> Déplorable jouet des vents et de l’orage,</l>
+                        <l n="282"> Qui, même en l’y poussant, l’enviaient au rivage,</l>
+                        <l n="283"> Roulant parmi les flots, les morts, et les débris,          </l>
+                        <l n="284"> Des horreurs du trépas les traits déjà flétris,</l>
+                        <l n="285"> Mourante entre les bras de son malheureux père,</l>
+                        <l n="286"> Tout prêt lui-même à suivre une fille si chère...</l>
+                        <l n="287"> J’entends du bruit. On vient. Peut-être c’est le roi ;</l>
+                        <l n="288"> Mais non, c’est l’étrangère. Ah ! qu’est-ce que je vois,</l>
+                        <l n="289"> Thessandre ? un soin pressant semble occuper son âme.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="290"> Où portez-vous vos pas ? me cherchez-vous, madame ?</l>
+                        <l n="291"> Du trouble où je vous vois ne puis-je être éclairci ?</l>
+                </sp>
+        <sp who="#théodamie">
+            <speaker> THÉODAMIE. </speaker>
+                        <l n="292"> C’est vous-même, seigneur, que je cherchais ici.</l>
+                        <l n="293"> D’Athènes dès longtemps embrassant la conquête,</l>
+                        <l n="294"> On dit qu’à s’éloigner votre flotte s’apprête ;</l>
+                        <l n="295"> Que, chaque instant d’Atrée excitant le courroux,</l>
+                        <l n="296"> Pour sortir de Chalcys elle n’attend que vous.</l>
+                        <l n="297"> Si ce n’est pas vous faire une injuste prière,</l>
+                        <l n="298"> Je viens vous demander un vaisseau pour mon père.</l>
+                        <l n="299"> Le sien, vous le savez, périt presque à vos yeux ;</l>
+                        <l n="300"> Et nous n’avons d’appui que de vous en ces lieux.</l>
+                        <l n="301"> Vous sauvâtes des flots et le père et la fille :</l>
+                        <l n="302"> Achevez de sauver une triste famille.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="303"> Voyez ce que je puis, voyez ce que je dois.</l>
+                        <l n="304"> D’Atrée en ce climat tout respecte les lois ;</l>
+                        <l n="305"> Il n’est que trop jaloux de son pouvoir suprême.</l>
+                        <l n="306"> Je ne puis rien ici, si ce n’est par lui-même.</l>
+                        <l n="307"> Il reverra bientôt ses vaisseaux avec soin,</l>
+                        <l n="308"> Et du départ lui-même il doit être témoin.</l>
+                        <l n="309"> Voyez-le. Il vous souvient comme il vous a reçue,</l>
+                        <l n="310"> Le jour que ce palais vous offrit à sa vue ;</l>
+                        <l n="311"> Il plaignit vos malheurs, vous offrit son appui :</l>
+                        <l n="312"> Son cœur ne sera pas moins sensible aujourd’hui ;</l>
+                        <l n="313"> Vous n’en éprouverez qu’une bonté facile.</l>
+                        <l n="314"> Mais qui peut vous forcer à quitter cet asile ?</l>
+                        <l n="315"> Quel déplaisir secret vous chasse de ces lieux ?</l>
+                        <l n="316"> Mon amour vous rend-il ce séjour odieux ?</l>
+                        <l n="317"> Ces bords sont-ils pour vous une terre étrangère ?</l>
+                        <l n="318"> N’y reverra-t-on plus ni vous ni votre père ?</l>
+                        <l n="319"> Quel est son nom, le vôtre, où portez-vous vos pas ?</l>
+                        <l n="320"> Ne connaîtrai-je enfin de vous que vos appas ?</l>
+                </sp>
+        <sp who="#théodamie">
+            <speaker> THÉODAMIE. </speaker>
+                        <l n="321"> Seigneur, trop de bonté pour nous vous intéresse.</l>
+                        <l n="322"> Mon nom est peu connu, ma patrie est la Grèce ;</l>
+                        <l n="323"> Et j’ignore en quel lieu, sortant de ces climats,</l>
+                        <l n="324"> Mon père infortuné doit adresser ses pas.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="325"> Je ne vous presse point d’éclaircir ce mystère :</l>
+                        <l n="326"> Je souscris au secret que vous voulez m’en faire.</l>
+                        <l n="327"> Abandonnez ces lieux, ôtez-moi pour jamais</l>
+                        <l n="328"> Le dangereux espoir de revoir vos attraits :</l>
+                        <l n="329"> Fuyez un malheureux ; punissez-le, madame,</l>
+                        <l n="330"> D’oser brûler pour vous de la plus vive flamme ;</l>
+                        <l n="331"> Et moi, prêt d’adorer jusqu’à votre rigueur,</l>
+                        <l n="332"> J’attendrai que la mort vous chasse de mon cœur ;</l>
+                        <l n="333"> C’est dans mon sort cruel, mon unique espérance.</l>
+                        <l n="334"> Mon amour, cependant, n’a rien qui vous offense,</l>
+                        <l n="335"> Le ciel m’en est témoin ; et jamais vos beaux yeux</l>
+                        <l n="336"> N’ont peut-être allumé de moins coupables feux.</l>
+                        <l n="337"> Ce cœur, à qui le vôtre est toujours si sévère,</l>
+                        <l n="338"> N’offrit jamais aux dieux d’hommage plus sincère.</l>
+                        <l n="339"> Inutiles respects ! reproches superflus !</l>
+                        <l n="340"> Tout va nous séparer ; je ne vous verrai plus.</l>
+                        <l n="341"> Adieu, madame, adieu ; prompt à vous satisfaire,</l>
+                        <l n="342"> Je reviendrai pour vous m’employer près d’un père :</l>
+                        <l n="343"> Quel qu’en soit le succès, je vous réponds du moins,</l>
+                        <l n="344"> Malgré votre rigueur, de mes plus tendres soins.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#théodamie">
+            <speaker> THÉODAMIE. </speaker>
+                        <l n="345"> Où sommes-nous, hélas ! ma chère Léonide ?</l>
+                        <l n="346"> Quel astre injurieux en ces climats nous guide ?</l>
+                        <l n="347"> Ô vous qui nous jetez sur ces bords odieux,</l>
+                        <l n="348"> Cachez-nous au tyran qui règne dans ces lieux,          </l>
+                        <l n="349"> Dieux puissants ! sauvez-nous d’une main ennemie.</l>
+                        <l n="350"> Quel séjour pour Thyeste et pour Théodamie !</l>
+                        <l n="351"> Du sort qui nous poursuit vois quelle est la rigueur.</l>
+                        <l n="352"> Atrée, après vingt ans, rallumant sa fureur,</l>
+                        <l n="353"> Sous d’autres intérêts déguisant ce mystère,</l>
+                        <l n="354"> Arme pour désoler l’asile de son frère.</l>
+                        <l n="355"> L’infortuné Thyeste, instruit de ce danger,</l>
+                        <l n="356"> À son tour, en secret, arme pour se venger,</l>
+                        <l n="357"> Flatté du vain espoir de rentrer dans Mycènes,</l>
+                        <l n="358"> Tandis que l’ennemi voguerait vers Athènes,</l>
+                        <l n="359"> Ou pendant que Chalcys, par de puissants efforts,</l>
+                        <l n="360"> Retiendrait le tyran sur ces funestes bords.</l>
+                        <l n="361"> Inutiles projets ! inutile espérance !</l>
+                        <l n="362"> L’Euripe a tout détruit ; plus d’espoir de vengeance :</l>
+                        <l n="363"> Et c’est ce même amant, ce prince généreux,</l>
+                        <l n="364"> Sans qui nous périssions sur ce rivage affreux,</l>
+                        <l n="365"> Ce prince à qui je dois le salut de mon père,</l>
+                        <l n="366"> Qui, la foudre à la main, va combler sa misère !</l>
+                        <l n="367"> Athènes va tomber, si, pour comble de maux,</l>
+                        <l n="368"> Thyeste dans ces murs n’accable ce héros.</l>
+                        <l n="369"> Trop heureux cependant, si de l’île d’Eubée</l>
+                        <l n="370"> Il pouvait s’éloigner sans le secours d’Atrée !</l>
+                        <l n="371"> Sauvez l’en, s’il se peut, grands dieux ! Votre courroux</l>
+                        <l n="372"> Poursuit-il des mortels si semblables à vous ?</l>
+                        <l n="373"> Ciel ! puisqu’il faut punir, venge-toi sur son frère :</l>
+                        <l n="374"> Atrée est un objet digne de ta colère.</l>
+                        <l n="375"> Je tremble à chaque pas que je fais en ces lieux.</l>
+                        <l n="376"> Hélas ! Thyeste en vain s’y cache à tous les yeux ;</l>
+                        <l n="377"> Quoique absent dès longtemps, on peut le reconnaître ;</l>
+                        <l n="378"> Heureux que sa langueur l’empêche d’y paraître !</l>
+                </sp>
+        <sp who="#léonide">
+            <speaker> LÉONIDE. </speaker>
+                        <l n="379"> Espérez du destin un traitement plus doux ;</l>
+                        <l n="380"> Que craindre d’un tyran, quand son fils est pour vous ?</l>
+                        <l n="381"> Attendez tout d’un cœur et généreux et tendre :</l>
+                        <l n="382"> La main qui nous sauva peut encor vous défendre.</l>
+                        <l n="383"> Tout n’est pas contre vous dans ce fatal séjour,</l>
+                        <l n="384"> Puisque déjà vos yeux y donnent de l’amour.</l>
+                </sp>
+        <sp who="#théodamie">
+            <speaker> THÉODAMIE. </speaker>
+                        <l n="385"> Ne comptes-tu pour rien un amour si funeste ?</l>
+                        <l n="386"> Le fils d’Atrée aimer la fille de Thyeste !</l>
+                        <l n="387"> Hélas ! si cet amour est un crime pour lui,</l>
+                        <l n="388"> Comment nommer le feu dont je brûle aujourd’hui ?</l>
+                        <l n="389"> Car enfin ne crois pas que j’y sois moins livrée :</l>
+                        <l n="390"> La fille de Thyeste aime le fils d’Atrée.</l>
+                        <l n="391"> Contre tant de vertus mon cœur mal affermi</l>
+                        <l n="392"> Craint plus en lui l’amant qu’il ne craint l’ennemi.</l>
+                        <l n="393"> Mais mon père m’attend ; allons lui faire entendre,</l>
+                        <l n="394"> Pour un départ si prompt, le parti qu’il faut prendre :</l>
+                        <l n="395"> Heureuse cependant si ce funeste jour</l>
+                        <l n="396"> Ne voit d’autres malheurs que ceux de notre amour !</l></div></div>
+           <div type="act" xml:id="2">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="397"> Ce n’est plus pour tenter une grâce incertaine ;</l>
+                        <l n="398"> Mais, avant son départ, je voudrais voir Plisthène.</l>
+                        <l n="399"> Léonide, sachez s’il n’est point de retour.</l>
+                        <l n="400"> Ma fille, il faut songer à fuir de ce séjour :</l>
+                        <l n="401"> Tout menace à la fois l’asile de Thyeste ;</l>
+                        <l n="402"> Défendons, s’il se peut, le seul bien qui nous reste.</l>
+                        <l n="403"> D’un père infortuné que prétendent vos pleurs ?</l>
+                        <l n="404"> Voulez-vous, dans ces lieux, voir combler mes malheurs ?</l>
+                        <l n="405"> Pourquoi, sur mes désirs cherchant à me contraindre,</l>
+                        <l n="406"> Ne point voir le tyran ? Qu’en avez-vous à craindre ?</l>
+                        <l n="407"> Sans lui, sans son secours, quel sera mon espoir ?</l>
+                        <l n="408"> Vous voyez que Plisthène est ici sans pouvoir,</l>
+                        <l n="409"> Qu’il va bientôt voguer vers le port de Pirée ;</l>
+                        <l n="410"> Voulez-vous qu’à ma fuite il en ferme l’entrée ?</l>
+                        <l n="411"> La voile se déploie, et flotte au gré des vents ;</l>
+                        <l n="412"> Laissez-moi profiter de ces heureux instants.</l>
+                        <l n="413"> Voyez, puisqu’il le faut, l’inexorable Atrée.</l>
+                        <l n="414"> Si sa flotte une fois abandonne l’Eubée,</l>
+                        <l n="415"> Par quel autre moyen me sera-t-il permis</l>
+                        <l n="416"> De sortir désormais de ces lieux ennemis ?</l>
+                </sp>
+        <sp who="#théodamie">
+            <speaker> THÉODAMIE. </speaker>
+                        <l n="417"> Ne précipitez rien : quel intérêt vous presse ?</l>
+                        <l n="418"> Pourquoi, seigneur, pourquoi vous exposer sans cesse ?</l>
+                        <l n="419"> À peine enfin sauvé de la fureur des eaux,</l>
+                        <l n="420"> Ne vous rejetez point dans des périls nouveaux.</l>
+                        <l n="421"> À partir de Chalcys le tyran se prépare ;</l>
+                        <l n="422"> Les vents vont de cette île éloigner ce barbare :</l>
+                        <l n="423"> D’un secours dangereux sans tenter le hasard,</l>
+                        <l n="424"> Cachez-vous avec soin jusques à son départ.</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="425"> Ma fille, quel conseil ! Eh quoi ! vous pouvez croire</l>
+                        <l n="426"> Que je veuille à mes jours sacrifier ma gloire !</l>
+                        <l n="427"> Non, non, je ne puis voir désoler sans secours</l>
+                        <l n="428"> Des états si longtemps l’asile de mes jours.</l>
+                        <l n="429"> Moi, qui ne prétendais m’emparer de Mycènes</l>
+                        <l n="430"> Que pour forcer Atrée à s’éloigner d’Athènes,</l>
+                        <l n="431"> Je l’abandonnerais lorsqu’elle va périr !</l>
+                        <l n="432"> Non, je cours dans ses murs la défendre, ou mourir.</l>
+                        <l n="433"> Vous m’opposez en vain l’impitoyable Atrée :</l>
+                        <l n="434"> Peut-il me soupçonner d’être en cette contrée ?</l>
+                        <l n="435"> Sans appui, sans secours, sans suite dans ces lieux,</l>
+                        <l n="436"> Sans éclat qui sur moi puisse attirer les yeux,</l>
+                        <l n="437"> Dans l’état où m’a mis la colère céleste,</l>
+                        <l n="438"> Hélas ! et qui pourrait reconnaître Thyeste ?</l>
+                        <l n="439"> Voyez donc le tyran : quel que soit son courroux,</l>
+                        <l n="440"> C’est assez que mon cœur n’en craigne rien pour vous,</l>
+                        <l n="441"> Ma fille. Vous savez que sa main meurtrière</l>
+                        <l n="442"> Ne poursuit point sur vous le crime d’une mère :</l>
+                        <l n="443"> C’est moi seul, c’est Ærope enlevée à ses vœux,</l>
+                        <l n="444"> Et vous ne sortez point de ce sang malheureux.</l>
+                        <l n="445"> Allez : votre frayeur, qui dans ces lieux m’arrête,</l>
+                        <l n="446"> Est le plus grand péril qui menace ma tête.</l>
+                        <l n="447"> Demandez un vaisseau ; quel qu’en soit le danger,</l>
+                        <l n="448"> Mon cœur au désespoir n’a rien à ménager.</l>
+                </sp>
+        <sp who="#théodamie">
+            <speaker> THÉODAMIE. </speaker>
+                        <l n="449"> Ah ! périsse plutôt l’asile qui nous reste,</l>
+                        <l n="450"> Que de tenter, seigneur, un secours si funeste !</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="451"> En dussé-je périr, songez que je le veux.</l>
+                        <l n="452"> Sauvez-moi, par pitié, de ces bords dangereux :</l>
+                        <l n="453"> Du soleil à regret j’y revois la lumière ;</l>
+                        <l n="454"> Malgré moi le sommeil y ferme ma paupière :</l>
+                        <l n="455"> De mes ennuis secrets rien n’arrête le cours :</l>
+                        <l n="456"> Tout à de tristes nuits joint de plus tristes jours.</l>
+                        <l n="457"> Une voix, dont en vain je cherche à me défendre,</l>
+                        <l n="458"> Jusqu’au fond de mon cœur semble se faire entendre :         </l>
+                        <l n="459"> J’en suis épouvanté. Les songes de la nuit</l>
+                        <l n="460"> Ne se dissipent point par le jour qui les suit :</l>
+                        <l n="461"> Malgré ma fermeté, d’infortunés présages</l>
+                        <l n="462"> Asservissent mon âme à ces vaines images.</l>
+                        <l n="463"> Cette nuit même encor, j’ai senti dans mon cœur</l>
+                        <l n="464"> Tout ce que peut un songe inspirer de terreur.</l>
+                        <l n="465"> Près de ces noirs détours que la rive infernale</l>
+                        <l n="466"> Forme à replis divers dans cette île fatale,</l>
+                        <l n="467"> J’ai cru longtemps errer parmi des cris affreux,</l>
+                        <l n="468"> Que des mânes plaintifs poussaient jusques aux cieux.       </l>
+                        <l n="469"> Parmi ces tristes voix, sur ce rivage sombre,</l>
+                        <l n="470"> J’ai cru d’Ærope en pleurs entendre gémir l’ombre ;</l>
+                        <l n="471"> Bien plus, j’ai cru la voir s’avancer jusqu’à moi,</l>
+                        <l n="472"> Mais dans un appareil qui me glaçait d’effroi :</l>
+                        <l n="473"> « Quoi ! tu peux t’arrêter dans ce séjour funeste !</l>
+                        <l n="474"> « Suis-moi, m’a-t-elle dit, infortuné Thyeste. »</l>
+                        <l n="475"> Le spectre, à la lueur d’un triste et noir flambeau,</l>
+                        <l n="476"> À ces mots, m’a traîné jusque sur son tombeau.</l>
+                        <l n="477"> J’ai frémi d’y trouver le redoutable Atrée,</l>
+                        <l n="478"> Le geste menaçant, et la vue égarée,</l>
+                        <l n="479"> Plus terrible pour moi, dans ces cruels moments,</l>
+                        <l n="480"> Que le tombeau, le spectre, et ses gémissements.</l>
+                        <l n="481"> J’ai cru voir le barbare entouré de Furies :</l>
+                        <l n="482"> Un glaive encor fumant armait ses mains impies ;</l>
+                        <l n="483"> Et sans être attendri de ses cris douloureux,</l>
+                        <l n="484"> Il semblait dans son sang plonger un malheureux.</l>
+                        <l n="485"> Ærope, à cet aspect, plaintive et désolée,</l>
+                        <l n="486"> De ses lambeaux sanglants à mes yeux s’est voilée.</l>
+                        <l n="487"> Alors j’ai fait, pour fuir, des efforts impuissants ;</l>
+                        <l n="488"> L’horreur a suspendu l’usage de mes sens :</l>
+                        <l n="489"> À mille affreux objets l’âme entière livrée,</l>
+                        <l n="490"> Ma frayeur m’a jeté sans force aux pieds d’Atrée.</l>
+                        <l n="491"> Le cruel, d’une main, semblait m’ouvrir le flanc,</l>
+                        <l n="492"> Et de l’autre à longs traits m’abreuver de mon sang.</l>
+                        <l n="493"> Le flambeau s’est éteint, l’ombre a percé la terre,</l>
+                        <l n="494"> Et le songe a fini par un coup de tonnerre.</l>
+                </sp>
+        <sp who="#théodamie">
+            <speaker> THÉODAMIE. </speaker>
+                        <l n="495"> D’un songe si cruel quelle que soit l’horreur,</l>
+                        <l n="496"> Ce fantôme peut-il troubler votre grand cœur ?</l>
+                        <l n="497"> C’est une illusion...</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE </speaker>
+                        <l n="498"> J’en croirais moins un songe,</l>
+                        <l n="499"> Sans les ennuis secrets où ma douleur me plonge :</l>
+                        <l n="500"> J’en crains plus du tyran qui règne dans ces lieux,</l>
+                        <l n="501"> Que d’un songe si triste, et peut-être des dieux.</l>
+                        <l n="502"> Je ne connais que trop la fureur qui l’entraîne.</l>
+                </sp>
+        <sp who="#théodamie">
+            <speaker> THÉODAMIE. </speaker>
+                        <l n="503"> Vous connaissez aussi les vertus de Plisthène...</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="504"> Quoiqu’il soit né d’un sang que je ne puis aimer,</l>
+                        <l n="505"> Sa générosité me force à l’estimer.</l>
+                        <l n="506"> Ma fille, à ses vertus je sais rendre justice :</l>
+                        <l n="507"> Des fureurs du tyran son fils n’est point complice.</l>
+                        <l n="508"> Je sens bien quelquefois que je dois le haïr ;</l>
+                        <l n="509"> Mais mon cœur sur ce point a peine à m’obéir.           </l>
+                        <l n="510"> Hélas ! et plus je vois ce généreux Plisthène,</l>
+                        <l n="511"> Plus j’y trouve des traits qui désarment ma haine.</l>
+                        <l n="512"> Mon cœur, qui cependant craint de lui trop devoir,</l>
+                        <l n="513"> Ni ne veut, ni ne doit compter sur son pouvoir.</l>
+                        <l n="514"> Quoique sur sa vertu vous soyez rassurée,</l>
+                        <l n="515"> Je suis toujours Thyeste, et lui le fils d’Atrée.</l>
+                        <l n="516"> Je crois voir le tyran : je vous laisse avec lui.</l>
+                        <l n="517"> Ma fille, devenez vous-même notre appui ;</l>
+                        <l n="518"> Tentez tout sur le cœur de mon barbare frère :</l>
+                        <l n="519"> Songez qu’il faut sauver et vous et votre père.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#alcimédon">
+            <speaker> ALCIMÉDON. </speaker>
+                        <l n="520"> Vous tenteriez, seigneur, un inutile effort ;</l>
+                        <l n="521"> Je le sais d’un vaisseau qui vient d’entrer au port.</l>
+                        <l n="522"> On ne sait s’il a pris la route de Mycènes,</l>
+                        <l n="523"> Mais depuis près d’un mois, il n’est plus dans Athènes.</l>
+                        <l n="524"> Vous en pourrez vous-même être mieux éclairci :</l>
+                        <l n="525"> Le chef de ce vaisseau sera bientôt ici.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="526"> Qu’il vienne, Alcimédon, allez ; qu’on me l’amène ;</l>
+                        <l n="527"> Je l’attends. Avec lui faites venir Plisthène ;</l>
+                        <l n="528"> Il doit être déjà de retour en ces lieux.</l>
+            <stage><em>À Théodamie.</em></stage>
+                        <l n="529"> Madame, quel dessein vous présente à mes yeux ?</l>
+                </sp>
+        <sp who="#théodamie">
+            <speaker> THÉODAMIE. </speaker>
+                        <l n="530"> Prête à tenter, seigneur, la route du Bosphore,</l>
+                        <l n="531"> Souffrez qu’une étrangère aujourd’hui vous implore.</l>
+                        <l n="532"> J’éprouve dès longtemps qu’un roi si généreux</l>
+                        <l n="533"> Ne voit point sans pitié le sort des malheureux.</l>
+                        <l n="534"> Sur ces bords échappée au plus cruel naufrage,         </l>
+                        <l n="535"> Les flots de mes débris ont couvert ce rivage.</l>
+                        <l n="536"> Sans appui, sans secours, dans ces lieux écartés,</l>
+                        <l n="537"> J’attends tout désormais de vos seules bontés.</l>
+                        <l n="538"> Vous parûtes sensible au destin qui m’accable ;</l>
+                        <l n="539"> Puis-je espérer, seigneur, qu’un roi si redoutable</l>
+                        <l n="540"> Daigne, de mes malheurs plus touché que les dieux,</l>
+                        <l n="541"> M’accorder un vaisseau pour sortir de ces lieux ?</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="542"> Puisque la mer vous laisse une libre retraite,</l>
+                        <l n="543"> Ordonnez, et bientôt vous serez satisfaite ;</l>
+                        <l n="544"> Disposez de ma flotte avec autorité.</l>
+                        <l n="545"> Un vaisseau suffit-il pour votre sûreté ?</l>
+                        <l n="546"> Prête à sortir des lieux qui sont sous ma puissance,</l>
+                        <l n="547"> Où vous conduira-t-il ?</l>
+                </sp>
+        <sp who="#théodamie">
+            <speaker> THÉODAMIE. </speaker>
+                        <l n="548"> Seigneur, c’est à Byzance</l>
+                        <l n="549"> Que je prétends bientôt, au pied de nos autels,</l>
+                        <l n="550"> Du prix de vos bienfaits charger les immortels.          </l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="551"> Mais Byzance, madame, est-ce votre patrie ?</l>
+                </sp>
+        <sp who="#théodamie">
+            <speaker> THÉODAMIE. </speaker>
+                        <l n="552"> Non ; j’ai reçu le jour non loin de la Phrygie.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="553"> Par quel étrange sort, si loin de ces climats,</l>
+                        <l n="554"> Vous retrouvez-vous donc dans mes nouveaux états ?</l>
+                        <l n="555"> Ce vaisseau que les vents jetèrent dans l’Eubée</l>
+                        <l n="556"> Sortait-il de Byzance, ou du port de Pirée ?</l>
+                        <l n="557"> En vous sauvant des flots, mon fils, je m’en souviens,</l>
+                        <l n="558"> Ne trouva sur ces bords que des athéniens.</l>
+                </sp>
+        <sp who="#théodamie">
+            <speaker> THÉODAMIE. </speaker>
+                        <l n="559"> Peut-être, comme nous le jouet de l’orage,</l>
+                        <l n="560"> Ils furent comme nous poussés sur ce rivage ;</l>
+                        <l n="561"> Mais ceux qu’en ce palais a sauvés votre fils</l>
+                        <l n="562"> Ne sont point nés, seigneur, parmi vos ennemis.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="563"> Mais, madame, parmi cette troupe étrangère</l>
+                        <l n="564"> Plisthène sur ces bords rencontra votre père :</l>
+                        <l n="565"> Dédaigne-t-il un roi qui devient son appui ?</l>
+                        <l n="566"> D’où vient que devant moi vous paraissez sans lui ?</l>
+                </sp>
+        <sp who="#théodamie">
+            <speaker> THÉODAMIE. </speaker>
+                        <l n="567"> Mon père infortuné, sans amis, sans patrie,</l>
+                        <l n="568"> Traîne à regret, seigneur, une importune vie,</l>
+                        <l n="569"> Et n’est point en état de paraître à vos yeux.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="570"> Gardes, faites venir l’étranger en ces lieux.</l>
+                </sp>
+        <sp who="#théodamie">
+            <speaker> THÉODAMIE. </speaker>
+                        <l n="571"> On doit des malheureux respecter la misère.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="572"> Je veux de ses malheurs consoler votre père ;</l>
+                        <l n="573"> Je ne veux rien de plus... Mais quel est votre effroi ?</l>
+                        <l n="574"> Votre père, madame, est-il connu de moi ?</l>
+                        <l n="575"> A-t-il quelques raisons de redouter ma vue ?</l>
+                        <l n="576"> Quelle est donc la frayeur dont je vous vois émue ?</l>
+                </sp>
+        <sp who="#théodamie">
+            <speaker> THÉODAMIE. </speaker>
+                        <l n="577"> Seigneur, d’aucun effroi mon cœur n’est agité :</l>
+                        <l n="578"> Mon père peut ici paraître en sûreté.</l>
+                        <l n="579"> Hélas ! à se cacher qui pourrait le contraindre ?</l>
+                        <l n="580"> Étranger dans ces lieux, eh ! qu’aurait-il à craindre ?</l>
+                        <l n="581"> À ses jours languissants le péril attaché</l>
+                        <l n="582"> Le retenait, seigneur, sans le tenir caché.</l>
+            <stage><em>À part.</em></stage>
+                        <l n="583"> Le voilà : je succombe, et me soutiens à peine.</l>
+                        <l n="584"> Dieux ! cachez-le au tyran, ou ramenez Plisthène.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="585"> Étranger malheureux, que le sort en courroux,           </l>
+                        <l n="586"> Lassé de te poursuivre, a jeté parmi nous,</l>
+                        <l n="587"> Quel est ton nom, ton rang ? quels humains t’ont vu naître ?</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="588"> Les Thraces.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="589"> Et ton nom ?</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="590"> Pourriez-vous le connaître ?</l>
+                        <l n="591"> Philoclète.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="592"> Ton rang ?</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="593"> Noble, sans dignité,</l>
+                        <l n="594"> Et toujours le jouet du destin irrité.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="595"> Où s’adressaient tes pas ? et de quelle contrée</l>
+                        <l n="596"> Revenait ce vaisseau brisé près de l’Eubée ?</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="597"> De Sestos ; et j’allais à Delphes implorer</l>
+                        <l n="598"> Le dieu dont les rayons daignent nous éclairer.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="599"> Et tu vas de ces lieux ?...</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="600"> Seigneur, c’est dans l’Asie,</l>
+                        <l n="601"> Où je vais terminer ma déplorable vie,</l>
+                        <l n="602"> Espérant aujourd’hui que de votre bonté</l>
+                        <l n="603"> J’obtiendrai le secours que les flots m’ont ôté.</l>
+                        <l n="604"> Daignez...</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="605"> Quel son de voix a frappé mon oreille !</l>
+                        <l n="606"> Quel transport tout-à-coup dans mon cœur se réveille !       </l>
+                        <l n="607"> D’où naissent à la fois des troubles si puissants ?</l>
+                        <l n="608"> Quelle soudaine horreur s’empare de mes sens !</l>
+                        <l n="609"> Toi qui poursuis le crime avec un soin extrême,</l>
+                        <l n="610"> Ciel, rends vrais mes soupçons, et que ce soit lui-même !</l>
+                        <l n="611"> Je ne me trompe point, j’ai reconnu sa voix ;</l>
+                        <l n="612"> Voilà ses traits encore. Ah ! c’est lui que je vois.</l>
+                        <l n="613"> Tout ce déguisement n’est qu’une adresse vaine ;</l>
+                        <l n="614"> Je le reconnaîtrais seulement à ma haine.</l>
+                        <l n="615"> Il fait pour se cacher des efforts superflus :</l>
+                        <l n="616"> C’est Thyeste lui-même, et je n’en doute plus.</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="617"> Moi Thyeste, seigneur !</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="618"> Oui, toi-même, perfide :</l>
+                        <l n="619"> Je ne le sens que trop au transport qui me guide ;</l>
+                        <l n="620"> Et je hais trop l’objet qui paraît à mes yeux,</l>
+                        <l n="621"> Pour que tu ne sois point ce Thyeste odieux.</l>
+                        <l n="622"> Tu fais bien de nier un nom si méprisable :</l>
+                        <l n="623"> En est-il sous le ciel un qui soit plus coupable ?</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="624"> Eh bien ! reconnais-moi ; je suis ce que tu veux,</l>
+                        <l n="625"> Ce Thyeste ennemi, ce frère malheureux.</l>
+                        <l n="626"> Quand même tes soupçons et ta haine funeste</l>
+                        <l n="627"> N’eussent point découvert l’infortuné Thyeste,</l>
+                        <l n="628"> Peut-être que la mienne, esclave malgré moi,</l>
+                        <l n="629"> Aux dépens de mes jours m’eût découvert à toi.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="630"> Ah ! traître ! c’en est trop : le courroux qui m’anime</l>
+                        <l n="631"> T’apprendra si je sais comme on punit un crime.</l>
+                        <l n="632"> Je rends grâces au ciel qui te livre en mes mains :</l>
+                        <l n="633"> Sans doute que les dieux approuvent mes desseins,</l>
+                        <l n="634"> Puisque avec mes fureurs leurs soins d’intelligence</l>
+                        <l n="635"> T’amènent dans des lieux tout pleins de ma vengeance.</l>
+                        <l n="636"> Perfide, tu mourras : oui, c’est fait de ton sort ;</l>
+                        <l n="637"> Ton nom seul en ces lieux est l’arrêt de ta mort.         </l>
+                        <l n="638"> Rien ne peut t’en sauver, la foudre est toute prête ;</l>
+                        <l n="639"> J’ai suspendu longtemps sa chute sur ta tête :</l>
+                        <l n="640"> Le temps, qui t’a sauvé d’un vainqueur irrité,</l>
+                        <l n="641"> A grossi tes forfaits par leur impunité.</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="642"> Que tardes-tu, cruel, à remplir ta vengeance ?</l>
+                        <l n="643"> Attends-tu de Thyeste une nouvelle offense ?</l>
+                        <l n="644"> Si j’ai pu quelque temps te déguiser mon nom,</l>
+                        <l n="645"> Le soin de me venger en fut seul la raison :</l>
+                        <l n="646"> Ne crois pas que la peur des fers ou du supplice</l>
+                        <l n="647"> Ait à mon cœur tremblant dicté cet artifice.</l>
+                        <l n="648"> Ærope par ta main a vu trancher ses jours ;</l>
+                        <l n="649"> La même main des miens doit terminer le cours :</l>
+                        <l n="650"> Je n’en puis regretter la triste destinée.</l>
+                        <l n="651"> Précipite, inhumain, leur course infortunée,</l>
+                        <l n="652"> Et sois sûr que contre eux l’attentat le plus noir         </l>
+                        <l n="653"> N’égale point pour moi l’horreur de te revoir.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="654"> Vil rebut des mortels, il te sied bien encore</l>
+                        <l n="655"> De braver dans les fers un frère qui t’abhorre !</l>
+                        <l n="656"> Holà ! gardes, à moi !</l>
+                </sp>
+        <sp who="#théodamie">
+            <speaker> THÉODAMIE, à Atrée. </speaker>
+                        <l n="657"> Que faites-vous, seigneur ?</l>
+                        <l n="658"> Dieux ! sur qui va tomber votre injuste rigueur !        </l>
+                        <l n="659"> Ne suivrez-vous jamais qu’une aveugle colère ?</l>
+                        <l n="660"> Ah ! dans un malheureux reconnaissez un frère :</l>
+                        <l n="661"> Que sur ses noirs projets votre cœur combattu</l>
+                        <l n="662"> Écoute la nature, ou plutôt la vertu.</l>
+                        <l n="663"> Immolez donc, seigneur, et le père et la fille ;</l>
+                        <l n="664"> Baignez-vous dans le sang d’une triste famille.</l>
+                        <l n="665"> Thyeste, par vous seul accablé de malheurs,</l>
+                        <l n="666"> Peut-il être un objet digne de vos fureurs ?</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="667"> Vous prétendez en vain que mon cœur s’attendrisse.</l>
+                        <l n="668"> Qu’on lui donne la mort, gardes ; qu’on m’obéisse ;</l>
+                        <l n="669"> De son sang odieux qu’on épuise son flanc...</l>
+            <stage><em>Bas, à part.</em></stage>
+                        <l n="670"> Mais non : une autre main doit verser tout son sang.</l>
+                        <l n="671"> Oubliais-je... arrêtez. Qu’on me cherche Plisthène.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE, à Atrée. </speaker>
+                        <l n="672"> Ciel ! qu’est-ce que j’entends ? quelle fureur soudaine</l>
+                        <l n="673"> De votre voix, seigneur, a rempli tous ces lieux ?</l>
+                        <l n="674"> Qui peut causer ici ces transports furieux ?</l>
+                </sp>
+        <sp who="#théodamie">
+            <speaker> THÉODAMIE, à Plisthène. </speaker>
+                        <l n="675"> Ces transports où l’emporte une injuste colère</l>
+                        <l n="676"> Ne menacent, seigneur, que mon malheureux père.</l>
+                        <l n="677"> Sauvez-le, s’il se peut, des plus funestes coups.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="678"> Votre père, madame ! Ô ciel ! que dites-vous ?</l>
+            <stage><em>À part.</em></stage>
+                        <l n="679"> À l’immoler, seigneur, quel motif vous engage ?</l>
+                        <l n="680"> De quoi l’accuse-t-on ? quel crime, quel outrage</l>
+                        <l n="681"> De l’hospitalité vous fait trahir les droits ?</l>
+                        <l n="682"> Aurait-il à son tour violé ceux des rois ?</l>
+                        <l n="683"> Étranger dans ces lieux, que vous a-t-il fait craindre</l>
+                        <l n="684"> À le priver du jour qui puisse vous contraindre ?</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="685"> Étranger dans ces lieux ! Que tu le connais mal !</l>
+                        <l n="686"> De tous mes ennemis tu vois le plus fatal.</l>
+                        <l n="687"> C’est de tous les humains le seul que je déteste,</l>
+                        <l n="688"> Un perfide, un ingrat ; en un mot, c’est Thyeste.         </l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="689"> Qu’ai-je entendu, grands dieux ! lui Thyeste, seigneur ?</l>
+                        <l n="690"> Eh bien ! en doit-il moins fléchir votre rigueur ?</l>
+                        <l n="691"> Calmez, seigneur, calmez cette fureur extrême.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="692"> Que vois-je ? quoi ! mon fils armé contre moi-même !</l>
+                        <l n="693"> Quoi ! celui qui devrait m’en venger aujourd’hui</l>
+                        <l n="694"> Ose à mes yeux encor s’intéresser pour lui !</l>
+                        <l n="695"> Lâche, c’est donc ainsi qu’à ton devoir fidèle</l>
+                        <l n="696"> Tu disposes ton bras à servir ma querelle ?</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="697"> Plutôt mourir cent fois : je n’ai point à choisir :</l>
+                        <l n="698"> Dans mon sang, s’il le faut, baignez-vous à loisir.</l>
+                        <l n="699"> Seigneur, par ces genoux que votre fils embrasse,</l>
+                        <l n="700"> Accordez à mes vœux cette dernière grâce.</l>
+                        <l n="701"> Après l’avoir sauvé des ondes en courroux,</l>
+                        <l n="702"> M’en coûtera-t-il plus de le sauver de vous ?</l>
+                        <l n="703"> À mes justes désirs que vos transports se rendent.</l>
+                        <l n="704"> Voyez quel est le sang que mes pleurs vous demandent :</l>
+                        <l n="705"> C’est le vôtre, seigneur, non un sang étranger.</l>
+                        <l n="706"> C’est en lui pardonnant qu’il faut vous en venger.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="707"> Le perfide ! si près d’éprouver ma vengeance,</l>
+                        <l n="708"> Daigne-t-il seulement implorer ma clémence ?</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="709"> Que pourrait me servir d’implorer ton secours,</l>
+                        <l n="710"> Si ton cœur qui me hait veut me haïr toujours ?</l>
+                        <l n="711"> Eh ! que n’ai-je point fait pour fléchir ta colère ?</l>
+                        <l n="712"> Qui de nous deux, cruel ! poursuit ici son frère ?</l>
+                        <l n="713"> Depuis vingt ans entiers que n’ai-je point tenté</l>
+                        <l n="714"> Pour calmer les transports de ton cœur irrité ?</l>
+                        <l n="715"> Surmonte, comme moi, la vengeance et la haine ;</l>
+                        <l n="716"> Règle tes soins jaloux sur les soins de Plisthène ;</l>
+                        <l n="717"> Et tu verras bientôt, si j’en donne ma foi,</l>
+                        <l n="718"> Que tu n’as point d’ami plus fidèle que moi.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="719"> Quels seront tes garants, lorsque le nom de frère</l>
+                        <l n="720"> N’a pu garder ton cœur d’un amour téméraire ?</l>
+                        <l n="721"> Quand je t’ai vu souiller par tes coupables feux</l>
+                        <l n="722"> Les autels où l’hymen allait combler mes vœux,</l>
+                        <l n="723"> Que peux-tu m’opposer qui parle en ta défense ?</l>
+                        <l n="724"> Les droits de la nature, ou bien de l’innocence ?</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="725"> Ne me reproche plus mon crime ni mes feux ;</l>
+                        <l n="726"> Tu m’as vendu bien cher cet amour malheureux.</l>
+                        <l n="727"> Pour t’attendrir enfin, auteur de ma misère,</l>
+                        <l n="728"> Considère un moment ton déplorable frère.</l>
+                        <l n="729"> Que peux-tu souhaiter qui te parle pour moi ?</l>
+                        <l n="730"> Regarde en quel état je parois devant toi.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="731"> Ah ! rendez-vous, seigneur ; je vois que la nature</l>
+                        <l n="732"> Dans votre cœur sensible excite un doux murmure :</l>
+                        <l n="733"> Ne le combattez point par des soins odieux ;</l>
+                        <l n="734"> Elle n’inspire rien qui ne vienne des dieux.</l>
+                        <l n="735"> C’est votre frère enfin ; que rien ne vous arrête :</l>
+                        <l n="736"> De sa fidélité je réponds sur ma tête.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="737"> Plisthène, c’en est fait, je me rends à ta voix ;</l>
+                        <l n="738"> Je me sens attendri pour la première fois.</l>
+                        <l n="739"> Je veux bien oublier une sanglante injure.</l>
+                        <l n="740"> Thyeste, sur ma foi que ton cœur se rassure :</l>
+                        <l n="741"> De mon inimitié ne crains point les retours ;</l>
+                        <l n="742"> Ce jour même en verra finir le triste cours.</l>
+                        <l n="743"> J’en jure par les dieux, j’en jure par Plisthène ;</l>
+                        <l n="744"> C’est le sceau d’une paix qui doit finir ma haine.</l>
+                        <l n="745"> Ses soins et ma pitié te répondront de moi,</l>
+                        <l n="746"> Et mon fils à son tour me répondra de toi ;</l>
+                        <l n="747"> Je n’en demande point de garant plus sincère.</l>
+                        <l n="748"> Prince, c’est donc sur vous que s’en repose un père.</l>
+                        <l n="749"> Allez, et que ma cour, témoin de mon courroux,</l>
+                        <l n="750"> Soit témoin aujourd’hui d’un entretien plus doux.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="751"> Toi, fais-les avec soin observer, Euristhène.</l>
+                        <l n="752"> Disperse les soldats les plus chers à Plisthène ;</l>
+                        <l n="753"> Écarte les amis de cet audacieux,</l>
+                        <l n="754"> Et viens, sans t’arrêter, me rejoindre en ces lieux.</l></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="755"> Enfin, grâces aux dieux, je tiens en ma puissance</l>
+                        <l n="756"> Le perfide ennemi que poursuit ma vengeance :</l>
+                        <l n="757"> On l’observe en ces lieux, il ne peut échapper ;</l>
+                        <l n="758"> La main qui l’a sauvé ne sert qu’à le tromper.</l>
+                        <l n="759"> Vengeons-nous ; il est temps que ma colère éclate :</l>
+                        <l n="760"> Profitons avec soin du moment qui la flatte ;</l>
+                        <l n="761"> Et que l’ingrat Thyeste éprouve dans ce jour</l>
+                        <l n="762"> Tout ce que peut un cœur trahi dans son amour.</l>
+                </sp>
+        <sp who="#euristhène">
+            <speaker> EURISTHÈNE. </speaker>
+                        <l n="763"> Et qui vous répondra que Plisthène obéisse ?</l>
+                        <l n="764"> Que de cette vengeance il veuille être complice ?</l>
+                        <l n="765"> Ne vous souvient-il plus que, prêt à la trahir,</l>
+                        <l n="766"> Il n’a point balancé pour vous désobéir ?</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="767"> Il est vrai qu’au refus qu’il a fait de s’y rendre</l>
+                        <l n="768"> Je me suis vu contraint de n’oser l’entreprendre,        </l>
+                        <l n="769"> D’en différer enfin le moment malgré moi.</l>
+                        <l n="770"> Mais qui l’a pu porter à me manquer de foi ?</l>
+                        <l n="771"> N’avait-il pas juré de servir ma colère ?</l>
+                        <l n="772"> Tant de soins redoublés pour la fille et le père</l>
+                        <l n="773"> Ne sont-ils les effets que d’un cœur généreux ?          </l>
+                        <l n="774"> Non, non ; la source en est dans un cœur amoureux.</l>
+                        <l n="775"> Tant d’ardeur à sauver cette race ennemie</l>
+                        <l n="776"> Me dit trop que Plisthène aime Théodamie.</l>
+                        <l n="777"> Je n’en puis plus douter : il la voit chaque jour ;</l>
+                        <l n="778"> Il a pris dans ses yeux ce détestable amour.</l>
+                        <l n="779"> Et je m’étonne encor d’une ardeur si funeste !</l>
+                        <l n="780"> Que pouvait-il sortir d’Ærope et de Thyeste,</l>
+                        <l n="781"> Qu’un sang qui dût un jour assouvir mon courroux ?</l>
+                        <l n="782"> Le crime est fait pour lui, la vengeance, pour nous.</l>
+                        <l n="783"> Livrons-le aux noirs forfaits où son penchant le guide ;        </l>
+                        <l n="784"> Joignons à tant d’horreurs l’horreur d’un parricide.</l>
+                        <l n="785"> Puis-je mieux me venger de ce sang odieux</l>
+                        <l n="786"> Que d’armer contre lui son forfait et les dieux ?</l>
+                        <l n="787"> Heureux qu’en ce moment le crime de Plisthène</l>
+                        <l n="788"> Me laisse sans regret au courroux qui m’entraîne !</l>
+                        <l n="789"> Qu’il vienne seul ici.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#atrée">
+            <speaker> ATRÉE </speaker>
+                        <l n="790"> Le soldat écarté</l>
+                        <l n="791"> Permet à ma fureur d’agir en liberté.</l>
+                        <l n="792"> De son amour pour lui ma vengeance alarmée</l>
+                        <l n="793"> Déjà loin de Chalcys a dispersé l’armée :</l>
+                        <l n="794"> Tout ce que ce palais rassemble autour de moi</l>
+                        <l n="795"> Sont autant de sujets dévoués à leur roi.</l>
+                        <l n="796"> Mais pourquoi contre un traître exercer ma puissance ?</l>
+                        <l n="797"> Son amour me répond de son obéissance.</l>
+                        <l n="798"> Par un coup si cruel je m’en vais l’éprouver,</l>
+                        <l n="799"> Et de si près encor je m’en vais l’observer,</l>
+                        <l n="800"> Que malgré tous ses soins, ma vengeance assurée</l>
+                        <l n="801"> Lavera par ses mains les injures d’Atrée.</l>
+                        <l n="802"> Je le vois ; et pour peu qu’il ose la trahir,</l>
+                        <l n="803"> Je sais bien le secret de le faire obéir.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="804"> Lassé des soins divers dont mon cœur est la proie,</l>
+                        <l n="805"> Prince, il faut à vos yeux que mon cœur se déploie.</l>
+                        <l n="806"> Tout semble offrir ici l’image de la paix ;</l>
+                        <l n="807"> Cependant ma fureur s’accroît plus que jamais.</l>
+                        <l n="808"> L’amour, qui si souvent loin de nous nous entraîne,</l>
+                        <l n="809"> N’est point dans ses retours aussi prompt que la haine.       </l>
+                        <l n="810"> J’avais cru par vos soins mon courroux étouffé ;</l>
+                        <l n="811"> Mais je sens qu’ils n’en ont qu’à demi triomphé.</l>
+                        <l n="812"> Ma fureur désormais ne peut plus se contraindre :</l>
+                        <l n="813"> Ce n’est que dans le sang qu’elle pourra s’éteindre ;</l>
+                        <l n="814"> Et j’attends que le bras chargé de la servir,</l>
+                        <l n="815"> Loin d’arrêter son cours, soit prêt à l’assouvir.</l>
+                        <l n="816"> Plisthène, c’est à vous que ce discours s’adresse.</l>
+                        <l n="817"> J’avais cru, sur la foi d’une sainte promesse,</l>
+                        <l n="818"> Voir tomber le plus fier de tous mes ennemis :</l>
+                        <l n="819"> Mais Plisthène tient mal ce qu’il m’avait promis ;</l>
+                        <l n="820"> Et, bravant sans respect et les dieux et son père,</l>
+                        <l n="821"> Son cœur pour eux et lui n’a qu’une foi légère.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="822"> Où sont vos ennemis ? J’avais cru que la paix</l>
+                        <l n="823"> Ne vous en laissait point à craindre en ce palais.</l>
+                        <l n="824"> Je n’y vois que des cœurs pour vous remplis de zèle,</l>
+                        <l n="825"> Et qu’un fils pour son roi respectueux, fidèle,</l>
+                        <l n="826"> Qui n’a point mérité ces cruels traitements.</l>
+                        <l n="827"> Où sont vos ennemis ? et quels sont mes serments ?</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="828"> Où sont mes ennemis ? Ciel ! que viens-je d’entendre ?</l>
+                        <l n="829"> Thyeste est dans ces lieux, et l’on peut s’y méprendre !        </l>
+                        <l n="830"> Vous deviez l’immoler à mon ressentiment :</l>
+                        <l n="831"> Voilà mon ennemi, voilà votre serment.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="832"> Quelle que soit la foi que je vous ai jurée,</l>
+                        <l n="833"> J’aurais cru que la vôtre eût été plus sacrée ;</l>
+                        <l n="834"> Qu’un frère, dans vos bras, à la face des dieux,          </l>
+                        <l n="835"> M’eût assez acquitté d’un serment odieux.</l>
+                        <l n="836"> D’un pareil souvenir ma vertu me dispense :</l>
+                        <l n="837"> Je ne me souviens plus que de votre clémence.</l>
+                        <l n="838"> Mon devoir a ses droits, mais ma gloire a les siens ;</l>
+                        <l n="839"> Et vos derniers serments m’ont dégagé des miens.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="840"> Sans vouloir dégager un serment par un autre,</l>
+                        <l n="841"> Veux-tu que tous les deux nous remplissions le nôtre ?</l>
+                        <l n="842"> Et tu verras bientôt, si j’explique le mien,</l>
+                        <l n="843"> Que ce dernier serment ajoute encore au tien.</l>
+                        <l n="844"> J’ai juré par les dieux, j’ai juré par Plisthène,</l>
+                        <l n="845"> Que ce jour qui nous luit mettrait fin à ma haine.</l>
+                        <l n="846"> Fais couler tout le sang que j’exige de toi ;</l>
+                        <l n="847"> Ta main de mes serments aura rempli la foi.</l>
+                        <l n="848"> Regarde qui de nous fait au ciel une injure,</l>
+                        <l n="849"> Qui de nous deux enfin est ici le parjure.         </l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="850"> Ah ! seigneur, puis-je voir votre cœur aujourd’hui</l>
+                        <l n="851"> Descendre à des détours si peu dignes de lui ?</l>
+                        <l n="852"> Non, par de feints serments je ne crois point qu’Atrée</l>
+                        <l n="853"> Ait pu braver des dieux la majesté sacrée,</l>
+                        <l n="854"> Se jouer de la foi des crédules humains,</l>
+                        <l n="855"> Violer en un jour tous les droits les plus saints.</l>
+                        <l n="856"> Enchanté d’une paix si longtemps attendue,</l>
+                        <l n="857"> Je vous louais déjà de nous l’avoir rendue ;</l>
+                        <l n="858"> Et je m’applaudissais, dans des moments si doux,</l>
+                        <l n="859"> D’avoir pu d’un héros désarmer le courroux :</l>
+                        <l n="860"> J’admirais un grand cœur au milieu de l’offense,</l>
+                        <l n="861"> Qui, maître de punir, méprisait la vengeance.</l>
+                        <l n="862"> Thyeste est criminel, voulez-vous l’être aussi ?</l>
+                        <l n="863"> Sont-ce là vos serments ? pardonnez-vous ainsi ?</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="864"> Qui ? moi, lui pardonner ! Les fières Euménides       </l>
+                        <l n="865"> Du sang des malheureux sont cent fois moins avides,</l>
+                        <l n="866"> Et leur farouche aspect inspire moins d’horreur</l>
+                        <l n="867"> Que Thyeste aujourd’hui n’en inspire à mon cœur.</l>
+                        <l n="868"> Quels que soient mes serments, trop de fureur m’anime.</l>
+                        <l n="869"> Perfide, il te sied bien d’oser m’en faire un crime !</l>
+                        <l n="870"> Laisse là ces serments ; si j’ai pu les trahir,</l>
+                        <l n="871"> C’est au ciel d’en juger, à toi de m’obéir.</l>
+                        <l n="872"> Dans un fils qui faisait ma plus chère espérance,</l>
+                        <l n="873"> Je ne vois qu’un ingrat qui trahit ma vengeance.</l>
+                        <l n="874"> Plisthène est un héros, son père est outragé ;</l>
+                        <l n="875"> Il a de la valeur, je ne suis pas vengé !</l>
+                        <l n="876"> Ah ! ne me force point, dans ma fureur extrême,</l>
+                        <l n="877"> Que sais-je ? hélas ! peut-être à t’immoler toi-même :</l>
+                        <l n="878"> Car enfin, puisqu’il faut du sang à ma fureur,</l>
+                        <l n="879"> Malheur à qui trahit les transports de mon cœur !</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="880"> Versez le sang d’un fils, s’il peut vous satisfaire ;</l>
+                        <l n="881"> Mais n’en attendez rien à sa vertu contraire.</l>
+                        <l n="882"> S’il faut voir votre affront par un crime effacé,</l>
+                        <l n="883"> Je ne me souviens plus qu’on vous ait offensé.</l>
+                        <l n="884"> Oui, seigneur ; et ma main, loin d’être meurtrière,</l>
+                        <l n="885"> Défendra contre vous les jours de votre frère.</l>
+                        <l n="886"> Seconder vos fureurs, ce serait vous trahir ;</l>
+                        <l n="887"> Votre gloire m’engage à vous désobéir.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="888"> Enfin j’ouvre les yeux ; ta lâcheté, perfide,</l>
+                        <l n="889"> Ne me fait que trop voir l’intérêt qui te guide ;</l>
+                        <l n="890"> Tu trahis pour Thyeste et les dieux et ta foi :</l>
+                        <l n="891"> Ce n’est pas d’aujourd’hui qu’il est connu de toi.</l>
+                        <l n="892"> Ose encor me jurer que pour Théodamie</l>
+                        <l n="893"> Ton cœur ne brûle point d’une flamme ennemie ?</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="894"> Ah ! si c’est là trahir mon devoir et ma foi,</l>
+                        <l n="895"> Non, jamais on ne fut plus coupable que moi.</l>
+                        <l n="896"> Oui, seigneur, il est vrai, la princesse m’est chère :</l>
+                        <l n="897"> Jugez si c’est à moi d’assassiner son père.</l>
+                        <l n="898"> Vous connaissez le feu qui dévore mon sein ;</l>
+                        <l n="899"> Et pour verser son sang vous choisissez ma main !</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="900"> Ce n’est pas la vertu, c’est donc l’amour, parjure,</l>
+                        <l n="901"> Qui te force au refus de venger mon injure !</l>
+                        <l n="902"> Voyons si cet amour, qui t’a fait me trahir,</l>
+                        <l n="903"> Servira maintenant à me faire obéir.</l>
+                        <l n="904"> Tu n’auras pas en vain aimé Théodamie ;</l>
+                        <l n="905"> Venge-moi dès ce jour, ou c’est fait de sa vie.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="906"> Ah ! grands dieux !</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="907"> Tu frémis ; je t’en laisse le choix,</l>
+                        <l n="908"> Et te le laisse, ingrat, pour la dernière fois.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="909"> Ah ! mon choix est tout fait dans ce moment funeste ;</l>
+                        <l n="910"> C’est mon sang qu’il vous faut, non le sang de Thyeste.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="911"> Quand l’amour, de mon fils, semble avoir fait le sien,</l>
+                        <l n="912"> Il ne m’importe plus de son sang ou du tien.</l>
+                        <l n="913"> Obéis cependant, achève ma vengeance.</l>
+                        <l n="914"> L’instant fatal approche, et Thyeste s’avance :</l>
+                        <l n="915"> S’il n’est mort lorsque enfin je reverrai ces lieux,        </l>
+                        <l n="916"> J’immole sans pitié ton amante à tes yeux.</l>
+                        <l n="917"> Rappelle tes esprits : avec lui je te laisse.</l>
+                        <l n="918"> Au secours de ta main appelle ta princesse ;</l>
+                        <l n="919"> Le soin de la sauver doit exciter ton bras.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="920"> Quoi ! vous l’immoleriez ! Je ne vous quitte pas.       </l>
+                        <l n="921"> Je crois voir dans Thyeste un dieu qui m’épouvante.</l>
+                        <l n="922"> Ah ! seigneur !</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="923"> Viens donc voir expirer ton amante :</l>
+                        <l n="924"> Du moindre mouvement sa mort sera le fruit.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE, seul. </speaker>
+                        <l n="925"> Dieux ! plongez-moi plutôt dans l’éternelle nuit.</l>
+                        <l n="926"> Non, cruel, n’attends pas que ma main meurtrière</l>
+                        <l n="927"> Fasse couler le sang de ton malheureux frère.</l>
+                        <l n="928"> Assouvis, si tu veux, ta fureur sur le mien ;</l>
+                        <l n="929"> Mais, dussé-je en périr, je défendrai le sien.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="930"> Prince qu’un tendre soin dans mon sort intéresse,</l>
+                        <l n="931"> Héros dont les vertus charment toute la Grèce,           </l>
+                        <l n="932"> Qu’il m’est doux de pouvoir embrasser aujourd’hui</l>
+                        <l n="933"> De mes jours malheureux l’unique et sûr appui !</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="934"> Quel appui, juste ciel ! Quel cœur impitoyable</l>
+                        <l n="935"> Ne serait point touché du sort qui vous accable ?</l>
+                        <l n="936"> Ah ! plût aux dieux pouvoir, aux dépens de mes jours,        </l>
+                        <l n="937"> D’une si chère vie éterniser le cours !</l>
+                        <l n="938"> Que je verrais couler tout mon sang avec joie,</l>
+                        <l n="939"> S’il terminait les maux où vous êtes en proie !</l>
+                        <l n="940"> Ce n’est point la pitié qui m’attendrit, seigneur ;</l>
+                        <l n="941"> Je sens des mouvements inconnus à mon cœur.         </l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="942"> Seigneur, soit amitié, soit raison, qui m’inspire,</l>
+                        <l n="943"> Tout m’est cher d’un héros que l’univers admire.</l>
+                        <l n="944"> Que ne puis-je exprimer ce que je sens pour vous !</l>
+                        <l n="945"> Non, l’amitié n’a point de sentiments si doux.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="946"> Ah ! si je vous suis cher, que mon respect extrême</l>
+                        <l n="947"> M’acquitte bien, seigneur, de ce bonheur suprême !</l>
+                        <l n="948"> On n’aima jamais plus, le ciel m’en est témoin :</l>
+                        <l n="949"> À peine la nature irait-elle aussi loin ;</l>
+                        <l n="950"> Et ma tendre amitié, par vos maux consacrée,</l>
+                        <l n="951"> A semblé redoubler par les rigueurs d’Atrée.</l>
+                        <l n="952"> Vous m’aimez ; le ciel sait si je puis vous haïr,</l>
+                        <l n="953"> Ce qu’il m’en coûterait s’il fallait obéir.</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="954"> Seigneur, que dites-vous ? qui fait couler vos larmes ?</l>
+                        <l n="955"> Que tout ce que je vois fait renaître d’alarmes !</l>
+                        <l n="956"> Vous soupirez ; la mort est peinte dans vos yeux ;</l>
+                        <l n="957"> Vos regards attendris se tournent vers les cieux :</l>
+                        <l n="958"> Quel malheur si terrible a pu troubler Plisthène ?</l>
+                        <l n="959"> Jusqu’au fond de mon cœur je ressens votre peine.</l>
+                        <l n="960"> Voulez-vous dérober ce secret à ma foi ?</l>
+                        <l n="961"> Quand je suis tout à vous, n’êtes-vous point à moi ?</l>
+                        <l n="962"> Cher prince, ignorez-vous à quel point je vous aime ?</l>
+                        <l n="963"> Ma fille ne m’est pas plus chère que vous-même.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="964"> Faut-il la voir périr dans ces funestes lieux ?</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="965"> Quel étrange discours ! Cher prince, au nom des dieux,</l>
+                        <l n="966"> Au nom d’une amitié si sincère et si tendre,</l>
+                        <l n="967"> Daignez m’en éclaircir.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="968"> Ah ! dois-je vous l’apprendre ?</l>
+                        <l n="969"> Mais, dût tomber sur moi le plus affreux courroux,</l>
+                        <l n="970"> Je ne puis plus trahir ce que je sens pour vous.</l>
+                        <l n="971"> Fuyez, seigneur, fuyez.</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="972"> Quel est donc ce mystère,</l>
+                        <l n="973"> Cher prince ? et qu’ai-je encore à craindre de mon frère ?</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE, apercevant Atrée. </speaker>
+                        <l n="974"> Ah ! ciel !</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="975"> C’est donc ainsi que, fidèle à son roi...</l>
+                        <l n="976"> Mais je sais de quel prix récompenser ta foi...</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="977"> Ah ! seigneur, si jamais...</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="978"> Que voulez-vous me dire ?</l>
+                        <l n="979"> Sortez : en d’autres lieux vous pourrez m’en instruire.</l>
+                        <l n="980"> Votre frivole excuse exige un autre temps ;</l>
+                        <l n="981"> Et mon cœur est rempli de soins plus importants.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="982"> De ce transport, seigneur, que faut-il que je pense ?</l>
+                        <l n="983"> Qui peut vous emporter à tant de violence ?</l>
+                        <l n="984"> Qu’a fait ce fils ? qui peut vous armer contre lui ?</l>
+                        <l n="985"> Ou plutôt contre moi qui vous arme aujourd’hui ?</l>
+                        <l n="986"> Ne m’offrez-vous la paix...</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="987"> Quel est donc ce langage ?</l>
+                        <l n="988"> À me l’oser tenir quel soupçon vous engage ?</l>
+                        <l n="989"> Quelle indigne frayeur a troublé vos esprits ?</l>
+                        <l n="990"> Quel intérêt enfin prenez-vous à mon fils ?</l>
+                        <l n="991"> Ne puis-je menacer un ingrat qui m’offense,</l>
+                        <l n="992"> Sans aigrir de vos soins l’injuste défiance ?</l>
+                        <l n="993"> Allez : de mes desseins vous serez éclairci,</l>
+                        <l n="994"> Et d’autres intérêts me conduisent ici.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#atrée">
+            <speaker> ATRÉE </speaker>
+                        <l n="995"> Quoi ! même dans des lieux soumis à ma puissance,</l>
+                        <l n="996"> J’aurai tenté sans fruit une juste vengeance !</l>
+                        <l n="997"> Et le lâche qui doit la servir en ce jour</l>
+                        <l n="998"> Trahit, pour la tromper, jusques à son amour !</l>
+                        <l n="999"> Ah ! je le punirai de l’avoir différée,</l>
+                        <l n="1000"> Comme fils de Thyeste, ou comme fils d’Atrée.</l>
+                        <l n="1001"> Mériter ma vengeance est un moindre forfait</l>
+                        <l n="1002"> Que d’oser un moment en retarder l’effet.</l>
+                        <l n="1003"> Perfide, malgré toi, je t’en ferai complice :</l>
+                        <l n="1004"> Ton roi pour tant d’affronts n’a pas pour un supplice ;</l>
+                        <l n="1005"> Je ne punirais point vos forfaits différents,</l>
+                        <l n="1006"> Si je ne m’en vengeais par des forfaits plus grands.</l>
+                        <l n="1007"> Où Thyeste paraît, tout respire le crime :</l>
+                        <l n="1008"> Je me sens agité de l’esprit qui l’anime ;</l>
+                        <l n="1009"> Je suis déjà coupable. Était-ce me venger</l>
+                        <l n="1010"> Que de charger son fils du soin de l’égorger ?</l>
+                        <l n="1011"> Qu’il vive ; ce n’est plus sa mort que je médite.</l>
+                        <l n="1012"> La mort n’est que la fin des tourments qu’il mérite.</l>
+                        <l n="1013"> Que le perfide, en proie aux horreurs de son sort,</l>
+                        <l n="1014"> Implore comme un bien la plus affreuse mort ;</l>
+                        <l n="1015"> Que ma triste vengeance, à tous les deux cruelle,</l>
+                        <l n="1016"> Étonne jusqu’aux dieux qui n’ont rien fait pour elle.</l>
+                        <l n="1017"> Vengeons tous nos affronts, mais par un tel forfait</l>
+                        <l n="1018"> Que Thyeste lui-même eût voulu l’avoir fait.</l>
+                        <l n="1019"> Lâche et vaine pitié, que ton murmure cesse :</l>
+                        <l n="1020"> Dans les cœurs outragés tu n’es qu’une faiblesse ;</l>
+                        <l n="1021"> Abandonne le mien : qu’exiges-tu d’un cœur</l>
+                        <l n="1022"> Qui ne reconnaît plus de dieu que sa fureur ?</l>
+                        <l n="1023"> Courons tout préparer ; et, par un coup funeste,</l>
+                        <l n="1024"> Surpassons, s’il se peut, les crimes de Thyeste.</l>
+                        <l n="1025"> Le ciel, pour le punir d’avoir pu m’outrager,</l>
+                        <l n="1026"> A remis à son sang le soin de m’en venger.</l></div></div>
+           <div type="act" xml:id="4">
+           <head> ACTE IV </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#thessandre">
+            <speaker> THESSANDRE. </speaker>
+                        <l n="1027"> Où courez-vous, seigneur ? qu’allez-vous entreprendre ?</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="1028"> D’un cœur au désespoir tout ce qu’on peut attendre.</l>
+                </sp>
+        <sp who="#thessandre">
+            <speaker> THESSANDRE. </speaker>
+                        <l n="1029"> Quelle est donc la fureur dont je vous vois épris ?</l>
+                        <l n="1030"> Ciel ! dans quel trouble affreux jetez-vous mes esprits !</l>
+                        <l n="1031"> D’où naît ce désespoir que chaque instant irrite ?</l>
+                        <l n="1032"> Pour qui préparez-vous ces vaisseaux, cette fuite ?</l>
+                        <l n="1033"> Quel intérêt enfin arme ici votre bras,</l>
+                        <l n="1034"> Et ces amis tout prêts à marcher sur vos pas ?</l>
+                        <l n="1035"> Parlez, seigneur : le roi, désormais plus sévère...</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="1036"> Qu’avais-je fait aux dieux pour naître d’un tel père ?</l>
+                        <l n="1037"> Ô devoir ! dans mon cœur trop longtemps respecté,</l>
+                        <l n="1038"> Laisse un moment l’amour agir en liberté.</l>
+                        <l n="1039"> Les rigoureuses lois qu’impose la nature</l>
+                        <l n="1040"> Ne sont plus que des droits dont la vertu murmure.</l>
+                        <l n="1041"> Secrets persécuteurs des cœurs nés vertueux,</l>
+                        <l n="1042"> Remords, qu’exigez-vous d’un amant malheureux ?</l>
+                </sp>
+        <sp who="#thessandre">
+            <speaker> THESSANDRE. </speaker>
+                        <l n="1043"> Que dites-vous, seigneur ? quelle douleur vous presse ?</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="1044"> Thessandre, il faut périr, ou sauver ma princesse.</l>
+                </sp>
+        <sp who="#thessandre">
+            <speaker> THESSANDRE. </speaker>
+                        <l n="1045"> La sauver ! et de qui ?</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="1046"> Du roi, dont la fureur</l>
+                        <l n="1047"> Va lui plonger peut-être un poignard dans le cœur.</l>
+                        <l n="1048"> C’est pour la dérober au coup qui la menace</l>
+                        <l n="1049"> Que je n’écoute plus qu’une coupable audace.</l>
+                        <l n="1050"> Non, cruel, ce n’est point pour la voir expirer</l>
+                        <l n="1051"> Que du plus tendre amour je me sens inspirer.</l>
+                        <l n="1052"> Croirais-tu que du roi la haine sanguinaire</l>
+                        <l n="1053"> A voulu me forcer d’assassiner son frère ;</l>
+                        <l n="1054"> Que, pour mieux m’obliger à lui percer le flanc,</l>
+                        <l n="1055"> De sa fille, au refus, il doit verser le sang ?</l>
+                        <l n="1056"> Ah ! je me sens saisir d’une fureur nouvelle.</l>
+                        <l n="1057"> Courons, pour la sauver, où mon honneur m’appelle.</l>
+                        <l n="1058"> Mais où la rencontrer ? Eh quoi ! les justes dieux</l>
+                        <l n="1059"> M’ont-ils déjà puni d’un projet odieux ?</l>
+                        <l n="1060"> Que fait Thyeste ? Hélas ! qu’est-elle devenue ?</l>
+                        <l n="1061"> Qui peut dans ce palais la soustraire à ma vue ?</l>
+                        <l n="1062"> Je frémis... Retournons les chercher en ces lieux,        </l>
+                        <l n="1063"> Les en sauver, Thessandre, ou périr à leurs yeux.</l>
+                        <l n="1064"> Allons : ne laissons point, dans l’ardeur qui m’anime,</l>
+                        <l n="1065"> Un cœur comme le mien réfléchir sur un crime ;</l>
+                        <l n="1066"> Étouffons des remords que j’avais dû prévoir,</l>
+                        <l n="1067"> Lorsque je n’attends rien que de mon désespoir.       </l>
+                        <l n="1068"> Suis-moi ; c’est trop tarder, et d’un péril extrême</l>
+                        <l n="1069"> On doit moins balancer à sauver ce qu’on aime.</l>
+                        <l n="1070"> Ce n’est point un forfait ; c’est imiter les dieux</l>
+                        <l n="1071"> Que de remplir son cœur du soin des malheureux.</l>
+                        <l n="1072"> Mais que vois-je, Thessandre ? ô ciel ! quelle est ma joie !</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="1073"> Se peut-il qu’en ces lieux Plisthène vous revoie ?</l>
+                        <l n="1074"> Unique objet des soins de mon cœur éperdu,</l>
+                        <l n="1075"> Hélas ! par quel bonheur nous est-il donc rendu ?</l>
+                        <l n="1076"> Quoi ! c’est vous, ma princesse ! Ah ! ma fureur calmée</l>
+                        <l n="1077"> Fait place à la douceur dont mon âme est charmée.</l>
+                        <l n="1078"> Dieux ! qu’allais-je tenter ?... Mais quel est votre effroi !</l>
+                        <l n="1079"> Qui fait couler vos pleurs ? et qu’est-ce que je vois ?</l>
+                </sp>
+        <sp who="#théodamie">
+            <speaker> THÉODAMIE. </speaker>
+                        <l n="1080"> Seigneur, vous me voyez les yeux baignés de larmes,</l>
+                        <l n="1081"> Et le cœur agité des plus vives alarmes.</l>
+                        <l n="1082"> Thyeste va bientôt ensanglanter ces lieux,</l>
+                        <l n="1083"> Si vous ne retenez ce prince furieux.</l>
+                        <l n="1084"> Trop sûr que votre mort, que la sienne est jurée,</l>
+                        <l n="1085"> Il veut la prévenir par la perte d’Atrée :</l>
+                        <l n="1086"> Il erre en ce palais dans ce cruel dessein,</l>
+                        <l n="1087"> Tout prêt à lui plonger un poignard dans le sein.</l>
+                        <l n="1088"> Il est perdu, seigneur, ce prince qui vous aime,</l>
+                        <l n="1089"> Si vous ne le sauvez d’Atrée ou de lui-même.</l>
+                        <l n="1090"> Il voit de tous côtés qu’on observe ses pas :</l>
+                        <l n="1091"> Le péril cependant ne l’épouvante pas.</l>
+                        <l n="1092"> Si la pitié pour nous peut émouvoir votre âme,         </l>
+                        <l n="1093"> Si moi-même en secret j’approuvai votre flamme,</l>
+                        <l n="1094"> S’il est vrai que l’amour ait pu vous attendrir,</l>
+                        <l n="1095"> Au nom de cet amour daignez le secourir.</l>
+                        <l n="1096"> Je vous dirais qu’un cœur plein de reconnaissance</l>
+                        <l n="1097"> D’un service si grand sera la récompense,</l>
+                        <l n="1098"> S’il avait attendu que tant de soins pour nous</l>
+                        <l n="1099"> Vinssent justifier ce qu’il sentait pour vous.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="1100"> Dissipez vos frayeurs et calmez vos alarmes :</l>
+                        <l n="1101"> Vos yeux, pour m’attendrir, n’ont pas besoin de larmes.</l>
+                        <l n="1102"> Hélas ! qui plus que moi doit plaindre vos malheurs ?</l>
+                        <l n="1103"> Ne craignez rien : mes soins ont prévenu vos pleurs.</l>
+                        <l n="1104"> De ces funestes lieux votre fuite assurée</l>
+                        <l n="1105"> Va vous mettre à couvert des cruautés d’Atrée ;</l>
+                        <l n="1106"> Et je vais, s’il le faut, aux dépens de ma foi,</l>
+                        <l n="1107"> Prouver à vos beaux yeux ce qu’ils peuvent sur moi.</l>
+                        <l n="1108"> Oui, croyez-en ces dieux que mon amour atteste,</l>
+                        <l n="1109"> Croyez-en ces garants du salut de Thyeste.</l>
+                        <l n="1110"> Il m’est plus cher qu’à vous : sans me donner la mort,</l>
+                        <l n="1111"> Le roi ne sera point l’arbitre de son sort.</l>
+                        <l n="1112"> Votre père vivra, vous vivrez, et Plisthène</l>
+                        <l n="1113"> N’aura point eu pour vous une tendresse vaine.</l>
+                        <l n="1114"> Je sauverai Thyeste. Eh ! que n’ai-je point fait ?</l>
+                        <l n="1115"> Hélas ! si vous saviez d’un barbare projet</l>
+                        <l n="1116"> À quel prix j’ai déjà tenté de le défendre...</l>
+                        <l n="1117"> Venez : pour lui, pour vous, je vais tout entreprendre.         </l>
+                        <l n="1118"> Heureux si je pouvais, en vous sauvant tous deux,</l>
+                        <l n="1119"> Près de ne vous voir plus, expirer à vos yeux !</l>
+                        <l n="1120"> Mais Thyeste paraît : quel bonheur est le nôtre !</l>
+                        <l n="1121"> Quel favorable sort nous rejoint l’un et l’autre !</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#thyeste">
+            <speaker> THYESTE, apercevant Plisthène. </speaker>
+                        <l n="1122"> Que vois-je ? Dieux puissants, après un si grand bien,         </l>
+                        <l n="1123"> Non, Thyeste de vous ne demande plus rien.</l>
+                        <l n="1124"> Quoi ! prince, vous vivez ! Eh ! comment d’un perfide</l>
+                        <l n="1125"> Avez-vous pu fléchir le courroux parricide ?</l>
+                        <l n="1126"> Que faisiez-vous, cher prince ? et dans ces mêmes lieux</l>
+                        <l n="1127"> Qui pouvait si longtemps vous cacher à nos yeux ?</l>
+                        <l n="1128"> Effrayé des fureurs où mon âme est livrée,</l>
+                        <l n="1129"> Je vous croyais déjà la victime d’Atrée :</l>
+                        <l n="1130"> Plisthène dans ces lieux n’était plus attendu.</l>
+                        <l n="1131"> Je l’avoue, à mon tour je me suis cru perdu ;</l>
+                        <l n="1132"> J’allais tenter...</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="1133"> Calmez le soin qui vous dévore ;</l>
+                        <l n="1134"> Vous n’êtes point perdu, puisque je vis encore.</l>
+                        <l n="1135"> Tant que l’astre du jour éclairera mes yeux,</l>
+                        <l n="1136"> Il n’éclairera point votre perte en ces lieux.</l>
+                        <l n="1137"> Malgré tous mes malheurs, je vis pour vous défendre.</l>
+                        <l n="1138"> De ces bords cependant fuyez, sans plus attendre ;</l>
+                        <l n="1139"> Et, sans vous informer d’un odieux secret,</l>
+                        <l n="1140"> Croyez-en un ami qui vous quitte à regret.</l>
+                        <l n="1141"> Adieu, seigneur, adieu : mon âme est satisfaite</l>
+                        <l n="1142"> D’avoir pu vous offrir une sûre retraite.</l>
+                        <l n="1143"> Thessandre doit guider, au sortir du palais,</l>
+                        <l n="1144"> Des pas que je voudrais n’abandonner jamais.</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="1145"> Moi fuir, prince ! qui ? moi ! que je vous abandonne !</l>
+                        <l n="1146"> Ah ! ce n’est pas ainsi que ma gloire en ordonne.</l>
+                        <l n="1147"> Instruit par vos bontés pour un sang malheureux,</l>
+                        <l n="1148"> Je n’en trahirai point l’exemple généreux.</l>
+                        <l n="1149"> Accablé des malheurs où le destin me livre,</l>
+                        <l n="1150"> Je veux mourir en roi, si je ne puis plus vivre.</l>
+                        <l n="1151"> Laissez-moi près de vous ; je ne puis vous quitter.</l>
+                        <l n="1152"> De noirs pressentiments viennent m’épouvanter ;</l>
+                        <l n="1153"> Je sens à chaque instant que mes craintes redoublent ;</l>
+                        <l n="1154"> Que pour vous en secret mes entrailles se troublent :</l>
+                        <l n="1155"> Je combats vainement de si vives douleurs ;</l>
+                        <l n="1156"> Un pouvoir inconnu me fait verser des pleurs.</l>
+                        <l n="1157"> Laissez-moi partager le sort qui vous menace.</l>
+                        <l n="1158"> Au courroux du tyran la tendresse a fait place ;</l>
+                        <l n="1159"> Les noms de fils pour lui sont des noms superflus,</l>
+                        <l n="1160"> Et ce n’est pas son sang qu’il respecte le plus.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="1161"> Ah ! qu’il verse le mien : plût au ciel que mon père</l>
+                        <l n="1162"> Dans le sang de son fils eût éteint sa colère !</l>
+                        <l n="1163"> Fuyez, seigneur, fuyez ; et ne m’exposez pas</l>
+                        <l n="1164"> À l’horreur de vous voir égorger dans mes bras.</l>
+                        <l n="1165"> Hélas ! je ne crains point pour votre seule vie :</l>
+                        <l n="1166"> Ne fuyez pas pour vous, mais pour Théodamie.</l>
+                        <l n="1167"> C’est vous en dire assez, seigneur : sauvez du moins</l>
+                        <l n="1168"> L’objet de ma tendresse et l’objet de mes soins ;</l>
+                        <l n="1169"> Et ne m’exposez pas à l’horreur légitime</l>
+                        <l n="1170"> D’avoir, sans fruit pour vous, osé tenter un crime.</l>
+                        <l n="1171"> Fuyez : n’abusez point d’un moment précieux.</l>
+                        <l n="1172"> Cherchez-vous à périr dans ces funestes lieux ?</l>
+                        <l n="1173"> Thessandre, conduisez...</l>
+                </sp>
+        <sp who="#thessandre">
+            <speaker> THESSANDRE. </speaker>
+                        <l n="1174"> Seigneur, le roi s’avance.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="1175"> Il en est temps encore, évitez sa présence.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="1176"> D’où vient, à mon abord, le trouble où je vous vois ?</l>
+                        <l n="1177"> Ne craignez rien, les dieux ont fléchi votre roi :</l>
+                        <l n="1178"> Ce n’est plus ce cruel guidé par sa vengeance ;</l>
+                        <l n="1179"> Et le ciel dans son cœur a pris votre défense.</l>
+            <stage><em>À Thyeste.</em></stage>
+                        <l n="1180"> Ne crains rien pour des jours par ma rage proscrits.</l>
+                        <l n="1181"> Gardes, éloignez-vous. Rassure tes esprits :</l>
+                        <l n="1182"> D’une indigne frayeur je vois ton âme atteinte ;</l>
+                        <l n="1183"> Thyeste, chasses-en les horreurs et la crainte ;</l>
+                        <l n="1184"> Ne redoute plus rien de mon inimitié :</l>
+                        <l n="1185"> Toute ma haine cède à ma juste pitié.</l>
+                        <l n="1186"> Ne crains plus une main à te perdre animée :</l>
+                        <l n="1187"> Tes malheurs sont si grands qu’elle en est désarmée ;</l>
+                        <l n="1188"> Et les dieux, effrayés des forfaits des humains,</l>
+                        <l n="1189"> Jamais plus à propos n’ont trahi leurs desseins.         </l>
+                        <l n="1190"> Quelle était ma fureur ! et que vais-je t’apprendre !</l>
+                        <l n="1191"> Ton cœur déjà tremblant va frémir de l’entendre.</l>
+                        <l n="1192"> Je le répète encor ; tes malheurs sont si grands</l>
+                        <l n="1193"> Qu’à peine je les crois, moi qui te les apprends.</l>
+            <stage><em>Il lui montre un billet d’Ærope.</em></stage>
+                        <l n="1194"> Ce billet seul contient un secret si funeste...</l>
+                        <l n="1195"> Mais, avant de l’ouvrir, écoute tout le reste.</l>
+                        <l n="1196"> Tu n’as pas oublié les sujets odieux</l>
+                        <l n="1197"> D’un courroux excité par tes indignes feux :</l>
+                        <l n="1198"> Souviens-t’en, c’est à toi d’en garder la mémoire :</l>
+                        <l n="1199"> Pour moi, je les oublie ; ils blessent trop ma gloire.</l>
+                        <l n="1200"> Cependant contre toi que n’ai-je point tenté !</l>
+                        <l n="1201"> J’en sens encor frémir mon cœur épouvanté.</l>
+                        <l n="1202"> En vain sur mes serments ton âme rassurée</l>
+                        <l n="1203"> Comptait sur une paix que je t’avais jurée ;</l>
+                        <l n="1204"> Car, dans l’instant fatal où j’attestais les cieux,</l>
+                        <l n="1205"> Je me jurais ta mort, et j’imposais aux dieux.</l>
+                        <l n="1206"> Je n’en veux pour témoin que ce même Plisthène,</l>
+                        <l n="1207"> Par de pareils serments qui sut tromper ma haine.</l>
+                        <l n="1208"> C’était lui qui devait me venger aujourd’hui</l>
+                        <l n="1209"> D’un crime dont l’affront rejaillissait sur lui ;</l>
+                        <l n="1210"> Et pour mieux l’engager à t’arracher la vie,</l>
+                        <l n="1211"> J’en devais, au refus, priver Théodamie.</l>
+                        <l n="1212"> De ce récit affreux ne prends aucun effroi :</l>
+                        <l n="1213"> Tu dois te rassurer en le tenant de moi.</l>
+            <stage><em>À Plisthène.</em></stage>
+                        <l n="1214"> Et toi, dont la vertu m’a garanti d’un crime,</l>
+                        <l n="1215"> Ne crains rien d’un courroux peut-être légitime.</l>
+                        <l n="1216"> Si c’est un crime à toi de ne le point servir,</l>
+                        <l n="1217"> Quelle eût été l’horreur d’avoir pu l’assouvir !</l>
+                        <l n="1218"> Enfin, c’eût été peu que d’immoler mon frère ;</l>
+                        <l n="1219"> Le malheureux aurait assassiné son père.        </l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="1220"> Moi, son père !</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="1221"> Ces mots vont t’en instruire. Lis.</l>
+            <stage><em>Il lui donne la lettre d’Ærope.</em></stage>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="1222"> Dieux ! qu’est-ce que je vois ? c’est d’Ærope. Ah ! mon fils !</l>
+                        <l n="1223"> La nature en mon cœur éclaircit ce mystère :</l>
+                        <l n="1224"> Thyeste t’aimait trop pour n’être point ton père.</l>
+                        <l n="1225"> Cher Plisthène, mes vœux sont enfin accomplis.        </l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="1226"> Ciel ! qu’est-ce que j’entends ? Moi, seigneur, votre fils !</l>
+                        <l n="1227"> Tout semblait réserver, dans un jour si funeste,</l>
+                        <l n="1228"> Ma main au parricide, et mon cœur à l’inceste.</l>
+                        <l n="1229"> Grands dieux ! qui m’épargnez tant d’horreurs en ce jour,</l>
+                        <l n="1230"> Dois-je bénir vos soins, ou plaindre mon amour ?</l>
+            <stage><em>À Atrée.</em></stage>
+                        <l n="1231"> Vous qui, trompé longtemps dans une injuste haine,</l>
+                        <l n="1232"> Du nom de votre fils honorâtes Plisthène,</l>
+                        <l n="1233"> Quand je ne le suis plus, seigneur, il m’est bien doux</l>
+                        <l n="1234"> D’être du moins sorti d’un même sang que vous.</l>
+                        <l n="1235"> Je ne suis consolé de perdre en vous un père</l>
+                        <l n="1236"> Que lorsque je deviens le fils de votre frère.</l>
+                        <l n="1237"> Mais ce fils près de vous privé d’un si haut rang,</l>
+                        <l n="1238"> L’est toujours par le cœur, s’il ne l’est par le sang.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="1239"> C’eût été pour Atrée une perte funeste,</l>
+                        <l n="1240"> S’il eût fallu te rendre à d’autres qu’à Thyeste.</l>
+                        <l n="1241"> Le destin ne pouvait, qu’en te donnant à lui,</l>
+                        <l n="1242"> Me consoler d’un bien qu’il m’enlève aujourd’hui.</l>
+                        <l n="1243"> Euristhène, sensible aux larmes de ta mère,</l>
+                        <l n="1244"> Est celui qui me fit de son bourreau ton père :</l>
+                        <l n="1245"> Instruit de mes fureurs, c’est lui dont la pitié</l>
+                        <l n="1246"> Vient de vous sauver tous de mon inimitié.</l>
+            <stage><em>À Thyeste.</em></stage>
+                        <l n="1247"> Thyeste, après ce fils que je viens de te rendre,</l>
+                        <l n="1248"> Tu vois si désormais je cherche à te surprendre.</l>
+                        <l n="1249"> Reçois-le de ma main pour garant d’une paix</l>
+                        <l n="1250"> Que mes soupçons jaloux ne troubleront jamais.</l>
+                        <l n="1251"> Enfin, pour t’en donner une entière assurance,</l>
+                        <l n="1252"> C’est par un fils si cher que ton frère commence.</l>
+                        <l n="1253"> En faveur de ce fils, qui fut longtemps le mien,</l>
+                        <l n="1254"> De mon sceptre aujourd’hui je détache le tien.</l>
+                        <l n="1255"> Rentre dans tes états sous de si doux auspices,</l>
+                        <l n="1256"> Qui de notre union ne sont que les prémices.</l>
+                        <l n="1257"> Je prétends que ce jour, que souillait ma fureur,</l>
+                        <l n="1258"> Achève de bannir les soupçons de ton cœur.</l>
+                        <l n="1259"> Thyeste, en croiras-tu la coupe de nos pères ?</l>
+                        <l n="1260"> Est-ce offrir de la paix des garants peu sincères ?</l>
+                        <l n="1261"> Tu sais qu’aucun de nous, sans un malheur soudain,</l>
+                        <l n="1262"> Sur ce gage sacré n’ose jurer en vain ;</l>
+                        <l n="1263"> C’est sa perte, en un mot : cette coupe fatale</l>
+                        <l n="1264"> Est le serment du Styx pour les fils de Tantale.</l>
+                        <l n="1265"> Je veux bien aujourd’hui, pour lui prouver ma foi,</l>
+                        <l n="1266"> En mettre le péril entre Thyeste et moi :</l>
+                        <l n="1267"> Veut-il bien, à son tour, que la coupe sacrée</l>
+                        <l n="1268"> Achève l’union de Thyeste et d’Atrée ?</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="1269"> Pourriez-vous m’en offrir un gage plus sacré</l>
+                        <l n="1270"> Que de me rendre un fils ? Mon cœur est rassuré ;</l>
+                        <l n="1271"> Et je ne pense pas que le don de Plisthène</l>
+                        <l n="1272"> Soit un présent, seigneur, que m’ait fait votre haine.</l>
+                        <l n="1273"> J’accepte cependant ces garants d’une paix</l>
+                        <l n="1274"> Qui fait depuis longtemps mes plus tendres souhaits.</l>
+                        <l n="1275"> Non que d’aucun détour un frère vous soupçonne ;</l>
+                        <l n="1276"> À la foi d’un grand roi Thyeste s’abandonne :</l>
+                        <l n="1277"> S’il en reçoit enfin des gages en ce jour,</l>
+                        <l n="1278"> C’est pour vous rassurer sur la sienne à son tour.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="1279"> Pour cet heureux moment qu’en ces lieux tout s’apprête ;</l>
+                        <l n="1280"> Qu’un pompeux sacrifice en précède la fête :</l>
+                        <l n="1281"> Trop heureux si Thyeste, assuré de la paix,</l>
+                        <l n="1282"> Daigne la regarder comme un de mes bienfaits !</l>
+                        <l n="1283"> Vous qui de mon courroux avez sauvé Plisthène,</l>
+                        <l n="1284"> C’est vous, de ce grand jour que je charge, Euristhène ;</l>
+                        <l n="1285"> J’en remets à vos soins la fête et les apprêts :</l>
+                        <l n="1286"> Courez tout préparer au gré de mes souhaits.</l>
+                        <l n="1287"> Mon frère n’attend plus que la coupe sacrée :</l>
+                        <l n="1288"> Offrons-lui ce garant de l’amitié d’Atrée.</l>
+                        <l n="1289"> Puisse le nœud sacré qui doit nous réunir</l>
+                        <l n="1290"> Effacer de son cœur un triste souvenir !</l>
+                        <l n="1291"> Pourra-t-il oublier...</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="1292"> Tout, jusqu’à sa misère.</l>
+                        <l n="1293"> Il ne se souvient plus que d’un fils et d’un frère.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE, à Thessandre. </speaker>
+                        <l n="1294"> Dès ce moment, au port précipite tes pas :</l>
+                        <l n="1295"> Que le vaisseau, surtout, ne s’en écarte pas.</l>
+                        <l n="1296"> De mille affreux soupçons j’ai peine à me défendre.</l>
+                        <l n="1297"> Cours, et que nos amis viennent ici m’attendre.</l></div></div>
+           <div type="act" xml:id="5">
+           <head> ACTE V </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE </speaker>
+                        <l n="1298"> Thessandre ne vient point ! rien ne l’offre à mes yeux !</l>
+                        <l n="1299"> Tout m’abandonne-t-il dans ces funestes lieux ?</l>
+                        <l n="1300"> Tristes pressentiments que le malheur enfante,</l>
+                        <l n="1301"> Que la crainte nourrit, que le soupçon augmente,</l>
+                        <l n="1302"> Secrets avis des dieux, ne pressez plus un cœur</l>
+                        <l n="1303"> Dont toute la fierté combat mal la frayeur.</l>
+                        <l n="1304"> C’est en vain qu’elle veut y mettre quelque obstacle ;</l>
+                        <l n="1305"> Le cœur des malheureux n’est qu’un trop sûr oracle.</l>
+                        <l n="1306"> Mais pourquoi m’alarmer ? et quel est mon effroi ?</l>
+                        <l n="1307"> Puis-je, sans l’outrager, me défier d’un roi</l>
+                        <l n="1308"> Qui semble désormais, cédant à la nature,</l>
+                        <l n="1309"> Oublier qu’à sa gloire on ait fait une injure ?</l>
+                        <l n="1310"> L’oublier ! ah ! moi-même, oublié-je aujourd’hui</l>
+                        <l n="1311"> Ce qu’il voulait de moi, ce que j’ai vu de lui ?</l>
+                        <l n="1312"> Puis-je en croire une paix déjà sans fruit jurée ?</l>
+                        <l n="1313"> Dès qu’il faut pardonner, n’attendons rien d’Atrée.</l>
+                        <l n="1314"> Je ne connais que trop ses transports furieux,</l>
+                        <l n="1315"> Et sa fausse pitié n’éblouit point mes yeux.</l>
+                        <l n="1316"> C’est en vain de sa main que je reçois un père :</l>
+                        <l n="1317"> Tout ce qui vient de lui cache quelque mystère.</l>
+                        <l n="1318"> J’en ai trop éprouvé de son perfide cœur,</l>
+                        <l n="1319"> Pour oser, sur sa foi, déposer ma frayeur.</l>
+                        <l n="1320"> Je ne sais quel soupçon irrite mes alarmes ;</l>
+                        <l n="1321"> Mais du fond de mon cœur je sens couler mes larmes.         </l>
+                        <l n="1322"> Thessandre ne vient point : tant de retardements</l>
+                        <l n="1323"> Ne confirment que trop mes noirs pressentiments.</l>
+                        <l n="1324"> Mais je le vois.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="1325"> Eh bien ! en est-ce fait, Thessandre ?</l>
+                        <l n="1326"> Sur les bords de l’Euripe est-il temps de nous rendre ?</l>
+                        <l n="1327"> Pour cet heureux moment as-tu tout préparé ?</l>
+                        <l n="1328"> De nos amis secrets t’es-tu bien assuré ?</l>
+                </sp>
+        <sp who="#thessandre">
+            <speaker> THESSANDRE. </speaker>
+                        <l n="1329"> Il ne tient plus qu’à vous d’éprouver leur courage ;</l>
+                        <l n="1330"> Je les ai dispersés, ici, sur le rivage ;</l>
+                        <l n="1331"> Tout est prêt. Cependant, si Plisthène aujourd’hui</l>
+                        <l n="1332"> Veut en croire des cœurs pleins de zèle pour lui,</l>
+                        <l n="1333"> Il ne partira point : ce dessein téméraire</l>
+                        <l n="1334"> Pourrait causer sa perte et celle de son père.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="1335"> Ah ! je ne fuirais pas, quel que fût mon effroi,</l>
+                        <l n="1336"> Si mon cœur aujourd’hui ne tremblait que pour moi :</l>
+                        <l n="1337"> Thessandre, il faut sauver mon père et la princesse ;</l>
+                        <l n="1338"> Ce n’est plus que pour eux que mon cœur s’intéresse.</l>
+                        <l n="1339"> Cherche Théodamie, et ne la quitte pas ;</l>
+                        <l n="1340"> Moi, je cours retrouver Thyeste de ce pas.</l>
+                </sp>
+        <sp who="#thessandre">
+            <speaker> THESSANDRE. </speaker>
+                        <l n="1341"> Eh ! que prétendez-vous, seigneur, lorsque son frère</l>
+                        <l n="1342"> Semble de sa présence accabler votre père ?</l>
+                        <l n="1343"> Il ne le quitte point ; ses longs embrassements</l>
+                        <l n="1344"> Sont toujours resserrés par de nouveaux serments.</l>
+                        <l n="1345"> Un superbe festin par son ordre s’apprête ;</l>
+                        <l n="1346"> Il appelle les dieux à cette auguste fête.</l>
+                        <l n="1347"> Mon cœur, à cet aspect qui s’est laissé charmer,</l>
+                        <l n="1348"> Ne voit rien dont le vôtre ait lieu de s’alarmer.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="1349"> Et moi, je ne vois rien dont le mien ne frémisse.</l>
+                        <l n="1350"> De quelque crime affreux cette fête est complice :</l>
+                        <l n="1351"> C’est assez qu’un tyran la consacre en ces lieux,</l>
+                        <l n="1352"> Et nous sommes perdus s’il invoque les dieux.</l>
+                        <l n="1353"> Va, cours avec ma sœur nous attendre au rivage ;</l>
+                        <l n="1354"> Moi, je vais à Thyeste ouvrir un sûr passage.</l>
+                        <l n="1355"> Dieux puissants, secondez un si juste dessein,</l>
+                        <l n="1356"> Et dérobez mon père aux coups d’un inhumain.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="1357"> Demeure, digne fils d’Ærope et de Thyeste ;</l>
+                        <l n="1358"> Demeure, reste impur d’un sang que je déteste</l>
+                        <l n="1359"> Pour remplir de tes soins le projet important,</l>
+                        <l n="1360"> Demeure, c’est ici que Thyeste t’attend ;</l>
+                        <l n="1361"> Et tu n’iras pas loin pour rejoindre, perfide,</l>
+                        <l n="1362"> Les traîtres qu’en ces lieux arme ton parricide.           </l>
+                        <l n="1363"> Prince indigne du jour, voilà donc les effets</l>
+                        <l n="1364"> Que dans ton âme ingrate ont produits mes bienfaits !</l>
+                        <l n="1365"> À peine le destin te redonne à ton père,</l>
+                        <l n="1366"> Que ton cœur aussitôt en prend le caractère ;</l>
+                        <l n="1367"> Et plus ingrat que lui, puisqu’il me devait moins,</l>
+                        <l n="1368"> L’attentat le plus noir est le prix de mes soins.</l>
+                        <l n="1369"> Va, pour le prix des tiens, retrouver tes complices ;</l>
+                        <l n="1370"> Va périr avec eux dans l’horreur des supplices.</l>
+                </sp>
+        <sp who="#plisthène">
+            <speaker> PLISTHÈNE. </speaker>
+                        <l n="1371"> Pourquoi me supposer un indigne forfait ?</l>
+                        <l n="1372"> Est-ce pour vos pareils que le prétexte est fait ?         </l>
+                        <l n="1373"> Vos reproches honteux n’ont rien qui me surprenne,</l>
+                        <l n="1374"> Et je ne sens que trop ce que peut votre haine.</l>
+                        <l n="1375"> Aurais-je prétendu, né d’un sang odieux,</l>
+                        <l n="1376"> Vous être plus sacré que n’ont été les dieux ?</l>
+                        <l n="1377"> À travers les détours de votre âme parjure,</l>
+                        <l n="1378"> J’entrevois des horreurs dont frémit la nature.</l>
+                        <l n="1379"> Dans la juste fureur dont mon cœur est épris...</l>
+                        <l n="1380"> Mais non, je me souviens que je fus votre fils.</l>
+                        <l n="1381"> Malgré vos cruautés, et malgré ma colère,</l>
+                        <l n="1382"> Je crois encore ici m’adresser à mon père.        </l>
+                        <l n="1383"> Quoique trop assuré de ne point l’attendrir,</l>
+                        <l n="1384"> Je sens bien que du moins je ne dois point l’aigrir,</l>
+                        <l n="1385"> Dans l’espoir que ma mort pourra vous satisfaire,</l>
+                        <l n="1386"> Que vous épargnerez votre malheureux frère.</l>
+                        <l n="1387"> Le crime supposé qu’on m’impute aujourd’hui,        </l>
+                        <l n="1388"> Tout, jusqu’à son départ, est un secret pour lui.</l>
+                        <l n="1389"> Sur la foi d’une paix si saintement jurée.</l>
+                        <l n="1390"> Il se croit sans péril entre les mains d’Atrée :</l>
+                        <l n="1391"> J’ai pénétré moi seul au fond de votre cœur ;</l>
+                        <l n="1392"> Et mon malheureux père est encor dans l’erreur.</l>
+                        <l n="1393"> Je ne vous parle point d’une jeune princesse ;</l>
+                        <l n="1394"> À la faire périr rien ne vous intéresse.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="1395"> Va, tu prétends en vain t’éclaircir de leur sort ;</l>
+                        <l n="1396"> Meurs dans ce doute affreux, plus cruel que la mort :</l>
+                        <l n="1397"> De leur sort aux enfers va chercher qui t’instruise.</l>
+                        <l n="1398"> Où l’on doit l’immoler, gardes, qu’on le conduise ;</l>
+                        <l n="1399"> Versez à ma fureur ce sang abandonné,</l>
+                        <l n="1400"> Et songez à remplir l’ordre que j’ai donné.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#atrée">
+            <speaker> ATRÉE </speaker>
+                        <l n="1401"> Va périr, malheureux, mais, dans ton sort funeste</l>
+                        <l n="1402"> Cent fois moins malheureux que le lâche Thyeste.</l>
+                        <l n="1403"> Que je suis satisfait ! que de pleurs vont couler</l>
+                        <l n="1404"> Pour ce fils qu’à ma rage on est près d’immoler !</l>
+                        <l n="1405"> Quel que soit en ces lieux son supplice barbare,</l>
+                        <l n="1406"> C’est le moindre tourment qu’à Thyeste il prépare.</l>
+                        <l n="1407"> Ce fils infortuné, cet objet de ses vœux,</l>
+                        <l n="1408"> Va devenir pour lui l’objet le plus affreux.</l>
+                        <l n="1409"> Je ne te l’ai rendu que pour te le reprendre,</l>
+                        <l n="1410"> Et ne te le ravis que pour mieux te le rendre.</l>
+                        <l n="1411"> Oui, je voudrais pouvoir, au gré de ma fureur,</l>
+                        <l n="1412"> Le porter tout sanglant jusqu’au fond de ton cœur.</l>
+                        <l n="1413"> Quel qu’en soit le forfait, un dessein si funeste,</l>
+                        <l n="1414"> S’il n’est digne d’Atrée, est digne de Thyeste.</l>
+                        <l n="1415"> De son fils tout sanglant, de son malheureux fils,</l>
+                        <l n="1416"> Je veux que dans son sein il entende les cris.</l>
+                        <l n="1417"> C’est en toi-même, ingrat, qu’il faut que ma victime,</l>
+                        <l n="1418"> Ce fruit de tes amours, aille expier ton crime...</l>
+                        <l n="1419"> Je frissonne, et je sens mon âme se troubler...</l>
+                        <l n="1420"> C’est à mon ennemi qu’il convient de trembler.</l>
+                        <l n="1421"> Qui cède à la pitié mérite qu’on l’offense ;</l>
+                        <l n="1422"> Il faut un terme au crime, et non à la vengeance.        </l>
+                        <l n="1423"> Tout est prêt, et déjà, dans mon cœur furieux</l>
+                        <l n="1424"> Je goûte le plaisir le plus parfait des dieux :</l>
+                        <l n="1425"> Je vais être vengé, Thyeste, quelle joie !</l>
+                        <l n="1426"> Je vais jouir des maux où tu vas être en proie.</l>
+                        <l n="1427"> Ce n’est de ses forfaits se venger qu’à demi,</l>
+                        <l n="1428"> Que d’accabler de loin un perfide ennemi.</l>
+                        <l n="1429"> Il faut, pour bien jouir de son sort déplorable,</l>
+                        <l n="1430"> Le voir dans le moment qu’il devient misérable,</l>
+                        <l n="1431"> De ses premiers transports irriter la douleur,</l>
+                        <l n="1432"> Et lui faire à longs traits sentir tout son malheur.</l>
+                        <l n="1433"> Thyeste vient ; feignons. Il semble, à sa tristesse,</l>
+                        <l n="1434"> Que de son sort affreux quelque soupçon le presse.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="1435"> Cher Thyeste, approchez : d’où naît cette frayeur ?</l>
+                        <l n="1436"> Quel déplaisir si prompt peut troubler votre cœur ?</l>
+                        <l n="1437"> Vous paraissez saisi d’une douleur secrète,</l>
+                        <l n="1438"> Et ne me montrez plus cette âme satisfaite</l>
+                        <l n="1439"> Qui semblait respirer la douceur de la paix :</l>
+                        <l n="1440"> Ne serait-elle plus vos plus tendres souhaits ?</l>
+                        <l n="1441"> Quoi ! de quelques soupçons votre âme est-elle atteinte ?</l>
+                        <l n="1442"> Ce jour, cet heureux jour est-il fait pour la crainte ?</l>
+                        <l n="1443"> Mon frère, vous devez la bannir désormais ;</l>
+                        <l n="1444"> La coupe va bientôt nous unir pour jamais.</l>
+                        <l n="1445"> Goûtez-vous la douceur d’une paix si parfaite ?</l>
+                        <l n="1446"> Et la souhaitez-vous comme je la souhaite ?</l>
+                        <l n="1447"> N’êtes-vous pas sensible à ce rare bonheur ?</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="1448"> Qui ? moi vous soupçonner, ou vous haïr, seigneur !</l>
+                        <l n="1449"> Les dieux m’en sont témoins, ces dieux qu’ici j’atteste,</l>
+                        <l n="1450"> Qui lisent mieux que vous dans l’âme de Thyeste.</l>
+                        <l n="1451"> Ne vous offensez point d’une vaine terreur</l>
+                        <l n="1452"> Qui semble, malgré moi, s’emparer de mon cœur.</l>
+                        <l n="1453"> Je le sens agité d’une douleur mortelle :</l>
+                        <l n="1454"> Ma constance succombe ; en vain je la rappelle ;</l>
+                        <l n="1455"> Et depuis un moment, mon esprit abattu</l>
+                        <l n="1456"> Laisse d’un poids honteux accabler sa vertu.</l>
+                        <l n="1457"> Cependant près de vous, un je ne sais quel charme</l>
+                        <l n="1458"> Suspend dans ce moment le trouble qui m’alarme.</l>
+                        <l n="1459"> Pour rassurer encor mes timides esprits,</l>
+                        <l n="1460"> Rendez-moi mes enfants, faites venir mon fils ;</l>
+                        <l n="1461"> Qu’il puisse être témoin d’une union si chère,</l>
+                        <l n="1462"> Et partager, seigneur, les bontés de mon frère.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="1463"> Vous serez satisfait, Thyeste ; et votre fils</l>
+                        <l n="1464"> Pour jamais en ces lieux va vous être remis.</l>
+                        <l n="1465"> Oui, mon frère, il n’est plus que la Parque inhumaine</l>
+                        <l n="1466"> Qui puisse séparer Thyeste de Plisthène.</l>
+                        <l n="1467"> Vous le verrez bientôt ; un ordre de ma part</l>
+                        <l n="1468"> Le fait de ce palais hâter votre départ.</l>
+                        <l n="1469"> Pour donner de ma foi des preuves plus certaines,</l>
+                        <l n="1470"> Je veux vous renvoyer dès ce jour à Mycènes.</l>
+                        <l n="1471"> Malgré ce que je fais, peu sûr de cette foi,</l>
+                        <l n="1472"> Je vois que votre cœur s’alarme auprès de moi.          </l>
+                        <l n="1473"> J’avais cru cependant qu’une pleine assurance</l>
+                        <l n="1474"> Devait suivre...</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="1475"> Ah ! seigneur, ce reproche m’offense.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE, à ses gardes. </speaker>
+                        <l n="1476"> Qu’on cherche la princesse, allez ; et qu’en ces lieux</l>
+                        <l n="1477"> Plisthène, sans tarder, se présente à ses yeux.</l>
+                        <l n="1478"> Il faut...</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="1479"> Mais j’aperçois la coupe de nos pères :</l>
+                        <l n="1480"> Voici le nœud sacré de la paix de deux frères ;</l>
+                        <l n="1481"> Elle vient à propos pour rassurer un cœur</l>
+                        <l n="1482"> Qu’alarme en ce moment une indigne terreur.</l>
+                        <l n="1483"> Tel qui pouvait encor se défier d’Atrée</l>
+                        <l n="1484"> En croira mieux peut-être à la coupe sacrée.</l>
+                        <l n="1485"> Thyeste veut-il bien qu’elle achève en ce jour</l>
+                        <l n="1486"> De réunir deux cœurs désunis par l’amour ?</l>
+                        <l n="1487"> Pour engager un frère à plus de confiance,</l>
+                        <l n="1488"> Pour le convaincre enfin, donnez, que je commence.</l>
+            <stage><em>Il prend la coupe de la main d’Euristhène.</em></stage>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="1489"> Je vous l’ai déjà dit, vous m’outragez, seigneur,         </l>
+                        <l n="1490"> Si vous vous offensez d’une vaine frayeur.</l>
+                        <l n="1491"> Que voudrait désormais me ravir votre haine,</l>
+                        <l n="1492"> Après m’avoir rendu mes états et Plisthène ?</l>
+                        <l n="1493"> Du plus affreux courroux quel que fût le projet,</l>
+                        <l n="1494"> Mes jours infortunés valent-ils ce bienfait ?</l>
+                        <l n="1495"> Euristhène, donnez ; laissez-moi l’avantage</l>
+                        <l n="1496"> De jurer le premier sur ce précieux gage.</l>
+                        <l n="1497"> Mon cœur, à son aspect, de son trouble est remis :</l>
+                        <l n="1498"> Donnez... Mais cependant je ne vois point mon fils.</l>
+            <stage><em>Il prend la coupe des mains d’Atrée.</em></stage>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE, à ses gardes. </speaker>
+                        <l n="1499"> Il n’est point de retour ?</l>
+            <stage><em>À Thyeste.</em></stage>
+                        <l n="1500"> Rassurez-vous, mon frère ; </l>
+                        <l n="1501"> Vous reverrez bientôt une tête si chère :</l>
+                        <l n="1502"> C’est de notre union le nœud le plus sacré ;</l>
+                        <l n="1503"> Craignez moins que jamais d’en être séparé.</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="1504"> Soyez donc les garants du salut de Thyeste,</l>
+                        <l n="1505"> Coupe de nos aïeux, et vous, dieux que j’atteste ;</l>
+                        <l n="1506"> Puisse votre courroux foudroyer désormais</l>
+                        <l n="1507"> Le premier de nous deux qui troublera la paix !</l>
+                        <l n="1508"> Et vous, frère aussi cher que ma fille et Plisthène,</l>
+                        <l n="1509"> Recevez de ma foi cette preuve certaine...</l>
+                        <l n="1510"> Mais que vois-je, perfide ? Ah ! grands dieux, quelle horreur !       </l>
+                        <l n="1511"> C’est du sang ! Tout le mien se glace dans mon cœur.</l>
+                        <l n="1512"> Le soleil s’obscurcit ; et la coupe sanglante</l>
+                        <l n="1513"> Semble fuir d’elle-même à cette main tremblante.</l>
+                        <l n="1514"> Je me meurs. Ah ! mon fils, qu’êtes-vous devenu ?</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#théodamie">
+            <speaker> THÉODAMIE. </speaker>
+                        <l n="1515"> L’avez-vous pu souffrir, dieux cruels ? Qu’ai-je vu ?</l>
+                        <l n="1516"> Ah ! seigneur, votre fils, mon déplorable frère,</l>
+                        <l n="1517"> Vient d’être pour jamais privé de la lumière.</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="1518"> Mon fils est mort, cruel ! dans ce même palais,</l>
+                        <l n="1519"> Et dans le même instant où l’on m’offre la paix !</l>
+                        <l n="1520"> Et pour comble d’horreurs, pour comble d’épouvante,        </l>
+                        <l n="1521"> Barbare, c’est du sang que ta main me présente !</l>
+                        <l n="1522"> Ô terre, en ce moment, peux-tu nous soutenir !</l>
+                        <l n="1523"> Ô de mon songe affreux triste ressouvenir !</l>
+                        <l n="1524"> Mon fils, est-ce ton sang qu’on offrait à ton père ?</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="1525"> Méconnais-tu ce sang ?</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="1526"> Je reconnais mon frère.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="1527"> Il fallait le connaître, et ne point l’outrager ;</l>
+                        <l n="1528"> Ne point forcer ce frère, ingrat, à se venger.</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="1529"> Grands dieux ! pour quels forfaits lancez-vous le tonnerre ?</l>
+                        <l n="1530"> Monstre que les enfers ont vomi sur la terre,</l>
+                        <l n="1531"> Assouvis la fureur dont ton cœur est épris ;</l>
+                        <l n="1532"> Joins un malheureux père à son malheureux fils ;</l>
+                        <l n="1533"> À ses mânes sanglants donne cette victime,</l>
+                        <l n="1534"> Et ne t’arrête point au milieu de ton crime.</l>
+                        <l n="1535"> Barbare, peux-tu bien m’épargner en des lieux</l>
+                        <l n="1536"> Dont tu viens de chasser et le jour et les dieux !</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="1537"> Non, à voir les malheurs où j’ai plongé ta vie,</l>
+                        <l n="1538"> Je me repentirais de te l’avoir ravie.</l>
+                        <l n="1539"> Par tes gémissements je connais ta douleur :</l>
+                        <l n="1540"> Comme je le voulais tu ressens ton malheur ;</l>
+                        <l n="1541"> Et mon cœur, qui perdait l’espoir de sa vengeance,</l>
+                        <l n="1542"> Retrouve dans tes pleurs son unique espérance.</l>
+                        <l n="1543"> Tu souhaites la mort, tu l’implores ; et moi,</l>
+                        <l n="1544"> Je te laisse le jour pour me venger de toi.</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="1545"> Tu t’en flattes en vain, et la main de Thyeste</l>
+                        <l n="1546"> Saura bien te priver d’un plaisir si funeste.</l>
+            <stage><em>Il se tue.</em></stage>
+                </sp>
+        <sp who="#théodamie">
+            <speaker> THÉODAMIE. </speaker>
+                        <l n="1547"> Ah ciel !</l>
+                </sp>
+        <sp who="#thyeste">
+            <speaker> THYESTE. </speaker>
+                        <l n="1548"> Consolez-vous, ma fille ; et de ces lieux</l>
+                        <l n="1549"> Fuyez, et remettez votre vengeance aux dieux.</l>
+                        <l n="1550"> Contente par vos pleurs d’implorer leur justice,</l>
+                        <l n="1551"> Allez loin de ce traître attendre son supplice.</l>
+                        <l n="1552"> Les dieux, que ce parjure a fait pâlir d’effroi,</l>
+                        <l n="1553"> Le rendront quelque jour plus malheureux que moi :</l>
+                        <l n="1554"> Le ciel me le promet, la coupe en est le gage ;</l>
+                        <l n="1555"> Et je meurs.</l>
+                </sp>
+        <sp who="#atrée">
+            <speaker> ATRÉE. </speaker>
+                        <l n="1556"> À ce prix, j’accepte le présage :</l>
+                        <l n="1557"> Ta main, en t’immolant, a comblé mes souhaits ;</l>
+                        <l n="1558"> Et je jouis enfin du fruit de mes forfaits.</l>
+                        <l n="1559"> </l>
+                        <l n="1560"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

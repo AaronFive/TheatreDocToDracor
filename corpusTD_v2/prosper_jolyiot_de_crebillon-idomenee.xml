@@ -1,0 +1,2535 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Idoménée</title>
+                <title type="sub">Tragédie</title>
+            <author>
+                <persName>
+                    <forename>Prosper</forename>
+                    <forename>Jolyot</forename>
+                    <linkname>de</linkname>
+                    <surname>Crébillon</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/?q=node/194 </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1705-12-12">Représentée pour la première fois, à Paris, sur le Théâtre de la rue des Fossés Saint-Germain, le 12 décembre 1705.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="idoménée" sex="SEX">
+                            <persName>IDOMÉNÉE</persName>
+                        </person>
+                        <person xml:id="idamante" sex="SEX">
+                            <persName>IDAMANTE</persName>
+                        </person>
+                        <person xml:id="érixène" sex="SEX">
+                            <persName>ÉRIXÈNE</persName>
+                        </person>
+                        <person xml:id="sophronyme" sex="SEX">
+                            <persName>SOPHRONYME</persName>
+                        </person>
+                        <person xml:id="égésippe" sex="SEX">
+                            <persName>ÉGÉSIPPE</persName>
+                        </person>
+                        <person xml:id="polyclète" sex="SEX">
+                            <persName>POLYCLÈTE</persName>
+                        </person>
+                        <person xml:id="ismène" sex="SEX">
+                            <persName>ISMÈNE</persName>
+                        </person>
+                        <person xml:id="suite-du-roi" sex="SEX">
+                            <persName>SUITE DU ROI</persName>
+                        </person>
+                        <person xml:id="gardes" sex="SEX">
+                            <persName>GARDES</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Tragédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q80930]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">IDOMÉNÉE</titlePart>
+            <titlePart type="sub">TRAGÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre de la rue des Fossés Saint-Germain, le 12 décembre 1705.</ab><!--@date="1705-12-12"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> À S. A. S. MONSEIGNEUR LE DUC</salute>
+            </opener>
+        <p> Toi qui, par mille exploits divers, </p>
+        <p> Soutiens le poids d’un nom si fameux dans le monde, </p>
+        <p> Héros, à tes bontés souffre que je réponde, </p>
+        <p> Et reçois l’offre de mes vers. </p>
+        <p> Je méditais en vain de t’en faire l’hommage, </p>
+        <p> En vain je me l’étais promis, </p>
+        <p> Jamais ton nom sacré n’eût paré mon ouvrage, </p>
+        <p> Si toi-même ne l’eus permis<a href="#_ftn2" name="_ftnref2" title="" id="_ftnref2">[2]</a>. </p>
+        <p> Non, quel que soit pour toi le zèle qui me guide, </p>
+        <p> Quel que fût de mes vers le prix ou le bonheur, </p>
+        <p> Grand prince, ma muse timide </p>
+        <p> Ne te les eût offerts que dans le fond du cœur. </p>
+        <p> Un auteur vainement, sous le nom de prémices, </p>
+        <p> Croit son hommage en sûreté : </p>
+        <p> Dans nos plus humbles sacrifices, </p>
+        <p> On nous croit sans humilité. </p>
+        <p> C’est tendre à l’immortalité </p>
+        <p> Que de paraître au jour sous de si grands auspices ; </p>
+        <p> C’est rendre enfin mes vers ou suspects ou complices </p>
+        <p> D’une coupable vanité. </p>
+        <p> Heureux que ma muse indiscrète </p>
+        <p> N’ait point suivi sa folle ardeur, </p>
+        <p> Et que, prête à livrer le héros au poète, </p>
+        <p> Elle ait d’un front modeste épargné la pudeur ! </p>
+        <p> Si, plus que toi peut-être instruite de ta gloire, </p>
+        <p> Rappelant des périls que tu ne craignis pas. </p>
+        <p> Te les reprochant même au sein de la victoire. </p>
+        <p> Ma muse t’apprenait tout ce que fit ton bras... </p>
+        <p> Non, ne crains point que son audace, </p>
+        <p> De Steinkerque ou Nerwinde<a href="#_ftn3" name="_ftnref3" title="" id="_ftnref3">[3]</a> embrassant les exploits. </p>
+        <p> Fasse résonner une voix </p>
+        <p> À peine connue au Parnasse. </p>
+        <p> Mais si du dieu des vers je me fais avouer, </p>
+        <p> Si sur moi d’un rayon il répand la lumière, </p>
+        <p> Je ne rentre dans la carrière </p>
+        <p> Que pour apprendre à te louer. </p>
+        <p> JOLYOT DE CRÉBILLON. </p>
+    </div>
+           <div type="act" xml:id="1">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE, seul </speaker>
+                        <l n="1"> Où suis-je ? quelle horreur m’épouvante et me suit !</l>
+                        <l n="2"> Quel tremblement, ô ciel ! et quelle affreuse nuit !</l>
+                        <l n="3"> Dieux puissants, épargnez la Crète infortunée.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="4"> Sophronyme, est-ce toi ?</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="5"> Que vois-je ? Idoménée !</l>
+                        <l n="6"> Ah ! seigneur, de quel bruit ont retenti ces lieux !</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="7"> Eh quoi ! tant de malheurs n’ont point lassé les dieux !</l>
+                        <l n="8"> Depuis six mois entiers une fureur commune</l>
+                        <l n="9"> Agite tour à tour Jupiter et Neptune.</l>
+                        <l n="10"> La foudre est l’astre seul qui nous luit dans les airs :</l>
+                        <l n="11"> Neptune va bientôt nous couvrir de ses mers.</l>
+                        <l n="12"> C’en est fait ! tout périt ; la Crète désolée</l>
+                        <l n="13"> Semble rentrer au sein de la terre ébranlée.</l>
+                        <l n="14"> Chaque jour, entouré des plus tristes objets,</l>
+                        <l n="15"> La mort jusqu’en mes bras moissonne mes sujets.</l>
+                        <l n="16"> Jupiter, sur moi seul épuise ta vengeance !</l>
+                        <l n="17"> N’afflige plus des lieux si chers à ton enfance !</l>
+                        <l n="18"> Mes peuples malheureux n’espèrent plus qu’en toi :</l>
+                        <l n="19"> Si j’ai pu t’offenser, ne tonne que sur moi.</l>
+                        <l n="20"> Pour les seuls innocents allumes-tu la foudre ?</l>
+                        <l n="21"> Sur son trône embrasé réduis le prince en poudre,</l>
+                        <l n="22"> Épargne les sujets : pourquoi les frapper tous ?</l>
+                        <l n="23"> Qui d’eux, ou de leur roi, mérite ton courroux ?</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="24"> Quoi ! toujours de nos maux vous croirez-vous coupable ?</l>
+                        <l n="25"> N’armez point contre vous une main redoutable.</l>
+                        <l n="26"> Le ciel, depuis longtemps déclaré contre nous,</l>
+                        <l n="27"> Semble, dans sa fureur, ne ménager que vous.</l>
+                        <l n="28"> Dans les maux redoublés dont la rigueur nous presse,</l>
+                        <l n="29"> Votre seule pitié, seigneur, nous intéresse.</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="30"> Les dieux voudraient en vain ne ménager que moi :</l>
+                        <l n="31"> Eh ! frapper tout son peuple, est-ce épargner un roi ?</l>
+                        <l n="32"> Hélas ! pour me remplir de douleurs et de craintes,</l>
+                        <l n="33"> Pour accabler mon cœur des plus rudes atteintes,</l>
+                        <l n="34"> Il suffirait des cris de tant d’infortunés,</l>
+                        <l n="35"> Aux maux les plus cruels chaque jour condamnés :</l>
+                        <l n="36"> Et c’est moi cependant, c’est leur roi sacrilège</l>
+                        <l n="37"> Qui répand dans ces lieux l’horreur qui les assiège !</l>
+                        <l n="38"> Je ne gémirais point sur leur destin affreux,</l>
+                        <l n="39"> Si le ciel était juste autant que rigoureux.</l>
+                        <l n="40"> Mais ce n’est pas le ciel, c’est moi qui les foudroie :</l>
+                        <l n="41"> Juge de quels remords je dois être la proie.</l>
+                        <l n="42"> Quels regrets quand je vois mes peuples malheureux</l>
+                        <l n="43"> Craindre pour moi les maux que j’attire sur eux,</l>
+                        <l n="44"> Prier que pour eux seuls le ciel inexorable</l>
+                        <l n="45"> Porte loin de leur roi le coup qui les accable !</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="46"> Quoi ! seigneur, vous seriez l’auteur de tant de maux !</l>
+                        <l n="47"> Et de vous seul la Crète attendrait son repos !</l>
+                        <l n="48"> Quoi ! des dieux irrités ce peuple la victime...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="49"> L’est moins de leur courroux, qu’il ne l’est de mon crime.</l>
+                        <l n="50"> Cet aveu te surprend. À peine croirais-tu,</l>
+                        <l n="51"> Sophronyme, à quel point j’ai manqué de vertu :</l>
+                        <l n="52"> Mais telle est désormais ma triste destinée...</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="53"> Quel crime a donc commis le sage Idoménée ?</l>
+                        <l n="54"> Fils de Deucalion, petit-fils de Minos,</l>
+                        <l n="55"> Vos vertus ont passé celles de ces héros :</l>
+                        <l n="56"> Nous trouvions tout en vous, un roi, les dieux, un père.</l>
+                        <l n="57"> Seigneur, par quel malheur, à vous-même contraire,</l>
+                        <l n="58"> Avez-vous pu trahir des noms si glorieux ?</l>
+                        <l n="59"> Qui fit donc succomber votre vertu ?</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="60"> Les dieux.</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="61"> Quel forfait peut sur vous attirer leur colère ?</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="62"> On n’est pas innocent lorsqu’on peut leur déplaire :</l>
+                        <l n="63"> Les dieux sur mes pareils font gloire de leurs coups ;</l>
+                        <l n="64"> D’illustres malheureux honorent leur courroux.</l>
+                        <l n="65"> Entre le ciel et moi sois juge, Sophronyme :</l>
+                        <l n="66"> Il prépara du moins s’il ne fit pas mon crime.</l>
+                        <l n="67"> Par vingt rois dès longtemps vainement rassemblés,</l>
+                        <l n="68"> Les troyens à la fin se virent accablés ;</l>
+                        <l n="69"> De leurs bords désolés tout pressait la retraite :</l>
+                        <l n="70"> Ainsi, loin de nos grecs, je voguai vers la Crète.</l>
+                        <l n="71"> Le prince Mérion, prompt à m’y devancer,</l>
+                        <l n="72"> Sur mon trône peut-être aurait pu se placer,</l>
+                        <l n="73"> Si mon fils n’eût dompté l’orgueil de ce rebelle.</l>
+                        <l n="74"> À Samos, par tes soins, j’en reçus la nouvelle.</l>
+                        <l n="75"> Je peindrais mal ici les transports de mon cœur</l>
+                        <l n="76"> Lorsque j’appris d’un traître Idamante vainqueur :</l>
+                        <l n="77"> La gloire de mon fils me causa plus de joie</l>
+                        <l n="78"> Que ne firent jamais les dépouilles de Troie.</l>
+                        <l n="79"> Après dix ans d’absence, empressé de revoir</l>
+                        <l n="80"> Cet appui de mon trône, et mon unique espoir,</l>
+                        <l n="81"> À regagner la Crète aussitôt je m’apprête,</l>
+                        <l n="82"> Ignorant le péril qui menaçait ma tête.</l>
+                        <l n="83"> Sans que je te rappelle un honteux souvenir,</l>
+                        <l n="84"> Ni que de nos affronts je t’aille entretenir,</l>
+                        <l n="85"> Tu sais de quels forfaits ma race s’est noircie.</l>
+                        <l n="86"> Comme Pasiphaé, Phèdre au crime endurcie,</l>
+                        <l n="87"> Ne signale que trop et Minos et Vénus.</l>
+                        <l n="88"> Tous nos malheurs enfin te sont assez connus.</l>
+                        <l n="89"> Né de ce sang fatal à la déesse en proie,</l>
+                        <l n="90"> J’avais encor sur moi la querelle de Troie :</l>
+                        <l n="91"> Juge de la vengeance, à ce titre odieux.</l>
+                        <l n="92"> Ce fut peu de sa haine, elle arma tous les dieux.</l>
+                        <l n="93"> La Crète paraissait, tout flattait mon envie ;</l>
+                        <l n="94"> Je distinguais déjà le port de Cydonie :</l>
+                        <l n="95"> Mais le ciel ne m’offrait ces objets ravissants</l>
+                        <l n="96"> Que pour rendre toujours mes désirs plus pressants.</l>
+                        <l n="97"> Une effroyable nuit sur les eaux répandue</l>
+                        <l n="98"> Déroba tout à coup ces objets à ma vue ;</l>
+                        <l n="99"> La mort seule y parut... le vaste sein des mers</l>
+                        <l n="100"> Nous entr’ouvrit trois fois la route des enfers.</l>
+                        <l n="101"> Par des vents opposés les vagues ramassées,</l>
+                        <l n="102"> De l’abîme profond jusques au ciel poussées,</l>
+                        <l n="103"> Dans les airs embrasés agitaient mes vaisseaux,</l>
+                        <l n="104"> Aussi près d’y périr qu’à fondre sous les eaux.</l>
+                        <l n="105"> D’un déluge de feux l’onde comme allumée</l>
+                        <l n="106"> Semblait rouler sur nous une mer enflammée ;</l>
+                        <l n="107"> Et Neptune en courroux à tant de malheureux</l>
+                        <l n="108"> N’offrait pour tout salut que des rochers affreux.</l>
+                        <l n="109"> Que te dirai-je enfin ? Dans ce péril extrême</l>
+                        <l n="110"> Je tremblai, Sophronyme, et tremblai pour moi-même.</l>
+                        <l n="111"> Pour apaiser les dieux je priai... je promis...</l>
+                        <l n="112"> Non, je ne promis rien : dieux cruels, j’en frémis...</l>
+                        <l n="113"> Neptune, l’instrument d’une indigne faiblesse,</l>
+                        <l n="114"> S’empara de mon cœur, et dicta la promesse :</l>
+                        <l n="115"> S’il n’en eût inspiré le barbare dessein,</l>
+                        <l n="116"> Non, je n’aurais jamais promis de sang humain.</l>
+                        <l n="117"> « Sauve des malheureux si voisins du naufrage,</l>
+                        <l n="118"> « Dieu puissant, m’écriai-je, et rends-nous au rivage :</l>
+                        <l n="119"> « Le premier des sujets rencontrés par son roi</l>
+                        <l n="120"> « À Neptune immolé satisfera pour moi... »</l>
+                        <l n="121"> Mon sacrilège vœu rendit le calme à l’onde ;</l>
+                        <l n="122"> Mais rien ne put le rendre à ma douleur profonde ;</l>
+                        <l n="123"> Et l’effroi succédant à mes premiers transports,</l>
+                        <l n="124"> Je me sentis glacer en revoyant ces bords.</l>
+                        <l n="125"> Je les trouvai déserts, tout avait fui l’orage :</l>
+                        <l n="126"> Un seul homme alarmé parcourait le rivage ;</l>
+                        <l n="127"> Il semblait de ses pleurs mouiller quelques débris :</l>
+                        <l n="128"> J’en approche en tremblant... hélas ! c’était mon fils.</l>
+                        <l n="129"> À ce récit fatal tu devines le reste.</l>
+                        <l n="130"> Je demeurai sans force à cet objet funeste ;</l>
+                        <l n="131"> Et mon malheureux fils eut le temps de voler</l>
+                        <l n="132"> Dans les bras du cruel qui devait l’immoler.</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="133"> Ai-je bien entendu ? Quelle horrible promesse !</l>
+                        <l n="134"> Ah ! père infortuné !</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="135"> Rebelle à ma tendresse,</l>
+                        <l n="136"> Je fus près d’obéir : mais Idamante enfin</l>
+                        <l n="137"> Mit mon âme au dessus des dieux et du destin ;</l>
+                        <l n="138"> Je n’envisageai plus le vœu ni la tempête ;</l>
+                        <l n="139"> Je baignai de mes pleurs une si chère tête.</l>
+                        <l n="140"> Le ciel voulut en vain me rendre furieux ;</l>
+                        <l n="141"> La nature à son tour fit taire tous les dieux.</l>
+                        <l n="142"> Sophronyme, qui veut peut braver leur puissance ;</l>
+                        <l n="143"> Mais ne peut pas qui veut éviter leur vengeance.</l>
+                        <l n="144"> À peine de la Crète eus-je touché les bords,</l>
+                        <l n="145"> Que je la vis remplir de mourants et de morts.</l>
+                        <l n="146"> En vain j’adresse au ciel une plainte importune ;</l>
+                        <l n="147"> J’ai trouvé tous les dieux du parti de Neptune.</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="148"> Qu’espérez-vous des dieux en leur manquant de foi ?         </l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="149"> Que du moins leur courroux n’accablera que moi ;</l>
+                        <l n="150"> Que le ciel, fatigué d’une injuste vengeance,</l>
+                        <l n="151"> Plus équitable enfin, punira qui l’offense ;</l>
+                        <l n="152"> Que je ne verrai point la colère des dieux</l>
+                        <l n="153"> S’immoler par mes mains un sang si précieux.</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="154"> Seigneur, à ce dessein vous mettez un obstacle :</l>
+                        <l n="155"> Pourquoi par Égésippe interroger l’oracle ?</l>
+                        <l n="156"> Vos peuples, informés du sort de votre fils,</l>
+                        <l n="157"> Voudront de leur salut que son sang soit le prix.</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="158"> Que le ciel, que la Crète à l’envi le demandent,          </l>
+                        <l n="159"> N’attends point que mes mains à leur gré le répandent.</l>
+                        <l n="160"> J’interroge les dieux ! ce n’est pas sans frayeur :</l>
+                        <l n="161"> L’oracle est trop écrit dans le fond de mon cœur.</l>
+                        <l n="162"> J’interroge les dieux ! que veux-tu que je fasse ?</l>
+                        <l n="163"> Pouvais-je à mes sujets refuser cette grâce ?</l>
+                        <l n="164"> Un peuple infortuné m’en presse par ses cris :</l>
+                        <l n="165"> J’ai résisté longtemps ; à la fin j’y souscris.</l>
+                        <l n="166"> Tu vois trop à quel prix il faut le satisfaire.</l>
+                        <l n="167"> Ne puis-je être son roi qu’en cessant d’être père ?</l>
+                        <l n="168"> Mais pourquoi m’alarmer ? Les dieux pourraient parler...</l>
+                        <l n="169"> Non, les dieux sur ce point n’ont rien à révéler.</l>
+                        <l n="170"> Que le ciel parle ou non sur ce cruel mystère,</l>
+                        <l n="171"> Ne puis-je pas forcer Égésippe à se taire ?</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="172"> Il se tairait en vain : par le ciel irrité,</l>
+                        <l n="173"> Son silence, seigneur, sera-t-il imité ?</l>
+                        <l n="174"> À se taire longtemps pourrez-vous le contraindre ?</l>
+                        <l n="175"> Que je prévois de maux ! que vous êtes à plaindre !</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="176"> Tu me plains : mais, malgré ta sincère amitié,</l>
+                        <l n="177"> Tu n’auras pas toujours cette même pitié,</l>
+                        <l n="178"> Quand tu sauras les maux dont le destin m’accable,</l>
+                        <l n="179"> Et que l’amour a part à mon sort déplorable...</l>
+                        <l n="180"> Je vois à ce nom seul ta vertu s’alarmer,</l>
+                        <l n="181"> Et la mienne a longtemps craint de t’en informer.</l>
+                        <l n="182"> Tu sais que Mérion, à mon retour d’Asie,</l>
+                        <l n="183"> De son sang criminel paya sa perfidie :</l>
+                        <l n="184"> Lorsque je refusais une victime aux dieux,</l>
+                        <l n="185"> J’osai bien m’immoler ce prince ambitieux.</l>
+                        <l n="186"> Qu’il m’en coûte ! Sa fille, en ces lieux amenée,</l>
+                        <l n="187"> Érixène a comblé les maux d’Idoménée.</l>
+                        <l n="188"> Croirais-tu que mon cœur, nourri dans les hasards,</l>
+                        <l n="189"> N’a pu de deux beaux yeux soutenir les regards ;</l>
+                        <l n="190"> Et que j’adore enfin, trop facile et trop tendre,</l>
+                        <l n="191"> Les restes de ce sang que je viens de répandre ?</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="192"> Quoi ! seigneur, vous aimez ! et parmi tant de maux...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="193"> Cet amour dans mon cœur s’est formé dès Samos.</l>
+                        <l n="194"> Mérion, incertain du succès de ses armes,</l>
+                        <l n="195"> Y crut mettre sa fille à l’abri des alarmes.</l>
+                        <l n="196"> Je la vis, je l’aimai ; conduite par Arcas,</l>
+                        <l n="197"> Je la fis dans ces lieux amener sur mes pas.</l>
+                        <l n="198"> Il semblait qu’une fille à mes regards si chère</l>
+                        <l n="199"> Devait me dérober la tête de son père ;</l>
+                        <l n="200"> Mais Vénus, attentive à se venger de moi,</l>
+                        <l n="201"> Fit bientôt dans mon cœur céder l’amant au roi.</l>
+                        <l n="202"> J’immolai Mérion, et ma naissante flamme</l>
+                        <l n="203"> En vain en sa faveur combattit dans mon âme ;</l>
+                        <l n="204"> Vénus, qui me gardait de sinistres amours,</l>
+                        <l n="205"> De ce prince odieux me fit trancher les jours.</l>
+                        <l n="206"> Que dis-je ? dans le sang du père d’Érixène</l>
+                        <l n="207"> J’espérais étouffer mon amour et ma haine :</l>
+                        <l n="208"> Je m’abusais ; mon cœur, par un triste retour,</l>
+                        <l n="209"> Défait de son courroux, n’en eut que plus d’amour.</l>
+                        <l n="210"> Si depuis mes malheurs je ne l’ai pas vu naître,</l>
+                        <l n="211"> En dois-je moins rougir d’avoir pu le connaître ?</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="212"> Menacé chaque jour du sort le plus affreux,</l>
+                        <l n="213"> Nourrissez-vous, seigneur, un amour dangereux ?</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="214"> Je ne le nourris point, puisque je le déteste :</l>
+                        <l n="215"> C’était des dieux vengeurs le coup le plus funeste.</l>
+                        <l n="216"> Que n’a point fait mon cœur pour affaiblir le trait !</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE, bas à Sophronyme. </speaker>
+                        <l n="217"> Je vois mon fils : laissons cet entretien secret.</l>
+                        <l n="218"> Je t’ai tout découvert, mon amour et mon crime :</l>
+                        <l n="219"> Cache bien mon amour, encor mieux ma victime.</l>
+            <stage><em>À Idamante.</em></stage>
+                        <l n="220"> Que cherchez-vous, mon fils, dans cette affreuse nuit ?</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="221"> Longtemps épouvanté par un horrible bruit,</l>
+                        <l n="222"> Tremblant pour des malheurs qui redoublent sans cesse,</l>
+                        <l n="223"> Sans repos, toujours plein du trouble qui vous presse,</l>
+                        <l n="224"> Alarmé pour des jours si chers, si précieux,</l>
+                        <l n="225"> Je vous cherche... Pourquoi détournez-vous les yeux ?</l>
+                        <l n="226"> Seigneur, qu’ai-je donc fait ? Vous craignez ma présence !</l>
+                        <l n="227"> Quel traitement, après une si longue absence !</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="228"> Non, il n’est pas pour moi de spectacle plus doux,</l>
+                        <l n="229"> Mon fils ; je ne sais rien de plus aimé que vous.</l>
+                        <l n="230"> Mais je ne puis vous voir que mon cœur ne frémisse ;</l>
+                        <l n="231"> Je crains le ciel vengeur, et qu’il ne me ravisse</l>
+                        <l n="232"> Un bien...</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="233"> Ah ! puisse-t-il, aux dépens de mes jours,</l>
+                        <l n="234"> À des maux si cruels donner un prompt secours !</l>
+                        <l n="235"> La mort du moins, seigneur, finirait mes alarmes.</l>
+                        <l n="236"> Vous ne paraissez plus sans m’arracher des larmes ;</l>
+                        <l n="237"> Triste, désespéré, vous cherchez à mourir :</l>
+                        <l n="238"> Et vous m’aimez, seigneur ! Est-ce là me chérir ?</l>
+                        <l n="239"> Le ciel en vain de vous écarte sa colère,</l>
+                        <l n="240"> Vous vous faites des maux qu’il ne veut pas vous faire.</l>
+                        <l n="241"> Il vous rend à mes pleurs quand je vous crois perdu ;</l>
+                        <l n="242"> M’ôterez-vous, seigneur, le bien qu’il m’a rendu ?</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="243"> Ah, mon fils ! nos malheurs ont lassé ma constance,</l>
+                        <l n="244"> Et de fléchir les dieux je perds toute espérance,</l>
+                        <l n="245"> Trop heureux si le ciel, secondant mes souhaits,</l>
+                        <l n="246"> Me rejoignait bientôt à mes tristes sujets !</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="247"> Pour eux, plus que le ciel, vous seriez inflexible,</l>
+                        <l n="248"> Si vous leur prépariez un malheur si terrible.</l>
+                        <l n="249"> Tous les dieux ne sont point contre vous ni contre eux,</l>
+                        <l n="250"> Puisqu’il nous reste encore un roi si généreux.</l>
+                        <l n="251"> Conservez-le, seigneur, et terminez nos craintes.</l>
+                        <l n="252"> Peut-être que le ciel plus sensible à nos plaintes,</l>
+                        <l n="253"> Va s’expliquer bientôt, et, fléchi désormais...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="254"> Ah mon fils ! puisse-t-il ne s’expliquer jamais !           </l>
+                        <l n="255"> Adieu.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="256"> De cet accueil qu’attendre, Polyclète ?</l>
+                        <l n="257"> Que ce silence affreux me trouble et m’inquiète !</l>
+                        <l n="258"> Que m’annonce mon père ? Il me voit à regret :</l>
+                        <l n="259"> Aurait-il pénétré mon funeste secret ?</l>
+                        <l n="260"> Sait-il par quel amour mon âme est entraînée ?          </l>
+                        <l n="261"> Hélas ! bien d’autres soins pressent Idoménée :</l>
+                        <l n="262"> Ce roi comblé de gloire, et qui n’aima jamais,</l>
+                        <l n="263"> Ne s’informera point si j’aime ou si je hais.</l>
+                        <l n="264"> Il ignore qu’un sang qui fit toute sa haine</l>
+                        <l n="265"> Fasse tout mon amour, que j’adore Erixène.</l>
+                        <l n="266"> Que ne m’est-il permis d’ignorer à mon tour</l>
+                        <l n="267"> Que la haine sera le prix de mon amour !</l>
+                        <l n="268"> Je défis Mérion ; plus juste ou plus sévère,</l>
+                        <l n="269"> Le roi sacrifia ce prince téméraire :</l>
+                        <l n="270"> Prémices d’un retour fatal à tous les deux,</l>
+                        <l n="271"> Prémices d’un amour encor plus malheureux !</l>
+                        <l n="272"> C’est en vain que mon cœur brûle pour Érixène ;</l>
+                        <l n="273"> En vain...</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="274"> Dans cette nuit, ciel ! quel dessein l’amène ?</l>
+            <stage><em>À Érixène.</em></stage>
+                        <l n="275"> Madame, quel bonheur ! Eussé-je cru devoir</l>
+                        <l n="276"> À la fureur des dieux le plaisir de vous voir ?</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="277"> J’espérais, mais en vain, jouir de leur colère ;</l>
+                        <l n="278"> J’ai cru que cette nuit allait venger mon père,</l>
+                        <l n="279"> Et que le juste ciel, de sa mort irrité,</l>
+                        <l n="280"> N’en verrait point le crime avec impunité.</l>
+                        <l n="281"> D’un courroux légitime inutile espérance !</l>
+                        <l n="282"> Avec trop de lenteur le ciel sert ma vengeance :</l>
+                        <l n="283"> En vain pour vous punir il remplit tout d’horreurs,</l>
+                        <l n="284"> Puisqu’il peut de mes maux épargner les auteurs.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="285"> J’ignore auprès des dieux ce qui nous rend coupables,</l>
+                        <l n="286"> J’ignore quel forfait les rend inexorables ;</l>
+                        <l n="287"> Mais je sais que le sang qui fait couler vos pleurs</l>
+                        <l n="288"> N’a point sur nous, madame, attiré ces malheurs.</l>
+                        <l n="289"> Avant qu’un sang si cher eût arrosé la terre,</l>
+                        <l n="290"> Le ciel avait déjà fait gronder son tonnerre.</l>
+                        <l n="291"> Ainsi, pour vous venger, n’attendez rien des dieux,</l>
+                        <l n="292"> Si ce n’est de l’amour, qui peut tout par vos yeux.</l>
+                        <l n="293"> Que le courroux du ciel de cent villes fameuses</l>
+                        <l n="294"> Fasse de longs déserts, des retraites affreuses ;</l>
+                        <l n="295"> Que les ombres du Styx habitent ce séjour ;</l>
+                        <l n="296"> Tout vous vengera moins qu’un téméraire amour.</l>
+                        <l n="297"> Seul il a pu remplir vos vœux et votre attente :</l>
+                        <l n="298"> Je défis votre père, il vous livre Idamante :</l>
+                        <l n="299"> Lorsque vous imploriez les traits d’un dieu vengeur,</l>
+                        <l n="300"> Tous les traits de l’amour vous vengeaient dans mon cœur.</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="301"> Quoi ! seigneur, vous m’aimez ?</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="302"> Jamais l’amour, madame,</l>
+                        <l n="303"> Dans le cœur des humains n’alluma plus de flamme.</l>
+                        <l n="304"> Sans espoir, dans vos fers toujours plus engagé...</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="305"> Ô mon père ! ton sang va donc être vengé !</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="306"> Si l’amour près de vous peut expier un crime,</l>
+                        <l n="307"> Je rends grâce à l’amour du choix de la victime :</l>
+                        <l n="308"> Heureux même à ce prix que vous daigniez souffrir</l>
+                        <l n="309"> Les vœux qu’un tendre cœur brûlait de vous offrir !</l>
+                        <l n="310"> Je sais trop que vos pleurs condamnent ma tendresse ;</l>
+                        <l n="311"> Au sang que vous pleurez, hélas ! tout m’intéresse.</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="312"> Que m’importent, cruel, les vains regrets du cœur,</l>
+                        <l n="313"> Après que votre main a servi sa fureur ?</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="314"> J’ai suivi mon devoir, madame ; et sa défaite</l>
+                        <l n="315"> Importait à mes soins, importait à la Crète.</l>
+                        <l n="316"> La sûreté du prince ordonna ce trépas ;</l>
+                        <l n="317"> Et, pour comble de maux, j’ignorais vos appas.          </l>
+                        <l n="318"> Mérion a rendu sa perte légitime :</l>
+                        <l n="319"> Sa mort, sans mon amour, ne serait pas un crime.</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="320"> C’est-à-dire, seigneur, qu’il mérita son sort ?</l>
+                        <l n="321"> Sans vouloir démêler les causes de sa mort,</l>
+                        <l n="322"> Si de ces tristes lieux le funeste héritage           </l>
+                        <l n="323"> Du superbe Minos dut être le partage ;</l>
+                        <l n="324"> Si mon père, sorti du sang de tant de rois,</l>
+                        <l n="325"> D’Idoménée enfin a dû subir les lois ;</l>
+                        <l n="326"> Quel espoir a nourri cet amour qui m’outrage ?</l>
+                        <l n="327"> Et pourquoi m’en offrir un imprudent hommage ?</l>
+                        <l n="328"> Vainqueur de Mérion, fils de son assassin,</l>
+                        <l n="329"> La source de mes pleurs s’ouvrit par votre main :</l>
+                        <l n="330"> Est-ce pour les tarir que vos feux se déclarent ?</l>
+                        <l n="331"> Songez-vous que ces pleurs pour jamais nous séparent ?</l>
+                        <l n="332"> Sous le poids de vos fers, je n’arrive en ces lieux</l>
+                        <l n="333"> Que pour y recevoir les plus tristes adieux.</l>
+                        <l n="334"> Mérion expirait ; sa tremblante paupière</l>
+                        <l n="335"> À peine lui laissait un reste de lumière ;</l>
+                        <l n="336"> Son sang coulait encore, et coulait par vos coups :</l>
+                        <l n="337"> Barbare ! en cet état me parlait-il pour vous ?</l>
+                        <l n="338"> Qu’il m’est doux de vous voir brûler pour Érixène !</l>
+                        <l n="339"> Conservez votre amour, il servira ma haine.</l>
+                        <l n="340"> Adieu, seigneur : c’est trop vous permettre un discours</l>
+                        <l n="341"> Dont ma seule vengeance a dû souffrir le cours.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#polyclète">
+            <speaker> POLYCLÈTE. </speaker>
+                        <l n="342"> Ah ! seigneur ! fallait-il découvrir ce mystère ?           </l>
+                        <l n="343"> Avez-vous dû parler ?</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="344"> Ai-je donc pu me taire ?</l>
+                        <l n="345"> Près de l’objet enfin qui me cause mon ardeur,</l>
+                        <l n="346"> Pouvais-je retenir tant d’amour dans mon cœur ?</l>
+                        <l n="347"> Que dis-tu ? Toujours plein de cette ardeur extrême,</l>
+                        <l n="348"> Le hasard sans témoin m’offre tout ce que j’aime ;</l>
+                        <l n="349"> Et tu veux de l’amour que j’étouffe la voix,</l>
+                        <l n="350"> Libre de m’expliquer pour la première fois !</l>
+                        <l n="351"> D’un attrait si puissant, eh ! comment se défendre ?</l>
+                        <l n="352"> Mon amour malheureux voulait se faire entendre...</l>
+                        <l n="353"> Mais quel trouble inconnu remplit mon cœur d’effroi !</l>
+                        <l n="354"> Cherchons dans ce palais à rejoindre le roi :</l>
+                        <l n="355"> Allons. Bientôt la nuit, moins terrible et moins sombre,</l>
+                        <l n="356"> Va découvrir les maux qu’elle cachait dans l’ombre.</l>
+                        <l n="357"> Ces lieux sont éclairés d’un triste et faible jour :</l>
+                        <l n="358"> Égésippe déjà doit être de retour.          </l>
+                        <l n="359"> Suis-moi : près de mon père il faut que je me rende.</l>
+                        <l n="360"> Sachons, pour s’apaiser, ce que le ciel demande.</l>
+                        <l n="361"> Quel présage ! et qu’attendre en ces funestes lieux,</l>
+                        <l n="362"> Si tout, jusqu’à l’amour, sert le courroux des dieux ?</l></div></div>
+           <div type="act" xml:id="2">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="363"> Madame, en ce palais pourquoi toujours errante ?</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="364"> Lieux cruels soutenez ma fureur chancelante ;</l>
+                        <l n="365"> Lieux encor teints du sang qui me donna le jour,</l>
+                        <l n="366"> Du tyran de la Crète infortuné séjour,</l>
+                        <l n="367"> Éternels monuments d’une douleur amère ;</l>
+                        <l n="368"> Lieux terribles, témoins de la mort de mon père ;</l>
+                        <l n="369"> Lieux où l’on m’ose offrir de coupables amours,</l>
+                        <l n="370"> Prêtez à ma colère un utile secours :</l>
+                        <l n="371"> Retracez-moi sans cesse une triste peinture ;</l>
+                        <l n="372"> Contre un honteux amour défendez la nature.</l>
+                        <l n="373"> Ô toi qui voit la peine où ce feu me réduit,</l>
+                        <l n="374"> Venus, suis-je d’un sang que ta haine poursuit ?</l>
+                        <l n="375"> Ou faut-il qu’en des lieux remplis de ta vengeance</l>
+                        <l n="376"> Les cœurs ne puissent plus brûler dans l’innocence ?</l>
+                        <l n="377"> Laisse au sang de Minos ses affronts, ses horreurs ;</l>
+                        <l n="378"> Sur ce sang odieux signale tes fureurs :</l>
+                        <l n="379"> Laisse au sang de Minos Phèdre et le labyrinthe,</l>
+                        <l n="380"> Au mien sa pureté sans tache et sans atteinte.</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="381"> Madame, quel transport ! qu’entends-je ! et quel discours !</l>
+                        <l n="382"> Quoi ! vous vous reprochez de coupables amours !</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="383"> Tout reproche à mon cœur le feu qui me dévore ;</l>
+                        <l n="384"> Je respire un amour que ma raison abhorre.</l>
+                        <l n="385"> De mon père en ces lieux j’ose trahir le sang ;</l>
+                        <l n="386"> De mon père immolé je viens rouvrir le flanc ;</l>
+                        <l n="387"> À la main des bourreaux je joins ma main sanglante ;</l>
+                        <l n="388"> Enfin, ce cœur si fier brûle pour Idamante.</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="389"> Vainqueur de votre père...</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="390"> Ismène, ce vainqueur</l>
+                        <l n="391"> Sut sans aucun effort se soumettre mon cœur.</l>
+                        <l n="392"> Je me défiais peu de la main qui m’enchaîne,</l>
+                        <l n="393"> Ayant tant de sujets de vengeance et de haine ;</l>
+                        <l n="394"> Ni qu’Idamante en dût interrompre le cours,</l>
+                        <l n="395"> Avec tant de raison de le haïr toujours ;</l>
+                        <l n="396"> Comptant sur ma douleur, ma fierté, ma colère,</l>
+                        <l n="397"> Et, pour tout dire enfin, sur le sang de mon père ;</l>
+                        <l n="398"> Et mon père en mes bras ne faisait qu’expirer,</l>
+                        <l n="399"> Lorsqu’un autre que lui me faisait soupirer.</l>
+                        <l n="400"> À des yeux encor pleins d’un spectacle effroyable,</l>
+                        <l n="401"> Idamante parut, et parut trop aimable.</l>
+                        <l n="402"> Aujourd’hui même encor l’amour a prévalu :</l>
+                        <l n="403"> J’allais céder, Ismène, ou peu s’en est fallu.</l>
+                        <l n="404"> Quand le prince m’a fait le récit de sa flamme,           </l>
+                        <l n="405"> Il entraînait mon cœur, il séduisait mon âme :</l>
+                        <l n="406"> Déjà ce faible cœur, d’accord avec le sien,</l>
+                        <l n="407"> Lui pardonnait un feu qu’autorise le mien.</l>
+                        <l n="408"> Des pleurs que j’ai versés prête à lui faire grâce,</l>
+                        <l n="409"> Mon amour m’alliait aux crimes de sa race :</l>
+                        <l n="410"> Près de ce prince, enfin, mon esprit combattu,</l>
+                        <l n="411"> Sans un peu de fierté, me laissait sans vertu ;</l>
+                        <l n="412"> Et lorsque ma raison a rappelé ma gloire,</l>
+                        <l n="413"> Dans le fond de mon cœur j’ai pleuré ma victoire.</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="414"> Votre cœur sans regret ne peut donc triompher</l>
+                        <l n="415"> D’un feu qu’en sa naissance il fallait étouffer ?</l>
+                        <l n="416"> Ah ! du moins, s’il n’en peut dompter la violence,</l>
+                        <l n="417"> Faites à vos transports succéder le silence.</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="418"> Si je craignais qu’un feu déclaré malgré moi</l>
+                        <l n="419"> Dût jamais éclater devant d’autres que toi,</l>
+                        <l n="420"> Dans la nuit du tombeau toujours prête à descendre,</l>
+                        <l n="421"> J’irais ensevelir ce secret sous ma cendre.</l>
+                        <l n="422"> Quoiqu’à mes yeux peut-être Idamante ait trop plu,</l>
+                        <l n="423"> Il me sera toujours moins cher que ma vertu ;</l>
+                        <l n="424"> D’un amour que je crains il aura tout à craindre,</l>
+                        <l n="425"> Avec ma haine seule il serait moins à plaindre.</l>
+                        <l n="426"> Non, mon père, ton sang lâchement répandu</l>
+                        <l n="427"> À tes fiers ennemis ne sera point vendu ;</l>
+                        <l n="428"> Et le cruel vainqueur qui surprend ma tendresse</l>
+                        <l n="429"> Ajoute à ses forfaits celui de ma faiblesse.</l>
+                        <l n="430"> Je saurai le punir de son crime et du mien...</l>
+                        <l n="431"> Le roi paraît... Fuyons un fâcheux entretien.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="432"> Madame, demeurez... demeurez, Érixène.</l>
+                        <l n="433"> Mérion par sa mort vient d’éteindre ma haine ;</l>
+                        <l n="434"> Ainsi ne craignez point ma rencontre en ces lieux :</l>
+                        <l n="435"> Vous pouvez y rester sans y blesser mes yeux.</l>
+                        <l n="436"> Mérion me fut cher ; mais de cet infidèle</l>
+                        <l n="437"> Mes bienfaits redoublés ne firent qu’un rebelle.</l>
+                        <l n="438"> Vous le savez ; l’ingrat, pour prix de ces bienfaits,</l>
+                        <l n="439"> Osa contre leur roi soulever mes sujets.</l>
+                        <l n="440"> Son crime fut de près suivi par son supplice,</l>
+                        <l n="441"> Et son sang n’a que trop satisfait ma justice :</l>
+                        <l n="442"> Je l’en vis à regret laver son attentat ;</l>
+                        <l n="443"> Mais je devais sa tête à nos lois, à l’état :</l>
+                        <l n="444"> Et près de vous j’oublie une loi trop sévère,</l>
+                        <l n="445"> Qui rend de mes pareils la haine héréditaire.</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="446"> Si content de sa mort, votre haine s’éteint</l>
+                        <l n="447"> Dans le sang d’un héros dont ce palais est teint,</l>
+                        <l n="448"> La mienne, que ce sang éternise en mon âme,</l>
+                        <l n="449"> À votre seul aspect se redouble et s’enflamme.</l>
+                        <l n="450"> J’ai vu mon père, hélas ! de mille coups percé ;</l>
+                        <l n="451"> Tout son sang cependant n’est pas encor versé...</l>
+                        <l n="452"> Que sa mort fût enfin injuste ou légitime,</l>
+                        <l n="453"> Auprès de moi du moins songez qu’elle est un crime :</l>
+                        <l n="454"> Mon courroux là-dessus ne connaît point de loi</l>
+                        <l n="455"> Qui puisse dans mon cœur justifier un roi.</l>
+                        <l n="456"> De maximes d’état colorant ce supplice,</l>
+                        <l n="457"> Vous prétendez en vain couvrir votre injustice :</l>
+                        <l n="458"> Le ciel, qui contre vous semble avec moi s’unir,</l>
+                        <l n="459"> De ce crime odieux va bientôt vous punir ;</l>
+                        <l n="460"> Contre vous dès longtemps un orage s’apprête ;</l>
+                        <l n="461"> De mes pleurs chaque jour je grossis la tempête.</l>
+                        <l n="462"> Puissent les justes dieux, sensibles à mes pleurs,</l>
+                        <l n="463"> À mon juste courroux égaler vos malheurs !</l>
+                        <l n="464"> Et puissé-je à regret voir que toute ma haine</l>
+                        <l n="465"> Voudrait en vain y joindre une nouvelle peine !</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="466"> Ah ! madame, cessez de si funestes vœux ;</l>
+                        <l n="467"> N’offrez point à nos maux un cœur si rigoureux.</l>
+                        <l n="468"> Vous ignorez encor ce que peuvent vos larmes :</l>
+                        <l n="469"> Ne prêtez point aux dieux de si terribles armes,</l>
+                        <l n="470"> Belle Érixène, enfin, n’exigez plus rien d’eux.</l>
+                        <l n="471"> Non, jamais il ne fut un roi plus malheureux :</l>
+                        <l n="472"> Du destin ennemi je n’ai plus rien à craindre :</l>
+                        <l n="473"> J’éprouve des malheurs dont vous pourriez me plaindre.</l>
+                        <l n="474"> Ces beaux yeux, sans pitié qui pourraient voir ma mort,</l>
+                        <l n="475"> Ne refuseraient pas des larmes à mon sort.</l>
+                        <l n="476"> Sur mon peuple des dieux la fureur implacable</l>
+                        <l n="477"> Des maux que je ressens est le moins redoutable :</l>
+                        <l n="478"> Sur le sang de Minos un dieu toujours vengeur</l>
+                        <l n="479"> A caché les plus grands dans le fond de mon cœur.</l>
+                        <l n="480"> Objet infortuné d’une longue vengeance,</l>
+                        <l n="481"> J’oppose à mes malheurs une longue constance :</l>
+                        <l n="482"> Mon cœur sans s’émouvoir les verrait en ce jour,</l>
+                        <l n="483"> S’il n’eût brûlé pour vous d’un malheureux amour.</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="484"> C’était donc peu, cruel, qu’avec ignominie</l>
+                        <l n="485"> Mon père eût terminé sa déplorable vie ;</l>
+                        <l n="486"> Ce n’était point assez que votre bras sanglant</l>
+                        <l n="487"> Eût jeté dans les miens Mérion expirant :</l>
+                        <l n="488"> De son sang malheureux votre courroux funeste</l>
+                        <l n="489"> Vient jusque dans mon cœur poursuivre encor le reste !</l>
+                        <l n="490"> Oui, tyran, cet amour dont brûle votre cœur</l>
+                        <l n="491"> N’est contre tout mon sang qu’un reste de fureur.</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="492"> Le reste de ce sang m’est plus cher que la vie :</l>
+                        <l n="493"> Souffrez qu’un tendre amour me le réconcilie.</l>
+                        <l n="494"> Madame, je l’aimai, je vous l’ai déjà dit ;          </l>
+                        <l n="495"> Songez que Mérion lui-même se perdit...</l>
+                        <l n="496"> Quoi ! rien ne peut fléchir votre injuste colère !</l>
+                        <l n="497"> Trouverai-je partout le cœur de votre père ?</l>
+                        <l n="498"> Sa révolte à vos yeux eut-elle tant d’attraits ?</l>
+                        <l n="499"> Mon amour aura-t-il le sort de mes bienfaits ?</l>
+                        <l n="500"> Vous verrai-je, au moment que cet amour vous flatte,</l>
+                        <l n="501"> Achever les forfaits d’une famille ingrate ?</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="502"> Achever des forfaits ! C’est au sang de Minos</l>
+                        <l n="503"> À savoir les combler, non au sang d’un héros.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="504"> Que faites-vous, seigneur ? est-il temps que votre âme</l>
+                        <l n="505"> S’abandonne aux transports d’une honteuse flamme ?</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="506"> Pardonne ; tu le vois, la raison à son gré</l>
+                        <l n="507"> Ne règle pas un cœur par l’amour égaré.</l>
+                        <l n="508"> Je me défends en vain : ma flamme impétueuse</l>
+                        <l n="509"> Détruit tous les efforts d’une âme vertueuse ;</l>
+                        <l n="510"> D’un poison enchanteur tous mes sens prévenus</l>
+                        <l n="511"> Ne servent que trop bien le courroux de Vénus.</l>
+                        <l n="512"> Je sens toute l’horreur d’un amour si funeste ;</l>
+                        <l n="513"> Mais je chéris ce feu que ma raison déteste :</l>
+                        <l n="514"> Bien plus, de ma vertu redoutant le retour,</l>
+                        <l n="515"> Je combats plus souvent la raison que l’amour.</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="516"> Ah ! seigneur ! est-ce ainsi que le héros s’exprime ?</l>
+                        <l n="517"> Est-ce ainsi qu’un grand cœur cède au joug qui l’opprime ?</l>
+                        <l n="518"> Le courroux de Vénus peut-il autoriser</l>
+                        <l n="519"> Des fers que votre gloire a dû cent fois briser ?           </l>
+                        <l n="520"> Parmi tant de malheurs, est-ce au vainqueur de Troie</l>
+                        <l n="521"> À compter un amour dont il se fait la proie ?</l>
+                        <l n="522"> Qu’est devenu ce roi plus grand que ses aïeux,</l>
+                        <l n="523"> Que ses vertus semblaient élever jusqu’aux dieux,</l>
+                        <l n="524"> Et qui, seul la terreur d’une orgueilleuse ville,</l>
+                        <l n="525"> Cent fois aux grecs tremblants fit oublier Achille ?</l>
+                        <l n="526"> L’amour, avilissant l’honneur de ses travaux,</l>
+                        <l n="527"> Sous la honte des fers m’a caché le héros.</l>
+                        <l n="528"> Peu digne du haut rang où le ciel l’a fait naître,</l>
+                        <l n="529"> Un roi n’est qu’un esclave où l’amour est le maître.</l>
+                        <l n="530"> N’allez point établir sur son faible pouvoir</l>
+                        <l n="531"> L’oubli de vos vertus ni de votre devoir.</l>
+                        <l n="532"> Que l’amour soit en nous ou penchant ou vengeance,</l>
+                        <l n="533"> La faiblesse des cœurs fait toute sa puissance.</l>
+                        <l n="534"> Mais, seigneur, s’il est vrai que, maîtres de nos cœurs,</l>
+                        <l n="535"> De nos divers penchants les dieux soient les auteurs,</l>
+                        <l n="536"> Quand même vous croiriez que ces êtres suprêmes</l>
+                        <l n="537"> Pourraient déterminer nos cœurs malgré nous-mêmes,</l>
+                        <l n="538"> Essayez sur le vôtre un effort glorieux ;</l>
+                        <l n="539"> C’est là qu’il est permis de combattre les dieux.</l>
+                        <l n="540"> Ce n’est point en faussant une auguste promesse</l>
+                        <l n="541"> Qu’il faut contre le ciel vous exercer sans cesse.</l>
+                        <l n="542"> Se peut-il que l’amour vous impose des lois ?</l>
+                        <l n="543"> Et le titre d’amant est-il fait pour les rois ?</l>
+                        <l n="544"> Au milieu des vertus où sa grande âme est née,</l>
+                        <l n="545"> Doit-on de ses devoirs instruire Idoménée ?</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="546"> À ma raison du moins laisse le temps d’agir,</l>
+                        <l n="547"> Et combats mon amour sans m’en faire rougir.</l>
+                        <l n="548"> Avec trop de rigueur ton entretien me presse :</l>
+                        <l n="549"> Plains mes maux, Sophronyme, on flatte ma faiblesse.</l>
+                        <l n="550"> À ce feu que Vénus allume dans mon sein,</l>
+                        <l n="551"> Reconnais de mon sang le malheureux destin.</l>
+                        <l n="552"> Pouvais-je me soustraire à la main qui m’accable ?</l>
+                        <l n="553"> Respecte des malheurs dont je suis peu coupable.</l>
+                        <l n="554"> Pasiphaé ni Phèdre, en proie à mille horreurs,</l>
+                        <l n="555"> N’ont jamais plus rougi dans le fonds de leurs cœurs.</l>
+                        <l n="556"> Mais que dis-je ? est-ce assez qu’en secret j’en rougisse,</l>
+                        <l n="557"> Lorsqu’il faut de ce feu que mon cœur s’affranchisse ?</l>
+                        <l n="558"> Hé ! d’un amour formé sous l’aspect le plus noir,</l>
+                        <l n="559"> Dans mon cœur sans vertu quel peut être l’espoir ?</l>
+                        <l n="560"> Ennemi, malgré moi, du penchant qui m’entraîne,</l>
+                        <l n="561"> Je n’ai point prétendu couronner Érixène :</l>
+                        <l n="562"> Je m’ôte le seul bien qui pouvait l’éblouir ;</l>
+                        <l n="563"> De ma couronne enfin un autre va jouir.</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="564"> Gardez-vous de tenter un coup si téméraire.</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="565"> Par tes conseils en vain tu voudrais m’en distraire.</l>
+                        <l n="566"> À mon fatal amour, tu connaîtras du moins</l>
+                        <l n="567"> Que j’ai donné mon cœur, sans y donner mes soins :</l>
+                        <l n="568"> Car enfin, dépouillé de cet auguste titre,</l>
+                        <l n="569"> Ton roi de son amour ne sera plus l’arbitre.</l>
+                        <l n="570"> Dans ces lieux, où bientôt je ne pourrai plus rien,</l>
+                        <l n="571"> Mon fils va devenir et ton maître et le mien.</l>
+                        <l n="572"> Essayons si des dieux la colère implacable</l>
+                        <l n="573"> Ne pourra s’apaiser pour un roi moins coupable ;</l>
+                        <l n="574"> Ou du moins, sur un vœu que le ciel peut trahir,</l>
+                        <l n="575"> Mettons-nous hors d’état de jamais obéir.</l>
+                        <l n="576"> Non comme une victime aux autels amenée,</l>
+                        <l n="577"> Tu verras couronner le fils d’Idoménée.</l>
+                        <l n="578"> Le ciel après, s’il veut, se vengera sur moi :</l>
+                        <l n="579"> Mais il n’armera point ma main contre mon roi ;</l>
+                        <l n="580"> Et, si c’est immoler cette tête sacrée,</l>
+                        <l n="581"> La victime par moi sera bientôt parée.</l>
+                        <l n="582"> Ce prince ignore encor quel sera mon dessein ;</l>
+                        <l n="583"> Sait-il que je l’attends.</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="584"> Dans le temple prochain,</l>
+                        <l n="585"> Au ciel, par tant d’horreurs qui poursuit son supplice,</l>
+                        <l n="586"> Il prépare, seigneur, un triste sacrifice ;</l>
+                        <l n="587"> Et, mouillant de ses pleurs d’insensibles autels,</l>
+                        <l n="588"> Pour vous, pour vos sujets il s’offre aux immortels.</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="589"> Vous n’êtes point touchés d’une vertu si pure !</l>
+                        <l n="590"> Pardonnez donc, grands dieux, si mon cœur en murmure.</l>
+                        <l n="591"> Ô mon fils !</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="592"> Mais que vois-je ? et quel funeste objet !</l>
+                        <l n="593"> Egésippe revient, tremblant, triste, défait !</l>
+                        <l n="594"> Que dois-je soupçonner ? Ah ! mon cher Sophronyme !</l>
+                        <l n="595"> Le ciel impitoyable a nommé sa victime.</l>
+                </sp>
+        <sp who="#égésippe">
+            <speaker> ÉGÉSIPPE. </speaker>
+                        <l n="596"> Quelle victime encor ! que de pleurs, de regrets</l>
+                        <l n="597"> Nous vont coûter des dieux les barbares décrets !</l>
+                        <l n="598"> Pourrai-je sans frémir nommer...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="599"> Je t’en dispense ;</l>
+                        <l n="600"> Couvre plutôt ce nom d’un éternel silence :</l>
+                        <l n="601"> De ton secret fatal je suis peu curieux,</l>
+                        <l n="602"> Et sur ce point enfin j’en sais plus que les dieux.</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="603"> Écoutez cependant.</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="604"> Que veux-tu que j’écoute ?</l>
+                        <l n="605"> D’un arrêt inhumain tu crois donc que je doute ?...</l>
+                        <l n="606"> Mais poursuis, Égésippe.</l>
+                </sp>
+        <sp who="#égésippe">
+            <speaker> ÉGÉSIPPE. </speaker>
+                        <l n="607"> Au pied du mont sacré</l>
+                        <l n="608"> Qui fut par Jupiter un asile assuré,</l>
+                        <l n="609"> J’interroge en tremblant le dieu sur nos misères.</l>
+                        <l n="610"> Le prêtre destiné pour les secrets mystères</l>
+                        <l n="611"> Se traîne, prosterné, près d’un antre profond ;</l>
+                        <l n="612"> Ouvre... Avec mille cris le gouffre lui répond ;</l>
+                        <l n="613"> D’affreux gémissements et des voix lamentables</l>
+                        <l n="614"> Formaient à longs sanglots des accents pitoyables,</l>
+                        <l n="615"> Mais qui venaient à moi comme des sons perdus,</l>
+                        <l n="616"> Dont résonnait le temple en échos mal rendus.</l>
+                        <l n="617"> Je prêtais cependant une oreille attentive,</l>
+                        <l n="618"> Lorsqu’enfin une voix plus forte et plus plaintive,</l>
+                        <l n="619"> A paru rassembler tant de cris douloureux,</l>
+                        <l n="620"> Et répéter cent fois : « Ô roi trop malheureux ! »</l>
+                        <l n="621"> Déjà saisi d’horreur d’une si triste plainte,</l>
+                        <l n="622"> Le prêtre m’a bientôt frappé d’une autre crainte,</l>
+                        <l n="623"> Quand, relevant sur lui mes timides regards,</l>
+                        <l n="624"> Je le vois, l’œil farouche et les cheveux épars,</l>
+                        <l n="625"> Se débattre longtemps sous le dieu qui l’accable,</l>
+                        <l n="626"> Et prononcer enfin cet arrêt formidable :</l>
+                        <l n="627"> « Le roi n’ignore pas ce qu’exigent les dieux :</l>
+                        <l n="628"> « Maître encor de la Crète et de la destinée,</l>
+                        <l n="629"> « Il porte dans ses mains le salut de ces lieux ;</l>
+                        <l n="630"> « Il faut le sang d’Idoménée. »</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="631"> Le roi n’ignore pas ce qu’exigent les dieux !</l>
+            <stage><em>À Sophronyme.</em></stage>
+                        <l n="632"> Tu vois si les cruels pouvaient s’expliquer mieux.</l>
+                        <l n="633"> Grâces à leur fureur, toute erreur se dissipe ;</l>
+                        <l n="634"> J’entrevois... Il suffit : laisse-nous, Égésippe.</l>
+                        <l n="635"> Sur un secret enfin qui regarde ton roi,</l>
+                        <l n="636"> Songe, malgré les dieux, à lui garder ta foi.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="637"> Tu vois sur nos destins ce que le ciel prononce :</l>
+                        <l n="638"> En redoutais-je à tort la funeste réponse ?</l>
+                        <l n="639"> Il demande mon fils ; je n’en puis plus douter,</l>
+                        <l n="640"> Ni de mon trépas même un instant me flatter.</l>
+                        <l n="641"> Mânes de mes sujets, qui des bords du Cocyte</l>
+                        <l n="642"> Plaignez encor celui qui vous y précipite,</l>
+                        <l n="643"> Pardonnez : tout mon sang, prêt à vous secourir,</l>
+                        <l n="644"> Aurait coulé, si seul il me fallait mourir ;</l>
+                        <l n="645"> Mais le ciel irrité veut que mon fils périsse,</l>
+                        <l n="646"> Et mon cœur ne veut pas que ma main obéisse.</l>
+                        <l n="647"> Moi, je verrais mon fils sur l’autel étendu !</l>
+                        <l n="648"> Tout son sang coulerait par mes mains répandu !</l>
+                        <l n="649"> Non, il ne mourra point... je ne puis m’y résoudre.</l>
+                        <l n="650"> Ciel, n’attends rien de qui n’attend qu’un coup de foudre.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="651"> Par votre ordre, seigneur...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="652"> Dieux ! qu’est-ce que je vois ?</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="653"> Quelles horreurs ici répandent tant d’effroi ?</l>
+                        <l n="654"> Quels regards ! D’où vous vient cette sombre tristesse ?</l>
+                        <l n="655"> Quelle est en ce moment la douleur qui vous presse ?         </l>
+                        <l n="656"> Du temple dans ces lieux aujourd’hui de retour,</l>
+                        <l n="657"> Égésippe, dit-on, s’est fait voir à la cour.</l>
+                        <l n="658"> Le ciel a-t-il parlé ? sait-on ce qu’il exige ?</l>
+                        <l n="659"> Est-ce un ordre des dieux, seigneur qui vous afflige ?</l>
+                        <l n="660"> Savons-nous par quel crime...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="661"> Un silence cruel</l>
+                        <l n="662"> Avec le crime encor cache le criminel.</l>
+                        <l n="663"> Ne cherchons point des dieux à troubler le silence ;</l>
+                        <l n="664"> Assez d’autres malheurs éprouvent ma constance...</l>
+                        <l n="665"> Ah ! mon fils, si jamais votre cœur généreux</l>
+                        <l n="666"> A partagé les maux d’un père malheureux,</l>
+                        <l n="667"> Si vous fûtes jamais sensible à ma disgrâce,</l>
+                        <l n="668"> Au trône en ce moment daignez remplir ma place.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="669"> Moi, seigneur ?</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="670"> Oui, mon fils : mon cœur reconnaissant</l>
+                        <l n="671"> Ne veut point que ma mort vous en fasse un présent.</l>
+                        <l n="672"> Je sais que c’est un rang que votre cœur dédaigne ;</l>
+                        <l n="673"> Mais qu’importe ? Il le faut... régnez...</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="674"> Moi, que je règne,</l>
+                        <l n="675"> Et que j’ose à vos yeux me placer dans un rang</l>
+                        <l n="676"> Où je dois vous défendre au prix de tout mon sang !</l>
+                        <l n="677"> À cet ordre, seigneur, est-ce à moi de souscrire ?</l>
+                        <l n="678"> Ciel ! est-ce à votre fils à vous ravir l’empire ?</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="679"> Régnez, mon fils, régnez sur la Crète et sur moi ;</l>
+                        <l n="680"> Je le demande en père, et vous l’ordonne en roi.</l>
+                        <l n="681"> Cher prince, à mes désirs que votre cœur se rende :</l>
+                        <l n="682"> Pour la dernière fois peut-être je commande.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="683"> Si votre nom ici ne doit plus commander,</l>
+                        <l n="684"> N’attendez point, seigneur, de m’y voir succéder.</l>
+                        <l n="685"> Et qui peut vous forcer d’abandonner le trône ?</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="686"> Eh bien ! régnez, mon fils... c’est le ciel qui l’ordonne...</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="687"> Le ciel lui-même, hélas ! le garant de ma foi,</l>
+                        <l n="688"> Le ciel m’ordonnerait de détrôner mon roi !</l>
+                        <l n="689"> De tout ce que j’entends que ma frayeur redouble !</l>
+                        <l n="690"> Ah ! par pitié, seigneur, éclaircissez mon trouble ;</l>
+                        <l n="691"> Dissipez les horreurs d’un si triste entretien :</l>
+                        <l n="692"> Est-il dans votre cœur des secrets pour le mien ?</l>
+                        <l n="693"> Parlez, ne craignez point d’augmenter mes alarmes ;</l>
+                        <l n="694"> C’est trop se taire... Ah ! ciel ! Je vois couler vos larmes !</l>
+                        <l n="695"> Vous me cachez en vain ces pleurs que j’ai surpris.</l>
+                        <l n="696"> Dieux ! que m’annoncez-vous ? Ah ! seigneur !...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="697"> Ah ! mon fils !</l>
+                        <l n="698"> Voyez où me réduit la colère céleste...</l>
+                        <l n="699"> Sophronyme, fuyons cet entretien funeste...</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="700"> Où fuyez-vous, seigneur ?</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="701"> Je vous fuis à regret,</l>
+                        <l n="702"> Mon fils ; vous n’en saurez que trop tôt le secret.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#idamante">
+            <speaker> IDAMANTE </speaker>
+                        <l n="703"> Dieux ! quel trouble est le mien ! Quel horrible mystère</l>
+                        <l n="704"> Fait fuir devant mes yeux Sophronyme et mon père ?</l>
+                        <l n="705"> Non, suivons-le : son cœur encor mal affermi</l>
+                        <l n="706"> Ne me pourra cacher son secret qu’à demi :</l>
+                        <l n="707"> Je l’ai vu s’émouvoir, et contre ma poursuite</l>
+                        <l n="708"> Il se défendait mal sans une prompte fuite.</l>
+                        <l n="709"> Pénétrons... Mais d’où vient que je me sens glacer ?</l>
+                        <l n="710"> Quelle horreur à mes sens vient de se retracer !</l>
+                        <l n="711"> Quelle invisible main m’arrête et m’épouvante ?</l>
+                        <l n="712"> Allons... Où veux-je aller ? et qu’est-ce que je tente ?</l>
+                        <l n="713"> De quel secret encor prétends-je être informé ?</l>
+                        <l n="714"> Eh ! ne connais-je pas le sang qui m’a formé ?</l>
+                        <l n="715"> Peu touché des vertus du grand Idoménée,</l>
+                        <l n="716"> Le ciel rendit toujours sa vie infortunée :</l>
+                        <l n="717"> Son funeste courroux l’arracha de sa cour,</l>
+                        <l n="718"> Et n’a que trop depuis signalé son retour.</l>
+                        <l n="719"> Ah ! renfermons plutôt mon trouble et mes alarmes,</l>
+                        <l n="720"> Que d’oser pénétrer dans d’odieuses larmes.</l>
+                        <l n="721"> Suivons-le cependant... Pour calmer mon effroi,</l>
+                        <l n="722"> Dieux, faites que ces pleurs ne coulent que pour moi.</l></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="723"> Enfin l’amour soumet aux charmes d’Érixène</l>
+                        <l n="724"> L’objet de sa tendresse et l’objet de sa haine.</l>
+                        <l n="725"> Vous triomphez, madame ; et vos fiers ennemis</l>
+                        <l n="726"> Bientôt par vos appas se verront désunis.</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="727"> Quel triomphe ! peux-tu me le vanter encore,</l>
+                        <l n="728"> Quand je ne puis dompter le feu qui me dévore ?</l>
+                        <l n="729"> Après ce que mon cœur en éprouve en ce jour,</l>
+                        <l n="730"> Du soin de me venger dois-je charger l’amour ?</l>
+                        <l n="731"> En me livrant le fils, s’il flattait ma colère,</l>
+                        <l n="732"> Je ne l’implorais pas pour me venger du père.</l>
+                        <l n="733"> Tant qu’aux lois de l’amour mon cœur sera soumis,</l>
+                        <l n="734"> Que dois-je en espérer contre mes ennemis ?</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="735"> Vous pouvez donc, madame, employant d’autres armes,</l>
+                        <l n="736"> Punir sans son secours l’auteur de tant de larmes,</l>
+                        <l n="737"> Puisque le juste ciel, de concert avec vous,</l>
+                        <l n="738"> Semble sur vos désirs mesurer son courroux.</l>
+                        <l n="739"> Tout vous livre à l’envi le fier Idoménée :</l>
+                        <l n="740"> Par un arrêt des dieux sa tête est condamnée ;</l>
+                        <l n="741"> L’oracle la demande, et ce funeste jour</l>
+                        <l n="742"> Va le punir des maux que vous fit son retour.</l>
+                        <l n="743"> Si vous voulez vous-même, achevant sa disgrâce,</l>
+                        <l n="744"> Hâter le coup affreux dont le ciel le menace,</l>
+                        <l n="745"> Répandez le secret qui vous est dévoilé ;</l>
+                        <l n="746"> Et qu’Égésippe en vain ne l’ait point révélé.</l>
+                        <l n="747"> Du prince votre père ami toujours fidèle,</l>
+                        <l n="748"> Vous voyez à quel prix il vous marque son zèle :</l>
+                        <l n="749"> Imitez-le, madame, et qu’un sang odieux</l>
+                        <l n="750"> Par vos soins aujourd’hui se répande en ces lieux.</l>
+                        <l n="751"> De l’intérêt des dieux faites votre vengeance,</l>
+                        <l n="752"> Et d’un peuple expirant faites-en la défense ;</l>
+                        <l n="753"> Montrez-lui son salut dans ce terrible arrêt :</l>
+                        <l n="754"> Lui, vous, les dieux enfin, n’avez qu’un intérêt...</l>
+                        <l n="755"> D’où vient que je vous vois interdite et tremblante ?</l>
+                        <l n="756"> Craignez-vous d’exciter les plaintes d’Idamante ?</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="757"> Hélas ! si près des maux où je vais le plonger,</l>
+                        <l n="758"> Un seul moment pour lui ne puis-je m’affliger ?</l>
+                        <l n="759"> Que veux-tu ? je frémis du spectacle barbare</l>
+                        <l n="760"> Que mon juste courroux en ces lieux lui prépare :</l>
+                        <l n="761"> Je sens trop, par les pleurs que je verse aujourd’hui,</l>
+                        <l n="762"> Quelle est l’horreur du coup qui va tomber sur lui.</l>
+                        <l n="763"> Tu sais que pour le roi son amour est extrême.</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="764"> Il ne vous reste plus que d’aimer le roi même.</l>
+                        <l n="765"> Qu’entends-je ? De vos pleurs importunant les dieux,          </l>
+                        <l n="766"> Vos plaintes chaque jour font retentir ces lieux ;</l>
+                        <l n="767"> Et quand le ciel prononce au gré de votre envie,</l>
+                        <l n="768"> Vous n’osez plus poursuivre une odieuse vie !</l>
+                        <l n="769"> Songez, puisque les dieux vous ouvrent leurs secrets,</l>
+                        <l n="770"> Qu’ils vous chargent par-là du soin de leurs décrets.</l>
+                        <l n="771"> Et qu’auriez-vous donc fait, si, trompant votre attente,</l>
+                        <l n="772"> L’oracle eût demandé la tête d’Idamante,</l>
+                        <l n="773"> Puisque vous balancez...</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="774"> À quoi bon ces transports ?</l>
+                        <l n="775"> Je conçois bien, sans toi, de plus nobles efforts.</l>
+                        <l n="776"> Malgré tout mon amour, mon devoir est le même :</l>
+                        <l n="777"> Mais peut-on sans trembler opprimer ce qu’on aime ?</l>
+                        <l n="778"> Un je ne sais quel soin me saisit malgré moi,</l>
+                        <l n="779"> Et mon propre courroux redouble mon effroi.</l>
+                        <l n="780"> Ne crains rien cependant ; mais laisse sans contrainte</l>
+                        <l n="781"> À des cœurs malheureux le secours de la plainte.</l>
+                        <l n="782"> Je n’ai point succombé pour avoir combattu,</l>
+                        <l n="783"> Et tes raisons ici ne font point ma vertu.</l>
+                        <l n="784"> Égésippe en ces lieux se fait longtemps attendre.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#égésippe">
+            <speaker> ÉGÉSIPPE. </speaker>
+                        <l n="785"> Madame, pardonnez : j’ai dû plus tôt m’y rendre ;</l>
+                        <l n="786"> Mais un ordre pressant, que je n’attendais pas,          </l>
+                        <l n="787"> Malgré moi loin de vous avait porté mes pas...</l>
+                        <l n="788"> C’en est fait, le tyran échappe à notre haine.</l>
+                        <l n="789"> Hâtons notre vengeance, ou sa fuite est certaine ;</l>
+                        <l n="790"> Ses vaisseaux sont tout prêts ; et déjà sur les flots</l>
+                        <l n="791"> Remontent à l’envi soldats et matelots.</l>
+                        <l n="792"> Un gros de nos amis près d’ici se rassemble :</l>
+                        <l n="793"> Tandis que dans ces lieux tout gémit et tout tremble,</l>
+                        <l n="794"> On peut dans ce désordre échapper du palais.</l>
+                        <l n="795"> Venez au peuple enfin vous montrer de plus près...</l>
+                        <l n="796"> Mais le tyran paraît ; évitez sa présence.          </l>
+                        <l n="797"> Je vais dès ce moment servir votre vengeance.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="798"> Mes vaisseaux sont-ils prêts ?</l>
+                </sp>
+        <sp who="#égésippe">
+            <speaker> ÉGÉSIPPE. </speaker>
+                        <l n="799"> Oui, seigneur ; mais les eaux</l>
+                        <l n="800"> D’un naufrage assuré menacent vos vaisseaux :</l>
+                        <l n="801"> La mer gronde, et ses flots font mugir le rivage ;</l>
+                        <l n="802"> L’air s’enflamme, et ses feux n’annoncent que l’orage.</l>
+                        <l n="803"> De qui doit s’embarquer je déplore le sort.</l>
+                        <l n="804"> Serait-ce vous, seigneur ?</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="805"> Qu’on m’aille attendre au port.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE </speaker>
+                        <l n="806"> Ainsi donc tout menace une innocente vie !</l>
+                        <l n="807"> Ô mon fils ! faudra-t-il qu’elle te soit ravie ?</l>
+                        <l n="808"> À des dieux sans pitié ne te puis-je arracher ?</l>
+                        <l n="809"> Quel asile contre eux désormais te chercher ?</l>
+                        <l n="810"> Que n’ai-je point tenté ? Je t’offre ma couronne ;</l>
+                        <l n="811"> Un départ rigoureux par moi-même s’ordonne ;</l>
+                        <l n="812"> Je crois t’avoir sauvé quand j’y puis consentir :</l>
+                        <l n="813"> Et les ondes déjà s’ouvrent pour t’engloutir !</l>
+                        <l n="814"> Fuis cependant, mon fils... l’orage qui s’apprête</l>
+                        <l n="815"> Est le moindre péril qui menace ta tête.</l>
+                        <l n="816"> Quoique je n’aie, hélas ! rien de plus cher que toi,</l>
+                        <l n="817"> Tu n’as point d’ennemi plus à craindre que moi.</l>
+                        <l n="818"> Ô mon peuple ! ô mon fils ! promesse redoutable !</l>
+                        <l n="819"> Roi, père malheureux ! dieux cruels ! vœu coupable !</l>
+                        <l n="820"> Ô ciel ! de tant de maux toujours moins satisfait,</l>
+                        <l n="821"> Tu n’as jamais tonné pour un moindre forfait !</l>
+                        <l n="822"> Et vous, fatal objet d’une flamme odieuse,</l>
+                        <l n="823"> Érixène, à mon cœur toujours trop précieuse,</l>
+                        <l n="824"> Fuyez avec mon fils de ces funestes lieux :</l>
+                        <l n="825"> Pour tout ce qui m’est cher j’y dois craindre les dieux.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="826"> Malgré l’affreux péril du plus cruel naufrage,</l>
+                        <l n="827"> On dit que vos vaisseaux vont quitter le rivage :</l>
+                        <l n="828"> Quoique de ces apprêts mon cœur soit alarmé,          </l>
+                        <l n="829"> Je ne viens point, seigneur, pour en être informé ;</l>
+                        <l n="830"> Je sais de vos secrets respecter le mystère,</l>
+                        <l n="831"> Et l’on ne m’en fait plus l’heureux dépositaire.</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="832"> Mon cœur, que ce reproche accuse de changer,</l>
+                        <l n="833"> Vous tait des maux qu’il craint de vous voir partager.          </l>
+                        <l n="834"> Il en est cependant dont il faut vous instruire.</l>
+            <stage><em>À part.</em></stage>
+                        <l n="835"> Ces vaisseaux... ces apprêts... Ciel ! que lui vais-je dire ?</l>
+                        <l n="836"> Ah ! mon fils !... non, mon cœur n’y saurait consentir.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="837"> Dieux ! que vous m’alarmez !</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="838"> Mon fils, il faut partir.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="839"> Qui doit partir ?</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="840"> Vous.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="841"> Moi ! Ciel ! qu’entends-je ?</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="842"> Vous-même.</l>
+                        <l n="843"> Il fallait accepter l’offre du diadème.</l>
+                        <l n="844"> Fuyez, mon fils, fuyez un ciel trop rigoureux,</l>
+                        <l n="845"> Un rivage perfide, un père malheureux.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="846"> Ciel ! qui m’a préparé cette horrible disgrâce ?</l>
+                        <l n="847"> La mort même entre nous ne peut mettre un espace.</l>
+                        <l n="848"> N’accablez point mon cœur d’un pareil désespoir.</l>
+                        <l n="849"> Je goûte à peine, hélas ! le bien de vous revoir...</l>
+                        <l n="850"> Pourquoi régner ? pourquoi faut-il que je vous quitte ?</l>
+                        <l n="851"> Quel est donc le projet que votre âme médite ?</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="852"> Voyez par quels périls vos jours sont menacés ;</l>
+                        <l n="853"> Fuyez, n’insistez plus ; je crains, c’en est assez.</l>
+                        <l n="854"> Jugez par mon amour de ce que je dois craindre,</l>
+                        <l n="855"> Puisqu’à nous séparer ce soin m’a pu contraindre ;</l>
+                        <l n="856"> Jugez de mes frayeurs... Ah ! loin de ces climats</l>
+                        <l n="857"> Allez chercher des dieux qui ne se vengent pas.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="858"> Eh ! que pourrait m’offrir une terre étrangère,</l>
+                        <l n="859"> Que des dieux ennemis, si je ne vois mon père ?</l>
+                        <l n="860"> Vos dieux seront les miens : laissez-moi, près de vous,</l>
+                        <l n="861"> De ces dieux irrités partager le courroux.</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="862"> Ah ! fuyez-moi... fuyez le ciel qui m’environne.</l>
+                        <l n="863"> Fuyez, mon fils, fuyez... puisqu’enfin je l’ordonne ;</l>
+                        <l n="864"> Et, sans vous informer du secret de mes pleurs,</l>
+                        <l n="865"> Fuyez, ou redoutez le comble des horreurs.</l>
+                        <l n="866"> Avec vous à Samos conduisez Érixène.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="867"> Seigneur...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="868"> Ce ne doit plus être un objet de haine :</l>
+                        <l n="869"> Des crimes de son père immolé par nos lois</l>
+                        <l n="870"> La fille n’a point dû porter l’injuste poids.</l>
+                        <l n="871"> Adieu : peut-être un jour le destin moins sévère</l>
+                        <l n="872"> Vous permettra, mon fils, de revoir votre père.</l>
+                        <l n="873"> Dérobez cependant à des dieux ennemis</l>
+                        <l n="874"> Une princesse aimable, un si généreux fils...</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="875"> Érixène ! eh ! pourquoi compagne de ma fuite ?</l>
+                        <l n="876"> Expliquez... Mais je vois que votre âme est instruite.</l>
+                        <l n="877"> Érixène, seigneur, m’est un présent bien doux ;</l>
+                        <l n="878"> Mais tout cède à l’horreur de m’éloigner de vous.</l>
+                        <l n="879"> À ce triste départ quel astre pourrait luire ?</l>
+                        <l n="880"> Voyez le désespoir où vous m’allez réduire.</l>
+                        <l n="881"> En vain sur cet exil vous croyez me tenter :</l>
+                        <l n="882"> Plus vous m’offrez, seigneur, moins je puis vous quitter.</l>
+                        <l n="883"> Je vous dois trop, hélas !... Quelle tendresse extrême !          </l>
+                        <l n="884"> M’offrir en même jour et sceptre et ce que j’aime !</l>
+                        <l n="885"> Non...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="886"> Ce que vous aimez ?</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="887"> Ah ! pardonnez, seigneur ;</l>
+                        <l n="888"> Je le vois, vous savez les secrets de mon cœur.</l>
+                        <l n="889"> Pardonnez : j’en ai fait un coupable mystère ;</l>
+                        <l n="890"> Non que pour vous tromper je voulusse m’en taire...</l>
+                        <l n="891"> Mais d’un feu qu’en mon sein j’avais cru renfermer,</l>
+                        <l n="892"> Eh ! qui, seigneur, encore a pu vous informer ?</l>
+                        <l n="893"> Ah ! quoiqu’il soit trop vrai que j’adore Érixène...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="894"> Poursuivez, dieux cruels ! ajoutez à ma peine :</l>
+                        <l n="895"> Me voilà parvenu, par tant de maux divers,</l>
+                        <l n="896"> À pouvoir défier le ciel et les enfers.</l>
+                        <l n="897"> Je ne redoute plus votre courroux funeste,</l>
+                        <l n="898"> Impitoyables dieux ! ce coup en est le reste.</l>
+                        <l n="899"> Sur mon peuple à présent signalez vos fureurs ;</l>
+                        <l n="900"> Et si ce n’est assez, versez-les dans nos cœurs.</l>
+                        <l n="901"> Voyez-nous tous les deux, saisis de votre rage,</l>
+                        <l n="902"> Égorgés l’un par l’autre, achever votre ouvrage.</l>
+                        <l n="903"> Par de nouveaux dangers arrachez-moi des vœux :</l>
+                        <l n="904"> Me ferez-vous jamais un sort plus rigoureux ?</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="905"> Où s’égare, seigneur, votre âme furieuse ?</l>
+                        <l n="906"> Érixène cessait de vous être odieuse,</l>
+                        <l n="907"> Disiez-vous ; et pour elle un reste de pitié</l>
+                        <l n="908"> Semblait vous dépouiller de toute inimitié.</l>
+                        <l n="909"> Haïriez-vous toujours cet objet adorable ?</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="910"> Si je le haïssais, seriez-vous si coupable ?</l>
+                        <l n="911"> Oh ! de tous les malheurs malheur le plus fatal !</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="912"> Seigneur...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="913"> Ah ! fils cruel, vous êtes mon rival !</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="914"> Ô ciel !</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="915"> De quelle main par le trait qui me blesse !</l>
+                        <l n="916"> Réserviez-vous, cruel ! Ce prix à ma tendresse ?</l>
+                        <l n="917"> Je ne verrai donc plus dans mes tristes états</l>
+                        <l n="918"> Que des dieux ennemis et des hommes ingrats !</l>
+                        <l n="919"> Quoi ! toujours du destin la barbare injustice</l>
+                        <l n="920"> De tout ce qui m’est cher fera donc mon supplice !</l>
+                        <l n="921"> Imprudent que j’étais ! et j’allais couronner</l>
+                        <l n="922"> Ce fils qu’à ma fureur je dois abandonner !</l>
+                        <l n="923"> Mais c’en est fait, l’amour de mon devoir décide.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="924"> Mon père...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="925"> Ô nom trop doux pour un fils si perfide !</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="926"> N’accablez point, seigneur, un fils infortuné,</l>
+                        <l n="927"> À des maux infinis par l’amour condamné.</l>
+                        <l n="928"> Puisqu’enfin votre cœur s’en est laissé surprendre,</l>
+                        <l n="929"> Jugez si d’Érixène on pouvait se défendre.</l>
+                        <l n="930"> Hélas ! je ne craignais, adorant ses appas,</l>
+                        <l n="931"> Que d’aimer un objet qui ne vous plairait pas ;</l>
+                        <l n="932"> Et mon cœur, trop épris d’une odieuse chaîne,</l>
+                        <l n="933"> Oubliait son devoir dans les yeux d’Érixène.</l>
+                        <l n="934"> Mais si l’aimer, seigneur, est un si grand forfait,</l>
+                        <l n="935"> L’amour m’en punit bien par les maux qu’il me fait.</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="936"> Voilà l’unique fruit qu’il en fallait attendre.</l>
+                        <l n="937"> D’un amour criminel qu’osiez-vous donc prétendre ?</l>
+                        <l n="938"> Et quel était l’espoir de vos coupables feux,</l>
+                        <l n="939"> Quand chaque jour le crime augmentait avec eux ?</l>
+                        <l n="940"> Qu’Érixène à mes yeux fût odieuse ou chère,</l>
+                        <l n="941"> Vos feux également offensaient votre père.</l>
+                        <l n="942"> Je veux bien cependant, juge moins rigoureux,</l>
+                        <l n="943"> Vous en accorder, prince, un pardon généreux,</l>
+                        <l n="944"> Mais pourvu que votre âme, à mes désirs soumise,</l>
+                        <l n="945"> Renonce à tout l’amour dont je la vois éprise.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="946"> Ah ! quand même mon cœur oserait le vouloir,</l>
+                        <l n="947"> Aimer, ou n’aimer pas, est-il en mon pouvoir ?</l>
+                        <l n="948"> Je combattrais en vain une ardeur téméraire :</l>
+                        <l n="949"> L’amour m’en a rendu le crime nécessaire.</l>
+                        <l n="950"> Malgré moi de ce feu je vis mon cœur atteint ;</l>
+                        <l n="951"> Peut-être malgré moi je l’y verrais éteint.</l>
+                        <l n="952"> Mais ce cœur, à l’amour que je n’ai pu soustraire,</l>
+                        <l n="953"> Dans le rival du moins aime toujours un père.</l>
+                        <l n="954"> Par un nom si sacré tout autre suspendu...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="955"> Dans le nom de rival tout nom est confondu.</l>
+                        <l n="956"> Vous n’êtes plus mon fils ; ou, peu digne de l’être,</l>
+                        <l n="957"> Je vois que tout mon sang n’en a formé qu’un traître.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="958"> Où fuirai-je ? grands dieux ! De quels noms ennemis</l>
+                        <l n="959"> Accablez-vous, seigneur, votre malheureux fils !</l>
+                        <l n="960"> Ah ! quels noms odieux me faites-vous entendre !</l>
+                        <l n="961"> Quelle horreur pour un fils respectueux et tendre !</l>
+                        <l n="962"> Songez-vous que ce fils est encor devant vous,</l>
+                        <l n="963"> Ce fils longtemps l’objet de sentiments plus doux ?</l>
+                        <l n="964"> Brûlant d’un feu cruel que je ne puis éteindre,</l>
+                        <l n="965"> Vous me devez, seigneur, moins haïr que me plaindre ;</l>
+                        <l n="966"> Et si ma flamme enfin est un crime si noir,</l>
+                        <l n="967"> Vous êtes bien vengé par mon seul désespoir.</l>
+                        <l n="968"> Cessez de m’envier une importune flamme :</l>
+                        <l n="969"> Odieux à l’objet qui sait charmer mon âme,</l>
+                        <l n="970"> Abhorré d’un rival que j’aimerai toujours,</l>
+                        <l n="971"> Seigneur, voilà le fruit de mes tristes amours.</l>
+                        <l n="972"> Mais, puisque de ce feu qui tous deux nous anime</l>
+                        <l n="973"> Sur mon cœur trop épris est tombé tout le crime,</l>
+                        <l n="974"> Je saurai m’en punir ; et je sens que ce cœur</l>
+                        <l n="975"> Vous craint déjà bien moins que sa propre fureur.</l>
+                        <l n="976"> Désormais tout en proie au transport qui me guide,</l>
+                        <l n="977"> Je vous délivrerai de ce fils si perfide.</l>
+                        <l n="978"> Si mon coupable cœur vous trahit malgré moi,           </l>
+                        <l n="979"> Mon bras plus innocent saura venger mon roi.</l>
+                        <l n="980"> Ce n’est pas d’aujourd’hui qu’il sert votre vengeance,</l>
+                        <l n="981"> Et je vais en punir ce cœur qui vous offense.</l>
+            <stage><em>Il tire son épée.</em></stage>
+                        <l n="982"> Soyez donc satisfait...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE, l’arrêtant. </speaker>
+                        <l n="983"> Arrêtez, furieux...</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="984"> Laissez couler le sang d’un rival odieux.</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="985"> Mon fils !...</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="986"> D’un nom si cher m’honorez-vous encore ?</l>
+                        <l n="987"> Laissez-moi me punir d’un feu qui me dévore.</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="988"> Ma vertu jusque-là ne saurait se trahir...</l>
+                        <l n="989"> Va, fils infortuné... je ne te puis haïr...</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="990"> Ah ! seigneur !...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="991"> Laissez-moi, fuyez ma triste vue ;</l>
+                        <l n="992"> Ne renouvelons plus un discours qui me tue.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE </speaker>
+                        <l n="993"> Inexorables dieux, vous voilà satisfaits !</l>
+                        <l n="994"> Pour un nouveau courroux vous reste-t-il des traits ?</l>
+                        <l n="995"> Finis tes tristes jours, père, amant déplorable...</l>
+                        <l n="996"> Vengeons-nous bien plutôt, si mon fils est coupable.</l>
+                        <l n="997"> Que sais-je si l’ingrat ne s’est point fait aimer ?</l>
+                        <l n="998"> Sans doute, puisqu’il aime, il aura su charmer.</l>
+                        <l n="999"> Il triomphe en secret de mon amour funeste :</l>
+                        <l n="1000"> Il est aimé ; je suis le seul que l’on déteste.</l>
+                        <l n="1001"> Tout mon courroux renaît à ce seul souvenir.</l>
+                        <l n="1002"> Livrons l’ingrat aux dieux. Qui me peut retenir ?</l>
+                        <l n="1003"> Coule sur nos autels tout le sang d’Idamante...</l>
+                        <l n="1004"> Coule plutôt le tien...</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1005"> Quel objet se présente ?</l>
+                        <l n="1006"> Ah ! c’est toi... quel malheur au mien peut être égal,</l>
+                        <l n="1007"> Sophronyme ? Mon fils...</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="1008"> Seigneur ?</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1009"> Est mon rival !</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="1010"> Il est temps pour jamais d’oublier l’inhumaine.</l>
+                        <l n="1011"> Ignorez-vous, seigneur, le crime d’Érixène,</l>
+                        <l n="1012"> Celui de Mérion ici renouvelé ?</l>
+                        <l n="1013"> L’arrêt des dieux, enfin au peuple est révélé :</l>
+                        <l n="1014"> Par Égésippe instruit...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1015"> Ciel ! que viens-tu m’apprendre ?</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="1016"> Du port, où par votre ordre il m’a fallu descendre,</l>
+                        <l n="1017"> Je revenais, seigneur : un grand peuple assemblé</l>
+                        <l n="1018"> M’attire par ses cris, par un bruit redoublé.</l>
+                        <l n="1019"> Par le sens de l’oracle Érixène trompée,</l>
+                        <l n="1020"> Du soin de se venger toujours plus occupée,</l>
+                        <l n="1021"> De l’intérêt des dieux prétextant son courroux,</l>
+                        <l n="1022"> Tâchait de soulever vos sujets contre vous ;</l>
+                        <l n="1023"> De tout par Égésippe encor plus mal instruite,</l>
+                        <l n="1024"> À vos sujets tremblants révélait votre fuite ;</l>
+                        <l n="1025"> Leur disait que le ciel, pour unique secours,</l>
+                        <l n="1026"> Attachait leur salut à la fin de vos jours...</l>
+                        <l n="1027"> Pour eux, par leurs regrets, du grand Idoménée</l>
+                        <l n="1028"> Contents de déplorer la triste destinée,</l>
+                        <l n="1029"> Ils semblaient seuls frappés par l’arrêt du destin :</l>
+                        <l n="1030"> Égésippe a voulu les exciter en vain.</l>
+                        <l n="1031"> Pour moi, qui frémissais de tant de perfidie,</l>
+                        <l n="1032"> Je le poursuis, l’atteins, et le laisse sans vie,</l>
+                        <l n="1033"> Désabuse le peuple, et, content désormais,</l>
+                        <l n="1034"> J’ai ramené, seigneur, la princesse au palais.</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1035"> Sujets infortunés, qu’en mon cœur je déplore,</l>
+                        <l n="1036"> Au milieu de vos maux me plaignez-vous encore ?</l>
+                        <l n="1037"> Ce qui m’aime à sa perte est par moi seul livré,</l>
+                        <l n="1038"> Et tout ce qui m’est cher contre moi conjuré !</l>
+                        <l n="1039"> Cruel à notre tour, qu’Idamante périsse ;</l>
+                        <l n="1040"> De celui d’Érixène augmentons son supplice ;</l>
+                        <l n="1041"> Faisons-leur du trépas un barbare lien ;</l>
+                        <l n="1042"> Dans leur sang confondu mêlons encor le mien...</l>
+                        <l n="1043"> Vains transports qu’a formés ma fureur passagère !</l>
+                        <l n="1044"> Hélas ! qui fut jamais plus amant et plus père ?</l>
+                        <l n="1045"> Mes peuples cependant, par moi seul accablés...</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="1046"> Ah ! seigneur ! leurs tourments sont encor redoublés.</l>
+                        <l n="1047"> Depuis que le destin a fait des misérables,</l>
+                        <l n="1048"> On n’éprouva jamais de maux plus redoutables ;</l>
+                        <l n="1049"> Je frémis des horreurs où ce peuple est réduit.</l>
+                        <l n="1050"> Un gouffre sous Ida s’est ouvert cette nuit :</l>
+                        <l n="1051"> Ce roc, qui jusqu’aux cieux semblait porter sa cime,</l>
+                        <l n="1052"> Au lieu qu’il occupait n’a laissé qu’un abîme ;</l>
+                        <l n="1053"> Et de ce roc entier à nos yeux disparu,</l>
+                        <l n="1054"> Loin d’en être comblé, ce gouffre s’est accru :</l>
+                        <l n="1055"> Nous touchons tout vivants à la rive infernale.           </l>
+                        <l n="1056"> De ce gouffre profond un noir venin s’exhale ;</l>
+                        <l n="1057"> Et vos sujets, frappés par des feux dévorants,</l>
+                        <l n="1058"> Tombent de toutes parts, déjà morts ou mourants.</l>
+                        <l n="1059"> Aux seuls infortunés le trépas se refuse...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1060"> Et c’est de tant d’horreurs les dieux seuls qu’on accuse !</l>
+                        <l n="1061"> Mais quoi ! toujours les dieux ! Et qui d’eux ou de moi,</l>
+                        <l n="1062"> Négligeant sa promesse, a donc manqué de foi ?</l>
+                        <l n="1063"> Malheureux ! tes serments, qu’a suivis le parjure,</l>
+                        <l n="1064"> Ont soulevé les dieux et toute la nature.</l>
+                        <l n="1065"> Pour sauver un ingrat, tes soins pernicieux</l>
+                        <l n="1066"> Trop longtemps sur ton peuple ont exercé les dieux :</l>
+                        <l n="1067"> À tes sujets enfin cesse d’être contraire.</l>
+                        <l n="1068"> Eh ! que leur sert un roi, s’il ne leur sert de père ?</l>
+                        <l n="1069"> Leur salut désormais est ta suprême loi,</l>
+                        <l n="1070"> Et le sang de son peuple est le vrai sang d’un roi...</l>
+                        <l n="1071"> Depuis quand tes sujets t’éprouvent-ils si tendre ?</l>
+                        <l n="1072"> Depuis quand ce devoir... ? L’amour vient te l’apprendre !</l>
+                        <l n="1073"> Voilà de ces grands soins le retour trop fatal :</l>
+                        <l n="1074"> Tu n’es roi que depuis qu’un fils est ton rival ;</l>
+                        <l n="1075"> Contre lui l’amour seul arme tes mains impies ;</l>
+                        <l n="1076"> Voilà le dieu, barbare ! à qui tu sacrifies.</l>
+                        <l n="1077"> Étouffons tout l’amour dont mon cœur est épris ;</l>
+                        <l n="1078"> N’y laissons plus régner que la gloire et mon fils.</l>
+                        <l n="1079"> Sur les mêmes vaisseaux préparés pour sa fuite,</l>
+                        <l n="1080"> Qu’Érixène à Samos aujourd’hui soit conduite.</l>
+                        <l n="1081"> Allons... et que mon cœur, délivré de ses feux,</l>
+                        <l n="1082"> Commence par l’amour à triompher des dieux.</l></div></div>
+           <div type="act" xml:id="4">
+           <head> ACTE IV </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="1083"> En vain tu veux calmer le transport qui m’agite :</l>
+                        <l n="1084"> Faibles raisonnements dont ma douleur s’irrite !</l>
+                        <l n="1085"> Laisse-moi, porte ailleurs tes funestes avis ;</l>
+                        <l n="1086"> Il m’en a trop coûté pour les avoir suivis.</l>
+                        <l n="1087"> Vois ce qu’à tes conseils aujourd’hui trop soumise</l>
+                        <l n="1088"> Je viens de recueillir d’une vaine entreprise ;</l>
+                        <l n="1089"> Vois ce que ta fureur et la mienne ont produit :</l>
+                        <l n="1090"> Mon départ et ma honte en seront tout le fruit.</l>
+                        <l n="1091"> Je ne reverrai plus ce prince que j’adore ;</l>
+                        <l n="1092"> Et, pour comble d’horreur, mon amour croît encore !</l>
+                        <l n="1093"> En armant contre lui mon devoir inhumain,</l>
+                        <l n="1094"> Cruelle ! tu m’as promis un poignard dans le sein.</l>
+                        <l n="1095"> Cher prince, pardonnez...</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="1096"> Je le vois qui s’avance.</l>
+                        <l n="1097"> De vos transports, du moins, cachez la violence.</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="1098"> Eh ! comment les cacher ? Je sais que je le dois ;</l>
+                        <l n="1099"> Mais le puis-je, et le voir pour la dernière fois ?</l>
+                        <l n="1100"> Fuyons-le cependant ; sa présence m’étonne.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1101"> Où fuyez-vous, madame ?</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="1102"> Où mon devoir l’ordonne.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1103"> Du moins à la pitié laissez-vous émouvoir.</l>
+                        <l n="1104"> Vous ne l’avez que trop signalé, ce devoir :</l>
+                        <l n="1105"> Avec tant de courroux, hélas ! qu’a-t-il à craindre ?</l>
+                        <l n="1106"> Vous ne m’entendrez plus soupirer ni me plaindre.</l>
+                        <l n="1107"> Vous partez, je vous aime, et vous me haïssez ;         </l>
+                        <l n="1108"> Mes malheurs dans ces mots semblent être tracés.</l>
+                        <l n="1109"> Cependant ce départ, mon amour, votre haine,</l>
+                        <l n="1110"> Ne font pas aujourd’hui ma plus cruelle peine.</l>
+                        <l n="1111"> C’était peu que votre âme, insensible à mes vœux,</l>
+                        <l n="1112"> Eût de tout son courroux payé mes tendres feux :</l>
+                        <l n="1113"> Ce malheureux amour que votre cœur abhorre,</l>
+                        <l n="1114"> Malgré tous vos mépris, que je chéris encore ;</l>
+                        <l n="1115"> Cet amour qui, malgré votre injuste rigueur,</l>
+                        <l n="1116"> N’a jamais plus régné dans le fond de mon cœur ;</l>
+                        <l n="1117"> Cet amour qui faisait le bonheur de ma vie,</l>
+                        <l n="1118"> Il faut à mon devoir que je le sacrifie.</l>
+                        <l n="1119"> Non que mon triste cœur, par ce cruel effort,</l>
+                        <l n="1120"> Renonce à vous aimer ; mais je cours à la mort :</l>
+                        <l n="1121"> Heureux si mon trépas, devenu légitime,</l>
+                        <l n="1122"> Des pleurs que j’ai causés peut effacer le crime !</l>
+                        <l n="1123"> Mais si c’en était un d’adorer vos beaux yeux,</l>
+                        <l n="1124"> Je ne suis pas le seul criminel en ces lieux.</l>
+                        <l n="1125"> Ce qu’en vain Mérion attendait de ses armes,</l>
+                        <l n="1126"> Vous seul en un moment l’avez pu par vos charmes :</l>
+                        <l n="1127"> Tout vous livre à l’envi cet empire fatal.          </l>
+                        <l n="1128"> Régnez, vous le pouvez... mon père est mon rival.</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="1129"> Je connais les transports et de l’un et de l’autre,</l>
+                        <l n="1130"> Et je sais jusqu’où va son audace et la vôtre :</l>
+                        <l n="1131"> Son téméraire amour n’a que trop éclaté.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1132"> Sans vous en offenser vous l’avez écouté !</l>
+                        <l n="1133"> Je ne m’étonne plus du malheur qui m’accable,</l>
+                        <l n="1134"> Ni que vos yeux cruels me trouvent si coupable.</l>
+                        <l n="1135"> Votre cœur, à son tour épris pour un héros,</l>
+                        <l n="1136"> N’a pas toujours haï tout le sang de Minos.</l>
+                        <l n="1137"> Pour mon père en secret vous brûliez, inhumaine !</l>
+                        <l n="1138"> Et moi seul en ces lieux j’exerçais votre haine.</l>
+                        <l n="1139"> Quoi ! vous m’abandonnez à mes soupçons jaloux !</l>
+                        <l n="1140"> Suis-je le malheureux ? madame, l’aimez-vous ?</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="1141"> Moi, je pourrais l’aimer ! et dans le fond de l’âme</l>
+                        <l n="1142"> J’aurais sacrifié mon devoir à sa flamme !</l>
+                        <l n="1143"> Dieux ! qu’est-ce que j’entends ? Seigneur, osez-vous bien</l>
+                        <l n="1144"> Reprocher à mon cœur l’égarement du sien ?</l>
+                        <l n="1145"> Après ce qu’a produit sa cruauté funeste,</l>
+                        <l n="1146"> Qui ? moi, j’approuverais des feux que je déteste,</l>
+                        <l n="1147"> Un amour par le sang, par les pleurs condamné,</l>
+                        <l n="1148"> Et devenu forfait dès l’instant qu’il est né !</l>
+                        <l n="1149"> Ouvrez vos yeux, cruel ! et voyez quel spectacle</l>
+                        <l n="1150"> A mis à son amour un inviolable obstacle.</l>
+                        <l n="1151"> Son crime dans ces lieux est partout retracé ;</l>
+                        <l n="1152"> Le sang qui les a teints n’en est point effacé.</l>
+                        <l n="1153"> Là, mon père sanglant vint s’offrir à ma vue,</l>
+                        <l n="1154"> Et tomber dans les bras de sa fille éperdue :</l>
+                        <l n="1155"> Vos yeux comme les miens l’ont vu sacrifier ;</l>
+                        <l n="1156"> Faut-il d’autres témoins pour me justifier ?</l>
+                        <l n="1157"> Tout ce que j’ai tenté pour m’immoler sa tête,</l>
+                        <l n="1158"> L’oracle révélé, mon départ qui s’apprête,</l>
+                        <l n="1159"> Ma fierté, ma vertu, cent outrages récents,</l>
+                        <l n="1160"> Voilà pour mon devoir des titres suffisants.</l>
+                        <l n="1161"> Ne croyez pas, seigneur, que mon cœur les oublie...</l>
+                        <l n="1162"> Mais que dis-je ?... et d’où vient que je me justifie ?...</l>
+                        <l n="1163"> Gardez tous vos soupçons : bien loin de les bannir,</l>
+                        <l n="1164"> Je dois aider moi-même à les entretenir.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1165"> Eh bien ! pour m’en punir, désormais moins sévère,</l>
+                        <l n="1166"> Regardez sans courroux la flamme de mon père :</l>
+                        <l n="1167"> Il vous aime, madame, il est digne de vous.</l>
+                        <l n="1168"> Si j’ai fait éclater mes sentiments jaloux,</l>
+                        <l n="1169"> Pardonnez aux transports de mon âme éperdue :</l>
+                        <l n="1170"> Je ne connaissais point le poison qui me tue.</l>
+                        <l n="1171"> Mais, quel que soit l’amour dont je brûle aujourd’hui,</l>
+                        <l n="1172"> Ma vertu contre vous deviendra mon appui :</l>
+                        <l n="1173"> Je verrai, sans regret, parer du diadème</l>
+                        <l n="1174"> Un front que mon amour n’en peut orner lui-même.</l>
+                        <l n="1175"> Remontez dès ce jour au rang de vos aïeux :</l>
+                        <l n="1176"> Votre vertu, madame, apaisera les dieux.</l>
+                        <l n="1177"> Que ne pourra sur eux une reine si belle ?</l>
+                        <l n="1178"> Pour moi, jusqu’à la mort toujours tendre et fidèle,</l>
+                        <l n="1179"> J’irai sans murmurer, loin de lui, loin de vous,</l>
+                        <l n="1180"> Sacrifier au roi mon bonheur le plus doux...</l>
+                        <l n="1181"> Mais on vient... C’est lui-même... Il vous cherche, madame.</l>
+                        <l n="1182"> Dieux ! quel trouble cruel s’élève dans mon âme !...</l>
+                        <l n="1183"> Vous ne partirez point puisqu’il veut vous revoir :</l>
+                        <l n="1184"> Vous règnerez... Ô ciel ! quel est mon désespoir !</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="1185"> Vous triomphez, seigneur ; ma vengeance échouée</l>
+                        <l n="1186"> Par le sort ennemi se voit désavouée :</l>
+                        <l n="1187"> Ainsi ne forcez plus des yeux baignés de pleurs</l>
+                        <l n="1188"> À revoir de mes maux les barbares auteurs.</l>
+                        <l n="1189"> D’un sang qu’il faut venger partout environnée,</l>
+                        <l n="1190"> Et pour toute vengeance aux pleurs abandonnée,</l>
+                        <l n="1191"> Pour apaiser la voix de ce sang qui gémit,</l>
+                        <l n="1192"> Je n’entends que soupirs dont ma vertu frémit.          </l>
+                        <l n="1193"> Hâtez par mon départ la fin de ma misère ;</l>
+                        <l n="1194"> Laissez-moi loin de vous aller pleurer mon père ;</l>
+                        <l n="1195"> Permettez...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1196"> Vous pouvez, libre dans mes états,</l>
+                        <l n="1197"> Au gré de vos souhaits déterminer vos pas.</l>
+                        <l n="1198"> Mes ordres sont donnés ; et la mer apaisée</l>
+                        <l n="1199"> Offre de toutes parts une retraite aisée ;</l>
+                        <l n="1200"> Mes vaisseaux sont tout prêts... Si la fin de mes jours</l>
+                        <l n="1201"> De vos pleurs cependant peut arrêter le cours,</l>
+                        <l n="1202"> Madame, demeurez... Ma tête condamnée</l>
+                        <l n="1203"> Du funeste bandeau va tomber couronnée :</l>
+                        <l n="1204"> Je vais, pour contenter vous et les immortels...</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="1205"> Je vais donc de ce pas vous attendre aux autels.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="1206"> Quel orgueil ! Mais quel est ce dessein qui m’étonne !</l>
+                        <l n="1207"> Par vos ordres exprès quand son départ s’ordonne,</l>
+                        <l n="1208"> Pourquoi l’arrêtez-vous sur l’espoir d’un trépas ?...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1209"> Pourquoi le lui cacher, et ne l’en flatter pas,</l>
+                        <l n="1210"> Puisque je vais mourir ?</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="1211"> Vous mourir ! dieux ! qu’entends-je ?</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1212"> Pour t’étonner si fort, qu’a ce dessein d’étrange ?</l>
+                        <l n="1213"> Plût au sort que mes mains eussent moins différé</l>
+                        <l n="1214"> À rendre au ciel un sang dont il est altéré !</l>
+                        <l n="1215"> Pour conserver celui que sa rigueur demande,</l>
+                        <l n="1216"> C’est le mien aujourd’hui qu’il faut que je répande.</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="1217"> Que dites-vous, seigneur ? quel affreux désespoir !</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1218"> D’un nom plus glorieux honore mon devoir :</l>
+                        <l n="1219"> Quand j’aurai vu mon fils, je cours y satisfaire.          </l>
+                        <l n="1220"> Je n’attends plus de vous qu’une paix sanguinaire,</l>
+                        <l n="1221"> Dieux justes ! Cependant d’un peuple infortuné</l>
+                        <l n="1222"> Détournez le courroux qui m’était destiné ;</l>
+                        <l n="1223"> Cessez à mes sujets de déclarer la guerre,</l>
+                        <l n="1224"> Et jusqu’à mon trépas suspendez le tonnerre :</l>
+                        <l n="1225"> Tout mon sang va couler.</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="1226"> D’un si cruel transport</l>
+                        <l n="1227"> Qu’espérez-vous ?</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1228"> Du moins, la douceur de la mort.</l>
+                        <l n="1229"> Je n’obéirai point ; le ciel impitoyable</l>
+                        <l n="1230"> M’offre en vain en ces lieux un spectacle effroyable.</l>
+                        <l n="1231"> Les mortels peuvent-ils vous offenser assez</l>
+                        <l n="1232"> Pour s’attirer les maux dont vous les punissez,</l>
+                        <l n="1233"> Dieux puissants ? Qu’ai-je vu ? quel funeste ravage !</l>
+                        <l n="1234"> J’ai cru me retrouver dans le même carnage</l>
+                        <l n="1235"> Où mon bras se plongeait sur les bords phrygiens,</l>
+                        <l n="1236"> Pour venger Ménélas des malheureux Troyens.</l>
+                        <l n="1237"> Les maux des miens, hélas ! sont-ils moins mon ouvrage ?</l>
+                        <l n="1238"> Une seconde Troie a signalé ma rage.</l>
+                        <l n="1239"> J’ai revu mes sujets, si tendres pour leur roi,</l>
+                        <l n="1240"> Pâles et languissants se traîner après moi.</l>
+                        <l n="1241"> Tu les as vus tout près de perdre la lumière,</l>
+                        <l n="1242"> S’empresser pour revoir l’auteur de leur misère.</l>
+                        <l n="1243"> Non, j’ai le cœur encor tout percé de leurs cris :</l>
+                        <l n="1244"> J’ai cru dans chacun d’eux voir expirer mon fils.</l>
+                        <l n="1245"> De leur salut enfin cruel dépositaire,</l>
+                        <l n="1246"> Essayons si ma mort leur sera salutaire.           </l>
+                        <l n="1247"> Meurs du moins, roi sans foi, pour ne plus résister</l>
+                        <l n="1248"> À ces dieux que ta main ne veut pas contenter.</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="1249"> Dans un si grand projet votre vertu s’égare :</l>
+                        <l n="1250"> À des crimes nouveaux votre âme se prépare.</l>
+                        <l n="1251"> Vous mourrez moins, seigneur, pour contenter les dieux,</l>
+                        <l n="1252"> Que pour vous dérober au devoir de vos vœux.</l>
+                        <l n="1253"> Voulez-vous, ajoutant le mépris à l’offense,</l>
+                        <l n="1254"> Porter jusqu’aux autels la désobéissance ?</l>
+                        <l n="1255"> Vous vous offrez en vain pour fléchir sa rigueur ;</l>
+                        <l n="1256"> Le ciel veut moins de nous l’offrande, que le cœur.</l>
+                        <l n="1257"> Qu’espérez-vous, seigneur ? que prétendez-vous faire ?</l>
+                        <l n="1258"> Aux dieux, à vous, à nous, de plus en plus contraire,</l>
+                        <l n="1259"> Voulez-vous, n’écoutant qu’un transport furieux,</l>
+                        <l n="1260"> Faire couler sans fruit un sang si précieux ?</l>
+                        <l n="1261"> Eh ! qui de nous, hélas ! témoin du sacrifice,</l>
+                        <l n="1262"> Voudra de votre mort rendre sa main complice ?</l>
+                        <l n="1263"> Qui, prêt à se baigner dans le sang de son roi,</l>
+                        <l n="1264"> Voudrait charger sa main de cet horrible emploi ?</l>
+                        <l n="1265"> Qui de nous contre lui n’armerait pas la sienne ?</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1266"> Je le sais, et n’attends ce coup que de la mienne.</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="1267"> Eh bien ! avant ce coup, de cette même main</l>
+                        <l n="1268"> Plongez-moi donc, seigneur, un poignard dans le sein.</l>
+                        <l n="1269"> Dût retomber sur moi le transport qui vous guide,</l>
+                        <l n="1270"> Je ne souffrirai point cet affreux parricide.</l>
+                        <l n="1271"> Nulle crainte en ce jour ne saurait m’émouvoir,</l>
+                        <l n="1272"> Lorsqu’il faut vous sauver de votre désespoir.</l>
+                        <l n="1273"> Je ne vous connais plus ; le grand Idoménée</l>
+                        <l n="1274"> Laisse à tous ses transports son âme abandonnée.</l>
+                        <l n="1275"> Ce héros rebuté d’avoir tant combattu,</l>
+                        <l n="1276"> A donc mis de lui-même un terme à sa vertu !</l>
+                        <l n="1277"> Jetez sur vos sujets un regard moins sévère :</l>
+                        <l n="1278"> Ils vous ont appelé du nom sacré de père ;</l>
+                        <l n="1279"> De cet auguste nom dédaignant tous les nœuds,</l>
+                        <l n="1280"> Avez-vous condamné vos sujets malheureux ?</l>
+                        <l n="1281"> Abandonnerez-vous ce peuple déplorable,</l>
+                        <l n="1282"> Que votre mort va rendre encor plus misérable ?</l>
+                        <l n="1283"> Que lui destinez-vous par ce cruel trépas,</l>
+                        <l n="1284"> Qu’un coup de désespoir qui ne le sauve pas ?</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1285"> Tu juges mal des dieux ; leur courroux équitable</l>
+                        <l n="1286"> S’apaisera bientôt par la mort du coupable :</l>
+                        <l n="1287"> Je vais enfin, pour prix de ce qu’ils ont sauvé,</l>
+                        <l n="1288"> Rendre à ces mêmes dieux ce qu’ils ont conservé.</l>
+                        <l n="1289"> Mon cœur purifié par le feu des victimes,</l>
+                        <l n="1290"> Mettra fin à vos maux, mettant fin à mes crimes.</l>
+                        <l n="1291"> Je sens même déjà dans ce cœur s’allumer</l>
+                        <l n="1292"> L’ardeur du feu sacré qui le doit consumer.</l>
+                        <l n="1293"> Chaque pas, chaque instant qui retarde mon zèle,</l>
+                        <l n="1294"> Plonge de mes sujets dans la nuit éternelle.</l>
+                        <l n="1295"> Ne m’oppose donc plus d’inutiles discours ;</l>
+                        <l n="1296"> Facilite plutôt le trépas où je cours.</l>
+                        <l n="1297"> Veux-tu, par les efforts que ton amitié tente,</l>
+                        <l n="1298"> Conduire le couteau dans le sein d’Idamante !</l>
+                        <l n="1299"> Si je pouvais, hélas ! l’immoler en ce jour,</l>
+                        <l n="1300"> Je croirais l’immoler moins aux dieux qu’à l’amour.</l>
+                        <l n="1301"> Qu’il règne ; que sa tête aujourd’hui couronnée,</l>
+                        <l n="1302"> Redonne à Sophronyme un autre Idoménée :</l>
+                        <l n="1303"> Que mon fils, à son tour assuré sur ta foi,</l>
+                        <l n="1304"> Retrouve dans tes soins tout ce qu’il perd en moi :</l>
+                        <l n="1305"> Que par toi tous ses pas tournés vers la sagesse</l>
+                        <l n="1306"> D’un torrent de flatteurs écartent sa jeunesse :</l>
+                        <l n="1307"> Accoutume son cœur à suivre l’équité ;</l>
+                        <l n="1308"> Conserve-lui surtout cette sincérité</l>
+                        <l n="1309"> Rare dans tes pareils, aux rois si nécessaire :</l>
+                        <l n="1310"> Sois enfin à ce fils ce que tu fus au père.</l>
+                        <l n="1311"> Surmonte ta douleur en ce dernier moment,</l>
+                        <l n="1312"> Et reçois mes adieux dans cet embrassement.</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME, à genoux. </speaker>
+                        <l n="1313"> Non, vous ne mourrez point ; votre cœur inflexible</l>
+                        <l n="1314"> Nourrit en vain l’espoir d’un projet si terrible.</l>
+                        <l n="1315"> Immolez-moi, seigneur, ou craignez...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1316"> Lève-toi :</l>
+                        <l n="1317"> Quoique prêt à mourir, je suis toujours ton roi.</l>
+                        <l n="1318"> Je veux être obéi ; cesse de me contraindre.</l>
+                        <l n="1319"> Parmi tant de malheurs, est-ce moi qu’il faut plaindre ?</l>
+                        <l n="1320"> Vois quels sont les tourments qui déchirent mon cœur ;</l>
+                        <l n="1321"> Et, par pitié du moins, laisse-moi ma fureur.</l>
+                        <l n="1322"> Je vois mon fils. Surtout que ta bouche fidèle</l>
+                        <l n="1323"> De mes tristes projets lui cache la nouvelle :</l>
+                        <l n="1324"> Je n’en mourrais pas moins ; et tes soins dangereux</l>
+                        <l n="1325"> Rendraient, sans me sauver, mon destin plus affreux.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1326"> Idamante, approchez : votre roi vous fait grâce.</l>
+                        <l n="1327"> Venez, mon fils, venez, qu’un père vous embrasse.</l>
+                        <l n="1328"> Ne craignez plus mes feux : par un juste retour,</l>
+                        <l n="1329"> Je vous rends tout ce cœur que partageait l’amour.</l>
+                        <l n="1330"> Oui, de ce même cœur qui s’en laissa surprendre,</l>
+                        <l n="1331"> Ce qu’il vous en ravit, je vous le rends plus tendre.</l>
+                        <l n="1332"> Oublions mes transports ; mon fils, embrassez-moi.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1333"> Par quel heureux destin retrouvé-je mon roi ?</l>
+                        <l n="1334"> Quel dieu, dans votre sein étouffant la colère,</l>
+                        <l n="1335"> Me rouvre encor les bras d’un si généreux père ?</l>
+                        <l n="1336"> Que cet embrassement pour un fils a d’appas !</l>
+                        <l n="1337"> Je le désirais trop pour ne l’obtenir pas.</l>
+                        <l n="1338"> Idamante, accablé des rigueurs d’Érixène,</l>
+                        <l n="1339"> N’en a point fait, seigneur, sa plus cruelle peine :</l>
+                        <l n="1340"> Hélas ! quel bruit affreux a passé jusqu’à moi !</l>
+                        <l n="1341"> Vous m’en voyez tremblant et d’horreur et d’effroi.</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1342"> Prince, de votre cœur que l’effroi se dissipe :</l>
+                        <l n="1343"> Ce n’est qu’un bruit semé par le traître Égésippe.</l>
+                        <l n="1344"> Quoi qu’il en soit, je vais, pour m’en éclaircir mieux,</l>
+                        <l n="1345"> Au pied de leurs autels interroger les dieux.</l>
+                        <l n="1346"> Heureux si, pour savoir leur volonté suprême,</l>
+                        <l n="1347"> Je les eusse plut tôt consultés par moi-même !</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1348"> Permettez-moi, seigneur, d’accompagner vos pas.</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1349"> Non, mon fils ; où je vais vous ne me suivrez pas.</l>
+                        <l n="1350"> D’un mystère où des miens l’unique espoir se fonde,</l>
+                        <l n="1351"> Je veux seul aujourd’hui percer la nuit profonde.</l>
+                        <l n="1352"> Vous apprendrez bientôt quel sang à dû couler :</l>
+                        <l n="1353"> Jusque-là votre cœur ne doit point se troubler.</l>
+                        <l n="1354"> Rejetez loin de vous une frayeur trop vaine :</l>
+                        <l n="1355"> J’apaiserai les dieux... Fléchissez Érixène...</l>
+                        <l n="1356"> Adieu...</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1357"> Permettez-moi...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1358"> Mon fils... je vous l’ai dit...</l>
+                        <l n="1359"> Je vais seul aux autels, et ce mot vous suffit.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1360"> Enfin à mes désirs on ne met plus d’obstacle.</l>
+                        <l n="1361"> Mais que vois-je ? grand dieu ! quel funeste spectacle !</l>
+                        <l n="1362"> Qui fait couler ces pleurs qui me glacent d’effroi ?</l>
+                        <l n="1363"> Sophronyme, parlez...</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="1364"> Qu’exigez-vous de moi ?</l>
+                        <l n="1365"> Ô déplorable sang ! famille infortunée !</l>
+                        <l n="1366"> Fils trop digne des pleurs du grand Idoménée !</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1367"> À mon cœur éperdu quel soupçon vient s’offrir ?</l>
+                        <l n="1368"> Parlez, où va le roi ?</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="1369"> Seigneur, il va mourir.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1370"> Ah ! ciel !</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="1371"> À sa fureur mettez un prompt obstacle :</l>
+                        <l n="1372"> Et ce n’est pas son sang que demande l’oracle.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1373"> Quoi ! ce n’est pas son sang ! Qu’entends-je ? quelle horreur !</l>
+                        <l n="1374"> C’est donc le mien !</l>
+                </sp>
+        <sp who="#sophronyme">
+            <speaker> SOPHRONYME. </speaker>
+                        <l n="1375"> Hélas ! j’en ai trop dit, seigneur.</l></div></div>
+           <div type="act" xml:id="5">
+           <head> ACTE V </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1376"> Qu’ai-je entendu ? grands dieux ! quel horrible mystère</l>
+                        <l n="1377"> M’avait longtemps voilé l’amitié de mon père !</l>
+                        <l n="1378"> À la fin sans nuage il éclate à mes yeux</l>
+                        <l n="1379"> Ce sacrilège vœu, ce mystère odieux.</l>
+                        <l n="1380"> Vous, peuples, qui craignez d’immoler la victime</l>
+                        <l n="1381"> Dont le sang doit fléchir le ciel qui vous opprime,</l>
+                        <l n="1382"> Peuples, cessez de plaindre un choix si glorieux :</l>
+                        <l n="1383"> Il est beau de mourir pour apaiser les dieux.</l>
+            <stage><em>À Polyclète.</em></stage>
+                        <l n="1384"> Sèche ces pleurs honteux où ta douleur te livre :</l>
+                        <l n="1385"> Que servent tes regrets ? que te sert de me suivre ?</l>
+                        <l n="1386"> Dissipe tes soupçons, ne crains rien, laisse-moi ;</l>
+                        <l n="1387"> Je te l’ordonne enfin, va retrouver le roi.</l>
+                        <l n="1388"> Hélas ! quoique sa main, par mes soins désarmée,</l>
+                        <l n="1389"> Ne laisse aucune crainte à mon âme alarmée ;</l>
+                        <l n="1390"> Quoique partout sa garde accompagne ses pas ;</l>
+                        <l n="1391"> Cependant, s’il se peut, ne l’abandonne pas.</l>
+                        <l n="1392"> Je voudrais avec toi le rejoindre moi-même ;</l>
+                        <l n="1393"> Mais je crains les transports de sa douleur extrême :</l>
+                        <l n="1394"> Je me sens pénétré de ses tendres regrets,</l>
+                        <l n="1395"> Et ne puis, sans mourir, voir ces tristes objets.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#idamante">
+            <speaker> IDAMANTE </speaker>
+                        <l n="1396"> Enfin, loin des témoins dont l’aspect m’importune,</l>
+                        <l n="1397"> Je puis en liberté plaindre mon infortune ;</l>
+                        <l n="1398"> Et mon cœur, déchiré des plus cruels tourments,</l>
+                        <l n="1399"> Peut donc jouir en paix de ses derniers moments !</l>
+                        <l n="1400"> Ciel ! quel est mon malheur ! quelle rigueur extrême !</l>
+                        <l n="1401"> Quel sort pour ennemis m’offre tout ce que j’aime !</l>
+                        <l n="1402"> Je trouve en même jour conjurés contre moi</l>
+                        <l n="1403"> Les implacables dieux, ma princesse, et mon roi.</l>
+                        <l n="1404"> Pardonnez, dieux puissants, si je vous fais attendre ;</l>
+                        <l n="1405"> Je le retiendrai peu ce sang qu’on va répandre :</l>
+                        <l n="1406"> Mon cœur de son destin n’est que trop éclairci.</l>
+                        <l n="1407"> Est-ce pour mes forfaits que vous tonnez ici,</l>
+                        <l n="1408"> Dieux cruels !... Que dis-tu, misérable victime ?</l>
+                        <l n="1409"> Né d’un sang criminel, te manque-t-il un crime ?</l>
+                        <l n="1410"> Qu’avaient fait plus que toi ces peuples malheureux</l>
+                        <l n="1411"> Que le ciel a couverts des maux les plus affreux ?</l>
+                        <l n="1412"> Va, termine aux autels une innocente vie,</l>
+                        <l n="1413"> Sans accuser les dieux de te l’avoir ravie ;</l>
+                        <l n="1414"> Et songe, en te flattant de leurs choix rigoureux,</l>
+                        <l n="1415"> Que le sang le plus pur est le plus digne d’eux.</l>
+                        <l n="1416"> Pourrais-tu regretter, objet de tant de haine,</l>
+                        <l n="1417"> Quelques jours échappés aux rigueurs d’Érixène ?</l>
+                        <l n="1418"> À qui peut éprouver un sort comme le mien</l>
+                        <l n="1419"> La mort est-elle un mal, la vie est-elle un bien ?</l>
+                        <l n="1420"> Hélas ! si je me plains, si mon cœur en murmure,</l>
+                        <l n="1421"> Mes plaintes ne sont point l’effet de la nature :</l>
+                        <l n="1422"> Je crains bien moins le coup qui m’ôtera le jour,</l>
+                        <l n="1423"> Que le coup qui me doit priver de mon amour.</l>
+                        <l n="1424"> Allons, c’est trop tarder... d’où vient que je frissonne ?</l>
+                        <l n="1425"> Est-ce qu’en ce moment ma vertu m’abandonne ?</l>
+                        <l n="1426"> Hélas ! Il en est temps, courons où je le doi ;</l>
+                        <l n="1427"> Je n’attends que la mort, et l’on n’attend que moi.</l>
+                        <l n="1428"> Assez sur ses projets mon âme combattue</l>
+                        <l n="1429"> A cédé... Quel objet vient s’offrir à ma vue ?</l>
+                        <l n="1430"> Ah ! fuyons... mon devoir parlerait vainement,</l>
+                        <l n="1431"> Si je pouvais encore...</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="1432"> Arrêtez un moment.</l>
+                        <l n="1433"> Vous me voyez, seigneur, inquiète, éperdue :</l>
+                        <l n="1434"> De mortelles frayeurs je me sens l’âme émue.</l>
+                        <l n="1435"> De mon devoir toujours prête à subir la loi,</l>
+                        <l n="1436"> Je courais aux autels peut-être malgré moi ;</l>
+                        <l n="1437"> J’allais voir immoler, dans ma juste colère,</l>
+                        <l n="1438"> Le sang d’Idoménée aux mânes de mon père :</l>
+                        <l n="1439"> Qu’ai-je fait ! et de quoi se flattait mon courroux !</l>
+                        <l n="1440"> On dit que les effets n’en tombent que sur vous.</l>
+                        <l n="1441"> De grâce, éclaircissez mon trouble et mes alarmes :</l>
+                        <l n="1442"> D’un peuple qui gémit et les cris et les larmes,</l>
+                        <l n="1443"> Des pleurs qu’en ce moment je ne puis retenir,</l>
+                        <l n="1444"> Tout dans ce trouble affreux sert à m’entretenir.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1445"> Il est vrai que le ciel, juste, quoique sévère,</l>
+                        <l n="1446"> Semble enfin respecter la tête de mon père.</l>
+                        <l n="1447"> Sous le couteau mortel la mienne va tomber,</l>
+                        <l n="1448"> Et sous l’arrêt fatal je dois seul succomber,</l>
+                        <l n="1449"> Madame ; trop heureux, si la mort que j’implore</l>
+                        <l n="1450"> Apaise le courroux de tout ce que j’adore !</l>
+                        <l n="1451"> Si je puis désarmer le ciel et vos beaux yeux,</l>
+                        <l n="1452"> Je vais, par un seul coup, contenter tous mes dieux.</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="1453"> Seigneur, il est donc vrai qu’une promesse affreuse</l>
+                        <l n="1454"> Vous livre aux dieux vengeurs ? Qu’ai-je fait, malheureuse !</l>
+                        <l n="1455"> J’ai révélé l’oracle, et ma funeste erreur</l>
+                        <l n="1456"> A d’un arrêt barbare appuyé la fureur.</l>
+                        <l n="1457"> Mais pouvais-je des dieux pénétrer le mystère,</l>
+                        <l n="1458"> Et croire vos vertus l’objet de leur colère ;</l>
+                        <l n="1459"> Me défier, enfin, qu’avec eux de concert</l>
+                        <l n="1460"> J’eusse pu me prêter à la main qui vous perd ?</l>
+                        <l n="1461"> Non, seigneur, non, jamais votre fière ennemie</l>
+                        <l n="1462"> N’aurait voulu poursuivre une si belle vie.</l>
+                        <l n="1463"> Moi, la poursuivre ! Hélas ! les dieux me sont témoins</l>
+                        <l n="1464"> Que mon cœur malheureux ne haït jamais moins.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1465"> Quel bonheur est le mien ! Près de perdre la vie,</l>
+                        <l n="1466"> Qu’il m’est doux de trouver Érixène attendrie !</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="1467"> Oui, malgré mon devoir, je ressens vos malheurs,</l>
+                        <l n="1468"> Et ne puis les causer sans y donner des pleurs :</l>
+                        <l n="1469"> Je ne puis, sans frémir, voir le coup qui s’apprête.</l>
+                        <l n="1470"> Je ne le verrai point tomber sur votre tête :</l>
+                        <l n="1471"> Je vais quitter des lieux si terribles pour moi.</l>
+                        <l n="1472"> Mais je n’y crains pour vous ni les dieux, ni le roi :</l>
+                        <l n="1473"> Non, je ne puis penser qu’avec tant d’innocence</l>
+                        <l n="1474"> On ne puisse du ciel suspendre la vengeance.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1475"> Ah ! plutôt, s’il se peut, demeurez en ces lieux,</l>
+                        <l n="1476"> Où je vais apaiser la colère des dieux.</l>
+                        <l n="1477"> Madame, s’il est vrai qu’Érixène sensible</l>
+                        <l n="1478"> Ait laissé désarmer son courroux inflexible,</l>
+                        <l n="1479"> Au nom d’un tendre amour, conservez pour le roi</l>
+                        <l n="1480"> Cette même pitié que vous marquez pour moi.</l>
+                        <l n="1481"> Le coup cruel qui va trancher ma destinée</l>
+                        <l n="1482"> Tombera moins sur moi que sur Idoménée :</l>
+                        <l n="1483"> Il n’a que trop souffert d’un devoir rigoureux ;</l>
+                        <l n="1484"> N’accablez plus, madame, un roi si malheureux...</l>
+                        <l n="1485"> Laissez-vous attendrir à ma juste prière ;</l>
+                        <l n="1486"> J’ose enfin implorer vos bontés pour mon père.</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="1487"> Ciel ! qu’est-ce que j’entends, et que me dites-vous ?</l>
+                        <l n="1488"> Je sens, à ce nom seul, rallumer mon courroux.</l>
+                        <l n="1489"> Lui, votre père ? Ô ciel ! après son vœu funeste,</l>
+                        <l n="1490"> Gardez de proposer des nœuds que je déteste.</l>
+                        <l n="1491"> Que jusque-là mon cœur portât l’égarement !</l>
+                        <l n="1492"> Qui ? lui !... le meurtrier d’un père, d’un amant !</l>
+                        <l n="1493"> Ma haine contre lui sera toujours la même :</l>
+                        <l n="1494"> Je l’abhorre... ou plutôt je sens que je vous aime...</l>
+                        <l n="1495"> Où s’égare mon cœur ?... De ce que je me dois</l>
+                        <l n="1496"> Quel oubli ! Mes remords ont étouffé ma voix...</l>
+                        <l n="1497"> Quand je crois rejeter des nœuds illégitimes,</l>
+                        <l n="1498"> Mon cœur, au même instant, respire d’autres crimes.</l>
+                        <l n="1499"> Qu’ai-je dit ? quel secret osé-je révéler ?</l>
+                        <l n="1500"> Me reste-t-il encor la force de parler ?</l>
+                        <l n="1501"> Ah, seigneur, puisqu’enfin je n’ai pu m’en défendre,</l>
+                        <l n="1502"> À d’éternels adieux vous devez vous attendre.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1503"> Que dites-vous ? ô ciel ! Ainsi donc votre cœur,</l>
+                        <l n="1504"> Garde, même en aimant, sa première rigueur !           </l>
+                        <l n="1505"> Calmez de ce transport l’injuste violence.</l>
+                        <l n="1506"> Votre amour est-il donc un reste de vengeance ?</l>
+                        <l n="1507"> Faut-il en voir, hélas ! tous mes maux redoubler ?</l>
+                        <l n="1508"> Ne le déclarez-vous que pour m’en accabler ?</l>
+                        <l n="1509"> Ah ! cruelle, du moins au moment qu’il éclate,</l>
+                        <l n="1510"> Cessez de m’envier le bonheur qui me flatte.</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="1511"> Si ce faible bonheur vous flatte, il vous séduit :</l>
+                        <l n="1512"> Seigneur, de cet aveu ma mort sera le fruit.</l>
+                        <l n="1513"> Si je cède au transport où mon amour me livre,</l>
+                        <l n="1514"> À ma gloire du moins je ne sais pas survivre.</l>
+                        <l n="1515"> Mon malheureux amour passe tous mes forfaits ;</l>
+                        <l n="1516"> Je ne survivrai pas à l’aveu que j’en fais.</l>
+                        <l n="1517"> Faut-il jusqu’à ce point que ma gloire s’oublie !</l>
+                        <l n="1518"> Ah ! seigneur ! cet aveu me coûtera la vie.</l>
+                        <l n="1519"> Que le destin épargne ou termine vos jours,</l>
+                        <l n="1520"> Oui, cet aveu des miens doit terminer le cours ;</l>
+                        <l n="1521"> Et, quel que soit le sort que vous devez attendre,</l>
+                        <l n="1522"> Je ne vous verrai plus, je n’en veux rien apprendre.</l>
+                        <l n="1523"> Adieu, seigneur, adieu : qu’à jamais votre cœur</l>
+                        <l n="1524"> Garde le souvenir d’une si tendre ardeur.</l>
+                        <l n="1525"> Pour moi, dès ce moment je vais fuir de la Crète ;</l>
+                        <l n="1526"> Heureuse si ma mort prévenait ma retraite !</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1527"> Eh quoi ! vous me fuyez ! Ah ! du moins, dans ces lieux,</l>
+                        <l n="1528"> Laissez-moi la douceur d’expirer à vos yeux :</l>
+                        <l n="1529"> Ne les détournez point dans ce moment funeste ;</l>
+                        <l n="1530"> Laissez-moi voir encor le seul bien qui me reste.</l>
+                        <l n="1531"> Demeurez... ou ma mort...</l>
+                </sp>
+        <sp who="#érixène">
+            <speaker> ÉRIXÈNE. </speaker>
+                        <l n="1532"> Ah ! de grâce, seigneur,</l>
+                        <l n="1533"> Par ce cruel discours n’accablez pas mon cœur.</l>
+                        <l n="1534"> Mon devoir, malgré moi, vous défend de me suivre ;</l>
+                        <l n="1535"> Mais l’amour, malgré lui, vous ordonne de vivre.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#idamante">
+            <speaker> IDAMANTE </speaker>
+                        <l n="1536"> Vous l’ordonnez en vain, je remplirai mon sort ;</l>
+                        <l n="1537"> Et votre seul départ suffisait pour ma mort.</l>
+                        <l n="1538"> Rien ne s’oppose plus au devoir qui m’entraîne :</l>
+                        <l n="1539"> Jusque-là, dieux puissants, suspendez votre haine.</l>
+                        <l n="1540"> Mais qu’est-ce que j’entends ?... je tremble, je frémis.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1541"> Vous m’arrêtez en vain, je veux revoir mon fils.</l>
+                        <l n="1542"> Portez ailleurs les soins d’une amitié cruelle ;</l>
+                        <l n="1543"> Respectez les transports de ma douleur mortelle.</l>
+                        <l n="1544"> Enfin je le revois... Je ne vous quitte pas :</l>
+                        <l n="1545"> Les dieux auront en vain juré votre trépas ;</l>
+                        <l n="1546"> Ils ordonnent en vain cet affreux sacrifice ;</l>
+                        <l n="1547"> Ma main de leur fureur ne sera point complice.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1548"> Ah ! seigneur, c’en est trop, n’irritez plus les dieux ;</l>
+                        <l n="1549"> N’attirez plus enfin la foudre dans ces lieux ;</l>
+                        <l n="1550"> Venez, sans murmurer, sacrifier ma vie.           </l>
+                        <l n="1551"> Vous ignorez les maux dont elle est poursuivie.</l>
+                        <l n="1552"> Ah ! si je vous suis cher, d’une tendre amitié</l>
+                        <l n="1553"> Je n’implore, seigneur, qu’un reste de pitié.</l>
+                        <l n="1554"> Terminez les malheurs d’un fils qui vous en presse ;</l>
+                        <l n="1555"> Accomplissez enfin une auguste promesse :</l>
+                        <l n="1556"> De vos retardements voyez quel est le fruit.</l>
+                        <l n="1557"> D’ailleurs, de votre vœu tout le peuple est instruit.</l>
+                        <l n="1558"> Chaque instant de ma vie est au ciel un outrage ;</l>
+                        <l n="1559"> Acquittez-en ce vœu, puisqu’elle en fut le gage.</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1560"> Inexorables dieux, par combien de détours</l>
+                        <l n="1561"> Avez-vous de mes soins su traverser le cours !</l>
+                        <l n="1562"> Que de votre courroux la fatale puissance</l>
+                        <l n="1563"> A bien su se jouer de ma vaine prudence !</l>
+                        <l n="1564"> Barbares ! quand je meurs qu’exigez-vous de moi ?</l>
+                        <l n="1565"> N’était-ce pas assez pour victime qu’un roi ?</l>
+                        <l n="1566"> Par un sang que versait un repentir sincère</l>
+                        <l n="1567"> Je courais aux autels prêt à vous satisfaire :</l>
+                        <l n="1568"> Hélas ! quand j’ai cru voir la fin de mes malheurs,</l>
+                        <l n="1569"> Vous avez craint de voir la fin de vos fureurs ;</l>
+                        <l n="1570"> Il eût fallu vous rendre au sang de la victime.</l>
+                        <l n="1571"> Gardez donc vos fureurs, et je reprends mon crime :</l>
+                        <l n="1572"> Je désavoue enfin d’inutiles remords.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1573"> Désavouez plutôt ces horribles transports ;</l>
+                        <l n="1574"> Voyez-en jusqu’ici l’audace infructueuse,</l>
+                        <l n="1575"> Et revenez aux soins d’une âme vertueuse.</l>
+                        <l n="1576"> De ces dieux, dont en vain vous bravez le courroux,</l>
+                        <l n="1577"> Examinez, seigneur, sur qui tombent les coups.</l>
+                        <l n="1578"> Faut-il, pour attendrir votre âme impitoyable,</l>
+                        <l n="1579"> Ramener sous vos yeux ce spectacle effroyable ?</l>
+                        <l n="1580"> Tout périt ; ce n’est plus qu’aux seuls gémissements</l>
+                        <l n="1581"> Qu’on peut ici des morts distinguer les vivants.</l>
+                        <l n="1582"> Dans la nuit du tombeau vos sujets vont descendre :</l>
+                        <l n="1583"> Un seul soupir encor semble les en défendre,</l>
+                        <l n="1584"> Seigneur ; et ces sujets, prêts à s’immoler tous,</l>
+                        <l n="1585"> Offrent aux dieux vengeurs ce seul soupir pour vous !</l>
+                        <l n="1586"> D’un peuple pour son roi si tendre, si fidèle,</l>
+                        <l n="1587"> Du sang de votre fils récompensez le zèle.</l>
+                        <l n="1588"> Ces peuples, que le ciel soumit à votre loi,</l>
+                        <l n="1589"> Ne sont-ils pas, seigneur, vos enfants avant moi ?</l>
+                        <l n="1590"> Terminez par ma mort l’excès de leur misère :</l>
+                        <l n="1591"> Dans ces tristes moments soyez plus roi que père :</l>
+                        <l n="1592"> Songez que le devoir de votre auguste rang</l>
+                        <l n="1593"> Ne permet pas toujours les tendresses du sang :</l>
+                        <l n="1594"> Versez enfin le mien, puisqu’il faut le répandre :</l>
+                        <l n="1595"> Par d’éternels forfaits voulez-vous le défendre ?</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1596"> Dût le ciel irrité nous rouvrir les enfers,</l>
+                        <l n="1597"> Dût la foudre à mes yeux embraser l’univers,</l>
+                        <l n="1598"> Dût tout ce qui respire, étouffé dans la flamme,</l>
+                        <l n="1599"> Servir de monument aux transports de mon âme,</l>
+                        <l n="1600"> Dussé-je enfin, de tout destructeur furieux,</l>
+                        <l n="1601"> Voir ma rage égaler l’injustice des dieux,</l>
+                        <l n="1602"> Je n’immolerai point une tête innocente.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1603"> Ah ! c’est donc trop longtemps épargner Idamante.</l>
+                        <l n="1604"> Après ce que je sais, après ce que je voi,</l>
+                        <l n="1605"> Qui fut jamais, seigneur, plus criminel que moi ?</l>
+                        <l n="1606"> Chaque moment qui suit votre vœu redoutable</l>
+                        <l n="1607"> Rejette mille horreurs sur ma tête coupable :</l>
+                        <l n="1608"> Complice du refus que l’on en fait aux dieux,</l>
+                        <l n="1609"> Tout mon sang désormais me devient odieux.</l>
+                        <l n="1610"> Disputez-vous au ciel le droit de le reprendre ?</l>
+                        <l n="1611"> M’enviez-vous, seigneur, l’honneur de vous le rendre ?</l>
+                        <l n="1612"> Ah ! d’un vœu qui vous rend aux vœux de votre fils,</l>
+                        <l n="1613"> Trop heureux que ce sang puisse faire le prix !</l>
+                        <l n="1614"> Sans ce vœu, triste objet de ma douleur profonde,</l>
+                        <l n="1615"> Je ne vous revoyais que le jouet de l’onde.</l>
+                        <l n="1616"> Le ciel, plus doux, enfin vous rend à mes souhaits :</l>
+                        <l n="1617"> Puis-je assez lui payer le plus grand des bienfaits ?</l>
+                        <l n="1618"> Venez-en aux autels consacrer les prémices :</l>
+                        <l n="1619"> Signalons de grands cœurs par de grands sacrifices ;</l>
+                        <l n="1620"> Et montrez-vous aux dieux plus grand que leur courroux,</l>
+                        <l n="1621"> Par un présent, seigneur, digne d’eux et de vous.</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1622"> Pour ne t’immoler pas quand je me sacrifie,</l>
+                        <l n="1623"> Oses-tu me prier d’attenter à ta vie ?</l>
+                        <l n="1624"> Fils ingrat, fils cruel, à périr obstiné,</l>
+                        <l n="1625"> Viens toi-même immoler ton père infortuné.</l>
+                        <l n="1626"> N’attends pas que, touché d’une indigne prière,</l>
+                        <l n="1627"> J’arme contre tes jours une main meurtrière ;</l>
+                        <l n="1628"> Je saurai malgré toi t’en sauver désormais ;</l>
+                        <l n="1629"> Et de ces tristes lieux je vais fuir pour jamais.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1630"> Que dites-vous, seigneur ? et quel dessein barbare...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1631"> N’accusez que vous seul du coup qui nous sépare.</l>
+                        <l n="1632"> Mes peuples, par vous-même instruits de votre sort,</l>
+                        <l n="1633"> Ne laissent à mon choix que la fuite ou la mort.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1634"> Si l’intérêt d’un fils peut vous toucher encore,</l>
+                        <l n="1635"> Accordez à mes pleurs la grâce que j’implore.</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1636"> Vous tentez sur mon cœur des efforts superflus.</l>
+                        <l n="1637"> Adieu, mon fils... mes yeux ne vous reverront plus.</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE, à genoux. </speaker>
+                        <l n="1638"> Ah ! seigneur, permettez qu’à vos désirs contraire</l>
+                        <l n="1639"> J’ose encore opposer les efforts...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1640"> Téméraire !</l>
+                        <l n="1641"> Arrêtez, ou craignez que mon juste courroux...           </l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1642"> Puisque par ma douleur je ne puis rien sur vous,</l>
+                        <l n="1643"> Soyez donc le témoin du transport qui m’anime.</l>
+            <stage><em>Il se tue.</em></stage>
+                        <l n="1644"> Dieux, recevez mon sang ; voilà votre victime...</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1645"> Inhumain !... juste ciel !... Ah ! père malheureux !</l>
+                        <l n="1646"> Qu’ai-je vu ?</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1647"> C’est le sang d’un prince généreux :</l>
+                        <l n="1648"> Le ciel, pour s’apaiser, n’en demandait point d’autre.</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1649"> Qu’avez-vous fait, mon fils ?</l>
+                </sp>
+        <sp who="#idamante">
+            <speaker> IDAMANTE. </speaker>
+                        <l n="1650"> Mon devoir et le vôtre.</l>
+                        <l n="1651"> Telle en était, seigneur, l’irrévocable loi ;</l>
+                        <l n="1652"> Il fallait le remplir, ou par vous, ou par moi.</l>
+                        <l n="1653"> Les dieux voulaient mon sang ; ma main obéissante</l>
+                        <l n="1654"> N’a pas dû plus longtemps épargner Idamante.</l>
+                        <l n="1655"> De son sang répandu voyez quel est le fruit ;</l>
+                        <l n="1656"> Le ciel est apaisé, l’astre du jour vous luit :</l>
+                        <l n="1657"> Trop heureux de pouvoir, dans mon malheur extrême,</l>
+                        <l n="1658"> Goûter, avant ma mort, les fruits de ma mort même !</l>
+                </sp>
+        <sp who="#idoménée">
+            <speaker> IDOMÉNÉE. </speaker>
+                        <l n="1659"> Hélas ! du coup affreux qui termine ton sort</l>
+                        <l n="1660"> N’attends point d’autre fruit que celui de ma mort.</l>
+                        <l n="1661"> Dieux cruels ! fallait-il qu’une injuste vengeance,</l>
+                        <l n="1662"> Pour me punir d’un crime, opprimât l’innocence ?</l>
+                        <l n="1663"> [1] Louis de Bourbon, mort en 1710, dans sa quarante-deuxième année. Ce prince était le petit-fils du grand Condé.</l>
+            <stage><a href="#_ftnref2" name="_ftn2" title="" id="_ftn2">[2]</a> Les premières éditions portent <em>ne l’eut</em>. Les éditeurs modernes, voulant sans doute corriger Crébillon, ont refait ce vers de la manière suivante :</stage>
+            <stage>Si <em>tu ne me l’eusses</em> permis.</stage>
+                        <l n="1664"> [3] La bataille de Steinkerque se donna en 1692, et celle de Nerwinde l’année suivante.</l>
+                        <l n="1665"> </l>
+                        <l n="1666"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

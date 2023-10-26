@@ -1,0 +1,2867 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Théodat</title>
+                <title type="sub">Tragédie</title>
+            <author>
+                <persName>
+                    <forename>Thomas</forename>
+                    <surname>Corneille</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/théodat-thomas-corneille </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1672-11-18">Représentée pour la première fois, à Paris, sur le Théâtre de l’Hôtel de Bourgogne, le 18 novembre 1672.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="amalasonte" sex="SEX">
+                            <persName>AMALASONTE</persName>
+                        </person>
+                        <person xml:id="théodat" sex="SEX">
+                            <persName>THÉODAT</persName>
+                        </person>
+                        <person xml:id="ildegonde" sex="SEX">
+                            <persName>ILDEGONDE</persName>
+                        </person>
+                        <person xml:id="honoric" sex="SEX">
+                            <persName>HONORIC</persName>
+                        </person>
+                        <person xml:id="ataulphe" sex="SEX">
+                            <persName>ATAULPHE</persName>
+                        </person>
+                        <person xml:id="gepilde" sex="SEX">
+                            <persName>GEPILDE</persName>
+                        </person>
+                        <person xml:id="valmire" sex="SEX">
+                            <persName>VALMIRE</persName>
+                        </person>
+                        <person xml:id="euthar" sex="SEX">
+                            <persName>EUTHAR</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Tragédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q80930]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">THÉODAT</titlePart>
+            <titlePart type="sub">TRAGÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre de l’Hôtel de Bourgogne, le 18 novembre 1672.</ab><!--@date="1672-11-18"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> AU LECTEUR</salute>
+            </opener>
+        <p> Théodat fut associé à l’Empire des Goths par Amalasonte, et traita cette malheureuse Princesse avec tant d’indignité, qu’un peu après qu’elle l’eut élevé au trône, il eut la bassesse de l’exiler. Quelques-uns ajoutent qu’il donna ordre qu’on l’emprisonnât dans une île où il l’avait reléguée. Ce caractère d’ingratitude m’a paru avoir quelque chose de trop odieux pour pouvoir être souffert au théâtre. Ainsi j’ai tâché de conserver ce qui regarde la disgrâce d’Amalasonte, sans en rendre Théodat coupable, et je me suis conformé pour le genre de sa mort, à ce qu’en écrit Blondus. Il nous apprend dans le troisième Livre de la première Décade, que Théodat consentit que les enfants de quelques seigneurs Goths, à qui cette reine avait fait couper la tête, vengeassent le sang de leurs pères en la faisant périr elle-même dans le lieu de son exil. Je ne sais si en la peignant vindicative dans tout cet ouvrage, j’ai affaibli les grandes qualités que les historiens lui donnent, mais il semble assez naturel qu’une reine à qui une illustre naissance a dû donner beaucoup de fierté, ne se puisse voir méprisée d’un sujet qui abuse de la connaissance qu’elle lui a donnée de son amour, sans s’en faire outrage d’autant plus sensible, qu’après l’avoir fait arrêter inutilement, elle connaît qu’elle ne saurait plus espérer d’autorité qu’autant qu’il lui en voudra souffrir. Ce sont des crimes que les maximes d’État ne permettent point de pardonner, et peut-être Amalasonte eut-elle été condamnable, si ne se voyant plus reine que de nom, elle eut fait scrupule de chercher sa sûreté par la perte de celui qui était la seule cause de son infortune. </p>
+    </div>
+           <div type="act" xml:id="1">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#euthar">
+            <speaker> EUTHAR. </speaker>
+                        <l n="1"> Du trouble où je vous vois, Seigneur, que puis-je croire ?</l>
+                        <l n="2"> Il n’est rien dont l’éclat ne cède à votre gloire ;</l>
+                        <l n="3"> Votre sort est égal au sort des plus grands Rois,</l>
+                        <l n="4"> Tout l’Empire des Goths aime à suivre vos lois,</l>
+                        <l n="5"> Et quoiqu’Amalasonte ait le titre de Reine,</l>
+                        <l n="6"> Pour vous sa confiance est si forte et si pleine,</l>
+                        <l n="7"> Que vous laissant agir, pour tous droits réservés,</l>
+                        <l n="8"> C’est son nom qui paraît lorsque vous résolvez.</l>
+                        <l n="9"> Il semble cependant que votre âme inquiète</l>
+                        <l n="10"> De tout ce grand pouvoir ne soit pas satisfaite,</l>
+                        <l n="11"> Que la Fortune avare ait trop peu fait pour vous ?</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="12"> Elle répand sur moi ce qu’elle a de plus doux,</l>
+                        <l n="13"> Je m’en plaindrais à tort ; quelque faveur nouvelle</l>
+                        <l n="14"> Affermit chaque jour ce que j’ai reçu d’elle ;</l>
+                        <l n="15"> Mon destin tu le vois, n’a rien que d’éclatant,</l>
+                        <l n="16"> Mais pour se croire heureux, il faut être content.</l>
+                        <l n="17"> Non que je ne le sois du côté de la gloire,</l>
+                        <l n="18"> J’ai toujours sur mes pas vu marcher la Victoire ;</l>
+                        <l n="19"> Et si l’ambition pouvait m’inquiéter,</l>
+                        <l n="20"> J’obtiens plus que jamais je n’osai souhaiter.</l>
+                        <l n="21"> Depuis que j’ai donné tous mes soins à la Reine,</l>
+                        <l n="22"> C’est peu de partager la Grandeur Souveraine ;</l>
+                        <l n="23"> Sa bonté va si loin, qu’elle me laisse voir</l>
+                        <l n="24"> Que je puis écouter un téméraire espoir,</l>
+                        <l n="25"> Et que pour voir bientôt ma tête couronnée,</l>
+                        <l n="26"> Je n’ai qu’à m’enhardir, et parler d’hyménée.</l>
+                        <l n="27"> Vois par là si mon sort doit faire des Jaloux.</l>
+                </sp>
+        <sp who="#euthar">
+            <speaker> EUTHAR. </speaker>
+                        <l n="28"> La Reine vous estime, et fera tout pour vous ;</l>
+                        <l n="29"> Son cœur à votre amour ne chercher qu’à se rendre.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="30"> Je n’en saurais douter, si je la veux entendre.</l>
+                        <l n="31"> Elle n’en dit que trop ; mais plus que ses discours,</l>
+                        <l n="32"> C’est de quoi ses regards m’instruisent tous les jours.</l>
+                        <l n="33"> Tant d’ardeur y paraît, que souvent je me blâme</l>
+                        <l n="34"> De n’aller pas assez au devant de sa flamme,</l>
+                        <l n="35"> Et de chercher toujours à me faire un secret</l>
+                        <l n="36"> D’un amour que je vois qu’elle étouffe à regret.</l>
+                </sp>
+        <sp who="#euthar">
+            <speaker> EUTHAR. </speaker>
+                        <l n="37"> Je ne conçois pas bien quel scrupule vous gêne,</l>
+                        <l n="38"> Quand vous n’osez répondre aux faveurs de la Reine.</l>
+                        <l n="39"> Si parmi ses sujets elle prend un Époux,</l>
+                        <l n="40"> Son choix peut-il, Seigneur, mieux tomber que sur vous ?</l>
+                        <l n="41"> De mille exploits fameux le superbe avantage</l>
+                        <l n="42"> Du peuple et des soldats vous attire l’hommage.</l>
+                        <l n="43"> Déjà de Roi partout vous avez le pouvoir,</l>
+                        <l n="44"> Ce grand nom vient s’offrir, il faut le recevoir.</l>
+                        <l n="45"> Il est doux, il est beau de porter la Couronne,</l>
+                        <l n="46"> La refuserez-vous, quand l’Amour vous la donne ?</l>
+                        <l n="47"> Vouloir que cet amour s’explique jusqu’au bout,</l>
+                        <l n="48"> C’est outrager la Reine à qui vous devez tout.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="49"> La Reine a des bontés dont je ne suis point digne.</l>
+                        <l n="50"> Pour elle quelquefois ma gloire s’en indigne,</l>
+                        <l n="51"> Je m’en hais ; mais enfin je pourrai tant sur moi,</l>
+                        <l n="52"> Que je mériterai les biens que j’en reçois ;</l>
+                        <l n="53"> Un peu d’effort me rend la victoire certaine.</l>
+                </sp>
+        <sp who="#euthar">
+            <speaker> EUTHAR. </speaker>
+                        <l n="54"> C’est à vous d’y penser, vous connaissez la Reine.</l>
+                        <l n="55"> Sur le plus faible outrage elle croit que son rang        </l>
+                        <l n="56"> L’autorise à venger sa gloire par le sang ;</l>
+                        <l n="57"> Et lorsque votre espoir sur ses bontés se fonde,</l>
+                        <l n="58"> Je craindrais...</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="59"> Honoric voit souvent Ildegonde.</l>
+                        <l n="60"> Crois-tu qu’il réussisse, et qu’il en soit aimé ?</l>
+                </sp>
+        <sp who="#euthar">
+            <speaker> EUTHAR. </speaker>
+                        <l n="61"> J’ignore entre eux, Seigneur, quel amour s’est formé ;</l>
+                        <l n="62"> Il lui rend quelques soins ; mais quoiqu’il en puisse être,</l>
+                        <l n="63"> Si son feu vous déplaît, vous en êtes le maître.</l>
+                        <l n="64"> Par l’hymen de la Reine il vous aura pour Roi,</l>
+                        <l n="65"> Et la Princesse en vain...</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="66"> Moi ? la contraindre, moi ?</l>
+                        <l n="67"> Non, Euthar, elle peut, sans que j’y mette obstacle,</l>
+                        <l n="68"> Ordonner de son cœur, le temps fait ce miracle.</l>
+                        <l n="69"> Autrefois, je l’avoue, il m’eût été fâcheux</l>
+                        <l n="70"> Qu’un rival eut ainsi triomphé de mes feux,</l>
+                        <l n="71"> J’aurais péri plutôt que d’en souffrir l’injure ;</l>
+                        <l n="72"> Mais enfin aujourd’hui je le vois sans murmure,        </l>
+                        <l n="73"> Et ce qui de ma foi va devenir le prix,</l>
+                        <l n="74"> Me doit trop consoler de ses honteux mépris.</l>
+                        <l n="75"> S’il t’en souvient, Euthar, qu’ils ont eu d’injustice !</l>
+                </sp>
+        <sp who="#euthar">
+            <speaker> EUTHAR. </speaker>
+                        <l n="76"> Ildegonde sans doute a trop crû son caprice ;</l>
+                        <l n="77"> Et ce tendre respect qui soutenait vos vœux,</l>
+                        <l n="78"> Méritait auprès d’elle un succès plus heureux.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="79"> Encor si dans le temps que mon âme charmée</l>
+                        <l n="80"> Lui marquait tant d’amour, Honoric l’eut aimée,</l>
+                        <l n="81"> J’aurais de ses refus imputé la rigueur</l>
+                        <l n="82"> Au pouvoir que sa flamme aurait eu sur son cœur ;</l>
+                        <l n="83"> Et si dans mes malheurs je me fusse plaint d’elle,</l>
+                        <l n="84"> C’eut été seulement de la voir trop fidèle.</l>
+                        <l n="85"> Mais, Euthar, n’aimer rien, et par haine pour moi</l>
+                        <l n="86"> Se faire une vertu de dédaigner ma foi !</l>
+                        <l n="87"> C’est, quand je l’examine, un si cruel outrage...          </l>
+                </sp>
+        <sp who="#euthar">
+            <speaker> EUTHAR. </speaker>
+                        <l n="88"> L’espérance du Trône est un grand avantage.</l>
+                        <l n="89"> Régnez, dans ce haut rang il vous sera bien doux</l>
+                        <l n="90"> De punir les mépris qu’Ildegonde eut pour vous.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="91"> Oui, sans me souvenir de l’avoir adorée,</l>
+                        <l n="92"> Quand la Reine avec moi se sera déclarée,      </l>
+                        <l n="93"> J’irai pour la braver, d’un air impérieux,</l>
+                        <l n="94"> Étaler aussitôt cette gloire à ses yeux.</l>
+                        <l n="95"> Je serai le premier à lui faire connaître</l>
+                        <l n="96"> Que qui fut son esclave est devenu son maître ;</l>
+                        <l n="97"> Et plus elle me hait, plus mon heureux destin</l>
+                        <l n="98"> Mêlera d’amertume à son jaloux chagrin.</l>
+                        <l n="99"> Cent reproches sanglants pour confondre l’ingrate...</l>
+                        <l n="100"> Quel triomphe !</l>
+                </sp>
+        <sp who="#euthar">
+            <speaker> EUTHAR. </speaker>
+                        <l n="101"> L’image en est douce, et vous flatte ;</l>
+                        <l n="102"> Mais quelque fier courroux qu’on pense mettre au jour,</l>
+                        <l n="103"> Les reproches souvent sont des restes d’amour.         </l>
+                        <l n="104"> Qui se plaint, s’adoucit, et voudrait des excuses.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="105"> Je l’aimerais encor ! Non, Euthar, tu t’abuses.</l>
+                        <l n="106"> Je ne le cèle point ; avant que sa fierté</l>
+                        <l n="107"> M’eût fait de l’inconstance une nécessité,</l>
+                        <l n="108"> Tout l’amour que jamais un cœur tendre et fidèle      </l>
+                        <l n="109"> Prit pour un bel objet, je l’avais pris pour elle.</l>
+                        <l n="110"> J’avais beau de ses yeux sentir trop le pouvoir,</l>
+                        <l n="111"> Point de plaisir pour moi, que celui de la voir.</l>
+                        <l n="112"> La gloire de ses fers me semblait sans seconde ;</l>
+                        <l n="113"> Et si l’on m’eut offert tous les trônes du monde,         </l>
+                        <l n="114"> Pour obtenir de moi de ne l’adorer pas,</l>
+                        <l n="115"> Tous les trônes du monde auraient manqué d’appas.</l>
+                        <l n="116"> Je te dirai bien plus, admire ma faiblesse.</l>
+                        <l n="117"> Quand m’attachant à fuir cette fière princesse,</l>
+                        <l n="118"> Mon respect pour la Reine étala tant d’ardeur,</l>
+                        <l n="119"> Le désir de régner ne toucha point mon cœur.</l>
+                        <l n="120"> Je voulais seulement qu’un peu de jalousie</l>
+                        <l n="121"> Tint d’un dépit secret Ildegonde saisie,</l>
+                        <l n="122"> Et que la peur d’un choix que ma flamme craignait,</l>
+                        <l n="123"> Lui fit voir un peu mieux ce qu’elle dédaignait.         </l>
+                        <l n="124"> Quel fruit ai-je tiré de ce triste artifice ?</l>
+                        <l n="125"> L’Ingrate a joint pour moi l’outrage à l’injustice,</l>
+                        <l n="126"> Et loin de s’offenser que j’aie éteint mes feux,</l>
+                        <l n="127"> Honoric parle, s’offre, elle accepte ses vœux.</l>
+                </sp>
+        <sp who="#euthar">
+            <speaker> EUTHAR. </speaker>
+                        <l n="128"> C’est ce qui doit, Seigneur, après son arrogance         </l>
+                        <l n="129"> Vous obliger pour elle à plus d’indifférence.</l>
+                        <l n="130"> Honoric, Trasimond, tout choix vous est égal.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="131"> Mais, Euthar, c’est toujours me donner un Rival.</l>
+                        <l n="132"> Au moins si ce mépris qui me fut si sensible</l>
+                        <l n="133"> Laissait à d’autres feux son cœur inaccessible,</l>
+                        <l n="134"> Pour m’en cacher l’affront, je pourrais présumer</l>
+                        <l n="135"> Que le Ciel l’aurait fait incapable d’aimer.</l>
+                        <l n="136"> Mais Honoric...</l>
+                </sp>
+        <sp who="#euthar">
+            <speaker> EUTHAR. </speaker>
+                        <l n="137"> Seigneur, je croirai pour vous plaire.</l>
+                        <l n="138"> Que vous conserverez toute votre colère ;</l>
+                        <l n="139"> Mais tant de mouvements l’un à l’autre opposés,      </l>
+                        <l n="140"> Ne marquent pas encor que vos fers soient brisés.</l>
+                        <l n="141"> Dans ce trouble d’une âme inquiète, incertaine,</l>
+                        <l n="142"> Comment vous assurer de l’amour de la Reine ?</l>
+                        <l n="143"> Vous pourrez-vous contraindre à mériter son choix ?</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="144"> Il faut te l’avouer, j’en tremble quelquefois ;</l>
+                        <l n="145"> Et s’il fallait sitôt disposer de moi-même,</l>
+                        <l n="146"> Je pourrais à ce prix haïr le Diadème.</l>
+                        <l n="147"> C’est par là que je feins de n’oser m’appliquer</l>
+                        <l n="148"> Ce que la Reine cherche à me faire expliquer.</l>
+                        <l n="149"> Ma raison sur mes sens reprendra son empire,</l>
+                        <l n="150"> Et le temps qui peut tout...</l>
+                </sp>
+        <sp who="#euthar">
+            <speaker> EUTHAR. </speaker>
+                        <l n="151"> Seigneur, je me retire.</l>
+                        <l n="152"> Quoique peut-être ici je fusse peu suspect,</l>
+                        <l n="153"> La Reine qui paraît m’oblige à ce respect.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="154"> Enfin Justinian n’a pu voir sans alarmes</l>
+                        <l n="155"> L’effroi qu’ont pris les siens du succès de nos armes ;</l>
+                        <l n="156"> Et puisqu’il fait retraite après tant de combats,</l>
+                        <l n="157"> Ce superbe Empereur redoute votre bras.</l>
+                        <l n="158"> Bélisaire, dit-on, éloigné de nos terres,</l>
+                        <l n="159"> Par son ordre a déjà commencé d’autres guerres,</l>
+                        <l n="160"> Et nos Peuples charmés de l’espoir de la Paix,</l>
+                        <l n="161"> Font pour votre bonheur les plus ardents souhaits.</l>
+                        <l n="162"> Leur amour va pour vous jusqu’à l’idolâtrie,</l>
+                        <l n="163"> Ils vous nomment tout haut le Dieu de la Patrie ;</l>
+                        <l n="164"> Mais quand chacun vous doit son repos le plus doux,</l>
+                        <l n="165"> Savez-vous, Théodat, que je me plains de vous ?       </l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="166"> De moi, Madame ? En quoi, pour vous être fidèle,</l>
+                        <l n="167"> Aurais-je pu manquer et d’ardeur et de zèle ?</l>
+                        <l n="168"> Pour soutenir par tout l’honneur de votre rang,</l>
+                        <l n="169"> S’il a fallu combattre, ai-je épargné mon sang ?</l>
+                        <l n="170"> M’a-t-on vu reculer, ou d’une âme contrainte</l>
+                        <l n="171"> Chercher dans le péril...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="172"> Ce n’est pas là ma plainte.</l>
+                        <l n="173"> Votre sang m’est d’un prix à qui tout doit céder,</l>
+                        <l n="174"> Et c’est me servir mal, que de le hasarder.</l>
+                        <l n="175"> Mais quand l’empressement de ma reconnaissance</l>
+                        <l n="176"> N’a mis de vous à moi qu’un degré de distance,        </l>
+                        <l n="177"> Que d’honneurs en honneurs je vous ai fait monter</l>
+                        <l n="178"> Presque au rang le plus haut qui pouvait vous flatter,</l>
+                        <l n="179"> Comme l’ingratitude est un défaut extrême,</l>
+                        <l n="180"> Êtes-vous envers moi satisfaits de vous-même,</l>
+                        <l n="181"> Et vous croyez vous être assez bien acquitté</l>
+                        <l n="182"> De tout ce que de vous mes soins ont mérité ?</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="183"> Par quel aveuglement pourrais-je le prétendre ?</l>
+                        <l n="184"> Quoique jamais pour vous ma foi puisse entreprendre,</l>
+                        <l n="185"> Vos bienfaits sur ma vie ont jeté tant d’éclat,</l>
+                        <l n="186"> Qu’il faudra malgré moi que je demeure ingrat.        </l>
+                        <l n="187"> J’en rougis en secret, et le vois avec peine ;</l>
+                        <l n="188"> Mais, Madame, que peut un Sujet pour sa Reine ?</l>
+                        <l n="189"> Il doit tout ce qu’il fait, et par là ne fait rien.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="190"> Qui cherche à s’acquitter, en trouve le moyen ;</l>
+                        <l n="191"> Et quoique les Sujets des Souverains reçoivent,         </l>
+                        <l n="192"> Il ne faut que le cœur pour payer ce qu’ils doivent.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="193"> Ah, si le cœur suffit, dans ce que je vous dois,</l>
+                        <l n="194"> Vous n’avez pas sujet de vous plaindre de moi,</l>
+                        <l n="195"> Avec toute l’ardeur dont le mien est capable,</l>
+                        <l n="196"> Je sers et veux servir une Reine adorable.        </l>
+                        <l n="197"> Pour prix du sort pompeux que vos bontés m’ont fait,</l>
+                        <l n="198"> Qu’attendiez-vous de plus qu’un zèle si parfait ?</l>
+                        <l n="199"> Qu’un zèle à qui pour vous rien ne saurait suffire ?</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="200"> Je suis fière, gardez de me le faire dire.</l>
+                        <l n="201"> Si j’avais expliqué ce qui m’a fait agir,</l>
+                        <l n="202"> Vous vous repentiriez de m’avoir fait rougir.</l>
+                        <l n="203"> J’en fais gloire, on le sait, je hais les injustices.</l>
+                        <l n="204"> Ainsi vos grands exploits, vos importants services,</l>
+                        <l n="205"> Sur ce qui vous est dû m’ont trop ouvert les yeux,</l>
+                        <l n="206"> Pour ne vous faire pas un destin glorieux.       </l>
+                        <l n="207"> Mais lorsque mes faveurs justement attendues</l>
+                        <l n="208"> Avec profusion sur vous sont répandues,</l>
+                        <l n="209"> Théodat, pense-t-il qu’au rang où je le mets,</l>
+                        <l n="210"> Sur son mérite seul je règle mes bienfaits ?</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="211"> Moi, Madame, j’aurais un orgueil si coupable ?         </l>
+                        <l n="212"> Jugez mieux de mon cœur, il n’en est point capable.</l>
+                        <l n="213"> Tous ces biens, ces honneurs l’un à l’autre ajoutés,</l>
+                        <l n="214"> Je sais que je les dois à vos seules bontés.</l>
+                        <l n="215"> D’un si brillant destin m’accordant l’avantage,</l>
+                        <l n="216"> Vous avez voulu faire admirer votre Ouvrage,</l>
+                        <l n="217"> Et par l’éclat du rang que Théodat obtient,</l>
+                        <l n="218"> Apprendre à révérer la main qui le soutient.</l>
+                        <l n="219"> C’est tout ce que j’en dois, tout ce que j’en veux croire.</l>
+                        <l n="220"> Quelle autre cause eut pu m’attirer tant de gloire,</l>
+                        <l n="221"> Vous faire à mes conseils confier vos États ?</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="222"> Puisque vous l’ignorez, elle ne vous plaît pas.</l>
+                        <l n="223"> Tout autre pénétrant le chagrin qui m’emporte,</l>
+                        <l n="224"> Aurait déjà connu... J’en dis trop mais n’importe,</l>
+                        <l n="225"> Ma raison malgré moi commence à se troubler ;</l>
+                        <l n="226"> Si ma gloire s’en plaint, c’est à vous de trembler.</l>
+                        <l n="227"> Je vous l’ai déjà dit, vous avez dû prétendre</l>
+                        <l n="228"> Tout l’éclat que sur vous j’ai tâché de répandre ;</l>
+                        <l n="229"> Mais quoique bien souvent il soit de l’équité</l>
+                        <l n="230"> D’aller jusqu’à l’excès pour qui l’a mérité,</l>
+                        <l n="231"> Il est des mouvements où le cœur se dispense</l>
+                        <l n="232"> Plus obligeants, plus doux que la reconnaissance,</l>
+                        <l n="233"> Des mouvements dont rien ne borne le pouvoir,</l>
+                        <l n="234"> Qui donnent sans réserve, et je les puis avoir.</l>
+                        <l n="235"> Ce sont eux que tout autre...</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="236"> Ah, j’en connais, Madame,</l>
+                        <l n="237"> Que je voudrais oser découvrir dans votre âme ;       </l>
+                        <l n="238"> Mais prêt à les chercher, je m’arrête, et je crains,</l>
+                        <l n="239"> Mon respect qui s’étonne...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="240"> Et c’est dont je me plains.</l>
+                        <l n="241"> Oui, je prends pour affront ce respect trop timide,</l>
+                        <l n="242"> Qui balance à vous faire une gloire solide,</l>
+                        <l n="243"> Et n’ose à mes bontés prêter assez de foi           ,</l>
+                        <l n="244"> Pour voir que je vous ai rendu digne de moi.</l>
+                        <l n="245"> Ah, ne me dites point qu’il craint de me déplaire,</l>
+                        <l n="246"> S’il cherche les motifs de ce qu’il m’a plu faire.</l>
+                        <l n="247"> Non, non, quiconque aspire au bonheur d’être aimé,</l>
+                        <l n="248"> Quelque soit son respect n’en est point alarmé.</l>
+                        <l n="249"> Il le ménage, en croit l’intérêt de sa flamme ;</l>
+                        <l n="250"> Mais la fière Ildegonde a trop touché votre âme,</l>
+                        <l n="251"> Le temps pour vous guérir est un faible secours,</l>
+                        <l n="252"> Et malgré ses mépris, vous l’adorez toujours.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="253"> Ah, ne le pensez point. D’abord, je le confesse,</l>
+                        <l n="254"> Je sentis quelque peine à vaincre ma faiblesse.</l>
+                        <l n="255"> À ses indignes fers mon cœur accoutumé</l>
+                        <l n="256"> N’oubliait qu’à regret ce qui l’avait charmé ;</l>
+                        <l n="257"> Mais j’ai de cette honte enfin sauvé ma gloire,</l>
+                        <l n="258"> Et son nom est si bien sorti de ma mémoire,</l>
+                        <l n="259"> Que depuis que j’ai fait serment de l’en bannir,</l>
+                        <l n="260"> Honoric seul aimé m’en a fait souvenir.</l>
+                        <l n="261"> Non que je porte envie au bonheur qu’il espère,</l>
+                        <l n="262"> Mais il est outrageant qu’elle me le préfère,</l>
+                        <l n="263"> Et montre par ce choix qu’elle fait vanité          </l>
+                        <l n="264"> De m’avoir jugé seul digne de sa fierté.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="265"> L’éclat en fut injuste, et je l’en ai blâmée ;</l>
+                        <l n="266"> Mais puisque cet amour vous tient l’âme alarmée,</l>
+                        <l n="267"> Pour venger votre gloire, allez, je vous promets</l>
+                        <l n="268"> Qu’Honoric, quoiqu’aimé, ne l’obtiendra jamais.       </l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="269"> Non, Madame, il ne faut repousser cette offense</l>
+                        <l n="270"> Que par le froid mépris qui suit l’indifférence.</l>
+                        <l n="271"> L’obstacle qu’à son feu vous auriez apporté,</l>
+                        <l n="272"> S’imputant à ma haine, enflerait sa fierté.</l>
+                        <l n="273"> Consentez-y de grâce, et dès aujourd’hui même        </l>
+                        <l n="274"> Résolvant son hymen, donnez-lui ce qu’elle aime.</l>
+                        <l n="275"> Confus d’un sentiment écouté malgré moi,</l>
+                        <l n="276"> Par ce prompt désaveu j’en veux purger ma foi,</l>
+                        <l n="277"> Et jurer mille fois à mon auguste Reine,</l>
+                        <l n="278"> Qu’adorant ses bontés, je m’en sens l’âme pleine,      </l>
+                        <l n="279"> Que pour les mériter il n’est ni vœux ni soins...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="280"> Le cœur contre soi-même a de secrets témoins,</l>
+                        <l n="281"> Vous les consulterez, et me ferez connaître</l>
+                        <l n="282"> De quels devoirs pour moi vous pourrez être maître.</l>
+                        <l n="283"> Un hommage contraint n’est point ce que je veux ;</l>
+                        <l n="284"> Mais quelque liberté que je laisse à vos vœux,</l>
+                        <l n="285"> Songez que dans le rang où le Ciel m’a placée,</l>
+                        <l n="286"> M’expliquant avec vous, je me suis abaissée ;</l>
+                        <l n="287"> Et qu’il est dangereux, quand j’ai fait ce faux pas,</l>
+                        <l n="288"> D’embarrasser ma gloire, et n’en profiter pas.</l>
+                        <l n="289"> Laissez-moi seule.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#gepilde">
+            <speaker> GEPILDE. </speaker>
+                        <l n="290"> Enfin vous le voyez, Madame.</l>
+                        <l n="291"> Mieux que vous ne pensiez j’avais lu dans son âme,</l>
+                        <l n="292"> Et vous avais bien dit que ses vœux les plus doux</l>
+                        <l n="293"> N’aspiraient qu’à pouvoir se déclarer pour vous.</l>
+                        <l n="294"> Que de charmes pour lui dans ce surcroît de gloire !</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="295"> Il m’aime ! Ah, comme toi que ne le puis-je croire !</l>
+                        <l n="296"> La peur d’être exposée aux plus mortels ennuis,</l>
+                        <l n="297"> Ne me jetterait pas dans le trouble où je suis.</l>
+                </sp>
+        <sp who="#gepilde">
+            <speaker> GEPILDE. </speaker>
+                        <l n="298"> Un pur zèle pour vous est tout ce qu’il écoute,</l>
+                        <l n="299"> Et vous voulez douter que son cœur...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="300"> Oui, j’en doute.</l>
+                        <l n="301"> En vain ma passion cherche à me décevoir,</l>
+                        <l n="302"> Gepilde, j’ai plus vu que je ne voulais voir.</l>
+                        <l n="303"> Je sais que Théodat accepte ma Couronne,</l>
+                        <l n="304"> Mais ce n’est point son cœur qui s’offre, qui se donne,</l>
+                        <l n="305"> C’est moi qui le mendie, et dont l’abaissement</l>
+                        <l n="306"> Peut-être malgré lui me l’acquiert pour Amant.</l>
+                </sp>
+        <sp who="#gepilde">
+            <speaker> GEPILDE. </speaker>
+                        <l n="307"> Blâmez-en votre rang, dont l’orgueil tyrannique</l>
+                        <l n="308"> Empêche qu’en aimant un Sujet ne s’explique,</l>
+                        <l n="309"> Et qui par son éclat lui rendant tout suspect,</l>
+                        <l n="310"> Dés qu’il cherche à parler, l’immole à son respect.     </l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="311"> Ah, le respect n’est point un tyran si sévère ;</l>
+                        <l n="312"> Ou si l’on en reçoit quelque ordre de se taire,</l>
+                        <l n="313"> On l’observe d’un air si chagrin, si contraint,</l>
+                        <l n="314"> Qu’en montrant ce qu’on soufre on fait voir ce qu’on craint.</l>
+                        <l n="315"> La raison par l’amour est bientôt affaiblie,       </l>
+                        <l n="316"> Auprès de ce qu’on aime, on s’égare, on s’oublie,</l>
+                        <l n="317"> Au défaut de la bouche une tendre langueur</l>
+                        <l n="318"> Fait lire dans les yeux le désordre du cœur,</l>
+                        <l n="319"> Et l’on ne peut penser, quand un beau feu l’anime,</l>
+                        <l n="320"> Qu’un soupir indiscret passe pour un grand crime.</l>
+                        <l n="321"> Mais jamais jusque-là Théodat n’est venu ;</l>
+                        <l n="322"> Point d’oubli, point de trouble, il s’est toujours connu.</l>
+                        <l n="323"> J’avais beau l’enhardir sur le feu qui me touche,</l>
+                        <l n="324"> Tout se taisait en lui, le cœur, les yeux, la bouche,</l>
+                        <l n="325"> Comme si mes bontés eussent peu mérité       </l>
+                        <l n="326"> Qu’il daignât se permettre une témérité,</l>
+                        <l n="327"> Et tâcher, en perçant le secret de mon âme,</l>
+                        <l n="328"> De m’épargner l’affront de prévenir sa flamme.</l>
+                        <l n="329"> Même en la prévenant, quelle honte pour moi,</l>
+                        <l n="330"> Et jusqu’où j’ai trahi l’orgueil que je me dois !</l>
+                        <l n="331"> N’as-tu pas remarqué qu’il n’a voulu m’entendre,</l>
+                        <l n="332"> Que quand je l’ai contraint à ne s’en plus défendre,</l>
+                        <l n="333"> Que s’il eût pu le faire, il aurait crû plus tard ?</l>
+                        <l n="334"> Ah, pour les vrais Amants il ne faut qu’un regard.</l>
+                        <l n="335"> À voir quand il s’échappe attachés sans relâche,        </l>
+                        <l n="336"> Ils arrachent du cœur ce que ce cœur leur cache,</l>
+                        <l n="337"> Et pour y pénétrer, prennent avidement</l>
+                        <l n="338"> Les plus faibles clartés du moindre égarement.</l>
+                        <l n="339"> Mais enfin, c’en est fait, je ne m’en puis dédire,</l>
+                        <l n="340"> J’ai parlé, l’Ingrat sait que pour lui je soupire.</l>
+                        <l n="341"> Vois par là quels malheurs j’aurai su m’attirer,</l>
+                        <l n="342"> Si je vois qu’à ma honte il m’ait fait déclarer.</l>
+                        <l n="343"> Je l’aime, et plus l’amour que j’ai trop osé croire</l>
+                        <l n="344"> M’a fait en sa faveur relâcher de ma gloire,</l>
+                        <l n="345"> Plus de moi contre lui, s’il me la faut venger,</l>
+                        <l n="346"> Cette gloire offensée aura lieu d’exiger.</l>
+                        <l n="347"> Où l’outrage demande une juste colère,</l>
+                        <l n="348"> La rigueur à punir est toujours nécessaire.</l>
+                        <l n="349"> J’en ai donné l’exemple, et l’honneur de mon rang,</l>
+                        <l n="350"> D’abord que j’ai régné, m’a coûté quelque sang.        </l>
+                        <l n="351"> Theudis s’en plaint encor, Trasimond en murmure,</l>
+                        <l n="352"> Et Théodat sait trop que sensible à l’injure...</l>
+                </sp>
+        <sp who="#gepilde">
+            <speaker> GEPILDE. </speaker>
+                        <l n="353"> Mais, Madame, sur quoi soupçonner Théodat</l>
+                        <l n="354"> De pouvoir se résoudre à devenir ingrat ?</l>
+                        <l n="355"> Autrefois Ildegonde eut sur lui quelque empire ;      </l>
+                        <l n="356"> Mais depuis que vers vous un plus beau feu l’attire,</l>
+                        <l n="357"> N’a-t-il pas hautement, en cessant de la voir,</l>
+                        <l n="358"> Désavoué par tout cet injuste pouvoir ?</l>
+                        <l n="359"> Il fait plus, Honoric a de l’amour pour elle ;</l>
+                        <l n="360"> Et loin qu’en l’apprenant le sien se renouvelle,</l>
+                        <l n="361"> Qu’il tâche d’empêcher son Rival d’être heureux,</l>
+                        <l n="362"> Il vous porte lui-même à couronner ses vœux,</l>
+                        <l n="363"> Pour vous marquer sa foi que pouvait-il plus faire ?</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="364"> L’indifférence est forte, et n’a pu me déplaire.</l>
+                        <l n="365"> Elle offre quelque calme à mon espoir flottant ;          </l>
+                        <l n="366"> Je le vois, mais enfin mon cœur n’est point content.</l>
+                        <l n="367"> Un je ne sais quel trouble incessamment l’agite,</l>
+                        <l n="368"> Ma raison qui s’alarme en demeure interdite.</l>
+                        <l n="369"> Revoyons Théodat, et dès ce même jour</l>
+                        <l n="370"> Sachons s’il faut éteindre, ou croire mon amour.        </l></div></div>
+           <div type="act" xml:id="2">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#valmire">
+            <speaker> VALMIRE. </speaker>
+                        <l n="371"> Ce pouvoir absolu que la Reine lui donne,</l>
+                        <l n="372"> Permet peu de douter qu’elle ne le couronne,</l>
+                        <l n="373"> Et que bientôt sa main, pour honorer sa foi,</l>
+                        <l n="374"> N’ajoute à ce qu’il est, le grand titre de Roi.</l>
+                        <l n="375"> Chacun pour Théodat, rempli d’impatience,</l>
+                        <l n="376"> Par des vœux pleins de zèle en prévient l’espérance ;</l>
+                        <l n="377"> Il est aimé du Peuple, et tous à haute voix</l>
+                        <l n="378"> Semblent briguer pour lui la gloire de ce choix.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="379"> Théodat est heureux, d’avoir tant de suffrages.</l>
+                </sp>
+        <sp who="#valmire">
+            <speaker> VALMIRE. </speaker>
+                        <l n="380"> La valeur confirmée a de grands avantages ;</l>
+                        <l n="381"> Et le Trône n’est pas un prix trop haut pour lui,</l>
+                        <l n="382"> Quand relevant sa chute, il s’en montre l’appui.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="383"> Et sur ce grand hymen dont chacun est en peine,</l>
+                        <l n="384"> Dit-on que Théodat ait fort pressé la Reine ?</l>
+                        <l n="385"> Qu’il trouve en sa beauté de si puissants appas ?      </l>
+                </sp>
+        <sp who="#valmire">
+            <speaker> VALMIRE. </speaker>
+                        <l n="386"> Il lui rend trop de soins, pour ne le croire pas.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="387"> Il en est donc charmé ?</l>
+                </sp>
+        <sp who="#valmire">
+            <speaker> VALMIRE. </speaker>
+                        <l n="388"> Du moins il le doit être.</l>
+                        <l n="389"> Mais quelle inquiétude en faites-vous paraître ?</l>
+                        <l n="390"> Croyez-vous qu’à la Reine un tel choix soit honteux ?</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="391"> Pourquoi ? N’est-elle pas maîtresse de ses vœux ?</l>
+                </sp>
+        <sp who="#valmire">
+            <speaker> VALMIRE. </speaker>
+                        <l n="392"> Il semble cependant que votre cœur soupire ?</l>
+                        <l n="393"> Apprenez-m’en la cause.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="394"> Et comment te la dire,</l>
+                        <l n="395"> Puisque loin qu’avec toi j’ose me déclarer,</l>
+                        <l n="396"> Moi-même, s’il se peut, je la veux ignorer ?</l>
+                </sp>
+        <sp who="#valmire">
+            <speaker> VALMIRE. </speaker>
+                        <l n="397"> Quoique vous vous taisiez, je vois ce qui vous gêne.</l>
+                        <l n="398"> Jamais pour Théodat vous n’avez eu que haine,</l>
+                        <l n="399"> Et cette aversion vous fait voir à regret</l>
+                        <l n="400"> L’éclat brillant du rang où ce grand choix le met.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="401"> Un pareil sentiment te paraît condamnable ?</l>
+                        <l n="402"> Plût au Ciel cependant que j’en fusse capable !</l>
+                        <l n="403"> Je sentirais bien moins la rigueur de ce choix,</l>
+                        <l n="404"> Si je le haïssais autant que tu le crois.</l>
+                </sp>
+        <sp who="#valmire">
+            <speaker> VALMIRE. </speaker>
+                        <l n="405"> Du moins c’est par mépris que d’une âme jalouse</l>
+                        <l n="406"> Vous voyez aujourd’hui que la Reine l’épouse,</l>
+                        <l n="407"> Puisque de son amour la plus soumise ardeur</l>
+                        <l n="408"> N’eut jamais le pouvoir de toucher votre cœur.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="409"> Si dans ses vœux offerts, la fierté qui me dompte...</l>
+                        <l n="410"> Mais comment me résoudre à t’expliquer ma honte ?</l>
+                        <l n="411"> Et que penseras-tu, si l’ennui qui m’abat</l>
+                        <l n="412"> Vient, de me voir réduite à céder Théodat ?</l>
+                </sp>
+        <sp who="#valmire">
+            <speaker> VALMIRE. </speaker>
+                        <l n="413"> Théodat vous plairait lui qui sous votre empire</l>
+                        <l n="414"> S’est vu cent et cent fois...</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="415"> Étonne-t-en, Valmire.</l>
+                        <l n="416"> Quoiqu’ait ce changement d’incroyable pour toi,</l>
+                        <l n="417"> Tu n’en seras jamais si surprise que moi.</l>
+                        <l n="418"> Je suis née en un rang où l’orgueil qui m’anime         </l>
+                        <l n="419"> Peut-être en le réglant eût été légitime ;</l>
+                        <l n="420"> Mais à ses seuls conseils voulant avoir égard,</l>
+                        <l n="421"> Je l’ai porté trop loin, et le connais trop tard.</l>
+                        <l n="422"> Aux dépens de mon cœur c’est lui qui me fit croire</l>
+                        <l n="423"> Que je me devais toute au souci de la gloire,</l>
+                        <l n="424"> Et que de tous les maux qui pouvaient m’alarmer,</l>
+                        <l n="425"> Rien n’était plus à fuir que la honte d’aimer.</l>
+                        <l n="426"> Il me la dépeignait avec toute l’adresse</l>
+                        <l n="427"> Qui peut y faire voir une indigne faiblesse,</l>
+                        <l n="428"> Un mol amusement dont les lâches appas       </l>
+                        <l n="429"> N’étaient flatteurs et doux que pour les esprits bas ;</l>
+                        <l n="430"> Et dans ces mouvements qui possédaient mon âme,</l>
+                        <l n="431"> Théodat vint s’offrir, je dédaignai sa flamme.</l>
+                        <l n="432"> Non que je visse en lui rien qui pût mériter</l>
+                        <l n="433"> L’injurieux dédain qui le fit rejeter ;      </l>
+                        <l n="434"> Je suivais seulement la fierté naturelle</l>
+                        <l n="435"> Qui me montrant la gloire, immolait tout pour elle,</l>
+                        <l n="436"> Et tout autre venant se livrer à mes fers,</l>
+                        <l n="437"> Eut reçu même prix des vœux qu’il m’eut offerts.</l>
+                        <l n="438"> Théodat se lassa de cette humeur altière,         </l>
+                        <l n="439"> Il cessa de me voir, je n’en fus pas moins fière.</l>
+                        <l n="440"> D’aucun chagrin par là n’ayant l’esprit frappé,</l>
+                        <l n="441"> Je crûs voir sans regret qu’il m’était échappé ;</l>
+                        <l n="442"> Mais quand je m’aperçus qu’ayant brisé ma chaîne,</l>
+                        <l n="443"> Ce Fugitif portait tous ses vœux à la Reine,</l>
+                        <l n="444"> J’eus beau, pour étouffer le dépit que j’en eus,</l>
+                        <l n="445"> Consulter cet orgueil qui ne me parlait plus.</l>
+                        <l n="446"> Mon cœur ne pût d’abord renoncer au murmure.</l>
+                        <l n="447"> C’est là qu’était le mal, je sentis la blessure ;</l>
+                        <l n="448"> Et soit que d’un amant à me quitter trop prompt       </l>
+                        <l n="449"> L’inconstance eut pour moi l’image d’un affront,</l>
+                        <l n="450"> Soit qu’en mon cœur l’amour n’ayant osé paraître,</l>
+                        <l n="451"> Voulût pour se venger agir alors en maître,</l>
+                        <l n="452"> Ce cœur, pour Théodat que la Reine m’ôtait,</l>
+                        <l n="453"> Devint dès ce moment tout autre qu’il n’était ;</l>
+                        <l n="454"> Et si pour n’en donner aucune connaissance,</l>
+                        <l n="455"> D’un paisible dehors j’affectai l’apparence,</l>
+                        <l n="456"> De cent troubles secrets le dedans combattu</l>
+                        <l n="457"> Me fit payer bien cher cette fausse vertu.</l>
+                </sp>
+        <sp who="#valmire">
+            <speaker> VALMIRE. </speaker>
+                        <l n="458"> Théodat eut pour vous l’âme d’amour si pleine...      </l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="459"> Mais cependant tu vois qu’il brûle pour la Reine.</l>
+                        <l n="460"> Ma douleur s’en réveille, et je n’y puis penser,</l>
+                        <l n="461"> Sans voir combien ma gloire a lieu de s’offenser,</l>
+                        <l n="462"> Et me faire aussitôt, en songeant qu’il me quitte,</l>
+                        <l n="463"> Un reproche honteux de mon peu de mérite.</l>
+                        <l n="464"> S’il l’eut vu tel, hélas ! que l’a crû ma fierté,</l>
+                        <l n="465"> Le dépit contre moi ne l’eut point révolté.</l>
+                        <l n="466"> Il eut crû son amour plutôt que sa colère.</l>
+                </sp>
+        <sp who="#valmire">
+            <speaker> VALMIRE. </speaker>
+                        <l n="467"> Que vouliez-vous qu’il fit ? Il ne pouvait vous plaire.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="468"> Que l’ardeur de ses soins combattît mes froideurs,</l>
+                        <l n="469"> Qu’il souffrit, ou du moins qu’il n’aimât point ailleurs ;</l>
+                        <l n="470"> Son cœur pour d’autres yeux devait être invincible.</l>
+                </sp>
+        <sp who="#valmire">
+            <speaker> VALMIRE. </speaker>
+                        <l n="471"> Mais vous seriez toujours demeurée insensible.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="472"> Je l’avoue, et sans doute encor même aujourd’hui,</l>
+                        <l n="473"> S’il n’avait rien aimé, je la serais pour lui.</l>
+                        <l n="474"> Ce n’est que le chagrin de cette préférence</l>
+                        <l n="475"> Qui m’inspire un amour dont mon orgueil s’offense,</l>
+                        <l n="476"> Ah, si tu connaissais à quels sensibles coups</l>
+                        <l n="477"> Nous expose un Amant révolté malgré nous,</l>
+                        <l n="478"> Et ce que fait souffrir la disgrâce fatale</l>
+                        <l n="479"> De voir passer son bien aux mains d’une Rivale !</l>
+                </sp>
+        <sp who="#valmire">
+            <speaker> VALMIRE. </speaker>
+                        <l n="480"> Si ce supplice est tel, je l’aurais prévenu.</l>
+                        <l n="481"> Le cœur de Théodat vous était trop connu,</l>
+                        <l n="482"> Et lorsque par ses soins redoublés pour la Reine</l>
+                        <l n="483"> Il vous fit soupçonner cet amour qui vous gêne,</l>
+                        <l n="484"> Vos regards adoucis n’auraient pas eu d’abord,</l>
+                        <l n="485"> Pour vous le ramener, besoin de grand effort.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="486"> Moi, pour tout le repos qu’il faudra qu’il m’en coûte,</l>
+                        <l n="487"> J’aurais de mon orgueil laissé le moindre doute ?</l>
+                        <l n="488"> À cet abaissement j’aurais pu me forcer ?         </l>
+                        <l n="489"> Ah, tu me connais mal, si tu l’as pu penser.</l>
+                        <l n="490"> Je perds en Théodat l’objet de mon estime,</l>
+                        <l n="491"> Ma gloire l’a voulu, j’en serai la victime,</l>
+                        <l n="492"> Et je m’immolerai d’un cœur ferme et constant</l>
+                        <l n="493"> À tout ce que de moi son injustice attend.        </l>
+                </sp>
+        <sp who="#valmire">
+            <speaker> VALMIRE. </speaker>
+                        <l n="494"> Quoique vous résolviez, si négligeant la Reine,</l>
+                        <l n="495"> Théodat vous pressait...</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="496"> Il y perdrait sa peine.</l>
+                        <l n="497"> Je l’aime, je le sens, mais malgré est cet amour,</l>
+                        <l n="498"> Pour peu qu’à me venger je pusse trouver jour,</l>
+                        <l n="499"> Il m’a manqué de foi, je lui ferais connaître...</l>
+                        <l n="500"> Mais pourquoi me flatter de ce qui ne peut être ?</l>
+                        <l n="501"> Puisqu’à l’aimer la Reine a voulu l’engager,</l>
+                        <l n="502"> C’est un mal sans remède, il n’y faut plus songer.</l>
+                </sp>
+        <sp who="#valmire">
+            <speaker> VALMIRE. </speaker>
+                        <l n="503"> Je vous plains des malheurs qu’un scrupule vous cause.</l>
+                        <l n="504"> Mais ce qui me surprend plus que tout autre chose,</l>
+                        <l n="505"> C’est qu’aimant Théodat, vous puissiez endurer</l>
+                        <l n="506"> Qu’Honoric pour sa flamme ose tout espérer.</l>
+                        <l n="507"> Pourquoi si hautement permettre qu’il vous aime ?</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="508"> Par gloire, par chagrin, par haine pour moi-même.</l>
+                        <l n="509"> L’amour, de ma fierté n’a pu rien obtenir ;       </l>
+                        <l n="510"> J’ai voulu par ce choix le venger, me punir,</l>
+                        <l n="511"> Ou plutôt j’ai voulu qu’en me le voyant faire,</l>
+                        <l n="512"> Théodat outragé fit agir sa colère,</l>
+                        <l n="513"> Qu’il me vit, se plaignit, et par son désespoir</l>
+                        <l n="514"> Me marquât sur son âme un reste de pouvoir.</l>
+                        <l n="515"> Eut-il jamais été gloire plus achevée ?</l>
+                        <l n="516"> La secrète douceur de n’être point bravée,</l>
+                        <l n="517"> De jouir de sa peine, et pouvoir insulter</l>
+                        <l n="518"> Aux ennuis d’un Amant qui m’aurait pu quitter,</l>
+                        <l n="519"> D’un plaisir si sensible eut chatouillé mon âme,        </l>
+                        <l n="520"> Que d’Honoric alors récompensant la flamme,</l>
+                        <l n="521"> Fière de mes dédains soutenus jusqu’au bout,</l>
+                        <l n="522"> Quoique j’eusse immolé, j’aurais crû gagner tout.</l>
+                        <l n="523"> Mais avec Honoric j’ai beau m’être engagée,</l>
+                        <l n="524"> Ce supplice est perdu, je ne suis point vengée,</l>
+                        <l n="525"> Et d’un Amant fâcheux l’importun embarras...</l>
+                </sp>
+        <sp who="#valmire">
+            <speaker> VALMIRE. </speaker>
+                        <l n="526"> Madame, je le vois, ne vous emportez pas.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#honoric">
+            <speaker> HONORIC. </speaker>
+                        <l n="527"> Enfin de Théodat la gloire est assurée,</l>
+                        <l n="528"> La Reine en sa faveur s’est tout haut déclarée,</l>
+                        <l n="529"> Madame, et déjà même on parle d’ordonner</l>
+                        <l n="530"> La pompe de l’hymen qui le doit couronner.</l>
+                        <l n="531"> Elle l’avait mandé sur quelque incertitude</l>
+                        <l n="532"> Qui semblait lui causer un peu d’inquiétude</l>
+                        <l n="533"> Et l’heureux Théodat a si bien répondu</l>
+                        <l n="534"> À ce que de sa flamme elle avait attendu,        </l>
+                        <l n="535"> Qu’elle s’est résolue à faire enfin connaître</l>
+                        <l n="536"> Que son choix à l’État le destine pour Maître.</l>
+                        <l n="537"> Toute la Cour s’empresse à l’en féliciter.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="538"> L’éclat d’une Couronne a de quoi le flatter.</l>
+                        <l n="539"> Sa joie est grande à voir le glorieux partage...</l>
+                </sp>
+        <sp who="#honoric">
+            <speaker> HONORIC. </speaker>
+                        <l n="540"> L’amour qui le charmait achève son ouvrage,</l>
+                        <l n="541"> Et vous pouvez juger quels doux ravissements</l>
+                        <l n="542"> Ont suivi son transport dans ces premiers moments.</l>
+                        <l n="543"> Mais quand je le vois prêt à pouvoir toute chose,</l>
+                        <l n="544"> Permettez qu’à vos yeux mon scrupule s’expose.</l>
+                        <l n="545"> Théodat autrefois eut de l’amour pour vous ;</l>
+                        <l n="546"> Du bonheur de ma flamme il peut être jaloux,</l>
+                        <l n="547"> Et lorsqu’il sera Roi, j’ai peur qu’il se souvienne</l>
+                        <l n="548"> Qu’un dédain trop cruel fut le prix de la sienne.</l>
+                        <l n="549"> Avant qu’il ait ce titre, accordez à mon feu</l>
+                        <l n="550"> L’entière liberté d’en obtenir l’aveu.</l>
+                        <l n="551"> La Reine à cet amour n’a point été contraire,</l>
+                        <l n="552"> Et je puis me flatter du bonheur que j’espère,</l>
+                        <l n="553"> Si tandis qu’elle seule encor donne des lois,</l>
+                        <l n="554"> J’engage ses bontés à suivre votre choix.          </l>
+                        <l n="555"> Balancez-vous, Madame, et ce parfait hommage</l>
+                        <l n="556"> Dont mes soins à vous plaire ont cherché l’avantage,</l>
+                        <l n="557"> N’a-t-il pu mériter que pour prix de ma foi</l>
+                        <l n="558"> J’ose...</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="559"> Oui, voyez la Reine, et répondez de moi.</l>
+                </sp>
+        <sp who="#honoric">
+            <speaker> HONORIC. </speaker>
+                        <l n="560"> Ah, puisque votre flamme est propice à la mienne...</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="561"> Prévenez Théodat, de peur qu’il vous prévienne.</l>
+                        <l n="562"> Allez, si mon hymen est un bonheur si doux,</l>
+                        <l n="563"> Le temps doit être cher à qui craint comme vous.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#valmire">
+            <speaker> VALMIRE. </speaker>
+                        <l n="564"> Qu’avez-vous dit, Madame ; et par quelle injustice</l>
+                        <l n="565"> Faire de votre cœur un si dur sacrifice ?</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="566"> Il est dur, je l’avoue, et promettant ma main,</l>
+                        <l n="567"> Ce n’est pas sans trembler que j’en prends le dessein ;</l>
+                        <l n="568"> Mais lorsque je vois tout à craindre pour ma gloire,</l>
+                        <l n="569"> Valmire, je me dois cette grande victoire.</l>
+                        <l n="570"> Le Destin l’a voulu, Théodat est heureux.</l>
+                        <l n="571"> Son feu récompensé m’est un objet affreux,</l>
+                        <l n="572"> J’en sens des mouvements de haine, de colère,</l>
+                        <l n="573"> Et voudrais me venger, si je le pouvais faire ;</l>
+                        <l n="574"> Mais quand de son bonheur je vois venir le jour,</l>
+                        <l n="575"> M’en fâcher, le haïr, c’est avoir de l’amour ;</l>
+                        <l n="576"> Et si ce Théodat qu’on me donne pour Maître,</l>
+                        <l n="577"> M’était indifférent autant qu’il devrait l’être,</l>
+                        <l n="578"> Avec plus de repos je verrais aujourd’hui</l>
+                        <l n="579"> Ce qu’une Reine Amante a résolu pour lui.</l>
+                        <l n="580"> Je l’aime donc, Valmire, et ce m’est une honte</l>
+                        <l n="581"> Qui ne peut s’effacer par une ardeur trop prompte.</l>
+                        <l n="582"> Cet amour qui me livre au trouble où je me vois,</l>
+                        <l n="583"> Mon cœur se le permet, parce qu’il est à moi,</l>
+                        <l n="584"> Et je veux que ce cœur, afin qu’il se l’arrache,</l>
+                        <l n="585"> Aux seuls vœux d’Honoric par le devoir s’attache.</l>
+                        <l n="586"> Ne balançons donc point ce que j’ai projeté.</l>
+                        <l n="587"> Mettons en l’épousant ma gloire en sûreté.</l>
+                        <l n="588"> Si ce tendre penchant qui peut tout sur son âme</l>
+                        <l n="589"> N’a point de part aux nœuds qui me rendront sa Femme,</l>
+                        <l n="590"> Un cœur qui pour la gloire a toujours combattu,        </l>
+                        <l n="591"> N’a pas besoin d’amour, ayant de la vertu.</l>
+                        <l n="592"> Mais de ce que je vois que faut-il que je pense ?</l>
+                        <l n="593"> Est-ce pour me braver que Théodat s’avance ?</l>
+                        <l n="594"> Lui me chercher ! Valmire, éloignons-nous d’ici.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="595"> Quoi, Madame, il vous plaît de m’éviter ainsi ?</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="596"> M’étant si rarement forcée à vous entendre,</l>
+                        <l n="597"> Ma retraite n’a rien qui vous doive surprendre.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="598"> Eh, Madame, de grâce, un peu moins de fierté.</l>
+                        <l n="599"> Sans trahir vos mépris je puis être écouté,</l>
+                        <l n="600"> Je n’en viens point blâmer l’injurieuse audace,</l>
+                        <l n="601"> Au contraire, je viens pour vous en rendre grâce.</l>
+                        <l n="602"> Ils m’ont fait un destin, si grand, si beau, si doux,</l>
+                        <l n="603"> Que je n’ai plus sujet à me plaindre de vous.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="604"> J’apprends avec plaisir cette haute fortune,</l>
+                        <l n="605"> Puisqu’elle me défait d’une plainte importune.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="606"> C’est un malheur qu’en vain j’ai voulu détourner ;</l>
+                        <l n="607"> Mon feu n’a jamais fait que vous importuner,</l>
+                        <l n="608"> J’ai souffert, j’ai langui, sans qu’un si long supplice</l>
+                        <l n="609"> Ait de vos duretés arrêté l’injustice.</l>
+                        <l n="610"> Une autre sans regret n’aurait pu m’immoler,</l>
+                        <l n="611"> Vous en avez fait gloire, il faut s’en consoler.</l>
+                        <l n="612"> Au moins, ce qui me doit rendre l’âme un peu vaine,</l>
+                        <l n="613"> Vos rebuts ne sont pas indignes d’une Reine,</l>
+                        <l n="614"> Et je puis effacer, en recevant sa main,</l>
+                        <l n="615"> La honte des soupirs que j’ai poussés en vain.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="616"> Les voyant rejetés, il vous était facile</l>
+                        <l n="617"> De ne leur pas souffrir un éclat inutile.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="618"> J’avais de la faiblesse, il faut le confesser.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="619"> Qui l’a si bien connu, pouvait y renoncer.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="620"> J’eus tort, et vos dédains ont trop terni ma gloire.      </l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="621"> Ils s’expliquaient assez, vous n’aviez qu’à les croire.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="622"> L’outrage est réparé par tant d’heureux effets...</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="623"> Il suffit que tous deux nous soyons satisfaits.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="624"> J’ai tout sujet de l’être ; une Reine qui m’aime,</l>
+                        <l n="625"> Joint au don de son cœur celui du Diadème.</l>
+                        <l n="626"> Pourtant, pourtant, Madame, il n’a tenu qu’à vous</l>
+                        <l n="627"> Qu’on ne m’ait encor vu jouir d’un sort plus doux.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="628"> Qu’à moi ?</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="629"> Jamais amour ne m’offrit tant de charmes.</l>
+                        <l n="630"> J’en appelle à témoins mes soupirs et mes larmes,</l>
+                        <l n="631"> Ces larmes qu’à vos pieds, sans mouvement, sans voix,       </l>
+                        <l n="632"> Mon désespoir m’a fait répandre tant de fois.</l>
+                        <l n="633"> De mes vives douleurs la triste image offerte</l>
+                        <l n="634"> N’a pu vous empêcher de résoudre ma perte.</l>
+                        <l n="635"> Vous avez au mépris ajouté le courroux,</l>
+                        <l n="636"> Votre ingrate rigueur...</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="637"> De quoi vous plaignez-vous ?</l>
+                        <l n="638"> N’êtes-vous pas content qu’elle vous ait fait naître</l>
+                        <l n="639"> La noble ambition...</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="640"> Non, je ne le puis être,</l>
+                        <l n="641"> Et ce Trône où m’appelle un hymen glorieux,</l>
+                        <l n="642"> Il me coûte trop cher pour m’être précieux.</l>
+                        <l n="643"> J’y consens, jouissez de mon inquiétude,         </l>
+                        <l n="644"> Cruelle ; elle doit plaire à votre ingratitude,</l>
+                        <l n="645"> Jouissez des ennuis d’un amant outragé</l>
+                        <l n="646"> Qui de vos fiers mépris sur lui seul s’est vengé,</l>
+                        <l n="647"> Qui se donnant ailleurs, tremble du sacrifice...</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="648"> Et qui vous a forcé de choisir ce supplice ?      </l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="649"> Vous me le demandez, vous qui m’avez causé</l>
+                        <l n="650"> Toute l’horreur des maux où je suis exposé ?</l>
+                        <l n="651"> Hé bien, je vais encor...</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="652"> Non, cela doit suffire,</l>
+                        <l n="653"> Je ne veux rien savoir, vous n’avez rien à dire.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="654"> Craignez-vous que ces maux trop vivement dépeints,          </l>
+                        <l n="655"> Ne vous reprochent trop vos injustes dédains ?</l>
+                        <l n="656"> Que malgré vous touchée, à voir un feu si tendre...</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="657"> Moi touchée ? Et comment le pourriez-vous prétendre ?</l>
+                        <l n="658"> Par quel constant effort avez-vous mérité</l>
+                        <l n="659"> Que j’eusse pour vos feux tant de crédulité ?</l>
+                        <l n="660"> La Reine, dont sitôt votre âme fut charmée...</l>
+                        <l n="661"> Non, Théodat, jamais vous ne m’avez aimée.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="662"> Ah, si votre injustice a pu le présumer,</l>
+                        <l n="663"> Dites-moi donc comment il vous fallait aimer ?</l>
+                        <l n="664"> Est-il vœux, soins, devoirs, complaisances, services,</l>
+                        <l n="665"> Dont vous n’avez reçu les tendres sacrifices ?</l>
+                        <l n="666"> Plutôt que me résoudre à voir mes feux éteints...</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="667"> Vous en êtes le maître ; est-ce que je m’en plains ?</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="668"> Ne vous repentez point, s’il se peut, de le faire,</l>
+                        <l n="669"> Et m’accordez de grâce, un moment de colère.</l>
+                        <l n="670"> C’est ce que j’attendais, quand mon cœur étonné</l>
+                        <l n="671"> Pour la Reine à vos yeux s’est feint passionné ;</l>
+                        <l n="672"> Mais de ce faux amour j’ai cherché l’apparence,</l>
+                        <l n="673"> Sans que vous ayez pu vous en faire une offense.</l>
+                        <l n="674"> Vous ne m’avez montré ni chagrin, ni dépit,</l>
+                        <l n="675"> Marqué rien qui parût...</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="676"> Je vous en ai trop dit.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="677"> Vous m’en avez trop dit ! Vous ?</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="678"> Oui, trop ; mais qu’importe ?</l>
+                        <l n="679"> Il est beau, Théodat, que le Trône l’emporte,</l>
+                        <l n="680"> Que vous n’ayez rien vu...</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="681"> Non, Madame, jamais</l>
+                        <l n="682"> Le moindre ennui de vous n’a flatté mes souhaits.</l>
+                        <l n="683"> Toujours du même esprit à ma perte animée...</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="684"> Et n’ai-je pas souffert qu’Honoric m’ait aimée ?</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="685"> Quoi ? Vouloir préférer un rival à ma foi,</l>
+                        <l n="686"> M’outrager, m’accabler, c’est se plaindre de moi ?</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="687"> Oui, ce choix d’un Rival n’aurait pu vous déplaire,</l>
+                        <l n="688"> Si vous aviez aimé comme vous deviez faire.</l>
+                        <l n="689"> L’orgueil qui dans mon cœur a fait taire l’amour,</l>
+                        <l n="690"> Pour voir le vrai mérite, y laisse quelque jour ;</l>
+                        <l n="691"> Je puis le discerner où je le vois paraître,</l>
+                        <l n="692"> Et si vous m’estimez, vous avez dû connaître</l>
+                        <l n="693"> Que qui de Théodat n’acceptait pas les vœux,</l>
+                        <l n="694"> Deviendrait encor moins sensible à d’autres feux.</l>
+                        <l n="695"> C’était donc pour le vôtre un motif favorable</l>
+                        <l n="696"> Qui paraissait me rendre Honoric préférable ;</l>
+                        <l n="697"> Mais ce relâchement honteux à ma fierté,         </l>
+                        <l n="698"> Vous a laissé tranquille, et n’a rien mérité.</l>
+                        <l n="699"> Au moindre emportement il n’a pu vous contraindre.</l>
+                        <l n="700"> Vous avez dédaigné de me voir, de vous plaindre,</l>
+                        <l n="701"> Et n’avez pas jugé mon cœur d’assez haut prix,</l>
+                        <l n="702"> Pour vous inquiéter de ce dernier mépris.       </l>
+                        <l n="703"> C’est vous en dire trop ; mais quoique j’en rougisse,</l>
+                        <l n="704"> Je ne m’oublie au moins que pour votre supplice,</l>
+                        <l n="705"> Et je m’épargnerais l’affront de me trahir,</l>
+                        <l n="706"> Si vous étiez encor en pouvoir d’en jouir.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="707"> Ah, je le puis encor ; plus d’État, plus de Reine.         </l>
+                        <l n="708"> Je ne veux, ne connais que vous pour Souveraine,</l>
+                        <l n="709"> La Couronne à mes yeux n’offre plus rien de doux,</l>
+                        <l n="710"> Et je renonce à tout pour vivre tout à vous.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="711"> Non, n’appréhendez point que jamais je consente</l>
+                        <l n="712"> À vous coûter les biens qui flattent votre attente.</l>
+                        <l n="713"> Vous avez à la Reine engagé votre foi,</l>
+                        <l n="714"> Juré que votre cœur...</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="715"> Il n’était pas à moi ;</l>
+                        <l n="716"> Asservi sous vos lois, pouvais-je le promettre ?</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="717"> Ma gloire là-dessus n’a rien à me permettre.</l>
+                        <l n="718"> J’ai souffert qu’Honoric fît éclater son feu,</l>
+                        <l n="719"> Qu’il tâchât de la Reine à mériter l’aveu.</l>
+                        <l n="720"> S’il l’obtient, et qu’il faille aujourd’hui...</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="721"> Quoi, Madame,</l>
+                        <l n="722"> L’amour a donc si peu de pouvoir sur votre âme...</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="723"> Moi, de l’amour ! Gardez de l’oser présumer.</l>
+                        <l n="724"> Non, c’en est fait, jamais je ne vous veux aimer.         </l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="725"> Et moi, Madame, et moi qui n’ai point d’autre envie</l>
+                        <l n="726"> Que de vous adorer le reste de ma vie,</l>
+                        <l n="727"> Je ferai tant qu’enfin j’obtiendrai quelque jour...</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="728"> Ah, craignez d’écouter ce dangereux amour,</l>
+                        <l n="729"> Il vous perdrait. Suivons nos fières destinées.</l>
+                        <l n="730"> On ne se moque point des Têtes couronnées.</l>
+                        <l n="731"> La Reine a crû pour vous ne pouvoir trop oser,</l>
+                        <l n="732"> Elle s’est déclarée, il la faut épouser.</l>
+                        <l n="733"> Le Trône rend pour vous cet hymen nécessaire.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="734"> Le Trône ! En vous perdant, a-t-il de quoi me plaire ?</l>
+                        <l n="735"> En vain à m’y placer la Reine se résout,</l>
+                        <l n="736"> Ne me l’opposez point, j’en viendrai bien à bout.</l>
+                        <l n="737"> Non que j’aie à douter qu’une pareille offense</l>
+                        <l n="738"> N’arme contre mes jours sa plus fière vengeance ;</l>
+                        <l n="739"> Mais s’il faut éclater, j’en essuierai les coups,</l>
+                        <l n="740"> Plutôt que de trahir l’amour que j’ai pour vous,</l>
+                        <l n="741"> Dites-moi seulement que quoiqu’Honoric fasse,</l>
+                        <l n="742"> Jamais de son espoir vous n’avouerez l’audace,</l>
+                        <l n="743"> Que toujours vos refus par d’obstinés combats...</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="744"> Ma gloire en souffrirait, ne le demandez pas.</l>
+                        <l n="745"> Si la Reine consent que je sois sa conquête,</l>
+                        <l n="746"> J’ai promis d’être à lui, ma main est toute prête.</l>
+                        <l n="747"> Tout ce que je puis faire est de vous assurer,</l>
+                        <l n="748"> Que si vous empêchez ce qu’il peut espérer,</l>
+                        <l n="749"> Jamais, quoique le Ciel de votre sort ordonne,</l>
+                        <l n="750"> Vous n’aurez la douleur de me voir à personne.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="751"> Et si je vous disais que me croyant haï,</l>
+                        <l n="752"> Moi-même je me suis imprudemment trahi ?</l>
+                        <l n="753"> Qu’en faveur d’Honoric j’ai déjà vu la Reine ?</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="754"> Soufrez donc un hymen qui vous blesse et me gêne,</l>
+                        <l n="755"> Car ne prétendez point qu’après ce que j’ai fait,</l>
+                        <l n="756"> Ma gloire ose laisser son ouvrage imparfait,</l>
+                        <l n="757"> Et qu’il m’échappe rien dont on puisse à ma honte</l>
+                        <l n="758"> Présumer que l’amour malgré moi me surmonte.</l>
+                        <l n="759"> Ma jalouse vertu n’en croira pas mon cœur.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="760"> De sa sévérité voyez mieux la rigueur.</l>
+                        <l n="761"> Quoi, vous épouseriez Honoric ? Ah, Madame !</l>
+                        <l n="762"> Ne désespérez point une si belle flamme.</l>
+                        <l n="763"> Par ces tendres soupirs si longtemps dédaignez,</l>
+                        <l n="764"> Par tout ce qu’ont d’amer les maux que vous craignez,        </l>
+                        <l n="765"> Si du plus pur amour le pouvoir invincible</l>
+                        <l n="766"> À la pitié pour moi vous peut rendre sensible,</l>
+                        <l n="767"> Si ce que votre cœur a fait souffrir au mien,</l>
+                        <l n="768"> Si mes larmes...</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="769"> Adieu, je n’écoute plus rien,</l>
+                        <l n="770"> En l’état où je suis vous m’en pourriez trop dire,       </l>
+                        <l n="771"> Et je vous haïrais, si lorsque j’en soupire</l>
+                        <l n="772"> Vous m’aviez su contraindre à force de douleurs,</l>
+                        <l n="773"> À démentir l’orgueil qui cause mes malheurs.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#euthar">
+            <speaker> EUTHAR. </speaker>
+                        <l n="774"> Qu’oserai-je penser ? La Princesse vous quitte,</l>
+                        <l n="775"> Seigneur, et je vous vois l’âme toute interdite ?</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="776"> Enfin, Euthar, enfin la victoire est à moi,</l>
+                        <l n="777"> Je triomphe, Ildegonde a reconnu ma foi,</l>
+                        <l n="778"> Elle m’aime.</l>
+                </sp>
+        <sp who="#euthar">
+            <speaker> EUTHAR. </speaker>
+                        <l n="779"> Ah, Seigneur, quelle triste victoire ?</l>
+                        <l n="780"> Ildegonde vous hait, et vous la voulez croire !</l>
+                        <l n="781"> Pour vous ôter un trône...</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="782"> Ah, non, jusqu’à ce jour,</l>
+                        <l n="783"> J’ai trop pour m’y tromper, étudié l’amour.</l>
+                        <l n="784"> Elle m’aime, te dis-je, et ma gloire est certaine.</l>
+                        <l n="785"> Viens, suis-moi.</l>
+                </sp>
+        <sp who="#euthar">
+            <speaker> EUTHAR. </speaker>
+                        <l n="786"> Mais, Seigneur, que deviendra la Reine ?</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="787"> Ne préviens point les maux que j’en dois redouter.</l>
+                </sp>
+        <sp who="#euthar">
+            <speaker> EUTHAR. </speaker>
+                        <l n="788"> Seigneur, pardonne-t-elle à qui l’ose irriter ?</l>
+                        <l n="789"> Le sang qu’elle a versé vous doit faire connaître</l>
+                        <l n="790"> Quels périls...</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="791"> Ils sont grands, j’y périrai peut-être ;</l>
+                        <l n="792"> Mais, Euthar, quand on a le cœur bien enflammé,</l>
+                        <l n="793"> C’est mourir satisfait, que de mourir aimé.</l></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="794"> Il vous était permis d’en croire cette estime.</l>
+                        <l n="795"> Par elle je rendais votre espoir légitime,</l>
+                        <l n="796"> Et vous voir, sans m’en plaindre, aspirer à la foi,</l>
+                        <l n="797"> C’était sur cet Hymen vous répondre de moi.</l>
+                        <l n="798"> Ainsi dans ces devoirs que tant d’amour seconde,</l>
+                        <l n="799"> Vous n’aviez contre vous que le cœur d’Ildegonde.</l>
+                        <l n="800"> Il est fier, orgueilleux, difficile à toucher,</l>
+                        <l n="801"> Et quand vers vous enfin vos soins l’ont fait pencher,</l>
+                        <l n="802"> Prêt à faire éclater cette noble victoire,</l>
+                        <l n="803"> Vous devez d’autant plus en estimer la gloire,</l>
+                        <l n="804"> Que personne avant vous par ses plus tendres vœux,</l>
+                        <l n="805"> N’avait pu mériter ce qui vous rend heureux.</l>
+                </sp>
+        <sp who="#honoric">
+            <speaker> HONORIC. </speaker>
+                        <l n="806"> Je sais qu’en ma faveur rien ne la sollicite ;</l>
+                        <l n="807"> Mais l’amour aux amants tient lieu de vrai mérite,</l>
+                        <l n="808"> Madame, il persuade, et c’est un sûr appui,</l>
+                        <l n="809"> Pour confondre un Rival, que d’aimer plus que lui.</l>
+                        <l n="810"> La Princesse à ma flamme a dû quelque justice,</l>
+                        <l n="811"> Et quand à son succès je vous trouve propice,</l>
+                        <l n="812"> Mes vœux dont vos bontés autorisent l’ardeur,</l>
+                        <l n="813"> N’ont plus pour le hâter qu’à ménager son cœur.</l>
+                        <l n="814"> Soufrez-le moi, Madame, et qu’à tant d’espérance</l>
+                        <l n="815"> De mes brûlants désirs joignant l’impatience,</l>
+                        <l n="816"> J’engage la Princesse à ne point retarder</l>
+                        <l n="817"> Le glorieux moment...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="818"> Je viens de la mander,</l>
+                        <l n="819"> Et n’aurai pas de peine à résoudre avec elle</l>
+                        <l n="820"> Ce qui doit couronner une flamme si belle.</l>
+                        <l n="821"> Rien n’empêchant l’hymen qui comble vos souhaits,</l>
+                        <l n="822"> Soyez sûr dès demain de les voir satisfaits</l>
+                        <l n="823"> Savez-vous cependant qui pour vous s’intéresse</l>
+                        <l n="824"> À briguer près de moi l’hymen de la Princesse ?</l>
+                        <l n="825"> Théodat.</l>
+                </sp>
+        <sp who="#honoric">
+            <speaker> HONORIC. </speaker>
+                        <l n="826"> Théodat ? Quoi...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="827"> Vous êtes surpris</l>
+                        <l n="828"> Que par lui de vos vœux cet hymen soit le prix ?</l>
+                </sp>
+        <sp who="#honoric">
+            <speaker> HONORIC. </speaker>
+                        <l n="829"> J’avais quelque sujet de craindre le contraire.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="830"> Je sais qu’à la Princesse il a tâché de plaire ;</l>
+                        <l n="831"> Mais si son cœur en vain se soumit à ses lois,</l>
+                        <l n="832"> Il sait combien l’amour est libre dans son choix,         </l>
+                        <l n="833"> Et ne veut se venger de son ingratitude</l>
+                        <l n="834"> Qu’en ôtant à vos feux tout lieu d’inquiétude.</l>
+                        <l n="835"> C’est lui qui me convie à les favoriser.</l>
+                </sp>
+        <sp who="#honoric">
+            <speaker> HONORIC. </speaker>
+                        <l n="836"> Ce généreux effort ne peut trop se priser,</l>
+                        <l n="837"> Madame ; et quand je vois que mon amour extrême</l>
+                        <l n="838"> Trouve en lui...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="839"> Vous pouvez l’apprendre de lui-même,</l>
+                        <l n="840"> Le voici.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="841"> J’assurais Honoric, que son feu</l>
+                        <l n="842"> Avait déjà par vous obtenu mon aveu,</l>
+                        <l n="843"> Et que s’il voit demain un heureux hyménée</l>
+                        <l n="844"> D’Ildegonde à son sort joindre la destinée,      </l>
+                        <l n="845"> C’est à vous seul qu’il doit, en touchant ce grand jour,</l>
+                        <l n="846"> Le prompt consentement qui charme son amour.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="847"> La Princesse, Madame, a dû chérir son zèle,</l>
+                        <l n="848"> Et lui donnant la main, fait un choix digne d’elle ;</l>
+                        <l n="849"> Mais quoique cet hymen vous semble à souhaiter,</l>
+                        <l n="850"> Le résoudre à demain, c’est le précipiter.</l>
+                        <l n="851"> De tels engagements valent bien qu’on y pense.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="852"> Où l’amour doit choisir, je hais la violence,</l>
+                        <l n="853"> Et si d’un pareil ordre Ildegonde se plaint,</l>
+                        <l n="854"> Je ne veux rien d’un cœur que le respect contraint.</l>
+                        <l n="855"> Est-ce qu’on vous a dit que toujours insensible</l>
+                        <l n="856"> Aux soupirs d’Honoric le sien soit inflexible ?</l>
+                        <l n="857"> Que c’est sans son aveu qu’il cherche mon appui ?</l>
+                </sp>
+        <sp who="#honoric">
+            <speaker> HONORIC. </speaker>
+                        <l n="858"> Théodat me hait trop, pour n’en croire que lui,</l>
+                        <l n="859"> Madame, et vous voyez par l’avis qu’il vous donne,</l>
+                        <l n="860"> Ce que de cette haine il faut que je soupçonne.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="861"> Un sincère conseil est toujours écouté.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="862"> J’admire, à dire vrai cette sincérité,</l>
+                        <l n="863"> Elle est prompte, et ce m’est une surprise extrême</l>
+                        <l n="864"> De vous trouver sitôt différent de vous-même.</l>
+                        <l n="865"> Quoi, vous qui d’Honoric favorisant l’espoir,</l>
+                        <l n="866"> Me demandiez tantôt...</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="867"> Je croyais le devoir ;</l>
+                        <l n="868"> Mais j’ai songé depuis que la paix désirée</l>
+                        <l n="869"> Pour vos peuples encor n’est pas bien assurée,</l>
+                        <l n="870"> Et que si Bélisaire est ailleurs arrêté,</l>
+                        <l n="871"> Pour n’avoir rien à craindre il nous faut un Traité.</l>
+                        <l n="872"> L’Empereur peut l’offrir, et dans ces occurrences</l>
+                        <l n="873"> Vous savez que l’État a besoin d’alliances.</l>
+                        <l n="874"> Ildegonde a l’honneur d’être de votre sang ;</l>
+                        <l n="875"> Son destin l’asservit aux devoirs de son rang,</l>
+                        <l n="876"> Et peut-être ce n’est que par son hyménée</l>
+                        <l n="877"> Qu’on verra pleinement la guerre terminée.</l>
+                        <l n="878"> Justinian honteux de nous combattre en vain,</l>
+                        <l n="879"> Pour un nouveau César peut demander sa main.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="880"> Sans doute, j’aime à voir que Théodat se pique</l>
+                        <l n="881"> D’une si salutaire et noble Politique.</l>
+                        <l n="882"> L’empereur, il est vrai, s’il se porte à la Paix,</l>
+                        <l n="883"> Nous peut sur quelque hymen expliquer ses souhaits ;</l>
+                        <l n="884"> Mais ma main, quelque rang que la Princesse tienne,</l>
+                        <l n="885"> Est encor à donner, et vaudra bien la sienne.</l>
+                        <l n="886"> Si je vous ai permis, preste à vous nommer Roi,</l>
+                        <l n="887"> L’audace d’élever vos regards jusqu’à moi,</l>
+                        <l n="888"> L’ardeur que pour l’État votre soin fait paraître</l>
+                        <l n="889"> Souffrira sans chagrin le choix d’un autre Maître.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="890"> Madame, à tant d’orgueil pourrais-je m’emporter,</l>
+                        <l n="891"> Que...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="892"> Je vois Ildegonde, il la faut écouter.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="893"> Approchez-vous, Princesse, et nous venez apprendre</l>
+                        <l n="894"> Ce que de son amour Honoric doit attendre.</l>
+                        <l n="895"> Il le fait éclater, et c’est sous votre aveu,</l>
+                        <l n="896"> Mais pour n’en douter pas, son rapport est trop peu.</l>
+                        <l n="897"> Parlez, expliquez-vous, c’est vous que j’en veux croire.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="898"> Honoric à m’aimer a trouvé quelque gloire,</l>
+                        <l n="899"> Madame, et j’avouerai que ses vœux écoutés</l>
+                        <l n="900"> Doivent être reçus, si vous y consentez.</l>
+                        <l n="901"> Je ne m’en dédis point, j’en ai donné parole.</l>
+                </sp>
+        <sp who="#honoric">
+            <speaker> HONORIC, à Amalasonte. </speaker>
+                        <l n="902"> N’auriez-vous eu pour moi qu’une bonté frivole,</l>
+                        <l n="903"> Madame, et voudrez-vous souffrir que Théodat</l>
+                        <l n="904"> Immole la Princesse à ses raisons d’État ?</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="905"> Étant sans intérêt, je dis ce que je pense.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="906"> Je le crois, j’ai toujours connu votre prudence,</l>
+                        <l n="907"> Et comme vos avis sont à considérer,</l>
+                        <l n="908"> Selon l’occasion, j’y pourrai déférer.</l>
+                        <l n="909"> Cependant sur l’aveu qu’a donné la Princesse,</l>
+                        <l n="910"> Je consens que sa foi dégage sa promesse,</l>
+                        <l n="911"> Que prenant dès demain Honoric pour Époux...        </l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="912"> Son destin, je le sais, doit dépendre de vous,</l>
+                        <l n="913"> Mais ce retardement que je crois nécessaire,</l>
+                        <l n="914"> Suspendant son hymen, n’y devient pas contraire,</l>
+                        <l n="915"> Et le rang qu’elle tient semble assez mériter</l>
+                        <l n="916"> Qu’elle prenne le temps de se mieux consulter.</l>
+                        <l n="917"> Vouloir que dès demain sa foi...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="918"> C’est la contraindre,</l>
+                        <l n="919"> Il est vrai, mais elle est en pouvoir de s’en plaindre,</l>
+                        <l n="920"> Et quand elle se tait, j’admire par quel soin</l>
+                        <l n="921"> Vos prévoyants soucis veulent aller si loin.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="922"> Blâmez-vous un avis qui part d’un cœur fidèle ?       </l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="923"> Il n’est pas toujours bon de montrer tant de zèle.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="924"> Si je deviens suspect quand je crois que le temps</l>
+                        <l n="925"> Doit seul...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="926"> Vous m’entendez, Prince, et je vous entends.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="927"> La Princesse...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="928"> A parlé, cela me doit suffire.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="929"> Jugez-vous de son cœur sur ce qu’elle a pu dire ?</l>
+                        <l n="930"> Honoric pour sa flamme en veut trop présumer.</l>
+                        <l n="931"> C’est un cœur orgueilleux qui ne peut rien aimer,</l>
+                        <l n="932"> Un cœur qui s’alarmant d’un scrupule de gloire...</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="933"> D’où vient que Théodat...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE, à Ildegonde. </speaker>
+                        <l n="934"> Je ne sais plus qu’en croire.</l>
+                        <l n="935"> De l’air dont il répond du secret de ce cœur,</l>
+                        <l n="936"> Vous n’auriez eu pour lui qu’une fausse rigueur.</l>
+                        <l n="937"> Rien n’est à déguiser, l’aimez-vous ?</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="938"> Non, Madame,</l>
+                        <l n="939"> C’est toujours un dédain, une dureté d’âme,</l>
+                        <l n="940"> Qui ne lui permet pas seulement de penser</l>
+                        <l n="941"> Qu’aux plus faibles devoirs l’amour m’ait pu forcer.</l>
+                        <l n="942"> À sa haine pour moi de plus en plus fidèle...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="943"> Vous vous empressez fort à répondre pour elle ?</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="944"> Hé bien, puisqu’en mon cœur vous lisez malgré moi,</l>
+                        <l n="945"> Je tremble, je l’avoue, à voir donner sa foi.</l>
+                        <l n="946"> On le sait, autrefois j’en eus l’âme charmée,</l>
+                        <l n="947"> Je lui vouai mes soins, et je l’ai trop aimée,</l>
+                        <l n="948"> Pour ne pas m’emporter contre ce choix fatal,</l>
+                        <l n="949"> Qui la met tout-à-coup dans les bras d’un Rival.</l>
+                        <l n="950"> S’il me faut quelque jour essuyer l’amertume,</l>
+                        <l n="951"> Soufrez qu’à ce supplice au moins je m’accoutume,</l>
+                        <l n="952"> Qu’à la raison le temps m’aide enfin à céder.</l>
+                        <l n="953"> C’est ce qu’à ma douleur vous pouvez accorder.</l>
+                        <l n="954"> Toute injuste qu’elle est, daignez lui faire grâce.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="955"> J’ai laissé le cours libre à sa première audace ;</l>
+                        <l n="956"> Mais à l’examiner, pour être sans espoir,</l>
+                        <l n="957"> Cette douleur sur vous a beaucoup de pouvoir.</l>
+                        <l n="958"> Madame, je l’ai dit, je ne contrains personne ;</l>
+                        <l n="959"> Votre cœur est à vous, voyez ce qu’il ordonne,</l>
+                        <l n="960"> Et quelques sentiments qui lui soient inspirés,</l>
+                        <l n="961"> Suivez-les, j’en croirai ce que vous me direz.</l>
+                        <l n="962"> Mais ne me dites rien dont votre âme incertaine</l>
+                        <l n="963"> Trouve à se repentir, ou se fasse une peine.</l>
+                        <l n="964"> Répondez mieux de vous que n’a fait Théodat.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="965"> De ses emportements je condamne l’éclat,</l>
+                        <l n="966"> Et quoiqu’ils soient pour moi, ma gloire m’a dû mettre       </l>
+                        <l n="967"> Au dessus des soupçons qu’on s’en pourrait permettre,</l>
+                        <l n="968"> J’ai promis (et veux bien l’avouer devant tous)</l>
+                        <l n="969"> D’accepter Honoric, s’il m’obtenait de vous.</l>
+                        <l n="970"> Ainsi, Madame, en vain Théodat s’autorise</l>
+                        <l n="971"> À croire que mon cœur avec moi se déguise.</l>
+                        <l n="972"> S’il faut aller au Temple, allons-y de ce pas,</l>
+                        <l n="973"> J’en vais attendre l’ordre.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="974"> Ah, ne l’en croyez pas,</l>
+                        <l n="975"> Madame, et si jamais mes devoirs, mes services,</l>
+                        <l n="976"> Ont rendu vos bontés à mon destin propices,</l>
+                        <l n="977"> Pour soulager l’ennui dont je me sens presser...         </l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="978"> Cette obstination commence à me lasser.</l>
+                        <l n="979"> C’est trop, et par pitié, vous avez vu, je pense,</l>
+                        <l n="980"> Que je me suis forcée à quelque patience.</l>
+                        <l n="981"> Je ne pénètre point quel intérêt secret</l>
+                        <l n="982"> Vous fait voir cet hymen avec tant de regret.</l>
+                        <l n="983"> Il suffit que je sais qu’il plaît à la Princesse ;</l>
+                        <l n="984"> Et si ma main pour vous s’ouvrit avec largesse,</l>
+                        <l n="985"> Je n’ai pas prétendu vous combler de faveurs,</l>
+                        <l n="986"> Pour vous donner le droit de contraindre les cœurs.</l>
+                        <l n="987"> Plaignez-vous, murmurez ; quand le mal est extrême,          </l>
+                        <l n="988"> Il faut pour le guérir un remède de même,</l>
+                        <l n="989"> Et ce coup si terrible à vos sens égarés,</l>
+                        <l n="990"> Plus je le hâterai, moins vous en souffrirez.</l>
+                        <l n="991"> Donnez l’ordre qu’il faut, Honoric.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="992"> Non, de grâce,</l>
+                        <l n="993"> Qu’il demeure, autrement...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="994"> Quoi, jusqu’à la menace ?</l>
+                        <l n="995"> Allez m’attendre au Temple, et sans plus différer,</l>
+                        <l n="996"> Pour ce même moment faites tout préparer.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="997"> Enfin, Madame, enfin, ma gloire vous offense,</l>
+                        <l n="998"> Vous ne me voulez plus permettre d’innocence,</l>
+                        <l n="999"> J’ai beau, vous le voyez, par les plus doux efforts      </l>
+                        <l n="1000"> Asservir mon respect à craindre mes transports,</l>
+                        <l n="1001"> Vous voulez qu’il s’échappe, et tant d’ennui m’accable,</l>
+                        <l n="1002"> Qu’il faut que malgré moi je devienne coupable.</l>
+                        <l n="1003"> De ma triste raison vous m’ôtez le soutien,</l>
+                        <l n="1004"> Et perdant son secours, je ne connais plus rien.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1005"> Si vos égarements méritaient ma colère,</l>
+                        <l n="1006"> Je vous demanderais ce qui vous reste à faire,</l>
+                        <l n="1007"> Et quels crimes nouveaux vous pourriez ajouter</l>
+                        <l n="1008"> Aux nobles sentiments qui viennent d’éclater ;</l>
+                        <l n="1009"> Mais il ne vous faut point chercher d’autre supplice</l>
+                        <l n="1010"> Que mon indifférence à voir votre injustice.</l>
+                        <l n="1011"> Elle punit assez l’oubli honteux et bas,</l>
+                        <l n="1012"> Où s’emporte un Sujet qui ne se connaît pas.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1013"> Blâmez de cet oubli le transport téméraire</l>
+                        <l n="1014"> Qui cherche, veut, poursuit tout ce qui m’est contraire ;       </l>
+                        <l n="1015"> Mais par l’égarement de mes chagrins jaloux,</l>
+                        <l n="1016"> Criminel envers moi, qu’ai-je fait contre vous ?</l>
+                        <l n="1017"> De mon cœur inquiet les peines les plus grandes.</l>
+                        <l n="1018"> Qu’ont-elles qui noircisse...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1019"> Ingrat, tu le demandes ?</l>
+                        <l n="1020"> Consultez-en ce cœur d’Ildegonde charmé,</l>
+                        <l n="1021"> Ce cœur au désespoir qu’un autre soit aimé,</l>
+                        <l n="1022"> Ce cœur qui m’a trompée, et dont l’audace extrême</l>
+                        <l n="1023"> Sans scrupule à mes yeux...</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1024"> Il m’a trompé moi-même,</l>
+                        <l n="1025"> Et vous le consacrant, je ne craignais rien moins</l>
+                        <l n="1026"> Que sa prompte révolte à démentir mes soins.</l>
+                        <l n="1027"> Vous l’avez vu, Madame, avec quelle âme ouverte</l>
+                        <l n="1028"> D’Ildegonde tantôt j’ai dédaigné la perte.</l>
+                        <l n="1029"> Elle aimait, vous vouliez mettre obstacle à son feu.</l>
+                        <l n="1030"> Moi-même contre vous j’en ai pressé l’aveu ;</l>
+                        <l n="1031"> Mais (et je m’en ferai sans cesse un dur reproche)</l>
+                        <l n="1032"> J’envisageais de loin ce que je vois trop proche.</l>
+                        <l n="1033"> Le jour pris pour donner et sa main et son cœur,</l>
+                        <l n="1034"> Rendre heureux mon Rival, m’a fait trembler d’horreur.</l>
+                        <l n="1035"> Serez-vous insensible à de si rudes peines ?</l>
+                        <l n="1036"> Je ne demande point que vous brisiez leurs chaînes.</l>
+                        <l n="1037"> Différez seulement un sort pour eux trop doux,         </l>
+                        <l n="1038"> Et me donnez le temps d’être digne de vous.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1039"> D’être digne de moi ? Tu ne peux jamais l’être,</l>
+                        <l n="1040"> C’en est fait ; quand enfin tu me ferais paraître</l>
+                        <l n="1041"> Tout ce qu’a de touchant le plus ardent amour,</l>
+                        <l n="1042"> Je te dois mes dédains, n’attends point de retour.      </l>
+                        <l n="1043"> J’en souffrirai sans doute, et ma haine étonnée,</l>
+                        <l n="1044"> Te prenant pour objet, se trouvera gênée,</l>
+                        <l n="1045"> Je n’en disposerai qu’à force de combats,</l>
+                        <l n="1046"> Ils seront durs pour moi, mais tu m’en répondras ;</l>
+                        <l n="1047"> Et plus j’aurai de peine à m’arracher de l’âme</l>
+                        <l n="1048"> Les tendres sentiments qu’y fit naître ma flamme,</l>
+                        <l n="1049"> À rompre ces liens qui m’ont trop su charmer,</l>
+                        <l n="1050"> Plus tu seras puni de t’être fait aimer.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1051"> Depuis que j’ai connu ce penchant favorable,</l>
+                        <l n="1052"> Qu’ai-je à me reprocher qui me rende coupable ?      </l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1053"> Tout ; et puisque ton cœur à d’autres lois soumis</l>
+                        <l n="1054"> Ne voyait à ma flamme aucun espoir permis,</l>
+                        <l n="1055"> Tu devais, pour sauver le mien de ma faiblesse,</l>
+                        <l n="1056"> Me cacher tes vertus que j’admirais sans cesse,</l>
+                        <l n="1057"> Ces flatteuses vertus, dont l’engageant appas</l>
+                        <l n="1058"> T’assurait un triomphe où tu n’aspirais pas.</l>
+                        <l n="1059"> Mais je t’accuse à tort ; on a souvent beau faire.</l>
+                        <l n="1060"> L’Amour, le fort Amour n’a rien de volontaire,</l>
+                        <l n="1061"> Et quand on doit goûter ce dangereux poison,</l>
+                        <l n="1062"> Le Destin est toujours plus fort que la raison.</l>
+                        <l n="1063"> Je ne me prends qu’à lui du feu dont je soupire,</l>
+                        <l n="1064"> Il m’a fallu t’aimer ; mais tu me l’as fait dire,</l>
+                        <l n="1065"> Et m’avoir jusque-là forcée à m’abaisser,</l>
+                        <l n="1066"> C’est un crime pour toi qui ne peut s’effacer.</l>
+                        <l n="1067"> Pourquoi l’as-tu commis ? Sans ma flamme indiscrète          </l>
+                        <l n="1068"> Tu serais innocent, et je te le souhaite.</l>
+                        <l n="1069"> Oui, comme je ne puis te perdre sans regret.</l>
+                        <l n="1070"> Je te pardonne tout, et rends-moi mon secret.</l>
+                        <l n="1071"> Empêche que ma bouche à s’expliquer trop prompte,</l>
+                        <l n="1072"> Ne t’ait mis en pouvoir de jouir de ma honte.</l>
+                        <l n="1073"> Si mes yeux t’ont jeté quelques regards flatteurs,</l>
+                        <l n="1074"> Ce sont d’obscurs témoins qu’on traite d’imposteurs,</l>
+                        <l n="1075"> Des témoins subornés que la gloire récuse ;</l>
+                        <l n="1076"> Mais, ingrat, j’ai parlé, ton crime est sans excuse,</l>
+                        <l n="1077"> Et si sur mon amour rien ne t’est imputé,         </l>
+                        <l n="1078"> Tu te repentiras d’avoir trop écouté.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1079"> Il est vrai, cet amour m’assurait trop de gloire,</l>
+                        <l n="1080"> Et gardant d’une Ingrate encor quelque mémoire,</l>
+                        <l n="1081"> Mon cœur, quoiqu’il se crût dégagé pleinement,</l>
+                        <l n="1082"> Devait peu se promettre un aveu si charmant.</l>
+                        <l n="1083"> Aussi, Madame, aussi je vous rendrais justice,</l>
+                        <l n="1084"> Je voyais votre rang, et quoique j’entendisse,</l>
+                        <l n="1085"> Mon scrupuleux respect m’empêchait d’accepter</l>
+                        <l n="1086"> Ce que par de longs soins je voulais mériter.</l>
+                        <l n="1087"> Vos bontés avaient beau préparer ma victoire,</l>
+                        <l n="1088"> Pour vous plus que pour moi je tremblais à vous croire.</l>
+                        <l n="1089"> En rencontrant vos yeux les miens embarrassés</l>
+                        <l n="1090"> Refusaient d’expliquer...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1091"> Ce n’était pas assez,</l>
+                        <l n="1092"> Pour m’ôter du péril que tu voyais à craindre,</l>
+                        <l n="1093"> Il fallait me parler d’Ildegonde, s’en plaindre,</l>
+                        <l n="1094"> Et murmurer toujours de l’indigne rigueur</l>
+                        <l n="1095"> Qu’opposaient ses mépris à l’offre de ton cœur.</l>
+                        <l n="1096"> Du secret de ce cœur par tes plaintes instruite,</l>
+                        <l n="1097"> J’aurais mieux combattu ce qui m’a trop séduite.</l>
+                        <l n="1098"> Mais rien n’a repoussé des charmes si pressants,       </l>
+                        <l n="1099"> Tu m’as abandonnée à l’erreur de mes sens,</l>
+                        <l n="1100"> Et ne viens au secours que me devait ton zèle,</l>
+                        <l n="1101"> Qu’après que par le temps la blessure est mortelle.</l>
+                        <l n="1102"> Je me résous à tout, et si j’en puis guérir,</l>
+                        <l n="1103"> Je vois sans m’effrayer ce qu’il faudra souffrir.</l>
+                        <l n="1104"> Du moins, le désespoir qui déjà te possède,</l>
+                        <l n="1105"> Me prépare avec joie à l’aigreur du remède,</l>
+                        <l n="1106"> Et ton cœur déchiré par l’hymen que tu crains...</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1107"> Quoi, Madame, avec vous mes efforts seront vains,</l>
+                        <l n="1108"> Et je n’obtiendrai point, soit pitié, soit justice,</l>
+                        <l n="1109"> Qu’un ordre moins pressant recule mon supplice ?</l>
+                        <l n="1110"> Accordez quelques jours à mon cœur alarmé,</l>
+                        <l n="1111"> J’ai déjà tant souffert à n’être point aimé,</l>
+                        <l n="1112"> À voir que tous mes soins demeurés sans mérite</l>
+                        <l n="1113"> Ne m’ont...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1114"> Et plus que tout, c’est là ce qui m’irrite.</l>
+                        <l n="1115"> Si tes vœux acceptés justifiaient ta foi,</l>
+                        <l n="1116"> J’écouterais l’Amour qui parlerait pour toi ;</l>
+                        <l n="1117"> Mais le cœur d’une Reine où règne la tendresse,</l>
+                        <l n="1118"> Ne vaut pas les fiertés d’une ingrate Princesse.</l>
+                        <l n="1119"> Et tout l’éclat du Trône... Ah c’est trop m’outrager,</l>
+                        <l n="1120"> Plus d’amour. Je diffère encor à me venger ?</l>
+                        <l n="1121"> Viens, viens me voir au Temple, en dépit de ta flamme,</l>
+                        <l n="1122"> Donner à ton Rival ce qui charme ton âme.</l>
+                        <l n="1123"> Viens sentir les ennuis qui t’y sont préparés.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1124"> Madame, songez-y, vous me désespérez,</l>
+                        <l n="1125"> D’un criminel éclat épargnez-moi l’audace ;</l>
+                        <l n="1126"> Pour la dernière fois je vous demande grâce.</l>
+                        <l n="1127"> Si vous voulez ma mort, frappez à votre gré,</l>
+                        <l n="1128"> Tout mon sang est à vous, je vous l’ai consacré,</l>
+                        <l n="1129"> Et je puis à vos pieds le voir couler sans peine,</l>
+                        <l n="1130"> Si le triste spectacle en doit plaire à ma Reine ;</l>
+                        <l n="1131"> Mais ne m’exposez point par cet hymen affreux,</l>
+                        <l n="1132"> À tout ce que peut craindre un Amant malheureux.</l>
+                        <l n="1133"> Je frémis de l’idée, et sens qu’elle m’accable.</l>
+                        <l n="1134"> Le supplice est trop grand, je ne suis point capable,</l>
+                        <l n="1135"> Et pour me retenir, à moi-même suspect,</l>
+                        <l n="1136"> Je vois que ce n’est point assez que mon respect.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1137"> Achève, achève, Ingrat, de te montrer sensible ;</l>
+                        <l n="1138"> Le coup que je t’apprête en sera plus terrible.</l>
+                        <l n="1139"> Que n’a pu ta Princesse aujourd’hui s’enflammer,</l>
+                        <l n="1140"> T’avoir dit qu’elle peut, qu’elle songe à t’aimer !</l>
+                        <l n="1141"> Le plaisir de t’ôter par ce triste hyménée</l>
+                        <l n="1142"> Une main qui sans moi t’aurais été donnée,</l>
+                        <l n="1143"> D’un transport si charmant tiendrait mon cœur frappé,</l>
+                        <l n="1144"> Qu’il se croirait heureux d’avoir été trompé.</l>
+                        <l n="1145"> Mais n’importe, Ildegonde a charmé ta confiance ;</l>
+                        <l n="1146"> Tu l’aimes, c’est assez pour goûter ma vengeance.</l>
+                        <l n="1147"> Elle ne peut par là manquer pour moi d’appas,</l>
+                        <l n="1148"> Je vois qu’elle te tue, et j’y cours de ce pas.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1149"> Et moi, puisque mes maux touchent si peu votre âme,         </l>
+                        <l n="1150"> Je jure par le Ciel... Vous m’y forcez, Madame,</l>
+                        <l n="1151"> Quelque éclat où m’emporte un désespoir jaloux,</l>
+                        <l n="1152"> Je m’échappe à regret, n’en accusez que vous.</l>
+                        <l n="1153"> Quand je ferme les yeux sur ce que je hasarde,</l>
+                        <l n="1154"> Honoric en triomphe, il peut y prendre garde.</l>
+                        <l n="1155"> Oui, s’il faut qu’Honoric... Madame, sauvez-moi</l>
+                        <l n="1156"> Du péril de manquer à ce que je vous dois.</l>
+                        <l n="1157"> Ma raison dont le trouble étonne mon courage,</l>
+                        <l n="1158"> Ne peut plus...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1159"> Viens au Temple en recouvrer l’usage.</l>
+                        <l n="1160"> Viens-y voir d’Ildegonde Honoric s’approcher,          </l>
+                        <l n="1161"> Lui présenter la main...</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1162"> Je pourrai l’empêcher,</l>
+                        <l n="1163"> Et s’il me désespère, en m’ôtant ce que j’aime,</l>
+                        <l n="1164"> Il doit craindre mon bras jusque sur l’Autel même.</l>
+                        <l n="1165"> Qu’il y pense, Madame.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1166"> Il l’ose menacer !</l>
+                        <l n="1167"> Ah, Ciel ! quelle insolence, et qui l’eut pu penser ?</l>
+                        <l n="1168"> Ai-je, en l’élevant trop, cessé d’être sa Reine ?</l>
+                </sp>
+        <sp who="#gepilde">
+            <speaker> GEPILDE. </speaker>
+                        <l n="1169"> Madame, redoutez la fureur qui l’entraîne.</l>
+                        <l n="1170"> L’amour au désespoir est capable de tout.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1171"> Il est de sûrs moyens pour en venir à bout,</l>
+                        <l n="1172"> Et je lui ferai voir, puisqu’il m’y veut contraindre,     </l>
+                        <l n="1173"> Qu’en s’osant emporter, c’est à lui seul de craindre,</l>
+                        <l n="1174"> Holà, Gardes, à moi.</l>
+                </sp>
+        <sp who="#ataulphe">
+            <speaker> ATAULPHE. </speaker>
+                        <l n="1175"> Madame.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1176"> Allez, courez,</l>
+                        <l n="1177"> Surprenez Théodat, et vous en assurez.</l></div></div>
+           <div type="act" xml:id="4">
+           <head> ACTE IV </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#gepilde">
+            <speaker> GEPILDE. </speaker>
+                        <l n="1178"> Quoique vous vous mettiez au dessus des alarmes,</l>
+                        <l n="1179"> Si le Peuple murmure, il peut courir aux armes,        </l>
+                        <l n="1180"> Madame, et je crains bien qu’en secret révolté,</l>
+                        <l n="1181"> Il n’ait peine à souffrir Théodat arrêté.</l>
+                        <l n="1182"> Il l’estime, et son zèle a toujours fait paraître</l>
+                        <l n="1183"> Qu’il aimait sous vos lois à l’accepter pour Maître.</l>
+                        <l n="1184"> Sans doute à sa disgrâce il voudra prendre part.        </l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1185"> C’est de quoi j’ai voulu prévenir le hasard.</l>
+                        <l n="1186"> Honoric est allé de cette Populace</l>
+                        <l n="1187"> Étouffer le murmure, et réprimer l’audace,</l>
+                        <l n="1188"> Et saura d’autant mieux calmer les Mécontents,</l>
+                        <l n="1189"> Que de son hyménée il peut choisir le temps.</l>
+                        <l n="1190"> Par ce désordre seul son bonheur se recule.</l>
+                        <l n="1191"> Mais la Princesse enfin peut aimer sans scrupule.</l>
+                        <l n="1192"> Cet obstacle imprévu ne l’étonne-t-il point ?</l>
+                </sp>
+        <sp who="#gepilde">
+            <speaker> GEPILDE. </speaker>
+                        <l n="1193"> Son cœur se veut en vain déguiser sur ce point,</l>
+                        <l n="1194"> Je la trouve inquiète ; et soit qu’elle appréhende        </l>
+                        <l n="1195"> Que plus loin qu’on ne croit l’obstacle ne s’étende,</l>
+                        <l n="1196"> Soit que pour son hymen l’augure soit fâcheux,</l>
+                        <l n="1197"> On voit dans son chagrin l’embarras de ses vœux.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1198"> Ils n’auront pas longtemps l’importune contrainte</l>
+                        <l n="1199"> Qui trouble son espoir, et fait naître sa crainte ;          </l>
+                        <l n="1200"> Et puisque mon pouvoir à Théodat commis</l>
+                        <l n="1201"> De mes lâches sujets me fait des Ennemis,</l>
+                        <l n="1202"> Je le mettrai si bas, que jamais, quoiqu’il ose,</l>
+                        <l n="1203"> D’un semblable tumulte il ne sera la cause.</l>
+                        <l n="1204"> Son haut rang aux mutins peut donner trop d’appui.</l>
+                </sp>
+        <sp who="#gepilde">
+            <speaker> GEPILDE. </speaker>
+                        <l n="1205"> Quoi, Madame, l’amour ne dira rien pour lui ?</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1206"> Je l’ai sans doute aimé, je l’aime encor peut-être ;</l>
+                        <l n="1207"> Mais en trompant ma flamme il a dû me connaître,</l>
+                        <l n="1208"> Et savoir qu’une Reine abusée en son choix,</l>
+                        <l n="1209"> Ne fait point de bassesse une seconde fois.     </l>
+                        <l n="1210"> Oui, dut la violence où l’honneur me convie</l>
+                        <l n="1211"> M’arracher à moi-même, et me coûter la vie,</l>
+                        <l n="1212"> Il n’aura jamais lieu de penser que mon cœur</l>
+                        <l n="1213"> De ce honteux amour écoute encor l’ardeur.</l>
+                        <l n="1214"> À ma gloire par là ce cœur rendra justice ;       </l>
+                        <l n="1215"> Et s’il lui fallait même un plus grand sacrifice,</l>
+                        <l n="1216"> L’intérêt seul du trône étant digne de moi,</l>
+                        <l n="1217"> J’abandonnerais tout à ce que je lui dois.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1218"> Hé bien, des Factieux a-t-on calmé l’audace ?</l>
+                </sp>
+        <sp who="#ataulphe">
+            <speaker> ATAULPHE. </speaker>
+                        <l n="1219"> Madame, du murmure ils vont à la menace,</l>
+                        <l n="1220"> Et semblent s’apprêter au plus funeste éclat,</l>
+                        <l n="1221"> Si votre ordre changé ne leur rend Théodat.</l>
+                        <l n="1222"> Accourus vers le Fort, c’est là qu’ils font entendre</l>
+                        <l n="1223"> Qu’il n’est rien qu’ils ne soient résolus d’entreprendre.</l>
+                        <l n="1224"> Théodat ne peut moins attendre de leur foi,</l>
+                        <l n="1225"> Ils le veulent pour maître, ils le nomment leur Roi.</l>
+                        <l n="1226"> Ils doivent à ses soins le repos qui les flatte ;</l>
+                        <l n="1227"> Et dans leurs cris confus tant de fureur éclate,</l>
+                        <l n="1228"> Qu’on voit trop qu’Honoric, par tout ce qu’il leur dit,</l>
+                        <l n="1229"> Les irrite plutôt qu’il ne les adoucit.</l>
+                        <l n="1230"> Madame, résolvez ; le péril, le temps presse.</l>
+                        <l n="1231"> Lui céder, quelquefois n’est pas une faiblesse ;</l>
+                        <l n="1232"> Dans les maux violents trop de rigueur perd tout.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1233"> Théodat est coupable, et le peuple l’absout ?</l>
+                        <l n="1234"> Si je puis l’endurer, je ne suis donc plus Reine ?        </l>
+                        <l n="1235"> Non, pour ce nouveau crime il faut nouvelle peine.</l>
+                        <l n="1236"> À d’insolents Mutins faisons tout redouter.</l>
+                        <l n="1237"> C’est lui, c’est Théodat qui les fait révolter,</l>
+                        <l n="1238"> Ils adorent son nom pour forcer la tempête,</l>
+                        <l n="1239"> Allez, menacez-les de leur porter sa tête.</l>
+                        <l n="1240"> Puisqu’il est leur idole, ils craindront pour ses jours.</l>
+                </sp>
+        <sp who="#ataulphe">
+            <speaker> ATAULPHE. </speaker>
+                        <l n="1241"> Le mal que je prévois veut un autre secours,</l>
+                        <l n="1242"> Et quoique votre gloire...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1243"> Il faut qu’elle en décide.</l>
+                        <l n="1244"> Faisons trembler le Peuple, il est lâche et timide.</l>
+                        <l n="1245"> Ne perdez point de temps, Ataulphe.</l>
+                </sp>
+        <sp who="#ataulphe">
+            <speaker> ATAULPHE. </speaker>
+                        <l n="1246"> Je crains bien,  </l>
+                        <l n="1247"> Madame...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1248"> Allez, vous dis-je, et ne répliquez rien.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1249"> Par ce fatal amour dont je suis abusée,</l>
+                        <l n="1250"> Tu vois, Gepilde, à quoi je me suis exposée.</l>
+                        <l n="1251"> J’ai trop laissé d’un lâche affermir le pouvoir,</l>
+                        <l n="1252"> Pour me chasser du trône il n’a plus qu’à vouloir.     </l>
+                        <l n="1253"> Déjà, sans respecter le sang qui m’a fait naître,</l>
+                        <l n="1254"> Mes perfides Sujets le demandent pour Maître.</l>
+                        <l n="1255"> Aux honneurs de mon rang j’osais le destiner,</l>
+                        <l n="1256"> Il est vrai, mais l’Amour le devait couronner,</l>
+                        <l n="1257"> Et de ce Trône offert, quand ma gloire est arbitre,</l>
+                        <l n="1258"> Pour y pouvoir prétendre il n’a plus aucun titre.</l>
+                        <l n="1259"> Ne considérons point ce qu’il m’en peut coûter,</l>
+                        <l n="1260"> Mettons-nous hors d’état de le plus redouter,</l>
+                        <l n="1261"> Ôtons aux Factieux l’appui qu’ils s’en promettent.</l>
+                </sp>
+        <sp who="#gepilde">
+            <speaker> GEPILDE. </speaker>
+                        <l n="1262"> Voyez mieux les périls où ces transports vous jettent,</l>
+                        <l n="1263"> Madame, et quels malheurs suivirent autrefois</l>
+                        <l n="1264"> Ce sang donné par vous à la rigueur des Lois.</l>
+                        <l n="1265"> Pour vouloir prévenir de légères tempêtes,</l>
+                        <l n="1266"> Votre crainte à l’État immola quelques têtes,</l>
+                        <l n="1267"> Et le feu qu’alluma cette sévérité,</l>
+                        <l n="1268"> Ne souffrit plus d’obstacle à sa rapidité.</l>
+                        <l n="1269"> Ce vaste embrasement s’éteignit avec peine.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1270"> J’ai joui de l’exemple, on vit que j’étais Reine,</l>
+                        <l n="1271"> Et depuis ces rigueurs que je crûs me devoir,</l>
+                        <l n="1272"> Mes seules volontés ont réglé mon pouvoir.</l>
+                        <l n="1273"> Théodat trop longtemps en fut dépositaire,</l>
+                        <l n="1274"> Il peut en abuser, sa mort est nécessaire.</l>
+                        <l n="1275"> Si de mes feux trompés le jaloux intérêt</l>
+                        <l n="1276"> N’ose contre l’Ingrat en prononcer l’arrêt,</l>
+                        <l n="1277"> L’entière violence où le Peuple s’apprête         ,</l>
+                        <l n="1278"> Est un crime pour lui qui demande sa tête.</l>
+                        <l n="1279"> Vengeons l’honneur du Trône, et ses droits violés ?</l>
+                        <l n="1280"> Son sang me doit payer les cœurs qu’il m’a volés.</l>
+                        <l n="1281"> C’est par là... Mais pourquoi m’y résoudre avec peine ?</l>
+                        <l n="1282"> Quel est ce trouble ? Quoi, lâche et peu fière Reine,</l>
+                        <l n="1283"> Ta gloire par ta flamme ayant pu s’affaiblir,</l>
+                        <l n="1284"> Tu trembles au moment qu’il la faut rétablir ?</l>
+                        <l n="1285"> Ah, quand sur toi l’amour a pris ce dur empire,</l>
+                        <l n="1286"> Que tu t’es lâchement résolue à le dire,</l>
+                        <l n="1287"> Prête à sentir le coup qui devait t’accabler,      </l>
+                        <l n="1288"> C’était lorsque l’honneur t’obligeait à trembler,</l>
+                        <l n="1289"> Mais de ton cœur séduit les mouvements rebelles...</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#honoric">
+            <speaker> HONORIC. </speaker>
+                        <l n="1290"> Je viens vous apporter de fâcheuses nouvelles,</l>
+                        <l n="1291"> Madame, Théodat échappé malgré nous,</l>
+                        <l n="1292"> Est maître de la Ville, et s’il le veut, de vous.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1293"> Sa prison est forcée ?</l>
+                </sp>
+        <sp who="#honoric">
+            <speaker> HONORIC. </speaker>
+                        <l n="1294"> Oui, tout cède à l’orage.</l>
+                        <l n="1295"> Les Mutins par le fer s’y sont ouvert passage.</l>
+                        <l n="1296"> Trasimond à leur tête, et l’insolent Theudis,</l>
+                        <l n="1297"> Ont appuyé ce crime, et s’en sont applaudis.</l>
+                        <l n="1298"> Votre Trône affermi par le sang de leurs Pères,</l>
+                        <l n="1299"> Leur laisse un souvenir qui les rend téméraires.</l>
+                        <l n="1300"> Résolus de périr, ou de venger leur mort,</l>
+                        <l n="1301"> Ils osent décider tout haut de votre sort,</l>
+                        <l n="1302"> Et tâchent d’obtenir, pour voir l’État tranquille,</l>
+                        <l n="1303"> Qu’en se faisant leur Roi, Théodat vous exile.</l>
+                        <l n="1304"> Voilà jusqu’où leur haine a poussé l’attentat.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1305"> Ah, pourquoi n’avoir pas immolé Théodat ?</l>
+                        <l n="1306"> La révolte à ma gloire eût été moins funeste.</l>
+                        <l n="1307"> Vous eussiez par sa mort épouvanté le reste ;</l>
+                        <l n="1308"> Le nombre est peu de chose, où le Chef a manqué.</l>
+                </sp>
+        <sp who="#honoric">
+            <speaker> HONORIC. </speaker>
+                        <l n="1309"> Au milieu des mutins qui l’aurait attaqué ?</l>
+                        <l n="1310"> Ils ne permettent point que ses jours se hasardent ;</l>
+                        <l n="1311"> L’ayant choisi pour Roi, ce sont eux qui le gardent.</l>
+                        <l n="1312"> J’aurais péri pourtant ; aussi bien ces cœurs bas</l>
+                        <l n="1313"> N’ayant pu me gagner, ne m’épargneront pas.</l>
+                        <l n="1314"> Ils ont soif de mon sang, et l’ont trop fait entendre ;</l>
+                        <l n="1315"> Mais j’ai cru qu’à vos yeux je devais le répandre,</l>
+                        <l n="1316"> Et marquer à ma Reine, en renonçant au jour,</l>
+                        <l n="1317"> Combien je sens les maux qu’a causés mon amour.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1318"> Il n’en faut point douter, le Trône a ses amorces,        </l>
+                        <l n="1319"> J’ai trop à Théodat fait connaître ses forces.</l>
+                        <l n="1320"> Sûr de l’appui du Peuple, il a vu que sans moi,</l>
+                        <l n="1321"> Sans me donner la main, il pouvait être Roi,</l>
+                        <l n="1322"> Et ne pouvant douter qu’avec le Diadème</l>
+                        <l n="1323"> Il ne parût aimable aux yeux de ce qu’il aime,</l>
+                        <l n="1324"> Quoique pour votre hymen il m’ait pu demander,</l>
+                        <l n="1325"> Prêt à perdre Ildegonde, il n’a pu la céder.</l>
+                        <l n="1326"> L’arrêt de mon exil n’a plus rien qui m’étonne ;</l>
+                        <l n="1327"> Pour la faire régner, c’est l’amour qui le donne.</l>
+                        <l n="1328"> Theudis et Trasimond auraient-ils aujourd’hui</l>
+                        <l n="1329"> Osé parler si haut, s’ils n’étaient sûrs de lui ?</l>
+                        <l n="1330"> De ses complots par là je vois la certitude.</l>
+                        <l n="1331"> Mais quand le Ciel me livre à son ingratitude,</l>
+                        <l n="1332"> Assemblant ce que j’ai de fidèles Sujets,</l>
+                        <l n="1333"> Faites leur pénétrer ses coupables projets,</l>
+                        <l n="1334"> Parlez, essayez tout. Souvent un faible obstacle</l>
+                        <l n="1335"> Fait ce qu’on aurait cru ne pouvoir sans miracles.</l>
+                        <l n="1336"> Du moins, forcés à voir mon Ennemi régner,</l>
+                        <l n="1337"> Si j’obtiens quelque temps, je croirai tout gagner.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1338"> Est-il une infortune à ma disgrâce égale,</l>
+                        <l n="1339"> Gepilde ? Il faudra voir triompher ma Rivale.</l>
+                        <l n="1340"> En vain contre ce cœur que je crûs obtenir,</l>
+                        <l n="1341"> La fierté d’Ildegonde aura voulu tenir.</l>
+                        <l n="1342"> Un Trône adoucit tout, et le titre de Reine,</l>
+                        <l n="1343"> Sitôt qu’il est offert, ne soufre plus de haine.</l>
+                        <l n="1344"> L’orgueil le plus farouche est par lui désarmé,</l>
+                        <l n="1345"> Théodat peut l’offrir, Théodat est aimé.</l>
+                        <l n="1346"> Il est aimé ? Non, non, avant qu’il puisse l’être,</l>
+                        <l n="1347"> Il ne m’a pas connue, il pourra me connaître,</l>
+                        <l n="1348"> Je règne encor, qu’il tremble. Oui, loin d’épargner rien,       </l>
+                        <l n="1349"> S’il faut percer mon cœur pour aller jusqu’au sien,</l>
+                        <l n="1350"> Sans pitié de moi-même, et toute à ma vengeance...</l>
+                </sp>
+        <sp who="#gepilde">
+            <speaker> GEPILDE. </speaker>
+                        <l n="1351"> Cachez ce mouvement, le voici qui s’avance.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1352"> Je ne viens point, Madame, en insolent vainqueur,</l>
+                        <l n="1353"> Braver votre colère, ou blâmer sa rigueur.       </l>
+                        <l n="1354"> Plus irrité que vous de tout ce qui se passe,</l>
+                        <l n="1355"> Je viens en criminel vous demander ma grâce.</l>
+                        <l n="1356"> Sans moi, sans mon aveu quoique l’on ait osé,</l>
+                        <l n="1357"> Tout le crime est à moi, puisque je l’ai causé ;</l>
+                        <l n="1358"> Mais si de son succès ma passion abuse,          </l>
+                        <l n="1359"> De ma coupable audace Ildegonde est l’excuse,</l>
+                        <l n="1360"> Et ce n’est qu’à genoux que je veux obtenir</l>
+                        <l n="1361"> Qu’au moins vous suspendiez l’ordre de m’en punir.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1362"> Levez-vous, Théodat. Il faut que je l’avoue,</l>
+                        <l n="1363"> Le Ciel veut que de vous malgré moi je me loue.      </l>
+                        <l n="1364"> D’abord, en vous voyant, j’avais crû contre vous</l>
+                        <l n="1365"> Devoir faire éclater le plus ardent courroux ;</l>
+                        <l n="1366"> Mais vous le séduisez, et l’art de vous soumettre,</l>
+                        <l n="1367"> Quand un Peuple animé vous semble tout permettre,</l>
+                        <l n="1368"> Est un art si puissant dessus mes volontés,     </l>
+                        <l n="1369"> Qu’il force ma colère, et vous rend mes bontés.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1370"> Que de gloire pour moi ! Je le connais, Madame,</l>
+                        <l n="1371"> Mes indiscrets transports ont dû toucher votre âme,</l>
+                        <l n="1372"> Et contre mon Rival trop d’aigreur a suivi</l>
+                        <l n="1373"> La perte de l’espoir que son feu m’a ravi.        </l>
+                        <l n="1374"> Ce reste mal éteint d’une aveugle tendresse</l>
+                        <l n="1375"> Est un crime...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1376"> Gepilde, amenez la Princesse.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1377"> Quoi ? la mander sitôt ! Laissez-moi respirer,</l>
+                        <l n="1378"> Madame, c’est assez de ne rien désirer.</l>
+                        <l n="1379"> Après le premier crime où m’a forcé ma flamme,       </l>
+                        <l n="1380"> À de nouveaux combats ne livrez point mon âme,</l>
+                        <l n="1381"> Et m’accordez le temps de pouvoir mériter</l>
+                        <l n="1382"> Le retour des bontés qui semblent me flatter.</l>
+                        <l n="1383"> S’il s’agit de sa main, quelque effort que je presse,</l>
+                        <l n="1384"> Ma vertu se défie encor de ma faiblesse.</l>
+                        <l n="1385"> Ménagez-la, de grâce, et ne l’exposez pas.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1386"> Pour moi, comme pour vous, la gloire a des appas,</l>
+                        <l n="1387"> Et quand vous refusez d’user des avantages</l>
+                        <l n="1388"> Qui vous ont contre moi donné tant de suffrages...</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1389"> Ah, Madame, daignez ne vous plus souvenir</l>
+                        <l n="1390"> D’un crime qu’il vous plaît négliger de punir ;</l>
+                        <l n="1391"> Et si trop de chaleur a de quelques Complices</l>
+                        <l n="1392"> Contre vos intérêts marqué les injustices,</l>
+                        <l n="1393"> Ignorez-les assez, pour souffrir que ma foi</l>
+                        <l n="1394"> En répare l’injure et pour eux, et pour moi.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1395"> Théodat n’a jamais remporté tant de gloire,</l>
+                        <l n="1396"> Qu’en gagnant sur soi-même une illustre victoire.</l>
+                        <l n="1397"> Quand il peut tout oser, il veut ne pouvoir rien ;</l>
+                        <l n="1398"> Maître de mon destin, il me soumet le sien,</l>
+                        <l n="1399"> Et quelque soit le prix qu’une vertu si rare      </l>
+                        <l n="1400"> Demande qu’à l’envi la mienne lui prépare,</l>
+                        <l n="1401"> J’ai besoin que vos vœux avec les miens d’accord,</l>
+                        <l n="1402"> D’un éclat achevé fassent briller son sort.</l>
+                        <l n="1403"> Le seul titre de Roi pour lui me peut suffire.</l>
+                        <l n="1404"> Ainsi je l’associe aux honneurs de l’Empire,</l>
+                        <l n="1405"> Mon règne partagé n’en sera pas moins doux.</l>
+                        <l n="1406"> Dans ce haut rang, Princesse, il est digne de vous.</l>
+                        <l n="1407"> Je sais que votre cœur à son amour contraire</l>
+                        <l n="1408"> Aura pour se dompter quelques efforts à faire ;</l>
+                        <l n="1409"> Mais ce que je lui dois peut-être a mérité</l>
+                        <l n="1410"> Que vous n’en croyiez pas toute votre fierté.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1411"> Quoi, Madame, un coupable aurait droit de prétendre...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1412"> Il suffit, là-dessus je ne veux rien entendre.</l>
+                        <l n="1413"> Obtenez seulement que par de prompts effets</l>
+                        <l n="1414"> La Princesse pour vous seconde mes projets.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1415"> Le Trône vaut beaucoup, je le sais ; mais, Madame,</l>
+                        <l n="1416"> Son plus pompeux éclat n’éblouit point mon âme.</l>
+                        <l n="1417"> Quoiqu’aux vœux d’Honoric elle ait trouvé d’appas,</l>
+                        <l n="1418"> J’y veux bien renoncer, s’ils ne vous plaisent pas ;</l>
+                        <l n="1419"> C’est un choix dont toujours vous serez la maîtresse.</l>
+                        <l n="1420"> Par vous autorisé, par vous cet amour cesse ;</l>
+                        <l n="1421"> Mais si vous m’ordonnez de reprendre ma foi,</l>
+                        <l n="1422"> Ne me contraignez point à disposer de moi.</l>
+                        <l n="1423"> Théodat connaît trop l’intérêt de sa gloire,</l>
+                        <l n="1424"> Pour écouter un feu qu’en vain il voudrait croire ;</l>
+                        <l n="1425"> Un choix plus relevé doit flatter son espoir.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE, à Théodat. </speaker>
+                        <l n="1426"> Le temps sur ce mépris aura quelque pouvoir.</l>
+                        <l n="1427"> Tâchez de la fléchir, je vous laisse avec elle.</l>
+                        <l n="1428"> Montrez-lui les honneurs où votre amour l’appelle ;</l>
+                        <l n="1429"> L’appas en est sensible, et qui sait bien aimer,</l>
+                        <l n="1430"> Avec un Sceptre en main, est en droit de charmer.</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1431"> Donc à me rendre heureux lorsque tout se dispose,</l>
+                        <l n="1432"> Ma Princesse elle seule à mon bonheur s’oppose ?</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1433"> Dites, dites plutôt que je veux détourner</l>
+                        <l n="1434"> L’orage menaçant qui peut vous entraîner.</l>
+                        <l n="1435"> La Reine avecque vous partage sa Couronne,</l>
+                        <l n="1436"> Vous demandez mon cœur, son aveu vous le donne.</l>
+                        <l n="1437"> Voilà bien des bontés, et jamais on n’a vu</l>
+                        <l n="1438"> Faire un effort sur soi plus grand, plus imprévu ;</l>
+                        <l n="1439"> Mais l’amorce est trop faible à séduire mon âme.</l>
+                        <l n="1440"> La Reine est outragée, elle soufre, elle est Femme,</l>
+                        <l n="1441"> Et le jaloux chagrin qui vous fit arrêter,</l>
+                        <l n="1442"> S’évanouit trop tôt pour n’en rien redouter.</l>
+                        <l n="1443"> Croyez-moi, Théodat, on cherche à vous surprendre.</l>
+                        <l n="1444"> Plus elle vous promet, moins s’il en faut attendre.</l>
+                        <l n="1445"> Notre sexe pour vaincre a l’art de reculer,</l>
+                        <l n="1446"> Et sa plus grande force est à dissimuler...</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1447"> D’un changement si prompt quel que soit le mystère,</l>
+                        <l n="1448"> Qu’en appréhendez-vous, et que peut-elle faire ?</l>
+                        <l n="1449"> Theudis s’est déclaré ; Trasimond comme lui,</l>
+                        <l n="1450"> Quoique je veuille oser, me servira d’appui.</l>
+                        <l n="1451"> Non que jamais je puisse avoir l’âme assez basse</l>
+                        <l n="1452"> Pour offenser la Reine, ou souffrir sa disgrâce,</l>
+                        <l n="1453"> Tous deux sur son exil auront beau me presser,</l>
+                        <l n="1454"> Le Ciel l’a mise au Trône, et je l’y veux laisser.</l>
+                        <l n="1455"> Mais pour leur sûreté je ne saurais moins faire</l>
+                        <l n="1456"> Que garder un pouvoir qui rompe sa colère,</l>
+                        <l n="1457"> Un pouvoir qui plus fort que son ressentiment</l>
+                        <l n="1458"> Les dérobe aux fureurs de son emportement.</l>
+                        <l n="1459"> Tout le Peuple est pour moi, les Soldats et l’Armée...</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1460"> Ils aiment votre gloire et votre renommée,</l>
+                        <l n="1461"> À l’envi tout le monde appuiera votre sort,</l>
+                        <l n="1462"> Mais contre une surprise est-il rien d’assez fort ?</l>
+                        <l n="1463"> Pour vous en garantir je ne sais qu’une voie.</l>
+                        <l n="1464"> Tant de faveurs sur vous que la Reine déploie,</l>
+                        <l n="1465"> Doivent trop vous toucher, pour souffrir que jamais</l>
+                        <l n="1466"> Son exil soit par vous le prix de ses bienfaits.</l>
+                        <l n="1467"> Vous devez partager la puissance suprême ?</l>
+                        <l n="1468"> Demandez que sa main suive le Diadème.</l>
+                        <l n="1469"> Par là vous évitez la honte d’être ingrat,           </l>
+                        <l n="1470"> Conservez vos amis, satisfaites l’État,</l>
+                        <l n="1471"> Et maître de son cœur ainsi que de l’Empire,</l>
+                        <l n="1472"> Étouffez la vengeance où sans doute elle aspire.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1473"> Quel conseil, ou plutôt quelle injure à ma foi ?</l>
+                        <l n="1474"> Je vous voyais tantôt plus de bonté pour moi.</l>
+                        <l n="1475"> Vous ne déguisiez point que l’hymen de la Reine,</l>
+                        <l n="1476"> Résolu tout-à-coup, vous donnait quelque peine.</l>
+                        <l n="1477"> Pourquoi changer sitôt des sentiments si doux ?</l>
+                        <l n="1478"> Aimez-vous Honoric, ou me haïssez-vous ?</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1479"> C’est trop, dispensez-moi de voir à quoi m’expose</l>
+                        <l n="1480"> Ce qu’un noble intérêt veut que je vous propose.</l>
+                        <l n="1481"> Si je m’en consultais, peut-être pour mon cœur</l>
+                        <l n="1482"> Ce triste hymen encor aurait même rigueur ;</l>
+                        <l n="1483"> Mais pour ne point souffrir que je l’en ose croire,</l>
+                        <l n="1484"> Il suffit qu’il n’est pas le même pour ma gloire.          </l>
+                        <l n="1485"> Quand de vos feux tantôt la Reine était le prix,</l>
+                        <l n="1486"> Cette gloire outragée essuyait vos mépris,</l>
+                        <l n="1487"> Et lorsqu’à l’épouser c’est moi qui vous convie,</l>
+                        <l n="1488"> J’immole à ma vertu le bonheur de ma vie.</l>
+                        <l n="1489"> L’effort m’en coûte assez, pour mériter de vous         </l>
+                        <l n="1490"> Sur ce cruel triomphe un reproche plus doux.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1491"> L’effort est grand sans doute, et marque un cœur sublime,</l>
+                        <l n="1492"> Qu’en tout ce qu’il résout la gloire seule anime,</l>
+                        <l n="1493"> Un cœur qui sous les sens n’est jamais abattu ;</l>
+                        <l n="1494"> Mais, Madame, est-ce aimer qu’avoir tant de vertu ?</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1495"> Oui, puisque devant tout à votre amour extrême,</l>
+                        <l n="1496"> Je ne puis moins pour vous que m’immoler moi-même.</l>
+                        <l n="1497"> Par un hymen auguste assuré d’être Roi,</l>
+                        <l n="1498"> Vous avez dédaigné la Couronne pour moi.</l>
+                        <l n="1499"> Cet amour vous a fait, par un plein sacrifice,</l>
+                        <l n="1500"> D’une indigne prison endurer l’injustice,</l>
+                        <l n="1501"> Et vous voulez encor pour mes seuls intérêts</l>
+                        <l n="1502"> Exposer votre sang à des complots secrets.</l>
+                        <l n="1503"> Pour assurer vos jours, dont le péril m’étonne,</l>
+                        <l n="1504"> Il le faut, je vous rends cette même Couronne.</l>
+                        <l n="1505"> Si la condition tient vos sens soulevés,</l>
+                        <l n="1506"> Songez que c’est de moi que vous la recevez,</l>
+                        <l n="1507"> Que c’est moi...</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1508"> Non, Madame, assemblés pour ma gloire</l>
+                        <l n="1509"> Les plus brillants honneurs qui suivent la victoire ;</l>
+                        <l n="1510"> Mettez sous ma puissance et mille et mille États,</l>
+                        <l n="1511"> Vous ne me donnez rien en ne vous donnant pas.</l>
+                        <l n="1512"> C’est pour vous que je vis, pour vous que je veux vivre.</l>
+                        <l n="1513"> Je n’ai point d’autre bien, d’autre gloire à poursuivre,</l>
+                        <l n="1514"> Et de tout ce qui fait le vrai bonheur d’un Roi,</l>
+                        <l n="1515"> Rien ne me peut manquer, si vous êtes à moi.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1516"> Ne vous en croyez pas, votre raison séduite...</l></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#euthar">
+            <speaker> EUTHAR. </speaker>
+                        <l n="1517"> Seigneur, d’un nouveau trouble appréhendez la suite.</l>
+                        <l n="1518"> Theudis avec les Siens dans le Palais entré,</l>
+                        <l n="1519"> Épiant Honoric, l’a d’abord rencontré,</l>
+                        <l n="1520"> Et le nommant tout haut l’auteur de la disgrâce         </l>
+                        <l n="1521"> Qui du Peuple pour vous a fait naître l’audace,</l>
+                        <l n="1522"> Il le pousse, il le presse, et sans un prompt secours,</l>
+                        <l n="1523"> Quoiqu’il ait quelque appui, je crains tout pour ses jours.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1524"> Allez-y, Théodat et dérobant sa vie...</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1525"> Vous le voulez, Madame, et l’honneur m’y convie.</l>
+                        <l n="1526"> Tout mon Rival qu’il est, je cours à son côté</l>
+                        <l n="1527"> Combattre la fureur d’un Parti révolté,</l>
+                        <l n="1528"> Et tant qu’un calme entier achève de l’éteindre,</l>
+                        <l n="1529"> À moins que je périsse, il n’aura rien à craindre.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1530"> Prenez soin de vous-même, et quoiqu’aimé de tous,</l>
+                        <l n="1531"> Songez qu’un bras caché pourrait tout contre vous.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1532"> Si ma vie à sauver vous tient en défiance,</l>
+                        <l n="1533"> Dites que vous m’aimez, elle est en assurance.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1534"> Vous avez là-dessus tout lieu d’être content ;</l>
+                        <l n="1535"> Si j’étais sans amour, je ne craindrais par tant.</l></div></div>
+           <div type="act" xml:id="5">
+           <head> ACTE V </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#valmire">
+            <speaker> VALMIRE. </speaker>
+                        <l n="1536"> L’Amour, pour votre cœur doit avoir bien des charmes,</l>
+                        <l n="1537"> Si d’un songe confus vous prenez tant d’alarmes.</l>
+                        <l n="1538"> Quelque trouble par là qui vous ait pu frapper,</l>
+                        <l n="1539"> Au moins votre réveil a dû le dissiper.</l>
+                        <l n="1540"> À de vaines frayeurs vous souffrez trop d’empire,</l>
+                        <l n="1541"> Madame, et quand le jour...</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1542"> Le jour paraît, Valmire,</l>
+                        <l n="1543"> Et nous va faire voir si mon esprit séduit</l>
+                        <l n="1544"> S’est trop laissé surprendre aux erreurs de la nuit ;</l>
+                        <l n="1545"> Mais déjà comme moi tu vois tout lieu de craindre.</l>
+                        <l n="1546"> On se plaint sans savoir de quoi l’on se doit plaindre ;</l>
+                        <l n="1547"> De Théodat par tout le nom est entendu,</l>
+                        <l n="1548"> On parle d’entreprise et de sang répandu.</l>
+                        <l n="1549"> Puis-je sur ce murmure être moins inquiète ?</l>
+                </sp>
+        <sp who="#valmire">
+            <speaker> VALMIRE. </speaker>
+                        <l n="1550"> Mais dans ce trouble enfin Théodat seul vous jette,</l>
+                        <l n="1551"> Et je vous y croyais l’esprit moins disposé      </l>
+                        <l n="1552"> En faveur d’un Amant si longtemps méprisé.</l>
+                        <l n="1553"> L’Amour de vos dédains punit bien l’injustice.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1554"> Ne me reproche point un bizarre caprice.</l>
+                        <l n="1555"> Avant qu’avecque toi j’eusse osé m’en ouvrir,</l>
+                        <l n="1556"> J’avais déjà souffert tout ce qu’on peut souffrir.</l>
+                        <l n="1557"> Cependant je ne sais si lorsque je m’enflamme,</l>
+                        <l n="1558"> L’amour de Théodat éblouit trop mon âme ;</l>
+                        <l n="1559"> Mais le Trône oublié, sitôt qu’il a pu voir</l>
+                        <l n="1560"> Après tant de refus quelque rayon d’espoir,</l>
+                        <l n="1561"> Son chagrin, ses transports, sa vie abandonnée,          </l>
+                        <l n="1562"> Pour me débarrasser d’un fâcheux hyménée,</l>
+                        <l n="1563"> Tout cela dans mon cœur lui donne tant d’appui,</l>
+                        <l n="1564"> Qu’il serait malaisé qu’il osât moins pour lui.</l>
+                        <l n="1565"> Vois d’ailleurs avec moi cette vertu sublime,</l>
+                        <l n="1566"> Qui soumet son destin à la main qui l’opprime.         </l>
+                        <l n="1567"> Le Peuple hait la Reine, et la veut exiler ;</l>
+                        <l n="1568"> Il résiste, et contre elle on ne peut l’ébranler.</l>
+                        <l n="1569"> Il fait plus, il apprend qu’une Troupe ennemie</l>
+                        <l n="1570"> Surprenant Honoric, attente sur sa vie ;</l>
+                        <l n="1571"> Soudain, quoique Rival, il vole à son secours,</l>
+                        <l n="1572"> L’arrache de ses mains, et prend soin de ses jours.</l>
+                        <l n="1573"> Veux-tu que sans rien voir de tout...</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1574"> Enfin, Princesse,</l>
+                        <l n="1575"> Les Destins sont pour nous, que votre crainte cesse.</l>
+                        <l n="1576"> Hier si je témoignai pour le bien de l’État</l>
+                        <l n="1577"> Vouloir vous asservir aux vœux de Théodat,</l>
+                        <l n="1578"> Je viens pour réparer cette honteuse feinte,</l>
+                        <l n="1579"> Ôter à vos désirs toute ombre de contrainte.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1580"> Ah, Valmire !</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1581"> Honoric étant aimé de vous,</l>
+                        <l n="1582"> Peut déjà s’applaudir du nom de votre Époux,</l>
+                        <l n="1583"> Il n’aura plus d’obstacle à ce grand hyménée.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1584"> Se pourrait-il...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1585"> J’en ai l’âme encor étonnée.</l>
+                        <l n="1586"> J’aimais, et ce n’est pas sans trouble, sans horreur,</l>
+                        <l n="1587"> Que l’amour indigné se porte à la fureur ;</l>
+                        <l n="1588"> Mais il y va du Trône, on m’avait outragée,</l>
+                        <l n="1589"> Ma gloire en murmurait, et je me suis vengée.</l>
+                        <l n="1590"> Trouble, désordre, horreur, tout est doux à ce prix.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1591"> Sans doute Théodat...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1592"> Vous l’aurait-on appris ?</l>
+                        <l n="1593"> Oui, Princesse, à la joie abandonnez votre âme,</l>
+                        <l n="1594"> Théodat ne vit plus.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1595"> Théodat... Quoi, Madame...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1596"> Deux des siens dès longtemps m’avait vendu leur foi.</l>
+                        <l n="1597"> Comblez de mes bienfaits ils étaient tout à moi,</l>
+                        <l n="1598"> Et par eux cette nuit ma vengeance assouvie</l>
+                        <l n="1599"> M’a de ce nouveau Roi sacrifié la vie.</l>
+                        <l n="1600"> Sans bruit et sans lumière ils ont pris le moment</l>
+                        <l n="1601"> De se pouvoir couler dans son appartement,</l>
+                        <l n="1602"> Et tandis qu’à la mort le sommeil l’abandonne,</l>
+                        <l n="1603"> Ils suivent à l’envi l’ordre que je leur donne.</l>
+                        <l n="1604"> Percé des premiers coups, Théodat, mais trop tard,</l>
+                        <l n="1605"> Tâche de l’un des deux à saisir le poignard.</l>
+                        <l n="1606"> Soudain chacun redouble, il se débat, s’élance,</l>
+                        <l n="1607"> Et puisqu’il faut périr, fait tout pour sa vengeance ;</l>
+                        <l n="1608"> Mais dans cet instant même, après un cri confus,</l>
+                        <l n="1609"> Sans force, sans parole, il tombe, et ne vit plus.</l>
+                        <l n="1610"> Le jour dont la clarté découvre l’entreprise,</l>
+                        <l n="1611"> Fait déjà succéder la plainte à la surprise ;</l>
+                        <l n="1612"> On me soupçonnera, mais contre les Mutins</l>
+                        <l n="1613"> Une rigueur si prompte assure nos destins.</l>
+                        <l n="1614"> Plus de chef, plus d’audace ; il est quelques Complices</l>
+                        <l n="1615"> Dont je puis à loisir ordonner les supplices.</l>
+                        <l n="1616"> Mais quelle émotion agite votre cœur ?</l>
+                        <l n="1617"> Un peu de sang versé vous fait-il tant de peur ?</l>
+                        <l n="1618"> Pour goûter pleinement le fruit de ma vengeance,</l>
+                        <l n="1619"> Voyez de votre amour qu’elle fait l’assurance,</l>
+                        <l n="1620"> Et libre à disposer de vos vœux les plus doux,</l>
+                        <l n="1621"> Jouissez d’un plaisir qu’elle n’offre qu’à vous.</l>
+                        <l n="1622"> Qu’un bien si précieux vous la doit rendre chère !</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1623"> Vous la connaissez mal, goûtez-la toute entière,</l>
+                        <l n="1624"> Et puisque votre rage en chérit tant l’appas,</l>
+                        <l n="1625"> Voyez-y des douceurs que vous n’attendiez pas,</l>
+                        <l n="1626"> Ne vous imputez point un crime détestable ;</l>
+                        <l n="1627"> Si Théodat est mort, j’en suis seule coupable.</l>
+                        <l n="1628"> Votre haine à sa perte a peu contribué ;</l>
+                        <l n="1629"> Par vous, par vos fureurs, c’est moi qui l’ai tué.</l>
+                        <l n="1630"> C’est moi qui vous immole une tête si chère.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1631"> Ciel ! que me dites-vous ?</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1632"> Ce qu’il ne faut plus taire.</l>
+                        <l n="1633"> Malgré tout mon orgueil Théodat fut mon choix,</l>
+                        <l n="1634"> Hier je m’en expliquai pour la première fois,</l>
+                        <l n="1635"> Il sut que je l’aimais, et cette connaissance</l>
+                        <l n="1636"> Rendant à son amour toute sa violence,</l>
+                        <l n="1637"> Ni votre cœur offert, ni le titre de Roi.</l>
+                        <l n="1638"> Ne purent obtenir qu’il renonçât à moi.</l>
+                        <l n="1639"> Il suivit de son feu l’emportement funeste.</l>
+                        <l n="1640"> Combattit mon hymen. Vous avez fait le reste,</l>
+                        <l n="1641"> Et son sang répandu, lorsqu’il ne craignait rien,</l>
+                        <l n="1642"> En vengeant votre amour, désespère le mien.</l>
+                        <l n="1643"> Pardonne, Théodat, à ma jalouse envie.</l>
+                        <l n="1644"> Ma fierté fit toujours le malheur de ta vie,</l>
+                        <l n="1645"> Et par un surprenant et déplorable sort,</l>
+                        <l n="1646"> Pour s’être démentie, elle cause ta mort.</l>
+                        <l n="1647"> Oui, par son changement c’est elle qui te tue.</l>
+                        <l n="1648"> Pourquoi ne l’avoir plus, ou pourquoi l’avoir eue ?</l>
+                        <l n="1649"> Mais après tant d’ennuis, puisqu’elle t’a jeté</l>
+                        <l n="1650"> Dans l’abîme où pour moi tu t’es précipité,</l>
+                        <l n="1651"> De mon cœur pour jamais mon désespoir l’arrache ;</l>
+                        <l n="1652"> Il te la sacrifie, et je veux bien qu’on sache       </l>
+                        <l n="1653"> Que jusques au tombeau mes soupirs et mes pleurs</l>
+                        <l n="1654"> Ne se lasseront point de venger tes malheurs.</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1655"> Enfin, grâces au Ciel, rien ne manque à ma joie.</l>
+                        <l n="1656"> À pleines mains sur moi sa faveur se déploie.</l>
+                        <l n="1657"> Dans mon cœur agité je ne sais quels combats</l>
+                        <l n="1658"> De la mort d’un amant corrompaient les appas.</l>
+                        <l n="1659"> Je tremblais d’une gloire à mon amour fatale ;</l>
+                        <l n="1660"> Mais quand je puis jouir des pleurs de ma Rivale,</l>
+                        <l n="1661"> Ses ennuis à mes yeux si vivement offerts</l>
+                        <l n="1662"> Consolent cet amour de tout ce que je perds.</l>
+                        <l n="1663"> Qui l’eût crû qu’Ildegonde, elle qui fut si fière ;</l>
+                        <l n="1664"> Allant pour Théodat jusques à la prière,</l>
+                        <l n="1665"> Avec tant de bassesse eut mendié sa foi,</l>
+                        <l n="1666"> Pour me voler un cœur qui se donnait à moi ?</l>
+                        <l n="1667"> C’est donc ce qui le fit à soi-même infidèle ?</l>
+                        <l n="1668"> L’ingrat sitôt changé, ne changea que pour elle,</l>
+                        <l n="1669"> Et leur intelligence à braver mon amour,</l>
+                        <l n="1670"> De ses feux mal éteints produisit le retour :</l>
+                        <l n="1671"> Ah si j’avais connu... Mais qu’eut pu ma vengeance,</l>
+                        <l n="1672"> Qui de mes vœux trahis réparât mieux l’offense ?      </l>
+                        <l n="1673"> De deux Amants ensemble ordonner le trépas,</l>
+                        <l n="1674"> Quelque cruel qu’il soit, c’est ne les punir pas.</l>
+                        <l n="1675"> Lorsque l’un perd le jour sous le fer qui l’en prive,</l>
+                        <l n="1676"> Pour en sentir l’atteinte, il faut que l’autre vive.</l>
+                        <l n="1677"> Oui, perfide Rivale, après l’indigne éclat         </l>
+                        <l n="1678"> De l’outrageant amour qui m’ôte Théodat,</l>
+                        <l n="1679"> Si pour voir ma vengeance heureusement remplie.</l>
+                        <l n="1680"> J’eus besoin de sa mort, j’ai besoin de ta vie.</l>
+                        <l n="1681"> J’eus besoin qu’à toute heure, examinant sa foi,</l>
+                        <l n="1682"> Tu songes, s’il est mort, qu’il n’est mort que par toi,</l>
+                        <l n="1683"> Que ton bras a versé le sang que tu regrettes.</l>
+                        <l n="1684"> J’élevais son destin à des grandeurs parfaites,</l>
+                        <l n="1685"> Ton amour malgré moi s’est rendu son bourreau :</l>
+                        <l n="1686"> Je le mettais au Trône, il le met au tombeau.</l>
+                        <l n="1687"> Peins-toi bien cette Image, et toute déchirée</l>
+                        <l n="1688"> Par l’affreuse douleur de t’en voir séparée,</l>
+                        <l n="1689"> Toujours preste à mourir sous l’horreur du remords.</l>
+                        <l n="1690"> Chaque jour, s’il se peut, endure mille morts.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1691"> Insultez aux ennuis dont la rigueur funeste</l>
+                        <l n="1692"> Accable d’un Amant le déplorable reste.          </l>
+                        <l n="1693"> Faites sous leur excès gémir ce cœur ingrat,</l>
+                        <l n="1694"> Je vivrai pour pleurer le sort de Théodat,</l>
+                        <l n="1695"> Et ces morts que pour moi votre vengeance amasse,</l>
+                        <l n="1696"> De vos lâches fureurs rempliront la menace.</l>
+                        <l n="1697"> Mais craignez que mes jours malgré moi conservés,</l>
+                        <l n="1698"> Ne troublent les douceurs que vous vous réservez.</l>
+                        <l n="1699"> Dés longtemps sur le Trône au sang accoutumée,</l>
+                        <l n="1700"> Vous le voyez couler sans en être alarmée.</l>
+                        <l n="1701"> Sur le faible soupçon d’un douteux attentat,</l>
+                        <l n="1702"> Vous avez répandu le plus pur de l’État.         </l>
+                        <l n="1703"> Contre vous, quoique tard, c’est un crime à poursuivre,</l>
+                        <l n="1704"> Je ne m’en tairai pas, si vous me laissez vivre.</l>
+                        <l n="1705"> Il est des cœurs aigris, qui pour venger ce sang,</l>
+                        <l n="1706"> Vous détestant pour Reine attaquent votre rang.</l>
+                        <l n="1707"> Theudis et Trasimond n’ont pas quitté les armes.</l>
+                        <l n="1708"> J’irai les animer par mes cris, par mes larmes,</l>
+                        <l n="1709"> Leur montrer Théodat tout percé de vos coups,</l>
+                        <l n="1710"> Ce Théodat qui dût attendre tout de vous,</l>
+                        <l n="1711"> Ce Théodat... Mais, Dieux, faut-il que je m’en croie ?</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1712"> On m’a trompée ! Ah Ciel !</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1713"> Vous vivez ? quelle joie !</l>
+                        <l n="1714"> Mes reproches, Madame, ont été trop avant,</l>
+                        <l n="1715"> N’en redoutez plus rien, Théodat est vivant.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT, à Amalasonte. </speaker>
+                        <l n="1716"> Pour me justifier, j’ai besoin de ma gloire,</l>
+                        <l n="1717"> Elle est mon seul recours, mais l’en voudrez vous croire,</l>
+                        <l n="1718"> Madame ? tout m’accuse, et pour noircir ma foi,</l>
+                        <l n="1719"> Du plus honteux forfait l’indice est contre moi.</l>
+                        <l n="1720"> Hier sachant qu’Honoric par un nouveau tumulte</l>
+                        <l n="1721"> De quelques factieux souffrait ici l’insulte,</l>
+                        <l n="1722"> Confus de ce désordre, afin de l’empêcher,</l>
+                        <l n="1723"> De leurs mains aussitôt je courus l’arracher.</l>
+                        <l n="1724"> À ma voix, à mes cris ne déférant qu’à peine,</l>
+                        <l n="1725"> Ils juraient que son sang satisferait leur haine,</l>
+                        <l n="1726"> Et Theudis à regret différant son trépas,</l>
+                        <l n="1727"> Exécutait des yeux ce que n’osait son bras.</l>
+                        <l n="1728"> Il croit que ses conseils ont fait périr son Père,</l>
+                        <l n="1729"> Et tant d’aveuglement se mêle à sa colère,</l>
+                        <l n="1730"> Que s’étant déclaré, rien n’est plus assez fort</l>
+                        <l n="1731"> Pour lui faire oublier cette honteuse mort.</l>
+                        <l n="1732"> Je crûs pour Honoric devoir craindre l’orage,</l>
+                        <l n="1733"> Et touché des périls que pour lui j’envisage,</l>
+                        <l n="1734"> L’approche de la nuit redoublant mon effroi,</l>
+                        <l n="1735"> Pour l’en mettre à couvert, je l’enlève chez moi.</l>
+                        <l n="1736"> Un des Miens seulement instruit de sa retraite,</l>
+                        <l n="1737"> Seconde le secours que ma pitié lui prête ;</l>
+                        <l n="1738"> Mais ce lieu qui devait faire sa sûreté,</l>
+                        <l n="1739"> N’a pu le garantir de l’infidélité.</l>
+                        <l n="1740"> Comme en ce lieu funeste il occupait ma place,</l>
+                        <l n="1741"> Je ne sais si par lui le Destin me menace,</l>
+                        <l n="1742"> Mais enfin (je m’en sens le cœur tout interdit)</l>
+                        <l n="1743"> Le jour me l’a fait voir poignardé dans mon lit.</l>
+                        <l n="1744"> C’est là qu’il a péri ; j’avais seul connaissance</l>
+                        <l n="1745"> De l’asile où ses jours cherchaient leur assurance ;</l>
+                        <l n="1746"> La vertu par l’amour se peut laisser trahir,</l>
+                        <l n="1747"> Il était mon Rival, je le devais haïr,</l>
+                        <l n="1748"> Et si vous ne tenez l’apparence croyable,         </l>
+                        <l n="1749"> Le crime est avéré, vous voyez le coupable.</l>
+                        <l n="1750"> Cependant je me pers à force d’y penser,</l>
+                        <l n="1751"> Madame ; et quelque sang qu’on ait voulu verser.</l>
+                        <l n="1752"> J’ignore quelle main offerte à les répandre...</l>
+                </sp>
+        <sp who="#amalasonte">
+            <speaker> AMALASONTE. </speaker>
+                        <l n="1753"> Tu l’ignores ? Et bien, il te le faut apprendre.</l>
+                        <l n="1754"> Ces coups qui d’Honoric ont terminé le sort,</l>
+                        <l n="1755"> Par mes ordres portés, m’assuraient de ta mort.</l>
+                        <l n="1756"> Ton sang, au lieu du sien qu’a versé l’imprudence,</l>
+                        <l n="1757"> Était secrètement promis à ma vengeance,</l>
+                        <l n="1758"> Et devait réparer l’affront d’avoir en vain         </l>
+                        <l n="1759"> Relâché mon orgueil jusqu’à t’offrir ma main.</l>
+                        <l n="1760"> Si le honteux ennui de n’être point aimée,</l>
+                        <l n="1761"> Contre toi jusque-là tint ma haine animée</l>
+                        <l n="1762"> Que n’oseras-t-il point cet ennui, quand je vois</l>
+                        <l n="1763"> Que ton amour content me dérobe ta foi ?       </l>
+                        <l n="1764"> Ildegonde a changé, tu l’aimes, elle t’aime,</l>
+                        <l n="1765"> Je le connais ; crains tout de ma fureur extrême.</l>
+                        <l n="1766"> Les crimes les plus noirs qui t’auraient diffamé,</l>
+                        <l n="1767"> Seraient moindres pour toi que celui d’être aimé.</l>
+                        <l n="1768"> Je pourrais déguiser, afin de te surprendre,</l>
+                        <l n="1769"> Ce que pour t’en punir je brûle d’entreprendre ;</l>
+                        <l n="1770"> Mais ma feinte aurait beau te tendre un faux appas,</l>
+                        <l n="1771"> Après Honoric mort, tu ne l’en croirais pas.</l>
+                        <l n="1772"> Ainsi tu vois à quoi ta sûreté t’engage,</l>
+                        <l n="1773"> Préviens-moi, si tu veux te sauver de ma rage ;          </l>
+                        <l n="1774"> Autrement, si la voie encor s’en peut trouver,</l>
+                        <l n="1775"> J’ai commencé trop bien, pour ne pas achever.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1776"> Quelle fureur, Madame, et d’un projet semblable</l>
+                        <l n="1777"> Qui croirait qu’une Reine aurait été capable ?</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1778"> Je vous l’avais bien dit, que son calme apparent         ,</l>
+                        <l n="1779"> Dissipant trop l’orage, en marquait un plus grand.</l>
+                        <l n="1780"> L’amour qui se reproche une secrète honte,</l>
+                        <l n="1781"> Ne croit point de vengeance assez forte, assez prompte ;</l>
+                        <l n="1782"> Il veut tout, ose tout pour s’en faire raison,</l>
+                        <l n="1783"> Et ce que le fer manque, il l’obtient du poison.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1784"> Je ne connais que trop ce qu’il faut que j’en craigne ;</l>
+                        <l n="1785"> Mais voulez-vous de moi que ma vertu se plaigne,</l>
+                        <l n="1786"> Et que contre ma gloire un indigne intérêt</l>
+                        <l n="1787"> De l’exil de la Reine autorise l’arrêt ?</l>
+                        <l n="1788"> Si ses jaloux transports en veulent à ma vie,</l>
+                        <l n="1789"> C’est un amour trompé qui s’emporte, s’oublie,</l>
+                        <l n="1790"> Et dont l’égarement n’affaiblit pas ma foi,</l>
+                        <l n="1791"> Jusques à me cacher ce qu’elle a fait pour moi.</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1792"> Hé bien, de ses fureurs demeurez la victime.</l>
+                        <l n="1793"> J’ai par mon imprudence achevé votre crime,</l>
+                        <l n="1794"> Et la part que j’y prends en faisant la noirceur,</l>
+                        <l n="1795"> Je deviens sa complice à vous percer le cœur.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1796"> Hélas ! que je tiendrais mon sort digne d’envie,</l>
+                        <l n="1797"> Si j’avais seulement à craindre pour ma vie !</l>
+                        <l n="1798"> Mais, Madame, elle sait que votre cœur touché          </l>
+                        <l n="1799"> À ses rigueurs pour moi s’est enfin arraché ;</l>
+                        <l n="1800"> Qu’à mon timide espoir cessant d’être contraire,</l>
+                        <l n="1801"> Vous soufrez que ma foi...</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1802"> Comment l’avoir pu taire ?</l>
+                        <l n="1803"> J’apprenais votre mort, et de pareils malheurs</l>
+                        <l n="1804"> Demandaient mon secret aussi bien que mes pleurs.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1805"> Heureux, et doux abus ! que j’y trouve de charmes ?</l>
+                        <l n="1806"> Ah, puisque mon amour a mérité vos larmes,</l>
+                        <l n="1807"> Cessez d’avoir l’esprit de mon sort effrayé,</l>
+                        <l n="1808"> Laissez verser mon sang, ce sang est trop payé.</l>
+                        <l n="1809"> Mais ce qui me confond, je tremble que la Reine         ,</l>
+                        <l n="1810"> Me connaissant aimé, ne partage sa haine,</l>
+                        <l n="1811"> Et que pour me porter de plus terribles coups,</l>
+                        <l n="1812"> Sa jalouse fureur ne s’étende sur vous.</l>
+                        <l n="1813"> Sauvez-moi de l’abîme où ce soupçon me jette,</l>
+                        <l n="1814"> Il est des Rois voisins chez qui trouver retraite,          </l>
+                        <l n="1815"> Des Rois de qui l’appui par un heureux secours...</l>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1816"> Moi, fuir, Prince ?</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1817"> Il le faut ou c’est fait de vos jours.</l>
+                        <l n="1818"> Songez pour un Amant quel sort épouvantable</l>
+                        <l n="1819"> De voir sacrifier tout ce qu’il trouve aimable ;</l>
+                        <l n="1820"> Le seul pressentiment m’en fait pâlir d’effroi.</l>
+                        <l n="1821"> Madame, s’il est vrai...</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#euthar">
+            <speaker> EUTHAR. </speaker>
+                        <l n="1822"> Seigneur, vous êtes Roi.</l>
+                        <l n="1823"> Le bruit de votre mort a redoublé la haine</l>
+                        <l n="1824"> Que le peuple avait fait éclater pour la Reine.</l>
+                        <l n="1825"> Chacun faisant ouïr le nom de Théodat,</l>
+                        <l n="1826"> A juré hautement d’en punir l’attentat,</l>
+                        <l n="1827"> Et dans tout le Palais une fière menace</l>
+                        <l n="1828"> De la rébellion a fait croître l’audace.</l>
+                        <l n="1829"> Theudis plus que tout autre ardent à vous venger,</l>
+                        <l n="1830"> A fait voir votre vie à toute heure en danger,</l>
+                        <l n="1831"> Et qu’à moins qu’on osât en prévenir le crime,</l>
+                        <l n="1832"> La Reine tôt ou tard vous prendrait pour victime.</l>
+                        <l n="1833"> Ses cris tumultueux que le peuple soutient,</l>
+                        <l n="1834"> Vont jusques à la Reine, on la voit elle vient,</l>
+                        <l n="1835"> Et d’un vif désespoir mortellement frappée,</l>
+                        <l n="1836"> De l’un des Siens en haste ayant saisi l’épée,</l>
+                        <l n="1837"> Elle court à Theudis, et de sa propre main,</l>
+                        <l n="1838"> Sans rien examiner, lui veut percer le sein.</l>
+                        <l n="1839"> Là, soit que sa fureur un peu trop violente</l>
+                        <l n="1840"> La livre d’elle-même au fer qu’on lui présente,</l>
+                        <l n="1841"> Soit que contre ses jours de vengeance animé</l>
+                        <l n="1842"> Theudis qui lui résiste exprès se fut armé,</l>
+                        <l n="1843"> À ses pieds tout-à-coup elle tombe, elle expire.</l>
+                        <l n="1844"> Chacun s’unit alors pour vous céder l’Empire,</l>
+                        <l n="1845"> Et cette mort par tout faisant un prompt éclat,</l>
+            <stage>On n’entend plus crier que, <em>Vive Théodat.           </em></stage>
+                </sp>
+        <sp who="#ildegonde">
+            <speaker> ILDEGONDE. </speaker>
+                        <l n="1846"> Ainsi pour vous, Seigneur, l’ordre du Ciel s’exprime,</l>
+                        <l n="1847"> Vous appelant au Trône, il vous y veut sans crime,</l>
+                        <l n="1848"> Et qu’on puisse au hasard seulement imputer</l>
+                        <l n="1849"> L’arrêt que sa justice a fait exécuter.</l>
+                </sp>
+        <sp who="#théodat">
+            <speaker> THÉODAT. </speaker>
+                        <l n="1850"> L’infortune me touche, et quelque violence</l>
+                        <l n="1851"> Que la Reine ait voulu permettre à sa vengeance,</l>
+                        <l n="1852"> Je ne puis m’empêcher de me plaindre du Sort</l>
+                        <l n="1853"> Qui me rend malgré moi coupable de sa mort.</l>
+                        <l n="1854"> Mais pour ne pas laisser votre gloire incertaine,</l>
+                        <l n="1855"> Madame, allons au Peuple offrir une autre Reine,     </l>
+                        <l n="1856"> Et par tout ce qui peut lui répondre de vous,</l>
+                        <l n="1857"> L’assurer sous vos lois du Règne le plus doux.</l>
+                        <l n="1858"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

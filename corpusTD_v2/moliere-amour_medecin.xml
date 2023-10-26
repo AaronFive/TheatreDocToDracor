@@ -1,0 +1,1338 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">L’Amour médecin</title>
+                <title type="sub">Comédie</title>
+            <author>
+                <persName>
+                    <surname>Molière</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/?q=node/581 </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1665-09-15">Représentée pour la première fois à Versailles par ordre du Roi, le 15 septembre 1665 et donnée depuis au public à Paris sur le Théâtre du Palais-Royal, le 22 du même mois de septembre 1665, par la Troupe du Roi.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Comédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q40831]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">L’AMOUR MÉDECIN</titlePart>
+            <titlePart type="sub">COMÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois à Versailles par ordre du Roi, le 15 septembre 1665 et donnée depuis au public à Paris sur le Théâtre du Palais-Royal, le 22 du même mois de septembre 1665, par la Troupe du Roi.</ab><!--@date="1665-09-15"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> AU LECTEUR</salute>
+            </opener>
+        <p> Ce n’est ici qu’un simple crayon, un petit impromptu, dont le roi a voulu se faire un divertissement. Il est le plus précipité de tous ceux que Sa Majesté m’ait commandés ; et, lorsque je dirai qu’il a été proposé, fait, appris et représenté en cinq jours, je ne dirai que ce qui est vrai. Il n’est pas nécessaire de vous avertir qu’il y a beaucoup de choses qui dépendent de l’action. On sait bien que les comédies ne sont faites que pour être jouées ; et je ne conseille de lire celle-ci qu’aux personnes qui ont des yeux pour découvrir, dans la lecture, tout le jeu du théâtre. Ce que je vous dirai, c’est qu’il serait à souhaiter que ces sortes d’ouvrages pussent toujours se montrer à vous avec les ornements qui les accompagnent chez le roi. Vous les verriez dans un état beaucoup plus supportable ; et les airs et les symphonies de l’incomparable M. Lulli, mêlées à la beauté des voix et à l’adresse de danseurs, leur donnent sans doute des grâces dont ils ont toutes les peines du monde à se passer. </p>
+    </div>
+           <div type="act" xml:id="1">
+           <head> PROLOGUE </head></div>
+           <div type="act" xml:id="2">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="1"> Ah ! l’étrange chose que la vie ! et que je puis bien dire, avec ce grand philosophe de l’antiquité, que qui terre a guerre a, et qu’un malheur ne vient jamais sans l’autre ! Je n’avais qu’une seule femme, qui est morte.[1]</l>
+                </sp>
+        <sp who="#monsieur-guillaume">
+            <speaker> MONSIEUR GUILLAUME. </speaker>
+                        <l n="2"> Et combien donc en voulez-vous avoir ?[2]</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="3"> Elle est morte, monsieur mon ami.[3] Cette perte m’est très sensible, et je ne puis m’en ressouvenir sans pleurer. Je n’étais pas fort satisfait de sa conduite, et nous avions le plus souvent dispute ensemble ; mais enfin la mort rajuste toutes choses. Elle est morte ; je la pleure. Si elle était en vie, nous nous querellerions. De tous les enfants que le ciel m’avait donnés, il ne m’a laissé qu’une fille, et cette fille est toute ma peine : car enfin je la vois dans une mélancolie la plus sombre du monde, dans une tristesse épouvantable, dont il n’y a pas moyen de la retirer, et dont je ne saurais même apprendre la cause. Pour moi, j’en perds l’esprit, et j’aurais besoin d’un bon conseil sur cette matière.</l>
+            <stage><em>À Lucrèce.</em></stage>
+                        <l n="4"> Vous êtes ma nièce ;</l>
+            <stage><em>À Aminte.</em></stage>
+                        <l n="5"> vous, ma voisine ;</l>
+            <stage><em>À monsieur Guillaume et à monsieur Josse.</em></stage>
+                        <l n="6"> et vous, mes compères et mes amis : je vous prie de me conseiller tous ce que je dois faire.[4]</l>
+                </sp>
+        <sp who="#monsieur-josse">
+            <speaker> MONSIEUR JOSSE. </speaker>
+                        <l n="7"> Pour moi, je tiens que la braverie et l’ajustement est la chose[5] qui réjouit le plus les filles ; et, si j’étais que de vous, je lui achèterais, dès aujourd’hui, une belle garniture de diamants, ou de rubis, ou d’émeraudes.</l>
+                </sp>
+        <sp who="#monsieur-guillaume">
+            <speaker> MONSIEUR GUILLAUME. </speaker>
+                        <l n="8"> Et moi, si j’étais en votre place, j’achèterais une belle tenture de tapisserie de verdure, ou à personnages, que je ferais mettre dans sa chambre, pour lui réjouir l’esprit et la vue.</l>
+                </sp>
+        <sp who="#aminte">
+            <speaker> AMINTE. </speaker>
+                        <l n="9"> Pour moi, je ne ferais point tant de façon, et je la marierais fort bien et le plus tôt que je pourrais, avec cette personne qui vous la fit, dit-on, demander il y a quelque temps.</l>
+                </sp>
+        <sp who="#lucrèce">
+            <speaker> LUCRÈCE. </speaker>
+                        <l n="10"> Et moi, je tiens que votre fille n’est point du tout propre pour le mariage. Elle est d’une complexion trop délicate et trop peu saine, et c’est la vouloir envoyer bientôt en l’autre monde que de l’exposer, comme elle est, à faire des enfants. Le monde n’est point du tout son fait ; et je vous conseille de la mettre dans un couvent, où elle trouvera des divertissements qui seront mieux de son humeur.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="11"> Tous ces conseils sont admirables assurément ; mais je les tiens un peu intéressés, et trouve que vous me conseillez fort bien pour vous. Vous êtes orfèvre, monsieur Josse, et votre conseil sent son homme qui a envie de se défaire de sa marchandise. Vous vendez des tapisseries, monsieur Guillaume, et vous avez la mine d’avoir quelque tenture qui vous incommode. Celui que vous aimez, ma voisine, a, dit-on, quelque inclination pour ma fille ; et vous ne seriez pas fâchée de la voir la femme d’un autre. Et quant à vous, ma chère nièce, ce n’est pas mon dessein, comme on sait, de marier ma fille avec qui que ce soit, et j’ai mes raisons pour cela ; mais le conseil que vous me donnez de la faire religieuse est d’une femme qui pourrait bien souhaiter charitablement d’être mon héritière universelle. Ainsi, messieurs et mesdames, quoique tous vos conseils soient les meilleurs du monde, vous trouverez bon, s’il vous plaît, que je n’en suive aucun.</l>
+            <stage><em>Seul.</em></stage>
+                        <l n="12"> Voilà de mes donneurs de conseils à la mode.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="13"> Ah ! voilà ma fille qui prend l’air. Elle ne me voit pas. Elle soupire ; elle lève les yeux au ciel.</l>
+            <stage><em>À Lucinde.</em></stage>
+                        <l n="14"> Dieu vous garde ! Bonjour, ma mie. Hé bien ! qu’est-ce ? Comme vous en va ? Hé quoi ! toujours triste et mélancolique comme cela, et tu ne veux pas me dire ce que tu as ? Allons donc, découvre-moi ton petit cœur. Là, ma pauvre mie, dis, dis, dis tes petites pensées à ton petit papa mignon. Courage ! Veux-tu que je te baise ? Viens.</l>
+            <stage><em>À part.</em></stage>
+                        <l n="15"> J’enrage de la voir de cette humeur-là.</l>
+            <stage><em>À Lucinde.</em></stage>
+                        <l n="16"> Mais, dis-moi, me veux-tu faire mourir de déplaisir ; et ne puis-je savoir d’où vient cette grande langueur ? Découvre-m’en la cause, et je te promets que je ferai toutes choses pour toi. Oui, tu n’as qu’à me dire le sujet de ta tristesse ; je t’assure ici et te fais serment qu’il n’y a rien que je ne fasse pour te satisfaire ; c’est tout dire. Est-ce que tu es jalouse de quelqu’une de tes compagnes que tu voies plus brave que toi ? et serait-il quelque étoffe nouvelle dont tu voulusses avoir un habit ? Non. Est-ce que ta chambre ne te semble pas assez parée, et que tu souhaiterais quelque cabinet de la foire Saint-Laurent. Ce n’est pas cela. Aurais-tu envie d’apprendre quelque chose, et veux-tu que je te donne un maître pour te montrer à jouer du clavecin ? Nenni. Aimerais-tu quelqu’un, et souhaiterais-tu d’être mariée ?</l>
+            <stage><em>Lucinde lui fait signe que c’est cela.</em></stage></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="17"> Hé bien, monsieur, vous venez d’entretenir votre fille. Avez-vous su la cause de sa mélancolie ?</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="18"> Non. C’est une coquine qui me fait enrager.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="19"> Monsieur, laissez-moi faire, je m’en vais la sonder un peu.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="20"> Il n’est pas nécessaire ; et, puisqu’elle veut être de cette humeur, je suis d’avis qu’on l’y laisse.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="21"> Laissez-moi faire, vous dis-je. Peut-être qu’elle se découvrira plus librement à moi qu’à vous. Quoi ? madame, vous ne nous direz point ce que vous avez, et vous voulez affliger ainsi tout le monde ? Il me semble qu’on n’agit point comme vous faites, et que, si vous avez quelque répugnance à vous expliquer à un père, vous n’en devez avoir aucune à me découvrir votre cœur. Dites-moi, souhaitez-vous quelque chose de lui ? Il nous a dit plus d’une fois qu’il n’épargnerait rien pour vous contenter. Est-ce qu’il ne vous donne pas toute la liberté que vous souhaiteriez ? Et les promenades et les cadeaux ne tenteraient-ils point votre âme ? Heu. Avez-vous reçu quelque déplaisir de quelqu’un ? Heu. N’auriez-vous point quelque secrète inclination avec qui vous souhaiteriez que votre père vous mariât ? Ah ! je vous entends. Voilà l’affaire. Que diable ! Pourquoi tant de façons ? Monsieur, le mystère est découvert ; et...</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE, l’interrompant. </speaker>
+                        <l n="22"> Va, fille ingrate, je ne te veux plus parler, et je te laisse dans ton obstination.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="23"> Mon père, puisque vous voulez que je vous dise la chose...</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="24"> Oui, je perds toute l’amitié que j’avais pour toi.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="25"> Monsieur, sa tristesse...</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="26"> C’est une coquine qui me veut faire mourir.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="27"> Mon père, je veux bien...</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="28"> Ce n’est pas la récompense de t’avoir élevée comme j’ai fait.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="29"> Mais, monsieur...</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="30"> Non, je suis contre elle dans une colère épouvantable.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="31"> Mais, mon père.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="32"> Je n’ai plus aucune tendresse pour toi.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="33"> Mais...</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="34"> C’est une friponne.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="35"> Mais...</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="36"> Une ingrate.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="37"> Mais...</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="38"> Une coquine qui ne me veut pas dire ce qu’elle a.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="39"> C’est un mari qu’elle veut.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE, faisant semblant de ne pas entendre. </speaker>
+                        <l n="40"> Je l’abandonne.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="41"> Un mari.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="42"> Je la déteste.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="43"> Un mari.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="44"> Et la renonce pour ma fille.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="45"> Un mari.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="46"> Non, ne m’en parlez point.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="47"> Un mari.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="48"> Ne m’en parlez point.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="49"> Un mari.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="50"> Ne m’en parlez point.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="51"> Un mari, un mari, un mari.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="52"> On dit bien vrai qu’il n’y a point de pires sourds que ceux qui ne veulent point entendre.[6]</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="53"> Hé bien ! Lisette, j’avais tort de cacher mon déplaisir, et je n’avais qu’à parler pour avoir tout ce que je souhaitais de mon père ! Tu le vois !</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="54"> Par ma foi, voilà un vilain homme ; et je vous avoue que j’aurais un plaisir extrême à lui jouer quelque tour. Mais d’où vient donc, madame, que jusqu’ici vous m’avez caché votre mal ?</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="55"> Hélas ! de quoi m’aurait servi de te le découvrir plus tôt ? et n’aurais-je pas autant gagné à le tenir caché toute ma vie ? Crois-tu que je n’aie pas bien prévu tout ce que tu vois maintenant, que je ne susse pas à fond tous les sentiments de mon père, et que le refus qu’il a fait porter à celui qui m’a demandée par un ami, n’ait pas étouffé dans mon âme toute sorte d’espoir ?</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="56"> Quoi ! c’est cet inconnu qui vous a fait demander, pour qui vous... ?</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="57"> Peut-être n’est-il pas honnête à une fille de s’expliquer si librement ; mais enfin je t’avoue que, s’il m’était permis de vouloir quelque chose, ce serait lui que je voudrais. Nous n’avons eu ensemble aucune conversation, et sa bouche ne m’a point déclaré la passion qu’il a pour moi ; mais dans tous les lieux où il m’a pu voir, ses regards et ses actions m’ont toujours parlé si tendrement, et la demande qu’il a fait faire de moi m’a paru d’un si honnête homme, que mon cœur n’a pu s’empêcher d’être sensible à ses ardeurs ; et cependant tu vois où la dureté de mon père réduit toute cette tendresse.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="58"> Allez, laissez-moi faire. Quelque sujet que j’aie de me plaindre de vous du secret que vous m’avez fait, je ne veux pas laisser de servir votre amour ; et, pourvu que vous ayez assez de résolution...</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="59"> Mais que veux-tu que je fasse contre l’autorité d’un père ? Et, s’il est inexorable à mes vœux...</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="60"> Allez, allez, il ne faut pas se laisser mener comme un oison ; et pourvu que l’honneur n’y soit pas offensé, on peut se libérer un peu[7] de la tyrannie d’un père. Que prétend-il que vous fassiez ? N’êtes-vous pas en âge d’être mariée ? et croit-il que vous soyez de marbre ? Allez, encore un coup, je veux servir votre passion : je prends, dès à présent, sur moi tout le soin de ses intérêts, et vous verrez que je sais des détours... Mais je vois votre père. Rentrons, et me laissez agir.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE, seul </speaker>
+                        <l n="61"> Il est bon quelquefois de ne point faire semblant d’entendre les choses qu’on n’entend que trop bien ; et j’ai fait sagement de parer la déclaration d’un désir que je ne suis pas résolu de contenter. A-t-on jamais rien vu de plus tyrannique que cette coutume où l’on veut assujettir les pères, rien de plus impertinent et de plus ridicule que d’amasser du bien avec de grands travaux, et élever une fille avec beaucoup de soin et de tendresse, pour se dépouiller de l’un et de l’autre entre les mains d’un homme qui ne nous touche de rien ? Non, non, je me moque de cet usage, et je veux garder mon bien et ma fille pour moi.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#lisette">
+            <speaker> LISETTE, courant sur le théâtre, et feignant de ne pas voir Sganarelle. </speaker>
+                        <l n="62"> Ah ! malheur ! ah ! disgrâce ! ah ! pauvre seigneur Sganarelle, où pourrai-je te rencontrer ?</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE, à part. </speaker>
+                        <l n="63"> Que dit-elle là ?</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE, courant toujours. </speaker>
+                        <l n="64"> Ah ! misérable père ! que feras-tu quand tu sauras cette nouvelle ?</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE, à part. </speaker>
+                        <l n="65"> Que sera-ce ?</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="66"> Ma pauvre maîtresse !</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="67"> Je suis perdu !</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="68"> Ah !</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE, courant après Lisette. </speaker>
+                        <l n="69"> Lisette.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="70"> Quelle infortune !</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="71"> Lisette !</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="72"> Quel accident !</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="73"> Lisette !</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="74"> Quelle fatalité !</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="75"> Lisette !</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="76"> Ah ! monsieur.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="77"> Qu’est-ce ?</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="78"> Monsieur !</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="79"> Qu’y a-t-il ?</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="80"> Votre fille...</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="81"> Ah ! ah !</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="82"> Monsieur, ne pleurez donc point comme cela, car vous me feriez rire.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="83"> Dis donc vite.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="84"> Votre fille, toute saisie des paroles que vous lui avez dites, et de la colère effroyable où elle vous a vu contre elle, est montée vite dans sa chambre, et, pleine de désespoir, a ouvert la fenêtre qui regarde sur la rivière.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="85"> Hé bien ?</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="86"> Alors, levant les yeux au ciel : « Non, a-t-elle dit, il m’est impossible de vivre avec le courroux de mon père ; et puisqu’il me renonce pour sa fille, je veux mourir. »</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="87"> Elle s’est jetée ?</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="88"> Non, monsieur. Elle a fermé tout doucement la fenêtre, et s’est allée mettre sur son lit.[8] Là, elle s’est prise à pleurer amèrement ; et tout d’un coup son visage a pâli, ses yeux se sont tournés, le cœur lui a manqué, et elle m’est demeurée entre les bras.[9]</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="89"> Ah ! ma fille ! Elle est morte ?</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="90"> Non, monsieur. À force de la tourmenter, je l’ai fait revenir ; mais cela lui reprend de moment en moment, et je crois qu’elle ne passera pas la journée.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="91"> Champagne ! Champagne ! Champagne !</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="92"> Vite, qu’on m’aille quérir des médecins, et en quantité. On n’en peut trop avoir dans une pareille aventure. Ah ! ma fille ! ma pauvre fille !</l></div></div>
+           <div type="act" xml:id="3">
+           <head> PREMIER ENTRACTE </head></div>
+           <div type="act" xml:id="4">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="93"> Que voulez-vous donc faire, monsieur, de quatre médecins ? N’est-ce pas assez d’un pour tuer une personne ?</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="94"> Taisez-vous. Quatre conseils valent mieux qu’un.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="95"> Est-ce que votre fille ne peut pas bien mourir sans le secours de ces messieurs-là ?</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="96"> Est-ce que les médecins font mourir ?</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="97"> Sans doute ; et j’ai connu un homme qui prouvait, par bonnes raisons, qu’il ne faut jamais dire : Une telle personne est morte d’une fièvre et d’une fluxion sur la poitrine ; mais : Elle est morte de quatre médecins et de deux apothicaires.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="98"> Chut ! N’offensez pas ces messieurs-là.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="99"> Ma foi, monsieur, notre chat est réchappé depuis peu d’un saut qu’il fit du haut de la maison dans la rue, et il fut trois jours sans manger et sans pouvoir remuer ni pied ni patte ; mais il est bien heureux de ce qu’il n’y a point de chats médecins, car ses affaires étaient faites, et ils n’auraient pas manqué de le purger et de le saigner.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="100"> Voulez-vous vous taire ? vous dis-je. Mais voyez quelle impertinence ! Les voici.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="101"> Prenez garde, vous allez être bien édifié. Ils vous diront en latin que votre fille est malade.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="102"> Hé bien ! messieurs ?</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="103"> Nous avons vu suffisamment la malade, et sans doute qu’il y a beaucoup d’impuretés en elle.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="104"> Ma fille est impure ?</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="105"> Je veux dire qu’il y a beaucoup d’impureté dans son corps, quantité d’humeurs corrompues.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="106"> Ah ! je vous entends.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="107"> Mais nous allons consulter ensemble.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="108"> Allons, faites donner des sièges.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE, à M. Tomès. </speaker>
+                        <l n="109"> Ah ! monsieur, vous en êtes !</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE, à Lisette. </speaker>
+                        <l n="110"> De quoi donc connaissez-vous monsieur ?</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="111"> De l’avoir vu l’autre jour chez la bonne amie de madame votre nièce.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="112"> Comment se porte son cocher ?</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="113"> Fort bien. Il est mort.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="114"> Mort ?</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="115"> Oui.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="116"> Cela ne se peut.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="117"> Je ne sais si cela se peut ; mais je sais bien que cela est.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="118"> Il ne peut pas être mort, vous dis-je.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="119"> Et moi, je vous dis qu’il est mort et enterré.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="120"> Vous vous trompez.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="121"> Je l’ai vu.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="122"> Cela est impossible. Hippocrate dit que ces sortes de maladies ne se terminent qu’au quatorze ou au vingt-un ; et il n’y a que six jours qu’il est tombé malade.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="123"> Hippocrate dira ce qu’il lui plaira ; mais le cocher est mort.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="124"> Paix, discoureuse. Allons, sortons d’ici. Messieurs, je vous supplie de consulter de la bonne manière. Quoique ce ne soit pas la coutume de payer auparavant, toutefois, de peur que je l’oublie,[10] et afin que ce soit une affaire faite, voici...</l>
+            <stage><em>Il les paye, et chacun, en recevant l’argent, fait un geste différent.</em></stage></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#monsieur-des-fonandrès">
+            <speaker> MONSIEUR DES FONANDRÈS. </speaker>
+                        <l n="125"> Paris est étrangement grand, et il faut faire de longs trajets quand la pratique donne un peu.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="126"> Il faut avouer que j’ai une mule admirable pour cela, et qu’on a peine à croire le chemin que je lui fais faire tous les jours.</l>
+                </sp>
+        <sp who="#monsieur-des-fonandrès">
+            <speaker> MONSIEUR DES FONANDRÈS. </speaker>
+                        <l n="127"> J’ai un cheval merveilleux, et c’est un animal infatigable.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="128"> Savez-vous le chemin que ma mule a fait aujourd’hui ? J’ai été, premièrement, tout contre l’Arsenal ; de l’Arsenal, au bout du faubourg Saint-Germain ; du faubourg Saint-Germain, au fond du Marais ; du fond du Marais, à la porte Saint-Honoré ; de la porte Saint-Honoré, au faubourg Saint-Jacques ; du faubourg Saint-Jacques, à la porte de Richelieu ; de la porte de Richelieu, ici ; et d’ici, je dois aller encore à la place Royale.</l>
+                </sp>
+        <sp who="#monsieur-des-fonandrès">
+            <speaker> MONSIEUR DES FONANDRÈS. </speaker>
+                        <l n="129"> Mon cheval a fait tout cela aujourd’hui ; et de plus j’ai été à Ruel voir un malade.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="130"> Mais à propos, quel parti prenez-vous dans la querelle des deux médecins Théophraste et Artémius ? Car c’est une affaire qui partage tout notre corps.</l>
+                </sp>
+        <sp who="#monsieur-des-fonandrès">
+            <speaker> MONSIEUR DES FONANDRÈS. </speaker>
+                        <l n="131"> Moi, je suis pour Artémius.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="132"> Et moi aussi. Ce n’est pas que son avis, comme on a vu, n’ait tué le malade, et que celui de Théophraste ne fût beaucoup meilleur, assurément ; mais enfin il a tort dans les circonstances, et il ne devait pas être d’un autre avis que son ancien. Qu’en dites-vous ?</l>
+                </sp>
+        <sp who="#monsieur-des-fonandrès">
+            <speaker> MONSIEUR DES FONANDRÈS. </speaker>
+                        <l n="133"> Sans doute. Il faut toujours garder les formalités, quoi qu’il puisse arriver.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="134"> Pour moi, j’y suis sévère en diable, à moins que ce soit entre amis ; et l’on nous assembla un jour, trois de nous autres, avec un médecin de dehors, pour une consultation où j’arrêtai toute l’affaire, et ne voulus point endurer qu’on opinât si les choses n’allaient dans l’ordre. Les gens de la maison faisaient ce qu’ils pouvaient, et la maladie pressait ; mais je n’en voulus point démordre, et la malade mourut bravement pendant cette contestation.</l>
+                </sp>
+        <sp who="#monsieur-des-fonandrès">
+            <speaker> MONSIEUR DES FONANDRÈS. </speaker>
+                        <l n="135"> C’est fort bien fait d’apprendre aux gens à vivre, et de leur montrer leur bec jaune.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="136"> Un homme mort n’est qu’un homme mort, et ne fait point de conséquence ; mais une formalité négligée porte un notable préjudice à tout le corps des médecins.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="137"> Messieurs, l’oppression de ma fille augmente ; je vous prie de me dire vite ce que vous avez résolu.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS, à M. Des Fonandrès. </speaker>
+                        <l n="138"> Allons, monsieur.</l>
+                </sp>
+        <sp who="#monsieur-des-fonandrès">
+            <speaker> MONSIEUR DES FONANDRÈS. </speaker>
+                        <l n="139"> Non, monsieur, parlez, s’il vous plaît.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="140"> Vous vous moquez.</l>
+                </sp>
+        <sp who="#monsieur-des-fonandrès">
+            <speaker> MONSIEUR DES FONANDRÈS. </speaker>
+                        <l n="141"> Je ne parlerai pas le premier.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="142"> Monsieur.</l>
+                </sp>
+        <sp who="#monsieur-des-fonandrès">
+            <speaker> MONSIEUR DES FONANDRÈS. </speaker>
+                        <l n="143"> Monsieur.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="144"> Hé ! de grâce, messieurs, laissez toutes ces cérémonies, et songez que les choses pressent.</l>
+            <stage><em>                Ils parlent tous quatre à la fois.</em></stage>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="145"> La maladie de votre fille...</l>
+                </sp>
+        <sp who="#monsieur-des-fonandrès">
+            <speaker> MONSIEUR DES FONANDRÈS. </speaker>
+                        <l n="146"> L’avis de tous ces messieurs tous ensemble...</l>
+                </sp>
+        <sp who="#monsieur-macroton">
+            <speaker> MONSIEUR MACROTON. </speaker>
+                        <l n="147"> A-près a-voir bi-en con-sul-té...</l>
+                </sp>
+        <sp who="#monsieur-bahys">
+            <speaker> MONSIEUR BAHYS. </speaker>
+                        <l n="148"> Pour raisonner.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="149"> Hé ! messieurs, parlez l’un après l’autre, de grâce.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="150"> Monsieur, nous avons raisonné sur la maladie de votre fille, et mon avis, à moi, est que cela procède d’une grande chaleur de sang ; ainsi je conclus à la saigner le plus tôt que vous pourrez.</l>
+                </sp>
+        <sp who="#monsieur-des-fonandrès">
+            <speaker> MONSIEUR DES FONANDRÈS. </speaker>
+                        <l n="151"> Et moi, je dis que sa maladie est une pourriture d’humeur causée par une trop grande réplétion ; ainsi je conclus à lui donner de l’émétique.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="152"> Je soutiens que l’émétique la tuera.</l>
+                </sp>
+        <sp who="#monsieur-des-fonandrès">
+            <speaker> MONSIEUR DES FONANDRÈS. </speaker>
+                        <l n="153"> Et moi, que la saignée la fera mourir.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="154"> C’est bien à vous de faire l’habile homme !</l>
+                </sp>
+        <sp who="#monsieur-des-fonandrès">
+            <speaker> MONSIEUR DES FONANDRÈS. </speaker>
+                        <l n="155"> Oui, c’est à moi ; et je vous prêterai le collet en tout genre d’érudition.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="156"> Souvenez-vous de l’homme que vous fîtes crever ces jours passés.</l>
+                </sp>
+        <sp who="#monsieur-des-fonandrès">
+            <speaker> MONSIEUR DES FONANDRÈS. </speaker>
+                        <l n="157"> Souvenez-vous de la dame que vous avez envoyée en l’autre monde, il y a trois jours.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS, à Sganarelle. </speaker>
+                        <l n="158"> Je vous ai dit mon avis.</l>
+                </sp>
+        <sp who="#monsieur-des-fonandrès">
+            <speaker> MONSIEUR DES FONANDRÈS, à Sganarelle. </speaker>
+                        <l n="159"> Je vous ai dit ma pensée.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="160"> Si vous ne faites saigner tout à l’heure votre fille, c’est une personne morte.</l>
+            <stage><em>Il sort.</em></stage>
+                </sp>
+        <sp who="#monsieur-des-fonandrès">
+            <speaker> MONSIEUR DES FONANDRÈS. </speaker>
+                        <l n="161"> Si vous la faites saigner, elle ne sera pas en vie dans un quart d’heure.</l>
+            <stage><em>Il sort.</em></stage></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="162"> À qui croire des deux ? et quelle résolution prendre sur des avis si opposés ? Messieurs, je vous conjure de déterminer mon esprit, et de me dire, sans passion, ce que vous croyez le plus propre à soulager ma fille.</l>
+                </sp>
+        <sp who="#monsieur-macroton">
+            <speaker> MONSIEUR MACROTON, il parle en allongeant ses mots. </speaker>
+                        <l n="163"> Mon-si-eur, dans ces ma-ti-è-res-là, il faut pro-cé-der a-vec-que cir-cons-pec-tion et ne ri-en fai-re, com-me on dit, à la vo-lée ; d’au-tant que les fau-tes qu’on y peut fai-re sont, se-lon no-tre maî-tre Hip-po-cra-te, d’une dan-ge-reu-se con-sé-quen-ce.</l>
+                </sp>
+        <sp who="#monsieur-bahys">
+            <speaker> MONSIEUR BAHYS, celui-ci parle toujours en bredouillant. </speaker>
+            <stage>Il est vrai, il faut bien prendre garde à ce qu’on fait : car ce ne sont pas ici des jeux d’enfant, et, quand on a failli, il n’est pas aisé de réparer le manquement, et de rétablir ce qu’on a gâté : <em>experimentum periculosum</em>. C’est pourquoi il s’agit de raisonner auparavant comme il faut, de peser mûrement les choses, de regarder le tempérament des gens, d’examiner les causes de la maladie, et de voir les remèdes qu’on y doit apporter.</stage>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE, à part. </speaker>
+                        <l n="164"> L’un va en tortue, et l’autre court la poste.</l>
+                </sp>
+        <sp who="#monsieur-macroton">
+            <speaker> MONSIEUR MACROTON. </speaker>
+            <stage>Or. mon-si-eur, pour ve-nir au fait, je trou-ve que vo-tre fil-le a une ma-la-die chro-ni-que, et qu’el-le peut pé-ri-cli-ter, si on  ne lui don-ne du se-cours, d’au-tant que le. symp-tô-mes qu’el-le a sont in-di-ca-tifs d’u-ne va-peur fu-li-gi-neu-se et mor-di-can-te qui lui pi-co-te les mem-bra-nes du cer-veau. Or, cet-te va-peur que nous nom-mons en grec <em>at-mos</em>, est cau-sée par des hu-meurs pu-tri-des, te-na-ces et con-glu-ti-neu-ses, qui sont con-te-nues dans le bas-ven-tre.</stage>
+                </sp>
+        <sp who="#monsieur-bahys">
+            <speaker> MONSIEUR BAHYS. </speaker>
+                        <l n="165"> Et comme ces humeurs ont été là engendrées par une longue succession de temps, elles s’y sont recuites, et ont acquis cette malignité qui fume vers la région du cerveau.</l>
+                </sp>
+        <sp who="#monsieur-macroton">
+            <speaker> MONSIEUR MACROTON. </speaker>
+                        <l n="166"> Si bi-en donc que, pour ti-rer, dé-ta-cher, ar-ra-cher, ex-pul-ser, é-va-cu-er les-di-tes hu-meurs, il fau-dra une pur-ga-ti-on vi-gou-reu-se. Mais, au pré-a-la-ble, je trou-ve à pro-pos, et il n’y a pas d’in-con-vé-ni-ent, d’u-ser de pe-tits re-mè-des a-no-dins, c’est-à-di-re de pe-tits la-ve-ments re-mol-li-ents et dé-ter-sifs, de ju-leps et de si-rops ra-fraî-chis-sants, qu’on mê-le-ra dans sa pti-san-ne.</l>
+                </sp>
+        <sp who="#monsieur-bahys">
+            <speaker> MONSIEUR BAHYS. </speaker>
+                        <l n="167"> Après, nous en viendrons à la purgation, et à la saignée, que nous réitérerons, s’il en est besoin.</l>
+                </sp>
+        <sp who="#monsieur-macroton">
+            <speaker> MONSIEUR MACROTON. </speaker>
+                        <l n="168"> Ce n’est pas qu’a-vec-que tout ce-la vo-tre fil-le ne puis-se mou-rir ; mais au moins vous au-rez fait quel-que cho-se, et vous au-rez la con-so-la-tion qu’el-le se-ra mor-te dans les for-mes.</l>
+                </sp>
+        <sp who="#monsieur-bahys">
+            <speaker> MONSIEUR BAHYS. </speaker>
+                        <l n="169"> Il vaut mieux mourir selon les règles que de réchapper contre les règles.</l>
+                </sp>
+        <sp who="#monsieur-macroton">
+            <speaker> MONSIEUR MACROTON. </speaker>
+                        <l n="170"> Nous vous di-sons sin-cè-re-ment no-tre pen-sée.</l>
+                </sp>
+        <sp who="#monsieur-bahys">
+            <speaker> MONSIEUR BAHYS. </speaker>
+                        <l n="171"> Et nous vous avons parlé comme nous parlerions à notre propre frère.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE, à M. Macroton, en allongeant ses mots. </speaker>
+                        <l n="172"> Je vous rends très hum-bles grâ-ces.</l>
+            <stage><em>À M. Bahys, en bredouillant.</em></stage>
+                        <l n="173"> Et vous suis infiniment obligé de la peine que vous avez prise.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE, seul </speaker>
+                        <l n="174"> Me voilà justement un peu plus incertain que je n’étais auparavant. Morbleu ! il me vient une fantaisie. Il faut que j’aille acheter de l’orviétan, et que je lui en fasse prendre ; l’orviétan est un remède dont beaucoup de gens se sont bien trouvés.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="175"> Holà ! monsieur, je vous prie de me donner une boîte de votre orviétan, que je m’en vais vous payer.</l>
+                </sp>
+        <sp who="#l’opérateur">
+            <speaker> L’OPÉRATEUR chante. </speaker>
+                        <l n="176"> L’or de tous les climats qu’entoure l’Océan</l>
+                        <l n="177"> Peut-il jamais payer ce secret d’importance ?</l>
+                        <l n="178"> Mon remède guérit, par sa rare excellence,</l>
+                        <l n="179"> Plus de maux qu’on n’en peut nombrer dans tout un an :</l>
+                        <l n="180"> La gale,</l>
+                        <l n="181"> La rogne,</l>
+                        <l n="182"> La teigne,</l>
+                        <l n="183"> La fièvre,</l>
+                        <l n="184"> La peste,</l>
+                        <l n="185"> La goutte,</l>
+                        <l n="186"> Vérole,</l>
+                        <l n="187"> Descente,</l>
+                        <l n="188"> Rougeole.</l>
+                        <l n="189"> Ô grande puissance de l’orviétan !</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="190"> Monsieur, je crois que tout l’or du monde n’est pas capable de payer votre remède ; mais pourtant voici une pièce de trente sols que vous prendrez, s’il vous plaît.</l>
+                </sp>
+        <sp who="#l’opérateur">
+            <speaker> L’OPÉRATEUR chante. </speaker>
+                        <l n="191"> Admirez mes bontés, et le peu qu’on vous vend</l>
+                        <l n="192"> Ce trésor merveilleux que ma main vous dispense.</l>
+                        <l n="193"> Vous pouvez, avec lui, braver en assurance</l>
+                        <l n="194"> Tous les maux que sur nous l’ire du ciel répand :</l>
+                        <l n="195"> La gale,</l>
+                        <l n="196"> La rogne,</l>
+                        <l n="197"> La teigne,</l>
+                        <l n="198"> La fièvre,</l>
+                        <l n="199"> La peste,</l>
+                        <l n="200"> La goutte,</l>
+                        <l n="201"> Vérole,           </l>
+                        <l n="202"> Descente,       </l>
+                        <l n="203"> Rougeole.</l>
+                        <l n="204"> Ô grande puissance de l’orviétan !</l></div></div>
+           <div type="act" xml:id="5">
+           <head> DEUXIÈME ENTRACTE </head></div>
+           <div type="act" xml:id="6">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#monsieur-filerin">
+            <speaker> MONSIEUR FILERIN. </speaker>
+                        <l n="205"> N’avez-vous point de honte, messieurs, de montrer si peu de prudence, pour des gens de votre âge, et de vous être querellés comme de jeunes étourdis ! Ne voyez-vous pas bien quel tort ces sortes de querelles nous font parmi le monde ? et n’est-ce pas assez que les savants voient les contrariétés et les dissensions qui sont entre nos auteurs et nos anciens maîtres, sans découvrir encore au peuple, par nos débats et nos querelles, la forfanterie de notre art ? Pour moi, je ne comprends rien du tout à cette méchante politique de quelques-uns de nos gens, et il faut confesser que toutes ces contestations nous ont décriés depuis peu d’une étrange manière ; et que, si nous n’y prenons garde, nous allons nous ruiner nous-mêmes. Je n’en parle pas pour mon intérêt : car, Dieu merci, j’ai déjà établi mes petites affaires. Qu’il vente, qu’il pleuve, qu’il grêle, ceux qui sont morts sont morts, et j’ai de quoi me passer des vivants ; mais enfin toutes ces disputes ne valent rien pour la médecine. Puisque le ciel nous fait la grâce que, depuis tant de siècles, on demeure infatué de nous, ne désabusons point les hommes avec nos cabales extravagantes, et profitons de leur sottise le plus doucement que nous pourrons. Nous ne sommes pas les seuls, comme vous savez, qui tâchons à nous prévaloir de la faiblesse humaine. C’est là que va l’étude de la plupart du monde, et chacun s’efforce de prendre les hommes par leur faible, pour en tirer quelque profit. Les flatteurs, par exemple, cherchent à profiter de l’amour que les hommes ont pour les louanges, en leur donnant tout le vain encens qu’ils souhaitent ; et c’est un art où l’on fait, comme on voit, des fortunes considérables. Les alchimistes tâchent à profiter de la passion que l’on a pour les richesses, en promettant des montagnes d’or à ceux qui les écoutent ; et les diseurs d’horoscopes, par leurs prédictions trompeuses, profitent de la vanité et de l’ambition des crédules esprits. Mais le plus grand faible des hommes, c’est l’amour qu’ils ont pour la vie ; et nous en profitons, nous autres, par notre pompeux galimatias, et savons prendre nos avantages de cette vénération que la peur de mourir leur donne pour notre métier. Conservons-nous donc dans le degré d’estime où leur faiblesse nous a mis, et soyons de concert auprès des malades pour nous attribuer les heureux succès de la maladie, et rejeter sur la nature toutes les bévues de notre art. N’allons point, dis-je, détruire sottement les heureuses préventions d’une erreur qui donne du pain à tant de personnes, et, de l’argent de ceux que nous mettons en terre, nous fait élever de tous côtés de si beaux héritages.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="206"> Vous avez raison en tout ce que vous dites, mais ce sont chaleurs de sang, dont parfois on n’est pas le maître.</l>
+                </sp>
+        <sp who="#monsieur-filerin">
+            <speaker> MONSIEUR FILERIN. </speaker>
+                        <l n="207"> Allons donc, messieurs, mettez bas toute rancune, et faisons ici votre accommodement.</l>
+                </sp>
+        <sp who="#monsieur-des-fonandrès">
+            <speaker> MONSIEUR DES FONANDRÈS. </speaker>
+                        <l n="208"> J’y consens. Qu’il me passe mon émétique pour la malade dont il s’agit, et je lui passerai tout ce qu’il voudra pour le premier malade dont il sera question.</l>
+                </sp>
+        <sp who="#monsieur-filerin">
+            <speaker> MONSIEUR FILERIN. </speaker>
+                        <l n="209"> On ne peut pas mieux dire, et voilà se mettre à la raison.</l>
+                </sp>
+        <sp who="#monsieur-des-fonandrès">
+            <speaker> MONSIEUR DES FONANDRÈS. </speaker>
+                        <l n="210"> Cela est fait.</l>
+                </sp>
+        <sp who="#monsieur-filerin">
+            <speaker> MONSIEUR FILERIN. </speaker>
+                        <l n="211"> Touchez donc là. Adieu. Une autre fois, montrez plus de prudence.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="212"> Quoi ! messieurs, vous voilà, et vous ne songez pas à réparer le tort qu’on vient de faire à la médecine ?</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="213"> Comment ! Qu’est-ce ?</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="214"> Un insolent, qui a eu l’effronterie d’entreprendre sur votre métier, et qui, sans votre ordonnance, vient de tuer un homme d’un grand coup d’épée au travers du corps.</l>
+                </sp>
+        <sp who="#monsieur-tomès">
+            <speaker> MONSIEUR TOMÈS. </speaker>
+                        <l n="215"> Écoutez, vous faites la railleuse ; mais vous passerez par nos mains quelque jour.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="216"> Je vous permets de me tuer, lorsque j’aurai recours à vous.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#clitandre">
+            <speaker> CLITANDRE. </speaker>
+                        <l n="217"> Hé bien ! Lisette, que dis-tu de mon équipage ? Crois-tu qu’avec cet habit je puisse duper le bon homme ? Me trouves-tu bien ainsi ?</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="218"> Le mieux du monde ; et je vous attendais avec impatience. Enfin, le ciel m’a faite d’un naturel le plus humain du monde, et je ne puis voir deux amants soupirer l’un pour l’autre qu’il ne me prenne une tendresse charitable, et un désir ardent de soulager les maux qu’ils souffrent. Je veux, à quelque prix que ce soit, tirer Lucinde de la tyrannie où elle est, et la mettre en votre pouvoir. Vous m’avez plu d’abord ; je me connais en gens, et elle ne peut pas mieux choisir. L’amour risque des choses extraordinaires ; et nous avons concerté ensemble une manière de stratagème qui pourra peut-être nous réussir. Toutes nos mesures sont déjà prises. L’homme à qui nous avons affaire n’est pas des plus fins de ce monde ; et si cette aventure nous manque, nous trouverons mille autres voies pour arriver à notre but. Attendez-moi là seulement, je reviens vous quérir.</l>
+            <stage><em>                Clitandre se retire dans le fond du théâtre.</em></stage></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="219"> Monsieur, allégresse ! allégresse !</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="220"> Qu’est-ce ?</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="221"> Réjouissez-vous.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="222"> De quoi ?</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="223"> Réjouissez-vous, vous dis-je.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="224"> Dis-moi donc ce que c’est, et puis je me réjouirai peut-être.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="225"> Non, je veux que vous vous réjouissiez auparavant, que vous chantiez, que vous dansiez.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="226"> Sur quoi ?</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="227"> Sur ma parole.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="228"> Allons donc.</l>
+            <stage><em>Il chante et danse.</em></stage>
+                        <l n="229"> La, lera, la, la ; la, lera, la. Que diable !</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="230"> Monsieur, votre fille est guérie.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="231"> Ma fille est guérie ?</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="232"> Oui. Je vous amène un médecin, mais un médecin d’importance, qui fait des cures merveilleuses et qui se moque des autres médecins.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="233"> Où est-il ?</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="234"> Je vais le faire entrer.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE, seul. </speaker>
+                        <l n="235"> Il faut voir si celui-ci fera plus que les autres.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#lisette">
+            <speaker> LISETTE, amenant Clitandre. </speaker>
+                        <l n="236"> Le voici.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="237"> Voilà un médecin qui a la barbe bien jeune.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="238"> La science ne se mesure pas à la barbe, et ce n’est pas par le menton qu’il est habile.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="239"> Monsieur, on m’a dit que vous aviez des remèdes admirables pour faire aller à la selle.</l>
+                </sp>
+        <sp who="#clitandre">
+            <speaker> CLITANDRE. </speaker>
+                        <l n="240"> Monsieur, mes remèdes sont différents de ceux des autres. Ils ont l’émétique, les saignées, les médecines, et les lavements ; mais moi, je guéris par des paroles, par des sons, par des lettres, par des talismans, et par des anneaux constellés.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="241"> Que vous ai-je dit ?</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="242"> Voilà un grand homme !</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="243"> Monsieur, comme votre fille est là toute habillée dans une chaise, je vais la faire passer ici.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="244"> Oui, fais.</l>
+                </sp>
+        <sp who="#clitandre">
+            <speaker> CLITANDRE, tâtant le pouls à Sganarelle. </speaker>
+                        <l n="245"> Votre fille est bien malade.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="246"> Vous connaissez cela ici ?</l>
+                </sp>
+        <sp who="#clitandre">
+            <speaker> CLITANDRE. </speaker>
+                        <l n="247"> Oui, par la sympathie qu’il y a entre le père et la fille.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#lisette">
+            <speaker> LISETTE, à Clitandre. </speaker>
+                        <l n="248"> Tenez, monsieur, voilà une chaise auprès d’elle.</l>
+            <stage><em>À Sganarelle.</em></stage>
+                        <l n="249"> Allons, laissez-les là tous deux.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="250"> Pourquoi ? je veux demeurer là.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="251"> Vous moquez-vous ? Il faut s’éloigner. Un médecin a cent choses à demander qu’il n’est pas honnête qu’un homme entende.</l>
+            <stage><em>Sganarelle et Lisette s’éloignent.</em></stage>
+                </sp>
+        <sp who="#clitandre">
+            <speaker> CLITANDRE, parlant à Lucinde à part. </speaker>
+                        <l n="252"> Ah ! madame, que le ravissement où je me trouve est grand ! et que je sais peu par où vous commencer mon discours ! Tant que je ne vous ai parlé que des yeux, j’avais, ce me semblait,[11] cent choses à vous dire ; et maintenant que j’ai la liberté de vous parler de la façon que je souhaitais, je demeure interdit, et la grande joie où je suis étouffe toutes mes paroles.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="253"> Je puis vous dire la même chose ; et je sens, comme vous, des mouvements de joie qui m’empêchent de pouvoir parler.</l>
+                </sp>
+        <sp who="#clitandre">
+            <speaker> CLITANDRE. </speaker>
+                        <l n="254"> Ah ! madame, que je serais heureux s’il était vrai que vous sentissiez tout ce que je sens, et qu’il me fût permis de juger de votre âme par la mienne ! Mais, madame, puis-je au moins croire que ce soit à vous à qui je doive la pensée de cet heureux stratagème qui me fait jouir de votre présence ?</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="255"> Si vous ne m’en devez pas la pensée, vous m’êtes redevable au moins d’en avoir approuvé la proposition avec beaucoup de joie.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE, à Lisette. </speaker>
+                        <l n="256"> Il me semble qu’il lui parle de bien près.</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE, à Sganarelle. </speaker>
+                        <l n="257"> C’est qu’il observe sa physionomie et tous les traits de son visage.</l>
+                </sp>
+        <sp who="#clitandre">
+            <speaker> CLITANDRE, à Lucinde. </speaker>
+                        <l n="258"> Serez-vous constante, madame, dans ces bontés que vous me témoignez ?</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="259"> Mais vous, serez-vous ferme dans les résolutions que vous avez montrées ?</l>
+                </sp>
+        <sp who="#clitandre">
+            <speaker> CLITANDRE. </speaker>
+                        <l n="260"> Ah ! madame, jusqu’à la mort. Je n’ai point de plus forte envie que d’être à vous, et je vais le faire paraître dans ce que vous m’allez voir faire.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE, à Clitandre. </speaker>
+                        <l n="261"> Hé bien ! notre malade ? elle me semble un peu plus gaie.</l>
+                </sp>
+        <sp who="#clitandre">
+            <speaker> CLITANDRE. </speaker>
+                        <l n="262"> C’est que j’ai déjà fait agir sur elle un de ces remèdes que mon art m’enseigne. Comme l’esprit a grand empire sur le corps, et que c’est de lui bien souvent que procèdent les maladies, ma coutume est de courir à guérir les esprits avant que de venir au corps. J’ai donc observé ses regards, les traits de son visage et les lignes de ses deux mains ; et, par la science que le ciel m’a donnée, j’ai reconnu que c’était de l’esprit qu’elle était malade, et que tout son mal ne venait que d’une imagination déréglée, d’un désir dépravé de vouloir être mariée. Pour moi, je ne vois rien de plus extravagant et de plus ridicule que cette envie qu’on a du mariage.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE, à part. </speaker>
+                        <l n="263"> Voilà un habile homme !</l>
+                </sp>
+        <sp who="#clitandre">
+            <speaker> CLITANDRE. </speaker>
+                        <l n="264"> Et j’ai eu et aurai pour lui toute ma vie une aversion effroyable.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE, à part. </speaker>
+                        <l n="265"> Voilà un grand médecin !</l>
+                </sp>
+        <sp who="#clitandre">
+            <speaker> CLITANDRE. </speaker>
+                        <l n="266"> Mais, comme il faut flatter l’imagination des malades, et que j’ai vu en elle de l’aliénation d’esprit, et même qu’il y avait du péril à ne lui pas donner un prompt secours, je l’ai prise par son faible, et lui ai dit que j’étais venu ici pour vous la demander en mariage. Soudain son visage a changé, son teint s’est éclairci, ses yeux se sont animés ; et si vous voulez, pour quelques jours, l’entretenir dans cette erreur, vous verrez que nous la tirerons d’où elle est.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="267"> Oui-da, je le veux bien.</l>
+                </sp>
+        <sp who="#clitandre">
+            <speaker> CLITANDRE. </speaker>
+                        <l n="268"> Après, nous ferons agir d’autres remèdes pour la guérir entièrement de cette fantaisie.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="269"> Oui, cela est le mieux du monde. Hé bien ! ma fille, voilà monsieur qui a envie de t’épouser, et je lui ai dit que je le voulais bien.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="270"> Hélas ! est-il possible ?</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="271"> Oui.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="272"> Mais, tout de bon ?</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="273"> Oui, oui.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE, à Clitandre. </speaker>
+                        <l n="274"> Quoi ! vous êtes dans les sentiments d’être mon mari ?</l>
+                </sp>
+        <sp who="#clitandre">
+            <speaker> CLITANDRE. </speaker>
+                        <l n="275"> Oui, madame.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="276"> Et mon père y consent ?</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="277"> Oui, ma fille.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="278"> Ah ! que je suis heureuse, si cela est véritable !</l>
+                </sp>
+        <sp who="#clitandre">
+            <speaker> CLITANDRE. </speaker>
+                        <l n="279"> N’en doutez point, madame. Ce n’est pas d’aujourd’hui que je vous aime, et que je brûle de me voir votre mari. Je ne suis venu ici que pour cela ; et, si vous voulez que je vous dise nettement les choses comme elles sont, cet habit n’est qu’un pur prétexte inventé, et je n’ai fait le médecin que pour m’approcher de vous, et obtenir plus facilement ce que je souhaite.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="280"> C’est me donner des marques d’un amour bien tendre, et j’y suis sensible autant que je puis.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE, à part. </speaker>
+                        <l n="281"> Oh, la folle ! oh, la folle ! oh, la folle !</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="282"> Vous voulez donc bien, mon père, me donner monsieur pour époux ?</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="283"> Oui. Çà, donne-moi ta main. Donnez-moi un peu aussi la vôtre, pour voir.</l>
+                </sp>
+        <sp who="#clitandre">
+            <speaker> CLITANDRE. </speaker>
+                        <l n="284"> Mais, monsieur...</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE, s’étouffant de rire. </speaker>
+                        <l n="285"> Non, non, c’est pour... pour lui contenter l’esprit. Touchez là. Voilà qui est fait.</l>
+                </sp>
+        <sp who="#clitandre">
+            <speaker> CLITANDRE. </speaker>
+                        <l n="286"> Acceptez, pour gage de ma foi, cet anneau que je vous donne.</l>
+            <stage><em>Bas, à Sganarelle.</em></stage>
+                        <l n="287"> C’est un anneau constellé, qui guérit les égarements d’esprit.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="288"> Faisons donc le contrat, afin que rien n’y manque.</l>
+                </sp>
+        <sp who="#clitandre">
+            <speaker> CLITANDRE. </speaker>
+                        <l n="289"> Hélas ! Je le veux bien, madame.</l>
+            <stage><em>Bas, à Sganarelle.</em></stage>
+                        <l n="290"> Je vais faire monter l’homme qui écrit mes remèdes, et lui faire croire que c’est un notaire.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="291"> Fort bien.</l>
+                </sp>
+        <sp who="#clitandre">
+            <speaker> CLITANDRE. </speaker>
+                        <l n="292"> Holà ! faites monter le notaire que j’ai amené avec moi.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="293"> Quoi ! vous aviez amené un notaire ?</l>
+                </sp>
+        <sp who="#clitandre">
+            <speaker> CLITANDRE. </speaker>
+                        <l n="294"> Oui, madame.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="295"> J’en suis ravie.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="296"> Oh, la folle ! oh, la folle !</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#le-notaire">
+            <speaker> LE NOTAIRE, CLITANDRE, SGANARELLE, LUCINDE, LISETTE </speaker>
+            <stage><em>Clitandre parle au notaire à l’oreille.</em></stage>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE, au notaire. </speaker>
+                        <l n="297"> Oui, monsieur, il faut faire un contrat pour ces deux personnes-là. Écrivez.</l>
+            <stage><em>Le notaire écrit. À Lucinde.</em></stage>
+                        <l n="298"> Voilà le contrat qu’on fait.</l>
+            <stage><em>                Au notaire.</em></stage>
+                        <l n="299"> Je lui donne vingt mille écus en mariage. Écrivez.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="300"> Je vous suis bien obligée, mon père.</l>
+                </sp>
+        <sp who="#le-notaire">
+            <speaker> LE NOTAIRE. </speaker>
+                        <l n="301"> Voilà qui est fait. Vous n’avez qu’à venir signer.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="302"> Voilà un contrat bientôt bâti.</l>
+                </sp>
+        <sp who="#clitandre">
+            <speaker> CLITANDRE, à Sganarelle. </speaker>
+                        <l n="303"> Mais au moins, monsieur...</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="304"> Hé ! non, vous dis-je. Sait-on pas bien ?...</l>
+            <stage><em>Au notaire.</em></stage>
+                        <l n="305"> Allons, donnez-lui la plume pour signer.</l>
+            <stage><em>À Lucinde.</em></stage>
+                        <l n="306"> Allons, signé, signé, signé.[12] Va, va, je signerai tantôt, moi.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="307"> Non, non, je veux avoir le contrat entre mes mains.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="308"> Hé bien ! tiens.</l>
+            <stage><em>Après avoir signé.</em></stage>
+                        <l n="309"> Es-tu contente ?</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="310"> Plus qu’on ne peut s’imaginer.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="311"> Voilà qui est bien, voilà qui est bien.</l>
+                </sp>
+        <sp who="#clitandre">
+            <speaker> CLITANDRE. </speaker>
+                        <l n="312"> Au reste, je n’ai pas eu seulement la précaution d’amener un notaire ; j’ai eu celle encore de faire venir des voix et des instruments et des danseurs pour célébrer la fête, et pour nous réjouir. Qu’on les fasse venir. Ce sont des gens que je mène avec moi, et dont je me sers tous les jours pour pacifier avec leur harmonie et leurs danses les troubles de l’esprit.</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#tous-trois-ensemble">
+            <speaker> TOUS TROIS ENSEMBLE. </speaker>
+                        <l n="313"> Sans nous tous les hommes</l>
+                        <l n="314"> Deviendraient malsains,</l>
+                        <l n="315"> Et c’est nous qui sommes</l>
+                        <l n="316"> Leurs grands médecins.</l>
+                </sp>
+        <sp who="#la-comédie">
+            <speaker> LA COMÉDIE. </speaker>
+                        <l n="317"> Veut-on qu’on rabatte,</l>
+                        <l n="318"> Par des moyens doux,</l>
+                        <l n="319"> Les vapeurs de rate</l>
+                        <l n="320"> Qui vous minent tous ?</l>
+                        <l n="321"> Qu’on laisse Hippocrate,</l>
+                        <l n="322"> Et qu’on vienne à nous.</l>
+                </sp>
+        <sp who="#tout-trois-ensemble">
+            <speaker> TOUT TROIS ENSEMBLE. </speaker>
+                        <l n="323"> Sans nous tous les hommes</l>
+                        <l n="324"> Deviendraient malsains,</l>
+                        <l n="325"> Et c’est nous qui sommes</l>
+                        <l n="326"> Leurs grands médecins.</l>
+            <stage><em>Durant qu’ils chantent, et que les Jeux, les Ris et les Plaisirs dansent, Clitandre emmène Lucinde.</em></stage></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="327"> Voilà une plaisante façon de guérir ! Où est donc ma fille et le médecin ?</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="328"> Ils sont allés achever le reste du mariage.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="329"> Comment, le mariage ?</l>
+                </sp>
+        <sp who="#lisette">
+            <speaker> LISETTE. </speaker>
+                        <l n="330"> Ma foi, monsieur, la bécasse est bridée ; et vous avez cru faire un jeu, qui demeure une vérité.</l>
+                </sp>
+        <sp who="#sganarelle">
+            <speaker> SGANARELLE. </speaker>
+                        <l n="331"> Comment, diable !</l>
+            <stage><em>Il veut aller après Clitandre et Lucinde, les danseurs le retiennent. </em></stage>
+                        <l n="332"> Laissez-moi aller, laissez-moi aller, vous dis-je.</l>
+            <stage><em>                Les danseurs le retiennent toujours.</em></stage>
+                        <l n="333"> Encore ?</l>
+            <stage><em>Ils veulent faire danser Sganarelle de force.</em></stage>
+                        <l n="334"> Peste des gens !</l>
+            <stage><a href="#_ftnref1" name="_ftn1" title="" id="_ftn1">[1]</a> Var. <em>Je n’avais qu’une femme qui est morte</em> (1682).</stage>
+            <stage><a href="#_ftnref2" name="_ftn2" title="" id="_ftn2">[2]</a> Var. <em>Et combien donc en vouliez-vous avoir ?</em> (1682).</stage>
+            <stage><a href="#_ftnref3" name="_ftn3" title="" id="_ftn3">[3]</a> Var. <em>Elle est morte, monsieur Guillaume mon ami</em> (1682).</stage>
+            <stage><a href="#_ftnref4" name="_ftn4" title="" id="_ftn4">[4]</a> Var. <em>tout ce que je dois faire</em> (1682).</stage>
+            <stage><a href="#_ftnref5" name="_ftn5" title="" id="_ftn5">[5]</a> Var. <em>que la braverie, que l’ajustement est la chose</em> (1682).</stage>
+            <stage><a href="#_ftnref6" name="_ftn6" title="" id="_ftn6">[6]</a> Var. <em>qui ne veulent pas entendre</em> (1682).</stage>
+            <stage><a href="#_ftnref7" name="_ftn7" title="" id="_ftn7">[7]</a> Var. <em>on se peut libérer un peu</em> (1682).</stage>
+            <stage><a href="#_ftnref8" name="_ftn8" title="" id="_ftn8">[8]</a> Var. <em>et s’est allée mettre sur le lit</em> (1682).</stage>
+            <stage><a href="#_ftnref9" name="_ftn9" title="" id="_ftn9">[9]</a> Var. <em>et elle est demeurée entre nos bras</em> (1682).</stage>
+            <stage><a href="#_ftnref10" name="_ftn10" title="" id="_ftn10">[10]</a> Var. <em>de peur que je ne l’oublie</em> (1682).</stage>
+            <stage><a href="#_ftnref11" name="_ftn11" title="" id="_ftn11">[11]</a> Var. <em>ce semble</em> (1682).</stage>
+            <stage><a href="#_ftnref12" name="_ftn12" title="" id="_ftn12">[12]</a> Var. <em>Allons, signe, signe, signe</em> (1673, 1682).</stage>
+                        <l n="335"> </l>
+                        <l n="336"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

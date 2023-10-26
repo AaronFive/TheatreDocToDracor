@@ -1,0 +1,1794 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Le Mariage de rien</title>
+                <title type="sub">Comédie</title>
+            <author>
+                <persName>
+                    <surname>Montfleury</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/?q=node/622 </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1660-03">Représentée pour la première fois, à Paris, sur le Théâtre de l’Hôtel de Bourgogne, en mars 1660.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="le-docteur" sex="SEX">
+                            <persName>LE DOCTEUR</persName>
+                        </person>
+                        <person xml:id="isabelle" sex="SEX">
+                            <persName>ISABELLE</persName>
+                        </person>
+                        <person xml:id="lisandre" sex="SEX">
+                            <persName>LISANDRE</persName>
+                        </person>
+                        <person xml:id="le-poète" sex="SEX">
+                            <persName>LE POÈTE</persName>
+                        </person>
+                        <person xml:id="le-peintre" sex="SEX">
+                            <persName>LE PEINTRE</persName>
+                        </person>
+                        <person xml:id="le-musicien" sex="SEX">
+                            <persName>LE MUSICIEN</persName>
+                        </person>
+                        <person xml:id="le-capitan" sex="SEX">
+                            <persName>LE CAPITAN</persName>
+                        </person>
+                        <person xml:id="l’astrologue" sex="SEX">
+                            <persName>L’ASTROLOGUE</persName>
+                        </person>
+                        <person xml:id="le-médecin" sex="SEX">
+                            <persName>LE MÉDECIN</persName>
+                        </person>
+                        <person xml:id="béatrix" sex="SEX">
+                            <persName>BÉATRIX</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Comédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q40831]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">LE MARIAGE DE RIEN</titlePart>
+            <titlePart type="sub">COMÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre de l’Hôtel de Bourgogne, en mars 1660.</ab><!--@date="1660-03"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> À MESSIRE CHARLES TESTU</salute>
+            </opener>
+        <p> CONSEILLER DU ROI, en son Conseil d’État, Maître-d’Hôtel ordinaire de Sa Majesté, Chevalier, et Capitaine du Guet  de Paris </p>
+        <p> Monsieur, </p>
+        <p> L’approbation que vous avez donnée au Rien que je vous présente, me donne lieu d’espérer que vous le recevrez avec autant de bonté que si c’était quelque chose, et que la lecture que vous en ferez ne détruira pas l’estime que la représentation vous en a fait concevoir. Ce n’est pas, Monsieur, que faisant réflexion sur la parfaite connaissance que vous avez de toutes sortes d’ouvrages, je n’eusse perdu l’envie de vous consacrer mon coup d’essai, si je n’avais considéré en même temps, que vous n’avez pas moins d’indulgence, pour e, excuser les défauts, que de facilité à les connaître ; et que m’obstinant à vouloir vous offrir quelque chose digne de vous, je me mettais au hasard de ne vous donner jamais de preuves de mon respect. Si toute la France n’était persuadée que la netteté de votre esprit égale l’éclat de votre illustre naissance, et que la prudence que vous avez toujours fait remarquer dans l’administration d’une charge aussi glorieuse pour vous, qu’utile pour le public, ne peut recevoir de comparaison sans perdre de son lustre ; je m’efforcerais d’en instruire ceux qui en pourraient douter, exagérant les rares qualités dont vous être avantageusement pourvu ; mais comme il n’est pas nécessaire d’voir tous les avantages, qui sont connus de tout le monde, pour mériter un ouvrage qui vaut si peu, il me serait inutile et même dangereux de l’entreprendre. Je passerai donc ces choses sous silence, pour vous protester que j’estimerai mon bonheur sans pareil, si vous êtes assez prodigue d’estime pour en donner à RIEN, et si ce RIEN que je vous offre avec toute sorte de respect, me peut faire obtenir la grâce de me lire, </p>
+        <p>             Monsieur, </p>
+        <p>             Votre très humble et très obéissant serviteur </p>
+        <p> DE MONTFLEURY. </p>
+    </div>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#lisandre">
+            <speaker> LISANDRE </speaker>
+                        <l n="1"> Je vois déjà briller l’aurore,</l>
+                        <l n="2"> Et je n’aperçois point encore,</l>
+                        <l n="3"> Celle qui doit bientôt ici,</l>
+                        <l n="4"> Finir ou croître mon souci.</l>
+                        <l n="5"> Cette paresseuse suivante,</l>
+                        <l n="6"> À mon humeur impatiente,</l>
+                        <l n="7"> Fait souffrir un rude tourment :</l>
+                        <l n="8"> Elle me doit, dans ce moment,</l>
+                        <l n="9"> Instruire de ce qu’il faut faire.</l>
+                        <l n="10"> Pour me faire agréer du père</l>
+                        <l n="11"> De celle de qui les trésors</l>
+                        <l n="12"> Me charment bien plus que le corps ;</l>
+                        <l n="13"> Puisqu’en épousant cette fille,</l>
+                        <l n="14"> Unique dedans sa famille,</l>
+                        <l n="15"> Je deviens riche d’indigent.</l>
+                        <l n="16"> Car enfin, il faut de l’argent,</l>
+                        <l n="17"> Dans ce maudit siècle où nous sommes,</l>
+                        <l n="18"> Pour être bien venu des hommes ;</l>
+                        <l n="19"> Et qui n’en a point n’est qu’un sot.</l>
+                        <l n="20"> Mais Béatrix paraît.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#lisandre">
+            <speaker> LISANDRE. </speaker>
+                        <l n="21"> Un mot.</l>
+                        <l n="22"> Hé bien, vois-tu quelqu’apparence</l>
+                        <l n="23"> À notre future alliance ?</l>
+                        <l n="24"> Et pourrai-je par ton moyen...</l>
+                </sp>
+        <sp who="#béatrix">
+            <speaker> BÉATRIX. </speaker>
+                        <l n="25"> Ma foi, je n’y connais plus rien.</l>
+                        <l n="26"> Ma maîtresse se désespère,</l>
+                        <l n="27"> Parce que le Docteur, son père.</l>
+                        <l n="28"> Trouve des défauts en tous ceux</l>
+                        <l n="29"> Qui lui font offre de leurs feux.</l>
+                        <l n="30"> De fous, d’ignorants, il les traite ;</l>
+                        <l n="31"> Je crois que c’est une défaite ;</l>
+                        <l n="32"> Et que même tant qu’il vivra.</l>
+                        <l n="33"> Jamais il ne la mariera,</l>
+                        <l n="34"> De peur de dégarnir sa bourse ;</l>
+                        <l n="35"> Que c’est l’origine et la source</l>
+                        <l n="36"> De tout le mépris qu’il fait d’eux.</l>
+                </sp>
+        <sp who="#lisandre">
+            <speaker> LISANDRE. </speaker>
+                        <l n="37"> Hélas ! que je suis malheureux !</l>
+                        <l n="38"> Ne saurais-je, par quelqu’adresse,</l>
+                        <l n="39"> Gagner le cœur de ta maîtresse ?</l>
+                </sp>
+        <sp who="#béatrix">
+            <speaker> BÉATRIX. </speaker>
+                        <l n="40"> Croyez-moi, je le sais fort bien,</l>
+                        <l n="41"> Cela ne servirait de rien.</l>
+                        <l n="42"> Vous n’avez autre chose à faire,</l>
+                        <l n="43"> Qu’à tâcher de plaire à son père ;</l>
+                        <l n="44"> Et lorsqu’il y consentira,</l>
+                        <l n="45"> Je sais bien qu’elle le voudra ;</l>
+                        <l n="46"> Car je crois, s’il n’y remédie,</l>
+                        <l n="47"> Si bientôt il ne la marie,</l>
+                        <l n="48"> Qu’on la verra mourir d’ennuis.</l>
+                        <l n="49"> Elle pleure toutes les nuits,</l>
+                        <l n="50"> Et craint si fort de mourir fille,</l>
+                        <l n="51"> Et de voir manquer sa famille,</l>
+                        <l n="52"> Que cette crainte, de ses jours,</l>
+                        <l n="53"> Pourrait bien avancer le cours.</l>
+                        <l n="54"> Mais il faut que je me retire ;</l>
+                        <l n="55"> Le Docteur vient.</l>
+                </sp>
+        <sp who="#lisandre">
+            <speaker> LISANDRE. </speaker>
+                        <l n="56"> Quoi ! sans m’instruire !</l>
+                        <l n="57"> Un mot de conversation.</l>
+                </sp>
+        <sp who="#béatrix">
+            <speaker> BÉATRIX. </speaker>
+                        <l n="58"> Songez à quelqu’invention,</l>
+                        <l n="59"> Quelque ruse, quelqu’artifice,</l>
+                        <l n="60"> Pour paraître à ses yeux sans vice.</l>
+                        <l n="61"> Si vous trouvez, comme il le faut,</l>
+                        <l n="62"> Un art sans tache et sans défaut ;</l>
+                        <l n="63"> S’il n’y trouve rien à reprendre,</l>
+                        <l n="64"> Soyez certain d’être son gendre.</l>
+                </sp>
+        <sp who="#lisandre">
+            <speaker> LISANDRE. </speaker>
+                        <l n="65"> Je vais de ce pas y songer ;</l>
+                        <l n="66"> Tâche toujours à m’obliger.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="67"> Enfin vous voulez donc, mon père,</l>
+                        <l n="68"> Voir toujours durer ma misère.</l>
+                        <l n="69"> Et jamais ne me marier ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="70"> C’est que je veux bien m’allier.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="71"> Qui que ce soit qui se présente.</l>
+                        <l n="72"> Votre humeur n’est jamais contente.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="73"> Mais, toi, de qui la passion</l>
+                        <l n="74"> Appète la conjonction</l>
+                        <l n="75"> Et le lien du mariage,</l>
+                        <l n="76"> Sais-tu bien quel en est l’ouvrage ?</l>
+                        <l n="77"> Connais-tu quel en est le fruit ?</l>
+                        <l n="78"> Sais-tu quels enfants il produit ?</l>
+                        <l n="79"> Apprends que les haines mortelles,</l>
+                        <l n="80"> Les contentions, les querelles,</l>
+                        <l n="81"> Les débats, la dissension.</l>
+                        <l n="82"> Le mépris et l’aversion.</l>
+                        <l n="83"> En font les effets et la fuite.</l>
+                        <l n="84"> Les hommes grands et de conduite,</l>
+                        <l n="85"> Tels que fut autrefois Platon,</l>
+                        <l n="86"> Lactance, Épicure, Ariston,</l>
+                        <l n="87"> Quintilien, Anaxagore,</l>
+                        <l n="88"> Draco, Lucrèce, Pythagore,</l>
+                        <l n="89"> Étant sur ce point en débat,</l>
+                        <l n="90"> Ont tous loué le célibat.</l>
+                        <l n="91"> Socrate, homme savantissime,</l>
+                        <l n="92"> Consulté sur cette maxime,</l>
+                        <l n="93"> A dit, que qui se mariera,</l>
+                        <l n="94"> Tôt ou tard s’en repentira.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="95"> Mais il en est de qui les charmes,</l>
+                        <l n="96"> Loin de nous causer des alarmes,</l>
+                        <l n="97"> Des plaintes, des soupirs, des pleurs,</l>
+                        <l n="98"> Sont remplis de mille douceurs.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="99"> Faire aux savants un tel outrage !</l>
+                        <l n="100"> Des douceurs dans le mariage !</l>
+                        <l n="101"> Avec qui donc, cette douceur ?</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="102"> Le Soldat serait...</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="103"> Querelleur.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="104"> Le Noble ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="105"> Plein de fourberies.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="106"> L’Historien ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="107"> De menteries.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="108"> Le Juge ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="109"> De sévérité.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="110"> L’Interprète ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="111"> D’obscurité.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="112"> Les Devins ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="113"> De sorcelleries.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="114"> Le Poète ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="115"> Plein de rêveries.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="116"> Le Rhétoricien ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="117"> Flatteur.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="118"> L’Homme d’affaire ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="119"> Grand parleur.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="120"> Le Législateur ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="121"> Sans conduite.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="122"> Le Particulier ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="123"> Hypocrite.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="124"> L’Astronome ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="125"> Sera trompeur.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="126"> L’Apothicaire ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="127"> Empoisonneur.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="128"> Le Philosophe ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="129"> Sophistique.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="130"> Et l’Alchimiste ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="131"> Chimérique.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="132"> L’Astrologue ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="133"> Sera sorcier.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="134"> Le Marchand ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="135"> Trompeur, usurier.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="136"> Le Chasseur ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="137"> Sera sanguinaire.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="138"> Le Notaire ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="139"> Sera faussaire.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="140"> Et le Médecin ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="141"> Meurtrier.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="142"> À qui doncques me marier ?</l>
+                        <l n="143"> Le vieux ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="144"> Sera fâcheux, avare,</l>
+                        <l n="145"> Incommode, jaloux, bizarre.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="146"> Le jeune étant plein de santé ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="147"> Ce ne fera qu’un éventé.</l>
+                        <l n="148"> Bref, quel que soit ce futur gendre,</l>
+                        <l n="149"> J’y trouve toujours à reprendre.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="150"> Mais s’il s’en trouve un comme il faut ;</l>
+                        <l n="151"> Et que vous trouviez sans défaut,</l>
+                        <l n="152"> Le refuserez-vous encore ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="153"> Par les sciences que j’adore,</l>
+                        <l n="154"> Par les mânes des grands Docteur,</l>
+                        <l n="155"> Qui furent des arts inventeurs ;</l>
+                        <l n="156"> Par le père de la doctrine,</l>
+                        <l n="157"> Dont j’ai tiré mon origine ;</l>
+                        <l n="158"> S’il s’en trouve un tel, aujourd’hui</l>
+                        <l n="159"> Tu seras conjointe avec lui,</l>
+                        <l n="160"> Pour multiplier ma famille.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#le-poète">
+            <speaker> LE POÈTE. </speaker>
+                        <l n="161"> Charmé des yeux de votre fille,</l>
+                        <l n="162"> Auxquels on ne peut résister,</l>
+                        <l n="163"> Je viens ici me présenter</l>
+                        <l n="164"> Pour voir si j’oserais prétendre</l>
+                        <l n="165"> À l’honneur d’être votre gendre.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR, à sa fille. </speaker>
+                        <l n="166"> Ma fille, voici bien ton fait.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="167"> Cet homme n’est pas trop bien fait.</l>
+                        <l n="168"> Mais de peur d’en être frustrée,</l>
+                        <l n="169"> Et de n’être point mariée,</l>
+                        <l n="170"> Je n’oserais dire que non.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="171"> Quelle est votre vacation ?</l>
+                </sp>
+        <sp who="#le-poète">
+            <speaker> LE POÈTE. </speaker>
+                        <l n="172"> Ah ! il l’on peut, par cette voie,</l>
+                        <l n="173"> Jouir d’une si belle proie,</l>
+                        <l n="174"> Je suis assuré d’être heureux.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="175"> Enfin, dites-moi...</l>
+                </sp>
+        <sp who="#le-poète">
+            <speaker> LE POÈTE. </speaker>
+                        <l n="176"> Je le veux.</l>
+                        <l n="177"> Elle est si noble et si savante,</l>
+                        <l n="178"> Si parfaite et si fort charmante,</l>
+                        <l n="179"> Si digne de gloire et d’honneur,</l>
+                        <l n="180"> Si pleine d’une noble ardeur,</l>
+                        <l n="181"> Qu’aucune ne peut avec elle</l>
+                        <l n="182"> Entrer jamais en parallèle.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="183"> Mais enfin, sachons donc son nom.</l>
+                </sp>
+        <sp who="#le-poète">
+            <speaker> LE POÈTE. </speaker>
+                        <l n="184"> Sachez que l’occupation</l>
+                        <l n="185"> Qui plaît seule à ma fantaisie,</l>
+                        <l n="186"> Est la charmante poésie.</l>
+                        <l n="187"> Pour vous en faire concevoir,</l>
+                        <l n="188"> Et l’excellence, et le pouvoir,</l>
+                        <l n="189"> Je pourrais dire que les Princes,</l>
+                        <l n="190"> Dans les plus fameuses provinces,</l>
+                        <l n="191"> Ont souvent fait bâtir des lieux</l>
+                        <l n="192"> Magnifiques, industrieux,</l>
+                        <l n="193"> Des théâtres, des édifices,</l>
+                        <l n="194"> Faits avec beaucoup d’artifices,</l>
+                        <l n="195"> Pour voir les effets merveilleux</l>
+                        <l n="196"> De cet art descendu des cieux ;</l>
+                        <l n="197"> Que jamais la philosophie,</l>
+                        <l n="198"> La musique, l’astrologie,</l>
+                        <l n="199"> Les médecins, les harangueurs.</l>
+                        <l n="200"> N’ont joui de tous ces honneurs ;</l>
+                        <l n="201"> Que dedans le milieu des rues,</l>
+                        <l n="202"> Les poètes ont eu des statues ;</l>
+                        <l n="203"> Que les oracles le servaient</l>
+                        <l n="204"> De ce bel art qu’ils approuvaient ;</l>
+                        <l n="205"> Que cet art eu fort ordinaire</l>
+                        <l n="206"> Au blond ! hœbus qui nous éclaire,</l>
+                        <l n="207"> Aussi bien qu’au reste des dieux ;</l>
+                        <l n="208"> Que les neufs mules, en tous lieux,</l>
+                        <l n="209"> De tout temps furent révérées,</l>
+                        <l n="210"> Et par les doctes adorées.</l>
+                        <l n="211"> Mais comme vous n’ignorez pas,</l>
+                        <l n="212"> Et sa puissance et ses appas,</l>
+                        <l n="213"> J’emploie en vain mon éloquence,</l>
+                        <l n="214"> À vous en dire l’excellence,</l>
+                        <l n="215"> Et crois que, dès ce même jour,</l>
+                        <l n="216"> Vous approuverez mon amour.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="217"> Donc, parce que vous êtes poète,</l>
+                        <l n="218"> Vous tenez cette affaire faite ?</l>
+                        <l n="219"> Sans considérer que ces mots,</l>
+            <stage><em>Delectant carmina stultos</em>,</stage>
+                        <l n="220"> Sortis de la bouche de poètes</l>
+                        <l n="221"> Plus véritables que vous n’êtes,</l>
+                        <l n="222"> Blâment votre témérité.</l>
+                </sp>
+        <sp who="#le-poète">
+            <speaker> LE POÈTE. </speaker>
+                        <l n="223"> Cet art...</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="224"> Cet art fut inventé,</l>
+                        <l n="225"> Plus pour tromper et pour séduire</l>
+                        <l n="226"> Les mortels, que pour les instruire ;</l>
+                        <l n="227"> Et c’est le plus pernicieux</l>
+                        <l n="228"> Qu’on ait inventé sous les deux.</l>
+                        <l n="229"> À cause de l’effronterie,</l>
+                        <l n="230"> Dont il déduit sa menterie.</l>
+                </sp>
+        <sp who="#le-poète">
+            <speaker> LE POÈTE. </speaker>
+                        <l n="231"> Sachez...</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="232"> C’est aussi de tout temps</l>
+                        <l n="233"> Que les poètes font partisans</l>
+                        <l n="234"> Des grands mensonges que vous faites ;</l>
+                        <l n="235"> Ce qui fait que l’on dit des poètes</l>
+                        <l n="236"> Qui furent jadis et qui font,</l>
+            <stage><em>Semper mendacia fingunt</em>.</stage>
+                </sp>
+        <sp who="#le-poète">
+            <speaker> LE POÈTE. </speaker>
+                        <l n="237"> Mais permettez que je vous die...</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="238"> C’est à cause de leur folie,</l>
+                        <l n="239"> Qu’on dit que tout leur est permis ;</l>
+            <stage><em>Pictoribus atque Poetis, </em></stage>
+            <stage><em>Quidlibet audendi, semper suit æqua potestas</em>.</stage>
+                </sp>
+        <sp who="#le-poète">
+            <speaker> LE POÈTE. </speaker>
+                        <l n="240"> Mais...</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="241"> Les Lacédémoniens,</l>
+                        <l n="242"> Ainsi que les Athéniens,</l>
+                        <l n="243"> Bannissaient ces maudites pestes ;</l>
+                        <l n="244"> Comme à tous les États funestes,</l>
+                        <l n="245"> Alléguant que la probité,</l>
+                        <l n="246"> L’innocence et la vérité,</l>
+                        <l n="247"> Ne pouvant être avec le vice,</l>
+                        <l n="248"> Doivent être sans artifice :</l>
+                        <l n="249"> Par ces mots on nous l’a coté,</l>
+            <stage><em>Verum non indiget Arte.</em></stage>
+                </sp>
+        <sp who="#le-poète">
+            <speaker> LE POÈTE. </speaker>
+                        <l n="250"> Quoi ! vous ne voulez point m’entendre ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="251"> Je ne veux point de fou pour gendre.</l>
+                </sp>
+        <sp who="#le-poète">
+            <speaker> LE POÈTE. </speaker>
+                        <l n="252"> Cet homme, pour juger si mal</l>
+                        <l n="253"> D’un art qui n’eut jamais d’égal,</l>
+                        <l n="254"> Est, pour l’on trop peu de lumière,</l>
+                        <l n="255"> Indigne d’être mon beau-père.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="256"> Hé bien ?</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="257"> Hélas ! j’aurais juré</l>
+                        <l n="258"> Qu’il devait être rembarré.</l>
+                        <l n="259"> Ah ! que si vous pouviez comprendre,</l>
+                        <l n="260"> Combien, en refusant ce gendre,</l>
+                        <l n="261"> Vous perdez plus que je ne perds !</l>
+                        <l n="262"> Il aurait fait pour vous des vers,</l>
+                        <l n="263"> Sonnets, madrigaux, épigrammes,</l>
+                        <l n="264"> Poèmes épiques, anagrammes,</l>
+                        <l n="265"> Sixains, quatrains, stances, dixains ;</l>
+                        <l n="266"> Mais ce qui choque mes desseins,</l>
+                        <l n="267"> Et qui touche le plus mon âme,</l>
+                        <l n="268"> Il eût fait notre épithalame.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="269"> Va, ne t’afflige plus ainsi,</l>
+                        <l n="270"> Un autre s’approche d’ici :</l>
+                        <l n="271"> Ce fera pour toi, je le jure.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="272"> Gardez-vous bien d’être parjure.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#le-peintre">
+            <speaker> LE PEINTRE. </speaker>
+                        <l n="273"> Serais-je bien assez heureux,</l>
+                        <l n="274"> Pour obtenir, félon mes vœux,</l>
+                        <l n="275"> L’honneur d’épouser votre fille,</l>
+                        <l n="276"> Et d’entrer dans votre famille ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="277"> Peut-être. Qu’êtes-vous ?</l>
+                </sp>
+        <sp who="#le-peintre">
+            <speaker> LE PEINTRE. </speaker>
+                        <l n="278"> Je suis</l>
+                        <l n="279"> L’auteur des ouvrages finis,</l>
+                        <l n="280"> Et le singe de la Nature,</l>
+                        <l n="281"> J’excelle dedans la peinture ;</l>
+                        <l n="282"> Et si je pouvais animer</l>
+                        <l n="283"> Tous les corps que je sais former,</l>
+                        <l n="284"> Je suis certain que la peinture</l>
+                        <l n="285"> L’emporterait sur la Nature.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="286"> Je crois cela facilement,</l>
+                        <l n="287"> Puisqu’on pourrait tort aisément,</l>
+                        <l n="288"> Supposant un si, sans merveille,</l>
+                        <l n="289"> Vous mettre dans une bouteille.</l>
+                </sp>
+        <sp who="#le-peintre">
+            <speaker> LE PEINTRE. </speaker>
+                        <l n="290"> De tous les ouvrages divers,</l>
+                        <l n="291"> Il n’en est point dans l’univers,</l>
+                        <l n="292"> Que je ne vous fasse paraître,</l>
+                        <l n="293"> Par ce bel art où je suis maître.</l>
+                        <l n="294"> Je sais, d’un seul coup de pinceau,</l>
+                        <l n="295"> Former un visage plus beau</l>
+                        <l n="296"> Que tous ceux qu’on voit sur la terre ;</l>
+                        <l n="297"> Je sais dépeindre le tonnerre,</l>
+                        <l n="298"> La foudre, le jour, les éclairs,</l>
+                        <l n="299"> Les bêtes, les plantes, les airs,</l>
+                        <l n="300"> Le soleil levant, les nuages,</l>
+                        <l n="301"> Les embrasements, les rivages,</l>
+                        <l n="302"> Les hommes, l’entre jour et nuit,</l>
+                        <l n="303"> Les herbes, les fleurs et le fruit,</l>
+                        <l n="304"> Les triomphes, la paix, la guerre,</l>
+                        <l n="305"> L’eau, le feu, le ciel et la terre ;</l>
+                        <l n="306"> Bref, pour achever mon portrait,</l>
+                        <l n="307"> Et le rendre encor plus parfait,</l>
+                        <l n="308"> Sachez qu’Alcidor l’on m’appelle,</l>
+                        <l n="309"> Que je fuis descendu d’Apelle,</l>
+                        <l n="310"> Celui qu’Alexandre le grand</l>
+                        <l n="311"> Éleva dans un si haut rang,</l>
+                        <l n="312"> À cause de son excellence.</l>
+                        <l n="313"> Ainsi mon art et ma naissance,</l>
+                        <l n="314"> Loin de me faire rebuter,</l>
+                        <l n="315"> Vous obligent de m’accepter.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="316"> Sachez, Monsieur, que l’on appelle</l>
+                        <l n="317"> Alcidor descendu d’Apelle ;</l>
+                        <l n="318"> Que je tiens pour fort ignorant,</l>
+                        <l n="319"> Que je suis Docteur doctorant,</l>
+                        <l n="320"> Que les sciences de mes pères</l>
+                        <l n="321"> Sont dans notre race ordinaires,</l>
+                        <l n="322"> Et de tout temps, de notre estoc,</l>
+                        <l n="323"> Que le doctorat nous est hoc,</l>
+                        <l n="324"> Dès le ventre de notre mère,</l>
+                        <l n="325"> Puisqu’il nous est héréditaire ;</l>
+                        <l n="326"> Et que je dois, ayant l’honneur,</l>
+            <stage>D’être, <em>per naturam</em>, Docteur,</stage>
+                        <l n="327"> Rechercher avec soin un gendre,</l>
+                        <l n="328"> Sur qui l’on n’ait rien à reprendre ;</l>
+                        <l n="329"> Qu’on me mettrait au rang des fous,</l>
+                        <l n="330"> Si je m’abaissais jusqu’à vous ;</l>
+                        <l n="331"> Car, qui dit peintre, dit fantasque,</l>
+                        <l n="332"> De quelque air que votre art se masque :</l>
+                        <l n="333"> Qui dit peintre, dit glorieux,</l>
+                        <l n="334"> Gueux, ivrogne, capricieux.</l>
+            <stage><em>Atqui</em>, cette belle alliance,</stage>
+                        <l n="335"> Outre un ivrogne d’importance,</l>
+                        <l n="336"> Me donnerait, de plus, un gueux,</l>
+                        <l n="337"> Un arrogant, un glorieux,</l>
+                        <l n="338"> Un homme rempli de caprices,</l>
+                        <l n="339"> Qui n’excelle que dans les vices.</l>
+            <stage><em>Ergo</em>, je conclus et promets,</stage>
+            <stage><em>Propter istas rationes</em>,</stage>
+                        <l n="340"> Que vous ne ferez point mon gendre...</l>
+                </sp>
+        <sp who="#le-peintre">
+            <speaker> LE PEINTRE. </speaker>
+                        <l n="341"> Mais...</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="342"> Mais allez vous faire pendre.</l>
+                </sp>
+        <sp who="#le-peintre">
+            <speaker> LE PEINTRE. </speaker>
+                        <l n="343"> Cet homme est sans doute insensé,</l>
+                        <l n="344"> Bien plus que je n’avais pensé.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="345"> Un peintre dedans ma famille !</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="346"> Il faut donc que je meure fille ?</l>
+                        <l n="347"> Qui voudra plus se présenter ?</l>
+                        <l n="348"> Ah ! par ma foi, j’en veux tâter.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="349"> Ma fille tenir ce langage !</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="350"> Je veux dire du mariage,</l>
+                        <l n="351"> Quand mon père y consentira.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="352"> Bientôt un autre s’offrira.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="353"> Vous obstinant d’être sans gendre,</l>
+                        <l n="354"> La vieillesse viendrait me prendre,</l>
+                        <l n="355"> Et l’on ne voudrait plus de moi.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="356"> Va, celui-ci sera pour toi.</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#le-musicien">
+            <speaker> LE MUSICIEN. </speaker>
+                        <l n="357"> Pourriez-vous refuser de prendre</l>
+                        <l n="358"> L’Arion du siècle pour gendre ?</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE, à part. </speaker>
+                        <l n="359"> Cet homme parle de bon sens.</l>
+                </sp>
+        <sp who="#le-musicien">
+            <speaker> LE MUSICIEN. </speaker>
+                        <l n="360"> Je suis l’Orphée de ce temps,</l>
+                        <l n="361"> Je charme les sens, j’extasie,</l>
+                        <l n="362"> Avec bien plus de mélodie,</l>
+                        <l n="363"> Que Polymnestre, qu’Argien ;</l>
+                        <l n="364"> Enfin, je suis musicien :</l>
+                        <l n="365"> Non pas musicien vulgaire,</l>
+                        <l n="366"> Puisque celui qui nous éclaire</l>
+                        <l n="367"> Me cède l’honneur aujourd’hui,</l>
+                        <l n="368"> De mieux symphoniser que lui,</l>
+                        <l n="369"> Et que je suis, par mon adresse,</l>
+                        <l n="370"> Unique dedans mon espèce ;</l>
+                        <l n="371"> Je sais bien rendre les raisons</l>
+                        <l n="372"> Des intervalles et des sons,</l>
+                        <l n="373"> De leurs genres, et des parties</l>
+                        <l n="374"> Qui composent les symphonies.</l>
+                        <l n="375"> Entre ceux qu’on oyait souvent</l>
+                        <l n="376"> Se mêler de cet art savant,</l>
+                        <l n="377"> On pourrait nommer Timothée,</l>
+                        <l n="378"> Néron, Auguste, Ptolomée :</l>
+                        <l n="379"> Mais tous ces gens-là, sur ma foi,</l>
+                        <l n="380"> Ne sont que des sots près de moi :</l>
+                        <l n="381"> Et pour en donner assurance,</l>
+                        <l n="382"> Pour bannir votre défiance,</l>
+                        <l n="383"> Et vous le bien certifier,</l>
+                        <l n="384"> Je veux, d’un plat de mon métier,</l>
+                        <l n="385"> Régaler ici vos oreilles.</l>
+                        <l n="386"> Vous allez ouïr des merveilles.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="387"> Les gens de ce maudit métier</l>
+                        <l n="388"> Se font, d’ordinaire, prier,</l>
+                        <l n="389"> Par ceux qui les veulent entendre,</l>
+                        <l n="390"> Deux heures avant que se rendre ;</l>
+                        <l n="391"> Et ne cessent d’importuner</l>
+                        <l n="392"> Ceux qui voudraient souvent donner</l>
+                        <l n="393"> De l’argent pour les faire taire.</l>
+                </sp>
+        <sp who="#le-musicien">
+            <speaker> LE MUSICIEN. </speaker>
+                        <l n="394"> C’est un air que je viens de faire.</l>
+            <stage><em>Il chante, et poursuit après avoir chanté.</em></stage>
+                        <l n="395"> Hé bien, Docteur, que vous en semble ?</l>
+                        <l n="396"> A-t-on jamais conjoint ensemble,</l>
+                        <l n="397"> Si bien, si méthodiquement,</l>
+                        <l n="398"> La voix avecque l’instrument ?</l>
+                        <l n="399"> Si vous aimez la symphonie,</l>
+                        <l n="400"> Votre âme doit être ravie.</l>
+                        <l n="401"> Comment donc ! vous ne dites rien !</l>
+                        <l n="402"> Êtes-vous sourd ? Ah ! je vois bien</l>
+                        <l n="403"> Que cette douce mélodie</l>
+                        <l n="404"> Vous transporte et vous extasie.</l>
+                        <l n="405"> Mais vous ôtant, comme je vois,</l>
+                        <l n="406"> Jusqu’à l’usage de la voix,</l>
+                        <l n="407"> Je la supprime tout à l’heure,</l>
+                        <l n="408"> Pour dire qu’il faut que je meure,</l>
+                        <l n="409"> Si vous ne guérissez mon mal</l>
+                        <l n="410"> Par le nœud matrimonial.</l>
+                        <l n="411"> Quoi donc ! vous changez de visage !</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="412"> C’est moins de plaisir que de rage,</l>
+                        <l n="413"> De voir qu’un homme de néant</l>
+                        <l n="414"> Prétend si témérairement</l>
+                        <l n="415"> Avoir ma fille en mariage.</l>
+                </sp>
+        <sp who="#le-musicien">
+            <speaker> LE MUSICIEN. </speaker>
+                        <l n="416"> Vous ne savez pas l’avantage...</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="417"> Je sais que tous les musiciens</l>
+                        <l n="418"> Sont des fainéants, des vauriens,</l>
+                        <l n="419"> Des efféminés, inhabiles</l>
+                        <l n="420"> À toutes les choses utiles ;</l>
+                        <l n="421"> Que de tout tems, chez les Persans,</l>
+                        <l n="422"> Ils étaient au rang des plaisants,</l>
+                        <l n="423"> Des diseurs de bouffonneries,</l>
+                        <l n="424"> De fables et de menteries,</l>
+                        <l n="425"> Des bouffons et des bateleurs.</l>
+                        <l n="426"> Outre qu’ils ont eu ces honneurs,</l>
+                        <l n="427"> Je sais qu’en chaque république,</l>
+                        <l n="428"> Les inventeurs de la musique</l>
+                        <l n="429"> N’approchaient point des gens bien nés,</l>
+                        <l n="430"> Parce que ces efféminés</l>
+                        <l n="431"> Corrompaient toute leur jeunesse,</l>
+                        <l n="432"> Par leur chant et par leur mollesse ;</l>
+                        <l n="433"> Et que l’illustre Orphée est mort,</l>
+                        <l n="434"> pour avoir transporté si fort</l>
+                        <l n="435"> Les esprits des hommes de Thrace,</l>
+                        <l n="436"> Qu’il avait rendu tout de glace ;</l>
+                        <l n="437"> Que les femmes de ce pays,</l>
+                        <l n="438"> Par l’extase de leurs maris,</l>
+                        <l n="439"> Ne pouvant plus trouver leur compte,</l>
+                        <l n="440"> Ardentes d’amour et de honte,</l>
+                        <l n="441"> Tuèrent de leurs propres mains</l>
+                        <l n="442"> Ce grand enchanteur des humains,</l>
+                        <l n="443"> Et que rien n’est plus inutile</l>
+                        <l n="444"> Que la musique en une ville.</l>
+                        <l n="445"> Suivez donc des conseils meilleurs ;</l>
+                        <l n="446"> Et cherchez des partis ailleurs.</l>
+                </sp>
+        <sp who="#le-musicien">
+            <speaker> LE MUSICIEN. </speaker>
+                        <l n="447"> Quoi ! refuser mon alliance ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="448"> Allez, sortez de ma présence.</l>
+                </sp>
+        <sp who="#le-musicien">
+            <speaker> LE MUSICIEN. </speaker>
+                        <l n="449"> Je vais sur ce sujet bouffon,</l>
+                        <l n="450"> De ce pas, faire une chanson.</l></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="451"> Hélas ! que ce refus me pique,</l>
+                        <l n="452"> Il m’aurait montré la musique.</l>
+                        <l n="453"> J’aurais appris en même temps,</l>
+                        <l n="454"> À bien toucher des instruments ;</l>
+                        <l n="455"> J’aurais connu la tablature,</l>
+                        <l n="456"> J’aurais su battre la mesure :</l>
+                        <l n="457"> Mais pour mon malheur, je vois bien</l>
+                        <l n="458"> Que je ne saurai jamais rien.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="459"> Dans le dessein que j’ai de prendre</l>
+                        <l n="460"> Un honnête homme pour mon gendre,</l>
+                        <l n="461"> Je le veux bien examiner,</l>
+                        <l n="462"> Avant que de te le donner.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="463"> Moi, j’ai toujours entendu dire,</l>
+                        <l n="464"> Que qui choisit tant prend le pire.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="465"> Ma fille a raison, sur ma foi.</l>
+                        <l n="466"> Le premier sera donc pour toi.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="467"> Comme les autres.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="468"> Sois certaine...</l></div>
+        <div type="scene" xml:id=" X ">
+            <head> Scène X </head>
+        <sp who="#le-capitan">
+            <speaker> LE CAPITAN. </speaker>
+                        <l n="469"> Docteur, savez-vous qui m’amène ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="470"> Non.</l>
+                </sp>
+        <sp who="#le-capitan">
+            <speaker> LE CAPITAN. </speaker>
+                        <l n="471"> Sachez que c’est à dessein</l>
+                        <l n="472"> D’être votre gendre demain,</l>
+                        <l n="473"> Que l’amour en ce lieu m’envoie,</l>
+                        <l n="474"> Pourvu que cet excès de joie</l>
+                        <l n="475"> Ne cause pas votre trépas :</l>
+                        <l n="476"> Car enfin, je ne voudrais pas</l>
+                        <l n="477"> Que l’honneur que je vous veux faire,</l>
+                        <l n="478"> Coûtât la vie à mon beau-père.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="479"> Qu’êtes-vous ?</l>
+                </sp>
+        <sp who="#le-capitan">
+            <speaker> LE CAPITAN. </speaker>
+                        <l n="480"> Ventre ! qui je suis ?</l>
+                        <l n="481"> Docteur, rassemblez vos esprits</l>
+                        <l n="482"> Pour tâcher à le bien comprendre.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR, à sa fille. </speaker>
+                        <l n="483"> Autre fou.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="484"> Mais il faut l’entendre,</l>
+                        <l n="485"> Avant que de juger de lui.</l>
+                </sp>
+        <sp who="#le-capitan">
+            <speaker> LE CAPITAN. </speaker>
+                        <l n="486"> Je suis du désordre l’appui,</l>
+                        <l n="487"> Je suis partisan du carnage ;</l>
+                        <l n="488"> Et quand je veux, par mon courage,</l>
+                        <l n="489"> Je finis des mortels le sort,</l>
+                        <l n="490"> Et suis Substitut de la Mort.</l>
+                        <l n="491"> Rien ne m’ose faire la guerre,</l>
+                        <l n="492"> Et si l’on voit loin de la terre</l>
+                        <l n="493"> Le ciel, c’est, Docteur, de l’effroi</l>
+                        <l n="494"> Que ses habitants ont de moi.</l>
+                        <l n="495"> Le grand Jupin, dès mon enfance,</l>
+                        <l n="496"> Redoutant déjà ma puissance,</l>
+                        <l n="497"> Me joua d’un fort mauvais tour,</l>
+                        <l n="498"> Qu’il me payera quelque jour.</l>
+                        <l n="499"> Ce fut le maquereau céleste,</l>
+                        <l n="500"> Qui fut le ministre du reste.</l>
+                        <l n="501"> En sommeillant je fus jeté</l>
+                        <l n="502"> Au milieu du fleuve Lethé ;</l>
+                        <l n="503"> C’était afin que ma mémoire</l>
+                        <l n="504"> Ne parût jamais dans l’histoire ;</l>
+                        <l n="505"> À ce que du depuis je sus,</l>
+                        <l n="506"> Je m’en tirai comme je pus ;</l>
+                        <l n="507"> Et par des efforts incroyables,</l>
+                        <l n="508"> Je fis enrager tous les diables.</l>
+                        <l n="509"> Je donnai cent coups à Pluton,</l>
+                        <l n="510"> Je rompis la barque à Caron ;</l>
+                        <l n="511"> Je mis en fuite Rhadamante,</l>
+                        <l n="512"> Et dans mon humeur fulminante,</l>
+                        <l n="513"> Tout l’enfer fut par moi vaincu ;</l>
+                        <l n="514"> Je fis même Pluton cocu.</l>
+                        <l n="515"> Ensuite je revins au monde</l>
+                        <l n="516"> Montrer ma valeur sans seconde,</l>
+                        <l n="517"> Où j’ai seul, par mes grands efforts,</l>
+                        <l n="518"> Rempli l’enfer de plus de morts,</l>
+                        <l n="519"> Que les trois Parques étonnées</l>
+                        <l n="520"> N’ont pu trancher de destinées ;</l>
+                        <l n="521"> Et si leurs rigoureux efforts</l>
+                        <l n="522"> L’avaient rempli de plus de morts,</l>
+                        <l n="523"> Des Parques mêmes étonnées</l>
+                        <l n="524"> J’aurais tranché les destinées.</l>
+                        <l n="525"> Je suis vainqueur le plus souvent.</l>
+                        <l n="526"> Sans exposer flamberge au vent ;</l>
+                        <l n="527"> Car, d’un regard je mets, sans doute,</l>
+                        <l n="528"> Une armée entière en déroute.</l>
+                        <l n="529"> Tous les livres que l’on a faits,</l>
+                        <l n="530"> Ne parlent que de mes hauts faits :</l>
+                        <l n="531"> Mais sous des noms qu’on a dû feindre,</l>
+                        <l n="532"> Les auteurs ont su les dépeindre,</l>
+                        <l n="533"> De peur qu’étant trop valeureux,</l>
+                        <l n="534"> Ils ne parussent fabuleux.</l>
+                        <l n="535"> Je suis Hector dans la Troade,</l>
+                        <l n="536"> Achille dedans l’Iliade ;</l>
+                        <l n="537"> Dans Sénèque je suis Jason</l>
+                        <l n="538"> Qui fut conquêter la toison.</l>
+                        <l n="539"> Je suis Jupiter dans la fable,</l>
+                        <l n="540"> Le héros dans Robert le diable ;</l>
+                        <l n="541"> Dedans Daviti, Tamerlan ;</l>
+                        <l n="542"> Dedans l’Arioste, Roland ;</l>
+                        <l n="543"> Dans le Tite-Live, Romule ;</l>
+                        <l n="544"> Dans l’image des dieux, Hercule ;</l>
+                        <l n="545"> Dans Rabelais, Gargantua,</l>
+                        <l n="546"> Et Belzébuth dans Agrippa.</l>
+                        <l n="547"> Tout ce que l’on met dans leur vie,</l>
+                        <l n="548"> Est de la mienne une partie ;</l>
+                        <l n="549"> L’effroi de mon nom glorieux</l>
+                        <l n="550"> S’est semé jusques dans les cieux ;</l>
+                        <l n="551"> Les dieux tremblent en ma présence.</l>
+                        <l n="552"> Et si l’Amour a l’assurance</l>
+                        <l n="553"> De ne pas m’éviter comme eux,</l>
+                        <l n="554"> C’est à cause qu’il n’a point d’yeux.</l>
+                        <l n="555"> Quoique tout cède à mon courage,</l>
+                        <l n="556"> J’use peu de cet avantage ;</l>
+                        <l n="557"> Je laisse les palais aux Rois,</l>
+                        <l n="558"> Les autres maisons aux bourgeois ;</l>
+                        <l n="559"> Je laisse aux bergers, les chaumières,</l>
+                        <l n="560"> Les spélonques aux bêtes fières ;</l>
+                        <l n="561"> Car j’ai (l’on ne le peut nier)</l>
+                        <l n="562"> L’enfer pour cave ; et pour grenier</l>
+                        <l n="563"> Le ciel environné d’étoiles ;</l>
+                        <l n="564"> La terre pour lit, et les voiles</l>
+                        <l n="565"> Que la nuit répand sur les eaux,</l>
+                        <l n="566"> En font le ciel et les rideaux ;</l>
+                        <l n="567"> Les piliers, les pôles du monde ;</l>
+                        <l n="568"> Et les creux abîmes de l’onde</l>
+                        <l n="569"> Me servent de pot-à-pisser.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="570"> J’en réponds, s’il vient à casser.</l>
+                </sp>
+        <sp who="#le-capitan">
+            <speaker> LE CAPITAN. </speaker>
+                        <l n="571"> J’ai pour chevet, la pointe aiguë</l>
+                        <l n="572"> Des rochers qui touchent la nue ;</l>
+                        <l n="573"> Les feuilles me servent de draps,</l>
+                        <l n="574"> L’herbe me sert de matelas,</l>
+                        <l n="575"> La lune me sert de chandelle.</l>
+                        <l n="576"> Vous en riez, belle Isabelle ;</l>
+                        <l n="577"> Ce discours vous plaît, que je croi.</l>
+                        <l n="578"> Docteur, dépêchez, dites-moi,</l>
+                        <l n="579"> De moi ferez-vous votre gendre ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="580"> Je serais assez fou pour prendre,</l>
+                        <l n="581"> Pour mon gendre, le roi des fous ?</l>
+                </sp>
+        <sp who="#le-capitan">
+            <speaker> LE CAPITAN. </speaker>
+                        <l n="582"> Par le ventre ! que dites-vous ?</l>
+            <stage><em>À Isabelle.</em></stage>
+                        <l n="583"> Si vous n’êtes pas ma maîtresse,</l>
+                        <l n="584"> Fussiez-vous autant que Lucrèce,</l>
+                        <l n="585"> Je sais bien ce que je ferai.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="586"> Quoi donc ?</l>
+                </sp>
+        <sp who="#le-capitan">
+            <speaker> LE CAPITAN. </speaker>
+                        <l n="587"> Je vous tarquinerai.</l>
+                        <l n="588"> Docteur, si je n’ai votre fille,</l>
+                        <l n="589"> Si je n’entre en votre famille,</l>
+                        <l n="590"> Encore une fois je ferai,</l>
+                        <l n="591"> Ventre !...</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="592"> Quoi ?</l>
+                </sp>
+        <sp who="#le-capitan">
+            <speaker> LE CAPITAN. </speaker>
+                        <l n="593"> Je m’en passerai.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="594"> Je crains bien que votre imprudence</l>
+                        <l n="595"> Ne mette à bout ma patience.</l>
+                </sp>
+        <sp who="#le-capitan">
+            <speaker> LE CAPITAN. </speaker>
+                        <l n="596"> Quoi ! vous me refusez aussi ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="597"> Si vous ne délogez d’ici...</l>
+                </sp>
+        <sp who="#le-capitan">
+            <speaker> LE CAPITAN. </speaker>
+                        <l n="598"> Parbleu ! ce bonhomme est colère ;</l>
+                        <l n="599"> Hé bien ! il ne m’importe guère ;</l>
+                        <l n="600"> Car, malgré tout votre courroux,</l>
+                        <l n="601"> Ma foi, je me moquais de vous.</l></div>
+        <div type="scene" xml:id=" XI ">
+            <head> Scène XI </head>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="602"> C’est en vain que chacun s’empresse</l>
+                        <l n="603"> De vouloir finir ma tristesse,</l>
+                        <l n="604"> Puisque vous les rebutez tous.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="605"> Veux-tu que j’accepte des fous ?</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="606"> Ils sont tous fous, à votre compte ;</l>
+                        <l n="607"> Votre humeur est un peu trop prompte.</l>
+                        <l n="608"> Si vous n’aviez point rebuté</l>
+                        <l n="609"> Ce dernier qui s’est présenté.</l>
+                        <l n="610"> Il vous eût fait chérir des Princes ;</l>
+                        <l n="611"> Il vous eût conquis des provinces ;</l>
+                        <l n="612"> Il vous aurait fait respecter.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="613"> Mais je voulais le rebuter.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="614"> Mais quand serai-je mariée ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="615"> Ce sera dès cette journée.</l>
+                        <l n="616"> Un autre s’approche d’ici.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="617"> Vous l’allez rebuter aussi.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="618"> C’est celui-ci que je veux prendre.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="619"> Puisqu’il doit être votre gendre,</l>
+                        <l n="620"> Accomplissez donc son désir ;</l>
+                        <l n="621"> Qu’il m’épouse ; à votre loisir,</l>
+                        <l n="622"> Vous l’examinerez ensuite.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="623"> Je veux connaître son mérite,</l>
+                        <l n="624"> Avant qu’en faire ton époux.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="625"> Il le va mettre au rang des fous ;</l>
+                        <l n="626"> Mais écoutons leur dialogue.</l></div>
+        <div type="scene" xml:id=" XII ">
+            <head> Scène XII </head>
+        <sp who="#l’astrologue">
+            <speaker> L’ASTROLOGUE. </speaker>
+                        <l n="627"> Voudriez-vous d’un Astrologue</l>
+                        <l n="628"> Pour l’appui de votre maison ?</l>
+                        <l n="629"> Si vous ne manquez de raison,</l>
+                        <l n="630"> Je suis sûr d’être votre gendre,</l>
+                        <l n="631"> Quand je vous aurai fait comprendre</l>
+                        <l n="632"> Que mon art est si merveilleux,</l>
+                        <l n="633"> Qu’il n’a pour objet que les cieux.</l>
+                        <l n="634"> Pour lire dans les destinées</l>
+                        <l n="635"> Les événements des années,</l>
+                        <l n="636"> Je ne consulte que les cieux ;</l>
+                        <l n="637"> Les astres épars sont mes dieux,</l>
+                        <l n="638"> Et j’ai la céleste influence</l>
+                        <l n="639"> Pour principe de ma science.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="640"> Gai, l’astrologie, en effet,</l>
+                        <l n="641"> Est un art divin et parfait ;</l>
+                        <l n="642"> Et dedans le siècle où nous sommes,</l>
+                        <l n="643"> Il le rencontre si peu d’hommes,</l>
+                        <l n="644"> Qui sachent en bien discourir,</l>
+                        <l n="645"> Qu’on doit extrêmement chérir</l>
+                        <l n="646"> Ceux à qui la toute puissance</l>
+                        <l n="647"> En a donné sa connaissance.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="648"> Faut-il toucher dedans la main ?</l>
+                        <l n="649"> Quand m’épousera-t-il ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="650"> Demain.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="651"> Pourquoi différer davantage ?</l>
+                        <l n="652"> Concluez notre mariage,</l>
+                        <l n="653"> Le plutôt vaut toujours le mieux.</l>
+                </sp>
+        <sp who="#l’astrologue">
+            <speaker> L’ASTROLOGUE. </speaker>
+                        <l n="654"> J’ai, par cet art industrieux,</l>
+                        <l n="655"> Du sort des mortels connaissance ;</l>
+                        <l n="656"> Je prédis aux uns, leur naissance,</l>
+                        <l n="657"> Leurs contentements, leurs santés,</l>
+                        <l n="658"> Leurs bonheurs et leurs dignités,</l>
+                        <l n="659"> Leurs biens, la longueur de leur vie,</l>
+                        <l n="660"> La douceur dont elle est suivie,</l>
+                        <l n="661"> Leurs victoires et leurs honneurs.</l>
+                        <l n="662"> Aux autres, leur mort, leurs malheurs, </l>
+                        <l n="663"> Leurs déplaisirs, leurs maladies,</l>
+                        <l n="664"> Leurs affronts, leurs ignominies,</l>
+                        <l n="665"> La perte des biens, des honneurs ;</l>
+                        <l n="666"> Des enfants, leurs maux, leurs langueurs ;</l>
+                        <l n="667"> Bref, le plaisir ou le désastre.</l>
+                        <l n="668"> Selon l’ascendant de chaque astre.</l>
+                        <l n="669"> Je ne dirai point que Crassus,</l>
+                        <l n="670"> César, Néron, Déjotarus,</l>
+                        <l n="671"> Julien l’Apostat, Décie,</l>
+                        <l n="672"> Ont tous aimé l’astrologie ;</l>
+                        <l n="673"> Qu’ils portaient honneur singulier</l>
+                        <l n="674"> À ceux de ce savant métier,</l>
+                        <l n="675"> Puisqu’enfin, il est trop illustre,</l>
+                        <l n="676"> Pour vouloir tirer d’eux son lustre,</l>
+                        <l n="677"> Et que l’éclat que j’aurais d’eux,</l>
+                        <l n="678"> Ne pourrait pas me rendre heureux.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="679"> Puisque vous savez chaque chose,</l>
+                        <l n="680"> Permettez que je vous propose</l>
+                        <l n="681"> Quatre mots, afin de bien voir</l>
+                        <l n="682"> Jusqu’où s’étend votre savoir.</l>
+                </sp>
+        <sp who="#l’astrologue">
+            <speaker> L’ASTROLOGUE. </speaker>
+                        <l n="683"> Dites, c’est ce que je demande :</l>
+                        <l n="684"> Plus la question fera grande,</l>
+                        <l n="685"> Plus elle aura d’obscurité ;</l>
+                        <l n="686"> Et plus, par ma subtilité,</l>
+                        <l n="687"> Je vous ferai voir et comprendre</l>
+                        <l n="688"> Quel homme vous aurez pour gendre,</l>
+                        <l n="689"> Lorsque vous m’aurez accepté.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="690"> Elle a fort peu d’obscurité :</l>
+                        <l n="691"> Mais puisque votre complaisance</l>
+                        <l n="692"> Me veut donner cette assurance,</l>
+                        <l n="693"> Je voudrais, mais certainement,</l>
+                        <l n="694"> Savoir si dedans ce moment</l>
+                        <l n="695"> Vous pourrez avoir l’avantage</l>
+                        <l n="696"> D’avoir ma fille en mariage.</l>
+                </sp>
+        <sp who="#l’astrologue">
+            <speaker> L’ASTROLOGUE. </speaker>
+                        <l n="697"> La belle proposition !</l>
+                        <l n="698"> Cette fantasque question</l>
+                        <l n="699"> Passe mon art et ma science,</l>
+                        <l n="700"> Puisqu’enfin notre connaissance</l>
+                        <l n="701"> Ne va point jusqu’aux volontés.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="702"> Vous ne le savez pas ? sortez.</l>
+                        <l n="703"> Portez ailleurs votre science,</l>
+                        <l n="704"> Votre art et votre connaissance.</l>
+                        <l n="705"> Vous ne méritez pas l’honneur,</l>
+                        <l n="706"> D’être le gendre d’un Docteur.</l>
+                </sp>
+        <sp who="#l’astrologue">
+            <speaker> L’ASTROLOGUE. </speaker>
+                        <l n="707"> Est-il au monde une science</l>
+                        <l n="708"> Qui puisse savoir ce qu’on pense ?</l>
+                        <l n="709"> Certes, ce secret merveilleux</l>
+                        <l n="710"> Ne peut être commun qu’aux dieux.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="711"> Écoutez-le avec patience.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="712"> Quelle peut être sa science ?</l>
+                        <l n="713"> Puisqu’il ne connaît pas son fort.</l>
+                        <l n="714"> En ce qui le touche si fort.</l>
+                        <l n="715"> Il nous dit que cette science</l>
+                        <l n="716"> Lui fait avoir la connaissance</l>
+                        <l n="717"> Du sort des mortels, de leurs maux,</l>
+                        <l n="718"> De leur gloire, de leurs travaux,</l>
+                        <l n="719"> Et de toutes leurs aventures ;</l>
+                        <l n="720"> Mais ce font autant d’impostures.</l>
+                        <l n="721"> Pourrait-il faire pour autrui</l>
+                        <l n="722"> Ce qu’il ne peut faire pour lui ?</l>
+                </sp>
+        <sp who="#l’astrologue">
+            <speaker> L’ASTROLOGUE. </speaker>
+                        <l n="723"> Puisque tu refuses de prendre</l>
+                        <l n="724"> Un astrologue pour ton gendre ;</l>
+                        <l n="725"> Pour le prix de ta question,</l>
+                        <l n="726"> Écoute ma prédiction.</l>
+                        <l n="727"> Dedans l’an mil-six-cent-soixante,</l>
+                        <l n="728"> Tu mourras de mort violente.</l>
+                        <l n="729"> Ta fille dont je ne veux point,</l>
+                        <l n="730"> Peut, sans se tromper d’un seul point,</l>
+                        <l n="731"> Dès maintenant être assurée</l>
+                        <l n="732"> De n’être jamais mariée.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="733"> Hélas !</l>
+                </sp>
+        <sp who="#l’astrologue">
+            <speaker> L’ASTROLOGUE. </speaker>
+                        <l n="734"> Si, comme on peut changer,</l>
+                        <l n="735"> Elle évite un si grand danger,</l>
+                        <l n="736"> Puisque tu n’as pas voulu prendre</l>
+                        <l n="737"> Quelque savant homme pour gendre,</l>
+                        <l n="738"> Pour ton malheur et pour le sien,</l>
+                        <l n="739"> Ton gendre sera...</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="740"> Quoi donc ?</l>
+                </sp>
+        <sp who="#l’astrologue">
+            <speaker> L’ASTROLOGUE. </speaker>
+                        <l n="741"> Rien.</l></div>
+        <div type="scene" xml:id=" XIII ">
+            <head> Scène XIII </head>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="742"> Que ce dernier a de folie !</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="743"> Quelle funeste prophétie !</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="744"> Ne me diras-tu point encor</l>
+                        <l n="745"> Qu’en le refusant, j’ai grand tort ?</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="746"> Je dis que qui refuse muse ;</l>
+                        <l n="747"> Que je suis la dupe et la buse,</l>
+                        <l n="748"> Et vous l’ennemi de mon bien,</l>
+                        <l n="749"> Et que je n’espère plus rien.</l>
+                        <l n="750"> Pourquoi faut-il que sa science</l>
+                        <l n="751"> Me fasse faire pénitence,</l>
+                        <l n="752"> Et souffrir des maux si cuisants ?</l>
+                        <l n="753"> Ceux qui disent que les enfants</l>
+                        <l n="754"> Portent, par des lois nécessaires,</l>
+                        <l n="755"> Les iniquités de leurs pères,</l>
+                        <l n="756"> L’ont dit avec grande raison...</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="757"> Un astrologue en ma maison ?</l>
+                        <l n="758"> Ces gens sont remplis d’imposture.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="759"> Il m’eût dit ma bonne aventure.</l>
+                        <l n="760"> Ah ! que cette prédiction</l>
+                        <l n="761"> Va croître mon affliction !</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="762"> C’est par hasard quand il rencontre.</l>
+                        <l n="763"> Mais un autre déjà se montre.</l></div>
+        <div type="scene" xml:id=" XIV ">
+            <head> Scène XIV </head>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="764"> Sans doute vous ne rebutez</l>
+                        <l n="765"> Tous ceux qui se font présentés,</l>
+                        <l n="766"> Que pour me faire votre gendre :</l>
+                        <l n="767"> J’ai peu de peine à le comprendre ;</l>
+                        <l n="768"> Docteur vous avez fort bien fait ;</l>
+            <stage>Car, <em>Doctor Doctorem decet</em>.</stage>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="769"> Que cet homme a mauvaise mine !</l>
+                </sp>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="770"> Je suis Docteur en médecine,</l>
+                        <l n="771"> Et de ce bel art sectateur,</l>
+                        <l n="772"> Dont Esculape fut auteur.</l>
+                        <l n="773"> Tout ce que savait Hippocrate,</l>
+                        <l n="774"> Paraxagore, Érosistrates</l>
+                        <l n="775"> Avicenne, Sérapion,</l>
+                        <l n="776"> Galien et Thémision,</l>
+                        <l n="777"> N’approchent point de ma science ;</l>
+                        <l n="778"> Et la parfaite connaissance</l>
+                        <l n="779"> Que j’ai de tous les végétaux,</l>
+                        <l n="780"> Fait que je guéris tous les maux.</l>
+                        <l n="781"> Je sais guérir l’épilepsie,</l>
+                        <l n="782"> La colique, la cachexie,</l>
+                        <l n="783"> L’hydropisie, les abcès,</l>
+                        <l n="784"> Les fièvres et tous leurs accès,</l>
+                        <l n="785"> La migraine, la pleurésie,</l>
+                        <l n="786"> Le pourpre, la paralysie,</l>
+                        <l n="787"> L’accidentelle surdité,</l>
+                        <l n="788"> Les douleurs de dents, de côté,</l>
+                        <l n="789"> Le cancer, ainsi que l’ulcère,</l>
+                        <l n="790"> Le mal de cœur, le mal de mère,</l>
+                        <l n="791"> De tête, de jambes, de dos,</l>
+            <stage><em>Necnon morbos venereos</em>.</stage>
+                        <l n="792"> Enfin...</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="793"> Dites, je vous supplie,</l>
+                        <l n="794"> En avez-vous pour la folie ?</l>
+                </sp>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="795"> Non ; ce mal ne se peut guérir.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="796"> Prenez donc garde d’en mourir.</l>
+                </sp>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="797"> Apprends, pédantesque Critique,</l>
+                        <l n="798"> De qui la sotte politique</l>
+                        <l n="799"> T’a dû rendre qualifié</l>
+                        <l n="800"> Du nom d’homme stultifié.</l>
+                        <l n="801"> Et qui me taxes de folie,</l>
+                        <l n="802"> Qu’il n’est aucune maladie</l>
+                        <l n="803"> Qui ne pût abréger nos jours,</l>
+                        <l n="804"> Sans cet art et sans son secours ;</l>
+                        <l n="805"> Qu’il n’est rien de si nécessaire,</l>
+                        <l n="806"> Partout où le soleil éclaire ;</l>
+                        <l n="807"> Que cet art a toujours été</l>
+            <stage><em>Omni peæstantior arte</em> ;</stage>
+                        <l n="808"> Que, sans l’aide des médecines,</l>
+                        <l n="809"> Des herbes, des fleurs, des racines,</l>
+                        <l n="810"> Sirops, bolus, émulsions,</l>
+                        <l n="811"> Trochisques, miels, décoctions,</l>
+                        <l n="812"> Poudres, diatris, vomitoires,</l>
+                        <l n="813"> Coloquinte, masticatoires,</l>
+                        <l n="814"> Camphre, cassonade, agaric,</l>
+                        <l n="815"> Scamonée, séné, mastic,</l>
+                        <l n="816"> Jujubes, mâne, capillaires,</l>
+                        <l n="817"> Turbith, rhubarbe, électuaires,</l>
+                        <l n="818"> Casse, jalap et tamaris,</l>
+            <stage><em>Totus succumberet orbis</em>,</stage>
+                        <l n="819"> Et que...</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="820"> Sachez, Docteur de balle,</l>
+                        <l n="821"> Que c’est en vain que l’on m’étale</l>
+                        <l n="822"> Les effets de cet art maudit,</l>
+                        <l n="823"> Que j’en sais plus que l’on n’en dit ;</l>
+                        <l n="824"> Et que je tiens la médecine</l>
+                        <l n="825"> Plus à craindre que la famine,</l>
+                        <l n="826"> Que la peste, le feu, ni l’eau ;</l>
+                        <l n="827"> Qu’elle en met plus dans le tombeau,</l>
+                        <l n="828"> Que tous ces choies ensemble ;</l>
+                        <l n="829"> Qu’il n’est point d’art qui lui ressemble :</l>
+                        <l n="830"> De plus, que qui dit médecin,</l>
+                        <l n="831"> Dit putrefait, dit assassin,</l>
+                        <l n="832"> Sale, meurtrier, homicide,</l>
+                        <l n="833"> Homme de sang humain avide,</l>
+                        <l n="834"> Homme ennemi de la santé,</l>
+                        <l n="835"> Ami de la mortalité,</l>
+                        <l n="836"> Et qu’étant résolu de prendre</l>
+                        <l n="837"> Un homme de bien pour mon gendre,</l>
+                        <l n="838"> Je ferais contre mon dessein</l>
+                        <l n="839"> Si je prenais un médecin.</l>
+                </sp>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="840"> Quoi donc !...</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="841"> Allez ailleurs vous plaindre,</l>
+                        <l n="842"> Ou vous apprendrez à me craindre.</l>
+                </sp>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="843"> Toi, de qui le raisonnement</l>
+                        <l n="844"> Méprise témérairement</l>
+                        <l n="845"> Et cet art et son excellence,</l>
+                        <l n="846"> Pour punir ton extravagance,</l>
+                        <l n="847"> Veuillent les dieux qu’un médecin</l>
+                        <l n="848"> Soit dedans peu ton assassin.</l></div>
+        <div type="scene" xml:id=" XV ">
+            <head> Scène XV </head>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="849"> Pour un souhait aussi funeste,</l>
+                        <l n="850"> Veuillent tous les dieux que la peste</l>
+                        <l n="851"> Puisse, secondant mon dessein,</l>
+                        <l n="852"> T’étouffer et sans médecin.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="853"> Il faut donc, malgré mon envie,</l>
+                        <l n="854"> Que je passe toute ma vie</l>
+                        <l n="855"> Sans avoir pu me marier ?</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="856"> De peur de me mésallier.</l>
+                        <l n="857"> Je souhaite et veux que le gendre</l>
+                        <l n="858"> Que, pour toi, j’ai dessein de prendre,</l>
+                        <l n="859"> Soit si charmant et si parfait,</l>
+                        <l n="860"> Soit si fort selon mon souhait,</l>
+                        <l n="861"> Si digne que chacun l’admire,</l>
+                        <l n="862"> Que sur lui l’on n’ait rien à dire.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="863"> Ah ! si vous aviez pu souffrir</l>
+                        <l n="864"> Le dernier qui vient de s’offrir,</l>
+                        <l n="865"> Il eut employé sa science,</l>
+                        <l n="866"> Et la parfaite connaissance</l>
+                        <l n="867"> Qu’il a de tous les végétaux,</l>
+                        <l n="868"> Pour me guérir de tous mes maux ;</l>
+                        <l n="869"> Mais, hélas !...</l></div>
+        <div type="scene" xml:id=" XVI ">
+            <head> Scène XVI </head>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="870"> Un autre s’avance.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="871"> J’en conçois bien peu d’espérance,</l>
+                        <l n="872"> Hélas ! s’il prenait cet amant,</l>
+                        <l n="873"> Que j’aurais de ravissement !</l>
+                        <l n="874"> Mais c’est en vain que je l’espère.</l>
+                </sp>
+        <sp who="#lisandre">
+            <speaker> LISANDRE. </speaker>
+                        <l n="875"> Voudriez-vous être mon beau-père ?</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="876"> Ah ! Béatrix, qu’il est charmant !</l>
+                        <l n="877"> S’il le refuse, assurément...</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="878"> Qu’êtes-vous ?</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="879"> J’en perdrai la vie.</l>
+                </sp>
+        <sp who="#lisandre">
+            <speaker> LISANDRE. </speaker>
+                        <l n="880"> Pour satisfaire à votre envie,</l>
+                        <l n="881"> Je ne suis ni rhétoricien,</l>
+                        <l n="882"> Ni peintre, ni musicien ;</l>
+                        <l n="883"> Je ne suis point dialectique,</l>
+                        <l n="884"> Téméraire, ni politique,</l>
+                        <l n="885"> Je ne suis devin ni joueur,</l>
+                        <l n="886"> Ni médecin, ni harangueur ;</l>
+                        <l n="887"> Je ne suis indigent ni riche,</l>
+                        <l n="888"> Je ne suis libéral ni chiche,</l>
+                        <l n="889"> Ni financier, ni magistrat ;</l>
+                        <l n="890"> Je ne gouverne point l’État.</l>
+                        <l n="891"> Car, peut-on être, quoi qu’on die,</l>
+                        <l n="892"> Rhétoricien sans flatterie,</l>
+                        <l n="893"> Poète sans avoir l’esprit creux,</l>
+                        <l n="894"> Peintre sans être ivrogne ou gueux ?</l>
+                        <l n="895"> Peut-on être dialectique,</l>
+                        <l n="896"> Sans ignorer quelque rubrique ?</l>
+                        <l n="897"> Il n’eu point de vacation</l>
+                        <l n="898"> Exempte d’imperfection.</l>
+                        <l n="899"> Est-on marchand sans tromperie ?</l>
+                        <l n="900"> Est-il un devin sans magie ?</l>
+                        <l n="901"> Un joueur sans être blâmé ?</l>
+                        <l n="902"> Est-il un médecin aimé ?</l>
+                        <l n="903"> Est-on riche sans fâcherie,</l>
+                        <l n="904"> Indigent sans ignominie ?</l>
+                        <l n="905"> De plus, sans prodigalité,</l>
+                        <l n="906"> A-t-on la libéralité ?</l>
+                        <l n="907"> Est-on puissant sans injustice,</l>
+                        <l n="908"> Économe sans avarice ?</l>
+                        <l n="909"> Est-on, sans peine, magistrat ?</l>
+                        <l n="910"> Est-on, sans carnage, soldat ;</l>
+                        <l n="911"> Financier sans inquiétude,</l>
+                        <l n="912"> Astrologue avec certitude,</l>
+                        <l n="913"> Ignorant sans présomption,</l>
+                        <l n="914"> Intéressé sans paisson ?</l>
+                        <l n="915"> Sans être scélérat, ou traître...</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="916"> Que diable pouvez-vous donc être ?</l>
+                </sp>
+        <sp who="#lisandre">
+            <speaker> LISANDRE. </speaker>
+                        <l n="917"> Sachez que je suis sans défaut.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="918"> Ah ! voici l’homme qui vous faut.</l>
+                        <l n="919"> Il ne voudrait pas vous le dire,</l>
+                        <l n="920"> S’il n’était vrai.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="921"> Je veux m’instruire,</l>
+                        <l n="922"> S’il ne m’impose point. Hé bien ?</l>
+                        <l n="923"> Qu’êtes-vous donc ?</l>
+                </sp>
+        <sp who="#lisandre">
+            <speaker> LISANDRE. </speaker>
+                        <l n="924"> Je ne suis rien,</l>
+                        <l n="925"> Et n’étant rien, sans injustice,</l>
+                        <l n="926"> On ne peut m’imputer de vice.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR, à part. </speaker>
+                        <l n="927"> Que diable peut-on dire à rien ?</l>
+                </sp>
+        <sp who="#lisandre">
+            <speaker> LISANDRE. </speaker>
+                        <l n="928"> Je vous dis de moi plus de bien,</l>
+                        <l n="929"> Que je ne vous en pourrais dire,</l>
+                        <l n="930"> Si j’étais maître d’un Empire,</l>
+                        <l n="931"> En vous disant mes faits divers,</l>
+                        <l n="932"> Puisque l’auteur de l’univers,</l>
+                        <l n="933"> De rien, produisit chaque chose.</l>
+                        <l n="934"> Ainsi, quoique l’on se propose,</l>
+                        <l n="935"> On ne peut dire que du bien</l>
+                        <l n="936"> D’un homme qui dit qu’il n’est rien.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="937"> Ce rien me surprend et m’étonne.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="938"> En effet, sa raison est bonne :</l>
+                        <l n="939"> On ne peut dire que du bien</l>
+                        <l n="940"> D’un homme qui dit qu’il n’est rien.</l>
+                </sp>
+        <sp who="#lisandre">
+            <speaker> LISANDRE. </speaker>
+                        <l n="941"> Et pour vous le faire comprendre,</l>
+                        <l n="942"> Qu’est-il de plus grand qu’Alexandre,</l>
+                        <l n="943"> Rien de plus sage que Caton,</l>
+                        <l n="944"> Rien de plus docte que Platon,</l>
+                        <l n="945"> Rien de plus beau que l’artifice,</l>
+                        <l n="946"> Rien de plus grand que la justice,</l>
+                        <l n="947"> Rien de plus vaste que les cieux,</l>
+                        <l n="948"> Rien de plus parfait que les dieux ?</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="949"> Rien de plus heureux qu’une vie</l>
+                        <l n="950"> D’un bon mariage suivie ?</l>
+                </sp>
+        <sp who="#lisandre">
+            <speaker> LISANDRE. </speaker>
+                        <l n="951"> Rien. C’est pourquoi vous voyez bien</l>
+                        <l n="952"> Qu’il n’est rien plus grand que le rien.</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="953"> C’est par-là que la prophétie</l>
+                        <l n="954"> De l’astrologue est accomplie.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="955"> Moi, qui croyais venir à bout</l>
+                        <l n="956"> De répondre à tous, et surtout,</l>
+                        <l n="957"> Je vois que, quoi que je propose,</l>
+                        <l n="958"> Loin de répondre à chaque chose,</l>
+                        <l n="959"> Je ne saurais répondre à rien.</l>
+                        <l n="960"> Puisqu’il n’est rien, je vois fort bien</l>
+                        <l n="961"> Qu’on ne lui peut, sans injustice,</l>
+                        <l n="962"> Imputer ni défaut ni vice.</l>
+                        <l n="963"> Trouverais-je bien un moyen</l>
+                        <l n="964"> De dire quelque chose à rien ?</l>
+                        <l n="965"> Mais non, il ne m’est pas possible,</l>
+                        <l n="966"> Cette entreprise est trop pénible,</l>
+                        <l n="967"> J’entreprendrais sur les esprits</l>
+                        <l n="968"> Dont nous lisons les beaux écrits.</l>
+                        <l n="969"> Puisqu’il est certain qu’Euripide,</l>
+                        <l n="970"> Sophocle, Homère, Thucydide,</l>
+                        <l n="971"> Diogène, Tertullien,</l>
+                        <l n="972"> Hérodote, Quintilien,</l>
+                        <l n="973"> Accurse, Balde, Théodose,</l>
+                        <l n="974"> Ont tous parlé de quelque chose,</l>
+                        <l n="975"> Et pas un n’a parlé de rien ;</l>
+                        <l n="976"> C’est pourquoi ce premier moyen</l>
+                        <l n="977"> Ne fournit point de quoi répondre.</l>
+                        <l n="978"> Toutefois si, pour le confondre,</l>
+                        <l n="979"> Au défaut de quelqu’Ancien...</l>
+                        <l n="980"> Me voilà plus surpris de rien,</l>
+                        <l n="981"> Que quatre autres de quelque chose,</l>
+                        <l n="982"> Car, enfin, sur ce qu’il propose,</l>
+                        <l n="983"> Toute ma science se perd,</l>
+                        <l n="984"> Et cet homme m’a pris sans verd.</l>
+                        <l n="985"> Plus je songe à ce nouveau gendre,</l>
+                        <l n="986"> Moins je vois par où me défendre,</l>
+                        <l n="987"> De m’acquitter de mon serment ;</l>
+                        <l n="988"> Le ciel le veut assurément,</l>
+                        <l n="989"> L’astrologue l’a su prédire.</l>
+                        <l n="990"> Rien !... sur rien je n’ai rien à dire.</l>
+                        <l n="991"> Allez, je vous veux rendre heureux,</l>
+                        <l n="992"> Et vous aurez, selon vos vœux,</l>
+                        <l n="993"> Demain ma fille en mariage,</l>
+                        <l n="994"> Aussi-bien mon serment m’engage.</l>
+                </sp>
+        <sp who="#lisandre">
+            <speaker> LISANDRE, à Isabelle. </speaker>
+                        <l n="995"> Que ne vous dois-je point ? enfin,</l>
+                        <l n="996"> J’ai pourtant été le plus fin ;</l>
+                        <l n="997"> Serez-vous à mes vœux contraire ?</l>
+                </sp>
+        <sp who="#isabelle">
+            <speaker> ISABELLE. </speaker>
+                        <l n="998"> Je veux tout ce que veut mon père.</l>
+                </sp>
+        <sp who="#le-docteur">
+            <speaker> LE DOCTEUR. </speaker>
+                        <l n="999"> Rentrons. Vous autres songez bien</l>
+                        <l n="1000"> À ce que vous direz de Rien.</l>
+                        <l n="1001"> </l>
+                        <l n="1002"> </l></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

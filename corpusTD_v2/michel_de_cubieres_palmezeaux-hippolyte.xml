@@ -1,0 +1,1607 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Hippolyte</title>
+                <title type="sub">Tragédie</title>
+            <author>
+                <persName>
+                    <forename>Michel</forename>
+                    <linkname>de</linkname>
+                    <surname>Cubières-</surname>
+                    <surname>Palmézeaux</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/hippolyte-michel-de-cubières-palmézeaux </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1794-02-27">Représentée pour la première fois, à Paris, sur le Théâtre du Marais, le 27 février 1794.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="thésée" sex="SEX">
+                            <persName>THÉSÉE</persName>
+                        </person>
+                        <person xml:id="phèdre" sex="SEX">
+                            <persName>PHÈDRE</persName>
+                        </person>
+                        <person xml:id="hippolyte" sex="SEX">
+                            <persName>HIPPOLYTE</persName>
+                        </person>
+                        <person xml:id="théodas" sex="SEX">
+                            <persName>THÉODAS</persName>
+                        </person>
+                        <person xml:id="egine" sex="SEX">
+                            <persName>EGINE</persName>
+                        </person>
+                        <person xml:id="ismène" sex="SEX">
+                            <persName>ISMÈNE</persName>
+                        </person>
+                        <person xml:id="la-déesse-diane" sex="SEX">
+                            <persName>LA DÉESSE DIANE</persName>
+                        </person>
+                        <person xml:id="chasseurs" sex="SEX">
+                            <persName>CHASSEURS</persName>
+                        </person>
+                        <person xml:id="gardes" sex="SEX">
+                            <persName>GARDES</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Tragédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q80930]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">HIPPOLYTE</titlePart>
+            <titlePart type="sub">TRAGÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre du Marais, le 27 février 1794.</ab><!--@date="1794-02-27"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> À MADAME ÉLÉONORE DE LA T* S***</salute>
+            </opener>
+        <p> En lui envoyant ma tragédie d’HIPPOLYTE. </p>
+        <p> Le voilà, mon pauvre Hippolyte, </p>
+        <p> Enfant mort-né, de mon cerveau. </p>
+        <p> De mon cerveau ! que dis-je ? il n’a rien de nouveau, </p>
+        <p> Au touchant Euripide il doit tout son mérite. </p>
+        <p> Plus d’un vieux pédant encroûté </p>
+        <p> Des préjugés de son collège </p>
+        <p> A dit qu’en m’arrogeant l’orgueilleux privilège </p>
+        <p> De traiter un sujet par Racine traité, </p>
+        <p> Je commettais un sacrilège, </p>
+        <p> Et qu’il fallait me mettre en lieu de sûreté. </p>
+        <p> Les dames du bon ton, dames que je révère, </p>
+        <p> Ont regardé mes vers d’un visage sévère, </p>
+        <p> Et de leur palais éconduit, </p>
+        <p> Grâces à leurs rigueurs, j’ai seul passé la nuit. </p>
+        <p> Vous êtes philosophe à la fois et jolie, </p>
+        <p> Et vous ne m’avez point accusé de folie </p>
+        <p> Pour avoir imité ce drame ingénieux, </p>
+        <p> Enfant d’une muse divine, </p>
+        <p> Que n’a point surpassé Racine, </p>
+        <p> Malgré son style harmonieux. </p>
+        <p> Racine eut du talent, mais auprès d’Euripide </p>
+        <p> Ce n’est qu’un barbotteur dans l’onde aganippide. </p>
+        <p> Et si l’ardente Phèdre avait eu vos appas, </p>
+        <p> Ah ? madame, ne croyez pas </p>
+        <p> Qu’Hippolyte vous eut ou plainte ou méprisée, </p>
+        <p> Il aurait volé dans vos bras ; </p>
+        <p> Et quel affront ? grands dieux ! pour le bon roi Thésée ! </p>
+    </div>
+           <div type="act" xml:id="1">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="1"> Ne cesserez-vous point de répandre des pleurs ?</l>
+                        <l n="2"> Assise à vos côtés, partageant vos douleurs,</l>
+                        <l n="3"> Madame, cette nuit, ma fidèle tendresse</l>
+                        <l n="4"> A voulu partager le mal qui vous oppresse.</l>
+                        <l n="5"> Efforts infructueux, trop inutiles soins !</l>
+                        <l n="6"> Rien n’a pu le calmer, les dieux en sont témoins.</l>
+                        <l n="7"> Vous souhaitez le jour, le jour est près d’éclore,</l>
+                        <l n="8"> Et, loin d’être taris, vos pleurs coulent encore ;</l>
+                        <l n="9"> Et, loin de m’écouter, vous détourner les yeux ;</l>
+                        <l n="10"> Tout vous déplaît enfin : la lumière des cieux,</l>
+                        <l n="11"> Qui des infortunés rend la peine moins dure,</l>
+                        <l n="12"> L’aurore qui blanchit les monts et la verdure,</l>
+                        <l n="13"> Ne font que redoubler vos éternels chagrins :</l>
+                        <l n="14"> Vos vœux irrésolus, vos désirs incertains</l>
+                        <l n="15"> Élèvent dans votre âme une tempête affreuse</l>
+                        <l n="16"> Et rappellent les flots d’une mer orageuse.</l>
+                        <l n="17"> Ah ! qu’un mortel souffrant excite de pitié !</l>
+                        <l n="18"> Le mortel toutefois qu’inspire l’amitié,</l>
+                        <l n="19"> Qui, doué par le ciel d’une âme non commune,</l>
+                        <l n="20"> Veille seul en silence auprès de l’infortune,</l>
+                        <l n="21"> N’est-il pas plus à plaindre en de certains moments ?</l>
+                        <l n="22"> Vous même sans pitié verrez-vous mes tourments ?</l>
+                        <l n="23"> À l’état où je suis la mort est préférable.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE, se soulevant avec peine. </speaker>
+                        <l n="24"> Ah ! qu’on m’élève un peu. Tournent insupportable,</l>
+                        <l n="25"> Je me meurs, chère Egine. Ôte-moi ce bandeau,</l>
+                        <l n="26"> Ce pesant diadème, inutile fardeau :</l>
+                        <l n="27"> Laisse errer mes cheveux en tresses vagabondes...</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE, lui ôtant son diadème. </speaker>
+                        <l n="28"> Ah ! faites un peu trêve à vos douleurs profondes.</l>
+                        <l n="29"> L’bomme est né pour souffrir ; et, loin de s’indigner,</l>
+                        <l n="30"> Il doit à son malheur savoir se résigner.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="31"> Que ne puis-je, couchée au bord d’une onde pure ?</l>
+                        <l n="32"> Des limpides ruisseaux entendre le murmure !</l>
+                        <l n="33"> Que ne puis-je m’asseoir à l’ombre des forêts !...</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="34"> Que dites-vous, madame ? où tendent ces regrets ?</l>
+                        <l n="35"> J’ai peine à vous comprendre, et mon âme étonnée,</l>
+                        <l n="36"> Plus que vous de vos maux demeure consternée.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE, se relevant et comme dans le délire. </speaker>
+                        <l n="37"> Allons, partons, Egine : entends-tu dans les bois</l>
+                        <l n="38"> Ces chasseurs que Diane a soumis à ses lois ?</l>
+                        <l n="39"> Que ne puis-je comme eux suivre le cerf timide,</l>
+                        <l n="40"> Le percer à mon gré d’une flèche rapide !</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="41"> Que parlez-vous de chasse et de limpides eaux ?</l>
+                        <l n="42"> Au pied de ce rocher, à travers les roseaux,</l>
+                        <l n="43"> Coule une source pure[4], où ma main diligente</l>
+                        <l n="44"> Peut à l’instant puiser une onde bienfaisante.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="45"> Déesse de Limné ! fais que ma noble main</l>
+                        <l n="46"> Dompte un fougueux coursier écumant sous le frein.</l>
+                        <l n="47"> À cet art généreux on dit que tu présides.</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="48"> Dérobez-vous plutôt à ses leçons perfides.</l>
+                        <l n="49"> Eh quoi ! tantôt la chasse a pour vous mille attraits,</l>
+                        <l n="50"> Vous poursuivez tantôt le cerf dans les forêts ;</l>
+                        <l n="51"> Et bientôt oubliant qu’elle est épouse et reine,</l>
+                        <l n="52"> Phèdre pousse un coursier dans la brûlante arène !</l>
+                        <l n="53"> Quel vertige nouveau vient troubler vos esprits ?</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="54"> Hélas ! que ta maîtresse est digne de mépris !</l>
+                        <l n="55"> Quelle erreur à la fois agréable et funeste</l>
+                        <l n="56"> De ma triste raison détruit le faible reste ?</l>
+                        <l n="57"> Quelle divinité règne sur tous mes sens !</l>
+                        <l n="58"> Je fais vers la vertu des efforts impuissants,</l>
+                        <l n="59"> Et de ma volonté je cherche en vain l’usage.</l>
+                        <l n="60"> Rends-moi mon voile, Egine, et couvre mon visage.</l>
+                        <l n="61"> Je pleure malgré moi, malgré moi de mes yeux</l>
+                        <l n="62"> Coulent des pleurs furtifs dont s’offensent les dieux,</l>
+                        <l n="63"> Et la confusion habite dans mon âme.</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="64"> Eh bien, cette raison que tout mortel réclame,</l>
+                        <l n="65"> Pourquoi la repousser ?</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="66"> L’erreur qui me séduit,</l>
+                        <l n="67"> Qui toujours me tourmente, et partout, me poursuit,</l>
+                        <l n="68"> Tire de ma faiblesse une force nouvelle.</l>
+                        <l n="69"> Laissons-la triompher, et mourons avec elle ;</l>
+                        <l n="70"> Mourons, c’est un dessein que rien ne peut changer.</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="71"> Madame, à tous vos vœux exacte à me ranger,</l>
+                        <l n="72"> J’apporte votre voile et votre diadème ;</l>
+                        <l n="73"> Les voilà : soyez reine et digne de vous-même.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE, remettant son voile. </speaker>
+                        <l n="74"> Hélas ! que ne peut-il adoucir mon malheur !</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="75"> Que ne puis-je à mon tour mourir de ma douleur !</l>
+                        <l n="76"> J’ai vécu trop longtemps ! À quoi sert la science</l>
+                        <l n="77"> Que me donne, du cœur, la longue expérience ?</l>
+                        <l n="78"> Je ne le vois que trop, hélas ! jusqu’aujourd’hui,</l>
+                        <l n="79"> Souffrant moins de mes maux que des peines d’autrui,</l>
+                        <l n="80"> J’éprouve des tourments difficiles à peindre.</l>
+                        <l n="81"> Et vous vous plaignez moins que je ne suis à plaindre.</l>
+                        <l n="82"> Ah ! qu’un cœur trop sensible est un pesant fardeau !</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#théodas">
+            <speaker> THÉODAS. </speaker>
+                        <l n="83"> La reine est-elle prête à descendre au tombeau ?</l>
+                        <l n="84"> Ses cris ont pénétré la forêt ténébreuse.</l>
+                        <l n="85"> Aux accents de sa voix plaintive, douloureuse,</l>
+                        <l n="86"> Et qu’Hippolyte et moi vous avons entendus,</l>
+                        <l n="87"> L’effroi s’est emparé de nos sens éperdus.</l>
+                        <l n="88"> Vous l’avez élevée après l’avoir pourrie ;</l>
+                        <l n="89"> Nulle autre plus que vous n’a pris soin de sa vie.</l>
+                        <l n="90"> D’où viennent ses tourments, ses plaintes, ses regrets !</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="91"> Je n’ai pu le savoir : de ses troubles secrets</l>
+                        <l n="92"> J’ignore ainsi que vous l’origine et la cause ;</l>
+                        <l n="93"> J’ignore quel obstacle à son bonheur s’oppose.</l>
+                </sp>
+        <sp who="#théodas">
+            <speaker> THÉODAS, regardant la reine. </speaker>
+                        <l n="94"> Comme à travers ce voile on aperçoit ses traits</l>
+                        <l n="95"> Changés par la douleur, ainsi que ses attraits !</l>
+                        <l n="96"> Comme elle paraît faible, épuisée, abattue !</l>
+                        <l n="97"> Que ne puis-je adoucir le chagrin qui la tue !</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="98"> Eh ! que n’ai-je point fait pour soutenir ses jours !</l>
+                        <l n="99"> J’ai beau lui prodiguer mes soins et mes secours</l>
+                        <l n="100"> L’infortunée au sein d’éternelles alarmes,</l>
+                        <l n="101"> De chagrin se nourrit et s’abreuve de larmes.</l>
+                        <l n="102"> Trois jours sont écoulés depuis que, vainement,</l>
+                        <l n="103"> J’ose lui présenter un léger aliment,</l>
+                        <l n="104"> Et de l’affreuse mort, sur ses lèvres arides,</l>
+                        <l n="105"> S’accumulent déjà les empreintes livides.</l>
+                </sp>
+        <sp who="#théodas">
+            <speaker> THÉODAS. </speaker>
+                        <l n="106"> Ciel ! que dira Thésée, alors qu’à son retour</l>
+                        <l n="107"> Il verra dépérir l’objet de son amour ?</l>
+                        <l n="108"> Quel malheur pour ce roi que Trézène révère !</l>
+                        <l n="109"> Employez pour la vaincre un zèle plus sévère ;</l>
+                        <l n="110"> Parlez au nom des dieux, au nom de son époux ;</l>
+                        <l n="111"> Pressez-la de nouveau, tombez à ses genoux.</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="112"> Je vais vous obéir.</l>
+                </sp>
+        <sp who="#théodas">
+            <speaker> THÉODAS. </speaker>
+                        <l n="113"> Et moi, près d’Hippolyte,</l>
+                        <l n="114"> Je vais de nos chasseurs joindre la noble élite.</l>
+                        <l n="115"> Heureux, si je pouvais, pressé de les revoir,</l>
+                        <l n="116"> D’un plus doux avenir leur apporter l’espoir !</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="117"> Vous l’avez entendu, madame, dans Trézène</l>
+                        <l n="118"> Et le peuple et les grands partagent votre peine.</l>
+                        <l n="119"> Quel en est le sujet ? Ne vous obstinez plus</l>
+                        <l n="120"> À rendre de nouveau tous mes vœux superflus.</l>
+                        <l n="121"> Est-ce au maître des dieux que ma voix suppliante</l>
+                        <l n="122"> Ira redemander votre raison absente ?</l>
+                        <l n="123"> De Vénus, d’Apollon faudra-t-il l’obtenir ?</l>
+                        <l n="124"> Faudra-t-il la chercher dans un long avenir ?</l>
+                        <l n="125"> Répondez-moi, parlez ; et s’il faut vous la rendre,</l>
+                        <l n="126"> Est-il rien que pour vous je craigne d’entreprendre ?</l>
+                        <l n="127"> Vous ne répondez pas, vous regardez les cieux.</l>
+                        <l n="128"> Sur Egine du moins daignez tourner les yeux ;</l>
+                        <l n="129"> Que votre âme un instant vers la mienne s’élance...</l>
+                        <l n="130"> Quoi ! vous ne dites mot ! vous gardez le silence !</l>
+                        <l n="131"> Ah ! que je suis à plaindre ! et qu’un destin fatal</l>
+                        <l n="132"> Me force à découvrir la source de son mal !</l>
+                        <l n="133"> Elle a tantôt ici refusé de l’entendre,</l>
+                        <l n="134"> Le conseil que dictait l’amitié la plus tendre ;</l>
+                        <l n="135"> Et ce même conseil maintenant repoussé,</l>
+                        <l n="136"> Semble armer contre moi son esprit courroucé.</l>
+                        <l n="137"> Eh bien ! cruelle ! eh bien ! puisque c’est votre envie,</l>
+                        <l n="138"> Mourez. Vous aviez droit à la plus belle vie ;</l>
+                        <l n="139"> Celle de vos enfants, rejetons précieux,</l>
+                        <l n="140"> Vous promettait des jours encor plus glorieux ;</l>
+                        <l n="141"> Voyez-les ces enfants, par la mort de leur mère,</l>
+                        <l n="142"> Obligés de céder au fils de l’étrangère,</l>
+                        <l n="143"> Courber leur jeune front sous un sceptre d’airain.</l>
+                        <l n="144"> Avez-vous oublié quel superbe dédain</l>
+                        <l n="145"> Vous montre à chaque instant ce terrible Hippolyte,</l>
+                        <l n="146"> Indomptable chasseur, que notre sexe irrite ?</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="147"> Ah ! qu’entends-je ?</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="148"> Се nom, à Diane si doux,</l>
+                        <l n="149"> Allume en votre cœur le plus juste courroux :</l>
+                        <l n="150"> Je le vois.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="151"> Que dis-tu ? Quel nom sort de ta bouche ?</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="152"> Vous ne pouvez souffrir cet ennemi farouche :</l>
+                        <l n="153"> Pourquoi-donc mourez-vous ? Ah ! madame, vivez</l>
+                        <l n="154"> Pour voir d’un joug affreux vos enfants préservés ;</l>
+                        <l n="155"> Vivez pour conserver et leur vie et leur gloire.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="156"> Mes enfants me sont chers, Egine, on peut le croire ;</l>
+                        <l n="157"> Et pour les empêcher d’être un jour malheureux,</l>
+                        <l n="158"> Il n’est rien que mon cœur n’entreprenne pour eux.</l>
+                        <l n="159"> Mais dans ce faible cœur tu ne lis pas encore...</l>
+                        <l n="160"> Qu’un souci plus cruel l’agite et le dévore !</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="161"> De quel autre souci peut-il être agité ?</l>
+                        <l n="162"> Préférant la clémence à la sévérité,</l>
+                        <l n="163"> Et, jamais n’abusant de la toute-puissance,</l>
+                        <l n="164"> Vous n’avez point versé le sang de l’innocence.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="165"> Le sang, grâces au ciel ! n’a point rougi mes mains.</l>
+                        <l n="166"> En présence des dieux ainsi que des humains,</l>
+                        <l n="167"> Je le puis attester sans paraître coupable.</l>
+                        <l n="168"> Que ne peux-tu jouir d’une gloire semblable,</l>
+                        <l n="169"> Ô mon trop faible cœur !</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="170"> Enfin je vous entends :</l>
+                        <l n="171"> Thésée a donc osé par des feux inconstants</l>
+                        <l n="172"> Offenser vos liens !</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="173"> Que ne puis-je moi-même</l>
+                        <l n="174"> N’avoir point offensé le digne époux qui m’aime !</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="175"> Je me perds dans le doute, et ne puis concevoir...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="176"> Oh ! qu’heureuse est l’épouse en suivant son devoir !</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="177"> Pure de tout forfait, d’où naît donc cette crainte,</l>
+                        <l n="178"> Ce trouble continu dont votre âme est atteinte ?</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="179"> Ne m’interroge plus, laisse-moi mon secret ;</l>
+                        <l n="180"> Que servent les efforts de ton zèle indiscret ?</l>
+                        <l n="181"> Ce n’est pas envers toi que je mourrai coupable.</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE, avec colère et sensibilité. </speaker>
+                        <l n="182"> Non, pour moi ce mystère est trop insupportable</l>
+                        <l n="183"> Vous parlez de mourir ! c’est moi-même à vos yeux</l>
+                        <l n="184"> Qui vais perdre à l’instant la lumière des cieux ;</l>
+                        <l n="185"> C’est moi qui vais mourir déplorable victime</l>
+                        <l n="186"> D’un silence imprévu dont la rigueur m’opprime.</l>
+            <stage><em>Tombant à ses genoux. </em></stage>
+                        <l n="187"> Je vais mourir, vous dis-je...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="188"> Hélas ! relève-toi :</l>
+                        <l n="189"> Penses-tu m’imposer ou me faire la loi ?</l>
+                        <l n="190"> Pourquoi presser ma main de ta main obstinée ?</l>
+                        <l n="191"> Il est temps de subir ma triste destinée.</l>
+                        <l n="192"> Mais pourquoi de nouveau tomber à mes genoux,</l>
+                        <l n="193"> Et faire succéder la prière au courroux ?</l>
+                        <l n="194"> Je crains plus mille fois tes pleurs que ta colère.</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="195"> Daignez donc révéler ce terrible mystère.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="196"> Eh bien ! je céderai ; tu le veux, j’y consens.</l>
+                        <l n="197"> Mais quel trouble nouveau s’élève dans mes sens ?...</l>
+                        <l n="198"> Ô ma mère ; en tous lieux digne d’être honorée,</l>
+                        <l n="199"> De quel affreux amour fûtes-vous dévorée !</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="200"> Pourquoi le rappeler cet amour monstrueux ?...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="201"> Ô ma sœur, quel délire aveugle, impétueux,</l>
+                        <l n="202"> Sur les pas d’un amant, dans une ile déserte,</l>
+                        <l n="203"> Vous fit ainsi que moi courir à votre perte ?</l>
+                        <l n="204"> Vénus vous égara, son funeste poison</l>
+                        <l n="205"> Au joug le plus honteux soumit votre raison.</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE, gravement. </speaker>
+                        <l n="206"> Allez-vous accuser toute votre famille,</l>
+                        <l n="207"> Madame, ignorez-vous de qui vous êtes fille ?</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="208"> Ô ma sœur ! ô ma mère ! hélas ! voyez mes pleurs !</l>
+                        <l n="209"> Quelle autre a plus que moi partagé vos erreurs !...</l>
+                        <l n="210"> Egine, écoute-moi... Connais-tu la puissance</l>
+                        <l n="211"> De ce Dieu si funeste à la chaste innocence ?</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="212"> De l’amour ?</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="213"> De l’amour. Coupable et malheureuse,</l>
+                        <l n="214"> Mon cœur, mon faible cour brûle de tous ses feux.</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="215"> Il brûle ! juste ciel ! qu’un tel aveu m’étonne !</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="216"> Tu le connais aussi, le fils de l’amazone !</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE, très étonnée. </speaker>
+                        <l n="217"> Hippolyte ?... c’est lui que vous pourriez aimer !...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="218"> C’est une autre que moi qui vient de le nommer ;</l>
+                        <l n="219"> Je respire ! Que dis-je ! à moi-même rendue,</l>
+                        <l n="220"> Puis-je ne pas frémir ? C’est toi qui n’as perdue :</l>
+                        <l n="221"> Jamais, jamais sans toi cet horrible secret,</l>
+                        <l n="222"> De ma bouche sorti... Cruelle ! qu’as-tu fait ?</l>
+                </sp>
+        <sp who="#égine">
+            <speaker> ÉGINE. </speaker>
+                        <l n="223"> Qu’avez-vous fait vous-même ? Une fatale ivresse</l>
+                        <l n="224"> Vous force à m’avouer votre horrible tendresse.</l>
+                        <l n="225"> Hélas ! depuis longtemps je coulais près de vous</l>
+                        <l n="226"> Les plus paisibles nuits et les jours les plus doux :</l>
+                        <l n="227"> J’ignorais le tourment qui trouble une âme tendre.</l>
+                        <l n="228"> Ah ! que ne suis-je morte avant de vous entendre !</l>
+                        <l n="229"> Vénus, je le vois trop, voulant tourner sur vous</l>
+                        <l n="230"> Les traits envenimés d’un céleste courroux,</l>
+                        <l n="231"> A flétri dans son cours votre vie innocente.</l>
+                        <l n="232"> Autant que Jupiter est-elle donc puissante,</l>
+                        <l n="233"> Pour vous avoir livrée à la honte, au remord,</l>
+                        <l n="234"> Vautours plus déchirants, plus cruels que la mort ?</l>
+                        <l n="235"> Pour avoir fait éclore un feu non légitime</l>
+                        <l n="236"> Dans un cœur qui toujours eût ignoré le crime ?</l>
+                        <l n="237"> Pour avoir de vos fils rendu le sort affreux ?</l>
+                        <l n="238"> Pour vous avoir perdue, et moi-même avec eux ?</l>
+                        <l n="239"> Ô trop chère princesse ! ô reine infortunée !</l>
+                        <l n="240"> Quels jours vont suivre, hélas ! la fatale journée</l>
+                        <l n="241"> Où, révélant un feu qui fait frémir d’horreur,</l>
+                        <l n="242"> Vous avez de Vénus éprouvé la fureur ?</l>
+                        <l n="243"> Que vont dire Thésée, et Trézène et la Grèce !</l>
+                        <l n="244"> Je pleure quand j’y songe, et, malgré ma tendresse,</l>
+                        <l n="245"> Je n’en puis supporter l’effroyable tableau ;</l>
+                        <l n="246"> Je sens que ma douleur me conduit au tombeau,</l>
+                        <l n="247"> Adieu, madame, adieu : souffrez qu’à votre vue</l>
+                        <l n="248"> Pour jamais se dérobe une amie éperdue...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="249"> Arrête, chère Egide. Eh ! quoi ! dans mon malheur,</l>
+                        <l n="250"> Tu me fuis, tu ne peux supporter ma douleur !</l>
+                        <l n="251"> Penses-tu, me laissant en proie à ma souffrance,</l>
+                        <l n="252"> Que pour ma guérison il n’est plus d’espérance ?</l>
+                        <l n="253"> Ah ! le ciel est témoin que pour en triompher,</l>
+                        <l n="254"> Que pour vaincre l’amour, le dompter, l’étouffer,</l>
+                        <l n="255"> J’ai tenté des efforts difficiles à croire :</l>
+                        <l n="256"> Partout s’offrait à moi l’ennemi de ma gloire.</l>
+                        <l n="257"> Une autre, moins timide, eût volé sur ses pas ;</l>
+                        <l n="258"> Je l’adorais, Egine, et ne le cherchais pas.</l>
+                        <l n="259"> Que dis-je ? mon amour, vieilli dans le silence,</l>
+                        <l n="260"> N’a montré qu’aujourd’hui toute sa violence ;</l>
+                        <l n="261"> Rien ne l’a fait paraître, et, sans tes pleurs, sans toi,</l>
+                        <l n="262"> Mon horrible secret serait mort avec moi.</l>
+                        <l n="263"> M’a-t-on vue à l’envi des princes de sa race,</l>
+                        <l n="264"> Imiter Hippolyte et le suivre à la chasse,</l>
+                        <l n="265"> Et partager enfin tous ces plaisirs sanglants,</l>
+                        <l n="266"> Des rois fiers et cruels dignes amusements ?</l>
+                        <l n="267"> N’ai-je pas mis un frein à ma flamme insensée ?</l>
+                        <l n="268"> En captivant mes yeux, ma langue, ma pensée,</l>
+                        <l n="269"> N’ai-je pas à toute heure enchainé mes transports ?</l>
+                        <l n="270"> Et lorsqu’enfin j’ai vu que mes derniers efforts</l>
+                        <l n="271"> Ne rendaient point le calme à mon âme agitée,</l>
+                        <l n="272"> Et qu’il fallait céder à Vénus irritée,</l>
+                        <l n="273"> N’ai-je pas résolu, ne pouvant me guérir,</l>
+                        <l n="274"> De souffrir, de me taire, et surtout de mourir ?</l>
+                        <l n="275"> Penses-tu que j’honore autant qu’on les déteste,</l>
+                        <l n="276"> Et l’infâme adultère, et l’odieux inceste ;</l>
+                        <l n="277"> Et que l’égarement qui suit ma folle ardeur,</l>
+                        <l n="278"> Me fasse de mon sexe oublier la pudeur ?</l>
+                        <l n="279"> Oh ! que j’ai de mépris pour ces femmes hardies,</l>
+                        <l n="280"> Qui sous de faux dehors cachent leurs perfidies,</l>
+                        <l n="281"> Qui, fières de tromper leurs crédules époux,</l>
+                        <l n="282"> De la chaste Minerve affrontent le courroux,</l>
+                        <l n="283"> Et qui foulent aux pieds les vertus domestiques !</l>
+                        <l n="284"> Ne craignent-elles point que les murs, les portiques</l>
+                        <l n="285"> Ne révèlent tout haut leurs secrets sentiments ?</l>
+                        <l n="286"> Voilà ce que je crains, voilà, dans ces moments,</l>
+                        <l n="287"> Ce qui me détermine à finir ma carrière.</l>
+                        <l n="288"> Faut-il que, de l’honneur franchissant la barrière,</l>
+                        <l n="289"> Je laisse à mes enfants, pour prix de leur amour,</l>
+                        <l n="290"> La tache d’un forfait qui vivra plus d’un jour ?</l>
+                        <l n="291"> Non, non ; mieux vaut périr : la mort est moins cruelle,</l>
+                        <l n="292"> La mort est passagère, et la honte éternelle.</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="293"> Madame, à vous parler sans vain déguisement,</l>
+                        <l n="294"> Je viens de vous entendre avec frémissement</l>
+                        <l n="295"> Avouer un amour qui n’est point ordinaire ;</l>
+                        <l n="296"> Mais, quand je réfléchis ; un sentiment contraire</l>
+                        <l n="297"> S’empare par degrés de ma faible raison.</l>
+                        <l n="298"> Vous offrez tout l’éclat de la jeune saison,</l>
+                        <l n="299"> Votre âge est tout de feu : des passions humaines</l>
+                        <l n="300"> La flamme vous tourmente et brûle dans vos veines :</l>
+                        <l n="301"> Vous aimez ; de Vénus c’est l’ascendant vainqueur</l>
+                        <l n="302"> Qui malgré vos efforts maîtrise votre cœur ;</l>
+                        <l n="303"> Sans amour, après tout, que sert d’avoir une âme ?</l>
+                        <l n="304"> Le plus doux des penchants doit-il sembler infâme ?</l>
+                        <l n="305"> La nature l’inspire, et l’ordre des destins</l>
+                        <l n="306"> En a fait une loi chère à tous les humains.</l>
+                        <l n="307"> Qu’ils seraient malheureux tous ceux que l’amour blesse</l>
+                        <l n="308"> Si, ne pouvant dompter une tendre faiblesse,</l>
+                        <l n="309"> Ils étaient obligés de descendre au tombeau,</l>
+                        <l n="310"> Si le ciel de leur vie éteignait le flambeau !</l>
+                        <l n="311"> Ou s’il les condamnait à de honteux supplices !</l>
+                        <l n="312"> Que dis-je, leur forfait a les dieux pour complices.</l>
+                        <l n="313"> Interrogez l’histoire et ses récits nombreux :</l>
+                        <l n="314"> Percez, percez du temps les voiles ténébreux :</l>
+                        <l n="315"> Là vous verrez l’Aurore, amante de Céphale,</l>
+                        <l n="316"> L’enlever dans les cieux dès l’aube matinale ;</l>
+                        <l n="317"> Et plus loin Jupiter, épris de Sémélé,</l>
+                        <l n="318"> Étonner de ses feux tout l’Olympe assemblé.</l>
+                        <l n="319"> Eh ! qui peut résister à Vénus, à ses flammes ?</l>
+                        <l n="320"> Ouvrez les yeux, par eux elle entre dans les âmes ;</l>
+                        <l n="321"> Le désir au printemps agite les roseaux ;</l>
+                        <l n="322"> Tout aime dans les airs, tout aime sous les eaux :</l>
+                        <l n="323"> Tout brûle, tout soupire, et la terre embrasée</l>
+                        <l n="324"> Avec ravissement boit l’humide rosée.</l>
+                        <l n="325"> Aimez donc, ô princesse. Eu imitant les dieux,</l>
+                        <l n="326"> Quel cœur peut redouter de leur être odieux ?</l>
+                        <l n="327"> Vous vous dites coupable, et tout vous justifie.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="328"> Qu’entends-je ? et c’est à moi qu’Egine le confie !</l>
+                        <l n="329"> Egine ose à ce point affronter mon courroux !</l>
+                        <l n="330"> Egine m’encourage à trahir mon époux,</l>
+                        <l n="331"> À flétrir les saints nœuds où l’hymen nous engage !</l>
+                        <l n="332"> Voilà bien des flatteurs l’ordinaire langage !</l>
+                        <l n="333"> C’est avec ce poison qu’exhalent leurs discours,</l>
+                        <l n="334"> Que la duplicité s’établit dans les cours,</l>
+                        <l n="335"> Qu’ils troublent les états, désolent les provinces,</l>
+                        <l n="336"> Font le malheur du peuple, et la honte des princes,</l>
+                        <l n="337"> Monstre, fuis loin de moi ; ton aspect en ces lieux,</l>
+                        <l n="338"> Lasse ma patience et fatigue mes yeux.</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="339"> Ô fruit inattendu de ma persévérance !</l>
+                        <l n="340"> Tantôt je voulais fuir, je perdais l’espérance</l>
+                        <l n="341"> De vous montrer jamais la route du bonheur.</l>
+                        <l n="342"> Mais s’il est des moyens qui, sans blesser l’honneur,</l>
+                        <l n="343"> Puissent vous ramener des bords du précipice,</l>
+                        <l n="344"> Et changer votre sort en un destin propice,</l>
+                        <l n="345"> Pourquoi les dédaigner ? jetez-vous dans mes bras...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE, sortant. </speaker>
+                        <l n="346"> Laisse-moi.</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="347"> Non, partout je veux suivre vos pas.</l>
+                        <l n="348"> Tantôt de vos tourments vous m’avez fait mystère,</l>
+                        <l n="349"> Et pour les adoucir j’en suis dépositaire.</l></div></div>
+           <div type="act" xml:id="2">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="350"> Entends-tu le palais de ses cris retentir ?</l>
+                        <l n="351"> Prête l’oreille, Ismène.</l>
+            <stage><em>Ismène va écouter à la porte du fond. </em></stage>
+                        <l n="352"> Ô jour du repentir,</l>
+                        <l n="353"> Te voilà donc venu ! Pur, exempt d’artifice,</l>
+                        <l n="354"> Mon cœur jusqu’à ce jour ignora ton supplice.</l>
+                        <l n="355"> Qu’il est changé !</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE, revenant. </speaker>
+                        <l n="356"> J’entends un bruit confus de voix,</l>
+                        <l n="357"> Mais j’ai peine à comprendre...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="358"> Ismène, je le crois.</l>
+                        <l n="359"> Tu ne distingues pas les accents d’Hippolyte,</l>
+                        <l n="360"> De ce fier ennemi qui s’indigne et s’irrite !</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="361"> C’est-lui, je le soupçonne...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="362"> Egine aura parlé,</l>
+                        <l n="363"> Et ce fatal mystère est enfin révélé ;</l>
+                        <l n="364"> Egine m’a perdue. Ah ! faut-il qu’une amie,</l>
+                        <l n="365"> Pour vouloir me sauver, me couvre d’infamie ?</l>
+                        <l n="366"> Il vient : où me cacher ? Tenons-nous à l’écart,</l>
+                        <l n="367"> Je voudrais et ne puis éviter son regard.</l>
+            <stage><em>Phèdre remet son voile, et va s’asseoir à l’écart. Ismène est debout à côté du fauteuil. </em></stage></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE, ISMÈNE, à l’écart, HIPPOLYTE, EGINE </speaker>
+            <stage><em>Hippolyte est censé ne pas voir Phèdre durant toute la scène. </em></stage>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="368"> Ciel ! que viens-je d’entendre ! horrible confidence !</l>
+                        <l n="369"> Une femme montrer cet excès d’impudence !</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="370"> Cher prince, au nom des dieux, modérez ce courroux ;</l>
+                        <l n="371"> Souffrez, pour l’apaiser, qu’à vos sacrés genoux...</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="372"> Retire-toi, perfide ! Eh, quoi ! ta main profane</l>
+                        <l n="373"> Ose toucher ma main !</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="374"> Ceux que le ciel condamne,</l>
+                        <l n="375"> L’homme peut les absoudre.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="376"> Et pourquoi ta douleur</l>
+                        <l n="377"> Croirait-elle eu ce jour adoucir ma rigueur,</l>
+                        <l n="378"> Puisque ta bouche impure, outrageant la décence,</l>
+                        <l n="379"> Prétend n’avoir rien dit qui blesse l’innocence ?</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="380"> De ne rien divulguer vous avez fait serment.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="381"> Oui, ma bouche l’a fait, mais mon cœur le dément.</l>
+                        <l n="382"> Ton criminel aveu n’existait pas encore,</l>
+                        <l n="383"> Quand tu m’as demandé ce serment que j’abhorre.</l>
+                        <l n="384"> N’importe, le parjure est indigne de moi ;</l>
+                        <l n="385"> Et puisque j’ai promis, je garderai ma foi :</l>
+                        <l n="386"> Mais fuis, sauve à mes yeux le tourment de ta vue.</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="387"> Non, non, je resterai : c’est à moi qu’elle est due,</l>
+                        <l n="388"> Cette ardente colère, et je ne prétends pas</l>
+                        <l n="389"> Voir sur un autre front rejaillir ses éclats.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="390"> Ô puissant Jupiter ! où donc est votre foudre ?</l>
+                        <l n="391"> Partout le sexe trompe, et vous pouvez l’absoudre !</l>
+                        <l n="392"> Et vous pouvez souffrir que le sexe en tous lieux</l>
+                        <l n="393"> Subjugue les mortels par l’éclat de ses yeux !</l>
+                        <l n="394"> Pourquoi ne pas laisser Vénus au sein de l’onde,</l>
+                        <l n="395"> Et sans elle animer et conserver le monde ?</l>
+                        <l n="396"> Vous commandiez Vénus, fallait-il qu’un mortel</l>
+                        <l n="397"> Soupirât lâchement au pied de son autel ?</l>
+                        <l n="398"> Quels maux de naissent point du joug de l’hyménée !</l>
+                        <l n="399"> La flamme d’un époux croit être fortunée ;</l>
+                        <l n="400"> Il s’épuise en trésors, en soins officieux,</l>
+                        <l n="401"> Pour rendre son épouse un chef-d’œuvre des cieux ;</l>
+                        <l n="402"> Et l’épouse bientôt infidèle et parjure,</l>
+                        <l n="403"> Fait au nœud conjugal la plus mortelle injure.</l>
+                        <l n="404"> Ah ! ce n’est pas ainsi que vivaient autrefois</l>
+                        <l n="405"> Les femmes que l’hymen soumettait à ses lois ;</l>
+                        <l n="406"> Leur plus belle parure était la modestie ;</l>
+                        <l n="407"> Elles cachaient dans l’ombre une innocente vie,</l>
+                        <l n="408"> Et la simplicité, le fard de la pudeur,</l>
+                        <l n="409"> Relevait de leur front la naïve candeur ;</l>
+                        <l n="410"> Tout est bien différent : aujourd’hui les épouses</l>
+                        <l n="411"> De vivre chastement se montrent peu jalouses ;</l>
+                        <l n="412"> Il leur faut des plaisirs achetés à grands frais,</l>
+                        <l n="413"> Un superbe attirail, de somptueux palais ;</l>
+                        <l n="414"> Elles ont, pour servir leurs passions ardentes,</l>
+                        <l n="415"> De souples messagers, d’adroites confidentes,</l>
+                        <l n="416"> Dont la main à l’envi les couronne de fleurs</l>
+                        <l n="417"> Environne leurs pas de pièges séducteurs,</l>
+                        <l n="418"> Et pare leurs forfaits du beau nom de tendresse.</l>
+                        <l n="419"> C’est ainsi, malheureuse, ainsi qu’avec adresse,</l>
+                        <l n="420"> Par le plus criminel, le plus noir des aveux,</l>
+                        <l n="421"> Ta voix a sur mon front fait dresser mes cheveux ;</l>
+                        <l n="422"> Que trafiquant d’inceste, et vivant d’adultère,</l>
+                        <l n="423"> Tu viens me proposer l’opprobre de mon père !</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="424"> Vous m’en voyez confuse, et mes pleurs, mes regrets...</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="425"> Et comment croyais-tu que je supporterais</l>
+                        <l n="426"> Le récit d’une flamme indigne, inattendue !</l>
+                        <l n="427"> Moi, qui me crois souillé pour t’avoir entendue !</l>
+                        <l n="428"> Souviens-toi du serment que tu m’as arraché ;</l>
+                        <l n="429"> Grâce à lui, ton forfait sera toujours caché ;</l>
+                        <l n="430"> Thésée ignorera l’excès de ton audace.</l>
+                        <l n="431"> Mais il va revenir : suivant partout sa trace,</l>
+                        <l n="432"> Je veux voir de quel front vous pourrez, Phèdre et toi,</l>
+                        <l n="433"> Soutenir la présence et les regards du roi.</l>
+                        <l n="434"> N’aurez-vous point recours à la ruse, au mensonge,</l>
+                        <l n="435"> Armes de votre sexe ?... Ah ! grands dieux ! quand j’y songe !...</l>
+                        <l n="436"> Puissiez-vous !... puissiez-vous l’une et l’autre périr,</l>
+                        <l n="437"> À ces nouveaux détours, avant de recourir !</l>
+                        <l n="438"> Et puisse en votre sang le ciel laver la honte</l>
+                        <l n="439"> D’un père qui mérite une vengeance prompte !</l>
+                        <l n="440"> On va redire encor ce qu’on redit toujours,</l>
+                        <l n="441"> Que je suis l’ennemi des Grâces, des Amours,</l>
+                        <l n="442"> Et que je porte au sexe une haine implacable.</l>
+                        <l n="443"> Quelle erreur ! vertueux, il me paraît aimable.</l>
+                        <l n="444"> Élevé dans les bois, pourri dans les forêts,</l>
+                        <l n="445"> J’ignore de Vénus les dangereux attraits ?</l>
+                        <l n="446"> Et je méprise l’art de séduire une belle,</l>
+                        <l n="447"> J’en conviens ; mais mon cœur peut-il être rebelle</l>
+                        <l n="448"> Aux charmes ingénus d’une jeune beauté</l>
+                        <l n="449"> Qui plaît sans le savoir, aime sans fausseté,</l>
+                        <l n="450"> Et dont l’âme naïve, intéressante et pure,</l>
+                        <l n="451"> S’abandonne sans art au vœu de la nature ?</l>
+                        <l n="452"> Non, qu’il soit désormais fidèle à son devoir,</l>
+                        <l n="453"> S’il veut sur tous mes sens reprendre son pouvoir,</l>
+                        <l n="454"> Ce sexe qui m’irrite ; et devenu plus sage</l>
+                        <l n="455"> De mon cœur tout entier il obtiendra l’hommage.</l>
+            <stage><em>Il sort en jetant sur Egine des regards foudroyants. </em></stage></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="456"> Ainsi donc, parvenue au comble du malheur,</l>
+                        <l n="457"> Pour adoucir mon sort, pour calmer ma douleur,</l>
+                        <l n="458"> Il n’est rien qui me reste, il n’est rien que j’espère ;</l>
+                        <l n="459"> Mon forfait a percé les ombres du mystère ;</l>
+                        <l n="460"> Je suis déshonorée, et mon fier ennemi,</l>
+                        <l n="461"> Dans sa haine pour moi toujours plus affermi,</l>
+                        <l n="462"> M’accable d’un courroux qu’il n’a jamais su feindre</l>
+                        <l n="463"> Je l’ai bien mérité ! me sied-il de me plaindre ?</l>
+                </sp>
+        <sp who="#egine">
+            <speaker> EGINE. </speaker>
+                        <l n="464"> Il faut à votre tour l’accabler de mépris,</l>
+                        <l n="465"> Madame ; sa hauteur choque tous les esprits.</l>
+                        <l n="466"> Je vous plaignais tantôt, je vous plains davantage,</l>
+                        <l n="467"> De voir comme à vos yeux sa fierté vous outrage.</l>
+                        <l n="468"> Vivez pour le punir, surtout pour vous venger.</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="469"> En des forfaits nouveaux penses-tu m’engager ?</l>
+                        <l n="470"> Perfide, de ces lieux ne t’ai-je point chassée ?</l>
+                        <l n="471"> C’est toi qui souriant à ma flamme insensée,</l>
+                        <l n="472"> Par degrés m’a conduite en l’état où je suis ;</l>
+                        <l n="473"> C’est toi qui met le comble à mes mortels ennuis.</l>
+                        <l n="474"> Au lieu de renfermer dans un profond silence</l>
+                        <l n="475"> Du feu que j’éprouvais toute la violence,</l>
+                        <l n="476"> Au fils de mon époux ta bouche a tout appris ;</l>
+                        <l n="477"> Et tu veux qu’Hippolyte obtienne mes mépris !</l>
+                        <l n="478"> C’est moi qui suis coupable et dois être abhorrée :</l>
+                        <l n="479"> Je serais morte à plaindre, et meurs déshonorée.</l>
+                        <l n="480"> Barbare, applaudis-toi d’un triomphe si doux :</l>
+                        <l n="481"> Tu frappes à la fois et l’épouse et l’époux.</l>
+                        <l n="482"> Puisse le juste ciel te punir de tes crimes !</l>
+            <stage><em>Egine sort avec tous les signes du désespoir. </em></stage></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="483"> Ismène, tu le vois, des feux illégitimes</l>
+                        <l n="484"> Produisent tôt ou tard ce déplorable effet ;</l>
+                        <l n="485"> Egine a malgré moi déclaré mon forfait,</l>
+                        <l n="486"> Et j’ai dû la punir d’un aveu téméraire.</l>
+            <stage><em>Après un moment de silence et de réflexion. </em></stage>
+                        <l n="487"> D’Egine cependant l’avis est salutaire...</l>
+                        <l n="488"> Hippolyte m’abhorre, et, malgré ses serments</l>
+                        <l n="489"> Il me peut immoler à ses ressentiments ;</l>
+                        <l n="490"> Il peut déclarer tout au malheureux Thésée,</l>
+                        <l n="491"> Porter un jour affreux dans son âme abusée ;</l>
+                        <l n="492"> Et, s’armant de nouveau d’un courroux solennel,</l>
+                        <l n="493"> Jeter sur mes enfants un opprobre éternel.</l>
+                        <l n="494"> Hippolyte me brave, il m’outrage sans cesse ;</l>
+                        <l n="495"> Tout ce qui l’environne, en proie à sa rudesse,</l>
+                        <l n="496"> Est forcé devant lui de fléchir les genoux.</l>
+                        <l n="497"> Je l’ai souffert longtemps ; c’en est trop, vengeons-nous :</l>
+                        <l n="498"> Quand l’injure est au comble est-ce que l’on pardonne ?</l>
+                        <l n="499"> Vengeons-nous, en mourant : ma fierté me l’ordonne.</l>
+                        <l n="500"> Mais j’aperçois Thésée !...</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="501"> Enfin, grâces aux dieux !</l>
+                        <l n="502"> L’épouse la plus chère est offerte à mes yeux,</l>
+                        <l n="503"> Et je puis dans ses bras...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="504"> Seigneur, votre présence</l>
+                        <l n="505"> De ces dieux envers moi prouve la bienfaisance ;</l>
+                        <l n="506"> Ils comblent tous mes vœux : mais vous voyez mies pleurs...</l>
+                        <l n="507"> Il est en votre absence arrivé des malheurs</l>
+                        <l n="508"> Qui ne permettent pas à mon âme enchantée...</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="509"> Ô ciel ! que dites-vous ? du vertueux Pitthée</l>
+                        <l n="510"> L’inexorable parque a donc tranché les jours ?</l>
+                        <l n="511"> Il avait peu d’espoir d’en prolonger le cours ;</l>
+                        <l n="512"> Sa vieillesse, les maux qui suivent un long âge...</l>
+                        <l n="513"> N’importe, je l’aimais, Pitthée était si sage !...</l>
+                </sp>
+        <sp who="#phèdre">
+            <speaker> PHÈDRE. </speaker>
+                        <l n="514"> Non, seigneur, non, Pitthée a triomphé du sort ;</l>
+                        <l n="515"> Il vit pour vous aimer, et sur le sombre bord</l>
+                        <l n="516"> La loi des immortels ne l’a point fait descendre :</l>
+                        <l n="517"> Mais il est des récits qu’u roi ne peut entendre ;</l>
+                        <l n="518"> Dont une oreille chaste a droit de s’offenser ;</l>
+                        <l n="519"> Moi-même sans rougir je n’y saurais penser.</l>
+                        <l n="520"> Souffrez que je me taise, et que, cédant la place,</l>
+                        <l n="521"> J’aille vous informer de tout ce qui se passe</l>
+                        <l n="522"> Par un écrit sincère et tracé de ma main,</l>
+                        <l n="523"> Qu’Ismène de ma part vous portera soudain.</l>
+                        <l n="524"> Ismène, suivez-moi.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#thésée">
+            <speaker> THÉSÉE, seul </speaker>
+                        <l n="525"> Qu’est-ce qu’elle veut dire ?</l>
+                        <l n="526"> Elle ne parle point, et veut pourtant m’écrire.</l>
+                        <l n="527"> Quel secret, quel mystère a-t-elle à révéler ?</l>
+                        <l n="528"> Mon œil dans ce chaos ne peut rien démêler...</l>
+            <stage><em>Après un silence. </em></stage>
+                        <l n="529"> Mais pourquoi sur les fronts qui s’offrent à ma vue,</l>
+                        <l n="530"> Une morne douleur est-elle répandue ?</l>
+                        <l n="531"> Pourquoi commande-t-elle aux esprits alarmés ?</l>
+                        <l n="532"> Et pourquoi tous les cœurs me semblent-ils fermés ?</l>
+                        <l n="533"> Pourquoi surtout mon fils, qui connaît ma tendresse,</l>
+                        <l n="534"> Me laisse-t-il en proie au chagrin qui me presse,</l>
+                        <l n="535"> Et n’a-t-il pu venir au-devant de mes pas !</l>
+                        <l n="536"> N’ai-je en partant d’ici laissé que des ingrats ?</l>
+                        <l n="537"> Ou le dieu des enfers redoutant ma présence,</l>
+                        <l n="538"> Verse-t-il en ces lieux sa funeste influence !</l>
+                        <l n="539"> Ismène reparaît, et va tout éclaircir.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="540"> La reine auprès de vous m’ordonne d’accourir,</l>
+                        <l n="541"> Seigneur, et cette lettre...</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="542"> Ah ! donne. Puisse-t-elle</l>
+                        <l n="543"> Faire cesser mon doute et ma crainte mortelle !</l>
+                        <l n="544"> Qu’on me laisse.</l>
+            <stage><em>Ismène sort. </em></stage></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#thésée">
+            <speaker> THÉSÉE, tenant la lettre. </speaker>
+                        <l n="545"> Je brûle et crains de m’éclairer.</l>
+                        <l n="546"> On apprend quelquefois ce qu’on doit ignorer :</l>
+                        <l n="547"> N’importe, il faut céder à mon incertitude ;</l>
+                        <l n="548"> Je n’y puis résister, le supplice est trop rude.</l>
+            <stage><em>Après avoir lu tout bas. </em></stage>
+                        <l n="549"> Juste ciel ! qu’ai-je lu ? Phèdre accuse mon fils !</l>
+                        <l n="550"> Hippolyte aimait Phèdre ! ah ! dois-je être surpris</l>
+                        <l n="551"> Que Phèdre si longtemps ait gardé le silence ?</l>
+                        <l n="552"> Hippolyte à ce point a poussé l’insolence </l>
+            <stage><em>Aux gardes. </em></stage>
+                        <l n="553"> Faites venir mon fils... Ainsi donc chaque jour,</l>
+                        <l n="554"> Quand le sort m’arrêtait si loin de ce séjour,</l>
+                        <l n="555"> Je m’efforçais en vain de purger la contrée</l>
+                        <l n="556"> Des monstres, des brigands qui l’avaient déchirée ;</l>
+                        <l n="557"> Le monstre le plus noir, le plus affreux de tous,</l>
+                        <l n="558"> Vivait dans mon palais à l’abri de mes coups !</l>
+                        <l n="559"> Neptune, entends mes vœux, tu m’en fis la promesse ;</l>
+                        <l n="560"> Je t’en adressai trois dans ma tendre jeunesse ;</l>
+                        <l n="561"> Je n’en forme plus qu’un, venge-moi de mon fils,</l>
+                        <l n="562"> Qu’il meure, et je croirai ces trois vœux accomplis ;</l>
+                        <l n="563"> Qu’il meure !... Mais il vient : retenons ma colère ;</l>
+                        <l n="564"> Et pour mieux l’accabler, dissimulons.</l></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE, avec joie et empressement. </speaker>
+                        <l n="565"> Mon père !</l>
+                        <l n="566"> Qu’il est doux pour mon cœur de vous voir en ces lieux !</l>
+                        <l n="567"> Vous fûtes si longtemps éloigné de mes yeux !</l>
+                        <l n="568"> Le ciel enfin, le ciel me rend votre présence.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE, avec ironie. </speaker>
+                        <l n="569"> Ah ! que n’a-t-il plutôt prolongé mon absence !</l>
+                        <l n="570"> Vous seriez plus heureux. Vous saviez que ce jour</l>
+                        <l n="571"> Était depuis longtemps marqué pour mon retour.</l>
+                        <l n="572"> C’est par l’empressement qu’un cœur tendre se montre ;</l>
+                        <l n="573"> Et, puisque vous m’aimez, d’où vient qu’à ma rencontre</l>
+                        <l n="574"> Vous n’êtes point venu ? d’où vient que pour me voir,</l>
+                        <l n="575"> Vous n’avez consulté qu’un pénible devoir ?</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="576"> Ah ! seigneur, vous revoir peut-il être une peine ?</l>
+                        <l n="577"> J’étais sur le chemin qui conduit à Trézène,</l>
+                        <l n="578"> J’y courais, j’y volais au-devant de vos pas :</l>
+                        <l n="579"> Par un autre chemin, que je ne connais pas,</l>
+                        <l n="580"> Vous êtes arrivé. J’en atteste Diane,</l>
+                        <l n="581"> Ses nymphes, mes chasseurs...</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE, sur le même ton. </speaker>
+                        <l n="582"> À tort je vous condamne.</l>
+                        <l n="583"> Si j’en crois cependant des bruits accrédités,</l>
+                        <l n="584"> La déesse des bois, que toujours vous citez,</l>
+                        <l n="585"> N’est pas le seul objet que cherche votre hommage,</l>
+                        <l n="586"> D’une autre quelquefois vous encensez l’image ;</l>
+                        <l n="587"> Et je n’aurais pas cru que ce cœur indompté,</l>
+                        <l n="588"> Si jeune, fût enclin à l’infidélité.</l>
+                        <l n="589"> De ce nouveau penchant si Diane est instruite,</l>
+                        <l n="590"> Pourra-t-elle approuver votre noble conduite ?</l>
+                        <l n="591"> Son culte n’admet point de volages amours.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE, très surpris. </speaker>
+                        <l n="592"> J’ai peine à concevoir où tendent ces discours,</l>
+                        <l n="593"> Seigneur ! mon cœur est pur, et la déesse austère.</l>
+                        <l n="594"> N’a pas un sectateur plus chaste et plus sévère.</l>
+                        <l n="595"> Par ce doute cruel qu’il est humilié !</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="596"> Eh, quoi ! ce cœur si pur n’a point sacrifié</l>
+                        <l n="597"> À quelque autre déesse, et d’un amour profane</l>
+                        <l n="598"> Vous n’avez point brûlé pour d’autres que Diane ?</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="599"> Non, seigneur, je le jure.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE, lui montrant la lettre. </speaker>
+                        <l n="600"> Eh bien ! perfide, lis,</l>
+                        <l n="601"> Et vois si tes secrets n’ont pas été trahis.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE, après avoir lu tout bas. </speaker>
+                        <l n="602"> Ce ne sont pas les miens, mais ceux... Que ce mystère</l>
+                        <l n="603"> Reste à jamais caché... J’ai promis de me taire.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="604"> Tu ne sais que répondre...</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="605"> Un dieu retient ma voix.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE, avec fureur. </speaker>
+                        <l n="606"> Après avoir ainsi blessé toutes les lois,</l>
+                        <l n="607"> Lâche ne crains-tu pas de t’offrir à ma vue ?</l>
+                        <l n="608"> De ton altière humeur la cause est donc connue ?</l>
+                        <l n="609"> Élevé dans la crainte et le respect des dieux ;</l>
+                        <l n="610"> Ton âme, disais-tu, s’élevait dans les cieux</l>
+                        <l n="611"> Pour mieux y contempler la majesté suprême :</l>
+                        <l n="612"> Pour un sexe léger ta haine était extrême ;</l>
+                        <l n="613"> Je le crois : Phèdre seule eut pour toi des appas,</l>
+                        <l n="614"> Tu n’évitais les miens que pour suivre ses pas.</l>
+                        <l n="615"> Durant ma longue absence, attaché sur sa trace,</l>
+                        <l n="616"> Tu méditais ma honte, et crois que top audace</l>
+                        <l n="617"> De mes ressentiments fléchira la rigueur !</l>
+                        <l n="618"> Mais ne l’espère pas : il est un ciel vengeur,</l>
+                        <l n="619"> Il prendra ma défense ; et ce ciel et ton père,</l>
+                        <l n="620"> Pour te punir, ensemble uniront leur colère.</l>
+                        <l n="621"> Crains Neptune surtout, il a sur toi les yeux ;</l>
+                        <l n="622"> Fuis, et ne t’offre plus désormais en ces lieux.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="623"> Eh, quoi ! vous m’exilez !</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="624"> Oui, traître, je t’exile :</l>
+                        <l n="625"> Fuis, et chez tes pareils va chercher un asile ;</l>
+                        <l n="626"> Chez d’autres que ton père implore des soutiens ;</l>
+                        <l n="627"> Je t’exile ; entre nous il n’est plus de liens.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="628"> Lorsque mon père, hélas ! et les dieux me maudissent,</l>
+                        <l n="629"> Où porter ma douleur ?</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="630"> Que d’autres t’applaudissent :</l>
+                        <l n="631"> Fais parade à leurs yeux de tes fausses vertus ;</l>
+                        <l n="632"> Insulte chaque jour aux mortels corrompus,</l>
+                        <l n="633"> Et vomis contre eux tous up torrent de blasphèmes ;</l>
+                        <l n="634"> Place-toi dans les cieux à côté des dieux mêmes ;</l>
+                        <l n="635"> Vante-leur ta sagesse et ta frugalité ;</l>
+                        <l n="636"> Et, fier d’un vain savoir qu’un maître respecté</l>
+                        <l n="637"> T’apprit à recueillir sur les traces d’Orphée,</l>
+                        <l n="638"> Laisse-toi par ses mains ériger un trophée ;</l>
+                        <l n="639"> Crois qu’il te fait régner sur les plus grands esprits ;</l>
+                        <l n="640"> Je n’en aurai pour toi qu’un plus profond mépris.</l>
+                        <l n="641"> Nieras-tu le forfait que ta rougeur atteste ?</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="642"> Je rougis pour vous seul : moi coupable d’inceste !</l>
+                        <l n="643"> Mon père, pardonnez ; toujours à votre aspect</l>
+                        <l n="644"> Je me suis contenu dans les lois du respect,</l>
+                        <l n="645"> Je n’en veux point sortir ; mais tout autre qu’un père</l>
+                        <l n="646"> Ne m’aurait pas deux fois accusé d’adultère :</l>
+                        <l n="647"> Si quelqu’autre eût osé me parler comme vous,</l>
+                        <l n="648"> Je n’aurais pas de même enchaîné mon courroux,</l>
+                        <l n="649"> Et la mort la plus prompte eût payé son audace.</l>
+                        <l n="650"> De Phèdre dites-vous je suis partout la trace ?</l>
+                        <l n="651"> Jamais je ne la cherche, et souvent je la fuis.</l>
+                        <l n="652"> Jamais l’astre des jours, jamais l’astre des nuits</l>
+                        <l n="653"> Ne m’ont rencontré seul un moment avec elle :</l>
+                        <l n="654"> Heureux, quand il le faut, de lui prouver mon zèle,</l>
+                        <l n="655"> Je lui rends les honneurs qui sont dus à son rang,</l>
+                        <l n="656"> Et je sais que ses fils sont nés de votre sang.</l>
+                        <l n="657"> Consultez mes amis, tous connus dans la Grèce,</l>
+                        <l n="658"> Et dont la vieille estime honore ma jeunesse ;</l>
+                        <l n="659"> Des cieux, des eaux, des airs sondez la profondeur ;</l>
+                        <l n="660"> Tout vous dit qu’il n’est rien de plus pur que mon cœur,</l>
+                        <l n="661"> Eh ! comment voulez-vous que ce cœur, vierge encore,</l>
+                        <l n="662"> Se livre aux feux impurs d’un amour qu’il abhorre ?</l>
+                        <l n="663"> L’amour et ses transports me sont tous inconnus ;</l>
+                        <l n="664"> Je déteste l’amour, je déteste Vénus,</l>
+                        <l n="665"> Et chaste avec fierté, même dans leurs images,</l>
+                        <l n="666"> Je fuis ces dieux que l’art présente à nos hommages.</l>
+                        <l n="667"> S’il ne vous suffit pas, sur mon âge passé,</l>
+                        <l n="668"> De ce tableau sincère avec candeur tracé,</l>
+                        <l n="669"> Dites comment j’ai pu méprisant votre estime,</l>
+                        <l n="670"> Courir subitement de l’innocence au crime,</l>
+                        <l n="671"> Et comment tout-à-coup on m’a vu devenir</l>
+                        <l n="672"> Un monstre, un scélérat que le ciel doit punir.</l>
+                        <l n="673"> Quels attraits souverains dans l’épouse d’un père</l>
+                        <l n="674"> Ont pu subitement changer mon caractère,</l>
+                        <l n="675"> Et d’un fils vertueux faire un traître, un méchant ?</l>
+                        <l n="676"> Serait-ce vers le trône un coupable penchant ?</l>
+                        <l n="677"> Ah ! Seigneur, la couronne est loin de ma pensée :</l>
+                        <l n="678"> Sur votre auguste front elle est si bien placée !</l>
+                        <l n="679"> Est-ce un fils tel que moi, me suis-je dit souvent,</l>
+                        <l n="680"> Qui pourrait succéder à son père vivant,</l>
+                        <l n="681"> À son père adoré de toutes les provinces,</l>
+                        <l n="682"> Et qu’on nomme partout le modèle des princes ?</l>
+                        <l n="683"> Qu’une autre ambition domine dans mon cœur !...</l>
+                        <l n="684"> La couronne qu’obtient l’olympique vainqueur,</l>
+                        <l n="685"> Voilà celle que j’aime et celle qui m’honore ;</l>
+                        <l n="686"> Celle qu’après la mort je voudrais ceindre encore.</l>
+                        <l n="687"> Vous ne m’écoutez pas, je vois que mes discours</l>
+                        <l n="688"> Pour vous désabuser sont d’un faible secours,</l>
+                        <l n="689"> Et que d’un père en vain j’implore la justice :</l>
+                        <l n="690"> Eh bien ! apprenez donc quel est mon vrai supplice ;</l>
+                        <l n="691"> J’en rougis, cependant, je dois le publier,</l>
+                        <l n="692"> C’est d’avoir pu descendre à me justifier.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="693"> À te justifier ! eh ! qu’as-tu pu me dire</l>
+                        <l n="694"> Qui te rende sur moi ton légitime empire ?</l>
+                        <l n="695"> Par ta vaine éloquence as-tu cru m’aveugler ?</l>
+                        <l n="696"> Tous les tableaux qu’ici tu viens de m’étaler,</l>
+                        <l n="697"> Ce faste de vertu dont s’enfle ton audace,</l>
+                        <l n="698"> Ce mélange insolent d’orgueil et de menace,</l>
+            <stage><em>Montrant la lettre de Phèdre.</em></stage>
+                        <l n="699"> Doivent-ils me parler plus haut que cet écrit ?</l>
+                        <l n="700"> À travers les hauteurs d’un farouche dépit,</l>
+                        <l n="701"> J’entrevois mieux ton crime, et ta frivole excuse</l>
+                        <l n="702"> Est un crime de plus dont un père t’accuse.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="703"> Pourquoi donc, quand je suis un si grand criminel,</l>
+                        <l n="704"> Bornez-vous à l’exil le courroux paternel ?</l>
+                        <l n="705"> L’exil est-il assez pour un vil adultère ?</l>
+                        <l n="706"> À votre place moi, plus juste ou plus sévère,</l>
+                        <l n="707"> Je plongerais mon fils dans la nuit du tombeau.</l>
+                        <l n="708"> Je serais à-la-fois son juge et son bourreau.</l>
+                        <l n="709"> Frappez donc, ô mon père, un séducteur impie !</l>
+                        <l n="710"> Quand vous m’ôtez l’honneur, puis-je estimer la vie ?</l>
+                        <l n="711"> Frappez, voilà mon sein.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE portant la main à son épée, et se retenant. </speaker>
+                        <l n="712"> Tu l’as trop mérité !</l>
+                        <l n="713"> Mais non, pour te punir de ta témérité,</l>
+                        <l n="714"> La mort serait trop douce, il te faut un supplice</l>
+                        <l n="715"> Plus digne de ton crime, et plus de ma justice.</l>
+                        <l n="716"> Exilé de ces lieux, sans appui, sans secours,</l>
+                        <l n="717"> En de lointains climats tu traîneras tes jours :</l>
+                        <l n="718"> C’est mourir mille fois. Vas, dans l’ignominie,</l>
+                        <l n="719"> Vivre loin de ton père et loin de ta patrie.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="720"> Quoi ! vous n’attendez pas, avant de m’exiler,</l>
+                        <l n="721"> Que le ciel, que le temps viennent tout révéler !</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="722"> Non, non, que dès ce jour ton supplice commence ;</l>
+                        <l n="723"> Entre ton père et toi mets l’Océan immense ;</l>
+                        <l n="724"> Tu ne seras encor que trop près de ces lieux,</l>
+                        <l n="725"> Et jamais assez tôt éloigné de mes yeux.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="726"> Quoi ! vous me condamnez, et sans vouloir m’entendre !</l>
+                        <l n="727"> Qu’est devenu ce père et si bon et si tendre ?</l>
+                        <l n="728"> Interrogez l’oracle avant de me frapper.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE, montrant la lettre. </speaker>
+                        <l n="729"> Le voilà mon oracle !... a-t-il pu me tromper ?</l>
+                        <l n="730"> Je n’en connais point d’autre...</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="731"> Ô destin ! ô ma mère !</l>
+                        <l n="732"> Quel malheur d’être né le fils d’une étrangère !</l>
+            <stage><em>Tendant les bras à son père. </em></stage>
+                        <l n="733"> Je pars, seigneur !</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE, le repoussant. </speaker>
+                        <l n="734"> Partez.</l></div>
+        <div type="scene" xml:id=" X ">
+            <head> Scène X </head>
+        <sp who="#thésée">
+            <speaker> THÉSÉE, seul </speaker>
+                        <l n="735"> Me voilà satisfait !</l>
+                        <l n="736"> De mon courroux bientôt il sentira l’effet :</l>
+                        <l n="737"> Neptune a dû m’entendre, il tiendra sa promesse.</l>
+                        <l n="738"> Mais pourquoi dans mon cœur un reste de tendresse</l>
+                        <l n="739"> Me parle-t-il encor en faveur de l’ingrat ?...</l>
+                        <l n="740"> Ai-je dû pardonner au plus noir attentat ?</l>
+                        <l n="741"> Non, non, point de faiblesse : il faut punir le crime,</l>
+                        <l n="742"> Et mon courroux jamais ne fut plus légitime.</l>
+                        <l n="743"> Mais on vient.</l></div>
+        <div type="scene" xml:id=" XI ">
+            <head> Scène XI </head>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="744"> Ah ! seigneur, accourez promptement,</l>
+                        <l n="745"> Venez, la reine touche à son dernier moment.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="746"> Ciel !</l>
+                </sp>
+        <sp who="#ismène">
+            <speaker> ISMÈNE. </speaker>
+                        <l n="747"> Par ses propres mains elle est empoisonnée :</l>
+                        <l n="748"> Egine a dans les eaux fini sa destinée,</l>
+                        <l n="749"> Et ce double trépas jette dans le palais</l>
+                        <l n="750"> Le trouble, la terreur et surtout les regrets.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="751"> Qu’entends-je ? devant moi fuit ma famille errante !</l>
+                        <l n="752"> Egine ne vit plus, et Phèdre est expirante</l>
+                        <l n="753"> Par l’effet du poison dans ses veines transmis !</l>
+                        <l n="754"> Me suis-je trop pressé de condamner mon fils ?</l></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#thésée">
+            <speaker> THÉSÉE, seul </speaker>
+                        <l n="755"> Ciel quel affreux tableau vient de frapper ma vue !</l>
+                        <l n="756"> Phèdre, en proie aux douleurs, sur un lit étendue !</l>
+                        <l n="757"> Phèdre se débattant dans les bras de la mort !</l>
+                        <l n="758"> Tournant sur moi des yeux flétris par le remord !</l>
+                        <l n="759"> Phèdre expirante enfin !... Et c’est ma main tremblante</l>
+                        <l n="760"> Qui deux fois a fermé sa paupière sanglante !</l>
+                        <l n="761"> Trépas inopiné ! revers inattendu !</l>
+                        <l n="762"> Oh ! qui rendra le calme à mon cour éperdu ?</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#théodas">
+            <speaker> THÉODAS. </speaker>
+                        <l n="763"> Seigneur, je vous cherchais : pardonnez à mon zèle,</l>
+                        <l n="764"> De venir vous apprendre une triste nouvelle.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="765"> À quels nouveaux malheurs suis-je donc réservé ?</l>
+                        <l n="766"> Qu’est-ce qui vous amène, et qu’est-il arrivé ?</l>
+                        <l n="767"> Parlez.</l>
+                </sp>
+        <sp who="#théodas">
+            <speaker> THÉODAS. </speaker>
+                        <l n="768"> De votre fils le reste déplorable...</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="769"> Hippolyte n’est plus !</l>
+                </sp>
+        <sp who="#théodas">
+            <speaker> THÉODAS. </speaker>
+                        <l n="770"> Étendu sur le sable,</l>
+                        <l n="771"> Il voit encor du jour le céleste flambeau ;</l>
+                        <l n="772"> Mais il ne peut tarder de descendre au tombeau.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="773"> Qu’entends-je ? </l>
+                </sp>
+        <sp who="#théodas">
+            <speaker> THÉODAS. </speaker>
+                        <l n="774"> Le courroux du terrible Neptune</l>
+                        <l n="775"> Ne lui laisse qu’à peine une vie importune.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="776"> Il a sitôt rempli le vœu que j’ai formé !</l>
+                        <l n="777"> Comment ? je veux de tout sur l’heure être informé.</l>
+                </sp>
+        <sp who="#théodas">
+            <speaker> THÉODAS. </speaker>
+                        <l n="778"> Pour un cœur paternel quelle atteinte cruelle !</l>
+                        <l n="779"> Déjà de son exil nous savions la nouvelle :</l>
+                        <l n="780"> La mer était tranquille, et, pleins de ses douleurs,</l>
+                        <l n="781"> Nous étions sur la rive, et nous versions des pleurs.</l>
+                        <l n="782"> Il approche : d’amis une suite nombreuse</l>
+                        <l n="783"> En silence escortait sa fuite généreuse.</l>
+                        <l n="784"> « Je suis banni, dit-il ; par l’erreur entraîné,</l>
+                        <l n="785"> « Un père que j’adore à fuir m’a condamné.</l>
+                        <l n="786"> « Je ne méritais pas un arrêt si terrible :</l>
+                        <l n="787"> « N’importe, il faut subir ma destinée horrible ;</l>
+                        <l n="788"> « Obéir à mon père est mon premier devoir.</l>
+                        <l n="789"> « Pour la dernière fois je tremble de le voir ;</l>
+                        <l n="790"> « Mais, hélas ! il l’ordonne. Adieu chère Trézène !</l>
+                        <l n="791"> « Et vous tous, mes amis, qui partagez ma peine,</l>
+                        <l n="792"> « Adieu ! Vous me plaignez ! Puisse Thésée un jour</l>
+                        <l n="793"> « Savoir mon innocence, et nie plaindre à son tour !</l>
+                        <l n="794"> À son char attelés, ses coursiers intrépides</l>
+                        <l n="795"> L’attendaient sur le bord des campagnes liquides :</l>
+                        <l n="796"> Il monte le front triste et le cœur agité ;</l>
+                        <l n="797"> Le char roule et fend l’air avec rapidité :</l>
+                        <l n="798"> Des yeux nous le suivons : mais il entrait à peine</l>
+                        <l n="799"> Dans l’aride désert qui termine la plaine,</l>
+                        <l n="800"> Qu’un bruit épouvantable aussitôt retentit ;</l>
+                        <l n="801"> Des coursiers étonnés l’essor se ralentit ;</l>
+                        <l n="802"> Ils s’arrêtent, du pied ils frappent la poussière,</l>
+                        <l n="803"> Et dressent, hennissant, leur superbe crinière.</l>
+                        <l n="804"> Une vague, pourtant, du sein des flots amers</l>
+                        <l n="805"> S’élève par degré sur l’empire des mers,</l>
+                        <l n="806"> S’enfle, grossit, grandit, s’approche du rivage,</l>
+                        <l n="807"> Et d’un mont animé nous présente l’image.</l>
+                        <l n="808"> Le temple d’Esculape à nos yeux est voilé :</l>
+                        <l n="809"> Un nuage de sang, où le souffre est mêlé,</l>
+                        <l n="810"> Soudain nous cache Argos, Épidaure et Corinthe,</l>
+                        <l n="811"> Et nos cœurs sont glacés de surprise et de crainte.</l>
+                        <l n="812"> La vague s’ouvre ; un monstre est vomi de ses flancs,</l>
+                        <l n="813"> Qui roule sur nous tous des yeux étincelants,</l>
+                        <l n="814"> Et qui des plus hardis enchaîne le courage.</l>
+                        <l n="815"> Tout en lui peint la mort, tout respire la rage :</l>
+                        <l n="816"> Ses cris retentissant dans le creux des vallons,</l>
+                        <l n="817"> Rappellent les combats des fougueux aquilons,</l>
+                        <l n="818"> Le choc tumultueux des ondes qui bouillonnent,</l>
+                        <l n="819"> Et provoquent au loin les échos qui résonnent.</l>
+                        <l n="820"> Il est moitié dragon, il est moitié taureau ;</l>
+                        <l n="821"> Je n’ai point de couleur, je n’ai point de pinceau</l>
+                        <l n="822"> Qui puissent exprimer ce mélange effroyable :</l>
+                        <l n="823"> En lui tout est visible, et tout est incroyable.</l>
+                        <l n="824"> À son horrible aspect, les chevaux effrayés</l>
+                        <l n="825"> S’élancent brusquement hors des chemins frayés,</l>
+                        <l n="826"> Et n’obéissent plus à la main qui les guide ;</l>
+                        <l n="827"> Ils n’écoutent plus rien. Calme autant qu’intrépide,</l>
+                        <l n="828"> Le prince vainement cherche à les retenir ;</l>
+                        <l n="829"> De son auguste voix perdant le souvenir,</l>
+                        <l n="830"> En avant s’il les pousse, ils courent en arrière,</l>
+                        <l n="831"> Et changent tour-à-tour de veux et de carrière :</l>
+                        <l n="832"> De la plaine un moment prennent-ils le chemin</l>
+                        <l n="833"> Pour éviter le monstre ? il s’y trouve soudain :</l>
+                        <l n="834"> Cherchent-ils une route à travers la montagne ?</l>
+                        <l n="835"> Il les suit, les atteint, partout les accompagne :</l>
+                        <l n="836"> Le monstre est toujours là, toujours à leurs côtés,</l>
+                        <l n="837"> Qui les presse, les serre à pas précipités :</l>
+                        <l n="838"> L’essieu se brise enfin, et de la double roue</l>
+                        <l n="839"> Le circulaire appui contre le roc échoue.</l>
+                        <l n="840"> Des hauteurs de son char le prince est renversé ;</l>
+                        <l n="841"> Que dis-je ! le char vole en éclats dispersé.</l>
+                        <l n="842"> Cruellement traîné sur des rochers arides,</l>
+                        <l n="843"> Vainement Hippolyte à ses coursiers rapides</l>
+                        <l n="844"> Oppose les efforts du geste et de la voix :</l>
+                        <l n="845"> Connaissent-ils le frein ! connaissent-ils des lois !</l>
+                        <l n="846"> Partout il est heurté, partout meurtri : sa tête</l>
+                        <l n="847"> Ressemble au chêne altier qu’a brisé la tempête,</l>
+                        <l n="848"> Et ses propres coursiers deviennent ses bourreaux.</l>
+                        <l n="849"> Il n’est plus temps enfin de sauver le héros.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="850"> Théodas, c’en est trop ! ô récit qui m’accable !</l>
+                        <l n="851"> Éclairez-moi, grands dieux ? mon fils est-il coupable ?</l>
+                        <l n="852"> Était-il innocent ? je dois encor douter...</l>
+                        <l n="853"> Mais au cri de mon cœur je ne puis résister.</l>
+                        <l n="854"> Qu’on l’apporte en ces lieux.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#thésée">
+            <speaker> THÉSÉE, seul </speaker>
+                        <l n="855"> Un père est toujours père ;</l>
+                        <l n="856"> C’est toujours à regret qu’il se montre sévère.</l>
+                        <l n="857"> Je veux, s’il est possible, alléger ses tourments,</l>
+                        <l n="858"> Oublier dans ses bras tous mes ressentiments,</l>
+                        <l n="859"> Et savoir si le ciel m’absout ou me condamne.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#la-déesse-diane">
+            <speaker> DIANE. </speaker>
+                        <l n="860"> Écoute, fils d’Égée, et reconnais Diane.</l>
+                        <l n="861"> Ton fils injustement est tombé sous tes coups :</l>
+                        <l n="862"> Cet objet vertueux d’un indigne courroux,</l>
+                        <l n="863"> Par la reine accusé...</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="864"> Comment ! par quel prodige ?</l>
+                        <l n="865"> Phèdre a pu me tromper !</l>
+                </sp>
+        <sp who="#la-déesse-diane">
+            <speaker> DIANE. </speaker>
+                        <l n="866"> Écoute-moi, te dis-je.</l>
+                        <l n="867"> Diane, loin de toi chassant l’obscurité,</l>
+                        <l n="868"> Va faire en tout son jour briller la vérité,</l>
+                        <l n="869"> Et le doute fuira de ton âme incertaine :</l>
+                        <l n="870"> Les dieux ne trompent point. Ton épouse, la reine,</l>
+                        <l n="871"> Pour ton fils, la première, en ce fatal séjour,</l>
+                        <l n="872"> A senti les transports d’un trop coupable amour :</l>
+                        <l n="873"> C’est Vénus, il est vrai, qui l’a poussée au crime.</l>
+                        <l n="874"> Pour vaincre cette flamme affreuse, illégitime,</l>
+                        <l n="875"> Phèdre, il faut l’avouer, a longtemps combattu ;</l>
+                        <l n="876"> Mais contre le destin que pouvait sa vertu ?</l>
+                        <l n="877"> Egine la voyant obstinée à se taire,</l>
+                        <l n="878"> De son fatal secret se rend dépositaire,</l>
+                        <l n="879"> Court l’avouer au prince, et du prince indigué</l>
+                        <l n="880"> Obtient que cet aveu, d’ombres environné,</l>
+                        <l n="881"> Aveu dont sa pudeur blâme la violence,</l>
+                        <l n="882"> Jamais ne sortira de la nuit du silence.</l>
+                        <l n="883"> Hippolyte aisément aurait pu s’excuser,</l>
+                        <l n="884"> Mais il a mieux aimé se laisser accuser.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="885"> Accordez-moi la mort, ô puissante déesse !</l>
+                        <l n="886"> Frappez : que tardez-vous, quand ma voix vous en presse ?</l>
+                </sp>
+        <sp who="#la-déesse-diane">
+            <speaker> DIANE, agitant sa flèche. </speaker>
+                        <l n="887"> Tu le mériterais. C’est toi dont la fureur</l>
+                        <l n="888"> Vient de m’ôter l’objet le plus cher à mon cœur,</l>
+                        <l n="889"> Un héros que j’aimais, qui me restait fidèle,</l>
+                        <l n="890"> Qui de mes sectateurs fut le noble modèle,</l>
+                        <l n="891"> Et qui servait d’exemple au reste des humains.</l>
+                        <l n="892"> La flèche que tu vois s’agiter en mes mains ;</l>
+                        <l n="893"> Pourrait en s’échappant t’arracher une vie</l>
+                        <l n="894"> Qui d’éternels regrets sera toujours suivie ;</l>
+                        <l n="895"> Mais le père des dieux en ordonne autrement,</l>
+                        <l n="896"> Et sa loi te réserve un plus long châtiment ;</l>
+                        <l n="897"> Vis pour pleurer ta faute, un repentir sincère</l>
+                        <l n="898"> Pourra peut-être un jour adoucir ma colère.</l>
+            <stage><em>On apporte le corps d’Hippolyte posé d’une manière pittoresque sur les débris de son char.</em></stage>
+                        <l n="899"> Mais que vois-je ? Hippolyte en ces lieux transporté !</l>
+                        <l n="900"> Hélas ! qu’est devenu ce front où la beauté,</l>
+                        <l n="901"> Où la vive jeunesse étalaient tous leurs charmes ?</l>
+                        <l n="902"> Il est enseveli dans le sang et les larmes.</l>
+                        <l n="903"> Quel tableau déchirant, quel spectacle odieux</l>
+                        <l n="904"> Que ce corps mutilé par le courroux des dieux !</l>
+                        <l n="905"> Ô d’un père abusé crédulité funeste !</l>
+                        <l n="906"> Le voilà ce mortel qu’on accuse d’inceste !</l>
+                        <l n="907"> Fils d’Egée, embrassez votre fils malheureux ;</l>
+                        <l n="908"> Pleurez sur cet enfant pudique et généreux.</l>
+                        <l n="909"> C’est Vénus, c’est Neptune, et c’est surtout vous-même</l>
+                        <l n="910"> Qui tranchâtes les jours de ce héros que j’aime.</l>
+                        <l n="911"> Tremble, Vénus : tu crois tes forfaits impunis ;</l>
+                        <l n="912"> Mais je cours me venger sur ton bel Adonis.</l>
+            <stage><em>Elle disparaît avec son nuage. </em></stage></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="913"> Reconnais-moi, mon fils, c’est ton malheureux père,</l>
+                        <l n="914"> Qui se repent, qui t’aime, et qui plaint ta misère :</l>
+                        <l n="915"> C’est ton père qui vient, honteux de ses fureurs,</l>
+                        <l n="916"> Apporter à tes pieds ses mortelles douleurs.</l>
+                        <l n="917"> Hélas ! qu’ai-je donc fait ? et comment ma tendresse</l>
+                        <l n="918"> A-t-elle pu ?...</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE, très douloureusement. </speaker>
+                        <l n="919"> Quelle est cette main qui me presse ?</l>
+                        <l n="920"> Dans l’état où je suis pourquoi me secourir ?</l>
+                        <l n="921"> Oh ? qui que vous soyez, qu’on me laisse mourir ?</l>
+                </sp>
+        <sp who="#théodas">
+            <speaker> THÉODAS. </speaker>
+                        <l n="922"> C’est le roi qui vous parle.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE, se soulevant indigné. </speaker>
+                        <l n="923"> Ô terreur ! qu’on m’entraîne,</l>
+                        <l n="924"> Sur les rochers déserts, amis, qu’on me remmène ;</l>
+                        <l n="925"> Le roi ! lui qui devait se montrer mon appui !</l>
+                        <l n="926"> Le monstre de Neptune est moins cruel que lui.</l>
+                        <l n="927"> Je l’aimais, l’honorais : ma mort est son ouvrage !</l>
+                </sp>
+        <sp who="#théodas">
+            <speaker> THÉODAS. </speaker>
+                        <l n="928"> Seigneur, c’est votre père.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="929"> Il ne l’est plus : sa rage</l>
+                        <l n="930"> S’est fait de m’exiler un barbare plaisir.</l>
+                        <l n="931"> De mes maux à présent que son cœur doit jouir ?</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="932"> Non, je n’en jouis point ; non, mon cher Hippolyte :</l>
+                        <l n="933"> Je sens qu’avec raison ma présence t’irrite :</l>
+                        <l n="934"> Mais Phèdre m’a trompé : l’éclat de la vertu</l>
+                        <l n="935"> Faisait briller son nom de gloire revêtu ;</l>
+                        <l n="936"> Sans le plus grand respect on ne pouvait l’entendre.</l>
+                        <l n="937"> Pouvais-je imaginer qu’une épouse aussi tendre</l>
+                        <l n="938"> Concevrait un amour horrible, incestueux,</l>
+                        <l n="939"> Dont elle s’est punie, et qui nous perd tous deux ?</l>
+                        <l n="940"> Pouvais-je imaginer qu’une auguste déesse,</l>
+                        <l n="941"> Que Vénus, de son cœur souveraine maîtresse,</l>
+                        <l n="942"> Y versant tout entier un funeste poison,</l>
+                        <l n="943"> De troubles, de forfaits remplirait ma maison ?</l>
+                        <l n="944"> J’ai cru légèrement cette femme perfide,</l>
+                        <l n="945"> Et choisissant trop tôt ma colère pour guide,</l>
+                        <l n="946"> J’ai trop tôt de Neptune invoqué le courroux.</l>
+                        <l n="947"> Mais resterai-je ici ? fuirai-je loin de vous ?</l>
+                        <l n="948"> Amis, qui m’entendez, j’ai perdu votre estime.</l>
+                        <l n="949"> La juste Némésis vengeresse du crime,</l>
+                        <l n="950"> En tout lieu va me suivre, ainsi que le remord ;</l>
+                        <l n="951"> Et partout sans mourir je trouverai la mort.</l>
+                        <l n="952"> Ô mon fils ! mon cher fils ! me verras-tu sans peine</l>
+                        <l n="953"> Devenir un objet de mépris et de haine ?</l>
+                        <l n="954"> Je t’exilai tantôt sans aucun fondement ;</l>
+                        <l n="955"> Veux-tu me condamner au même châtiment ?</l>
+                        <l n="956"> Qu’à mon tour exilé, je traîne en vrai coupable</l>
+                        <l n="957"> Une vie importune autant que misérable ?</l>
+                        <l n="958"> Et que perdant le fruit de mes exploits guerriers,</l>
+                        <l n="959"> Je sente sur mon front se flétrir mes lauriers ?</l>
+                        <l n="960"> Pardonne-moi, mon fils, un moment de colère.</l>
+                        <l n="961"> Plus qu’à toi-même hélas ! ta gloire me fut chère ;</l>
+                        <l n="962"> Et dans cet instant même où je suis détrompé,</l>
+                        <l n="963"> Je souffre plus que toi du coup qui ta frappé.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="964"> Rassurez-vous, seigneur, mon trépas qui s’approche,</l>
+                        <l n="965"> M’a fait vous adresser ad un pénible reproche ;</l>
+                        <l n="966"> Mais il est temps enfin que vos vœux soient remplis.</l>
+                        <l n="967"> Si j’étais né cruel, serais-je votre fils ?</l>
+                        <l n="968"> À vous voir malheureux je ne puis me résoudre ;</l>
+                        <l n="969"> Je vous pardonne tout.</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="970"> Il faut plus.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="971"> Quoi ?</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE. </speaker>
+                        <l n="972"> M’absoudre.</l>
+                </sp>
+        <sp who="#hippolyte">
+            <speaker> HIPPOLYTE. </speaker>
+                        <l n="973"> Mon père, embrassez-moi : je ne sais point haïr,</l>
+                        <l n="974"> Et vous lègue mon âme à mon dernier soupir.</l>
+                        <l n="975"> Puissiez-vous désormais, vous dont lame est si tendre,</l>
+                        <l n="976"> Ne point juger vos fils avant de les entendre !</l>
+                </sp>
+        <sp who="#thésée">
+            <speaker> THÉSÉE, se jetant sur son corps. </speaker>
+                        <l n="977"> Que je t’embrasse encor pour la dernière fois,</l>
+                        <l n="978"> Ô fils trop généreux ! Il meurt !... Puissent les rois,</l>
+                        <l n="979"> Et tant d’autres mortels que l’Univers contemple,</l>
+                        <l n="980"> De ma crédulité ne pas suivre l’exemple !</l>
+                        <l n="981"> [1] Ce collègue de l’interlocuteur est M. Briquet, professeur de littérature à Niort, département des Deux-Sèvres ; il a fait dernièrement cet aveu, qui l’honore, devant plusieurs hommes de lettres de Paris, qui de l’ont pas oublié. Il est auteur de plusieurs ouvrages intéressants, et madame Fortunée Briquet, son épouse, cultive aussi les lettres avec beaucoup de succès. Voyez les deux premiers volumes du nouvel Almanach des Muses, qui s’imprime chez Barba ; le portrait de cette dame est à la tête du second.</l>
+            <stage><a href="#_ftnref2" name="_ftn2" title="" id="_ftn2">[2]</a> Voilà pourquoi elles sont en caractères <em>italiques</em> dans ce dialogue.</stage>
+                        <l n="982"> [3] Ce dialogue a été composé dans le temps de la République française.</l>
+                        <l n="983"> [4] Ces détails sont dans les mœurs antiques ; c’est d’ailleurs Euripide qui me les a fournis, je n’ai fait que les traduire.</l>
+                        <l n="984"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

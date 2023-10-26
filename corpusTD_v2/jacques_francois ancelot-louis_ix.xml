@@ -1,0 +1,2494 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Louis IX</title>
+                <title type="sub">Tragédie</title>
+            <author>
+                <persName>
+                    <forename>Jacques-François</forename>
+                    <forename></forename>
+                    <surname>Ancelot</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/louis-ix-jacques-françois-ancelot </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1849-11-05">Représentée pour la première fois, à Paris, sur le Théâtre-Français, le 5 novembre 1849.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="louis-ix" sex="SEX">
+                            <persName>LOUIS IX</persName>
+                        </person>
+                        <person xml:id="almodan" sex="SEX">
+                            <persName>ALMODAN</persName>
+                        </person>
+                        <person xml:id="nouradin" sex="SEX">
+                            <persName>NOURADIN</persName>
+                        </person>
+                        <person xml:id="raymond" sex="SEX">
+                            <persName>RAYMOND</persName>
+                        </person>
+                        <person xml:id="philippe" sex="SEX">
+                            <persName>PHILIPPE</persName>
+                        </person>
+                        <person xml:id="joinville" sex="SEX">
+                            <persName>JOINVILLE</persName>
+                        </person>
+                        <person xml:id="châtillon" sex="SEX">
+                            <persName>CHÂTILLON</persName>
+                        </person>
+                        <person xml:id="marguerite" sex="SEX">
+                            <persName>MARGUERITE</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Tragédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q80930]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">LOUIS IX</titlePart>
+            <titlePart type="sub">TRAGÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre-Français, le 5 novembre 1849.</ab><!--@date="1849-11-05"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> À SA MAJESTÉ LOUIS XVIII</salute>
+            </opener>
+        <p> <strong>ROI DE FRANCE ET DE NAVARRE</strong> </p>
+        <p> SIRE, </p>
+        <p> VOTRE MAJESTÉ a daigné permettre que mon premier ouvrage parût sous ses auspices : cette faveur, à laquelle je n’osais prétendre, est la plus douce récompense de mes travaux. Sous le règne de VOTRE MAJESTÉ, il m’était facile de retracer les vertus du père des Bourbons ; et si mon ouvrage a obtenu quelques applaudissements, je les dois sans doute au plaisir qu’ont éprouvé les Français en retrouvant l’image du présent dans les souvenirs du passé. </p>
+        <p> Puisse le zèle qui m’anime suppléer à la faiblesse de mes talents, dans les efforts que je vais tenter pour me rendre moins indigne de la protection dont VOTRE MAJESTÉ daigne honorer mes essais. </p>
+        <p> Je suis avec le plus profond respect, </p>
+        <p> SIRE, </p>
+        <p> DE VOTRE MAJESTÉ, </p>
+        <p> Le très humble, très obéissant et très fidèle sujet, </p>
+        <p> ANCELOT. </p>
+    </div>
+           <div type="act" xml:id="1">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#châtillon">
+            <speaker> CHÂTILLON. </speaker>
+                        <l n="1"> Parlez, fidèle ami de notre auguste maître,</l>
+                        <l n="2"> Cher Joinville, en nos cœurs l’espoir peut-il renaître ?</l>
+                        <l n="3"> Dans les murs de Memphis les chrétiens enchaînés</l>
+                        <l n="4"> À d’éternels malheurs seraient-ils condamnés ?</l>
+                        <l n="5"> Quel temps doit mettre un terme à leur longue souffrance ?</l>
+                        <l n="6"> Reverront-ils jamais le beau ciel de la France ?</l>
+                </sp>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="7"> Peut-être, Châtillon, touché de nos revers,</l>
+                        <l n="8"> Le Tout-Puissant bientôt fera tomber nos fers ;</l>
+                        <l n="9"> Mais quand les chevaliers aux plages africaines</l>
+                        <l n="10"> Devraient languir captifs, et mourir dans les chaînes,</l>
+                        <l n="11"> Quel indigne chrétien oserait murmurer ?</l>
+                        <l n="12"> Dieu frappe ; nous devons souffrir et l’adorer.</l>
+                        <l n="13"> Nos désastres sont grands, mais se plaindre est un crime !</l>
+                        <l n="14"> Reconquérir le temple et délivrer Solime,</l>
+                        <l n="15"> Arracher les chrétiens au joug des musulmans,</l>
+                        <l n="16"> Tels étaient nos devoirs, tels furent nos serments,</l>
+                        <l n="17"> Quand Louis, du Très-Haut courant venger l’injure,</l>
+                        <l n="18"> Du signe de la foi décora notre armure.</l>
+                        <l n="19"> Ne vous souvient-il plus du jour où ses sujets</l>
+                        <l n="20"> Jurèrent de s’unir à ses nobles projets,</l>
+                        <l n="21"> Et, fiers de partager le zèle qui l’enflamme,</l>
+                        <l n="22"> Se rangèrent en foule autour de l’oriflamme ?</l>
+                </sp>
+        <sp who="#châtillon">
+            <speaker> CHÂTILLON. </speaker>
+                        <l n="23"> Je m’y rangeai comme eux : et souvent, sur ses pas,</l>
+                        <l n="24"> Le roi m’a vu, Joinville, affronter le trépas.</l>
+                        <l n="25"> Quels dangers ont jamais arrêté mon courage ?</l>
+                        <l n="26"> Mon sang, comme le vôtre, a rougi ce rivage,</l>
+                        <l n="27"> Quand Louis, poursuivant le cours de ses exploits,</l>
+                        <l n="28"> Sur les murs de Damiette alla planter la croix.</l>
+                        <l n="29"> Que n’expirai-je alors ! Mais ce Dieu qui m’écoute</l>
+                        <l n="30"> À périr dans les fers m’a condamné sans doute.</l>
+                        <l n="31"> En vain de quelque espoir mon cœur s’était flatté ;</l>
+                        <l n="32"> Les projets du soudan n’ont que trop éclaté.</l>
+                        <l n="33"> À vous revoir jamais je ne dois plus prétendre,</l>
+                        <l n="34"> Bords chéris, où languit l’épouse la plus tendre,</l>
+                        <l n="35"> Où mon fils vient de naître, où dorment mes aïeux ;</l>
+                        <l n="36"> Je mourrai loin de vous ; recevez mes adieux.</l>
+                </sp>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="37"> Calmez cette douleur. Aux rives de la Seine,</l>
+                        <l n="38"> Comme vous, Châtillon, un nœud puissant m’enchaîne.</l>
+                        <l n="39"> Sous les drapeaux du Christ quand nous dûmes marcher,</l>
+                        <l n="40"> Des bras de mes enfants il fallut m’arracher.</l>
+                        <l n="41"> Dans mon cœur, que troublait un funeste présage,</l>
+                        <l n="42"> Je sentis un moment chanceler mon courage ;</l>
+                        <l n="43"> Mais du toit paternel détournant mes regards,</l>
+                        <l n="44"> Je m’éloignai bientôt ; et sous nos étendards,</l>
+                        <l n="45"> Abjurant ma faiblesse, et domptant la nature,</l>
+                        <l n="46"> J’ai marché sans regret, et souffert sans murmure.</l>
+                        <l n="47"> Ah ! quel guerrier français pourrait trembler pour soi</l>
+                        <l n="48"> En songeant aux périls qui menacent son roi ?</l>
+                        <l n="49"> Comme nous, Châtillon, captif de l’infidèle,</l>
+                        <l n="50"> Des plus rares vertus nous offrant le modèle,</l>
+                        <l n="51"> Il donnerait ses jours pour sauver les chrétiens.</l>
+                        <l n="52"> À l’aspect de ses maux je ne sens plus les miens.</l>
+                </sp>
+        <sp who="#châtillon">
+            <speaker> CHÂTILLON. </speaker>
+                        <l n="53"> Je plains les maux du roi, j’admire sa constance ;</l>
+                        <l n="54"> Mais je crains d’Almodan l’implacable vengeance.</l>
+                </sp>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="55"> Qu’entends-je ? Croirons-nous qu’il viole un traité</l>
+                        <l n="56"> Qu’a scellé son serment, que lui-même a dicté ?</l>
+                        <l n="57"> Nos rançons aujourd’hui lui vont être livrées,</l>
+                        <l n="58"> Et, quittant pour jamais ces funestes contrées,</l>
+                        <l n="59"> Nous reverrons bientôt les champs de nos aïeux.</l>
+                        <l n="60"> Ne désespérons point. On marche vers ces lieux.</l>
+                        <l n="61"> C’est le Roi.</l>
+                </sp>
+        <sp who="#châtillon">
+            <speaker> CHÂTILLON. </speaker>
+                        <l n="62"> Nos destins lui sont connus, sans doute.</l>
+                </sp>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="63"> J’espère en sa présence.</l>
+                </sp>
+        <sp who="#châtillon">
+            <speaker> CHÂTILLON. </speaker>
+                        <l n="64"> Et moi je la redoute.</l>
+                        <l n="65"> Il approche.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="66"> Chrétiens interdits et muets,</l>
+                        <l n="67"> Vous arrêtez sur moi vos regards inquiets ;</l>
+                        <l n="68"> D’avance dans mes yeux vos yeux cherchent à lire.</l>
+                        <l n="69"> Du sort qui nous attend quand je dois vous instruire,</l>
+                        <l n="70"> Je sens, ô mes amis, tout mon cœur se briser :</l>
+                        <l n="71"> Mais je vous connais trop pour vous rien déguiser.</l>
+                </sp>
+        <sp who="#châtillon">
+            <speaker> CHÂTILLON, à part. </speaker>
+                        <l n="72"> Dieu quel sort est le nôtre ? et qu’allons-nous entendre ?</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="73"> À quitter ce rivage il ne faut plus prétendre.</l>
+                        <l n="74"> Le perfide soudan, au mépris des traités,</l>
+                        <l n="75"> Des peuples et des rois jusqu’ici respectés,</l>
+                        <l n="76"> Refuse nos rançons, et, fidèle à sa haine,</l>
+                        <l n="77"> Des chevaliers chrétiens appesantit la chaine !</l>
+                        <l n="78"> Nous avons tout à craindre ! ou plutôt, mes amis,</l>
+                        <l n="79"> Aux décrets éternels aveuglément soumis,</l>
+                        <l n="80"> Courbant un front coupable, acceptons avec joie</l>
+                        <l n="81"> Les nouveaux châtiments que le ciel nous envoie :</l>
+                        <l n="82"> Qui put les mériter doit savoir les souffrir.</l>
+                </sp>
+        <sp who="#châtillon">
+            <speaker> CHÂTILLON. </speaker>
+                        <l n="83"> Eh quoi ! dans l’esclavage il faudra donc périr !</l>
+                        <l n="84"> Et qui nous entraîna loin de notre patrie ?</l>
+                        <l n="85"> Que venions-nous chercher au fond de la Syrie ?</l>
+                        <l n="86"> Pourquoi vers le Jourdain appeler vos sujets ?</l>
+                        <l n="87"> Dieu n’a point approuvé vos funestes projets !</l>
+                        <l n="88"> Que dis-je ? son courroux sur nos coupables têtes,</l>
+                        <l n="89"> Dès notre premier pas, déchaînant les tempêtes,</l>
+                        <l n="90"> Semblait de l’Orient nous fermer les chemins.</l>
+                        <l n="91"> Quels maux nous attendaient sur les bords africains !</l>
+                        <l n="92"> C’était peu que le ciel, flétrissant notre gloire,</l>
+                        <l n="93"> Aux drapeaux du croissant attachât la victoire ;</l>
+                        <l n="94"> Il a, pour nous détruire, armé tous les fléaux :</l>
+                        <l n="95"> Chaque jour éclairait des désastres nouveaux ;</l>
+                        <l n="96"> Et la contagion, sur cette aride plage,</l>
+                        <l n="97"> Dévorait les chrétiens échappés au carnage.</l>
+                        <l n="98"> Non, Dieu n’ordonnait point ces funestes combats :</l>
+                        <l n="99"> Et si le sang français coula dans ces climats,</l>
+                        <l n="100"> Si maintenant, chargés de honteuses entraves,</l>
+                        <l n="101"> Des Sarrasins vainqueurs nous vivons les esclaves ;</l>
+                        <l n="102"> Si le courroux du ciel s’appesantit sur nous,</l>
+                        <l n="103"> De ces revers affreux nous n’accusons que vous !</l>
+                        <l n="104"> Nous suivîmes vos pas, nos maux sont votre ouvrage.</l>
+                </sp>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="105"> Arrête, malheureux ! Juste Dieu, quel langage !</l>
+                        <l n="106"> Un chevalier français ose accuser son roi !</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="107"> Ami, je lui pardonne, il n’offense que moi.</l>
+                </sp>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="108"> Nous désavouons tous ces coupables murmures.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="109"> Je songe à vos malheurs, et non à mes injures.</l>
+                </sp>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="110"> Quoi ! lorsque tout chrétien qui gémit dans les fers</l>
+                        <l n="111"> Doit apprendre de nous à souffrir ses revers ;</l>
+                        <l n="112"> Lorsque, las de ses maux, le soldat nous contemple,</l>
+                        <l n="113"> De la rébellion nous lui donnons l’exemple !</l>
+                        <l n="114"> Châtillon de sa plainte ose vous accabler !</l>
+                        <l n="115"> Vous devez le punir.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="116"> Je dois le consoler.</l>
+            <stage><em>À Châtillon.</em></stage>
+                        <l n="117"> Vous déchirez mon cœur ! Revenez à vous-même ;</l>
+                        <l n="118"> N’accusez plus un roi qui vous plaint, qui vous aime :</l>
+                        <l n="119"> Châtillon, de vos maux je souffre autant que vous :</l>
+                        <l n="120"> Et si, pour désarmer le céleste courroux,</l>
+                        <l n="121"> Au glaive des bourreaux il faut livrer ma tête,</l>
+                        <l n="122"> J’y consens avec joie, et la victime est prête.</l>
+                </sp>
+        <sp who="#châtillon">
+            <speaker> CHÂTILLON. </speaker>
+                        <l n="123"> Qu’ai-je fait ?</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="124"> La douleur a pu vous égarer :</l>
+                        <l n="125"> Rentrez dans le devoir ; et, loin de murmurer,</l>
+                        <l n="126"> Des bienfaits du Très-Haut conservant la mémoire,</l>
+                        <l n="127"> De nos premiers combats rappelez-vous la gloire.</l>
+                        <l n="128"> Quand, traversant les mers, vous vîntes, à ma voix,</l>
+                        <l n="129"> Planter aux bords du Nil l’étendard de la croix,</l>
+                        <l n="130"> Vous étiez vertueux, Dieu protégea vos armes ;</l>
+                        <l n="131"> Il nous guida lui-même au milieu des alarmes ;</l>
+                        <l n="132"> De la sainte cité nous frayant les chemins,</l>
+                        <l n="133"> Il porta l’épouvante au cœur des Sarrasins,</l>
+                        <l n="134"> Et chassant devant nous leurs tremblantes cohortes,</l>
+                        <l n="135"> De Damiette soumise il nous ouvrit les portes.</l>
+                        <l n="136"> Que ne présageait point ce glorieux succès !</l>
+                        <l n="137"> Mais bientôt, nous livrant aux plus honteux excès,</l>
+                        <l n="138"> Du Dieu qui nous choisit pour venger sa querelle</l>
+                        <l n="139"> Nos crimes ont lassé la bonté paternelle.</l>
+                        <l n="140"> Ah ! faut-il aujourd’hui, rappelant vos erreurs,</l>
+                        <l n="141"> De ces temps désastreux retracer les horreurs !</l>
+                        <l n="142"> Que ne puis-je à nos fils en dérober l’histoire !</l>
+                        <l n="143"> Chrétiens, je vous ai vus profaner la victoire.</l>
+                        <l n="144"> Mes amis les plus chers ont méconnu ma voix.</l>
+                        <l n="145"> Déjà, se ranimant au bruit de nos exploits,</l>
+                        <l n="146"> Sion semblait renaître, et de leur délivrance</l>
+                        <l n="147"> Nos frères consolés embrassaient l’espérance.</l>
+                        <l n="148"> Sur le tombeau du Christ prosternés tous les jours,</l>
+                        <l n="149"> Les malheureux pour nous imploraient son secours.</l>
+                        <l n="150"> Nous les avons trahis ; et nous osons nous plaindre !</l>
+                        <l n="151"> Ah ! quels que soient les maux qui nous restent à craindre,</l>
+                        <l n="152"> Sachons les supporter : méritons aujourd’hui</l>
+                        <l n="153"> Que le ciel outragé nous rende son appui.</l>
+                        <l n="154"> Ce Dieu qui, nous livrant aux mains des infidèles,</l>
+                        <l n="155"> A courbé sous le joug nos têtes criminelles,</l>
+                        <l n="156"> Du superbe Almodan peut confondre l’orgueil,</l>
+                        <l n="157"> Changer nos pleurs en joie, et son triomphe en deuil.</l>
+                        <l n="158"> Chevaliers, implorons sa bonté tutélaire ;</l>
+                        <l n="159"> Que notre repentir désarme sa colère.</l>
+                        <l n="160"> Je vais près du soudan, pour la seconde fois</l>
+                        <l n="161"> De l’honneur méconnu faire parler la voix.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="162"> Hélas ! de Châtillon j’avais prévu les plaintes.</l>
+                        <l n="163"> Témoin de sa douleur, confident de ses craintes,</l>
+                        <l n="164"> J’ai fait, pour l’apaiser, des efforts superflus ;</l>
+                        <l n="165"> Mais s’il vous offensa...</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="166"> Je ne m’en souviens plus.</l>
+                        <l n="167"> De ces braves guerriers le sort me désespère :</l>
+                        <l n="168"> Je dois sentir leurs maux, je suis époux et père.</l>
+                        <l n="169"> Condamné par le ciel à périr dans Memphis,</l>
+                        <l n="170"> Je ne reverrai plus mon épouse et mon fils ;</l>
+                        <l n="171"> C’en est fait, mais pour eux ma tendresse alarmée</l>
+                        <l n="172"> Sut au moins les soustraire aux périls de l’armée ;</l>
+                        <l n="173"> Dans les murs de Damiette ils attendent le jour,</l>
+                        <l n="174"> Qui doit vers la patrie éclairer leur retour ;</l>
+                        <l n="175"> Aux fureurs d’Almodan j’arrachai cette proie :</l>
+                        <l n="176"> Mon Dieu ! qu’ils soient sauvés, et je meurs avec joie.</l>
+                </sp>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="177"> Non, seigneur, à l’espoir notre âme doit s’ouvrir.</l>
+                        <l n="178"> Le ciel nous aime encore, et va nous secourir.</l>
+                        <l n="179"> Ce prince syrien dont le fatal courage</l>
+                        <l n="180"> De nos premiers combats détruisant tout l’ouvrage,</l>
+                        <l n="181"> Dans les champs de Massoure arrêta nos exploits,</l>
+                        <l n="182"> Nouradin, de l’honneur sait respecter les lois :</l>
+                        <l n="183"> Indigné des affronts qu’Almodan nous prépare,</l>
+                        <l n="184"> Chaque jour il s’oppose aux desseins du barbare.</l>
+                        <l n="185"> Révéré des émirs, adoré des soldats,</l>
+                        <l n="186"> Du soudan qui le craint, il sauva les états.</l>
+                        <l n="187"> Il marche son égal. Ce prince magnanime,</l>
+                        <l n="188"> Protégeant hautement des vaincus qu’il estime,</l>
+                        <l n="189"> Est prêt à nous offrir un généreux soutien.</l>
+                        <l n="190"> L’infidèle, étonné d’admirer un chrétien,</l>
+                        <l n="191"> Se livre devant vous au charme qui l’entraîne,</l>
+                        <l n="192"> Et dans son cœur surpris sent expirer la haine.</l>
+                        <l n="193"> Almodan seul nous hait... Il règne, mais enfin</l>
+                        <l n="194"> Des maîtres de ces lieux on connaît le destin :</l>
+                        <l n="195"> Leur trône, chancelant sur le bord d’un abime,</l>
+                        <l n="196"> S’élève par la force, et tombe par le crime ;</l>
+                        <l n="197"> Le peuple, devant eux quelque temps prosterné,</l>
+                        <l n="198"> Obéit en tremblant au chef qu’il s’est donné ;</l>
+                        <l n="199"> Mais, au premier signal, la révolte s’éveille :</l>
+                        <l n="200"> On proscrit le soudan qu’on adorait la veille ;</l>
+                        <l n="201"> Le soldat effréné l’immole à sa fureur,</l>
+                        <l n="202"> Et, couvert de son sang, nomme son successeur.</l>
+                        <l n="203"> Espérons : on murmure, et l’Égypte peut-être</l>
+                        <l n="204"> Doit apprendre aujourd’hui qu’elle a changé de maître.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="205"> Je crains, je l’avouerai, ce chrétien apostat</l>
+                        <l n="206"> Dont les Français trahis ont pleuré l’attentat.</l>
+                        <l n="207"> Contre le Dieu vivant vomissant le blasphème,</l>
+                        <l n="208"> Sur son front qu’arrosa l’eau sainte du baptême,</l>
+                        <l n="209"> Le coupable Raymond a posé le turban ;</l>
+                        <l n="210"> Il est vendu, sans doute, aux fureurs du soudan.</l>
+                        <l n="211"> Flétri de sa faveur, ministre de sa rage,</l>
+                        <l n="212"> Des soutiens de la foi prolongeant l’esclavage,</l>
+                        <l n="213"> Contre nous de son maître il arme la rigueur.</l>
+                        <l n="214"> Qui l’eût jamais pensé, Joinville, qu’en son cœur</l>
+                        <l n="215"> L’ambition, l’orgueil, excitant la vengeance,</l>
+                        <l n="216"> Aux drapeaux de son prince, à son culte, à la France,</l>
+                        <l n="217"> Le forceraient de dire un éternel adieu,</l>
+                        <l n="218"> Et parleraient plus haut que l’honneur et son Dieu !</l>
+                        <l n="219"> Tu sais, lorsque, trompant sa superbe espérance,</l>
+                        <l n="220"> Du vertueux Coucy j’honorai la vaillance,</l>
+                        <l n="221"> Si le poste éclatant par Raymond attendu,</l>
+                        <l n="222"> Malgré ses vains efforts, à Raymond était dû.</l>
+                        <l n="223"> De tous nos chevaliers j’écoutai le suffrage.</l>
+                        <l n="224"> Mais, hélas ! dans mon choix Raymond vit un outrage :</l>
+                        <l n="225"> Il jura notre perte, et ses ressentiments</l>
+                        <l n="226"> Livrèrent mon armée au fer des musulmans.</l>
+                </sp>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="227"> Mais le remords poursuit ce guerrier sacrilège ;</l>
+                        <l n="228"> Il plaint nos longs malheurs ; Nouradin nous protège :</l>
+                        <l n="229"> Nous reverrons ces bords qu’appelle notre amour,</l>
+                        <l n="230"> Cette France, où nos yeux se sont ouverts au jour.</l>
+                        <l n="231"> Nous ne périrons point aux plages étrangères,</l>
+                        <l n="232"> Nos cendres s’uniront aux cendres de nos pères.</l>
+                        <l n="233"> Oui, l’arrêt est porté : nous ne pourrons jamais</l>
+                        <l n="234"> Du Thabor, du Sina visiter les sommets,</l>
+                        <l n="235"> Toucher le saint tombeau que le chrétien révère,</l>
+                        <l n="236"> Et baigner de nos pleurs les rochers du Calvaire ;</l>
+                        <l n="237"> L’Éternel irrité condamne nos desseins,</l>
+                        <l n="238"> Son bras nous interdit l’approche des lieux saints ;</l>
+                        <l n="239"> Et le sort des guerriers que leur pieux courage</l>
+                        <l n="240"> Entraîna tant de fois sur ce fatal rivage,</l>
+                        <l n="241"> Détruisant un espoir prêt à nous égarer,</l>
+                        <l n="242"> Sur nos propres destins devait nous éclairer.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="243"> Qu’entends-je ? il est donc vrai ! Joinville aussi me blâme !</l>
+                        <l n="244"> Mais sais-tu quels desseins je renferme en mon âme ?</l>
+                        <l n="245"> Sais-tu si les combats où je vous ai guidés</l>
+                        <l n="246"> Par de grands intérêts n’étaient pas commandés ?</l>
+                        <l n="247"> Tu ne vois que tes maux, ton désespoir m’accuse :</l>
+                        <l n="248"> Eh bien ! lis dans mon cœur, et connais mon excuse :</l>
+                        <l n="249"> Vainement, tu le sais, au sein de nos remparts</l>
+                        <l n="250"> Je voulus appeler le commerce et les arts,</l>
+                        <l n="251"> Ces comtes, qui du haut de leurs châteaux antiques</l>
+                        <l n="252"> Font gémir mes sujets sous leurs lois despotiques,</l>
+                        <l n="253"> Tyrans dans mon royaume, et vassaux turbulents,</l>
+                        <l n="254"> Sans relâche occupés de leurs débats sanglants,</l>
+                        <l n="255"> Détruisaient mes travaux, déchiraient la patrie,</l>
+                        <l n="256"> Dans son premier essor arrêtaient l’industrie.</l>
+                        <l n="257"> Divisés d’intérêts, unis contre leur roi,</l>
+                        <l n="258"> Je les trouvais sans cesse entre mon peuple et moi.</l>
+                        <l n="259"> Signalant tour à tour leurs fureurs inhumaines,</l>
+                        <l n="260"> Ils promenaient la mort dans leurs vastes domaines,</l>
+                        <l n="261"> Et des soldats français, l’un par l’autre immolés,</l>
+                        <l n="262"> Le sang coulait sans gloire en nos champs désolés.</l>
+                        <l n="263"> Je voulus, des combats leur ouvrant la carrière,</l>
+                        <l n="264"> Offrir un but plus noble à cette ardeur guerrière :</l>
+                        <l n="265"> Tu te souviens qu’alors de pieux voyageurs,</l>
+                        <l n="266"> Pour nos frères captifs implorant des vengeurs,</l>
+                        <l n="267"> D’un zèle saint en nous ranimèrent la flamme ;</l>
+                        <l n="268"> Aux regards des Français déployant l’oriflamme,</l>
+                        <l n="269"> Je leur montre la gloire aux rives du Jourdain :</l>
+                        <l n="270"> Ils entendent ma voix, s’arrêtent, et soudain,</l>
+                        <l n="271"> Oubliant leurs discords, et déposant leurs haines,</l>
+                        <l n="272"> Ils marchent réunis vers ces plages lointaines.</l>
+                        <l n="273"> Quels plus nobles dangers leur pouvaient être offerts ?</l>
+                        <l n="274"> Délivrer les chrétiens gémissant dans les fers,</l>
+                        <l n="275"> Rendre Jérusalem à sa splendeur première,</l>
+                        <l n="276"> En chasser l’infidèle, et rompre la barrière</l>
+                        <l n="277"> Qui du tombeau sacré nous défendait l’accès :</l>
+                        <l n="278"> Tel devait être, ami, le fruit de nos succès !</l>
+                        <l n="279"> Là s’arrêtaient vos vœux, et non mon espérance.</l>
+                        <l n="280"> Jette avec moi, Joinville, un regard sur la France :</l>
+                        <l n="281"> Avant de condamner les serments que j’ai faits,</l>
+                        <l n="282"> De ces combats lointains contemple les effets :</l>
+                        <l n="283"> Libre de ses tyrans, mon peuple enfin respire ;</l>
+                        <l n="284"> La paix renaît en France, et la discorde expire ;</l>
+                        <l n="285"> Le commerce, avec nous transporté sur ces bords,</l>
+                        <l n="286"> Aux peuples rapprochés prodigue ses trésors ;</l>
+                        <l n="287"> L’aspect de ces climats, depuis long-temps célèbres,</l>
+                        <l n="288"> Déjà de l’ignorance éclaircit les ténèbres,</l>
+                        <l n="289"> Et, sur nos pas les arts, allumant leur flambeau,</l>
+                        <l n="290"> Vont remplir l’Occident de leur éclat nouveau ;</l>
+                        <l n="291"> Déjà des grands vassaux l’autorité chancelle :</l>
+                        <l n="292"> Je sais ce qu’entreprend leur audace rebelle,</l>
+                        <l n="293"> Joinville ; et, m’instruisant aux leçons du passé,</l>
+                        <l n="294"> Je suivrai le chemin que Philippe a tracé.</l>
+                        <l n="295"> Aux tyrans de mon peuple arrachant leur puissance,</l>
+                        <l n="296"> Éveillant la justice, enchainant la licence,</l>
+                        <l n="297"> Au secours de mes lois j’appellerai les mœurs,</l>
+                        <l n="298"> Je contiendrai les grands, et, malgré leurs clameurs</l>
+                        <l n="299"> Père de mes sujets, détruisant l’anarchie,</l>
+                        <l n="300"> Je veux sur ces débris asseoir la monarchie.</l>
+                        <l n="301"> Si Dieu, marquant ici le terme de mes jours,</l>
+                        <l n="302"> Veut de tous mes travaux interrompre le cours,</l>
+                        <l n="303"> Aux rois qui me suivront j’aurai frayé la route :</l>
+                        <l n="304"> Vers ce but glorieux ils marcheront sans doute :</l>
+                        <l n="305"> Et quelque jour mon peuple, éclairé sur ses droits,</l>
+                        <l n="306"> Chérira ma mémoire, et bénira mes lois.</l>
+                </sp>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="307"> Non, ce Dieu qui préside aux destins de la France</l>
+                        <l n="308"> Ne lui ravira point sa plus chère espérance :</l>
+                        <l n="309"> Vous vivrez, et, goûtant un utile repos,</l>
+                        <l n="310"> Vous jouirez enfin du fruit de vos travaux.</l>
+                        <l n="311"> Mais j’aperçois Raymond ; que vient-il nous apprendre ?</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="312"> Dans une heure en ce lieu le soudan doit se rendre ;</l>
+                        <l n="313"> Vous le verrez, seigneur. Sur vous, sur vos sujets</l>
+                        <l n="314"> Il vous veut bien lui-même expliquer ses projets.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="315"> Il suffit.</l>
+            <stage><em>Il s’éloigne avec Joinville : Raymond le suit des yeux.</em></stage></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="316"> Des chrétiens tel est donc le courage !</l>
+                        <l n="317"> Sous un ciel étranger, vaincus, dans l’esclavage,</l>
+                        <l n="318"> Par les plus grands revers aucun n’est abattu ;</l>
+                        <l n="319"> Et mon cœur étonné... Malheureux, que dis-tu ?</l>
+                        <l n="320"> Oui, c’est avec raison que ce calme t’étonne,</l>
+                        <l n="321"> Il n’est pas fait pour toi : l’innocence le donne.</l>
+                        <l n="322"> Quels regards outrageants ils ont lancés sur moi !</l>
+                        <l n="323"> Quel mépris ce chrétien... Ce chrétien fut mon roi !</l>
+                        <l n="324"> Chassons un souvenir qui me perdrait peut-être ;</l>
+                        <l n="325"> Memphis est ma patrie, Almodan est mon maître.</l></div></div>
+           <div type="act" xml:id="2">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="326"> De mon ordre par toi ce chrétien averti</l>
+                        <l n="327"> Sait qu’à l’entendre encor ma haine a consenti ?</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="328"> Oui, soudan ; devant toi bientôt il va paraître.</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="329"> L’espoir de me fléchir l’abuse encor peut-être ;</l>
+                        <l n="330"> Mais ma haine avec lui n’admet point de traités.</l>
+                        <l n="331"> Quoi ! vizir, j’aurai vu ces chrétiens détestés,</l>
+                        <l n="332"> Du fond de l’Occident vomis sur ce rivage,</l>
+                        <l n="333"> Porter dans mes états la flamme et le ravage ;</l>
+                        <l n="334"> Leur chef, qu’à ma fureur je devrais immoler,</l>
+                        <l n="335"> Sur mon trône un instant m’aura fait chanceler ;</l>
+                        <l n="336"> Et quand mon intérêt m’ordonne la vengeance,</l>
+                        <l n="337"> Je pourrais, n’écoutant qu’une aveugle indulgence,</l>
+                        <l n="338"> Du passé qui m’éclaire oubliant les leçons,</l>
+                        <l n="339"> De ces soldats chrétiens accepter les rançons !</l>
+                        <l n="340"> Ils reviendraient bientôt, et la route est frayée.</l>
+                        <l n="341"> Je veux enfin apprendre à l’Europe effrayée</l>
+                        <l n="342"> Quels périls désormais attendent ses enfants,</l>
+                        <l n="343"> S’ils osaient reparaître aux bords que je défends.</l>
+                        <l n="344"> Le sort entre eux et nous a posé des barrières ;</l>
+                        <l n="345"> Que vers une autre plage ils portent leurs bannières :</l>
+                        <l n="346"> Ces champs où le soleil darde ses premiers feux,</l>
+                        <l n="347"> Ces climats embrasés ne sont point faits pour eux.</l>
+                        <l n="348"> L’Europe à ces Français ne peut-elle suffire ?</l>
+                        <l n="349"> Dans l’antique Orient quel espoir les attire ?</l>
+                        <l n="350"> Quels sont donc leurs desseins ? et que prétend leur roi ?</l>
+                        <l n="351"> Veut-il forcer le Nil à couler sous la loi ?</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="352"> L’Asie, à tant de maux par les chrétiens livrée,</l>
+                        <l n="353"> Recèle de leur Dieu la tombe révérée :</l>
+                        <l n="354"> Là tendent tous leurs vœux, et, pour la conquérir,</l>
+                        <l n="355"> Au-devant des dangers tu les as vus courir.</l>
+                        <l n="356"> Tu connais leur monarque et l’ardeur qui l’anime.</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="357"> Ne crois pas qu’il renonce à soumettre Solime ;</l>
+                        <l n="358"> Dans son âme en secret il nourrit cet espoir.</l>
+                        <l n="359"> Pour le juger, vizir, il a fallu le voir,</l>
+                        <l n="360"> Lorsqu’à nos yeux surpris déployant ses bannières,</l>
+                        <l n="361"> Il guida vers nos bords les phalanges guerrières</l>
+                        <l n="362"> Qui viennent sur ses pas conquérir un tombeau.</l>
+                        <l n="363"> Le front calme, Louis, debout sur son vaisseau,</l>
+                        <l n="364"> Des chevaliers français échauffait le courage,</l>
+                        <l n="365"> Et son glaive étendu leur montrait le rivage.</l>
+                        <l n="366"> Là, mes soldats armés attendaient les chrétiens.</l>
+                        <l n="367"> Ce prince, tout à coup emporté loin des siens,</l>
+                        <l n="368"> S’élance ; chacun fuit ! en ce désordre extrême,</l>
+                        <l n="369"> Le dirai-je ? étonné je recule moi-même !</l>
+                        <l n="370"> Je ne sais de quel feu s’animaient ses regards.</l>
+                        <l n="371"> Enfin, de mes guerriers fuyant de toutes parts,</l>
+                        <l n="372"> Je voulus dissiper les honteuses alarmes ;</l>
+                        <l n="373"> Vains efforts ! loin de soi chacun jetait ses armes :</l>
+                        <l n="374"> Ma voix contre Louis ne put les rallier ;</l>
+                        <l n="375"> Ils croyaient voir un Dieu prêt à les foudroyer.</l>
+                        <l n="376"> Penses-tu qu’un revers suffise pour l’abattre ?</l>
+                        <l n="377"> Convaincu que son Dieu l’arma pour nous combattre,</l>
+                        <l n="378"> Il m’attaque demain, s’il est libre aujourd’hui ;</l>
+                        <l n="379"> Et même son vainqueur doit tout craindre de lui :</l>
+                        <l n="380"> Un cœur tel que le sien ne connaît point d’obstacles,</l>
+                        <l n="381"> Et la volonté ferme enfante les miracles.</l>
+                        <l n="382"> Louis est mon captif, le sort me l’a livré ;</l>
+                        <l n="383"> Pourquoi mettre au hasard un triomphe assuré ?</l>
+                        <l n="384"> La fortune est fidèle à celui qui l’enchaîne ;</l>
+                        <l n="385"> Négliger ses faveurs, c’est mériter sa haine.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="386"> Je t’entends. Mais, dis-moi, ne redoutes-tu rien ?</l>
+                        <l n="387"> Penses-tu qu’aujourd’hui ce prince syrien</l>
+                        <l n="388"> Qui, sous tes étendards rappelant la victoire,</l>
+                        <l n="389"> A sauvé ton empire, et t’a rendu ta gloire,</l>
+                        <l n="390"> Au succès de tes vœux ne va point s’opposer ?</l>
+                        <l n="391"> On doit quelques égards à qui peut tout oser :</l>
+                        <l n="392"> Le soldat le chérit, et le peuple l’honore ;</l>
+                        <l n="393"> Ce peuple qu’il égare osa naguère encore,</l>
+                        <l n="394"> Plaignant ses ennemis et respectant leur roi,</l>
+                        <l n="395"> En murmures confus éclater contre toi.</l>
+                        <l n="396"> De Nouradin sur lui tu vois quel est l’empire,</l>
+                        <l n="397"> Tu sais quels sentiments au soldat il inspire :</l>
+                        <l n="398"> Chaque jour il retrace à ses yeux éblouis</l>
+                        <l n="399"> La valeur des Français, les vertus de Louis ;</l>
+                        <l n="400"> Et dès qu’il apprendra ce que résout ta haine,</l>
+                        <l n="401"> À s’armer contre toi je crains qu’il ne l’entraîne.</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="402"> Lui s’armer contre moi !</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="403"> Tremble de l’offenser !</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="404"> Son bras soutint mon trône.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="405"> Il peut le renverser.</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="406"> Oui, jusque-là peut-être il porterait l’audace.</l>
+                        <l n="407"> Son orgueil, à la fin, et m’irrite et me lasse :</l>
+                        <l n="408"> Au jour de mes malheurs il m’offrit son appui ;</l>
+                        <l n="409"> Mais dois je ne penser et n’agir que par lui ?</l>
+                        <l n="410"> Chacun respecte ici ma volonté suprême ;</l>
+                        <l n="411"> Je pourrais à fléchir le contraindre lui-même,</l>
+                        <l n="412"> Et je ne prétends pas, malgré tous ses exploits,</l>
+                        <l n="413"> Qu’au milieu de ma cour il me dicte des lois.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="414"> Fais plier son orgueil, mais songe à son courage.</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="415"> J’honore qui me sert, je punis qui m’outrage.</l>
+                        <l n="416"> Tes discours dans mon cœur réveillent mes soupçons.</l>
+                        <l n="417"> De tous ces vils chrétiens adoptant les leçons,</l>
+                        <l n="418"> Pour leur maître, pour eux, il montre un zèle extrême ;</l>
+                        <l n="419"> Ami des chevaliers, et chevalier lui-même,</l>
+                        <l n="420"> Tous les jours, de ce titre il se pare à mes yeux ;</l>
+                        <l n="421"> Et sans doute, abjurant la foi de ses aïeux,</l>
+                        <l n="422"> En ce moment, vizir, l’infidèle s’apprête</l>
+                        <l n="423"> À quitter, pour la croix, l’étendard du prophète.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="424"> Tu dois le ménager.</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="425"> Je brave son courroux.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="426"> J’entends du bruit ; on vient.</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="427"> C’est Louis. Laisse-nous.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="428"> Justement alarmé pour des guerriers que j’aime,</l>
+                        <l n="429"> Almodan, du traité que tu dictas toi-même</l>
+                        <l n="430"> Je viens t’entretenir pour la seconde fois.</l>
+                        <l n="431"> Damiette, où flotte encor l’étendard de la croix,</l>
+                        <l n="432"> Devait, tu t’en souviens, payer ma délivrance ;</l>
+                        <l n="433"> De celle des chrétiens qui sont en ta puissance</l>
+                        <l n="434"> Tu recevras le prix. De tant de maux soufferts</l>
+                        <l n="435"> Veux-tu finir le cours ?</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="436"> Vous mourrez dans les fers.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="437"> Eh quoi ! de tes serments tu perdrais la mémoire !</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="438"> J’assure ma vengeance.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="439"> Et tu souilles ta gloire.</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="440"> Ma gloire est de venger moi-même et mes sujets,</l>
+                        <l n="441"> De punir ton audace. Eh, dis-moi, quels projets</l>
+                        <l n="442"> Sur ces bords ennemis t’engageaient à descendre ?</l>
+                        <l n="443"> Chrétien, de tes aïeux interroge la cendre ;</l>
+                        <l n="444"> Ils venaient de Solime attaquer les remparts :</l>
+                        <l n="445"> Dans les champs syriens leurs ossements épars</l>
+                        <l n="446"> Te diront où tendait leur orgueil téméraire,</l>
+                        <l n="447"> Quels étaient leurs travaux, quel en fut le salaire.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="448"> Saladin put les vaincre au milieu des combats,</l>
+                        <l n="449"> Mais, au moins, d’un parjure il ne se souillait pas.</l>
+                        <l n="450"> Je veux t’ouvrir les yeux, et t’épargner un crime.</l>
+                        <l n="451"> Si les guerriers chrétiens que ta fureur opprime</l>
+                        <l n="452"> Doivent ici périr esclaves de leur foi,</l>
+                        <l n="453"> Soudan, ce n’est pas eux qu’il faut plaindre, c’est toi :</l>
+                        <l n="454"> Ils mourront, mais du moins avec toute leur gloire ;</l>
+                        <l n="455"> Et les siècles futurs flétriront ta mémoire.</l>
+                        <l n="456"> Ah ! crois-moi, l’équité, le respect des serments,</l>
+                        <l n="457"> Sont du pouvoir des rois les plus sûrs fondements.</l>
+                        <l n="458"> Non, je ne croirai point que ton âme balance ;</l>
+                        <l n="459"> Tu tiendras tes serments... Tu gardes le silence ?</l>
+                        <l n="460"> Eh quoi ! soudan, ma voix ne t’a point convaincu,</l>
+                        <l n="461"> Et tu pourrais encor ?...</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="462"> Je peux tout, j’ai vaincu.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="463"> Oui, nous sommes captifs, nos mains sont désarmées ;</l>
+                        <l n="464"> Tu triomphes, sans doute, et le Dieu des armées,</l>
+                        <l n="465"> Des soldats de la foi punissant les erreurs,</l>
+                        <l n="466"> Sans défense aujourd’hui nous livre à tes fureurs :</l>
+                        <l n="467"> Mais d’un bonheur constant nourris-tu l’espérance ?</l>
+                        <l n="468"> Songe qu’en ce moment les guerriers de la France,</l>
+                        <l n="469"> Désertant leurs foyers, au bruit de nos revers,</l>
+                        <l n="470"> S’arment de toutes parts, et traversent les mers.</l>
+                        <l n="471"> De ces cœurs irrités n’attends point d’indulgence :</l>
+                        <l n="472"> Jusque dans ton palais apportant la vengeance,</l>
+                        <l n="473"> Ils pourront quelque jour abaisser ton orgueil,</l>
+                        <l n="474"> Te demander leur maître.</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="475"> Ils auront son cercueil</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="476"> Ainsi, voilà le sort que ta haine m’apprête !</l>
+                        <l n="477"> Eh bien, poursuis, soudan, et que rien ne t’arrête.</l>
+                        <l n="478"> Mais je veux, à mon tour, t’expliquer mes desseins.</l>
+                        <l n="479"> Quand le sort des combats nous remit en tes mains,</l>
+                        <l n="480"> Tu fixas nos rançons ; de notre délivrance</l>
+                        <l n="481"> Un serment solennel nous donna l’assurance ;</l>
+                        <l n="482"> Et moi, tous les chemins dussent-ils m’être ouverts,</l>
+                        <l n="483"> Je jurai devant toi de respecter mes fers ;</l>
+                        <l n="484"> Je m’en souviens encor : que ta fureur m’immole,</l>
+                        <l n="485"> Trahis tous tes serments, je tiendrai ma parole.</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="486"> Je sais sur quels amis comptent tous tes chrétiens ;</l>
+                        <l n="487"> Mais je puis prévenir leurs projets et les tiens :</l>
+                        <l n="488"> De qui m’ose braver je confondrai l’audace,</l>
+                        <l n="489"> Et l’on saura sur moi ce que peut la menace.</l>
+                        <l n="490"> Adieu.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#louis-ix">
+            <speaker> LOUIS </speaker>
+                        <l n="491"> Puis-je douter de mon funeste sort ?</l>
+                        <l n="492"> Son courroux me l’annonce : ou les fers, ou la mort !</l>
+                        <l n="493"> Mon épouse du moins peut braver sa furie ;</l>
+                        <l n="494"> Mon fils est libre encore !... ô France, ô ma patrie,</l>
+                        <l n="495"> Ce fils est ton espoir, je l’ai formé pour toi ;</l>
+                        <l n="496"> Il promet un héros, j’en aurai fait un roi.</l>
+                        <l n="497"> Héritier de mon sceptre, il le sera, j’espère,</l>
+                        <l n="498"> France, de tout l’amour que te porte son père.</l>
+                        <l n="499"> Tu le verras fidèle à toi comme à l’honneur ;</l>
+                        <l n="500"> Et je lui léguerai le soin de ton bonheur.</l>
+                        <l n="501"> Mais qui s’offre à mes yeux ? ô comble de misère !</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="502"> Je revois mon époux.</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="503"> Je retrouve mon père !</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="504"> Malheureux, jusqu’à moi qui conduisit vos pas ?</l>
+                        <l n="505"> Que venez-vous chercher ?</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="506"> Des fers ou le trépas.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="507"> Dans quel trouble mortel leur présence me jette !...</l>
+                        <l n="508"> Et pourquoi sans mon ordre abandonner Damiette ?</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="509"> Le bruit de vos malheurs est venu jusqu’à nous.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="510"> En souffrant avec moi les diminuerez-vous ?</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="511"> Nous les partagerons.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="512"> Ô dévouement sublime !</l>
+                        <l n="513"> Oui, je devais prévoir cet effort magnanime.</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="514"> Vous l’auriez fait pour nous !... Aviez-vous donc pensé</l>
+                        <l n="515"> Que, vous abandonnant quand le ciel courroucé</l>
+                        <l n="516"> À vos fiers ennemis vous livre sans défense,</l>
+                        <l n="517"> Nous fuirions vos malheurs et reverrions la France ?</l>
+                        <l n="518"> Non !... libre loin de vous, j’espérais en secret !...</l>
+                        <l n="519"> On dit que le soudan a dicté votre arrêt,</l>
+                        <l n="520"> Que vous mourrez captif aux rives africaines ?...</l>
+                        <l n="521"> Je viens avec mon fils lui demander des chaînes.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="522"> Ainsi de nos vainqueurs vous savez les desseins ?</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="523"> Près du lâche Almodan vos efforts seront vains.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="524"> Qui vous l’a dit, mon fils ?</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="525"> Et quel espoir vous reste ?</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="526"> Je ne sais point douter de la bonté céleste.</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="527"> Qui peut, s’il veut vous perdre, enchainer son courroux ?</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="528"> Que peuvent ses fureurs si Dieu combat pour nous ?</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="529"> Les erreurs des chrétiens ont lassé sa clémence.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="530"> Le coupable, à genoux, désarme sa vengeance.</l>
+                        <l n="531"> Ce Dieu, qui nous frappa sans nous abandonner,</l>
+                        <l n="532"> Se lasse de punir, et non de pardonner.</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="533"> Touché de vos malheurs, et vaincu par nos larmes,</l>
+                        <l n="534"> Puisse-t-il, dissipant de trop justes alarmes,</l>
+                        <l n="535"> Des périls que je crains bientôt vous affranchir !</l>
+                        <l n="536"> Mais un remords tardif le pourra-t-il fléchir ?</l>
+                        <l n="537"> Brisera-t-il vos fers ? Et ce peuple fidèle</l>
+                        <l n="538"> Qui gémit loin de vous, dont l’amour vous rappelle ;</l>
+                        <l n="539"> Et ces infortunés, dont vos généreux soins</l>
+                        <l n="540"> Adoucissaient les maux, prévenaient les besoins,</l>
+                        <l n="541"> Reverront-ils pour eux luire ces jours prospères</l>
+                        <l n="542"> Où, trouvant dans leur roi le plus tendre des pères,</l>
+                        <l n="543"> Contre leurs oppresseurs ils venaient l’implorer ?</l>
+                        <l n="544"> Vous verront-ils encor, prompt à les rassurer,</l>
+                        <l n="545"> Oubliant auprès d’eux la grandeur souveraine,</l>
+                        <l n="546"> Leur rendre la justice, assis au pied d’un chêne ?</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="547"> Espérons tout du ciel. Nous leur serons rendus ;</l>
+                        <l n="548"> Ils l’implorent pour nous, ils seront entendus.</l>
+                        <l n="549"> Écartez loin de vous tout funeste présage.</l>
+                        <l n="550"> L’aspect de vos douleurs ébranle mon courage.</l>
+                        <l n="551"> Qu’avez-vous fait ? Pourquoi dans ces climats lointains,</l>
+                        <l n="552"> Malgré moi, chère épouse, unie à nos destins,</l>
+                        <l n="553"> Vîntes-vous des chrétiens partager la souffrance ?</l>
+                        <l n="554"> Pourquoi vous arracher à l’amour de la France ?</l>
+                        <l n="555"> Hélas ! à vos désirs je devais résister.</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="556"> Vous l’eussiez fait en vain ; pouvais-je vous quitter ?</l>
+                        <l n="557"> Tremblante pour vos jours, aux pleurs abandonnée,</l>
+                        <l n="558"> À quels maux aujourd’hui serais-je condamnée ?</l>
+                        <l n="559"> Eh ! que pourrais-je encor regretter près de vous ?</l>
+                        <l n="560"> Ma patrie est aux lieux où je vois mon époux.</l>
+                        <l n="561"> Je ne regrette rien. Oui, mon cœur vous l’atteste,</l>
+                        <l n="562"> Avec vous, dans les fers, mon sort est moins funeste</l>
+                        <l n="563"> Qu’au sein de cette cour, où, toute à mes ennuis,</l>
+                        <l n="564"> Je chercherais en vain mon époux et mon fils.</l>
+                        <l n="565"> Même en nous punissant, l’Éternel nous rassemble,</l>
+                        <l n="566"> Et nos cœurs souffrent moins, puisqu’ils souffrent ensemble.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="567"> Oui, reine, votre amour rend mes fers plus légers,</l>
+                        <l n="568"> Je le sens.</l>
+            <stage><em>À Philippe.</em></stage>
+                        <l n="569"> Vous, mon fils, quels que soient nos dangers ;</l>
+                        <l n="570"> Quelques nouveaux malheurs qui doivent nous atteindre,</l>
+                        <l n="571"> Vous ne m’entendrez point murmurer, ni vous plaindre.</l>
+                        <l n="572"> Lorsque sous les drapeaux de notre sainte foi</l>
+                        <l n="573"> Vous vîntes, le premier, vous ranger près de moi,</l>
+                        <l n="574"> J’accueillis, j’approuvai votre jeune courage,</l>
+                        <l n="575"> De vos destins futurs je vis l’heureux présage.</l>
+                        <l n="576"> Quelque jour, sur ce trône où vous serez assis,</l>
+                        <l n="577"> Tous les Français en vous admireront, mon fils,</l>
+                        <l n="578"> Un roi, qui, s’écartant de la route commune,</l>
+                        <l n="579"> Nourri dans les hasards, instruit par l’infortune,</l>
+                        <l n="580"> Sut combattre et souffrir dès ses plus jeunes ans,</l>
+                        <l n="581"> Et n’a point imité ces princes indolents</l>
+                        <l n="582"> Qui, perdus pour la gloire, au sein de la mollesse,</l>
+                        <l n="583"> Traînent dans les plaisirs leur oisive jeunesse,</l>
+                        <l n="584"> Et, jaloux d’un fardeau qu’ils ne pourront porter,</l>
+                        <l n="585"> Languissent près du trône, avant que d’y monter.</l>
+                        <l n="586"> Mais de nos compagnons la douleur me réclame.</l>
+                        <l n="587"> Chère épouse, à l’espoir ouvrez encor votre âme,</l>
+                        <l n="588"> Ensemble quelque jour nous quitterons ce lieu :</l>
+                        <l n="589"> Attendons en silence, et laissons faire à Dieu.</l>
+            <stage><em>Il sort.</em></stage></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="590"> Rassurez-vous, ma mère.</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="591"> Ah ! quoi qu’il puisse dire,</l>
+                        <l n="592"> Sur le front de Louis mes regards ont su lire :</l>
+                        <l n="593"> Il nous veut inspirer un espoir qu’il n’a plus.</l>
+                        <l n="594"> Son arrêt est dicté, nos vœux sont superflus.</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="595"> On dit que Nouradin l’estime et le révère,</l>
+                        <l n="596"> Qu’il est prêt, s’il le faut, à s’armer pour mon père ;</l>
+                        <l n="597"> Que, fidèle à l’honneur, ce prince généreux</l>
+                        <l n="598"> Ne voit plus qu’un ami dans un roi malheureux.</l>
+                        <l n="599"> Il pourra nous défendre, Almodan le redoute !...</l>
+                        <l n="600"> Un musulman paraît, c’est lui-même sans doute,</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="601"> Grande reine, et vous, prince, en croirai-je mes yeux ?</l>
+                        <l n="602"> Il est donc vrai, c’est vous que je vois en ces lieux ?</l>
+                        <l n="603"> De votre dévouement la nouvelle semée</l>
+                        <l n="604"> Frappe d’un saint respect et la ville et l’armée :</l>
+                        <l n="605"> Ah ! lorsque vous cherchez de nouvelles douleurs,</l>
+                        <l n="606"> Souffrez que Nouradin vienne tarir vos pleurs !</l>
+                        <l n="607"> Au plus saint des devoirs, fidèles l’un et l’autre,</l>
+                        <l n="608"> J’ai sauvé ma patrie et vous pleurez la vôtre.</l>
+                        <l n="609"> Mais cette même main, qui vainquit votre époux,</l>
+                        <l n="610"> Peut écarter les maux prêts à fondre sur vous.</l>
+                        <l n="611"> Content de ma victoire, et plaignant vos alarmes,</l>
+                        <l n="612"> J’ai déposé ma haine, en déposant mes armes.</l>
+                        <l n="613"> Vous saurez mes desseins, vous connaîtrez mon cœur.</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="614"> Je sais que les chrétiens estiment leur vainqueur.</l>
+                        <l n="615"> Ennemi généreux, dans leur douleur profonde,</l>
+                        <l n="616"> C’est, dit-on, sur vous seul que leur espoir se fonde ;</l>
+                        <l n="617"> Vous êtes leur appui. Mais à les protéger</l>
+                        <l n="618"> Quelle raison secrète à pu vous engager ?</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="619"> Leur vertu, leur courage, et l’horreur du parjure.</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="620"> Ainsi, lorsque Almodan, nous prodiguant l’injure,</l>
+                        <l n="621"> Veut perdre les chrétiens, et manquer à sa foi,</l>
+                        <l n="622"> Vous arrêtez ses coups ?</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="623"> L’honneur m’en fait la loi.</l>
+                        <l n="624"> De pareils sentiments n’ont point dû vous surprendre ;</l>
+                        <l n="625"> J’en fais gloire, madame. Eh ! qui peut s’en défendre,</l>
+                        <l n="626"> À l’aspect de ce roi, plus grand que ses revers,</l>
+                        <l n="627"> Qui semble aux musulmans commander dans les fers ?</l>
+                        <l n="628"> Le soldat le respecte, et le peuple l’admire.</l>
+                        <l n="629"> Si quelque jour encor, menaçant cet empire,</l>
+                        <l n="630"> Louis dans l’Orient ramenait ses soldats,</l>
+                        <l n="631"> Il me retrouverait au milieu des combats ;</l>
+                        <l n="632"> Mais il est opprimé, j’embrasse sa défense.</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="633"> Ô mon père, un chrétien et t’accuse et t’offense ;</l>
+                        <l n="634"> Et c’est un musulman qui t’offre son appui !</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="635"> Ce qu’il ferait pour moi, je le ferai pour lui.</l>
+                        <l n="636"> Les vertus à ce cœur ne sont point étrangères ;</l>
+                        <l n="637"> Ennemis au combat, ici nous sommes frères.</l>
+                        <l n="638"> J’unis deux titres saints, puis-je les oublier ?</l>
+                        <l n="639"> Non !je suis musulman, mais je suis chevalier.</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="640"> Vous !</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="641"> Oui, prince. Un Français fameux par son courage,</l>
+                        <l n="642"> Lusignan, dans ma cour fut long-temps en otage ;</l>
+                        <l n="643"> De vos lois, de vos mœurs il m’instruisit alors ;</l>
+                        <l n="644"> J’appris à vous connaître. Il vit à mes transports</l>
+                        <l n="645"> Combien de ses leçons mon âme était frappée ;</l>
+                        <l n="646"> Il reçut mes serments, et me ceignit l’épée.</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="647"> Mais aux coups d’Almodan pourrez-vous arracher</l>
+                        <l n="648"> Ces chrétiens dont les maux paraissent vous toucher ?</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="649"> Oui ; d’un sort plus heureux embrassez l’espérance :</l>
+                        <l n="650"> Si le soudan, craignant de vous rendre à la France,</l>
+                        <l n="651"> Au mépris d’un serment vous retint dans les fers,</l>
+                        <l n="652"> Il ne balance plus, ses yeux se sont ouverts :</l>
+                        <l n="653"> Et peut-être au moment où ma voix vous console,</l>
+                        <l n="654"> Almodan à Louis a rendu sa parole.</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="655"> Que cet espoir est doux à mon cœur éperdu !</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="656"> Vos malheurs vont finir.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="657"> Reine, tout est perdu !</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="658"> Qu’entends-je ?</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="659"> Expliquez-vous.</l>
+                </sp>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="660"> N’écoutant que sa rage,</l>
+                        <l n="661"> Le soudan aux chrétiens fait un dernier outrage.</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="662"> Ô ciel !</l>
+                </sp>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="663"> Montmorency, Sargines, Godefroy,</l>
+                        <l n="664"> Et mille chevaliers, captifs comme le roi,</l>
+                        <l n="665"> Qui tous jusqu’à ce jour n’ont eu d’autres entraves</l>
+                        <l n="666"> Que les serments sacrés dont nous sommes esclaves,</l>
+                        <l n="667"> Chargés d’indignes fers, dans le fond des cachots</l>
+                        <l n="668"> Attendent qu’Almodan les livre à ses bourreaux.</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="669"> Il se pourrait !</l>
+                </sp>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="670"> Dans peu nous les suivrons, sans doute :</l>
+                        <l n="671"> On respecte Louis, Almodan le redoute ;</l>
+                        <l n="672"> Il pense qu’abusant de notre liberté,</l>
+                        <l n="673"> Du soldat qui murmure et du peuple irrité</l>
+                        <l n="674"> La fureur, en secret, est par nous enhardie ;</l>
+                        <l n="675"> Et, perfide lui-même, il craint la perfidie.</l>
+                        <l n="676"> Bientôt de ce palais on va nous arracher.</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="677"> Non, non : il va me voir, et je cours le chercher.</l>
+                        <l n="678"> Je l’ai cru magnanime ; il me trompait moi-même.</l>
+                        <l n="679"> Non content d’abuser de son pouvoir suprême,</l>
+                        <l n="680"> De retenir captifs des guerriers généreux,</l>
+                        <l n="681"> Quand déjà tous nos ports devraient s’ouvrir pour eux,</l>
+                        <l n="682"> Il les charge de fers, et sa haine parjure</l>
+                        <l n="683"> À deux ans de malheurs joint encor cette injure !</l>
+                        <l n="684"> Plus de ménagements ; je dois vous secourir.</l>
+                        <l n="685"> Almodan m’entendra. C’est trop longtemps souffrir</l>
+                        <l n="686"> Qu’à ses lâches fureurs les chrétiens soient en butte :</l>
+                        <l n="687"> Un traité fut souscrit, il faut qu’il s’exécute.</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="688"> Vous êtes notre appui, vous êtes notre espoir.</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="689"> Soldat et chevalier, je connais mon devoir ;</l>
+                        <l n="690"> L’attente des chrétiens ne sera point trompée.</l>
+                        <l n="691"> J’ai, devant Lusignan, juré sur cette épée</l>
+                        <l n="692"> Que du faible opprimé mon bras serait l’appui,</l>
+                        <l n="693"> Qu’aux dépens de mes jours je m’armerais pour lui.</l>
+                        <l n="694"> Ne craignez rien. Sur moi que Louis se repose :</l>
+                        <l n="695"> Je suis fier de mon titre et des lois qu’il m’impose.</l>
+                        <l n="696"> Vos destins vont changer. Je cours en ce moment</l>
+                        <l n="697"> Justifier ce titre, et remplir mon serment.</l></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#raymond">
+            <speaker> RAYMOND, seul </speaker>
+                        <l n="698"> Qu’ai je vu ? pour Louis quels destins se préparent ?</l>
+                        <l n="699"> Déjà de ses guerriers les cachots le séparent.</l>
+                        <l n="700"> Nouradin les protège... Efforts infructueux !</l>
+                        <l n="701"> Ils mourront tous captifs... Ils mourront vertueux !</l>
+                        <l n="702"> Leur mémoire du moins ne sera pas flétrie,</l>
+                        <l n="703"> Ils n’auront point trahi leur Dieu, ni leur patrie :</l>
+                        <l n="704"> Et le monde, honorant leur vie et leur trépas,</l>
+                        <l n="705"> En prononçant leurs noms ne les maudira pas.</l>
+                        <l n="706"> Pour moi, plus de bonheur, plus de paix, d’espérance.</l>
+                        <l n="707"> Malheureux ! je rougis au seul nom de la France !</l>
+                        <l n="708"> Oui, je n’ai plus d’amis, plus de concitoyens ;</l>
+                        <l n="709"> Haï des musulmans, en horreur aux chrétiens,</l>
+                        <l n="710"> Sous le faix de mes maux lentement je succombe ;</l>
+                        <l n="711"> La malédiction pèsera sur ma tombe !</l>
+                        <l n="712"> Ah ! si mon cœur cédait au cri du repentir ?...</l>
+                        <l n="713"> Des fureurs du soudan je puis les garantir :</l>
+                        <l n="714"> Je connais ses soupçons, mais je ne pourrai croire</l>
+                        <l n="715"> Que Nouradin séduit, renonçant à sa gloire,</l>
+                        <l n="716"> Quitte jamais son dieu pour le Dieu des chrétiens.</l>
+                        <l n="717"> Ses serments... Malheureux ! as-tu gardé les tiens ?</l>
+                        <l n="718"> Interrogeons son cœur, et j’apprendrai peut-être</l>
+                        <l n="719"> Quels desseins...</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="720"> En ce lieu j’ai cru trouver ton maître ;</l>
+                        <l n="721"> C’est ici qu’il veut bien m’écouter un instant :</l>
+                        <l n="722"> Annonce-lui, vizir, que Nouradin l’attend.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="723"> Prince, puisque mon maître a promis de t’entendre,</l>
+                        <l n="724"> Auprès de toi, sans doute, il va bientôt se rendre.</l>
+                        <l n="725"> Mais puis je t’expliquer mes sentiments secrets ?</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="726"> Parle.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="727"> Cette fureur qui se lit dans tes traits,</l>
+                        <l n="728"> Le courroux du soudan, la crainte qui l’assiège,</l>
+                        <l n="729"> L’espoir de ces chrétiens que ta valeur protège,</l>
+                        <l n="730"> Tout semble d’Almodan confirmer les soupçons :</l>
+                        <l n="731"> Ami des chevaliers, séduit par leurs leçons,</l>
+                        <l n="732"> Chaque jour, à ses yeux, tu les nommes tes frères :</l>
+                        <l n="733"> Il craint que, renonçant au culte de tes pères...</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="734"> Non, il ne le craint pas. Mes services passés,</l>
+                        <l n="735"> Mes discours au soudan m’ont fait connaître assez.</l>
+                        <l n="736"> Je hais la trahison, je méprise un transfuge.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="737"> Des chevaliers chrétiens n’es-tu pas le refuge ?</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="738"> J’imite leurs vertus, sans adopter leur foi.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="739"> Quel sera son garant ?</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="740"> L’horreur que j’ai pour toi.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="741"> Nouradin !...</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="742"> Il suffit : je rougis de t’entendre.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#almodan">
+            <speaker> ALMODAN, à Nouradin. </speaker>
+                        <l n="743"> Qu’exiges-tu de moi ? parle.</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="744"> Tu vas l’apprendre.</l>
+                        <l n="745"> On dit que, tout entier à tes ressentiments,</l>
+                        <l n="746"> Oubliant à la fois l’honneur et tes serments,</l>
+                        <l n="747"> Des chevaliers chrétiens vaincus par mon courage</l>
+                        <l n="748"> Tu prétends à jamais prolonger l’esclavage :</l>
+                        <l n="749"> On dit qu’en cet instant, chargés de fers honteux,</l>
+                        <l n="750"> Ils ont vu les cachots se refermer sur eux ;</l>
+                        <l n="751"> Que ta haine en secret les réserve au supplice :</l>
+                        <l n="752"> Croirai-je qu’à ce point Almodan s’avilisse ?</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="753"> Je connais leurs complots : j’ai dû les prévenir.</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="754"> Tu connais ton serment, et tu dois le tenir.</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="755"> Si je brise leurs fers, ces chrétiens que j’abhorre</l>
+                        <l n="756"> Reviendront aux combats.</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="757"> Nous les vaincrons encore.</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="758"> Songe que le destin peut trahir ta valeur.</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="759"> On doit craindre la honte, et non pas le malheur.</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="760"> Je perds en les sauvant le fruit de ma victoire.</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="761"> Tu perds en hésitant mon estime et ta gloire.</l>
+                        <l n="762"> Quoi ! soudan, de l’honneur méconnaissant la voix,</l>
+                        <l n="763"> Tu pourrais sous tes pieds fouler toutes les lois !</l>
+                        <l n="764"> Au mépris d’un traité, des guerriers magnanimes</l>
+                        <l n="765"> D’un aveugle courroux deviendraient les victimes !</l>
+                        <l n="766"> Et quel est leur forfait ? qui t’anime contre eux ?</l>
+                        <l n="767"> Captifs toujours soumis, et vainqueurs généreux,</l>
+                        <l n="768"> Depuis que la fortune a trompé leur courage,</l>
+                        <l n="769"> Les a-t-on vus, dis-moi, pour sortir d’esclavage,</l>
+                        <l n="770"> Un instant contre nous armer la trahison ?</l>
+                        <l n="771"> De chaque chevalier tu fixas la rançon ;</l>
+                        <l n="772"> La rançon t’est livrée, il faut rompre leur chaîne :</l>
+                        <l n="773"> Obéis à l’honneur.</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="774"> J’obéis à ma haine.</l>
+                        <l n="775"> D’un semblable discours je reste confondu.</l>
+                        <l n="776"> Quoi ! des chrétiens...</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="777"> Soudan, je n’ai point prétendu</l>
+                        <l n="778"> Cacher les sentiments que leur vertu m’inspire ;</l>
+                        <l n="779"> Armés, je les combats ; captifs, je les admire.</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="780"> Est-ce à toi, leur vainqueur, à les défendre ainsi ?</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="781"> C’est l’honneur musulman que je défends ici.</l>
+                        <l n="782"> Au bruit de tes dangers je quittai la Syrie,</l>
+                        <l n="783"> Je t’offris mes secours : parents, sujets, patrie,</l>
+                        <l n="784"> Rien alors, tu le sais, ne put me retenir,</l>
+                        <l n="785"> Et de Massoure encor tu dois te souvenir.</l>
+                        <l n="786"> J’ai vaincu les chrétiens, j’ai vengé ton injure ;</l>
+                        <l n="787"> Je sauvais un ami, j’abandonne un parjure.</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="788"> Eh bien ! tu peux partir : je ne te retiens plus.</l>
+                        <l n="789"> Tes discours, tes efforts, tes soins sont superflus ;</l>
+                        <l n="790"> C’est en vain qu’on prétend désarmer ma vengeance,</l>
+                        <l n="791"> Louis et ses guerriers sont perdus pour la France.</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="792"> Voilà donc ton projet ? apprends quel est le mien.</l>
+                        <l n="793"> Pour dessiller tes yeux je ne ménageai rien ;</l>
+                        <l n="794"> Tu m’oses résister : que ton sort s’accomplisse.</l>
+                        <l n="795"> Te servir désormais, c’est être ton complice ;</l>
+                        <l n="796"> N’y compte pas. Soudan, tu connais le traité :</l>
+                        <l n="797"> Il faut qu’avant une heure il soit exécuté,</l>
+                        <l n="798"> Ou dans toi ton ami ne verra plus qu’un traitre.</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="799"> Qui t’a donné le droit de me parler en maître ?</l>
+                        <l n="800"> Crois-tu que je consente à recevoir ta loi ?</l>
+                        <l n="801"> Seul je suis maître ici.</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="802"> Que serais-tu sans moi ?</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="803"> Ton bras, il m’en souvient, s’arma pour ma défense ;</l>
+                        <l n="804"> J’honore ta valeur, mais ton orgueil m’offense.</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="805"> Tu trahis tes devoirs.</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="806"> Respectes-tu les tiens,</l>
+                        <l n="807"> Indigne musulman, protecteur des chrétiens ?</l>
+                        <l n="808"> Ah ! loin de leur prêter ton appui tutélaire,</l>
+                        <l n="809"> Ne dois-tu pas contre eux partager ma colère ?</l>
+                        <l n="810"> L’Europe à ta patrie ose encore insulter,</l>
+                        <l n="811"> Et par un grand exemple il faut l’épouvanter.</l>
+                        <l n="812"> Ce zèle pour un roi que poursuit ma vengeance</l>
+                        <l n="813"> À d’étranges soupçons pourrait donner naissance ;</l>
+                        <l n="814"> Des leçons des chrétiens je reconnais les fruits.</l>
+                        <l n="815"> Eh bien ! montre la route à mes guerriers séduits ;</l>
+                        <l n="816"> Il en est, je le sais, qui suivront tes exemples.</l>
+                        <l n="817"> De notre saint prophète abandonnez les temples,</l>
+                        <l n="818"> Allez, de Mahomet infidèles enfants,</l>
+                        <l n="819"> Sur les autels du Christ faire fumer l’encens ;</l>
+                        <l n="820"> Mais, en quittant le dieu qu’adoraient vos ancêtres,</l>
+                        <l n="821"> Craignez les châtiments que je réserve aux traitres.</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="822"> Je t’apprendrai bientôt qui de nous doit trembler</l>
+                        <l n="823"> Au chemin de l’honneur j’ai cru te rappeler,</l>
+                        <l n="824"> Par d’outrageants soupçons penses-tu me confondre ?</l>
+                        <l n="825"> Ce serait m’avilir que daigner y répondre.</l>
+                        <l n="826"> Je n’ajoute qu’un mot. Tes serments sont sacrés :</l>
+                        <l n="827"> Il faut que les chrétiens par toi soient délivrés ;</l>
+                        <l n="828"> C’est pour veiller sur eux qu’en ce lieu je demeure.</l>
+                        <l n="829"> Almodan, souviens-toi que je te donne une heure.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="830"> Il m’ose menacer ! il verra si mon cœur</l>
+                        <l n="831"> Renonce à la vengeance et connaît la terreur.</l>
+                        <l n="832"> Pour ce roi qu’il protège et que mon peuple honore</l>
+                        <l n="833"> Un reste de respect me retenait encore ;</l>
+                        <l n="834"> En plongeant dans les fers ces perfides chrétiens,</l>
+                        <l n="835"> Satisfait d’arrêter leurs projets et les siens,</l>
+                        <l n="836"> J’hésitais ; et ma haine eût consenti peut-être</l>
+                        <l n="837"> À laisser librement languir ici leur maître.</l>
+                        <l n="838"> Nouradin de ce lieu le pourrait arracher :</l>
+                        <l n="839"> Dans le fond des cachots qu’il vienne le chercher ;</l>
+                        <l n="840"> Des fers me répondront de ce roi que j’abhorre.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="841"> Un serment de Louis t’en répond mieux encore.</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="842"> Il pourrait le trahir. De son fier protecteur</l>
+                        <l n="843"> Je veux par-là du moins abaisser la hauteur.</l>
+                        <l n="844"> Il se plaît à braver ma puissance absolue ;</l>
+                        <l n="845"> Il défend les chrétiens... leur perte est résolue.</l>
+                        <l n="846"> Vizir, veille sur eux.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#raymond">
+            <speaker> RAYMOND, seul </speaker>
+                        <l n="847"> Il va donc les frapper !</l>
+                        <l n="848"> Aux fureurs du soudan nul ne peut échapper.</l>
+                        <l n="849"> Mais si, de Nouradin secondant la vaillance,</l>
+                        <l n="850"> Je pouvais... Ô mon cœur, reçois cette espérance.</l>
+                        <l n="851"> Vous allez tous périr sur des bords étrangers ;</l>
+                        <l n="852"> On arme vos bourreaux... J’adopte vos dangers ;</l>
+                        <l n="853"> Je veillerai sur vous : dissipez vos alarmes.</l>
+                        <l n="854"> Ne me repoussez pas, ô mes compagnons d’armes ;</l>
+                        <l n="855"> Pardonnez à Raymond : dans son cœur abattu</l>
+                        <l n="856"> L’excès de ses remords rappelle la vertu.</l>
+                        <l n="857"> Oui, je vais de mon roi reconquérir l’estime ;</l>
+                        <l n="858"> En embrassant son fils il oubliera mon crime.</l>
+                        <l n="859"> Apaise ton courroux, ô Dieu qui me poursuis :</l>
+                        <l n="860"> Je puis sortir encor de l’opprobre où je suis.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="861"> Eh bien ! es-tu content, vizir, de ton ouvrage ?</l>
+                        <l n="862"> À nos guerriers captifs on prodigue l’outrage ;</l>
+                        <l n="863"> Bientôt du poids des fers on va charger leur roi :</l>
+                        <l n="864"> Almodan peut-il mieux s’acquitter envers toi ?</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="865"> Ah ! ne m’imputez point la fureur qui l’anime.</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="866"> Il t’a dû consulter, puisqu’il s’agit d’un crime.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="867"> Pensez-vous qu’un chrétien m’outrage impunément !</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="868"> Vois nos mépris : ils sont ton premier châtiment.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="869"> Maîtrisez, croyez-moi, le transport qui vous guide.</l>
+                        <l n="870"> Vous voyez un vizir...</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="871"> Je ne vois qu’un perfide.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="872"> Songez que pour vous perdre il n’a qu’à le vouloir,</l>
+                        <l n="873"> Et par prudence au moins ménagez son pouvoir.</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="874"> Ce pouvoir, prix honteux des parjures d’un traître,</l>
+                        <l n="875"> N’est qu’un titre de plus à l’horreur qu’il fait naître.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="876"> Ah ! c’en est trop enfin. Eh ! malheureux, sais-tu</l>
+                        <l n="877"> Si mon cœur, en secret de remords combattu,</l>
+                        <l n="878"> Ne maudit pas son crime ? Et quand ta voix m’offense,</l>
+                        <l n="879"> Sais-tu si, des chrétiens embrassant la défense,</l>
+                        <l n="880"> Je n’allais pas enfin expier mon erreur ?</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="881"> Porte ailleurs tes secours, ils nous feraient horreur.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="882"> Je me flatterais donc d’une espérance vaine !</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="883"> N’attends plus des chrétiens qu’une éternelle haine.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="884"> Le chemin de l’honneur m’est fermé sans retour !</l>
+                        <l n="885"> Chrétiens et musulmans m’accablent tour à tours</l>
+                        <l n="886"> Quels mépris, quels affronts il faut que je dévore !</l>
+                        <l n="887"> Mon cœur, mon lâche cœur les souffrirait encore !</l>
+                        <l n="888"> Eh bien ! de mon courroux redoutez les effets !</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="889"> Nous attendons la mort.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND, en sortant. </speaker>
+                        <l n="890"> Vous serez satisfaits.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="891"> Qu’ai-je entendu, mon fils ? Quel aveugle délire !</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="892"> Je n’ai pu résister à l’horreur qu’il m’inspire.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="893"> Deviez-vous de Raymond ranimer la fureur ?</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="894"> Sa vertu l’égara : pardonnez cette erreur.</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="895"> Tout mon cœur se soulève à l’aspect de ce traitre.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="896"> Son âme au repentir allait céder peut-être.</l>
+                        <l n="897"> Dieu, pour finir nos maux, se servait aujourd’hui</l>
+                        <l n="898"> D’un enfant égaré qui revenait à lui ;</l>
+                        <l n="899"> La vertu le touchait ; vous l’enchaînez au crime.</l>
+                        <l n="900"> Le malheureux, par vous repoussé dans l’abime,</l>
+                        <l n="901"> Poursuivra les chrétiens qu’il aurait défendus :</l>
+                        <l n="902"> Ils mourront, et c’est vous qui les aurez perdus.</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="903"> J’implore en rougissant le pardon de mon père.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="904"> Écoutez-moi, mon fils ; en vous la France espère ;</l>
+                        <l n="905"> Vous régnerez. Se vaincre est le devoir d’un roi :</l>
+                        <l n="906"> Et, maître d’un grand peuple, il doit l’être de soi.</l>
+                        <l n="907"> Mais que veut Châtillon ?</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="908"> Vers nous qui vous amène ?</l>
+                </sp>
+        <sp who="#châtillon">
+            <speaker> CHÂTILLON. </speaker>
+                        <l n="909"> Vos dangers.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="910"> Quelle main a brisé votre chaîne ?</l>
+                </sp>
+        <sp who="#châtillon">
+            <speaker> CHÂTILLON. </speaker>
+                        <l n="911"> Suivi de ses soldats, Nouradin furieux</l>
+                        <l n="912"> D’un mot a fait tomber les fers injurieux</l>
+                        <l n="913"> Dont nous avait chargés la haine d’un parjure.</l>
+                        <l n="914"> Touché de nos revers, sensible à notre injure,</l>
+                        <l n="915"> Le peuple le seconde, et, soulevé par lui,</l>
+                        <l n="916"> Contre votre oppresseur vous offre son appui.</l>
+                        <l n="917"> Nouradin ose armer des sujets infidèles !</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="918"> Je n’accepterai point l’appui de ces rebelles.</l>
+                </sp>
+        <sp who="#châtillon">
+            <speaker> CHÂTILLON. </speaker>
+                        <l n="919"> Ah ! du moins des chrétiens acceptez les secours.</l>
+                        <l n="920"> Almodan vous menace, il peut trancher vos jours.</l>
+                        <l n="921"> Vos guerriers, pour vous seul connaissant les alarmes,</l>
+                        <l n="922"> Libres de leur serment, ont ressaisi leurs armes.</l>
+                        <l n="923"> Auprès de Nouradin ils se sont tous rangés,</l>
+                        <l n="924"> Ils vont bientôt combattre, et nous serons vengés.</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="925"> Est-il vrai ?</l>
+                </sp>
+        <sp who="#châtillon">
+            <speaker> CHÂTILLON. </speaker>
+                        <l n="926"> Le soudan ne peut à leur courage</l>
+                        <l n="927"> Opposer désormais qu’une impuissante rage ;</l>
+                        <l n="928"> Et peut-être assiégé jusque dans son palais,</l>
+                        <l n="929"> Le perfide paiera les maux qu’il nous a faits.</l>
+                        <l n="930"> Mais craignant que sur vous sa fureur assouvie</l>
+                        <l n="931"> À vos vengeurs armés ne vous livrât sans vie,</l>
+                        <l n="932"> J’accours pour vous sauver. Un musulman séduit</l>
+                        <l n="933"> Par de secrets détours jusqu’à vous m’a conduit.</l>
+                        <l n="934"> Venez, ou sous mes yeux Almodan vous immole.</l>
+                        <l n="935"> Suivez-moi.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="936"> Le soudan a reçu ma parole.</l>
+                </sp>
+        <sp who="#châtillon">
+            <speaker> CHÂTILLON. </speaker>
+                        <l n="937"> Il trahit son serment.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="938"> Je respecte le mien.</l>
+                </sp>
+        <sp who="#châtillon">
+            <speaker> CHÂTILLON. </speaker>
+                        <l n="939"> Fuyez.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="940"> Je suis Français, chevalier, et chrétien.</l>
+                </sp>
+        <sp who="#châtillon">
+            <speaker> CHÂTILLON. </speaker>
+                        <l n="941"> La mort vous environne en ce palais funeste ;</l>
+                        <l n="942"> Si vous suivez mes pas nous triomphons.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="943"> Je reste.</l>
+                </sp>
+        <sp who="#châtillon">
+            <speaker> CHÂTILLON. </speaker>
+                        <l n="944"> Vous restez ?</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="945"> Je le dois.</l>
+                </sp>
+        <sp who="#châtillon">
+            <speaker> CHÂTILLON. </speaker>
+                        <l n="946"> J’admire, et je me tais.</l>
+            <stage><em>À la reine et au prince.</em></stage>
+                        <l n="947"> Mais vous, du moins, l’amour et l’espoir des Français ?</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE, se plaçant sur le sein de Louis. </speaker>
+                        <l n="948"> Ses serments sont les miens, le devoir nous rassemble.</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE, se jetant de l’autre côté dans les bras de Louis. </speaker>
+                        <l n="949"> Voilà ma place.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="950"> Eh bien ! nous souffrirons ensemble.</l>
+            <stage><em>À Châtillon.</em></stage>
+                        <l n="951"> Pour vous, qui, dans les fers indignement plongé,</l>
+                        <l n="952"> Êtes de vos serments pour jamais dégagé,</l>
+                        <l n="953"> Partez ; et que le ciel, comblant votre espérance,</l>
+                        <l n="954"> Vous ouvre les chemins, et vous rende à la France.</l>
+                </sp>
+        <sp who="#châtillon">
+            <speaker> CHÂTILLON. </speaker>
+                        <l n="955"> Non, seigneur, c’en est fait, je ne vous quitte pas.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="956"> Le devoir en ce lieu n’enchaîne point vos pas.</l>
+                </sp>
+        <sp who="#châtillon">
+            <speaker> CHÂTILLON. </speaker>
+                        <l n="957"> Dans l’aveugle courroux que nos maux ont fait naître,</l>
+                        <l n="958"> Tantôt je méconnus et j’offensai mon maître ;</l>
+                        <l n="959"> Je m’attache à son sort, et je veux aujourd’hui</l>
+                        <l n="960"> Expier mon erreur en mourant avec lui.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="961"> Châtillon, votre roi, votre ami vous en prie :</l>
+                        <l n="962"> Songez à votre fils, songez à la patrie,</l>
+                        <l n="963"> Vous leur devez vos jours ; éloignez-vous ; adieu.</l>
+                </sp>
+        <sp who="#châtillon">
+            <speaker> CHÂTILLON. </speaker>
+                        <l n="964"> Jamais.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="965"> Partez, vous dis-je... Il n’est plus temps, grand Dieu !</l></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="966"> Soldats, exécutez l’ordre de votre maître.</l>
+                        <l n="967"> Qu’on les charge de fers, qu’on désarme ce traitre.</l>
+                        <l n="968"> Vos jours en répondront.</l>
+                </sp>
+        <sp who="#châtillon">
+            <speaker> CHÂTILLON, tirant son glaive. </speaker>
+                        <l n="969"> N’avancez pas. Et toi,</l>
+                        <l n="970"> Si tu l’oses, approche, et viens frapper mon roi.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="971"> Gardes, obéissez.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS, à Châtillon. </speaker>
+                        <l n="972"> La résistance est vaine.</l>
+            <stage><em>Aux Musulmans.</em></stage>
+                        <l n="973"> Je suis prêt à vous suivre.</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="974"> Hélas !</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="975"> Qu’on les entraîne.</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="976"> Dieu puissant des chrétiens, nous abandonnez-vous ?</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="977"> Même au fond des cachots il veillera sur nous.</l></div></div>
+           <div type="act" xml:id="4">
+           <head> ACTE IV </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="978"> Soldats de Mahomet, soutiens de mon empire,</l>
+                        <l n="979"> Contre votre soudan lorsqu’un traître conspire,</l>
+                        <l n="980"> Fidèles à l’honneur, autour de moi rangés,</l>
+                        <l n="981"> Par de nouveaux serments vous êtes engagés.</l>
+                        <l n="982"> Séduit par les chrétiens, mon peuple m’abandonne ;</l>
+                        <l n="983"> Mais c’est à vous, soldats, que je dois ma couronne ;</l>
+                        <l n="984"> Et, soumettant bientôt des sujets entrainés,</l>
+                        <l n="985"> Vous défendrez les droits que vous m’avez donnés.</l>
+                        <l n="986"> Du dieu de Mahomet vous vengerez l’injure ;</l>
+                        <l n="987"> Vous ne souffrirez point qu’un musulman parjure,</l>
+                        <l n="988"> Complice des chrétiens, déserteur de nos lois,</l>
+                        <l n="989"> Sur nos autels détruits ose planter la croix.</l>
+                        <l n="990"> De la fidélité vous donnerez l’exemple.</l>
+                        <l n="991"> Soldats, du haut des cieux Mahomet vous contemple.</l>
+                        <l n="992"> Vous défendez son culte, il guidera vos coups,</l>
+                        <l n="993"> Et le bras du prophète est étendu sur vous.</l>
+                        <l n="994"> Jusque dans mon palais la révolte m’assiège.</l>
+                        <l n="995"> Nouradin, entouré des traîtres qu’il protège,</l>
+                        <l n="996"> Exige que Louis soit délivré par moi,</l>
+                        <l n="997"> Et qu’à ces vils chrétiens je rende enfin leur roi.</l>
+                        <l n="998"> Il attend ma réponse : eh bien ! s’il ne s’arrête,</l>
+                        <l n="999"> J’irai la lui porter en lui portant sa tête.</l>
+                        <l n="1000"> Allez, braves guerriers, qu’aucun péril n’abat,</l>
+                        <l n="1001"> Vous recevrez de moi le signal du combat.</l>
+                        <l n="1002"> Soyez prêts, et bientôt la révolte impuissante</l>
+                        <l n="1003"> Courbera devant nous sa tête obéissante.</l>
+            <stage><em>À Raymond.</em></stage>
+                        <l n="1004"> Toi, demeure.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="1005"> Soudan, qu’exiges-tu de moi ?</l>
+                        <l n="1006"> Me voilà prêt.</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="1007"> Vizir, je puis compter sur toi ?</l>
+                        <l n="1008"> Tu vois quel est mon sort ; ta crainte est confirmée,</l>
+                        <l n="1009"> Nouradin a séduit et le peuple et l’armée ;</l>
+                        <l n="1010"> Par ses lâches conseils mes sujets éblouis,</l>
+                        <l n="1011"> Prêts à quitter leur dieu pour le Dieu de Louis,</l>
+                        <l n="1012"> Vont au pied de la croix se prosterner, sans doute.</l>
+                        <l n="1013"> Il faut les arrêter.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="1014"> Que veux-tu faire ?</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="1015"> Écoute.</l>
+                        <l n="1016"> Par mon ordre bientôt amené devant toi,</l>
+                        <l n="1017"> De ta bouche Louis va recevoir ma loi :</l>
+                        <l n="1018"> Je veux, des révoltés assurant la défaite,</l>
+                        <l n="1019"> Détromper mes sujets, et les rendre au prophète.</l>
+                        <l n="1020"> Qu’en adorant le Dieu dans l’Égypte adoré,</l>
+                        <l n="1021"> Louis donne l’exemple à ce peuple égaré ;</l>
+                        <l n="1022"> Qu’il choisisse aujourd’hui notre culte, ou la tombe,</l>
+                        <l n="1023"> Qu’il foule aux pieds la croix, ou que sa tête tombe.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="1024"> J’approuve ton dessein.</l>
+                </sp>
+        <sp who="#almodan">
+            <speaker> ALMODAN. </speaker>
+                        <l n="1025"> L’arrêt est prononcé :</l>
+                        <l n="1026"> Qu’il vienne, et qu’à l’instant il lui soit annoncé.</l>
+                        <l n="1027"> Aux portes du palais, vizir, je vais l’attendre.</l>
+                        <l n="1028"> Dans ma retraite encor je saurai me défendre :</l>
+                        <l n="1029"> Pour arriver à moi, Nouradin doit marcher</l>
+                        <l n="1030"> Sur le corps palpitant du roi qu’il vient chercher.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#raymond">
+            <speaker> RAYMOND, seul </speaker>
+                        <l n="1031"> Le voilà donc porté l’arrêt irrévocable !</l>
+                        <l n="1032"> Fier Louis, du soudan la fureur implacable</l>
+                        <l n="1033"> Ne te laisse à choisir que le crime, ou la mort.</l>
+                        <l n="1034"> L’objet de tes mépris est maître de ton sort.</l>
+                        <l n="1035"> Je ne verserai plus de larmes inutiles :</l>
+                        <l n="1036"> Fuyez loin de mon cœur, fuyez, remords stériles.</l>
+                        <l n="1037"> Qu’il meure !... ou qu’à mon crime il soit associé ;</l>
+                        <l n="1038"> Et soyons sans terreur, ainsi que sans pitié.</l>
+                        <l n="1039"> C’en est fait.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1040"> À la mort il faut que je m’apprête.</l>
+                        <l n="1041"> Votre maître l’ordonne ; eh bien ! qui vous arrête ?</l>
+                        <l n="1042"> Obéissez.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="1043"> Sans doute, il vous doit le trépas.</l>
+                        <l n="1044"> À sa juste fureur vous n’échapperez pas ;</l>
+                        <l n="1045"> Mais il veut bien encor suspendre sa vengeance.</l>
+                        <l n="1046"> Du soudan qu’on trahit méritez l’indulgence !</l>
+                        <l n="1047"> Votre arrêt est dicté, vos périls sont certains :</l>
+                        <l n="1048"> C’est à vous désormais de régler vos destins.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1049"> Parlez ! quel est l’arrêt qu’a prononcé sa haine ?</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="1050"> Ses guerriers sont séduits, Nouradin les entraîne,</l>
+                        <l n="1051"> Le traître nous menace, et, le glaive à la main,</l>
+                        <l n="1052"> Espère jusqu’à vous se frayer un chemin ;</l>
+                        <l n="1053"> Il veut sauver vos jours : vous mourrez s’il avance ;</l>
+                        <l n="1054"> Aux portes du palais enchaînez sa vaillance ;</l>
+                        <l n="1055"> C’est à vous de choisir la vie ou le trépas,</l>
+                        <l n="1056"> Il faut que sous vos pieds la croix...</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1057"> N’achève pas !</l>
+                        <l n="1058"> À cet excès d’audace aurais-je dû m’attendre ?</l>
+                        <l n="1059"> Misérable, as-tu cru que je pourrais t’entendre ?</l>
+                        <l n="1060"> Moi ! racheter mes jours par un tel attentat !</l>
+                        <l n="1061"> Sais-tu quel est le sort d’un chrétien apostat ?</l>
+                        <l n="1062"> Sais-tu par quels tourments, sais-tu par quel supplice,</l>
+                        <l n="1063"> Du Dieu qu’il a trahi l’éternelle justice</l>
+                        <l n="1064"> Vengera son autel et son nom blasphémé ?</l>
+                        <l n="1065"> De chagrins, de remords le traitre consumé</l>
+                        <l n="1066"> Au bras qui le poursuit ne pourra se soustraire.</l>
+                        <l n="1067"> Jamais aucun chrétien ne lui dira : mon frère.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="1068"> Ciel !</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1069"> À la table sainte il ne peut plus s’asseoir.</l>
+                        <l n="1070"> Étranger en tous lieux, sans repos, sans espoir,</l>
+                        <l n="1071"> Il entend dans son cœur une voix qui lui crie :</l>
+                        <l n="1072"> Tu n’as plus de parents, tu n’as plus de patrie !</l>
+                        <l n="1073"> Que sert à l’apostat un pouvoir odieux ?</l>
+                        <l n="1074"> Le dernier citoyen lui fait baisser les yeux.</l>
+                        <l n="1075"> Méprisé du soudan qui lui paya ses crimes,</l>
+                        <l n="1076"> Lisant sa honte écrite au front de ses victimes,</l>
+                        <l n="1077"> Il gémit, mais trop tard, accablé de son sort,</l>
+                        <l n="1078"> Il déteste la vie, et redoute la mort.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="1079"> Quels accents ! quels regards ! la céleste vengeance</l>
+                        <l n="1080"> Par la voix de Louis m’annonce ma sentence.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1081"> Réponds-moi ; ce pouvoir, prix de son déshonneur,</l>
+                        <l n="1082"> Donne-t-il au coupable un instant de bonheur ?</l>
+                        <l n="1083"> Chasse-t-il le remords qui s’attache à sa suite ?</l>
+                        <l n="1084"> En vain il veut cacher le trouble qui l’agite ;</l>
+                        <l n="1085"> Du temps, avec terreur, il mesure le cours.</l>
+                        <l n="1086"> Il voudrait prolonger ses misérables jours,</l>
+                        <l n="1087"> Vain désir ! la mort vient ; à son heure dernière,</l>
+                        <l n="1088"> Il n’a pas un ami pour fermer sa paupière,</l>
+                        <l n="1089"> Il est seul ; devant lui son œil épouvanté</l>
+                        <l n="1090"> N’aperçoit que la tombe et que l’éternité.</l>
+                        <l n="1091"> Éternité ! l’espoir de la vertu paisible :</l>
+                        <l n="1092"> Pour le chrétien parjure éternité terrible !</l>
+                        <l n="1093"> C’en est fait. Des tourments le séjour va s’ouvrir.</l>
+                        <l n="1094"> Son heure sonne, il meurt, et renaît pour souffrir.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="1095"> Arrêtez, arrêtez. Quels tourments ! Je succombe.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1096"> L’horreur du monde entier le suivra dans la tombe.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="1097"> Épouvantable arrêt !</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1098"> Cet arrêt est le tien.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="1099"> Je me jette à vos pieds.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1100"> Tremble !</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="1101"> Je suis chrétien.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1102"> Qui ? toi !</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="1103"> Je suis chrétien ! Mon Dieu, juge implacable,</l>
+                        <l n="1104"> Vois mes pleurs, mes sanglots, le remords qui m’accable.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1105"> Eh quoi ! le remords...</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="1106"> Oui, je le sens, il est là.</l>
+                        <l n="1107"> Égaré par l’orgueil, ma raison se troubla ;</l>
+                        <l n="1108"> Je connais mon forfait, je le hais, je l’abjure.</l>
+                        <l n="1109"> Depuis le jour affreux qui m’a rendu parjure,</l>
+                        <l n="1110"> Depuis que j’ai du Christ déserté les drapeaux,</l>
+                        <l n="1111"> Mon cœur n’a pas joui d’un instant de repos.</l>
+                        <l n="1112"> Des chrétiens, je le sais, le destin est horrible,</l>
+                        <l n="1113"> La mort est sous vos pas ; mais votre âme est paisible.</l>
+                        <l n="1114"> Des champs de vos aïeux à jamais exilés,</l>
+                        <l n="1115"> Vous tournez vers le ciel vos regards consolés.</l>
+                        <l n="1116"> On ne pourra, du moins, vous ôter ce refuge :</l>
+                        <l n="1117"> Vous y trouvez un père ; et moi j’y vois un juge !</l>
+                        <l n="1118"> La nuit, le jour, partout, son bras vengeur me suit.</l>
+                        <l n="1119"> Hélas ! à quel destin mon forfait m’a réduit !</l>
+                        <l n="1120"> Au fond de vos cachots vous trouvez l’espérance,</l>
+                        <l n="1121"> Sur ces murs odieux je crois lire : Vengeance.</l>
+                        <l n="1122"> Au céleste courroux que pourrais-je opposer ?</l>
+                        <l n="1123"> Dieu m’a maudit, mes pleurs ne sauront l’apaiser ;</l>
+                        <l n="1124"> Il repousse mes vœux ; mon âme intimidée</l>
+                        <l n="1125"> D’un autre monde en vain voudrait chasser l’idée,</l>
+                        <l n="1126"> Elle accroit mes tourments, me poursuit en tout lieu !</l>
+                        <l n="1127"> Oui, malheur éternel à qui trahit son Dieu !</l>
+            <stage><em>Il tombe aux genoux de Louis.</em></stage>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1128"> Relevez-vous.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="1129"> Qu’entends-je ? Ô ciel, quelle espérance !</l>
+                        <l n="1130"> Venez-vous du Très-Haut m’annoncer la clémence ?</l>
+                        <l n="1131"> Vos regards sans courroux se sont tournés vers moi ;</l>
+                        <l n="1132"> Je suis chrétien encore, et vous êtes mon roi !</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1133"> Réponds : à tes remords, malheureux, puis-je croire ?</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="1134"> De mon crime avec moi périsse la mémoire !</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1135"> Tu peux le réparer.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="1136"> En est-il encor temps ?</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1137"> Mon fils, Dieu tend les bras aux mortels repentants.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="1138"> Eh bien ! prenez pitié de ma douleur extrême ;</l>
+                        <l n="1139"> Parlez ; que faut-il faire ?</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1140"> Il faut, à l’instant même,</l>
+                        <l n="1141"> Rompre le pacte affreux qui te lie aux forfaits ;</l>
+                        <l n="1142"> Il faut rendre au soudan ses perfides bienfaits,</l>
+                        <l n="1143"> Et dans un cloître saint, caché sous le cilice,</l>
+                        <l n="1144"> Désarmer par tes pleurs la céleste justice.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="1145"> Oui, c’est là mon destin ; vous serez obéi.</l>
+                        <l n="1146"> Je consacre mes jours au Dieu que j’ai trahi :</l>
+                        <l n="1147"> Puissé-je mériter qu’enfin il me pardonne !</l>
+                        <l n="1148"> Mais c’en est fait de vous, si je vous abandonne :</l>
+                        <l n="1149"> Aux fureurs du soudan comment vous arracher ?</l>
+                        <l n="1150"> Lui-même ici peut-être il viendra vous chercher.</l>
+                        <l n="1151"> Il va donc sans obstacle immoler sa victime !</l>
+                        <l n="1152"> Non. Pour vous délivrer tout devient légitime,</l>
+                        <l n="1153"> Je cours auprès de lui. Mon roi, rassurez-vous :</l>
+                        <l n="1154"> Il va briser vos fers, ou tomber sous mes coups.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1155"> Arrête, malheureux ! quel délire t’égare ?</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="1156"> Avez-vous oublié le sort qu’il vous prépare ?</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1157"> As-tu donc oublié qu’il compte sur ta foi ?</l>
+                        <l n="1158"> Qu’entouré d’ennemis il est sacré pour toi,</l>
+                        <l n="1159"> Qu’il t’a comblé de biens ?</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="1160"> Quoi ! c’est vous qu’il opprime,</l>
+                        <l n="1161"> Vous, qui sauvez ses jours !</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1162"> En t’épargnant un crime.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="1163"> Ainsi, sans défenseur, captif, près de périr,</l>
+                        <l n="1164"> Vous repoussez la main qui peut vous secourir !</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1165"> Non ; je puis te devoir une faveur bien chère.</l>
+                        <l n="1166"> Tu m’as vu séparer de mon fils, de sa mère :</l>
+                        <l n="1167"> Dis un mot, leurs prisons vont s’ouvrir à ta voix ;</l>
+                        <l n="1168"> Je les embrasse encor pour la dernière fois.</l>
+                </sp>
+        <sp who="#raymond">
+            <speaker> RAYMOND. </speaker>
+                        <l n="1169"> J’y cours : et s’il le faut, quand votre mort s’apprête,</l>
+                        <l n="1170"> Entre la hache et vous je placerai ma tête.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#louis-ix">
+            <speaker> LOUIS </speaker>
+                        <l n="1171"> Mon Dieu, je te rends grâce ! Un moment égaré,</l>
+                        <l n="1172"> Au chemin du devoir il est enfin rentré.</l>
+                        <l n="1173"> Son crime était bien grand : son repentir l’efface ;</l>
+                        <l n="1174"> Dans les rangs des chrétiens il reprendra sa place.</l>
+                        <l n="1175"> Mais, hélas ! l’heure approche. En ces moments affreux</l>
+                        <l n="1176"> Pourra-t-il exaucer le plus cher de mes vœux ?</l>
+                        <l n="1177"> Reverrai-je mon fils ? Juste ciel que j’implore,</l>
+                        <l n="1178"> Dans mes bras paternels le presserai-je encore ?</l>
+                        <l n="1179"> Et toi, fidèle épouse, en ce funeste lieu</l>
+                        <l n="1180"> Pourrai-je au moins te dire un éternel adieu,</l>
+                        <l n="1181"> Avant que d’Almodan l’impitoyable rage...</l>
+                        <l n="1182"> Ils viennent... Dieu puissant, affermis mon courage !</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="1183"> Mon père !</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="1184"> Mon époux !</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1185"> Nous voilà réunis !</l>
+                        <l n="1186"> Je les tiens dans mes bras ! Mon épouse, mon fils !</l>
+                        <l n="1187"> Mon fils !... ah ! que pour moi ce moment a de charmes !</l>
+                        <l n="1188"> Je n’osais l’espérer... Je vois couler vos larmes,</l>
+                        <l n="1189"> Reine, rassurez-vous.</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="1190"> Qui peut me rassurer ?</l>
+                        <l n="1191"> Sur nos destins ici tout sert à m’éclairer :</l>
+                        <l n="1192"> En vain de Nouradin les armes nous défendent ;</l>
+                        <l n="1193"> Déjà le glaive est prêt, les bourreaux vous attendent.</l>
+                        <l n="1194"> C’est le dernier instant !</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1195"> Ne l’empoisonnons pas.</l>
+                        <l n="1196"> Reine, si l’Éternel ordonne mon trépas,</l>
+                        <l n="1197"> Je dois subir l’arrêt dicté par sa colère :</l>
+                        <l n="1198"> Mais s’il veut me couvrir de son bras tutélaire,</l>
+                        <l n="1199"> Du perfide soudan les efforts seront vains,</l>
+                        <l n="1200"> Et le fer des bourreaux tombera de leurs mains.</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="1201"> Ne permets pas, grand Dieu, que le crime s’achève !</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="1202"> J’implore ton secours : je te demande un glaive.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1203"> Je reconnais mon fils : au-dessus du malheur,</l>
+                        <l n="1204"> Rien ne semble impossible à sa jeune valeur.</l>
+                        <l n="1205"> J’aime cette vertu qu’en lui mon peuple honore ;</l>
+                        <l n="1206"> Mais la France à son roi demande plus encore.</l>
+                        <l n="1207"> Tu peux l’être bientôt. Ô mon fils, mon cher fils,</l>
+                        <l n="1208"> Entends mes derniers vœux et mes derniers avis ;</l>
+                        <l n="1209"> Grave-les dans ton cœur. Si le ciel, qui me frappe,</l>
+                        <l n="1210"> Veut aux coups d’Almodan que ta jeunesse échappe,</l>
+                        <l n="1211"> S’il te rend aux Français que tu dois gouverner,</l>
+                        <l n="1212"> Songe aux nombreux écueils qui vont t’environner ;</l>
+                        <l n="1213"> Et, suivant le chemin que te trace ton père,</l>
+                        <l n="1214"> Joins au bien qu’il a fait le bien qu’il n’a pu faire.</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="1215"> Ah ! puisse l’Éternel me frapper avant vous !</l>
+                        <l n="1216"> Mais sur vous seul, hélas ! s’il fait tomber ses coups,</l>
+                        <l n="1217"> Si, détruisant l’espoir où mon cœur s’abandonne,</l>
+                        <l n="1218"> Il condamne mon front à porter la couronne,</l>
+                        <l n="1219"> J’aurai pour me guider vos vertus et vos lois :</l>
+                        <l n="1220"> L’exemple de mon père est la leçon des rois.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1221"> Lorsqu’un arrêt sanglant aura frappé ton père,</l>
+                        <l n="1222"> Ô mon fils, c’est à toi de consoler ta mère.</l>
+                        <l n="1223"> Tu vois où la conduit sa tendresse pour nous :</l>
+                        <l n="1224"> Tu connais tes devoirs, tu les rempliras tous.</l>
+                        <l n="1225"> De respect et d’amour environne sa vie :</l>
+                        <l n="1226"> Je vais m’en séparer, et je te la confie.</l>
+                        <l n="1227"> Révère ton aïeule : à ses conseils soumis,</l>
+                        <l n="1228"> Suis ses sages leçons, n’en rougis pas, mon fils.</l>
+                        <l n="1229"> Redoutée au dehors, de mon peuple bénie,</l>
+                        <l n="1230"> L’Europe avec respect contemple son génie ;</l>
+                        <l n="1231"> Et les Français en elle admirent, avec moi,</l>
+                        <l n="1232"> Les vertus de son sexe, et les talents d’un roi.</l>
+                        <l n="1233"> Loin de ta cour l’impie et ses conseils sinistres.</l>
+                        <l n="1234"> Affermis les autels, honore leurs ministres.</l>
+                        <l n="1235"> Fils aîné de l’Église, obéis à sa voix ;</l>
+                        <l n="1236"> Du Pontife Romain fais respecter les droits ;</l>
+                        <l n="1237"> Rends hommage au pouvoir qu’il reçut du ciel même :</l>
+                        <l n="1238"> Mais, soutenant, mon fils, l’honneur du diadème,</l>
+                        <l n="1239"> Si d’une guerre injuste il t’imposait la loi,</l>
+                        <l n="1240"> Résiste, et sois chrétien, sans cesser d’être roi.</l>
+                        <l n="1241"> Accueille ces vieillards dont l’austère sagesse</l>
+                        <l n="1242"> À travers les périls guidera ta jeunesse ;</l>
+                        <l n="1243"> De leur expérience emprunte les secours ;</l>
+                        <l n="1244"> Fais régner la justice. Abolis pour toujours</l>
+                        <l n="1245"> Ces combats où, des lois usurpant la puissance,</l>
+                        <l n="1246"> La force absout le crime, et tient lieu d’innocence.</l>
+                        <l n="1247"> À la voix des flatteurs que ton cœur soit fermé.</l>
+                        <l n="1248"> Consolateur du pauvre, appui de l’opprimé,</l>
+                        <l n="1249"> Permets que tes sujets t’approchent sans alarmes,</l>
+                        <l n="1250"> Qu’ils te montrent leur joie, ou t’apportent leurs larmes :</l>
+                        <l n="1251"> Compatis à leurs maux ; sois fier de leur amour ;</l>
+                        <l n="1252"> Règne enfin pour ton peuple, et non pas pour ta cour.</l>
+                        <l n="1253"> Je le connais ce peuple ; il mérite qu’on l’aime ;</l>
+                        <l n="1254"> En le rendant heureux tu le seras toi-même,</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="1255"> Vous déchirez mon cœur. Non, le ciel en courroux</l>
+                        <l n="1256"> Ne nous privera point d’un père et d’un époux ;</l>
+                        <l n="1257"> Vous vivrez...</l>
+                </sp>
+        <sp who="#louis.1">
+            <speaker> LOUIS.[1] </speaker>
+                        <l n="1258"> Vainement votre espoir se ranime.</l>
+                        <l n="1259"> Au parjure Almodan il faut une victime.</l>
+                        <l n="1260"> Il m’attend... Sa fureur m’ordonne des forfaits.</l>
+                        <l n="1261"> Il va me voir... Peut-être accusant mes délais...</l>
+                        <l n="1262"> Ah ! partons ; à ses coups je vais m’offrir.</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="1263"> Mon père !</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1264"> Adieu ! séparons-nous. Songez à votre mère.</l>
+                        <l n="1265"> Mon Dieu, veille sur eux, et je bénis mon sort.</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="1266"> Je ne vous quitte pas.</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="1267"> Je vous suis à la mort.</l></div></div>
+           <div type="act" xml:id="5">
+           <head> ACTE V </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE </speaker>
+                        <l n="1268"> On m’arrache à Louis !... a-t-il cessé de vivre ?</l>
+                        <l n="1269"> A-t-on frappé mon fils ? Et je n’ai pu les suivre !</l>
+                        <l n="1270"> Et je trouve partout de barbares soldats</l>
+                        <l n="1271"> Qui ferment les chemins, qui retiennent mes pas !</l>
+                        <l n="1272"> J’entends autour de moi le bruit affreux des armes ;</l>
+                        <l n="1273"> Et seule en ce palais arrosé de mes larmes,</l>
+                        <l n="1274"> Et j’espère et je crains... S’ils avaient échappé ?...</l>
+                        <l n="1275"> Si le soudan... Non, non ; le cruel a frappé.</l>
+                        <l n="1276"> Ils ont péri. Chassons une vaine chimère.</l>
+                        <l n="1277"> Quoi ! tout à l’heure encor j’étais épouse et mère.</l>
+                        <l n="1278"> Dieu ! que m’as-tu laissé ? les larmes, leur cercueil.</l>
+                        <l n="1279"> Mon fils n’est plus !... Ce fils il était mon orgueil.</l>
+                        <l n="1280"> Cher enfant, que de joie au jour de ta naissance !</l>
+                        <l n="1281"> Par quels chants d’allégresse et de reconnaissance</l>
+                        <l n="1282"> Le Français, ô mon Dieu, bénissant ta bonté,</l>
+                        <l n="1283"> Célébra mon bonheur et ma fécondité !</l>
+                        <l n="1284"> Plus de chants de bonheur. France, mon fils succombe ;</l>
+                        <l n="1285"> Et l’espoir d’un beau règne est perdu dans la tombe.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="1286"> Mais, Joinville, quel Dieu guide vos pas vers moi ?</l>
+                        <l n="1287"> Que venez-vous m’apprendre ? Ah ! parlez ; votre roi...</l>
+                        <l n="1288"> Du sort de mon époux daignez, daignez m’instruire.</l>
+                        <l n="1289"> Expliquez-vous, de grâce, ou devant vous j’expire.</l>
+                </sp>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="1290"> Eh bien, il faut parler ; grand Dieu ! qu’exigez-vous ?</l>
+                        <l n="1291"> Vous n’avez plus de fils, vous n’avez plus d’époux.</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="1292"> Ciel !...</l>
+                </sp>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="1293"> J’ai vu sur leur front lever le cimeterre,</l>
+                        <l n="1294"> On se mêle, on combat ; le sang rougit la terre.</l>
+                        <l n="1295"> Aux bourreaux de mon roi que n’ai-je pu m’offrir !</l>
+                        <l n="1296"> Du moins, à vos côtés, reine, je viens mourir.</l>
+                        <l n="1297"> À travers les soldats qu’échauffe le carnage</l>
+                        <l n="1298"> J’arrive jusqu’à vous, guidé par mon courage.</l>
+                        <l n="1299"> Trahi par ses sujets, trompé dans ses desseins,</l>
+                        <l n="1300"> Le perfide Almodan tient vos jours dans ses mains.</l>
+                        <l n="1301"> Quel frein peut arrêter la fureur qui l’anime ?</l>
+                        <l n="1302"> À ses affreux soldats s’il livrait leur victime ?...</l>
+                        <l n="1303"> Entourés dans ce lieu, nous n’en pouvons sortir</l>
+                        <l n="1304"> Mais je vous défendrai jusqu’au dernier soupir.</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="1305"> Et quel est votre espoir ? que peut votre courage ?</l>
+                        <l n="1306"> Pensez-vous me soustraire à leur aveugle rage ?</l>
+                        <l n="1307"> Vous périrez, Joinville, et vos yeux expirants</l>
+                        <l n="1308"> Me verront au milieu de ces tigres sanglants</l>
+                        <l n="1309"> En butte à leurs fureurs... Quoi ! cette horde infâme</l>
+                        <l n="1310"> De votre roi, Joinville, outragerait la femme !</l>
+                        <l n="1311"> Bourreaux de mon époux, arrêtez ! Les voici ;</l>
+                        <l n="1312"> Leur glaive fume encore ! Arrachez-moi d’ici ;</l>
+                        <l n="1313"> Fuyons...</l>
+                </sp>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="1314"> Hélas !</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="1315"> Non, non, la fuite est impossible.</l>
+                        <l n="1316"> Je les entends. Eh quoi ! dans ce moment terrible,</l>
+                        <l n="1317"> Vous verriez mes tourments sans pouvoir me sauver !</l>
+                </sp>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="1318"> Que faire ?</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="1319"> De l’opprobre il faut me préserver.</l>
+                </sp>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="1320"> Ô pénible devoir !</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="1321"> Ami, de votre zèle</l>
+                        <l n="1322"> Votre reine demande une preuve nouvelle.</l>
+                </sp>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="1323"> Grand Dieu !</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="1324"> Pour déjouer leurs horribles projets,</l>
+                        <l n="1325"> Il faut de votre main m’immoler.</l>
+                </sp>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="1326"> J’y songeais.</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="1327"> Vous jurez d’obéir, et mon âme est tranquille.</l>
+                        <l n="1328"> Quels cris ! Ah ! ce sont eux. On vient ; frappez, Joinville ;</l>
+            <stage><em>Elle se jette à genoux.</em></stage>
+                        <l n="1329"> Frappez... Mon Dieu, je meurs en embrassant ta croix.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#philippe">
+            <speaker> PHILIPPE dans la coulisse. </speaker>
+                        <l n="1330"> Ma mère !</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="1331"> Juste ciel, qu’entends-je ? quelle voix !</l>
+                        <l n="1332"> C’est mon fils ! C’est mon fils ! ce n’est point un prestige :</l>
+                        <l n="1333"> Le voilà ; je le vois. Mon Dieu, par quel prodige,</l>
+                        <l n="1334"> Quand je pleurais sa mort, me rends-tu mon enfant ?</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="1335"> Almodan est vaincu, mon père est triomphant.</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="1336"> Il respire !</l>
+                </sp>
+        <sp who="#joinville">
+            <speaker> JOINVILLE. </speaker>
+                        <l n="1337"> Est-il vrai ? Quelle main protectrice</l>
+                        <l n="1338"> Sous les pas de mon roi ferma le précipice ?</l>
+                        <l n="1339"> J’ai vu le fer levé : qui détourna les coups ?</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="1340"> Dieu, vaincu par vos pleurs, s’est déclaré pour nous.</l>
+                        <l n="1341"> Ne pouvant du soudan désarmer la colère,</l>
+                        <l n="1342"> J’attendais le trépas aux côtés de mon père ;</l>
+                        <l n="1343"> Des gardes d’Almodan nous étions entourés.</l>
+                        <l n="1344"> Assiégeant son palais, de son sang altérés,</l>
+                        <l n="1345"> Chrétiens et musulmans qu’un même espoir rassemble,</l>
+                        <l n="1346"> Étonnés de marcher et de combattre ensemble,</l>
+                        <l n="1347"> Demandaient à grands cris qu’on fit tomber nos fers.</l>
+                        <l n="1348"> Des gardes tout à coup les rangs se sont ouverts ;</l>
+                        <l n="1349"> Almodan nous entraîne, il s’élance, il s’écrie :</l>
+                        <l n="1350"> « Nouradin, où t’emporte une aveugle furie ?</l>
+                        <l n="1351"> « Ne me connais-tu pas ? Crois-tu m’intimider ?</l>
+                        <l n="1352"> « Tombe sur moi le ciel, plutôt que de céder !</l>
+                        <l n="1353"> « Tu demandes Louis ? vers lui tourne la vue ;</l>
+                        <l n="1354"> « Regarde ; sur son front la mort est suspendue.</l>
+                        <l n="1355"> « Peuple, n’avance pas ; et vous, chrétiens, fuyez,</l>
+                        <l n="1356"> « Ou sa tête à l’instant va tomber à vos pieds. »</l>
+                        <l n="1357"> Nos vengeurs, à ces mots, frémissent immobiles,</l>
+                        <l n="1358"> Et, maintenant armés de glaives inutiles,</l>
+                        <l n="1359"> Ils brûlent d’avancer ; ils n’osent faire un pas.</l>
+                        <l n="1360"> Nouradin cependant, suivi de ses soldats,</l>
+                        <l n="1361"> Vers nous se précipite ; on se flatte, on espère...</l>
+                        <l n="1362"> Almodan dit un mot : on va frapper mon père ;</l>
+                        <l n="1363"> Il est perdu ! Raymond, ce Français criminel,</l>
+                        <l n="1364"> S’élance, et pour son roi reçoit le coup mortel.</l>
+                        <l n="1365"> Nouradin aussitôt nous saisit, nous dégage.</l>
+                        <l n="1366"> Almodan veut encor faire tête à l’orage ;</l>
+                        <l n="1367"> Il combat, mais en vain. Ses soldats éperdus</l>
+                        <l n="1368"> Déjà cèdent au nombre et ne l’écoutent plus ;</l>
+                        <l n="1369"> Et chacun d’eux, le front incliné vers la terre,</l>
+                        <l n="1370"> Aux pieds de Nouradin pose son cimeterre.</l>
+                        <l n="1371"> Seul, debout au milieu de ses guerriers soumis,</l>
+                        <l n="1372"> Almodan semble encor braver ses ennemis.</l>
+                        <l n="1373"> On le désarme : en vain il rêve encor le crime ;</l>
+                        <l n="1374"> On traîne l’oppresseur aux pieds de sa victime.</l>
+                        <l n="1375"> Le coupable Raymond, à son dernier instant,</l>
+                        <l n="1376"> Craint la mort qui le presse et le Dieu qui l’attend.</l>
+                        <l n="1377"> Il croit voir de ce Dieu s’allumer la colère,</l>
+                        <l n="1378"> Et ses regards mourants interrogent mon père.</l>
+                        <l n="1379"> Mon père rend la paix à son cœur alarmé :</l>
+                        <l n="1380"> Du Tout-Puissant, dit-il, le courroux est calmé.</l>
+                        <l n="1381"> Vous revenez à lui, comptez sur sa clémence :</l>
+                        <l n="1382"> De ses élus pour vous l’éternité commence.</l>
+                        <l n="1383"> Il meurt, et devant Dieu, qu’implore son effroi,</l>
+                        <l n="1384"> Il paraîtra couvert du pardon de son roi.</l>
+                </sp>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="1385"> Il a sauvé vos jours ! Mon Dieu, sois-lui propice,</l>
+                        <l n="1386"> Et que son dévouement apaise ta justice !</l>
+                        <l n="1387"> Mais, ô mon fils ! volons auprès de mon époux.</l>
+                </sp>
+        <sp who="#philippe">
+            <speaker> PHILIPPE. </speaker>
+                        <l n="1388"> Vous allez le revoir ; il s’avance vers nous,</l>
+                        <l n="1389"> Je l’entends. Quelle foule autour de lui se presse !</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#marguerite">
+            <speaker> MARGUERITE. </speaker>
+                        <l n="1390"> Cher époux ! l’Éternel vous rend à ma tendresse !</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1391"> Bénissons-le ; ce Dieu, dont j’implorais l’appui,</l>
+                        <l n="1392"> N’abandonne jamais qui se repose en lui.</l>
+                        <l n="1393"> Mais vous, peuple, soldats, quel sujet vous amène ?</l>
+                        <l n="1394"> Qu’exigez-vous ?</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="1395"> Louis, ils ont brisé ta chaîne,</l>
+                        <l n="1396"> Le parjure soudan par nous est abattu,</l>
+                        <l n="1397"> Le musulman, frappé de ta haute vertu,</l>
+                        <l n="1398"> S’incline devant toi, te révère, t’honore ;</l>
+                        <l n="1399"> Tu le dois estimer ; pour lui fais plus encore :</l>
+                        <l n="1400"> Ce peuple, ces guerriers, te parlent par ma voix,</l>
+                        <l n="1401"> Brave Louis, consens à leur donner des lois.</l>
+                        <l n="1402"> Dans tes vaillantes mains plaçant sa destinée,</l>
+                        <l n="1403"> Devant un roi captif l’Égypte est prosternée.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1404"> Musulmans, loin de moi ces coupables honneurs ;</l>
+                        <l n="1405"> Respectez votre roi, surtout dans ses malheurs.</l>
+                        <l n="1406"> Chacun de vous, dit-on, me jure obéissance ?</l>
+                        <l n="1407"> Allez de votre maître implorer la clémence.</l>
+            <stage><em>À Nouradin.</em></stage>
+                        <l n="1408"> Généreux Nouradin, magnanime vainqueur,</l>
+                        <l n="1409"> Vos bienfaits resteront gravés dans notre cœur.</l>
+                        <l n="1410"> Pardonnez si Louis repousse votre zèle</l>
+                        <l n="1411"> Et l’hommage égaré de ce peuple rebelle.</l>
+                </sp>
+        <sp who="#nouradin">
+            <speaker> NOURADIN. </speaker>
+                        <l n="1412"> Tu commandes ; ce peuple obéit à ta loi ;</l>
+                        <l n="1413"> Par tes vertus, sur lui tu règnes malgré toi.</l>
+                </sp>
+        <sp who="#louis-ix">
+            <speaker> LOUIS. </speaker>
+                        <l n="1414"> Nous, marchons au soudan, que son peuple abandonne :</l>
+                        <l n="1415"> C’est peu de nos rançons, rendons-lui sa couronne.</l>
+                        <l n="1416"> Pour Raymond expiré, qu’en ce jour solennel</l>
+                        <l n="1417"> Nos vœux reconnaissants montent vers l’Éternel.</l>
+                        <l n="1418"> Compagnons, votre Dieu comble votre espérance :</l>
+                        <l n="1419"> Nous saluerons bientôt les rives de la France.</l>
+                        <l n="1420"> [1] Des gardes paraissent dans le fond.</l>
+                        <l n="1421"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

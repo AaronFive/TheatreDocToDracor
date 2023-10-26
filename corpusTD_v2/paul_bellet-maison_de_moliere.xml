@@ -1,0 +1,904 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">La Maison de Molière</title>
+                <title type="sub">Comédie</title>
+            <author>
+                <persName>
+                    <forename>Paul</forename>
+                    <surname>Bellet</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/la-maison-de-molière-paul-bellet </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="molière" sex="SEX">
+                            <persName>MOLIÈRE</persName>
+                        </person>
+                        <person xml:id="un-auteur" sex="SEX">
+                            <persName>UN AUTEUR</persName>
+                        </person>
+                        <person xml:id="chrysale" sex="SEX">
+                            <persName>CHRYSALE</persName>
+                        </person>
+                        <person xml:id="trissotin" sex="SEX">
+                            <persName>TRISSOTIN</persName>
+                        </person>
+                        <person xml:id="vadius" sex="SEX">
+                            <persName>VADIUS</persName>
+                        </person>
+                        <person xml:id="oronte" sex="SEX">
+                            <persName>ORONTE</persName>
+                        </person>
+                        <person xml:id="tartufe" sex="SEX">
+                            <persName>TARTUFE</persName>
+                        </person>
+                        <person xml:id="bélise" sex="SEX">
+                            <persName>BÉLISE</persName>
+                        </person>
+                        <person xml:id="philaminte" sex="SEX">
+                            <persName>PHILAMINTE</persName>
+                        </person>
+                        <person xml:id="un-garçon-de-théatre" sex="SEX">
+                            <persName>UN GARÇON DE THÉATRE</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Comédie</term>
+                    <term> [indéfini] </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q40831]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">LA MAISON DE MOLIÈRE</titlePart>
+            <titlePart type="sub">COMÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+    <div type="dedicace">
+            <opener>
+                <salute> À MM. BRESSANT, DELAUNAY, GOT, LEROUX, MAUBANT, REGNIER</salute>
+            </opener>
+        <p> <b>Sociétaires et Membres du comité de lecture de la Comédie-Française</b> </p>
+        <p> M</span>ESSIEURS<span style="letter-spacing:-.3pt">,  </p>
+        <p> Permettez-moi de suivre un conseil que vous m’avez fait transmettre par M. Édouard Thierry et de livrer à l’impression une pièce qui manque certainement de qualités scéniques, mais qui n’a jamais été dans ma pensée qu’une sorte de programme de la comédie qui me paraît convenir à nos mœurs actuelles.  </p>
+        <p> Il est téméraire, sans doute, de vous dédier une pièce qui n’a pas eu votre approbation complète, absolue, et que vous avez seulement admise à une seconde lecture.  </p>
+        <p> Pardonnez-moi cette témérité, non pour l’ouvre, non pour l’ouvrier, mais pour le titre sous lequel ils se sont abrités.  </p>
+        <p> Veuillez, Messieurs, agréer mes humbles hommages...  </p>
+        <p> PAUL BELLET </p>
+        <p> Ce 15 janvier 1872.  </p>
+    </div>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#l’auteur">
+            <speaker> L’AUTEUR. </speaker>
+                        <l n="1"> Eh quoi ! serait-il bien possible ? en croirai-je mes yeux ? Est-ce bien vous que je revois, Molière ? </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="2"> Mon pauvre Auteur, ne perdez pas le temps à me questionner ; nous avons mieux à faire, puisque vous m’appelez à votre secours, que vous de m’interroger et moi de vous répondre. </l>
+                </sp>
+        <sp who="#un-auteur">
+            <speaker> L’AUTEUR. </speaker>
+                        <l n="3"> Hélas ! ce n’est pas sans besoin que je vous appelle à mon aide ; voilà huit jours que je me bats les flancs pour faire une comédie, et je n’y puis réussir. Ah ! si je n’étais pas le jouet d’une illusion !... S’il était vrai que vous fussiez Molière, ce grand poète, cet admirable comique... </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="4"> Plus bas, s’il vous plait, plus bas, monsieur l’Auteur. Ces expressions flatteuses étaient bonnes après ma mort, mais puisque je reviens à la vie, épargnez ces louanges à mes confrères, et songez que le dernier vaudevilliste a maintenant le droit de se croire mon égal. </l>
+                </sp>
+        <sp who="#un-auteur">
+            <speaker> L’AUTEUR. </speaker>
+                        <l n="5"> Oh ! </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="6"> Pas de oh ! mon pauvre Auteur, c’est ainsi. Mais revenons à votre comédie ; vous êtes embarrassé pour la faire, dites-vous ? </l>
+                </sp>
+        <sp who="#un-auteur">
+            <speaker> L’AUTEUR. </speaker>
+                        <l n="7"> Plus que je ne saurais dire. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="8"> Voyons, qu’est-ce qui vous embarrasse ? le titre, le sujet, l’intrigue ou les caractères ? </l>
+                </sp>
+        <sp who="#un-auteur">
+            <speaker> L’AUTEUR. </speaker>
+                        <l n="9"> Le titre... le sujet... l’intrigue... et les caractères. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="10"> Malepeste ! rien que cela ? </l>
+                </sp>
+        <sp who="#un-auteur">
+            <speaker> L’AUTEUR. </speaker>
+                        <l n="11"> Que cela ! </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="12"> Enfin, où en êtes-vous ? Montrez-moi votre manuscrit. </l>
+                </sp>
+        <sp who="#un-auteur">
+            <speaker> L’AUTEUR. </speaker>
+                        <l n="13"> Le voici. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE, lisant. </speaker>
+                        <l n="14"> Comédie en un acte... c’est tout ?</l>
+                </sp>
+        <sp who="#un-auteur">
+            <speaker> L’AUTEUR. </speaker>
+                        <l n="15"> Oui, c’est tout. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="16"> Eh bien ! ce n’est pas trop mal déjà et pourvu que le reste de la pièce soit aussi bon... </l>
+                </sp>
+        <sp who="#un-auteur">
+            <speaker> L’AUTEUR. </speaker>
+                        <l n="17"> Hélas ! vous avez tout droit de me railler. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="18"> J’ai mieux à faire ; je veux vous conseiller. Voyons, vous n’avez point quelque sujet en tête ? </l>
+                </sp>
+        <sp who="#un-auteur">
+            <speaker> L’AUTEUR. </speaker>
+                        <l n="19"> Ma foi non ; et je crois, à vous dire la vérité, qu’il n’y a plus de sujets de comédie. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="20"> Serait-il possible ? </l>
+                </sp>
+        <sp who="#un-auteur">
+            <speaker> L’AUTEUR. </speaker>
+                        <l n="21"> Rien n’est plus vrai. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="22"> Comment ! il n’y a donc plus chez vous ni sottises, ni ridicules, ni travers ? </l>
+                </sp>
+        <sp who="#un-auteur">
+            <speaker> L’AUTEUR. </speaker>
+                        <l n="23"> Ma foi non, du moins en apparence... notre société contemporaine est trop policée, trop instruite, trop bien nivelée d’ailleurs, pour qu’aucun travers puisse librement s’étaler. L’égalité civile introduite parmi les citoyens a confondu tous les rangs et mis. sur le même pied le marquis et le marchand, le bourgeois et le grand seigneur...</l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="24"> Voyez-vous ça ! </l>
+                </sp>
+        <sp who="#un-auteur">
+            <speaker> L’AUTEUR. </speaker>
+                        <l n="25"> Entrez dans un salon ; qu’y trouvez-vous ? l’uniformité absolue, non pas sur les habits seulement, mais dans les mœurs et dans les esprits. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="26"> Ah ! ah ! Et moi qui croyais que la sottise est éternelle. </l>
+                </sp>
+        <sp who="#un-auteur">
+            <speaker> L’AUTEUR. </speaker>
+                        <l n="27"> Sans doute ; mais autrefois elle se laissait voir, elle se cache aujourd’hui. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="28"> Elle se cache ? Eh bien ! on la fait sortir. C’est là, monsieur l’Auteur, le secret de la comédie et l’art comique tout entier. Ah ! vous croyez peut-être que la sottise et le ridicule ne se cachaient pas autrefois, ne savaient pas se dissimuler dans les brillants salons de Louis XIV ? Ah ! vous croyez que l’uniformité ne régnait pas dans les galeries du Louvre et de Versailles ? Ah ! vous croyez qu’Alceste ou Tartufe, M. Jourdain ou Vadius, n’étaient pas hommes du monde comme ils le sont aujourd’hui ? Ah ! vous croyez qu’ils avaient à la ville ce relief de ridicule que leur a donné le théâtre ? Non, non, Monsieur, détrompez-vous : Tartufe savait comme à présent cacher ses vices sous des dehors d’honnêteté, et bien fin qui pouvait reconnaître l’hypocrite sous le masque de l’homme vertueux ; Alceste savait cacher sa brusquerie et sa noire humeur, et ne les montrait pas à tout venant ; M. Jourdain lui-même savait dissimuler son envie de paraître gentilhomme, et Trissotin comme Vadius ne débitaient pas leurs sonnets au premier venu. Oui, Monsieur, le ridicule est ignoré des autres presque autant que de lui-même, et c’est là ce qui le fait vivre, car en France surtout, dès qu’il est découvert il est pour suivi, traqué, immolé sans pitié sous les sarcasmes et sous le rire. Il s’agit donc, je vous le répète, de découvrir où il se cache et de le faire sortir de son coin. </l>
+                </sp>
+        <sp who="#un-auteur">
+            <speaker> L’AUTEUR. </speaker>
+                        <l n="29"> Oui, mais comment faire ? </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="30"> Ah ! comment ! faut-il que je vous enseigne mon art ? </l>
+                </sp>
+        <sp who="#un-auteur">
+            <speaker> L’AUTEUR. </speaker>
+                        <l n="31"> J’en aurais grand besoin, ma foi. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="32"> Cet art je pourrais l’enseigner, mais on ne pourrait pas l’apprendre. Laissons donc ces propos. Utilisons mieux notre temps. Vous avez besoin d’une comédie, je vais vous la fournir. Justement, depuis les quelques mois que je suis revenu sur cette terre, j’ai vu que plusieurs de mes personnages avaient besoin de retouches et que pour les accommoder aux mœurs du jour, il fallait en remanier quelques-uns. Avant donc que de faire des comédies nouvelles, je veux refaire les anciennes. </l>
+                </sp>
+        <sp who="#un-auteur">
+            <speaker> L’AUTEUR. </speaker>
+                        <l n="33"> Comment ! toucher à vos chefs-d’œuvre ? </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="34"> Mais oui. Je veux un peu changer les meubles de ma maison et les mettre à la mode... J’ai donné rendez-vous ici à quelques-uns de mes originaux... Voulez-vous assister à leur nouvelle toilette ? </l>
+                </sp>
+        <sp who="#un-auteur">
+            <speaker> L’AUTEUR. </speaker>
+                        <l n="35"> Mais ma comédie ? </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="36"> Patience, elle se fera. </l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="37"> Holà ! quelqu’un. </l>
+                </sp>
+        <sp who="#le-garçon">
+            <speaker> LE GARÇON. </speaker>
+                        <l n="38"> Que désire Monsieur ?</l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="39"> Ces Messieurs sont-ils là ? </l>
+                </sp>
+        <sp who="#le-garçon">
+            <speaker> LE GARÇON. </speaker>
+                        <l n="40"> MM. Oronte, Trissotin, Vadius, achèvent de s’ha biller. MM. Philinte et Alceste jouent une partie d’échecs au café. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="41"> Et Tartufe ? </l>
+                </sp>
+        <sp who="#le-garçon">
+            <speaker> LE GARÇON. </speaker>
+                        <l n="42"> Il termine son déjeuner... chez Corazza. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="43"> Le pauvre homme !... Et ces dames ? </l>
+                </sp>
+        <sp who="#le-garçon">
+            <speaker> LE GARÇON. </speaker>
+                        <l n="44"> Elles sont prêtes. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="45"> C’est bien. Priez MM. Trissotin et Vadius, ainsi que M. Chrysale et Mmes Philaminte et Bélise de venir au foyer. </l>
+                </sp>
+        <sp who="#le-garçon">
+            <speaker> LE GARÇON. </speaker>
+                        <l n="46"> J’y vais. </l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#un-auteur">
+            <speaker> L’AUTEUR, MOLIÈRE, CHRYSALE, TRISSOTIN, VADIUS, PHILAMINTE, BÉLISE </speaker>
+                        <l n="47"> Les nouveaux venus saluent Molière.</l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="48"> Eh ! mais les voici. Messieurs, Mesdames, avez vous appris vos nouveaux rôles des Femmes savantes ? </l>
+                </sp>
+        <sp who="#tous">
+            <speaker> TOUS, à la fois. </speaker>
+                        <l n="49"> Mais oui, certainement. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="50"> Alors nous pouvons répéter ?</l>
+                </sp>
+        <sp who="#tous">
+            <speaker> TOUS. </speaker>
+                        <l n="51"> Oui, oui. </l>
+                </sp>
+        <sp who="#chrysale">
+            <speaker> CHRYSALE. </speaker>
+                        <l n="52"> Y aurait-il de l’indiscrétion à demander quel sera le nouveau titre de la pièce, car enfin cette comédie ne peut plus être appelée les Femmes savantes... </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="53"> Ne vous préoccupez point de ces détails, bonhomme Chrysale, la nouvelle pièce est à peine ébauchée et je n’ai voulu retoucher encore que les parties principales afin de juger de l’effet... D’ailleurs, si vous y tenez, nous pourrons baptiser de suite notre comédie et l’appeler... Les Femmes indépendantes, ou les Femmes émancipées, ou les Femmes libres, ou les Femmes-Hommes, comme il vous plaira. </l>
+                </sp>
+        <sp who="#chrysale">
+            <speaker> CHRYSALE. </speaker>
+                        <l n="54"> Oh ! moi, ce sera comme vous voudrez. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="55"> Aujourd’hui comme autrefois, je prétends me moquer des femmes qui oublient un peu trop qu’elles sont femmes, c’est-à-dire que leur sexe ne se prête pas aux occupations viriles et que la meilleure place pour elles est au foyer conjugal. Dam ! c’est la nature qui l’a voulu ainsi... et non pas les hommes ; avant donc de changer d’occupation, que les femmes changent de sexe et je n’aurai plus rien à dire. Voyons, Chrysale, vous avez du bon sens, que diriez-vous d’un homme qui passerait la moitié du jour à mettre de la pommade et des rubans à ses cheveux... </l>
+                </sp>
+        <sp who="#chrysale">
+            <speaker> CHRYSALE. </speaker>
+                        <l n="56"> Je dirais : c’est un animal absurde. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="57"> À ajuster ses habits... </l>
+                </sp>
+        <sp who="#chrysale">
+            <speaker> CHRYSALE. </speaker>
+                        <l n="58"> Je dirais : c’est une femmelette. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE </speaker>
+                        <l n="59"> À faire des chaussettes... </l>
+                </sp>
+        <sp who="#chrysale">
+            <speaker> CHRYSALE. </speaker>
+                        <l n="60"> J’en rirais. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="61"> À tricoter au coin du feu... </l>
+                </sp>
+        <sp who="#chrysale">
+            <speaker> CHRYSALE. </speaker>
+                        <l n="62"> Je hausserais les épaules. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="63"> À bercer les enfants... </l>
+                </sp>
+        <sp who="#chrysale">
+            <speaker> CHRYSALE. </speaker>
+                        <l n="64"> Je le prierais de leur donner le sein. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="65"> Et vous auriez raison, bonhomme. Il serait aussi ridicule pour un homme de se livrer aux occupations des femmes qu’il est ridicule pour une femme de sortir des habitudes que la nature impose à son sexe et d’être homme... Cependant, aujourd’hui plus encore qu’autrefois, c’est ce que nous voyons : les femmes veulent s’occuper de politique où leurs nerfs et leur esprit mobile n’ont rien à faire, elles montent à cheval, conduisent des voitures, fument comme des dragons, font des armes, tirent au pistolet, mettent des bottes, nagent comme des tritons, parlent dans les clubs, font des conférences... et des journaux... </l>
+                </sp>
+        <sp who="#chrysale">
+            <speaker> CHRYSALE. </speaker>
+                        <l n="66"> Et si encore elles ne faisaient que cela ! Ah ! je plains leurs pauvres maris ! </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="67"> Mais laissons de côté toutes ces réflexions et venons-en à la nouvelle pièce. </l>
+                        <l n="68"> À Philaminte.</l>
+                        <l n="69"> Comprenez-vous bien votre nouveau rôle, madame Philaminte ? </l>
+                </sp>
+        <sp who="#philaminte">
+            <speaker> PHILAMINTE. </speaker>
+                        <l n="70"> Il me semble que je le comprends.</l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="71"> Chrysale est toujours votre époux et toujours un bonhomme de mari que vous faites enrager... Seulement, ce n’est plus avec de la littérature, mais avec de la politique ; vous n’êtes plus un bel esprit, le temps des beaux esprits est passé ! Vous êtes un profond esprit, une grande âme, un grand cœur... comme on dit aujourd’hui. Votre salon est le rendez vous de certains journalistes partisans du progrès, émancipateurs du beau sexe... Du reste, toujours la même, Mme Philaminte, et toujours de force à renvoyer votre servante Martine, non plus pour avoir offensé la grammaire, mais pour avoir offensé la raison. Vadius et Trissotin fréquentent toujours votre maison, seulement ces Messieurs ne s’occupent plus de poésie, ils laissent cette bagatelle aux petits esprits arriérés, ils ont de bien autres soucis. Ne faut-il pas que chaque matin ils régentent le monde ; qu’ils fassent des constitutions pour le peuple espagnol, des lois pour les Américains, des projets pour les Grecs ? Pauvres gens ! que de sueurs ils s’infligent non plus pour faire rimer deux vers, mais pour accorder ensemble deux nations ennemies. Mais laissons encore une fois toutes ces réflexions de côté, et répétons la dernière scène que je viens d’écrire ; c’est la 5e du 3e acte. Voyons, Trissotin, commencez par la scène primitive des Femmes savantes. </l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN, présentant Vadius. </speaker>
+                        <l n="72"> Voici l’homme qui meurt du désir de vous voir,</l>
+                        <l n="73"> Ils récitent le reste de la scène. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="74"> Bon, voilà qui était bien pour le siècle de Louis XIV ; mais Vadius et Trissotin ne parlent plus ainsi ; de poètes, les voici devenus journalistes. Répétez donc la nouvelle scène. </l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN, présentant Vadius. </speaker>
+                        <l n="75"> Voici l’homme qui meurt du désir de vous voir.</l>
+                </sp>
+        <sp who="#philaminte">
+            <speaker> PHILAMINTE. </speaker>
+                        <l n="76"> La main qui le présente en dit assez le prix. </l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="77"> Il a, je vous l’affirme, un grand sens politique</l>
+                </sp>
+        <sp who="#philaminte">
+            <speaker> PHILAMINTE. </speaker>
+                        <l n="78"> Économiste, ô ciel ! vous l’entendez, ma sœur. </l>
+                </sp>
+        <sp who="#bélise">
+            <speaker> BÉLISE. </speaker>
+                        <l n="79"> Économiste ! Hélas ! hélas ! quelle douceur !</l>
+                </sp>
+        <sp who="#philaminte">
+            <speaker> PHILAMINTE. </speaker>
+                        <l n="80"> Monsieur économiste ! Ah ! permettez, de grâce,</l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="81"> On vient tout justement de publier Malthus</l>
+                </sp>
+        <sp who="#vadius">
+            <speaker> VADIUS. </speaker>
+                        <l n="82"> Vous me flattez vraiment, et mes faibles ouvrages</l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="83"> Vos livres sont parfaits, j’en vois peu de meilleurs.</l>
+                </sp>
+        <sp who="#vadius">
+            <speaker> VADIUS. </speaker>
+                        <l n="84"> Vous avez su saisir le vrai sens de l’histoire. </l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="85"> Et de la débrouiller vous avez eu la gloire. </l>
+                </sp>
+        <sp who="#vadius">
+            <speaker> VADIUS. </speaker>
+                        <l n="86"> Vos articles partout sont justement vantés. </l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="87"> Les vôtres en tous lieux sont lus et commentés. </l>
+                </sp>
+        <sp who="#vadius">
+            <speaker> VADIUS. </speaker>
+                        <l n="88"> Dix journaux en voudraient enrichir leurs colonnes. </l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="89"> Les vôtres font trembler les princes sur leurs trônes. </l>
+                </sp>
+        <sp who="#vadius">
+            <speaker> VADIUS. </speaker>
+                        <l n="90"> Et le peuple chez vous va puiser des leçons. </l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="91"> Chez vous les gens instruits font encor des moissons.</l>
+                </sp>
+        <sp who="#vadius">
+            <speaker> VADIUS. </speaker>
+                        <l n="92"> Oui, je viens de la lire. </l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="93"> En savez-vous l’auteur ? </l>
+                </sp>
+        <sp who="#vadius">
+            <speaker> VADIUS. </speaker>
+                        <l n="94"> Non, mais je n’en saurais dire rien de flatteur.</l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="95"> On la trouve admirable. </l>
+                </sp>
+        <sp who="#vadius">
+            <speaker> VADIUS. </speaker>
+                        <l n="96"> On... est un imbécile, elle est abominable ;</l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="97"> Je sais que là-dessus je n’en suis pas du tout,</l>
+                </sp>
+        <sp who="#vadius">
+            <speaker> VADIUS. </speaker>
+                        <l n="98"> Me préserve le ciel d’en faire de semblables. </l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="99"> Je soutiens qu’on ne peut en faire de meilleur</l>
+                </sp>
+        <sp who="#vadius">
+            <speaker> VADIUS. </speaker>
+                        <l n="100"> Vous ? </l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="101"> Moi. </l>
+                </sp>
+        <sp who="#vadius">
+            <speaker> VADIUS. </speaker>
+                        <l n="102"> Je ne sais donc comment ça s’est pu faire... </l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="103"> C’est qu’on est malheureux de ne pouvoir vous plaire</l>
+                </sp>
+        <sp who="#vadius">
+            <speaker> VADIUS. </speaker>
+                        <l n="104"> Eh quoi ! vous le prenez sur ce ton insolent ? </l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="105"> C’est de votre côté qu’est toute l’insolence. </l>
+                </sp>
+        <sp who="#vadius">
+            <speaker> VADIUS. </speaker>
+                        <l n="106"> On vous sait passé maître en fait d’impertinence. </l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="107"> Allez, économiste ignare et ténébreux. </l>
+                </sp>
+        <sp who="#vadius">
+            <speaker> VADIUS. </speaker>
+                        <l n="108"> Allez donc, journaliste absurde et nuageux.</l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="109"> Allez élucubrer vos assommants ouvrages</l>
+                </sp>
+        <sp who="#vadius">
+            <speaker> VADIUS. </speaker>
+                        <l n="110"> Allez, vieux tartinier. </l>
+                </sp>
+        <sp who="#philaminte">
+            <speaker> PHILAMINTE. </speaker>
+                        <l n="111"> Eh ! Messieurs, calmez-vous. </l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="112"> Oui, je suis bon vraiment de me mettre en courroux</l>
+                </sp>
+        <sp who="#vadius">
+            <speaker> VADIUS. </speaker>
+                        <l n="113"> Parlez de conscience, odieux Trissotin</l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="114"> Vous tairez-vous bientôt, ô grand aristocrate...</l>
+                </sp>
+        <sp who="#vadius">
+            <speaker> VADIUS. </speaker>
+                        <l n="115"> Avez-vous bien fini, mon petit démocrate... </l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="116"> Non, je n’ai pas fini. Vous recevrez ce soir</l>
+                </sp>
+        <sp who="#chrysale">
+            <speaker> CHRYSALE. </speaker>
+                        <l n="117"> Comment ! il se rencontrerait des journalistes qui se tiendraient un pareil langage ? </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="118"> Vous ne lisez donc pas les journaux, mon bonhomme ? Si vous les lisiez vous sauriez qu’il se rencontre une bonne douzaine de journalistes chaque matin et autant chaque soir qui se tiennent à peu près ce langage. Deux journalistes sont-ils d’accord sur la même question (et cela peut se voir), ils s’accablent d’éloges et s’envoient mutuellement de telles louanges qu’elles feraient rougir des académiciens eux-mêmes. Sont-ils au contraire divisés d’opinion, c’est à qui des deux couvrira son adversaire des plus grosses invectives et des plus scandaleuses diffamations... </l>
+                </sp>
+        <sp who="#chrysale">
+            <speaker> CHRYSALE. </speaker>
+                        <l n="119"> Oui... mais dans un salon les journalistes savent se respecter aujourd’hui. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="120"> Je vais vous répondre d’un mot : la scène est copiée sur nature, ou comme vous le dites aujourd’hui : c’est une photographie. Mais, je vous en prie, ne perdons pas le temps ; nous avons bien d’autres scènes à répéter. Messieurs et Mesdames vous pouvez vous retirer. Priez M. Oronte de venir. </l>
+                        <l n="121"> Chrysale, Vadius, Trissotin, Bélise et Philaminte sortent.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="122"> Je ne vous demande pas, Monsieur, si vous savez votre nouveau rôle du Misanthrope, il diffère si peu de l’ancien que vous n’aurez pas eu la moindre peine pour l’apprendre. Je n’ai que peu de chose à changer dans ma comédie, et comme vous avez pu le voir, je n’ai fait que transformer le moment de l’action. La scène qui se passait dans le premier Misanthrope sous le règne de Louis XIV, en l’année 1666, se passera deux siècles plus tard en 1869. Une scène m’a paru mériter de grandes modifications, c’est la 2e du 1er acte, la scène du sonnet. Voyons, monsieur Oronte : Sonnet, c’est un sonnet... </l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="123"> Sonnet ; c’est un sonnet. L’espoir... C’est une dame</l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="124"> Oui, oui, cela était bon pour le premier Misanthrope. C’est bien ainsi que nos petits poètes de ruelles, nos faiseurs de sonnets à perruques blondes parlaient, il y a juste deux siècles. Oui, là... tenez... la bouche en cour, les yeux à demi fermés, leur rouleau de papier délicatement déployé, délicate ment tenu du bout des doigts : Sonnet ; c’est un sonnet... Puis d’un ton langoureux... L’espoir... un petit soupir. L’espoir... C’est une dame, qui de quelque espérance avait flatté ma flamme. L’espoir... ce ne sont point de ces grands vers pompeux, mais de petits vers doux, tendres et langoureux... Oui, mais ce n’est plus ainsi que parlent ni qu’agis sent les poètes du jour. Tenez, monsieur Oronte, voici la nouvelle méthode : À la place de la perruque, on porte une vaste chevelure, une crinière... cela se dit maintenant une crinière ; puis on secoue cette crinière... tenez comme ceci, d’un violent coup de tête en arrière... puis on prend un air léonin... </l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="125"> Un air léonin ? </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="126"> Savez-vous ce que c’est qu’un air léonin ? </l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="127"> Ma foi non, et vous ? </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="128"> Ni moi, ni personne ; mais il n’en est que plus facile de prendre cet air léonin... car il faut aux poètes du jour du vague et de l’indéfini ; ils ont soif, une soif immense de l’indéfini. Puis vous déployez votre sonnet, vous secouez une seconde fois votre crinière, et au lieu de prendre cette petite voix flûtée et langoureuse de tout à l’heure, vous hurlez ce mot : Désespoir ! </l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="129"> Quoi ! de l’espoir... nous passons au désespoir ? </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="130"> Oui, oui, autrefois il était tout à fait dans le bon air d’intituler un sonnet de ce beau mot d’espoir, mais aujourd’hui tout ce qui n’est pas sombre et désespéré est vulgaire, et un poète n’en donnerait pas seulement un poème épique. Voyons, vous avez compris... </l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="131"> Oui. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="132"> Commencez donc. </l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="133"> ...Désespoir ! </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="134"> Secouez votre crinière. </l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="135"> Voilà qui est fait.</l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="136"> Bon ! lisez à présent et d’une voix caverneuse. </l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="137"> Les soleils... </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="138"> C’est une voix de simple sous-sol cela, descendez encore. </l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="139"> Les soleils... </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="140"> Plus bas ; prenez une voix de caveau, de cata combes, si vous le voulez. </l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="141"> Les soleils... </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="142"> Bon, c’est cela. </l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="143"> Les soleils rutilants aux fauves chevelures... </l>
+                        <l n="144"> Pardon, qu’est-ce donc que des soleils rutilants aux fauves chevelures ?...</l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="145"> Le sais-je moi ? Que diable me demandez-vous là ? Est-ce que vous croyez que les faiseurs de sonnets le savent davantage, par hasard ? Je vous trouve plaisant de m’adresser de pareilles questions. </l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="146"> Mais alors ce vers ne veut rien dire. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="147"> Tout naturellement ; voulez-vous exiger que nos faiseurs de sonnets s’amusent à mettre un sens à leurs vers ? Est-ce qu’ils ont le temps de descendre à de pareilles bagatelles. Continuez, et surtout admirez sans chercher à comprendre. </l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE, lisant. </speaker>
+                        <l n="148"> Les soleils rutilants aux fauves chevelures,</l>
+                        <l n="149"> Reflète dans son sein, asile du mystère ;</l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="150"> Faites scintiller le mot et puis tâchez d’imiter l’éclair en disant ces mots : vif éclair ! </l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="151"> Diable, c’est difficile à imiter. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="152"> Au contraire, c’est d’autant plus facile que c’est infaisable. Qui pourrait juger si l’imitation est bien ou mal réussie ? </l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="153"> Le poisson scintillant dans l’onde, vif éclair... </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="154"> À merveille. </l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE, lisant. </speaker>
+                        <l n="155"> Tout ce qui bruit, gémit, resplendit ou murmure</l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="156"> Ici, prenez un air fatidique. </l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE, lisant. </speaker>
+                        <l n="157"> La nuit, profonde horreur, me prend et m’enveloppe,</l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="158"> À ces vers : Et moi géant tombé... il faut prendre un air Michel-Angelesque... </l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="159"> Comment un air Michel-Angelesque ? quel air est-ce là ? </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="160"> Ma foi, je n’en sais rien ; mais les poètes disent cela aujourd’hui. On prend un air Michel-Angelesque... il y a l’air Dantesque, l’air Shakespearien, l’air Byronien, l’air séraphique, l’air fatidique et bien d’autres airs. On en prend un au hasard et ça se trouvera être précisément l’air Michel-Angelesque. </l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="161"> Est-il vrai, monsieur Molière, que vous me destinez un rôle dans votre nouvelle comédie des Précieuses ridicules... </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="162"> Et qui vous dit, monsieur Oronte, que je veuille refaire ma pièce des Précieuses ridicules ?... sachez, mon ami, qu’il n’est plus de précieuses aujourd’hui. Un grand nombre de femmes affectent un langage qui certes me paraît peu précieux, mais si je fais une comédie sur ce sujet elle pourra prendre pour titre : les Femmes mal élevées. Cathos dira à Madelon : Tu as du chien ! et Madelon répondra : Je le sais, mon trognon ! Cela s’entend tous les jours dans de certains salons, depuis que les portières peuvent en vingt-quatre heures devenir millionnaires ; mais nous verrons plus tard tout cela. Veuillez faire rentrer MM. Trissotin, Vadius et Chrysale, pour répéter avec vous les nouveaux personnages de la comédie des Fâcheux, dans laquelle vous avez chacun un rôle... </l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#chrysale">
+            <speaker> CHRYSALE. </speaker>
+                        <l n="163"> Est-ce pour répéter les Fâcheux ? </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="164"> Oui, j’ai voulu ajouter quelques personnages à ma pièce, quelques fâcheux du jour, et certes, mes amis, je n’ai eu que l’embarras du choix. Voyons, Chrysale, à vous le tour. Pendant qu’Éraste se promène tranquillement sur le boulevard, comme le premier venu, entre quatre et cinq heures, il est tout à coup accosté par un grave monsieur, de noir tout vêtu, dont la barbe mal peignée, les cheveux hérissés, la toilette négligée disent assez les hautes préoccupations, par un Monsieur qui vous lance à la tête à tout bout de phrase quelques-uns de ces mots lourds comme des tuiles : nationalités, libre-échange, capital, productivité, problèmes sociaux, positivisme, pour tout dire enfin, par un économiste. Voyons, Monsieur, répétez-nous cela. </l>
+                </sp>
+        <sp who="#chrysale">
+            <speaker> CHRYSALE. </speaker>
+                        <l n="165"> Je viens en ce moment de fonder un journal...</l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="166"> Oh ! vous dites ces mots avec trop de légèreté. Vous êtes économiste, que diable ! soyez donc grave et lourd. </l>
+                </sp>
+        <sp who="#chrysale">
+            <speaker> CHRYSALE. </speaker>
+                        <l n="167"> Je viens en ce moment de fonder un journal</l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="168"> Ainsi parle notre économiste ; que Dieu le bénisse cet homme s’il est compris lui-même, mais Éraste abasourdi par son atroce patois s’enfuit à toutes jambes, lorsque auprès du café Véron, à l’angle de la rue Vivienne, il rencontre un fâcheux d’une toute autre espèce, un boursier. Celui-ci l’accoste et d’un air effaré, lui débite avec volubilité les paroles que voici. Voyons, Vadius, récitez. </l>
+                </sp>
+        <sp who="#vadius">
+            <speaker> VADIUS. </speaker>
+                        <l n="169"> Cher, je viens de la Bourse et près de la corbeille </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="170"> Et de deux. Après le patois de l’économiste, le patois du boursier ; mais les oreilles du pauvre Éraste ne sont pas à bout de l’épreuve. Comme il arrive devant le magasin de Goupil, un amateur de peinture, fâcheux presque inévitable aujourd’hui, l’accoste et lui tient ce langage... voyons, Trissotin, récitez-nous ce rôle-là. </l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="171"> Cher, je viens du Salon où sur huit cents tableaux</l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="172"> Ainsi parle l’amateur de peinture, avec un petit air entendu et tout heureux d’avoir eu l’occasion de placer là une quinzaine de mots empruntés à l’argot des peintres et qu’il a ramassés dans quelques ateliers. Éraste, fatigué de ces divers jargons, songe à se retirer, lorsque auprès du Jockey-club il rencontre un petit jeune homme très élégant, très frisé, lorgnon à l’ail, badine à la main, grands favoris... Ah ! celui-ci est le pire de tous ; il parle cheval, une langue spéciale que nos ennemis les Anglais semblent avoir inventée pour nous être désagréables. Voyons, Oronte, répétez ce rôle. </l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="173"> Je viens du Tattershall, où certain reporter... </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="174"> Ce n’est pas assez cheval, cela. Prononcez tout à fait à l’anglaise... </l>
+                </sp>
+        <sp who="#oronte">
+            <speaker> ORONTE. </speaker>
+                        <l n="175"> Je viens du Tattershall, où certain reporter</l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="176"> Je pourrais ajouter quelques autres fâcheux : l’amateur de musique par exemple, ou le collectionneur de faïences, ou le bibliomane, tous gens qui vous assomment de leurs prétendues connaissances et de leurs ridicules jargons ; mais vraiment si je voulais me moquer de tous les travers j’aurais fort à faire et ma besogne ne serait pas petite. De mon temps déjà et quoique, à mon avis, il n’y eût pas autant de gens ridicules qu’aujourd’hui, j’ai dû en laisser quelques-uns de côté. Que je reste encore un peu sur cette terre et je commencerai par ceux-là. Avocats et financiers que j’épargnai jadis, à vous le tour. Il y a bien assez longtemps que vous vous moquez de nous, il est juste enfin que nous prenions notre revanche. Ah ! si je vous avais épargné aussi peu que les médecins, comme eux vous vous seriez perfectionnés ; car enfin les traits de ma satire ont fini par faire progresser ces bons docteurs de la faculté, et certes, aujourd’hui on peut leur rendre cette justice : ils tuent les gens bien plus savamment qu’autrefois.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#tartufe">
+            <speaker> TARTUFE, entrant. </speaker>
+                        <l n="177"> Laurent, serrez ma haire avec ma discipline,</l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="178"> Quelle est cette plaisanterie ? On voit bien que vous venez de déjeuner chez Corazza. </l>
+                </sp>
+        <sp who="#tartufe">
+            <speaker> TARTUFE. </speaker>
+                        <l n="179"> Que voulez-vous, un pauvre homme comme moi doit se mortifier : </l>
+                        <l n="180"> Laurent, serrez ma haire avec ma discipline,</l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="181"> Non, non, n’achevez pas. Je veux refaire mon Tartufe. </l>
+                </sp>
+        <sp who="#tartufe">
+            <speaker> TARTUFE. </speaker>
+                        <l n="182"> Comment, refaire votre chef-d’œuvre ? </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="183"> Non, mais plutôt en faire un second. Ah ! mes amis, le temps a marché et Tartufe a fait du pro grès ! Certainement il est encore des gens qui </l>
+                        <l n="184"> Font de dévotion métier et marchandise, </l>
+                        <l n="185"> et qui veulent </l>
+                        <l n="186"> Nous assassiner avec un fer sacré, </l>
+                        <l n="187"> mais ils ne sont plus aussi nombreux, ni surtout aussi dangereux qu’autrefois. Un autre mal nous tourmente aujourd’hui ; une hypocrisie d’autre sorte est venue se placer à côté de l’ancienne... De nos jours, on voit peu de dévotion dans le monde et par conséquent peu de personnes songent à se couvrir de son masque pour faire leur chemin. Savez-vous bien ce que Tartufe est aujourd’hui ? </l>
+                </sp>
+        <sp who="#tartufe">
+            <speaker> TARTUFE. </speaker>
+                        <l n="188"> Non. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="189"> Il est... Mais ne le dites à personne, je vous en prie... vous me brouilleriez avec trop de gens. </l>
+                </sp>
+        <sp who="#tartufe">
+            <speaker> TARTUFE. </speaker>
+                        <l n="190"> Eh bien ! qu’est-il ? </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="191"> Il est... libre-penseur. </l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="192"> Oh ! ce n’est pas possible. C’est une calomnie. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="193"> Vous êtes libéral et vous vous emportez ? </l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="194"> Je m’emporte ! je m’emporte !... car, enfin, comment prouverez-vous ? Est-ce que les libéraux sont des hypocrites ? </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="195"> Écoutez-moi, je vous en prie. </l>
+                </sp>
+        <sp who="#trissotin">
+            <speaker> TRISSOTIN. </speaker>
+                        <l n="196"> Voyons, j’écoute. </l>
+                </sp>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="197"> Dans Tartufe, je n’ai pas entendu me moquer des dévots, mais bien des faux dévots, et j’ai fait dire à Cléante : </l>
+                        <l n="198"> Et comme je ne vois nul genre de héros</l>
+                        <l n="199"> Ainsi, je n’accuse pas Tartufe de s’être fait libéral, mais de singer le libéralisme et d’être un faux libéral : </l>
+                        <l n="200"> Et comme je ne vois nul genre de héros</l>
+                        <l n="201"> Oui, mon ami, voilà les Tartufes du jour. Au lieu de simuler l’austérité religieuse, ils simulent l’austérité sociale, au lieu de prendre le masque des vertus chrétiennes, ils prennent le masque des vertus politiques, au lieu d’abriter leur égoïsme sous un faux amour de Dieu, ils l’abritent sous un faux amour de l’humanité ; à la place de leur prétendue charité, ils ont mis une prétendue philanthropie, et pour finir enfin, comme ils singeaient la foi dans un siècle de religion, ils singent l’incrédulité dans un siècle de philosophie. Mais brisons là ces discours, l’heure s’avance et la répétition d’aujourd’hui est assez longue comme cela. Demain, nous répéterons encore quelques rôles que je veux modifier dans mes anciennes comédies... et puis j’en ferai de nouvelles. Vous pouvez sortir, mes amis. </l>
+                        <l n="202"> Ils sortent.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#molière">
+            <speaker> MOLIÈRE. </speaker>
+                        <l n="203"> Tiens ! mon auteur comique paraît plongé dans la rêverie. Ne l’en retirons pas. </l>
+                        <l n="204"> Prenant une plume.</l>
+                        <l n="205"> Que j’ajoute seulement un mot sur son manuscrit. </l>
+                        <l n="206"> Il écrit. </l>
+                        <l n="207"> Voilà. </l>
+                        <l n="208"> Il sort.</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#un-auteur">
+            <speaker> L’AUTEUR, sortant de sa rêverie </speaker>
+                        <l n="209"> Oui, Molière lui-même, ce grand comique, il était là... là... tout près de moi. Je le voyais, je l’entendais... il me faisait entrevoir, ce me semble, la comédie du jour à travers la comédie de son temps. Mais, non, ce n’était là qu’un rêve... Ah ! revenons à la réalité... Voyons... où donc est mon manuscrit... mon manuscrit, que j’essaye d’y fixer mes visions de tout à l’heure. Ah ! voici mon papier. Mon œuvre n’est pas très avancée : Comédie en un acte... C’est tout ! Hélas ! c’est tout... Il me semble que dans mon rêve je présentais ce manuscrit virginal à Molière, et que le grand comique me disait d’un ton moqueur : Ce n’est pas mal cela, et pourvu que le reste de la pièce soit aussi bon... Mais que vois-je ? sur la dernière page un mot tracé d’une main inconnue ? quel est ce mot ? </l>
+                </sp>
+        <sp who="#fin-!">
+            <speaker> FIN ! </speaker>
+                        <l n="210"> Fin !... Ah ! je comprends, et la main inconnue qui a tracé ce mot m’avertit par là et me donne un bon conseil : si je ne veux pas être sifflé, je dois finir ma pièce avant que de la commencer. Eh bien ! soit... je déchire mon manuscrit... et je n’ai fait qu’un rêve ! </l>
+                        <l n="211"> </l></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

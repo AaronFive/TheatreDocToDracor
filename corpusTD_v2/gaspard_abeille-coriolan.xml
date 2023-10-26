@@ -1,0 +1,2585 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Coriolan</title>
+                <title type="sub">Tragédie</title>
+            <author>
+                <persName>
+                    <forename>Gaspard</forename>
+                    <surname>Abeille</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/?q=node/10 </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="print" when="1676">
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="c.-martius" sex="SEX">
+                            <persName>C. MARTIUS</persName>
+                        </person>
+                        <person xml:id="aufide" sex="SEX">
+                            <persName>AUFIDE</persName>
+                        </person>
+                        <person xml:id="camille" sex="SEX">
+                            <persName>CAMILLE</persName>
+                        </person>
+                        <person xml:id="virgilie" sex="SEX">
+                            <persName>VIRGILIE</persName>
+                        </person>
+                        <person xml:id="albin" sex="SEX">
+                            <persName>ALBIN</persName>
+                        </person>
+                        <person xml:id="sabine" sex="SEX">
+                            <persName>SABINE</persName>
+                        </person>
+                        <person xml:id="soldats" sex="SEX">
+                            <persName>SOLDATS</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Tragédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q80930]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">CORIOLAN</titlePart>
+            <titlePart type="sub">TRAGÉDIE</titlePart>
+        </docTitle>
+        <docDate when="1676">[Date Print Line]</docDate>
+        
+    <div type="dedicace">
+            <opener>
+                <salute> AU LECTEUR</salute>
+            </opener>
+        <p> Tous ceux qui connaissent l’ancienne Rome, savent ce que c’est que Coriolan : et ce serait faire tort à mes Lecteurs, que de vouloir les en instruire. Je me contenterais de marquer quelques circonstances plus obscures de mon Histoire, que l’on pourrait prendre, fins cela, pour des inventions de la Poésie. </p>
+        <p> Plutarque et Tite-Live ne s’accordent pas sur les noms des personnes qui eurent part à cette action, Tite-Live nomme le Général des Volsques Attius Tullus, la mère de Coriolan Veturie, et sa femme Volumnie. Au contraire, Plutarque donne le nom de Volumnie à la mère, celui de Virgilie à la femme, et celui de Tullus Aufidius au Volsque. J’ai préféré ces derniers noms aux premiers, parce qu’ils m’ont semblé plus commodes à notre Langue ; quoi que peut-être l’autorité de l’Auteur Grec, qui les rapporte, soit moins forte que celle du Romain. </p>
+        <p> Valérie n’est point un Personnage fabuleux, comme quelques-uns ont crû. C’est elle, disent ces Auteurs, à qui les Dieux inspirèrent le dessein d’envoyer vers Coriolan sa mère, et sa femme ; et qui les conduisit elle-même au Camp des Volsques. Ainsi, puisque Virgilie n’y parut véritablement que sous la conduite de cette Dame, j’ai pu feindre avec vraisemblance quelle n’y parut que sous son nom ; et que ce nom jeta Aufide et Coriolan dans une erreur, qui ne fait pas une des moindres beautés de la Pièce. </p>
+        <p> L’ordre rigoureux de Coriolan contre les Députés Romains, qui est le fondement de ma Fable, est fondé sur la vérité de l’Histoire. Denys d’Halicarnasse rapporte, qu’il fit défense à ces Députés de revenir dans son Camp ; et qu’il les menaça de les traiter en Espions, pour se délivrer de l’importunité de leurs prières. J’ai ajouté à ce motif la crainte des soupçons des Volsques, qui devaient être offensés de sa trop grande facilité à recevoir trois et quatre fois des Députations inutiles. </p>
+        <p> Pour ce qui est de son caractère, ceux qui m’ont blâmé de l’avoir trop attendri, lui font tort de le croire à l’égard de sa mère et de sa femme tel qu’il était à ses ennemis. Le même Coriolan que sa férocité naturelle, et la rigueur de sa vertu rendaient si terrible, et si odieux à la populace de Rome, ne peut tenir ses pleurs à l’abord de deux personnes si chères. Avant même quelles eussent ouvert la bouche pour lui parler, il fût emporté par sa tendresse comme par un torrent, à ce que dit Plutarque : et au rapport de Denys d’Halicarnasse, il s’abandonna aux mouvements les plus passionnés dont le cœur humain soit capable. Il n’était pas même dans un âge à se défendre de ces douces faiblesses. Tite-Live l’appelle jeune homme au Siège de Coriole, qui ne précéda sa mort que de cinq ans. Et puisque dans la vérité des choses, les pleurs de deux femmes étouffèrent en un seul jour, et par un seul entretien toute la violence de ses ressentiments, il faut dire qu’il ne perdit la vie que pour avoir eu l’âme trop tendre. Je ne vois donc pas quelle raison il y a de se le figurer comme un homme glacé par le froid de l’âge, et par l’austérité de sa vertu. J’ai fait assez éclater cette austérité dans les Scènes où il s’agit principalement des intérêts de sa gloire, au premier et au quatrième Acte. Mais dans les Scènes où il ménage ceux de son amour, je me suis contenté d’interrompre de temps en temps le cours de sa tendresse par quelques subits retours de colère, qui servent à marquer son caractère naturel, et les combats qu’il rend pour le soutenir contre l’amour. </p>
+        <p> La mère de Coriolan que j’ai mise à l’écart à cause de son grand âge, et sa femme que j’ai changée en maîtresse, sont deux libertés si commodes, et que tant de gens trouvent si fort à leur gré, que je dois avoir peu d’égard à la critique de quelques esprits délicats, qui se croient seuls en droit de tourner les circonstances de l’Histoire à leur avantage. Je n’ignore pas que Virgilie n’eût eu des enfants de son mariage mais ce mariage était si récent, et ces enfants si petits au temps de l’exil de Coriolan, que deux ans après, au rapport de Plutarque, lorsque Valérie vint trouver Volumnie dans sa maison, pour concerter le dessein de leur sortie, elle trouva ces mêmes enfants, qui jouaient sur le sein de leur mère. Cela suffit, pour faire voir que le Parachronisme n’est pas si criminel dans l’usage que j’en ai fait : ayant mis les choses en telle disposition, que le jour de l’exil de Coriolan, était celui-là même qu’il avait destiné pour son mariage. </p>
+        <p> C’est avec la même liberté que j’ai changé le temps et le lieu de sa mort. Elle arriva chez les Volsques dans une sédition qu’Aufide excita contre lui. Il est certain que ce fût dans la même année, et sous les mêmes Consuls qui gouvernaient Rome durant le Siège : et depuis cette mort jusqu’à la fin de l’année il se passa tant de choses, qu’il faut croire que la mort de Coriolan suivit de bien près son retour au pays des Volsques. De sorte que je n’ai avancé les événements que de peu de jours, quand je l’ai fait mourir au Camp devant Rome, et la nuit même du Décampement. </p>
+        <p> Quelqu’un pourrait-il s’en offenser, après que toute la France a donné de si justes applaudissements à une Pièce, ou tous les périls que César courut en Égypte après la mort de Pompée, et plus d’une année de sa vie est resserrée avec tant d’art et tant de majesté dans l’espace du jour dramatique ? Après que la mort de Pyrrhus a été si heureusement transportée de Delphes à Buthrot, par un Auteur qui est si bien entré dans l’esprit des Anciens, et dans les plus tendres endroits du cœur de l’homme ? On ne lui a pas non plus reproché l’admirable caprice d’Hermione, qui est la première à se désespérer de la mort de Pyrrhus, dont la jalousie est la seule cause : et qui tourne contre Oreste, qu’elle a choisi pour en être l’instrument, toute la fureur qu’elle semblait devoir également faire tomber sur lui, et sur Andromaque sa rivale. C’est cet exemple qui m’a enhardi à choisir Camille pour faire un récit passionné de la mort de Coriolan, et à lui donner pour son frère qui en est l’auteur, des sentiments si violents de dépit et de vengeance. Ma conduite, et celle de ce grand Auteur, sont appuyées sur des raisons prises de la nature des mouvements de notre âme. Dans les atteintes subites de plusieurs passions opposées, la dernière blessure est toujours la plus sensible. De deux biens que l’on recherche avec ardeur, celui que nous perdons nous inspire avec plus de douleur le regret de si perte, que la possession de celui qui nous reste ne nous inspire de plaisir. Ainsi Camille est plus vivement touchée de la perte imprévue de Coriolan, que du plaisir de la vengeance quelle pourrai exercer sur sa rivale : et le coup qu’Aufide vient de porter à son cœur est plus cruel et plus pénétrant que l’injure qu’elle avait reçue de Virgilie. C’est pourquoi dans cet instant, elle regarde son frère comme son principal ennemi, et sa rivale lui devient chère par la conformité de leurs intérêts, et de leurs passions. </p>
+        <p> J’ajoute que je crois avoir assez bien établi la vertu, et la modération de Camille à l’égard de Virgilie, pour la rendre capable de cet effort. Pour ce qui est du rang quelle tient dans le Gouvernement de l’État et de l’Armée : l’exemple de Tanaquil et de Tullie que je fais rapporter par Albin dès la première Scène, suffit, ce me semble, pour l’autoriser. Son humeur guerrière a son modèle dans la Camille de l’Æneïde, qui était Volsque aussi bien quelle, et qui avait formé aux exercices des Amazones plusieurs Filles de la même Nation. C’est de là que j’ai tiré exprès le nom, et une partie du caractère de cette Princesse. </p>
+        <p> Ma principale gloire est de n’avoir point déplu dans un sujet que l’on n avait pu jusqu’à présent assujettir aux règles du Théâtre : et que tant de fameux Auteurs n’auraient pas abandonné à ceux qui voudraient suivre leurs pas, s’ils l’eussent cru capable de quelque ornement et de quelque grâce. J’avoue que je dois une partie de son succès aux soins de ceux qui l’ont représenté : et quoi que leur propre gloire les engageait à faire tous leurs efforts pour réussir dans les sujets sérieux dont on les croyait moins capables que des Comiques ; je ne laisse pas de leur avoir obligation d’avoir désabusé le Public d’une erreur qui ne leur était guère plus désavantageuse qu’à moi, qui n’aurai plus tant de sujet de craindre pour les Pièces que j’espère leur confier à l’avenir. </p>
+    </div>
+           <div type="act" xml:id="1">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1"> Quoi toujours les Romains viendront m’inquiéter ?</l>
+                        <l n="2"> De quoi leurs Députés peuvent-ils se flatter,</l>
+                        <l n="3"> Albin ? N’ont-ils pas su que s’ils osaient paraître,</l>
+                        <l n="4"> Le Volsque de leur sort disposerait en maître ?</l>
+                        <l n="5"> Que la mort ou les fers les attendaient ici ? </l>
+                        <l n="6"> Ils n’ont pu l’ignorer.</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="7"> Ils l’ont appris aussi,</l>
+                        <l n="8"> Seigneur : mais ils ont crû qu’un ordre si sévère</l>
+                        <l n="9"> N’était point contre un sexe à qui chacun veut plaire :</l>
+                        <l n="10"> Et qu’ils éviteraient l’effet de vos rigueurs,</l>
+                        <l n="11"> S’ils envoyaient vers vous les Vestales en pleurs.</l>
+                        <l n="12"> Elles sont en ces lieux. Dans le quartier d’Aufide</l>
+                        <l n="13"> Les Volsques ont conduit cette troupe timide :</l>
+                        <l n="14"> Chez Camille, Seigneur, elle a passé la nuit.</l>
+                        <l n="15"> Voyez à quel péril votre ordre les réduit ?</l>
+                        <l n="16"> On sait que votre abord aux Romains trop facile,</l>
+                        <l n="17"> Vous a rendu suspect à ce Peuple indocile :</l>
+                        <l n="18"> Et que pour apaiser les esprits irrités,</l>
+                        <l n="19"> Aufide vous engage à ces sévérités :</l>
+                        <l n="20"> Mais exposerez-vous au caprice d’un homme...</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="21"> Ramenons-les, Albin, triomphantes à Rome :</l>
+                        <l n="22"> Et sur ses murs détruits brisons avec éclat</l>
+                        <l n="23"> Leurs chaînes et les fers que porte le Sénat.</l>
+                        <l n="24"> Aussi-bien il est temps qu’une pleine victoire</l>
+                        <l n="25"> Venge enfin mon amour et répare ma gloire.</l>
+                        <l n="26"> Ces Prêtres, ces Tribuns rampants à mes genoux,</l>
+                        <l n="27"> N’ont que trop suspendu l’effet de mon courroux.</l>
+                        <l n="28"> Dans le sang des Ingrats dont l’audace m’affronte,</l>
+                        <l n="29"> Il faut de mon exil aller laver la honte :</l>
+                        <l n="30"> Et leur faire expier l’oubli de mes bienfaits,</l>
+                        <l n="31"> Par un long souvenir des maux que j’aurai faits.</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="32"> Oui, si Rome n’obtient la paix qu’elle demande,</l>
+                        <l n="33"> À vos efforts, Seigneur, il faut qu’elle se rende :</l>
+                        <l n="34"> Mais si pour se détendre elle manque de bras,</l>
+                        <l n="35"> Croyez-vous que les Dieux ne la défendent pas ?</l>
+                        <l n="36"> Ces Dieux qui par cent voix dont retentit le Tibre,</l>
+                        <l n="37"> Déclarent qu’à jamais Rome doit être libre :</l>
+                        <l n="38"> Et qui depuis vingt ans qu’elle n’a plus de Rois,</l>
+                        <l n="39"> Ont soumis nos voisins à ses nouvelles Lois ?</l>
+                        <l n="40"> Voudront-ils maintenant démentir leurs présages ?</l>
+                        <l n="41"> Eux dont vous avez vu les plus saintes Images</l>
+                        <l n="42"> Entre les bras tremblants de leurs Prêtres confus, </l>
+                        <l n="43"> Vous demander la paix en ennemis vaincus ;</l>
+                        <l n="44"> Se livrer pour garants de la foi populaire ;</l>
+                        <l n="45"> Et sans pouvoir fléchir votre âme trop sévère,</l>
+                        <l n="46"> Remporter vos refus jusques sur les Autels</l>
+                        <l n="47"> Où leur courroux se rend aux soupirs des mortels.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="48"> Je vois assez sur quoi ton scrupule se fonde,</l>
+                        <l n="49"> Rome doit être un jour la maîtresse du monde.</l>
+                        <l n="50"> Les Dieux l’ont prononcé. Je respecte leur voix :</l>
+                        <l n="51"> Mais cette Rome, Albin, n’est pas ce que tu crois.</l>
+                        <l n="52"> Je ne la connais point cette Rome immortelle,</l>
+                        <l n="53"> Dans une populace inconstante et rebelle :</l>
+                        <l n="54"> Je ne la connais point dans ces restes impurs</l>
+                        <l n="55"> Des brigands, qui jadis vinrent peupler ses murs :</l>
+                        <l n="56"> Dans ces membres mutins qu’on a vu par envie</l>
+                        <l n="57"> S’armer contre le cœur qui leur donne la vie :</l>
+                        <l n="58"> Assiéger le Sénat de leurs cris importuns :</l>
+                        <l n="59"> Du pouvoir des Consuls revêtir leurs Tribuns :</l>
+                        <l n="60"> M’arracher en un mot du sein de ma Patrie :</l>
+                        <l n="61"> Et pour dire encor plus, des bras de Virgilie.</l>
+                        <l n="62"> Non, ce n’est point, te dis-je, à ca lâches Romains</l>
+                        <l n="63"> Que les Dieux ont promis l’empire des humains</l>
+                        <l n="64"> Ils sont trop criminels : et les Dieux sont trop justes.</l>
+                        <l n="65"> C’est à ce noble Sang, c’est aux restes augustes</l>
+                        <l n="66"> De ces braves Troyens, dont l’effort glorieux</l>
+                        <l n="67"> Jadis du feu des Grecs sauva ces mêmes Dieux.</l>
+                        <l n="68"> C’est ce dessein du Ciel que mon zèle seconde,</l>
+                        <l n="69"> Quand je viens affranchit ces Rois futurs du monde.</l>
+                        <l n="70"> Ont-ils vu les Tarquins hors du Trône expirants,</l>
+                        <l n="71"> Pour voir en leurs sujets revivre leurs Tyrans ?</l>
+                        <l n="72"> Rompons ce nouveau joug dont le poids les accable.</l>
+                        <l n="73"> Si Brute est innocent, pourquoi suis-je coupable ?</l>
+                        <l n="74"> Imitons-le : achevons contre un Peuple ennemi,</l>
+                        <l n="75"> Ce qu’en chassant Tarquin il n’a fait qu’à demi :</l>
+                        <l n="76"> Et méritons par là que l’avenir nous nomme</l>
+                        <l n="77"> Les Vainqueurs des Romains, et les vengeurs de Rome.</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="78"> Ces noms sont beaux Seigneur ; déjà vous les portés :</l>
+                        <l n="79"> Mais Brute au même prix les eût-il acceptés ;</l>
+                        <l n="80"> Allait-il emprunter des armes étrangères,</l>
+                        <l n="81"> Pour chasser les Tarquins du Trône de leurs pères ?</l>
+                        <l n="82"> Vous des Volsques domptez relevant les projets,</l>
+                        <l n="83"> Vous venez des Romains leur faire des sujets...</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="84"> Que Brute fût heureux, qui pour affranchir Rome,</l>
+                        <l n="85"> Aidé de tant de bras n’eût qu’à perdre un seul homme !</l>
+                        <l n="86"> Mais, Albin, que mon sort est digne de pitié !</l>
+                        <l n="87"> S’il faut pour sauver Rome en perdre la moitié !</l>
+                        <l n="88"> Et si ceux que je viens retirer d’esclavage,</l>
+                        <l n="89"> N’osent que de leurs vœux seconder mon courage !</l>
+                        <l n="90"> Voilà ce qui m’a fait chercher en d’autres lieux</l>
+                        <l n="91"> De quoi rendre la gloire au nom de nos Aïeux.</l>
+                        <l n="92"> Si de ce sang  abject qui l’a toujours flétrie,</l>
+                        <l n="93"> Je purge avec rigueur le sein de ma Patrie,</l>
+                        <l n="94"> Je traîne à mes côtés des peuples conquérants,</l>
+                        <l n="95"> Qui rempliront les murs vides de leurs tyrans ;</l>
+                        <l n="96"> Et qui réunissant deux Nations en une,</l>
+                        <l n="97"> Rendront nos descendants dignes de leur fortune.</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="98"> Et de cette union des vaincus aux vainqueurs,</l>
+                        <l n="99"> Dont les Siècles futurs goutteront les douceurs :</l>
+                        <l n="100"> Pour en rendre l’usage aux Romains plus facile,</l>
+                        <l n="101"> Vous donnerez l’exemple en épousant Camille ?</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="102"> Quoi ? sensible à l’amour que Camille a pour moi,</l>
+                        <l n="103"> À Virgilie, Albin, je manquerais de foi ?</l>
+                        <l n="104"> Rappelle en ton esprit cette triste journée</l>
+                        <l n="105"> Qu’aux douceurs de l’Hymen nous avions destinée ;</l>
+                        <l n="106"> Et que le sort propice à nos persécuteurs,</l>
+                        <l n="107"> Rendit par mon exil si funeste à nos cœurs.</l>
+                        <l n="108"> Céda-t-elle au torrent de la fureur commune ?</l>
+                        <l n="109"> Son amour changea-t-il avecque ma fortune ?</l>
+                        <l n="110"> Ne voulut-elle pas avec empressement</l>
+                        <l n="111"> Partager les horreurs de mon bannissement ?</l>
+                        <l n="112"> Exilé, mon malheur n’a point éteint sa flamme :</l>
+                        <l n="113"> Et vainqueur, je pourrais la bannir de mon âme ?</l>
+                        <l n="114"> Non, j’attestais les Dieux en essuyant ses pleurs,</l>
+                        <l n="115"> Qu’un plus heureux moment réunirait nos cœurs.</l>
+                        <l n="116"> Ce moment n’est pas loin. Je tiendrai ma parole.</l>
+                        <l n="117"> Bientôt tu me verras au pic du Capitole</l>
+                        <l n="118"> Demander Virgilie à ces séditieux :</l>
+                        <l n="119"> Et de leur sang versé faire hommage à ses yeux.</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="120"> Vous croyez donc qu’Aufide y consente sans peine ?</l>
+                        <l n="121"> Que Camile vous cède aux vœux d’une Romaine ?</l>
+                        <l n="122"> Et qu’après la victoire elle vous laisse en paix</l>
+                        <l n="123"> Par de cruels mépris répondre à ses bienfaits ?</l>
+                        <l n="124"> Défiez-vous, Seigneur, de l’amour de Camille.</l>
+                        <l n="125"> Craignez tout d’un pouvoir qui lui rend tout facile.</l>
+                        <l n="126"> Est-ce dans notre Siècle un exemple inouï,</l>
+                        <l n="127"> Qu’aux caprices du sexe un peuple ait obéi ?</l>
+                        <l n="128"> On a vu Tanaquil recevoir de nos pères</l>
+                        <l n="129"> Sur un Trône usurpé des hommages sincères ;</l>
+                        <l n="130"> Et donnerait mépris de ses propres enfants,</l>
+                        <l n="131"> Un esclave pour maître aux Romains triomphant.</l>
+                        <l n="132"> Nous avons vu depuis la cruelle Tullie</l>
+                        <l n="133"> Envier à son père un vain reste de vie ;</l>
+                        <l n="134"> Et lui voyant quitter le Trône à pas trop lents,</l>
+                        <l n="135"> Elle-même y courir sur ses membres sanglants.</l>
+                        <l n="136"> Prétendez-vous, Seigneur, qu’en amante paisible,</l>
+                        <l n="137"> Camille qui peut tout soit alors insensible ?</l>
+                        <l n="138"> Et que les Volsques même approuvant votre choix</l>
+                        <l n="139"> De son amour trompé n’écoutent pas la voix ?</l>
+                        <l n="140"> Eux à qui cette voix tient lieu de mille Oracles,</l>
+                        <l n="141"> Quand de votre grandeur surmontant les obstacles,</l>
+                        <l n="142"> Elle fit partager entre son frère et vous,</l>
+                        <l n="143"> Le pouvoir absolu dont les Rois sont jaloux.</l>
+                        <l n="144"> S’ils ont tant fait pour vous par estime pour elle,</l>
+                        <l n="145"> Que ne feront-ils point pour venger sa querelle ?</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="146"> Ah ! je ne prétends point qu’ils comprennent mon cœur,</l>
+                        <l n="147"> Au nombre des sujets que leur fait ma valeur.</l>
+                        <l n="148"> Sous l’ombre d’un pouvoir qu’entre nous on divise,</l>
+                        <l n="149"> S’il faut payer leurs soins, que Rome leur suffise :</l>
+                        <l n="150"> Et que pour s’acquittera leur tour envers moi,</l>
+                        <l n="151"> Ils me laissent en paix disposer de ma foi.</l>
+                        <l n="152"> Mais à Camille, Albin, tu ne rends pas justice ;</l>
+                        <l n="153"> Non, elle n’attend point ce cruel sacrifice.</l>
+                        <l n="154"> Elle sait que mon cœur eût passé sous ses lois,</l>
+                        <l n="155"> Si l’amour m’eût permis de faire un nouveau choix.</l>
+                        <l n="156"> Elle est trop fière enfin, et son âme est trop belle,</l>
+                        <l n="157"> Pour s’applaudir des vœux d’un amant infidèle.</l>
+                        <l n="158"> Je me suis à son frère expliqué là-dessus :</l>
+                        <l n="159"> Et tous mes sentiments lui sont assez connus.</l>
+                        <l n="160"> Cependant penses-tu, qu’une si longue absence</l>
+                        <l n="161"> N’ait point de Virgilie ébranlé la constance ?</l>
+                        <l n="162"> Que son silence, Albin, me donne de souci !</l>
+                        <l n="163"> Et que je crains...</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="164"> Seigneur, Aufide vient ici.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="165"> Après tout ce que doit l’armée à votre zèle,</l>
+                        <l n="166"> Puis-je obtenir de vous une grâce nouvelle,</l>
+                        <l n="167"> Seigneur ?</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="168"> Vous pouvez tout exiger de ma foi.</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="169"> Celle dont il s’agit ne regarde que moi.</l>
+                        <l n="170"> Ne vous retirez pas : vous pouvez m’être utile,</l>
+                        <l n="171"> Albin ; et je voudrais que toute votre Ville</l>
+                        <l n="172"> Fût de mes sentiments instruite comme vous,</l>
+                        <l n="173"> Dès aujourd’hui peut-être elle serait à nous.</l>
+                        <l n="174"> Parmi tant de beautés dont Rome est ennoblie,</l>
+                        <l n="175"> Savez-vous bien, Seigneur, quel rang tient Valérie ?</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="176"> Oui, Seigneur, et je puis sans trop flatter mon sang,</l>
+                        <l n="177"> Vous dire qu’elle peut prétendre au premier rang.</l>
+                        <l n="178"> C’est la connaître assez.</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="179"> Quoi ? Seigneur, Valérie</l>
+                        <l n="180"> Par les liens du sang vous serait-elle unie ?</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="181"> Je dis plus : et par ceux d’une tendre amitié,</l>
+                        <l n="182"> Qui lui fait de mes maux prendre quelque pitié.</l>
+                        <l n="183"> Du secret de mon cœur pénétrant le mystère</l>
+                        <l n="184"> Aux beaux yeux que j’adore elle m’apprit à plaire :</l>
+                        <l n="185"> Et depuis que le sort m’a banni d’auprès d’eux,</l>
+                        <l n="186"> De deux cœurs séparés elle entretient les nœuds.</l>
+                        <l n="187"> Voilà ce qui me rend son amitié si chère :</l>
+                        <l n="188"> Mais pour vos intérêts enfin que puis-je faire ?</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="189"> Tout Seigneur, et le Ciel propice à mes désirs,</l>
+                        <l n="190"> A mis entre vos mains ma gloire et mes plaisirs.</l>
+                        <l n="191"> Sachez donc qu’au milieu de cent beautés rivales,</l>
+                        <l n="192"> Valérie en ce camp a conduit les Vestales,</l>
+                        <l n="193"> Se flattant que l’accès qu’elle avait près de vous,</l>
+                        <l n="194"> Ouvrirait à leurs cris un passage plus doux.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="195"> Valérie ! Ah ! cessez de vous en mettre en peine :</l>
+                        <l n="196"> Le sang, ni l’amitié ne peut rien sur ma haine,</l>
+                        <l n="197"> Ses sentiments sur moi ne sont point absolus :</l>
+                        <l n="198"> Si je lui dois beaucoup, je vous dois encor plus.</l>
+                        <l n="199"> Poursuivons. Du succès nous avons de sûrs gages :</l>
+                        <l n="200"> Les Vestales, leurs Dieux nous tiennent lieu d’otages.</l>
+                        <l n="201"> Déjà Rome est à nous.</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="202"> Oui, Seigneur, je le vois :</l>
+                        <l n="203"> Mais si Rome est à nous, je ne suis plus à moi.</l>
+                        <l n="204"> Après un mois d’assaut en vain Rome craintive</l>
+                        <l n="205"> Voit son vainqueur soumis à sa propre captive.</l>
+                        <l n="206"> J’aime ; et ce qui me fait plus de honte en aimant,</l>
+                        <l n="207"> La Victoire à ses yeux n’a coûté qu’un moment.</l>
+                        <l n="208"> C’est par vous que mon cœur honteux qu’on le surmonte,</l>
+                        <l n="209"> En espère à son tour la victoire aussi prompte.</l>
+                        <l n="210"> Vous pouvez d’un seul mot m’obtenir sur le sien, </l>
+                        <l n="211"> Ce que d’un seul regard et te a pris sur le mien.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="212"> Mes soins vous sont acquis, et votre amour m’honore :</l>
+                        <l n="213"> Mais il est important de le cache ; encore.</l>
+                        <l n="214"> Les Volsques sans mesure ennemis des Romains</l>
+                        <l n="215"> Pourraient impunément traverser nos desseins.</l>
+                        <l n="216"> Prenons Rome, Seigneur. La guerre étant finie,</l>
+                        <l n="217"> Alors je vous répons des vœux de Valérie.</l>
+                        <l n="218"> Jusques-là déguisés.</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="219"> Eh peut-on un moment</l>
+                        <l n="220"> Ou la voir sans l’aimer, ou se taire en l’aimant ?</l>
+                        <l n="221"> J’ai parlé. Qui n’eût cru ce moment favorable ?</l>
+                        <l n="222"> Je voyais dans ma tente un objet adorable</l>
+                        <l n="223"> Contre les fiers regards du soldat insolent,</l>
+                        <l n="224"> Chercher à mes genoux un asile en tremblant.</l>
+                        <l n="225"> Ses pleurs me déguisant la fierté de son âme,</l>
+                        <l n="226"> D’une fausse douceur enhardissaient ma flamme :</l>
+                        <l n="227"> Et sa mère semblait d’un œil encor plus doux</l>
+                        <l n="228"> Inviter sa tendresse à fléchir mon courroux.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="229"> Quoi ? sa mère en ces lieux l’aurait-elle suivie ?</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="230"> Oui, pour tyranniser ma déplorable vie.</l>
+                        <l n="231"> Par leurs soupirs flatteurs toutes deux m’ont séduit.</l>
+                        <l n="232"> Je n’ai pu résister. J’espérais que la nuit</l>
+                        <l n="233"> Ralentirait l’ardeur de ma flamme nouvelle,</l>
+                        <l n="234"> Ou que le jour naissant me la rendrait moins belle.</l>
+                        <l n="235"> Faibles amusements ! j’ai vu briller le jour :</l>
+                        <l n="236"> Et ses appas s’accroître avecque mon amour.</l>
+                        <l n="237"> Il a fallu parler. Sur la foi de ses larmes,</l>
+                        <l n="238"> J’ai couru m’avouer esclave de ses charmes.</l>
+                        <l n="239"> Que vous dirai-je, hélas ! j’ai vu dans ses dédains</l>
+                        <l n="240"> L’image de l’horreur qu’ont pour moi les Romains</l>
+                        <l n="241"> Troublé, confus, je viens tandis qu’on vous l’amène,</l>
+                        <l n="242"> Implorer votre adresse à surmonter la haine,</l>
+                        <l n="243"> Si mon empressement révolte ses esprits...</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="244"> Pour en venir à bout pressons nos ennemis.</l>
+                        <l n="245"> Sur tout à votre amour accoutumez Camille :</l>
+                        <l n="246"> Et pour nous ménager un entretien facile,</l>
+                        <l n="247"> Qu’en faveur de mon sang en ces lieux respecte,</l>
+                        <l n="248"> On donne à Valérie un peu de liberté.</l>
+                        <l n="249"> Je sais que de son sort Camille est la maîtresse.</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="250"> Il est vrai : mais ayez égard à ma faiblesse.</l>
+                        <l n="251"> Vous verriez son départ suivi de mon trépas :</l>
+                        <l n="252"> Au nom des Dieux, Seigneur, ne la renvoyez pas.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="253"> Non, sa présence ici pourra nous être utile,</l>
+                        <l n="254"> Et je veux la laisser au pouvoir de Camille :</l>
+                        <l n="255"> Mais au moins...</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="256"> C’est assez, pour prix d’un tel secours</l>
+                        <l n="257"> Je vais contre ma sœur seconder vos amours :</l>
+                        <l n="258"> Et de tant de raisons appuyer leur constance,</l>
+                        <l n="259"> Que son cœur s’accoutume à votre indifférence.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="260"> Oui, ce nouvel amour est un gage certain</l>
+                        <l n="261"> De l’union du Volsque avecque le Romain :</l>
+                        <l n="262"> Et surpris du bonheur que le Ciel vous envoyé,</l>
+                        <l n="263"> Je sens...</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="264"> Ah ! cher Albin, conçois-tu bien ma joie ?</l>
+                        <l n="265"> Il est vrai que d’Aufide avançant le bonheur,</l>
+                        <l n="266"> Je vais me délivrer de l’Hymen de sa sœur :</l>
+                        <l n="267"> Et de nos Nations cimenter l’alliance :</l>
+                        <l n="268"> Mais fais voir pour ma flamme un peu de complaisance. </l>
+                        <l n="269"> Après tant de chagrins, tant d’inquiets désirs,</l>
+                        <l n="270"> Qui de tous mes exploits corrompaient les plaisirs,</l>
+                        <l n="271"> Je puis apprendre enfin d’une bouche fidèle,</l>
+                        <l n="272"> Si Virgilie aspire à me voir auprès d’elle :</l>
+                        <l n="273"> Si de son tendre cœur rien ne m’est échappé :</l>
+                        <l n="274"> Si nul de mes rivaux n’en a rien usurpé.</l>
+                        <l n="275"> De tes moindres soupirs on va me rendre compte :</l>
+                        <l n="276"> Combien de mon exil elle a pleuré la honte :</l>
+                        <l n="277"> Combien pour ma victoire elle a formé de vœux :</l>
+                        <l n="278"> Je saurai tout. Albin, que je vais être heureux !</l>
+                        <l n="279"> Ne tardons point, allons, prévenons Valérie.</l>
+                        <l n="280"> On vient... Que vois-je ?</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="281"> Eh quoi, Seigneur ?</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="282"> C’est Virgilie.</l>
+                        <l n="283"> Albin, je suis perdu.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="284"> Ne vous alarmez pas,</l>
+                        <l n="285"> Seigneur, je ne viens point excuser des ingrats.</l>
+                        <l n="286"> De nos murs ébranlez par tant d’efforts funestes,</l>
+                        <l n="287"> Je ne viens qu’appuyer les déplorables restes.</l>
+                        <l n="288"> Abaissez la fierté de ce Peuple mutin :</l>
+                        <l n="289"> Aux ordres du Sénat soumettez son Destin.</l>
+                        <l n="290"> En subissant ce joug, il subira le votre :</l>
+                        <l n="291"> Mais du joug étranger sauvez et l’un et l’autre ;</l>
+                        <l n="292"> Contentez-vous enfin de régner sur les cœurs.</l>
+                        <l n="293"> Eh quoi ? par ces regards condamnez-vous mes pleurs ?</l>
+                        <l n="294"> Me reconnaissez-vous ? suis-je votre ennemie ?</l>
+                        <l n="295"> Et croyez-vous, Seigneur, voir ici Virgilie ?</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="296"> Je ne le crois que trop, Madame, et plût aux Dieux</l>
+                        <l n="297"> Que mon timide cœur peut démentir mes yeux !</l>
+                        <l n="298"> Vous ne me verriez point confus, hors de moi-même</l>
+                        <l n="299"> Vous prouver par ma crainte à quel point je vous aime.</l>
+                        <l n="300"> Non, Volsques ni Romains, rien ne me touche plus.</l>
+                        <l n="301"> Je vous vois, et je vois tous mes soins superflus.</l>
+                        <l n="302"> Qu’importe que par tout la Victoire me suive :</l>
+                        <l n="303"> Je viens affranchir Rome, et vous êtes captive.</l>
+                        <l n="304"> Pour prix de votre amour, pour fruit de mes exploits,</l>
+                        <l n="305"> Camille, Aufide ici vous tiennent sous leurs lois.</l>
+                        <l n="306"> Je suis aimé de l’une, et vous l’êtes de l’autre :</l>
+                        <l n="307"> J’ai su garder mon cœur garderez vous le votre, </l>
+                        <l n="308"> Madame ? Quelle force auront vos tristes pleurs</l>
+                        <l n="309"> Contre l’amour jaloux de vos cruels vainqueurs ?</l>
+                        <l n="310"> Vous êtes dans leurs fers.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="311"> J’y suis : mais en Romaine,</l>
+                        <l n="312"> Et ma captivité me cause peu de peine.</l>
+                        <l n="313"> Oui, Seigneur, je savais vos ordres inhumains,</l>
+                        <l n="314"> Et l’accueil qu’en ces lieux on faisait aux Romains.</l>
+                        <l n="315"> Trop sûre de tomber entre les mains d’Aufide,</l>
+                        <l n="316"> J’apporte dans ses fers un courage intrépide.</l>
+                        <l n="317"> Imitez mon exemple, et calmez votre effroi,</l>
+                        <l n="318"> Ou craignez plus pour Rome, et craignez moins pour moi.</l>
+                        <l n="319"> Vous perdez peu de chose en perdant Virgilie :</l>
+                        <l n="320"> Mais vous nous perdez tous perdant votre Patrie.</l>
+                        <l n="321"> Nous lui devons l’effet de nos premiers serments :</l>
+                        <l n="322"> Et nous sommes Romains avant que d’être amants.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="323"> Si nous sommes Romains, sommes-nous assez lâches</l>
+                        <l n="324"> Pour voir un si beau nom noirci de tant de taches ?</l>
+                        <l n="325"> Et pourriez-vous, Madame, aimer Coriolan</l>
+                        <l n="326"> Esclave d’un Tribun devenu son Tyran ?</l>
+                        <l n="327"> Non, pour des factieux vos pleurs sont peu sincères :</l>
+                        <l n="328"> Vous ne les plaignez point, vous pleurez mes misères.</l>
+                        <l n="329"> Vous concevez les maux que loin de vos attraits...</l>
+                        <l n="330"> Mais vous m’en éloignez peut-être pour jamais.</l>
+                        <l n="331"> Hélas ! je combattais avec un cœur tranquille</l>
+                        <l n="332"> Et la haine de Rome, et l’amour de Camille ;</l>
+                        <l n="333"> Et j’aurais fait céder avec même bonheur</l>
+                        <l n="334"> Camille à ma constance, et Rome à ma valeur.</l>
+                        <l n="335"> Faut-il que sur le point d’une double victoire,</l>
+                        <l n="336"> Traversant à la fois mon amour et ma gloire,</l>
+                        <l n="337"> Vous veniez de Camille ici prendre la loi,</l>
+                        <l n="338"> Et fournir aux Romains des armes contre moi ?</l>
+                        <l n="339"> Si vous m’aimiez encore, à ce péril extrême</l>
+                        <l n="340"> Deviez-vous sans pitié livrer tout ce que j’aime ?</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="341"> Non, Seigneur, de la feinte empruntant le secours,</l>
+                        <l n="342"> J’ai garanti vos feux du péril que je cours :</l>
+                        <l n="343"> J’ai trompé nos rivaux. Le nom de Valérie</l>
+                        <l n="344"> À leurs soupçons jaloux dérobe Virgilie.</l>
+                        <l n="345"> Je n’ai que vous à craindre en ces funestes lieux.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="346"> Eh quoi ? n’avez-vous rien à craindre de vos yeux ?</l>
+                        <l n="347"> En vain pour vous cacher vous usez d’artifice.</l>
+                        <l n="348"> Vos charmes, malgré vous, vous font rendre justice :</l>
+                        <l n="349"> Il fallait donc aussi pour votre sûreté,</l>
+                        <l n="350"> En cachant votre nom cacher votre beauté.</l>
+                        <l n="351"> Elle a déjà d’Aufide attiré les hommages ;</l>
+                        <l n="352"> Et vous ferez bientôt, si j’en crois mes présages,</l>
+                        <l n="353"> Comme de vos attraits Rome se l’est promis,</l>
+                        <l n="354"> De deux amis parfaits deux mortels ennemis.</l>
+                        <l n="355"> À quel indigne usage abaissez-vous vos charmes,</l>
+                        <l n="356"> Si vous vous en servez à diviser nos armes ?</l>
+                        <l n="357"> Et si pour garantir les Romains de nos coups, </l>
+                        <l n="358"> Vos yeux viennent semer la discorde entre-nous ?</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="359"> Ah ! je ne prétends point un si faible avantage.</l>
+                        <l n="360"> Mais si j’ose parler, Seigneur, à quel usage</l>
+                        <l n="361"> Abaissez-vous ici cette insigne valeur,</l>
+                        <l n="362"> Et ce bras autrefois de Rome défenseur ?</l>
+                        <l n="363"> Uni par un dépit à ce Peuple barbare,</l>
+                        <l n="364"> Vous craignez à mes yeux qu’on ne vous en sépare ?</l>
+                        <l n="365"> Et ces Temples, ces Dieux que vous avez quittez,</l>
+                        <l n="366"> Tant d’amis innocents que vous persécutez,</l>
+                        <l n="367"> Nos cœurs depuis deux ans séparés l’un de l’autre,</l>
+                        <l n="368"> Le mien du moins, le mien qui vient chercher le votre...</l>
+                        <l n="369"> Tous ces liens rompus vous touchent faiblement,</l>
+                        <l n="370"> Et ne vous cou fient pas un soupir seulement.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="371"> Ah ! ne me faites point un si cruel outrage,</l>
+                        <l n="372"> Mon cœur à votre empire est soumis sans partage.</l>
+                        <l n="373"> Ses chagrins, ses regrets, ses soupirs, ses douleurs,</l>
+                        <l n="374"> Ses vœux, tout est pour vous. Que Rome en cherche ailleurs.</l>
+                        <l n="375"> Que ne me traitez-vous avec même justice ?</l>
+                        <l n="376"> Pourquoi par tant de pleurs prévenir son supplice ?</l>
+                        <l n="377"> Et prodiguer pour elle au mépris de ma foi,</l>
+                        <l n="378"> Ces tendres sentiments qui ne sont dus qu’à moi ?</l>
+                        <l n="379"> Hélas ! je me flattais qu’en vos murs enfermée,</l>
+                        <l n="380"> D’un feu pareil au mien vous étiez animée ;</l>
+                        <l n="381"> Que parmi tant de cœurs où la haine régnait,</l>
+                        <l n="382"> J’avais le vôtre au moins dont l’amour me plaignait,</l>
+                        <l n="383"> Et dont les vœux secrets propices à ma gloire,</l>
+                        <l n="384"> Sous mes heureux drapeaux appelaient la victoire,</l>
+                        <l n="385"> Cependant aujourd’hui favorable aux Romains,</l>
+                        <l n="386"> Vous venez m’arracher la victoire des mains.</l>
+                        <l n="387"> C’est peu. Vous défiant du pouvoir de vos charmes,</l>
+                        <l n="388"> De votre mère encor vous empruntez les larmes.</l>
+                        <l n="389"> Vous l’amenez ici.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="390"> Non, ce n’est point, Seigneur,</l>
+                        <l n="391"> Ma mère, qui vous vient opposer sa douleur :</l>
+                        <l n="392"> C’est la vôtre.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="393"> La mienne ? Ah justes Dieux, Madame,</l>
+                        <l n="394"> Qu’entends-je ? Quels assauts livrez-vous à mon âme ?</l>
+                        <l n="395"> Quoi ? d’un commun accord, et dans un même jour,</l>
+                        <l n="396"> Vous armez contre moi la Nature et l’Amour ?</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="397"> Ne craignez rien ; pour peu que vous vouliez attendre,</l>
+                        <l n="398"> Ce n’est que contre moi qu’il faudra vous défendre.</l>
+                        <l n="399"> Votre Mère accablée et d’âge et de souci,</l>
+                        <l n="400"> Sûre d’un prompt trépas vous attend près d’ici.</l>
+                        <l n="401"> Laissez-la : refusez à sa pressante envie</l>
+                        <l n="402"> Un moment d’entretien qui lui rendrait la vie.</l>
+                        <l n="403"> La mort vous va bientôt délivrer de ses cris.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="404"> Eh de grâce, épargnez votre amant, et son fils.</l>
+                        <l n="405"> Mais j’empêcherai bien qu’en obligeant Aufide,</l>
+                        <l n="406"> Ma gloire à ma vertu ne coûte un parricide.</l>
+                        <l n="407"> Courons, Madame, allons tous deux à ses genoux,</l>
+                        <l n="408"> La rendre, s’il se peut, plus traitable que vous.</l></div></div>
+           <div type="act" xml:id="2">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#sabine">
+            <speaker> SABINE. </speaker>
+                        <l n="409"> Tandis que tout le camp s’abandonne à la joie,</l>
+                        <l n="410"> Madame, à quels chagrins demeurez-vous en proie ?</l>
+                        <l n="411"> Et d’où vient qu’en un temps pour vous si glorieux,</l>
+                        <l n="412"> Des larmes en secret échappent de vos yeux ?</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="413"> As-tu fait advenir cette aimable Romaine,</l>
+                        <l n="414"> Sabine ?</l>
+                </sp>
+        <sp who="#sabine">
+            <speaker> SABINE. </speaker>
+                        <l n="415"> Elle est encor dans la tente prochaine,</l>
+                        <l n="416"> Où sa mère avec elle, et leurs Dames en pleurs,</l>
+                        <l n="417"> Devant Coriolan font parler leurs douleurs :</l>
+                        <l n="418"> Mais, sans manquer aux lois que le respect m’impose,</l>
+                        <l n="419"> De cet empressement puis-je savoir la cause ?</l>
+                        <l n="420"> Quel plaisir aurez-vous d’essuyer ses chagrins ?</l>
+                        <l n="421"> De la voir devant vous accuser les Destins ?</l>
+                        <l n="422"> Et peut-être blâmer...</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="423"> N’importe, qu’elle vienne.</l>
+                        <l n="424"> Je veux la voir, unir ma douleur à la sienne :</l>
+                        <l n="425"> Et puis qu’il faut ouvrir mon secret à tes yeux,</l>
+                        <l n="426"> Je vais me déclarer pour Rome.</l>
+                </sp>
+        <sp who="#sabine">
+            <speaker> SABINE. </speaker>
+                        <l n="427"> Vous ? ô Dieux !</l>
+                        <l n="428"> Sur le point de jouir des fruits de la victoire,</l>
+                        <l n="429"> Vous-même pouvez-vous en refuser la gloire ?</l>
+                        <l n="430"> Eh quoi ? Songez-vous bien, Madame, que c’est vous</l>
+                        <l n="431"> Qui de Coriolan allumez le courroux ?</l>
+                        <l n="432"> Et qui n’avez conçu d’amour pour ce grand home,</l>
+                        <l n="433"> Qu’autant qu’il a conçu de haine contre Rome ?</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="434"> Oui, je l’aimais, Sabine, et pour me l’engager,</l>
+                        <l n="435"> L’amour ingénieux me fît tout ménager.</l>
+                        <l n="436"> Je crus que le portant à haïr sa Patrie,</l>
+                        <l n="437"> Sa haine s’étendrait jusques à Virgilie.</l>
+                        <l n="438"> Hélas ! que le succès répond mal à mes vœux !</l>
+                        <l n="439"> Le seul aspect de Rome a redoublé ses feux.</l>
+                        <l n="440"> Il n’envisage plus avec la même haine</l>
+                        <l n="441"> Ces détestables murs où son amour l’entraîne.</l>
+                        <l n="442"> C’est l’ardeur d’y revoir l’objet qui l’a charmé,</l>
+                        <l n="443"> Qui pour se les ouvrir le tient encore armé :</l>
+                        <l n="444"> Et bientôt sa valeur s’y faisant un passage,</l>
+                        <l n="445"> Du mépris de mes vœux ira lui faire hommage.</l>
+                        <l n="446"> N’en doutons point. Si Rome est soumise à sa loi,</l>
+                        <l n="447"> Vainqueur pour Virgilie, il est perdu pour moi.</l>
+                </sp>
+        <sp who="#sabine">
+            <speaker> SABINE. </speaker>
+                        <l n="448"> Pour vous qui lui donnant un glorieux asile,</l>
+                        <l n="449"> L’avez si bien vengé de son ingrate Ville :</l>
+                        <l n="450"> Vous qui de son pouvoir autorisant l’éclat...</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="451"> L’excès de sa vertu le force à m’être ingrat,</l>
+                        <l n="452"> Sabine ; avant l’exil qui me le fit connaître,</l>
+                        <l n="453"> De ce cœur que je brigue il n’était plus le maître.</l>
+                        <l n="454"> Je sus qu’à Virgilie engagé dès longtemps,</l>
+                        <l n="455"> Ses vœux toujours pour elle avaient été constants :</l>
+                        <l n="456"> Et qu’il fallait, tandis qu’il soupirait loin d’elle,</l>
+                        <l n="457"> Pour m’en faire un amant en faire un infidèle.</l>
+                        <l n="458"> Je l’entrepris. Et lui vainement combattu,</l>
+                        <l n="459"> Sans cesse à mes bienfaits opposa sa vertu.</l>
+                        <l n="460"> Ah ! qu’elle devait bien étouffer ma tendresse !</l>
+                        <l n="461"> Rien moins. Sa résistance augmenta ma faiblesse.</l>
+                        <l n="462"> Après mille soupirs et mille vains détours,</l>
+                        <l n="463"> Il fallut de mon frère emprunter le secours.</l>
+                        <l n="464"> On vit Coriolan : on parla d’alliance :</l>
+                        <l n="465"> De mon penchant secret on lui fit confidence :</l>
+                        <l n="466"> Et s’il n’eût pas encor disposé de sa foi,</l>
+                        <l n="467"> Il n’eût point balancé pour s’engager à moi.</l>
+                        <l n="468"> Il l’avoua lui-même : et cet aveu sincère</l>
+                        <l n="469"> Alluma mon amour plutôt que ma colère.</l>
+                        <l n="470"> Heureuse Virgilie, a qui tant d’ennemis</l>
+                        <l n="471"> N’ont pu ravir un cœur trop constamment soumis !</l>
+                        <l n="472"> De ce bonheur, Sabine, il faut que je la prive.</l>
+                        <l n="473"> Elle n’en peut jouir si Rome n’est captive.</l>
+                        <l n="474"> Puisse Rome à jamais garder sa liberté !</l>
+                        <l n="475"> Et par nos vains efforts accroître sa fierté !</l>
+                        <l n="476"> Puisse Coriolan voir après tant de peine,</l>
+                        <l n="477"> Malgré lui sa Patrie à couvert de sa haine ;</l>
+                        <l n="478"> Et la laissant en paix au lieu de l’accabler,</l>
+                        <l n="479"> N’emporter que l’honneur de l’avoir fait trembler !</l>
+                        <l n="480"> Alors pour me venger de l’amour qu’il me donne,</l>
+                        <l n="481"> S’il n’est à moi, qu’au moins il ne soit à personne ;</l>
+                        <l n="482"> Et que sans Virgilie il souffre autant d’ennui,</l>
+                        <l n="483"> Que j’en ressentirai de n’être pas à lui.</l>
+                        <l n="484"> C’est à quoi je me veux servir de Valérie.</l>
+                        <l n="485"> Elle est à ma Rivale étroitement unie.</l>
+                        <l n="486"> Je la renvoie.</l>
+                </sp>
+        <sp who="#sabine">
+            <speaker> SABINE. </speaker>
+                        <l n="487"> Eh quoi ? votre frère y consent,</l>
+                        <l n="488"> Lui qui dans les transports de son amour naissant...</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="489"> Oui, j’ai fait approuver son départ à mon frère :</l>
+                        <l n="490"> À son repos, au mien, il est trop nécessaire.</l>
+                        <l n="491"> Il le voit, et lui-même en prévoyant l’effet,</l>
+                        <l n="492"> Il m’applaudit déjà de tout ce que j’ai fait.</l>
+                        <l n="493"> Nous avons assez loin porté notre victoire,</l>
+                        <l n="494"> Dérobons pour l’amour quelque temps à la gloire.</l>
+                        <l n="495"> La guerre et le repos ont chacun leurs attraits,</l>
+                        <l n="496"> Mais voici Valérie, apprends tous mes secrets.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="497"> Eh bien, vous avez vu Coriolan, Madame ?</l>
+                        <l n="498"> Sans doute vos discours ont attendri son âme ;</l>
+                        <l n="499"> Ou si vous n’avez pu nous ravir son appui,</l>
+                        <l n="500"> Au moins vous ne devez vous en prendre qu’à lui.</l>
+                        <l n="501"> Quoi qu’un tel entretien peut nous être contraire,</l>
+                        <l n="502"> Nous vous Pavons permis seulement pour vous plaire :</l>
+                        <l n="503"> Des attraits si puissants n’ont jamais d’ennemis.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="504"> C’est là de vos vertus ce qu’on m’avait promis,</l>
+                        <l n="505"> Madame. Elles avaient rassuré mon courage :</l>
+                        <l n="506"> Mais de Coriolan j’attendais davantage.</l>
+                        <l n="507"> Nos cris autour de lui n’ont éclaté qu’en vain.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="508"> Le Volsque a donc le cœur moins dur que le Romain ;</l>
+                        <l n="509"> Et si Coriolan vous paraît inflexible,</l>
+                        <l n="510"> Aufide à vos soupirs eût été plus sensible ;</l>
+                        <l n="511"> Et l’amour l’eût rendu favorable à des pleurs,</l>
+                        <l n="512"> Qu’avec si peu de fruit vous prodiguiez ailleurs.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="513"> Hélas ! ce n’est point là ce que mes pleurs prétendent,</l>
+                        <l n="514"> Madame : c’est un peu de pitié qu’ils demandent.</l>
+                        <l n="515"> Je ne veux qu’obtenir au nom des Immortels,</l>
+                        <l n="516"> Qu’on ne les vienne point chasser de leurs autels ;</l>
+                        <l n="517"> Qu’on nous laisse arroser de larmes impuissantes</l>
+                        <l n="518"> Les cendres de nos murs encor toutes fumantes ;</l>
+                        <l n="519"> Et qu’on en abandonne à la Postérité,</l>
+                        <l n="520"> Ces restes pour témoins que nous avons été.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="521"> Peut-être pourrez-vous obtenir davantage,</l>
+                        <l n="522"> Et votre liberté vous en est un présage.</l>
+                        <l n="523"> Je vous la rends.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="524"> Après cet excès de bonté,</l>
+                        <l n="525"> Dois-je...</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="526"> Vous me devez quelque sincérité.</l>
+                        <l n="527"> J’attends cela du moins de votre complaisance.</l>
+                        <l n="528"> Avouez-le. Un dessein autre que l’on ne pense</l>
+                        <l n="529"> Vous fait accompagner les Vestales ici ;</l>
+                        <l n="530"> Et Rome ne fait pas votre plus grand souci.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="531"> Moi ! qu’un autre intérêt...</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="532"> Je sais qu’à Virgilie</l>
+                        <l n="533"> Une tendre amitié depuis longtemps vous lie ;</l>
+                        <l n="534"> Que le bruit d’un Hymen dont on parle chez nous,</l>
+                        <l n="535"> A donné quelque alarme à son amour jaloux ;</l>
+                        <l n="536"> Et qu’enfin vous venez confidente fidèle</l>
+                        <l n="537"> Voir si Coriolan se souvient encor d’elle.</l>
+                        <l n="538"> Je le sais. C’est en vain que vous en rougissez.</l>
+                        <l n="539"> Je ne me trompe point.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="540"> Madame.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="541"> C’est assez.</l>
+                        <l n="542"> De ce que vous voyez vous-même allez l’instruire.</l>
+                        <l n="543"> Surtout apprenez-lui ce que je vais vous dire.</l>
+                        <l n="544"> C’est moi qui fais servir à mon ressentiment</l>
+                        <l n="545"> Le bras victorieux de son fidèle amant.</l>
+                        <l n="546"> C’est moi qui l’ai conduit au pied de vos murailles,</l>
+                        <l n="547"> Qui lui fait des Romains hâter les funérailles,</l>
+                        <l n="548"> Qui lui mets dans les yeux cet éclatant courroux,</l>
+                        <l n="549"> Qu’il n’a pas même osé modérer devant vous.</l>
+                        <l n="550"> Mais quelque ardent qu’il soit par l’espoir de me plaire,</l>
+                        <l n="551"> D’un seul de mes regards j’éteindrai sa colère :</l>
+                        <l n="552"> Et Rome le verra prompt à la soulager,</l>
+                        <l n="553"> Dès qu’en lui pardonnant il croira m’obliger.</l>
+                        <l n="554"> Allez à Virgilie en porter la nouvelle,</l>
+                        <l n="555"> C’est ce que son amour attend de votre zèle.</l>
+                        <l n="556"> Vous qui n’ignorez pas ce qui peut l’alarmer,</l>
+                        <l n="557"> Parlez ; quel jugement pourra-t-elle en former ?</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="558"> Hélas ! Vous pouvez bien l’apprendre par mes larmes ;</l>
+                        <l n="559"> Il faut, Madame, il faut que tout cède à vos charmes,</l>
+                        <l n="560"> Rien n’y peut résister. Ah ! leur fatal éclat,</l>
+                        <l n="561"> Du plus fidèle amant a fait le plus ingrat.</l>
+                        <l n="562"> Je ne le vois que trop. L’air dont il m’a reçue,</l>
+                        <l n="563"> Sa honte qu’il n’a pu déguiser à ma vue,</l>
+                        <l n="564"> Le trouble de ses yeux, l’embarras de son cœur, </l>
+                        <l n="565"> Tout m’a de son amante annoncé le malheur.</l>
+                        <l n="566"> Son âme de mes pleurs en vain enorgueillie,</l>
+                        <l n="567"> Ne me craignait pas moins qu’elle eût craint Virgilie :</l>
+                        <l n="568"> Mes yeux qu’il évitait avecque tant de soins,</l>
+                        <l n="569"> De sa première flamme ont été les témoins.</l>
+                        <l n="570"> Il s’en souvient, et souffre une peine cruelle ;</l>
+                        <l n="571"> De rougir devant moi d’une flamme nouvelle.</l>
+                        <l n="572"> Il sait trop l’intérêt que je prends à nourrir</l>
+                        <l n="573"> Ce feu, que j’ai vu naître, et que je vois mourir.</l>
+                        <l n="574"> Que je plains Virgilie, hélas ! survivrait-elle</l>
+                        <l n="575"> À son pays détruit par son amant rebelle !</l>
+                        <l n="576"> Que dis-je ? songe-t-elle en ce cruel moment</l>
+                        <l n="577"> Qu’après trois ans d’amour elle n’a plus d’amant ?</l>
+                        <l n="578"> Tant de serments si saints n’ont donc fait qu’un parjure ?</l>
+                        <l n="579"> Madame, à vos appas mes larmes font injure : </l>
+                        <l n="580"> En vain pour les cacher je fais ce que je puis. </l>
+                        <l n="581"> Malgré moi...</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="582"> Je conçois l’excès de vos ennuis.</l>
+                        <l n="583"> Ils ne m’offensent point : mais j’ai peine à comprendre</l>
+                        <l n="584"> Que l’amitié produise une douleur si tendre.</l>
+                        <l n="585"> Aux maux de Virgilie avez-vous tant d’égard ?</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="586"> Ah ! ses maux à mes pleurs n’ont que la moindre part.</l>
+                        <l n="587"> Je pleure mon pays réduit à l’esclavage, </l>
+                        <l n="588"> Puis qu’en de nouveaux fers Coriolan s’engage,</l>
+                        <l n="589"> Nous nous stations tandis qu’il aimait parmi nous,</l>
+                        <l n="590"> Que son amour pourrait balancer son courroux :</l>
+                        <l n="591"> Mais enfin vos appas engageant ce grand homme,</l>
+                        <l n="592"> Rompent le seul lien qui l’attachait à Rome :</l>
+                        <l n="593"> Nous perdons tout espoir de détourner ses coups,</l>
+                        <l n="594"> Et Rome est à vos pieds, si son cœur est à vous.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="595"> Oui, son cœur est à moi : mais sa foi chancelante</l>
+                        <l n="596"> Tient encor malgré lui pour sa première amante ;</l>
+                        <l n="597"> Faites qu’avec son cœur il me donne sa foi,</l>
+                        <l n="598"> Je fais lever le Siège.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="599"> Ô Dieux ! à quelle loi,</l>
+                        <l n="600"> Voulez-vous...</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="601"> Je vois bien ce qui vous inquiète :</l>
+                        <l n="602"> Virgilie aura lieu d’être peu satisfaite.</l>
+                        <l n="603"> Mais sur vos sentiments Rome a bien d’autres droits</l>
+                        <l n="604"> Vous le dites au moins, Madame, et je vous crois.</l>
+                        <l n="605"> Rendez-lui le repos. Vous n’avez qu’une voie</l>
+                        <l n="606"> Pour aller dans ses murs répandre cette joie :</l>
+                        <l n="607"> Mais elle est sûre, et dès que vous l’aurez voulu,</l>
+                        <l n="608"> La paix est résolue et le traité conclu.</l>
+                        <l n="609"> C’est, Madame, qu’il faut que vous et Virgilie,</l>
+                        <l n="610"> (Car vous seules pouvez sauver votre Patrie)</l>
+                        <l n="611"> Par un heureux effort secondant mes souhaits,</l>
+                        <l n="612"> Vous soyez les liens de cette illustre paix.</l>
+                        <l n="613"> Il faut que par vos mains nos discordes finissent ;</l>
+                        <l n="614"> Que par un double Hymen nos deux Peuples s’unissent ;</l>
+                        <l n="615"> Et que Coriolan devenant mon époux,</l>
+                        <l n="616"> Aufide soit le vôtre.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="617"> Ô Ciel ! que dites-vous ?</l>
+                        <l n="618"> Moi de Coriolan j’irais... hélas ! Madame,</l>
+                        <l n="619"> Vous savez que je n’ai nul pouvoir sur son âme ;</l>
+                        <l n="620"> Qu’il ne m’écoute point : qu’après tant d’amitié</l>
+                        <l n="621"> Je n’ai pas reçu même un regard de pitié. </l>
+                        <l n="622"> Faut-il qu’à ses mépris sans cesse je m’expose ?</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="623"> Sur Virgilie au moins vous pouvez quelque chose.</l>
+                        <l n="624"> Allez la retrouver. Dites-lui qu’en ses mains</l>
+                        <l n="625"> Je mets absolument le destin des Romains :</l>
+                        <l n="626"> Que jusqu’à ce moment un scrupule de gloire</l>
+                        <l n="627"> A sur Coriolan retardé ma victoire :</l>
+                        <l n="628"> Qu’il faut qu’en ma faveur elle renonce aux droits</l>
+                        <l n="629"> Qu’un serment sur son cœur lui donnait autrefois :</l>
+                        <l n="630"> Et qu’à quelqu’autre amant joignant sa destinée ;</l>
+                        <l n="631"> Elle nous laissé en paix conclure l’Hyménée.</l>
+                        <l n="632"> En un mot, obtenez qu’elle prenne un époux :</l>
+                        <l n="633"> Rendez-vous à l’amour que mon frère a pour vous,</l>
+                        <l n="634"> Rome est libre à ce prix.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="635"> Quoi c’est à Virgilie</l>
+                        <l n="636"> De fournir un prétexte à l’ingrat qui l’oublie ?</l>
+                        <l n="637"> On veut que son exemple enhardisse la main</l>
+                        <l n="638"> Qui lui porte en tremblant le poignard dans le sein ? </l>
+                        <l n="639"> En aurez-vous acquis un droit plus légitime,</l>
+                        <l n="640"> Quand elle aura par force autorisé le crime ?</l>
+                        <l n="641"> Et que par vous réduite à ces extrémités,</l>
+                        <l n="642"> Elle ira mendier un époux.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="643"> Écoutez,</l>
+                        <l n="644"> Madame ; je ne sais par quel généreux zèle</l>
+                        <l n="645"> Ne disant tien pour vous, vous parlez tant pour elle ?</l>
+                        <l n="646"> Rome ou Coriolan : l’un ou l’autre est à moi,</l>
+                        <l n="647"> Qu’elle choisisse. Vous modérez votre effroi : </l>
+                        <l n="648"> Et devenant sensible à l’amour de mon frère,</l>
+                        <l n="649"> Montrez à Virgilie un chemin pour me plaire.</l>
+                        <l n="650"> Jusques-là qu’entre nous nos desseins soient secrets :</l>
+                        <l n="651"> À Coriolan même : autrement, point de paix.</l>
+                        <l n="652"> C’est à vous maintenant d’éviter la présence.</l>
+                </sp>
+        <sp who="#sabine">
+            <speaker> SABINE. </speaker>
+                        <l n="653"> Il vient, Madame.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="654"> Hélas.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="655"> Partez en diligence.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="656"> Eh qu’au moins devant vous je lui dite...</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="657"> Partez.</l>
+                        <l n="658"> Les Vestales déjà savent mes volontés ;</l>
+                        <l n="659"> Madame ; tout est prêt.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="660"> Ô Ciel ! quelle est ma peine,</l>
+                        <l n="661"> Où vais-je ?</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="662"> On vous attend, Sabine, qu’on la mène.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="663"> Ou je me trompe fort, ou je lis dans vos yeux,</l>
+                        <l n="664"> Seigneur, à quel dessein vous venez en ces lieux.</l>
+                        <l n="665"> Pour un sexe innocent votre cœur s’intéresse.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="666"> Madame, je veux bien avouer ma faiblesse :</l>
+                        <l n="667"> Il est vrai, je n’ai vu qu’avec quelque douleur</l>
+                        <l n="668"> Mes ordres observés avec tant de rigueur :</l>
+                        <l n="669"> Les Romaines au moins devaient être exceptées.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="670"> Soyez donc en repos, on les a respectées.</l>
+                        <l n="671"> J’ai prévenu vos soins. On leur va de ma part</l>
+                        <l n="672"> Porter en ce moment l’ordre de leur départ.</l>
+                        <l n="673"> Est est-ce assez ?</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="674"> Après cet effort de clémence,</l>
+                        <l n="675"> Madame, attendez tout de ma reconnaissance.</l>
+                        <l n="676"> C’est à moi de hâter l’effet de vos bontés.</l>
+                        <l n="677"> Je vous quitte : et j’y cours.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="678"> Non, Seigneur, arrêtez.</l>
+                        <l n="679"> De grâce envisagez ce que vous allez faire. </l>
+                        <l n="680"> C’est aigrir les soupçons d’un peuple téméraire,</l>
+                        <l n="681"> Qui vous croira toujours favorable aux Romains, </l>
+                        <l n="682"> S’il vous voit lui ravir set captives des mains.</l>
+                        <l n="683"> Je saurai sans péril, si vous m’en voulez croire,</l>
+                        <l n="684"> Avec leur liberté ménager votre gloire.</l>
+                        <l n="685"> N’y prenez nulle part ; laissez-m’en tout le soin.</l>
+                        <l n="686"> C’est à moi.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="687"> Vos bontés, Madame, vont trop loin.</l>
+                        <l n="688"> Mais auprès de l’objet que votre frère adore,</l>
+                        <l n="689"> Je ne puis m’empêcher de le servir encore ;</l>
+                        <l n="690"> Je l’ai promis. Sans doute après cette faveur</l>
+                        <l n="691"> Valérie aura peine à défendre son cœur.</l>
+                        <l n="692"> Un moment d’entretien...</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="693"> N’en prenez point la peine,</l>
+                        <l n="694"> C’en est fait. Je l’ai su rendre moins inhumaine :</l>
+                        <l n="695"> Aufide par mes soins a vaincu ses mépris :</l>
+                        <l n="696"> Et bientôt... Mais, Seigneur, vous paraissez surpris.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="697"> Madame dans son cœur Aufide a trouvé place ?</l>
+                        <l n="698"> Se peut-il...</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="699"> Avouez ce qui vous embarrasse :</l>
+                        <l n="700"> Vous vouliez par l’effet d’un zèle généreux,</l>
+                        <l n="701"> Que mon frère vous dût le succès de ses feux.</l>
+                        <l n="702"> Il ne le doit qu’à moi : laissez-m’en donc la gloire :</l>
+                        <l n="703"> Et ne me venez point troubler dans ma victoire.</l>
+                        <l n="704"> Adieu, je vais hâter leur départ de ce pas ;</l>
+                        <l n="705"> Mais laissez-moi de grâce, et ne me suivez pas.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="706"> Ingrate, je l’ai dit dès que je vous ai vue.</l>
+                        <l n="707"> C’est pour m’assassiner que vous êtes venue.</l>
+                        <l n="708"> Virgilie à mes yeux m’enlève donc sa foi ?</l>
+                        <l n="709"> Me préfère un rival ? m’insulte ? je le vois.</l>
+                        <l n="710"> Et je le souffre ? Albin, la plainte est inutile.</l>
+                        <l n="711"> Il faut s’aller saisir des chemins de la ville,</l>
+                        <l n="712"> L’arrêter au passage, empêcher un départ,</l>
+                        <l n="713"> Qui met et mon amour et ma gloire au hasard.</l>
+                        <l n="714"> Va, cours...</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="715"> Eh croyez moins ce transport de courage,</l>
+                        <l n="716"> Seigneur, et n’allez point perdre votre avantage.</l>
+                        <l n="717"> Assez d’autres grands soins troublent votre repos.</l>
+                        <l n="718"> L’amant aura ton temps, triomphez en Héros :</l>
+                        <l n="719"> Et remplissant les vœux de toute l’Italie...</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="720"> Quels vœux ! si leur succès me coûte Virgilie ?</l>
+                        <l n="721"> Quel triomphe ? crois-tu que la pompe d’un jour</l>
+                        <l n="722"> Éblouisse des yeux éclairez par l’amour ?</l>
+                        <l n="723"> Que de frêles lauriers qu’un vain peuple m’apprête,</l>
+                        <l n="724"> Puissent guérir mon cœur en couronnant ma tête ?</l>
+                        <l n="725"> C’est tarder trop longtemps. Nous la laissons partir,</l>
+                        <l n="726"> Albin : mais sans me voir peut-elle y consentir ?</l>
+                        <l n="727"> Éloigné de son cœur croit-elle que je vive ?</l>
+                        <l n="728"> Suis-moi...</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="729"> Quoi, vous voulez la voir encor captive ?</l>
+                        <l n="730"> La remettre au pouvoir...</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="731"> Non, je veux seulement</l>
+                        <l n="732"> Lui dire que je vais expirer en l’aimant,</l>
+                        <l n="733"> Mes soins pour l’attendrir peut-être auront des charmes,</l>
+                        <l n="734"> Hélas, sans m’émouvoir j’ai vu couler ses larmes !</l>
+                        <l n="735"> J’ai sur son triste cœur par des coups inhumains,</l>
+                        <l n="736"> Fait l’essai des rigueurs que j’apprête aux Romains.</l>
+                        <l n="737"> Elle est de ma fureur la première victime.</l>
+                        <l n="738"> Courons à ses genoux réparer notre crime.</l>
+                        <l n="739"> Viens, cher Albin...</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="740"> Seigneur, on m’enlève à mes yeux,</l>
+                        <l n="741"> On m’arrache l’objet... que vous aimez le mieux.</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="742"> Seigneur, on m’avait dit...</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="743"> Camille la renvoie :</l>
+                        <l n="744"> Pout vous la conserver il n’est plus qu’une voie.</l>
+                        <l n="745"> Qu’un moment.</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="746"> Je croyais...</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="747"> Ah n’y consentez pas.</l>
+                        <l n="748"> Voyez Camille : moi je marche sur ses pas :</l>
+                        <l n="749"> Et vais pour l’arrêter mettre tout en usage.</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="750"> Que vois-je ? quelle ardeur paraît sur son visage ?</l>
+                        <l n="751"> Je tremble, je frémis. Ô Ciel ! pourrait-il bien</l>
+                        <l n="752"> Avoir pris de l’amour en secondant le mien ?</l>
+                        <l n="753"> Je crains tout de son cœur ; des yeux de Valérie ;</l>
+                        <l n="754"> De mon malheur. Non, non, son âme est trop unie</l>
+                        <l n="755"> À l’objet qu’il aimait avant qu’il fût à nous.</l>
+                        <l n="756"> Mais aime-t-on jamais sans devenir jaloux ?</l>
+                        <l n="757"> Je le suis : à moi-même en vain je le déguise ;</l>
+                        <l n="758"> Laissons-lui sans obstacle achever l’entreprise.</l>
+                        <l n="759"> S’il aime, et que l’amour l’oblige à l’arrêter,</l>
+                        <l n="760"> Il aura plus de peine à me la disputer.</l>
+                        <l n="761"> Appuyons nos desseins des avis de Camille.</l>
+                        <l n="762"> Avis peut-être faux ! appui trop inutile !</l>
+                        <l n="763"> Que je crains, justes Dieux, en cet instant fatal,</l>
+                        <l n="764"> De perdre une maîtresse en trouvant un rival !</l></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="765"> Ne me répliquez point, je sais où je m’engage.</l>
+                        <l n="766"> Allez avec ma garde occuper le passage.</l>
+                        <l n="767"> Laissez-moi : je veux être un moment sans témoins.</l>
+                        <l n="768"> Qu’aucun n’approche. Allez, Albin, je vous rejoins.</l>
+                        <l n="769"> Madame, si jamais nos fortunes égales...</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="770"> Ah ! Seigneur, m’arracher du milieu des Vestales ?</l>
+                        <l n="771"> Venir sur ces chemins à mon passage ouverts,</l>
+                        <l n="772"> Vous-même de vos mains me recharger de fers ?</l>
+                        <l n="773"> Me ramener encor sous ces fatales tentes,</l>
+                        <l n="774"> Où j’ai tant répandu de larmes impuissantes...</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="775"> Dites plus : ou propice à des peuples ingrats,</l>
+                        <l n="776"> Vous avez sans pitié conjuré mon trépas.</l>
+                        <l n="777"> Entre Camille et vous ma perte est résolue :</l>
+                        <l n="778"> Vous fuyez ; et pour fuir vous évitez ma vue.</l>
+                        <l n="779"> Quand les cruels Romains m’arrachaient de vos bras,</l>
+                        <l n="780"> Ah, Virgilie, alors vous ne l’évitiez pas !</l>
+                        <l n="781"> Vous vouliez malgré moi vous unir à ma peine :</l>
+                        <l n="782"> Et du haut de ces murs d’où me chassait leur haine,</l>
+                        <l n="783"> Contrainte d’y languir sous leur injuste loi,</l>
+                        <l n="784"> Vos regards enflammez s’élançaient après moi.</l>
+                        <l n="785"> Aujourd’hui je vous cherche au milieu de cent autres :</l>
+                        <l n="786"> Je vous trouve : et mes yeux ne trouvent point les vôtres.</l>
+                        <l n="787"> Vous fuyez leur rencontre. Étrange changement :</l>
+                        <l n="788"> Craignez-vous que malgré votre ressentiment,</l>
+                        <l n="789"> Je n’y surprenne encore un reste de tendresse ?</l>
+                        <l n="790"> Car enfin je connais le remords qui vous presse :</l>
+                        <l n="791"> Et pour m’abandonner sans regret, sans effroi,</l>
+                        <l n="792"> Vous vous souvenez trop que vous êtes à moi.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="793"> Moi que je sois à vous ? qu’aucun serment me lie...</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="794"> À qui donc êtes-vous, cruelle Virgilie ?</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="795"> Je suis à ce Héros des Romains protecteur,</l>
+                        <l n="796"> Qui parmi les encens d’un peuple adorateur,</l>
+                        <l n="797"> Revenait triomphant des murs de Coriole</l>
+                        <l n="798"> Enchaîner la victoire au pic du Capitole.</l>
+                        <l n="799"> Je suis à ce Héros donc les premiers exploits</l>
+                        <l n="800"> Aux Volsques indomptés imposèrent des lois ;</l>
+                        <l n="801"> Et qui de leurs lauriers environnant sa tête,</l>
+                        <l n="802"> Couronna son vrai nom du nom de sa conquête.</l>
+                        <l n="803"> Est-ce vous ? Non, Seigneur, Coriolan n’est plus :</l>
+                        <l n="804"> Et je ne vois en vous que l’ingrat Martius.</l>
+                        <l n="805"> Gardez ce nom. Le Volsque en sera plus docile :</l>
+                        <l n="806"> Vous l’avez dû reprendre en faveur de Camille.</l>
+                        <l n="807"> Coriolan pour eux est un nom trop fatal ;</l>
+                        <l n="808"> Et leur vainqueur enfin n’est point leur Général.</l>
+                        <l n="809"> Cependant par la gloire à l’hymen entraînée,</l>
+                        <l n="810"> C’est à Coriolan que je me suis donnée ;</l>
+                        <l n="811"> Et je me donne encore à quiconque après lui</l>
+                        <l n="812"> Méritera ce nom, qu’il dément aujourd’hui.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="813"> Eh Madame, que sert d’affecter ce mystère ?</l>
+                        <l n="814"> Sans mériter ce nom, Aufide a su vous plaire.</l>
+                        <l n="815"> Volsque, amant de deux jours, ennemi des Romains,</l>
+                        <l n="816"> Ces titres n’ont pas même attiré vos dédains.</l>
+                        <l n="817"> Vous me le préférez.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="818"> Je le devrais peut-être :</l>
+                        <l n="819"> Mais ma pitié pour vous veut bien encor paraître.</l>
+                        <l n="820"> Mon Hymen en ces lieux bravant votre rigueur,</l>
+                        <l n="821"> Vous coûterait au moins quelque feinte douleur.</l>
+                        <l n="822"> Je ne veux point tenir vos vœux dans la contrainte ;</l>
+                        <l n="823"> Ni vous voir malheureux non pas même par feinte.</l>
+                        <l n="824"> Je ne pourrais cacher mes déplaisirs secrets ;</l>
+                        <l n="825"> Et vous entendriez mes soupirs de trop près.</l>
+                        <l n="826"> En l’état où je suis si quelqu’un doit me plaire,</l>
+                        <l n="827"> C’est parmi nos Romains accablez de misère.</l>
+                        <l n="828"> Leur sort plus que le votre est à mon sort égal ;</l>
+                        <l n="829"> Et c’est là que je vais vous chercher un rival.</l>
+                        <l n="830"> Portez où vous voudrez le vol que vous me faites :</l>
+                        <l n="831"> Ignorez qui je fuis : oubliez qui vous êtes,</l>
+                        <l n="832"> Vos devoirs, votre sang, votre nom, vos exploits :</l>
+                        <l n="833"> Et me bravez enfin pour la dernière fois.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="834"> Oui, de ces vains exploits j’ai perdu la mémoire.</l>
+                        <l n="835"> J’ai démenti mon sang, j’ai négligé ma gloire.</l>
+                        <l n="836"> Non plus Coriolan, ni même Martius ;</l>
+                        <l n="837"> Sous ces noms estrangers on ne me connaît plus.</l>
+                        <l n="838"> Votre amant. Ce nom seul me fait assez connaître ;</l>
+                        <l n="839"> C’est tout ce que je suis : tout ce que je veux être :</l>
+                        <l n="840"> Tout ce que m’a laissé l’implacable courroux</l>
+                        <l n="841"> De ceux qui m’ont ravi le nom de votre, époux ;</l>
+                        <l n="842"> Et tout ce qu’en ces lieux mendiant un asile,</l>
+                        <l n="843"> J’ai porté sans effroi jusqu’aux yeux de Camille.</l>
+                        <l n="844"> Ah ? je n’aurais point cru pour preuve de ma foi,</l>
+                        <l n="845"> Qu’il me fallut ramper sous une indigne loi ;</l>
+                        <l n="846"> Et d’un peuple insolent adorer le caprice.</l>
+                        <l n="847"> Je me flattais, sans doute avec quelque justice,</l>
+                        <l n="848"> Que pout éterniser le bonheur de mes jours,</l>
+                        <l n="849"> Il suffisait pour moi de vous aimer toujours.</l>
+                        <l n="850"> Je l’ai fait. Tout l’éclat d’une grandeur nouvelle</l>
+                        <l n="851"> N’a combattu qu’en vain mon cœur toujours fidèle :</l>
+                        <l n="852"> Camille et ses bienfaits n’ont pu tenter ma foi.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="853"> Eh si vous le pouvez, persuadez le moi.</l>
+                        <l n="854"> Assurez-moi qu’un cœur qui me doit tout son zèle,</l>
+                        <l n="855"> Si rigoureux pour moi n’est point tendre pour elle.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="856"> Pour elle ? moi.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="857"> Qui donc vous a mis à la main</l>
+                        <l n="858"> Ces armes que je vois fumer du sang Romain ?</l>
+                        <l n="859"> Non, non, pour m’abuser l’effort est inutile.</l>
+                        <l n="860"> Dans tout ce que je vois je reconnais Camille ;</l>
+                        <l n="861"> Et puis qu’il ne faut rien déguiser avec vous,</l>
+                        <l n="862"> Son amour vous prescrit cet injuste courroux.</l>
+                        <l n="863"> Obéissez, aimez, et selon son envie,</l>
+                        <l n="864"> Après mon triste amour immolez-lui ma vie.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="865"> Les traîtres ! les cruels ! enfin j’ouvre les yeux :</l>
+                        <l n="866"> Je vois que l’on m’impose un amour odieux.</l>
+                        <l n="867"> Je connais les auteurs de ce noir artifice :</l>
+                        <l n="868"> Mais ce nouveau forfait hâtera leur supplice.</l>
+                        <l n="869"> J’y cours. Lâches Romains, vous payerez dès ce jour</l>
+                        <l n="870"> Le tort que votre haine a fait à mon amour.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="871"> Quoi ? Seigneur, croyez-vous...</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="872"> Je sais ce qu’il faut croire,</l>
+                        <l n="873"> Camille aurait sur vous remporté la victoire ?</l>
+                        <l n="874"> Et pour vous de ma foi les Volsques trop certains</l>
+                        <l n="875"> Vous l’auraient dit ? non, non, ce coup part des Romains</l>
+                        <l n="876"> Avouez-le : et voyez jusqu’où va leur furie :</l>
+                        <l n="877"> C’est peu d’être banni du sein de ma Patrie,</l>
+                        <l n="878"> Les perfides, par tout jaloux de mon bonheur</l>
+                        <l n="879"> Me veulent donc encor bannir de votre cœur ?</l>
+                        <l n="880"> Et vous, Madame, et vous de leur dessein complice,</l>
+                        <l n="881"> D’une indigne pitié flattant leur injustice,</l>
+                        <l n="882"> Et contre votre amant révoltant vos douleurs,</l>
+                        <l n="883"> Vous venez dans son camp l’accabler de vos pleurs.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="884"> Je le vois, vous m’aimez.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="885"> Ils le verront, Madame,</l>
+                        <l n="886"> Et leur sang répandu justifiera ma flamme.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="887"> Ah ! justifiez-la par un plus noble effort.</l>
+                        <l n="888"> Je crois tout. Croyez moins cet aveugle transport.</l>
+                        <l n="889"> Si vous vous offensez d’un soupçon téméraire,</l>
+                        <l n="890"> Mon triste cœur doit seul sentir votre colère.</l>
+                        <l n="891"> Rome de ce soupçon ne l’a point alarmé :</l>
+                        <l n="892"> Dans ses chagrins jaloux lui seul se l’est formé.</l>
+                        <l n="893"> Hélas ! que de son crime il souffre bien la peine !</l>
+                        <l n="894"> Pour toucher votre cœur ma redresse est donc vaine,</l>
+                        <l n="895"> Seigneur ? mais cependant vous vous souvenez bien</l>
+                        <l n="896"> Qu’il vous a peu coûté pour triompher du mien :</l>
+                        <l n="897"> Que de faibles soupirs furent vos seules armes :</l>
+                        <l n="898"> Que Rome à ses soupirs ne joignit point ses larmes :</l>
+                        <l n="899"> Qu’on ne vit point les Dieux à mes genoux...</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="900"> Eh quoi</l>
+                        <l n="901"> Toujours excuser Rome, et n’accuser que moi ?</l>
+                        <l n="902"> Non, votre amour au mien n’a point fait cet outrage :</l>
+                        <l n="903"> De nos persécuteurs je reconnais la rage.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="904"> Seigneur, Camille vient. Un gros de ses soldats,</l>
+                        <l n="905"> Avec empressement s’avance sur ses pas.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="906"> Quoi ? de ma liberté s’est-elle repentie ?</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="907"> Non, non, vous êtes libre, ou je perdrai la vie :</l>
+                        <l n="908"> Je cours au devant d’eux, ne craignes rien. Albin,</l>
+                        <l n="909"> Conduisez vos soldats par un autre chemin.</l>
+                        <l n="910"> Je vous suivrai de près. Avant que le jour cesse,</l>
+                        <l n="911"> Les Romains connaîtront jusqu’où va ma tendresse :</l>
+                        <l n="912"> Et lorsque dans leur sang mon bras aura vengé</l>
+                        <l n="913"> Mon amour tant de fois lâchement outragé ;</l>
+                        <l n="914"> Vous choisirez, Madame, ou ma mort ou ma vie ;</l>
+                        <l n="915"> Et dans mon propre sang lavant leur calomnie</l>
+                        <l n="916"> Comme victime au moins si ce n’est comme époux</l>
+                        <l n="917"> Je convaincrai vos yeux que je n’aime que vous.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="918"> Oui, vous n’aimez que moi ; j’en sois trop convaincue.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="919"> Voici Camille, allez, cachez-vous à sa vue.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="920"> C’est assez différé, Madame, vengeons-nous :</l>
+                        <l n="921"> N’opposons plus à Rome un impuissant courroux.</l>
+                        <l n="922"> Il faut qu’un prompt assaut...</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="923"> Quelle ardeur vous enflamme</l>
+                        <l n="924"> Seigneur ? vous qui venez...</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="925"> Je vous entends, Madame.</l>
+                        <l n="926"> Je vois que l’on a pu mal juger de ma foi ;</l>
+                        <l n="927"> Que vous avez sujet de vous plaindre de moi.</l>
+                        <l n="928"> J’ai voulu malgré vous parler à Valérie.</l>
+                        <l n="929"> Il est vrai ; mais enfin, Madame, elle est partie,</l>
+                        <l n="930"> Ses larmes sur mon cœur ont été sans pouvoir ;</l>
+                        <l n="931"> Et vous me reverrez fidèle à mon devoir</l>
+                        <l n="932"> Les armes à la main suivre à l’instant ses traces,</l>
+                        <l n="933"> Et porter aux Romains l’effet de nos menaces.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="934"> Nous n’attendons rien moins d’un bras toujours vainqueur,</l>
+                        <l n="935"> Mais enfin à mon tour je lis dans votre cœur.</l>
+                        <l n="936"> Je vois que Valérie aigris votre colère</l>
+                        <l n="937"> Par l’espoir qu’elle donne à l’amour de mon frère ;</l>
+                        <l n="938"> Qu’un pareil intérêt...</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="939"> Eh du moins pour un jour</l>
+                        <l n="940"> Songeons à la victoire et laissons-là l’amour.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="941"> Oui, mais avec l’amour laissons aussi la feinte.</l>
+                        <l n="942"> C’est pour une grande âme une lâche contrainte :</l>
+                        <l n="943"> Et je n’aurais pas cru qu’un Héros tel que vous,</l>
+                        <l n="944"> D’un secours si honteux dût s’armer contre nous.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="945"> Moi feindre ? moi couvrir d’un indigne artifice.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="946"> Vous, Seigneur, écoutez : et faites-vous justice. </l>
+                        <l n="947"> Je vous ai vu couvert du sang de nos soldats,</l>
+                        <l n="948"> Menacer de vos fers et nous et nos États.</l>
+                        <l n="949"> Je vous ai vu depuis banni de votre ville,</l>
+                        <l n="950"> Venir dans mon Palais mendier un asile.</l>
+                        <l n="951"> Votre mérite était un outrage pour nous :</l>
+                        <l n="952"> Et jusqu’à votre nom tout parloir contre vous :</l>
+                        <l n="953"> Cependant de quel œil vis-je votre misère ?</l>
+                        <l n="954"> Je vous fis partager le pouvoir de mon frère :</l>
+                        <l n="955"> Contre ses intérêts je devins votre appui :</l>
+                        <l n="956"> Et l’armée est à vous si le peuple est à lui.</l>
+                        <l n="957"> Voilà, s’il vous en reste encor quelque mémoire,</l>
+                        <l n="958"> Ce que me fit oser le soin de votre gloire.</l>
+                        <l n="959"> Pour l’amour, vous savez qu’en arrivant chez nous</l>
+                        <l n="960"> L’éclat de vos vertus m’en inspira pour vous,</l>
+                        <l n="961"> Je ne m’en défends pas. Vous m’ouvrîtes votre âme </l>
+                        <l n="962"> Vous ne cachâtes point votre première flamme.</l>
+                        <l n="963"> Je la vis : et j’aimai cette sincérité</l>
+                        <l n="964"> Plus que je n’aurais fait votre infidélité.</l>
+                        <l n="965"> Bien plus. De cet aveu mon amour vous tint compte</l>
+                        <l n="966"> Il en devint plus fort. Peut-être est-ce à ma honte</l>
+                        <l n="967"> Mais si je n’obtiens pas le don de votre foi,</l>
+                        <l n="968"> C’est à vous d’en rougir, ingrat, non pas à moi.</l>
+                        <l n="969"> À vous, qui maintenant à vous-même contraire,</l>
+                        <l n="970"> Démentant par la feinte une vertu sincère,</l>
+                        <l n="971"> Après mille serments, et publics, et secrets,</l>
+                        <l n="972"> Osez de ma captive adorer les attraits.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="973"> Oui, si je puis brûler d’une flamme nouvelle</l>
+                        <l n="974"> Vous devez m’en punir, la feinte est criminelle :</l>
+                        <l n="975"> Mais si mon seul malheur m’expose à vos soupçons...</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="976"> En vain pour m’abuser vous cherchez des raisons.</l>
+                        <l n="977"> Si l’astre rigoureux sous qui je fuis formée,</l>
+                        <l n="978"> M’a caché jusqu’ici comment on est aimée.</l>
+                        <l n="979"> Je sais du moins, je sais par mes propres combats</l>
+                        <l n="980"> Ce qu’on fait quand on aime, et quand on n’aime pas</l>
+                        <l n="981"> Si de vos premiers feux vous aviez à vous plaindre</l>
+                        <l n="982"> C’était en ma faveur qu’il fallait les éteindre.</l>
+                        <l n="983"> Votre inconstance eût eu mille raisons d’état :</l>
+                        <l n="984"> Et vous seriez perfide au moins sans être ingrat.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="985"> Ah ! Je ne le suis point. Que le Ciel me punisse,</l>
+                        <l n="986"> Que Volsques et Romains s’arment pour mon supplice,</l>
+                        <l n="987"> Si pour votre captive aucuns empressements</l>
+                        <l n="988"> Ont pu changer...</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="989"> Allez, j’en croirai vos serments</l>
+                        <l n="990"> Quand je ne croirai plus mes yeux, ceux de l’armée,</l>
+                        <l n="991"> Que votre lâcheté n’a que trop alarmée,</l>
+                        <l n="992"> Les votre même. À tous vous nous manquez de foi,</l>
+                        <l n="993"> Aux Volsques, à mon frère, à Virgilie, à moi :</l>
+                        <l n="994"> Vous nous trahissez tous. Mais votre perfidie</l>
+                        <l n="995"> Se fait trop d’ennemis pour n’être pas punie :</l>
+                        <l n="996"> Plus que notre courroux craignez celui des Dieux.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="997"> Eh bien, Madame, aux yeux de l’armée, à vos yeux,</l>
+                        <l n="998"> À ceux de Rome, enfin de toute l’Italie</l>
+                        <l n="999"> Je cours justifier ma flamme à Virgilie.</l>
+                        <l n="1000"> Et de ce même fer, dont votre inimitié</l>
+                        <l n="1001"> M’aura fait des Romains immoler la moitié ;</l>
+                        <l n="1002"> Je la disputerai contre la violence</l>
+                        <l n="1003"> De ceux qui par leur fourbe ont noirci ma constance.</l>
+                        <l n="1004"> Fussent-ils avec moi plus unis d’intérêt</l>
+                        <l n="1005"> Que vous ne l’êtes même, et qu’Aufide ne l’est.</l>
+                        <l n="1006"> Vous verrez si j’ai droit de parler de la sorte,</l>
+                        <l n="1007"> Et connaîtrez quel est l’amour qui me transporte.</l>
+                        <l n="1008"> Adieu.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="1009"> Seigneur.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1010"> Albin, que vois-je ?</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="1011"> On vous trahit.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1012"> Moi.</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="1013"> Ce n’est plus à vous que l’armée obéit.</l>
+                        <l n="1014"> Les Volsques mutinés enlèvent Valérie.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1015"> Ils l’enlèvent ? elle est en proie à leur furie ?</l>
+                        <l n="1016"> Tu n’as pu l’empêcher... Madame, je le vois ;</l>
+                        <l n="1017"> Un si lâche attentat ne regarde que moi :</l>
+                        <l n="1018"> C’est moi que l’on veut perdre. Achève.</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="1019"> Les Captives</l>
+                        <l n="1020"> À peine encor du Tibre avaient atteint les rives,</l>
+                        <l n="1021"> Quand ceux que pour escorte on leur avaient donnés,</l>
+                        <l n="1022"> Ont pris pour nous tromper des chemins détournés,</l>
+                        <l n="1023"> Et bravant de mes gens les forces inégales,</l>
+                        <l n="1024"> Ont saisi Valérie au milieu des Vestales.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1025"> Mais où l’emmènent-ils, ces Volsques inhumains ?</l>
+                        <l n="1026"> Où vont-ils ? je saurai l’arracher de leurs mains ;</l>
+                        <l n="1027"> Dussai-je pour punir une telle insolence</l>
+                        <l n="1028"> Jusques sur votre frère étendre ma vengeance :</l>
+                        <l n="1029"> Dût la barbare main qui me porte ces coups...</l>
+                        <l n="1030"> Ah ! je lis dans vos yeux, Madame, que c’est vous.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="1031"> Vous dites vrai, c’est moi. La feinte est inutile.</l>
+                        <l n="1032"> J’ai tout fait. Commencez à redouter Camille ;</l>
+                        <l n="1033"> Ou plutôt soutenez encor si vous l’osez,</l>
+                        <l n="1034"> Qu’après ce que je vois mes yeux sont abusez.</l>
+                        <l n="1035"> Désavouez l’amour que vous avez pour elle.</l>
+                        <l n="1036"> Pour Virgilie encor vantez-moi votre zèle.</l>
+                        <l n="1037"> J’ai de quoi vous convaincre, et venger mes bienfaits</l>
+                        <l n="1038"> Des mépris outrageants que vous en avez faits.</l>
+                        <l n="1039"> Mais regardez en moi Camille et Virgilie :</l>
+                        <l n="1040"> Nos maux ne vous en font qu’une même ennemie ;</l>
+                        <l n="1041"> Voyez dans mes regards éclater son courroux,</l>
+                        <l n="1042"> Et dans ce que je fais reconnaissez ses coups.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1043"> Eh bien, j’avouerai tout, quoi que je puisse craindre.</l>
+                        <l n="1044"> J’aime votre captive, il n’est plus temps de feindre.</l>
+                        <l n="1045"> Et s’il faut achever de vous ouvrir les yeux,</l>
+                        <l n="1046"> Cette même captive est Virgilie.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="1047"> Ô Dieux !</l>
+                        <l n="1048"> Qu’entends-je ?</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1049"> Voyez bien ce que vous devez faire,</l>
+                        <l n="1050"> Consultez à loisir l’amour et la colère.</l>
+                        <l n="1051"> Mais, Madame, sur tout pesez plus d’une fois</l>
+                        <l n="1052"> Ce que vous me devez, te ce que je vous dois :</l>
+                        <l n="1053"> Et quoi que vous fassiez pour m’ôter Virgilie,</l>
+                        <l n="1054"> Songez qu’auparavant il faut m’ôter la vie.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="1055"> Ainsi pour ton amour tout espoir est perdu,</l>
+                        <l n="1056"> Camille ? mais hélas ! ai-je bien entendu ?</l>
+                        <l n="1057"> Quoi ? cette Valérie à mon repos fatale,</l>
+                        <l n="1058"> Captive, dans mes fers, était donc ma rivale ?</l>
+                        <l n="1059"> Ici sous un faux nom elle cachait le sien ?</l>
+                        <l n="1060"> Elle m’ouvrait son cœur, pour lire dans le mien ?</l>
+                        <l n="1061"> Me trompait, me jouait ? Mais voyant ses alarmes</l>
+                        <l n="1062"> Ne la devais-je pas reconnaître à ses larmes ?</l>
+                        <l n="1063"> Aveugle, je nommais un zèle officieux</l>
+                        <l n="1064"> L’amour que je voyais éclater dans ses yeux.</l>
+                        <l n="1065"> De quelle folle erreur étais-je prévenue ?</l>
+                        <l n="1066"> Quoi ! j’ai vu Virgilie et ne l’ai point connue ?</l>
+                        <l n="1067"> Et son amour a pu pendant nos entretiens</l>
+                        <l n="1068"> Paraître dans ses yeux, et se cacher aux miens !</l>
+                        <l n="1069"> Vaines réflexions !que fais-je ? je m’oublie.</l>
+                        <l n="1070"> L’ingrat Coriolan court après Virgilie ;</l>
+                        <l n="1071"> Et ce vain désespoir que je fais éclater,</l>
+                        <l n="1072"> Lui laisse ces moments dont il sait profiter.</l>
+                        <l n="1073"> Courons, chère Sabine, allons trouver mon frère,</l>
+                        <l n="1074"> Consultons avec lui ce que nous devons faire.</l>
+                        <l n="1075"> Faisons pour rétablir notre espoir abattu...</l>
+                        <l n="1076"> Tout ce qu’à mon amour permettra ma vertu.</l></div></div>
+           <div type="act" xml:id="4">
+           <head> ACTE IV </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="1077"> Oui, ma sœur, je vous dois et l’honneur et la vie.</l>
+                        <l n="1078"> Je perdais l’un et l’autre en perdant Virgilie.</l>
+                        <l n="1079"> Sous l’erreur de son nom vous l’éloigniez de nous.</l>
+                        <l n="1080"> Elle allait se choisir à Rome un autre époux :</l>
+                        <l n="1081"> Et d’un frivole espoir ma tendresse nourrie,</l>
+                        <l n="1082"> N’eût attendu qu’en vain l’ombre de Valérie.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="1083"> Vous ne me devez rien. C’est l’effet du hasard.</l>
+                        <l n="1084"> Je me servais moi seule empêchant son départ.</l>
+                        <l n="1085"> Je croyais que l’ingrat adorait ma captive ;</l>
+                        <l n="1086"> Que sa première ardeur me paraissait moins vive ;</l>
+                        <l n="1087"> Mais qu’en vain j’arrachais Virgilie à ses vœux,</l>
+                        <l n="1088"> Puisqu’il tenait ici par de plus tendres nœuds.</l>
+                        <l n="1089"> Ainsi pour me venger avec plus d’assurance,</l>
+                        <l n="1090"> Sur ce nouvel objet j’ai fixé ma vengeance :</l>
+                        <l n="1091"> Au point de son départ je l’ai fait arrêter.</l>
+                        <l n="1092"> Ô Ciel ! de quel plaisir osai-je me flatter !</l>
+                        <l n="1093"> Je touchais au moment où j’aurais pi sans crime</l>
+                        <l n="1094"> À mon amour séduit immoler sa victime :</l>
+                        <l n="1095"> Convaincre mon amant d’une infidélité ;</l>
+                        <l n="1096"> Et par honte ou par crainte abattre sa fierté.</l>
+                        <l n="1097"> Hélas ! dans ma captive il cachait Virgilie.</l>
+                        <l n="1098"> Il veut qu’on la lui rende, il s’emporte, il s’oublie,</l>
+                        <l n="1099"> Il menace, et toujours mon amour outragé...</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="1100"> Ne vous repentez pas de m’avoir obligé,</l>
+                        <l n="1101"> Ma sœur. Votre fortune à la mienne est égaie.</l>
+                        <l n="1102"> L’Hymen va dans mes bras jeter votre rivale :</l>
+                        <l n="1103"> Et vous verrez bientôt Coriolan confus</l>
+                        <l n="1104"> Briguer votre tendresse, et craindre vos refus.</l>
+                        <l n="1105"> Je ne m’abuse point. J’ai revu Virgilie :</l>
+                        <l n="1106"> J’ai peint Rome à ses yeux dans Rome ensevelie,</l>
+                        <l n="1107"> Ses maux, les miens ; j’ai mis paix et guerre à son choix,</l>
+                        <l n="1108"> Pourvu qu’elle voulut me souffrir sous ses lois.</l>
+                        <l n="1109"> Elle m’y souffre : enfin mes offres l’ont touchée :</l>
+                        <l n="1110"> À son cruel amant je l’ai presque arrachée.</l>
+                        <l n="1111"> Elle ne peut souffrit son endurcissement.</l>
+                        <l n="1112"> J’ai promis : elle attend l’effet de mon serment.</l>
+                        <l n="1113"> Quoique de quelques Chefs Coriolan dispose,</l>
+                        <l n="1114"> Vous pouvez tout, ma sœur, hasardez quelque chose,</l>
+                        <l n="1115"> Inspirez aux soldats le désir d’un repos,</l>
+                        <l n="1116"> Qui leur doit assurer le fruit de leurs travaux.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="1117"> Partons. Il n’est soldat, ni Chef qui ne nous suive :</l>
+                        <l n="1118"> Mais vous tenez-vous sûr du cœur de ma captive ?</l>
+                        <l n="1119"> Et si de vos progrès Coriolan jaloux</l>
+                        <l n="1120"> Prenait pour les Romains des sentiments plus doux,</l>
+                        <l n="1121"> Croyez-vous que ce cœur charmé de vos promesses ;</l>
+                        <l n="1122"> Ne rallumerait point ses premières tendresses ?</l>
+                        <l n="1123"> Et qu’en ses premiers fers n’osant se rengager...</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="1124"> Ah que mon rival change. Est-il temps de changer ?</l>
+                        <l n="1125"> Quoi ? vous croyez qu’auprès des beaux yeux qu’il irrite,</l>
+                        <l n="1126"> Un changement forcé lui tint lieu de mérite ?</l>
+                        <l n="1127"> Non, sans doute, ils feront justice à mon amour ;</l>
+                        <l n="1128"> Et pour Coriolan seront fiers à leur tour.</l>
+                        <l n="1129"> Mais il a pour changer l’âme trop inflexible.</l>
+                        <l n="1130"> Ou d’abord ou jamais il ne devient sensible.</l>
+                        <l n="1131"> Il vient à moi. Je vais d’une nouvelle ardeur</l>
+                        <l n="1132"> Contre les assiégez réveiller sa fureur.</l>
+                        <l n="1133"> Allez ; et du succès soyez moins alarmée.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="1134"> Répondez-moi de lui : je réponds de l’armée.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="1135"> Voici l’heure fatale, où vous aviez promis</l>
+                        <l n="1136"> Que le Romain au Volsque enfin serait soumis,</l>
+                        <l n="1137"> Quand voulez-vous, Seigneur, répondre à notre attente ?</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1138"> Dés que je reverrai l’armée obéissante ;</l>
+                        <l n="1139"> Et que ceux qui l’ont mise autrefois sous ma moi,</l>
+                        <l n="1140"> Cesseront d’employer ses forces contre moi.</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="1141"> Les Volsques qui sous vous ont tant acquis de gloire,</l>
+                        <l n="1142"> Auraient-ils pu sitôt en perdre la mémoire ?</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1143"> Eux et vous perdez-la, Seigneur, je le permets.</l>
+                        <l n="1144"> Je sais en obligeant oublier mes bienfaits :</l>
+                        <l n="1145"> Mais je sais encor mieux à quoi l’honneur m’engage ;</l>
+                        <l n="1146"> Et je ne sus jamais oublier un outrage.</l>
+                        <l n="1147"> Si pour tous mes travaux je n’attends aucun prix,</l>
+                        <l n="1148"> Apprenez que j’attends encor moins vos mépris.</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="1149"> Nos mépris ? est-ce moi, Seigneur, qui vous méprise ?</l>
+                        <l n="1150"> Moi qui pour vous venger soutiens cette entreprise ;</l>
+                        <l n="1151"> Qui vous associant à ma gloire, à mon rang,</l>
+                        <l n="1152"> Pour vous de mes soldats prodigue ici le sang,</l>
+                        <l n="1153"> Et qui maître absolu de la beauté que j’aime,</l>
+                        <l n="1154"> N’ai pour toucher son cœur eu recours qu’à vous-même ?</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1155"> Et si de votre amour j’étais le seul soutien,</l>
+                        <l n="1156"> Pourquoi donc avez-vous désespéré le mien ?</l>
+                        <l n="1157"> Fallait-il par l’excès d’une rigueur nouvelle,</l>
+                        <l n="1158"> Me rendre des Romains la haine moins cruelle ?</l>
+                        <l n="1159"> S’ils ont jusqu’à ce jour persécuté mes feux,</l>
+                        <l n="1160"> Vous m’êtes plus contraire et plus barbare qu’eux.</l>
+                        <l n="1161"> Leurs coups tombant sur moi respectaient Virgilie</l>
+                        <l n="1162"> En me chassant de Rome ils ne l’ont point bannie :</l>
+                        <l n="1163"> Mais vous Tiran d’un cœur qui m’a donné sa foi,</l>
+                        <l n="1164"> Vous n’assassinez qu’elle et n’épargnez que moi.</l>
+                        <l n="1165"> C’est elle qu’on bannit : elle que l’on m’arrache.</l>
+                        <l n="1166"> Je la suivrai, Seigneur, je veux bien qu’on le sache.</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="1167"> Et moi, Seigneur, dût-il m’en coûter un forfait,</l>
+                        <l n="1168"> Je maintiendrai le don que vous m’en avez fait.</l>
+                        <l n="1169"> Elle est à moi. Songez à me tenir parole.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1170"> Ah ! ne vous flattez point de cet espoir frivole.</l>
+                        <l n="1171"> Valérie est à vous : Virgilie est à moi.</l>
+                        <l n="1172"> J’ai promis de ranger l’une sous votre loi :</l>
+                        <l n="1173"> Vous de favoriser ma passion pour l’autre :</l>
+                        <l n="1174"> Je tiendrai ma parole : et vous, tenez la votre.</l>
+                        <l n="1175"> Si leurs noms par hasard ont été confondus,</l>
+                        <l n="1176"> Leurs droits ne le sont point, ou ne le seront plus :</l>
+                        <l n="1177"> Et si de ce hasard on soutient le caprice ;</l>
+                        <l n="1178"> Par raison ou par force on m’en fera justice.</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="1179"> Non, la feinte n’est point l’ouvrage du hasard.</l>
+                        <l n="1180"> À ces noms confondus vous aviez trop de part.</l>
+                        <l n="1181"> Dès que de ces deux noms l’erreur vous fût connue,</l>
+                        <l n="1182"> Vous deviez détromper une âme prévenue,</l>
+                        <l n="1183"> Qui faiblement encor captive en ses liens,</l>
+                        <l n="1184"> Par respect pour vos feux aurait éteint les siens.</l>
+                        <l n="1185"> Mais que vous ayez pu dans un cruel silence,</l>
+                        <l n="1186"> Pour me désespérer nourrir mon espérance ;</l>
+                        <l n="1187"> M’abuser sous l’appas d’une feinte amitié :</l>
+                        <l n="1188"> Trahir enfin, trahir sans honte et sans pitié</l>
+                        <l n="1189"> Un cœur pour son malheur trop sincère et trop tendre,</l>
+                        <l n="1190"> C’est ce que d’un Héros je ne saurais comprendre ;</l>
+                        <l n="1191"> À moins que par l’espoir d’un indigne repos,</l>
+                        <l n="1192"> Le Romain n’ait en vous affaibli le Héros.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1193"> Toujours Rome, et toujours la même défiance</l>
+                        <l n="1194"> Nourrira dans ce Camp la désobéissance ?</l>
+                        <l n="1195"> Et l’on redoublera ces injustes éclats,</l>
+                        <l n="1196"> Pour tenter contre moi la foi de nos soldats ?</l>
+                        <l n="1197"> Seigneur, j’ai promis Rome : et dès ce jour peut-être</l>
+                        <l n="1198"> Si je fuis maître ici, je vous en ferai maître.</l>
+                        <l n="1199"> J’y vole : mais avant que de sortir d’ici,</l>
+                        <l n="1200"> Du sort de Virgilie il faut être éclairci.</l>
+                        <l n="1201"> Je veux la voir. Je veux qu’en rival magnanime</l>
+                        <l n="1202"> Tâchant par vos respects de gagner son estime,</l>
+                        <l n="1203"> Vous la laissiez en paix disposer de son cœur</l>
+                        <l n="1204"> Pour celui...</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="1205"> C’en est fait ; vous la verrez, Seigneur.</l>
+                        <l n="1206"> Je vous en donne ici ma parole pour gage :</l>
+                        <l n="1207"> Mais voyez bien à quoi la votre vous engage.</l>
+                        <l n="1208"> Je consens qu’elle soit arbitre entre nous deux ;</l>
+                        <l n="1209"> Qu’elle fasse elle-même un choix selon ses vœux.</l>
+                        <l n="1210"> Je vous promets de plus que sans me plaindre d’elle,</l>
+                        <l n="1211"> J’en subirai la loi favorable ou cruelle ;</l>
+                        <l n="1212"> Vous de même ; et tous deux réunis pour jamais,</l>
+                        <l n="1213"> Amis non plus rivaux...</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1214"> Oui, je vous je promets.</l>
+                        <l n="1215"> Accordez-moi sa vue, et je tiens ma promesse,</l>
+                        <l n="1216"> Dussai-je à ses dédains exposer ma tendresse.</l>
+                        <l n="1217"> Pourvu que vous laissiez le choix en son pouvoir,</l>
+                        <l n="1218"> Je consens...</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="1219"> C’est assez. Seigneur, vous l’allez voir.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1220"> Mais, ô Ciel ! d’où lui vient cette subite joie ?</l>
+                        <l n="1221"> Sous quel espoir, Albin, m’ouvre-t-il cette voie ?</l>
+                        <l n="1222"> Pense-t-il enlever Virgilie à mes soins ?</l>
+                        <l n="1223"> Non, non, c’est là de lui ce que je crains le moins.</l>
+                        <l n="1224"> Elle-même en ce lieu m’accablant de ses plaintes,</l>
+                        <l n="1225"> Tantôt à son égard a rassuré mes craintes ;</l>
+                        <l n="1226"> Et si je la dois croire au sujet d’un rival,</l>
+                        <l n="1227"> C’est l’amour d’un Romain qui doit m’être fatal.</l>
+                        <l n="1228"> Cependant à le voir si plein de confiance,</l>
+                        <l n="1229"> Il semble avoir sur moi gagné la préférence.</l>
+                        <l n="1230"> Il me brave, il me traite en amant négligé.</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="1231"> Quoi ? Seigneur, Virgilie aurait-elle changé ?</l>
+                        <l n="1232"> Les nouvelles rigueurs qu’il exerce sur elle</l>
+                        <l n="1233"> Sont de faibles attraits pour faire une infidèle.</l>
+                        <l n="1234"> Aufide comme vous inexorable...</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1235"> Ô Dieux !</l>
+                        <l n="1236"> Quel abîme de maux se présente à mes yeux ?</l>
+                        <l n="1237"> Mais si dans les travaux qu’entraîne la victoire,</l>
+                        <l n="1238"> Las de tant de longueurs, dégoûté de la gloire,</l>
+                        <l n="1239"> Aufide à Virgilie avait enfin promis</l>
+                        <l n="1240"> De traiter désormais les Romains en amis ;</l>
+                        <l n="1241"> Si par un tel effort Virgilie obligée</l>
+                        <l n="1242"> De ses premiers serments se croyait dégagée ?</l>
+                        <l n="1243"> Qu’elle n’eût plus pour moi que haine et que mépris ?</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="1244"> Sans doute il obtiendrait Virgilie à ce prix.</l>
+                        <l n="1245"> Mais d’un pareil effort le croyez-vous capable ?</l>
+                        <l n="1246"> Aux yeux de ses soldats se rendrait-il coupable ?</l>
+                        <l n="1247"> Il sait que leurs esprits sont prompts à s’alarmer.</l>
+                        <l n="1248"> Il sait...</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1249"> Ah ! quand on aime, on ne sait rien qu’aimer.</l>
+                        <l n="1250"> Peut-être que d’Aufide ignorant les intrigues,</l>
+                        <l n="1251"> Aspirant à la fin de deux ans de fatigues,</l>
+                        <l n="1252"> Ces peuples inconstants recevront de sa main</l>
+                        <l n="1253"> Ce qu’ils refuseraient de celle d’un Romain.</l>
+                        <l n="1254"> La paix qui de ma part leur tiendrait lieu d’outrage,</l>
+                        <l n="1255"> Sans doute leur plaira devenant son ouvrage ;</l>
+                        <l n="1256"> Et j’aurai la douleur de perdre en un seul jour</l>
+                        <l n="1257"> Le fruit de la victoire et celui de l’amour ;</l>
+                        <l n="1258"> De me voir éloigner par la feinte d’un homme</l>
+                        <l n="1259"> Du cœur de Virgilie, et des remparts de Rome.</l>
+                        <l n="1260"> À ces deux coups, Albin, je ne puis résister.</l>
+                        <l n="1261"> Mon courage succombe. Il n’en faut plus douter,</l>
+                        <l n="1262"> Virgilie a promis : et son âme timide</l>
+                        <l n="1263"> A payé de sa foi la lâcheté d’Aufide.</l>
+                        <l n="1264"> Je suis trahi. Je vois qu’on a conclu la paix.</l>
+                        <l n="1265"> Les soldats m’ont fait voir moins d’ardeur que jamais.</l>
+                        <l n="1266"> La jalouse Camille à mes desseins contraire,</l>
+                        <l n="1267"> Aura glacé leur âme en faveur de son frère.</l>
+                        <l n="1268"> Aufide pour l’assaut n’excite ma fureur,</l>
+                        <l n="1269"> Que pour me déguiser ma perte fit son bonheur.</l>
+                        <l n="1270"> Je le vois. Je le sens. Quel parti dois-je prendre ?</l>
+                        <l n="1271"> À Virgilie, Albin, pourrais-je encor prétendre ?</l>
+                        <l n="1272"> Crois-tu qu’un cœur soumis, des yeux humiliés,</l>
+                        <l n="1273"> Pussent trouver encor quelque grâce à ses pieds ?</l>
+                        <l n="1274"> Qu’aux soupirs des Romains mon âme enfin ouverte...</l>
+                        <l n="1275"> Non, perfides Romains, j’ai juré votre perte.</l>
+                        <l n="1276"> Vous périrez.</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="1277"> Eh quoi ? Seigneur, que ferez-vous,</l>
+                        <l n="1278"> Quand vous n’aurez contre eux qu’un impuissant courroux ?</l>
+                        <l n="1279"> Quand les Volsques lassés de servir votre haine,</l>
+                        <l n="1280"> Vous laisseront en proie à la fureur Romaine ?</l>
+                        <l n="1281"> Que pourrez-vous tout seul ?</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1282"> Qu’ils partent les ingrats :</l>
+                        <l n="1283"> Qu’ils me laissent chercher de plus fidèles bras :</l>
+                        <l n="1284"> Qu’ils aillent adorer dans leurs Villes craintives,</l>
+                        <l n="1285"> De leurs nouveaux amis les dépouilles captives.</l>
+                        <l n="1286"> Que craignons-nous ? après tant de crimes commis,</l>
+                        <l n="1287"> Les Romains, cher Albin, manquent-ils d’ennemis ?</l>
+                        <l n="1288"> N’est-il plus de Veïens, de Toscans, de Samnites ?</l>
+                        <l n="1289"> Crois-tu que des Latins les forces scient détruites ?</l>
+                        <l n="1290"> Donnons, donnons un Chef à tant de braves cœurs.</l>
+                        <l n="1291"> Mais d’où vient qu’à regret je sens couler mes pleurs ?</l>
+                        <l n="1292"> Ah ! barbare, du moins sois sensible à tes larmes.</l>
+                        <l n="1293"> Tu trouveras partout des soldats et des armes,</l>
+                        <l n="1294"> Des cœurs pour ta vengeance ardent à s’animer :</l>
+                        <l n="1295"> Mais où trouver un cœur qui veuille encor t’aimer ?</l>
+                        <l n="1296"> Et vainqueur des Romains, maître de l’Italie,</l>
+                        <l n="1297"> Ces noms te rendront-ils une autre Virgilie ?</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="1298"> Non, ne la perdez pas. Les Dieux en ce moment</l>
+                        <l n="1299"> Vous inspirent, Seigneur, ce tendre sentiment.</l>
+                        <l n="1300"> Vous pouvez d’un rival prévenir l’entreprise.</l>
+                        <l n="1301"> La foi de tous les Chefs vous est encor soumise.</l>
+                        <l n="1302"> Faites-les advenir et leur parlez de paix :</l>
+                        <l n="1303"> Vous verrez leurs désirs répondre à vos souhaits :</l>
+                        <l n="1304"> Et si c’est par vos soins que Rome est délivrée,</l>
+                        <l n="1305"> L’espérance d’Aufide est bien mal assurée.</l>
+                        <l n="1306"> Virgilie à l’instant condamnant son courroux...</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1307"> Tu me flattes en vain... mais elle vient à nous.</l>
+                        <l n="1308"> Albin, cours assembler tous les Chefs dans ma tente,</l>
+                        <l n="1309"> Hélas ! que sur mon cœur Virgilie est puissante !</l>
+                        <l n="1310"> Et qu’avec les Romains ses yeux sont bien d’accord</l>
+                        <l n="1311"> À conspirer ma honte, et peut-être ma mort !</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1312"> Je vous croyais, Seigneur, au pied du Capitole.</l>
+                        <l n="1313"> Ne m’avez-vous donné qu’une crainte frivole ?</l>
+                        <l n="1314"> Et le soin de me voir vous fait-il négliger</l>
+                        <l n="1315"> Celui que vous devez avoir de vous venger ?</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1316"> Madame, je n’ai plus de victoire à poursuivre.</l>
+                        <l n="1317"> Mon unique devoir est de cesser de vivre ;</l>
+                        <l n="1318"> Et de laisser enfin au gré de vos souhaits,</l>
+                        <l n="1319"> Vous, mon heureux rival, et les Romains en paix.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1320"> Vous nous laisser en paix ? mais ingrat, à quel titre</l>
+                        <l n="1321"> De leur sort et du mien vous faites-vous l’arbitre ?</l>
+                        <l n="1322"> De quel pouvoir ici pouvez-vous vous flatter ?</l>
+                        <l n="1323"> Non, vous n’êtes puissant qu’à nous persécuter.</l>
+                        <l n="1324"> J’ai trouvé des amis d’un zèle plus sincère,</l>
+                        <l n="1325"> Qui font en ma faveur ce que vous n’osiez faire.</l>
+                        <l n="1326"> Il n’est plus temps pour vous d’oser me secourir.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1327"> Eh bien, Madame, il est encor temps de mourir.</l>
+                        <l n="1328"> Je le vois, les Romains emportent la victoire.</l>
+                        <l n="1329"> L’amour de mon rival vous a vendu sa gloire.</l>
+                        <l n="1330"> Votre cœur est à lui.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1331"> Non, je n’ai rien promis :</l>
+                        <l n="1332"> Mais la simple douceur d’un peu d’espoir permis,</l>
+                        <l n="1333"> Sur tous ses sentiments me rend plus souveraine,</l>
+                        <l n="1334"> Que mon fidèle amour ne l’est sur votre haine.</l>
+                        <l n="1335"> Cependant je n’ai point sur lui depuis trois ans,</l>
+                        <l n="1336"> Mille droits que sur vous m’ont acquis vos serments.</l>
+                        <l n="1337"> Un seul de mes regards lui tient lieu de parole.</l>
+                        <l n="1338"> Rougissez en cruel, tandis que je m’immole ;</l>
+                        <l n="1339"> Et que j’ensevelis l’amour que j’ai pour vous,</l>
+                        <l n="1340"> Dans l’éternelle horreur d’aimer un autre époux.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1341"> Ah ! si nulle pitié pour mes maux ne vous reste ;</l>
+                        <l n="1342"> Au moins épargnez-vous un destin si funeste.</l>
+                        <l n="1343"> N’exposez point ainsi le repos de vos jours.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1344"> J’aurai dans mes chagrins la gloire pour secours.</l>
+                        <l n="1345"> Cherchez à votre gré le repos de la vie,</l>
+                        <l n="1346"> Je verrai dans mes maux vos plaisirs sans envie.</l>
+                        <l n="1347"> Que m’importe des jours heureux ou malheureux !</l>
+                        <l n="1348"> Sauver Rome, Seigneur, est tout ce que je veux.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1349"> Sauvez-la. Je soumets à vos pieds ma vengeance.</l>
+                        <l n="1350"> Pour ce courroux éteint ayez quelque indulgence.</l>
+                        <l n="1351"> Voyez-moi tel que Rome était à mes genoux.</l>
+                        <l n="1352"> Sauvez-la : mais qu’au moins je la sauve avec vous,</l>
+                        <l n="1353"> N’allez point emprunter une main étrangère,</l>
+                        <l n="1354"> Pour réparer les maux que la mienne a pu faire.</l>
+                        <l n="1355"> C’est à moi de briser les fers que j’ai forgés,</l>
+                        <l n="1356"> De venger vos appas que j’ai seul outragés</l>
+                        <l n="1357"> Il est vrai que mon âme à son crime attachée,</l>
+                        <l n="1358"> D’un repentir moins lent de voit être touchée :</l>
+                        <l n="1359"> Mais si celui d’Aufide a prévenu le mien,</l>
+                        <l n="1360"> De combien mon amour précède-t-il le sien ?</l>
+                        <l n="1361"> Avant lui, j’ai trois ans d’amour et d’espérance :</l>
+                        <l n="1362"> J’ai sur tous mes rivaux trois ans de prescience :</l>
+                        <l n="1363"> J’ai dans cet instant même où j’attends le trépas,</l>
+                        <l n="1364"> Votre cœur qui pour moi soupire encor tout bas.</l>
+                        <l n="1365"> J’ai pour moi les témoins de ces tendres alarmes,</l>
+                        <l n="1366"> Vos soupirs, vos regards, ces vertueuses larmes</l>
+                        <l n="1367"> Que sur un criminel vos yeux laissent tomber,</l>
+                        <l n="1368"> Et que tous vos dédains n’ont pu me dérober.</l>
+                        <l n="1369"> Croyez-en ces témoins, Charmante Virgilie ;</l>
+                        <l n="1370"> Et ne me perdez pas pour sauver ma Patrie.</l>
+                        <l n="1371"> Loin de vous imposer cette barbare loi,</l>
+                        <l n="1372"> Laissez agir l’amour qui vous parle pour moi ;</l>
+                        <l n="1373"> Ou si votre devoir à ma mort vous engage,</l>
+                        <l n="1374"> Condamnez-moi de grâce avec plus de courage.</l>
+                        <l n="1375"> Cachez-moi...</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1376"> Je ne puis : et malgré mon courroux,</l>
+                        <l n="1377"> Coriolan, je sens que mon cœur est pour vous.</l>
+                        <l n="1378"> Levez-vous, je vous rends...</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1379"> Ô Ciel ? Mais quoi ? Madame,</l>
+                        <l n="1380"> Suspendez-vous encor le bonheur de mon âme ?</l>
+                        <l n="1381"> Vous vous taisez au point que je me crois vainqueur ?</l>
+                        <l n="1382"> Qu’il semble qu’à mes vœux vous rendiez votre cœur ?</l>
+                        <l n="1383"> Cette flatteuse ardeur aussitôt ralentie...</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1384"> Mais si je vous le rends c’est fait de votre vie.</l>
+                        <l n="1385"> Seigneur, votre rival a conçu quelque espoir.</l>
+                        <l n="1386"> Je le vois, je le souffre, il doit partir ce soir,</l>
+                        <l n="1387"> Il en attend le prix ; c’est mon cœur qu’il demande :</l>
+                        <l n="1388"> Je vous le rends. À quoi faut-il que je m’attende ?</l>
+                        <l n="1389"> De quel œil verra-t-il votre amour couronné,</l>
+                        <l n="1390"> Lui ravir ce qu’au sien il croyait destiné ?</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1391"> Ah ! l’amour saura bien conserver ses conquêtes :</l>
+                        <l n="1392"> Et je redoute peu de pareilles tempêtes.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1393"> Craignez tout d’un rival fie puissant et jaloux,</l>
+                        <l n="1394"> Tandis que vous serez présent à son courroux.</l>
+                        <l n="1395"> Si vous voulez mon cœur, mettez en assurance</l>
+                        <l n="1396"> Ce don que mon amour fait à votre constance.</l>
+                        <l n="1397"> Partez avant la nuit, Seigneur. Dès ce moment</l>
+                        <l n="1398"> Emportez mon amour et sauvez mon amant.</l>
+                        <l n="1399"> Allez à Rome.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1400"> Moi, Madame, que je fuie ?</l>
+                        <l n="1401"> Que j’assure en fuyant le repos de ma vie ?</l>
+                        <l n="1402"> Quel forfait, quelle honte exigez-vous de moi ?</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1403"> N’importe, mon amour vous prescrit cette loi.</l>
+                        <l n="1404"> L’amour change en vertus les crimes qu’il ordonne.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1405"> Mais l’amour permet-il que je vous abandonne ?</l>
+                        <l n="1406"> Que pour ma sûreté, pour celle du Romain,</l>
+                        <l n="1407"> Je vous laisse au pouvoir d’un rival inhumain ?</l>
+                        <l n="1408"> Non, si j’immole tout au soin de ma Patrie,</l>
+                        <l n="1409"> N’attendez pas encor que je vous sacrifie.</l>
+                        <l n="1410"> Si je vous laisse ici, concevez la rigueur</l>
+                        <l n="1411"> Qu’exerceront sur vous et le frère et la sœur.</l>
+                        <l n="1412"> Pour vous persécuter tout sera légitime.</l>
+                        <l n="1413"> Seule de leurs fureurs vous serez la victime.</l>
+                        <l n="1414"> Et moi loin du péril j’attendrai plein d’effroi</l>
+                        <l n="1415"> Le succès des combats que vous rendrez pour moi ?</l>
+                        <l n="1416"> Vous voulez me bannir dans ces tristes murailles,</l>
+                        <l n="1417"> Où j’irais loin de vous pleurer vos funérailles ?</l>
+                        <l n="1418"> Non, non, Rome sans vous est pour moi sans appas.</l>
+                        <l n="1419"> Mon exil est par tout où je ne vous vois pas.</l>
+                        <l n="1420"> Deux ans d’absence, hélas ! devraient bien nous suffire,</l>
+                        <l n="1421"> Quel supplice nouveau me voulez-vous prescrire ?</l>
+                        <l n="1422"> Et pourquoi vous venger par tant de cruautés,</l>
+                        <l n="1423"> Des soupirs et des pleurs que je vous ai coûtés ?</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1424"> Laissez-m’en donc le fruit que je puis en prétendre :</l>
+                        <l n="1425"> Et ne m’obligez pas désormais d’en répandre.</l>
+                        <l n="1426"> Votre perte, Seigneur, est certaine en ces lieux,</l>
+                        <l n="1427"> Où la paix et l’amour vous rendent odieux.</l>
+                        <l n="1428"> Au nom des Dieux, fuyez, n’en ayez point de honte.</l>
+                        <l n="1429"> De cette fuite un jour l’amour vous tiendra compte.</l>
+                        <l n="1430"> Laissez au Ciel le soin de disposer de moi ;</l>
+                        <l n="1431"> Et me laissez celui de vous garder ma foi.</l>
+                        <l n="1432"> Faites par un excès d’amour et de tendresse,</l>
+                        <l n="1433"> Pour affranchit mon cœur du chagrin qui le presse,</l>
+                        <l n="1434"> Pour préserver vos jours d’un indigne trépas,</l>
+                        <l n="1435"> Tout ce que vous feriez, si vous ne m’aimiez pas.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1436"> Oui, je voudrais partir, aimable Virgilie ;</l>
+                        <l n="1437"> Mais à trop de périls j’expose votre vie.</l>
+                        <l n="1438"> J’ai beau tourner vers Rome et mes pas et mes yeux ;</l>
+                        <l n="1439"> Je ne puis m’éloigner de ces funestes lieux.</l>
+                        <l n="1440"> Que vous dirai-je enfin ? une force cruelle</l>
+                        <l n="1441"> Quand je veux vous quitter malgré moi me rappelle ;</l>
+                        <l n="1442"> Mon cœur dans ses désirs chancelant et cousus</l>
+                        <l n="1443"> Me dit que si je pars, je ne vous verrai plus.</l>
+                        <l n="1444"> Il ne sera point dit que je vous abandonne.</l>
+                        <l n="1445"> Vous m’en pressez en vain, c’en est fait.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1446"> Je l’ordonne, Coriolan, partez ; ou pour sauver vos jours,</l>
+                        <l n="1447"> Il me faudra d’Aufide emprunter le secours ;</l>
+                        <l n="1448"> Et peut-être à vos yeux... si vous m’aimez de grâce,</l>
+                        <l n="1449"> Dérobez notre amour au sort qui le menace.</l>
+                        <l n="1450"> Contre votre rival fortifiez mes vœux :</l>
+                        <l n="1451"> Et détournez un coup qui nous perdrait tous deux.</l>
+                        <l n="1452"> Adieu.</l>
+                </sp>
+        <sp who="#coriolan">
+            <speaker> CORIOLAN. </speaker>
+                        <l n="1453"> Vous me fuyez ? mais que viens-je d’entendre ?</l>
+                        <l n="1454"> Quel adieu ?comment faire ? à qui dois-je me rendre ?</l>
+                        <l n="1455"> Pour en délibérer je n’ai plus qu’un moment.</l>
+                        <l n="1456"> Ciel, soutiens le Romain, et protège l’amant.</l></div></div>
+           <div type="act" xml:id="5">
+           <head> ACTE V </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="1457"> Enfin l’amour l’emporte, et Rome est hors de crainte :</l>
+                        <l n="1458"> Nous lui donnons la paix sans retour et sans feinte.</l>
+                        <l n="1459"> Les Chefs et les soldats ont goûté mes raisons.</l>
+                        <l n="1460"> Vous commandez, Madame, et nous obéissons.</l>
+                        <l n="1461"> C’est à vous maintenant de couronner mon zèle,</l>
+                        <l n="1462"> De seconder les vœux de ce peuple fidèle,</l>
+                        <l n="1463"> Et dans ce même Camp m’engageant votre foi...</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1464"> Mais la votre, Seigneur, est-elle bien à moi ?</l>
+                        <l n="1465"> Gardez-vous vos serments ? pourquoi vois-je l’armée</l>
+                        <l n="1466"> D’une fureur nouvelle à l’assaut animée ?</l>
+                        <l n="1467"> Pourquoi ces feux brillants autour de nos remparts ?</l>
+                        <l n="1468"> Ce désordre, ces cris poussez de toutes parts ?</l>
+                        <l n="1469"> De votre amour, Seigneur, c’est la le premier gage,</l>
+                        <l n="1470"> Et sur cette assurance on veut que je m’engage ?</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="1471"> Non, n’appréhendez rien de ce trouble imprévu ;</l>
+                        <l n="1472"> Coriolan lui-même et ma sœur l’ont ému.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1473"> Coriolan ?</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="1474"> Quoi donc ? ignorez-vous sa fuite,</l>
+                        <l n="1475"> Et l’état déplorable où ma sœur est réduite ?</l>
+                        <l n="1476"> De vos boutez pour moi Coriolan surpris,</l>
+                        <l n="1477"> Honteux de devenir l’objet de vos mépris,</l>
+                        <l n="1478"> Sans espoir de trouver ailleurs un autre asile,</l>
+                        <l n="1479"> Suivi de quelques Chefs s’est sauvé dans la ville.</l>
+                        <l n="1480"> En se sauvant, lui-même en a semé le bruit.</l>
+                        <l n="1481"> Camille a vu par là tout son espoir détruit,</l>
+                        <l n="1482"> Et d’un ardent dépit aussitôt enflammée</l>
+                        <l n="1483"> Sur ses pas vers vos murs faisant marcher l’armée,</l>
+                        <l n="1484"> Elle croit par la peur forcer vos Citoyens</l>
+                        <l n="1485"> À lui rendre l’ingrat qui sort de ses liens.</l>
+                        <l n="1486"> Quoi qu’il arrive enfin la paix est résolue.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1487"> Et qui me répondra de votre retenue ?</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="1488"> Moi, Madame, qui viens mourir à vos genoux,</l>
+                        <l n="1489"> Si vous croyez mon cœur complice de leurs coups.</l>
+                        <l n="1490"> Moi, qui viens de leur foi me livrer pour otage ;</l>
+                        <l n="1491"> Et que peut après tout exécuter leur rage ?</l>
+                        <l n="1492"> Mon rival fugitif leur dérobe son bras,</l>
+                        <l n="1493"> Le mien n’obéit plus qu’à vos divins appas.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1494"> Et que me sert qu’enfin le votre m’obéisse,</l>
+                        <l n="1495"> Si ce peuple toujours sujet à son caprice</l>
+                        <l n="1496"> Aux lois que vous donnez paraît si peu soumis,</l>
+                        <l n="1497"> Qu’à vos yeux il insulte à vos nouveaux amis.</l>
+                        <l n="1498"> Faites-vous obéir. Qu’on mette bas les armes :</l>
+                        <l n="1499"> Qu’on tarisse à jamais la source de mes larmes :</l>
+                        <l n="1500"> Qu’on parte. Jusques-là qu’exigez-vous de moi ?</l>
+                        <l n="1501"> Avez-vous quelque droit de prétendre à ma foi ?</l>
+                        <l n="1502"> Esclave d’une sœur vous me parlez en maître ?</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="1503"> Madame, on m’obéit : je le ferai connaître.</l>
+                        <l n="1504"> La nuit s’avance : avant le retour du Soleil,</l>
+                        <l n="1505"> Vous reverrez mon Camp dans un autre appareil.</l>
+                        <l n="1506"> Rome n’aura de nous aucun sujet de crainte.</l>
+                        <l n="1507"> Mais, Virgilie, au moins voyez-moi sans contrainte ?</l>
+                        <l n="1508"> Vos yeux me seront-ils d’éternels ennemis ?</l>
+                        <l n="1509"> Est-ce là cet accueil que vous m’aviez promis ?</l>
+                        <l n="1510"> De mon rival enfin regrettez-vous la fuite ?</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1511"> Non, Seigneur.</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="1512"> Voyez donc son indigne conduite.</l>
+                        <l n="1513"> Il a su malgré nous que selon vos souhaits,</l>
+                        <l n="1514"> Mon amour aux Romains allait donner la paix.</l>
+                        <l n="1515"> Sans doute qu’il prétend m’en ravir l’avantage,</l>
+                        <l n="1516"> Qu’il veut que cette paix passe pour son ouvrage,</l>
+                        <l n="1517"> Et qu’il porte aux Romains, feignant de les servir,</l>
+                        <l n="1518"> La nouvelle d’un bien qu’il n’a pu leur ravir.</l>
+                        <l n="1519"> Ouvrez les yeux, Madame, et nous faites justice,</l>
+                        <l n="1520"> Récompensez l’amour, punissez l’artifice :</l>
+                        <l n="1521"> Et montrez aux Romains en couronnant ma foi,</l>
+                        <l n="1522"> Qu’ils ne doivent leur vie et leur repos qu’à moi.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1523"> Qu’à vous ? C’est donc ainsi que l’on perd la mémoire</l>
+                        <l n="1524"> Du Héros qui chez vous amena la victoire ?</l>
+                        <l n="1525"> Qui vous abandonnant à vos premiers destins,</l>
+                        <l n="1526"> La peur encor d’ici porter chez nos voisins ?</l>
+                        <l n="1527"> C’est par Coriolan que j’ai dû sauver Rome :</l>
+                        <l n="1528"> Je l’ai fait. Et c’est moi qui fais fuir ce grand homme.</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="1529"> Vous !</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1530"> J’allais par pitié vous en faire un secret,</l>
+                        <l n="1531"> Si votre emportement eut été plus discret.</l>
+                        <l n="1532"> Mais exiger de moi qu’à l’instant...</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="1533"> Infidèle,</l>
+                        <l n="1534"> Ingrate, c’est donc là le prix de tant de zèle ?</l>
+                        <l n="1535"> Quoi, lors qu’à mon amour égalant mes bienfaits,</l>
+                        <l n="1536"> Je préfère au triomphe une honteuse paix :</l>
+                        <l n="1537"> Lorsqu’à vos intérêts je soumets ma vengeance,</l>
+                        <l n="1538"> Vous m’abusez ici d’une vaine espérance ?</l>
+                        <l n="1539"> Et jusques dans mes fers vous osez m’outrager ?</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1540"> J’y suis encor, Seigneur i ; vous pouvez vous venger.</l>
+                        <l n="1541"> Vous avez mille bras pour m’arracher la vie :</l>
+                        <l n="1542"> Mais vous n’en avez plus pour perdre ma Patrie ;</l>
+                        <l n="1543"> Et toutes vos rigueurs me donnent peu d’effroi,</l>
+                        <l n="1544"> Si vous ne pouvez plus être cruel qu’à moi.</l>
+                </sp>
+        <sp who="#aufide">
+            <speaker> AUFIDE. </speaker>
+                        <l n="1545"> Ah ! de quelque façon que votre orgueil me nomme,</l>
+                        <l n="1546"> Vous verrez qui je suis sur les cendres de Rome.</l>
+                        <l n="1547"> Si contre-elle autrefois mes efforts furent vains,</l>
+                        <l n="1548"> Je n’avais point alors à punir vos dédains.</l>
+                        <l n="1549"> Ma valeur par l’amour n’était point animée.</l>
+                        <l n="1550"> J’aime : d’un pareil feu Camille est enflammée ;</l>
+                        <l n="1551"> Tous deux à nous venger nous sommes engagés.</l>
+                        <l n="1552"> Craignez pour ennemis deux amants outragés.</l>
+                        <l n="1553"> Je cours aveuglément où la fureur me guide.</l>
+                        <l n="1554"> Je reviens ; mais non plus incertain et timide</l>
+                        <l n="1555"> Par de nouveaux respects combattre votre cœur :</l>
+                        <l n="1556"> Vous ne me reverrez que maître et que vainqueur.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE, seule </speaker>
+                        <l n="1557"> Quoi ? de ce désespoir dois je craindre la fuite ?</l>
+                        <l n="1558"> Non, qu’Aufide plutôt songe à prendre la fuite.</l>
+                        <l n="1559"> Il menace en vain Rome ; et tels sont ses destins,</l>
+                        <l n="1560"> Qu’elle ne peut périr que par ses propres mains.</l>
+                        <l n="1561"> Coriolan lui-même entreprend sa défense.</l>
+                        <l n="1562"> Lui-même dans ses murs est en pleine assurance.</l>
+                        <l n="1563"> Que crains-je ? dans ce trouble et cet assaut confus,</l>
+                        <l n="1564"> Ne vois-je pas déjà tous mes Tyrans vaincus ?</l>
+                        <l n="1565"> Ils semblent oublier que je suis dans leur chaîne.</l>
+                        <l n="1566"> Mes Gardes sont épars... mais qu’est-ce qui me gêne ?</l>
+                        <l n="1567"> D’où vient que malgré moi mon cœur craint leur courroux ?</l>
+                        <l n="1568"> J’ai mis tout ce que j’aime à couvert de leurs coups</l>
+                        <l n="1569"> À leurs ressentiments je reste seule en proie.</l>
+                        <l n="1570"> Quoi ? lâche, ton péril doit-il troubler ta joie ?</l>
+                        <l n="1571"> Un si faible intérêt mérite-t-il ces pleurs,</l>
+                        <l n="1572"> Qui du vainqueur de Rome ont été les vainqueurs ?</l>
+                        <l n="1573"> Si tu meurs, en mourant tu vois Rome immortelle</l>
+                        <l n="1574"> À Rome, ainsi qu’à toi Coriolan fidèle.</l>
+                        <l n="1575"> Mais si de tes Tyrans le courroux amorti</l>
+                        <l n="1576"> Laisse... Que vois-je ? Albin, vous n’êtes point parti ?</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="1577"> Non, Madame, et vers vous Coriolan m’envoie.</l>
+                        <l n="1578"> Il n’a pu vous laisser à son rival en proie,</l>
+                        <l n="1579"> Ni sans vous se résoudre à partir de ces lieux.</l>
+                        <l n="1580"> Il vous attend, Madame.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1581"> Albin, je tremble. Ô Dieux !</l>
+                        <l n="1582"> Tandis que dans ce Camp je vois tout en alarmes,</l>
+                        <l n="1583"> Que sur Rome et sur lui chacun tourne les armes,</l>
+                        <l n="1584"> Que je le crois enfin loin de ses ennemis,</l>
+                        <l n="1585"> Il est au milieu d’eux ! que m’avait-il promis ?</l>
+                        <l n="1586"> Hélas ! il est perdu.</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="1587"> Non, calmez votre crainte.</l>
+                        <l n="1588"> Il a promis ; il veut vous obéir sans feinte,</l>
+                        <l n="1589"> Madame : mais craignant qu’on ne suivit les pas,</l>
+                        <l n="1590"> Du bruit de son départ amusant les soldats,</l>
+                        <l n="1591"> Il a pris loin de Rome une route secrète,</l>
+                        <l n="1592"> Et va chez les Veïens chercher une retraite :</l>
+                        <l n="1593"> D’où bientôt sans péril achevant ses desseins,</l>
+                        <l n="1594"> Il prétend avec vous se rejoindre aux Romains.</l>
+                        <l n="1595"> C’est dans le bois prochain que plein d’un nouveau zèle</l>
+                        <l n="1596"> Il vous attend, suivi d’une escorte fidèle.</l>
+                        <l n="1597"> Deux Gardes sont gagnés. Le reste dissipé</l>
+                        <l n="1598"> Dans le commun effroi se trouve enveloppé :</l>
+                        <l n="1599"> Vous êtes libre enfin. La nuit nous favorise.</l>
+                        <l n="1600"> Marchons, Madame.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1601"> Hélas ! Albin, quelle entreprise !</l>
+                        <l n="1602"> Qu’en pouvez-vous attendre ! et quand nos ennemis</l>
+                        <l n="1603"> Au soin de me garder se seraient endormis ;</l>
+                        <l n="1604"> Le destin veille assez à traverser ma flamme.</l>
+                        <l n="1605"> Je ne le verrai plus.</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="1606"> Vous le verrez, Madame.</l>
+                        <l n="1607"> Sa mère est déjà libre, elle est même avec lui.</l>
+                        <l n="1608"> C’est votre seul péril qui fait tout leur ennui.</l>
+                        <l n="1609"> On n’attend plus que vous, et si quelque disgrâce...</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#sabine">
+            <speaker> SABINE. </speaker>
+                        <l n="1610"> Ah ! Madame, arrêtez le sort qui vous menace,</l>
+                        <l n="1611"> Accourez.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1612"> Où Sabine.</l>
+                </sp>
+        <sp who="#sabine">
+            <speaker> SABINE. </speaker>
+                        <l n="1613"> Où vos cruels amants</l>
+                        <l n="1614"> Touchent tous deux peut-être à leurs derniers moments.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1615"> Ô Ciel !</l>
+                </sp>
+        <sp who="#sabine">
+            <speaker> SABINE. </speaker>
+                        <l n="1616"> Coriolan n’a voit point pris la fuite.</l>
+                        <l n="1617"> On nous avait trompez, on vous avait réduite.</l>
+                </sp>
+        <sp who="#albin">
+            <speaker> ALBIN. </speaker>
+                        <l n="1618"> Qu’entends-je ?</l>
+                </sp>
+        <sp who="#sabine">
+            <speaker> SABINE. </speaker>
+                        <l n="1619"> Aufide à peine est sorti d’avec vous</l>
+                        <l n="1620"> Les yeux étincelants d’amour et de courroux,</l>
+                        <l n="1621"> Qu’avec empressement il a cherché Camille,</l>
+                        <l n="1622"> Résolu de tout perdre ou d’emporter la ville.</l>
+                        <l n="1623"> Animé de fureur il court de toutes parts</l>
+                        <l n="1624"> Rallier par ses cris les escadrons épars.</l>
+                        <l n="1625"> Mille feux qui par tout redoublent les alarmes</l>
+                        <l n="1626"> Dans un bois près d’ici font briller quelques armes.</l>
+                        <l n="1627"> Il y marche, il y voit quelques Chefs amassés.</l>
+                        <l n="1628"> C’était Coriolan, sa mère...</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1629"> C’est assez.</l>
+                        <l n="1630"> C’est moi qui l’ai conduit dans ce péril funeste :</l>
+                        <l n="1631"> Allez, Albin, courez. Je prévois tout le reste,</l>
+                        <l n="1632"> Sabine : Je conçois avec quelle fureur</l>
+                        <l n="1633"> Aufide se sera servi de son bonheur.</l>
+                        <l n="1634"> Il aura ramassé pour abattre un seul homme</l>
+                        <l n="1635"> Tout ce qu’il préparait contre les murs de Rome.</l>
+                        <l n="1636"> Mais en vain par sa perte il croit me conquérir.</l>
+                        <l n="1637"> J’ai de quoi me venger puisque je sais mourir.</l>
+                        <l n="1638"> Au moins si ses amis... Dis-moi, que fait Camille ?</l>
+                        <l n="1639"> Voit-elle ce combat avec un œil tranquille ?</l>
+                        <l n="1640"> Ce cœur de tant d’ardeur autrefois enflammé</l>
+                        <l n="1641"> Peut-il abandonner ce qu’il a tant aimé.</l>
+                </sp>
+        <sp who="#sabine">
+            <speaker> SABINE. </speaker>
+                        <l n="1642"> La voici.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="1643"> Non, cruels, sa mort sera vengée.</l>
+                        <l n="1644"> Plus l’Auteur m’en est cher, plus je suis outragée.</l>
+                        <l n="1645"> Qu’on cherche Virgilie.</l>
+                </sp>
+        <sp who="#sabine">
+            <speaker> SABINE. </speaker>
+                        <l n="1646"> Ô Dieux, Aufide est mort ?</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1647"> Madame, je le vois, à cet ardent transport.</l>
+                        <l n="1648"> L’ardeur de le venger justement vous anime.</l>
+                        <l n="1649"> Vengez-le, j’y consens. Voici votre victime,</l>
+                        <l n="1650"> Aufide a succombé. Prenez...</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="1651"> Ah ! plût aux Dieux !</l>
+                        <l n="1652"> Sa mort eut épargné son forfait à mes yeux !</l>
+                        <l n="1653"> Je ne l’aurais point vu ce frère inexorable</l>
+                        <l n="1654"> Plonger de ses soldats le fer impitoyable</l>
+                        <l n="1655"> Dans le sang d’un Héros qui n’avait pour soutien</l>
+                        <l n="1656"> Que sa seule valeur, votre amour et le mien.</l>
+                        <l n="1657"> Coriolan n’est plus.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1658"> Il n’est plus ! Ah ! Madame,</l>
+                        <l n="1659"> Le fallait-il punir de l’excès de ma flamme ?</l>
+                        <l n="1660"> N’était-ce pas sur moi qu’il fallait vous venger ?</l>
+                        <l n="1661"> Peut-être après ma mort il aurait pu changer.</l>
+                        <l n="1662"> Sa flamme avec le temps se serait ralentie.</l>
+                        <l n="1663"> Rendez-le moi, cruelle, ou m’arrachez la vie.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="1664"> Perdons-la toutes deux, ou vengeons son trépas ;</l>
+                        <l n="1665"> Mais ne m’imputez point des sentiments si bas.</l>
+                        <l n="1666"> Si je vous disputais l’empire de son âme,</l>
+                        <l n="1667"> Ce n’était point sa mort que poursuivait ma flamme.</l>
+                        <l n="1668"> J’ai voulu l’emporter sur vous par mon secours,</l>
+                        <l n="1669"> Et mériter son cœur en défendant ses jours.</l>
+                        <l n="1670"> J’arrivais au moment qu’accablé par le nombre,</l>
+                        <l n="1671"> Connu par sa valeur malgré l’horreur de l’ombre,</l>
+                        <l n="1672"> Sur cent morts, vils objets de son dernier courroux,</l>
+                        <l n="1673"> Ce Héros est tombé percé de mille coups.</l>
+                        <l n="1674"> Aussitôt sur l’amas de ce cruel carnage</l>
+                        <l n="1675"> La douleur et l’amour m’ont ouvert un passage.</l>
+                        <l n="1676"> Sa mère s’efforçait le serrant dans ses bras,</l>
+                        <l n="1677"> En arrêtant son sang d’arrêter son trépas.</l>
+                        <l n="1678"> J’ai joint mes cris aux siens, mes soins à la faiblesse,</l>
+                        <l n="1679"> Et tel est mon malheur que malgré ma tendresse,</l>
+                        <l n="1680"> J’ai vu dans ses regards plus ardents et plus doux</l>
+                        <l n="1681"> Qu’il croyait, me voyant, jeter les yeux sur vous.</l>
+                        <l n="1682"> Cette erreur réveillant les restes de sa flamme,</l>
+                        <l n="1683"> Sur sa lèvre mourante a suspendu son âme,</l>
+                        <l n="1684"> Et tiré de son cœur ce dernier sentiment :</l>
+            <stage><em>J’obéis, Virgilie, et meurs en vous aimant.</em></stage>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1685"> Ah ! mon amant vivrait s’il vous avait aimée.</l>
+                        <l n="1686"> C’est moi...</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="1687"> Profitons mieux du trouble de l’armée</l>
+                        <l n="1688"> Signalons notre amour, non par ce désespoir</l>
+                        <l n="1689"> Dont les timides cœurs se forment un devoir.</l>
+                        <l n="1690"> Vous, imitez sa mère. Elle remporte à Rome</l>
+                        <l n="1691"> Les restes glorieux de ce valeureux homme.</l>
+                        <l n="1692"> Suivez-la. Ramassez tout le peuple Romain</l>
+                        <l n="1693"> Contre un cruel amant, contre un frère inhumain ;</l>
+                        <l n="1694"> Animez contre lui les trois parts de la terre.</l>
+                        <l n="1695"> Moi déjà dans ce Camp j’ai commencé la guerre.</l>
+                        <l n="1696"> Oui, l’horreur de son crime et l’éclat de mes cris,</l>
+                        <l n="1697"> Des Chefs et des soldats lui font des ennemis.</l>
+                </sp>
+        <sp who="#virgilie">
+            <speaker> VIRGILIE. </speaker>
+                        <l n="1698"> Pour venger un amant soyons d’intelligence,</l>
+                        <l n="1699"> J’y consens. Partageons le soin de la vengeance ;</l>
+                        <l n="1700"> Et que de notre amour tout l’Univers charmé</l>
+                        <l n="1701"> Doute qui de nous deux l’avait le plus aimé.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="1702"> Madame, Aufide vient pour enlever sa proie,</l>
+                        <l n="1703"> Allez. Dérobez-lui sa plus sensible joie.</l>
+                        <l n="1704"> N’attendez point ici qu’un barbare vainqueur</l>
+                        <l n="1705"> Pour prix de ses forfaits demande votre cœur.</l>
+                        <l n="1706"> Laissez au désespoir l’amour qui le transporte.</l>
+                        <l n="1707"> Venez. Mille soldats vous serviront d’escorte ;</l>
+                        <l n="1708"> Et vous verrez Aufide accablé sous leurs coups,</l>
+                        <l n="1709"> S’il est assez hardi poux Courir après vous.</l>
+                        <l n="1710"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

@@ -1,0 +1,2534 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">La Mort de Mitridate</title>
+                <title type="sub">Tragédie</title>
+            <author>
+                <persName>
+                    <forename>Gautier</forename>
+                    <linkname>de</linkname>
+                    <forename>Costes,</forename>
+                    <forename>sieur</forename>
+                    <linkname>de</linkname>
+                    <surname>La</surname>
+                    <surname>Calprenède</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/la-mort-de-mitridate-gautier-de-costes-sieur-de-la-calprenède </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1635">Représentée la première fois, à Paris, sur le Théâtre de l’Hôtel de Bourgogne, en 1635.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="pompée" sex="SEX">
+                            <persName>POMPÉE</persName>
+                        </person>
+                        <person xml:id="pharnace" sex="SEX">
+                            <persName>PHARNACE</persName>
+                        </person>
+                        <person xml:id="mitridate" sex="SEX">
+                            <persName>MITRIDATE</persName>
+                        </person>
+                        <person xml:id="ménandre" sex="SEX">
+                            <persName>MÉNANDRE</persName>
+                        </person>
+                        <person xml:id="émile" sex="SEX">
+                            <persName>ÉMILE</persName>
+                        </person>
+                        <person xml:id="hypsicratée" sex="SEX">
+                            <persName>HYPSICRATÉE</persName>
+                        </person>
+                        <person xml:id="bérénice" sex="SEX">
+                            <persName>BÉRÉNICE</persName>
+                        </person>
+                        <person xml:id="mithridatie" sex="SEX">
+                            <persName>MITHRIDATIE</persName>
+                        </person>
+                        <person xml:id="nise" sex="SEX">
+                            <persName>NISE</persName>
+                        </person>
+                        <person xml:id="un-soldat" sex="SEX">
+                            <persName>UN SOLDAT</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Tragédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q80930]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">LA MORT DE MITRIDATE</titlePart>
+            <titlePart type="sub">TRAGÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée la première fois, à Paris, sur le Théâtre de l’Hôtel de Bourgogne, en 1635.</ab><!--@date="1635"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> À MONSIEUR DE LA CALPRENÈDE</salute>
+            </opener>
+        <p> <strong>sur la mort de Mitridate, par l’Abbé de Beauregard</strong> </p>
+        <p> Prodigieux effets d’une rare éloquence </p>
+        <p> Merveilleuse vertu de charmes si puissants, </p>
+        <p> Doux effort de savoir, aimable violence, </p>
+        <p> Où traînez-vous ainsi la Reine de mes sens ? </p>
+        <p> Sitôt que ma raison se veut mettre en défense, </p>
+        <p> Et se veut opposer à ce que je consens, </p>
+        <p> Cette même raison m’impose le silence, </p>
+        <p> Et je me sens vaincu par des témoins présents. </p>
+        <p> Quoi que tout l’Univers reproche à cet ingrat, </p>
+        <p> Pharnace est innocent par maxime d’État, </p>
+        <p> Ses raisons et ses pleurs ont réparé son crime : </p>
+        <p> Ici tous les objets paraissent triomphants, </p>
+        <p> Puisque les sentiments que ton discours imprime, </p>
+        <p> Nous forcent d’admirer le père et les enfants. </p>
+        <p> BEAUREGARD. </p>
+    </div>
+           <div type="act" xml:id="1">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#pompée">
+            <speaker> POMPÉE. </speaker>
+                        <l n="1"> Puisque vos repentirs ont fait mourir sa haine,</l>
+                        <l n="2"> Que vous êtes certain de l’amitié Romaine,</l>
+                        <l n="3"> Vivez dores-en-avant comme notre allié,</l>
+                        <l n="4"> Oui Pharnace, il suffit, Rome a tout oublié,</l>
+                        <l n="5"> Le sang qui vous liait aux intérêts d’un père,</l>
+                        <l n="6"> Mérite le pardon d’un crime nécessaire ;</l>
+                        <l n="7"> Mais ce que Mitridate appelle trahison,</l>
+                        <l n="8"> Je l’appelle pour vous un acte de raison,</l>
+                        <l n="9"> Puisque vous retirant d’un parti si funeste,</l>
+                        <l n="10"> Vous vous établissez un repos manifeste,</l>
+                        <l n="11"> Recouvrez sans danger un Royaume perdu,</l>
+                        <l n="12"> Et montez sans effort au trône prétendu :</l>
+                        <l n="13"> C’était le seul moyen d’acquérir la couronne,</l>
+                        <l n="14"> Et vous la recevrez de celle qui les donne,</l>
+                        <l n="15"> Qui dispose à son gré de la pourpre des Rois,</l>
+                        <l n="16"> Et contraint l’univers de vivre sous ses lois,</l>
+                        <l n="17"> Avec un tel appui qui vous fait redoutable,</l>
+                        <l n="18"> Votre condition vous rend méconnaissable,</l>
+                        <l n="19"> Vous verrez dans le port le naufrage d’autrui,</l>
+                        <l n="20"> Et direz j’ai vécu seulement aujourd’hui ;</l>
+                        <l n="21"> Et de fait dans les maux dont elle était suivie,</l>
+                        <l n="22"> Vous n’avez point goûté les douceurs de la vie,</l>
+                        <l n="23"> Vous avez respiré seulement à demi,</l>
+                        <l n="24"> Et c’est bien n’être plus, qu’être notre ennemi :</l>
+                        <l n="25"> Est-il chez les mortels un cœur qui ne s’abatte</l>
+                        <l n="26"> Sous le faix des malheurs qui suivent Mitridate ?</l>
+                        <l n="27"> La Fortune a trahi ses desseins découverts,</l>
+                        <l n="28"> Le ciel l’a ruiné par mille coups divers,</l>
+                        <l n="29"> Et s’il s’est maintenu sans céder à l’orage,</l>
+                        <l n="30"> C’est un effet de haine et non pas de courage,</l>
+                        <l n="31"> S’il a mal réussi dans ses meilleurs projets,</l>
+                        <l n="32"> S’il a tant répandu du sang de ses sujets,</l>
+                        <l n="33"> Si tous les éléments ont trahi sa conduite,</l>
+                        <l n="34"> Et s’il s’est vainement garanti par la fuite,</l>
+                        <l n="35"> Si ses meilleurs soldats sont armés contre lui,</l>
+                        <l n="36"> Si parmi ses enfants il ne trouve un appui,</l>
+                        <l n="37"> La cause de ses maux est l’horreur de ses crimes,</l>
+                        <l n="38"> Et les devoirs des siens ne sont plus légitimes,</l>
+                        <l n="39"> Puis que tout contribue à son malheur présent,</l>
+                        <l n="40"> On se rendrait coupable en le favorisant,</l>
+                        <l n="41"> Vous qu’un plus noble cœur rend ennemi du vice,</l>
+                        <l n="42"> Qui vous êtes armé pour la seule justice,</l>
+                        <l n="43"> Et qui vous dépouillez de tous vos sentiments,</l>
+                        <l n="44"> Si le seul intérêt ne fit vos changements,</l>
+                        <l n="45"> Si pour ses actions votre haine est conçue,</l>
+                        <l n="46"> Votre amitié, Pharnace, en sera mieux reçue,</l>
+                        <l n="47"> Et Rome qui méprise un courage abattu,</l>
+                        <l n="48"> Sait estimer les Rois pour leur propre vertu.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="49"> Je ne me flatte point d’une louange vaine,</l>
+                        <l n="50"> Que la seule vertu soit cause de ma haine,</l>
+                        <l n="51"> Évitant le malheur dont j’étais menacé,</l>
+                        <l n="52"> Dans ce devoir rendu je suis intéressé,</l>
+                        <l n="53"> Jugeant chez ce cruel mon salut difficile</l>
+                        <l n="54"> Sur la force des miens j’ai bâti mon asile,</l>
+                        <l n="55"> J’ai cherché ma retraite entre ses ennemis,</l>
+                        <l n="56"> Mais si mes sentiments me sont ici permis,</l>
+                        <l n="57"> Je dirai sans flatter l’invincible Pompée,</l>
+                        <l n="58"> Que sa rare valeur attira mon épée,</l>
+                        <l n="59"> Le bruit de ses vertus m’a dès longtemps charmé,</l>
+                        <l n="60"> Et Pharnace ennemi l’a toujours estimé,</l>
+                        <l n="61"> J’ai cru que je gagnais dans l’amitié d’un homme</l>
+                        <l n="62"> Celle de l’univers, avec l’appui de Rome,</l>
+                        <l n="63"> Le suivant au renom de ses gestes guerriers,</l>
+                        <l n="64"> J’ai trouvé mon refuge à l’ombre des lauriers,</l>
+                        <l n="65"> Que si dans ce dessein mon âme est trop ingrate,</l>
+                        <l n="66"> Si le devoir du sang m’oblige à Mitridate,</l>
+                        <l n="67"> Si je passe chez lui pour fils dénaturé,</l>
+                        <l n="68"> Le règne d’un tyran a déjà trop duré,</l>
+                        <l n="69"> Le sang qu’il a versé désire qu’on le venge,</l>
+                        <l n="70"> Et ses sujets foulés autorisent ce change.</l>
+                </sp>
+        <sp who="#pompée">
+            <speaker> POMPÉE. </speaker>
+                        <l n="71"> Si vous persévérez dans cette volonté,</l>
+                        <l n="72"> Vous conservez un bien qu’on vous aurait ôté,</l>
+                        <l n="73"> La couronne du Pont vous demeure assurée</l>
+                        <l n="74"> Avec une amitié d’éternelle durée,</l>
+                        <l n="75"> Notre protection imposera des lois</l>
+                        <l n="76"> Pour imprimer la crainte à tous les autres Rois.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="77"> Pour de telles faveurs dont je suis redevable,</l>
+                        <l n="78"> Je sais bien que ma foi doit être inviolable,</l>
+                        <l n="79"> Oui, Pompée, il est vrai, je serais criminel</l>
+                        <l n="80"> Si je ne vous rendais un hommage éternel,</l>
+                        <l n="81"> Et si je recevais une grandeur royale,</l>
+                        <l n="82"> Que comme le présent d’une main libérale,</l>
+                        <l n="83"> Que sans votre bonté je prétendais en vain,</l>
+                        <l n="84"> Je tiendrai tout de vous et du peuple Romain,</l>
+                        <l n="85"> Vous serez absolus sur votre créature,</l>
+                        <l n="86"> Je forcerai pour vous les lois de la nature,</l>
+                        <l n="87"> Je poursuivrai celui de qui je tiens le jour,</l>
+                        <l n="88"> Je perdrai mon respect, j’oublierai mon amour,</l>
+                        <l n="89"> Et si je suis sans fruit au pied de ses murailles,</l>
+                        <l n="90"> Sinope en peu de jours verra mes funérailles,</l>
+                        <l n="91"> Notre ennemi commun ne reposera point.</l>
+            <stage><em>On tire la tapisserie et Mitridate paraît avec Hypsicratée et ses deux filles.</em></stage>
+                </sp>
+        <sp who="#pompée">
+            <speaker> POMPÉE. </speaker>
+                        <l n="92"> Puisque votre secours à nos forces se joint,</l>
+                        <l n="93"> Que nous avons en main deux puissantes armées,</l>
+                        <l n="94"> Que peuvent contre nous ses troupes enfermées ?</l>
+                        <l n="95"> Les débiles efforts d’un peuple intimidé</l>
+                        <l n="96"> Nous peuvent-ils forcer si le monde a cédé ?</l>
+                        <l n="97"> C’est en vain qu’il s’obstine, et cet opiniâtre</l>
+                        <l n="98"> Enfin sera contraint de rompre ou de s’abattre,</l>
+                        <l n="99"> Il ne veut point fléchir sous l’Empire Romain,</l>
+                        <l n="100"> Ni recevoir des lois que le pouvoir en main,</l>
+                        <l n="101"> Tous ses meilleurs desseins vont dans la violence,</l>
+                        <l n="102"> L’offre que je lui fais l’importune et l’offense,</l>
+                        <l n="103"> Eh bien s’il est réduit à quelque extrémité,</l>
+                        <l n="104"> Qu’il fasse une vertu d’une nécessité.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="105"> Toi qui dans mes combats compagne inséparable,</l>
+                        <l n="106"> M’accompagnes aussi dans mon sort déplorable,</l>
+                        <l n="107"> Exemple infortuné de conjugale amour,</l>
+                        <l n="108"> Et sans qui Mitridate est ennemi du jour,</l>
+                        <l n="109"> Prodige d’amitié fidèle Hypsicratée,</l>
+                        <l n="110"> Regarde à quels malheurs je t’ai précipitée,</l>
+                        <l n="111"> Regrette avecque moi nos communes douleurs,</l>
+                        <l n="112"> Et crois que sans rougir tu peux verser des pleurs,</l>
+                        <l n="113"> Ce pitoyable état doit forcer ta constance,</l>
+                        <l n="114"> Et tes larmes auront une juste dispense,</l>
+                        <l n="115"> Ce cœur que la Fortune en vain a combattu,</l>
+                        <l n="116"> Que tous les accidents n’avaient point abattu,</l>
+                        <l n="117"> Succombe maintenant sous le mal qui le presse,</l>
+                        <l n="118"> Et c’est mon propre sang qui cause ma faiblesse,</l>
+                        <l n="119"> Et la terre et le ciel me furent ennemis,</l>
+                        <l n="120"> Et leurs plus grands efforts ne m’ont jamais soumis,</l>
+                        <l n="121"> J’ai bravé mille fois la puissance Romaine,</l>
+                        <l n="122"> J’ai de leurs corps mourants couvert cent fois la plaine,</l>
+                        <l n="123"> Et la mer recevant notre sang et le leur,</l>
+                        <l n="124"> Sous nos vaisseaux brisés a changé de couleur :</l>
+                        <l n="125"> J’ai soutenu l’effort de toutes leurs armées,</l>
+                        <l n="126"> J’ai vu des plus grands chefs leurs troupes animées,</l>
+                        <l n="127"> Et tous les plus vaillants que Rome ait jamais eu,</l>
+                        <l n="128"> Me seront obligés de tout ce qu’ils ont su :</l>
+                        <l n="129"> Ils ont tous contre moi fait leur apprentissage,</l>
+                        <l n="130"> Et tu sais si jamais j’ai manqué de courage,</l>
+                        <l n="131"> Même s’il t’en souvient cette fatale nuit</l>
+                        <l n="132"> Que je fus par Pompée à l’extrême réduit ;</l>
+                        <l n="133"> Dans l’étrange malheur d’une telle disgrâce,</l>
+                        <l n="134"> Ainsi que la Fortune ai-je changé de face ?</l>
+                        <l n="135"> Vis-tu que ce visage eût perdu sa couleur,</l>
+                        <l n="136"> Et que jamais ce front témoignât ma douleur ;</l>
+                        <l n="137"> Non, parmi ces assauts je fus inébranlable,</l>
+                        <l n="138"> Tu vis de ma confiance un trait inimitable,</l>
+                        <l n="139"> Et quoi que tout tendit à me désobliger,</l>
+                        <l n="140"> Jamais mon propre mal ne me peut affliger.</l>
+                        <l n="141"> Malgré cette infortune où je t’avais conduite,</l>
+                        <l n="142"> Tu voulus sans regret accompagner ma fuite,</l>
+                        <l n="143"> Et je te jure ici la conjugale foi,</l>
+                        <l n="144"> Que si je m’attristais ce ne fut que pour toi :</l>
+                        <l n="145"> Je n’ai reçu du sort qu’une atteinte légère,</l>
+                        <l n="146"> Et je n’ai jamais craint une force étrangère,</l>
+                        <l n="147"> Mais ceux que la naissance et le droit m’ont soumis</l>
+                        <l n="148"> Se liguer lâchement avec mes ennemis,</l>
+                        <l n="149"> Voir que mon propre fils conspire ma ruine,</l>
+                        <l n="150"> Embrasse contre moi l’alliance Latine,</l>
+                        <l n="151"> Et dans mes derniers jours me retient assiégé,</l>
+                        <l n="152"> Ô dieux quel est l’esprit qui n’en fut affligé !</l>
+                        <l n="153"> J’ai perdu tout salut sur la terre et sur l’onde,</l>
+                        <l n="154"> Par celui seulement que j’avais mis au monde,</l>
+                        <l n="155"> Ce monstre sans pitié creuse mon monument,</l>
+                        <l n="156"> Et je suis des Romains traité plus doucement,</l>
+                        <l n="157"> Il veut porter un Sceptre en me privant de vie,</l>
+                        <l n="158"> Et ce qu’il tient de moi le traître me l’envie.</l>
+                        <l n="159"> Ô dieux !</l>
+                </sp>
+        <sp who="#hypsicratée">
+            <speaker> HYPSICRATÉE. </speaker>
+                        <l n="160"> S’il est permis à ma fidélité</l>
+                        <l n="161"> D’accuser vos transports d’un peu de lâcheté,</l>
+                        <l n="162"> Et si par le regret dont votre âme est atteinte</l>
+                        <l n="163"> Cette première amour n’est pas encore éteinte,</l>
+                        <l n="164"> Souffrez que me servant de mon premier pouvoir,</l>
+                        <l n="165"> Je veuille à Mitridate enseigner son devoir,</l>
+                        <l n="166"> Puisque dans la tristesse où son malheur l’engage,</l>
+                        <l n="167"> Il ne conserve rien de son premier courage :</l>
+                        <l n="168"> Il est vrai que le sort nous a réduits au point</l>
+                        <l n="169"> De craindre toute chose, et de n’espérer point :</l>
+                        <l n="170"> Pharnace et les Romains s’arment pour nous détruire,</l>
+                        <l n="171"> Nos sujets avec eux se liguent pour nous nuire ;</l>
+                        <l n="172"> Mais quand même le Ciel s’unirait avec eux,</l>
+                        <l n="173"> Gardez jusque à la fin ce cœur victorieux,</l>
+                        <l n="174"> Ne faites pas rougir une illustre mémoire,</l>
+                        <l n="175"> Et ne ternissez point votre première gloire,</l>
+                        <l n="176"> Montrez que la Fortune est au dessous de vous,</l>
+                        <l n="177"> Ce qu’elle fait pour eux, elle l’a fait pour vous.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="178"> Ô merveille de foi, d’amour, et de courage !</l>
+                        <l n="179"> Ta consolation m’afflige d’avantage,</l>
+                        <l n="180"> Quand le salut des miens consiste à me trahir,</l>
+                        <l n="181"> Il ne reste que toi qui me devrais haïr ;</l>
+                        <l n="182"> Oui mon âme, hais moi, ta haine est légitime,</l>
+                        <l n="183"> Tiens-moi pour ennemi, tu le pourras sans crime.</l>
+                        <l n="184"> Tout autre est innocent, le mal vient tout de moi,</l>
+                        <l n="185"> Et moi seul ai causé l’état où je te vois.</l>
+                        <l n="186"> J’ai d’un autre produit ce monstre abominable,</l>
+                        <l n="187"> C’est l’œuvre d’un péché, dont tu n’es point coupable,</l>
+                        <l n="188"> Ainsi que sa naissance il est défectueux,</l>
+                        <l n="189"> Et s’il était ton fils, il serait vertueux.</l>
+                        <l n="190"> Non, sache que le Ciel, ni la Fortune ingrate,</l>
+                        <l n="191"> N’ont jamais abaissé le cœur de Mitridate,</l>
+                        <l n="192"> Il est toujours le même, et grand et généreux,</l>
+                        <l n="193"> Et n’est point abattu pour être malheureux,</l>
+                        <l n="194"> Il s’est bien conservé parmi mes infortunes,</l>
+                        <l n="195"> Mais je meurs de regret qu’elles te soient communes,</l>
+                        <l n="196"> Je voudrais que mon mal n’eut plus que des témoins,</l>
+                        <l n="197"> Et si je souffrais seul, je souffrirais bien moins.</l>
+                </sp>
+        <sp who="#hypsicratée">
+            <speaker> HYPSICRATÉE. </speaker>
+                        <l n="198"> Puisque notre dessein doit être inséparable,</l>
+                        <l n="199"> Qu’il faut qu’un même coup nous lève, ou nous accable,</l>
+                        <l n="200"> Que depuis si longtemps nous ne sommes plus qu’un,</l>
+                        <l n="201"> M’enviez-vous un sort, qui doit être commun ?</l>
+                        <l n="202"> Je vous accompagnai dans la bonne Fortune,</l>
+                        <l n="203"> Et ce peu de malheur déjà vous importune.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="204"> Oui, chère Hypsicratée, il est vrai, ton amour</l>
+                        <l n="205"> Me donne de l’horreur pour la clarté du jour.</l>
+                        <l n="206"> Je t’ai dans mes malheurs innocemment traînée,</l>
+                        <l n="207"> Et ta seule amitié te rend infortunée.</l>
+                </sp>
+        <sp who="#hypsicratée">
+            <speaker> HYPSICRATÉE. </speaker>
+                        <l n="208"> Nommez-vous infortune un sort qui m’est si doux ?</l>
+                        <l n="209"> Croyez-vous que je souffre en souffrant avec vous ?</l>
+                        <l n="210"> Et depuis le longtemps que vous m’avez connue,</l>
+                        <l n="211"> Avez-vous remarqué que mon feu diminue ?</l>
+                        <l n="212"> Mon amour change-elle avec votre bonheur ?</l>
+                        <l n="213"> Puis-je imiter sans honte un peuple sans honneur ?</l>
+                        <l n="214"> Aimai-je vos grandeurs, ou bien votre mérite ?</l>
+                        <l n="215"> Et vous dois-je quitter, quoi qu’un sceptre vous quitte ?</l>
+                        <l n="216"> Non, j’ai chéri vos biens, mais seulement pour vous,</l>
+                        <l n="217"> Et si je ne vous perds, je les méprise tous.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="218"> Ah ! c’est cette amitié qui me rend misérable !</l>
+                        <l n="219"> Et si tu m’aimais moins, je serais moins coupable :</l>
+                        <l n="220"> Tant de fidélité me rend plus odieux.</l>
+                        <l n="221"> Mais quel objet nouveau se présente à mes yeux ?</l>
+                        <l n="222"> C’est l’épouse du traître.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="223"> Approchez vous madame.</l>
+                        <l n="224"> Je lis sur votre front les troubles de votre âme.</l>
+                        <l n="225"> L’absence d’un mari qui vous était si cher,</l>
+                        <l n="226"> Est le seul déplaisir qui vous a peu toucher.</l>
+                        <l n="227"> Vous regrettez Pharnace, et non pas Mitridate,</l>
+                        <l n="228"> Et puis qu’il est ingrat, vous devez être ingrate.</l>
+                        <l n="229"> D’une telle douleur le remède est en vous.</l>
+                        <l n="230"> Je ne vous retiens point, revoyez votre époux.</l>
+                        <l n="231"> Si contre ce cruel ma colère est extrême ;</l>
+                        <l n="232"> En me vengeant de lui, j’épargne ce qu’il aime,</l>
+                        <l n="233"> Le Ciel le doit punir par mon ressentiment,</l>
+                        <l n="234"> Mais s’il doit éclater, c’est sur lui seulement.</l>
+                        <l n="235"> Qu’il sache que j’abhorre une telle vengeance,</l>
+                        <l n="236"> Que je veux par lui seul réparer son offense,</l>
+                        <l n="237"> Quoi qu’en vous affligeant je le puisse affliger,</l>
+                        <l n="238"> Je vous estime trop pour vous désobliger,</l>
+                        <l n="239"> Mon indignation veut une autre victime,</l>
+                        <l n="240"> Et je vous crois, madame, incapable d’un crime.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="241"> Si je ne suis coupable ainsi que mon époux,</l>
+                        <l n="242"> Et si je puis encor embrasser vos genoux,</l>
+                        <l n="243"> Seigneur accordez-moi cette dernière grâce,</l>
+                        <l n="244"> De ne m’accuser point du péché de Pharnace :</l>
+                        <l n="245"> Il est vrai qu’en l’état où je suis aujourd’hui,</l>
+                        <l n="246"> Si je verse des pleurs, je les verse pour lui.</l>
+                        <l n="247"> Un si juste regret ébranle ma constance,</l>
+                        <l n="248"> Mais je pleure son crime, et non pas son absence.</l>
+                        <l n="249"> J’ai sur mes passions un absolu pouvoir,</l>
+                        <l n="250"> Et mon plus grand souci n’est pas de le revoir.</l>
+                        <l n="251"> Quand il perd son honneur sa femme l’abandonne.</l>
+                        <l n="252"> J’estimais sa vertu, mais non pas sa couronne,</l>
+                        <l n="253"> Et fondant mon amour sur la seule raison,</l>
+                        <l n="254"> Je ne le puis aimer après sa trahison :</l>
+                        <l n="255"> Je quitte un déloyal, puis qu’il quitte son père,</l>
+                        <l n="256"> Et mourant avec vous je fais ce qu’il dût faire.</l>
+                        <l n="257"> Ne me refusez pas un charitable appui,</l>
+                        <l n="258"> Permettez que je vive ailleurs qu’auprès de lui.</l>
+                        <l n="259"> Je ne me puis résoudre à revoir un perfide,</l>
+                        <l n="260"> Ni suivre son parti, puis qu’un traître y préside.</l>
+                        <l n="261"> Souffrez qu’auprès de vous je tienne un même rang,</l>
+                        <l n="262"> Que ses aimables sœurs l’honneur de votre sang.</l>
+                        <l n="263"> Vous perdrez tout soupçon que je sois infidèle,</l>
+                        <l n="264"> Si le crime d’autrui ne me rend criminelle.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="265"> Levez vous, Bérénice, et croyez désormais,</l>
+                        <l n="266"> Que je vous aime mieux que je ne fis jamais,</l>
+            <stage><em>Il parle à ses filles. </em></stage>
+                        <l n="267"> Admirez ce grand cœur ma chère Hypsicratée,</l>
+                        <l n="268"> Rendez à sa vertu la gloire méritée.</l>
+                        <l n="269"> Au moins ce bien me reste en mon sort malheureux,</l>
+                        <l n="270"> Que j’ai pour compagnons des cœurs tous généreux :</l>
+                        <l n="271"> Ce glorieux exemple enseigne à Mitridate,</l>
+                        <l n="272"> Que la seule vertu dans sa maison éclate.</l>
+                        <l n="273"> C’est l’unique fanal que les miens ont suivi :</l>
+                        <l n="274"> Le seul qui n’en eut point Rome me l’a ravi,</l>
+                        <l n="275"> Mais voici de retour le fidèle Ménandre.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="276"> Eh bien, Ménandre, enfin, que devons nous attendre ?</l>
+                        <l n="277"> Ai-je encore la terre et les Dieux contre moi ?</l>
+                        <l n="278"> Rome a elle le Ciel et Pharnace pour soi ?</l>
+                        <l n="279"> L’un peut-il approuver la trahison de l’autre,</l>
+                        <l n="280"> Et le démon latin triomphe-il du nôtre ?</l>
+                        <l n="281"> Verra-on réussir ce qu’un traître voulut,</l>
+                        <l n="282"> Et son père chez lui n’aura point de salut ?</l>
+                </sp>
+        <sp who="#ménandre">
+            <speaker> MÉNANDRE. </speaker>
+                        <l n="283"> Vous avez à vos murs la puissance Romaine :</l>
+                        <l n="284"> Mille étendards volants font ombrage à la plaine.</l>
+                        <l n="285"> Même vos fugitifs ensemble ramassés,</l>
+                        <l n="286"> Bravent insolemment au bord de nos fossés :</l>
+                        <l n="287"> J’ai fait ôter des murs une troupe inutile,</l>
+                        <l n="288"> J’ai des meilleurs soldats bordé toute la ville,</l>
+                        <l n="289"> Qui ne pouvant souffrir ces escadrons si près,</l>
+                        <l n="290"> Sur les plus courageux ont lancé quelques traits.</l>
+                        <l n="291"> Déjà les légions à l’assaut toutes prêtes,</l>
+                        <l n="292"> Font retentir bien loin le son de leurs trompettes,</l>
+                        <l n="293"> Les chevaux animés de tous les instruments,</l>
+                        <l n="294"> Augmentent la frayeur par leurs hennissements.</l>
+                        <l n="295"> Les Armes des soldats éblouissent la vue,</l>
+                        <l n="296"> Et leurs cris élancés vont jusque dans la nue.</l>
+                        <l n="297"> Les béliers apprêtés donnent de la terreur,</l>
+                        <l n="298"> Et la ville frémit de tristesse et d’horreur.</l>
+                        <l n="299"> Une branche d’olive en la main de Pharnace,</l>
+                        <l n="300"> Au pâle citoyen fait espérer sa grâce :</l>
+                        <l n="301"> La dextre qu’il lui tend l’assure de sa foi,</l>
+                        <l n="302"> Mêmes les plus mutins l’appellent déjà Roi.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="303"> Ô Ciel et tu le vois, et tu retiens ta foudre !</l>
+                        <l n="304"> Élance-la sur nous, réduis Sinope en poudre,</l>
+                        <l n="305"> N’en donne pas l’honneur aux escadrons Romains,</l>
+                        <l n="306"> Et puisqu’il faut périr, périssons par tes mains.</l>
+                        <l n="307"> Les hommes ont en vain attaqué Mitridate,</l>
+                        <l n="308"> Et si la terre est faible, il faut qu’un Dieu l’abatte.</l>
+                        <l n="309"> Toutefois disposons ces cœurs intimidés,</l>
+                        <l n="310"> À sortir de ces murs si longuement gardés.</l>
+                        <l n="311"> Si nous devons mourir, ne mourons point sans gloire,</l>
+                        <l n="312"> Et forçons l’ennemi de pleurer sa victoire.</l>
+                        <l n="313"> J’aime bien mieux me perdre en la perte des siens,</l>
+                        <l n="314"> Que d’en laisser l’honneur au plus lâche des miens.</l></div></div>
+           <div type="act" xml:id="2">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE, HYPSICRATÉE </speaker>
+            <stage><em>Mitridate, Hypsicratée sortent armés, et Mitridatie, Nise et Bérénice avec eux.</em></stage>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="315"> Je veux que du combat vous soyez exemptée,</l>
+                        <l n="316"> La ville pour appui demande Hypsicratée,</l>
+                        <l n="317"> Et le peuple insolent prêt à se mutiner,</l>
+                        <l n="318"> A pour vous un respect qui l’en peut détourner.</l>
+                </sp>
+        <sp who="#hypsicratée">
+            <speaker> HYPSICRATÉE. </speaker>
+                        <l n="319"> Avez-vous résolu de me rendre ennemie,</l>
+                        <l n="320"> Ou si vous avez cru ma valeur endormie ?</l>
+                        <l n="321"> Ce cœur que les dangers n’ont jamais rebuté,</l>
+                        <l n="322"> Se peut-il bien noircir de quelque lâcheté ?</l>
+                        <l n="323"> Portai-je à mes côtés une inutile épée,</l>
+                        <l n="324"> Ne l’ayant jamais craint, puis-je craindre Pompée ?</l>
+                        <l n="325"> Et lorsque les périls ne seront que pour vous,</l>
+                        <l n="326"> Du haut de nos remparts jugerai-je des coups ?</l>
+                        <l n="327"> Sachez que les malheurs augmentent mon courage,</l>
+                        <l n="328"> Et que dans un combat, où mon amour m’engage,</l>
+                        <l n="329"> Contre tous les efforts de l’Empire Romain,</l>
+                        <l n="330"> Votre meilleur secours est celui de ma main.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="331"> Je ne saurais douter d’une valeur connue,</l>
+                        <l n="332"> Sois seulement mon âme, un peu plus retenue,</l>
+                        <l n="333"> Ne t’expose aux dangers qu’un peu plus rarement ;</l>
+                        <l n="334"> Puis que si je te perds, je me perds doublement.</l>
+                </sp>
+        <sp who="#hypsicratée">
+            <speaker> HYPSICRATÉE. </speaker>
+                        <l n="335"> Chassez de votre esprit cette inutile crainte,</l>
+                        <l n="336"> Mon âme de frayeur ne fut jamais atteinte :</l>
+                        <l n="337"> Si j’en ai ressenti, c’est seulement pour vous :</l>
+                        <l n="338"> Mais n’appréhendons rien, les Dieux seront pour nous.</l>
+                        <l n="339"> Ils nous font espérer un succès légitime,</l>
+                        <l n="340"> Et sont déjà lassés de soutenir un crime.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="341"> Puisqu’aucune raison ne t’en peut divertir,</l>
+                        <l n="342"> Je veux à ton dessein malgré moi consentir</l>
+                        <l n="343"> Mille fois je t’ai vue, invincible Amazone,</l>
+                        <l n="344"> Acquérir des lauriers que la valeur nous donne,</l>
+                        <l n="345"> J’ai vu les escadrons de ta voix animés,</l>
+                        <l n="346"> Fendre pour t’imiter des bataillons armés.</l>
+                        <l n="347"> Ton visage et ton fer font d’égales conquêtes.</l>
+                </sp>
+        <sp who="#hypsicratée">
+            <speaker> HYPSICRATÉE. </speaker>
+                        <l n="348"> Dites mieux à propos, que les troupes sont prêtes,</l>
+                        <l n="349"> Que l’ennemi joyeux des forces qui l’ont joint,</l>
+                        <l n="350"> Se repose sans crainte et ne vous attend point.</l>
+                        <l n="351"> Allons lui témoigner qu’un courage invincible</l>
+                        <l n="352"> Aux injures du sort n’est jamais accessible,</l>
+                        <l n="353"> Que toutes ses rigueurs ne l’ont pas abattu :</l>
+                        <l n="354"> Et qu’un nombre confus vaut moins que la vertu.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="355"> Un cœur si généreux me fait rougir de honte.</l>
+                        <l n="356"> Allons, et que Pompée ou trébuche, ou surmonte.</l>
+                        <l n="357"> Que Mitridate meure, ou qu’il ne meure pas,</l>
+                        <l n="358"> Je tiens indifférents la vie ou le trépas.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#mithridatie">
+            <speaker> MITHRIDATIE. </speaker>
+                        <l n="359"> Allez où la fureur aveuglement vous porte :</l>
+                        <l n="360"> Je ne vous verrai plus, mon espérance est morte :</l>
+                        <l n="361"> Mais si ma faible main ne vous peut secourir,</l>
+                        <l n="362"> Étant de votre sang je saurai bien mourir.</l>
+                </sp>
+        <sp who="#nise">
+            <speaker> NISE. </speaker>
+                        <l n="363"> Ô par dessus le sexe heureuse Hypsicratée ;</l>
+                        <l n="364"> Ayant reçu du Ciel une force indomptée,</l>
+                        <l n="365"> Qui te fait mépriser les périls évidents,</l>
+                        <l n="366"> Et t’endurcit le cœur contre les accidents !</l>
+                        <l n="367"> Ô que même faveur ne me fut-elle offerte !</l>
+                        <l n="368"> Du sang des ennemis je vengerais ma perte,</l>
+                        <l n="369"> Et je croirais mon sort beaucoup moins rigoureux,</l>
+                        <l n="370"> Si la moitié du mal pouvait tomber sur eux.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="371"> Si vous avez dans l’âme une si juste haine,</l>
+                        <l n="372"> L’épouse de Pharnace en doit porter la peine.</l>
+                        <l n="373"> Il est né de celui par qui vous respirez,</l>
+                        <l n="374"> Mais punissez sa femme, et vous le punirez.</l>
+                        <l n="375"> Je sais bien que pour moi son amour est extrême,</l>
+                        <l n="376"> Et quoi qu’il soit perfide, assurément il m’aime.</l>
+                        <l n="377"> Embrassez ce moyen pour vous venger de lui,</l>
+                        <l n="378"> On peut être cruel à l’exemple d’autrui.</l>
+                        <l n="379"> Après sa trahison le traitement plus rude</l>
+                        <l n="380"> Est encore trop doux à son ingratitude ;</l>
+                        <l n="381"> On ne saurait faillir en le désobligeant,</l>
+                        <l n="382"> Et le plus inhumain, c’est le plus indulgent.</l>
+                </sp>
+        <sp who="#mithridatie">
+            <speaker> MITHRIDATIE. </speaker>
+                        <l n="383"> Ha ! ma sœur, que ce mot sensiblement nous touche !</l>
+                        <l n="384"> Et que cette requête est mal en votre bouche !</l>
+                        <l n="385"> Perdez l’opinion que vous avez de nous,</l>
+                        <l n="386"> Ou bien nos ennemis nous traitent mieux que vous.</l>
+                        <l n="387"> Hélas votre vertu nous est trop bien connue,</l>
+                        <l n="388"> Nous voyons mieux que vous votre âme toute nue.</l>
+                        <l n="389"> Plût aux Dieux que Pharnace eut même sentiment,</l>
+                        <l n="390"> Mais s’il nous a trahis aimez-nous seulement,</l>
+                        <l n="391"> Le mal qui nous afflige en sera moins funeste,</l>
+                        <l n="392"> Si parmi nos malheurs votre amitié nous reste.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="393"> Oui mes sœurs, je vous aime autant que je le hais,</l>
+                        <l n="394"> Que si votre soupçon en voulait un essai,</l>
+                        <l n="395"> Sondez votre pouvoir, commandez absolues :</l>
+                        <l n="396"> Et je suivrai les lois que vous aurez voulues.</l>
+                </sp>
+        <sp who="#nise">
+            <speaker> NISE. </speaker>
+                        <l n="397"> Ce qu’à vos volontés notre pouvoir enjoint :</l>
+                        <l n="398"> C’est en vous conjurant de ne nous quitter point ;</l>
+                        <l n="399"> Pharnace est votre époux, comme il est notre frère :</l>
+                        <l n="400"> Mais la nuit et le jour n’ont rien de si contraire,</l>
+                        <l n="401"> Le Soleil n’a rien vu de si mal assorti ?</l>
+                        <l n="402"> Et vous vous feriez tort d’embrasser son parti.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="403"> Moteur de l’univers, Souveraine puissance,</l>
+                        <l n="404"> Qui lis dans mon esprit, et vois mon innocence,</l>
+                        <l n="405"> Si mon intention balance seulement,</l>
+                        <l n="406"> Fais que ce dernier mot soit mon dernier moment.</l>
+                        <l n="407"> Quoi qu’une telle crainte extrêmement me blesse,</l>
+                        <l n="408"> Je vous veux, chère Nise, avouer ma faiblesse.</l>
+                        <l n="409"> Il est vrai, cet ingrat est indigne du jour,</l>
+                        <l n="410"> J’ai pour lui toutefois encore un peu d’amour.</l>
+                        <l n="411"> L’hymen joint deux esprits d’une si forte étreinte,</l>
+                        <l n="412"> Que l’ardeur qu’il allume est rarement éteinte.</l>
+                        <l n="413"> Je ne puis oublier qu’il était mon époux,</l>
+                        <l n="414"> Mais que son intérêt m’ôte d’auprès de vous.</l>
+                        <l n="415"> Que cette passion que le Ciel a fait naître,</l>
+                        <l n="416"> Me fasse consentir aux actions d’un traître.</l>
+                        <l n="417"> Plutôt...</l>
+                </sp>
+        <sp who="#mithridatie">
+            <speaker> MITHRIDATIE. </speaker>
+                        <l n="418"> Jamais ma sœur, nous n’en avons douté,</l>
+                        <l n="419"> Nous craignons seulement pour votre sûreté,</l>
+                        <l n="420"> Puis que notre parti dans nos maux vous entraîne,</l>
+                        <l n="421"> Et que vous encourez l’inimitié Romaine,</l>
+                        <l n="422"> Vous fuyez le salut et l’espoir d’un bienfait.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="423"> J’abhorre le bonheur que je tiens d’un forfait,</l>
+                        <l n="424"> Et je ne puis souffrir l’éclat d’une Couronne :</l>
+                        <l n="425"> Puisque la perfidie est ce qui me la donne,</l>
+                        <l n="426"> Je ne veux posséder des sceptres envahis,</l>
+                        <l n="427"> Ni succéder aux miens pour les avoir trahis.</l>
+                        <l n="428"> Un trône est à priser si sans crime on y monte,</l>
+                        <l n="429"> Et j’aime des grandeurs qu’on peut avoir sans honte.</l>
+                        <l n="430"> Cependant implorons l’assistance des Dieux :</l>
+                        <l n="431"> Vous leur demanderez, et je prierai des yeux.</l>
+                        <l n="432"> Puisque dans les malheurs, où le Ciel m’a réduite,</l>
+                        <l n="433"> La prière à ma bouche est même interdite.</l>
+                        <l n="434"> Que mes vœux d’un péché seront toujours atteints :</l>
+                        <l n="435"> Et je puis seulement en faire d’incertains.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#pompée">
+            <speaker> POMPÉE, PHARNACE </speaker>
+            <stage><em>Ils sortent des tentes.</em></stage>
+                </sp>
+        <sp who="#pompée">
+            <speaker> POMPÉE. </speaker>
+                        <l n="436"> Quoi que vous le jugiez d’une extrême importance,</l>
+                        <l n="437"> J’ai voulu tout fier à votre confidence.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="438"> C’est m’obliger par trop à la fidélité,</l>
+                        <l n="439"> Et chez moi vos secrets seront en sûreté.</l>
+                </sp>
+        <sp who="#pompée">
+            <speaker> POMPÉE. </speaker>
+                        <l n="440"> Il me faut obéir à notre République,</l>
+                        <l n="441"> Par des termes si clairs sa volonté s’explique ;</l>
+                        <l n="442"> Que je ne puis ici demeurer un moment.</l>
+                        <l n="443"> Vous voyez du Sénat l’exprès commandement.</l>
+                        <l n="444"> Il faudra malgré moi que je vous abandonne,</l>
+                        <l n="445"> Servez-vous maintenant du pouvoir qu’on vous donne,</l>
+                        <l n="446"> Gardez l’autorité que je vous mets en main,</l>
+                        <l n="447"> Combattez sans regret, pour l’Empire Romain,</l>
+                        <l n="448"> Poursuivez l’ennemi que vous avez en tête :</l>
+                        <l n="449"> On vous a destiné le prix de la conquête.</l>
+                        <l n="450"> Et quoi que vos devoirs vous attachent à nous,</l>
+                        <l n="451"> Sachez qu’en nous servant vous faites tout pour vous.</l>
+                        <l n="452"> Notre appui vous mettra par dessus la fortune.</l>
+                        <l n="453"> Et toute autre amitié vous doit être importune.</l>
+                        <l n="454"> Celle de Mitridate est une trahison,</l>
+                        <l n="455"> Et sous un bon visage évitez le poison.</l>
+                        <l n="456"> Car je ne doute point qu’il ne vous sollicite,</l>
+                        <l n="457"> Et qu’à l’extrémité cette ville réduite,</l>
+                        <l n="458"> Il ne tente cent fois à vous faire changer :</l>
+                        <l n="459"> Mais ses meilleurs desseins tendent à se venger.</l>
+                        <l n="460"> Et si votre raison par sa ruse est déçue,</l>
+                        <l n="461"> Il n’oubliera jamais une injure reçue.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="462"> Son mauvais naturel m’est bien assez connu,</l>
+                        <l n="463"> Mais d’un autre motif je serai retenu.</l>
+                        <l n="464"> Je veux garder la foi que je vous ai jurée,</l>
+                        <l n="465"> Et vous en recevrez une preuve assurée.</l>
+                        <l n="466"> Mitridate vaincu, sous le joug fléchira,</l>
+                        <l n="467"> Ou ne le pouvant point, Pharnace périra.</l>
+                </sp>
+        <sp who="#pompée">
+            <speaker> POMPÉE. </speaker>
+                        <l n="468"> C’est ainsi que l’on doit conserver sa fortune,</l>
+                        <l n="469"> Votre fidélité ne sera pas commune.</l>
+                        <l n="470"> Mais aussi vous savez qu’il n’est pas de loyer,</l>
+                        <l n="471"> Que la Reine des Rois ne vous puisse octroyer.</l>
+                        <l n="472"> Adieu, gouvernez-vous par le conseil d’Émile,</l>
+                        <l n="473"> Et mettez tous vos soins pour emporter la ville.</l>
+                        <l n="474"> Surtout souvenez-vous en cette affaire ici,</l>
+                        <l n="475"> Que Rome fait les Rois, et les défait aussi.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="476"> Oui, je me souviendrai que je dois tout à Rome,</l>
+                        <l n="477"> Et n’étant plus à vous je ne serai plus homme.</l>
+                        <l n="478"> Mon esprit inquiet est en vain combattu,</l>
+                        <l n="479"> J’étouffe pour mon bien ce reste de vertu.</l>
+                        <l n="480"> Son fâcheux souvenir en vain me sollicite,</l>
+                        <l n="481"> Et si je fais un crime un trône le mérite.</l>
+                        <l n="482"> Mais dieux de quels remords je me sens agiter !</l>
+                        <l n="483"> Quel tardif repentir me vient persécuter !</l>
+                        <l n="484"> Je commets un péché qui me rend exécrable.</l>
+                        <l n="485"> Et jamais le soleil n’en a vu de semblable,</l>
+                        <l n="486"> Mitridate est mon père, et c’est mon ennemi.</l>
+                </sp>
+        <sp who="#émile">
+            <speaker> ÉMILE. </speaker>
+                        <l n="487"> Et quoi vous n’êtes donc résolu qu’à demi.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="488"> Je suis bien résolu, mais Émile il me reste</l>
+                        <l n="489"> Un remords importun d’un crime manifeste.</l>
+                        <l n="490"> Ce bourreau de mon âme erre devant mes yeux,</l>
+                        <l n="491"> Me figurant l’horreur des hommes et des Dieux,</l>
+                        <l n="492"> J’ai pour plus grand fléau ma seule conscience.</l>
+                </sp>
+        <sp who="#émile">
+            <speaker> ÉMILE. </speaker>
+                        <l n="493"> Délivrez votre esprit d’une vaine créance,</l>
+                        <l n="494"> Tous vos raisonnements ne sont plus de saison :</l>
+                        <l n="495"> Il faut considérer le temps et la raison,</l>
+                        <l n="496"> Le temps veut que l’on cède au vainqueur qui dispose,</l>
+                        <l n="497"> Puisqu’à ses volontés vainement on s’oppose.</l>
+                        <l n="498"> Qu’on tâche à conserver un Empire penchant,</l>
+                        <l n="499"> La raison qu’on haïsse et poursuive un méchant.</l>
+                        <l n="500"> Choquant notre ennemi, vous choquez votre père :</l>
+                        <l n="501"> Mais votre propre bien vous oblige à le faire.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="502"> Je ne m’oppose point à ce que j’ai voulu,</l>
+                        <l n="503"> Puisque je l’ai promis c’est un point résolu.</l>
+                        <l n="504"> Je ne donne aux Romains qu’une assurance vraie :</l>
+                        <l n="505"> Mais Émile, je veux te découvrir ma plaie,</l>
+                        <l n="506"> Et ne te cacher plus ce qui me fait mourir :</l>
+                        <l n="507"> Peut-être ton conseil me pourra secourir.</l>
+                        <l n="508"> Du moins te la disant ma douleur diminue.</l>
+                        <l n="509"> Si tu connais amour, ma peine t’est connue.</l>
+                        <l n="510"> Quoique mon feu soit beau, vertueux, innocent :</l>
+                        <l n="511"> De tous mes ennemis il est le plus puissant.</l>
+                        <l n="512"> Au milieu des combats c’est lui qui me tourmente.</l>
+                        <l n="513"> J’ai souffert sans me plaindre une ardeur violente :</l>
+                        <l n="514"> Et si dans ces accès je ne le disais point,</l>
+                        <l n="515"> C’est que le désespoir à mon amour est joint.</l>
+                        <l n="516"> Mon corps est parmi vous, mon cœur hors de l’armée,</l>
+                        <l n="517"> Sinope dans ses murs tient mon âme enfermée.</l>
+                        <l n="518"> Ce que pour moi la terre a d’aimable et de beau,</l>
+                        <l n="519"> Est chez mes ennemis, et peut-être au tombeau.</l>
+                </sp>
+        <sp who="#émile">
+            <speaker> ÉMILE. </speaker>
+                        <l n="520"> Souvent le déplaisir à nos esprits figure</l>
+                        <l n="521"> Des objets de douleur qui ne sont qu’en peinture.</l>
+                        <l n="522"> Et la crainte imprimée en notre souvenir,</l>
+                        <l n="523"> Nous fait appréhender des malheurs à venir :</l>
+                        <l n="524"> Quoi qu’ils soient en effet hors de toute apparence,</l>
+                        <l n="525"> Si ceux que vous craignez n’ont besoin de silence.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="526"> Sache que ma douleur ne vient plus que d’amour :</l>
+                        <l n="527"> Je vis, et toutefois je ne vois plus le jour.</l>
+                        <l n="528"> Privé de mon soleil je suis dans les ténèbres,</l>
+                        <l n="529"> Et mon œil n’est ouvert qu’à des objets funèbres.</l>
+                        <l n="530"> Émile devant toi je prends les Dieux témoins,</l>
+                        <l n="531"> Que cette passion engendre tous mes soins.</l>
+                        <l n="532"> J’embrassai sans regret l’alliance Romaine,</l>
+                        <l n="533"> Et de leurs ennemis je n’aime que la haine :</l>
+                        <l n="534"> Les jugements d’autrui me sont indifférents,</l>
+                        <l n="535"> Ce sont bien mes soucis, mais non pas les plus grands.</l>
+                        <l n="536"> Je regrette une perte, ou du moins une absence,</l>
+                        <l n="537"> Qui sert à mon chagrin d’une juste dispense.</l>
+                        <l n="538"> Si parmi les mortels on voit un homme heureux,</l>
+                        <l n="539"> Je le fus à l’égal que je fus amoureux.</l>
+                        <l n="540"> J’aimai ce que la terre avait de plus aimable,</l>
+                        <l n="541"> Et pour moi mon soleil eut un amour semblable.</l>
+                        <l n="542"> Nos cœurs de même feu doucement allumés,</l>
+                        <l n="543"> Brûlaient innocemment sans être consommés.</l>
+                        <l n="544"> Si je souffrais pour elle, elle souffrait de même :</l>
+                        <l n="545"> Et réciproquement notre ardeur fut extrême.</l>
+                        <l n="546"> Enfin je possédais l’abrégé plus parfait</l>
+                        <l n="547"> Des ouvrages plus beaux que la nature ait fait.</l>
+                        <l n="548"> Le Ciel me l’envia, la terre en fut jalouse,</l>
+                        <l n="549"> Et les plus froids objets adoraient mon épouse :</l>
+                        <l n="550"> Qui fut (me conservant une immuable foi)</l>
+                        <l n="551"> Pour tout autre de glace, et de flamme pour moi.</l>
+                        <l n="552"> Sa vertu surpassait une vertu commune,</l>
+                        <l n="553"> Enfin rien ne manquait à ma bonne fortune,</l>
+                        <l n="554"> Et jamais un mortel n’eut mieux ses vœux contents,</l>
+                        <l n="555"> Si j’eusse eu ce bonheur pour le garder longtemps.</l>
+                </sp>
+        <sp who="#émile">
+            <speaker> ÉMILE. </speaker>
+                        <l n="556"> Enfin par quel malheur vous fut elle ravie ?</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="557"> Tu vois quel accident me prive de la vie :</l>
+                        <l n="558"> Car ma condition pire que le trépas,</l>
+                        <l n="559"> Ne se peut nommer vie en ne la voyant pas.</l>
+                        <l n="560"> L’amitié des Romains me dérobe sa vue,</l>
+                        <l n="561"> Ce sont leurs ennemis qui me l’ont retenue.</l>
+                        <l n="562"> Mon peu de jugement la mit en ce danger,</l>
+                        <l n="563"> J’offense Mitridate, il se peut bien venger.</l>
+                        <l n="564"> Et déjà ce cruel exerce sa malice,</l>
+                        <l n="565"> Et pour punir Pharnace, afflige Bérénice.</l>
+                        <l n="566"> Quoi qu’il ne la haïsse, il connaît mon amour.</l>
+                        <l n="567"> Peut être en ce moment elle a perdu le jour,</l>
+                        <l n="568"> Et ce tigre insolent d’une telle défaite</l>
+                        <l n="569"> Voit du sang innocent sa haine satisfaite.</l>
+                        <l n="570"> Ô dieux !</l>
+                </sp>
+        <sp who="#émile">
+            <speaker> ÉMILE. </speaker>
+                        <l n="571"> Délivrez-vous d’un si fâcheux souci.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="572"> J’aurais contre les maux un cœur trop endurci,</l>
+                        <l n="573"> Un esprit vainement dans son malheur se flatte ;</l>
+                        <l n="574"> Et depuis trop longtemps je connais Mitridate.</l>
+                        <l n="575"> Toutefois Bérénice a de quoi le toucher,</l>
+                        <l n="576"> Et s’il ne fléchissait il serait un rocher.</l>
+                        <l n="577"> Il n’est point de lionne assez pleine de rage,</l>
+                        <l n="578"> Pour s’armer de fureur contre ce beau visage :</l>
+                        <l n="579"> Ses yeux amolliraient un cœur de diamant.</l>
+                        <l n="580"> Cet espoir incertain me reste seulement,</l>
+                        <l n="581"> Que si je me repais d’une espérance vaine,</l>
+                        <l n="582"> Si déjà l’ennemi fait éclater sa haine,</l>
+                        <l n="583"> Si pour m’avoir aimé Bérénice n’est plus,</l>
+                        <l n="584"> Et si pour la revoir mes soins sont superflus,</l>
+                        <l n="585"> Je comblerai d’horreur ma dernière conquête,</l>
+                        <l n="586"> Je rendrai par le fer son ombre satisfaite :</l>
+                        <l n="587"> Et le devoir du sang ne me peut empêcher,</l>
+                        <l n="588"> De faire à son tombeau ses meurtriers trébucher.</l>
+                </sp>
+        <sp who="#émile">
+            <speaker> ÉMILE. </speaker>
+                        <l n="589"> Si l’injure du Ciel à ce point vous outrage,</l>
+                        <l n="590"> Résistez à ses traits par un mâle courage,</l>
+                        <l n="591"> Et vous ressouvenez qu’un homme généreux,</l>
+                        <l n="592"> S’il ne succombe au mal, n’est jamais malheureux.</l>
+                        <l n="593"> De quelques accidents que le sort le traverse,</l>
+                        <l n="594"> Il n’éprouve jamais la fortune diverse.</l>
+                        <l n="595"> Il rit sans s’ébranler de ses événements :</l>
+                        <l n="596"> Et d’un visage égal voit tous ses changements.</l>
+                        <l n="597"> Mais d’où vient ce soldat effrayé de la sorte ?</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#un-soldat">
+            <speaker> UN SOLDAT. </speaker>
+                        <l n="598"> Sans ce dernier secours notre espérance est morte,</l>
+                        <l n="599"> Nos meilleurs escadrons sont à demi rompus.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="600"> Parle et démêle-toi de ce discours confus,</l>
+                        <l n="601"> Respire un seul moment de cette folle crainte.</l>
+                </sp>
+        <sp who="#un-soldat">
+            <speaker> UN SOLDAT. </speaker>
+                        <l n="602"> Ce n’est pas de frayeur que mon âme est atteinte :</l>
+                        <l n="603"> Mais poussé d’un courage et fidèle et prudent,</l>
+                        <l n="604"> Je vous viens avertir du péril évident.</l>
+                        <l n="605"> Mitridate suivi de sa troupe enfermée,</l>
+                        <l n="606"> Est sorti des remparts pour attaquer l’armée :</l>
+                        <l n="607"> Comme c’est un éclat qu’on n’avait point prévu</l>
+                        <l n="608"> Les premiers bataillons sont pris à l’impourvu,</l>
+                        <l n="609"> Cette bouillante ardeur ne peut être arrêtée :</l>
+                        <l n="610"> Tout fuit devant le Roi, tout fuit Hypsicratée.</l>
+                        <l n="611"> Ils ne sont du butin, mais du sang altérés ;</l>
+                        <l n="612"> Et s’ils sont peu de gens, ils sont désespérés.</l>
+                        <l n="613"> Enfin tout a fait jour à leurs premières armes,</l>
+                        <l n="614"> Et les champs sont couverts du corps de nos gendarmes.</l>
+                        <l n="615"> Cette forte Amazone atterre de ses mains,</l>
+                        <l n="616"> Et les Bithyniens, et les soldats Romains :</l>
+                        <l n="617"> Tous indifféremment font rougir son épée,</l>
+                        <l n="618"> Elle appelle au combat et Pharnace et Pompée :</l>
+                        <l n="619"> Son époux qui la couvre avecque son écu,</l>
+                        <l n="620"> Massacre sans pitié cet escadron vaincu.</l>
+                        <l n="621"> Bref tout n’est plus que sang, qu’horreur, que funérailles.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="622"> Grâce aux Dieux je reçois le fruit de cent batailles,</l>
+                        <l n="623"> Celui que tant de fois Rome avait combattu,</l>
+                        <l n="624"> Aujourd’hui se soumet à ses pieds abattu.</l>
+                        <l n="625"> Allons Émile, allons vaincre sans résistance,</l>
+                        <l n="626"> Rompons de l’ennemi la dernière puissance.</l>
+                        <l n="627"> Après cette défaite il n’en peut relever,</l>
+                        <l n="628"> Et le plus grand honneur consiste à l’achever</l></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#hypsicratée">
+            <speaker> HYPSICRATÉE, MITRIDATE, MITHRIDATIE, NISE </speaker>
+            <stage><em>On tire la tapisserie.</em></stage>
+                </sp>
+        <sp who="#hypsicratée">
+            <speaker> HYPSICRATÉE. </speaker>
+                        <l n="629"> Depuis que le destin contre lui se déclare,</l>
+                        <l n="630"> Un cœur se doit munir d’une constance rare.</l>
+                        <l n="631"> Il est vrai, cher époux, nous avons tout perdu :</l>
+                        <l n="632"> Mais pour ces vains regrets nous sera-t-il rendu ?</l>
+                        <l n="633"> Notre troupe à nos yeux entièrement défaite,</l>
+                        <l n="634"> Dans ce dernier Palais notre seule retraite,</l>
+                        <l n="635"> La ville à la merci du soldat insolent,</l>
+                        <l n="636"> Pour affliger une âme est un mal violent :</l>
+                        <l n="637"> Mais par ce désespoir, dont votre esprit s’accable,</l>
+                        <l n="638"> Pouvez-vous réparer un mal irréparable ?</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="639"> Non, mais juge toi-même en l’état où je suis,</l>
+                        <l n="640"> Que respirer le jour c’est tout ce que je puis :</l>
+                        <l n="641"> Qu’il n’est point de regret qui ne soit légitime,</l>
+                        <l n="642"> Et qu’après tant de maux la constance est un crime.</l>
+                        <l n="643"> Commander Souverain à cent peuples divers,</l>
+                        <l n="644"> Donner de l’épouvante aux Rois de l’univers,</l>
+                        <l n="645"> Voir céder tant de peuple à la gloire d’un homme,</l>
+                        <l n="646"> Être l’appui d’Asie, et la terreur de Rome,</l>
+                        <l n="647"> Et voir par une lâche et noire trahison,</l>
+                        <l n="648"> Borner tant de grandeurs d’une seule maison,</l>
+                        <l n="649"> Où même un fils ingrat me défend la retraite,</l>
+                        <l n="650"> C’est de quelle façon la fortune me traite.</l>
+                </sp>
+        <sp who="#hypsicratée">
+            <speaker> HYPSICRATÉE. </speaker>
+                        <l n="651"> Tous ceux qu’elle a chéris elle les traite ainsi,</l>
+                        <l n="652"> Si vous êtes trahi, mille le sont aussi.</l>
+                        <l n="653"> De sa légèreté l’on voit partout des marques,</l>
+                        <l n="654"> Elle a fait trébucher les plus heureux Monarques.</l>
+                        <l n="655"> La perfide qu’elle est les élève au plus haut,</l>
+                        <l n="656"> Pour les précipiter d’un plus horrible saut.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="657"> Je ne me plaindrais pas des traits de la fortune,</l>
+                        <l n="658"> Que comme d’une perte ou légère ou commune :</l>
+                        <l n="659"> Si je me voyais seul, ainsi que je me vois :</l>
+                        <l n="660"> Mais si tu dois courir même risque que moi,</l>
+                        <l n="661"> Si les maux que je sens il faut que tu les sentes,</l>
+                        <l n="662"> Et si je perds aussi ces filles innocentes,</l>
+                        <l n="663"> Que mon propre intérêt attache avecque nous.</l>
+                </sp>
+        <sp who="#mithridatie">
+            <speaker> MITHRIDATIE. </speaker>
+                        <l n="664"> Si nous nous affligeons c’est seulement pour vous,</l>
+                        <l n="665"> Glorieux rejetons du sang de Mitridate :</l>
+                        <l n="666"> L’injustice du Ciel n’a rien qui nous abatte :</l>
+                        <l n="667"> Nous courons même sort que vous devez courir,</l>
+                        <l n="668"> Et si vous périssez, nous voulons bien périr.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="669"> Quoi qu’à l’extrémité le Ciel me désoblige,</l>
+                        <l n="670"> Pour mon propre malheur il n’est rien qui m’afflige :</l>
+                        <l n="671"> Pour mourir glorieux j’ai bien assez vécu,</l>
+                        <l n="672"> Les Dieux, Rome et les miens ne m’ont jamais vaincu.</l>
+                        <l n="673"> J’ai déjà si longtemps travaillé pour ma gloire,</l>
+                        <l n="674"> Que je ne craindrais point la dernière victoire.</l>
+                        <l n="675"> Mitridate mourant mourra toujours en Roi,</l>
+                        <l n="676"> Il n’a peu sur autrui que ce qu’il peut sur soi.</l>
+                        <l n="677"> Je n’ai point de regret d’abandonner la vie,</l>
+                        <l n="678"> Cette main me l’aurait depuis longtemps ravie,</l>
+                        <l n="679"> Si je ne vous laissais en proie aux ennemis,</l>
+                        <l n="680"> Qui vengeraient sur vous ce qu’un autre a commis.</l>
+                        <l n="681"> À la suite d’un char mon épouse et ma fille,</l>
+                        <l n="682"> Le triomphe honoré de toute ma famille,</l>
+                        <l n="683"> Ma chère Hypsicratée esclave dans les fers,</l>
+                        <l n="684"> Ferait mourir mon âme au milieu des enfers.</l>
+                </sp>
+        <sp who="#hypsicratée">
+            <speaker> HYPSICRATÉE. </speaker>
+                        <l n="685"> Rome qui dans nos murs impunément nous brave,</l>
+                        <l n="686"> Ne recevra jamais Hypsicratée esclave :</l>
+                        <l n="687"> La gloire de Pompée ira jusqu’à ce point :</l>
+                        <l n="688"> Mais pour cette dernière il ne l’obtiendra point.</l>
+                        <l n="689"> Votre épouse par tout vous tiendra compagnie,</l>
+                        <l n="690"> Et de votre tombeau ne sera point bannie.</l>
+                        <l n="691"> Elle sait dès longtemps mépriser le trépas,</l>
+                        <l n="692"> Et les plus grands périls ne l’épouvantent pas.</l>
+                </sp>
+        <sp who="#nise">
+            <speaker> NISE. </speaker>
+                        <l n="693"> Espérez un peu mieux des soins de Bérénice,</l>
+                        <l n="694"> Aujourd’hui sa vertu nous rend un bon office,</l>
+                        <l n="695"> J’attends de son dessein un très heureux succès.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="696"> Dans le cœur d’un brutal l’amour n’a plus d’accès,</l>
+                        <l n="697"> La seule ambition dans son âme s’imprime :</l>
+                        <l n="698"> Toute autre passion serait illégitime.</l>
+                        <l n="699"> Et quand on le verrait rentrer en son devoir,</l>
+                        <l n="700"> Il n’a sur les Romains que bien peu de pouvoir,</l>
+                        <l n="701"> Toutes les légions dépendent de Pompée.</l>
+                </sp>
+        <sp who="#mithridatie">
+            <speaker> MITHRIDATIE. </speaker>
+                        <l n="702"> Ici votre créance heureusement trompée :</l>
+                        <l n="703"> S’il a peu conserver quelque reste d’amour,</l>
+                        <l n="704"> Permet à notre espoir encore un peu de jour.</l>
+                        <l n="705"> Pompée impatient d’une gloire nouvelle,</l>
+                        <l n="706"> Obéit au vouloir du Sénat qui l’appelle :</l>
+                        <l n="707"> Pharnace a désormais tout le pouvoir en main.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="708"> On ne m’abuse pas par un mensonge vain,</l>
+                        <l n="709"> J’approuve toutefois un louable artifice.</l>
+                </sp>
+        <sp who="#mithridatie">
+            <speaker> MITHRIDATIE. </speaker>
+                        <l n="710"> Étant sur les remparts avecque Bérénice,</l>
+                        <l n="711"> Nous avons vu tomber un javelot lancé,</l>
+                        <l n="712"> Que d’un commun accord nous avons ramassé,</l>
+                        <l n="713"> Pour lire le secret d’une lettre attachée,</l>
+                        <l n="714"> Qui nous a fait douter d’une ruse cachée.</l>
+                        <l n="715"> Je ne vous redis point ce que nous avons lu,</l>
+                        <l n="716"> Quoi que tout ce qu’on sait, c’est par là qu’on l’a su.</l>
+                        <l n="717"> C’est un billet écrit de la main de Pharnace,</l>
+                        <l n="718"> Qui par un feint discours déplore sa disgrâce,</l>
+                        <l n="719"> Sollicitant sa femme à quitter ce parti :</l>
+                        <l n="720"> Mais ce puissant esprit n’en est point diverti.</l>
+                        <l n="721"> Ces paroles, au lieu d’ébranler son courage,</l>
+                        <l n="722"> Dans son premier dessein la poussent davantage.</l>
+                        <l n="723"> Elle a relu ces mots sans changer de couleur,</l>
+                        <l n="724"> Et sans me témoigner aucun trait de douleur.</l>
+                        <l n="725"> Ce jour, m’a-t-elle dit, ou me sera funeste,</l>
+                        <l n="726"> Ou je me servirai du pouvoir qui me reste.</l>
+                        <l n="727"> Combien que je l’abhorre il le faut supplier :</l>
+                        <l n="728"> Et pour notre salut je dois tout oublier.</l>
+                        <l n="729"> Ses yeux, en le disant, n’ont point versé de larmes :</l>
+                        <l n="730"> Mais ils ont au besoin repris leurs premiers charmes.</l>
+                        <l n="731"> Ils s’arment des attraits qui l’ont fait soupirer,</l>
+                        <l n="732"> Et lancent des regards qui se font adorer :</l>
+                        <l n="733"> Si Pharnace résiste aux traits qu’elle décoche,</l>
+                        <l n="734"> Je dirai que son cœur est formé d’une roche.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="735"> Dites qu’il est formé de poussière et de sang,</l>
+                        <l n="736"> Et que s’il est né Prince, il est hors de ce rang :</l>
+                        <l n="737"> Puisque la sœur rougit de la honte du frère,</l>
+                        <l n="738"> Je désavoue un fils indigne d’un tel père.</l>
+                        <l n="739"> Mais si son repentir on tente vainement,</l>
+                        <l n="740"> Au moins défendons nous jusqu’au dernier moment.</l>
+                        <l n="741"> Allons ensanglanter nos dernières murailles,</l>
+                        <l n="742"> Signalons notre fin de mille funérailles,</l>
+                        <l n="743"> Faisons à notre gloire un superbe tombeau,</l>
+                        <l n="744"> Et mourons satisfaits pour un trépas si beau.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#pharnace">
+            <speaker> PHARNACE, ÉMILE </speaker>
+            <stage><em>Pharnace sort avec Émile et les Citoyens de Sinope.</em></stage>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="745"> Je ne veux point détruire un bien que je possède,</l>
+                        <l n="746"> Ni traiter en vainqueur un peuple qui me cède :</l>
+                        <l n="747"> Puis que tous d’un accord ne demandent que moi,</l>
+                        <l n="748"> Je fus leur ennemi, je veux être leur Roi.</l>
+                        <l n="749"> Je monte par la force au trône héréditaire,</l>
+                        <l n="750"> Je vous serai pourtant plus bénin que mon père :</l>
+                        <l n="751"> Et si vous persistez dans la fidélité,</l>
+                        <l n="752"> Vous aurez le repos qu’il vous avait ôté.</l>
+                        <l n="753"> Vous verrez aujourd’hui vos peines terminées,</l>
+                        <l n="754"> Par une paix heureuse elles seront bornées :</l>
+                        <l n="755"> Et de tant de travaux mon peuple soulagé,</l>
+                        <l n="756"> Va respirer des maux qui l’avoient affligé.</l>
+                        <l n="757"> Je veux pour votre bien accepter la Couronne,</l>
+                        <l n="758"> Mais vous reconnaîtrez Rome qui me la donne.</l>
+                        <l n="759"> C’est à la République à vous donner des lois,</l>
+                        <l n="760"> Et d’elle désormais vous recevrez des Rois.</l>
+                        <l n="761"> C’est la punition qui vous est imposée,</l>
+                        <l n="762"> Et vous n’êtes punis que d’une peine aisée.</l>
+                        <l n="763"> Vous n’avez rien à craindre avec un tel support,</l>
+                        <l n="764"> Vous quittez un parti pour en suivre un plus fort :</l>
+                        <l n="765"> Et pour vous délivrer d’une sanglante guerre,</l>
+                        <l n="766"> Vous recevez son joug, comme toute la terre.</l>
+                        <l n="767"> Vous ne le pouvez craindre après ce traitement.</l>
+                </sp>
+        <sp who="#émile">
+            <speaker> ÉMILE. </speaker>
+                        <l n="768"> Une telle douceur s’éprouve rarement,</l>
+                        <l n="769"> Et quand on a de force une ville emportée :</l>
+                        <l n="770"> La fureur des soldats est à peine arrêtée :</l>
+                        <l n="771"> Mais nous avons vaincu seulement à demi ;</l>
+                        <l n="772"> La ville est bien à nous, mais non pas l’ennemi.</l>
+                        <l n="773"> Nous n’avons pas encor la victoire assez grande,</l>
+                        <l n="774"> C’est Mitridate seul, que Rome nous demande.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="775"> Des malheurs du combat la fuite l’a sauvé,</l>
+                        <l n="776"> Mais il s’est contre nous vainement conservé.</l>
+                        <l n="777"> Ce Palais qui lui sert de dernière retraite,</l>
+                        <l n="778"> Ne saurait plus d’un jour retarder sa défaite.</l>
+                        <l n="779"> Ce mur s’oppose en vain à nos braves efforts.</l>
+                        <l n="780"> Qu’on comble ces fossés, ou de terre, ou de corps,</l>
+                        <l n="781"> Que l’on hasarde tout, qu’on vainque ou que l’on meure,</l>
+                        <l n="782"> Et qu’un assaut donné l’emporte dans une heure.</l>
+                        <l n="783"> C’est de vous seulement que j’espère ce bien,</l>
+                        <l n="784"> Et si j’en suis privé, je ne possède rien.</l>
+            <stage><em>On jette une flèche des remparts, avec une lettre attachée.</em></stage>
+                        <l n="785"> Mais d’où vient à mes pieds cette flèche lancée ?</l>
+                        <l n="786"> Ô Dieux ! si Bérénice avait su ma pensée ?</l>
+                        <l n="787"> Il n’en faut plus douter, ce billet attaché,</l>
+                        <l n="788"> Éclaircit mon esprit d’un mystère caché.</l>
+                        <l n="789"> Ah ! qu’un si grand bonheur me va combler de joie,</l>
+                        <l n="790"> Bérénice elle-même est celle qui l’envoie :</l>
+                        <l n="791"> Je reconnais sa main, ces mots qu’elle a tracés,</l>
+                        <l n="792"> Et cet aimable nom me l’apprennent assez.</l>
+                        <l n="793">                         LETTRE DE BÉRÉNICE À PHARNACE.</l>
+                        <l n="794"> Si je dois espérer que dans votre pensée</l>
+                        <l n="795"> De votre chère épouse il reste un souvenir :</l>
+                        <l n="796"> Par les feux innocents de notre amour passée,</l>
+                        <l n="797"> Accordez moi le bien de vous entretenir.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="798"> Toujours ma volonté dépendra de la tienne,</l>
+                        <l n="799"> Aussi bien mon amour veut que je t’entretienne.</l>
+                        <l n="800"> Tu demandes un bien que j’attendais de toi,</l>
+                        <l n="801"> Et me fais la faveur que tu prétends de moi.</l>
+                        <l n="802"> Mais ou mon œil me trompe, ou je la vois paraître,</l>
+                        <l n="803"> Telle que dans les Cieux on voit le soleil naître.</l>
+                        <l n="804"> D’un éclat si soudain mes yeux sont éblouis,</l>
+                        <l n="805"> Et tous mes déplaisirs sont presque évanouis.</l>
+                        <l n="806"> Dispose-toi mon âme à souffrir un reproche.</l>
+                        <l n="807"> Ce pendant gardez bien que personne n’approche,</l>
+                        <l n="808"> Si l’on veut m’obliger, qu’on se tienne un peu loin,</l>
+                        <l n="809"> Un secret important ne veut pas de témoin.</l>
+            <stage><em>Émile et ceux qui sont avec lui rentrent et laissent Pharnace seul. </em></stage></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="810"> À peine jusqu’à toi puis-je étendre ma vue,</l>
+                        <l n="811"> Si j’avais moins d’amour, je t’aurais méconnue.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="812"> Cette méconnaissance est un visible effet</l>
+                        <l n="813"> Du honteux changement que tes crimes ont fait.</l>
+                        <l n="814"> Pour moi ne voyant plus cette vertu que j’aime,</l>
+                        <l n="815"> Je doute si Pharnace est encore le même.</l>
+                        <l n="816"> Il a son premier port, son visage, ses yeux :</l>
+                        <l n="817"> Mais il n’a point ce cœur que j’ai chéri le mieux.</l>
+                        <l n="818"> Il était vertueux, maintenant il est traître.</l>
+                        <l n="819"> C’est lui doncques, c’est lui que l’on doit méconnaître.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="820"> Quoi mon âme, c’est toi qui me traites ainsi,</l>
+                        <l n="821"> Délivre mon esprit d’un si fâcheux souci.</l>
+                        <l n="822"> De grâce, mon épouse, éclaircis cette feinte.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="823"> Je ne reçois ce nom qu’avec de la contrainte.</l>
+                        <l n="824"> Ce titre est trop honteux à la fille d’un Roi,</l>
+                        <l n="825"> Et le serf des Romains est indigne de moi.</l>
+                        <l n="826"> Celui qui peut trahir l’auteur de sa naissance,</l>
+                        <l n="827"> Qui s’arme contre lui d’une lâche alliance,</l>
+                        <l n="828"> Qui tient des ennemis des sceptres empruntés,</l>
+                        <l n="829"> Et qui réduit les siens dans ces extrémités,</l>
+                        <l n="830"> Ne peut être avoué l’époux de Bérénice,</l>
+                        <l n="831"> Elle aimait son mari, mais elle hait le vice.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="832"> En quoi t’ai-je offensé, et quel crime commis</l>
+                        <l n="833"> T’oblige à me traiter comme les ennemis ?</l>
+                        <l n="834"> Il est vrai, je le suis, mais c’est de Mitridate,</l>
+                        <l n="835"> Tu le dois être aussi, si tu n’es point ingrate.</l>
+                        <l n="836"> Si de sa passion ton esprit n’est guéri,</l>
+                        <l n="837"> Tu suivras à clos yeux l’intérêt d’un mari.</l>
+                        <l n="838"> Notre condition sera toujours commune,</l>
+                        <l n="839"> Tu dois aveuglement embrasser ma fortune :</l>
+                        <l n="840"> Aimer tous mes amis, haïr ceux que je hais,</l>
+                        <l n="841"> Et pour ne point faillir, faire ce que je fais.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="842"> Je sais ce que je dois à la foi conjugale,</l>
+                        <l n="843"> Mais sache que mon âme est une âme Royale :</l>
+                        <l n="844"> Qui ne peut sans contrainte approuver un forfait,</l>
+                        <l n="845"> Ni louer un péché, quoi qu’un mari l’ait fait.</l>
+                        <l n="846"> Conduis tes bataillons aux murs de cette ville,</l>
+                        <l n="847"> Qui sert contre les tiens à toi même d’asile.</l>
+                        <l n="848"> Va porter la terreur aux lieux plus retirés,</l>
+                        <l n="849"> Que le flambeau du jour ait encor éclairés.</l>
+                        <l n="850"> Rend des Cieux seulement tes conquêtes bornées,</l>
+                        <l n="851"> Arme-toi, si tu veux, contre les destinées :</l>
+                        <l n="852"> Et si tu ne me vois compagne de tes pas,</l>
+                        <l n="853"> Publie hardiment que je ne t’aime pas.</l>
+                        <l n="854"> Mais servir les Romains contre ton propre père,</l>
+                        <l n="855"> Usurper par sa mort un trône héréditaire,</l>
+                        <l n="856"> Tenir le jour de lui, le lui vouloir ôter,</l>
+                        <l n="857"> Juges-tu qu’en cela je te doive imiter ?</l>
+                        <l n="858"> Sache que je croirais une honte de vivre,</l>
+                        <l n="859"> Ayant eu seulement le penser de te suivre.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="860"> Je commets un péché que je ne peux nier,</l>
+                        <l n="861"> Mais tout ce que j’ai fait se peut justifier.</l>
+                        <l n="862"> Je blesse mon honneur d’une mortelle offense :</l>
+                        <l n="863"> Mais les raisons d’État me servent de dispense.</l>
+                        <l n="864"> Mes parents délaissés, Mitridate trahi,</l>
+                        <l n="865"> Ses soldats subornés, son pays envahi,</l>
+                        <l n="866"> Des ennemis mortels l’alliance embrassée,</l>
+                        <l n="867"> Ses remparts assaillis, et sa ville forcée,</l>
+                        <l n="868"> Me font paraître ingrat, traître, dénaturé :</l>
+                        <l n="869"> Mais j’ai, par ce moyen, mon repos assuré.</l>
+                        <l n="870"> Si je tiens son parti, je perds une Couronne,</l>
+                        <l n="871"> Et cette trahison est ce qui me la donne.</l>
+                        <l n="872"> Vivre en homme privé, c’est n’avoir point de cœur,</l>
+                        <l n="873"> Et le temps nous apprend de céder au vainqueur.</l>
+                        <l n="874"> J’ai pour tous ces malheurs un déplaisir extrême :</l>
+                        <l n="875"> Mais si je ne le perds, je me perdrai moi-même.</l>
+                        <l n="876"> Mon salut seulement contre lui m’a poussé,</l>
+                        <l n="877"> Et je pèche biens moins, quand je pèche forcé.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="878"> Tu te couvres en vain d’une honteuse feinte,</l>
+                        <l n="879"> Tu ne peux t’excuser sur aucune contrainte,</l>
+                        <l n="880"> Ayant suivi par tout ton propre mouvement,</l>
+                        <l n="881"> Et ton ambition t’a perdu seulement.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="882"> Oui, de tous ces malheurs elle est la seule cause,</l>
+                        <l n="883"> Mais c’est par une loi que l’honneur nous impose :</l>
+                        <l n="884"> Elle n’a peu souffrir de me voir abaissé,</l>
+                        <l n="885"> Regretter le débris d’un trône renversé,</l>
+                        <l n="886"> Voir mes jours et les tiens dans un honteux servage,</l>
+                        <l n="887"> Et recevoir des fers, au lieu de rendre hommage.</l>
+                        <l n="888"> Quand tu m’as cru sans cœur, ton esprit s’est déçu,</l>
+                        <l n="889"> Et je n’en avais point pour en avoir trop eu.</l>
+                        <l n="890"> J’aime mieux être Roi me soumettant à Rome,</l>
+                        <l n="891"> Qu’être sans liberté pour soutenir un homme.</l>
+                        <l n="892"> Mais mon âme, quittons ce discours importun,</l>
+                        <l n="893"> Cherchons quelque remède à notre mal commun,</l>
+                        <l n="894"> Qui de tous mes plaisirs ne permet que la vue,</l>
+                        <l n="895"> Et si dans ce Palais tu n’es point retenue,</l>
+                        <l n="896"> Permets que tes beaux yeux m’éclairent de plus près,</l>
+                        <l n="897"> Laisse-là Mitridate et tous ses intérêts.</l>
+                        <l n="898"> Jette-toi dans les bras d’un mari qui t’adore,</l>
+                        <l n="899"> Accorde le remède au feu qui le dévore.</l>
+                        <l n="900"> Et puis qu’il ne peut vivre étant privé de toi,</l>
+                        <l n="901"> Donne lui maintenant des preuves de ta foi.</l>
+                        <l n="902"> Ne crois point dans ce lieu ta sûreté certaine,</l>
+                        <l n="903"> Mitridate sur toi déchargera sa haine,</l>
+                        <l n="904"> Quoi qu’il ait jusqu’ici différé ton trépas,</l>
+                        <l n="905"> Ce cruel à la fin ne t’épargnera pas.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="906"> Ton père généreux ne m’a jamais traitée,</l>
+                        <l n="907"> Que comme ses enfants, ou comme Hypsicratée,</l>
+                        <l n="908"> Je n’ai point dépendu des volontés d’autrui,</l>
+                        <l n="909"> Je puis t’accompagner, ou vivre auprès de lui.</l>
+                        <l n="910"> Et cette liberté qu’il m’a toujours donnée,</l>
+                        <l n="911"> A fait joindre mon sort avec sa destinée.</l>
+                        <l n="912"> Le nœud qui nous étreint ne se peut séparer,</l>
+                        <l n="913"> Et pour nous et pour lui je te viens conjurer,</l>
+                        <l n="914"> Par cette sainte amour que tu m’avais promise,</l>
+                        <l n="915"> De détourner l’effet d’une lâche entreprise,</l>
+                        <l n="916"> Employer ta valeur contre des étrangers.</l>
+                        <l n="917"> Après ce repentir tes crimes sont légers,</l>
+                        <l n="918"> Mitridate indulgent en perdra la mémoire,</l>
+                        <l n="919"> Tu te couronneras d’une dernière gloire,</l>
+                        <l n="920"> Et par tout cet honneur suivra toujours tes pas,</l>
+                        <l n="921"> Qu’après avoir vaincu tu n’en abuses pas.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="922"> Ô Dieux ! se peut-il bien que ma fidèle épouse</l>
+                        <l n="923"> De ma prospérité soit maintenant jalouse ?</l>
+                        <l n="924"> Me conseille ma perte, au lieu de l’empêcher,</l>
+                        <l n="925"> Et s’oppose à mon bien, qu’elle dut rechercher.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="926"> Je ne m’oppose pas au bonheur de Pharnace,</l>
+                        <l n="927"> Mais je veux détourner le mal qui le menace.</l>
+                        <l n="928"> Je le veux garantir de la foudre des Dieux,</l>
+                        <l n="929"> Leur extrême bonté m’a dessillé les yeux,</l>
+                        <l n="930"> Elle m’a fait prévoir ta prochaine ruine,</l>
+                        <l n="931"> J’appréhende pour toi la vengeance divine :</l>
+                        <l n="932"> Cette peur, plus que tout, me fait venir ici,</l>
+                        <l n="933"> Pharnace, que le Ciel te favorise ainsi :</l>
+                        <l n="934"> Que dans tous tes projets la fortune prospère</l>
+                        <l n="935"> Te fasse surpasser la gloire de ton père,</l>
+                        <l n="936"> Que tu sois souverain sur tous les autres Rois.</l>
+                        <l n="937"> Écoute mon discours pour la dernière fois.</l>
+                        <l n="938"> Par cette passion, que mes yeux firent naître,</l>
+                        <l n="939"> Par la fidélité, que je t’ai fait paraître,</l>
+                        <l n="940"> Par ces feux innocents dans nos âmes conçus,</l>
+                        <l n="941"> Par ces sacrés serments et donnés et reçus,</l>
+                        <l n="942"> Par les chastes flambeaux de l’amour conjugale,</l>
+                        <l n="943"> Et par mille témoins d’une amitié loyale,</l>
+                        <l n="944"> Ne me refuse point la grâce que je veux,</l>
+                        <l n="945"> Ton honneur seulement fait naître tous mes vœux,</l>
+                        <l n="946"> Et que jamais le Ciel ne me soit favorable,</l>
+                        <l n="947"> Si toi seul, plus que tous, ne m’es considérable.</l>
+                        <l n="948"> Que si mes premiers droits me sont encor permis,</l>
+                        <l n="949"> Si tu ne me tiens pas au rang des ennemis,</l>
+                        <l n="950"> Si je te puis nommer mon époux et mon âme,</l>
+                        <l n="951"> Et si ton cœur retient quelque reste de flamme,</l>
+                        <l n="952"> Si du bonheur passé le souvenir t’est doux,</l>
+                        <l n="953"> Élève un peu tes yeux, vois ta femme à genoux.</l>
+                        <l n="954"> Considère les pleurs, qui coulent sur sa face,</l>
+                        <l n="955"> Et pour quels ennemis elle attend une grâce :</l>
+                        <l n="956"> Je parle pour tes sœurs, pour ton père et pour moi,</l>
+                        <l n="957"> Et bien plus que pour nous, je demande pour toi.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="958"> Ah ! que j’embrasserais l’occasion offerte,</l>
+                        <l n="959"> Si dans ta volonté je ne voyais ma perte.</l>
+                        <l n="960"> Le serment que j’ai fait, ne se peut rappeler,</l>
+                        <l n="961"> Et si tu m’aimes bien tu n’en dois plus parler.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="962"> Quel scrupule bons Dieux ! tu crains d’être parjure,</l>
+                        <l n="963"> Et non pas d’offenser le Ciel et la nature.</l>
+                        <l n="964"> Des serments violés sont des crimes trop grands,</l>
+                        <l n="965"> Et tu ne rougis point de trahir tes parents,</l>
+                        <l n="966"> De porter le trépas dans le sein de ton père,</l>
+                        <l n="967"> Oui, Pharnace, il le faut, ton crime est nécessaire,</l>
+                        <l n="968"> Ayant donné la foi qui t’engage aux Romains,</l>
+                        <l n="969"> Ce père infortuné doit périr par tes mains.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="970"> Si je fausse ma foi, ma perte est sans remède,</l>
+                        <l n="971"> Et ce n’est pas des Dieux que ma crainte procède,</l>
+                        <l n="972"> Ce scrupule honteux est indigne d’un Roi :</l>
+                        <l n="973"> Mais si je veux trahir de plus puissants que moi,</l>
+                        <l n="974"> Qui me détournera la mort et l’infamie,</l>
+                        <l n="975"> Et que pourrai-je faire ayant Rome ennemie ?</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="976"> Et qu’a fait Mitridate ?</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="977"> Il s’est enfin perdu.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="978"> Oui, parce que son fils lui-même l’a vendu.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="979"> Mais invente un moyen pour éviter l’orage.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="980"> Tu n’en dois rechercher qu’en ton propre courage :</l>
+                        <l n="981"> Tout autre expédient est blâmable et honteux.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="982"> Celui-là, plus que tous, téméraire et douteux.</l>
+                        <l n="983"> Il n’est invention qui ne soit inutile,</l>
+                        <l n="984"> Et je rechercherais vainement un asile,</l>
+                        <l n="985"> Puis que tout l’univers ne me peut garantir :</l>
+                        <l n="986"> Si de cette promesse on me voit repentir.</l>
+                        <l n="987"> Ne me presse donc plus d’une chose impossible,</l>
+                        <l n="988"> Ma résolution se maintient invincible :</l>
+                        <l n="989"> Et je jure le Ciel qui me vit engager,</l>
+                        <l n="990"> Qu’il n’est rien d’assez fort pour me faire changer.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="991"> Et j’atteste des Dieux la puissance absolue,</l>
+                        <l n="992"> Que tu me connaîtras de même résolue,</l>
+                        <l n="993"> Désormais mon destin se sépare du tien.</l>
+                        <l n="994"> Adieu je ne puis plus souffrir ton entretien,</l>
+                        <l n="995"> Crois, si tu me revois que tu me verras morte.</l>
+            <stage><em>Bérénice s’en va.</em></stage>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="996"> Tu ne peux alléguer une raison si forte :</l>
+                        <l n="997"> Mais elle disparaît ainsi qu’un prompt éclair,</l>
+                        <l n="998"> Bérénice mon âme, ô Dieux ! je parle à l’air.</l>
+                        <l n="999"> Ce Palais orgueilleux la dérobe à ma vue,</l>
+                        <l n="1000"> Mais crois que vainement tu me l’as retenue.</l>
+                        <l n="1001"> Dussé-je de mes mains saper tes fondements,</l>
+                        <l n="1002"> Me servir contre toi de tous les éléments,</l>
+                        <l n="1003"> Tu me rendras un bien que le Ciel te destine,</l>
+                        <l n="1004"> Pour instrument fatal de ta proche ruine.</l></div></div>
+           <div type="act" xml:id="4">
+           <head> ACTE IV </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#mithridatie">
+            <speaker> MITHRIDATIE. </speaker>
+                        <l n="1005"> Nous vous en conjurons par ces sacrés genoux,</l>
+                        <l n="1006"> Par la clarté du jour que nous tenons de vous,</l>
+                        <l n="1007"> Ne courez pas sitôt à ce dernier remède.</l>
+                </sp>
+        <sp who="#nise">
+            <speaker> NISE. </speaker>
+                        <l n="1008"> De vous seul maintenant nous espérons de l’aide.</l>
+                        <l n="1009"> La honte ne peut rien sur la nécessité,</l>
+                        <l n="1010"> Et l’on doit tout tenter en telle extrémité.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1011"> Quoi votre lâcheté sera donc satisfaite,</l>
+                        <l n="1012"> Pourvu qu’à cet ingrat son père se soumette,</l>
+                        <l n="1013"> Implorant la merci d’un fils dénaturé.</l>
+                        <l n="1014"> Non, quand bien ce moyen me serait assuré,</l>
+                        <l n="1015"> Quand ma soumission me rendrait la Couronne,</l>
+                        <l n="1016"> C’est acheter trop cher le bien qu’elle me donne.</l>
+                </sp>
+        <sp who="#hypsicratée">
+            <speaker> HYPSICRATÉE. </speaker>
+                        <l n="1017"> Si vous me réservez un reste d’amitié,</l>
+                        <l n="1018"> D’un époux que j’adore ayez quelque pitié.</l>
+                        <l n="1019"> Conservez-le pour moi, puis que sa propre haine,</l>
+                        <l n="1020"> Veut obliger mourant l’inimitié Romaine :</l>
+                        <l n="1021"> Et qu’avant le malheur qui lui peut avenir,</l>
+                        <l n="1022"> Par sa main meurtrière il le veut prévenir.</l>
+                        <l n="1023"> Les Dieux savent assez le soin que j’ai de vivre,</l>
+                        <l n="1024"> Et si j’ai de désir, que celui de vous suivre.</l>
+                        <l n="1025"> Mais si vous négligez le moyen de guérir,</l>
+                        <l n="1026"> Je mourrai mille fois en vous voyant mourir.</l>
+                        <l n="1027"> Et de grâce, essayez de fléchir son courage,</l>
+                        <l n="1028"> Il ne pourra souffrir l’éclat de ce visage,</l>
+                        <l n="1029"> Et se ressouvenant qu’il ne vit que par vous,</l>
+                        <l n="1030"> Vous le verrez sans doute embrasser vos genoux.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1031"> Perdez chère moitié, ce reste d’espérance,</l>
+                        <l n="1032"> L’amour et le devoir ont beaucoup de puissance :</l>
+                        <l n="1033"> Mais à ce que l’amour tente inutilement,</l>
+                        <l n="1034"> Le devoir négligé travaille vainement.</l>
+                        <l n="1035"> Puis qu’il a rejeté les vœux de Bérénice,</l>
+                        <l n="1036"> Les hommes, ni les Dieux n’ont rien qui le fléchisse.</l>
+                        <l n="1037"> Tout est indifférent à ce monstre affamé,</l>
+                        <l n="1038"> Le bonheur seulement d’un trône l’a charmé,</l>
+                        <l n="1039"> Et le désir brutal d’une grandeur légère,</l>
+                        <l n="1040"> Lui fait trahir ses sœurs, son épouse, et son père.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="1041"> Pour le salut commun j’ai fait ce que j’ai peu,</l>
+                        <l n="1042"> Je n’en veux pour témoin que le Ciel qui l’a vu :</l>
+                        <l n="1043"> Que sa justice éclate, et me fasse un reproche,</l>
+                        <l n="1044"> Si j’ai rien épargné pour fléchir cette roche.</l>
+                        <l n="1045"> Mais si dans mon dessein j’ai si mal réussi,</l>
+                        <l n="1046"> Peut-être du depuis ce tigre est adouci,</l>
+                        <l n="1047"> Peut-être qu’un remords de son crime le touche,</l>
+                        <l n="1048"> Et qu’il a dépouillé ce sentiment farouche.</l>
+                        <l n="1049"> Pour moi j’ai fait aux Dieux un solennel serment,</l>
+                        <l n="1050"> Qu’il ne me reverrait que morte seulement.</l>
+                        <l n="1051"> Je ne tâcherai plus d’émouvoir ce barbare,</l>
+                        <l n="1052"> Et suivrai le destin que le Ciel nous prépare.</l>
+                </sp>
+        <sp who="#hypsicratée">
+            <speaker> HYPSICRATÉE. </speaker>
+                        <l n="1053"> J’attends de mon époux ce seul bien désormais,</l>
+                        <l n="1054"> Et s’il me le refuse, il ne m’aima jamais.</l>
+                        <l n="1055"> Oui je vous veux prier par les preuves données,</l>
+                        <l n="1056"> De ma fidélité, dès mes tendres années,</l>
+                        <l n="1057"> D’abaisser ce grand cœur pour une seule fois :</l>
+                        <l n="1058"> Savoir céder au temps, c’est la vertu des Rois.</l>
+                        <l n="1059"> Vous n’entreprenez rien qui tache votre gloire,</l>
+                        <l n="1060"> Et vous gagnez sur vous une grande victoire.</l>
+                        <l n="1061"> Est-ce commettre un acte indigne de son rang,</l>
+                        <l n="1062"> Que dans l’extrémité prier son propre sang ?</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1063"> Oui je veux accorder tout ce que tu demandes,</l>
+                        <l n="1064"> Et je me porterais à des preuves plus grandes.</l>
+                        <l n="1065"> Tu dois, ma chère épouse, espérer tout de moi,</l>
+                        <l n="1066"> Puisque je meurs ingrat, si je ne meurs pour toi.</l>
+                        <l n="1067"> Allons rendre un combat qui m’est plus difficile,</l>
+                        <l n="1068"> Que de rompre les murs de la plus forte ville.</l>
+                        <l n="1069"> Le Ciel m’a vu rougir seulement aujourd’hui :</l>
+                        <l n="1070"> Je lui donnai la vie, et je l’attends de lui.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#émile">
+            <speaker> ÉMILE. </speaker>
+                        <l n="1071"> Je voudrais modérer cette ardeur aveuglée :</l>
+                        <l n="1072"> Oui, votre passion me semble déréglée.</l>
+                        <l n="1073"> Elle vous fait faillir et contre vos amis,</l>
+                        <l n="1074"> Et contre ce devoir que vous avez promis.</l>
+                        <l n="1075"> Souvenez-vous Pharnace, et que vous êtes homme,</l>
+                        <l n="1076"> Et que votre pouvoir est allié de Rome :</l>
+                        <l n="1077"> Pour être digne ami d’une telle cité,</l>
+                        <l n="1078"> Reprenez ce grand cœur que vous avez quitté.</l>
+                        <l n="1079"> Je sais bien que le trait dont votre âme est blessée,</l>
+                        <l n="1080"> Innocent comme il est, plaît à votre pensée.</l>
+                        <l n="1081"> Et je n’ignore pas qu’on ne saurait blâmer</l>
+                        <l n="1082"> Les légitimes feux qu’hymen fait allumer.</l>
+                        <l n="1083"> Mais...</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="1084"> Émile du moins permets que je soupire,</l>
+                        <l n="1085"> Pour aimer mon épouse ai-je trahi l’Empire ?</l>
+                        <l n="1086"> Et si je plains mon cœur que je ne puis revoir,</l>
+                        <l n="1087"> Me juges-tu sorti des termes du devoir ?</l>
+                        <l n="1088"> Mais du haut du Palais j’ouï le bruit des trompettes,</l>
+                        <l n="1089"> Et vois les légions à l’assaut toutes prêtes.</l>
+                        <l n="1090"> Dieux ! je vois Mitridate au haut de ces remparts.</l>
+                        <l n="1091"> Que dois-je faire Émile ?</l>
+                </sp>
+        <sp who="#émile">
+            <speaker> ÉMILE. </speaker>
+                        <l n="1092"> Y lancer tous nos dards,</l>
+                        <l n="1093"> Perdre cet ennemi dont la vie est fatale.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="1094"> J’abhorre le conseil d’une âme si brutale.</l>
+                        <l n="1095"> Doit-on traiter ainsi la personne des Rois ?</l>
+                        <l n="1096"> Non, je lui veux parler pour la dernière fois.</l>
+                        <l n="1097"> Dans cette extrémité c’est tout ce qu’il demande,</l>
+                        <l n="1098"> Aussi ne puis-je faire une grâce plus grande.</l>
+                        <l n="1099"> Approchez, je veux bien que vous soyez témoin,</l>
+                        <l n="1100"> Que je possède un cœur qui résiste au besoin.</l>
+                        <l n="1101"> Que rien n’ébranlera la foi que j’ai promise,</l>
+                        <l n="1102"> Et que je sais par tout conserver ma franchise.</l>
+                        <l n="1103"> Mais que mon cœur pressé de divers mouvements,</l>
+                        <l n="1104"> Garde, avec regret, ses premiers sentiments.</l>
+                        <l n="1105"> N’importe, témoignons une constance extrême,</l>
+                        <l n="1106"> Et que l’ami de Rome a su vaincre soi-même.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1107"> Tu me vois incertain à qui je dois parler,</l>
+                        <l n="1108"> Si le pouvoir passé se pouvait rappeler :</l>
+                        <l n="1109"> Et si j’avais encor la fortune prospère,</l>
+                        <l n="1110"> Je te commanderais, je parlerais en père.</l>
+                        <l n="1111"> Comme tel j’userais d’un pouvoir absolu,</l>
+                        <l n="1112"> Et l’on observerait ce que j’aurais voulu.</l>
+                        <l n="1113"> Mais puis qu’il faut subir ce que le Ciel ordonne,</l>
+                        <l n="1114"> Et que je perds mes droits en perdant ma Couronne :</l>
+                        <l n="1115"> Je me dois prosterner devant mon propre fils,</l>
+                        <l n="1116"> Et faire plus à lui que jamais je ne fis.</l>
+                        <l n="1117"> Ah ! Pharnace, à quel point tu t’es rendu coupable,</l>
+                        <l n="1118"> As-tu connu de crime à ton crime semblable ?</l>
+                        <l n="1119"> Je ne demande point que tu rendes mes biens,</l>
+                        <l n="1120"> Possède-les, Pharnace, ils devaient être tiens.</l>
+                        <l n="1121"> Mais tu les recevrais avec moins d’infamie,</l>
+                        <l n="1122"> Les recevant de moi que de mon ennemie.</l>
+                        <l n="1123"> Pourquoi veux-tu gagner par ce honteux secours,</l>
+                        <l n="1124"> Ce qu’on te différait seulement quelques jours ?</l>
+                        <l n="1125"> Est-ce pour te venger d’une injure reçue ?</l>
+                        <l n="1126"> As-tu pour quelque offense une haine conçue ?</l>
+                        <l n="1127"> Parle, découvre moi le mal que je t’ai fait :</l>
+                        <l n="1128"> Si j’en suis éclairci, je serai satisfait.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="1129"> Je ne vous redis point la cause de ma haine,</l>
+                        <l n="1130"> J’ai suivi par raison l’alliance Romaine :</l>
+                        <l n="1131"> Ma femme qui l’a su vous a dit le sujet.</l>
+                        <l n="1132"> Je n’ai point votre mal, mais mon bien pour objet.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1133"> Crois que tu te repais d’une vaine espérance,</l>
+                        <l n="1134"> Et tu te crois heureux contre toute apparence :</l>
+                        <l n="1135"> Rome pour son profit aime la trahison,</l>
+                        <l n="1136"> Mais elle hait le traître avec trop de raison.</l>
+                        <l n="1137"> Quoique pour la servir ta haine dégénère,</l>
+                        <l n="1138"> Sache qu’elle craindra même sort que ton père.</l>
+                        <l n="1139"> Et tu seras payé du salaire attendu,</l>
+                        <l n="1140"> Lorsqu’elle te perdra, comme tu m’as perdu.</l>
+                        <l n="1141"> Si son ambition n’était si fort connue,</l>
+                        <l n="1142"> Qu’on ne peut l’ignorer au point qu’elle est venue :</l>
+                        <l n="1143"> Je croirais qu’un appât aurait peu t’abuser,</l>
+                        <l n="1144"> Et qu’ainsi ton péché se pourrait excuser.</l>
+                        <l n="1145"> Mais si bien informé du pouvoir tyrannique,</l>
+                        <l n="1146"> Que l’on voit usurper à cette République,</l>
+                        <l n="1147"> Es-tu si jeune encor de te laisser piper,</l>
+                        <l n="1148"> Dessous de faux éclats qui te doivent tromper ?</l>
+                        <l n="1149"> Peux-tu voir sans frayeur ces âmes déloyales,</l>
+                        <l n="1150"> S’enrichir tous les jours de dépouilles Royales ?</l>
+                        <l n="1151"> Fouler sensiblement tous ceux qu’ils ont soumis,</l>
+                        <l n="1152"> Et tenir tous les Rois pour mortels ennemis,</l>
+                        <l n="1153"> Leur ravir la franchise avec le Diadème,</l>
+                        <l n="1154"> Sans te représenter qu’ils te feront de même.</l>
+                        <l n="1155"> Ah ! Pharnace revient dans ton premier devoir,</l>
+                        <l n="1156"> Puisque ta liberté dépend de ton vouloir,</l>
+                        <l n="1157"> Que tu peux secouer le joug qui te menace,</l>
+                        <l n="1158"> Et reprendre des tiens la glorieuse trace.</l>
+                        <l n="1159"> Il est encore temps, je veux tout oublier.</l>
+                        <l n="1160"> Que si de mes haineux tu te dois allier,</l>
+                        <l n="1161"> Si l’Asie à tes vœux ne paraît assez ample,</l>
+                        <l n="1162"> Fais que tout l’univers me traite à ton exemple.</l>
+                        <l n="1163"> Arme les plus puissants et les plus inhumains,</l>
+                        <l n="1164"> Pourvu que tu ne sois esclave des Romains,</l>
+                        <l n="1165"> Ce nom est odieux au sang de Mitridate,</l>
+                        <l n="1166"> Et de quelque bonheur que ton espoir se flatte,</l>
+                        <l n="1167"> Quelques remords secrets te font avec raison,</l>
+                        <l n="1168"> Haïr les ennemis de toute ta maison.</l>
+                        <l n="1169"> Oui, quoi qu’idolâtrant la puissance latine,</l>
+                        <l n="1170"> Un instinct naturel te pousse à sa ruine.</l>
+                        <l n="1171"> Tu voudrais t’agrandir par un double malheur,</l>
+                        <l n="1172"> Puis que notre génie est ennemi du leur.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="1173"> Ayant avec le lait l’inimitié conçu,</l>
+                        <l n="1174"> Je conservai longtemps l’impression reçue,</l>
+                        <l n="1175"> J’eus de l’aversion pour l’Empire Romain,</l>
+                        <l n="1176"> N’épargnant contre lui ni mon sang ni ma main,</l>
+                        <l n="1177"> Mais pendant les fureurs d’une sanglante guerre,</l>
+                        <l n="1178"> Qui presque d’habitants a dépeuplé la terre.</l>
+                        <l n="1179"> Parmi tous nos combats se peut-on figurer,</l>
+                        <l n="1180"> Un malheur que l’on doive au nôtre comparer ?</l>
+                        <l n="1181"> Tant de sang répandu, tant de troupes rompues,</l>
+                        <l n="1182"> Mille piteux débris de batailles perdues,</l>
+                        <l n="1183"> L’image de la mort cent fois devant nos yeux,</l>
+                        <l n="1184"> Le plus souvent vaincus, par fois victorieux,</l>
+                        <l n="1185"> Et dans l’extrémité nos personnes réduites,</l>
+                        <l n="1186"> À chercher leur salut dans de honteuses fuites,</l>
+                        <l n="1187"> M’ont fait juger en fin qu’il n’était pas permis,</l>
+                        <l n="1188"> D’avoir sans ce malheur les Romains ennemis,</l>
+                        <l n="1189"> La force a fait contr’eux des efforts inutiles,</l>
+                        <l n="1190"> Et ma soumission m’a bâti des asiles.</l>
+                        <l n="1191"> Si vous voulez tenter un semblable moyen,</l>
+                        <l n="1192"> Mon exemple suivi, ne désespérés rien,</l>
+                        <l n="1193"> Cette Reine du monde à vaincre accoutumée,</l>
+                        <l n="1194"> Se vainc par la douceur mieux que par une armée,</l>
+                        <l n="1195"> Implorez la merci de ce peuple clément,</l>
+                        <l n="1196"> Et vous n’en recevrez qu’un pareil traitement,</l>
+                        <l n="1197"> Si je puis envers lui vous rendre un bon office,</l>
+                        <l n="1198"> Espérez de mes soins un fidèle service,</l>
+                        <l n="1199"> J’emploierai mon crédit.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1200"> Il serait superflu.</l>
+                        <l n="1201"> Si tu connais ton père il est trop résolu,</l>
+                        <l n="1202"> Le plus affreux tombeau me plaira d’avantage,</l>
+                        <l n="1203"> Que de rendre aux Romains un si honteux hommage,</l>
+                        <l n="1204"> Implorer la clémence et recevoir des lois,</l>
+                        <l n="1205"> De ceux que ma valeur a vaincu tant de fois,</l>
+                        <l n="1206"> Outre que ce moyen me serait inutile,</l>
+                        <l n="1207"> J’ai versé trop souvent le sang de cette ville,</l>
+                        <l n="1208"> Et celles de l’Asie en ont assez reçu,</l>
+                        <l n="1209"> Pour étouffer l’espoir que j’en aurais conçu.</l>
+                        <l n="1210"> Cent mille citoyens, de qui la destinée</l>
+                        <l n="1211"> Se finit dans le cours d’une seule journée,</l>
+                        <l n="1212"> Flacce, Cotta, Fimbrie, et Triaire, vaincus,</l>
+                        <l n="1213"> Cent trophées dressés de leurs pesants écus,</l>
+                        <l n="1214"> Et mille autres témoins d’une sanglante haine,</l>
+                        <l n="1215"> Ne me peuvent laisser qu’une espérance vaine.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="1216"> Tigrane ce pendant qui les avait trahis,</l>
+                        <l n="1217"> À par ce seul moyen recouvert son pays :</l>
+                        <l n="1218"> Rome considérant son rang et sa personne,</l>
+                        <l n="1219"> Sur sa tête abaissée a remis la couronne,</l>
+                        <l n="1220"> Et ce que son armée a tenté vainement,</l>
+                        <l n="1221"> Un simple repentir l’a fait en un moment.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1222"> Tu peux encore mieux confirmer ta pensée,</l>
+                        <l n="1223"> En m’alléguant Siphax, ou Jugurte, ou Persée,</l>
+                        <l n="1224"> Qui dans le capitole honteusement traînés,</l>
+                        <l n="1225"> Aux plus sombres cachots se virent confinés :</l>
+                        <l n="1226"> Où leurs Royales mains de fers furent chargées,</l>
+                        <l n="1227"> Et par la seule mort de leurs poids soulagées.</l>
+                        <l n="1228"> Ceux-là n’eurent-ils point la qualité de Roi,</l>
+                        <l n="1229"> Ou s’ils avaient paru plus ennemis que moi ?</l>
+                        <l n="1230"> Ah ! Pharnace tu sais à quoi Rome destine</l>
+                        <l n="1231"> Ceux qui se sont armés pour sa seule ruine.</l>
+                        <l n="1232"> La prison et la mort sont les moindres des maux,</l>
+                        <l n="1233"> Qu’un superbe Sénat impose à mes égaux.</l>
+                        <l n="1234"> Tu le sais et poussé d’une impudence extrême,</l>
+                        <l n="1235"> Tu me peux sans rougir le conseiller toi-même.</l>
+                        <l n="1236"> Il reste seulement que de ta propre main,</l>
+                        <l n="1237"> Tu m’attaches au char de l’Empereur Romain,</l>
+                        <l n="1238"> Et joyeux de ma honte et de ton infamie,</l>
+                        <l n="1239"> Triomphes de ton père avec son ennemie,</l>
+                        <l n="1240"> Charges de fers pesants mon épouse et tes sœurs,</l>
+                        <l n="1241"> Et t’estimes heureux parmi tant de douceurs.</l>
+                        <l n="1242"> C’est la gloire d’un fils, c’est ce que la naissance</l>
+                        <l n="1243"> Me faisait espérer de ta reconnaissance,</l>
+                        <l n="1244"> En t’acquittant ainsi tu t’acquittes assez,</l>
+                        <l n="1245"> Tous les bienfaits reçus sont trop récompensés</l>
+                        <l n="1246"> Les soins que j’eus de toi dès tes jeunes années,</l>
+                        <l n="1247"> Rendent par ton appui les miennes fortunées.</l>
+                        <l n="1248"> Ah ! mon fils si ce nom m’est encore permis,</l>
+                        <l n="1249"> En quoi t’ai-je déplu, quel crime ai-je commis,</l>
+                        <l n="1250"> Qui te puisse obliger à m’être si contraire ?</l>
+                        <l n="1251"> Ne t’ai-je pas rendu tous les devoirs d’un père,</l>
+                        <l n="1252"> Et de tous les enfants que le Ciel m’a donné,</l>
+                        <l n="1253"> Ne t’ai-je pas toi seul au trône destiné ?</l>
+                        <l n="1254"> Pour te le garantir des puissances Romaines,</l>
+                        <l n="1255"> N’ai-je pas épuisé tout le sang de mes veines.</l>
+                        <l n="1256"> N’ai-je pas mieux aimé les malheurs arrivés,</l>
+                        <l n="1257"> Que de voir mes enfants vivre en hommes privés ?</l>
+                        <l n="1258"> À mes propres dépens j’ai recherché ta gloire,</l>
+                        <l n="1259"> Et tu la veux souiller d’une tache si noire.</l>
+                        <l n="1260"> Que si tu ne démords d’une telle fureur,</l>
+                        <l n="1261"> Les siècles à venir en frémiront d’horreur.</l>
+                        <l n="1262"> Ne viole donc plus les lois de la nature,</l>
+                        <l n="1263"> Regarde pour le moins celui qui te conjure,</l>
+                        <l n="1264"> Et si tu te souviens de sa condition,</l>
+                        <l n="1265"> Le sang sera plus fort que ton ambition.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="1266"> Je conjure les Dieux de me traiter de même,</l>
+                        <l n="1267"> Si pour votre malheur mon regret n’est extrême.</l>
+                        <l n="1268"> Je n’ai rien oublié de ce que je vous dois,</l>
+                        <l n="1269"> Mais je vous redirai pour la dernière fois,</l>
+                        <l n="1270"> Que ce que vous voulez n’étant en ma puissance,</l>
+                        <l n="1271"> Je me crois dispensé de mon obéissance.</l>
+                        <l n="1272"> Je ne suis plus à moi, je dépends des Romains,</l>
+                        <l n="1273"> Leur pouvoir me retient et m’attache les mains.</l>
+                        <l n="1274"> Non, la force du sang n’est pas encore éteinte,</l>
+                        <l n="1275"> Et pêchant envers vous je pêche par contrainte.</l>
+                        <l n="1276"> Je vous aime, mais j’ai de l’amitié pour moi,</l>
+                        <l n="1277"> Et ne veux point périr en violant ma foi.</l>
+                        <l n="1278"> Ma résolution sera toujours entière,</l>
+                        <l n="1279"> Ce que je puis pour vous c’est d’user de prière.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1280"> Non tigre, non cruel, je n’en espère rien,</l>
+                        <l n="1281"> Et si je t’ai prié ce n’est pas pour mon bien.</l>
+                        <l n="1282"> Cette soumission fait honte à ma mémoire,</l>
+                        <l n="1283"> J’ai prié pour tes sœurs voila toute ta gloire.</l>
+                        <l n="1284"> C’est un dernier effort qu’elles ont obtenu,</l>
+                        <l n="1285"> Et ton père pour soi se serait retenu,</l>
+                        <l n="1286"> Après avoir produit un monstre épouvantable,</l>
+                        <l n="1287"> La lumière du jour lui serait effroyable.</l>
+                        <l n="1288"> C’est le seul déshonneur dont ses jours sont tachés,</l>
+                        <l n="1289"> Tes crimes seulement lui seront reprochés.</l>
+                        <l n="1290"> J’ai vécu glorieux, je mourrai dans ma gloire,</l>
+                        <l n="1291"> Et tu n’obtiendras pas une entière victoire.</l>
+                        <l n="1292"> Ne m’ayant point privé du secours de ma main,</l>
+                        <l n="1293"> Tu ne me verras pas au triomphe Romain.</l>
+                        <l n="1294"> Mais puis que de mes jours la course se termine,</l>
+                        <l n="1295"> J’appellerai mourant la vengeance divine.</l>
+                        <l n="1296"> J’invoquerai les Dieux en ma juste douleur,</l>
+                        <l n="1297"> Qui t’envelopperont dans mon dernier malheur.</l>
+                        <l n="1298"> Ils combleront d’horreur ta vie abominable,</l>
+                        <l n="1299"> Ils te rendront aux tiens, à toi-même exécrable.</l>
+                        <l n="1300"> Tu ne verras par tout que des sujets d’effroi,</l>
+                        <l n="1301"> Tu te voudras cacher et du Ciel et de moi,</l>
+                        <l n="1302"> De qui l’ombre à tes pas d’une suite éternelle</l>
+                        <l n="1303"> Affligera partout ton âme criminelle.</l>
+                        <l n="1304"> Au lieu de ce repos que tu t’étais promis,</l>
+                        <l n="1305"> Tu seras le plus grand de tous tes ennemis.</l>
+                        <l n="1306"> Écoute ce pendant un esprit prophétique,</l>
+                        <l n="1307"> Tu seras ruiné par cette République,</l>
+                        <l n="1308"> Et ces mêmes Romains, à qui tu fais la cour,</l>
+                        <l n="1309"> Te mettront à néant par la guerre d’un jour.</l>
+                        <l n="1310"> Un plus puissant guerrier que Luculle et Pompée,</l>
+                        <l n="1311"> Te vaincra sans effort presque d’un coup d’épée.</l>
+                        <l n="1312"> Et prenant l’intérêt des Romains et de moi,</l>
+                        <l n="1313"> Sa main me vengera de Pompée et de toi.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="1314"> Les Dieux comme ils voudront feront mes destinées.</l>
+            <stage><em>Mitridate rentre.</em></stage></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#mithridatie">
+            <speaker> MITHRIDATIE. </speaker>
+                        <l n="1315"> Hé ! mon frère voyez vos sœurs infortunées,</l>
+                        <l n="1316"> Si toute l’amitié n’est éteinte chez vous,</l>
+                        <l n="1317"> Amollissez ce cœur, ayez pitié de nous,</l>
+                        <l n="1318"> Je demande à genoux le salut de mon père.</l>
+                </sp>
+        <sp who="#nise">
+            <speaker> NISE. </speaker>
+                        <l n="1319"> Nous vous en conjurons par ce doux nom de frère,</l>
+                        <l n="1320"> Par ce devoir du sang qu’on ne peut oublier,</l>
+                        <l n="1321"> Et par cette amitié qui nous voulait lier.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="1322"> Je vous l’accorderais étant en ma puissance,</l>
+                        <l n="1323"> Mais de tous ces devoirs la force me dispense.</l>
+                        <l n="1324"> Je vous l’ai déjà dit, ne m’importunez plus,</l>
+                        <l n="1325"> Puis que c’est perdre en l’air des discours superflus.</l>
+                </sp>
+        <sp who="#hypsicratée">
+            <speaker> HYPSICRATÉE. </speaker>
+                        <l n="1326"> On ne peut donc fléchir cet esprit indocile,</l>
+                        <l n="1327"> Ah perfide, les tiens te servent d’un asile.</l>
+                        <l n="1328"> Tu braves insolent, entre mille étendards.</l>
+                        <l n="1329"> Que s’il m’était permis de quitter ces remparts,</l>
+                        <l n="1330"> Si nous pouvions nous deux démêler la querelle,</l>
+                        <l n="1331"> Et finir par nos mains une haine mortelle :</l>
+                        <l n="1332"> Tu ne te croirais pas en telle sûreté.</l>
+                        <l n="1333"> Mais non, reçois des Dieux le loyer mérité.</l>
+                        <l n="1334"> Cette main rougirait d’avoir taché sa gloire,</l>
+                        <l n="1335"> Par une si honteuse, et facile victoire,</l>
+                        <l n="1336"> On te verrait périr trop honorablement,</l>
+                        <l n="1337"> Et tu dois trébucher du foudre seulement.</l>
+                        <l n="1338"> De quelque vanité que ton esprit se flatte,</l>
+                        <l n="1339"> Je ne te crus jamais du sang de Mitridate.</l>
+                        <l n="1340"> Ces prodiges d’horreur, et cette trahison,</l>
+                        <l n="1341"> Ne sauraient procéder d’une telle maison.</l>
+                        <l n="1342"> Si ta brutalité prit naissance d’un homme,</l>
+                        <l n="1343"> Tu naquis seulement d’un esclave de Rome :</l>
+                        <l n="1344"> Mais ôtons-nous d’ici, plus généreuses sœurs,</l>
+                        <l n="1345"> Allons dans le trépas goûter plus de douceurs,</l>
+                        <l n="1346"> Que dans cet entretien qui mérite un reproche.</l>
+                        <l n="1347"> Aussi nous ne saurions émouvoir cette roche,</l>
+                        <l n="1348"> Les pleurs que vous versez lui sont indifférents.</l>
+                </sp>
+        <sp who="#mithridatie">
+            <speaker> MITHRIDATIE. </speaker>
+                        <l n="1349"> Adieu monstre altéré du sang de tes parents.</l>
+                </sp>
+        <sp who="#nise">
+            <speaker> NISE. </speaker>
+                        <l n="1350"> Puisque tous ces objets n’ont peu toucher ton âme,</l>
+                        <l n="1351"> Tu ne reverras plus, ni tes sœurs, ni ta femme.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#émile">
+            <speaker> ÉMILE. </speaker>
+                        <l n="1352"> Que vous êtes sorti d’un combat dangereux,</l>
+                        <l n="1353"> Rome ne vit jamais rien de si généreux :</l>
+                        <l n="1354"> Je lui rapporterai cet’ illustre victoire,</l>
+                        <l n="1355"> Elle en conservera longuement la mémoire :</l>
+                        <l n="1356"> Et la reconnaîtra par de si grands bienfaits,</l>
+                        <l n="1357"> Que vous serez heureux par dessus vos souhaits.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="1358"> Ah ! c’est trop acheter le bien que j’en espère,</l>
+                        <l n="1359"> Toutefois je veux bien achever de lui plaire.</l>
+                        <l n="1360"> Allons soyez témoin comment j’ai combattu.</l>
+                </sp>
+        <sp who="#émile">
+            <speaker> ÉMILE. </speaker>
+                        <l n="1361"> J’irai dans le Sénat louer votre vertu.</l></div></div>
+           <div type="act" xml:id="5">
+           <head> ACTE V </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE, HYPSICRATÉE, MITHRIDATIE, NISE </speaker>
+            <stage><em>Ils paraissent dans la chambre avec une coupe sur la table.</em></stage>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1362"> Ceux qui font un bien véritable,</l>
+                        <l n="1363"> D’un bonheur instable et mouvant,</l>
+                        <l n="1364"> Charmés d’un appas décevant,</l>
+                        <l n="1365"> Ne sont fondés que sur le sable.</l>
+                        <l n="1366"> Par une aveugle passion,</l>
+                        <l n="1367"> Ils bornent leur ambition,</l>
+                        <l n="1368"> Des plaisirs qu’un Sceptre nous donne.</l>
+                        <l n="1369"> Mais si tous avaient comme moi,</l>
+                        <l n="1370"> Senti le poids d’une couronne,</l>
+                        <l n="1371"> Un berger craindrait d’être Roi.</l>
+                        <l n="1372"> Gloire, grandeurs, Sceptres, victoire,</l>
+                        <l n="1373"> Vous fûtes mes honneurs passés,</l>
+                        <l n="1374"> Et de ces titres effacés,</l>
+                        <l n="1375"> Je n’ai gardé que la mémoire,</l>
+                        <l n="1376"> Tout mon bonheur s’évanouit,</l>
+                        <l n="1377"> Mais le perfide qui jouit</l>
+                        <l n="1378"> Du bien que son crime lui donne :</l>
+                        <l n="1379"> Un jour avouera comme moi,</l>
+                        <l n="1380"> Que s’il connaissait la couronne,</l>
+                        <l n="1381"> Un berger craindrait d’être Roi.</l>
+                        <l n="1382"> Il n’est point de haine et de rage,</l>
+                        <l n="1383"> Dont le sort ne m’ait poursuivi :</l>
+                        <l n="1384"> Mais il ne m’a pas tout ravi,</l>
+                        <l n="1385"> Puis qu’il me laisse le courage.</l>
+                        <l n="1386"> Doncques ne délibérons plus,</l>
+                        <l n="1387"> Tous ces regrets sont superflus,</l>
+                        <l n="1388"> Faisons ce que le Ciel ordonne,</l>
+                        <l n="1389"> Et nos neveux diront de moi,</l>
+                        <l n="1390"> Que si je perds une couronne,</l>
+                        <l n="1391"> Je conserve le cœur d’un Roi.</l>
+                        <l n="1392"> Ah ! c’est trop consulter sur un point nécessaire,</l>
+                        <l n="1393"> Mourons, puis que la mort est un port salutaire.</l>
+                        <l n="1394"> Rome qui craint encor un si grand ennemi,</l>
+                        <l n="1395"> Tandis que je vivrai, ne vivra qu’à demi.</l>
+                        <l n="1396"> Délivrons-la de crainte et soulageons Pharnace,</l>
+                        <l n="1397"> Je dois faire à mon fils cette dernière grâce,</l>
+                        <l n="1398"> Et laisser par ma mort un Sceptre entre ses mains,</l>
+                        <l n="1399"> Qu’il recevra de moi plutôt que des Romains.</l>
+                        <l n="1400"> Ce que Sylla n’a peu, Luculle, ni Pompée,</l>
+                        <l n="1401"> Je l’ai dans le pommeau de ma fatale épée.</l>
+            <stage><em>Il prend le poison du pommeau de son épée, et le détrempe dans une coupe.</em></stage>
+                        <l n="1402"> Ce poison que je garde avec beaucoup de soin,</l>
+                        <l n="1403"> Comme j’avais prévu, me sert à ce besoin.</l>
+                        <l n="1404"> Donnez-moi cette coupe, et faites que je voie</l>
+                        <l n="1405"> Des signes sur ces fronts d’une parfaite joie,</l>
+                        <l n="1406"> Ne me travaillez point de nouvelles douleurs,</l>
+                        <l n="1407"> C’est envier mon bien que d’en verser des pleurs.</l>
+                        <l n="1408"> C’est rendre à votre père un très mauvais office.</l>
+                        <l n="1409"> Si son mal vous déplaît, permettez qu’il finisse.</l>
+                        <l n="1410"> Approuvez le secours qu’il reçoit de sa main,</l>
+                        <l n="1411"> Et préférez sa mort au triomphe Romain.</l>
+                </sp>
+        <sp who="#nise">
+            <speaker> NISE. </speaker>
+                        <l n="1412"> Les pleurs qui malgré nous coulent sur nos visages,</l>
+                        <l n="1413"> Ne sont pas des effets de nos faibles courages.</l>
+                        <l n="1414"> Vos filles comme vous ont des cœurs généreux,</l>
+                        <l n="1415"> Mais un peu de douleur sied bien aux malheureux.</l>
+                        <l n="1416"> La mort qui nous déplût a maintenant des charmes :</l>
+                        <l n="1417"> Mais regarder la vôtre et retenir ses larmes,</l>
+                        <l n="1418"> Serait se dépouiller de toute humanité.</l>
+                </sp>
+        <sp who="#mithridatie">
+            <speaker> MITHRIDATIE. </speaker>
+                        <l n="1419"> Toutefois ce regret tient de la lâcheté,</l>
+                        <l n="1420"> Ne nous opposons plus au vouloir de mon père,</l>
+                        <l n="1421"> La mort est plus sensible, alors qu’on la diffère.</l>
+                        <l n="1422"> Puis que rien maintenant ne nous peut secourir,</l>
+                        <l n="1423"> J’approuve comme vous le dessein de mourir.</l>
+                        <l n="1424"> Dans un autre climat je vous suivrai contente,</l>
+                        <l n="1425"> J’aurais vécu captive, et je meurs triomphante,</l>
+                        <l n="1426"> Nous changerons de vie et de condition.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1427"> Ce courage me plaît, et cette affection.</l>
+                        <l n="1428"> Ô d’un bon naturel exemple mémorable !</l>
+                        <l n="1429"> Mais puisque je vous perds serai-je pardonnable,</l>
+                        <l n="1430"> Sans vous intéresser contre mes ennemis,</l>
+                        <l n="1431"> Avec de puissants Rois qui vous étaient promis,</l>
+                        <l n="1432"> Vous pouviez doucement voir couler vos années,</l>
+                        <l n="1433"> Et celui qui les fît coupe vos destinées,</l>
+                        <l n="1434"> Ah ! le plus grand regret qui me suit au tombeau.</l>
+                </sp>
+        <sp who="#hypsicratée">
+            <speaker> HYPSICRATÉE. </speaker>
+                        <l n="1435"> Ne dois-je point rougir d’un exemple si beau !</l>
+                        <l n="1436"> Et pourrai-je prouver à mon cher Mitridate,</l>
+                        <l n="1437"> Qu’après tant d’amitié je ne suis pas ingrate.</l>
+                        <l n="1438"> S’il ne peut profiter du service d’autrui,</l>
+                        <l n="1439"> Qu’on ne le peut sauver en se perdant pour lui,</l>
+                        <l n="1440"> Comment m’est-il permis de témoigner mon zèle ?</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1441"> Ah ! mon cœur ce discours te rendrait criminelle.</l>
+                        <l n="1442"> Par le flambeau du jour je n’ai jamais douté,</l>
+                        <l n="1443"> Qu’on ne voit rien d’égal à ta fidélité.</l>
+                        <l n="1444"> Ta vertu, ton amour, n’ont rien de comparable,</l>
+                        <l n="1445"> Je suis le plus ingrat et le plus redevable.</l>
+                </sp>
+        <sp who="#hypsicratée">
+            <speaker> HYPSICRATÉE. </speaker>
+                        <l n="1446"> Si ma fidélité vous oblige à ce point,</l>
+                        <l n="1447"> Je vous demande un bien, ne me refusez point.</l>
+                        <l n="1448"> Permettez-moi, Seigneur, de mourir la première.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1449"> Je te fais, ma chère âme, une même prière,</l>
+                        <l n="1450"> Éprouve mon amour par de plus grands efforts,</l>
+                        <l n="1451"> Et ne me force point de souffrir mille morts,</l>
+                        <l n="1452"> Il suffit que la tienne.</l>
+                </sp>
+        <sp who="#hypsicratée">
+            <speaker> HYPSICRATÉE. </speaker>
+                        <l n="1453"> Ô trop légère excuse ?</l>
+                        <l n="1454"> Donc pour ce dernier bien mon époux me refuse ?</l>
+                        <l n="1455"> Est-il quelque raison qui l’en peut dispenser ?</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1456"> Mais me le demandant crois-tu pas m’offenser ?</l>
+                        <l n="1457"> Et si pour mon repos quelque soin il te reste,</l>
+                        <l n="1458"> Veux-tu rendre ma mort mille fois plus funeste ?</l>
+                        <l n="1459"> Toutefois je craindrais de te mécontenter,</l>
+                        <l n="1460"> Et jusques au tombeau je te veux respecter.</l>
+                        <l n="1461"> On ne peut délier le nœud qui nous assemble,</l>
+                        <l n="1462"> Mais puisqu’il faut périr, nous périrons ensemble.</l>
+                        <l n="1463"> Nous devons expirer tous deux en même temps,</l>
+                        <l n="1464"> Et nous expirerons l’un et l’autre contents.</l>
+                        <l n="1465"> Poison qui doit couper une trame si belle,</l>
+            <stage><em>Il prend la coupe.</em></stage>
+                        <l n="1466"> Fais sur moi ton effet, adoucis-toi pour elle.</l>
+                        <l n="1467"> Modère pour un peu tes violents efforts,</l>
+                        <l n="1468"> Pour la priver de vie ils sont bien assez forts.</l>
+                        <l n="1469"> Prête-lui sans douleur un secours favorable,</l>
+                        <l n="1470"> Et sois à ces beautés un bourreau pitoyable.</l>
+                        <l n="1471"> Mais c’est trop différer.</l>
+            <stage><em>Il avale le poison.</em></stage>
+                </sp>
+        <sp who="#nise">
+            <speaker> NISE. </speaker>
+                        <l n="1472"> Ô Ciel trop inhumain !</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1473"> Reçois, chère moitié, ce reste de ma main,</l>
+                        <l n="1474"> Puisqu’à toi seulement mon âme fut ouverte,</l>
+                        <l n="1475"> Juge avec quel regret je consens à ta perte,</l>
+                        <l n="1476"> Que c’est pour fuir un joug et honteux et pesant.</l>
+                </sp>
+        <sp who="#hypsicratée">
+            <speaker> HYPSICRATÉE. </speaker>
+                        <l n="1477"> Ah ! que votre amitié m’oblige en ce présent,</l>
+                        <l n="1478"> Oui tout ce que j’ai fait vaut moins que cette grâce.</l>
+                        <l n="1479"> Mais recevons la mort avec la même face,</l>
+                        <l n="1480"> Que nous l’avons bravée aux plus affreux dangers.</l>
+                        <l n="1481"> Chez nous tous ses tableaux ne sont plus étrangers.</l>
+            <stage><em>Elle avale le poison.</em></stage>
+                        <l n="1482"> Ce poison agréable est la fin de nos peines.</l>
+                        <l n="1483"> Je sens que sa froideur se coule dans mes veines,</l>
+                        <l n="1484"> Qu’une sueur de mort s’empare de mon front,</l>
+                        <l n="1485"> Présages d’un succès très heureux et très prompt.</l>
+                </sp>
+        <sp who="#mithridatie">
+            <speaker> MITHRIDATIE. </speaker>
+                        <l n="1486"> Quelle honte ma sœur de mourir les dernières !</l>
+                        <l n="1487"> Quoi donc attendrons-nous de nous voir prisonnières ?</l>
+                        <l n="1488"> Et tandis qu’il nous reste et le cœur et les mains,</l>
+                        <l n="1489"> Devons nous espérer le secours des Romains ?</l>
+                        <l n="1490"> Imitons sans regret une vertu si rare,</l>
+                        <l n="1491"> Ne fuyons point l’honneur que la mort nous prépare.</l>
+                        <l n="1492"> Montrons que notre sexe a du cœur à son tour,</l>
+                        <l n="1493"> Et fuyons le triomphe en nous privant du jour.</l>
+                        <l n="1494"> Vous nous l’accorderez ?</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1495"> Oui, je vous en dispense,</l>
+                        <l n="1496"> Et vous laisse sur vous une entière puissance.</l>
+                        <l n="1497"> La mort aux malheureux est un trop grand bonheur,</l>
+                        <l n="1498"> Et je l’aime bien mieux que votre déshonneur.</l>
+                </sp>
+        <sp who="#mithridatie">
+            <speaker> MITHRIDATIE. </speaker>
+                        <l n="1499"> Puisque pour mon salut mon seigneur me l’ordonne,</l>
+                        <l n="1500"> Je vais donc me servir du pouvoir qu’il me donne.</l>
+                        <l n="1501"> Je vous offre la mort et j’attends le pardon.</l>
+            <stage><em>Elle prend le poison, et présente la coupe à Nise qui en fait de même.</em></stage>
+                </sp>
+        <sp who="#nise">
+            <speaker> NISE. </speaker>
+                        <l n="1502"> Je reçois de bon cœur cet agréable don.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE, MITRIDATE, HYPSICRATÉE, MITHRIDATIE, NISE </speaker>
+            <stage><em>Bérénice qui entre et les voit en cette posture, se jette aux pieds de Mitridate.</em></stage>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="1503"> Ô Vous grand Mitridate, et vous Hypsicratée,</l>
+                        <l n="1504"> Quel crime ai-je commis pour être rejetée ?</l>
+                        <l n="1505"> Pourquoi le même honneur ne me sera permis ?</l>
+                        <l n="1506"> Suis-je d’intelligence avec vos ennemis ?</l>
+                        <l n="1507"> Si je ne consens pas au pêché de Pharnace,</l>
+                        <l n="1508"> Que ne m’accorde-t-on une pareille grâce ?</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1509"> Parce qu’en vous perdant j’offenserais les Dieux,</l>
+                        <l n="1510"> Votre premier destin se va changer en mieux,</l>
+                        <l n="1511"> Recevez le bonheur que le Ciel vous envoie.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="1512"> Mon esprit désormais incapable de joie,</l>
+                        <l n="1513"> Ne verrait ces bonheurs que comme indifférents,</l>
+                        <l n="1514"> Et quittant un ingrat je suivrai ses parents.</l>
+                </sp>
+        <sp who="#hypsicratée">
+            <speaker> HYPSICRATÉE. </speaker>
+                        <l n="1515"> Si dans notre trépas vous n’êtes appelée,</l>
+                        <l n="1516"> C’est parce qu’en nos maux vous n’êtes point mêlée,</l>
+                        <l n="1517"> Votre seule vertu qui cause ces désirs,</l>
+                        <l n="1518"> Vous fait participer à tous nos déplaisirs.</l>
+                        <l n="1519"> Mais pour nous secourir serez-vous malheureuse,</l>
+                        <l n="1520"> Et devez vous périr pour être généreuse ?</l>
+                        <l n="1521"> Pour notre seule gloire, ou bien pour son amour,</l>
+                        <l n="1522"> Mitridate consent que je perde le jour.</l>
+                        <l n="1523"> Il coupe par pitié ma trame infortunée,</l>
+                        <l n="1524"> Pour ne me voir jamais en triomphe menée,</l>
+                        <l n="1525"> Même sort attendait ces courageuses sœurs.</l>
+                        <l n="1526"> Mais vous à qui nos maux destinent des douceurs,</l>
+                        <l n="1527"> Qui pouvez respirer sous une autre fortune.</l>
+                        <l n="1528"> Vous vous exempterez de la perte commune,</l>
+                        <l n="1529"> Votre esprit désormais pourra vivre content,</l>
+                        <l n="1530"> Et des mains d’un mari le Sceptre vous attend.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="1531"> Si je n’avais pour vous un respect véritable,</l>
+                        <l n="1532"> Cette offense envers moi serait irréparable.</l>
+                        <l n="1533"> Une âme vertueuse abhorre un tel honneur,</l>
+                        <l n="1534"> Sur d’autres fondements je bâtis mon bonheur.</l>
+                        <l n="1535"> Je déteste le bien qu’un perfide me donne,</l>
+                        <l n="1536"> Et dût tout l’univers révérer ma couronne,</l>
+                        <l n="1537"> Les Princes plus puissants se soumettre à mes lois,</l>
+                        <l n="1538"> Le trépas où je cours me plaît mieux mille fois.</l>
+                        <l n="1539"> Ne me faites donc plus une vaine défense,</l>
+                        <l n="1540"> Puisque je me roidis contre la résistance,</l>
+                        <l n="1541"> Que le fer, et le feu, m’en feront la raison,</l>
+                        <l n="1542"> Si vous me refusez la grâce du poison.</l>
+                </sp>
+        <sp who="#mithridatie">
+            <speaker> MITHRIDATIE. </speaker>
+                        <l n="1543"> Par la sainte amitié qui joint nos destinées,</l>
+                        <l n="1544"> Ma sœur ayez pitié de vos jeunes années.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="1545"> Cette même amitié me conduit au trépas,</l>
+                        <l n="1546"> Je veux dans les enfers accompagner vos pas,</l>
+                        <l n="1547"> Et le sacré lien d’une amitié si rare,</l>
+                        <l n="1548"> Mêmes après la mort jamais ne se sépare.</l>
+                        <l n="1549"> Si la mienne chez vous me laisse du pouvoir,</l>
+                        <l n="1550"> Ne me conseillez point contre votre devoir.</l>
+            <stage><em>Elle se jette derechef aux pieds de Mitridate.</em></stage>
+                        <l n="1551"> Et vous, dont la bonté m’a conservé la vie,</l>
+                        <l n="1552"> Ne vous opposez plus à ma dernière envie.</l>
+                        <l n="1553"> Vous devez le trépas à ma première amour,</l>
+                        <l n="1554"> Et vous vous offensez de me laisser le jour.</l>
+                        <l n="1555"> Vous me devez haïr d’une pareille haine,</l>
+                        <l n="1556"> Que celui qui vous perd pour l’amitié Romaine.</l>
+                        <l n="1557"> Et son ressouvenir vous doit rendre odieux,</l>
+                        <l n="1558"> Comme un monstre d’horreur, ce qu’il aima le mieux.</l>
+                        <l n="1559"> Ne différez donc plus, accordez-moi de grâce,</l>
+                        <l n="1560"> Ce qu’aussi malgré vous il faudra que je fasse.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1561"> Puisque votre dessein ne se peut arrêter,</l>
+                        <l n="1562"> Je vous accorde tout ne pouvant l’éviter.</l>
+                        <l n="1563"> Vous mourrez avec nous Princesse vertueuse,</l>
+                        <l n="1564"> Détrempez ce poison.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="1565"> Ah ! que je suis heureuse.</l>
+                        <l n="1566"> Que ma perte rendra les Romains envieux,</l>
+                        <l n="1567"> Et que j’expirerai d’un trépas glorieux.</l>
+            <stage><em>Elle prend le poison qu’elle avale comme les autres.</em></stage>
+                </sp>
+        <sp who="#nise">
+            <speaker> NISE. </speaker>
+                        <l n="1568"> Ah ! ma sœur soutenez une faiblesse extrême.</l>
+                </sp>
+        <sp who="#mithridatie">
+            <speaker> MITHRIDATIE. </speaker>
+                        <l n="1569"> Ce bras est impuissant, et je tombe de même.</l>
+            <stage><em>Elles tombent toutes deux sur un lit.</em></stage>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1570"> Ô le premier succès d’un poison violent !</l>
+                        <l n="1571"> Que son effet est prompt, mais plutôt qu’il est lent.</l>
+                        <l n="1572"> Contraignez-vous mes yeux dans le mal qui me presse.</l>
+                </sp>
+        <sp who="#nise">
+            <speaker> NISE. </speaker>
+                        <l n="1573"> Quelle étrange douleur succède à ma faiblesse !</l>
+                </sp>
+        <sp who="#hypsicratée">
+            <speaker> HYPSICRATÉE. </speaker>
+                        <l n="1574"> Je vous assisterais s’il ne fallait mourir,</l>
+                        <l n="1575"> Et si ce corps mourant vous pouvait secourir,</l>
+                        <l n="1576"> Mais à peine mes yeux supportent la lumière.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1577"> Bel astre de mes jours, mourrais-tu la première ?</l>
+                </sp>
+        <sp who="#mithridatie">
+            <speaker> MITHRIDATIE. </speaker>
+                        <l n="1578"> Au moins, ma chère sœur, souffre que le trépas,</l>
+                        <l n="1579"> Nos cœurs étant unis, ne nous sépare pas.</l>
+                        <l n="1580"> Tends ces bras languissants, permets que je t’embrasse.</l>
+                </sp>
+        <sp who="#nise">
+            <speaker> NISE. </speaker>
+                        <l n="1581"> Mithridatie, adieu, c’en est fait, je trépasse.</l>
+                </sp>
+        <sp who="#mithridatie">
+            <speaker> MITHRIDATIE. </speaker>
+                        <l n="1582"> Ouvre encore tes yeux, vois ta sœur qui te suit,</l>
+                        <l n="1583"> Et qui perd la clarté du soleil qui la fuit.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="1584"> Ô Ciel impitoyable !</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1585"> Ô destin trop sévère !</l>
+                        <l n="1586"> Ô cruauté du sort, ô misérable père !</l>
+                        <l n="1587"> Ô de tous les mortels le plus infortuné !</l>
+                        <l n="1588"> Au moins, sers toi du bien que le Ciel t’a donné,</l>
+                        <l n="1589"> Ferme encore les yeux à toute ta famille,</l>
+                        <l n="1590"> Et cette charité commence par ta fille.</l>
+                </sp>
+        <sp who="#hypsicratée">
+            <speaker> HYPSICRATÉE. </speaker>
+                        <l n="1591"> Par avant que j’expire, approche, et qu’en ce lieu</l>
+                        <l n="1592"> Je puisse sur ta bouche imprimer un adieu.</l>
+                        <l n="1593"> Les douleurs que je sens m’annoncent déjà l’heure.</l>
+                        <l n="1594"> Quoi ! je respire encore, et Mitridate pleure.</l>
+                        <l n="1595"> Le plus grand Roi du monde est si peu résolu,</l>
+                        <l n="1596"> Et regrette un trépas que lui-même a voulu.</l>
+                        <l n="1597"> Quelle honte !</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1598"> Permets la douleur qui m’emporte.</l>
+                        <l n="1599"> Ma constance se perd, et ma raison est morte.</l>
+                        <l n="1600"> Je ne me puis résoudre.</l>
+                </sp>
+        <sp who="#hypsicratée">
+            <speaker> HYPSICRATÉE. </speaker>
+                        <l n="1601"> Il te faut toutefois</l>
+                        <l n="1602"> Supporter sans regret l’état où tu me vois.</l>
+                        <l n="1603"> Ne t’en afflige point, ou je meurs mécontente.</l>
+                        <l n="1604"> Il est vrai, ma douleur est un peu violente.</l>
+                        <l n="1605"> Mais elle doit finir par une prompte mort,</l>
+                        <l n="1606"> Notre âme se sépare avec un peu d’effort.</l>
+                        <l n="1607"> Permets-moi cependant que ma bouche t’assure,</l>
+                        <l n="1608"> Que je garde en mourant ma première blessure :</l>
+                        <l n="1609"> Que mon feu fut si grand, et si pur et si beau,</l>
+                        <l n="1610"> Que sa première ardeur me suit dans le tombeau.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1611"> Et moi, par tous les Dieux que l’univers adore,</l>
+                        <l n="1612"> Par ces beaux yeux mourants que je révère encore :</l>
+                        <l n="1613"> Par ce front la terreur des plus superbes Rois,</l>
+                        <l n="1614"> Par cette belle bouche à qui j’ai mille fois,</l>
+                        <l n="1615"> Par mes ardents baisers témoigné tant de flamme,</l>
+                        <l n="1616"> Que je perds te perdant la moitié de mon âme.</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE tombe. </speaker>
+                        <l n="1617"> Je vous quitte madame, ô dieux ! je n’en puis plus.</l>
+                </sp>
+        <sp who="#hypsicratée">
+            <speaker> HYPSICRATÉE. </speaker>
+                        <l n="1618"> Hélas ne me fais point des serments superflus.</l>
+                        <l n="1619"> Je n’ai jamais douté, ni je ne doute encore.</l>
+                        <l n="1620"> Mais dieux ! Il faut céder au feu qui me dévore,</l>
+                        <l n="1621"> Mes yeux sont obscurcis, à peine je te vois,</l>
+                        <l n="1622"> Par ce dernier baiser prends un congé de moi.</l>
+            <stage><em>Elle meurt entre les bras de Mitridate.</em></stage>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1623"> Ah ! ne meurs pas si tôt, retiens un peu ton âme,</l>
+                        <l n="1624"> Je la rappellerai par un baiser de flamme.</l>
+                        <l n="1625"> Mais je perds follement des discours superflus,</l>
+                        <l n="1626"> Je te rappelle en vain, et tu ne m’entends plus.</l>
+                        <l n="1627"> Dans mes bras languissants je te vois trépassée,</l>
+                        <l n="1628"> Tu n’es plus du passé qu’une image effacée.</l>
+                        <l n="1629"> Dans un somme éternel tes yeux ensevelis,</l>
+                        <l n="1630"> Aux roses de ton teint font succéder les lys.</l>
+                        <l n="1631"> Ta paupière abattue et ta lèvre déteinte,</l>
+                        <l n="1632"> L’impitoyable mort dans tous tes membres peinte,</l>
+                        <l n="1633"> M’enlève l’espérance et me laisse l’horreur.</l>
+                        <l n="1634"> Que ne sors-tu mon âme en ta juste fureur ?</l>
+                        <l n="1635"> S’il te souvient encor d’une amitié si rare,</l>
+                        <l n="1636"> Lâche, peux-tu souffrir le coup qui nous sépare ?</l>
+                </sp>
+        <sp who="#bérénice">
+            <speaker> BÉRÉNICE. </speaker>
+                        <l n="1637"> S’il m’est encor permis de toucher votre main,</l>
+                        <l n="1638"> Je mourrai satisfaite.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1639"> Ô spectacle inhumain !</l>
+                        <l n="1640"> Misérable témoin de tant et tant de pertes.</l>
+                        <l n="1641"> Tu vis donc insensible et tu les a souffertes,</l>
+                        <l n="1642"> Bérénice attends moi, vis encor un moment,</l>
+                        <l n="1643"> Je t’accompagnerai, je parle vainement.</l>
+            <stage><em>Bérénice meurt.</em></stage>
+                        <l n="1644"> Elle a perdu le jour et je le vois encore,</l>
+                        <l n="1645"> Lâcheté manifeste, et qui me déshonore.</l>
+                        <l n="1646"> J’emprunte du secours par de faibles moyens,</l>
+                        <l n="1647"> Et je vois sans mourir la mort de tous les miens.</l>
+                        <l n="1648"> Je reste seul vivant et je suis seul coupable.</l>
+                        <l n="1649"> Ô Dieux ! fut-il jamais de fortune semblable ?</l>
+                        <l n="1650"> Hypsicratée est morte, et je ne le suis pas.</l>
+                        <l n="1651"> Ah ! je suivrai bientôt la trace de tes pas.</l>
+                        <l n="1652"> Mais de quelques douleurs que je me persuade,</l>
+                        <l n="1653"> Je sens que mon esprit seulement est malade.</l>
+                        <l n="1654"> Ce poison est trop lent pour causer mon trépas.</l>
+                        <l n="1655"> Doncques voulant mourir tu ne m’assistes pas.</l>
+                        <l n="1656"> Un fils ne l’étant point serais-tu pitoyable,</l>
+                        <l n="1657"> Où me veux-tu trahir comme cet exécrable ?</l>
+                        <l n="1658"> Je tente ton secours, mais inutilement.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#ménandre">
+            <speaker> MÉNANDRE. </speaker>
+                        <l n="1659"> Seigneur vous vous devez résoudre promptement,</l>
+                        <l n="1660"> Désormais du salut toute espérance est morte,</l>
+                        <l n="1661"> Pharnace s’est fait jour dans la première porte,</l>
+                        <l n="1662"> Les Romains l’ont suivi dans la prochaine cour.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1663"> Ménandre malgré moi je conserve le jour,</l>
+                        <l n="1664"> Tu vois devant tes yeux ces objets pitoyables,</l>
+                        <l n="1665"> J’ai recherché la mort par des moyens semblables,</l>
+                        <l n="1666"> Et le poison ne peut me donner le trépas,</l>
+                        <l n="1667"> Mon âme veut sortir, mais elle ne peut pas.</l>
+                </sp>
+        <sp who="#ménandre">
+            <speaker> MÉNANDRE. </speaker>
+                        <l n="1668"> Si je ne suis déçu par cette expérience,</l>
+                        <l n="1669"> Ce sont là les effets de votre prévoyance,</l>
+                        <l n="1670"> Lorsque pour vous garder de quelque trahison,</l>
+                        <l n="1671"> Vous ne vous nourrissiez que de contre poison,</l>
+                        <l n="1672"> Votre cœur s’est muni.</l>
+                </sp>
+        <sp who="#mitridate">
+            <speaker> MITRIDATE. </speaker>
+                        <l n="1673"> Ménandre je l’avoue.</l>
+                        <l n="1674"> Mais comment de mes jours la fortune se joue.</l>
+                        <l n="1675"> Je craignais le poison quand je craignais la mort,</l>
+                        <l n="1676"> Et quand je la désire il ne fait point d’effort.</l>
+                        <l n="1677"> Suppléons au défaut de cet impitoyable,</l>
+                        <l n="1678"> Puisque de mon trépas ma main seule est capable.</l>
+                        <l n="1679"> Rome à qui je ravis un superbe ornement,</l>
+                        <l n="1680"> Ne me verra vaincu que par moi seulement.</l>
+                        <l n="1681"> Elle en aura le fruit et j’en aurai la gloire,</l>
+                        <l n="1682"> Et mon fils le loyer d’une telle victoire.</l>
+                        <l n="1683"> Mais c’est trop retarder, et le bruit que j’entends,</l>
+                        <l n="1684"> Si je veux mourir Roi m’avertit qu’il est temps.</l>
+                        <l n="1685"> Sus doncque dans mon cœur cette lame plantée,</l>
+            <stage><em>Il se tue.</em></stage>
+                        <l n="1686"> Rejoigne mon esprit avec Hypsicratée.</l>
+                        <l n="1687"> Au moins j’aurai ce bien dans mon dernier malheur,</l>
+                        <l n="1688"> Que mourant près de toi je mourrai sans douleur.</l>
+                        <l n="1689"> Et toi par le pouvoir que le passé me donne,</l>
+                        <l n="1690"> Je t’enjoins d’obéir à ce que je t’ordonne.</l>
+                        <l n="1691"> Fais que ces ennemis et ce fils déloyal,</l>
+                        <l n="1692"> Trouvent ce pâle corps dans le trône Royal.</l>
+                        <l n="1693"> Conserve dans ma mort ma dignité première,</l>
+                        <l n="1694"> Mais je perds la parole en perdant la lumière.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="1695"> Voyez de respecter la personne du Roi,</l>
+                        <l n="1696"> Que tous les plus hardis prennent exemple à moi,</l>
+                        <l n="1697"> Et sans vous irriter d’une défense vaine,</l>
+                        <l n="1698"> Traitez avec honneur et mes sœurs et la Reine.</l>
+                        <l n="1699"> Que le sexe et le rang arrêtent votre main,</l>
+                        <l n="1700"> Toujours le plus vaillant est le moins inhumain.</l>
+            <stage><em>Pharnace entre dans la chambre, où la tapisserie tirée il voit Mitridate et Hypsicratée sur des trônes, et sa femme et ses sœurs à leurs pieds.</em></stage>
+                        <l n="1701"> Quel spectacle bons dieux, quelle vaine constance ?</l>
+                        <l n="1702"> Quoi ! l’on redoute ainsi la Romaine puissance.</l>
+                        <l n="1703"> Ce visible mépris et cette gravité,</l>
+                        <l n="1704"> Se peuvent-ils souffrir dans la captivité ?</l>
+                </sp>
+        <sp who="#ménandre">
+            <speaker> MÉNANDRE. </speaker>
+                        <l n="1705"> S’ils conservent encor les droits de la Couronne,</l>
+                        <l n="1706"> C’est qu’ils sont en état de ne craindre personne.</l>
+                        <l n="1707"> Ces visages ternis, et ces habits sanglants,</l>
+                        <l n="1708"> Vous témoignent assez leurs trépas violents.</l>
+                        <l n="1709"> Ces corps que vous voyez viennent de rendre l’âme,</l>
+                        <l n="1710"> Par le poison vos sœurs, la Reine et votre femme :</l>
+                        <l n="1711"> Et le Roi par le fer.</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="1712"> Ô Dieux que me dis-tu ?</l>
+                        <l n="1713"> Toutefois ce teint pâle et cet œil abattu,</l>
+                        <l n="1714"> Et ce sang qui découle encore d’une plaie,</l>
+                        <l n="1715"> Me font déjà juger cette assurance vraie.</l>
+                        <l n="1716"> Il n’en faut plus douter, mon œil le voit assez,</l>
+                        <l n="1717"> Je touche tous ces corps, mais ils sont trépassés,</l>
+                        <l n="1718"> La mort qui se remarque en leurs pâles visages.</l>
+                        <l n="1719"> Est un tragique effet de leurs mâles courages,</l>
+                        <l n="1720"> Ils ont armé contr’eux leurs généreuses mains,</l>
+                        <l n="1721"> Pour fuir ma tyrannie, et le joug des Romains.</l>
+                        <l n="1722"> Ciel, qui fus le témoin d’une telle aventure,</l>
+                        <l n="1723"> Tu peux encor souffrir ce monstre de nature !</l>
+                        <l n="1724"> Ce traître qui rougit du sang de ses parents,</l>
+                        <l n="1725"> Les crimes les plus noirs te sont indifférents.</l>
+                        <l n="1726"> Quoi, tu vois ce barbare, et le coup du tonnerre</l>
+                        <l n="1727"> Ne l’ensevelit pas au centre de la terre ?</l>
+                        <l n="1728"> Le soleil se cacha pour un moindre attentat,</l>
+                        <l n="1729"> Et je vois son visage en son premier état.</l>
+                        <l n="1730"> Pour remplir l’univers de ce crime exemplaire,</l>
+                        <l n="1731"> Pour le manifester ce perfide m’éclaire.</l>
+                        <l n="1732"> Eh bien, que tout conspire à me rendre odieux,</l>
+                        <l n="1733"> Pour mon plus grand bourreau je ne veux que mes yeux :</l>
+                        <l n="1734"> Je ne veux qu’œillader ces objets pitoyables,</l>
+                        <l n="1735"> Et je rends d’un regard mes peines effroyables.</l>
+                        <l n="1736"> Un simple souvenir fait naître des remords,</l>
+                        <l n="1737"> Qui gênent mon esprit de plus de mille morts.</l>
+                        <l n="1738"> Ayant privé de vie et son père et sa femme,</l>
+                        <l n="1739"> Ce monstre sans pitié ne vomit point son âme.</l>
+                        <l n="1740"> Il respire un moment après sa trahison,</l>
+                        <l n="1741"> Et l’infâme survit à toute sa maison.</l>
+                        <l n="1742"> Non, ne supporte plus une tache si noire,</l>
+                        <l n="1743"> Puisqu’il n’est plus en toi de recouvrer ta gloire,</l>
+                        <l n="1744"> Que tu n’es que l’horreur de tous ceux de ton rang,</l>
+                        <l n="1745"> Au moins ensevelis ton crime dans ton sang.</l>
+                        <l n="1746"> Mânes de mes parents je vous veux satisfaire,</l>
+            <stage><em>Il se met à genoux devant le corps de Mitridate.</em></stage>
+                        <l n="1747"> Ô vous reste sanglant d’un misérable père,</l>
+                        <l n="1748"> Si vous avez produit un tigre, un inhumain,</l>
+                        <l n="1749"> Qui vous a peu trahir pour l’Empire Romain,</l>
+                        <l n="1750"> Qui préféra l’éclat d’une simple Couronne,</l>
+                        <l n="1751"> À ce que le devoir et le sang nous ordonne.</l>
+                        <l n="1752"> Ne vous offensez point si pour suivre vos pas,</l>
+                        <l n="1753"> Il se veut acquitter par un simple trépas.</l>
+                        <l n="1754"> Il est vrai je devrais perdre cent fois la vie,</l>
+                        <l n="1755"> Je la reçu de vous et je vous l’ai ravie :</l>
+            <stage><em>Et devant celui de Bérénice.</em></stage>
+                        <l n="1756"> Et vous à qui les Dieux m’avaient si bien uni,</l>
+                        <l n="1757"> Indigne possesseur d’un bonheur infini,</l>
+                        <l n="1758"> Ne vous offensez pas que ce traître vous touche,</l>
+                        <l n="1759"> Et tout souillé qu’il est baise encor votre bouche.</l>
+                        <l n="1760"> Mais non votre vertu se fâche à mon abord,</l>
+                        <l n="1761"> Souffrez mon entretien comme celui d’un mort.</l>
+                        <l n="1762"> Je ne respire plus, puis que vous êtes morte.</l>
+                </sp>
+        <sp who="#émile">
+            <speaker> ÉMILE. </speaker>
+                        <l n="1763"> Quoi l’ami des Romains s’affliger de la sorte ?</l>
+                </sp>
+        <sp who="#pharnace">
+            <speaker> PHARNACE. </speaker>
+                        <l n="1764"> C’est peu que s’affliger, Émile, il faut mourir,</l>
+                        <l n="1765"> Quoi cruels malgré moi me faut il secourir ?</l>
+                        <l n="1766"> Barbares voulez-vous me contraindre de vivre,</l>
+                        <l n="1767"> Aimez-vous les tourments dont la mort me délivre ?</l>
+                        <l n="1768"> Et pour récompenser les services rendus,</l>
+                        <l n="1769"> N’êtes-vous pas contents de mes parents perdus ?</l>
+                        <l n="1770"> Quoi vous voulez forcer une âme criminelle,</l>
+                        <l n="1771"> À souffrir parmi vous une peine éternelle ?</l>
+                        <l n="1772"> Pompée à son départ vous a-t-il ordonné,</l>
+                        <l n="1773"> De me traiter en serf, lui qui m’a couronné ?</l>
+                </sp>
+        <sp who="#émile">
+            <speaker> ÉMILE. </speaker>
+                        <l n="1774"> Nous vous rendrons raison de votre retenue,</l>
+                        <l n="1775"> Quand nous verrons la vôtre un peu mieux revenue.</l>
+                        <l n="1776"> Mais délivrons ses yeux de l’horreur de ces morts,</l>
+                        <l n="1777"> Et pour les inhumer qu’on enlève ces corps.</l>
+                        <l n="1778"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

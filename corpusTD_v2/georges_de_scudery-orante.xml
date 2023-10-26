@@ -1,0 +1,2672 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Orante</title>
+                <title type="sub">Comédie</title>
+            <author>
+                <persName>
+                    <forename>Georges</forename>
+                    <linkname>de</linkname>
+                    <surname>Scudéry</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/orante-georges-de-scudéry </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1633">Représenté pour la première fois, à Paris, sur le Théâtre du Jeu de Paume de La Fontaine, en 1633</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="isimandre" sex="SEX">
+                            <persName>ISIMANDRE</persName>
+                        </person>
+                        <person xml:id="orante" sex="SEX">
+                            <persName>ORANTE</persName>
+                        </person>
+                        <person xml:id="rosimond" sex="SEX">
+                            <persName>ROSIMOND</persName>
+                        </person>
+                        <person xml:id="ormin" sex="SEX">
+                            <persName>ORMIN</persName>
+                        </person>
+                        <person xml:id="palinice" sex="SEX">
+                            <persName>PALINICE</persName>
+                        </person>
+                        <person xml:id="lucinde" sex="SEX">
+                            <persName>LUCINDE</persName>
+                        </person>
+                        <person xml:id="florange" sex="SEX">
+                            <persName>FLORANGE</persName>
+                        </person>
+                        <person xml:id="nérine" sex="SEX">
+                            <persName>NÉRINE</persName>
+                        </person>
+                        <person xml:id="poliante" sex="SEX">
+                            <persName>POLIANTE</persName>
+                        </person>
+                        <person xml:id="clindor" sex="SEX">
+                            <persName>CLINDOR</persName>
+                        </person>
+                        <person xml:id="lindoman" sex="SEX">
+                            <persName>LINDOMAN</persName>
+                        </person>
+                        <person xml:id="leriste" sex="SEX">
+                            <persName>LERISTE</persName>
+                        </person>
+                        <person xml:id="argamor" sex="SEX">
+                            <persName>ARGAMOR</persName>
+                        </person>
+                        <person xml:id="gertimant" sex="SEX">
+                            <persName>GERTIMANT</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Comédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q40831]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">ORANTE</titlePart>
+            <titlePart type="sub">COMÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représenté pour la première fois, à Paris, sur le Théâtre du Jeu de Paume de La Fontaine, en 1633</ab><!--@date="1633"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> AU LECTEUR</salute>
+            </opener>
+        <p> Je confesse ingénument que ma stérilité vient de l’abondance d’autrui : l’on a tant fait d’avant-propos, qu’il est comme impossible maintenant que mes pensées ne se rencontrent avec celles d’un autre ; et je ne veux point te donner sujet d’appeler larcin ce qui ne serait que concurrence. Contente-toi donc que je te prie seulement d’excuser mes fautes, et celles de l’impression. </p>
+        <p> Adieu. </p>
+    </div>
+           <div type="act" xml:id="1">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#rosimond">
+            <speaker> ROSIMOND. </speaker>
+                        <l n="1"> Malgré le vœu discret d’une bouche muette,</l>
+                        <l n="2"> Enfin je vous connais amoureux et Poète :</l>
+                        <l n="3"> Non, non, je vous y prends ; que sert de le celer ?</l>
+                        <l n="4"> C’est trop en même temps, que se taire, et brûler ;</l>
+                        <l n="5"> Voyons dans ce Sonnet, qu’on cache comme un crime ;</l>
+                        <l n="6"> Des regrets mesurez, et des soupirs en rime.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="7"> Rends-le-moi cher Ami.</l>
+                </sp>
+        <sp who="#rosimond">
+            <speaker> ROSIMOND. </speaker>
+                        <l n="8"> J’y suis bien résolu,</l>
+                        <l n="9"> Mais ce ne sera pas avant que l’avoir leu.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="10"> Comme tous mes plaisirs ont déjà fait naufrage,</l>
+                        <l n="11"> Le désordre des sens en met en mon ouvrage,</l>
+                        <l n="12"> Et mes vers sont confus, autant que mon humeur :</l>
+                </sp>
+        <sp who="#rosimond">
+            <speaker> ROSIMOND. </speaker>
+                        <l n="13"> Ici l’humilité ne sent point le Rimeur.</l>
+                        <l n="14"> Il fallait préparer mes yeux et mes oreilles ;</l>
+                        <l n="15"> Me dire qu’à genoux on doit voir des merveilles ;</l>
+                        <l n="16"> Me réciter vos vers en accents relevés ;</l>
+                        <l n="17"> C’est tout leur ornement, et vous les en privés :</l>
+                        <l n="18"> Les Maîtres du métier ont bien une autre emphase ;</l>
+                        <l n="19"> Pour vous ravir l’esprit, ils tombent en extase ;</l>
+                        <l n="20"> À chaque fin de stance on les voit se pâmer,</l>
+                        <l n="21"> Pour vous donner le temps qu’il faut à l’estimer ;</l>
+                        <l n="22"> Et faisant les yeux doux, ils semblent vouloir dire,</l>
+                        <l n="23"> Vous devez m’adorer, parce que je m’admire ;</l>
+                        <l n="24"> Mais mon visage froid désespère un Auteur,</l>
+                        <l n="25"> Et je le fais tomber d’une belle hauteur.</l>
+                        <l n="26"> Or vous dont je connais, et l’adresse, et la force ;</l>
+                        <l n="27"> Me faisant un refus, me jetez une amorce ;</l>
+                        <l n="28"> En un mot, je veux voir, en voyant ce sonnet,</l>
+                        <l n="29"> Ce que vous enfantez dans votre Cabinet.</l>
+            <stage><em>Sonnet. Il lit.</em></stage>
+                        <l n="30"> Qu’on me fasse un Tombeau, je ne me puis promettre</l>
+                        <l n="31"> Dieux, Parques, et Destins, me voulez vous permettre,</l>
+                        <l n="32"> Avoir vécu mille ans, n’est-ce pas un bel âge ?</l>
+                        <l n="33"> Depuis que j’écrivis, j’ai compté mille années,</l>
+                        <l n="34"> Quoi donc, vous en tenez ? et cette humeur rebelle,</l>
+                        <l n="35"> Enfin dans l’Univers, a pu voir une belle ?</l>
+                        <l n="36"> Il se trouve un objet, qui mérite vos soins ?</l>
+                        <l n="37"> Si ce discours est vrai, c’est Vénus pour le moins.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="38"> Celle dont le Berceau fut pris d’une Coquille,</l>
+                        <l n="39"> Pourrait servir de lustre à cette belle fille ;</l>
+                        <l n="40"> Et l’on doit confesser malgré ses cruautés,</l>
+                        <l n="41"> Qu’on n’a vu qu’en ce temps la Reine des beautés :</l>
+                        <l n="42"> La liberté s’enfuit, d’où la Belle se trouve ;</l>
+                        <l n="43"> Pour les coups de ses yeux, il n’est rien à l’épreuve ;</l>
+                        <l n="44"> Et bien qu’un arbre, un roc, s’en laissassent charmer,</l>
+                        <l n="45"> Elle a plus fait encor, en me faisant aimer.</l>
+                </sp>
+        <sp who="#rosimond">
+            <speaker> ROSIMOND. </speaker>
+                        <l n="46"> De savoir quelle elle est, le désir vient de naître.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="47"> Sans te dire son nom tu la pourras connaître :</l>
+                        <l n="48"> On ne voit rien d’égal au moindre de ses traits ;</l>
+                        <l n="49"> Écoute-moi parler pour voir de ses Portraits.</l>
+                        <l n="50"> Forme-toi dans l’esprit toutes les belles choses,</l>
+                        <l n="51"> Mêle confusément, et des Lys, et des Roses ;</l>
+                        <l n="52"> Que l’imaginative en soi figure encor,</l>
+                        <l n="53"> L’albâtre, le corail, et les perles, et l’or ;</l>
+                        <l n="54"> Feins toi deux cents Amours, qui vont baiser ses traces ;</l>
+                        <l n="55"> Pense de voir un port, qui fait rougir les Grâces ;</l>
+                        <l n="56"> Songe à tous les attraits, songe à tous les appas,</l>
+                        <l n="57"> Telle est cette Beauté, ne la connais tu pas ?</l>
+                </sp>
+        <sp who="#rosimond">
+            <speaker> ROSIMOND. </speaker>
+                        <l n="58"> Mon âme en est ravie, et non moins ignorante.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="59"> Est-il besoin encor de te nommer Orante ?</l>
+                        <l n="60"> Injurieux ami, confesse moi ce point,</l>
+                        <l n="61"> Qu’à juger des portraits tu ne te connais point.</l>
+                </sp>
+        <sp who="#rosimond">
+            <speaker> ROSIMOND. </speaker>
+                        <l n="62"> Le moyen de la voir à travers la querelle,</l>
+                        <l n="63"> Et cette inimitié qui vous est naturelle ?</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="64"> Épouse qui voudra ses injustes fureurs ;</l>
+                        <l n="65"> Je dois chérir mon père, et non pas ses erreurs :</l>
+                        <l n="66"> Ces vieux ressentiments que la colère attise,</l>
+                        <l n="67"> N’ont rien de généreux, et choquent la franchise :</l>
+                        <l n="68"> Mon courroux tient du foudre, en ce qu’en un instant,</l>
+                        <l n="69"> Il punit, ou pardonne un outrage important.</l>
+                        <l n="70"> Et dut ma lâcheté me combler d’infamie,</l>
+                        <l n="71"> Je baiserai les pas de ma belle ennemie,</l>
+                        <l n="72"> Mon esprit ne saurait en être diverti ;</l>
+                        <l n="73"> Malgré mon intérêt, il est de son parti.</l>
+                </sp>
+        <sp who="#rosimond">
+            <speaker> ROSIMOND. </speaker>
+                        <l n="74"> Êtes-vous assuré, que le sien est du vôtre ?</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="75"> À quiconque aime bien qu’importe l’un ou l’autre ?</l>
+                        <l n="76"> Le véritable amant ne doit rien espérer ;</l>
+                        <l n="77"> Rien demander aux Dieux, c’est assez d’adorer :</l>
+                        <l n="78"> Je me tiens satisfait, seulement quand j’y pense ;</l>
+                        <l n="79"> L’amour qui fait ma peine en est la récompense ;</l>
+                        <l n="80"> Les bonnes actions ont un certain plaisir,</l>
+                        <l n="81"> Qui s’élève plus haut que ne fait le désir.</l>
+                </sp>
+        <sp who="#rosimond">
+            <speaker> ROSIMOND. </speaker>
+                        <l n="82"> Pourquoi donc désirer réponse d’une lettre ?</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="83"> Ha ! que je hais ces vers, parce qu’un d’eux est traître :</l>
+                        <l n="84"> Il apprend un secret qui me découvrira ;</l>
+                        <l n="85"> Et le mettant au jour, ta voix m’en privera,</l>
+                        <l n="86"> Pardonne Rosimond, à cette violence ;</l>
+                        <l n="87"> Sache que pour cela, je craindrais le silence ;</l>
+                        <l n="88"> Tout endormi qu’il est d’une froide vapeur ;</l>
+                        <l n="89"> Son sommeil de pavots éveillerait ma peur.</l>
+                </sp>
+        <sp who="#rosimond">
+            <speaker> ROSIMOND. </speaker>
+                        <l n="90"> Que ma fidélité me pleige, et vous console ;</l>
+                        <l n="91"> Sachez que mon devoir commande à ma parole ;</l>
+                        <l n="92"> Un secret en mon âme, augmente son crédit ;</l>
+                        <l n="93"> Ne le dire qu’à moi, c’est ne l’avoir point dit.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="94"> Je le crois, cher Ami, tu pleurerais ma perte :</l>
+                        <l n="95"> C’est pour toi seul aussi que mon âme est ouverte ;</l>
+                        <l n="96"> Je découvre à toi seul l’injustice du sort ;</l>
+                        <l n="97"> Qui m’éloigne d’Orante, et me donne la mort.</l>
+                        <l n="98"> Je te monstre une flamme à tout autre invisible :</l>
+                        <l n="99"> Vois comme mon malheur se va rendre invincible :</l>
+                        <l n="100"> Le pouvoir de mon père éloigne de ces lieux,</l>
+                        <l n="101"> Celle qui mit au jour la merveille des yeux :</l>
+                        <l n="102"> Car Orante et sa mère ont quitté la Contrée ;</l>
+                        <l n="103"> Elles sont en des lieux où je n’ai point d’entrée ;</l>
+                        <l n="104"> Elles sont chez Ormin, qui leur proche parent,</l>
+                        <l n="105"> Mêle ses intérêts dans notre différent.</l>
+                        <l n="106"> Mais si le Ciel permet qu’Orante puisse lire</l>
+                        <l n="107"> Les termes pleins de feu qu’amour m’a fait écrire,</l>
+                        <l n="108"> Et que ses volontés m’ordonnent de la voir,</l>
+                        <l n="109"> En dépit du malheur je ferai mon devoir.</l>
+                </sp>
+        <sp who="#rosimond">
+            <speaker> ROSIMOND. </speaker>
+                        <l n="110"> Soyez Amant discret, ainsi qu’Amant fidèle ;</l>
+                        <l n="111"> Puisqu’elle vous chérit, conservez vous pour elle ;</l>
+                        <l n="112"> Si vous allez à Pise, où gît votre bonheur,</l>
+                        <l n="113"> Souvenez-vous qu’Ormin en est le Gouverneur.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="114"> La force de l’Amour rendra la sienne vaine ;</l>
+                        <l n="115"> Mon cœur tout généreux se moque de sa haine ;</l>
+                        <l n="116"> Et sache que pour voir ce que j’aime le mieux,</l>
+                        <l n="117"> J’attaquerais l’enfer et forcerais le Cieux.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#ormin">
+            <speaker> ORMIN </speaker>
+                        <l n="118"> Rude et faible raison, abandonne mon âme :</l>
+                        <l n="119"> Ta froideur ne saurait s’opposer à ma flamme :</l>
+                        <l n="120"> L’amitié vient du sang ; et j’éprouve en ce jour,</l>
+                        <l n="121"> Qu’elle n’est qu’un chemin qui conduit à l’amour.</l>
+                        <l n="122"> J’aime (je le confesse) Orante me possède ;</l>
+                        <l n="123"> Je suis homme, elle est belle, on m’attaque, et je cède :</l>
+                        <l n="124"> Ses regards ont des traits qui percent jusqu’au cœur ;</l>
+                        <l n="125"> Le mien est bon esclave, il aime son vainqueur.</l>
+                        <l n="126"> Et pourrait-on blâmer ce qui n’est point blâmable ?</l>
+                        <l n="127"> Pour être ma parente, est-elle moins aimable ?</l>
+                        <l n="128"> Lois, qui nous défendez les plaisirs innocents,</l>
+                        <l n="129"> Laissez nous l’esprit libre, ou nous ôtez les sens.</l>
+                        <l n="130"> L’objet de mon désir lui peut servir d’excuse ;</l>
+                        <l n="131"> Il arrache de force un cœur qu’on lui refuse ;</l>
+                        <l n="132"> La raison et la crainte ont beau le secourir,</l>
+                        <l n="133"> L’espérance le flatte, en le faisant mourir,</l>
+                        <l n="134"> Et trouvant que l’amour est fille de l’estime,</l>
+                        <l n="135"> Tout ce qu’on lui défend lui semble légitime :</l>
+                        <l n="136"> Une conquête aisée est digne de mépris ;</l>
+                        <l n="137"> La peine est une amorce aux généreux esprits ;</l>
+                        <l n="138"> Et quoi qu’un sot discours en pareille aventure,</l>
+                        <l n="139"> Oppose aux lois d’Amour celles de la Nature,</l>
+                        <l n="140"> Il les faut mépriser, pour être possesseur ;</l>
+                        <l n="141"> Si j’aime une cousine, un Dieu chérit sa sœur.</l>
+                        <l n="142"> Oui, puis qu’Amour le veut, la sentence est donnée :</l>
+                        <l n="143"> Allumons son flambeau par celui d’Hyménée ;</l>
+                        <l n="144"> Laissons cueillir la fleur, pour recueillir le fruit ;</l>
+                        <l n="145"> Et tirons cent bons jours d’une mauvaise nuit.</l>
+                        <l n="146"> Orante sera mienne étant à ce Florange ;</l>
+                        <l n="147"> Les défauts d’un mari la porteront au change ;</l>
+                        <l n="148"> Et dedans son esprit toutes ses actions,</l>
+                        <l n="149"> Pourront servir de lustre à mes perfections.</l>
+                        <l n="150"> C’est de là que mon bien prendra son origine ;</l>
+                        <l n="151"> Je bâtis sur l’espoir de sa mauvaise mine ;</l>
+                        <l n="152"> L’entretien d’un brutal est capable d’aider</l>
+                        <l n="153"> Au dessein que j’ai pris de la persuader :</l>
+                        <l n="154"> J’ai le vent favorable, et j’aperçois la rive ;</l>
+                        <l n="155"> Pour posséder Orante, il faut que je m’en prive ;</l>
+                        <l n="156"> Le Ciel entend mes vœux, et mon bonheur s’y lit ;</l>
+                        <l n="157"> Mais, Amour avec eux n’entre pas dans le lit.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#clindor">
+            <speaker> CLINDOR. </speaker>
+                        <l n="158"> Nérine, qu’à propos je vous ai rencontrée !</l>
+                        <l n="159"> Vous pouvez au Château me donner libre entrée ;</l>
+                        <l n="160"> Mon maître vous en prie, et l’Amour comme lui,</l>
+                        <l n="161"> Demande que vos soins l’assistent aujourd’hui.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="162"> Ha ! fidèle Clindor, un bon démon t’amène :</l>
+                        <l n="163"> Si ton Maître pâtit, Orante est bien en peine ;</l>
+                        <l n="164"> Florange la recherche, et sa Mère y consent ;</l>
+                        <l n="165"> Juge par là des maux que son esprit ressent.</l>
+                        <l n="166"> Mais que fait Isimandre en cette longue absence ?</l>
+                </sp>
+        <sp who="#clindor">
+            <speaker> CLINDOR. </speaker>
+                        <l n="167"> Il désire la mort ; il maudit sa naissance ;</l>
+                        <l n="168"> Il accuse le sort ; il attaque les Cieux ;</l>
+                        <l n="169"> Et croit que pour pleurer Nature fit les yeux.</l>
+                        <l n="170"> Son âme suit Orante, et n’a point d’autre idée ;</l>
+                        <l n="171"> Son feu ne peut souffrir celui de Celidée ;</l>
+                        <l n="172"> Il croit qu’auprès de l’œil, dont le sien est épris,</l>
+                        <l n="173"> Une Déesse même, est digne de mépris.</l>
+                        <l n="174"> Il rend les Bois témoins de son inquiétude,</l>
+                        <l n="175"> Son unique recours est en la solitude ;</l>
+                        <l n="176"> C’est là, que librement dans le mal qui le point :</l>
+                        <l n="177"> Il se plaint à l’Amour, qui ne le quitte point,</l>
+                        <l n="178"> C’est là que ce grand Dieu lui dicta les pensées,</l>
+                        <l n="179"> Que garde ce papier, que sa main a tracées ;</l>
+            <stage><em>Il lui baille une lettre.</em></stage>
+                        <l n="180"> Et qu’il adresse aux yeux qui lui font endurer</l>
+                        <l n="181"> Un mal si violent, qu’il ne saurait durer.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="182"> Ma Maîtresse aujourd’hui n’est point accompagnée ;</l>
+                        <l n="183"> Sa fièvre à ce matin, a voulu la saignée ;</l>
+                        <l n="184"> Elle garde la Chambre, où je m’en vais courir ;</l>
+                        <l n="185"> Mieux que le Médecin je la puis secourir ;</l>
+                        <l n="186"> Son remède consiste au papier que je porte,</l>
+                        <l n="187"> Dont je vais ranimer son espérance morte ;</l>
+                        <l n="188"> Toi, fidèle Clindor suis moi dans le Château ;</l>
+                        <l n="189"> Passe la basse court, le nez dans le manteau ;</l>
+                        <l n="190"> Monte au grand escalier, où je m’en vais t’attendre.</l>
+                </sp>
+        <sp who="#clindor">
+            <speaker> CLINDOR. </speaker>
+                        <l n="191"> J’ose tout, je fais tout, pour servir Isimandre.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="192"> Vous l’accusez à tort, elle a plus de bonté ;</l>
+                        <l n="193"> Son cœur ne prend de loi que de ma volonté,</l>
+                        <l n="194"> Son esprit est fort doux, j’en dispose absolue,</l>
+                        <l n="195"> Florange, elle est à vous, si j’y suis résolue :</l>
+                        <l n="196"> Et puis qu’Ormin l’agrée, et Palinice encor,</l>
+                        <l n="197"> Quand vous auriez les ans, que l’on donne à Nestor ;</l>
+                        <l n="198"> Quand plus de cent Hivers, horribles en tempête ;</l>
+                        <l n="199"> Auraient ainsi qu’aux champs, neigé sur votre tête ;</l>
+                        <l n="200"> Croyez (puisqu’il est vrai) que j’aurais le pouvoir</l>
+                        <l n="201"> De la mettre en vos bras comme dans son devoir.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="202"> Mon âge lui fait peur, sa tristesse m’étonne ;</l>
+                        <l n="203"> Et je pleins la douleur que mon plaisir lui donne :</l>
+                        <l n="204"> Je ne la trouve point favorable à mes vœux ;</l>
+                        <l n="205"> L’or ne saurait cacher l’argent de mes cheveux.</l>
+                </sp>
+        <sp who="#palinice">
+            <speaker> PALINICE. </speaker>
+                        <l n="206"> La foi de mon mari vous assure la sienne.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="207"> Puisque je l’ai promis, il faut que je le tienne :</l>
+                        <l n="208"> On ne peut vous l’ôter, Orante est votre bien ;</l>
+                        <l n="209"> Espérez tout Florange, et ne craignez plus rien ;</l>
+                        <l n="210"> Condamnez désormais cette plainte au silence,</l>
+                        <l n="211"> Aussitôt que son mal perdra sa violence,</l>
+                        <l n="212"> Guérissant la douleur par qui vous soupirez,</l>
+                        <l n="213"> Je saurai bien la mettre où vous la désirez.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="214"> Ce discours me ravit ; n’en parlons plus Madame :</l>
+                        <l n="215"> L’excès de ce plaisir me déroberait l’âme ;</l>
+                        <l n="216"> Je mourrais à vos yeux, et mon cœur a dessein,</l>
+                        <l n="217"> De prendre pour Tombeau l’albâtre de son sein.</l>
+                        <l n="218"> Couronné des lauriers d’une victoire insigne,</l>
+                        <l n="219"> Puisqu’il me faut mourir je veux je mourir en Cygne,</l>
+                        <l n="220"> Et chante les beautés, et vanter les appas,</l>
+                        <l n="221"> Que je trouve en ses yeux, que je goûte au trépas.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#orante">
+            <speaker> ORANTE </speaker>
+            <stage><em>Elle est dans sa chambre, le bras en écharpe.</em></stage>
+            <stage><em>Stances.</em></stage>
+                        <l n="222"> Amour, je veux suivre l’envie,</l>
+                        <l n="223"> Invisible Démon de flamme,</l>
+                        <l n="224"> Pour éterniser la mémoire</l>
+                        <l n="225"> Mais pour achever la structure,</l>
+                        <l n="226"> Ce n’est pas tout ; fais qu’Isimandre,</l>
+                        <l n="227"> Fantastiques propos, songes, chimères vaines,</l>
+                        <l n="228"> Vous irritez mes pleurs, vous augmentez mes peines,</l>
+                        <l n="229"> Et le temps que je perds à discourir ici,</l>
+                        <l n="230"> Ne doit être employé qu’à finir mon souci.</l>
+                        <l n="231"> J’aspire après un bien qui n’a point d’apparence ;</l>
+                        <l n="232"> C’est me nourrir de vent, que vivre d’espérance ;</l>
+                        <l n="233"> Orante infortunée, et bien ne vivons plus :</l>
+                        <l n="234"> Bornons avec nos jours ces regrets superflus :</l>
+                        <l n="235"> Innocent criminel, vieil importun Florange,</l>
+                        <l n="236"> Par mon triste dessein, vois où le tien me range :</l>
+                        <l n="237"> Isimandre fidèle, apprends que je le suis ;</l>
+                        <l n="238"> Sans partager ma mort, partage mes ennuis ;</l>
+                        <l n="239"> Et juge par le sang que je m’en vais répandre,</l>
+                        <l n="240"> Qu’Orante n’aima rien que le seul Isimandre.</l>
+                        <l n="241"> Vivant en ton penser, je mourrai sans douleur :</l>
+            <stage><em>Elle débande le bras.</em></stage>
+                        <l n="242"> Dieux, ce sang est de flamme, il en a la couleur ;</l>
+                        <l n="243"> Reçois au lieu d’encens l’agréable fumée,</l>
+                        <l n="244"> Qui sort parmi le sang de la personne aimée,</l>
+                        <l n="245"> Ce sont là des esprits qui vont chercher le tien :</l>
+                        <l n="246"> La mort n’est point un mal, à qui la connaît bien :</l>
+                        <l n="247"> Mais puisque ce papier se trouve favorable,</l>
+                        <l n="248"> Tâchons de consoler l’esprit d’un misérable ;</l>
+                        <l n="249"> Faisons voir que la mort ne peut rien sur l’Amour :</l>
+            <stage><em>Elle écrit de son sang.</em></stage>
+                        <l n="250"> Adieu cher Isimandre, adieu, je perds le jour.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="251"> Que me donneriez-vous d’une bonne nouvelle ?</l>
+                        <l n="252"> Madame, vous dormez ; c’est en vain que j’appelle :</l>
+                        <l n="253"> Ha Ciel ! quel accident ? au secours mes amis ;</l>
+                        <l n="254"> Dieux ! vous l’avez vu faire, et vous l’avez permis !</l>
+                        <l n="255"> Elle nage en son sang : ô l’horrible spectacle !</l>
+                        <l n="256"> Son funeste projet n’a point trouvé d’obstacle :</l>
+                        <l n="257"> Et ce papier m’apprend, que sa fidélité,</l>
+                        <l n="258"> Arrive par la mort à l’immortalité.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#clindor">
+            <speaker> CLINDOR. </speaker>
+                        <l n="259"> Il faut que je m’avance à la chambre voisine :</l>
+                        <l n="260"> Quel prodige est-ce-là ? que faites vous Nérine ?</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="261"> Retourne vers ton Maître, et va-t’en l’avertir,</l>
+                        <l n="262"> Qu’Orante ne vit plus, qu’il est temps de partir :</l>
+                        <l n="263"> Porte-lui ce papier.</l>
+                </sp>
+        <sp who="#clindor">
+            <speaker> CLINDOR. </speaker>
+                        <l n="264"> Ô funeste message !</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="265"> Qu’il punisse Florange auteur de ce dommage ;</l>
+                        <l n="266"> On la voulait forcer de vivre sous sa Loi ;</l>
+                        <l n="267"> Adieu, ne sois point vu, quelqu’un vient, sauve toi.</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="268"> Quel bruit ai-je entendu ?</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="269"> Bons Dieux Orante est morte !</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="270"> Quel homme, ou quel démon, l’a mise de la sorte ?</l>
+                </sp>
+        <sp who="#palinice">
+            <speaker> PALINICE. </speaker>
+                        <l n="271"> Elle s’est fait saigner, et son bras s’est ouvert ;</l>
+                        <l n="272"> Mais je vois qu’elle vit, par le sang qu’elle perd.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="273"> Ma fille.</l>
+                </sp>
+        <sp who="#palinice">
+            <speaker> PALINICE. </speaker>
+                        <l n="274"> Ma Cousine.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="275"> Orante.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="276"> Ma Maîtresse.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="277"> Qu’on lui jette de l’eau, remettons la compresse.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="278"> Ha Ciel ! elle revient.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="279"> Oui mais c’est pour mourir,</l>
+            <stage><em>Elle parle bas.</em></stage>
+                        <l n="280"> Si vous n’avez dessein de la mieux secourir ;</l>
+                        <l n="281"> Florange lui déplaît, sa mère la martyre.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="282"> Le bruit lui ferait mal, que chacun se retire,</l>
+            <stage><em>Il parle bas.</em></stage>
+                        <l n="283"> Vivez aimable Orante, on ne vous peut forcer.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="284"> Je conjure les Dieux de vous récompenser.</l></div></div>
+           <div type="act" xml:id="2">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#palinice">
+            <speaker> PALINICE </speaker>
+                        <l n="285"> Invisible serpent, cruelle jalousie,</l>
+                        <l n="286"> Qui vomis ton venin dans notre fantaisie,</l>
+                        <l n="287"> Bourreau de mon repos, vrai Monstre des enfers,</l>
+                        <l n="288"> Qui mets l’âme à la gêne, et l’esprit dans les fers ;</l>
+                        <l n="289"> Cesse de me montrer ta vaine, et pâle image ;</l>
+                        <l n="290"> Cesse de me prédire un funeste dommage ;</l>
+                        <l n="291"> Orante aime l’honneur, Ormin sait son devoir ;</l>
+                        <l n="292"> Mais Amour est aveugle, il ne saurait rien voir.</l>
+                        <l n="293"> La plus forte raison cède à cette manie ;</l>
+                        <l n="294"> Et bien qu’elle soit Reine, elle est souvent bannie.</l>
+                        <l n="295"> Le change a des attraits plus forts que la beauté :</l>
+                        <l n="296"> Toujours l’esprit d’un homme aime la nouveauté ;</l>
+                        <l n="297"> L’Hymen est un fardeau qu’il juge insupportable ;</l>
+                        <l n="298"> Plus un bien est aisé, moins il est délectable ;</l>
+                        <l n="299"> Ce que nous possédons, est presque sans plaisir ;</l>
+                        <l n="300"> L’amour trouve sa fin en celle du désir ;</l>
+                        <l n="301"> Lorsqu’il est au sommet, il commence à descendre ;</l>
+                        <l n="302"> Et ce brasier s’éteint dedans sa propre cendre.</l>
+                        <l n="303"> Dieux ! je l’expérimente en ma juste douleur :</l>
+                        <l n="304"> Ormin est toujours triste, il change de couleur ;</l>
+                        <l n="305"> Des soupirs continus découvrent sa folie ;</l>
+                        <l n="306"> Son cœur suit par les yeux la belle qui le lie ;</l>
+                        <l n="307"> Il ne me parle plus qu’en termes de mépris ;</l>
+                        <l n="308"> Orante est un miracle entre les beaux esprits ;</l>
+                        <l n="309"> Elle seule mérite une extrême louange ;</l>
+                        <l n="310"> Il la peint des couleurs, dont on peindrait un Ange ;</l>
+                        <l n="311"> Il lui donne l’encens qu’on offrirait aux Dieux ;</l>
+                        <l n="312"> Il méprise la terre, et se moque des Cieux ;</l>
+                        <l n="313"> Afin de l’obliger, il manque à sa promesse ;</l>
+                        <l n="314"> Florange n’étant qu’homme offense sa Déesse ;</l>
+                        <l n="315"> Pour posséder ce corps il faut être immortel,</l>
+                        <l n="316"> Bref, pour avoir sa couche il lui dresse un Autel.</l>
+                        <l n="317"> Il est vrai, je le vois, son âme en est blessée ;</l>
+                        <l n="318"> Elle est l’unique objet qu’il a dans la pensée ;</l>
+                        <l n="319"> Il méprise ma flamme aussi bien que sa foi ;</l>
+                        <l n="320"> Pour rendre Orante à lui, l’ingrat n’est plus à moi.</l>
+                        <l n="321"> Mais il manque d’amour, et non moi de courage ;</l>
+                        <l n="322"> On connaît le Pilote au milieu de l’orage ;</l>
+                        <l n="323"> Faisons agir l’esprit pour rompre ses desseins ;</l>
+                        <l n="324"> Tâchons de lui donner des sentiments plus seins :</l>
+                        <l n="325"> Qu’il prenne pour guérir la médecine amère,</l>
+                        <l n="326"> Et que son pouvoir cède à celui d’une mère.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#ormin">
+            <speaker> ORMIN </speaker>
+            <stage><em>Stances.</em></stage>
+                        <l n="327"> Je fais gloire de mes malheurs ;</l>
+                        <l n="328"> Je la sers, mais c’est par devoir :</l>
+                        <l n="329"> La peine me semble un plaisir ;</l>
+                        <l n="330"> C’en est fait, j’y suis résolu ;</l>
+                        <l n="331"> Les épines me sont des fleurs ;</l>
+                        <l n="332"> Oui, je la veux aimer jusqu’en la sépulture :</l>
+                        <l n="333"> Elle mérite bien qu’on force la Nature ;</l>
+                        <l n="334"> On doit à ses vertus un amour éternel ;</l>
+                        <l n="335"> S’il était périssable il serait criminel.</l>
+                        <l n="336"> On ne peut trop aimer un objet tant aimable,</l>
+                        <l n="337"> Jamais l’excès du bien ne peut être blâmable,</l>
+                        <l n="338"> (S’il est permis de mettre un excès dans le bien)</l>
+                        <l n="339"> Il faut que mon esprit prenne la loi du sien ;</l>
+                        <l n="340"> Et que ses volontés règnent sur mes pensées :</l>
+                        <l n="341"> Que Florange n’ait plus ses flammes insensées</l>
+                        <l n="342"> Puisqu’il déplaît à l’œil que je veux adorer,</l>
+                        <l n="343"> Le respect qu’il me doit lui défend d’espérer ;</l>
+                        <l n="344"> Et mes commandements l’obligent à se taire :</l>
+                        <l n="345"> Ô toi de mes pensers, fidèle Secrétaire,</l>
+                        <l n="346"> Amour ; qui les fais naître, et seul les vois au cœur ;</l>
+                        <l n="347"> Viens rendre une visite au bel œil mon vainqueur ;</l>
+                        <l n="348"> Et pour faire un miracle, en voyant ma Rebelle ;</l>
+                        <l n="349"> Suis-moi dans mon retour, et demeure chez elle.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="350"> M’empêchant de mourir, ton secours me conduit,</l>
+                        <l n="351"> Du repos à la peine, et du silence au bruit.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="352"> Vous irez (si le sort calme sa violence)</l>
+                        <l n="353"> De la peine au repos, et du bruit au silence.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="354"> Ha ! ne me flatte pas d’un espoir décevant,</l>
+                        <l n="355"> J’arrêterais plutôt les ondes, et le vent,</l>
+                        <l n="356"> Que la suite des maux, dont je suis traversée ;</l>
+                        <l n="357"> L’espérance est trop faible, elle en est renversée ;</l>
+                        <l n="358"> La rigueur de ma mère, et celle de mon sort,</l>
+                        <l n="359"> Ne laissent à mon choix, que Florange, ou la mort ;</l>
+                        <l n="360"> Toutes mes volontés penchent vers la dernière :</l>
+                        <l n="361"> Elle délivrera mon âme prisonnière ;</l>
+                        <l n="362"> Et malgré tous vos soins, mon esprit enflammé,</l>
+                        <l n="363"> Fera voir que le feu ne peut être enfermé :</l>
+                        <l n="364"> Une âme généreuse a la clef de sa porte :</l>
+                        <l n="365"> Rien ne peut empêcher que la mienne ne sorte ;</l>
+                        <l n="366"> Je meurs sans désespoir, je finis par raison ;</l>
+                        <l n="367"> La liberté vaut mieux que ne fait la prison.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="368"> La parole d’Ormin doit bannir cette crainte.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="369"> La crois-tu véritable ?</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="370"> Et la croyez-vous feinte ?</l>
+                        <l n="371"> Non, espérez Madame, un traitement plus doux ;</l>
+                        <l n="372"> Vivez pour Isimandre, ainsi qu’il vit pour vous ;</l>
+                        <l n="373"> Et croyez que le Ciel, par ses Lois souveraines,</l>
+                        <l n="374"> Mesurera vos biens aux grandeurs de vos peines ;</l>
+                        <l n="375"> Il vous a fait un mal, dont il aura pitié.</l>
+                        <l n="376"> Faîtes que le destin cède à votre amitié ;</l>
+                        <l n="377"> Le sage (à ce qu’on dit) se fait ses destinées :</l>
+                        <l n="378"> Le pilote se rit des vagues mutinées ;</l>
+                        <l n="379"> C’est parmi les malheurs que paraît la vertu ;</l>
+                        <l n="380"> La fortune méprise un courage abattu ;</l>
+                        <l n="381"> On gagne ses faveurs avec la résistance ;</l>
+                        <l n="382"> Elle est fille, elle est belle, on la vainc par constance.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="383"> Et bien donc, je vivrai, puis qu’il te plaît ainsi :</l>
+                        <l n="384"> Mais Nérine, mon cœur, tire moi de souci,</l>
+                        <l n="385"> Quand la perte du sang (étant évanouie)</l>
+                        <l n="386"> M’eût dérobé la vue aussi bien que l’ouïe ;</l>
+                        <l n="387"> Apprends-moi que devint, un papier, un écrit,</l>
+                        <l n="388"> Où l’Amour par ma plume avait peint mon esprit ;</l>
+                        <l n="389"> Ne l’aperçus-tu point ? il était sur ma table :</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="390"> Ha ! Madame pardon, ma mémoire est coupable :</l>
+                        <l n="391"> Le soin de soulager votre corps affaibli,</l>
+                        <l n="392"> A fait que mes pensers ont mis tout en oubli :</l>
+                        <l n="393"> Oui Madame, je lus cette honorable marque,</l>
+                        <l n="394"> Que laissait votre amour en dépit de la parque ;</l>
+                        <l n="395"> Et Clindor la reçut à l’instant de ma main.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="396"> Clindor est donc ici ?</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="397"> Non, il partit soudain :</l>
+                        <l n="398"> Et porta ce billet, et la mort à son Maître,</l>
+                        <l n="399"> De qui j’avais reçu pour vous une autre lettre :</l>
+                        <l n="400"> Mais ayant le dessein d’accompagner vos pas :</l>
+                        <l n="401"> Je voulais que sa fin, suivit notre trépas.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="402"> Ô malheur sans égal ! ô faute incomparable !</l>
+                        <l n="403"> Voyons ce qu’écrivait cet Amant déplorable.</l>
+            <stage><em>Lettre.</em></stage>
+                        <l n="404"> Je ne saurais plus endurer ;</l>
+                        <l n="405"> Faites Orante (au nom des Dieux)</l>
+                        <l n="406"> Naples me paraît un désert</l>
+                        <l n="407"> Ha Ciel ! tout est perdu, si ton conseil ne m’aide.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="408"> Je vous ai fait un mal dont voici le remède :</l>
+                        <l n="409"> Écrivez seulement trois mots de votre main ;</l>
+                        <l n="410"> Que Lindoman les porte, et qu’il parte demain.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="411"> Est-il assez discret pour lui montrer ma flamme ?</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="412"> Un secret important, l’est toujours dans son âme :</l>
+                        <l n="413"> Isimandre, sans doute, a besoin de cela :</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="414"> Je le veux : mais Floran...</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="415"> Madame, le voilà.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="416"> Mon abord vous déplaît ; mon respect vous offense ;</l>
+                        <l n="417"> Mais contre vos rigueurs, Amour prend ma défense :</l>
+                        <l n="418"> Et promet à mon cœur, pour le réconforter,</l>
+                        <l n="419"> La force de les vaincre, ou de les supporter.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="420"> Mettez vous en repos, sans parler davantage ;</l>
+            <stage><em>Elle lui offre un siège.</em></stage>
+                        <l n="421"> Je vous doit du respect, à cause de votre âge.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="422"> Mon feu ne peut souffrir un si froid compliment :</l>
+                        <l n="423"> Vous me traitez en Père, et non pas en Amant !</l>
+                        <l n="424"> Ha ! veuillez adoucir mes peines obstinées ;</l>
+                        <l n="425"> Et compter mon argent plutôt que mes années ;</l>
+                        <l n="426"> Pour faire que mon Astre, ait un aspect plus doux,</l>
+                        <l n="427"> Songez que mon Amour est jeune comme vous.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="428"> Songez que le Sépulcre est prés de votre couche,</l>
+                        <l n="429"> Et qu’Ormin vous défend d’en ouvrir plus la bouche.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="430"> Ormin peut tout sur moi, mais rien sur mon amour :</l>
+                        <l n="431"> Il ne peut me l’ôter, qu’en me privant du jour.</l>
+                        <l n="432"> Sa foi me veut trahir, mais en cette aventure,</l>
+                        <l n="433"> Mon Amour outragé s’adresse à la Nature :</l>
+            <stage><em>Lucinde arrive.</em></stage>
+                        <l n="434"> Madame, c’est de vous que j’attends aujourd’hui,</l>
+                        <l n="435"> Ou ma première joie, ou mon dernier ennui :</l>
+                        <l n="436"> Ormin est sans parole ; Orante me méprise ;</l>
+                        <l n="437"> Et ce jour pour mon âme, est bien un jour de crise.</l>
+                        <l n="438"> Prononçant un arrêt, que j’attends à genoux,</l>
+                        <l n="439"> Videz le différent, qui s’émeut entre nous.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="440"> Ma parole tiendra, puisque je l’ai donnée.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="441"> Amour est bien un Dieu plus puissant qu’Hyménée.</l>
+                        <l n="442"> Ah, Monsieur ! on me force, et les Cieux ennemis,</l>
+            <stage><em>Ormin paraît.</em></stage>
+                        <l n="443"> Veulent m’ôter un bien que vous m’avez promis.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="444"> Qui vous fait si hardi, que de m’être rebelle ?</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="445"> Fermez l’œil pour ma faute, et voyez cette Belle.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="446"> Allez, si jamais plus vous procédez ainsi,</l>
+                        <l n="447"> Je vous ferai bien voir, que je commande ici.</l>
+                        <l n="448"> Madame, ce Mari n’est pas bon pour Orante ;</l>
+                        <l n="449"> Leur âge est inégal, leur humeur différente ;</l>
+                        <l n="450"> Pour agir là dessus avecque jugement,</l>
+                        <l n="451"> Souffrez que je vous mène à votre Appartement.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="452"> Servons nous du loisir qui nous vient sans l’attendre ;</l>
+                        <l n="453"> Dépêchons Lindoman au fidèle Isimandre ;</l>
+                        <l n="454"> Afin que son esprit, où règne la raison,</l>
+                        <l n="455"> Tire le mien de peine, et mon corps de prison.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE </speaker>
+                        <l n="456"> Que l’attente est fâcheuse à l’Amant qui soupire !</l>
+                        <l n="457"> Qu’un bien semble tardif alors qu’on le désire !</l>
+                        <l n="458"> Le cours d’un Siècle entier a bien moins de moments,</l>
+                        <l n="459"> Que la crainte et l’espoir ne donnent de tourments.</l>
+                        <l n="460"> Paresseux Messager, qui fait languir mon âme,</l>
+                        <l n="461"> Résous-toi de quitter les beaux yeux de ma Dame :</l>
+                        <l n="462"> Vois mes maux, songe à moi, regarde ton devoir ;</l>
+                        <l n="463"> Et sois prompt à venir, si tu me veux revoir.</l>
+                        <l n="464"> Pense que ta longueur, m’assassine, et me tue ;</l>
+                        <l n="465"> Toi seul peux relever ma pauvre âme abattue :</l>
+                        <l n="466"> Souffre que mes désirs t’arrachent de ce Ciel ;</l>
+                        <l n="467"> Voudrais-tu du Nectar, quand je n’ai que du fiel ?</l>
+                        <l n="468"> Ton immortalité me coûterait la vie :</l>
+                        <l n="469"> Hé ! sois plus pitoyable, en suivant mon envie :</l>
+                        <l n="470"> Tu m’as cent fois promis d’aider à mon dessein ;</l>
+                        <l n="471"> Ha bons Dieux ! le voici ; le cœur me bat au sein ;</l>
+                        <l n="472"> Je tremble en remarquant, qu’il s’est peint le visage,</l>
+                        <l n="473"> De la pâle couleur d’un funeste présage ;</l>
+                        <l n="474"> La tristesse le suit, et marche sur ses pas ;</l>
+                        <l n="475"> Je lis dedans ses yeux ce qu’il ne me dit pas ;</l>
+                        <l n="476"> Et dans l’incertitude où me met son silence,</l>
+                        <l n="477"> L’excès de mon supplice, accroît sa violence :</l>
+                        <l n="478"> Mes pleurs suivent les siens, sans en voir le sujet ;</l>
+                        <l n="479"> Toi qui fais ma douleur, monstre lui son objet.</l>
+                        <l n="480"> Ne me le cèle point ; veut-on forcer Orante ?</l>
+                        <l n="481"> As-tu vu les abois de sa vertu mourante ?</l>
+                        <l n="482"> As-tu vu son esprit à travers son discours ?</l>
+                        <l n="483"> Suis-je désespéré ? n’ai-je plus de secours ?</l>
+                        <l n="484"> N’implore-t-elle point le pouvoir de mes armes ?</l>
+                        <l n="485"> N’as-tu point vu ses pleurs, comme tu vois mes larmes ?</l>
+                        <l n="486"> Ne m’écrit-elle pas ? que sert de le celer ?</l>
+                        <l n="487"> Enfin, dois-je mourir ? Ou si tu dois parler ?</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#clindor">
+            <speaker> CLINDOR. </speaker>
+                        <l n="488"> Juste Ciel, je voudrais dans le mal qui me touche,</l>
+                        <l n="489"> Qu’un silence éternel me vint fermer la bouche.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="490"> N’ajoute point aux miens, tes regrets superflus ;</l>
+                        <l n="491"> Prononce mon arrêt.</l>
+                </sp>
+        <sp who="#clindor">
+            <speaker> CLINDOR. </speaker>
+                        <l n="492"> Orante ne vit plus,</l>
+                        <l n="493"> Elle a voulu mourir, plutôt qu’aller au change ;</l>
+                        <l n="494"> Elle vous adorait, et n’aimait point Florange,</l>
+                        <l n="495"> Que le pouvoir d’Ormin lui donnait pour Époux ;</l>
+                        <l n="496"> Enfin, que vous dirai-je, elle est morte pour vous.</l>
+                        <l n="497"> Et trouvant un remède aux rigueurs de ses peines,</l>
+                        <l n="498"> Sa générosité s’est fait couper les veines :</l>
+                        <l n="499"> Ce tragique Témoin vous dira mieux que moi,</l>
+            <stage><em>Il lui baille le billet d’Orante.</em></stage>
+                        <l n="500"> Quelle fut son amour, sa constance, et sa foi.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="501"> Tout ce que tu me dis est rempli de mensonge :</l>
+                        <l n="502"> Et ton cerveau débile a fait un mauvais songe.</l>
+                        <l n="503"> Orante ne vit plus ! Orante est au cercueil !</l>
+                        <l n="504"> Dois-je croire ta voix ? dois-je croire mon œil ?</l>
+                        <l n="505"> C’est de toi cher papier que je le veux apprendre :</l>
+            <stage><em>Billet. Il lit ce billet.</em></stage>
+                        <l n="506"> Tienne je meurs, mon Isimandre.</l>
+                        <l n="507"> Il n’en faut plus douter ; par la rigueur du sort,</l>
+                        <l n="508"> La vertu ne vit plus, et le Soleil est mort.</l>
+                        <l n="509"> Il n’en faut plus douter, sa plume véritable,</l>
+                        <l n="510"> Ne m’a que trop bien peint sa perte lamentable :</l>
+                        <l n="511"> Il n’en faut plus douter ; elle abandonne aux vers,</l>
+                        <l n="512"> Le plus rare trésor qui fût en l’Univers.</l>
+                        <l n="513"> Orante ne vit plus ! Orante n’est que poudre :</l>
+                        <l n="514"> Et moi je ne meurs pas après ce coup de foudre !</l>
+                        <l n="515"> Après l’avoir souffert, je respire un moment :</l>
+                        <l n="516"> Ha ! je ne me crois plus un véritable Amant :</l>
+                        <l n="517"> Je flattais mon esprit, en l’estimant fidèle ;</l>
+                        <l n="518"> S’il eut su bien aimer, il serait auprès d’elle ;</l>
+                        <l n="519"> Quand la blessure est grande on finit sans parler ;</l>
+                        <l n="520"> Et celui qui se plaint, tâche à se consoler.</l>
+                        <l n="521"> Chère ombre, je te suis, si tu me veux attendre.</l>
+            <stage><em>Billet. Il lit.</em></stage>
+                        <l n="522"> Tienne je meurs, mon Isimandre.</l>
+                        <l n="523"> Hé n’est-ce pas répondre, à mon cœur, à ma voix ?</l>
+                        <l n="524"> Disant ce qu’elle a fait, on dit ce que je dois.</l>
+                        <l n="525"> Caractères sanglants, entrez dans ma pensée ;</l>
+                        <l n="526"> Représentés y bien mon Orante blessée ;</l>
+                        <l n="527"> Que le trait de la mort, la peigne en mon esprit,</l>
+                        <l n="528"> En l’état qu’elle était, en traçant cet écrit ;</l>
+                        <l n="529"> Ha ! je vois ce Fantôme, et sa main tâche à mettre,</l>
+                        <l n="530"> Les derniers traits de l’âme en ceux de cette lettre ;</l>
+                        <l n="531"> Et l’Amour semble dire à mon cœur prisonnier,</l>
+                        <l n="532"> Tout le sang est sorti, j’y reste le dernier.</l>
+                        <l n="533"> Suis-moi dans les Enfers, où je m’en vais descendre.</l>
+            <stage><em>Billet. Il relit.</em></stage>
+                        <l n="534"> Tienne je meurs, mon Isimandre.</l>
+                        <l n="535"> Attends, Orante, attends, mon âme qui te suit ;</l>
+                        <l n="536"> Ne t’en va point sans elle en l’éternelle nuit ;</l>
+                        <l n="537"> Juge de mon amour, juge de ta puissance ;</l>
+                        <l n="538"> Remarque l’une et l’autre en mon obéissance ;</l>
+                        <l n="539"> Mais souffre que je pousse en un même chemin,</l>
+                        <l n="540"> Et le traître Florange, et le cruel Ormin :</l>
+                        <l n="541"> Permets que nous goûtions ceste douce allégeance,</l>
+                        <l n="542"> Que les cœurs irritez trouvent en la vengeance ;</l>
+                        <l n="543"> Mon esprit au tombeau ne peut être endormi.</l>
+                        <l n="544"> S’il ne mêle à mon sang celui de l’ennemi :</l>
+                        <l n="545"> Ma Déesse demande un pareil sacrifice :</l>
+                        <l n="546"> Partons Clindor, allons lui rendre cet office ;</l>
+                        <l n="547"> Et quand j’aurai puni ces voleurs de mon bien,</l>
+                        <l n="548"> Je répandrai mon sang sur les marques du sien.</l></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="549"> La peine que je sens leur est indifférente :</l>
+                        <l n="550"> Amour que dois-je faire ? on me ravit Orante ;</l>
+                        <l n="551"> Ô toi qui le fais naître, assiste mon ennui ;</l>
+                        <l n="552"> Ou si tu vis d’espoir, meurs aussi bien que lui.</l>
+                        <l n="553"> Mon extrême douleur n’a rien qui la console ;</l>
+                        <l n="554"> Orante est sans amour, Ormin est sans parole ;</l>
+                        <l n="555"> Que dis-je malheureux ? Elle a donné sa foi ;</l>
+                        <l n="556"> Elle est bien sans amour, mais ce n’est que pour moi.</l>
+                        <l n="557"> J’ai su comme Isimandre occupe sa belle âme ;</l>
+                        <l n="558"> Son cœur est consommé d’une secrète flamme ;</l>
+                        <l n="559"> Mais croyant que mon œil ne le saurait ouvrir,</l>
+                        <l n="560"> L’Amour qu’elle a caché me l’a fait découvrir.</l>
+                        <l n="561"> Ha qu’on voit clairement, en dépit de la feinte,</l>
+                        <l n="562"> Si le cœur est sans plaie, ou si l’âme est atteinte ;</l>
+                        <l n="563"> L’œil d’un Amant jaloux, voit tout, peut tout percer ;</l>
+                        <l n="564"> Et même dans l’esprit il surprend un penser :</l>
+                        <l n="565"> Un souris, une larme, un soupir, une œillade,</l>
+                        <l n="566"> Sont indices certains que l’esprit est malade,</l>
+                        <l n="567"> Sur quoi l’homme subtil fonde son jugement :</l>
+                        <l n="568"> Celui qui souffre un mal le connaît aisément.</l>
+                        <l n="569"> Il n’est que trop certain qu’Orante aime Isimandre :</l>
+                        <l n="570"> Mais puisqu’elle est à moi, je saurai la défendre ;</l>
+                        <l n="571"> Naples n’est pas si loin, ni son bonheur si près ;</l>
+                        <l n="572"> Tel cherche du Laurier, qui trouve du Cyprès.</l>
+                        <l n="573"> Et bien que ce Rival ait la place occupée,</l>
+                        <l n="574"> Il faudra qu’il la prenne au bout de mon épée ;</l>
+                        <l n="575"> Ormin, la Mère, Orante, Isimandre, et le sort,</l>
+                        <l n="576"> Ne peuvent me l’ôter, qu’en me donnant la mort.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="577"> Orante n’est pas morte ! Orante vit encore !</l>
+                        <l n="578"> Fidèle messager, il faut que je t’adore.</l>
+                </sp>
+        <sp who="#lindoman">
+            <speaker> LINDOMAN. </speaker>
+                        <l n="579"> Quoi Monsieur, doutez vous, d’un bonheur assuré ?</l>
+                        <l n="580"> Vos yeux verront bientôt ce que j’ai tant juré ;</l>
+                        <l n="581"> Nous approchons de Pise ; et dans l’heure où nous sommes,</l>
+                        <l n="582"> Vous vous confesserez le plus heureux des hommes.</l>
+                        <l n="583"> Cet habit de Marchand ravira vos esprits,</l>
+                        <l n="584"> Dans un autre dessein que vous ne l’aviez pris :</l>
+                        <l n="585"> Et sans vous en servir contre votre adversaire,</l>
+                        <l n="586"> Pour approcher d’Orante, il vous est nécessaire.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="587"> Orante ! ce beau nom, me charme, et me ravit ;</l>
+                        <l n="588"> Mais bienheureux papier, redis moi qu’elle vit.</l>
+            <stage><em>Il lit. Lettre</em></stage>
+                        <l n="589"> L’espérance m’étant ôtée,</l>
+                        <l n="590"> Ha trop heureux Amant ! Ô trop fidèle Amante !</l>
+                        <l n="591"> Dieux que le calme plaît, lorsqu’il suit la tourmente :</l>
+                        <l n="592"> Miracle de nos jours, incomparable foi,</l>
+                        <l n="593"> Que ne vous dois-je point ? vivre et mourir pour moi !</l>
+            <stage><em>Il lit encore.</em></stage>
+                        <l n="594"> Mon sang a marqué mon courage ;</l>
+                        <l n="595"> Vous l’aurez chère Orante, et pour voir tant de charmes ;</l>
+            <stage><em>Il achève de lire.</em></stage>
+                        <l n="596"> Soyez discret, soyez fidèle,</l>
+                        <l n="597"> Observons de tout point les lois de ma Maîtresse :</l>
+                        <l n="598"> Aide par tes avis au désir qui me presse :</l>
+                        <l n="599"> Apprends-moi Lindoman, par ton sage conseil,</l>
+                        <l n="600"> Sans être vu d’aucun d’approcher du Soleil.</l>
+                </sp>
+        <sp who="#lindoman">
+            <speaker> LINDOMAN. </speaker>
+                        <l n="601"> La ruse d’un Démon ne verrait pas la nôtre :</l>
+                        <l n="602"> Cet habit vous déguise, et vous fait tout un autre ;</l>
+                        <l n="603"> Je vous laissais passer quand vous êtes venu,</l>
+                        <l n="604"> Si Clindor par malheur ne m’eût pas reconnu.</l>
+                        <l n="605"> Je vais marcher devant, afin qu’on ne soupçonne ;</l>
+                        <l n="606"> Venez droit au Château sans parler à personne ;</l>
+                        <l n="607"> Clindor vous conduira dans son Appartement.</l>
+                </sp>
+        <sp who="#clindor">
+            <speaker> CLINDOR. </speaker>
+                        <l n="608"> J’en sais bien le chemin, quittez nous seulement.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="609"> Prépare mon Orante, apprends-lui ma venue ;</l>
+                        <l n="610"> Allons voir le Soleil à travers cette nue ;</l>
+                        <l n="611"> C’est ainsi que sans crime on peut être trompeur ;</l>
+                        <l n="612"> Qu’Argus soit en ce lieu, je n’en ai point de peur ;</l>
+                        <l n="613"> Comme le feu se cache en sa Sphère suprême,</l>
+                        <l n="614"> Le mien plus pur que lui se cachera de même ;</l>
+                        <l n="615"> Mon cœur est son vrai centre, où son éclat ne luit,</l>
+                        <l n="616"> Que pour moi qui le sens, et pour qui l’a produit.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#palinice">
+            <speaker> PALINICE. </speaker>
+                        <l n="617"> Ce n’est pas sans rougir que je me vois contrainte,</l>
+                        <l n="618"> D’obliger votre esprit à partager ma crainte :</l>
+                        <l n="619"> J’ai balancé long-temps avant que de parler ;</l>
+                        <l n="620"> Et je souffrais un mal que je voulais celer.</l>
+                        <l n="621"> J’en éloignais mes pas ; j’en détournais ma vue ;</l>
+                        <l n="622"> J’accusais ma raison d’en être dépourvue ;</l>
+                        <l n="623"> Je choquais ses avis, au lieu d’y consentir ;</l>
+                        <l n="624"> Et flattais ma douleur, pour ne la pas sentir.</l>
+                        <l n="625"> Mais enfin le péril est trop grand pour le taire :</l>
+                        <l n="626"> On ne plaint pas un mal quand il est volontaire :</l>
+                        <l n="627"> Nos intérêts communs se doivent conseiller ;</l>
+                        <l n="628"> Et puis que vous dormez, je vous veux réveiller.</l>
+                        <l n="629"> Ne remarquez vous point qu’Ormin n’aime qu’Orante ?</l>
+                        <l n="630"> Mais vous me répondrez, c’est qu’elle est sa parente ;</l>
+                        <l n="631"> On discerne aisément l’ardeur et la pitié ;</l>
+                        <l n="632"> Les sentiments d’amour et ceux de l’amitié.</l>
+                        <l n="633"> Le sang ne peut donner une si haute estime ;</l>
+                        <l n="634"> Croyez moi, ses desseins n’ont rien de légitime ;</l>
+                        <l n="635"> Je connais mieux que vous ses inclinations ;</l>
+                        <l n="636"> J’ai lu dedans son cœur ses folles passions ;</l>
+                        <l n="637"> Le feu le plus caché jette un peu de fumée ;</l>
+                        <l n="638"> Orante n’aime point, mais elle est trop aimée :</l>
+                        <l n="639"> J’estime son esprit ; j’adore sa vertu ;</l>
+                        <l n="640"> Le vice qui l’attaque est toujours abattu ;</l>
+                        <l n="641"> Mais songez que la force est une chose étrange ;</l>
+                        <l n="642"> Voyez qu’il a manqué de parole à Florange ;</l>
+                        <l n="643"> Il suit l’humeur d’Orante afin de l’obliger ;</l>
+                        <l n="644"> Croyez que mon avis n’est pas à négliger.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="645"> Vos pensers et les miens ont de la sympathie :</l>
+                        <l n="646"> Je prévoyais le mal dont je suis avertie ;</l>
+                        <l n="647"> Et tâchais de trouver par mon raisonnement,</l>
+                        <l n="648"> Dans la fin de ce feu celle de mon tourment :</l>
+                        <l n="649"> Mais que peut toute seule une veuve affligée ?</l>
+                        <l n="650"> Une femme sans force, une Mère outragée,</l>
+                        <l n="651"> Qui trouve en son Asile un ennemi caché ;</l>
+                        <l n="652"> Mon mal est sans remède, en vain j’en ai cherché ;</l>
+                        <l n="653"> Pour moi le Ciel est sourd ; ma prière inutile,</l>
+                        <l n="654"> Est un grain que je sème en un champ infertile ;</l>
+                        <l n="655"> Elle s’adresse au Ciel qui ne la reçoit point ;</l>
+                        <l n="656"> Il passe ; et mon malheur est toujours en un point.</l>
+                </sp>
+        <sp who="#palinice">
+            <speaker> PALINICE. </speaker>
+                        <l n="657"> Suivrez-vous un moyen que l’esprit me suggère ?</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="658"> Toute difficulté me paraîtra légère,</l>
+                        <l n="659"> Proposez seulement.</l>
+                </sp>
+        <sp who="#palinice">
+            <speaker> PALINICE. </speaker>
+                        <l n="660"> Ôtez-vous de ce lieu,</l>
+                        <l n="661"> Ne voyez plus Ormin, partez sans dire adieu ;</l>
+                        <l n="662"> Que Florange vous suive, et qu’après dans Florence,</l>
+                        <l n="663"> Il reçoive le fruit de sa persévérance ;</l>
+                        <l n="664"> Le temps qui change tout, pourra changer Ormin.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="665"> Dans six jours au plus tard je me mets en chemin.</l>
+                </sp>
+        <sp who="#palinice">
+            <speaker> PALINICE. </speaker>
+                        <l n="666"> Vous serez en repos, et notre Amant en peine.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="667"> J’aime plus mon honneur que je ne crains sa haine.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="668"> Dieux ! on la veut forcer, je n’y puis consentir ;</l>
+            <stage><em>Elle a écouté.</em></stage>
+                        <l n="669"> Mais ce mal est pressant, je vais l’en avertir.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="670"> Je ne puis te payer, je le vois plus j’y pense.</l>
+                </sp>
+        <sp who="#lindoman">
+            <speaker> LINDOMAN. </speaker>
+                        <l n="671"> En faisant mon devoir, j’ai pris ma récompense.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="672"> Je l’ai déjà présent, je crois le regarder.</l>
+                </sp>
+        <sp who="#lindoman">
+            <speaker> LINDOMAN. </speaker>
+                        <l n="673"> Madame, assurez vous qu’il ne saurait tarder.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="674"> Mais s’il est reconnu, le danger est extrême.</l>
+                </sp>
+        <sp who="#lindoman">
+            <speaker> LINDOMAN. </speaker>
+                        <l n="675"> Il est si fort changé, que ce n’est plus lui-même :</l>
+                        <l n="676"> Sous l’habit d’un Marchand qui cache ses appas,</l>
+                        <l n="677"> Vous qui l’avez au cœur ne le connaîtrez pas.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="678"> Sous un mauvais habit paraît sa bonne mine,</l>
+                        <l n="679"> Ainsi que l’or éclate en l’obscur d’une mine.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#nérine">
+            <speaker> NÉRINE, ORANTE, LINDOMAN </speaker>
+            <stage><em>Elle lui parle à l’oreille.</em></stage>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="680"> Ha Madame, écoutez...</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="681"> Je n’en ai point de peur :</l>
+                        <l n="682"> Mon projet est certain, leur espoir est trompeur ;</l>
+                        <l n="683"> Je verrai leur pratique aujourd’hui renversée ;</l>
+                        <l n="684"> Si je suis Andromède, Isimandre est Persée ;</l>
+                        <l n="685"> Son œil écartera le malheur qui me suit.</l>
+                </sp>
+        <sp who="#lindoman">
+            <speaker> LINDOMAN. </speaker>
+                        <l n="686"> Je l’aperçois Madame, et Clindor le conduit.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="687"> Mon cœur nage en la joie, et rien ne l’importune ;</l>
+                        <l n="688"> Il ne craint plus les traits que tire la fortune.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="689"> Lisez dedans mes yeux, voyez en ma couleur,</l>
+                        <l n="690"> Que l’extrême plaisir ressemble à la douleur :</l>
+                        <l n="691"> Ma bouche en est muette, et mon esprit se pâme</l>
+                        <l n="692"> Fermez-la d’un baiser, pour retenir mon âme.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="693"> Vous me faites pitié, je veux vous secourir ;</l>
+                        <l n="694"> Vivez cher Isimandre, où j’ai voulu mourir.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="695"> Lieux sacrez à l’Amour, pleins d’appas, et de charmes ;</l>
+                        <l n="696"> Montrez-moi ce beau sang, que j’y mêle mes larmes ;</l>
+                        <l n="697"> Mais non, je me repens de ma témérité ;</l>
+                        <l n="698"> Conservez-le tout pur à la postérité.</l>
+                        <l n="699"> Quand on vous couvrirait des richesses du Gange,</l>
+                        <l n="700"> Cet émail est si beau que vous perdriez au change :</l>
+                        <l n="701"> Puisse bientôt l’Aurore en orner ses habits ;</l>
+                        <l n="702"> Et le mêler au Ciel avecque ses rubis.</l>
+                        <l n="703"> Ce trésor est trop grand, pour rester sur la terre.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="704"> On triomphe en la paix, et nous sommes en guerre,</l>
+                        <l n="705"> On me veut enlever ; quel remède avons-nous ?</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="706"> On vous veut enlever ! y consentirez vous ?</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="707"> Cherchez notre secours dedans votre industrie ?</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="708"> Sur les ailes d’Amour volons en ma patrie :</l>
+                        <l n="709"> Que Naples vous revoie en jeune Cavalier,</l>
+                        <l n="710"> Ce remède est fâcheux, mais il est singulier ;</l>
+                        <l n="711"> L’Amour s’est toujours plu dans les métamorphoses ;</l>
+                        <l n="712"> Le temps en s’enfuyant amène toutes choses ;</l>
+                        <l n="713"> Sous le nom d’un Ami mon père vous peut voir.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="714"> Il se fait un combat d’amour et du devoir.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="715"> Le devoir et l’amour obligent ma Maîtresse,</l>
+                        <l n="716"> À fuir sagement l’ennemi qui la presse.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="717"> Mais se peut-il trouver un Amoureux constant ?</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="718"> Ha ! si vous en doutez, que je meure à l’instant.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="719"> Où prendre des habits ? le moyen ? l’apparence ?</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="720"> Je ferai sourdement l’équipage à Florence ;</l>
+                        <l n="721"> Et dans trois jours Clindor vous les apportera,</l>
+                        <l n="722"> Sur le prétexte faux des Tableaux qu’il aura.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="723"> Ne laissons pas Nérine, elle est de la querelle.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="724"> Et bien ; j’en ferai faire, et pour vous, et pour elle ;</l>
+                        <l n="725"> Et les ayant vêtus, soyez le jour suivant,</l>
+                        <l n="726"> Dans le temple de Mars, dés le Soleil levant.</l>
+                        <l n="727"> Là vous me trouverez couvert d’une autre sorte ;</l>
+                        <l n="728"> Les Chevaux seront prêts à cent pas de la porte ;</l>
+                        <l n="729"> Et pourvu que le cœur ne vous manque au besoin,</l>
+                        <l n="730"> Quand on vous cherchera, nous serons déjà loin.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="731"> Vous avez dessus lui la puissance absolue :</l>
+                        <l n="732"> Puis que vous le voulez, m’y voilà résolue.</l>
+                        <l n="733"> Et dussé-je trouver la mort à mon chemin ;</l>
+                        <l n="734"> Je vous suivrai partout.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="735"> Voici venir Ormin.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="736"> Madame, remarquez comme en cette peinture,</l>
+            <stage><em>Il prend un Tableau.</em></stage>
+                        <l n="737"> L’Art plus divin qu’humain, imite la Nature :</l>
+                        <l n="738"> Voyez comme Adonis semble admirer Vénus ;</l>
+                        <l n="739"> Comme à travers le crêpe on voit ses membres nus ;</l>
+                        <l n="740"> Cet autre est ravissant, où le Pinceau profane,</l>
+                        <l n="741"> Offre aux yeux d’Actéon les beautés de Diane ;</l>
+            <stage><em>Il prend le second.</em></stage>
+                        <l n="742"> Voyez que ce visage est en colère et beau ;</l>
+                        <l n="743"> Et que ce corps plongé se fait un habit d’eau.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="744"> Ha Monsieur, approchez, venez voir des merveilles ;</l>
+            <stage><em>Ormin arrive.</em></stage>
+                        <l n="745"> Qui chez les plus grands Rois n’auraient point de pareilles ;</l>
+                        <l n="746"> Tout ainsi que les miens, vos yeux seront charmés.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="747"> Elles valent beaucoup, si vous les estimez.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="748"> Voyez dans ce tableau, cette histoire connue,</l>
+            <stage><em>Il prend le troisième.</em></stage>
+                        <l n="749"> Où le fol Ixion n’embrasse que la nue ;</l>
+                        <l n="750"> Voyez de Jupiter le regard inhumain ;</l>
+                        <l n="751"> Comme il hausse le bras, la foudre dans la main.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="752"> Certes, Peintre, ou Marchand, ou tous les deux ensemble,</l>
+                        <l n="753"> La langue et le pinceau, font très bien ce me semble.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="754"> Voyez comme Apollon court après sa Daphné,</l>
+            <stage><em>Il prend le quatrième.</em></stage>
+                        <l n="755"> Elle devient un bois, dont il est couronné ;</l>
+                        <l n="756"> Pour atteindre plutôt cette Nymphe superbe,</l>
+                        <l n="757"> Il laisse choir sa lire, et son carquois sur l’herbe ;</l>
+                        <l n="758"> Il la suit, elle fuit, et va de toutes parts,</l>
+                        <l n="759"> La robe retroussée, et les cheveux espars.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="760"> Que me demandez-vous de ces quatre Peintures ?</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="761"> Allez chercher ailleurs vos bonnes aventures ;</l>
+                        <l n="762"> Déjà votre marché, sans marchander est fait ;</l>
+                        <l n="763"> Qu’on le mène là bas, et qu’il soit satisfait ;</l>
+                        <l n="764"> Le prix se mesurant avecque sa demande,</l>
+                        <l n="765"> Qu’il ait ce qu’il dira, puis que je le commande ;</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="766"> Et cet autre Tableau ?</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="767"> Je l’enverrai, ma foi.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="768"> Adieu, n’y manquez pas, souvenez vous de moi.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="769"> Cet homme qui me sert l’apportera (Madame)</l>
+            <stage><em>Il dit ce vers bas.</em></stage>
+                        <l n="770"> Ha ! que n’ai-je son cœur, ainsi qu’il a mon âme.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE tient le premier tableau. </speaker>
+                        <l n="771"> Monsieur, cet Ixion me semble le plus beau.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="772"> Il eut un haut dessein, et le Ciel pour Tombeau ;</l>
+                        <l n="773"> Il fut heureux en songe, et je lui porte envie ;</l>
+                        <l n="774"> Sa mort fut glorieuse aussi bien que sa vie.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="775"> Mais le foudre punit ses projets orgueilleux.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="776"> Les desseins élevés sont toujours périlleux :</l>
+                        <l n="777"> Ce grand cœur rencontra la fortune irritée,</l>
+                        <l n="778"> Il n’eut pas la couronne, et l’avait méritée ;</l>
+                        <l n="779"> Mais si j’avais son sort, je mourrais sans regret ;</l>
+                        <l n="780"> Il découvrit son mal, et le mien est secret.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="781"> Que Diane me plaît ! que j’aime ce rivage !</l>
+            <stage><em>Second Tableau.</em></stage>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="782"> Dieux ! elle n’a pas seule un naturel sauvage :</l>
+                        <l n="783"> Une autre haït mes yeux qui l’osent adorer,</l>
+                        <l n="784"> Et fait que mes pensers me viennent dévorer :</l>
+                        <l n="785"> Misérable Actéon, je l’éprouve rebelle ;</l>
+                        <l n="786"> Mais n’importe mon cœur, mourons, car elle est belle.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="787"> Cette Nymphe qui fuit me touche de pitié.</l>
+            <stage><em>Troisième Tableau.</em></stage>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="788"> Vous aimez un objet qui n’a point d’amitié :</l>
+                        <l n="789"> Voyez qu’elle est aveugle en fuyant la lumière.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="790"> Il faudra qu’un rideau couvre cette première.</l>
+            <stage><em>Quatrième Tableau.</em></stage>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="791"> Si les feux d’Adonis sont indignes du jour,</l>
+                        <l n="792"> Laissez-les-moi couvrir, je sais cacher l’Amour.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="793"> Vous prendriez trop de soin.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="794"> Ha ! qu’elle est inhumaine ;</l>
+                        <l n="795"> Elle plaint mon travail, et ne plaint pas ma peine.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="796"> Je devais recevoir ce présent à genoux.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="797"> Je ne puis rien donner, moi-même étant à vous.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="798"> L’excès de vos bontés me rend toute confuse.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="799"> Croyez Ormin sans cœur, si je vous le refuse.</l>
+                        <l n="800"> Que vos commandements secondent mes désirs ;</l>
+                        <l n="801"> Demandez quelque bien qui serve à vos plaisirs ;</l>
+                        <l n="802"> Ordonnez-moi d’aller sur la terre et sur l’onde,</l>
+                        <l n="803"> Avecque le Soleil faire le tour du monde.</l>
+                        <l n="804"> Commandez à mon bras d’égorger un Lion ;</l>
+                        <l n="805"> Ordonnez-lui de mettre Osse sur Pélion ;</l>
+                        <l n="806"> J’attaquerai le Ciel, et dans cette escalade,</l>
+                        <l n="807"> Je serai plus heureux que ne fut Encelade :</l>
+                        <l n="808"> Si ces lambris d’azur peuvent plaire à vos yeux,</l>
+                        <l n="809"> J’oserai vous placer dans le Trône des Dieux ;</l>
+                        <l n="810"> Votre seule froideur a borné ma puissance ;</l>
+                        <l n="811"> Éprouvez mon amour par mon obéissance.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="812"> En m’obligeant (Monsieur) jusqu’en un si haut point,</l>
+                        <l n="813"> Vous me croirez ingrate, et je ne la suis point.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="814"> Je crois qu’une Déesse est toujours véritable.</l>
+                        <l n="815"> Mais ce long entretien vous est insupportable ;</l>
+                        <l n="816"> Et mon esprit grossier auprès de vos appas,</l>
+                        <l n="817"> Goûte un contentement qu’il ne vous donne pas.</l>
+                        <l n="818"> Adieu, voici la nuit, les objets se ternissent ;</l>
+                        <l n="819"> Je souhaite à vos yeux un bien qu’ils me ravissent.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="820"> De ce discours obscur j’ai l’esprit étonné,</l>
+                        <l n="821"> Mais prenez le repos que vous m’avez donné.</l>
+            <stage><em>Ormin s’en va.</em></stage>
+                        <l n="822"> Toujours quelque malheur le Destin me suscite :</l>
+                        <l n="823"> Florange me poursuit, Ormin me sollicite ;</l>
+                        <l n="824"> Sa femme veut ma perte ; et ma Mère y consent ;</l>
+                        <l n="825"> Hélas ! que d’ennemis contre un cœur innocent.</l>
+                        <l n="826"> Mais j’aperçois le port en dépit de l’orage ;</l>
+                        <l n="827"> Je sortirai des fers si j’en ai le courage ;</l>
+                        <l n="828"> Comment ! j’hésite encor ! sur un point assuré !</l>
+                        <l n="829"> Non, non, il faut partir ; Orante l’a juré.</l></div></div>
+           <div type="act" xml:id="4">
+           <head> ACTE IV </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#palinice">
+            <speaker> PALINICE. </speaker>
+                        <l n="830"> Vous serez dans le calme, et rirez des tempêtes ;</l>
+                        <l n="831"> Car pour votre départ toutes choses sont prêtes.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="832"> Demain sans différer m’éloignant de ce lieu,</l>
+                        <l n="833"> Mon esprit affligé vous dérobe un Adieu.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="834"> Ha ! je tremble Nérine.</l>
+            <stage><em>Orante et Nérine en habit d’hommes les rencontrèrent.</em></stage>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="835"> Ô bonheur sans exemple ;</l>
+                        <l n="836"> Madame, sauvons nous, entrons dedans le Temple ;</l>
+                        <l n="837"> Sous cet habit trompeur on ne vous connaît pas.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="838"> Veuille Amour, qu’Isimandre ait devancé mes pas.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="839"> C’est en vain qu’on me fuit, c’est en vain qu’on se cache ;</l>
+                        <l n="840"> Je suis seul, ils sont deux, mais l’un et l’autre est lâche ;</l>
+                        <l n="841"> Quelque mauvais dessein les oblige à courir ;</l>
+                        <l n="842"> Téméraire Isimandre, apprends qu’il faut mourir.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="843"> Bons Dieux que d’accidents choquent mon entreprise ;</l>
+                        <l n="844"> Si je ne me bats point, il me suivra dans Pise.</l>
+                </sp>
+        <sp who="#clindor">
+            <speaker> CLINDOR. </speaker>
+                        <l n="845"> Ouvrons-nous par sa mort le chemin du bonheur.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="846"> Je suivrai ton conseil, et celui de l’honneur.</l>
+                        <l n="847"> Cet arbre, et cette écharpe assureront Florange,</l>
+                        <l n="848"> Que ma main sans second, sait bien comme on se venge.</l>
+            <stage><em>Il le lie à un arbre.</em></stage>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="849"> Me montrez vous mes yeux ce que je pense voir ?</l>
+                </sp>
+        <sp who="#clindor">
+            <speaker> CLINDOR. </speaker>
+                        <l n="850"> Monsieur, que faites-vous ?</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="851"> Ce que veut mon devoir.</l>
+                        <l n="852"> Ô toi que le malheur oppose à mon passage,</l>
+                        <l n="853"> Vieux spectre que les ans n’ont pas rendu plus sage,</l>
+                        <l n="854"> Souviens-toi du beau sang qu’Orante a répandu :</l>
+                        <l n="855"> Et reçois de mon bras le loyer qui t’est dû.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="856"> Témérité sans force ! espérance trompée !</l>
+            <stage><em>Il tombe.</em></stage>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="857"> Demande-moi la vie, et me rends ton épée.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="858"> Je fais l’un, prenez l’autre, et gloire des Guerriers,</l>
+                        <l n="859"> Ne souillez point de sang l’éclat de vos lauriers.</l>
+                </sp>
+        <sp who="#clindor">
+            <speaker> CLINDOR. </speaker>
+                        <l n="860"> Monsieur, punissez-le du travail qu’il vous donne.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="861"> Je vous cède mon droit.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="862"> Et moi je vous pardonne ;</l>
+                        <l n="863"> Ciel ! de quelle douleur ai-je le cœur percé ?</l>
+                        <l n="864"> Clindor, que ferons-nous ? je me trouve blessé ;</l>
+                        <l n="865"> Le moyen que sanglant j’aille où l’Amour m’appelle ?</l>
+                        <l n="866"> Ha chétif Isimandre ! Ô fortune infidèle !</l>
+                        <l n="867"> Traverser cette ville en l’état où je suis,</l>
+                        <l n="868"> Sans être reconnu, c’est ce que je ne puis :</l>
+                        <l n="869"> On m’attend cependant ; hélas ! que dois-je faire ?</l>
+            <stage><em>Il délie son écuyer.</em></stage>
+                </sp>
+        <sp who="#clindor">
+            <speaker> CLINDOR. </speaker>
+                        <l n="870"> Déchargez vous sur moi du poids de cette affaire ;</l>
+                        <l n="871"> J’aurai par mon travail la fin de vos travaux ;</l>
+                        <l n="872"> Allez vous reposer auprès de nos Chevaux ;</l>
+                        <l n="873"> Mais de peur qu’il ne parle, il faut garder ce traître.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="874"> C’est au Temple de Mars que ma Vénus doit être.</l>
+                </sp>
+        <sp who="#clindor">
+            <speaker> CLINDOR. </speaker>
+                        <l n="875"> Cachez vous dans le bois, et soyez sans effroi.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="876"> Tâche donc de voler, Florange, suivez-moi.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="877"> Que désirez-vous plus de mon obéissance ?</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="878"> Ce secret est trop haut pour votre connaissance ;</l>
+                        <l n="879"> Le vaincu doit ployer sous les lois du vainqueur ;</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="880"> Que n’avais-je le bras aussi bon que le cœur.</l>
+            <stage><em>Il parle bas.</em></stage></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#poliante">
+            <speaker> POLIANTE </speaker>
+                        <l n="881"> Que n’es-tu le témoin de mon inquiétude ?</l>
+                        <l n="882"> Je te ferais rougir de ton ingratitude ;</l>
+                        <l n="883"> Fils sans obéissance, enfant sans amitié,</l>
+                        <l n="884"> À qui mes cheveux blancs n’ont su faire pitié.</l>
+                        <l n="885"> Quel exploit généreux, quelle belle aventure,</l>
+                        <l n="886"> Oblige ton esprit à choquer la nature ?</l>
+                        <l n="887"> Isimandre cruel, ton départ m’est suspect :</l>
+                        <l n="888"> Le véritable amour n’est jamais sans respect :</l>
+                        <l n="889"> Il s’impose lui-même une louable crainte ;</l>
+                        <l n="890"> Il estime le joug qu’il porte sans contrainte ;</l>
+                        <l n="891"> Et devant qu’entreprendre un dessein qu’il aura,</l>
+                        <l n="892"> Sans songer s’il lui plaît, il pense s’il plaira.</l>
+                        <l n="893"> Toutes ses volontés ne font rien en tumulte ;</l>
+                        <l n="894"> L’Oracle paternel est le seul qu’il consulte ;</l>
+                        <l n="895"> Il combat ses désirs, sans en être abattu ;</l>
+                        <l n="896"> Et suit heureusement les pas de la Vertu.</l>
+                        <l n="897"> Si son âme a des feux la raison les tempère ;</l>
+                        <l n="898"> Il pense qu’il est fils, et qu’il doit être père ;</l>
+                        <l n="899"> Et toujours l’amitié l’emportant sur l’amour,</l>
+                        <l n="900"> Il rend le même honneur qu’on lui doit rendre un jour.</l>
+                        <l n="901"> Ha ! que tu marches loin de cette heureuse trace ;</l>
+                        <l n="902"> Ton esprit libertin ne craint point ma disgrâce ;</l>
+                        <l n="903"> Tu pars sans mon congé, tu vas quittant ces lieux,</l>
+                        <l n="904"> Sans songer que mes pleurs sont aperçus des Dieux,</l>
+                        <l n="905"> Qui Pères comme moi prendront part à l’outrage,</l>
+                        <l n="906"> Mais célestes cléments ! sauvez-le du naufrage ;</l>
+                        <l n="907"> Et ne punissant point ses désirs mutinés,</l>
+                        <l n="908"> Pardonnez-lui sa faute, et me le ramenez,</l>
+                        <l n="909"> Que j’ai le sens troublé ! que j’ai l’esprit en guerre !</l>
+                        <l n="910"> Il a déjà couru tous les coins de la terre ;</l>
+                        <l n="911"> Ingénieux qu’il est, il feint mille dangers,</l>
+                        <l n="912"> Que trouve ce cher fils aux climats étrangers ;</l>
+                        <l n="913"> Je le crois voir aux mains avec un adversaire ;</l>
+                        <l n="914"> Je le crois voir sur l’onde, et pris par un Corsaire,</l>
+                        <l n="915"> Je crois que son argent tente les matelots ;</l>
+                        <l n="916"> Je crains comme les vents, les rochers et les flots ;</l>
+                        <l n="917"> Leur calme le plus doux dépend de la fortune ;</l>
+                        <l n="918"> Et l’inconstante y règne aussi bien que Neptune.</l>
+                        <l n="919"> Je le descends à terre avecque mes douleurs ;</l>
+                        <l n="920"> Je le vois dans un bois attaqué des voleurs ;</l>
+                        <l n="921"> Je l’aperçois combattre au milieu d’une armée ;</l>
+                        <l n="922"> J’y crois voir sa valeur par le nombre opprimée ;</l>
+                        <l n="923"> Je le vois tout sanglant, je le vois qui pâlit ;</l>
+                        <l n="924"> Je le crois voir malade, et mourir dans un lit ;</l>
+                        <l n="925"> Abandonné, tout seul, et privé d’assistance ;</l>
+                        <l n="926"> Bref, tous les accidents éprouvent ma constance ;</l>
+                        <l n="927"> Et pour lui mon amour se porte en un tel point,</l>
+                        <l n="928"> Que je ressens les maux que peut-être il n’a point.</l>
+                        <l n="929"> Grand Dieux, de qui les mains tiennent nos destinées ;</l>
+                        <l n="930"> Pour allonger ses jours, retranchez mes années ;</l>
+                        <l n="931"> Et bornant son voyage ainsi que mon ennui,</l>
+                        <l n="932"> Que je meure en moi-même, et que je vive en lui.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#orante">
+            <speaker> ORANTE, NÉRINE </speaker>
+            <stage><em>Elles sont dans le temple.</em></stage>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="933"> Dieux ! il ne songe point au tourment qui me presse :</l>
+                        <l n="934"> Pour avoir tant d’amour, il a trop de paresse.</l>
+                        <l n="935"> Si ne me trouvant pas on se met à chercher,</l>
+                        <l n="936"> Un lieu toujours ouvert, pourra-t-il me cacher ?</l>
+                        <l n="937"> Et si par ces habits on connaît mon envie,</l>
+                        <l n="938"> Rien me peut-il sauver et l’honneur, et la vie ?</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="939"> Je ne sais que juger de son retardement ;</l>
+                        <l n="940"> Mais qu’il manque d’amour, Madame, nullement.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="941"> Quand Clindor te donna ces habillements d’hommes,</l>
+                        <l n="942"> Ne te marqua-t-il pas ce lieu même où nous sommes ?</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="943"> Il me marqua le lieu, le jour, et le matin.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="944"> Sans doute que leur faute est celle du destin ;</l>
+                        <l n="945"> Qui jaloux de mon aise, et l’ayant reconnue,</l>
+                        <l n="946"> Pour me désespérer, empêche leur venue :</l>
+                        <l n="947"> Quelque obstacle fâcheux leur défend de venir.</l>
+                        <l n="948"> Mais je n’en aurai point quand je voudrai finir ;</l>
+                        <l n="949"> Dans l’excès des malheurs, où personne ne m’aide,</l>
+                        <l n="950"> J’ai toujours cru la mort un souverain remède ;</l>
+                        <l n="951"> Qui l’a pris une fois, le prendra bien encore.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="952"> Ô Ciel ! voici venir le fidèle Clindor.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#clindor">
+            <speaker> CLINDOR. </speaker>
+                        <l n="953"> Si vous me voyez seul, qu’il ne vous semble étrange ;</l>
+                        <l n="954"> Mon Maître par malheur a rencontré Florange ;</l>
+                        <l n="955"> Mais souffrez en fuyant la colère d’Ormin,</l>
+                        <l n="956"> Que ce discours se fasse avec notre chemin.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="957"> Prends pitié de mon cœur, en lui faisant connaître,</l>
+                        <l n="958"> Si vainqueur ou blessé je dois revoir ton Maître.</l>
+                </sp>
+        <sp who="#clindor">
+            <speaker> CLINDOR. </speaker>
+                        <l n="959"> Et vainqueur, et blessé, mais fort légèrement ;</l>
+                        <l n="960"> Quelqu’un nous surprendra, sauvons nous vitement.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="961"> Hélas ! de mon support je me trouve privée ;</l>
+                        <l n="962"> Madame, c’en est fait, ma fille est enlevée ;</l>
+                        <l n="963"> Elle n’est plus ici ; Nérine a disparu ;</l>
+                        <l n="964"> En vain tout le Château j’ai quatre fois couru ;</l>
+                        <l n="965"> Son Cabinet est vide ; et sa Chambre est ouverte ;</l>
+                        <l n="966"> Ha ! je n’en doute plus, cela me dit ma perte !</l>
+                        <l n="967"> Je suis au désespoir ; et je perds la raison,</l>
+                        <l n="968"> Souffrez-vous des voleurs dedans votre maison ?</l>
+                        <l n="969"> Soulagez ma douleur, puis qu’elle vous afflige ;</l>
+                        <l n="970"> Un mal est incurable, alors qu’on le néglige ;</l>
+                        <l n="971"> Il est encore temps, faites courir après.</l>
+                </sp>
+        <sp who="#palinice">
+            <speaker> PALINICE. </speaker>
+                        <l n="972"> Ne cherchons pas si loin, les ennemis sont près :</l>
+                        <l n="973"> Le principe du mal m’en fit prévoir l’issue</l>
+                        <l n="974"> Ormin a fait ce coup, ou je suis fort déçue ;</l>
+                        <l n="975"> Mais allons découvrir la route qu’elle a prise.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="976"> Vous redoublez encor la gêne à mes esprits.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#ormin">
+            <speaker> ORMIN </speaker>
+                        <l n="977"> Le feu de mon courroux se mêle avec ma flamme ;</l>
+                        <l n="978"> On enlève mon cœur, on dérobe mon âme ;</l>
+                        <l n="979"> Au moins cruel destin, fais voir à mes désirs,</l>
+                        <l n="980"> L’invisible ennemi qui détruit mes plaisirs.</l>
+                        <l n="981"> Découvre-moi le Ciel où mon Soleil demeure ;</l>
+                        <l n="982"> Que je meure vengé puis qu’il faut que je meure ;</l>
+                        <l n="983"> Et permets que son sang puisse effacer l’affront,</l>
+                        <l n="984"> Qui me perce le cœur, et me rougit le front.</l>
+                        <l n="985"> Mais à tort ce soupçon m’entre en la fantaisie ;</l>
+                        <l n="986"> Et je donne à l’Amour un trait de jalousie :</l>
+                        <l n="987"> Sans doute que ma femme a fait ce beau dessein ;</l>
+                        <l n="988"> Mais un coup de poignard lui va percer le sein,</l>
+                        <l n="989"> Si sa ruse entreprend de faire l’ignorante ;</l>
+                        <l n="990"> Elle perdra le jour, si je perds mon Orante.</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="991"> La fortune a trahi tout l’espoir que j’avais.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="992"> Aussi vieux qu’un rocher, vous n’avez que la voix.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="993"> Il est vrai ; mais souffrez qu’elle me serve à plaindre.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="994"> Désormais vous ni moi n’avons plus rien à craindre.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="995"> Le plus grand des malheurs, enfin m’est advenu.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="996"> Le mal dont vous parlez ne vous est pas connu.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="997"> Que saurait ajouter la fortune à ma peine ?</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="998"> L’inévitable fin d’une espérance vaine.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="999"> Donnez-moi cette fin en celle de mes jours.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="1000"> Ce poil s’accorde mal avecque ce discours.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="1001"> Et ce discours s’accorde mal avec mon aventure.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="1002"> Par lui vous renversez l’ordre de la Nature.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="1003"> Comment l’entendez-vous ? expliquez ce propos.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="1004"> Songez que la vieillesse a besoin de repos.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="1005"> L’âge dont vous parlez n’a rien qui soit infâme.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="1006"> Mais l’Amour est aveugle, et la fortune est femme.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="1007"> Déjà depuis longtemps j’en ai senti les coups.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="1008"> Vous en verrez bientôt de plus heureux que vous.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="1009"> Ne pouvant l’empêcher, il faudra m’y résoudre.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="1010"> Que votre œil se prépare à voir tomber la foudre.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="1011"> Que je ne meure point d’un coup inopiné ;</l>
+                        <l n="1012"> Orante vient ici.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="1013"> Vous l’avez deviné.</l>
+            <stage><em>Elle arrive.</em></stage>
+                        <l n="1014"> Approche mon espoir.</l></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="1015"> Fuyons, fuyons ma vie ;</l>
+                        <l n="1016"> Notre heur est assez grand, pour exciter l’envie.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="1017"> Nous la tenons captive, elle est prise en ces lieux.</l>
+            <stage><em>Il montre Florange.</em></stage>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="1018"> Ha ! chassez ce fantôme il déplaît à mes yeux.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE, bas. </speaker>
+                        <l n="1019"> Que par l’ombre du bien l’âme est souvent trompée.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="1020"> Allez, retirez vous, reprenez votre épée,</l>
+                        <l n="1021"> Et sur vos passions ayez plus de pouvoir.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="1022"> Je meurs de voir Orante, et de ne la plus voir.</l>
+            <stage><em>Il s’en va.</em></stage>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="1023"> Ici la diligence est bien fort nécessaire ;</l>
+                        <l n="1024"> Ce vieux monstre amoureux, ce débile adversaire,</l>
+                        <l n="1025"> Va chercher du secours, et nous serons suivis,</l>
+                        <l n="1026"> Sitôt que de ma route on aura quelque avis.</l>
+                        <l n="1027"> Clindor, vole devant, et forme une chimère,</l>
+                        <l n="1028"> Qui puisse trouver place en l’esprit de mon père ;</l>
+                        <l n="1029"> Dis-lui qu’ayant quitté le logis paternel,</l>
+                        <l n="1030"> Je me suis repenti de me voir criminel ;</l>
+                        <l n="1031"> Et que par mes douleurs jugeant de sa souffrance,</l>
+                        <l n="1032"> J’ai rompu le dessein d’un voyage de France ;</l>
+                        <l n="1033"> Dis-lui que deux Guerriers m’ont tiré du danger,</l>
+                        <l n="1034"> Où mettent les voleurs l’un et l’autre étranger,</l>
+                        <l n="1035"> Dis-lui que je les mène, et qu’il fasse connaître,</l>
+                        <l n="1036"> En les bien recevant, la grandeur de mon être ;</l>
+                        <l n="1037"> La blessure que j’ai prouvera ton discours ;</l>
+                        <l n="1038"> Mais les meilleurs conseils sont ici les plus cours ;</l>
+                        <l n="1039"> Donne vite un cheval, que j’enlève ma proie ;</l>
+                        <l n="1040"> Elle vaut mieux qu’Hélène, et Naples moins que Troie ;</l>
+                        <l n="1041"> Et premier que je rende un bien que j’ai volé,</l>
+                        <l n="1042"> Brûle comme mon cœur mon pays désolé.</l></div>
+        <div type="scene" xml:id=" X ">
+            <head> Scène X </head>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="1043"> La belle invention ! ô Dieux qu’elle est subtile !</l>
+                </sp>
+        <sp who="#palinice">
+            <speaker> PALINICE. </speaker>
+                        <l n="1044"> Mensonge bien pensé ! mais pourtant inutile.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="1045"> Toujours votre chagrin se plaît à me fâcher.</l>
+                </sp>
+        <sp who="#palinice">
+            <speaker> PALINICE. </speaker>
+                        <l n="1046"> Orante est en vos mains, que sert de la cacher ?</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="1047"> Mon esprit affligé n’entend point raillerie.</l>
+                </sp>
+        <sp who="#palinice">
+            <speaker> PALINICE. </speaker>
+                        <l n="1048"> Est-elle au cabinet, ou dans la galerie ?</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="1049"> Vous qui la retenez pouvez m’en éclaircir.</l>
+                </sp>
+        <sp who="#palinice">
+            <speaker> PALINICE. </speaker>
+                        <l n="1050"> Un dessein découvert ne saurait réussir.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="1051"> Vous me croyez aveugle, et j’ai fort bonne vue.</l>
+                </sp>
+        <sp who="#palinice">
+            <speaker> PALINICE. </speaker>
+                        <l n="1052"> Je ne m’étonne point, sa perte était prévue.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="1053"> Votre ruse paraît plus claire que le jour.</l>
+                </sp>
+        <sp who="#palinice">
+            <speaker> PALINICE. </speaker>
+                        <l n="1054"> Votre haine découvre, et fait voir votre amour.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="1055"> Découvre mon amour ! pour qui ? pour ma parente ?</l>
+                </sp>
+        <sp who="#palinice">
+            <speaker> PALINICE. </speaker>
+                        <l n="1056"> Vous n’aimez pas le sang, mais la beauté d’Orante.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="1057"> Et bien ; soit ; il est vrai ; mais je la veux avoir.</l>
+                </sp>
+        <sp who="#palinice">
+            <speaker> PALINICE. </speaker>
+                        <l n="1058"> Puisqu’elle est en tes mains, perfide, va la voir.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="1059"> Ha ! ne contestez plus, rendez-la moi, vous dis-je :</l>
+                        <l n="1060"> Quoi ! vous n’en ferez rien ?</l>
+            <stage><em>Il la veut frapper d’un poignard.</em></stage>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="1061"> Ô bons Dieux, quel prodige :</l>
+                        <l n="1062"> Page, secourez moi, je ne le puis tenir.</l>
+                </sp>
+        <sp who="#palinice">
+            <speaker> PALINICE. </speaker>
+                        <l n="1063"> Ciel ! peux-tu voir son crime, et ne le pas punir ?</l></div>
+        <div type="scene" xml:id=" XI ">
+            <head> Scène XI </head>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="1064"> Si vous cherchez Orante, elle n’est plus à Pise :</l>
+                        <l n="1065"> Et ses charmes ont pris un Amant qui la prise.</l>
+                        <l n="1066"> Isimandre l’emmène, après m’avoir vaincu.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="1067"> Pour avoir moins de maux, que n’ai-je moins vécu !</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="1068"> Résolvons nous mon cœur, ma perte est assurée ;</l>
+                        <l n="1069"> Orante la procure, et le Ciel l’a jurée ;</l>
+                        <l n="1070"> Un autre la possède : ô penser assassin !</l>
+                        <l n="1071"> Jamais voleur ne fit un si riche larcin.</l>
+                        <l n="1072"> Bienheureux Isimandre, en cette douce guerre,</l>
+                        <l n="1073"> Tu pilles les trésors du Ciel et de la Terre ;</l>
+                        <l n="1074"> Ce fameux Conquérant, qu’on a fait immortel,</l>
+                        <l n="1075"> Prit l’Univers entier, et ne prit rien de tel.</l>
+                        <l n="1076"> Mais quand Naples serait en ces Plages désertes,</l>
+                        <l n="1077"> Qui par les Matelots ne sont pas découvertes ;</l>
+                        <l n="1078"> Quand tu la cacherais en ces lieux retirés,</l>
+                        <l n="1079"> Que les rayons du jour n’ont jamais éclairés ;</l>
+                        <l n="1080"> Quand tu te logerais au milieu d’une armée ;</l>
+                        <l n="1081"> Quand tu disparaîtrais comme un corps de fumée ;</l>
+                        <l n="1082"> Quand tu pourrais voler, perfide assure toi,</l>
+                        <l n="1083"> Que tu me la rendrais, Leriste suivez-moi.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="1084"> Ô combien d’accidents choquent notre famille !</l>
+                        <l n="1085"> Ses plus grands ennemis sont aimés de ma fille ;</l>
+                        <l n="1086"> Mais j’irai la trouver pour en avoir raison,</l>
+                        <l n="1087"> Dut mon pays natal devenir ma prison.</l>
+                </sp>
+        <sp who="#palinice">
+            <speaker> PALINICE. </speaker>
+                        <l n="1088"> Souffrez en ce dessein que je vous accompagne ;</l>
+                        <l n="1089"> Car sans doute qu’Ormin se va mettre en campagne ;</l>
+                        <l n="1090"> Mon intérêt au vôtre, ici se mêlera :</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="1091"> Pourvu que nous partions, tout ce qu’il vous plaira.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="1092"> Comme j’avais des feux, il avait de la flamme :</l>
+                        <l n="1093"> L’excès de la douleur m’a fait lire en son âme ;</l>
+                        <l n="1094"> Et comme son esprit adorait mon vainqueur,</l>
+                        <l n="1095"> Il n’a pu retenir les sentiments du cœur.</l>
+                        <l n="1096"> Sa raison a perdu son ordinaire usage ;</l>
+                        <l n="1097"> Sa folle passion s’est peinte en son visage ;</l>
+                        <l n="1098"> Ses soupirs ont fait voir en même temps au jour,</l>
+                        <l n="1099"> Le feu de la colère, et celui de l’amour.</l>
+                        <l n="1100"> L’un et l’autre éclatait ; l’un et l’autre visible,</l>
+                        <l n="1101"> Me l’on fait reconnaître, amoureux et sensible.</l>
+                        <l n="1102"> Et j’ai vu par les pleurs que répandaient ses yeux,</l>
+                        <l n="1103"> Qu’il perdait comme moi, ce qu’il aimait le mieux.</l>
+                        <l n="1104"> Oui, j’ai vu clairement quelle est sa maladie :</l>
+                        <l n="1105"> L’amour qu’il a pour elle, a fait sa perfidie ;</l>
+                        <l n="1106"> Le traître a fait mon mal, pour établir son bien ;</l>
+                        <l n="1107"> Et rompu mon dessein pour achever le sien.</l>
+                        <l n="1108"> Ce coup est sans remède, et moi sans allégeance,</l>
+                        <l n="1109"> Si je ne la rencontre avecque la vengeance ;</l>
+                        <l n="1110"> Oui, vengeons-nous mon cœur des outrages soufferts,</l>
+                        <l n="1111"> Afin de t’exciter, vois le bien que tu pers ;</l>
+                        <l n="1112"> Figure toi les traits de la beauté d’Orante ;</l>
+                        <l n="1113"> Songe que le perfide a trompé ton attente ;</l>
+                        <l n="1114"> Qu’après t’avoir promis il t’a manqué de foi ;</l>
+                        <l n="1115"> Te ravissant un bien qu’il réservait pour soi ;</l>
+                        <l n="1116"> Voudrais-tu le souffrir ? réponds à ma demande ?</l>
+                        <l n="1117"> Non, non qu’il soit puni puis qu’Amour le commande.</l>
+                        <l n="1118"> Vengeant la foi rompue, et qu’il eut à mépris,</l>
+                        <l n="1119"> Qu’il n’ait point de retour au voyage entrepris.</l>
+                        <l n="1120"> Suivons, suivons ses pas, et loin de la patrie,</l>
+                        <l n="1121"> Faisons agir la force avecque l’industrie ;</l>
+                        <l n="1122"> Deux BRAVES employez seconderont mes coups ;</l>
+                        <l n="1123"> Ce sont là des exploits qui sont dignes de nous.</l>
+                        <l n="1124"> Aux combats inégaux la victoire est certaine ;</l>
+                        <l n="1125"> Quand on veut rompre en lice, ou court à la quintaine</l>
+                        <l n="1126"> L’égalité sied bien, car elle est sans danger :</l>
+                        <l n="1127"> Je ne veux point mourir, je cherche à me venger.</l>
+                        <l n="1128"> Je veux choisir le temps, et le moyen propice ;</l>
+                        <l n="1129"> Je veux qu’il tombe seul dedans le précipice ;</l>
+                        <l n="1130"> Je veux qu’après sa perte, en perdant les témoins,</l>
+                        <l n="1131"> Je sois celui de tous qu’on en soupçonne moins.</l>
+                        <l n="1132"> Ha ! je nage déjà dans le sang du perfide ;</l>
+                        <l n="1133"> J’obéis au courroux, je n’en tiens plus la bride ;</l>
+                        <l n="1134"> Il m’emporte, il m’entraîne, il me force à courir,</l>
+                        <l n="1135"> Je te suis, je te tiens, Ormin, il faut mourir.</l></div></div>
+           <div type="act" xml:id="5">
+           <head> ACTE V </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+            <stage><em>Cartel. Il lit.</em></stage>
+                        <l n="1136"> Isimandre, Orante trompée,</l>
+                        <l n="1137"> Si tu satisfais mon envie,</l>
+                        <l n="1138"> Dures extrémités, où le destin m’engage :</l>
+                        <l n="1139"> Amour ôte le cœur, et non pas le courage :</l>
+                        <l n="1140"> Si je fais ce combat, je hasarde mon heur,</l>
+                        <l n="1141"> Et j’en serais indigne, en vivant sans honneur :</l>
+                        <l n="1142"> Ha ! mon affliction n’a rien qui la console.</l>
+                        <l n="1143"> Où me dois-tu mener ?</l>
+                </sp>
+        <sp who="#leriste">
+            <speaker> LERISTE. </speaker>
+                        <l n="1144"> Du côté de Pouzzole.</l>
+                        <l n="1145"> Mais sans vous désigner expressément le lieu,</l>
+                        <l n="1146"> Je vous y conduirai.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="1147"> Je le veux bien ; adieu.</l>
+                        <l n="1148"> Séparons-nous, je crains que mon père ne sorte :</l>
+                        <l n="1149"> Je te suis pas à pas, va m’attendre à la porte.</l>
+                        <l n="1150"> Toujours l’homme est sujet aux caprices du sort ;</l>
+                        <l n="1151"> Et son premier repos est celui de la mort.</l>
+                        <l n="1152"> Si tu donnes ta vie au danger qui la presse,</l>
+                        <l n="1153"> Amant infortuné, que fera ta Maîtresse ?</l>
+                        <l n="1154"> Quoi ! la veux-tu laisser sous un habit trompeur ?</l>
+                        <l n="1155"> Ne mourra-t-elle pas ? n’en as tu point de peur ?</l>
+                        <l n="1156"> Veux tu que sans support elle soit (vagabonde)</l>
+                        <l n="1157"> L’opprobre, le mépris, et la fable du monde ?</l>
+                        <l n="1158"> Ô dangereux voisins, téméraires Gaulois.</l>
+                        <l n="1159"> Dont les mauvaises mœurs ont perverti nos lois,</l>
+                        <l n="1160"> Que par vous mon esprit souffre une peine amère,</l>
+                        <l n="1161"> Suivant ce point d’honneur qui n’est qu’une Chimère !</l>
+                        <l n="1162"> Il le faut cependant ; le destin l’a voulu,</l>
+                        <l n="1163"> Mon honneur le commande, et j’y suis résolu,</l>
+                        <l n="1164"> Ha ! voici mon Orante, et mon âme contrainte,</l>
+                        <l n="1165"> Aura peine à cacher sa douleur et sa crainte :</l>
+                        <l n="1166"> Mais je lui veux donner un conseil au besoin,</l>
+                        <l n="1167"> Afin si je péris que quelqu’un en ait soin.</l>
+                        <l n="1168"> Veux-tu pas te résoudre à parler à mon père ?</l>
+                        <l n="1169"> Tu sais bien comme un cœur souffre quand il espère.</l>
+                        <l n="1170"> Le danger nous talonne, et le mal va croissant ;</l>
+                        <l n="1171"> Fais agir sur le sien ton esprit tout puissant :</l>
+                        <l n="1172"> Force-le par raison, fléchis-le par des larmes,</l>
+                        <l n="1173"> Une âme de rocher céderait à ces armes ;</l>
+                        <l n="1174"> Fais combattre pour toi l’amour et la pitié,</l>
+                        <l n="1175"> Et fais lui voir qu’Orante a pris son amitié.</l>
+                        <l n="1176"> Quitte cette pudeur, elle nous est contraire ;</l>
+                        <l n="1177"> Ressuscite Isimandre, et fais mourir son frère ;</l>
+                        <l n="1178"> Que ce nom désormais soit banni d’entre nous ;</l>
+                        <l n="1179"> Veux-tu pour l’obtenir que je sois à genoux ?</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="1180"> Cruel, que ne fais tu ce que ta voix m’ordonne ?</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="1181"> Le Ciel m’a refusé les grâces qu’il te donne ;</l>
+                        <l n="1182"> Et mon discours n’a point l’art de persuader :</l>
+                        <l n="1183"> Hélas ! je le vois bien, tu ne veux pas m’aider.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="1184"> Charmeur, tes volontés sont toujours souveraines ;</l>
+                        <l n="1185"> Elles tiennent sur moi la qualité de Reines.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="1186"> L’épreuve en fera foi ; le voici, tu le vois,</l>
+            <stage><em>Il dit ce vers bas.</em></stage>
+                        <l n="1187"> Adieu, peut-être adieu, pour la dernière fois.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#poliante">
+            <speaker> POLIANTE. </speaker>
+                        <l n="1188"> De quoi s’entretenait le brave Cléomire ?</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="1189"> Des vertus d’un Seigneur que tout le monde admire ;</l>
+                        <l n="1190"> De ce fils que le Ciel accomplit de tout point ;</l>
+                        <l n="1191"> Et certes ce penser ne m’abandonne point.</l>
+                </sp>
+        <sp who="#poliante">
+            <speaker> POLIANTE. </speaker>
+                        <l n="1192"> L’amitié vous déçoit, ainsi qu’elle m’abuse ;</l>
+                        <l n="1193"> Les défauts d’un ami ne manquent pas d’excuse ;</l>
+                        <l n="1194"> L’œil flatte ce qu’il aime, et mon fils n’est parfait,</l>
+                        <l n="1195"> Désirant vous servir qu’au vœu qu’il en a fait.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="1196"> On ne saurait cacher une si belle vie,</l>
+                        <l n="1197"> Qui fait parler l’Histoire, et fait taire l’envie.</l>
+                        <l n="1198"> Mais comme sa valeur dés ses plus jeunes ans,</l>
+                        <l n="1199"> A mis la poudre aux yeux à tous les Courtisans ;</l>
+                        <l n="1200"> Et que suivant vos pas aux dangers de l’armée,</l>
+                        <l n="1201"> Il a pris bonne part à votre renommée,</l>
+                        <l n="1202"> Vous devriez désormais l’arrêter en ces lieux ;</l>
+                        <l n="1203"> Songez que la fortune est un monstre sans yeux,</l>
+                        <l n="1204"> Et qu’elle peut frapper ceux qu’elle favorise :</l>
+                        <l n="1205"> Donnons-lui des désirs que le vôtre autorise ;</l>
+                        <l n="1206"> Afin que l’arrêtant, comme il est à propos,</l>
+                        <l n="1207"> Les derniers de vos jours se coulent en repos.</l>
+                </sp>
+        <sp who="#poliante">
+            <speaker> POLIANTE. </speaker>
+                        <l n="1208"> Ce que vous proposez est le but où j’aspire ;</l>
+                        <l n="1209"> C’est un bien que je cherche, et pour qui je soupire ;</l>
+                        <l n="1210"> Mais je ne trouve point où borner ce désir.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="1211"> Peut-être en cet Hymen voulez vous trop choisir.</l>
+                </sp>
+        <sp who="#poliante">
+            <speaker> POLIANTE. </speaker>
+                        <l n="1212"> Nullement ; mon esprit n’a point cette faiblesse :</l>
+                        <l n="1213"> Pourvu que la vertu se joigne à la Noblesse,</l>
+                        <l n="1214"> Je serai satisfait, je ne cherche point l’or,</l>
+                        <l n="1215"> Ces qualités chez moi tiendront lieu de trésor.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="1216"> Vous oubliez un point d’une importance extrême.</l>
+                </sp>
+        <sp who="#poliante">
+            <speaker> POLIANTE. </speaker>
+                        <l n="1217"> Quel ?</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="1218"> Qu’il aime une fille, et qu’une fille l’aime.</l>
+                </sp>
+        <sp who="#poliante">
+            <speaker> POLIANTE. </speaker>
+                        <l n="1219"> Je ne l’oubliais pas, j’y suis trop disposé ;</l>
+                        <l n="1220"> Mais étant nécessaire, il est présupposé.</l>
+                        <l n="1221"> Ces marchés d’intérêt, sont des maux qu’on doit craindre ;</l>
+                        <l n="1222"> Et j’aime trop mon fils pour le vouloir contraindre ;</l>
+                        <l n="1223"> Aussi loin d’y songer je blâme ces parents,</l>
+                        <l n="1224"> Qui pères comme moi deviennent des tyrans.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="1225"> Et si je vous nommais, une fille estimée ;</l>
+                        <l n="1226"> Honnête, noble, riche, et qui plus est, aimée ;</l>
+                        <l n="1227"> Y consentiriez-vous ?</l>
+                </sp>
+        <sp who="#poliante">
+            <speaker> POLIANTE. </speaker>
+                        <l n="1228"> N’en doutez nullement :</l>
+                        <l n="1229"> Mais Naples n’en a point, selon mon jugement ;</l>
+                        <l n="1230"> Et si vous la savez, mon âme est ignorante.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="1231"> Jugez si je me trompe, en vous nommant Orante.</l>
+                </sp>
+        <sp who="#poliante">
+            <speaker> POLIANTE. </speaker>
+                        <l n="1232"> Orante (à ce qu’on dit) a ces trois qualités :</l>
+                        <l n="1233"> Mais on ne peut finir ce que vous projetez.</l>
+                        <l n="1234"> La haine héréditaire (exécrable folie ;</l>
+                        <l n="1235"> Qui semble être fatale à toute l’Italie)</l>
+                        <l n="1236"> Bien que contre mon sens, et contre la raison,</l>
+                        <l n="1237"> A toujours divisé, les siens, et ma maison.</l>
+                        <l n="1238"> Et je ne puis penser, comme sans la connaître,</l>
+                        <l n="1239"> L’amour dont vous parlez aurait jamais pu naître.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="1240"> Il est né cependant : et s’est bien rendu tel,</l>
+                        <l n="1241"> Que d’une part et d’autre il doit être immortel.</l>
+                        <l n="1242"> Les haines des parents sont de faibles obstacles ;</l>
+                        <l n="1243"> Et l’amour est un Dieu, qui se plaît aux miracles.</l>
+                        <l n="1244"> Cette vieille querelle a déjà trop duré ;</l>
+                        <l n="1245"> Elle déplaît au Ciel ; soyez en assuré :</l>
+                        <l n="1246"> Il n’assemble les cœurs d’un fils et d’une fille,</l>
+                        <l n="1247"> Que pour mettre en repos l’une et l’autre famille.</l>
+                        <l n="1248"> Mais pourtant leurs esprits qui savent leur devoir,</l>
+                        <l n="1249"> Rangent leurs volontés, dessous votre pouvoir :</l>
+                        <l n="1250"> Tous prêts de se priver du jour qui les éclaire,</l>
+                        <l n="1251"> Plutôt que d’achever rien qui vous pût déplaire.</l>
+                </sp>
+        <sp who="#poliante">
+            <speaker> POLIANTE. </speaker>
+                        <l n="1252"> Pardonnez Cléomire, à mon étonnement ;</l>
+                        <l n="1253"> Mon esprit pense faire un beau songe en dormant.</l>
+                        <l n="1254"> Ce que vous m’apprenez est si plein de merveille,</l>
+                        <l n="1255"> Que même en vous parlant je doute si je veille.</l>
+                        <l n="1256"> Que ce penser profond ne vous soit pas suspect ;</l>
+                        <l n="1257"> J’estime cet amour autant que son respect ;</l>
+                        <l n="1258"> Et pour voir aujourd’hui ses peines terminées,</l>
+                        <l n="1259"> Ma volonté suivra celle des destinées :</l>
+                        <l n="1260"> Oui, dites à ce fils qui vous a fait parler,</l>
+                        <l n="1261"> Que j’approuve le feu dont il osa brûler.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="1262"> Ha ! formez quelques pas, que j’en baise les traces ;</l>
+                        <l n="1263"> Aussi bien que ce fils je vous dois rendre grâces :</l>
+                        <l n="1264"> C’est moi qui suis... qui suis...</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#clindor">
+            <speaker> CLINDOR. </speaker>
+                        <l n="1265"> Je viens vous avertir</l>
+                        <l n="1266"> Que mon maître a querelle, et qu’on l’a vu sortir</l>
+                        <l n="1267"> Avec sa longue épée, et sans nul équipage.</l>
+                </sp>
+        <sp who="#poliante">
+            <speaker> POLIANTE. </speaker>
+                        <l n="1268"> Quelqu’un le conduit-il ?</l>
+                </sp>
+        <sp who="#clindor">
+            <speaker> CLINDOR. </speaker>
+                        <l n="1269"> Oui Monseigneur, un Page,</l>
+                        <l n="1270"> De livrée inconnue, et qui nous fait juger,</l>
+                        <l n="1271"> Que celui qui l’envoie, est sans doute Étranger.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="1272"> Quelles sont ses couleurs ?</l>
+                </sp>
+        <sp who="#clindor">
+            <speaker> CLINDOR. </speaker>
+                        <l n="1273"> Si mon œil ne s’abuse,</l>
+                        <l n="1274"> Incarnat, blanc, et vert.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE, bas. </speaker>
+                        <l n="1275"> Dieux, que je suis confuse !</l>
+                </sp>
+        <sp who="#poliante">
+            <speaker> POLIANTE. </speaker>
+                        <l n="1276"> Que ne le suiviez-vous ?</l>
+                </sp>
+        <sp who="#clindor">
+            <speaker> CLINDOR. </speaker>
+                        <l n="1277"> En vain je l’ai tâché ;</l>
+                        <l n="1278"> Et contre mon devoir il a paru fâché.</l>
+                </sp>
+        <sp who="#poliante">
+            <speaker> POLIANTE. </speaker>
+                        <l n="1279"> Vite, vite, à cheval, qu’on batte la campagne ;</l>
+                        <l n="1280"> Empêchons ce duel.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="1281"> Quel malheur m’accompagne !</l>
+                        <l n="1282"> Sans doute c’est Ormin, car ce Page est à lui.</l>
+                        <l n="1283"> Reprenons nos habits, il est temps aujourd’hui ;</l>
+                        <l n="1284"> Afin que si du sort les lois me sont fatales,</l>
+                        <l n="1285"> Je les puisse changer en celui des Vestales :</l>
+                        <l n="1286"> C’est un port assuré qui s’offre à ma douleur :</l>
+                        <l n="1287"> Mes feux sont éternels aussi bien que le leur.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#ormin">
+            <speaker> ORMIN </speaker>
+                        <l n="1288"> C’est ici que ma main se va remplir de gloire ;</l>
+                        <l n="1289"> C’est ici qu’on verra le champ de ma victoire ;</l>
+                        <l n="1290"> Ici j’effacerai la marque d’un affront,</l>
+                        <l n="1291"> Par la rougeur du sang ôtant celle du front.</l>
+                        <l n="1292"> Le terrain est fort bon : dans l’ardeur qui me presse,</l>
+                        <l n="1293"> Que n’avons nous au moins, entre nous la Maîtresse ;</l>
+                        <l n="1294"> Pour la faire rester comme un prix amoureux,</l>
+                        <l n="1295"> Non pas au plus rusé, mais au plus généreux.</l>
+                        <l n="1296"> Afin que le péril plus aisément j’écarte,</l>
+                        <l n="1297"> Dois-je porter en tierce ? ou bien plus tôt en quarte ?</l>
+                        <l n="1298"> Non, par un autre coup, je prépare sa mort,</l>
+                        <l n="1299"> Je passerai sur lui, car je suis assez fort.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="1300"> Main basse, Compagnons.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="1301"> Que faites-vous Florange ?</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="1302"> Je fais ce que je dois ; je punis, je me venge.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="1303"> Oubliez-vous l’honneur ?</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="1304"> Je le trouve à punir,</l>
+                        <l n="1305"> Un qui donne sa foi, pour ne la pas tenir.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="1306"> J’entends un bruit d’épée ; avançons.</l>
+                </sp>
+        <sp who="#leriste">
+            <speaker> LERISTE. </speaker>
+                        <l n="1307"> Ha ! le traître ;</l>
+                        <l n="1308"> Florange, Monseigneur, assassine mon Maître.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="1309"> Je ne saurais souffrir ce complot inhumain :</l>
+                        <l n="1310"> Le Ciel te destinait à mourir de ma main ;</l>
+                        <l n="1311"> La seconde rencontre, achève la première.</l>
+                </sp>
+        <sp who="#argamor">
+            <speaker> ARGAMOR. </speaker>
+                        <l n="1312"> Fuyons.</l>
+                </sp>
+        <sp who="#florange">
+            <speaker> FLORANGE. </speaker>
+                        <l n="1313"> Je perds l’espoir, avecque la lumière.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="1314"> Le sort pour m’obliger, en ce jour a permis,</l>
+                        <l n="1315"> Qu’un ennemi pour vous combat vos ennemis ;</l>
+                        <l n="1316"> Afin que l’honneur sauf, sa voix vous fasse entendre,</l>
+                        <l n="1317"> Qu’Amour, et la raison ont conduit Isimandre :</l>
+                        <l n="1318"> Je suis ce malheureux que vous allez cherchant ;</l>
+                        <l n="1319"> Vous le voyez soldat, et l’avez vu Marchant.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="1320"> Pour un cœur généreux, les bienfaits ont des charmes ;</l>
+                        <l n="1321"> Et vous me désarmez en conservant mes armes :</l>
+                        <l n="1322"> Vous venez de me vaincre, en me rendant vainqueur ;</l>
+                        <l n="1323"> Au lieu d’en témoigner je manquerais de cœur,</l>
+                        <l n="1324"> Si je vous disputais une palme obtenue ;</l>
+                        <l n="1325"> Ma colère s’en va comme elle était venue ;</l>
+                        <l n="1326"> Elle s’évanouit ; et dedans ce moment,</l>
+                        <l n="1327"> Vous avez triomphé de mon ressentiment.</l>
+                        <l n="1328"> Je connais mon erreur, elle est toute apparente,</l>
+                        <l n="1329"> Mais ne vous souvenez que des beautés d’Orante :</l>
+                        <l n="1330"> Possédez-la paisible ; et m’accordez ce point,</l>
+                        <l n="1331"> (Au nom de votre amour) de ne me haïr point.</l>
+                        <l n="1332"> Bornons enfin le cours d’une haine ancienne,</l>
+                        <l n="1333"> Qui perd votre Maison, et qui détruit la mienne ;</l>
+                        <l n="1334"> Faites souscrire un père avecque mon désir :</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="1335"> Mon âme est dans mes yeux, jugez de son plaisir.</l>
+                        <l n="1336"> Je ne puis exprimer les transports de ma joie ;</l>
+                        <l n="1337"> Et mon cœur veut s’ouvrir, à dessein qu’on la voie.</l>
+                        <l n="1338"> Oui, Oui, soyons unis ; mon père est apaisé ;</l>
+                        <l n="1339"> Le chemin de son âme est un chemin aisé ;</l>
+                        <l n="1340"> Le repos est un bien que son esprit souhaite :</l>
+                        <l n="1341"> Mais Monsieur il est temps de faire la retraite ;</l>
+                        <l n="1342"> Naples vous peut revoir, y venant quant et moi.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="1343"> Je marche sans frayeur, marchant sur votre foi.</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="1344"> Voyant ce ravisseur, qui passait dans la rue,</l>
+                        <l n="1345"> J’ai quitté la fenêtre, et j’y suis accourue ;</l>
+                        <l n="1346"> Mais comme il se cachait, de peur d’être connu,</l>
+                        <l n="1347"> Je n’ai su dans trois pas, ce qu’il est devenu ;</l>
+                        <l n="1348"> Son extrême vitesse a trompé ma poursuite ;</l>
+                        <l n="1349"> A peine mes regards ont découvert sa fuite,</l>
+                        <l n="1350"> (Chose qui m’a fâchée, et qui l’a réjoui)</l>
+                        <l n="1351"> Qu’en éclair, en fantôme, il s’est évanoui.</l>
+                </sp>
+        <sp who="#palinice">
+            <speaker> PALINICE. </speaker>
+                        <l n="1352"> Patientez un peu, nous le verrons sans doute :</l>
+                        <l n="1353"> Je me moque d’un mal que votre esprit redoute ;</l>
+                        <l n="1354"> Puisqu’il paraît ici, je le tiens innocent ;</l>
+                        <l n="1355"> Votre fille est sa femme, et son père y consent :</l>
+                        <l n="1356"> Un nouveau possesseur est ardent et fidèle ;</l>
+                        <l n="1357"> S’il la tenait cachée il serait auprès d’elle ;</l>
+                        <l n="1358"> Ces plaisirs dérobés attachent tout le jour ;</l>
+                        <l n="1359"> Je la crois plus à lui, puis qu’il a moins d’amour.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="1360"> Plut au Ciel que ce mal eut enfin bonne issue ;</l>
+                        <l n="1361"> Et qu’elle fut ainsi que vous l’avez conçue ;</l>
+                        <l n="1362"> Je me consolerais ; ma fille aurait bien fait ;</l>
+                        <l n="1363"> Il est notre ennemi, mais il est tout parfait.</l>
+                </sp>
+        <sp who="#palinice">
+            <speaker> PALINICE. </speaker>
+                        <l n="1364"> Mettons nous dans ce lieu qui regarde la porte ;</l>
+                        <l n="1365"> Nous le découvrirons, soit qu’il entre, ou qu’il sorte.</l></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#poliante">
+            <speaker> POLIANTE. </speaker>
+                        <l n="1366"> L’amitié m’abusait ; son conseil était faux ;</l>
+                        <l n="1367"> En le considérant j’en ai vu les défauts :</l>
+                        <l n="1368"> Si je suivais mon fils, en suivant mon envie,</l>
+                        <l n="1369"> Je perdrais son honneur pour lui sauver la vie :</l>
+                        <l n="1370"> Qu’il revienne vainqueur, ou qu’il reste vaincu,</l>
+                        <l n="1371"> Je désire qu’il meure ainsi qu’il a vécu.</l>
+                        <l n="1372"> C’est un juste tribut qu’on doit à la Nature :</l>
+                        <l n="1373"> En voyant son berceau, je vis sa sépulture ;</l>
+                        <l n="1374"> Je naquis pour mourir ; je l’ai fait naître tel ;</l>
+                        <l n="1375"> Mais une belle mort le peut rendre immortel.</l>
+                </sp>
+        <sp who="#clindor">
+            <speaker> CLINDOR. </speaker>
+                        <l n="1376"> Cette Philosophie est un peu trop austère.</l>
+                </sp>
+        <sp who="#poliante">
+            <speaker> POLIANTE. </speaker>
+                        <l n="1377"> Tu verrais dans mon cœur que je suis homme, et père :</l>
+                        <l n="1378"> J’en ai le sentiment ; mais il est combattu,</l>
+                        <l n="1379"> Des armes du discours que preste la vertu.</l>
+                </sp>
+        <sp who="#clindor">
+            <speaker> CLINDOR. </speaker>
+                        <l n="1380"> Ha Monsieur le voici !</l>
+                </sp>
+        <sp who="#poliante">
+            <speaker> POLIANTE. </speaker>
+                        <l n="1381"> N’ai-je pas bonne vue ?</l>
+                        <l n="1382"> Mon âme de raison est-elle bien pourvue ?</l>
+                        <l n="1383"> Je reconnais Ormin, ce n’est point une erreur ;</l>
+                        <l n="1384"> Je l’ai vu maintes fois auprès de l’Empereur.</l></div>
+        <div type="scene" xml:id=" X ">
+            <head> Scène X </head>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="1385"> Il n’est rien d’éternel en la terre où nous sommes :</l>
+                        <l n="1386"> La haine doit finir aussi bien que les hommes ;</l>
+                        <l n="1387"> Le mérite d’un fils éteignant mon courroux,</l>
+                        <l n="1388"> Je viens vous assurer que je suis tout à vous.</l>
+                </sp>
+        <sp who="#poliante">
+            <speaker> POLIANTE. </speaker>
+                        <l n="1389"> Dans l’accommodement ainsi qu’à la Victoire,</l>
+                        <l n="1390"> Qui marche le premier, a la première gloire ;</l>
+                        <l n="1391"> Mais puis que vos bontés me la veulent ravir,</l>
+                        <l n="1392"> Je garderai pour moi celle de vous servir.</l></div>
+        <div type="scene" xml:id=" XI ">
+            <head> Scène XI </head>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="1393"> J’ai ma part à la paix aussi bien qu’à la guerre :</l>
+                        <l n="1394"> Je crois avoir acquis le reste de la terre,</l>
+                        <l n="1395"> Puisque par cet accord on me donne pouvoir,</l>
+                        <l n="1396"> D’habiter un pays que je n’osais revoir.</l>
+                </sp>
+        <sp who="#poliante">
+            <speaker> POLIANTE. </speaker>
+                        <l n="1397"> Madame, espérez tout de mon obéissance ;</l>
+                        <l n="1398"> Naples que je gouverne est en votre puissance ;</l>
+                        <l n="1399"> Et tant que j’y serai, votre commandement,</l>
+                        <l n="1400"> Aura toujours le droit d’agir absolument.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="1401"> Oublions le passé (mon cœur) je t’en conjure.</l>
+                </sp>
+        <sp who="#palinice">
+            <speaker> PALINICE. </speaker>
+                        <l n="1402"> Votre seul repentir efface mon injure.</l>
+                </sp>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="1403"> Vous qui pouvez donner à mon cœur amoureux,</l>
+                        <l n="1404"> La fortune prospère, ou le sort malheureux,</l>
+                        <l n="1405"> Si vous avez pitié de me voir dans la flamme,</l>
+                        <l n="1406"> Commandez à ce corps d’aller querir son âme.</l>
+                </sp>
+        <sp who="#poliante">
+            <speaker> POLIANTE. </speaker>
+                        <l n="1407"> Il parle d’un Ami que la sienne chérit.</l>
+                        <l n="1408"> Allez ; qu’il vienne voir comme le Ciel nous rit :</l>
+                        <l n="1409"> Jamais deux volontés ne furent mieux unies ;</l>
+                        <l n="1410"> Leur accord va passant toutes les harmonies ;</l>
+                        <l n="1411"> Chaque jour l’un à l’autre ils parlent en secret ;</l>
+                        <l n="1412"> Et la nuit les sépare avec bien du regret.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="1413"> Je me doute à peu près quel ami ce peut être :</l>
+                        <l n="1414"> Ha ! sans faute c’est lui, car je le vois paraître ;</l>
+                        <l n="1415"> Mais sous un autre habit que vous ne l’avez vu.</l>
+                </sp>
+        <sp who="#poliante">
+            <speaker> POLIANTE. </speaker>
+                        <l n="1416"> Quel prodige nouveau m’attaque à l’imprévu ?</l></div>
+        <div type="scene" xml:id=" XII ">
+            <head> Scène XII </head>
+        <sp who="#isimandre">
+            <speaker> ISIMANDRE. </speaker>
+                        <l n="1417"> Madame, je vous rends un bien inestimable ;</l>
+                        <l n="1418"> Moi seul ai fait la faute, elle n’est point blâmable.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="1419"> Pour l’amour d’Isimandre il faut lui pardonner :</l>
+                        <l n="1420"> Et je ne la reprends que pour vous la donner.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="1421"> Mon silence, et mon teint vous parlent de ma honte.</l>
+                </sp>
+        <sp who="#lucinde">
+            <speaker> LUCINDE. </speaker>
+                        <l n="1422"> Soyez désormais sage, ayant été trop prompte :</l>
+                        <l n="1423"> Oubliant le passé qui ne nous sert de rien,</l>
+                        <l n="1424"> Ne parlons plus d’un mal qui nous produit un bien.</l>
+                </sp>
+        <sp who="#ormin">
+            <speaker> ORMIN. </speaker>
+                        <l n="1425"> C’est de vous maintenant que ce couple fidèle,</l>
+                        <l n="1426"> Attend une faveur qu’il vient de prendre d’elle :</l>
+                        <l n="1427"> Monsieur, soyez bon père en exauçant leurs vœux.</l>
+                </sp>
+        <sp who="#poliante">
+            <speaker> POLIANTE. </speaker>
+                        <l n="1428"> Ce brave Cavalier sait bien que je le veux.</l>
+            <stage><em>Il parle d’Orante.</em></stage>
+                        <l n="1429"> Sous l’un et l’autre habit également j’admire,</l>
+                        <l n="1430"> Tantôt la belle Orante, et tantôt Cléomire ;</l>
+                        <l n="1431"> Mon cœur n’est pas un bien que je donne à demi ;</l>
+                        <l n="1432"> Je l’aime comme fille, et l’aimais comme ami.</l>
+                </sp>
+        <sp who="#orante">
+            <speaker> ORANTE. </speaker>
+                        <l n="1433"> Et je vous servirai pour tous les deux ensemble.</l>
+                </sp>
+        <sp who="#poliante">
+            <speaker> POLIANTE. </speaker>
+                        <l n="1434"> On ne peut séparer ce que le Ciel assemble.</l>
+                        <l n="1435"> Il a certains ressorts qu’on ne peut découvrir :</l>
+                        <l n="1436"> C’est un livre fermé qu’on ne saurait ouvrir :</l>
+                        <l n="1437"> Et la fin des desseins, non plus que des années,</l>
+                        <l n="1438"> Ne se voit que des Dieux, qui font nos destinées :</l>
+                        <l n="1439"> C’est à nous d’obéir aux Maîtres des humains :</l>
+                        <l n="1440"> Aussi je tends vers eux, l’œil, le cœur, et les mains ;</l>
+                        <l n="1441"> Et demande pour vous une trame choisie ;</l>
+                        <l n="1442"> Une amour sans froideur, comme sans jalousie ;</l>
+                        <l n="1443"> Et pour comble de joie, et de prospérité,</l>
+                        <l n="1444"> Des Enfants aussi bons que vous l’aurez été.</l>
+                        <l n="1445"> [1] C’est le dessus de la lettre.</l>
+                        <l n="1446"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

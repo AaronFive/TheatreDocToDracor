@@ -1,0 +1,2481 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Gabinie</title>
+                <title type="sub">Tragédie</title>
+            <author>
+                <persName>
+                    <forename>David</forename>
+                    <forename>Augustin</forename>
+                    <linkname>de</linkname>
+                    <surname>Brueys</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/gabinie-david-augustin-de-brueys </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1699-04-02">Représentée pour la première fois, le 2 avril 1699.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="dioclétien" sex="SEX">
+                            <persName>DIOCLÉTIEN</persName>
+                        </person>
+                        <person xml:id="séréna" sex="SEX">
+                            <persName>SÉRÉNA</persName>
+                        </person>
+                        <person xml:id="galérius" sex="SEX">
+                            <persName>GALÉRIUS</persName>
+                        </person>
+                        <person xml:id="camille" sex="SEX">
+                            <persName>CAMILLE</persName>
+                        </person>
+                        <person xml:id="gabinius" sex="SEX">
+                            <persName>GABINIUS</persName>
+                        </person>
+                        <person xml:id="gabinie" sex="SEX">
+                            <persName>GABINIE</persName>
+                        </person>
+                        <person xml:id="maxime" sex="SEX">
+                            <persName>MAXIME</persName>
+                        </person>
+                        <person xml:id="carus" sex="SEX">
+                            <persName>CARUS</persName>
+                        </person>
+                        <person xml:id="phénice" sex="SEX">
+                            <persName>PHÉNICE</persName>
+                        </person>
+                        <person xml:id="julie" sex="SEX">
+                            <persName>JULIE</persName>
+                        </person>
+                        <person xml:id="gardes" sex="SEX">
+                            <persName>GARDES</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Tragédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q80930]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">GABINIE</titlePart>
+            <titlePart type="sub">TRAGÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, le 2 avril 1699.</ab><!--@date="1699-04-02"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> À MONSIEUR LE COMTE DAYEN</salute>
+            </opener>
+        <p> Gouverneur des Provinces de Roussillon et Berry, etc. </p>
+        <p> MONSIEUR, </p>
+        <p> L’approbation que vous daignâtes donner à ma Tragédie le jour que j’eus l’honneur de vous en faire la lecture, me fît espérer qu’elle serait bien reçue du Public. Je n’ai pas été trompé dans mon espérance. Sa représentation a eu tout le succès que la justesse de votre goût m’en avait fait attendre. Les applaudissements qu’elle a eus à la Cour et à la Ville, ont justifié votre jugement ; et c’est ce qui m’a persuadé que vous ne désapprouveriez pas la liberté que j’ose prendre de vous la dédier. Je sais bien MONSIEUR, que c’est plutôt au fond du sujet que j’ai traité, qu’à la forme que je lui ai donnée, que je dois l’accueil favorable dont vous avez honoré cette Pièce : le spectacle de la Religion Chrétienne triomphant dans la persécution, et d’un Empereur abandonnant l’Empire, et mis en fuite par la foule et par la constance des Martyrs, ne pouvait que plaire aux yeux de celui en qui une piété solide et héréditaire fait la base de toutes les autres vertus héroïques dont il est orné, et de tout l’éclat que lui donne une illustre naissance, et une brillante fortune. C’est encore sans doute, MONSIEUR, à ce même triomphe du Christianisme, que je suis redevable du succès heureux que ma Tragédie a eu dans une Cour, où un Roi, selon le cœur de Dieu, après avoir effacé par des actions immortelles les Héros qui l’ont précédé, inspire à tout le monde un zèle religieux, qui le rend aussi cher aux yeux de Dieu, que ses exploits l’ont rendu grand aux yeux des hommes. J’apprends, MONSIEUR, par la Dédicace de l’Auteur qui m’a fourni le sujet de cette Tragédie, que la sienne fut autrefois dédiée à ce grand Roi, et honorée de sa présence. Quelle gloire pour Gabinie, si elle avait pu aujourd’hui s’attirer encore un tel Spectateur ! Mais elle est trop modeste pour oser s’en flatter. Quels spectacles seraient dignes d’attirer les yeux d’un Roi, qui attache sur lui ceux de toutes les Nations ? </p>
+        <p> Quand un Roi, malgré mille obstacles,<br> </p>
+        <p> Pardonnez, MONSIEUR, ces Vers à l’enthousiasme d’une Muse à qui ils ont échappé ; et faites-moi, s’il vous plaît, la grâce de recevoir favorablement l’Ouvrage que je vous offre, comme une marque publique de la passion respectueuse avec laquelle je suis, </p>
+        <p> MONSIEUR, </p>
+        <p> Votre très humble et très obéissant Serviteur </p>
+        <p> B*** </p>
+    </div>
+           <div type="act" xml:id="1">
+           <head> ÉPIGRAMME </head></div>
+           <div type="act" xml:id="2">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#carus">
+            <speaker> CARUS. </speaker>
+                        <l n="1"> D’où peut naître, Seigneur, cette sombre tristesse,</l>
+                        <l n="2"> Quand vous faites vous seul la publique allégresse ?</l>
+                        <l n="3"> Quoi ! le jour qu’on vous place au trône des Césars ;</l>
+                        <l n="4"> Aux spectacles nouveaux refusant vos regards,</l>
+                        <l n="5"> Pour rêver à loisir à votre inquiétude,</l>
+                        <l n="6"> Vous venez en ces lieux chercher la solitude ;</l>
+                        <l n="7"> Tandis que le Sénat, et le Peuple, et la Cour,</l>
+                        <l n="8"> Dans la pompe des jeux célèbrent ce grand jour ?</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="9"> Oui, Rome en ce grand jour, en Spectacles abonde,</l>
+                        <l n="10"> Elle voit deux Césars sur le trône du Monde ;</l>
+                        <l n="11"> Et Dioclétien m’élevant jusqu’à lui,</l>
+                        <l n="12"> Au souverain pouvoir m’associe aujourd’hui</l>
+                        <l n="13"> Le croirais-tu pourtant ? monté jusqu’à l’Empire,</l>
+                        <l n="14"> Il est encore un bien, pour qui mon cœur soupire.</l>
+                        <l n="15"> Au faîte des grandeurs sous un titre éclatant,</l>
+                        <l n="16"> Tout César que je suis, je ne suis pas content.</l>
+                </sp>
+        <sp who="#carus">
+            <speaker> CARUS. </speaker>
+                        <l n="17"> Vous, Seigneur ? Qui jamais a vu, dans moins d’années,</l>
+                        <l n="18"> Tant de prospérités l’une à l’autre enchaînées ?</l>
+                        <l n="19"> Depuis qu’on voit sous vous voler nos Étendards,</l>
+                        <l n="20"> Nos plus fiers ennemis tremblent de toutes parts :</l>
+                        <l n="21"> Partout, du nom Romain rétablissant la gloire,</l>
+                        <l n="22"> Vous avez à nos pas attaché la victoire ;</l>
+                        <l n="23"> Par vous le fier Sarmate obéit à nos lois ;</l>
+                        <l n="24"> La Perse a vu tomber le dernier de ses Rois ;</l>
+                        <l n="25"> Nos Aigles devant vous traversant la Syrie,</l>
+                        <l n="26"> Ont de leur vol rapide épouvanté l’Asie ;</l>
+                        <l n="27"> Et du char de triomphe, au sortir des hasards,</l>
+                        <l n="28"> Vous n’avez fait qu’un pas au trône des Césars ;</l>
+                        <l n="29"> Les Prêtres à l’Autel, et sous d’heureux auspices,</l>
+                        <l n="30"> De votre avènement consacrent les prémices :</l>
+                        <l n="31"> Quel bien peut souhaiter l’heureux Galérius ?</l>
+                        <l n="32"> Tout célèbre à l’envi vos faits et vos vertus.</l>
+                        <l n="33"> On dit même, et ce bruit remplit toute la Ville,</l>
+                        <l n="34"> Qu’à vos justes désirs on accorde Camille,</l>
+                        <l n="35"> Sœur de l’Impératrice, et l’objet de vos feux.</l>
+                        <l n="36"> Que vous faut-il encore, Seigneur, pour être heureux ?</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="37"> Qu’on se trompe aisément, lorsque sans connaissance,</l>
+                        <l n="38"> On veut juger d’autrui sur la seule apparence !</l>
+                        <l n="39"> Tel souvent, dont partout on vante le bonheur,</l>
+                        <l n="40"> Porte un poison secret qui lui ronge le cœur.</l>
+                </sp>
+        <sp who="#carus">
+            <speaker> CARUS. </speaker>
+                        <l n="41"> Cependant vous m’avez daigné dire vous-même,</l>
+                        <l n="42"> Que vous aimez Camille, on sait qu’elle vous aime ;</l>
+                        <l n="43"> Rome approuve ce choix, et vous pouvez, Seigneur,</l>
+                        <l n="44"> Vous assurer encor sur l’aveu de sa sœur.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="45"> Eh ! c’est mon désespoir, puisqu’il faut te le dire.</l>
+                        <l n="46"> Pour ce fatal hymen tu vois que tout conspire ;</l>
+                        <l n="47"> Que Camille l’attend, qu’il est presque arrêté ;</l>
+                        <l n="48"> Que moi-même autrefois je l’avais souhaité ;</l>
+                        <l n="49"> Mais... hélas !...</l>
+                </sp>
+        <sp who="#carus">
+            <speaker> CARUS. </speaker>
+                        <l n="50"> Ah ! je vois, qu’à regret infidèle,</l>
+                        <l n="51"> Vous brûlez aujourd’hui d’une flamme nouvelle ;</l>
+                        <l n="52"> Et je vous avouerai, que mon zèle indiscret</l>
+                        <l n="53"> Avait déjà, Seigneur, pénétré ce secret ;</l>
+                        <l n="54"> Je n’osais en parler...</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="55"> Le bonheur de ma vie,</l>
+                        <l n="56"> Il est vrai, cher Carus, dépend de Gabinie.</l>
+                        <l n="57"> Lorsque j’aimai Camille, et que j’en fus aimé,</l>
+                        <l n="58"> Je n’avais jamais vu les yeux qui m’ont charmé.</l>
+                        <l n="59"> Tu sais, qu’en ce temps-là Gabinie et son père</l>
+                        <l n="60"> Fuyaient de l’Empereur l’éclatante colère ;</l>
+                        <l n="61"> Tu sais, que même encore on tient humiliés</l>
+                        <l n="62"> Ses parents, ses amis, dans l’exil oubliés :</l>
+                        <l n="63"> Mais enfin je la vis ; et mon âme éperdue,</l>
+                        <l n="64"> Se sentit embraser à sa première vue.</l>
+                        <l n="65"> Contre elle quels efforts, Carus, n’ai-je pas faits !</l>
+                        <l n="66"> Mais ses yeux dans mon cœur ont lancé tant de traits,</l>
+                        <l n="67"> Que malgré les efforts de ma première flamme,</l>
+                        <l n="68"> L’amour de toutes parts est entré dans mon âme.</l>
+                        <l n="69"> En vain à cet amour, qui flatte mon espoir,</l>
+                        <l n="70"> J’oppose ma raison, j’oppose mon devoir :</l>
+                        <l n="71"> En vain pour m’en guérir, Gabinie elle-même</l>
+                        <l n="72"> Semble affecter exprès une rigueur extrême,</l>
+                        <l n="73"> Et chercher des raisons pour combattre mes vœux ;</l>
+                        <l n="74"> Raisons, rigueur, devoir, tout redouble mes feux.</l>
+                </sp>
+        <sp who="#carus">
+            <speaker> CARUS. </speaker>
+                        <l n="75"> Et bien, Seigneur, aimez, épousez Gabinie :</l>
+                        <l n="76"> Du sang de nos Césars n’est elle pas sortie ?</l>
+                        <l n="77"> Suivez votre penchant : le Sénat, les Romains</l>
+                        <l n="78"> N’approuveront-ils pas que de si belles mains</l>
+                        <l n="79"> Vous aident à tenir les rênes de l’Empire ?</l>
+                        <l n="80"> À quoi bon vous gêner ? Que Camille en soupire,</l>
+                        <l n="81"> Que craignez-vous ?</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="82"> Je crains que Camille en fureur,</l>
+                        <l n="83"> Dans son juste parti ne jette l’Empereur.</l>
+                        <l n="84"> Ma puissance aujourd’hui ne faisant que de naître,</l>
+                        <l n="85"> (N’en doute point, Carus,) il est encore mon maître ;</l>
+                        <l n="86"> Et déjà Gabinie a bien su le prévoir.</l>
+                        <l n="87"> Elle m’a déclaré qu’un absolu pouvoir,</l>
+                        <l n="88"> Un obstacle invincible à mes désirs s’oppose ;</l>
+                        <l n="89"> Et cet obstacle, hélas ! Carus, n’est autre chose</l>
+                        <l n="90"> (Car enfin mon amour n’a que trop éclaté ;)</l>
+                        <l n="91"> Pourrai-je, soutenant mon infidélité,</l>
+                        <l n="92"> De mon amour volage excuser le caprice,</l>
+                        <l n="93"> Aux yeux de l’Empereur, et de l’Impératrice ?</l>
+                </sp>
+        <sp who="#carus">
+            <speaker> CARUS. </speaker>
+                        <l n="94"> Mais, Seigneur, voulez-vous, quoi qu’on ait résolu,</l>
+                        <l n="95"> Prendre sur l’Empereur un pouvoir absolu ?</l>
+                        <l n="96"> Suivez sa passion, et secondez son zèle,</l>
+                        <l n="97"> À détruire par tout cette Secte nouvelle,</l>
+                        <l n="98"> Dont on le voit peut-être un peu trop alarmé,</l>
+                        <l n="99"> Et qui le tient fans cesse à sa perte animé.</l>
+                        <l n="100"> Je sais bien qu’ennemi de l’horreur des supplices,</l>
+                        <l n="101"> Le sang des malheureux ne fait pas vos délices ;</l>
+                        <l n="102"> Et que même l’on dit, que ce grand Empereur</l>
+                        <l n="103"> Traite des insensés avec trop de fureur :</l>
+                        <l n="104"> Mais vous pourrez un jour modérer sa vengeance.</l>
+                        <l n="105"> Ainsi de nos Autels embrassez la défense,</l>
+                        <l n="106"> Et hâtez vous, Seigneur, pour servir son courroux,</l>
+                        <l n="107"> De prêter le serment qu’on exige de vous.</l>
+                        <l n="108"> D’abord vous le verrez, ravi d’un tel service,</l>
+                        <l n="109"> Se déclarer pour vous contre l’Impératrice,</l>
+                        <l n="110"> Qui, fière de son rang, ose avec liberté</l>
+                        <l n="111"> Accuser l’Empereur de trop de cruauté ;</l>
+                        <l n="112"> Qui, sans considérer qu’il veut être inflexible,</l>
+                        <l n="113"> Voudrait qu’à la pitié, comme elle, il sût sensible,</l>
+                        <l n="114"> Et par des sentiments peu conformes aux siens,</l>
+                        <l n="115"> L’importune sans cesse en faveur des Chrétiens,</l>
+                        <l n="116"> La voici.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="117"> Dieux ! tendez son pouvoir inutile</l>
+                        <l n="118"> Elle vient me parler sans doute pour Camille.</l>
+                        <l n="119"> Évitons-la.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#séréna">
+            <speaker> SÉRÉNA. </speaker>
+                        <l n="120"> César, vous ne me fuiriez pas,</l>
+                        <l n="121"> Si vous saviez pourquoi j’adresse ici mes pas.</l>
+            <stage><em>À part, tandis que César revient du fond du Théâtre.</em></stage>
+                        <l n="122"> Pour sauver les Chrétiens, Ciel ! soutiens mon attente ;</l>
+                        <l n="123"> Contre ma propre sœur, tu vois ce que je tente.</l>
+                        <l n="124"> Tout le monde aujourd’hui n’a des yeux que pour vous ;</l>
+                        <l n="125"> Vous voilà sur le Trône auprès de mon époux ;</l>
+                        <l n="126"> Et je prends part, Seigneur, à cet honneur insigne,</l>
+                        <l n="127"> Que Rome vous défère, et dont vous êtes digne.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="128"> Ce que Rome, Madame, aujourd’hui fait pour moi,</l>
+                        <l n="129"> N’égale pas l’honneur qu’à présent je reçois.</l>
+                </sp>
+        <sp who="#séréna">
+            <speaker> SÉRÉNA. </speaker>
+                        <l n="130"> Mais après tant d’honneurs que les Peuples vous rendent,</l>
+                        <l n="131"> Vous savez bien, César, de vous ce qu’ils attendent :</l>
+                        <l n="132"> L’Empereur que je viens d’informer de vos feux,</l>
+                        <l n="133"> Y consent, et j’en fais le plus cher de mes vœux.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="134"> Madame, permettez que j’ose vous le dire ;</l>
+                        <l n="135"> Nos premiers soins sont dus au repos de l’Empire :</l>
+                        <l n="136"> Calmons plutôt les maux que les guerres ont faits,</l>
+                        <l n="137"> Quand Rome goûtera ce fruit de nos bienfaits,</l>
+                        <l n="138"> J’y penserai, Madame ; et toute mon envie...</l>
+                </sp>
+        <sp who="#séréna">
+            <speaker> SÉRÉNA. </speaker>
+                        <l n="139"> Et si je vous parlais, Seigneur, de Gabinie,</l>
+                        <l n="140"> Me demanderiez-vous du temps pour y penser ?</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="141"> Ah, Madame ! sur quoi vous-même me presser ?</l>
+                        <l n="142"> Je vois qu’on vous a dit le feu qu’elle a fait naître ;</l>
+                        <l n="143"> Je ne m’en défens point : je n’en suis plus le maître ;</l>
+                        <l n="144"> Malgré ma résistance, elle a surpris mon cœur,</l>
+                        <l n="145"> Et je cherche à le rendre encore à votre sœur.</l>
+                </sp>
+        <sp who="#séréna">
+            <speaker> SÉRÉNA </speaker>
+                        <l n="146"> Et moi, César, je veux qu’un sacré nœud vous lie,</l>
+                        <l n="147"> Dès demain, s’il se peut, et vous, et Gabinie.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="148"> Madame... vous voulez éprouver un Amant.</l>
+                </sp>
+        <sp who="#séréna">
+            <speaker> SÉRÉNA. </speaker>
+                        <l n="149"> Non ; je ne sus jamais trahir mon sentiment</l>
+                        <l n="150"> Je préfère à mon sang le bien de la patrie.</l>
+                        <l n="151"> J’estime et je chéris Camille et Gabinie :</l>
+                        <l n="152"> Mais pour exécuter les desseins que j’ai faits,</l>
+                        <l n="153"> Gabinie est plus propre à remplir mes souhaits :</l>
+                        <l n="154"> D’ailleurs, de trop d’amour votre âme est embrasée ;</l>
+                        <l n="155"> Et j’aurais à rougir, si ma sœur méprisée,</l>
+                        <l n="156"> S’exposait quelque jour, offensant vos regards,</l>
+                        <l n="157"> À l’affront du divorce ordinaire aux Césars</l>
+                        <l n="158"> L’Empereur y consent : je viens de vous l’apprendre ;</l>
+                        <l n="159"> De Rome, du Sénat vous pouvez tout attendre ;</l>
+                        <l n="160"> Du Peuple, des Soldats vous êtes adoré :</l>
+                        <l n="161"> Et pour Gabinius ; il est trop honoré,</l>
+                        <l n="162"> Que vous fassiez entrer aujourd’hui sa famille</l>
+                        <l n="163"> Dans le rang des Césars, en épousant sa fille.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="164"> Ah ! que ne dois-je pas, Madame, à vos bontés !</l>
+                        <l n="165"> Oui, vous mettez le comble à mes félicités,</l>
+                        <l n="166"> J’ai crû trouver en vous ma plus grande ennemie,</l>
+                        <l n="167"> Er vos soins obligeants m’assurent Gabinie.</l>
+                        <l n="168"> Mais, Madame, oserai-je ici vous informer</l>
+                        <l n="169"> D’un scrupule importun qui me vient alarmer ?</l>
+                        <l n="170"> Elle m’a déclaré, de mes feux étonnée,</l>
+                        <l n="171"> Qu’elle ne me pouvait jamais être donnée ;</l>
+                        <l n="172"> Qu’un obstacle invincible à recevoir ma foi,</l>
+                        <l n="173"> Ne lui permettait pas de s’unir avec moi ;</l>
+                        <l n="174"> Et cet obstacle, en vous j’ai crû le reconnaître,</l>
+                        <l n="175"> Puisque ce ne l’est pas, que pourrait-ce donc être ?</l>
+                </sp>
+        <sp who="#séréna">
+            <speaker> SÉRÉNA. </speaker>
+                        <l n="176"> Ce qu’elle vous a dit ne doit pas vous troubler :</l>
+                        <l n="177"> Contentez-vous, César, que je n’ai qu’à parler ;</l>
+                        <l n="178"> Et mes soins lèveront l’obstacle qui vous gêne.</l>
+                        <l n="179"> Je me charge de tout, cessez d’en être en peine ;</l>
+                        <l n="180"> Gabinie est à vous, et même dès demain.</l>
+                        <l n="181"> Assurez-vous du cœur, je répons de la main.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="182"> Madame, savez-vous ce que je viens d’apprendre ?</l>
+                        <l n="183"> On fait courir des bruits, que j’ai peine à comprendre.</l>
+                        <l n="184"> On dit que César songe à faire un autre choix</l>
+                        <l n="185"> Ces bruits injurieux nous offensent tous trois.</l>
+                        <l n="186"> Cependant, bien qu’ils soient hors de toute apparence,</l>
+                        <l n="187"> Le peuple les répand : imposez-lui silence,</l>
+                        <l n="188"> Seigneur, et défendez qu’on parle ainsi de vous.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="189"> Le peuple aime à parler, Madame ; et c’est à nous</l>
+                        <l n="190"> À mépriser les bruits qu’il se plaît à répandre.</l>
+                        <l n="191"> Le rang que nous tenons, loin de nous en défendre,</l>
+                        <l n="192"> Nous livre à leurs discours.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="193"> Ah, Seigneur ! quelquefois</l>
+                        <l n="194"> L’exacte vérité s’explique par leur voix ; ·</l>
+                        <l n="195"> Et souvent le Ciel même, à leur voix favorable,</l>
+                        <l n="196"> Fait que ce qu’elle a dit se trouve véritable.</l>
+                        <l n="197"> Je sais bien que je crains avec peu de raison ;</l>
+                        <l n="198"> Et de vous je ne puis avoir un tel soupçon ;</l>
+                        <l n="199"> Je n’ose le penser : mais enfin je confesse</l>
+                        <l n="200"> Qu’en secret dans ces bruits ma gloire s’intéresse.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="201"> Madame, eh bien !</l>
+                </sp>
+        <sp who="#séréna">
+            <speaker> SÉRÉNA. </speaker>
+                        <l n="202"> César, je sais vos sentiments ;</l>
+                        <l n="203"> Je dois vous épargner ces éclaircissements :</l>
+                        <l n="204"> Je sais d’ou vient le bruit qu’on répand dans la Ville,</l>
+                        <l n="205"> Et tantôt en secret j’en instruirai Camille.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="206"> Mais cependant, Seigneur, pour le voir arrêté,</l>
+                        <l n="207"> Informez le Sénat de votre volonté.</l>
+                        <l n="208"> Rome sait votre choix ; faites qu’on le publie :</l>
+                        <l n="209"> Que je n’entende plus parler de Gabinie.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS, </speaker>
+                        <l n="210"> Madame... nous devons mieux prendre notre temps :</l>
+                        <l n="211"> Le Sénat occupé par des soins importants...</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE, </speaker>
+                        <l n="212"> Je vous entends, Madame, hélas ! je suis trahie ;</l>
+                        <l n="213"> Il est vrai, l’infidèle adore Gabinie.</l>
+                        <l n="214"> Ses regards inquiets, son ait embarrassé,</l>
+                        <l n="215"> Son excuse frivole et son discours glacé,</l>
+                        <l n="216"> Enfin tout me le dit. À quoi bon nous contraindre ?</l>
+                        <l n="217"> Oseriez-vous penser que je daigne m’en plaindre ?</l>
+                        <l n="218"> Ou que je puisse ici, ravalant ma fierté</l>
+                        <l n="219"> Jusqu’à vous reprocher votre infidélité,</l>
+                        <l n="220"> Oublier qui je suis, et manquer à ma gloire ?</l>
+                        <l n="221"> Vous me connaissez mal, si vous le pouvez croire.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="222"> Eh bien, Madame, eh bien, une cruelle loi,</l>
+                        <l n="223"> Puisqu’il faut l’avouer, m’entraîne malgré moi :</l>
+                        <l n="224"> Ce qui redouble encore le remord qui me presse,</l>
+                        <l n="225"> C’est de voir que votre âme exempte de faiblesse,</l>
+                        <l n="226"> Et par les sentiments d’une haute vertu,</l>
+                        <l n="227"> Soutient tranquillement...</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="228"> Perfide ! le crois-tu ?</l>
+                        <l n="229"> Je ne puis plus longtemps me faire violence ;</l>
+                        <l n="230"> Mais c’est à vous, Madame, à venger mon offense.</l>
+                </sp>
+        <sp who="#séréna">
+            <speaker> SÉRÉNA. </speaker>
+                        <l n="231"> À cet indigne éclat abaisser votre cœur,</l>
+                        <l n="232"> Camille ! oubliez-vous que vous êtes ma sœur ?</l>
+                        <l n="233"> Je veux seule à César parler en confidence ;</l>
+                        <l n="234"> Mais ici l’Empereur donne son audience ;</l>
+                        <l n="235"> Seigneur, passons chez moi... Ma sœur, dans un moment,</l>
+                        <l n="236"> Vous pourrez me revoir dans mon appartement.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="237"> Il me quitte, il me fuit. Ah ! ma chère Julie,</l>
+                        <l n="238"> Son cœur, son traître cœur est tout à Gabinie :</l>
+                        <l n="239"> Et moi je le cherchais : je venais près de lui,</l>
+                        <l n="240"> Me consoler des bruits qui causaient mon ennui ;</l>
+                        <l n="241"> Et quand je m’attendais d’en être rassurée,</l>
+                        <l n="242"> Par lui-même j’apprends que ma perte est jurée,</l>
+                        <l n="243"> Et dans un même jour, Ciel ! qui me l’aurait dit ?</l>
+                        <l n="244"> Mon Amant m’abandonne, et ma sœur me trahit</l>
+                        <l n="245"> Eh bien ! c’est donc à moi de venger mes offenses :</l>
+                        <l n="246"> Perfide, c’en est trop : redoute mes vengeances ;</l>
+                        <l n="247"> L’Empereur, le Sénat, tes Gardes, tes Soldats,</l>
+                        <l n="248"> Le Trône des Césars ne t’en défendra pas.</l>
+                        <l n="249"> Tremble, ou si ma puissance à la tienne inégale,</l>
+                        <l n="250"> T’empêche de trembler, tremble pour ma rivale.</l>
+                </sp>
+        <sp who="#julie">
+            <speaker> JULIE. </speaker>
+                        <l n="251"> Madame, la voici : songez à l’éviter.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="252"> Sortons, je ne pourrais m’empêcher d’éclater.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#gabinie">
+            <speaker> GABINIE, rencontrant Camille en fureur. </speaker>
+                        <l n="253"> Madame, pardonnez, je vois que ma présence</l>
+                        <l n="254"> Vous fait ici peut être un peu de violence ;</l>
+                        <l n="255"> Je venais, en suivant des ordres absolus,</l>
+                        <l n="256"> Attendre l’Empereur.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="257"> Dites Galérius.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="258"> Avant la fin du jour, vous me rendrez justice ;</l>
+                        <l n="259"> Je vais l’attendre ailleurs, et voir l’Impératrice :</l>
+                        <l n="260"> Adieu, Madame.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE, en sortant. </speaker>
+                        <l n="261"> Allez : on y parle de vous.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="262"> Je ne mérite pas cet injuste courroux.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#gabinie">
+            <speaker> GABINIE, s’arrêtant à la porte de l’Impératrice, et revenant. </speaker>
+                        <l n="263"> On ’y parle de moi ! Demeurons ; j’appréhende,</l>
+                        <l n="264"> Phénice, que César chez elle ne m’attende.</l>
+                        <l n="265"> Je le dois éviter, et tu sais bien pourquoi,</l>
+                        <l n="266"> Puisque je n’eus jamais rien de secret pour toi.</l>
+                </sp>
+        <sp who="#phénice">
+            <speaker> PHÉNICE. </speaker>
+                        <l n="267"> Ainsi, Madame, en vain l’Impératrice espère</l>
+                        <l n="268"> De donner aux Chrétiens un appui salutaire ;</l>
+                        <l n="269"> En vain elle prétend établir cet appui,</l>
+                        <l n="270"> Sur l’amour que César a pour vous aujourd’hui ;</l>
+                        <l n="271"> Depuis qu’elle a trouvé Camille opiniâtre</l>
+                        <l n="272"> À vouloir demeurer dans un culte idolâtre,</l>
+                        <l n="273"> Après avoir sans fruit fait tenter tant de fois,</l>
+                        <l n="274"> De lui faire embrasser la plus sainte des lois.</l>
+                        <l n="275"> Pour moi, si j’ose ici dire ce que j’en pense,</l>
+                        <l n="276"> Puisque vous m’honorez de votre confidence,</l>
+                        <l n="277"> J’aurais cru que le Ciel, pour vous unir tous deux,</l>
+                        <l n="278"> Vous ouvrait un chemin favorable à vos vœux ;</l>
+                        <l n="279"> Car enfin si César...</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="280"> Ah ! ma chère Phénice,</l>
+                        <l n="281"> Qu’oses-tu soupçonner : rend-moi plus de justice.</l>
+                        <l n="282"> Maîtresse de mon cœur, depuis qu’il est Chrétien,</l>
+                        <l n="283"> Un autre amour m’enflamme et triomphe du sien.</l>
+                        <l n="284"> Tu ne me verras pas un moment combattue ;</l>
+                        <l n="285"> Je ne crains plus César, mais je dois fuir sa vue.</l>
+                        <l n="286"> Je devais l’éviter, lorsque victorieux,</l>
+                        <l n="287"> Au retour de l’Asie il parut à mes yeux.</l>
+                        <l n="288"> Tu sais qu’encore alors, loin de Rome exilées,</l>
+                        <l n="289"> Nous étions toutes deux du faux culte aveuglées :</l>
+                        <l n="290"> Narcez, Roi des Persans, assiégeait nos remparts,</l>
+                        <l n="291"> Et déjà sur les murs plantait ses étendards :</l>
+                        <l n="292"> Tout tremblait, quand de loin nous vîmes dans la plaine</l>
+                        <l n="293"> Sur le camp de Narcez fondre l’Aigle Romaine :</l>
+                        <l n="294"> C’était Galérius, et tu vis quel revers</l>
+                        <l n="295"> Mit en ce jour la Perse et son Roi dans nos fers.</l>
+                        <l n="296"> Galérius me vit, Phénice ; il sut me plaire :</l>
+                        <l n="297"> Il fléchit l’Empereur en faveur de mon père ;</l>
+                        <l n="298"> Nous partîmes pour Rome, où quittant les faux Dieux,</l>
+                        <l n="299"> Le sacré Marcellin nous dessilla les yeux.</l>
+                        <l n="300"> Galérius encore ignore ma tendresse ;</l>
+                        <l n="301"> Je n’ai pu m’en guérir, mais j’en suis la maîtresse,</l>
+                        <l n="302"> Et c’est ce même amour qui me fait refuser</l>
+                        <l n="303"> Ce que l’Impératrice ose me proposer.</l>
+                        <l n="304"> Elle prétend en vain, qu’en secret, et comme elle,</l>
+                        <l n="305"> Pour servir les Chrétiens j’épouse un Infidèle :</l>
+                        <l n="306"> Mais aux maux qu’elle craint le Ciel saura pourvoir ;</l>
+                        <l n="307"> Je veux le laisser taire, et suivre mon devoir.</l>
+                        <l n="308"> Oui, fuyons l’Empereur, fuyons l’Impératrice :</l>
+                        <l n="309"> Plutôt que de céder, tu me verras, Phénice,</l>
+                        <l n="310"> Au Dieu que nous servons immoler en ce jour,</l>
+                        <l n="311"> Avec un Trône offert, ma vie et mon amour.</l></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN, à Maxime. </speaker>
+                        <l n="312"> Viendra-t-elle ?</l>
+                </sp>
+        <sp who="#maxime">
+            <speaker> MAXIME. </speaker>
+                        <l n="313"> Oui, Seigneur, par moi-même avertie,</l>
+                        <l n="314"> Déjà l’Impératrice a mandé Gabinie ;</l>
+                        <l n="315"> Elle vient de passer dans son appartement,</l>
+                        <l n="316"> Et doit se rendre ici, Seigneur, dans un moment.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN, à Galérius. </speaker>
+                        <l n="317"> Pour votre auguste hymen je veux que tout s’apprête,</l>
+            <stage><em>À Maxime.</em></stage>
+                        <l n="318"> Vous, allez pour demain en publier la fête.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN, à Gabinius. </speaker>
+                        <l n="319"> Si j’ai fait un tel choix, c’est en votre faveur,</l>
+                </sp>
+        <sp who="#gabinius">
+            <speaker> GABINIUS. </speaker>
+                        <l n="320"> Je ne m’attendais pas à cet excès d’honneur.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="321"> Votre fille est d’un sang que partout on révère ;</l>
+                        <l n="322"> Sa beauté, ses vertus, les services du père,</l>
+                        <l n="323"> Et l’amour de César, enfin tout m’a porté</l>
+                        <l n="324"> À tourner aujourd’hui mon choix de son côté.</l>
+                        <l n="325"> Je l’attends sur le Trône où son Amant l’appelle :</l>
+                        <l n="326"> Elle est digne de lui, comme il est digne d’elle :</l>
+                        <l n="327"> Demain Rome verra couronner leur amour ;</l>
+                        <l n="328"> Donnons à d’autres soins le reste de ce jour.</l>
+            <stage><em>À Galérius.</em></stage>
+                        <l n="329"> Si j’ai ceint votre front du sacré Diadème ;</l>
+                        <l n="330"> Si j’ai mis en vos mains la puissance suprême ;</l>
+                        <l n="331"> Vous l’avez mérité, César, par vos hauts faits,</l>
+                        <l n="332"> Et de tout l’Univers j’ai rempli les souhaits :</l>
+                        <l n="333"> Il croit revoir sous vous Rome encor triomphante ;</l>
+                        <l n="334"> C’est à vous maintenant à remplir son attente.</l>
+                        <l n="335"> Le plus fier ennemi, mais le moins craint de tous,</l>
+                        <l n="336"> Porte au cœur de l’État les plus dangereux coups.</l>
+                        <l n="337"> Aux yeux de tout le monde il paraît méprisable ;</l>
+                        <l n="338"> Mais pour moi, je le tiens d’autant plus redoutable,</l>
+                        <l n="339"> Qu’attaquant nos Autels, je lui vois sourdement</l>
+                        <l n="340"> De l’Empire et des Lois saper le fondement.</l>
+                        <l n="341"> Celui qui le premier se forma cette idée,</l>
+                        <l n="342"> Séduisit un vil peuple au fond de la Judée :</l>
+                        <l n="343"> Auguste le vit naître, et ne le craignit pas ;</l>
+                        <l n="344"> Tibère vit sa mort : mais après son trépas,</l>
+                        <l n="345"> Comme s’il était vrai de lui ce qu’on publie,</l>
+                        <l n="346"> Qu’il eût dans son tombeau repris une autre vie,</l>
+                        <l n="347"> Il eut des sectateurs, et ces audacieux</l>
+                        <l n="348"> Se vantent d’abolir nos Autels et nos Dieux.</l>
+                        <l n="349"> Ils ont, pour s’en flatter, dit-on, certains Oracles,</l>
+                        <l n="350"> Et leurs enchantements passent pour des miracles.</l>
+                        <l n="351"> Un seul pourtant m’étonne : une invisible main</l>
+                        <l n="352"> Semble les soutenir contre tout ordre humain.</l>
+                        <l n="353"> Je ne vois point leurs bras s’armer pour leur défense :</l>
+                        <l n="354"> Fidèles à l’État, soumis à ma puissance,</l>
+                        <l n="355"> Pour l’honneur de leur Secte ils aiment à souffrir,</l>
+                        <l n="356"> Et même, Pour l’accroître, ils cherchent à mourir,</l>
+                        <l n="357"> Je les mépriserais, mais ce qui m’épouvante,</l>
+                        <l n="358"> C’est de voir le succès répondre à leur attente</l>
+                        <l n="359"> Oui, César, plus la flamme, ou le fer en détruit,</l>
+                        <l n="360"> Et plus certain Démon d’abord en reproduit.</l>
+                        <l n="361"> J’en purge en vain les champs, les déserts et les villes ;</l>
+                        <l n="362"> Leur sang versé partout, rend leurs cendres fertiles ;</l>
+                        <l n="363"> Et mes propres bourreaux, employés vainement,</l>
+                        <l n="364"> De leur secte à mes yeux jettent le fondement.</l>
+                        <l n="365"> Leur puissance s’accroît, s’établit par la mienne,</l>
+                        <l n="366"> Et par mes propres mains Rome se fait Chrétienne,</l>
+                        <l n="367"> Mais j’en ai fait serment, et je le garderai ;</l>
+                        <l n="368"> Je quitterai l’Empire, ou je les détruirai :</l>
+                        <l n="369"> Quoi ! Rome n’aura donc, par les droits de la guerre,</l>
+                        <l n="370"> Étendu son pouvoir jusqu’aux bouts de la terre,</l>
+                        <l n="371"> Répandu tant de sang, employé tant de bras,</l>
+                        <l n="372"> Détrôné tant de Rois, renversé tant d’États,</l>
+                        <l n="373"> Bâti, de leurs débris, la grandeur qu’on admire,</l>
+                        <l n="374"> Que pour voir aux Chrétiens transporter son Empire ?</l>
+                        <l n="375"> Non, non, il faut, César, les détruire en tous lieux,</l>
+                        <l n="376"> Et venger à la fois notre Empire et nos Dieux.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="377"> Ce que je dois, Seigneur, aux Dieux, à la Patrie,</l>
+                        <l n="378"> Fera toujours le soin le plus cher de ma vie.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="379"> Pour ne perdre jamais ce juste sentiment,</l>
+                        <l n="380"> Rome exige de vous le secours du serment :</l>
+                        <l n="381"> Le pouvoir souverain, qu’avec vous je partage,</l>
+                        <l n="382"> En dépend ; en un mot, ce serment vous engage</l>
+                        <l n="383"> À condamner partout, sans pitié de leur sort,</l>
+                        <l n="384"> De quelque rang qu’ils soient, les Chrétiens à la mort,</l>
+                        <l n="385"> Pour les tenir en crainte, et contenter ma haine,</l>
+                        <l n="386"> Je tiens dans Rome exprès la Légion Thébaine,</l>
+                        <l n="387"> Et vous la trouverez, pour hâter leurs tourments,</l>
+                        <l n="388"> Toujours prête à voler à vos commandements.</l>
+                        <l n="389"> On nous attend au Temple, où ce serment terrible</l>
+                        <l n="390"> Va rendre à la pitié votre âme inaccessible ;</l>
+                        <l n="391"> À la face des Dieux il doit être prêté ;</l>
+                        <l n="392"> Notre auguste Sénat l’a lui-même dicté :</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="393"> Trop honoré, Seigneur, de suivre votre exemple,</l>
+                        <l n="394"> Mon cœur impatient brûle d’aller au Temple,</l>
+                        <l n="395"> Résolu d’immoler, pour venger nos Autels,</l>
+                        <l n="396"> Tous les Chrétiens ensemble à nos Dieux immortels.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN, embrassant Galérius. </speaker>
+                        <l n="397"> Veuille le juste Ciel, secondant votre zèle,</l>
+                        <l n="398"> Exterminer enfin cette Secte infidèle !</l>
+                        <l n="399"> Et plus heureux que moi, quelque jour puissiez-vous</l>
+                        <l n="400"> Voir le dernier Chrétien expirer sous vos coups !</l>
+            <stage><em>À l’Impératrice.</em></stage>
+                        <l n="401"> Pour prêter le serment que Rome veut prescrire</l>
+                        <l n="402"> À tous ceux qu’à présent elle élève à l’Empire,</l>
+                        <l n="403"> Le Souverain Pontife attend Galérius ;</l>
+                        <l n="404"> Vous cependant, Madame, avec Gabinius,</l>
+                        <l n="405"> À l’hymen de César disposez Gabinie,</l>
+                        <l n="406"> Ordonnez-en la pompe et la cérémonie :</l>
+                        <l n="407"> Et que Rome, en faveur de ce jour trop heureux,</l>
+                        <l n="408"> Recommence partout les fêtes et ses jeux,</l>
+                        <l n="409"> Allons, César.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#séréna">
+            <speaker> SÉRÉNA. </speaker>
+                        <l n="410"> Eh bien ! vous venez de l’entendre :</l>
+                        <l n="411"> C’en est fait, Gabinie, il est temps de vous rendre,</l>
+                        <l n="412"> L’orage qui grossit va bientôt éclater,</l>
+                        <l n="413"> Par l’horrible serment que César va prêter.</l>
+                        <l n="414"> Mon trop barbare Epoux, lorsque l’âge le glace,</l>
+                        <l n="415"> Las de persécuter, lui fait prendre sa place.</l>
+                        <l n="416"> Prenez la mienne. Hélas ! autant que je l’ai pu,</l>
+                        <l n="417"> J’ai contre ses fureurs sans cesse combattu :</l>
+                        <l n="418"> Mais enfin sur son cœur je sens mon impuissance ;</l>
+                        <l n="419"> Mon règne va finir, et le vôtre commence ;</l>
+                        <l n="420"> Vous pourrez sur César, ce que j’ai pu sur lui ;</l>
+                        <l n="421"> Quand je manque aux Chrétiens, prêtez-leur votre appui :</l>
+                        <l n="422"> Surmontez les raisons dont votre âme s’étonne ;</l>
+                        <l n="423"> Songez, en l’épousant, que le Ciel vous l’ordonne ;</l>
+                        <l n="424"> Qu’il attend ce secours de vos naissains attraits.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="425"> Moi, j’irais, au mépris des serments que j’ai faits,</l>
+                        <l n="426"> De fuir l’engagement d’un époux Infidèle,</l>
+                        <l n="427"> Envers nos saintes Lois me rendre criminelle !</l>
+                        <l n="428"> Dans l’espoir incertain d’empêcher de périr</l>
+                        <l n="429"> Ceux que le Ciel, sans nous, saura bien secourir !</l>
+                </sp>
+        <sp who="#séréna">
+            <speaker> SÉRÉNA. </speaker>
+                        <l n="430"> Oui : mais il veut souvent que ses ennemis mêmes</l>
+                        <l n="431"> Soient les exécuteurs de ses ordres suprêmes :</l>
+                        <l n="432"> La foudre va partir, le danger est pressant :</l>
+                        <l n="433"> Songez combien de peuple, en secret gémissant,</l>
+                        <l n="434"> Tout prêt d’être égorgé, dans ses tristes alarmes,</l>
+                        <l n="435"> Présente au Ciel ses vœux, ses soupirs, et ses larmes ;</l>
+                        <l n="436"> Que de sang va couler, si par un prompt secours,</l>
+                        <l n="437"> Des persécutions vous n’arrêtez le cours.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="438"> Vous ne me dites rien, mon Père ?</l>
+                </sp>
+        <sp who="#gabinius">
+            <speaker> GABINIUS. </speaker>
+                        <l n="439"> Hélas ! que dire ?</l>
+                        <l n="440"> Vous perdez les Chrétiens en refusant l’Empire :</l>
+                        <l n="441"> Et si vous consentez à ce glorieux choix,</l>
+                        <l n="442"> Pour sauver les Chrétiens, vous violez leurs Lois.</l>
+                        <l n="443"> J’ose dire encore plus ; Galérius vous aime :</l>
+                        <l n="444"> Mais tout César qu’il est, Galérius lui-même,</l>
+                        <l n="445"> Quand de votre ferment vous briserez les nœuds,</l>
+                        <l n="446"> Et que vous répondrez au plus doux de ses vœux ;</l>
+                        <l n="447"> Lui-même, trop lié d’un serment exécrable,</l>
+                        <l n="448"> Ne saurait aux Chrétiens se rendre favorable ;</l>
+                        <l n="449"> Il se perdrait sans doute, adoucissant leur sort.</l>
+                        <l n="450"> Esclave du serment qui les livre à la mort,</l>
+                        <l n="451"> Il se verra forcé, par un pouvoir suprême,</l>
+                        <l n="452"> De tout sacrifier, vous, ma fille, et moi-même.</l>
+                </sp>
+        <sp who="#séréna">
+            <speaker> SÉRÉNA. </speaker>
+                        <l n="453"> Non, vous connaissez peu le faible des Amants.</l>
+                        <l n="454"> L’amour fait violer les plus sacrés serments ;</l>
+                        <l n="455"> Et les Dieux que César va jurer dans leur Temple,</l>
+                        <l n="456"> De serments violés lui fourniront l’exemple.</l>
+                        <l n="457"> Le sacré Marcellin[1], l’Oracle des Chrétiens,</l>
+                        <l n="458"> De votre engagement peur rompre les liens.</l>
+                        <l n="459"> Voyez l’idolâtrie en tous lieux triomphante,</l>
+                        <l n="460"> Et la vérité sainte à ses pieds gémissante,</l>
+                        <l n="461"> Cachant au fond des bois, et dans l’obscurité,</l>
+                        <l n="462"> De ses Mystères saints l’auguste majesté ;</l>
+                        <l n="463"> Le Monarque des Cieux, sans Temples sur la terre,</l>
+                        <l n="464"> Et les tristes Chrétiens, à qui tout fait la guerre,</l>
+                        <l n="465"> Chassés de toutes parts, haïs, persécutés,</l>
+                        <l n="466"> N’osant lever les yeux, en esclaves traités ;</l>
+                        <l n="467"> Sans qu’il leur soit permis, dans leur sombre misère,</l>
+                        <l n="468"> D’adorer en plein jour l’Auteur de la lumière ;</l>
+                        <l n="469"> Ah ! lorsque vous pouvez seule les secourir,</l>
+                        <l n="470"> Sans pitié, sans regret, les verrez-vous périr ?</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="471"> Moi, Madame ! Mon Père, hélas ! que dois-je faire ?</l>
+                </sp>
+        <sp who="#gabinius">
+            <speaker> GABINIUS. </speaker>
+                        <l n="472"> Ma fille, je me rends, lorsque je considère</l>
+                        <l n="473"> Quel serait le courroux d’un Amant Empereur,</l>
+                        <l n="474"> Dont l’amour méprisé se changeant en fureur,</l>
+                        <l n="475"> Verrait pour expier cette mortelle offense,</l>
+                        <l n="476"> Tous les Chrétiens du Monde en proie à sa vengeance ;</l>
+                        <l n="477"> Et sa main, qui fut eux ne peut que se venger,</l>
+                        <l n="478"> Peut être en l’acceptant, voudra les protéger.</l>
+                        <l n="479"> Quelle gloire pour vous, si vos soins secourables</l>
+                        <l n="480"> Adoucissent les maux de tant de misérables,</l>
+                        <l n="481"> Et que César, par vous au Seigneur amené,</l>
+                        <l n="482"> Soit le premier Chrétien qu’il aura couronné !</l>
+                        <l n="483"> Ses Oracles l’ont dit : Notre Rome Païenne,</l>
+                        <l n="484"> Sous des Césars Chrétiens un jour sera Chrétienne ;</l>
+                        <l n="485"> Et toujours Souveraine, en changeant de splendeur,</l>
+                        <l n="486"> Verra les Nations révérer sa grandeur.</l>
+                        <l n="487"> C’est ce que nos malheurs doivent enfin produire ;</l>
+                        <l n="488"> Et ce jour, ce grand jour, ma fille, est prêt à luire :</l>
+                        <l n="489"> Ne résistez donc plus à donner votre main :</l>
+                        <l n="490"> Si Dieu l’a résolu, vous résistez en vain.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="491"> Eh bien, vous le voulez ; il faut que j’obéisse</l>
+                        <l n="492"> Aux volontés d’un Père et d’une Impératrice ;</l>
+                        <l n="493"> Pourvu que Marcellin, que j’irai consulter,</l>
+                        <l n="494"> Me remette en état de les exécuter.</l>
+                </sp>
+        <sp who="#séréna">
+            <speaker> SÉRÉNA. </speaker>
+                        <l n="495"> Attendez donc César : commencez un ouvrage ;</l>
+                        <l n="496"> Qui des maux que je crains dissipera l’orage ;</l>
+                        <l n="497"> J’en réponds : Cependant, Seigneur, allons pourvoir</l>
+                        <l n="498"> Aux apprêts d’un hymen qui fait tout notre espoir.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#phénice">
+            <speaker> PHÉNICE. </speaker>
+                        <l n="499"> L’intérêt des chrétiens enfin vous a vaincue,</l>
+                        <l n="500"> Madame, à leurs raisons vous vous êtes rendue.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="501"> Oui, pourvu que César... je ne m’explique pas :</l>
+                        <l n="502"> Tu trembleras pour moi, lorsque tu le sauras</l>
+                        <l n="503"> Ne crois pas qu’avec lui, mon cœur d’intelligence,</l>
+                        <l n="504"> Cède à l’appas flatteur d’une douce espérance ;</l>
+                        <l n="505"> J’ai de plus grands desseins, Phénice ; enfin je veux</l>
+                        <l n="506"> Ou sauver les Chrétiens, ou périr avec eux.</l>
+                </sp>
+        <sp who="#phénice">
+            <speaker> PHÉNICE. </speaker>
+                        <l n="507"> Juste Ciel !</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="508"> Si j’osais te dire ma pensée :</l>
+                        <l n="509"> Je vais dans ton esprit passet pour insensées ;</l>
+                        <l n="510"> Mais enfin nous touchons à ce jour fortuné,</l>
+                        <l n="511"> Que le Ciel nous promet un Chrétien couronné ;</l>
+                        <l n="512"> Et, mon Père l’a dit, ce jour est prêt à luire :</l>
+                        <l n="513"> Ah ! par quel doux espoir me laissai je séduire !</l>
+                        <l n="514"> Je crois presque, Phénice, en voyant ses vertus,</l>
+                        <l n="515"> Que cet heureux Chrétien sera Galérius.</l>
+                        <l n="516"> Je te laisse trop voir jusqu’où va ma faiblesse ;</l>
+                        <l n="517"> Ne crois pas que ce soit l’effet de ma tendresse ;</l>
+                        <l n="518"> Attends, pour en juger, que je quitte ces lieux ;</l>
+                        <l n="519"> Laisse venir césar, tu me connaîtras mieux.</l>
+                </sp>
+        <sp who="#phénice">
+            <speaker> PHÉNICE. </speaker>
+                        <l n="520"> Avant que de le voir, ouvrez plutôt, Madame,</l>
+                        <l n="521"> Au sage Marcellin les secrets de votre âme :</l>
+                        <l n="522"> Tout le monde est au Temple, et vous pouvez sans bruit,</l>
+                        <l n="523"> Pour l’aller consulter, profiter de la nuit.</l>
+                        <l n="524"> Dans ce Palais désert que prétendez-vous faire ?</l>
+                        <l n="525"> Déjà le jour qui fuit, à peine nous éclaire ;</l>
+                        <l n="526"> César viendra, suivi d’une nombreuse Cour,</l>
+                        <l n="527"> Fatigué du tumulte et des soins de ce jour ;</l>
+                        <l n="528"> Peut-être n’est-il pas encore prêt de s’y rendre,</l>
+                        <l n="529"> Et sans témoins ce soir, ne pourra vous entendre :</l>
+                        <l n="530"> Madame, croyez-moi, différez à demain.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="531"> Eh bien, commençons donc par revoir Marcellin ;</l>
+                        <l n="532"> Allons.</l>
+                </sp>
+        <sp who="#phénice">
+            <speaker> PHÉNICE. </speaker>
+                        <l n="533"> Camille sort de chez l’Impératrice.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="534"> La nuit nous favorise ; évitons-la, Phénice.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="535"> Julie, as-tu compris ses frivoles raisons ?</l>
+                </sp>
+        <sp who="#julie">
+            <speaker> JULIE. </speaker>
+                        <l n="536"> Ce qu’elle vous a dit confirme mes soupçons.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="537"> Cruelle sœur, hélas ! que viens-tu de me dire ?</l>
+                        <l n="538"> Quels malheurs prévois-tu ? la perte de l’Empire ?</l>
+                        <l n="539"> Mais quoi de plus affreux à mes tristes regards,</l>
+                        <l n="540"> Que ma Rivale assise au trône des Césars,</l>
+                        <l n="541"> Et d’un ingrat que j’aime, à mes yeux adorée,</l>
+                        <l n="542"> Tandis que je serais seule désespérée !</l>
+                        <l n="543"> Quel charme l’a réduit : quel Démon en ce jour</l>
+                        <l n="544"> Brise tous les liens du sang et de l’amour ?</l>
+                        <l n="545"> Julie, c’en est fait, je ne veux plus l’entendre.</l>
+                        <l n="546"> Mais, toi-même, dis-moi, que voulais-tu m’apprendre ?</l>
+                </sp>
+        <sp who="#julie">
+            <speaker> JULIE. </speaker>
+                        <l n="547"> Madame, Gabinie en secret ce matin,</l>
+                        <l n="548"> A consulté longtemps le Chrétien Marcellin.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="549"> Le Chrétien Marcellin, Ciel ! consulté par elle !</l>
+                </sp>
+        <sp who="#julie">
+            <speaker> JULIE. </speaker>
+                        <l n="550"> Ceux mêmes qui l’ont vu, m’ont dit cette nouvelle</l>
+                        <l n="551"> C’est celui des Chrétiens, vous le pouvez savoir,</l>
+                        <l n="552"> Dont la noire science a le plus de pouvoir.</l>
+                        <l n="553"> On ne peut l’arrêter, quoique l’Empereur fasse ;</l>
+                        <l n="554"> Et je crois sûrement, voyant ce qui se passe,</l>
+                        <l n="555"> Que pour rompre aujourd’hui les plus sacrés liens,</l>
+                        <l n="556"> Gabinie a recours aux charmes des Chrétiens.</l>
+                        <l n="557"> Oui, ce prompt changement, s’il faut que je m’explique,</l>
+                        <l n="558"> Ne peut être l’effet que d’un charme magique :</l>
+                        <l n="559"> Les Chrétiens l’ont donné : son funeste poison</l>
+                        <l n="560"> A changé tous les cœurs, et troublé leur raison ;</l>
+                        <l n="561"> Rome voit tous les jours, qu’à la force terrible</l>
+                        <l n="562"> De leurs enchantements, il n’est rien d’impossible.</l>
+                        <l n="563"> Tantôt, en un instant, nous leur voyons guérir</l>
+                        <l n="564"> Ceux que tout l’art humain ne peut plus secourir ;</l>
+                        <l n="565"> Et tantôt, en des yeux fermés dès la naissance,</l>
+                        <l n="566"> Des organes éteints réparer l’impuissance.</l>
+                        <l n="567"> Des temps et des saisons ils renversent les lois ;</l>
+                        <l n="568"> La Nature tremblante obéit à leur voix ;</l>
+                        <l n="569"> Tout leur cède : la Mort, qui n’écoute personne,</l>
+                        <l n="570"> Relâche de ses droits, quand un Chrétien l’ordonne,</l>
+                        <l n="571"> Oui, puisque Gabinie a pu les consulter...</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="572"> Ah ! Julie, il suffit : je n’en saurais douter.</l>
+                        <l n="573"> Voilà donc ton pouvoir, odieuse Rivale !</l>
+                        <l n="574"> Tu m’opposes en vain la puissance infernale.</l>
+                        <l n="575"> Les témoins qui l’ont vu, ne pourront le celer :</l>
+                        <l n="576"> Allons : je veux les voir, et les faire parler,</l>
+                        <l n="577"> D’autres chez Marcellin auront vu Gabinie ;</l>
+                        <l n="578"> Si je puis l’en convaincre, il y va de sa vie.</l>
+                        <l n="579"> Allons creuser à fonds un si noir attentat ;</l>
+                        <l n="580"> Je veux l’en accuser moi-même en plein Sénat ;</l>
+                        <l n="581"> Et si, pour la sauver, le traître qui m’offense,</l>
+                        <l n="582"> Ose, malgré son crime, embrasser sa défense,</l>
+                        <l n="583"> Aux charmes des Chrétiens, qui troublent sa raison,</l>
+                        <l n="584"> J’opposerai le feu, le fer et le poison.</l></div></div>
+           <div type="act" xml:id="4">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#gabinius">
+            <speaker> GABINIUS. </speaker>
+                        <l n="585"> Nous sommes découverts ; la superbe Camille</l>
+                        <l n="586"> Soulève contre vous le Sénat et la Ville ;</l>
+                        <l n="587"> Elle a certain secret, dit-elle, à révéler,</l>
+                        <l n="588"> Et ce n’est qu’au Sénat qu’elle prétend parler.</l>
+                        <l n="589"> Mais, ma fille, bientôt nous allons tout apprendre,</l>
+                        <l n="590"> Puisque l’Impératrice en ce lieu doit se rendre ;</l>
+                        <l n="591"> Et sans doute elle veut nous en entretenir,</l>
+                        <l n="592"> Puisqu’ici l’un et l’autre elle nous fait venir.</l>
+                        <l n="593"> Dans le temps que César vous appelle à l’Empire,</l>
+                        <l n="594"> Contre vos jours, hélas ! peut-être l’on conspire,</l>
+                        <l n="595"> Et je crains justement, qu’un funeste retour</l>
+                        <l n="596"> Ne change en triste deuil la pompe de ce jour.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="597"> Je quitterai sans peine et l’Empire et ma vie ;</l>
+                        <l n="598"> C’est ce que de moins cher à Dieu je sacrifie ;</l>
+                        <l n="599"> Il le sait : à ses yeux on ne peut rien celer,</l>
+                        <l n="600"> Et je suis préparée à lui tout immoler.</l>
+                        <l n="601"> Qu’on me cite au Sénat, je suis prête à répondre ;</l>
+                        <l n="602"> Camille n’aura pas de peine à me confondre,</l>
+                        <l n="603"> Et je vous avouerai, Seigneur, qu’avec regret</l>
+                        <l n="604"> On me fait consentir de garder le secret.</l>
+                        <l n="605"> Que craignons-nous ? parlons, confessons qui nous sommes.</l>
+                        <l n="606"> Quand on sert le vrai Dieu, doit-on craindre les hommes ?</l>
+                        <l n="607"> Le mensonge se doit couvrir d’obscurité ;</l>
+                        <l n="608"> Mais on doit faire au jour briller la vérité,</l>
+                </sp>
+        <sp who="#phénice">
+            <speaker> PHÉNICE. </speaker>
+                        <l n="609"> On vient.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="610"> Eh bien, Madame, il n’est plus temps de feindre ;</l>
+                        <l n="611"> Nous sommes découverts.</l>
+                </sp>
+        <sp who="#séréna">
+            <speaker> SÉRÉNA. </speaker>
+                        <l n="612"> J’avais lieu de le craindre ;</l>
+                        <l n="613"> Et, prête à voir la foudre éclater à mes yeux,</l>
+                        <l n="614"> J’allais me déclarer, et braver les faux Dieux ;</l>
+                        <l n="615"> Mais j’ai tout su : Camille a rompu le silence :</l>
+                        <l n="616"> On n’a de nos secrets aucune connaissance :</l>
+                        <l n="617"> L’on dit que par un charme emprunté des Chrétiens,</l>
+                        <l n="618"> Vous avez attiré César dans vos liens ;</l>
+                        <l n="619"> Voilà ce qu’au Sénat ma sœur voulait apprendre ;</l>
+                        <l n="620"> Mais j’ai su qu’il avait refusé de l’entendre.</l>
+                        <l n="621"> Ainsi rien ne s’oppose à nos premiers desseins,</l>
+                        <l n="622"> Et la cause du Ciel est encore en vos mains.</l>
+                        <l n="623"> Vous allez voir César : il vous cherche, et j’espère</l>
+                        <l n="624"> Qu’avec lui vous prendrez un conseil salutaire.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="625"> J’aurais crû, qu’il serait pour nous plus glorieux,</l>
+                        <l n="626"> D’aller nous déclarer ennemis des faux Dieux ;</l>
+                        <l n="627"> Cependant j’ai promis ; je ne puis m’en défendre,</l>
+                        <l n="628"> Madame, à vos conseils je suis prête à me rendre.</l>
+                        <l n="629"> Je ne vous tairai point que je prétends savoir,</l>
+                        <l n="630"> Sur le cœur de César quel sera mon pouvoir ;</l>
+                        <l n="631"> Car enfin il saura comme il faut qu’il m’obtienne :</l>
+                        <l n="632"> Je porte un cœur Romain dans une âme Chrétienne :</l>
+                        <l n="633"> Il ne me juge pas indigne de sa foi ;</l>
+                        <l n="634"> Et je saurai dans peu, s’il est digne de moi,</l>
+                </sp>
+        <sp who="#séréna">
+            <speaker> SÉRÉNA. </speaker>
+                        <l n="635"> Cachez-lui nos secrets avec un soin extrême.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="636"> Ce que je lui dirai, je l’ignore moi-même ;</l>
+                        <l n="637"> Et quand je le verrai, Madame, il ne saura</l>
+                        <l n="638"> Que ce que le Ciel même alors m’inspirera.</l>
+                </sp>
+        <sp who="#séréna">
+            <speaker> SÉRÉNA. </speaker>
+                        <l n="639"> C’est assez : moi je vais, sûre de votre zèle,</l>
+                        <l n="640"> Annoncer aux Chrétiens cette heureuse nouvelle.</l>
+                        <l n="641"> Sortons, Seigneur ; César va se rendre en ce lieu,</l>
+                        <l n="642"> Il n’est pas à propos qu’il nous y trouve. Adieu.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#phénice">
+            <speaker> PHÉNICE. </speaker>
+                        <l n="643"> Vous allez mal répondre à ce que l’on espère.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="644"> Non : ce que j’ai promis, je suis prête à le faire,</l>
+                        <l n="645"> Si César, dans l’espoir de s’unir avec moi,</l>
+                        <l n="646"> Au prix que je t’ai dit, ose accepter ma foi.</l>
+                </sp>
+        <sp who="#phénice">
+            <speaker> PHÉNICE. </speaker>
+                        <l n="647"> Vous m’avez confié ce secret de votre âme :</l>
+                        <l n="648"> J’en ai frémi pour vous ; pensez-y bien, Madame :</l>
+                        <l n="649"> Il en est encor temps. Ciel, qu’allez vous tenter !</l>
+                        <l n="650"> Loin de gagner César, vous allez l’irriter.</l>
+                        <l n="651"> Ce dessein aux Chrétiens va devenir funeste.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="652"> Dieu l’a mis dans mon sein ; la main fera le reste.</l>
+                </sp>
+        <sp who="#phénice">
+            <speaker> PHÉNICE. </speaker>
+                        <l n="653"> Ah ! vous allez périr.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="654"> Qu’importe, si ma mort</l>
+                        <l n="655"> Des Chrétiens opprimés change le triste sort ?</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="656"> Je vous cherche, Madame : enfin tout m’est propice ;</l>
+                        <l n="657"> L’Empereur, le Sénat, Rome, l’Impératrice :</l>
+                        <l n="658"> Tout conspire en ce jour à mes félicités ;</l>
+                        <l n="659"> Mais j’ignore, Madame, encor vos volontés.</l>
+                        <l n="660"> Je vous ai déclaré le bonheur où j’aspire :</l>
+                        <l n="661"> Bonheur que je préfère aux grandeurs de l’Empire ;</l>
+                        <l n="662"> Et je viens, en tremblant, apprendre à vos genoux,</l>
+                        <l n="663"> Si le cœur de César est indigne de vous.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="664"> Quoi, Seigneur ! est-ce ainsi que votre cœur oublie</l>
+                        <l n="665"> Que c’est un Empereur qui parle à Gabinie ?</l>
+                        <l n="666"> Vous suis-je bien connue ?</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="667"> Ah ! j’atteste les Dieux,</l>
+                        <l n="668"> Que si j’ai souhaité ce titre glorieux ;</l>
+                        <l n="669"> Que si pour l’acquérir par le sort de la guerre,</l>
+                        <l n="670"> J’ai porté mes exploits jusqu’aux bouts de la terre ;</l>
+                        <l n="671"> De mes jours prodigués, de tant d’illustres coups,</l>
+                        <l n="672"> Le prix le plus charmant, c’est l’espoir d’être à vous.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="673"> Je me connais, Seigneur, et votre amour m’étonne ;</l>
+                        <l n="674"> Cependant savez-vous à quel prix je me donne ?</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="675"> Ah ! parlez, commandez : pour un bien si charmant,</l>
+                        <l n="676"> Je vous accorde tout, demandez seulement.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="677"> Puisque vous le voulez, faites qu’on se retire.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="678"> Éloignez-vous.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE, à part. </speaker>
+                        <l n="679"> Faisons ce que le Ciel m’inspire.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="680"> Puisqu’avec vous, Seigneur, je dois unir mon sort,</l>
+                        <l n="681"> Du plus grand des Romains j’attends un grand effort.</l>
+                        <l n="682"> Mais connaissez mon cœur : sans la grâce où j’aspire,</l>
+                        <l n="683"> Non, ma bouche jamais n’aurait osé le dire :</l>
+                        <l n="684"> Je vous aime, César.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="685"> Ah ! Madame !...</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="686"> Arrêtez :</l>
+                        <l n="687"> Peut-être que mes vœux vont être rebutés :</l>
+                        <l n="688"> Peut-être cet amour, qui pour vous a des charmes,</l>
+                        <l n="689"> Vous causera bientôt de cruelles alarmes :</l>
+                        <l n="690"> De quelque amour, César, que vous soyez épris,</l>
+                        <l n="691"> Vous allez acheter ma main à trop haut prix.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="692"> Madame, commandez, je vous le dis encore ;</l>
+                        <l n="693"> Osez tout espérer d’un cœur qui vous adore.</l>
+                        <l n="694"> Quel que soit cet effort, je le trouverai doux ;</l>
+                        <l n="695"> Il n’est rien que ce cœur n’entreprenne pour vous ;</l>
+                        <l n="696"> Je n’en excepte rien : parlez ; daignez le dire ;</l>
+                        <l n="697"> Je mets tout à vos pieds, l’Empereur et l’Empire.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="698"> Eh bien, si vous m’aimez, pour répondre à vos vœux,</l>
+                        <l n="699"> Et pouvoir être à vous, voici cc que je veux.</l>
+                        <l n="700"> Je ne puis plus, César, vous cacher que mon Père</l>
+                        <l n="701"> À des amis sans nombre accablés de misère.</l>
+                        <l n="702"> Ses amis sont les miens : je demande avec lui,</l>
+                        <l n="703"> Que de ces malheureux vous vous rendiez l’appui ;</l>
+                        <l n="704"> Que vous les chérissiez, et que pour leur défense,</l>
+                        <l n="705"> Vous armiez, s’il le faut, toute votre puissance.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="706"> Quoi, Madame, voilà cet effort, ce haut prix,</l>
+                        <l n="707"> Dont un cœur tout à vous devait être surpris !</l>
+                        <l n="708"> Je sais que l’Empereur jaloux de sa puissance,</l>
+                        <l n="709"> Contre tous vos parents exerça sa vengeance ;</l>
+                        <l n="710"> Je sais que loin de Rome, eux et tous vos amis,</l>
+                        <l n="711"> Avec trop de fureur par lui furent bannis ;</l>
+                        <l n="712"> Et que jusqu’à ce jour, excepté votre Père,</l>
+                        <l n="713"> Tous gémissent encor dans leur longue misère ;</l>
+                        <l n="714"> Mais enfin, quels que soient vos amis et les siens,</l>
+                        <l n="715"> Madame, ils me seront bien plus chers que les miens.</l>
+                        <l n="716"> Oui, je vous le promets ; oui, si pour leur défense,</l>
+                        <l n="717"> Ils ont jamais besoin de toute ma puissance ;</l>
+                        <l n="718"> Contre tout l’Univers, prompt à les secourir,</l>
+                        <l n="719"> Je périrai plutôt, que de les voir périr.</l>
+                        <l n="720"> C’est peu faire pour vous, demandez davantage.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="721"> Pourquoi m’en donnez-vous vous-même le courage ?</l>
+                        <l n="722"> Puisque vous promettez de servir mes amis,</l>
+                        <l n="723"> Promettez-moi de perdre aussi mes ennemis ;</l>
+                        <l n="724"> Que vous les détruirez, Seigneur, dans tout l’Empire :</l>
+                        <l n="725"> Voilà, pour être à vous, tout ce que je désire.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="726"> Vos ennemis ! l’objet de mon juste courroux !</l>
+                        <l n="727"> Oui, je vous le promets, je les détruirai tous.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="728"> Eh bien, à ce prix-là, je consens qu’on m’obtienne ;</l>
+                        <l n="729"> Mais apprends qui je suis, César : je suis Chrétienne,</l>
+                        <l n="730"> Va servir les Chrétiens, ce sont là mes amis ?</l>
+                        <l n="731"> Va détruire tes Dieux, ce sont mes ennemis !</l>
+                        <l n="732"> Tu te tais à présent, et t’étonnes peut-être,</l>
+                        <l n="733"> Amant audacieux, qui croyais me connaître :</l>
+                        <l n="734"> Je te l’avais bien dit, que ton amour surpris,</l>
+                        <l n="735"> Trouverait que ma main serait à trop haut prix.</l>
+                        <l n="736"> Tu l’as promis pourtant ; hier tu promis encore,</l>
+                        <l n="737"> De livrer à la mort ceux pour qui je t’implore :</l>
+                        <l n="738"> C’est à toi de choisir : tu vois ; César, tu vois</l>
+                        <l n="739"> Sans doute à quoi t’engage ou l’un ou l’autre choix.</l>
+                        <l n="740"> Si tu fais le premier, il faut que tu m’immoles :</l>
+                        <l n="741"> Si le dernier te plaît, va briser tes Idoles :</l>
+                        <l n="742"> L’un me promet le Trône, et l’autre le tombeau ;</l>
+                        <l n="743"> L’un te rend mon époux, et l’autre mon bourreau ;</l>
+                        <l n="744"> Choisis, César, choisis ; tu me vois toute prête</l>
+                        <l n="745"> À te donner d’abord ou ma main, ou ma tête.</l>
+                        <l n="746"> Mon choix dépend de toi : songe à faire le tien ;</l>
+                        <l n="747"> Je te laisse y penser, et ne te dis plus rien.</l>
+                        <l n="748"> Je vais t’attendre, adieu : pèse bien toutes choses ;</l>
+                        <l n="749"> Après, tu peux venir m’épouser, si tu l’oses.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS </speaker>
+                        <l n="750"> Quel coup de foudre ! ô Ciel ! mon cœur en a tremblé.</l>
+                        <l n="751"> Grands Dieux ! qui, comme moi, n’en serait accablé ?</l>
+                        <l n="752"> Gabinie est Chrétienne ! elle fuit, la cruelle.</l>
+                        <l n="753"> Mais quoi ! mon lâche cœur vole encore après elle ?</l>
+                        <l n="754"> Traître ! va donc briser les Autels de tes Dieux :</l>
+                        <l n="755"> Parjure ! va trahir et la Terre et les Cieux,</l>
+                        <l n="756"> Et par ccs attentats, commence ton Empire,</l>
+                        <l n="757"> Lâche Empereur... Non, non, mon cœur en vain soupire ;</l>
+                        <l n="758"> Immolons à ma gloire un amour insensé :</l>
+                        <l n="759"> Arrachons de ce cœur le trait qui l’a percé ;</l>
+                        <l n="760"> Portons le coup mortel à cette Secte impie ;</l>
+                        <l n="761"> Périssent les Chrétiens, périsse Gabinie.</l>
+                        <l n="762"> Gabinie ! Ah grands Dieux ! au-devant de mes coups,</l>
+                        <l n="763"> Quelle chère victime, hélas, présentez-vous !</l>
+                        <l n="764"> Gabinie ! ah ! souffrez que je lui fasse grâce.</l>
+                        <l n="765"> Mais elle ne veut pas, grands Dieux ! qu’on vous en fasse.</l>
+                        <l n="766"> Inhumaine ! à vos lois, eh bien, je me rendrai ;</l>
+                        <l n="767"> Exceptez-en les Dieux, je vous obéirai.</l>
+                        <l n="768"> Dieux cruels ! je tiendrai le serment qui me lie ;</l>
+                        <l n="769"> Je vais vous obéir, exceptez Gabinie.</l>
+                        <l n="770"> Que résoudre ? que faire ? à quel choix m’en tenir ?</l>
+                        <l n="771"> Malheureux ! je ne puis pardonner, ni punir.</l>
+                        <l n="772"> Cruels engagements ! auquel des deux se rendre ?</l>
+                        <l n="773"> Dieux ! Gabinie ! amour ! devoir ! Quel parti prendre ?</l>
+                        <l n="774"> Mais qui vois-je ? Fuyons.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="775"> Fui ; mais ne pense pas,</l>
+                        <l n="776"> Traître, que pour te voir j’adresse ici mes pas ;</l>
+                        <l n="777"> Je ne te cherche point. Va, sors, cours, fui, perfide ;</l>
+                        <l n="778"> Ma Rivale t’attend ; et l’Enfer, qui te guide,</l>
+                        <l n="779"> Du charme empoisonné qu’il a pour toi produit,</l>
+                        <l n="780"> T’invite ce jour même à recueillir le fruit.</l>
+                        <l n="781"> Fui donc. Qui te retient ? à quoi bon te contraindre ?</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="782"> Ah, Madame ! quel temps prenez-vous pour vous plaindre !</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="783"> Eh quoi ! le digne objet qui vient de te charmer,</l>
+                        <l n="784"> Ne calme pas les soins qui viennent t’alarmer ?</l>
+                        <l n="785"> Mais on saura bientôt dissiper ta tristesse ;</l>
+                        <l n="786"> Déjà pout ton hymen tout le monde s’empresse :</l>
+                        <l n="787"> D’ici même j’entends les cris, qui jusqu’aux Cieux</l>
+                        <l n="788"> Flévent Gabinie, et le vengeur des Dieux ;</l>
+                        <l n="789"> Tandis qu’impunément je suis seule outragée.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="790"> Ah ! vous n’êtes, hélas ! déjà que trop vengée.</l>
+                        <l n="791"> Du sort le plus cruel j’éprouve le courroux,</l>
+                        <l n="792"> Et je suis mille fois plus à plaindre que vous.</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="793"> Plus à plaindre que moi ! que serait-ce, Julie ?</l>
+                        <l n="794"> Plus à plaindre, dis-tu ? Tout flatte ton envie :</l>
+                        <l n="795"> D’où peut naître en un cœur où règne tant d’espoir,</l>
+                        <l n="796"> L’affreux accablement où je viens de le voir ?</l>
+                        <l n="797"> Ce prodige retient ma haine suspendue ;</l>
+                        <l n="798"> Et surprise du coup dont je suis confondue,</l>
+                        <l n="799"> Du plus juste courroux, je passe à la terreur,</l>
+                        <l n="800"> Et mon étonnement égale ma fureur.</l>
+                        <l n="801"> Ma Rivale sortait agitée.</l>
+                </sp>
+        <sp who="#julie">
+            <speaker> JULIE. </speaker>
+                        <l n="802"> Oui, Madame.</l>
+                        <l n="803"> J’augure bien pour vous, du trouble de leur âme :</l>
+                        <l n="804"> J’ignore leurs secrets ; mais je me trompe fort,</l>
+                        <l n="805"> Ou quelque grand malheur vient de troubler leur sort.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="806"> Ah ! si dans ces secrets, hors de ma connaissance,</l>
+                        <l n="807"> Je trouvais de quoi faire éclater ma vengeance !</l>
+                </sp>
+        <sp who="#julie">
+            <speaker> JULIE. </speaker>
+                        <l n="808"> Peut être que Maxime a su les découvrir ;</l>
+                        <l n="809"> Il vous doit sa fortune, il cherche à vous servir :</l>
+                        <l n="810"> Je l’aperçois qui vient, et j’attends de son zèle,</l>
+                        <l n="811"> Madame, qu’il vous porte une heureuse nouvelle.</l></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="812"> Eh bien !</l>
+                </sp>
+        <sp who="#maxime">
+            <speaker> MAXIME. </speaker>
+                        <l n="813"> J’ai tout appris, Madame ; et plus discret,</l>
+                        <l n="814"> À tout autre qu’à vous je tairais ce secret.</l>
+                        <l n="815"> Cette nuit, qui l’eût crû ? Gabinie est allée</l>
+                        <l n="816"> Où souvent des Chrétiens on surprend l’assemblée ;</l>
+                        <l n="817"> Au fond d’un antre obscur, au pied de l’Aventin,</l>
+                        <l n="818"> Où déjà l’attendait le fameux Marcellin.</l>
+                        <l n="819"> Là ne soupçonnant pas que l’on pût les entendre,</l>
+                        <l n="820"> Ils ont parlé tout haut : je viens de tout apprendre</l>
+                        <l n="821"> D’un esclave affidé, qui feint d’être Chrétien,</l>
+                        <l n="822"> Caché, pour écouter leur secret entretien.</l>
+                        <l n="823"> Mais je crains que quelqu’un...</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="824"> Parles avant qu’on vienne.</l>
+                </sp>
+        <sp who="#maxime">
+            <speaker> MAXIME. </speaker>
+                        <l n="825"> Pour tout dire en un mot, Gabinie est Chrétienne.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="826"> Dieux !</l>
+                </sp>
+        <sp who="#julie">
+            <speaker> JULIE. </speaker>
+                        <l n="827"> Ô Ciel !</l>
+                </sp>
+        <sp who="#maxime">
+            <speaker> MAXIME. </speaker>
+                        <l n="828"> Et César, qui sortait de ces lieux,</l>
+                        <l n="829"> Sans doute a pénétré ce secret odieux ;</l>
+                        <l n="830"> Il en frémit.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="831"> Voilà l’ennui qui le dévore :</l>
+                        <l n="832"> Au mépris de nos Dieux, le perfide l’adore.</l>
+                        <l n="833"> Vois, Julie, à quel point elle a su le charmer ;</l>
+                        <l n="834"> Il sait qu’elle est Chrétienne, et peut encor l’aimer.</l>
+                        <l n="835"> L’Empereur le sait-il ?</l>
+                </sp>
+        <sp who="#maxime">
+            <speaker> MAXIME. </speaker>
+                        <l n="836"> Non, Madame, il l’ignore ;</l>
+                        <l n="837"> Et hors nous, à la Cour nul ne le sait encore.</l>
+                        <l n="838"> Il doit aller au Temple, et croit voir achever</l>
+                        <l n="839"> Un hymen que les Dieux ne sauraient approuver</l>
+                        <l n="840"> Voilà ce que j’ai su, j’ai couru vous l’apprendre.</l>
+                        <l n="841"> Mais encor ce secret ne doit pas se répandre.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="842"> Je tairai ce qu’il faut, Maxime, et c’est assez.</l>
+                        <l n="843"> Enfin, Julie, enfin mes vœux sont exaucés.</l>
+                        <l n="844"> Allons la dénoncer, et perdons qui m’offense ;</l>
+                        <l n="845"> Lorsque tout me trahit, le Ciel prend ma défense ;</l>
+                        <l n="846"> Et j’ai, contre tous ceux qui m’osaient outrager,</l>
+                        <l n="847"> Et la cause des Dieux, et la mienne à venger.</l></div></div>
+           <div type="act" xml:id="5">
+           <head> ACTE IV </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="848"> Viens, suis-moi ; c’est ici que je le veux attendre.</l>
+                        <l n="849"> Ma sœur lui fait en vain refuser de m’entendre ;</l>
+                        <l n="850"> C’est ici son passage, ici je le verrai ;</l>
+                        <l n="851"> Il n’ira point au Temple, ou je lui parlerai.</l>
+                </sp>
+        <sp who="#julie">
+            <speaker> JULIE. </speaker>
+                        <l n="852"> Madame, il vient à nous.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN, dans le fond du Théâtre, sans voir Camille. </speaker>
+                        <l n="853"> Enfin cette journée</l>
+                        <l n="854"> Verra briller les feux d’un heureux hyménée ;</l>
+                        <l n="855"> Et j’espère, Carus, que ce jour attendu</l>
+                        <l n="856"> Me rendra le repos que mon âme a perdu.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="857"> Non, Seigneur, de l’hymen qui fait votre espérance,</l>
+                        <l n="858"> Gabinie est indigne, et le Ciel s’en offense.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN, à Camille. </speaker>
+                        <l n="859"> Le temps nous presse...</l>
+            <stage><em>À Carus.</em></stage>
+                        <l n="860"> Au Temple allez tout préparer,</l>
+                        <l n="861"> Carus ; on ne saurait plus longtemps différer,</l>
+                        <l n="862"> Et sans doute César est dans l’impatience,</l>
+                        <l n="863"> Que l’on tarde à remplir sa plus douce espérance.</l>
+                        <l n="864"> Allez, Carus.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="865"> Arrête : il n’est pas encor temps.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="866"> Qu’osez-vous entreprendre ? et qu’est ce que j’entends ?</l>
+            <stage><em>À Carus qui hésite à sortir.</em></stage>
+                        <l n="867"> Allez, vous dis je ; allez, que rien ne vous retienne.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE, à Carus qui s’en allait, et qui s’arrête. </speaker>
+                        <l n="868"> Eh bien, va dans le Temple attendre une Chrétienne :</l>
+                        <l n="869"> Va présenter ce monstre à nos Dieux immortels,</l>
+                        <l n="870"> D’un hymen sacrilège effrayer leurs Autels ;</l>
+                        <l n="871"> Va...</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="872"> Ce qu’elle nous dit, ô Ciel ! est-il croyable ?</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="873"> D’un mensonge, Seigneur, me croyez-vous capable ?</l>
+                        <l n="874"> Gabinie est Chrétienne, elle l’a déclare ;</l>
+                        <l n="875"> César en est instruit, le crime est avéré ;</l>
+                        <l n="876"> Et de la part des Dieux je demande sa vie.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="877"> Que l’on cherche César : amenez Gabinie.</l>
+                        <l n="878"> Ah ! je ne doute plus de son égarement :</l>
+                        <l n="879"> Je ne le vois que trop à votre étonnement.</l>
+                        <l n="880"> Vous le saviez, Carus : vous le saviez, Maxime :</l>
+                        <l n="881"> Pourquoi me cachiez-vous, l’un et l’autre, son crime ?</l>
+                </sp>
+        <sp who="#maxime">
+            <speaker> MAXIME. </speaker>
+                        <l n="882"> On attendait, Seigneur, qu’un heureux repentir,</l>
+                        <l n="883"> De ce funeste état pourrait la garantir.</l>
+                </sp>
+        <sp who="#carus">
+            <speaker> CARUS. </speaker>
+                        <l n="884"> Seigneur, n’en doutez point ; l’éclatant hyménée ;</l>
+                        <l n="885"> Qui doit avec César unir sa destinée,-</l>
+                        <l n="886"> La gloire, les plaisirs, sa prochaine grandeur,</l>
+                        <l n="887"> Sont de puissants motifs pour ramener un cœur.</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="888"> Non, non ; c’est se flatter, Seigneur, que de le croire :</l>
+                        <l n="889"> Il n’est grandeurs, plaisirs, tourments, mépris, ni gloire,</l>
+                        <l n="890"> (Et vous-même, Seigneur, vous le savez trop bien,)</l>
+                        <l n="891"> Qui dans Rome ait jamais pu changer un Chrétien.</l>
+                        <l n="892"> Ils triomphent de tout.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="893"> Oui, malgré ma puissance,</l>
+                        <l n="894"> J’en ai fait mille fois la triste expérience.</l>
+                        <l n="895"> Qu’allais-je faire ? ô Ciel ! quel Démon aujourd’hui,</l>
+                        <l n="896"> Ô Secte des Chrétiens ! te prête son appui ?</l>
+                        <l n="897"> J’allais en ce moment, sans l’avis de Camille,</l>
+                        <l n="898"> Dans le lit de César te donner un asile !</l>
+                        <l n="899"> Dans le lit de celui, que ma juste fureur</l>
+                        <l n="900"> A pris soin de choisir pour ton persécuteur !</l>
+                        <l n="901"> C’est ainsi que toujours, et de la même sorte,</l>
+                        <l n="902"> Tu tournes contre moi les coups que je te porte,</l>
+                        <l n="903"> Que tout ce que je fais pour triompher de toi,</l>
+                        <l n="904"> Tu le sais employer, pour triompher de moi.</l>
+                        <l n="905"> Aussi, qui le croirait ? dans la publique joie,</l>
+                        <l n="906"> À de noires frayeurs je suis le seul en proie :</l>
+                        <l n="907"> Tout tremble en ma présence ; et moi-même à mon tour,</l>
+                        <l n="908"> Je ne sais quoi m’alarme au milieu de ma Cour,</l>
+                        <l n="909"> J’ai pour me délivrer de ces frayeurs secrètes,</l>
+                        <l n="910"> Consulté de nos Dieux les sacrés Interprètes ;</l>
+                        <l n="911"> Immolé les Chrétiens en mille lieux divers,</l>
+                        <l n="912"> Et de leur sang impie inondé l’Univers ;</l>
+                        <l n="913"> Et, comme si les Dieux rejetaient ces victimes,</l>
+                        <l n="914"> Que tout ce que je fais fussent autant de crimes,</l>
+                        <l n="915"> Au faîte de l’Empire, et malgré mes efforts,</l>
+                        <l n="916"> Mon zèle envers les Dieux semble aigrir mes remords,</l>
+                        <l n="917"> Tandis que j’attendrai César et Gabinie,</l>
+                        <l n="918"> Différez les apprêts de la cérémonie :</l>
+                        <l n="919"> Déjà le peuple en foule au Temple s’est rendu :</l>
+                        <l n="920"> Allez dire, Carus, que tout est suspendu.</l>
+                        <l n="921"> Retirez-vous, Camille ; à l’aveu de son crime,</l>
+                        <l n="922"> Je ne veux pour témoins que César et Maxime.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="923"> Venez, on vous attend : le trouble où je vous vois,</l>
+                        <l n="924"> Ne m’annonce que trop que vous savez pourquoi.</l>
+                        <l n="925"> Celle donc que mon choix élevait à l’Empire,</l>
+                        <l n="926"> Celle pour qui César peut-être encor soupire,</l>
+                        <l n="927"> Se déclare Chrétienne, et vient d’abandonner</l>
+                        <l n="928"> Ces Dieux, ces mêmes Dieux, qui l’ailaient couronner !</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="929"> Ah ! Seigneur, qui l’eût crû ?</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="930"> Quoi ! vous l’aimez encore ?</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="931"> Je voudrais la haïr, Seigneur, et je l’adore.</l>
+                        <l n="932"> Mon cœur irrésolu, surpris, désespéré,</l>
+                        <l n="933"> Et d’horreur et d’amour tour à tout déchiré,</l>
+                        <l n="934"> Dans un objet si cher rencontrant une impie,</l>
+                        <l n="935"> Suit tantôt son devoir, et tantôt Gabinie ;</l>
+                        <l n="936"> Et souffre en cet état de plus cruels tourments,</l>
+                        <l n="937"> Que tous ceux qu’aux Chrétiens ont voués mes serments.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="938"> Vous regrettez des Dieux la mortelle ennemie !</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="939"> Je voudrais à nos Dieux ramener Gabinie.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="940"> Non, non, pour les Chrétiens il n’est plus de retour.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="941"> Vous avez tout tenté, Seigneur, tentez l’amour.</l>
+                        <l n="942"> D’ailleurs vous le savez, et j’oserai le dire,</l>
+                        <l n="943"> Les flots de tant de sang affaiblissent l’Empire ;</l>
+                        <l n="944"> Et, si l’on pousse à bout ce qu’on veut achever,</l>
+                        <l n="945"> On va perdre l’État, en voulant le sauver.</l>
+                        <l n="946"> Au culte de nos Dieux les Chrétiens sont rebelles ;</l>
+                        <l n="947"> Cependant avons-nous des Sujets plus fideles ?</l>
+                        <l n="948"> De leurs folles erreurs nos Dieux sont offensés ;</l>
+                        <l n="949"> Mais quel tort à l’État ont fait ces insensés ?</l>
+                        <l n="950"> Que nous font les Chrétiens que nous fait leur croyance ?</l>
+                        <l n="951"> Rien peut-il de leurs mœurs altérer l’innocence ?</l>
+                        <l n="952"> Ne les voyons-nous pas, malheureux, et soumis,</l>
+                        <l n="953"> Bénir qui les outrage, aimer leurs ennemis ;</l>
+                        <l n="954"> Et parmi les tourments, dont l’horreur nous étonne,</l>
+                        <l n="955"> Respecter en mourant la main qui les ordonne ?</l>
+                        <l n="956"> Ah ! peut-être, Seigneur, voulant les tourmenter,</l>
+                        <l n="957"> On enflamme leur zèle, au lieu de l’arrêter.</l>
+                        <l n="958"> Peut-être, relâchant de ces rigueurs extrêmes,</l>
+                        <l n="959"> De leur illusion s’ils reviendraient d’eux-mêmes ;</l>
+                        <l n="960"> Peut-être Gabinie est prête à revenir :</l>
+                        <l n="961"> Par elle commençons à ne les plus punir :</l>
+                        <l n="962"> Du moins je crois pouvoir demander qu’on lui donné</l>
+                        <l n="963"> Le temps de revenir aux Dieux qu’elle abandonne.</l>
+                        <l n="964"> Dans un cœur que l’on a nouvellement séduit,</l>
+                        <l n="965"> L’erreur qui vient de naître, aisément se détruit ;</l>
+                        <l n="966"> Et de trop de vertus le Ciel l’a partagée,</l>
+                        <l n="967"> Pour la laisser longtemps dans le crime engagée.</l>
+                        <l n="968"> D’ailleurs je l’aime encore, et j’attends que mon choix</l>
+                        <l n="969"> Suspende, en sa faveur, la rigueur de nos Lois.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="970"> Eh bien, vous le vouiez ? essayons l’indulgence.</l>
+                        <l n="971"> Pour la rendre à nos Dieux, je me sais violence.</l>
+                        <l n="972"> Mais, après cet essai, songez, à votre tour,</l>
+                        <l n="973"> À surmonter vous-même un malheureux amour :</l>
+                        <l n="974"> Songez à soutenir votre gloire et la mienne,</l>
+                        <l n="975"> Mais elle vient.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="976"> Approche, infidèle Chrétienne.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="977"> De ces crimes, Seigneur, que l’on veut m’imputer,</l>
+                        <l n="978"> Le dernier fait ma gloire, et j’ose m’en vanter.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="979"> Épargne-moi du moins un discours qui m’offense.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="980"> Je ne puis plus garder un criminel silence.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN </speaker>
+                        <l n="981"> Tu veux donc renoncer à ton sort éclatant ?</l>
+                        <l n="982"> Je te plaints : César t’aime, et le Trône t’attend.</l>
+                        <l n="983"> Veux-tu, pour te plonger dans d’horribles mystères,</l>
+                        <l n="984"> Abandonner les Dieux de Rome et de tes Pères,</l>
+                        <l n="985"> Ces grands Dieux, de tout temps révérés parmi nous,</l>
+                        <l n="986"> Pour adorer un Dieu, l’objet de mon courroux ?</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="987"> S’il vous était connu, vous trembleriez.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="988"> Perfide !</l>
+                        <l n="989"> Suis, puisque tu le veux, la fureur qui te guide ;</l>
+                        <l n="990"> À la pitié pour toi je penchais vainement.</l>
+                        <l n="991"> Maxime, amenez-nous son père, et promptement.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="992"> Qu’on l’arrête.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="993"> Attendez, souffrez que je rappelle</l>
+                        <l n="994"> Cette tendre pitié que vous aviez pour elle.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="995"> Non, non, Gardes...</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="996"> Seigneur, suspendez ce courroux ;</l>
+                        <l n="997"> C’est à moi de punir les Chrétiens, comme à vous,</l>
+                        <l n="998"> C’est le premier transport du zèle qui l’anime ;</l>
+                        <l n="999"> Il peut le ralentir. Rome ignore son crime.</l>
+                        <l n="1000"> Pourquoi le divulguer par un funeste éclat ?</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1001"> Eh bien, César...</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#maxime">
+            <speaker> MAXIME. </speaker>
+                        <l n="1002"> Seigneur, le Peuple, le Sénat</l>
+                        <l n="1003"> Les Prêtres en fureur contre la Secte impie,</l>
+                        <l n="1004"> Demandent à grands cris qu’on juge Gabinie :</l>
+                        <l n="1005"> On sait tout.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1006"> Il suffit. Vous venez de le voir,</l>
+                        <l n="1007"> César ; j’allais peut être oublier mon devoir ;</l>
+                        <l n="1008"> Les Dieux à mon secours ont ramené Maxime :</l>
+                        <l n="1009"> C’en est fait. Vous savez la peine de son crime ;</l>
+                        <l n="1010"> Commencez à tenir vos serments et les miens,</l>
+                        <l n="1011"> Et par un grand exemple effrayez les Chrétiens :</l>
+                        <l n="1012"> Triomphez d’un amour, qui lui sert de refuge ;</l>
+                        <l n="1013"> Vous êtes son Amant : je vous nomme son Juge</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1014"> Moi !</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1015"> Vous. Perdez l’objet dont vous êtes épris.</l>
+                        <l n="1016"> Vous nous l’avez juré : l’Empire est à ce prix.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="1017"> On veut que mon Arrêt sorte de votre bouche :</l>
+                        <l n="1018"> Je ne puis le cacher, votre douleur me touche :</l>
+                        <l n="1019"> Vous m’aimez : je vous plains : et vous plaignez mon sort.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1020"> Ah ! Madame.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="1021"> César, je n’attends que la mort.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1022"> Cruelle ! eh ! vous m’aimez ?</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="1023"> Je vous l’ai dit moi-même,</l>
+                        <l n="1024"> Pardonne, juste Ciel ! à mon erreur extrême,</l>
+                        <l n="1025"> D’avoir crû follement, que mes faibles attraits,</l>
+                        <l n="1026"> En l’attirant à toi, combleraient mes souhaits.</l>
+                        <l n="1027"> César, voilà l’hymen que Rome nous prépare.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1028"> Quoi ! vous me croyez donc, Madame, assez barbare...</l>
+                        <l n="1029"> Moi ! je ferais répandre, et répandre à mes yeux,</l>
+                        <l n="1030"> Par une main infâme un sang si précieux ?</l>
+                        <l n="1031"> Ah ! ne perdrez-vous point cette funeste envie ?</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="1032"> Ne pouvant être à vous, à quoi me sert la vie ?</l>
+                        <l n="1033"> Vous me rendrez heureuse, en me privant du jour.</l>
+                        <l n="1034"> Éteignez dans mon sang un malheureux amour ;</l>
+                        <l n="1035"> Il empoisonnerait et ma vie et la vôtre ;</l>
+                        <l n="1036"> Nous serons, par ma mort, en repos l’un et l’autre.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1037"> Quel repos ! ah ! Madame, en cette extrémité,</l>
+                        <l n="1038"> Concevez-vous du fort toute la cruauté ?</l>
+                        <l n="1039"> Pour des biens incertains, où votre espoir se fonde,</l>
+                        <l n="1040"> Vous voulez renoncer à l’Empire du Monde !</l>
+                        <l n="1041"> Je n’oserais ici parler de mon amour ;</l>
+                        <l n="1042"> Mais, Madame, voyez la pompe de ce jour,</l>
+                        <l n="1043"> Ces Spectacles, ces Jeux, cette superbe fête ;</l>
+                        <l n="1044"> Rome, tout l’Univers, devient votre conquête ;</l>
+                        <l n="1045"> Et mille Nations, peur tomber à vos pieds,</l>
+                        <l n="1046"> Attendent seulement que vous y consentiez :</l>
+                        <l n="1047"> Vous allez tout quitter ?</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="1048"> Les honneurs de l’Empire</l>
+                        <l n="1049"> Ne sont que le néant des grandeurs où j’aspire.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1050"> Je n’en obtiendrai rien !</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="1051"> Je n’ai rien obtenu !</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1052"> Juste Ciel ! votre état vous est il bien connu ?</l>
+                        <l n="1053"> Dans la fleur de vos ans, de mille attraits pourvue,</l>
+                        <l n="1054"> Adorée en tous lieux, sur le Trône attendue,</l>
+                        <l n="1055"> Romaine ! mépriser les grandeurs de la Cour !</l>
+                        <l n="1056"> Sensible ! triompher des charmes de l’amour !</l>
+                        <l n="1057"> Préférer le supplice à l’Empire du Monde !...</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="1058"> Vois, César, sur quels biens il faut que je me fonde.</l>
+                        <l n="1059"> Ah ! que n’avez-vous fait vous-même un si beau choix !</l>
+                        <l n="1060"> Hélas ! c’est souhaiter trop de biens à la fois.</l>
+                        <l n="1061"> Que je souffre de voir l’état où je vous laisse !</l>
+                        <l n="1062"> Hâtez-vous : par ma mort, secourez ma faiblesse.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1063"> Justes Dieux ! pourriez-vous voir périr tant d’appas ?</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="1064"> Vos Dieux, César, vos Dieux ne vous entendent pas.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1065"> Souffrez que contre tous du moins je vous défende.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="1066"> Songez à prononcer l’Arrêt qu’on vous demande.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1067"> Ah ! plutôt le Sénat et Rome, et l’Empereur,</l>
+                        <l n="1068"> Les Dieux mêmes verront éclater ma fureur.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="1069"> L’Empereur va bientôt répondre à mon attente :</l>
+                        <l n="1070"> Par vous, César, par vous, je mourrais plus contente.</l>
+                        <l n="1071"> Ne me refusez point le seul bien que j’attends.</l>
+                        <l n="1072"> Ne me le faites pas attendre encor longtemps.</l>
+                        <l n="1073"> César, Rome le veut, c’est à vous d’y souscrire.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1074"> Rome, reprends tes droits ; je renonce à l’Empire,</l>
+                        <l n="1075"> Puisque ton dur serment m’impose cette loi.</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS, continue allant au-devant de Gabinius. </speaker>
+                        <l n="1076"> Ah ! Seigneur, hâtez-vous : venez vous joindre à moi ;</l>
+                        <l n="1077"> Venez, Seigneur, venez secourir votre fille ;</l>
+                        <l n="1078"> Purgez d’un crime affreux votre illustre famille.</l>
+                </sp>
+        <sp who="#gabinius">
+            <speaker> GABINIUS. </speaker>
+                        <l n="1079"> Son crime m’est connu : je viens la secourir.</l>
+                        <l n="1080"> Oui, ma fille, je viens, pour t’apprendre à mourir.</l>
+                        <l n="1081"> Dans la loi des Chrétiens, c’est moi qui t’ai conduite,</l>
+                        <l n="1082"> Je te dois mon exemple, après t’avoir instruite.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1083"> Son père !</l>
+                </sp>
+        <sp who="#gabinius">
+            <speaker> GABINIUS. </speaker>
+                        <l n="1084"> À l’Empereur je me suis déclaré.</l>
+                        <l n="1085"> Il attend notre Arrêt, et tout est préparé.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1086"> Ah Dieux !</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="1087"> J’entends d’ici la foule impatiente,</l>
+                        <l n="1088"> Qui se plaint, par ses cris ; d’une trop longue attente.</l>
+                        <l n="1089"> Si vous ne vous hâtez, vous verrez l’Empereur,</l>
+                        <l n="1090"> César, dans un moment revenir en fureur.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1091"> Non : vous ne mourrez point, et déjà je m’accuse...</l></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#gabinie">
+            <speaker> GABINIE, allant au-devant de Dioclétien. </speaker>
+                        <l n="1092"> Venez nous accorder la mort qu’on nous refuse,</l>
+                        <l n="1093"> Venez, Seigneur, César a besoin de secours</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1094"> Seigneur ! au nom des Dieux prenons sein de ses jours,</l>
+                        <l n="1095"> Pourriez-vous voir tomber cette tête adorable,</l>
+                        <l n="1096"> Sous le barbare fer d’un bras impitoyable ?</l>
+                        <l n="1097"> Livrons plutôt, Seigneur, et sans grâce, et sans choix,</l>
+                        <l n="1098"> Livrons tous les Chrétiens à la rigueur des Lois :</l>
+                        <l n="1099"> À nos serments cruels c’est assez satisfaire ;</l>
+                        <l n="1100"> Épargnons seulement Gabinie et son Père ;</l>
+                        <l n="1101"> Un généreux pardon défilera leurs yeux.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="1102"> Tandis que nous vivrons, craignez pour vos faux Dieux.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1103"> Ciel ! qui ne frémirait de voir ce qui se passe !</l>
+                        <l n="1104"> Il semble que César ait ici pris leur place :</l>
+                        <l n="1105"> J’y vois, venant presser l’ordre que j’ai donné,</l>
+                        <l n="1106"> Les criminels contents, et le Juge étonné ;</l>
+                        <l n="1107"> Ils demandent, ô Dieux ! quelle étrange manie !</l>
+                        <l n="1108"> Les criminels la mort, et le Juge la vie.</l>
+                        <l n="1109"> Monstres, que je ne puis ni vaincre, ni chasser,</l>
+                        <l n="1110"> Ne puis-je vous punir, sans vous récompenser ?</l>
+                        <l n="1111"> Ne puis-je vous livrer aux plus cruels supplices,</l>
+                        <l n="1112"> Sans me rendre l’auteur de vos chères délices ?</l>
+                        <l n="1113"> Et ne puis-je une sois, pour servir mon courroux,</l>
+                        <l n="1114"> Inventer une peine et des tourments pour vous ?</l>
+                        <l n="1115"> Mais, au lieu de César, je vous rendrai justice :</l>
+                        <l n="1116"> Gardes, conduisez-les l’un et l’autre au supplice.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1117"> Arrêtez. En faveur, Seigneur, de mon amour,</l>
+                        <l n="1118"> Accordons-leur au moins le reste de ce jour.</l>
+                        <l n="1119"> Pour de tels criminels la faveur n’est pas grande :</l>
+                        <l n="1120"> J’ai droit de l’accorder, et je vous la demande.</l>
+                        <l n="1121"> Dans ce délai, peut-être, où nous ne risquons rien,</l>
+                        <l n="1122"> Les Dieux pourront changer ou leur cœur, ou le mien.</l></div>
+        <div type="scene" xml:id=" X ">
+            <head> Scène X </head>
+        <sp who="#carus">
+            <speaker> CARUS. </speaker>
+                        <l n="1123"> Seigneur, on vient d’apprendre une étrange nouvelle</l>
+                        <l n="1124"> Au pied de l’Aventin un grand peuple rebelle,</l>
+                        <l n="1125"> Dans le profond réduit d’un antre ténébreux,</l>
+                        <l n="1126"> Célèbre des Chrétiens les Mystères affreux.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1127"> Vous le voyez, César ! allez, qu’on les surprenne ;</l>
+                        <l n="1128"> Carus, faites marcher la Légion Thébaine ;</l>
+                        <l n="1129"> Et là, sans respecter âge, sexe, ni rang,</l>
+                        <l n="1130"> Que tous ces malheureux soient noyés dans leur sang.</l></div>
+        <div type="scene" xml:id=" XI ">
+            <head> Scène XI </head>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN continue. </speaker>
+                        <l n="1131"> Pour eux encore ici, César me sollicite.</l>
+                        <l n="1132"> Ôtez-les de mes yeux, leur présence m’irrite.</l>
+                </sp>
+        <sp who="#gabinius">
+            <speaker> GABINIUS. </speaker>
+                        <l n="1133"> Allons, ma fille.</l>
+                </sp>
+        <sp who="#gabinie">
+            <speaker> GABINIE. </speaker>
+                        <l n="1134"> Allons. Seigneur, faites sur nous,</l>
+                        <l n="1135"> Sans consulter César, éclater ce courroux :</l>
+                        <l n="1136"> Je vois que j’en serai l’innocente victime.</l>
+                        <l n="1137"> Veuille le Dieu vengeur vous pardonner ce crime.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1138"> Qu’on redouble leur garde, et que séparément,</l>
+                        <l n="1139"> On les tienne enfermés dans cet appartement.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1140"> Pourquoi les enfermer et redoubler leur garde ?</l>
+                        <l n="1141"> Seigneur, je réponds d’eux, et ce soin me regarde.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1142"> Voulez-vous les livrer au Peuple furieux ?</l>
+                        <l n="1143"> Je n’en répondrais plus, s’ils sortaient de ces lieux.</l>
+                        <l n="1144"> Vous le voulez ? leur mort que nous avons jurée,</l>
+                        <l n="1145"> Jusqu’à la fin du jour sera donc différée :</l>
+                        <l n="1146"> Allez-en profiter ; mais consultez-vous bien ;</l>
+                        <l n="1147"> Car, après ce délai, Rome n’attend plus rien.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1148"> Gabinie en mourrait ? Ah ! Rome peut s’attendre</l>
+                        <l n="1149"> Que contre les fureurs, je saurai la défendre.</l>
+                        <l n="1150"> Oui, dût tomber sur moi la colère des Dieux,</l>
+                        <l n="1151"> Allons la secourir, ou mourir à tes yeux.</l></div></div>
+           <div type="act" xml:id="6">
+           <head> ACTE V </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#maxime">
+            <speaker> MAXIME. </speaker>
+                        <l n="1152"> Quoi, Seigneur ! Gabinie, à vos désirs rendue,</l>
+                        <l n="1153"> À nos sacrés Autels est enfin revenue ?</l>
+                        <l n="1154"> Ce bruit semé partout, est venu jusqu’à moi,</l>
+                        <l n="1155"> Et déjà les Chrétiens en pâlissent d’effroi ;</l>
+                        <l n="1156"> Déjà Rome triomphe, et le Ciel favorable...</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1157"> Hélas ! Que son retour me serait agréable,</l>
+                        <l n="1158"> Maxime ! Mais bientôt vous en serez instruit ;</l>
+                        <l n="1159"> C’est par mon ordre exprès qu’on a semé ce bruit.</l>
+                        <l n="1160"> De l’amour de César j’ai craint la violence</l>
+                        <l n="1161"> Témoin de ses transports, ma juste défiance</l>
+                        <l n="1162"> A feint, pour amuser les fureurs d’un Amant,</l>
+                        <l n="1163"> Que l’objet de ses feux changeait de sentiment,</l>
+                        <l n="1164"> Par cet espoir flatteur sa douleur abusée</l>
+                        <l n="1165"> Le retient, et me livre une vengeance aisée ;</l>
+                        <l n="1166"> Et libre en ce moment, il m’est enfin permis,</l>
+                        <l n="1167"> Sans attendre le temps que je leur ai promis,</l>
+                        <l n="1168"> D’immoler à la fois, dans ma juste colère,</l>
+                        <l n="1169"> À nos Dieux offensés et la fille et le père.</l>
+                        <l n="1170"> Camille, que l’amour lie à mes intérêts,</l>
+                        <l n="1171"> M’a donné ces conseils, qu’on doit tenir secrets ;</l>
+                        <l n="1172"> J’ai voulu sans témoins ici vous en instruire ;</l>
+                        <l n="1173"> Par-là, je mets César hors d’état de me nuire ;</l>
+                        <l n="1174"> Je le préviens. Peut-être, épris d’un fol amour,</l>
+                        <l n="1175"> Pour sauver Gabinie, avant la fin du jour,</l>
+                        <l n="1176"> Le verrais-je, aveuglé d’une molle clémence,</l>
+                        <l n="1177"> Des perfides Chrétiens embrasser la défense :</l>
+                        <l n="1178"> Leur nombre, qui s’accroît de moment en moment,</l>
+                        <l n="1179"> Me fait craindre à la fin quelque soulèvement ;</l>
+                        <l n="1180"> La Légion Thébaine, à leur perte attachée,</l>
+                        <l n="1181"> De sa première ardeur me paraît relâchée ;</l>
+                        <l n="1182"> Le zèle des Chrétiens, à ses yeux expirants,</l>
+                        <l n="1183"> Leur constance à souffrir, les discours des mourants</l>
+                        <l n="1184"> Séduisent les Soldats ; les Chefs s’en attendrissent,</l>
+                        <l n="1185"> Et depuis quelques jours à regret m’obéissent.</l>
+                        <l n="1186"> Cependant le faux bruit, qui partout a volé,</l>
+                        <l n="1187"> Jusqu’à Gabinius, par mon ordre, est allé.</l>
+                </sp>
+        <sp who="#maxime">
+            <speaker> MAXIME. </speaker>
+                        <l n="1188"> Il demande à vous voir, Seigneur, et l’on soupçonne</l>
+                        <l n="1189"> Que lassé de sa Secte, enfin il l’abandonne.</l>
+                        <l n="1190"> Peut être, puisqu’il veut lui-même vous parler,</l>
+                        <l n="1191"> Ce qu’on dit de sa fille aura pu l’ébranler ;</l>
+                        <l n="1192"> Et cette heureuse feinte, à tous deux salutaire,</l>
+                        <l n="1193"> Pourra faire changer la fille, après le père.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1194"> Je l’ai fait enlever de cet appartement,</l>
+                        <l n="1195"> Pour en pouvoir ailleurs disposer sûrement.</l>
+                        <l n="1196"> C’est dans ce Palais même, et sous les sombres voûtes</l>
+                        <l n="1197"> De ce Temple caché dont vous savez les routes.</l>
+                        <l n="1198"> Là, sans que mon dessein puisse être soupçonné,</l>
+                        <l n="1199"> Camille doit porter l’ordre que j’ai donné.</l>
+                        <l n="1200"> César, qui ne put voir un si grand sacrifice,</l>
+                        <l n="1201"> Venait de la quitter, pour voir l’Impératrice ;</l>
+                        <l n="1202"> Et tandis qu’il perdait le temps en vains regrets,</l>
+                        <l n="1203"> Mes Gardes s’acquittaient de mes ordres secrets.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#julie">
+            <speaker> JULIE. </speaker>
+                        <l n="1204"> Seigneur, je ne sais point ce que César médite,</l>
+                        <l n="1205"> Il a de ses amis fait assembler l’élite ;</l>
+                        <l n="1206"> Et suivi d’un renfort de Chefs et de Soldats,</l>
+                        <l n="1207"> Au Temple de Vesta précipite les pas.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN, à Maxime. </speaker>
+                        <l n="1208"> Il a crû qu’en ces lieux mes Gardes l’ont conduite,</l>
+                        <l n="1209"> C’est encore un aux bruit pour tromper sa poursuite.</l>
+            <stage><em>À Julie.</em></stage>
+                        <l n="1210"> Et Camille ?</l>
+                </sp>
+        <sp who="#julie">
+            <speaker> JULIE. </speaker>
+                        <l n="1211"> César à peine a disparu,</l>
+                        <l n="1212"> Qu’au fond de ce Palais elle a d’abord couru.</l>
+                        <l n="1213"> Là, parmi les détours d’une route inconnue,</l>
+                        <l n="1214"> Elle s’est quelque temps dérobée à ma vue ;</l>
+                        <l n="1215"> Puis revenant à moi tremblante, et sans couleur,</l>
+                        <l n="1216"> Ses yeux baignés de pleurs exprimant sa douleur,</l>
+                        <l n="1217"> Elle tient des discours et sans ordre et sans suite,</l>
+                        <l n="1218"> Y mêle les Chrétiens ; puis troublée, interdite,</l>
+                        <l n="1219"> Elle sort du Palais seule, et ne daigne pas</l>
+                        <l n="1220"> Me dire où, dans la nuit, elle adresse ses pas,</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1221"> Retirez-vous.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#maxime">
+            <speaker> MAXIME. </speaker>
+                        <l n="1222"> Seigneur, son trouble m’épouvante.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1223"> Je m’embarrasse peu des troubles d’une Amante.</l>
+                </sp>
+        <sp who="#maxime">
+            <speaker> MAXIME. </speaker>
+                        <l n="1224"> Mais ne craignez-vous point, que César irrité,</l>
+                        <l n="1225"> Ne se porte, Seigneur, à quelque extrémité ?</l>
+                        <l n="1226"> Il a fait éclater les soins qui le dévorent ;</l>
+                        <l n="1227"> Il est aimé du Peuple, et les Soldats l’adorent.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1228"> Le serment qu’il a fait limite son pouvoir.</l>
+                        <l n="1229"> Le Voici. Vous, allez...</l>
+            <stage><em>Il lui parle à l’oreille.</em></stage>
+                </sp>
+        <sp who="#maxime">
+            <speaker> MAXIME. </speaker>
+                        <l n="1230"> Je ferai mon devoir.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1231"> Seigneur, prétendez-vous qu’avec indifférence,</l>
+                        <l n="1232"> Je souffre le mépris qu’on sait de ma puissance ?</l>
+                        <l n="1233"> Doit-on rien ordonner sans mon consentement,</l>
+                        <l n="1234"> Et ne suis-je Empereur que de nom seulement ?</l>
+                        <l n="1235"> Les bruits qu’on fait courir me font même comprendre</l>
+                        <l n="1236"> Qu’on ose m’imposer, et qu’on veut me surprendre.</l>
+                        <l n="1237"> Je cherche Gabinie ; elle était en ces lieux :</l>
+                        <l n="1238"> Croit-on impunément la cacher à mes yeux ?</l>
+                        <l n="1239"> Ne suis-je pas son Juge ? et soumise, ou rebelle,</l>
+                        <l n="1240"> N’est-ce pas moi, Seigneur, qui dois disposer d’elle ?</l>
+                        <l n="1241"> Vous craignez, me dit-on, mes transports amoureux ;</l>
+                        <l n="1242"> Je crains qu’on ne vous donne un conseil dangereux :</l>
+                        <l n="1243"> J’en aurais du regret ; mais enfin, je vous prie</l>
+                        <l n="1244"> Que je n’ignore plus le sort de Gabinie :</l>
+                        <l n="1245"> Je dois en être instruit, et je me suis flatté...</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1246"> César, nous en saurons dans peu la vérité.</l>
+                        <l n="1247"> À peine sortiez-vous, que sans éclat, sans suite,</l>
+                        <l n="1248"> Dans un Temple écarté mes Gardes l’ont conduite.</l>
+                        <l n="1249"> Sans doute, loin du bruit, elle va dans ces lieux,</l>
+                        <l n="1250"> À l’insu des Chrétiens, rendre hommage à nos Dieux ;</l>
+                        <l n="1251"> Apaiser leur courroux, qu’ont excité ses crimes,</l>
+                        <l n="1252"> Et pour les expier, leur offrir des victimes.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1253"> Et ne lirais-je pas, au gré de mes souhaits,</l>
+                        <l n="1254"> Un triomphe si beau dans vos yeux satisfaits ?</l>
+                        <l n="1255"> Je sais que son retour vous comblerait de joie.</l>
+                        <l n="1256"> De vos sombres regards que faut-il que je croie ?</l>
+                        <l n="1257"> Même de vos discours ?... Elle va, dites-vous,</l>
+                        <l n="1258"> De nos Dieux offensés apaiser le courroux ?</l>
+                        <l n="1259"> Que deviendrais-je, ô Ciel ! si pour laver le crime</l>
+                        <l n="1260"> Que l’on veut expier, elle était la victime ?</l>
+                        <l n="1261"> Si Camille en fureur, qui court de tous côtés.</l>
+                        <l n="1262"> Mais je vois qu’avec peine ici vous m’écoutez.</l>
+                        <l n="1263"> Vous me trompez, Seigneur : ce bruit n’est pas croyable ;</l>
+                        <l n="1264"> Vous seriez plus content, s’il était véritable.</l>
+                        <l n="1265"> Enfin, quoi qu’il en soit, je demande à la voir :</l>
+                        <l n="1266"> Je sens que mon respect cède à mon désespoir.</l>
+                        <l n="1267"> Ne me direz-vous point ce qu’elle est devenue ?</l>
+                        <l n="1268"> Craignez de la cacher plus longtemps à ma vue.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN, </speaker>
+                        <l n="1269"> Oubliez-vous ainsi ce que vous me devez,</l>
+                        <l n="1270"> Ingrat ? et qu’aujourd’hui celui que vous bravez,</l>
+                        <l n="1271"> Vous a mis sur le Trône ?</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1272"> Oui ; mais il faut tout dire :</l>
+                        <l n="1273"> Il est vrai, si je suis monté jusqu’à l’Empire,</l>
+                        <l n="1274"> C’est à Rome, au Sénat, à vous que je le dois ;</l>
+                        <l n="1275"> Mais sachez qu’après tout je ne le dois qu’à moi,</l>
+                        <l n="1276"> Qu’à mon sang tant de fois versé pour la patrie.</l>
+                        <l n="1277"> Mais enfin il s’agit ici de Gabinie.</l>
+                        <l n="1278"> Vous m’avez fait son Juge ; et vous y penserez :</l>
+                        <l n="1279"> Vous me l’avez promis, et vous m’en répondrez.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1280"> Moi ! téméraire ?</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1281"> Oui, vous, Songez à me la rendre :</l>
+                        <l n="1282"> Seul vous savez son sort : à qui puis-je m’en prendre ?</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#gabinius">
+            <speaker> GABINIUS, se jetant aux pieds de Dioclétien. </speaker>
+                        <l n="1283"> Je ne viens point, Seigneur, embrasser vos genoux,</l>
+                        <l n="1284"> Pour vous demander grâce, ou me plaindre de vous ;</l>
+                        <l n="1285"> Mais, avant que mon sang coule dans les supplices,</l>
+                        <l n="1286"> Pour dernière faveur, pour prix de mes services,</l>
+                        <l n="1287"> J’ose vous supplier, Seigneur, de m’accorder</l>
+                        <l n="1288"> Ce qu’un malheureux père a droit de demander,</l>
+                        <l n="1289"> Lorsqu’il perd, sans retour l’espoir de sa famille ;</l>
+                        <l n="1290"> Souffrez qu’un seul moment, je puisse voir ma fille.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1291"> Je t’entends : tu voudrais encor la replonger</l>
+                        <l n="1292"> Dans l’erreur dont le Ciel s’en va la dégager.</l>
+                        <l n="1293"> Je vois trop ton dessein ; mais cesse d’y prétendre :</l>
+                        <l n="1294"> Sache qu’elle n’est plus en état de t’entendre ;</l>
+                        <l n="1295"> Qu’elle est à nos Autels, pour fuir tes entretiens,</l>
+                        <l n="1296"> Et qu’elle va quitter la Secte des Chrétiens.</l>
+                        <l n="1297"> Tu peux pourtant la voir, si dans ce même Temple</l>
+                        <l n="1298"> Tu peux bien te résoudre à suivre son exemple</l>
+                        <l n="1299"> Parle. Es-tu résolu de marcher sur ses pas ?</l>
+                </sp>
+        <sp who="#gabinius">
+            <speaker> GABINIUS, en se relevant. </speaker>
+                        <l n="1300"> Quoi, ma fille... mais, non... Non, je ne le crois pas.</l>
+                        <l n="1301"> Je suis sûr de son zèle, et je lui rends justice,</l>
+                        <l n="1302"> Je reconnais enfin votre lâche artifice.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1303"> Quoi ! tu m’oses braver ? Ah ! bientôt sous mes coups...</l>
+                </sp>
+        <sp who="#gabinius">
+            <speaker> GABINIUS. </speaker>
+                        <l n="1304"> Je crains votre pitié, plus que votre courroux.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS, à Gabinius. </speaker>
+                        <l n="1305"> Seigneur, je vais pour elle employer ma puissance.</l>
+                </sp>
+        <sp who="#gabinius">
+            <speaker> GABINIUS. </speaker>
+                        <l n="1306"> Un plus puissant que vous veille pour la défense.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1307"> Ta Secte va tomber, n’attends pas son secours.</l>
+                </sp>
+        <sp who="#gabinius">
+            <speaker> GABINIUS. </speaker>
+                        <l n="1308"> Persécute, Tyran : tu la verras toujours,</l>
+                        <l n="1309"> Malgré tes vains efforts, et contre ton attente,</l>
+                        <l n="1310"> Partout persécutée, et par tout triomphante.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1311"> Puisqu’on ne daigne ici répondre à mes souhaits,</l>
+                        <l n="1312"> Je cours...</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#maxime">
+            <speaker> MAXIME, à Galérius qu’il rencontre. </speaker>
+                        <l n="1313"> On ne saurait sortir de ce Palais.</l>
+            <stage><em>À Dioclétien.</em></stage>
+                        <l n="1314"> On s’attroupe, Seigneur, dans la place prochaine ;</l>
+                        <l n="1315"> On entend mille cris. La Légion Thébaine,</l>
+                        <l n="1316"> Le blasphème à la bouche, et le feu dans les yeux,</l>
+                        <l n="1317"> Vient de se soulever.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1318"> Qu’entends-je, justes Dieux !</l>
+                </sp>
+        <sp who="#maxime">
+            <speaker> MAXIME. </speaker>
+                        <l n="1319"> Un grand peuple les suit, vos Gardes sont aux portes :</l>
+                        <l n="1320"> Mais pour les repousser, on n’a que trois Cohortes ;</l>
+                        <l n="1321"> Seigneur, le danger presse : on dit confusément,</l>
+                        <l n="1322"> Que les Chrétiens ont part à ce soulèvement.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1323"> Gabinie avec eux est donc d’intelligence ?</l>
+                </sp>
+        <sp who="#maxime">
+            <speaker> MAXIME, à Galérius. </speaker>
+                        <l n="1324"> Carus, qui les suivait, saura... mais il s’avance.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#carus">
+            <speaker> CARUS. </speaker>
+                        <l n="1325"> Ah ! Seigneur, sans frémir, je ne puis concevoir,</l>
+                        <l n="1326"> Ni même croire encor ce que je viens de voir,</l>
+                        <l n="1327"> J’ai couru, par votre ordre, aux lieux où l’assemblée</l>
+                        <l n="1328"> Des robe les Chrétiens devait être accablée :</l>
+                        <l n="1329"> La Légion Thébaine a marché sur mes pas,</l>
+                        <l n="1330"> Et Maurice, leur Chef, conduisait les Soldats ;</l>
+                        <l n="1331"> Tous, le fer à la main, s’excitaient au carnage ;</l>
+                        <l n="1332"> D’une voûte profonde on trouve le passage ;</l>
+                        <l n="1333"> On entre, à la lueur des flambeaux allumés,</l>
+                        <l n="1334"> Jusqu’au lieu qui cachait les Chrétiens enfermés.</l>
+                        <l n="1335"> Là, parmi des rochers, dans une grotte affreuse,</l>
+                        <l n="1336"> Quelque lampe éclairant une troupe nombreuse,</l>
+                        <l n="1337"> D’abord ces malheureux confusément épars,</l>
+                        <l n="1338"> Attentifs à leur culte arrêtent nos regards ;</l>
+                        <l n="1339"> Le fer brille aux flambeaux, et leurs lampes pâlissent,</l>
+                        <l n="1340"> De nos cris menaçants les voûtes retentissent ;</l>
+                        <l n="1341"> Les Chrétiens sans effroi, tranquilles, à genoux,</l>
+                        <l n="1342"> Ne daignent seulement jeter les yeux sur nous ;</l>
+                        <l n="1343"> Aucun d’eux de l’Autel ne détourne la vue :</l>
+                        <l n="1344"> La fureur des soldats demeure suspendue :</l>
+                        <l n="1345"> Leurs Mystères par nous, malgré nous respectés,</l>
+                        <l n="1346"> Soit horreur, soit respect, nous tiennent arrêtés :</l>
+                        <l n="1347"> Immobiles, comme eux, nous gardons le silence.</l>
+                        <l n="1348"> On finit. Marcel in le Pontife s’avance,</l>
+                        <l n="1349"> Nous présente la gorge ; et dans le même instant,</l>
+                        <l n="1350"> Hommes, femmes, enfants, chacun en fait autant :</l>
+                        <l n="1351"> On n’entend nul regret, nul soupir, nulle plainte.</l>
+                        <l n="1352"> Maurice, à cet aspect, troublé, saisi de crainte,</l>
+                        <l n="1353"> Sentant que le fer même échappe de la main,</l>
+                        <l n="1354"> Tombe, au lieu de frapper, aux pieds de Marcellin.</l>
+                        <l n="1355"> Ses soldats consternés imitent son exemple :</l>
+                        <l n="1356"> Le Pontife surpris, quelque temps les contemple ;</l>
+                        <l n="1357"> Puis élevant au Ciel sa voix, ses mains, ses yeux,</l>
+                        <l n="1358"> Les exhorte à quitter le culte de nos Dieux.</l>
+                        <l n="1359"> Enfin, Seigneur, j’ai vu non sans horreur extrême,</l>
+                        <l n="1360"> J’ai vu Chefs et soldats demander le Baptême ;</l>
+                        <l n="1361"> Et de la même grotte où Maurice et les siens</l>
+                        <l n="1362"> Allaient venger nos Dieux, ils font sortis Chrétiens.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1363"> Ciel !</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1364"> N’apprendrai-je rien ?</l>
+                </sp>
+        <sp who="#gabinius">
+            <speaker> GABINIUS. </speaker>
+                        <l n="1365"> Ô Dieu ! c’est votre ouvrage.</l>
+                </sp>
+        <sp who="#carus">
+            <speaker> CARUS. </speaker>
+                        <l n="1366"> Moi-même, ne pouvant résister davantage,</l>
+                        <l n="1367"> Je sentais en secret un charme dangereux,</l>
+                        <l n="1368"> Et si je n’avais fui, j’allais faire comme eux.</l>
+                        <l n="1369"> Ils viennent, et dans Rome ils jettent l’épouvante ;</l>
+                        <l n="1370"> Ils marchent au Palais, et leur nombre s’augmente ;</l>
+                        <l n="1371"> Pour trouver du secours, j’ai cherché vainement.</l>
+                        <l n="1372"> Le peuple fuit, et craint ce prompt soulèvement.</l>
+                        <l n="1373"> Vos Gardes, qu’on avait postés aux avenues,</l>
+                        <l n="1374"> Seigneur, on arrêté des femmes inconnues,</l>
+                        <l n="1375"> Qui sortaient de la grotte avec ces furieux ;</l>
+                        <l n="1376"> Leurs voiles et la nuit les cachaient à nos yeux.</l>
+                        <l n="1377"> On les amène. On vient. Vous apprendrez par elles,</l>
+                        <l n="1378"> Quel dessein au Palais attire ces rebelles,</l>
+                        <l n="1379"> Pourvu que vous daigniez employer la douceur.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1380"> Qu’on les fasse approcher.</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1381"> C’est ma femme ! et sa sœur !</l>
+                </sp>
+        <sp who="#séréna">
+            <speaker> SÉRÉNA. </speaker>
+                        <l n="1382"> Oui, c’est ma sœur, c’est moi, que tes Gardes t’amènent.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1383"> Suis-je assez confondu ?</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1384"> Quels égards me retiennent ?</l>
+            <stage><em>Il veut sortir.</em></stage>
+                        <l n="1385"> Ces mutins m’apprendront...</l>
+                </sp>
+        <sp who="#séréna">
+            <speaker> SÉRÉNA. </speaker>
+                        <l n="1386"> Ne craignez rien, César ;</l>
+                        <l n="1387"> Avec eux l’Empereur ne court point de hasard,</l>
+            <stage><em>À l’Empereur.</em></stage>
+                        <l n="1388"> Vous n’aurez de leur part aucun lieu de vous plaindre,</l>
+                        <l n="1389"> Seigneur, ils sont Chrétiens, vous n’avez rien à craindre.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1390"> Et Gabinie ?</l>
+                </sp>
+        <sp who="#séréna">
+            <speaker> SÉRÉNA. </speaker>
+                        <l n="1391"> Elle est en pleine liberté,</l>
+                        <l n="1392"> Et jouit à présent d’une tranquillité,</l>
+                        <l n="1393"> Qui de ses ennemis ne craint plus la colère.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1394"> Ah Ciel !</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1395"> Et ces mutins que prétendent-ils faire ?</l>
+                </sp>
+        <sp who="#séréna">
+            <speaker> SÉRÉNA. </speaker>
+                        <l n="1396"> Aux portes du Palais ils ont la force en main ;</l>
+                        <l n="1397"> Mais sais tu bien, cruel, sais-tu bien leur dessein ?</l>
+                        <l n="1398"> Ils viennent assouvir ta barbare injustice,</l>
+                        <l n="1399"> Et sachant tes Édits, et le lieu du supplice,</l>
+                        <l n="1400"> Dans la place prochaine ils accourent exprès,</l>
+                        <l n="1401"> Pour subir la rigueur de tes cruels Arrêts.</l>
+                        <l n="1402"> En doutes-tu ? vas-y : ce sont pour toi des fêtes ;</l>
+                        <l n="1403"> Va voir couler leur sang, va voir voler leurs têtes ;</l>
+                        <l n="1404"> Leurs corps de toutes parts entassés par monceaux,</l>
+                        <l n="1405"> Dont la foule empressée a lassé tes bourreaux :</l>
+                        <l n="1406"> Viens, je suivrai tes pas ; et pour combler tes crimes,</l>
+                        <l n="1407"> Prends-nous, ma sœur et moi, pour dernières victimes.</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1408"> Ah Dieux !</l>
+                </sp>
+        <sp who="#séréna">
+            <speaker> SÉRÉNA. </speaker>
+                        <l n="1409"> Je suis Chrétienne ; il est temps de parler,</l>
+                        <l n="1410"> Ma sœur l’est. Je l’étais, c’est trop te le celer,</l>
+                        <l n="1411"> Elle favorisait ta lâche perfidie ;</l>
+                        <l n="1412"> Voilà ce qu’a produit la mort de Gabinie.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1413"> De Gabinie !</l>
+                </sp>
+        <sp who="#gabinius">
+            <speaker> GABINIUS. </speaker>
+                        <l n="1414"> Hélas !</l>
+                </sp>
+        <sp who="#séréna">
+            <speaker> SÉRÉNA. </speaker>
+                        <l n="1415"> Voilà sa liberté,</l>
+                        <l n="1416"> César, voilà son sort, et sa tranquillité :</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1417"> Ah Cruel !</l>
+                </sp>
+        <sp who="#camille">
+            <speaker> CAMILLE. </speaker>
+                        <l n="1418"> C’est à moi, César, qu’il s’en saut prendre,</l>
+                        <l n="1419"> J’ai demandé son sang, et je l’ai fait répandre,</l>
+            <stage><em>À Dioclétien.</em></stage>
+                        <l n="1420"> À peine ai-je donné vos ordres inhumains,</l>
+                        <l n="1421"> Qu’elle, à genoux, joignant ses innocentes mains,</l>
+                        <l n="1422"> Au Ciel, dont on allait lui ravir la lumière,</l>
+                        <l n="1423"> Pour moi, pour ses bourreaux adresse sa prière.</l>
+                        <l n="1424"> Déjà prêt à frapper, on voit le fer brillant ;</l>
+                        <l n="1425"> Elle anime le bras qui le lève en tremblant.</l>
+                        <l n="1426"> Je vois partir le coup, et j’attache ma vue</l>
+                        <l n="1427"> Sur sa tête sanglante à mes pieds abattue.</l>
+                        <l n="1428"> À cet instant fatal, je sens changer mon cœur ;</l>
+                        <l n="1429"> Je sens évanouir ma haine, ma fureur ;</l>
+                        <l n="1430"> Je sens avec plaisir, dans mon âme attendrie,</l>
+                        <l n="1431"> Que j’envie en secret le fort de Gabinie.</l>
+                        <l n="1432"> Tout ce que des Chrétiens autrefois on m’apprit ;</l>
+                        <l n="1433"> Se présente aussitôt en foule à mon esprit ;</l>
+                        <l n="1434"> Je ne me connais plus, et leur zèle m’enflamme ;</l>
+                        <l n="1435"> Le Dieu qu’elle adorait s’empare de mon âme,</l>
+                        <l n="1436"> Il m’anime, m’entraîne, et dessillant mes yeux,</l>
+                        <l n="1437"> M’arrache pour toujours au culte des faux Dieux.</l>
+                        <l n="1438"> C’est vous en dire assez, Seigneur, je suis Chrétienne :</l>
+                        <l n="1439"> J’ai demandé sa mort, je demande la mienne.</l>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1440"> C’en est fait. Sans mourir, Ciel ! y puis-je penser ?</l>
+                        <l n="1441"> Ah ! barbare, quel sang avez-vous fait verser ?</l>
+                        <l n="1442"> Sans nul égard pour moi, ni sans pitié pour elle,</l>
+                        <l n="1443"> Vous n’avez consulté qu’une haine cruelle.</l>
+                        <l n="1444"> Dans l’affreux désespoir qui règne dans mon cœur,</l>
+                        <l n="1445"> Te ne consulterai que ma seule fureur,</l>
+                </sp>
+        <sp who="#dioclétien">
+            <speaker> DIOCLÉTIEN. </speaker>
+                        <l n="1446"> Prenez donc la vengeance où votre cœur aspire.</l>
+                        <l n="1447"> Régnez, Galérius ; j’abandonne l’Empire.</l>
+                        <l n="1448"> Oui, régnez, régnez seul, et vengez-vous de moi.</l>
+                        <l n="1449"> Chasse par les Chrétiens, enfin je m’aperçois</l>
+                        <l n="1450"> Qu’il est temps que je cède aux horreurs qui m’étonnent.</l>
+                        <l n="1451"> Oui, je vois que les Dieux eux-mêmes m’abandonnent ;</l>
+                        <l n="1452"> Et que las de régner sur les faibles mortels,</l>
+                        <l n="1453"> Au Démon des Chrétiens ils cèdent leurs Autels.</l>
+                        <l n="1454"> Je dois céder comme eux. Dans une paix profonde</l>
+                        <l n="1455"> Je laisse désormais tous les Chrétiens du Monde.</l>
+                        <l n="1456"> Je leur ai fait la guerre autant que l’ai pu.</l>
+                        <l n="1457"> Oui, Démon des Chrétiens, enfin tu m’a vaincu ;</l>
+                        <l n="1458"> Tu veux régner dans Rome ; eh bien, je me retire ;</l>
+                        <l n="1459"> Je ne t’empêche plus d’y fonder ton Empire ;</l>
+                        <l n="1460"> Je pars, je l’ai juré, je fui, c’est trop souffrir.</l>
+                        <l n="1461"> Salone m’a vu naître, et me verra mourir.</l>
+            <stage><em>Il sort.</em></stage>
+                </sp>
+        <sp who="#galérius">
+            <speaker> GALÉRIUS. </speaker>
+                        <l n="1462"> Que n’a-tu fui plutôt ? pourrai-je te survivre,</l>
+                        <l n="1463"> Gabinie : Ah ! courons la venger, ou la suivre.</l>
+                </sp>
+        <sp who="#séréna">
+            <speaker> SÉRÉNA. </speaker>
+                        <l n="1464"> Et nous, en lui rendant les honneurs du tombeau,</l>
+                        <l n="1465"> Allons louer le Ciel d’un triomphe si beau.</l>
+                        <l n="1466"> [1] Pape, voyez la Préface.</l>
+                        <l n="1467"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

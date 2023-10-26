@@ -1,0 +1,2898 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">La Folie du sage</title>
+                <title type="sub">Comédie</title>
+            <author>
+                <persName>
+                    <forename>François</forename>
+                    <surname>Tristan</surname>
+                    <surname>L’hermite</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/la-folie-du-sage-françois-tristan-l’hermite </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1644">Représentée pour la première fois, à Paris, sur le Théâtre de l’Hôtel de Bourgogne, en 1644.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="le-roi-de-sardaigne" sex="SEX">
+                            <persName>LE ROI DE SARDAIGNE</persName>
+                        </person>
+                        <person xml:id="ariste" sex="SEX">
+                            <persName>ARISTE</persName>
+                        </person>
+                        <person xml:id="palamède" sex="SEX">
+                            <persName>PALAMÈDE</persName>
+                        </person>
+                        <person xml:id="roselie" sex="SEX">
+                            <persName>ROSELIE</persName>
+                        </person>
+                        <person xml:id="canope" sex="SEX">
+                            <persName>CANOPE</persName>
+                        </person>
+                        <person xml:id="alfonse" sex="SEX">
+                            <persName>ALFONSE</persName>
+                        </person>
+                        <person xml:id="timon" sex="SEX">
+                            <persName>TIMON</persName>
+                        </person>
+                        <person xml:id="cléogène" sex="SEX">
+                            <persName>CLÉOGÈNE</persName>
+                        </person>
+                        <person xml:id="un-médecin" sex="SEX">
+                            <persName>UN MÉDECIN</persName>
+                        </person>
+                        <person xml:id="un-opérateur" sex="SEX">
+                            <persName>UN OPÉRATEUR</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Comédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q40831]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">LA FOLIE DU SAGE</titlePart>
+            <titlePart type="sub">COMÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre de l’Hôtel de Bourgogne, en 1644.</ab><!--@date="1644"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> À SON ALTESSE ROYALE</salute>
+            </opener>
+        <p> MADAME, </p>
+        <p> J’imite les Sacrifices des Anciens en la qualité de cette offrande. Ils présentaient à quelques-unes de leurs Divinités les choses qui leur étaient les plus contraires. Aussi présentant cette Tragicomédie à Votre ALTESSE ROYALE, j’offre une espèce de FOLIE à une Princesse qui peut passer pour la vivante Image de la SAGESSE. C’est une vérité, MADAME, si généralement reconnue qu’elle ne reçoit point de controverse : il n’y a personne qui ne sache que l’Illustre sang de Godefroy est passé jusques à Votre ALTESSE sans aucune altération, et que vous en retenez aussi bien la piété que vous en conservez les Armes. Votre ALTESSE a fait dire d’elle dès sa plus tendre jeunesse qu’elle était une Plante Royale de la nature de l’Héliotrope qui se tourne toujours vers le Soleil. Vous avez toujours saintement considéré cette éternelle Beauté dont la votre n’est que l’Image. Vous avez toujours parfaitement honoré cette infinie Source de biens où vous avez puisé tant de grâces. À cela, MADAME, on peut dire qu’une grande et vertueuse Princesse proche parente de Votre ALTESSE a contribué beaucoup de ses soins, vous ayant élevée à la Piété en la propre Maison de Dieu. Mais pour le finissement d’un si beau Chef-d’œuvre, il n’a quasi pas été besoin de ces excellentes instructions, il a presque suffi de ses saints Exemples. Votre ALTESSE avait en naissant une si grande disposition au bien qu’elle a fait paraître une Sagesse achevée en un âge où les autres personnes de son sexe ne font que commencer à l’étudier. Le Divin Auteur de toutes choses, ce grand Ouvrier qui fait ordinairement épreuve de la bonté de ces Ouvrages, lorsqu’il se propose de les élever, a visité bien exactement votre vertu par plusieurs années. C’est un Or qu’il a voulu mettre à la coupelle des afflictions pour faire mieux connaître son excellence. Il a permis que Votre ALTESSE ait senti les peines que souffre une fidèle moitie lorsqu’elle est séparée de son tout. Mais après avoir fait durer cet orage jusques au point qu’il s’était proposé pour sonder la fermeté de votre Âme ; il a fait cesser la tempête. Il a tiré Votre ALTESSE du trouble à la tranquillité, et l’a faite passer d’un long ennui, dans un paisible état de joie. Il semble même que sa Bonté pour récompenser votre mérite a fait des efforts extraordinaires en cette heureuse conjoncture, et qu’elle n’a point voulu tirer Votre ALTESSE d’entre les épines, pour la faire marcher sur des Roses ; sans couvrir presque en même temps Monseigneur votre mari de nouveaux lauriers, afin que votre félicité fut plus complète, voyant couronner sa valeur aussi bien que votre constance, et vous trouvant tous deux triomphants ; Vous de la cruauté de la Fortune ; et lui des Ennemis de cet État. Cette glorieuse expédition, fameuse par toute l’Europe, ne s’est point faite avec tant d’heur, sans que la Divine Providence ait considéré vos saintes prières. Les vœux de Votre ALTESSE, MADAME, ont obtenu des bénédictions pour ses Armes. Votre Esprit assiste de votre Oratoire à tout ce que son courage fait de grand à la campagne. La France espère, MADAME, qu’en suite de ces grands progrès où votre piété prend part : Vos ALTESSES ROYALES auront quelque fruit de leurs chastes affections : et qu’on verra naître de votre lit un nouveau support de cette Couronne. Ce sera, MADAME, une des récompenses de vos vertus, qui sera conforme aux souhaits que fait pour le comble de vos prospérités, </p>
+        <p> MADAME, </p>
+        <p> De Votre ALTESSE ROYALE </p>
+        <p> Le très humble et très obéissant serviteur, </p>
+        <p> TRISTAN L’HERMITE. </p>
+    </div>
+           <div type="act" xml:id="1">
+           <head> ACTE I </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1"> Ariste, vos miroirs et vos feux d’artifice</l>
+                        <l n="2"> Ont fait des ennemis un brûlant sacrifice,</l>
+                        <l n="3"> Et ces longs contrepoids qui portants sur les eaux</l>
+                        <l n="4"> Avec tant de merveille enlevaient leurs vaisseaux,</l>
+                        <l n="5"> Ont montré clairement qu’un nouvel Archimède</l>
+                        <l n="6"> Ou même quelque Dieu se trouvait à mon aide.</l>
+                        <l n="7"> Si bien qu’on peut douter en cet événement</l>
+                        <l n="8"> S’ils ont eu plus de perte ou plus d’étonnement.</l>
+                        <l n="9"> Ces Princes Africains commandants en personne</l>
+                        <l n="10"> Déjà dans leur esprit partageaient ma Couronne ;</l>
+                        <l n="11"> Croyaient à cet abord m’accabler sous le fait</l>
+                        <l n="12"> Ou du moins me réduire à demander la paix,</l>
+                        <l n="13"> Sous des conditions si basses et si lâches</l>
+                        <l n="14"> Qu’à jamais ma mémoire en eût porté des taches.</l>
+                        <l n="15"> Leurs desseins toutefois ont fort mal réussi,</l>
+                        <l n="16"> Les vents sont apaisés, le Ciel est éclairci.</l>
+                        <l n="17"> Et par une aventure heureuse et peu commune</l>
+                        <l n="18"> Ils ont de leur débris agrandi ma fortune.</l>
+                        <l n="19"> Ils ont haussé mon front, pensants le ravaler,</l>
+                        <l n="20"> Ils se sont atterrés en voulant m’ébranler.</l>
+                        <l n="21"> Et de leur violence et si grande et si prompte</l>
+                        <l n="22"> Ils n’ont rien remporté que dommage et que honte.</l>
+                        <l n="23"> Mais je serais encore à la merci des flots</l>
+                        <l n="24"> Si vous n’aviez toujours veillé pour mon repos ;</l>
+                        <l n="25"> Et si de votre esprit secondant mon courage</l>
+                        <l n="26"> Vous n’aviez par votre art conjuré cet orage.</l>
+                        <l n="27"> Dans le trouble et la peine où n’naguère on m’a vu,</l>
+                        <l n="28"> Dans ces pressants dangers où nous avons pourvu,</l>
+                        <l n="29"> Et qui demandaient plus qu’un effort ordinaire ;</l>
+                        <l n="30"> Un second tel que vous m’était fort nécessaire.</l>
+                        <l n="31"> Les peuples de Sardaigne et mes yeux sont témoins</l>
+                        <l n="32"> Que je dois mon bonheur et ma gloire à vos soins :</l>
+                        <l n="33"> Mais comme ils sont témoins de votre vigilance</l>
+                        <l n="34"> Ils le seront aussi de ma reconnaissance.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="35"> Sire, comme les Rois sont les Enfants des Dieux</l>
+                        <l n="36"> Une clarté Céleste illumine leurs yeux,</l>
+                        <l n="37"> Qui les fait raisonner au dessus du vulgaire,</l>
+                        <l n="38"> Et fait qu’au dépourvu l’on ne les surprend guère.</l>
+                        <l n="39"> Pourvu que dans leurs cœurs brille la piété</l>
+                        <l n="40"> Que l’on voit éclater en votre Majesté,</l>
+                        <l n="41"> Un souverain génie est toujours à leur suite</l>
+                        <l n="42"> Qui d’un extrême soin veille sur leur conduite ;</l>
+                        <l n="43"> Il aplanit les lieux où s’avancent leurs pas,</l>
+                        <l n="44"> Les inspire au Conseil, les assiste aux combats,</l>
+                        <l n="45"> Arrête sur leur Camp l’aile de la Victoire</l>
+                        <l n="46"> Et comme par la main les conduit à la gloire.</l>
+                        <l n="47"> Aussi vos ennemis, dissipés, ou battus</l>
+                        <l n="48"> N’imputent ce malheur qu’à vos seules vertus.</l>
+                        <l n="49"> Servant un si grand Roi j’aurais trop d’impudence</l>
+                        <l n="50"> Si j’estimais sa gloire un fruit de ma prudence.</l>
+                        <l n="51"> Je n’ai fait qu’obéir à vos commandements</l>
+                        <l n="52"> Et travailler à tout selon vos sentiments.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="53"> Ariste, c’est user de trop de modestie,</l>
+                        <l n="54"> Je vous dois de ma gloire une grande partie,</l>
+                        <l n="55"> On ne saurait celer que vos dignes travaux</l>
+                        <l n="56"> Ont jeté de la poudre aux yeux de vos Rivaux,</l>
+                        <l n="57"> Et je suis sur le point de vous faire parâtre</l>
+                        <l n="58"> Que vous avez l’honneur de servir un bon Maître</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="59"> De cette vérité je ressens les effets,</l>
+                        <l n="60"> Sire, votre bonté me comble de bienfaits,</l>
+                        <l n="61"> Et le seul intérêt qui m’est considérable</l>
+                        <l n="62"> Est aujourd’hui l’honneur de vous être agréable.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="63"> Vous me l’êtes beaucoup et selon mon pouvoir</l>
+                        <l n="64"> Avant qu’il soit longtemps je vous le ferais voir :</l>
+                        <l n="65"> Mais je ne m’en puis taire, apprenez de ma bouche</l>
+                        <l n="66"> Que vous êtes l’Auteur d’un sujet qui me touche,</l>
+                        <l n="67"> De qui le souvenir me trouble à tout propos,</l>
+                        <l n="68"> Et dont le seul penser m’interdit le repos.</l>
+                        <l n="69"> J’en ressens des douleurs qui n’ont point de relâche.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="70"> Moi Sire ? j’ai causé le sujet qui vous fâche ?</l>
+                        <l n="71"> Quoi Sire ? aurais-je point commis un attentat</l>
+                        <l n="72"> Contre votre personne ou contre votre État ?</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="73"> L’attentat seulement regarde ma personne.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="74"> Ô trait qui me surprend ! ô discours qui m’étonne !</l>
+                        <l n="75"> Sire, la calomnie est un subtil poison</l>
+                        <l n="76"> Dont la noire vapeur offusque la raison,</l>
+                        <l n="77"> Et décevant les sens trahit la connaissance</l>
+                        <l n="78"> Pour imposer le crime à la même innocence.</l>
+                        <l n="79"> Aussi pour éviter ces effets dangereux</l>
+                        <l n="80"> Ceux qui sont comme vous de leur gloire amoureux,</l>
+                        <l n="81"> Les Monarques bien nés où reluit la Justice</l>
+                        <l n="82"> Savent des ennuyeux démêler l’artifice,</l>
+                        <l n="83"> Et donnant une oreille aux crimes imposés,</l>
+                        <l n="84"> Garder l’autre aux raisons des pauvres accusés.</l>
+                        <l n="85"> Sur ce solide espoir mon âme se rassure,</l>
+                        <l n="86"> Ne craint guère l’envie et brave l’imposture.</l>
+                        <l n="87"> Votre rare prudence et mon intégrité</l>
+                        <l n="88"> Font que je vois ce trouble avec tranquillité ;</l>
+                        <l n="89"> Et sans m’inquiéter de crainte ou de tristesse</l>
+                        <l n="90"> Je laisse là dessus agir votre sagesse.</l>
+                        <l n="91"> Ce coup me doit venir de l’animosité</l>
+                        <l n="92"> Des Ennemis secrets de votre Majesté ;</l>
+                        <l n="93"> Ils n’ont pu me corrompre, et leur trame subtile</l>
+                        <l n="94"> Me veut rendre suspect pour me rendre inutile.</l>
+                        <l n="95"> Mais en ce noir dessein l’art qu’ils vont employant</l>
+                        <l n="96"> Ne pourra décevoir un œil si clairvoyant ;</l>
+                        <l n="97"> Il saura discerner leur subtil artifice,</l>
+                        <l n="98"> Il connaitra leur fourbe et m’en fera Justice.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="99"> L’imposture en ce lieu n’agît aucunement ;</l>
+                        <l n="100"> Ce que vous avez fait paraît trop clairement.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="101"> Mais Sire, qu’ai-je fait ? il faut que je m’en lave.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="102"> Une Fille, et c’est tout.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="103"> Sire, elle est votre Esclave.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="104"> Mon Esclave ? ah ! sa grâce en un seul entretien</l>
+                        <l n="105"> Eut assez de pouvoir pour me rendre le sien,</l>
+                        <l n="106"> Je l’estime et je l’aime avec trop de tendresse,</l>
+                        <l n="107"> Trouvez bon seulement qu’elle soit ma maîtresse.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="108"> Sire, par le pouvoir que vous avez sur nous,</l>
+                        <l n="109"> Nos biens quand il vous plaît, et nos corps sont à vous,</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="110"> J’attendais bien de vous cette reconnaissance.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="111"> Sire, avec un seul mot vous avez la puissance</l>
+                        <l n="112"> D’envoyer, chaque jour, l’innocent au trépas,</l>
+                        <l n="113"> Mais si vous le pouvez vous ne le faites pas.</l>
+                        <l n="114"> Les grands Rois comme vous qui triomphent du vice</l>
+                        <l n="115"> N’exercent leur pouvoir qu’en montrant leur justice</l>
+                        <l n="116"> Et sont de leurs sujets d’autant plus révérés</l>
+                        <l n="117"> Qu’ils se font toujours voir sages et modérés.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="118"> C’est un enseignement inutile à produire,</l>
+                        <l n="119"> Il n’est point nécessaire en ce lieu de m’instruire.</l>
+                        <l n="120"> Pour le soulagement d’un tourment sans pareil</l>
+                        <l n="121"> J’ai besoin de secours et non pas de conseil.</l>
+                        <l n="122"> Quoi ! vous vous retirez avec un front sévère ?</l>
+                        <l n="123"> Suis-je pas souverain ?</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="124"> Oui, Sire, et je suis père.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="125"> Mais sujet.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="126"> Mais d’un cœur et trop noble et trop franc</l>
+                        <l n="127"> Pour vous prostituer indignement son sang.</l>
+                        <l n="128"> Éteignez, s’il vous plaît, cette illicite flamme,</l>
+                        <l n="129"> Ma fille vaut trop peu pour être votre femme,</l>
+                        <l n="130"> Mais pour une Maîtresse elle vaut trop aussi,</l>
+                        <l n="131"> Et je ne puis jamais l’abandonner ainsi.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="132"> Vous parlez un peu haut.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="133"> Je parle avec justice</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="134"> Il y va de la vie.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="135"> Et bien, que je périsse.</l>
+                        <l n="136"> Je rendrai pour le moins l’esprit avec honneur.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="137"> Qu’il est opiniâtre à troubler son bonheur.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="138"> Je trouve mon bonheur où je trouve la gloire,</l>
+                        <l n="139"> Et non pas à commettre une action si noire.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="140"> Voyez quels traits d’audace et de témérité.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="141"> Ce sont traits de courage et traits de piété.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="142"> Vous y perdrez du bien.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="143"> Quand j’y perdrais la vie</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="144"> Vous vous raviserez.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="145"> Je n’en ai point d’envie.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="146"> Après tous ces discours, c’est un dessein formé,</l>
+                        <l n="147"> J’aime en votre maison, et j’y veux être aimé ;</l>
+                        <l n="148"> Pensez-y mûrement et changez de langage.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="149"> Il n’est point de besoin d’y penser davantage.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#ariste">
+            <speaker> ARISTE, seul </speaker>
+                        <l n="150"> Que ma fille complaise à tes honteux désirs ?</l>
+                        <l n="151"> Qu’elle soit ta maitresse et serve à tes plaisirs,</l>
+                        <l n="152"> Tyran lâche et cruel, tu veux que j’y consente</l>
+                        <l n="153"> Que je livre en tes mains cette vierge innocente,</l>
+                        <l n="154"> Et que par cet aveu d’un courage abattu</l>
+                        <l n="155"> Je déshonore ainsi mon sang et ma vertu ?</l>
+                        <l n="156"> Ingrat de qui le cœur se fond dans les délices,</l>
+                        <l n="157"> As-tu donc de la sorte oublié mes services ?</l>
+                        <l n="158"> Est-ce là tout le prix qu’a mérite de toi</l>
+                        <l n="159"> La grandeur de mon zèle et celle de ma foi ?</l>
+                        <l n="160"> Après t’avoir par tout suivi comme ton ombre,</l>
+                        <l n="161"> Après t’avoir rendu des services sans nombre ;</l>
+                        <l n="162"> Veillé pour ton repos, travaillé pour ton bien</l>
+                        <l n="163"> Et de tes États même affermi le soutien ?</l>
+                        <l n="164"> Tu crois, monstre insolent, honorer ma famille</l>
+                        <l n="165"> Et me récompenser en me volant ma fille ?</l>
+                        <l n="166"> Va, Tigre forcené, qu’une aveugle fureur</l>
+                        <l n="167"> Porte à commettre un crime où l’on voit tant d’horreur !</l>
+                        <l n="168"> Ce traitement ingrat et plein de tyrannie</l>
+                        <l n="169"> N’est pas une action qui demeure impunie.</l>
+                        <l n="170"> Les Cieux m’en vengeront, les Cieux me l’ont promis,</l>
+                        <l n="171"> S’ils n’aiment l’injustice ils sont tes ennemis.</l>
+                        <l n="172"> Mais contre son pouvoir nos clameurs sont débiles,</l>
+                        <l n="173"> Nos ressentiments vains et nos vœux inutiles.</l>
+                        <l n="174"> Ce tourbillon s’élève et s’en va maîtriser</l>
+                        <l n="175"> Tout l’art et les travaux qu’on lui peut opposer.</l>
+                        <l n="176"> Durant cette tempête il faut plier les voiles</l>
+                        <l n="177"> Et n’attendre plus rien de l’aspect des étoiles.</l>
+                        <l n="178"> Toute industrie est vaine où l’orage est si fort,</l>
+                        <l n="179"> Et c’est dans le tombeau qu’il faut chercher le port.</l>
+                        <l n="180"> Mourons donc ; c’est en nous une louable envie,</l>
+                        <l n="181"> Nous trouvons plus de maux que de biens dans la vie ;</l>
+                        <l n="182"> C’est par la seule mort qu’on les peut éviter</l>
+                        <l n="183"> Et qui sait bien mourir n’a rien à redouter :</l>
+                        <l n="184"> Puisqu’il faut en vivant souffrir d’un Prince inique,</l>
+                        <l n="185"> Sortons par le trépas d’un joug si tyrannique.</l>
+                        <l n="186"> Pourquoi dans ce projet aurions-nous des frissons ?</l>
+                        <l n="187"> La mort et le sommeil sont deux enfants bessons.</l>
+                        <l n="188"> Rien ne doit faire peur à qui se la propose,</l>
+                        <l n="189"> On les prend bien souvent pour une même chose,</l>
+                        <l n="190"> Et celui qui du frère a connu la douceur</l>
+                        <l n="191"> Ne doit pas redouter l’approche de sa sœur.</l>
+                        <l n="192"> Mais dans ces grands malheurs un excès de tristesse</l>
+                        <l n="193"> M’inspire des desseins qui choquent la sagesse.</l>
+                        <l n="194"> On traite en criminel avec juste raison</l>
+                        <l n="195"> L’innocent qui s’applique à rompre sa prison.</l>
+                        <l n="196"> Et l’Être souverain qui d’un rayon de flamme</l>
+                        <l n="197"> Et d’un souffle immortel nous a pourvus d’une Âme,</l>
+                        <l n="198"> Défend expressément que nos propres efforts</l>
+                        <l n="199"> Pour aucune raison la chassent de nos corps.</l>
+                        <l n="200"> C’est une sentinelle aux dangers exposée</l>
+                        <l n="201"> Et que doit relever celui qui l’a posée.</l>
+                        <l n="202"> L’homme qui se détruit pour finir ses douleurs</l>
+                        <l n="203"> Témoigne sa faiblesse à porter ses malheurs.</l>
+                        <l n="204"> Et celui qui sait faire aux ennuis résistance</l>
+                        <l n="205"> Brave encor la Fortune avecque sa constance.</l>
+                        <l n="206"> Vivons donc seulement afin de faire voir</l>
+                        <l n="207"> Que nous savons lutter contre le désespoir.</l>
+                        <l n="208"> Bien que de notre sang la gloire soit flétrie,</l>
+                        <l n="209"> Conservons-nous encor pour servir la Patrie ;</l>
+                        <l n="210"> Sans la priver ainsi par un mauvais moyen</l>
+                        <l n="211"> D’un exemple d’honneur et d’un bon Citoyen.</l>
+                        <l n="212"> Ô pauvre Roselie ! Ô fille infortunée !</l>
+                        <l n="213"> Tu cours trop de péril pour être si bien née.</l>
+                        <l n="214"> Célestes ornements de qui sont revêtus</l>
+                        <l n="215"> Ceux qui dès leur bas âge embrassent les vertus,</l>
+                        <l n="216"> Saintes impressions d’honneur et d’innocence,</l>
+                        <l n="217"> Favorisez sa cause et prenez sa défense.</l>
+                        <l n="218"> Quel affront va ternir la gloire de ses jours</l>
+                        <l n="219"> Si la mort promptement ne vient à son secours ?</l>
+                        <l n="220"> Ou si l’indigne feu qu’ont allumé ses charmes</l>
+                        <l n="221"> N’est éteint par miracle avec l’eau de ses larmes ?</l>
+                        <l n="222"> Mais le pouvoir des Cieux ne saurait se borner :</l>
+                        <l n="223"> Ce péril par leur soin se pourra détourner.</l>
+                        <l n="224"> Divine providence à qui rien ne résiste !</l>
+                        <l n="225"> Qui m’as vu si content, et qui me vois si triste,</l>
+                        <l n="226"> Pardonne à mes transports puisque je m’en repens</l>
+                        <l n="227"> Et te laisse toucher aux pleurs que je répands.</l>
+                        <l n="228"> J’ai mon recours à toi, c’est en toi que j’espère ;</l>
+                        <l n="229"> De grâce prends pitié d’un misérable père.</l>
+                        <l n="230"> Je remets ma fortune et ma fille en tes mains</l>
+                        <l n="231"> Qui savent disposer du projet des humains.</l>
+                        <l n="232"> Et puisqu’à ta grandeur il n’est rien d’impossible</l>
+                        <l n="233"> Brouille tout ce dessein d’un ressort invisible,</l>
+                        <l n="234"> Et cherchant pour mon crime un plus doux traitement,</l>
+                        <l n="235"> Donne au cœur de ce Prince un autre mouvement.</l>
+                        <l n="236"> Le voilà qui revient, cette presse le montre ;</l>
+                        <l n="237"> Durant cette bourrasque évitons sa rencontre.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="238"> Ariste à mon abord se retire à grands pas.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="239"> C’est une nouveauté que je ne comprends pas.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="240"> Tu ne sais pas encor le sujet de sa haine.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="241"> Non, Sire, je l’avoue, et j’en suis fort en peine.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="242"> C’est que ce grand esprit s’afflige sans raison</l>
+                        <l n="243"> Lorsque je fais dessein d’enrichir sa maison.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="244"> En ce grand changement il faut quelqu’autre cause.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="245"> Écoute, en peu de mots je te dirai la chose.</l>
+                        <l n="246"> Sache qu’en l’assemblée où je fus l’autre soir</l>
+                        <l n="247"> Avec tant de beauté sa fille se fit voir,</l>
+                        <l n="248"> Qu’à ce premier abord mon âme fut ravie,</l>
+                        <l n="249"> Et mit entre ses mains ma franchise et ma vie.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="250"> Qu’entends-je dire, ô dieux !</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="251"> Dès lorsqu’elle parut</l>
+                        <l n="252"> Je ne sais quel frisson par les os me courut.</l>
+                        <l n="253"> Le sang à cet objet me frémit dans les veines,</l>
+                        <l n="254"> Je me sentis combler de plaisirs et de peines,</l>
+                        <l n="255"> Et connus aussitôt qu’un Astre tout puissant</l>
+                        <l n="256"> Rendait à son pouvoir mon sceptre obéissant ;</l>
+                        <l n="257"> Et qu’il était fatal que mon âme enchaînée</l>
+                        <l n="258"> En recevant ses Lois, suivît sa destinée.</l>
+                        <l n="259"> Là dessus toutefois je voulus consulter,</l>
+                        <l n="260"> Reconnaître les fers que je voulais porter :</l>
+                        <l n="261"> Savoir si son esprit répondait à sa grâce,</l>
+                        <l n="262"> Et si dans mon estime il pouvait prendre place.</l>
+                        <l n="263"> Mais dans le Bal dernier cela fut résolu,</l>
+                        <l n="264"> Elle prit sur mon âme un pouvoir absolu ;</l>
+                        <l n="265"> Me fit voir qu’elle est belle, honnêtes, adroite et sage</l>
+                        <l n="266"> Que son esprit éclate autant que son visage,</l>
+                        <l n="267"> Et que sans injustice on ne peut me blâmer</l>
+                        <l n="268"> Si mon cœur aujourd’hui s’abandonne à l’aimer.</l>
+                        <l n="269"> C’est de quoi j’ai touché quelques mots à son père</l>
+                        <l n="270"> Et ce qui lui fait prendre un visage sévère.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="271"> C’est une émotion digne de sa vertu.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="272"> Il croit que je l’offense, et toi qu’en penses-tu ?</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="273"> Sire, des Courtisans le principal étude</l>
+                        <l n="274"> Est un art lâche et bas qui sent la servitude,</l>
+                        <l n="275"> Qui des Rois quels qu’ils soient flatte les sentiments</l>
+                        <l n="276"> Donnant à leurs défauts des applaudissements.</l>
+                        <l n="277"> De moi qui suis nait libre, et qui n’ai point une Âme</l>
+                        <l n="278"> Capable de contrainte, et de bassesse infâme,</l>
+                        <l n="279"> En cette occasion d’un esprit ingénu</l>
+                        <l n="280"> J’ose vous déclarer mes sentiments à nu.</l>
+                        <l n="281"> Quoi ! Sire ! pourriez-vous concevoir une envie</l>
+                        <l n="282"> Qui ternirait si fort l’éclat de votre vie</l>
+                        <l n="283"> Et dont absolument les siècles avenir</l>
+                        <l n="284"> Ne pourraient sans horreur garder le souvenir ?</l>
+                        <l n="285"> Comment ? tacher si fort une gloire immortelle</l>
+                        <l n="286"> En traitant de la sorte un Officier fidèle ?</l>
+                        <l n="287"> Un serviteur adroit, ardant et généreux</l>
+                        <l n="288"> Qui suit vos intérêts, qui s’immole pour eux ?</l>
+                        <l n="289"> Voulez-vous qu’il soit dit qu’après tant de services</l>
+                        <l n="290"> Vous demandiez encor son sang pour vos délices ?</l>
+                        <l n="291"> Que votre Majesté rappelle sa raison</l>
+                        <l n="292"> Pour divertir l’effet de ce mortel poison.</l>
+                        <l n="293"> Éteignez cette fièvre en votre âme allumée,</l>
+                        <l n="294"> Elle est trop dangereuse à votre renommée ;</l>
+                        <l n="295"> Et possible qu’un jour vous auriez du regret</l>
+                        <l n="296"> D’avoir fermé l’oreille à cet avis secret.</l>
+                        <l n="297"> Excusez, s’il vous plaît, l’ardeur qui me transporte,</l>
+                        <l n="298"> Votre gloire m’oblige à parler de la sorte.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="299"> Tu dis vrai, je vois bien que par cette action</l>
+                        <l n="300"> Je ternirais beaucoup ma réputation.</l>
+                        <l n="301"> Mais de ce feu secret l’ardeur est véhémente,</l>
+                        <l n="302"> Que pourrai-je appliquer au mal qui me tourmente ?</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="303"> Il faut changer d’objet, il faut aimer ailleurs.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="304"> Cherchons pour mon secours des remèdes meilleurs.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="305"> L’héritière de Chypre, ou celle de Sicile</l>
+                        <l n="306"> Vous serait, ce me semble, un party fort utile.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="307"> Sur le plus agréable il faut porter les yeux.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="308"> Demandez celle-là qu’il vous plaira le mieux,</l>
+                        <l n="309"> Vous avez leurs portraits, et par la renommée</l>
+                        <l n="310"> Leur vertu sans égale est assez exprimée.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="311"> Dans tes sages conseils je vois ma guérison,</l>
+                        <l n="312"> Tu veux voir mon amour conduit par la raison ;</l>
+                        <l n="313"> Je suivrai tes avis, et je fuirai le crime.</l>
+                        <l n="314"> Pour brûler désormais d’une ardeur légitime,</l>
+                        <l n="315"> Mon esprit se dispose à faire un grand effort.</l>
+                        <l n="316"> Viens apprendre le reste.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="317"> Ah ! que ne suis-je mort</l></div></div>
+           <div type="act" xml:id="2">
+           <head> ACTE II </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#canope">
+            <speaker> CANOPE. </speaker>
+                        <l n="318"> Madame, dissipez cette morve tristesse,</l>
+                        <l n="319"> C’est en un beau sujet une fâcheuse hôtesse,</l>
+                        <l n="320"> De la paix de l’esprit elle rompt les accords,</l>
+                        <l n="321"> Et détruit lentement les Âmes et les corps.</l>
+                        <l n="322"> C’est une passion des sages condamnée,</l>
+                        <l n="323"> Et qui ne sied pas bien à votre destinée.</l>
+                        <l n="324"> Pouvez-vous être triste avec tant de bonheur,</l>
+                        <l n="325"> Avec tant de beauté, de richesse et d’honneur ?</l>
+                        <l n="326"> Être mélancolique avecque tant de grâces,</l>
+                        <l n="327"> C’est attirer sur vous les Célestes menaces :</l>
+                        <l n="328"> En cette morve humeur vouloir vous maintenir</l>
+                        <l n="329"> Est une ingratitude à vous faire punir.</l>
+                        <l n="330"> La Fortune vous suit, et vous voyez encore</l>
+                        <l n="331"> Qu’un Seigneur accompli vous sert et vous adore,</l>
+                        <l n="332"> Que l’Amant le mieux fait qui soit dessous les Cieux</l>
+                        <l n="333"> A soumis son mérite au pouvoir de vos yeux ;</l>
+                        <l n="334"> Et que tout contribue à l’heureux hyménée</l>
+                        <l n="335"> Qui ne fera qu’un sort de votre destinée.</l>
+                        <l n="336"> Ce sont là des sujets propres à réjouir</l>
+                        <l n="337"> Devant qui le chagrin se doit évanouir,</l>
+                        <l n="338"> N’est-ce point assez d’heur, en faut-il d’avantage</l>
+                        <l n="339"> Pour vous faire résoudre à prendre bon visage ?</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="340"> Ah ! ma chère Canope, une certaine peur</l>
+                        <l n="341"> Me court par tout le sang et me glace le cœur.</l>
+                        <l n="342"> Je trouve un changement en l’esprit de mon père</l>
+                        <l n="343"> Qui m’interdit la joie et qui me désespère ;</l>
+                        <l n="344"> Je crains avec sujet que de sa Majesté</l>
+                        <l n="345"> Ce dessein d’hyménée ait été rebuté.</l>
+                        <l n="346"> Il en a fait refus avec quelque rudesse,</l>
+                        <l n="347"> Et mon père en a pris cette grande tristesse.</l>
+                        <l n="348"> N’as-tu pas là dedans remarqué sur son teint</l>
+                        <l n="349"> La nouvelle douleur dont son cœur est atteint ?</l>
+                        <l n="350"> C’est ce refus sans doute, ou quelque grand outrage</l>
+                        <l n="351"> Dont le ressentiment paraît sur son visage.</l>
+                </sp>
+        <sp who="#canope">
+            <speaker> CANOPE. </speaker>
+                        <l n="352"> Ce que vous imputez à quelque affliction</l>
+                        <l n="353"> Est possible un effet de sa complexion.</l>
+                        <l n="354"> Cette mauvaise humeur se tourne en habitude</l>
+                        <l n="355"> En ceux qui comme lui s’appliquent à l’étude</l>
+                        <l n="356"> Et qui prenants fort peu de divertissement</l>
+                        <l n="357"> Pour des soins importants veillent incessamment.</l>
+                        <l n="358"> C’est ce qui le rend triste, il n’a point autre chose.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="359"> Non, non, c’est un effet qui vient d’une autre cause.</l>
+                        <l n="360"> Lorsque ce sont les soins, ou son tempérament,</l>
+                        <l n="361"> Il rêve quelquefois, mais c’est tranquillement,</l>
+                        <l n="362"> C’est sans se tourmenter ; et l’on voit à cette heure</l>
+                        <l n="363"> Qu’il s’écrie à tous coups, qu’il soupire et qu’il pleure.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="364"> Cieux !</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="365"> Écoute, c’est lui : quoi ne l’entends-tu pas ?</l>
+                </sp>
+        <sp who="#canope">
+            <speaker> CANOPE. </speaker>
+                        <l n="366"> Oui, Madame, et je vois qu’il tourne ici ses pas.</l>
+                        <l n="367"> Tachez de découvrir quelles sont les atteintes</l>
+                        <l n="368"> Qui lui font exhaler ces soupirs et ces plaintes ;</l>
+                        <l n="369"> Son mal par ce secret pourrait être allégé.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="370"> Ô mauvais sort !</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="371"> Voyez comme il est affligé.</l>
+                        <l n="372"> Il passe sans nous voir dans cette inquiétude.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="373"> La tyrannie est grande, et le traitement rude.</l>
+                        <l n="374"> Mais dans cette rencontre il faut dissimuler</l>
+                        <l n="375"> Et baiser une main qu’on voudrait voir brûler.</l>
+                        <l n="376"> La puissance absolue à souffrir nous oblige.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="377"> Qu’avez-vous donc, Seigneur ? quel ennui vous afflige ?</l>
+                        <l n="378"> À ma fidélité confiez ce dépôt,</l>
+                        <l n="379"> Dites-moi ce secret.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="380"> Vous le saurez trop tôt.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="381"> Ô mon père !</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="382"> Ô ma fille et ma seule espérance !</l>
+                        <l n="383"> Le sort change parfois contre toute apparence.</l>
+                        <l n="384"> Nulle félicité ne dure en l’Univers,</l>
+                        <l n="385"> Et la bonne fortune a toujours ses revers.</l>
+                        <l n="386"> Des nuages épais fondent sur notre tête,</l>
+                        <l n="387"> Nous sommes exposés au coup d’une tempête.</l>
+                        <l n="388"> Allez, courez au Temple, embrassez les Autels,</l>
+                        <l n="389"> Cherchez de la faveur entre les immortels :</l>
+                        <l n="390"> Leur support aujourd’hui nous est fort nécessaire</l>
+                        <l n="391"> Pour combattre un malheur qui n’est pas ordinaire.</l>
+                        <l n="392"> Mais s’il faut que le Ciel s’obstine en son courroux,</l>
+                        <l n="393"> Ne commettons au moins rien d’indigne de nous ;</l>
+                        <l n="394"> Ne pouvant par nos soins fléchir sa violence,</l>
+                        <l n="395"> Souffrons et succombons avecque bienséance ;</l>
+                        <l n="396"> Ne perdons pas la gloire en perdant le bonheur,</l>
+                        <l n="397"> Et préférons toujours la mort au déshonneur.</l>
+                        <l n="398"> Mais possible les Cieux touchés de nos prières</l>
+                        <l n="399"> Détourneront de nous ces funestes matières.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="400"> Mais de quel accident sommes-nous menacés ?</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE, en s’en allant. </speaker>
+                        <l n="401"> Faites ce que j’ai dit, vous le saurez assez.</l>
+                </sp>
+        <sp who="#canope">
+            <speaker> CANOPE. </speaker>
+                        <l n="402"> Et bien, Madame ?</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="403"> Et bien : je suis désespérée ;</l>
+                        <l n="404"> Son discours m’a fait voir notre perte assurée.</l>
+                        <l n="405"> Pour éviter ce mal tous ses efforts sont vains,</l>
+                        <l n="406"> Il n’espère plus rien du côté des humains.</l>
+                        <l n="407"> Et pour se délivrer de ces choses funestes</l>
+                        <l n="408"> Il n’a plus de recours qu’aux puissances célestes.</l>
+                        <l n="409"> Canope, pour parer un sinistre accident</l>
+                        <l n="410"> Il faudra qu’il arrive un miracle évident.</l>
+                </sp>
+        <sp who="#canope">
+            <speaker> CANOPE. </speaker>
+                        <l n="411"> Madame, en mille effets qui trompent l’apparence</l>
+                        <l n="412"> La crainte est abusée ainsi que l’espérance.</l>
+                        <l n="413"> C’est accroître ses maux que de les pressentir,</l>
+                        <l n="414"> Les plus sains pronostics peuvent par fois mentir.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="415"> L’Alcion par instinct connaît moins la bonace</l>
+                        <l n="416"> Lorsque dessus les flots il expose sa race,</l>
+                        <l n="417"> Que ce sublime esprit ne connaît par raison</l>
+                        <l n="418"> Quand le bon temps se change en mauvaise saison.</l>
+                        <l n="419"> Il a fait dans la Cour un long apprentissage</l>
+                        <l n="420"> Et jusqu’ici, Canope, il a passé pour sage.</l>
+                        <l n="421"> Il ne saurait errer en ses raisonnements,</l>
+                        <l n="422"> Il ne se peut tromper en ses pressentiments.</l>
+                        <l n="423"> Il ne faut pas douter des choses qu’il augure,</l>
+                        <l n="424"> Soit bon événement, ou mauvaise aventure.</l>
+                        <l n="425"> C’est ce qui me fait voir le naufrage évident.</l>
+                </sp>
+        <sp who="#canope">
+            <speaker> CANOPE. </speaker>
+                        <l n="426"> Les dieux détourneront ce mauvais accident.</l>
+                        <l n="427"> Il ne faut bien souvent qu’un soupir de la Terre</l>
+                        <l n="428"> Pour changer dans le Ciel la route du Tonnerre.</l>
+                        <l n="429"> La foudre qui par fois menace les Nochers</l>
+                        <l n="430"> Tombe le plus souvent sur le haut des rochers.</l>
+                        <l n="431"> Le Ciel aime le juste, et hait les injustices :</l>
+                        <l n="432"> À quiconque fait bien tous les Dieux sont propices.</l>
+                        <l n="433"> Et s’ils laissaient ainsi perdre les innocents</l>
+                        <l n="434"> Ils seraient criminels, ou seraient impuissants.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="435"> Canope, quelquefois la divine puissance</l>
+                        <l n="436"> Permet que l’injustice opprime l’innocence,</l>
+                        <l n="437"> Et souffre du désordre aux choses d’ici bas</l>
+                        <l n="438"> Pour beaucoup de raisons que nous ne savons pas</l>
+                        <l n="439"> On voit le plus souvent la vertu traversée.</l>
+                </sp>
+        <sp who="#canope">
+            <speaker> CANOPE. </speaker>
+                        <l n="440"> Vous n’avez qu’à prier, vous serez exaucée.</l>
+                        <l n="441"> Mais voici Palamède.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="442"> Il a quelque souci,</l>
+                        <l n="443"> Prend garde comme il rêve en s’approchant d’ici.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="444"> Ah ! Madame.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="445"> Quoi donc ? quelle triste nouvelle</l>
+                        <l n="446"> Sème sur votre front cette pâleur mortelle ?</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="447"> Hélas ! préparez vous à déplorer mon sort,</l>
+                        <l n="448"> Je viens en peu de mots vous annoncer ma mort.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="449"> Comment ? de quelle cause est-ce qu’elle procède ?</l>
+                        <l n="450"> Quel est cet accident qui n’a point de remède ?</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="451"> C’est que le Roi mon Maître, ô malheur sans égal !</l>
+                        <l n="452"> Est devenu malade, et je meurs de son mal.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="453"> Le Roi ? cela m’étonne, et j’en suis bien fâchée.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="454"> S’il faut que de son mal votre âme soit touchée,</l>
+                        <l n="455"> Vous n’en aurez tous deux que du contentement,</l>
+                        <l n="456"> Il ne sera mortel que pour moi seulement.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="457"> Parlez plus clairement, je ne puis vous entendre.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="458"> Madame, ce papier vous fera tout comprendre.</l>
+                        <l n="459"> Ô Dieux ! vous y verrez mon trépas résolu</l>
+                        <l n="460"> Par les cruels décrets d’un pouvoir absolu ;</l>
+                        <l n="461"> Vous y verrez d’amour vue étrange manie</l>
+                        <l n="462"> Que ma raison blessée appelle tyrannie.</l>
+            <stage><em>Lettre du Roi.</em></stage>
+                        <l n="463"> Chef d’œuvre de Nature et Miracle des Cieux,</l>
+                        <l n="464"> D’un orgueil insolent je bravais son pouvoir ;</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="465"> Ce trait est agréable.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="466"> Ô dieux ! qu’il m’est funeste !</l>
+                        <l n="467"> Vous le connaîtrez bien quand vous lirez le reste.</l>
+            <stage><em>Suite de la lettre du Roi.</em></stage>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="468"> Vous saurez du porteur comme depuis ce jour</l>
+                        <l n="469"> Cette galanterie est vraiment bien gaillarde :</l>
+                        <l n="470"> Et vos soins sont fort grands pour ce qui me regarde.</l>
+                        <l n="471"> Le Roi n’a pas eu lieu de m’oser cajoler,</l>
+                        <l n="472"> Vous a-t-il trouvé propre à m’en venir parler ?</l>
+                        <l n="473"> Pour vous en acquitter avecque bienséance,</l>
+                        <l n="474"> Expliquez donc ces vers puisqu’ils portent créance.</l>
+                        <l n="475"> Parlez, il n’est plus temps d’en garder le secret.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="476"> Puis-je bien m’exprimer sans mourir de regret ?</l>
+                        <l n="477"> C’est que votre beauté fatale à mes délices</l>
+                        <l n="478"> Et vos propres appas ont trahi mes services ;</l>
+                        <l n="479"> Me donnant en ce Prince un rival glorieux</l>
+                        <l n="480"> Qui veut tout obtenir d’un mot impérieux.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="481"> Mais enfin qu’avez-vous de sa part à me dire ?</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="482"> Qu’il consacre à vos pieds son cœur et son Empire,</l>
+                        <l n="483"> Qu’il vous aime, Madame, et qu’il attend de vous</l>
+                        <l n="484"> Une amour réciproque en qualité d’Époux.</l>
+                        <l n="485"> Que vous ne doutiez pas que sa flamme naissante</l>
+                        <l n="486"> En ce premier éclat se trouve si puissante ;</l>
+                        <l n="487"> Puisque ceux qui verront vos célestes appas</l>
+                        <l n="488"> D’un effet si nouveau ne s’étonneront pas.</l>
+                        <l n="489"> Il m’a chargé d’en dire autant à votre père.</l>
+                        <l n="490"> Et dans cet accident ce qui me désespère,</l>
+                        <l n="491"> Qui confond mon esprit et qui va vous troubler,</l>
+                        <l n="492"> C’est que dans le Palais on se doit assembler,</l>
+                        <l n="493"> Et que le Roi prétend cette même journée</l>
+                        <l n="494"> Contracter devant tous ce nouvel hyménée.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="495"> Quoi méchant ? voici donc notre hymen prétendu,</l>
+                        <l n="496"> Voici donc ce succès si longtemps attendu ;</l>
+                        <l n="497"> As-tu par tant de soins et par tant de visites,</l>
+                        <l n="498"> De soupirs décevants et de pleurs hypocrites,</l>
+                        <l n="499"> Abusé ma créance et surpris ma raison</l>
+                        <l n="500"> Pour servir seulement à cette trahison ?</l>
+                        <l n="501"> Quoi ? je t’ai donc permis de faire tant de plaintes</l>
+                        <l n="502"> En me représentant tes secrètes atteintes,</l>
+                        <l n="503"> Pour avoir le dépit de voir qu’en même jour</l>
+                        <l n="504"> Tu m’oses hardiment parler d’un autre amour ?</l>
+                        <l n="505"> Quoi ? j’ai donc imprimé ton image en mon âme,</l>
+                        <l n="506"> Considéré tes soins et pris part à ta flamme,</l>
+                        <l n="507"> Et de ta passion fait mon propre tourment</l>
+                        <l n="508"> Pour recevoir de toi ce cruel traitement ?</l>
+                        <l n="509"> Quel courage farouche et quelle âme cruelle</l>
+                        <l n="510"> Aurait peu se résoudre à cet acte infidèle ?</l>
+                        <l n="511"> Ah ! voilà le malheur que mon père attendait</l>
+                        <l n="512"> Quand aux bontés du Ciel il me recommandait ;</l>
+                        <l n="513"> Et qu’il était troublé de ces grandes alarmes</l>
+                        <l n="514"> Qui faisaient qu’à toute heure il se fondait en larmes.</l>
+                        <l n="515"> Voilà les appareils de cette trahison</l>
+                        <l n="516"> Qui doit avec éclat perdre notre maison.</l>
+                        <l n="517"> Enfin la perfidie est toute découverte,</l>
+                        <l n="518"> Et c’est ouvertement qu’on travaille à ma perte.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="519"> Ah ! de quels trais cuisants m’avez-vous outrage ?</l>
+                        <l n="520"> Peut-on bien s’attacher au sort d’un affligé ?</l>
+                        <l n="521"> D’un cœur désespéré, d’un Amant misérable</l>
+                        <l n="522"> À qui la seule mort doit être favorable ?</l>
+                        <l n="523"> Ô Dieux ! si vous saviez en cette extrémité</l>
+                        <l n="524"> Quelle est mon innocence et ma fidélité,</l>
+                        <l n="525"> En cette illustre amour vous trouveriez des charmes</l>
+                        <l n="526"> Qui vous feraient mêler vos pleurs avec mes larmes.</l>
+                        <l n="527"> Par cette vérité vos sens désabusés</l>
+                        <l n="528"> Ne pourraient trop louer ce que vous accusez.</l>
+                        <l n="529"> Dieux ! que n’ai-je point fait dont l’esprit soit capable</l>
+                        <l n="530"> Pour détourner le mal dont on me tient coupable ?</l>
+                        <l n="531"> Et par quelles raisons n’ai-je point combattu</l>
+                        <l n="532"> Cette ardeur qui semblait choquer votre vertu ?</l>
+                        <l n="533"> J’ai dit sur ce sujet tout ce que saurait dire</l>
+                        <l n="534"> Un homme de courage et que l’amour inspire.</l>
+                        <l n="535"> Mais quoi tous mes propos n’ont point eu de crédit,</l>
+                        <l n="536"> Je n’ai rien avancé pour tout ce que j’ai dit.</l>
+                        <l n="537"> Le Roi m’a d’un seul mot rendu la bouche close</l>
+                        <l n="538"> Par les conditions que son amour propose.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="539"> Quelles conditions ?</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="540"> Un hymen solennel.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="541"> Croy-tu que son désir en soit moins criminel ?</l>
+                        <l n="542"> Sais-tu as la façon dont il trompa Lucile</l>
+                        <l n="543"> Que sous ce beau prétexte il trouva si facile ?</l>
+                        <l n="544"> L’hymen l’empêcha-t-il de la quitter après ?</l>
+                        <l n="545"> Le perfide fut-il touché de ses regrets ?</l>
+                        <l n="546"> Lorsqu’il l’eut confinée en un coin de la Corse</l>
+                        <l n="547"> Et formé sans raison cet indigne divorce ?</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="548"> Vous ne sauriez tomber dans le même malheur.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="549"> Qui m’en empêchera ?</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="550"> Votre propre valeur.</l>
+                        <l n="551"> Votre seule beauté vous peut servir de pleige</l>
+                        <l n="552"> Contre le plus impie et le plus sacrilège.</l>
+                        <l n="553"> Les méchants peuvent bien blâmer les immortels,</l>
+                        <l n="554"> Voler les lieux sacrés et rompre les Autels.</l>
+                        <l n="555"> Mais de manquer d’amour pour des beautés si rares</l>
+                        <l n="556"> C’est un crime interdit aux cœurs les plus barbares.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="557"> Mais si ce beau parti si grand, si glorieux</l>
+                        <l n="558"> Est à mes sentiments un objet odieux.</l>
+                        <l n="559"> Si le simple récit de cette belle flamme</l>
+                        <l n="560"> Est l’horreur de mes sens et l’enfer de mon âme.</l>
+                        <l n="561"> Et si j’ai résolu de te garder ma foi,</l>
+                        <l n="562"> Si je ne puis aimer tout autre amant que toi,</l>
+                        <l n="563"> Quel pleige puis-je avoir en ce jour déplorable</l>
+                        <l n="564"> Qui me puisse empêcher de vivre misérable ?</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="565"> Ô trait doux et cuisant d’une fidèle ardeur !</l>
+                        <l n="566"> Vous dédaignez pour moi la suprême grandeur ;</l>
+                        <l n="567"> Vous méprisez un sceptre en faveur d’une épée</l>
+                        <l n="568"> Qui pour vous conserver devrait être occupée.</l>
+                        <l n="569"> Mais que puis-je tenter en ce triste accident</l>
+                        <l n="570"> Où le mauvais succès ne soit tout évident ?</l>
+                        <l n="571"> Ferai-je en un instant par toute une Province</l>
+                        <l n="572"> Révolter des sujets contre leur propre Prince ?</l>
+                        <l n="573"> Quelqu’un osera-t-il se déclarer pour moi</l>
+                        <l n="574"> Si tôt qu’il s’agira du service du Roi ?</l>
+                        <l n="575"> Quand nous entreprendrions une fuite secrète,</l>
+                        <l n="576"> Avons-nous seulement aucun lieu de retraite</l>
+                        <l n="577"> Où ce Roi qui s’est fait en tous lieux redouter</l>
+                        <l n="578"> N’ait la facilité de nous persécuter ?</l>
+                        <l n="579"> Vous ferais-je embarquer pour une fin tragique ?</l>
+                        <l n="580"> Il règne un vent du Nord qui porte vers l’Afrique,</l>
+                        <l n="581"> Et qui ne nous promet en cette adversité</l>
+                        <l n="582"> Qu’un naufrage, ou du moins qu’une captivité.</l>
+                        <l n="583"> Verrai-je en servitude en un climat barbare</l>
+                        <l n="584"> Tout ce que l’Univers eut jamais de plus rare ?</l>
+                        <l n="585"> Un Objet que les Dieux formèrent de leurs mains</l>
+                        <l n="586"> Pour imposer des Lois aux plus grands des humains ?</l>
+                        <l n="587"> Et pour vous affranchir de cette tyrannie</l>
+                        <l n="588"> Vous irai-je causer une peine infinie ?</l>
+                        <l n="589"> Il vaut mieux vous montrer que je n’y trempe pas</l>
+                        <l n="590"> En vous justifiant ma foi par mon trépas.</l>
+                        <l n="591"> Je n’ai sur ce sujet qu’à payer de ma vie,</l>
+                        <l n="592"> Moi qui vous suis suspect quand vous m’êtes ravie.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE, l’empêchant de se tuer. </speaker>
+                        <l n="593"> Ah ! de grâce pardonne à mes ressentiments</l>
+                        <l n="594"> Qui n’ont peu retenir leurs premiers mouvements !</l>
+                        <l n="595"> J’ai tort de soupçonner une amitié si sainte,</l>
+                        <l n="596"> Tu n’as aucune part au sujet de ma plainte.</l>
+                        <l n="597"> Mais le trouble et la peur dans ce pressant malheur</l>
+                        <l n="598"> Ont contre ton amour fait parler ma douleur.</l>
+                        <l n="599"> C’est une cruauté dont tu n’es point capable,</l>
+                        <l n="600"> Ma mauvaise fortune en est seule coupable.</l>
+                        <l n="601"> C’est un effet tout pur des Astres irrités</l>
+                        <l n="602"> Qui furent envieux de mes prospérités.</l>
+                        <l n="603"> De ce trait de disgrâce ils sont la seule cause.</l>
+                        <l n="604"> Mais un Page du Roi demande quelque chose,</l>
+                        <l n="605"> Allez voir ce que c’est.</l>
+                </sp>
+        <sp who="#le-page">
+            <speaker> LE PAGE. </speaker>
+                        <l n="606"> C’est un billet du Roi.</l>
+                </sp>
+        <sp who="#canope">
+            <speaker> CANOPE. </speaker>
+                        <l n="607"> À qui s’adresse-t-il ?</l>
+                </sp>
+        <sp who="#le-page">
+            <speaker> LE PAGE. </speaker>
+                        <l n="608"> À Palamède.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="609"> À moi ?</l>
+                        <l n="610"> Donnez.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="611"> Que pourrait-ce être ? ô Cieux ? le cœur m’en tremble,</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="612"> Madame, s’il vous plaît nous le verrons ensemble.</l>
+            <stage><em>Billet du Roi.</em></stage>
+                        <l n="613"> Qu’on n’oppose point de délais</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="614"> Va donc le retrouver, ne le fais plus attendre.</l>
+                        <l n="615"> Je sais bien sur ce point quels conseils je dois prendre.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="616"> Quel conseil rendrez-vous que d’obéir au Roi ?</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="617"> Un qui te fera voir la grandeur de ma foi.</l>
+                        <l n="618"> Un conseil glorieux que m’a donné mon père,</l>
+                        <l n="619"> Et sur qui j’ai fondé tout le bien que j’espère.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="620"> Me découvrirez-vous ces avis importants ?</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="621"> Va, tu les apprendras avant qu’il soit longtemps.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="622"> Mais que dirai-je au Roi qui meurt d’impatience ?</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="623"> Que l’honneur qu’il me fait me tient en défiance,</l>
+                        <l n="624"> Que je n’ignore pas ses amours du passé,</l>
+                        <l n="625"> Que j’ai rompu sa lettre et que je t’ai chassé,</l>
+                        <l n="626"> Détestant hautement ce grossier artifice.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="627"> Ciel qui vois ce dessein, permets qu’il réussisse.</l>
+                        <l n="628"> Mais de grâce, Canope, accompagnés ses pas,</l>
+                        <l n="629"> En ces extrémités ne l’abandonnez pas.</l>
+                        <l n="630"> Essayez de calmer par un conseil fidèle</l>
+                        <l n="631"> L’orage impétueux qui trouble cette belle.</l>
+                        <l n="632"> Qu’elle permette enfin qu’en ces adversités</l>
+                        <l n="633"> Je serve de victime aux Astres irrités.</l>
+                        <l n="634"> Qu’elle profite enfin de mon sort déplorable,</l>
+                        <l n="635"> Quelle soit seule heureuse, et moi seul misérable.</l>
+                        <l n="636"> Il est déterminé qu’un chef-d’œuvre si beau</l>
+                        <l n="637"> S’avance vers le trône, et moi vers le tombeau.</l>
+                        <l n="638"> Rendez pour mes malheurs sa peine moins sensible.</l>
+                </sp>
+        <sp who="#canope">
+            <speaker> CANOPE. </speaker>
+                        <l n="639"> Je ferais pour cela tout ce qui m’est possible.</l>
+                        <l n="640"> Mais, Seigneur, je plains bien votre funeste sort.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="641"> Conservez bien sa vie, et plaignez moins ma mort.</l>
+                </sp>
+        <sp who="#canope">
+            <speaker> CANOPE. </speaker>
+                        <l n="642"> Ah ! ne concevez pas ces volontés cruelles.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="643"> Allez, vous apprendrez bientôt de mes nouvelles.</l></div></div>
+           <div type="act" xml:id="3">
+           <head> ACTE III </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="644"> Si vous me dites vrai, je suis fort imprudent</l>
+                        <l n="645"> Puisque de mon Rival j’ai fait mon Confident.</l>
+                        <l n="646"> Et je tiens fort douteux, s’il est amoureux d’elle,</l>
+                        <l n="647"> Qu’il m’ait fait de sa part un rapport bien fidèle,</l>
+                        <l n="648"> Ou qu’étant sous ses Lois bien avant engagé</l>
+                        <l n="649"> Il ait bien accompli ce dont je l’ai chargé.</l>
+                </sp>
+        <sp who="#alfonse">
+            <speaker> ALFONSE. </speaker>
+                        <l n="650"> Sire, de cet amour il n’est qu’un sourd murmure,</l>
+                        <l n="651"> Personne n’en sait rien sinon par conjecture.</l>
+                        <l n="652"> Mais c’est l’opinion des plus subtils esprits</l>
+                        <l n="653"> Que de cette beauté Palamède est épris.</l>
+                        <l n="654"> Il rend depuis longtemps de grands soins à son père,</l>
+                        <l n="655"> Et l’on s’en imagine un amoureux mystère.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="656"> De sa secrète amour c’est possible un effet,</l>
+                        <l n="657"> J’en conçois quelque doute au rapport qu’ii m’a fait.</l>
+                        <l n="658"> Dire qu’insolemment elle ait rompu ma lettre ?</l>
+                        <l n="659"> Le respect qui m’est du ne le saurait permettre</l>
+                        <l n="660"> Jamais une sujette à qui l’on fait honneur,</l>
+                        <l n="661"> Ne peut ainsi traiter son souverain Seigneur.</l>
+                        <l n="662"> Il est vrai que ce sexe à qui tout rend hommage</l>
+                        <l n="663"> Croit souvent obliger lors même qu’il outrage</l>
+                        <l n="664"> Possible est-ce l’ombrage et l’incrédulité</l>
+                        <l n="665"> Qui lui font pratiquer cette incivilité,</l>
+                        <l n="666"> Quoiqu’on ait peu lui dire, elle doute peut-être</l>
+                        <l n="667"> Qu’elle eût tant de bonheur que d’épouser son Maître</l>
+                        <l n="668"> Croit que c’est une ruse, afin de l’engager,</l>
+                        <l n="669"> Et par ce faux mépris elle veut se venger.</l>
+                        <l n="670"> L’esprit de Palamède est un esprit solide,</l>
+                        <l n="671"> Que la raison gouverne, et que la vertu guide.</l>
+                        <l n="672"> Je connais de longtemps quel zèle il a pour moi</l>
+                        <l n="673"> Je n’ai point de sujet de soupçonner sa foi.</l>
+                        <l n="674"> Il n’a jamais aimé que la gloire des armes,</l>
+                        <l n="675"> C’est en ce seul sujet qu’il peut trouver des charmes</l>
+                        <l n="676"> Puis, que m’importe-t-il qu’il en soit enflammé</l>
+                        <l n="677"> Pourvu qu’absolument il n’en soit pas aimé ?</l>
+                        <l n="678"> Cette jeune Merveille en beauté sans seconde</l>
+                        <l n="679"> Peut de sa seule vu embraser tout le monde.</l>
+                        <l n="680"> Si j’avais à punir ce qu’enflamment ses yeux</l>
+                        <l n="681"> J’aurais à me venger de la terre et des Cieux.</l>
+                        <l n="682"> Sa grâce en tous sujets imprime sa puissance,</l>
+                        <l n="683"> Tout rit à son abord, tout pleure son absence,</l>
+                        <l n="684"> Et je m’engagerais à d’étranges tourments</l>
+                        <l n="685"> Si j’allais me piquer contre tous ses Amants.</l>
+                        <l n="686"> Ils sont dans la tourmente, et je suis dans le calme,</l>
+                        <l n="687"> Ils en auront la peine et j’en aurai la palme ;</l>
+                        <l n="688"> Et le rang glorieux où le Ciel m’a placé</l>
+                        <l n="689"> Me rendra seul aimable et seul récompensé.</l>
+                        <l n="690"> Mais sans plus différer il faut prendre une voie</l>
+                        <l n="691"> Qui brise tout obstacle et me comble de joie.</l>
+                        <l n="692"> Ne vois-je pas Ariste, il vient bien à propos</l>
+                        <l n="693"> Pour me tirer de peine et se mettre en repos.</l>
+                        <l n="694"> Il le faut apaiser ; approchez vous, Ariste,</l>
+                        <l n="695"> Et ne vous tenez plus dans une humeur si triste.</l>
+                        <l n="696"> D’où vient cette froideur ? quel est votre souci ?</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="697"> Vous connaissez mes maux, la source en est ici,</l>
+                        <l n="698"> Il est bien malaisé que mon sang ne se glace</l>
+                        <l n="699"> Quand je vois de si près l’Astre qui me menace.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="700"> Cet Astre à l’avenir fera vos plus beaux jours.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="701"> Oui, si pour mon sujet il peut changer de cours.</l>
+                        <l n="702"> Et s’il éteint en lui cette illicite flamme</l>
+                        <l n="703"> Qui jette tant de trouble et d’ennuis en mon âme.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="704"> Ce feu se purifie, et n’est plus dangereux.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="705"> S’il n’est du tout éteint il est trop rigoureux.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="706"> On a sur ce sujet quelque chose à vous dire.</l>
+                        <l n="707"> Mais vous n’avez pas vu Palamède ?</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="708"> Non, Sire.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="709"> Il vous cherche partout.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="710"> Ses soins sont superflus.</l>
+                        <l n="711"> Je me cherche moi-même et ne me trouve plus.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="712"> C’est d’une injuste crainte affliger une vie</l>
+                        <l n="713"> À qui des Souverains pourront porter envie ;</l>
+                        <l n="714"> Mais je veux vous l’apprendre en cet appartement.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="715"> Que je reçoive ici votre commandement.</l>
+                        <l n="716"> N’allez point rechercher une vue importune</l>
+                        <l n="717"> Contraire à vos désirs autant qu’à ma fortune.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="718"> Ne vous efforcez point d’en détourner mes pas,</l>
+                        <l n="719"> Mes desseins sont changés.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="720"> Les siens ne le sont pas</l>
+                        <l n="721"> Ma fille est résolue à ne vous point entendre.</l>
+                        <l n="722"> Il n’est pas à propos qu’on l’aille ainsi surprendre.</l>
+                        <l n="723"> La voulez-vous forcer le poignard sur le sein ?</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="724"> Non, je veux à tous deux vous dire mon dessein.</l>
+                        <l n="725"> Mais voici de vos gens, quelle est cette tristesse ?</l>
+                        <l n="726"> Cléogène, comment se porte ta Maîtresse ?</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#cléogène">
+            <speaker> CLÉOGÈNE. </speaker>
+                        <l n="727"> Sire, vous apprendrez un étrange malheur</l>
+                        <l n="728"> Qui va porter son père à mourir de douleur.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="729"> Comment ? quel accident ?</l>
+                </sp>
+        <sp who="#cléogène">
+            <speaker> CLÉOGÈNE. </speaker>
+                        <l n="730"> Ce rideau qui se tire</l>
+                        <l n="731"> Vous en fera plus voir que je n’en saurais dire.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="732"> Quel spectacle est-ce ici ? qui aperçois-je, ô grands Dieux !</l>
+                        <l n="733"> Quel pitoyable objet se présente à mes yeux ?</l>
+                        <l n="734"> Quoi ? Roselie est morte ? Ô Cieux ! est-il possible ?</l>
+                        <l n="735"> Ce coup est surprenant autant qu’il est sensible.</l>
+                        <l n="736"> Son front est tout glacé. Canope est morte aussi.</l>
+                        <l n="737"> Ariste, approchez-vous, dites-moi, qu’est-ce ci ?</l>
+                        <l n="738"> Qui dedans cette coupe a mis ce noir breuvage</l>
+                        <l n="739"> Et quel monstre infernal a fait tout ce ravage ?</l>
+                        <l n="740"> Ô sanglante disgrâce ! ô cruel désespoir !</l>
+                        <l n="741"> Mais nommez-en l’Auteur, car je le veux savoir.</l>
+                        <l n="742"> Dites.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="743"> Puisqu’il vous plaît ; je m’en vais vous le dire</l>
+                        <l n="744"> C’est votre Majesté.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="745"> C’est moi ?</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="746"> Oui, c’est vous, Sire</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="747"> Reprenez vos esprits, vous perdez la raison.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="748"> C’est de vous que ma fille a reçu le poison.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="749"> De moi ?</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="750"> Oui, c’est de vous, la chose est assurée,</l>
+                        <l n="751"> C’est votre indigne amour qui l’a désespérée,</l>
+                        <l n="752"> Vos désirs déréglés ont causé ce malheur.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="753"> Il faut que je pardonne à sa juste douleur.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="754"> Ne me pardonnez point, ordonnez que je meure,</l>
+                        <l n="755"> La plus soudaine fin me sera la meilleure.</l>
+                        <l n="756"> Au lieu de me servir cette faveur me nuit.</l>
+                        <l n="757"> Quelle grâce on me fait, après m’avoir détruit ?</l>
+                        <l n="758"> Que peut-on ajouter à cette violence ?</l>
+                </sp>
+        <sp who="#le-capitaine-des-gardes">
+            <speaker> LE CAPITAINE DES GARDES. </speaker>
+                        <l n="759"> Ariste, parlez mieux, ou gardez le silence.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="760"> Il faut tout excuser de son ressentiment ;</l>
+                        <l n="761"> Ayant perdu sa fille il perd le jugement.</l>
+                        <l n="762"> Mais qui serait l’Auteur de cette mort soudaine ?</l>
+                        <l n="763"> Possible ce papier nous ôtera de peine.</l>
+            <stage><em>Rosalie à son père, au point de son départ.</em></stage>
+                        <l n="764"> Il me semble à propos de le lire à l’écart.</l>
+                        <l n="765"> Auteur de ma naissance, Esprit savant et sage</l>
+                        <l n="766"> Qui prévîtes si bien nos malheurs obstinés ;</l>
+                        <l n="767"> En cette extrémité je vais mettre en usage</l>
+                        <l n="768"> Les généreux conseils que vous m’avez donnés.</l>
+                        <l n="769"> Consolez-vous d’un mal qui n’a point de remède,</l>
+                        <l n="770"> Et ne murmurez pas contre un Arrêt des Cieux ;</l>
+                        <l n="771"> Mon cœur les implorait alors que Palamède</l>
+                        <l n="772"> M’a porté le poison qui va clore mes yeux.</l>
+                        <l n="773"> Je croirais le respect qui veut que je diffère</l>
+                        <l n="774"> Jusqu’à votre retour ce glorieux effort ;</l>
+                        <l n="775"> Mais l’objet des soupirs et des pleurs d’un bon père</l>
+                        <l n="776"> M’aurait plus fait souffrir que le coup de la mort.</l>
+                        <l n="777"> Ô prodige odieux ! ô crime épouvantable !</l>
+                        <l n="778"> En croirai-je la morte, est-il bien véritable ?</l>
+                        <l n="779"> Deux de mes Officiers l’honneur de mon État</l>
+                        <l n="780"> Ont part également à ce lâche attentat ?</l>
+                        <l n="781"> Poussez d’une cruelle et d’une aveugle rage</l>
+                        <l n="782"> Son père et Palamède ont produit cet ouvrage,</l>
+                        <l n="783"> Pour l’accomplissement de cet acte inhumain</l>
+                        <l n="784"> L’un donna son conseil, l’autre prêta sa main.</l>
+                        <l n="785"> L’un poussé d’une humeur altière et glorieuse,</l>
+                        <l n="786"> Et l’autre d’une ardeur jalouse et furieuse.</l>
+                        <l n="787"> Mais selon le soupçon que j’en avais conçu</l>
+                        <l n="788"> Palamède a changé l’ordre qu’il a reçu.</l>
+                        <l n="789"> Ce mauvais serviteur, ce Confident perfide</l>
+                        <l n="790"> Est l’Agent principal de ce grand homicide.</l>
+                        <l n="791"> Il a troublé des cœurs qu’il devait assurer,</l>
+                        <l n="792"> Et m’a calomnié pour les désespérer.</l>
+                        <l n="793"> Le cruel a donc fait ainsi que ces barbares</l>
+                        <l n="794"> Qui jaloux par excès de quelques Beautés rares</l>
+                        <l n="795"> Leur servaient bien souvent de bourreaux inhumains</l>
+                        <l n="796"> De crainte de les voir tomber en d’autres mains</l>
+                        <l n="797"> Par une cruauté difficile à comprendre</l>
+                        <l n="798"> Il m’a frustré du bien qu’il ne pouvait prétendre.</l>
+                        <l n="799"> Le Traître a mieux aimé nous en priver tous deux</l>
+                        <l n="800"> Que de me voir tout seul parfaitement heureux</l>
+                        <l n="801"> Ah ! traître, ah ! scélérat, ah ! maudite vipère,</l>
+                        <l n="802"> Tu te prends à celui qui t’a servi de père ?</l>
+                        <l n="803"> Donc en cet attentat ton infidélité</l>
+                        <l n="804"> Viole ainsi les droits de l’hospitalité ?</l>
+                        <l n="805"> Ton âme criminelle en choquant ma puissant</l>
+                        <l n="806"> Fait voir ta perfidie et ta méconnaissance.</l>
+                        <l n="807"> Mais je suis fort trompé si je n’ai la raison</l>
+                        <l n="808"> De ton ingratitude et de ta trahison.</l>
+                        <l n="809"> Timon, va de ce pas arrêter Palamède.</l>
+                        <l n="810"> Mais de peur que le peuple accourût à son aide,</l>
+                        <l n="811"> Ou ceux de notre garde engagés à l’aimer</l>
+                        <l n="812"> Par les profusions dont il sait les charmer :</l>
+                        <l n="813"> Il faudra s’y conduire avec beaucoup d’adresse,</l>
+                        <l n="814"> Dis-lui donc qu’une affaire importante me presse,</l>
+                        <l n="815"> Qu’un Courier de ma part doit partir aujourd’hui,</l>
+                        <l n="816"> Que je fais la dépêche où j’ai besoin de lui.</l>
+                        <l n="817"> Jusque dans le Palais conduis-le sans escorte</l>
+                        <l n="818"> Et le fais surement investir à la porte.</l>
+                        <l n="819"> Qu’on l’enferme en la Tour, c’est encore un honneur</l>
+                        <l n="820"> Qu’il faut faire par force à cet empoisonneur.</l>
+                        <l n="821"> Âme ingrate et cruelle, âme lâche et mal née,</l>
+                        <l n="822"> Abandonnée au crime, aux tourments destinée,</l>
+                        <l n="823"> Monstre qu’une Furie avait produit au jour,</l>
+                        <l n="824"> Ma haine t’apprendra quelle était mon amour.</l>
+                        <l n="825"> Mon penser te prépare un million de gênes :</l>
+                        <l n="826"> J’ai pour toi dans l’esprit un Enfer plein de peines.</l>
+                        <l n="827"> Mille nouveaux tourments appliqués à ton corps</l>
+                        <l n="828"> Te feront s’il se peut mourir de mille morts.</l>
+                        <l n="829"> Mais il n’a qu’une vie, après cette insolence,</l>
+                        <l n="830"> Pour servir de matière au feu de ma vengeance.</l>
+                        <l n="831"> Qu’il donne peu de prise à mon juste courroux,</l>
+                        <l n="832"> Après m’avoir porté de si sensibles coups !</l>
+                        <l n="833"> Pourquoi n’est-il Seigneur d’une Province entière</l>
+                        <l n="834"> Pour donner à ma rage un peu plus de matière ?</l>
+                        <l n="835"> Il verrait à sa mort ses États désolés,</l>
+                        <l n="836"> Ses peuples déconfits et ses trésors volés ;</l>
+                        <l n="837"> Ses plus belles Cités seraient mes feux de joie,</l>
+                        <l n="838"> Avant que des bourreaux lui-même fut la proie :</l>
+                        <l n="839"> Et voyant dissiper ce qu’il aurait aimé,</l>
+                        <l n="840"> Avant que d’être éteint il serait consumé.</l>
+                        <l n="841"> Que n’est-il pour le moins un père de famille</l>
+                        <l n="842"> Pour voir brûler son fils, pour voir noyer sa fille,</l>
+                        <l n="843"> Et pour voir ressentir ã toute sa Maison</l>
+                        <l n="844"> Combien je suis sensible à cette trahison.</l>
+                        <l n="845"> Le Tigre a satisfait à sa jalouse envie,</l>
+                        <l n="846"> Il m’a donné cent morts, et n’a rien qu’une vie.</l>
+                        <l n="847"> Et toi, père cruel, dénaturé vieillard,</l>
+                        <l n="848"> C’est une violence où tu prends quelque part.</l>
+                        <l n="849"> Esprit hautain, crédule, et plein de défiances,</l>
+                        <l n="850"> Voici, voici des fruits de tes impatiences.</l>
+                        <l n="851"> Tes aveugles soupçons ont éteint ces beaux yeux</l>
+                        <l n="852"> Dont l’éclat m’était cher plus que celui des Cieux.</l>
+                        <l n="853"> Tes funestes conseils ont fermé cette bouche,</l>
+                        <l n="854"> Et fait de ce beau corps une immobile souche.</l>
+                        <l n="855"> Courage impitoyable envers ton propre sang,</l>
+                        <l n="856"> Désormais dans ma Cour tu n’auras plus de rang.</l>
+                        <l n="857"> Ne t’imagine plus d’être considérable</l>
+                        <l n="858"> Qu’autant que le peut être un homme inexorable :</l>
+                        <l n="859"> Une âme sanguinaire, un sujet odieux</l>
+                        <l n="860"> Également haï des hommes et des Dieux :</l>
+                        <l n="861"> À qui les habitants du Ciel et de la Terre</l>
+                        <l n="862"> Doivent faire à jamais vue cruelle guerre.</l>
+                        <l n="863"> Tu mériterais bien de mourir mille fois</l>
+                        <l n="864"> Et qu’on t’abandonnât à la rigueur des lois.</l>
+                        <l n="865"> Mais pour y consentir mon amour fut trop forte,</l>
+                        <l n="866"> Je respecte ta fille encor qu’elle soit morte.</l>
+                        <l n="867"> Et son secret suffrage obtient l’impunité</l>
+                        <l n="868"> D’un prodige pour elle en inhumanité.</l>
+                        <l n="869"> Mais bien que son respect me porte à l’indulgence</l>
+                        <l n="870"> Sur peine de la vie évite ma présence.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="871"> Ma fille est morte enfin ; je l’avais attendu.</l>
+                        <l n="872"> Son généreux courage a fait ce qu’il a du ;</l>
+                        <l n="873"> Elle a bien témoigné par cette belle audace</l>
+                        <l n="874"> L’heur de sa nourriture et l’honneur de sa race.</l>
+                        <l n="875"> Dans ce choix glorieux elle a fait son devoir.</l>
+                        <l n="876"> De deux sortes de morts qu’il fallait recevoir</l>
+                        <l n="877"> Par l’injuste décret d’une rigueur puissante</l>
+                        <l n="878"> Elle a pris la plus noble et la plus innocente.</l>
+                        <l n="879"> Sa réputation est encore en vigueur,</l>
+                        <l n="880"> Les venins ont éteint, et non pollue son cœur.</l>
+                        <l n="881"> Au fort de ses malheurs, une matière noire</l>
+                        <l n="882"> A terminé sa vie, et non taché sa gloire.</l>
+                        <l n="883"> Elle n’a rien commis qu’on ne doive louer,</l>
+                        <l n="884"> Et de quoi la Vertu ne la puisse avouer.</l>
+                        <l n="885"> Je reconnais ma fille, et sans sa mort peut-être,</l>
+                        <l n="886"> J’aurais été honteux de la plus reconnaître.</l>
+                        <l n="887"> Elle n’a pour le moins manqué que de bonheur,</l>
+                        <l n="888"> Elle a perdu le jour, mais sauvé son honneur.</l>
+                        <l n="889"> Ô beau corps ! beau séjour d’une céleste hôtesse !</l>
+                        <l n="890"> Je meurs en te voyant de joie et de tristesse :</l>
+                        <l n="891"> Recevant la froideur de ce mortel poison,</l>
+                        <l n="892"> Tu n’as rien satisfait en moi que la Raison,</l>
+                        <l n="893"> Puisqu’en me dépeignant ta perte irréparable,</l>
+                        <l n="894"> La Nature en mon cœur se rend inconsolable.</l>
+                        <l n="895"> Reçois ces tièdes pleurs dont je te viens baigner ;</l>
+                        <l n="896"> Que de ce poil grison je veux accompagner.</l>
+                </sp>
+        <sp who="#cléogène">
+            <speaker> CLÉOGÈNE. </speaker>
+                        <l n="897"> Seigneur, modérez-vous.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="898"> Ô malheur incroyable !</l>
+                </sp>
+        <sp who="#cléogène">
+            <speaker> CLÉOGÈNE. </speaker>
+                        <l n="899"> Ne regardez point tant cet objet pitoyable.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="900"> Que je l’embrasse encor.</l>
+                </sp>
+        <sp who="#cléogène">
+            <speaker> CLÉOGÈNE. </speaker>
+                        <l n="901"> Seigneur, vous ferez mieux</l>
+                        <l n="902"> Si vous en détournez et vos pas et vos yeux.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="903"> Bien donc : mais dans l’excès de cette vive atteinte</l>
+                        <l n="904"> Laisse moi pour le moins l’usage de la plainte,</l>
+                        <l n="905"> Et donne ordre qu’après ce coup infortuné</l>
+                        <l n="906"> Je puisse soupirer sans être importuné.</l>
+                        <l n="907"> Sous quel Astre cruel ai-je reçu la vie</l>
+                        <l n="908"> Pour me la voir de honte ou de douleur ravie !</l>
+                        <l n="909"> Quels Dieux ai-je offensez avecque tant d’excès</l>
+                        <l n="910"> Qui donnent à mes vœux de si mauvais succès ?</l>
+                        <l n="911"> Quelle Étoile maligne influant les misères,</l>
+                        <l n="912"> Et mêlant du poison dans les choses prospères,</l>
+                        <l n="913"> A changé si soudain l’état de mon bonheur,</l>
+                        <l n="914"> Me ravissant le bien, le crédit et l’honneur ?</l>
+                        <l n="915"> Je ne puis raisonner parmi tant de disgrâces :</l>
+                        <l n="916"> Toutefois, de mon sort suivons un peu les traces.</l>
+                        <l n="917"> Les brillants feux du Ciel lorsque je viens au jour</l>
+                        <l n="918"> Ont moins en leur aspect de haine que d’amour,</l>
+                        <l n="919"> La Nature est en moi puissante et vigoureuse,</l>
+                        <l n="920"> Au jugement de tous mon enfance est heureuse.</l>
+                        <l n="921"> On m’élève, on m’enseigne, et d’un soin curieux</l>
+                        <l n="922"> On me nourrit toujours en la crainte des Dieux !</l>
+                        <l n="923"> J’apprends heureusement les Arts et les Sciences,</l>
+                        <l n="924"> On pratique pour moi de grandes Alliances ;</l>
+                        <l n="925"> Le soin de mes parents me donne une moitié</l>
+                        <l n="926"> Digne de mon estime et de mon amitié.</l>
+                        <l n="927"> Je n’ai de notre amour qu’une fille pour gage ;</l>
+                        <l n="928"> Mais quoi ! c’est une fille et fort belle et fort sage ;</l>
+                        <l n="929"> Et sur cette héritière avec juste raison</l>
+                        <l n="930"> Je puis fonder l’espoir de l’heur de ma Maison.</l>
+                        <l n="931"> Pour la combler bientôt de richesse et de gloire,</l>
+                        <l n="932"> J’entre aux Conseils d’un Roi l’ornement de l’Histoire,</l>
+                        <l n="933"> Qui, maintenant le lustre et la vigueur des Lois</l>
+                        <l n="934"> Pratique dignement la science des Rois.</l>
+                        <l n="935"> Je quitte mon repos pour suivre sa fortune,</l>
+                        <l n="936"> Je prends ses intérêts d’une ardeur non commune :</l>
+                        <l n="937"> L’honneur de bien agir est mon ambition,</l>
+                        <l n="938"> Exempte de faiblesse et de corruption.</l>
+                        <l n="939"> Je le sers avec foi, diligence et courage,</l>
+                        <l n="940"> Et je prétend beaucoup d’un Monarque si sage.</l>
+                        <l n="941"> Toutefois quand il dit qu’il me fera du bien,</l>
+                        <l n="942"> Lorsque j’espère tout et que je ne crains rien,</l>
+                        <l n="943"> Ce Monarque équitable inaccessible au vice,</l>
+                        <l n="944"> De naturel clément et qui hait l’injustice ;</l>
+                        <l n="945"> Lui que toute la terre estime un si bon Roi,</l>
+                        <l n="946"> Devient cruel, injuste, et violent pour moi :</l>
+                        <l n="947"> Une illicite ardeur contre toute apparence.</l>
+                        <l n="948"> Allumant ses désirs éteint mon espérance ;</l>
+                        <l n="949"> Ses effrénés transports ne me respectent pas,</l>
+                        <l n="950"> L’injuste aime ma fille, il cause son trépas :</l>
+                        <l n="951"> Et veut même accabler, en m’en disant coupable,</l>
+                        <l n="952"> D’un indigne reproche un père misérable.</l>
+                        <l n="953"> Par quel dérèglement suis-je persécuté</l>
+                        <l n="954"> Avec tant d’injustice et tant de cruauté ?</l>
+                        <l n="955"> Il n’est rien d’ordinaire en cette destinée</l>
+                        <l n="956"> Et ma raison timide en demeure étonnée.</l>
+                        <l n="957"> Mais quoi ? j’ai des garants de ces oppressions,</l>
+                        <l n="958"> J’ai pris contre le sort de bonnes Cautions.</l>
+            <stage><em>Il vient à ses Livres.</em></stage>
+                        <l n="959"> Esprits dont la Doctrine en erreurs si féconde,</l>
+                        <l n="960"> S’est acquis tant de gloire en trompant tout le monde,</l>
+                        <l n="961"> Nous donnant la Vertu pour un souverain bien :</l>
+                        <l n="962"> Que déterminez-vous d’un sort tel que le mien ?</l>
+                        <l n="963"> Ah ! voici ces Docteurs de qui l’erreur nous flatte :</l>
+                        <l n="964"> Aristote, Platon, Solon, Bias, Socrate,</l>
+                        <l n="965"> Pytaque, Périandre, et le vieux Samien,</l>
+                        <l n="966"> Xénophane, et Denis le Babylonien.</l>
+                        <l n="967"> Revisitons un peu cette troupe savante,</l>
+                        <l n="968"> Gnyde, Eudoxe, Épicarme, Alcidame et Cléanthe,</l>
+                        <l n="969"> Démocrite, Thales d’un immortel renom,</l>
+                        <l n="970"> Possidoine, Caliphe, Antisthène et Zénon ;</l>
+                        <l n="971"> Consultons Xénocrate, et consultons encore</l>
+                        <l n="972"> Phérécide, Ariston, Timée, Anaxagore,</l>
+                        <l n="973"> Chrysippe, Polémon, le docte Agrigentin,</l>
+                        <l n="974"> Clytomaque, Architas, Anaxarque et Plotin.</l>
+                        <l n="975"> Réconfortons encor tous ces Auteurs de marque</l>
+                        <l n="976"> Aristippe, Sénèque, Épictète et Plutarque.</l>
+                        <l n="977"> Et bien ! sages Docteurs, et bien ! savants Esprits,</l>
+                        <l n="978"> Célèbres Artisans du piège où je suis pris ;</l>
+                        <l n="979"> En mes afflictions je vous prends à partie,</l>
+                        <l n="980"> Et c’est contre vous seuls que j’ai ma garantie,</l>
+                        <l n="981"> Vous avez assuré qu’en suivant la Vertu</l>
+                        <l n="982"> Jamais l’homme de bien ne se trouve abattu :</l>
+                        <l n="983"> Qu’il est aux accidents un Cube inébranlable</l>
+                        <l n="984"> Toujours en même assiette et de face semblable :</l>
+                        <l n="985"> Que l’heur et le malheur, que le bien et le mal</l>
+                        <l n="986"> Et tous événements trouvent toujours égal.</l>
+                        <l n="987"> Qu’il est dans l’embarras des changements du monde</l>
+                        <l n="988"> De même qu’un Rocher dans le milieu de l’onde :</l>
+                        <l n="989"> Que le courroux du Ciel a beau persécuter,</l>
+                        <l n="990"> Contre qui la Fortune en vain ose lutter :</l>
+                        <l n="991"> De qui pour la Tempête et les cruels orages,</l>
+                        <l n="992"> Les injustes mépris, les pertes, les outrages,</l>
+                        <l n="993"> Le feu Céleste et pur n’est jamais amorti :</l>
+                        <l n="994"> Vous l’avez soutenu, Vous en avez menti.</l>
+                        <l n="995"> Effrontés Imposteurs, allez, je vous défie</l>
+                        <l n="996"> De me faire avouer votre Philosophie :</l>
+                        <l n="997"> Vous m’avez abusé de discours superflus</l>
+                        <l n="998"> Changés de sentiments ou ne vous montrés plus.</l>
+                </sp>
+        <sp who="#cléogène">
+            <speaker> CLÉOGÈNE, ramassant les Livres. </speaker>
+                        <l n="999"> Ô Cieux ! la cruauté d’une atteinte si rude</l>
+                        <l n="1000"> Altère cet Esprit affaibli par l’étude ;</l>
+                        <l n="1001"> Pressé de la douleur qui lui trouble le sens,</l>
+                        <l n="1002"> Il punit de ses maux des Sujets innocents.</l></div></div>
+           <div type="act" xml:id="4">
+           <head> ACTE IV </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#l’opérateur">
+            <speaker> L’OPÉRATEUR. </speaker>
+                        <l n="1003"> Avançons promptement, j’appréhende qu’Ariste</l>
+                        <l n="1004"> N’abandonne leurs corps à quelque Anatomiste,</l>
+                        <l n="1005"> Les voulant embaumer le malheur serait tel,</l>
+                        <l n="1006"> Qu’il y commencerait par quelque coup mortel,</l>
+                        <l n="1007"> Et nous pourrions ainsi porter la pénitence</l>
+                        <l n="1008"> De nos retardements et de sa diligence.</l>
+                </sp>
+        <sp who="#le-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="1009"> Il en est du métier adroits jusqu’à ce point</l>
+                        <l n="1010"> Que d’un coup de rasoir ils n’y manqueraient point</l>
+                        <l n="1011"> Quelqu’un sort du logis qui semble nous attendre ;</l>
+                        <l n="1012"> Qui va là ?</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1013"> Qui je suis ? je m’en vais te l’apprendre :</l>
+                        <l n="1014"> Un sujet merveilleux fait d’une âme et d’un corps,</l>
+                        <l n="1015"> Un Pourceau par dedans, un Singe par dehors,</l>
+                        <l n="1016"> Un Chef-d’œuvre de terre un miracle visible</l>
+                        <l n="1017"> Un animal parlant, raisonnable et risible ;</l>
+                        <l n="1018"> Un petit Univers en qui les Éléments</l>
+                        <l n="1019"> Apportent mille maux et mille changements ;</l>
+                        <l n="1020"> Une belle superbe et frêle Architecture</l>
+                        <l n="1021"> Qui doit son ordonnance aux mains de la Nature,</l>
+                        <l n="1022"> Où des os, tenants place et de pierre et de bois</l>
+                        <l n="1023"> Forment les fondements le faite et le parois.</l>
+                        <l n="1024"> Un mixte composé de lumière et de fange,</l>
+                        <l n="1025"> Où s’attachent sans fin le blâme ou la louange.</l>
+                        <l n="1026"> Un Vaisseau plein d’esprits et plein de mouvements,</l>
+                        <l n="1027"> Revêtu de tendons, de nerfs, de ligaments,</l>
+                        <l n="1028"> De cuir de chair, de sang, de moelle et de graisse,</l>
+                        <l n="1029"> Qui se mine à toute heure et se détruit sans cesse,</l>
+                        <l n="1030"> Où l’âme se retire et fait ses fonctions,</l>
+                        <l n="1031"> S’imprime les vertus, ou trempe aux passions ;</l>
+                        <l n="1032"> À qui toujours les Sens ses messagers volages,</l>
+                        <l n="1033"> Des objets reconnus rapportent les images.</l>
+                </sp>
+        <sp who="#un-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="1034"> Mais, Seigneur.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1035"> Un jouet de la mort et du temps,</l>
+                        <l n="1036"> Du froid, de la chaleur, du foudre et des Autans,</l>
+                        <l n="1037"> Et sur qui la Fortune établit son Empire</l>
+                        <l n="1038"> Tandis qu’il peut souffler jusqu’à ce qu’il expire.</l>
+                </sp>
+        <sp who="#un-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="1039"> Seigneur.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1040"> Sur ce sujet te voilà contenté.</l>
+                </sp>
+        <sp who="#un-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="1041"> Oui.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1042"> Dis-moi donc aussi quelle est ta qualité ?</l>
+                </sp>
+        <sp who="#un-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="1043"> Moi ? je suis Médecin, au moins j’en fais l’office ;</l>
+                        <l n="1044"> Et je viens vous trouver pour vous rendre un service,</l>
+                        <l n="1045"> Ce qui me fait si tard chercher votre Maison.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1046"> Toi, Médecin ? j’en doute avec quelque raison :</l>
+                        <l n="1047"> Que te proposes-tu pour guérir un Malade,</l>
+                        <l n="1048"> Ou les Lois d’Hippocrate ou l’art d’Asclépiade ?</l>
+                        <l n="1049"> Te sers-tu de saignée ou bien de vomitifs ?</l>
+                        <l n="1050"> Uses-tu de Diète ou bien de Purgatifs ?</l>
+                        <l n="1051"> Quand tu bannis d’un corps la chaleur étrangère,</l>
+                        <l n="1052"> Est-ce par son semblable ou bien par son contraire ?</l>
+                        <l n="1053"> Regardes-tu du Ciel le divers mouvement ?</l>
+                        <l n="1054"> Observes-tu l’urine ou le pouls seulement ?</l>
+                        <l n="1055"> Es-tu rationnel, ou bien simple Empirique ?</l>
+                        <l n="1056"> As-tu la Théorie, ou la seule Pratique ?</l>
+                        <l n="1057"> Sais-tu bien augmenter les effets généraux</l>
+                        <l n="1058"> Des pierres, des métaux, des sels, des minéraux,</l>
+                        <l n="1059"> Des herbes et des fleurs, des fruits et des racines,</l>
+                        <l n="1060"> Des gommes, des liqueurs, des sucs et des résines ?</l>
+                        <l n="1061"> Composer des Topics, faire les potions,</l>
+                        <l n="1062"> Trochisques, purgatifs, poudres, confections,</l>
+                        <l n="1063"> Électuaires, lots de diverses matières,</l>
+                        <l n="1064"> Épithèmes, sirops, pilules et hieres ?</l>
+                        <l n="1065"> Entends-tu l’Arabesque ? as-tu lu le Zoar,</l>
+                        <l n="1066"> Geber, Haly, Rhasis, Alquinde, Albumazar,</l>
+                        <l n="1067"> Avicenne, Averroës, Algazel, Albucate,</l>
+                        <l n="1068"> Et tous ces grands Auteurs dont ton bel Art se flatte ?</l>
+                        <l n="1069"> Sais-tu comme, appliquant l’Agent au Patient,</l>
+                        <l n="1070"> En écartant un nombre, et le multipliant,</l>
+                        <l n="1071"> On monte par degrés jusqu’aux Intelligences ?</l>
+                        <l n="1072"> On attire ici bas les plus hautes puissances ?</l>
+                        <l n="1073"> As-tu quelque secret qui soit particulier ?</l>
+                        <l n="1074"> Dis-moi, le Beresith t’est-il fort familier ?</l>
+                        <l n="1075"> Lis-tu le Mercana ? Sais-tu l’Arithmancie ?</l>
+                        <l n="1076"> N’es-tu point avancé dans la Théomantie</l>
+                        <l n="1077"> Qui fait divinement ses opérations,</l>
+                        <l n="1078"> Obtenant de là-haut des révélations ?</l>
+                        <l n="1079"> Sais-tu l’analogie et l’ordre des trois Mondes ?</l>
+                        <l n="1080"> La matière première et les causes secondes ?</l>
+                        <l n="1081"> Et me dirais-tu bien l’origine d’où sort</l>
+                        <l n="1082"> Le souffle de la vie et celui de la mort ?</l>
+                        <l n="1083"> Sais-tu par quels canaux les Divines Puissances</l>
+                        <l n="1084"> S’écoulent jusqu’à nous parmi les influences ?</l>
+                        <l n="1085"> Ces Torrents infinis des bénédictions,</l>
+                        <l n="1086"> Ce concours merveilleux des Émanations ?</l>
+                        <l n="1087"> Connais-tu cet Esprit universel du Monde</l>
+                        <l n="1088"> Qui pénètre dans l’air, dans la terre et dans fonde ?</l>
+                        <l n="1089"> Cet Esprit général en vertu sans pareil</l>
+                        <l n="1090"> Dont la bonté Divine a rempli le Soleil ?</l>
+                        <l n="1091"> Cette union de Sel, de Soufre et de Mercure,</l>
+                        <l n="1092"> Qui maintient tous les corps qui sont en la Nature ?</l>
+                        <l n="1093"> As-tu quelque secret qui la peut dégager</l>
+                        <l n="1094"> Du feu non naturel, de l’humide étranger,</l>
+                        <l n="1095"> Et du sel corrosif, qui lui faisans la guerre</l>
+                        <l n="1096"> Détruisent tous les corps qui vivent sur la terre ?</l>
+                </sp>
+        <sp who="#un-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="1097"> Seigneur, je sais de plus ressusciter les morts.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1098"> Quoi ? tu sais rappellera les âmes dans les corps ?</l>
+                </sp>
+        <sp who="#un-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="1099"> J’en viens faire chez vous l’heureuse expérience.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1100"> Ô secret admirable ! ô divine science !</l>
+                        <l n="1101"> Si tu n’es pas menteur, il faut que les mortels</l>
+                        <l n="1102"> Élèvent ton Image au-dessus des Autels ;</l>
+                        <l n="1103"> Donc un sujet éteint, par ta sollicitude</l>
+                        <l n="1104"> De la privation retourne à l’habitude ?</l>
+                        <l n="1105"> Les Esprits par ton art des enfers suscités,</l>
+                        <l n="1106"> Reprennent de nouveau les corps qu’ils ont quittés ?</l>
+                        <l n="1107"> En un mort pâle et froid qu’on enferme en la bière</l>
+                        <l n="1108"> Tu réunis encor la forme à la matière ?</l>
+                        <l n="1109"> C’est où l’on n’a point cru de possibilité,</l>
+                        <l n="1110"> À moins que d’un effort de la Divinité ?</l>
+                        <l n="1111"> Mais par quelques raisons établis ta créance ;</l>
+                        <l n="1112"> Di moi donc, l’âme est-elle accident ou substance ?</l>
+                        <l n="1113"> Résulte-t-elle point du seul tempérament ?</l>
+                        <l n="1114"> Est-ce une portion des feux du Firmament ?</l>
+                        <l n="1115"> Pythagore et Platon l’ont-ils bien définie</l>
+                        <l n="1116"> Quand ils l’ont appelée un nombre, une harmonie ?</l>
+                        <l n="1117"> Est-ce un air pur et chaud par le cœur tempéré,</l>
+                        <l n="1118"> Diffus par tout le corps et par tout attiré ?</l>
+                        <l n="1119"> Est-elle de nature ou simple ou composée ?</l>
+                        <l n="1120"> Est-ce une flamme aqueuse, vue terre embrasée ?</l>
+                        <l n="1121"> Est-ce un Esprit subtil et plein d’agilité ?</l>
+                        <l n="1122"> Est-ce une Entéléchie ? est-ce une qualité ?</l>
+                        <l n="1123"> N’aurais-tu point aussi la cervelle infectée</l>
+                        <l n="1124"> De quelque opinion absurde et rejetée ?</l>
+                </sp>
+        <sp who="#un-médecin">
+            <speaker> LE MÉDECIN. </speaker>
+                        <l n="1125"> Seigneur, sans perdre temps en définitions</l>
+                        <l n="1126"> Je vous le ferais voir par démonstrations.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1127"> Suis-moi donc là dedans pour en faire une preuve</l>
+                        <l n="1128"> Qui puisse soulager la peine où je me trouve.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI </speaker>
+                        <l n="1129"> Faut-il que la rigueur des Astres irrités</l>
+                        <l n="1130"> Mêle cette infortune à mes prospérités ?</l>
+                        <l n="1131"> Est-ce un ordre établi des puissances Divines</l>
+                        <l n="1132"> De n’envoyer jamais des roses sans épines ?</l>
+                        <l n="1133"> Comme si leur bonté ne pouvait nous donner</l>
+                        <l n="1134"> Un seul trait de douceur sans nous l’empoisonner.</l>
+                        <l n="1135"> Mes armes ont calmé l’Empire de Neptune ;</l>
+                        <l n="1136"> Fai des Princes d’Afrique abaissé la Fortune,</l>
+                        <l n="1137"> Et j’ai fait des Vassaux de ces petits Tyrans</l>
+                        <l n="1138"> Qui voulaient prendre place au rang des Conquérants.</l>
+                        <l n="1139"> Et lorsque j’ai plus fait que l’on ne saurait croire,</l>
+                        <l n="1140"> Au point que je me vois tout couronné de Gloire,</l>
+                        <l n="1141"> En ce pompeux État, triomphant du malheur,</l>
+                        <l n="1142"> Je me trouve en ma Cour accablé de douleur.</l>
+                        <l n="1143"> Quand je mets à couvert la Fortune publique,</l>
+                        <l n="1144"> Un Monstre plus cruel que tous ceux de l’Afrique,</l>
+                        <l n="1145"> Tout rempli de malice et chargé de poison</l>
+                        <l n="1146"> Ose bien m’attaquer jusques dans ma Maison.</l>
+                        <l n="1147"> Un méchant déguisé sous une vertu feinte</l>
+                        <l n="1148"> Me donne le sujet d’une éternelle plainte ;</l>
+                        <l n="1149"> Et dans son attentat par excès outragé,</l>
+                        <l n="1150"> Je me plains, je peux tout, et ne suis point vengé.</l>
+                        <l n="1151"> Allez voir si Timon : mais je le vois paraître.</l>
+                        <l n="1152"> Et bien qu’avez-vous fait ? avez-vous pris ce Traître.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#timon">
+            <speaker> TIMON. </speaker>
+                        <l n="1153"> Oui Sire, l’on le mène en lieu de sûreté.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1154"> Vous le deviez avoir dès longtemps arrêté,</l>
+                        <l n="1155"> Possible avez-vous eu quelque peine à le prendre.</l>
+                </sp>
+        <sp who="#timon">
+            <speaker> TIMON. </speaker>
+                        <l n="1156"> En voici le sujet, vous plaît-il de l’entendre ?</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1157"> Oui, je le veux savoir, il a fait quelque effort ?</l>
+                </sp>
+        <sp who="#timon">
+            <speaker> TIMON. </speaker>
+                        <l n="1158"> Oui, Sire, et ce récit vous étonnera fort.</l>
+                        <l n="1159"> Il était dans le Temple.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1160"> Il était difficile</l>
+                        <l n="1161"> Qu’ayant blessé les Dieux, il y trouvât d’Asile.</l>
+                </sp>
+        <sp who="#timon">
+            <speaker> TIMON. </speaker>
+                        <l n="1162"> Nous l’avons observé dans sa dévotion</l>
+                        <l n="1163"> Priant, comme il semblait, avec émotion.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1164"> C’est que toujours le crime apporte des alarmes.</l>
+                </sp>
+        <sp who="#timon">
+            <speaker> TIMON. </speaker>
+                        <l n="1165"> Il tournait vers le Ciel ses yeux couverts de larmes</l>
+                        <l n="1166"> En adressant des vœux que nous n’entendions pas.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1167"> M’ayant donné cent morts il craignait le trépas.</l>
+                </sp>
+        <sp who="#timon">
+            <speaker> TIMON. </speaker>
+                        <l n="1168"> J’ai cru le voyant là, (non sans quelque apparence)</l>
+                        <l n="1169"> Qu’il s’y voudrait tenir comme en lieu d’assurance,</l>
+                        <l n="1170"> Et que cherchant refuge à l’ombre des Autels,</l>
+                        <l n="1171"> Il allait implorer l’aide des Immortels.</l>
+                        <l n="1172"> Mais, comme tout ému d’une grande merveille,</l>
+                        <l n="1173"> Un des siens est venu lui parler à l’oreille ;</l>
+                        <l n="1174"> Il est devenu pale à ce secret propos,</l>
+                        <l n="1175"> Son cœur gros de douleur a poussé des sanglots :</l>
+                        <l n="1176"> Puis comme transporté d’une atteinte si rude,</l>
+                        <l n="1177"> Il est sorti du Temple avecque promptitude ;</l>
+                        <l n="1178"> Et presque en même temps il a fait un effort</l>
+                        <l n="1179"> Pour saisir une épée et s’en donner la mort.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1180"> Il pensait éviter par cette fin hâtée,</l>
+                        <l n="1181"> Une autre plus cruelle et qu’il a méritée.</l>
+                </sp>
+        <sp who="#timon">
+            <speaker> TIMON. </speaker>
+                        <l n="1182"> Si je n’eusse empêché cet effort inhumain,</l>
+                        <l n="1183"> Avant que d’être pris il fut mort de sa main.</l>
+                        <l n="1184"> Timon, ce m’a-t-il dit, lorsqu’il m’a vu paraître,</l>
+                        <l n="1185"> Ne retiens point mon bras, et dis au Roi ton Maître</l>
+                        <l n="1186"> Le louable devoir auquel je me suis mis</l>
+                        <l n="1187"> Pour perdre le plus grand de tous ses ennemis,</l>
+                        <l n="1188"> Et l’effort que je fais pour éteindre une vie</l>
+                        <l n="1189"> Qui mit un grand obstacle à sa plus belle envie.</l>
+                        <l n="1190"> Mais combats la pitié qui me veut secourir,</l>
+                        <l n="1191"> C’est une piété que me laisser mourir ;</l>
+                        <l n="1192"> Mon désespoir est grand, mais la raison le guide,</l>
+                        <l n="1193"> Et qui me veut sauver fait pis qu’un parricide.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1194"> Comme il confesse tout ! Ô prodige inouï !</l>
+                </sp>
+        <sp who="#timon">
+            <speaker> TIMON. </speaker>
+                        <l n="1195"> À ces mots, dans mes bras il s’est évanoui :</l>
+                        <l n="1196"> Je l’ai fait emporter avecque diligence</l>
+                        <l n="1197"> Sans donner de mon ordre aucune intelligence.</l>
+                        <l n="1198"> À son enlèvement nul ne s’est opposé</l>
+                        <l n="1199"> Croyant qu’on emportait un homme indisposé ;</l>
+                        <l n="1200"> Je vous en viens porter la nouvelle certaine.</l>
+                        <l n="1201"> Il a repris ses sens, le voici qu’on amène</l>
+                        <l n="1202"> Pour le mettre en la Tour ainsi que je l’ai dit.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1203"> Voyez comme à ma vue il paraît interdit.</l>
+                        <l n="1204"> Il n’importe ; Timon, dites lui qu’il approche,</l>
+                        <l n="1205"> Je le veux accablera sous un honteux reproche ;</l>
+                        <l n="1206"> Il faut que son Esprit supporte mille morts</l>
+                        <l n="1207"> Avant que les Bourreaux s’acharnent sur son corps.</l>
+                        <l n="1208"> Fléau des innocents que le courroux Céleste</l>
+                        <l n="1209"> Ajoute à la Famine, à la Guerre, à la Peste,</l>
+                        <l n="1210"> Interprète malin de mes intentions,</l>
+                        <l n="1211"> Abominable Auteur de mes afflictions ;</l>
+                        <l n="1212"> Dis-moi, tes actions dans nos guerres passées,</l>
+                        <l n="1213"> N’ont-elles pas été fort bien récompensées ?</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="1214"> Oui, Sire, vos bontés m’ont comblé de bienfaits,</l>
+                        <l n="1215"> Et vous avez de biens surpasse mes souhaits.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1216"> N’ai-je pas joint encore à toutes ces largesses</l>
+                        <l n="1217"> Beaucoup d’honneurs encore et beaucoup de caresses ?</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="1218"> Beaucoup plus mille fois que je n’ai mérité.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1219"> Ingrat, pour m’adoucir cèle la vérité ;</l>
+                        <l n="1220"> Cruel, impose-moi que je suis un barbare</l>
+                        <l n="1221"> Sans foi, sans piété, lâche, cruel, avare ;</l>
+                        <l n="1222"> Dis que de ton bonheur j’ai retardé le cours,</l>
+                        <l n="1223"> Que j’ai de tes parents précipité les jours :</l>
+                        <l n="1224"> Enfin veuille-moi rendre, avec cet artifice,</l>
+                        <l n="1225"> Coupable de ta haine et de ton injustice ;</l>
+                        <l n="1226"> Ainsi tu couvriras ta mauvaise action,</l>
+                        <l n="1227"> Ainsi tu donneras de la compassion.</l>
+                        <l n="1228"> Si tu veux pour le moins illustrer ta mémoire</l>
+                        <l n="1229"> Tu n’as qu’à déchirer et qu’à tacher ma gloire.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="1230"> Je ne pourrais jamais mentir si lâchement.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1231"> Ô trait insupportable à mon ressentiment !</l>
+                        <l n="1232"> Comment crains-tu si peu les Puissances Divines</l>
+                        <l n="1233"> Que d’oser me flatter lorsque tu m’assassines ?</l>
+                        <l n="1234"> Si je ne suis donc pas le pire des humains,</l>
+                        <l n="1235"> Qui t’a fait en mon cœur ensanglanter tes mains,</l>
+                        <l n="1236"> Osant empoisonner cette aimable personne</l>
+                        <l n="1237"> À qui je partageais mon lit et ma Couronne ?</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="1238"> Moi, Sire ?</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1239"> L’impudent ose en levant les yeux</l>
+                        <l n="1240"> Contre ces vérités prendre à témoins les Cieux ?</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="1241"> Sire, votre courroux, qui m’impose silence,</l>
+                        <l n="1242"> Peut avancer ma perte avecque violence ;</l>
+                        <l n="1243"> Mais l’effort des mortels n’est pas assez puissant</l>
+                        <l n="1244"> Pour me ravir le bien de mourir innocent.</l>
+                        <l n="1245"> Ce poison est un fait qu’il faut que je dénie</l>
+                        <l n="1246"> Si vous ne m’ordonnez que je me calomnie :</l>
+                        <l n="1247"> C’est un coup étranger où je ne trempe en rien.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1248"> Timon, fais-moi raison de cet homme de bien :</l>
+                        <l n="1249"> Mais je ne sais pourquoi lui qui n’est point coupable</l>
+                        <l n="1250"> Et dont l’intégrité n’eut jamais de semblable,</l>
+                        <l n="1251"> Redoutant ma justice avait pris le dessein</l>
+                        <l n="1252"> De se donner tantôt d’un poignard dans le sein ?</l>
+                        <l n="1253"> C’est qu’il sait que les Lois se donnent la licence</l>
+                        <l n="1254"> D’extirper des sujets de pareille innocence ;</l>
+                        <l n="1255"> Gardons bien de toucher à sa fidélité,</l>
+                        <l n="1256"> Nous pourrions, l’accusant, blesser la vérité.</l>
+                        <l n="1257"> Il ne pensa jamais à trahir mon service ;</l>
+                        <l n="1258"> Il n’a point fait passer mon amour pour un vice,</l>
+                        <l n="1259"> Et mis au désespoir l’adorable Beauté</l>
+                        <l n="1260"> Qu’un chaste hymen portait jusqu’à la Royauté.</l>
+                        <l n="1261"> Il n’a point fait venir le poison à son aide,</l>
+                        <l n="1262"> Trouvant pour un mal feint un si cruel remède.</l>
+                        <l n="1263"> Ce juste personnage aurait eu de l’horreur</l>
+                        <l n="1264"> D’un acte si perfide et si plein de fureur.</l>
+                        <l n="1265"> J’ai pensé toutefois que c’était un ouvrage</l>
+                        <l n="1266"> D’un Amant transporté de douleur et de rage</l>
+                        <l n="1267"> Qui court au désespoir, et par un coup fatal</l>
+                        <l n="1268"> Veut trahir le bonheur d’un Illustre Rival ?</l>
+                        <l n="1269"> Et par une noirceur difficile à comprendre</l>
+                        <l n="1270"> Lui faire perdre un bien qu’il n’oserait prétendre.</l>
+                        <l n="1271"> Mais voici de la Morte un mot de Testament</l>
+                        <l n="1272"> Qui de tout son malheur le charge aucunement.</l>
+            <stage><em>Testament de Roselie.</em></stage>
+                        <l n="1273"> Auteur de ma naissance, Esprit savant et sage,</l>
+                        <l n="1274"> Consolez-vous d’un mal qui n’a point de remède,</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="1275"> Roselie en mourant me charge de ce crime ?</l>
+                        <l n="1276"> Le soin de me détruire est un soin légitime,</l>
+                        <l n="1277"> Sur cette seule preuve on me peut condamner</l>
+                        <l n="1278"> Et me donner la mort que je m’allais donner.</l>
+                        <l n="1279"> C’est la seule faveur que je pourrais attendre ;</l>
+                        <l n="1280"> Mais qu’on m’entende bien si l’on me peut entendre,</l>
+                        <l n="1281"> J’ai vraiment mérité cet Arrêt rigoureux</l>
+                        <l n="1282"> Non pas comme méchant, mais comme malheureux ;</l>
+                        <l n="1283"> J’ai donné ce poison, j’ai fait cet homicide,</l>
+                        <l n="1284"> Ainsi qu’un misérable, et non comme un perfide :</l>
+                        <l n="1285"> Mais sur ce témoignage ordonnés mon trépas,</l>
+                        <l n="1286"> Un favorable Arrêt ne me servirait pas.</l>
+                        <l n="1287"> Ma mort est résolue avant votre Sentence.</l>
+                        <l n="1288"> C’est ce que mon malheur demande avec instance.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#alfonse">
+            <speaker> ALFONSE. </speaker>
+                        <l n="1289"> Sire.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1290"> Que me veux-tu ?</l>
+                </sp>
+        <sp who="#alfonse">
+            <speaker> ALFONSE. </speaker>
+                        <l n="1291"> Vous apprendre un succès</l>
+                        <l n="1292"> Qui peut absolument servir à ce procès.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1293"> Viens ici me le dire.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="1294"> Ô Puissance Divine !</l>
+                        <l n="1295"> Roselie elle même a signé ma ruine ?</l>
+                        <l n="1296"> Acceptons notre mort pour lui donner ce bien :</l>
+                        <l n="1297"> Elle a trop fait pour nous, ne lui refusons rien.</l>
+                        <l n="1298"> Elle veut notre perte, elle veut notre honte,</l>
+                        <l n="1299"> Nôtre honneur lui déplaît, n’en faisons plus de conte :</l>
+                        <l n="1300"> À nos propres malheurs il vaut mieux consentir</l>
+                        <l n="1301"> Que lui déplaire encore et que la démentir.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1302"> Je me sens tout ému de joie et de merveille,</l>
+                        <l n="1303"> Qu’on le mène en la Tour, Timon, et qu’on le veille</l>
+                        <l n="1304"> Pour faire son procès, avant qu’il soit longtemps.</l>
+                        <l n="1305"> Nous lui confronterons des Témoins importants.</l>
+                        <l n="1306"> Roselie est vivante ? ô nouvelle agréable,</l>
+                        <l n="1307"> S’il est vrai qu’on me fasse un récit véritable.</l>
+                </sp>
+        <sp who="#alfonse">
+            <speaker> ALFONSE. </speaker>
+                        <l n="1308"> Cléogène l’a vu.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1309"> En croirai-je ses yeux ?</l>
+                </sp>
+        <sp who="#alfonse">
+            <speaker> ALFONSE. </speaker>
+                        <l n="1310"> Visitez la vous-même et vous le croirez mieux.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1311"> Dussé-je à cet objet mourir soudain de joie,</l>
+                        <l n="1312"> Dès qu’on la pourra voir il faut que je la voie.</l>
+                </sp>
+        <sp who="#alfonse">
+            <speaker> ALFONSE. </speaker>
+                        <l n="1313"> Son père à qui les maux altéraient la raison,</l>
+                        <l n="1314"> À de ce rare effet reçu sa guérison ;</l>
+                        <l n="1315"> Il a perdu dès lors cette humeur inquiète,</l>
+                        <l n="1316"> Et son âme a repris son ordinaire assiette.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1317"> Toi, va voir de ma part ce Vieillard promptement.</l>
+                        <l n="1318"> Di-lui que je prends part à son contentement,</l>
+                        <l n="1319"> Et l’assure qu’un Astre en cette Île préside,</l>
+                        <l n="1320"> Qui rendra son bonheur plus grand et plus solide ;</l>
+                        <l n="1321"> Mais sans retardement qu’il faut qu’il vienne ici</l>
+                        <l n="1322"> Pour être sur ce point par ma bouche éclairci.</l></div></div>
+           <div type="act" xml:id="5">
+           <head> ACTE V </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1323"> Canope, il faut mourir, il faut mourir sans feinte,</l>
+                        <l n="1324"> Afin de n’avoir plus de douleur ni de crainte :</l>
+                        <l n="1325"> Puisqu’usant d’un poison j’ai manqué le trépas</l>
+                        <l n="1326"> Je veux m’aider d’un fer qui ne me trompe pas ;</l>
+                        <l n="1327"> Et m’exempter par là de cette Tyrannie</l>
+                        <l n="1328"> Qui pense insolemment contraindre mon Génie,</l>
+                        <l n="1329"> Qui se veut faire aimer de plaine autorité,</l>
+                        <l n="1330"> Comme si l’on pouvait forcer la volonté ;</l>
+                        <l n="1331"> Comme si chaque Prince à qui l’on rend hommage</l>
+                        <l n="1332"> Devait en tous les cœurs imprimer son Image,</l>
+                        <l n="1333"> Et que l’âme agissant à sa discrétion</l>
+                        <l n="1334"> Ne peut aimer ailleurs sans sa permission.</l>
+                        <l n="1335"> Je ne puis recevoir ces Lois insupportables,</l>
+                        <l n="1336"> Il en aura bientôt des preuves véritables,</l>
+                        <l n="1337"> Et ferais bientôt voir par un nouvel effort</l>
+                        <l n="1338"> Que je crains son amour beaucoup plus que la mort.</l>
+                </sp>
+        <sp who="#canope">
+            <speaker> CANOPE. </speaker>
+                        <l n="1339"> Que ce bouillant courroux tant soit peu se tempête.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1340"> Que veux-tu que je fasse ?</l>
+                </sp>
+        <sp who="#canope">
+            <speaker> CANOPE. </speaker>
+                        <l n="1341"> Attendez votre Père,</l>
+                        <l n="1342"> Vous apprendrez l’état de ses intentions,</l>
+                        <l n="1343"> Et prendrez là dessus vos résolutions.</l>
+                        <l n="1344"> De moi pour dire vrai ce n’est pas ma pensée</l>
+                        <l n="1345"> Que du côté du Roi vous soyez menacée,</l>
+                        <l n="1346"> Dessus votre accident il s’est trop tourmenté,</l>
+                        <l n="1347"> Pour vous porter encore à cette extrémité,</l>
+                        <l n="1348"> Voyant votre vertu qui n’a point de semblable</l>
+                        <l n="1349"> Il n’attaquera plus un fort inexpugnable :</l>
+                        <l n="1350"> Sans doute le remords de ce mauvais dessein</l>
+                        <l n="1351"> Depuis votre action lui pénètre le sein.</l>
+                        <l n="1352"> Il n’aura fait venir Ariste en diligence</l>
+                        <l n="1353"> Que pour en témoigner les traits de repentance ;</l>
+                        <l n="1354"> Le voici de retour, oui, c’est lui que je vois.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1355"> Et bien, Seigneur ? et bien vous avez vu le Roi.</l>
+                        <l n="1356"> A-t-il toujours pour moi la même rêverie ?</l>
+                        <l n="1357"> Subsiste-t-il toujours dans la même furie ?</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1358"> Il ne s’en peut guérir, il vous aime toujours ;</l>
+                        <l n="1359"> Toutefois ses desseins vont prendre un autre cours,</l>
+                        <l n="1360"> Pour vous rendre visite il viendra tout à l’heure.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1361"> Seigneur, s’il est ainsi, permettez que je meure,</l>
+                        <l n="1362"> Sur mon honneur sans doute il désire attenter,</l>
+                        <l n="1363"> Il demande ma mort, il faut le contenter.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1364"> Nullement, votre mort n’est pas ce qu’il demande,</l>
+                        <l n="1365"> Ne vous emportez point d’une terreur si grande,</l>
+                        <l n="1366"> Le feu qui le consume est fort respectueux,</l>
+                        <l n="1367"> Il n’a plus de desseins qui ne soient vertueux ;</l>
+                        <l n="1368"> Et l’effort qu’il veut faire est un effort étrange ;</l>
+                        <l n="1369"> Je dis à notre gloire autant qu’à sa louange,</l>
+                        <l n="1370"> Vous pourrez en son lit coucher avec honneur.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1371"> Seigneur, que dites-vous ? quel étrange bonheur ?</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1372"> Sous ces conditions il faut qu’il vous possède.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1373"> Quoi ? vous me condamnez à trahir Palamède ?</l>
+                        <l n="1374"> Sans craindre les malheurs qu’il en arrivera.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1375"> Si vraiment il vous aime il s’en consolera.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1376"> Mais qui me lavera de cet acte infidèle ?</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1377"> La volonté du Roi vous rend moins criminelle.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1378"> Et que peut sur les cœurs son absolu pouvoir ?</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1379"> En un cœur bien logé, l’amour cède au devoir.</l>
+                        <l n="1380"> Faut-il que vos désirs règlent ainsi l’envie</l>
+                        <l n="1381"> De ceux qui par nature ont droit sur votre vie.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1382"> Seigneur, pour éviter ce joug infortuné</l>
+                        <l n="1383"> Je vous rendrai le sang que vous m’avez donné.</l>
+                        <l n="1384"> Que je meure à vos pieds.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1385"> Vous y mourriez rebelle.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1386"> Mais j’y mourrai constante et non pas infidèle.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1387"> Vous devez plus à moi qu’au reste des mortels.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1388"> Si je vous dois beaucoup, je dois plus aux Autels.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1389"> C’est une résistance inutile et frivole ;</l>
+                        <l n="1390"> Il se faut relâcher, Fai donné ma parole.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1391"> Mais, Seigneur, vous savez que j’ai donné ma foi,</l>
+                        <l n="1392"> Sous cette autorité que vous avez sur moi.</l>
+                        <l n="1393"> Me puis-je dégager où j’ai laissé mon âme</l>
+                        <l n="1394"> Pour m’embraser encor d’une nouvelle flamme ?</l>
+                        <l n="1395"> Vous ne deviez jamais m’y faire consentir,</l>
+                        <l n="1396"> Et l’approuver si fort pour vous en repentir.</l>
+                        <l n="1397"> De moi, pour m’excuser de cette obéissance</l>
+                        <l n="1398"> J’embrasserai la mort plutôt que l’inconstance.</l>
+                        <l n="1399"> Oui, la mort dissoudra ce légitime nœud</l>
+                        <l n="1400"> Quand on me cacherait et le fer et le feu ;</l>
+                        <l n="1401"> Quand je n’aurai sur moi ni cheveux ni ceinture</l>
+                        <l n="1402"> Je saurai promptement m’ouvrir la sépulture.</l>
+                        <l n="1403"> Seigneur, il suffirait de mon remords secret</l>
+                        <l n="1404"> Pour me faire mourir de honte et de regret.</l>
+                        <l n="1405"> Je suis à Palamède autant que je suis votre,</l>
+                        <l n="1406"> Et s’il n’est mon Époux, je n’en aurai point d’autre.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1407"> Ô courage admirable ! ô grande fermeté !</l>
+                        <l n="1408"> Je me rends, et lui rends encor la liberté.</l>
+                        <l n="1409"> Cette vertu brillante où je vois tant de charmes</l>
+                        <l n="1410"> Resserre ma colère, et fait couler mes larmes.</l>
+                        <l n="1411"> Ah ma fille ! suivez votre inclination ;</l>
+                        <l n="1412"> La constance est fort rare et non l’ambition.</l>
+                        <l n="1413"> Vos nobles sentiments sont bien dignes d’estime,</l>
+                        <l n="1414"> Et mon commandement n’était pas légitime.</l>
+                        <l n="1415"> Cette solide foi que vous me faites voir</l>
+                        <l n="1416"> Réveille ma sagesse, et suspend mon pouvoir :</l>
+                        <l n="1417"> Cette fidélité dont la grandeur m’étonne</l>
+                        <l n="1418"> À qui la connaît bien vaut mieux qu’une Couronne.</l>
+                        <l n="1419"> Je ne m’oppose plus à votre volonté.</l>
+                        <l n="1420"> Et je ne me sers plus de mon autorité.</l>
+                        <l n="1421"> Mais après ce refus, que faut-il que je fasse</l>
+                        <l n="1422"> Pour éviter du Roi l’évidente disgrâce ?</l>
+                        <l n="1423"> Vous savez à quel point ce trait l’offensera.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1424"> Seigneur, ne craignez rien, ma mort l’apaisera ;</l>
+                        <l n="1425"> Ma mort absolument de tous maux vous délivre.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1426"> Non, non, mes intérêts vous ordonnent de vivre.</l>
+                        <l n="1427"> J’aime beaucoup mieux prendre un sentier hasardeux</l>
+                        <l n="1428"> Qui pourra nous sauver ou nous perdre tous deux.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1429"> Seigneur, prenez-le donc, il est bien nécessaire.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1430"> Voici de quel biais je prendrai cet affaire.</l>
+                        <l n="1431"> Pour rompre ce dessein je lui veux soutenir,</l>
+                        <l n="1432"> Mais rentrez promptement, je l’aperçois venir.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1433"> Enfin quel est mon sort, qu’avez-vous fait, Ariste ?</l>
+                        <l n="1434"> Et quel est le sujet qui vous rend ainsi triste ?</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1435"> Sire, disposez-vous à changer de dessein.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1436"> Je n’en saurais changer, vous m’en parlez en vain.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1437"> Je ne saurais non plus changer la destinée</l>
+                        <l n="1438"> Qui dispose à son gré des liens d’hyménée.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1439"> Qu’entendez-vous par là ? mais sans rien déguiser</l>
+                        <l n="1440"> Il n’est point à propos ici de m’abuser.</l>
+                        <l n="1441"> Votre fille était-elle à quelqu’autre engagée</l>
+                        <l n="1442"> Avant qu’à ma recherche elle fut obligée ?</l>
+                        <l n="1443"> Vous changez de couleur, répondez promptement.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1444"> Sire, elle l’était trop pour mon contentement,</l>
+                        <l n="1445"> Puisque l’impression d’une première flamme</l>
+                        <l n="1446"> Est d’ordinaire un mal incurable en notre âme.</l>
+                        <l n="1447"> Je n’ai pu deviner que votre Majesté</l>
+                        <l n="1448"> Dût avoir tant d’amour pour si peu de beauté,</l>
+                        <l n="1449"> Et désirant de voir un gendre en ma famille</l>
+                        <l n="1450"> J’avais déjà fait choix d’un mari pour ma fille.</l>
+                        <l n="1451"> Son cœur suivant la loi de mon élection</l>
+                        <l n="1452"> A pris pour ce sujet beaucoup d’affection.</l>
+                        <l n="1453"> De vouloir maintenant éteindre cette flamme</l>
+                        <l n="1454"> C’est vouloir de son corps faire sortir son âme ;</l>
+                        <l n="1455"> J’en ai fait mes efforts, mais inutilement,</l>
+                        <l n="1456"> Ils seront l’un pour l’autre, ou pour le monument.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1457"> Quoi ? sans m’en avertir vous auriez pris un gendre ?</l>
+                        <l n="1458"> C’est une liberté que vous ne pouviez prendre.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1459"> Non, si j’eusse prévu ce tonnerre éclatant</l>
+                        <l n="1460"> Qui s’allume, qui bruit et tombe en même instant.</l>
+                        <l n="1461"> Et quand j’aurais revu ces matières de plainte</l>
+                        <l n="1462"> J’aurais usé d’avis, et non pas de contrainte :</l>
+                        <l n="1463"> L’âme est inviolable en ses secrets ressorts,</l>
+                        <l n="1464"> Et l’on ne contraint pas les cœurs comme les corps.</l>
+                        <l n="1465"> Tout ce que tient enclos le cercle de la Lune</l>
+                        <l n="1466"> Est composé de biens sujets à la fortune.</l>
+                        <l n="1467"> Notre cœur seulement est en notre pouvoir,</l>
+                        <l n="1468"> Des Dieux mêmes sans nous ne le sauraient avoir.</l>
+                        <l n="1469"> Oui, ces Dieux dont les mains ont forgé le tonnerre,</l>
+                        <l n="1470"> Ont arrondi le Ciel, ont suspendu la terre,</l>
+                        <l n="1471"> Et des astres encor ont construit les Maisons,</l>
+                        <l n="1472"> Réglant les jours, les nuits, les mois et les saisons,</l>
+                        <l n="1473"> S’il faut que notre cœur à leurs lois ne réponde,</l>
+                        <l n="1474"> Ne sauraient posséder ce petit point du monde.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1475"> Qu’inférez-vous de là ?</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1476"> Que vous n’attendiez pas</l>
+                        <l n="1477"> Que ma fille jamais se jette entre vos bras.</l>
+                        <l n="1478"> En son choix légitime ell’ est trop engagée,</l>
+                        <l n="1479"> Sa résolution ne peut être changée.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI, parlant à Alfonse. </speaker>
+                        <l n="1480"> Cet Esprit qu’on a vu de malheur atterré,</l>
+                        <l n="1481"> Quoique l’on m’en ait dit, est encor altéré.</l>
+                        <l n="1482"> Et cet engagement qu’il dit de Roselie</l>
+                        <l n="1483"> N’est qu’un fantôme issu de sa mélancolie.</l>
+                        <l n="1484"> Dites-moi donc quel est ce prétendu mari ?</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1485"> Un seigneur fort bien fait que vous avez nourri.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1486"> Astolphe.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1487"> Nullement.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1488"> Faut-il qu’on me le cèle ?</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1489"> Sire, c’est Palamède.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1490"> Ô Dieux ! cet infidèle</l>
+                        <l n="1491"> Qui vient de me trahir et de l’empoisonner ?</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1492"> C’est de quoi l’on ne peut qu’à tort le soupçonner.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1493"> Comment l’en soupçonner ? ô la faiblesse extrême :</l>
+                        <l n="1494"> C’est une vérité qu’il confesse lui-même ;</l>
+                        <l n="1495"> Roselie en mourant l’en chargeait par écrit.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1496"> Sire, c’est un discours qui confond mon esprit.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1497"> Que votre fille vienne et nous le saurons d’elle.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1498"> Sire, il est à propos, il faut que je l’appelle.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1499"> Dieux ! que son sens est trouble, et qu’il est affaibli</l>
+                        <l n="1500"> J’admire ses erreurs autant que son oubli ;</l>
+                        <l n="1501"> C’est une chose étrange, il faut que je le die.</l>
+                </sp>
+        <sp who="#alfonse">
+            <speaker> ALFONSE. </speaker>
+                        <l n="1502"> C est encore un effet de cette maladie</l>
+                        <l n="1503"> Qu’il s’attira naguère à veiller sur les eaux,</l>
+                        <l n="1504"> Lorsque des ennemis il brûlait les Vaisseaux.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1505"> Délices de mes yeux, belle ressuscitée,</l>
+                        <l n="1506"> Vous bravez une mort par miracle évitée :</l>
+                        <l n="1507"> Mais si votre bonté ne prend pitié de moi</l>
+                        <l n="1508"> Je suis en grand danger de tomber sous sa loi.</l>
+                        <l n="1509"> Je suis touché d’un mal incurable à tout autre,</l>
+                        <l n="1510"> Je languis d’un poison plus mortel que le votre.</l>
+                        <l n="1511"> Mais voyez si l’ennui fait tort aux grands esprits,</l>
+                        <l n="1512"> Quand ils perdent des biens qui sont de votre prix ;</l>
+                        <l n="1513"> Votre Père a perdu tout à fait la mémoire,</l>
+                        <l n="1514"> Je vous dis son défaut, mais c’est à votre gloire.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1515"> Lui, Sire, nullement.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1516"> Il ne se souvient pas</l>
+                        <l n="1517"> Que personne ait voulu vous donner le trépas,</l>
+                        <l n="1518"> C’est pour lui, comme il semble, une chose inconnue.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1519"> C’est une chose aussi qui n’est point avenue.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1520"> Mais Palamède enfin vous donna le poison ;</l>
+                        <l n="1521"> Ce qu’Ariste dénie.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1522"> Il a grande raison.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1523"> Voici qui me remplit de crainte et de merveille ;</l>
+                        <l n="1524"> Quoi ? seriez-vous tombée en une erreur pareille ?</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1525"> Ce n’est point une erreur, c’est une vérité</l>
+                        <l n="1526"> Dont on peut s’éclaircir avec facilité.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1527"> Quoi ? démentirez-vous votre propre écriture</l>
+                        <l n="1528"> Qui semble clairement marquer cette aventure ?</l>
+                        <l n="1529"> Vous la connaîtrez bien, Madame, la voici.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1530"> Sire, dessus ce point vous serez éclairci.</l>
+                        <l n="1531"> Ce terme est équivoque, et vous allez connaître</l>
+                        <l n="1532"> Que Palamède enfin n’est ni méchant ni traître.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1533"> Faites le voir, Madame, et je serai ravi</l>
+                        <l n="1534"> Qu’il se trouve innocent et qu’il m ait bien servi.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1535"> Lorsque je le chargeais du poison dans ma plainte</l>
+                        <l n="1536"> C’était comme porteur des sujets de ma crainte :</l>
+                        <l n="1537"> C’était comme l’Auteur d’un funeste discours</l>
+                        <l n="1538"> Qui m’allait obliger à terminer mes jours.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1539"> Quel étrange discours vous a-t-il pu produire</l>
+                        <l n="1540"> Qui vous ait pu porter jusques à vous détruire ?</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1541"> J’avais vu le matin mon Père épouvanté</l>
+                        <l n="1542"> D’un changement d’esprit en votre Majesté,</l>
+                        <l n="1543"> Je savais qu’on brassait une grande entreprise,</l>
+                        <l n="1544"> Où sans savoir comment je me trouvais comprise ;</l>
+                        <l n="1545"> Alors que Palamède avecque vos écrits</l>
+                        <l n="1546"> Et vos ordres pressants vint troubler mes esprits.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1547"> Vous faisant de ma part cet amoureux message,</l>
+                        <l n="1548"> Le méchant fit passer mes soins pour un outrage ?</l>
+                        <l n="1549"> D’un artifice noir déguisa mes desseins</l>
+                        <l n="1550"> Vous donnant de l’horreur des pensers les plus saints ?</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1551"> Au contraire, en Couronne il déguisa ma chaîne,</l>
+                        <l n="1552"> M’offrant de votre part la qualité de Reine,</l>
+                        <l n="1553"> Et si j’avais suivi son dangereux conseil</l>
+                        <l n="1554"> Le Palais m’aurait vu en un grand appareil.</l>
+                        <l n="1555"> Voilà de ces trois mots la glose véritable.</l>
+                        <l n="1556"> Palamède en cela n’est nullement coupable.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1557"> Ah ! Madame, dès-là je le tiens innocent</l>
+                        <l n="1558"> Et partage avec lui les peines qu’il ressent :</l>
+                        <l n="1559"> Mais sachons le surplus de votre destinée,</l>
+                        <l n="1560"> Et quelles mains encor vous ont empoisonnée.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1561"> Canope mieux que moi vous le pourrait conter.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1562"> Canope, sur ce point vient donc me contenter.</l>
+                        <l n="1563"> Et vous, laissez-nous seuls.</l>
+                </sp>
+        <sp who="#canope">
+            <speaker> CANOPE. </speaker>
+                        <l n="1564"> D’une bouche ingénue</l>
+                        <l n="1565"> Je vous dirai comment la chose est avenue :</l>
+                        <l n="1566"> Après que Palamède eut ainsi déclaré</l>
+                        <l n="1567"> Les ordres qu’il avait et se fut retiré,</l>
+                        <l n="1568"> Madame qui l’aimait.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1569"> Elle aimait Palamède ?</l>
+                </sp>
+        <sp who="#canope">
+            <speaker> CANOPE. </speaker>
+                        <l n="1570"> Dieux ! je me suis coupée, ô malheur sans remède !</l>
+                        <l n="1571"> Je dis qu’il l’estimait.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1572"> Poursuis donc, je le vois.</l>
+                </sp>
+        <sp who="#canope">
+            <speaker> CANOPE. </speaker>
+                        <l n="1573"> Trouva mauvais d’abord qu’il eût pris cet emploi.</l>
+                        <l n="1574"> Et n’imaginant pas le dessein légitime,</l>
+                        <l n="1575"> Crut que son entremise était crime sur crime.</l>
+                        <l n="1576"> Là-dessus, redoutant qu’un amoureux transport</l>
+                        <l n="1577"> Employât pour sa perte un violent effort,</l>
+                        <l n="1578"> Elle se résolut dès-lors de ne plus vivre,</l>
+                        <l n="1579"> Et moi, je fis dessein de mourir pour la suivre.</l>
+                        <l n="1580"> Mais nous déterminant de courir au trépas,</l>
+                        <l n="1581"> Les plus communs chemins ne nous en pleurent pas :</l>
+                        <l n="1582"> Des lacets préparés firent trembler notre âme,</l>
+                        <l n="1583"> Et nous eûmes horreur du fer et de la flamme ;</l>
+                        <l n="1584"> À la fin, d’une voix et d’un consentement,</l>
+                        <l n="1585"> Dans ce commun désir de mourir doucement,</l>
+                        <l n="1586"> Je cherchai du poison dont la froideur mortelle</l>
+                        <l n="1587"> Pût terminer nos jours d’une fin moins cruelle.</l>
+                        <l n="1588"> Mais un Opérateur à qui je m’adressai,</l>
+                        <l n="1589"> Que d’une somme d’or d’abord j’intéressai,</l>
+                        <l n="1590"> M’imaginant trouver quelque âme mercenaire,</l>
+                        <l n="1591"> Me donna pour poison d’un breuvage ordinaire</l>
+                        <l n="1592"> Qui sans faire mourir ôte le sentiment</l>
+                        <l n="1593"> Et n’a que la vertu d’assoupir seulement.</l>
+                        <l n="1594"> Depuis nous avons su qu’il nous a visitées,</l>
+                        <l n="1595"> Et de la feinte mort nous a ressuscitées,</l>
+                        <l n="1596"> Nous rapportant le prix dont il s’était chargé.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI, seul. </speaker>
+                        <l n="1597"> Canope, c’est assez, tu m’as trop obligé,</l>
+                        <l n="1598"> Et tu disais fort bien qu’une bouche ingénue</l>
+                        <l n="1599"> M’allait conter comment la chose est avenue ;</l>
+                        <l n="1600"> Madame qui l’aimait, c’est parler clairement,</l>
+                        <l n="1601"> Qui la pourrait blâmer d’aucun déguisement ?</l>
+                        <l n="1602"> En voulant éclaircir les doutes de mon âme,</l>
+                        <l n="1603"> Sa propre Confidente a découvert sa flamme :</l>
+                        <l n="1604"> Ce mot me fait paraître aussi clair que le jour</l>
+                        <l n="1605"> Que tout son désespoir venait de son amour.</l>
+                        <l n="1606"> Enfin tout le mystère est mis en évidence,</l>
+                        <l n="1607"> Dont me parlait Ariste avec tant de prudence,</l>
+                        <l n="1608"> Sa folie est fort sage, et quelque Esprit blessé</l>
+                        <l n="1609"> N’aurait peu me donner un avis si sensé.</l>
+                        <l n="1610"> Sa Fille est engagée autant qu’il est possible,</l>
+                        <l n="1611"> J’en vois de tous côtés quelque marque visible,</l>
+                        <l n="1612"> Palamède lui-même implorant le trépas</l>
+                        <l n="1613"> S’en montrait redevable et ne le celait pas :</l>
+                        <l n="1614"> Son extrême respect me cachait son martyre,</l>
+                        <l n="1615"> Mais en dépit de lui sa mort le voulait dire.</l>
+                        <l n="1616"> Il est tout évident qu’il en était aimé</l>
+                        <l n="1617"> Avant que cet objet m’eût encore charmé :</l>
+                        <l n="1618"> Et qu’on ne saurait plus rompre cette harmonie</l>
+                        <l n="1619"> Sans user envers eux de trop de Tyrannie,</l>
+                        <l n="1620"> Je me préparerais en troublant ces Amants</l>
+                        <l n="1621"> Un reproche eternel et beaucoup de tourments.</l>
+                        <l n="1622"> Puisque leur union est beaucoup avancée</l>
+                        <l n="1623"> Il vaut mieux se résoudre à changer de pensée.</l>
+                        <l n="1624"> Toutefois leur destin doit dépendre de moi,</l>
+                        <l n="1625"> Ils sont nés mes Sujets, et je suis né leur Roi,</l>
+                        <l n="1626"> Ils sont membres d’un corps dont je suis seul la tête,</l>
+                        <l n="1627"> Ce n’est pas la raison que leur respect m’arrête.</l>
+                        <l n="1628"> Faut-il que mon amour respecte leur douleur ?</l>
+                        <l n="1629"> Ma satisfaction doit précéder la leur :</l>
+                        <l n="1630"> Selon l’ordre réglé que les Cieux établissent,</l>
+                        <l n="1631"> Il faut que je commande, il faut qu’ils obéissent.</l>
+                        <l n="1632"> Mais sans prendre un Conseil qui soit précipité</l>
+                        <l n="1633"> Je veux m’éclaircir mieux de cette vérité,</l>
+                        <l n="1634"> De peur que m’arrêtant sur cette conjecture</l>
+                        <l n="1635"> Quelque remords secret suivît ma procédure ;</l>
+                        <l n="1636"> Que l’on appelle Ariste et Roselie aussi,</l>
+                        <l n="1637"> Ils ne sont pas sortis.</l>
+                </sp>
+        <sp who="#un-garde">
+            <speaker> UN GARDE. </speaker>
+                        <l n="1638"> Non, Sire, les voici.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1639"> Approche, écoute bien.</l>
+            <stage><em>Il parle tout bas à son Capitaine des Gardes.</em></stage>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1640"> Fais peu de connaissance</l>
+                        <l n="1641"> S’il ne donne à Timon quelqu’ordre d’importance.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1642"> Avons-nous rien à craindre en nos déportements,</l>
+                        <l n="1643"> Soit pour nos actions, soit pour nos sentiments ?</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1644"> Va, mais dépêche vite.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1645"> Il est tout en colère,</l>
+                        <l n="1646"> Voyez, voyez un peu comme son œil éclaire.</l>
+                        <l n="1647"> Il revient droit à nous.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1648"> Un sujet reconnu</l>
+                        <l n="1649"> A fait que je me suis longtemps entretenu.</l>
+                </sp>
+        <sp who="#canope">
+            <speaker> CANOPE. </speaker>
+                        <l n="1650"> Tout ce mal vient de moi, que je suis misérable.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1651"> Je veux faire un exemple et qui soit mémorable,</l>
+                        <l n="1652"> Quand j’aurai terminé ce que j’ai résolu</l>
+                        <l n="1653"> L’on en connaîtra mieux mon pouvoir absolu.</l>
+                </sp>
+        <sp who="#canope">
+            <speaker> CANOPE. </speaker>
+                        <l n="1654"> Ô Cieux ! le cœur me bat, cette étrange menace</l>
+                        <l n="1655"> Nous annonce sans doute une grande disgrâce.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1656"> Quelqu’un va l’éprouver avec étonnement.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1657"> Et qui, Sire ?</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1658"> Un Rival aimé trop chèrement.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1659"> Quel est donc ce Rival ?</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1660"> Il ne l’est plus dès l’heure :</l>
+                        <l n="1661"> C’est Palamède enfin.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1662"> Que Palamède meure ?</l>
+                        <l n="1663"> Que vous reconnaissez fidèle et généreux ?</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1664"> S’il expire innocent, moi je veux vivre heureux !</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1665"> Vivrez vous satisfait détruisant l’innocence ?</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1666"> Oui, puisque mon repos dépend de son absence.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1667"> Voulair tremper ses mains au sang des innocents ?</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1668"> Je me veux délivrer des peines que je sens.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1669"> Qui vous garantira d’une honte éternelle ?</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1670"> La douleur que je souffre est beaucoup plus cruelle.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1671"> Croyez-vous l’adoucir commettant ce forfait ?</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1672"> Le Principe détruit empêchera l’effet.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1673"> Ah ! tu te trompes fort, âme injuste et barbare,</l>
+                        <l n="1674"> De croire m’emporter si sa mort nous sépare :</l>
+                        <l n="1675"> Malgré ta violence et tes indignes feux,</l>
+                        <l n="1676"> Mon trépas aujourd’hui nous rejoindra tous deux.</l>
+                        <l n="1677"> Crois-tu qu’à cet objet la clarté soit ravie,</l>
+                        <l n="1678"> Sans que tout à l’instant on m’ôte aussi la vie ?</l>
+                        <l n="1679"> Il m’a donné son cœur, il a reçu ma foi,</l>
+                        <l n="1680"> Et je vis toute en lui comme il vit tout en moi.</l>
+                        <l n="1681"> Tu verras maintenant en suite de ton crime</l>
+                        <l n="1682"> Que ce n’est qu’un esprit qui nos deux corps anime ;</l>
+                        <l n="1683"> Que nos conditions n’ont qu’un même destin,</l>
+                        <l n="1684"> Et que nos tristes jours n’ont qu’une même fin.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1685"> Ah ! Madame, calmez cette fougue amoureuse,</l>
+                        <l n="1686"> Vous trouverez, possible, une fin plus heureuse :</l>
+                        <l n="1687"> Voyez-vous votre Amant qu’on amène à grands pas,</l>
+                        <l n="1688"> Cet honneur toutefois ne le sauvera pas :</l>
+                        <l n="1689"> Il faut que de ces lieux à la mort on l’envoie.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1690"> Ah ! qu’il meure ?</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1691"> Il mourra, mais ce sera de joie,</l>
+                        <l n="1692"> Pour venger Roselie et réparer mon tort,</l>
+                        <l n="1693"> Je le veux condamner à ce genre de mort,</l>
+                        <l n="1694"> C’est jusqu’où s’étendra l’effet de mes menaces.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1695"> Ô Cieux ! quelle surprise !</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1696"> Ah ! Sire, quelles grâces !</l>
+                </sp>
+        <sp who="#canonpe">
+            <speaker> CANONPE. </speaker>
+                        <l n="1697"> Voyez avec quel art ce Prince s’est joué.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1698"> Rendons-en grâce aux Dieux.</l>
+                </sp>
+        <sp who="#canope">
+            <speaker> CANOPE. </speaker>
+                        <l n="1699"> Amour en soit loué.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1700"> Palamède, aujourd’hui j’ai pleine connaissance</l>
+                        <l n="1701"> Et de votre mérite et de votre innocence ;</l>
+                        <l n="1702"> Je connais quels efforts vous avez faits pour moi,</l>
+                        <l n="1703"> Qui sont tous signalés de valeur et de foi ;</l>
+                        <l n="1704"> Et je suis bien fâché qu’une apparence vaine</l>
+                        <l n="1705"> Ait troublé tant de monde, et vous ait mis en peine.</l>
+                        <l n="1706"> Pour adoucir les maux que vous avez souliers</l>
+                        <l n="1707"> Il me plaît aujourd’hui que vous changiez de fers ;</l>
+                        <l n="1708"> Chargez-vous donc de ceux qui m’ont pressé moi-même</l>
+                        <l n="1709"> Et que j’estime encore autant qu’un Diadème.</l>
+                        <l n="1710"> Vous aimez Roselie, elle vous aime aussi,</l>
+                        <l n="1711"> C’est une vérité dont je suis éclairci ;</l>
+                        <l n="1712"> Tous deux avez voulu d’une ardeur bien fidèle,</l>
+                        <l n="1713"> Elle mourir pour vous, et vous mourir pour elle :</l>
+                        <l n="1714"> Je veux sans désunir un couple si loyal,</l>
+                        <l n="1715"> En cette occasion faire un acte Royal ;</l>
+                        <l n="1716"> Avec solennité cette même journée</l>
+                        <l n="1717"> Je veux voir accompli votre heureux hyménée.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="1718"> Ô Prince le meilleur d’entre tous les mortels.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1719"> Ô Roi dont la bonté mérite des Autels.</l>
+                </sp>
+        <sp who="#palamède">
+            <speaker> PALAMÈDE. </speaker>
+                        <l n="1720"> Que la Fortune amie et l’aimable Victoire</l>
+                        <l n="1721"> Vous couronnent toujours de bonheur et de gloire.</l>
+                </sp>
+        <sp who="#roselie">
+            <speaker> ROSELIE. </speaker>
+                        <l n="1722"> Récompense le Ciel vos divines bontés.</l>
+                </sp>
+        <sp who="#ariste">
+            <speaker> ARISTE. </speaker>
+                        <l n="1723"> Soyez comblé d’honneur et de prospérités.</l>
+                </sp>
+        <sp who="#le-roi-de-sardaigne">
+            <speaker> LE ROI. </speaker>
+                        <l n="1724"> Je demande sur tout que jamais on n’oublie,</l>
+                        <l n="1725"> Que l’on a vu d’Ariste une SAGE FOLIE.</l>
+                        <l n="1726"> </l></div></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

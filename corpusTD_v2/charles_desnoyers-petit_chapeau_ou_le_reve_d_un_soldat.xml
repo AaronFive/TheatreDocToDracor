@@ -1,0 +1,2032 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Le Petit chapeau</title>
+            <author>
+                <persName>
+                    <forename>Charles</forename>
+                    <surname>Desnoyers</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/le-petit-chapeau-charles-desnoyers </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1837-09-09">Représenté pour la première fois, à Paris, sur le Théâtre de la Gaîté, le 9 septembre 1837.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="jacques" sex="SEX">
+                            <persName>JACQUES</persName>
+                        </person>
+                        <person xml:id="jean" sex="SEX">
+                            <persName>JEAN</persName>
+                        </person>
+                        <person xml:id="étienne" sex="SEX">
+                            <persName>ÉTIENNE</persName>
+                        </person>
+                        <person xml:id="un-officier-de-marine" sex="SEX">
+                            <persName>UN OFFICIER DE MARINE</persName>
+                        </person>
+                        <person xml:id="marie" sex="SEX">
+                            <persName>MARIE</persName>
+                        </person>
+                        <person xml:id="napoléon" sex="SEX">
+                            <persName>NAPOLÉON</persName>
+                        </person>
+                        <person xml:id="françois" sex="SEX">
+                            <persName>FRANÇOIS</persName>
+                        </person>
+                        <person xml:id="un-général" sex="SEX">
+                            <persName>UN GÉNÉRAL</persName>
+                        </person>
+                        <person xml:id="un-paysan" sex="SEX">
+                            <persName>UN PAYSAN</persName>
+                        </person>
+                        <person xml:id="paysans" sex="SEX">
+                            <persName>PAYSANS</persName>
+                        </person>
+                        <person xml:id="paysannes" sex="SEX">
+                            <persName>PAYSANNES</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> [indéfini]</term>
+                    <term> [indéfini] </term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">LE PETIT CHAPEAU</titlePart>
+            <titlePart type="sub">[INDÉFINI]</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représenté pour la première fois, à Paris, sur le Théâtre de la Gaîté, le 9 septembre 1837.</ab><!--@date="1837-09-09"-->
+        </performance>
+           <div type="act" xml:id="1">
+           <head> PREMIÈRE PARTIE </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#jean">
+            <speaker> JEAN, MARIE, PAYSANS et PAYSANNES </speaker>
+            <stage><em>Au lever du rideau, ils sont attablés et trinquent ensemble. Jean est en blouse et en bonnet de police, pantalon militaire. Ceux qui l’entourent portent le costume pittoresque des paysans du département du Finistère, en Basse-Bretagne. </em></stage>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+            <stage><em>Air : Les Glouglou. (Doche.) </em></stage>
+                        <l n="1"> Verre en main,</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN, debout et élevant son verre. </speaker>
+                        <l n="2"> Je demande la parole... Pour lors, voilà la chose. Vous, jeunes gens, qui avez eu l’inconvénient de ne connaître jusqu’à ce jour que les douceurs de la paix, qui avez ignoré le bonheur d’être soldat, et de devenir manchot, jambe de bois, ou autres choses avantageuses sous les drapeaux du petit caporal ; vous, les filles et les épouses, qui ne comprenez pas tout le plaisir d’avoir à l’armée un père, ou un fils, ou une connaissance quelconque, et de se dire : À l’heure qu’il est, il mange peut-être de la vache enragée, il est peut-être emporté par un boulet... mais il se couvre de gloire, et il gagnera la croix d’honneur, et un galon de sergent... s’il n’est pas tué ; vous tous enfin qui m’écoutez, femmes, enfants, vieillards et moutards de tout âge et de tout sexe, aujourd’hui, 15 août 1837, nous v’là réunis pour célébrer une grande fête, un grand souvenir... à la mémoire de Napoléon !</l>
+                </sp>
+        <sp who="#tous">
+            <speaker> TOUS. </speaker>
+                        <l n="3"> À la mémoire de Napoléon !</l>
+            <stage><em>Reprise. </em></stage>
+            <stage>Verre en main, <em>etc.</em></stage>
+                </sp>
+        <sp who="#un-paysan">
+            <speaker> UN PAYSAN. </speaker>
+                        <l n="4"> Mais, dites-moi donc, M. Jean, est-ce que nous ne verrons pas aujourd’hui votre ami, votre ancien camarade de la grande armée ?</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="5"> Ah ! Jacques...</l>
+                </sp>
+        <sp who="#tous">
+            <speaker> TOUS. </speaker>
+                        <l n="6"> Oui, oui, M. Jacques.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="7"> C’est vrai, il y a longtemps qu’il devrait être ici...</l>
+                </sp>
+        <sp who="#le-paysan">
+            <speaker> LE PAYSAN. </speaker>
+                        <l n="8"> Et il ne vient pas, pourquoi ça ?</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="9"> Ah ! pourquoi ? pourquoi ? est-ce que j’en sais quelque chose, moi ? est ce que je peux rien comprendre à mon ami Jacques ?... c’est bien le plus drôle de corps... j’ai fait sa connaissance pendant la campagne de Russie, il était volontaire dans la jeune garde, et moi, grognard dans la vieille... Nous avons manqué d’être gelés tous les deux à la Bérézina, nous nous sommes retrouvés à Champaubert, à Montmirail, à Waterloo... et quand tout a été fini, nous sommes venus nous caserner ensemble dans ce petit village ; enfin finale, mon ami Jacques et moi, nous ne nous sommes pas quittés qui dirait... eh bien ! du diable si je peux deviner ce que ce gaillard-là a dans la tête... lui qui parle si bien quand il veut... il reste quelquefois des journées entières sans vous dire un seul mot... Il fume, et il songe... à quoi ?... on le lui demande ? bernique ! il continue de se taire et de fumer... puis, de temps en temps, il lève de grands yeux au ciel, il soupire... puis, il s’écrie que l’existence est monotone, ennuyeuse, insupportable... et puis il vous prend la main comme s’il voulait vous expliquer sa tristesse... vous dire quelque chose enfin et quand vous êtes tout prêt à l’entendre... il reprend sa pipe et vous tourne le dos... est-ce agréable ? je ne sais pas comment nous sommes amis, moi, presque toujours de bonne humeur, et lui toujours triste sans savoir pourquoi ; lui, qui a l’air de voir tout en noir, et moi qui vois tout couleur de rose ; enfin, moi, qu’on appelle Jean qui rit, et lui, à qui vous avez donné le sobriquet de Jacques qui pleure, eh bien ! c’est égal... malgré tout ça, je lui pardonne... je l’aime, je l’aime comme un frère, et c’te chienne d’amitié-là est une vieille maladie dont je ne peux pas me guérir... Sacrée section, est-on bête !...</l>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE. </speaker>
+                        <l n="10"> Mon père... il m’est arrivé bien souvent de faire attention aux chagrins et à la mauvaise humeur de M. Jacques, j’ai été bien longtemps, comme vous sans y rien comprendre ; mais, enfin, à force de chercher et d’observer... car je suis très curieuse, je crois bien que j’ai fini par deviner ce qui le tourmente... du moins depuis quelques jours, et surtout depuis ce matin.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="11"> Ah ! bah ! conte-moi donc ça, ma fille.</l>
+                </sp>
+        <sp who="#un-paysan">
+            <speaker> LE PAYSAN. </speaker>
+                        <l n="12"> Oui, oui, contez-nous ça, Mlle Marie.</l>
+            <stage><em>Tous les paysans prêtent une grande attention.</em></stage>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE. </speaker>
+                        <l n="13"> Figurez-vous que dernièrement, mon père, lorsqu’il était là, à fumer sa pipe, et que vous lui avez demandé des nouvelles de son fils, de M. Étienne, qui est allé, il y a deux ans, chercher fortune à Paris, et que depuis ce temps-là nous n’avons pas revu au village, il m’a semblé que M. Jacques devenait plus triste qu’à l’ordinaire... alors...</l>
+            <stage><em>On frappe à la porte. </em></stage>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="14"> Ah ! c’est lui sans doute, c’est mon ami Jacques !</l>
+                </sp>
+        <sp who="#tous">
+            <speaker> TOUS. </speaker>
+                        <l n="15"> M. Jacques !</l>
+            <stage><em>On va ouvrir. </em></stage></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#les-mêmes">
+            <speaker> LES MÊMES, JACQUES </speaker>
+            <stage><em>Entrée de Jacques, la pipe à la bouche, et l’air triste et rêveur, tel que vient de le dépeindre le récit de Jean. Jacques est habillé dans le même style que les autres paysans ; seulement, un choix de couleurs plus sombres doit donner à son costume un caractère particulier en rapport avec celui du personnage. Tout le monde s’empresse autour de lui, il leur serre la main sans dire un seul mot, et va s’asseoir dans un coin du théâtre.</em></stage>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="16"> Pardieu ! camarade, tu arrives bien... nous parlions de toi...</l>
+            <stage><em>Jacques lui serre la main comme aux autres, et ne répond rien.</em></stage>
+                        <l n="17"> Pourquoi viens-tu si tard ?</l>
+            <stage><em>Jacques garde toujours le silence, ainsi que pendant les phrases suivantes. </em></stage>
+                        <l n="18"> Est-ce que tu vas nous faire cette mine-là toute la soirée ?... oublies-tu que c’est fête aujourd’hui ? allons, réponds-moi donc...</l>
+            <stage><em>Jacques fait un geste d’impatience, lui tourne le dos, et fume.</em></stage>
+                        <l n="19"> Au moins, tu ne refuseras pas de boire un verre de vin avec nous...</l>
+            <stage><em>Des paysans se sont empressés de remplir des verres ; on en offre un à Jacques, qui ne fait pas attention à eux. Jean, impatienté à son tour lui met le verre sous le nez, Jacques le prend machinalement, et l’avale d’un trait, toujours sans dire un seul mot.</em></stage>
+                        <l n="20"> J’espère que ça va lui délier la langue... En bien ! Jacques, dis-moi...</l>
+            <stage><em>Jacques le regarde, lui serre la main, soupire, puis lève les yeux au ciel, avec un air d’ennui et de tristesse, et de nouveau tourne le dos à Jean et aux autres, reprend sa pipe, et se remet à fumer tranquillement, sans faire attention à personne.</em></stage>
+                        <l n="21"> Ah ! ma foi ! que le diable t’emporte !</l>
+            <stage><em>Jean va s’as seoir à son tour de l’autre côté du théâtre, d’un air de mauvaise humeur. Il prend aussi sa pipe, et fume.</em></stage>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE, aux paysans qui tiennent avec elle le milieu de la scène. </speaker>
+                        <l n="22"> Écoutez-moi, mes amis... moi seule, je sais quelque chose qui dissipera bientôt le chagrin de M. Jacques... venez, je vais tout vous dire.</l>
+                </sp>
+        <sp who="#chœur-général">
+            <speaker> CHŒUR GÉNÉRAL, chanté à voix basse. </speaker>
+            <stage><em>Air : Final de Paul et Jean. </em></stage>
+                        <l n="23"> Allons, partons, plus d’espérance,</l>
+            <stage><em>Sortie de Marie et des paysans ; Jacques et Jean restent seuls en scène, se tournant le dos et fumant aux deux extrémités du théâtre, Jean furieux, et Jacques insouciant et calme. </em></stage></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="24"> Ayez donc des amis comme celui-là !... c’est amusant...</l>
+            <stage><em>Il fume.</em></stage>
+                        <l n="25"> C’est qu’il n’y a pas à dire, j’ai beau vouloir suivre son exemple et ne pas faire attention à lui, et fumer tout seul dans mon coin, comme un hibou, comme un égoïste, comme lui enfin, je ne peux pas ; malgré moi, je pense à c’t être-là, et je me fais trop de mauvais sang pour que la pipe me fasse plaisir...</l>
+            <stage><em>Se relevant avec colère, et retournant auprès de Jacques.</em></stage>
+                        <l n="26"> Jacques ! Jacques ! veux-tu me répondre à la fin... qu’est-ce que je t’ai fait pour que tu sois comme ça avec moi ? est-ce que tu me dédaignes ? est-ce que je ne suis plus ton ami ?...</l>
+            <stage><em>Ici Jacques se lève vivement et lui serre la main comme pour lui demander pardon.</em></stage>
+                        <l n="27"> Ah ! enfin, c’est heureux... si je suis ton ami, il faut que tu renonces pour aujourd’hui à tes humeurs noires, il faut que tu sois gai comme je le suis, quand tu ne me boudes pas... enfin, il faut que tu me dise ce que tu as, ce que tu éprouves, ce qui te chagrine.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="28"> Ce que j’ai ? je m’ennuie.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="29"> Pourquoi ça ?</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="30"> Ce que j’éprouve ?... un dégoût mortel de moi-même et de tous ceux qui m’entourent.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="31"> Merci !</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="32"> Un désir invincible, continuel, de changer d’existence... ou du moins d’en finir avec la mienne.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="33"> Allons, bon ! encore ses idées de suicide ! ah ! c’est affreux ! toi, Jacques, un père de famille !</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="34"> Mon fils m’a quitté depuis deux ans... mon fils est à Paris, plus heureux que moi... il est artiste, il aime ses pinceaux avec passion, et ses pinceaux feront un jour sa fortune, à ce qu’il dit ; enfin grâce au ciel, si moi, je peux bien avoir besoin de mon fils, lui, n’aura jamais besoin des se cours de son père... Il est écrit là-haut, depuis que j’ai cessé d’être au service... il est écrit que je ne puis être bon à rien, à rien sur la terre.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="35"> Bon à rien... et moi, ton vieil ami, je ne peux pas me passer de toi... et tu me quitterais sans regret... c’est impossible, d’ailleurs, tu es un homme de cœur, un ancien soldat, et tu ne peux pas oublier ce que notre empereur fit mettre un jour à l’ordre de la garde, écrit et signé de sa main, parce qu’un de nos camarades, le grenadier Boniface Gobain, las de la vie, comme toi, venait d’en finir comme tu veux le faire, par un suicide... Oh ! je ne l’ai pas oublié, moi, l’ordre du jour du petit caporal : Un soldat, qu’il disait, doit savoir vaincre toutes les douleurs, il y a au tant de vrai courage à supporter avec constance les peines de l’âme, qu’à rester fixe sous la mitraille d’une batterie. S’abandonner au chagrin sans résister, se tuer pour s’y soustraire, c’est déserter le champ de bataille, avant d’avoir combattu ; entends-tu, Jacques... déserter... et tu ne le feras pas, j’en suis sûr, mon vieux camarade ?</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="36"> Eh bien... eh bien ! non, je ne le ferai pas... puisque je ne l’ai pas fait jusqu’à présent ; c’est que malgré tout, il me venait toujours à l’esprit des pensées semblables aux tiennes... c’est qu’avec mon air d’indifférence et d’égoïsme, je songeais que j’avais en toi un ami, un ami véritable, que ma mort serait un chagrin, une désolation pour toi, et pour lui... lui aussi, mon fils, mon pauvre Étienne... va, cette idée-là m’a retenu plus d’une fois, à l’instant où j’allais me faire sauter la cervelle.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="37"> À la bonne heure ! j’espère bien qu’en pareil cas, ça te retiendra toujours, sacrée section !</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="38"> Mais, il faut que je t’ouvre enfin toute mon âme...</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="39"> Je ne demande pas mieux.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="40"> Car j’ai voulu trop longtemps renfermer dans ma poitrine toutes ces idées qui m’oppressent, qui me désespèrent, et qui feraient rire sans doute un autre que toi, un autre qui ne m’aimerait pas comme tu m’aimes. J’étais né pour être soldat, moi ; c’était pour moi le seul état possible, mon seul goût, ma seule vocation ; ce n’est pas étonnant, je suis un enfant de l’empire, j’ai été bercé avec des récits de batailles et de conquêtes ; nous ne parlions que de cela, nous ne rêvions pas autre chose, au Lycée Napoléon, où j’avais une bourse, comme fils d’un vieux militaire mort au champ d’honneur... et quand j’eus la force de porter un fusil, je voulus prendre sur-le-champ la profession de mon père, je m’engageai ; c’était, en 1811, l’empereur méditait alors la campagne de Russie, qui devait être si belle, qui nous a été si funeste, je partis... impatient de courir le monde, rêvant aussi pour moi une part dans tous ces triomphes, dans toutes ces gloires, je devais parvenir... car alors la carrière s’ouvrait large et belle pour tous, et je me sentais au cœur tout ce qu’il fallait d’énergie pour la bien parcourir... pour devenir un jour ce que tant d’autres étaient devenus avant moi, tant d’autres partis d’une mansarde, d’une chaumière, et arrivés si loin... pourquoi ? tout bonnement parce qu’ils l’avaient suivi, lui, Napoléon, lui, qui marchait si vite.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="41"> À qui le dis-tu ? moi qui suis ton ancien d’une quinzaine d’années... je l’ai suivi presque partout, le fusil sur l’épaule, à pied, et quelquefois pu pieds...oh ! certainement qu’il marchait vite, le gaillard... ça nous fatiguait un peu... mais bah ! on ne s’en plaignait pas... Et puis, c’est vrai que tout le monde arrivait aux grades supérieurs... on partait grenadier... au bout de quelques années, on était maréchal d’empire, il n’y a pas à dire...tout le monde, excepté moi...et quelques milliers d’autres qui ont été oubliés dans les rangs, et qui sont restés soldats toute leur vie... ah ! c’est égal, c’était le bon temps...</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="42"> N’est-ce pas ? oh ! oui, sacrée section, c’était le bon temps.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="43"> Et il n’y avait pas d’affront à être soldat de Bonaparte, lorsque lui-même se faisait gloire d’être appelé caporal.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="44"> Et puis... même en ne gagnant pas un galon, un grade, une croix pour prix de ses fatigues... cette existence belliqueuse, ces aventures, ces dangers, ces victoires... et ces voyages, cette marché continuelle, l’arme au bras et au retentissement du canon, dans toutes les contrées de l’Europe, n’était-ce pas encore ce qu’il me fallait à moi ?... n’était-ce pas du mouvement, du bruit enfin ?...enfin, la vie telle que je la désirais depuis mon enfance... oh ! oui, camarade, c’était le bon temps... mais pour moi il a duré si peul et pendant mes deux ou trois ans de service, je n’ai pu m’approcher de lui, m’en faire remarquer... je n’ai pu, lorsque les revers sont arrivés, le suivre dans son exil, et qui sait ? mourir peut-être en essayant de lui rendre la liberté... c’était encore un de mes rêves, il a été détruit, comme tous les autres...</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#jacques">
+            <speaker> JACQUES, JEAN, MARIE </speaker>
+            <stage><em>Marie entre doucement, et écoute sans être vue. </em></stage>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES, continuant d’un air mélancolique. </speaker>
+                        <l n="45"> Et revenu ici, depuis 1815, enseveli dans ce coin de terre, au fond de la Bretagne, cloué sans cesse à la même place, sans plaisir, sans espoir, sans occupation, puisque je ne sais rien faire que me battre, et que décidément on ne se bat plus en Europe... j’existe, mais je ne vis pas... je végète... Tu parle, de constance à supporter des chagrins... eh ! j’en aurais... c’est quelque chose que des chagrins, des souffrances, ça fait mal, oui, mais ça occupe... on sait alors pourquoi on est malheureux, et l’on travaille pour cesser de l’être... mais l’ennui, l’ennui... quand une fois il vous a choisi pour victime, qu’il est acharné après vous...et ne veut plus vous quitter, quand il est devenu votre compagnon inséparable !... Ah ! crois moi, c’est là un mal contre lequel vient échouer tout le courage... c’est un supplice de damné... Oui, s’il est vrai qu’après la mort il y ait un châtiment infligé aux méchants... sois-en bien sûr, Jean, cette torture infernale, ce n’est ni le feu ni le fer... c’est l’ennui !... et cette torture, elle est la mienne, elle me ronge, elle me dévore depuis 1815, depuis que je ne suis plus soldat !</l>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE, à elle-même. </speaker>
+                        <l n="46"> Pauvre M. Jacques !</l>
+            <stage><em>Elle descend la scène et vient peu à peu se placer entre les deux amis. </em></stage>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="47"> Mon cher ami, tout ce que tu dis là est superbe, mais moi, qui n’ai pas été élevé comme toi dans un lycée impérial... je ne peux pas te répondre d’aussi belles phrases que les tiennes, d’ailleurs, je suis un peu de ton avis, car ainsi que toi, j’étais né pour la guerre, exprès pour la guerre... eh bien ! malgré ça, je trouve encore moyen de m’amuser un peu pendant la paix... c’est drôle, mais je suis comme ça... d’abord, depuis mon enfance, j’ai l’habitude de rire de tout... je ne vois pas pourquoi ça me se ait plus difficile ici, à table, le verre à la main et au son du violon et de la cornemuse, en voyant danser autour de moi les jeunesses du village, qu’en Russie ou en Autriche, au bruit de la fusillade et en voyant tomber à mes côtés les Kinserlicks et les Cosaques, ensuite, j’ai ma fille</l>
+            <stage><em>Ici Marie se trouve tout près de lui, et sans être vue. </em></stage>
+                        <l n="48"> que je ne verrais pas si j’étais en campagne, ma fille qui m’embrasse le matin, le soir, qui met de l’ordre dans mon petit bivouac, qui me tient compagnie à table... et ça me fait un camarade de gamelle tout aussi agréable qu’un grenadier ou un sapeur.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="49"> Eh ! certainement, tu es heureux... Ton enfant est auprès de toi, toujours auprès de toi.</l>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE, s’avançant. </speaker>
+                        <l n="50"> Eh bien ! M. Jacques...</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="51"> Ah ! Marie !</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="52"> Tu étais là, toi ! tu nous écoutais ?</l>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE. </speaker>
+                        <l n="53"> Non, mon père, non ; mais sans le vouloir, je vous ai entendu... Je vous disais donc, M. Jacques, que vous aussi bientôt vous allez avoir votre enfant auprès de vous.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="54"> Hein ! plaît-il ? mon fils ? est-ce possible ?</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="55"> Qu’est-ce qui t’a dit ça ?</l>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE. </speaker>
+                        <l n="56"> Qui ?</l>
+            <stage><em>Elle tire une lettre de son sein.</em></stage>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="57"> Une lettre !</l>
+            <stage><em>Elle lui montre l’écriture. </em></stage>
+                        <l n="58"> d’Étienne...</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="59"> À toi, Marie ?</l>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE. </speaker>
+                        <l n="60"> À moi.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="61"> Comment ! tu as une correspondance secrète avec un jeune homme ?</l>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE. </speaker>
+                        <l n="62"> Mon père, écoutez, je vous en prie.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="63"> Eh ! sans doute, écoute donc... tu ne vois pas que je meurs d’impatience !</l>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE, lisant. </speaker>
+                        <l n="64"> « Ma chère Marie... cette lettre sera la dernière que je t’adresserai à l’insu de ton père et du mien. »</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="65"> Ah ! la dernière... il paraît qu’il y en a eu quelques autres.</l>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE, lisant. </speaker>
+                        <l n="66"> « Cet amour, que je leur ai caché jusqu’à présent, parce que je ne pouvais encore donner à ma femme une existence honorable, maintenant, enfin, je n’ai plus de motif pour le taire ; mon enthousiasme pour l’art que j’ai embrassé n’était pas une illusion trompeuse ; mes travaux ont été couronnés par le succès : je retourne auprès de mon père, le prier de demander, pour moi, la main à son vieux camarade, et l’un et l’autre seront à jamais heureux de notre bonheur. »</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES, prenant la lettre et l’embrassant. </speaker>
+                        <l n="67"> Ah ! mon enfant ! mon cher Étienne !</l>
+            <stage><em>Il relit avec avidité.</em></stage>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="68"> Ta main ! Il t’aimait ! il t’écrivait... il avait le projet d’être ton mari... et nous n’en savions rien ni l’un ni l’autre... qu’en dis-tu, Jacques ? nous avons du coup d’œil, et de la pénétration.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES, qui a toujours la lettre sous les yeux. </speaker>
+                        <l n="69"> Mais, tais-toi donc, je suis avec mon fils ! est-ce que je peux t’entendre ?... Son tableau a été admis à l’exposition de cette année ! il a remporté le grand prix... et bientôt je l’embrasserai... oui, bientôt... écoute, écoute encore, Jean : « Pauvre père ! il est toujours triste et ennuyé, tu me l’as dit, ma chère Marie, eh bien ! tous mes efforts désormais seront consacrés à lui faire oublier sa tristesse ; à lui faire aimer la vie... »</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="70"> Ne pleure donc pas comme ça, toi, t’es bête.</l>
+            <stage><em>Il pleure aussi. </em></stage>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES, continuant de lire. </speaker>
+                        <l n="71"> « D’abord, à mon retour, je lui ménage une surprise, une joie aussi grande peut-être que la sienne quand je le presserai dans mes bras... je serai près de lui, le 15 août, jour de la Saint-Napoléon... Aujourd’hui !</l>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE. </speaker>
+                        <l n="72"> Oui, dans un instant peut-être... eh bien ! M. Jacques a-t-il deviné juste ? serez-vous heureux en me voyant la femme de votre fils ?</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="73"> Heureux, Marie... oh ! oui, je le crois, bien heureux !</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="74"> Sacrée section ! comme je vais rire et boire à cette noce-là, comme je commanderai l’exercice à tous mes soldats.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="75"> Tes soldats ?</l>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE. </speaker>
+                        <l n="76"> Certainement, mon père apprend l’exercice à tous les garçons du village.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="77"> Vraiment ! tu as fait des élèves, Jean ?</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="78">  Et de fameux encore... à la première occasion, je te les ferai passer en revue, tu verras comme ils manœuvrent.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="79"> Mais je ne savais pas tout cela, je m’en serais mêlé, pardieu !</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="80"> Quand tu voudras, tu les commanderas à ton tour, tu seras général, et moi ton aide-de-camp.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="81"> Volontiers... Jean, ce sera du moins un souvenir de mon ancienne existence... ô la guerre ! la guerre ! pourquoi n’a-t-elle pas continué jusqu’à présent ? mon Étienne ne serait pas le seul homme distingué de ma famille... comme son père, et avec son père, il aurait suivi la carrière des armes, et tous les deux affrontant la mitraille !...</l>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE. </speaker>
+                        <l n="82"> Ô mon Dieu ! que dites-vous ?</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="83"> Allons ! encore un accès !</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="84"> C’est vrai... je suis un fou, un insensé, j’en reviens toujours à mes pensées, à mes rêves... Toujours je regarde en arrière, et je regrette, quand je ne devrais songer qu’au bonheur de cette journée, au retour de mon enfant, à la gloire, à la couronne qu’il vient de remporter... sa couronne ! il me la donnera, et c’est là sans doute cette grande surprise qu’il réserve à son père... mon Dieu ! mon Dieu ! est-ce que je tarderai longtemps encore à le revoir ? à l’embrasser ?...</l>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE. </speaker>
+                        <l n="85"> Non, sans doute, nos paysans, que j’ai prévenus, sont allés à sa rencontre, eh tenez, écoutez !</l>
+            <stage><em>On exécute à l’orchestre la ritournelle d’un air vif et joyeux, celui de :</em> Assez dormir, ma belle, Hyppolyte Monfou. <em>Les trois personnages courent précipitamment vers la porte. </em></stage>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE. </speaker>
+                        <l n="86"> Ah ! le voilà au milieu d’eux</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="87"> Étienne !</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="88"> C’est lui ! c’est lui !</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE, entrant suivi de tous les paysans, et se jetant d’abord dans les bras de Jacques. </speaker>
+                        <l n="89"> Mon père !</l>
+                </sp>
+        <sp who="#chœur-général">
+            <speaker> CHŒUR GÉNÉRAL. </speaker>
+            <stage><em>Air : Assez dormir, ma belle. </em></stage>
+                        <l n="90"> Amis, quel jour prospère !...</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="91"> M. Jean, et toi, Marie, toi, ma femme, n’est-ce pas ?... tous les deux vous me donnerez votre consentement.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="92"> Tous les deux.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="93"> Mais laisse-moite regarder, t’embrasser encore, monsieur l’artiste... tu oublies donc que je ne t’ai pas vu depuis deux ans... dis donc, Jean, n’est-ce pas qu’il est bien, mon Étienne, mon fils...</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="94"> Dame ! il faut bien que je sois de c’t’ avis-là, j’ai l’habitude de penser toujours comme ma fille.</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="95"> Mais c’est aujourd’hui la Saint-Napoléon, mon père... et je vous ai promis une surprise...</l>
+            <stage><em>S’adressant à deux ou trois paysans, et leur parlant à l’oreille.</em></stage>
+                        <l n="96"> Camarades... allez, et faites ce que je vous ai dit ; dépêchez-vous.</l>
+            <stage><em>Ils sortent, et tous les autres personnages se groupent autour d’Étienne.</em></stage>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="97"> Qu’est-ce que c’est ? de quoi s’agit-il ?</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="98"> Dans une vente publique, on exposait, il y a quinze jours, un vieux chapeau, d’une forme très mesquine, avec une petite gance noire et une petite cocarde, le tout sans aucun ornement, et cependant, selon toute apparence, ce vieux chapeau devait coûter bien cher... car il avait appartenu à l’empereur Napoléon.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES et JEAN. </speaker>
+                        <l n="99"> Ah ! le petit chapeau !</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="100"> L’idée me vint de vous en faire cadeau, mon père, à vous qui m’en avez tant parlé... mais, comment faire pour qu’on me l’adjugeât, à moi qui, pour avoir remporté grand prix de peinture, ne suis pas encore millionnaire ? heureusement, je ne vis autour de moi pas un des concurrents que je pouvais croire redoutables.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="101"> Ah ! c’est juste... ça devait être... les gros bonnets avaient oublié le petit chapeau.</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="102"> Et comme il n’y avait pour mettre à l’enchère que des ouvriers, des soldats, des hommes du peuple et des artistes, je me suis trouvé un peu plus riche que tous les autres, et le chapeau de l’empereur...</l>
+            <stage><em>Ici les trois ou quatre paysans qui sont sortis rentrent, l’un tient à sa main le petit chapeau, les autres des paniers de vin de Champagne, Étienne prend le chapeau des mains des paysans et le donne à son père. </em></stage>
+                        <l n="103"> Tenez, mon père.</l>
+                </sp>
+        <sp who="#paysans">
+            <speaker> TOUS LES PAYSANS. </speaker>
+                        <l n="104"> Le voilà ! le voilà !</l>
+            <stage><em>Jean prend le chapeau et l’accroche dans le fond au-dessus de la porte. </em></stage>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE, le contemplant avec enthousiasme. </speaker>
+            <stage><em>Air : Simple Soldat, etc. </em></stage>
+                        <l n="105"> Regardez, amis, le voilà !</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="106"> De loin, dans un jour de combat,</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="107"> Quand au monde, il donnait des lois,</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="108"> Comme il avait, dans tous pays,</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="109"> C’est que c’est ça... c’est bien ça... il me semble que je vois là-dessous, une petite redingote grise, une épée, et une tabatière, sacrée section ! vive l’empereur !</l>
+                </sp>
+        <sp who="#paysans">
+            <speaker> TOUS LES PAYSANS. </speaker>
+                        <l n="110"> Vive l’empereur !</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="111"> Et pour célébrer sa fête, au diable le cidre et la piquette... du champagne !...</l>
+                </sp>
+        <sp who="#tous">
+            <speaker> TOUS, avec étonnement. </speaker>
+                        <l n="112"> Du champagne !</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="113"> Oui, oui... du champagne ; vous en trouverez dans la voiture qui vient de m’amener jusqu’ici.</l>
+            <stage><em>Fausse sortie.</em></stage>
+                        <l n="114"> Et ce n’est pas tout, vous y trouverez un magasin de vieux uniformes de l’empire, que je n’ai pas voulu laisser à d’autres, je les ai eus presque pour rien...</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="115"> Sois tranquille, mon garçon, nous aurons bientôt débarrassé ta voiture... enfin, les soldats que je commande ne seront plus en blouse et en jaquette... En avant, conscrits, suivez-moi tous... Et toi aussi, Jacques, viens avec nous...</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="116"> Allez, prenez tout, il y en a pour tous, il y en a pour tous les âges, et pour toutes les tailles... aujourd’hui, il faut que nous soyons tous militaires, et pour commencer, tenez mon père...</l>
+            <stage><em>Il ôte une grande redingote dont il était enveloppé, et paraît en volontaire de la garde. </em></stage>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="117"> Ah ! l’habit que je portais en 1812, à la Bérézina... celui de volontaire de la jeune garde... oh ! mais mon fils, mon cher Étienne, tu viens de rendre à ton père toutes les illusions, toute la vigueur de sa jeunesse. En avant, camarades !</l>
+                </sp>
+        <sp who="#tous">
+            <speaker> TOUS. </speaker>
+                        <l n="118"> En avant !</l>
+            <stage><em>Sortie générale. </em></stage>
+            <stage><em>Reprise du chœur. </em></stage>
+            <stage>Verre en main, <em>etc.</em></stage></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE, seul </speaker>
+                        <l n="119"> Mon pauvre père !... ah ! je savais bien que je parviendrais à le guérir de cette sombre tristesse, de ce découragement profond qui pèse sur son existence... que je suis heureux d’avoir réussi.</l>
+            <stage><em>Air : Enfants de la Livonie. (de M. Béchem.) </em></stage>
+                        <l n="120"> Pour le bonheur de mon père,</l>
+            <stage><em>Regardant au dehors. </em></stage>
+                        <l n="121"> À merveille ! ils ont pillé mon magasin de costumes... dans un instant, une armée improvisée viendra se ranger autour de mon père. Chaque paysan va se trouver transformé en un soldat de l’empire, et chacun d’eux va prendre ainsi à l’avance, et en cas de besoin, l’habitude de l’uniforme et des armes.</l>
+                        <l n="122"> Et, sur le champ de bataille,</l>
+            <stage><em>Tous les paysans rentrent en répétant.</em></stage>
+            <stage>Courage ! la victoire est là ! <em>etc.</em></stage>
+            <stage><em>Ici entrent en scène tous les paysans en habits de soldats de la garde. Jean est à leur tête. Les femmes elles-mêmes ont endossé l’uniforme, mais en gardant leurs japons. Marie est en vivandière ; une autre, en fifre ; une troisième, en tambour, etc. </em></stage></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="123"> Soldats, à vos rangs... voici le général... présentez armes !...</l>
+            <stage><em>Entrée de Jacques, revêtu d’un uniforme vieux et râpé comme celui de Jean, puisque ces habits doivent rappeler ceux qu’ils portaient pendant la campagne de Russie. Les paysans présentent les armes. Jacques salue militairement, et va s’asseoir, pendant que Jean commande l’exercice. Il y a deux pelotons de soldats. D’un côté, les hommes ; de l’autre, les femmes ; les hommes en grenadiers, les femmes en voltigeurs ; sauf le jupon de paysanne. Une d’elles bat la caisse, une autre joue du fifre. Marie est à la gauche du public, versant de temps en temps à boire à Jacques, qui regarde les exercices. On doit voir que sa tête se monte, et qu’il se grise peu à peu sans s’en apercevoir. Tout ce mouvement a lieu pendant les couplets suivants.</em></stage>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+            <stage><em>Air : Vive le vin, le rhum et le tabac. (Le Chalet.) </em></stage>
+                        <l n="124"> Voici l’heure de la revue,</l>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+                        <l n="125"> Oui, s’il le faut, ensemble on se battra,</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="126"> Et vous aussi, mesdemoiselles,</l>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+                        <l n="127"> Mais patience et la paix reviendra,</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES, s’adressant à un des paysans qui fait gauchement la manœuvre. </speaker>
+                        <l n="128"> Eh ! ce n’est pas cela, n° 4, ce n’est pas cela, tu es le plus gauche et le plus maladroit de tout le peloton, et si tu continues, tu te feras mettre à la salle de police. Tiens ! regarde-moi...</l>
+            <stage><em>Il recommence la manœuvre manquée par le paysan, en se commandant lui-même tous les mouvements, puis il lui rend son fusil en lui disant.</em></stage>
+                        <l n="129"> Ce n’est pas plus difficile que cela... allons ! allons, courage, camarades ! plus de fermeté, plus de vigueur... Attention au commandement... par le flanc gauche, marche !</l>
+            <stage><em>Fin de l’exercice, commandé par Jean, et très vivement exécuté par tous les autres sur l’air :</em> Ah ! quel plaisir d’être soldat ! <em>Puis, quand tout est fini, et sur le mot :</em> Rompez les rangs ! <em>dit à la fois par Jacques et Jean, on court auprès de Marie qui fait sauter les bouchons et distribue du champagne à tout le monde.</em></stage>
+                </sp>
+        <sp who="#chœur-général">
+            <speaker> CHŒUR GÉNÉRAL. </speaker>
+                        <l n="130"> Ah ! quel plaisir d’être soldat !</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="131"> Lorsqu’à la fin de la campagne</l>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+            <stage>Ah ! quel plaisir ! d’être soldat ! <em>etc.</em></stage>
+            <stage><em>Ici, Jacques et Jean se trouvent attablés, et tous les autres personnages sont diversement groupés autour d’eux. </em></stage>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="132"> Eh bien ! Jacques, es-tu content de mes conscrits ?</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="133"> Enchanté, mon vieux ; et dire que toute la jeunesse de France aurait pu faire de si bons soldats, et qu’au lieu de cela... ah ! c’est désespérant... À boire !</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="134"> Oui, à boire !</l>
+            <stage><em>Tous deux, sur la fin de la scène, boivent coup sur coup et avec une sorte de rage. </em></stage>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="135"> Sans cette malheureuse campagne de Russie, sans cette neige, cette glace, qui nous tuait nos meilleurs, nos plus intrépides camarades... nous étions les maîtres du monde.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="136"> Oui, les maîtres du monde.</l>
+            <stage><em>Ils trinquent avec tous les autres personnages... puis la scène, de vive et animée, devient lente et mélancolique ; les paysans gardent le plus profond silence, écoutent avec avidité les paroles des deux soldats, et peu à peu s’émeuvent et pleurent avec eux. </em></stage>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="137"> Cet uniforme, en réveillant en moi des pensées de gloire et de conquêtes, m’a rappelé aussi toutes nos infortunes.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="138"> Ah ! bah ! le passé est passé, n’en parlons plus Jacques, et buvons.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="139"> Oui, buvons ! un toast à la mémoire de nos camarades, tombés morts à la Bérézina... ah ! tiens, ces souvenirs-là... Jean, je n’ai plus soif.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="140"> Ni moi non plus.</l>
+            <stage><em>Tous deux déposent leurs verres, et ce mouvement est imité par tous les paysans.</em></stage>
+                        <l n="141"> La Bérézina ! que le diable t’emporte d’avoir des idées pareilles !</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="142"> Il me semble que j’y suis encore...</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="143"> Et moi aussi...</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="144"> J’étais près de toi, Jean... à quelques pas du rivage...</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="145"> Tiens ! le fleuve était... un supposé, là-bas... et nous, ici... appuyés sur l’affût d’un canon... nous soutenant encore seuls au milieu de nos pauvres compagnons... qui mouraient tous... non par une balle ou un boulet... mais de faim et de froid.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="146"> Et nous deux, nous deux ensemble... car dès-lors nos destinées devaient être inséparables... te rappelle-tu nos craintes, notre désespoir... quand nous sentîmes nos membres glacés, et le sang qui coulait de nos blessures, arrêté tout à coup, et glacé aussi...</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="147"> Oui, je m’en souviens... je tombai le premier...</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="148"> Moi, le plus jeune, je résistai quelques minutes de plus... puis à mon tour, je tombai auprès de toi, et quand je revins à la vie, j’étais au milieu des cadavres, et je parvins avec peine à me trainer jusqu’à une ambulance.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="149"> De cette journée datent tous nos malheurs.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="150"> La campagne de France.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="151"> La trahison.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="152"> Waterloo... et Sainte-Hélène !</l>
+                </sp>
+        <sp who="#tous-les-personnages">
+            <speaker> TOUS LES PERSONNAGES, avec une profonde tristesse. </speaker>
+                        <l n="153"> Sainte-Hélène !</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="154"> Il est mort ! lui... lorsqu’il était encore dans toute la force de son génie, lorsqu’il lui restait encore à faire de si belles choses.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="155"> Oh ! oui... nous savons tout ce qu’il a fait... mais Dieu sait ce qu’il aurait pu faire...</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="156"> Seulement sans ces maudites neiges qui ont fait toute la force des Russes contre notre armée...</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="157"> Tenez, encore un supposé, les enfants... nous y v’là encore, toi et moi, Jacques ! et vous tous, camarades ; jusqu’à présent vous êtes militaires, comme nous, suivez-moi bien ; nous sommes tous à la Bérézina... engloutis, évanouis, à moitié morts ; tout à coup, la neige est enfoncée, il fait une chaleur atroce... à boire... qui nous pousse au combat comme des enragés.</l>
+            <stage><em>Ils se relèvent tous et boivent. </em></stage>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="158"> Et nous sommes vainqueurs ?</l>
+                </sp>
+        <sp who="#tous">
+            <speaker> TOUS. </speaker>
+                        <l n="159"> Oui, vainqueurs... à boire...</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="160"> Maintenant, qu’est-ce que nous faisons ? qu’est-ce que nous devenons ? où allons-nous ?</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="161"> Où allez-vous nous conduire, M. Jean ?</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="162"> Où vas-tu nous conduire, M. Jacques ?</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="163"> C’est lui... lui, Napoléon, dont nous devons attendre les ordres, dont la moindre volonté doit être sacrée pour nous...</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="164"> À boire !</l>
+                </sp>
+        <sp who="#tous">
+            <speaker> TOUS. </speaker>
+                        <l n="165"> À boire !</l>
+            <stage><em>Tous deux se sont rassis tout-à-fait ivres, et la scène se termine un peu plus lentement.</em></stage>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="166"> Il va prendre toute l’Europe.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="167"> Ah ! bah ! l’Afrique ! l’Asie ! l’Amérique !</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="168"> La terre... oui la terre est à lui, et à la France... toute la terre !</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="169"> Ah bah ! bien autre chose !</l>
+            <stage><em>Il s’endort peu à peu ainsi que Jacques.</em></stage>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="170"> D’abord, Alexandre, l’empereur de Russie...</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="171"> Qu’est-ce qu’il veut ? qu’est-ce qu’il réclame, l’empereur de Russie ?</l>
+            <stage><em>Pendant ces dernières phrases, Jacques et Jean se sont profondément endormis.</em></stage>
+                </sp>
+        <sp who="#paysans">
+            <speaker> TOUS LES PAYSANS. </speaker>
+                        <l n="172"> Eh bien !... l’empereur de Russie...</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="173"> Silence... leur sommeil va les ramener tout-à-fait, sans doute, à cette époque qu’ils regrettent... ils vont se croire encore, comme autrefois, des grenadiers de Napoléon.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN, rêvant. </speaker>
+                        <l n="174"> Ah ! quel plaisir d’être soldat !</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="175"> Ah ! quel plaisir d’être soldat !</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="176"> Si leur sommeil, ô mon Dieu ! se prolonge,</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="177"> Ah ! quel plaisir d’être soldat.</l>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR chanté à demi-voix, par tous les personnages. </speaker>
+                        <l n="178"> Ah ! quel plaisir d’être soldat !</l>
+            <stage><em>Une toile de manœuvre tombe sur ce tableau, puis se relève presque aussitôt.</em></stage></div></div>
+           <div type="act" xml:id="2">
+           <head> DEUXIÈME PARTIE </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#jacques">
+            <speaker> JACQUES, soulevant sa tête le premier, et s’asseyant sur l’affût du canon. </speaker>
+                        <l n="179"> Ah !... quelle chaleur bienfaisante vient me rappeler à la vie... ces neiges, ces glaces qui ont décimé nos soldats, elles disparaissent enfin... et déjà de toutes parts... nous relevons la tête pour combattre, pour vaincre encore... toute la grande armée sort de sa tombe pour écraser ses ennemis !</l>
+            <stage><em>Pendant qu’il a dit ces mots, tous les soldats se sont relevés, et Jean est auprès de son ami. </em></stage>
+                        <l n="180"> Ah ! c’est toi, Jean, près de moi ! toujours près de moi... La mort seule pourrait nous séparer.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="181"> Maintenant que le dégel est venu, sacrée section, nous n’avons plus peur des Cosaques... Aux armes, camarades !</l>
+                </sp>
+        <sp who="#tous">
+            <speaker> TOUS. </speaker>
+                        <l n="182"> Aux armes !</l>
+            <stage><em>Roulement de tambour ; bruit de trompette ; l’armée se range en bataille.</em></stage>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="183"> Et tenez, regardez par-là, il vient à nous... c’est lui... nous sommes sauvés, nous sommes vainqueurs... saint Nicolas est le patron de la Russie... mais il est aussi celui de Napoléon... courage, amis ! courage ! voici le petit chapeau... à nous la victoire !</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON, paraissant à cheval. </speaker>
+                        <l n="184"> Oui, à nous la victoire... le ciel ne m’abandonne pas encore... Voyez plutôt le soleil... Toujours, toujours le soleil d’Austerlitz... Soldats, à Saint Pétersbourg...</l>
+                </sp>
+        <sp who="#tous">
+            <speaker> TOUS. </speaker>
+                        <l n="185"> À Saint-Pétersbourg !...</l>
+            <stage><em>La toile tombe.</em></stage></div></div>
+           <div type="act" xml:id="3">
+           <head> TROISIÈME PARTIE </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#jacques">
+            <speaker> JACQUES, sur le balcon. </speaker>
+                        <l n="186"> Enfin !... je n’entends plus le bruit du canon... Les Russes ont renoncé à une résistance inutile... Notre armée vient d’entrer victorieuse dans leur capitale... et c’est nous, camarades, nous, de simples soldats, qui lui avons ouvert la route, et depuis une heure, grâce à nous, notre drapeau national est arboré dans la forteresse de Saint-Pétersbourg. L’aigle de Napoléon s’est réveillé menaçant et terrible... il a écrasé, couché sur la poussière l’aigle noir de la Russie. Camarades, gloire à Dieu, qui a fait pour nous un miracle, qui n’a pas voulu que la grande armée cessât d’être invincible, et que tant de gloire demeurât ensevelie sous les glaces de la Bérézina... Gloire à Dieu !</l>
+            <stage><em>Jacques et tous les soldats sont à genoux ; on entend au dehors la voix de Jean.</em></stage>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="187"> Jacques... mon ami ! mon cher Jacques ! où est-il ? où est-il donc ?</l>
+            <stage><em>Tout le monde se lève, et Jacques va se jeter dans les bras de Jean qui entre.</em></stage></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="188"> Me voilà, camarade !</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="189"> Ah !... ce n’est pas malheureux ! je commençais à avoir peur de ne pas te revoir... je me suis séparé de toi au milieu de la mêlée... tu as été en avant, toi, toujours en avant... et moi, je suis resté là-bas, sous les murailles... et à deux pas de l’empereur... Oh ! il faisait chaud, je t’en réponds, à deux pas de l’empereur... car du haut des remparts, on le reconnaissait. Il a la manie de se mettre en évidence quand il y’a du danger... et c’était lui que visaient toutes les balles... Oh ! je n’ai jamais tremblé pour moi, tu le sais, Jacques ; mais pour lui, j’avais la chair de poule ! j’aurais donné dix ans de ma paie pour qu’il me prêtât rien qu’on instant, un seul, son petit chapeau et sa vieille redingote... oui, dix ans de ma paie, pour être tué à sa place... Je te demande un peu qu’est-ce que ma vie auprès de la sienne ?...</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="190"> Mais si tu étais mort, pourtant, mon pauvre Jean... Oh ! jamais je n’avais pensé à cela, que je pouvais te voir tomber à mes côtés, et te sur vivre.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="191"> Dame ! c’est notre état... et pour qu’un sous-lieutenant monte en grade, il faut qu’il y ait au moins un lieutenant de tué.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="192"> Ah ! ne parlons pas de ça, tiens ! j’espère bien que tous les deux nous serons frappés en même temps et du même boulet.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="193"> Et moi aussi, je l’espère bien... sacrée section ! Pour en revenir à Napoléon, je lui ai dit juste le mot que je te dis là... Sacrée section, sire !... Ôtez-vous de là que je m’y mette... Il m’a ri au nez, et il a continué de s’exposer... Heureusement il n’a rien attrapé, ni moi non plus... Il y a un Dieu pour les grands hommes et pour les bons enfants... Et maintenant, tout est fini... La Russie est à nous ; l’empereur Alexandre est mort en défendant bravement son empire, et toute sa famille a suivi ce noble exemple... La paix est signée. Le gouvernement provisoire de Saint-Pétersbourg vient de faire une proclamation, au peuple russe rassemblé sur la grande place. Il a engagé les habitants à recevoir les Français comme des frères... et, tiens ! entends-tu leurs acclamations...</l>
+            <stage><em>Musique vive et joyeuse au dehors. Cris de</em> Hourra <em>et de</em> Vive la France ! <em>Tous les soldats se portent vers le balcon. Jean continue en s’adressant à Jacques.</em></stage>
+                        <l n="194"> Entends-tu les Russes qui crient : Vive la France ! c’est comme un rêve, ma parole d’honneur ! Ah ! dis-donc, Jacques...</l>
+            <stage><em>Il l’attire à lui, à quelque distance des autres soldats.</em></stage>
+                        <l n="195"> Ça va bien, ça va très bien pour toi... Lorsque tu t’es élancé en avant avec les camarades, l’empereur ta remarqué.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="196"> Ah ! tu crois que Napoléon ?...</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="197"> Oui, il a demandé ton nom au général... Tu es en bon chemin pour arriver, mon garçon, et bientôt, j’en suis sûr...</l>
+            <stage><em>Tambour et musique militaire.</em></stage>
+                        <l n="198"> Ah ! c’est le général ! il va t’en dire plus que moi là-dessus, sois tranquille.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES, à part. </speaker>
+                        <l n="199"> Remarqué par Napoléon... enfin !</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#le-général">
+            <speaker> LE GÉNÉRAL, entrant. </speaker>
+                        <l n="200"> Le grenadier Jacques Durand ?</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="201"> Présent, général.</l>
+                </sp>
+        <sp who="#un-général">
+            <speaker> LE GÉNÉRAL. </speaker>
+                        <l n="202"> Tu as marché sans ordres en avant de l’armée, et tu as entrainé à ta suite un grand nombre de soldats comme toi.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="203"> C’est vrai.</l>
+                </sp>
+        <sp who="#un-général">
+            <speaker> LE GÉNÉRAL. </speaker>
+                        <l n="204"> Tu ne dois pas ignorer qu’en te conduisant ainsi, tu oubliais et tu faisais oublier à d’autres toutes les lois de la discipline militaire.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN, à part. </speaker>
+                        <l n="205"> Ô ciel ! qu’est-ce qu’il dit ?</l>
+                </sp>
+        <sp who="#un-général">
+            <speaker> LE GÉNÉRAL. </speaker>
+                        <l n="206"> Au nom de l’empereur, tu es prisonnier dans cette forteresse.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES et JEAN, ensemble. </speaker>
+                        <l n="207"> Prisonnier...</l>
+                </sp>
+        <sp who="#un-général">
+            <speaker> LE GÉNÉRAL. </speaker>
+                        <l n="208"> Dans la journée, on décidera de ton sort. Capitaine, vous placerez des sentinelles à toutes les issues... et d’abord, une à cette porte.</l>
+            <stage><em>Montrant Jean.</em></stage>
+                        <l n="209"> Tenez, ce soldat...</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="210"> Moi !</l>
+                </sp>
+        <sp who="#un-général">
+            <speaker> LE GÉNÉRAL. </speaker>
+                        <l n="211"> Je le reconnais... Il n’a pas suivi l’exemple de Jacques, il sait ce que c’est que la discipline ; il est resté pendant toute l’action fidèle au poste que je lui avais donné, et il a combattu bravement sous les yeux de l’empereur... On peut compter sur lui. Suivez-moi.</l>
+            <stage><em>On ôte à Jacques son fusil et son sabre. Jean a été mis en faction à la porte du fond. Sortie du général, de l’état-major et des autres soldats. </em></stage></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#jacques">
+            <speaker> JACQUES, JEAN </speaker>
+            <stage><em>Moment de silence. Jacques assis, sans armes, sur le devant de la scène ; Jean au fond, le fusil au bras, se regardent expressivement, et sans dire un mot. </em></stage>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES, rompant le premier le silence. </speaker>
+                        <l n="212"> Eh bien ?</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="213"> Eh bien ?</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="214"> Tu avais raison, mon ami, j’ai été remarqué par l’empereur !</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="215"> Oh mais ! je ne puis en revenir encore... prisonnier, toi !</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="216"> Et dans un instant, fusillé par mes camarades ?</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN, qui peu à peu a descendu la scène. </speaker>
+                        <l n="217"> Pas par moi toujours.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES, se levant. </speaker>
+                        <l n="218"> Comment ? et que feras-tu ? si l’on te commande, Jean, ne faudra-il pas que tu obéisses ? te rendras-tu coupable comme moi ? tu l’as dit tout à l’heure... c’est notre état.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="219"> Chien de métier que le nôtre, moi ! je te tuerais, Jacques... oh ! il n’y a pas de discipline qui tienne... ou plutôt, ne crains rien... je ne désobéirai pas... je serai là, attentif à chaque commandement, l’arme au bras, le fusil chargé, et quand on ordonnera de faire feu, je ferai feu sur moi... sur moi seul.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="220"> Que dis-tu malheureux ? oh ! je te le défends, entends-tu bien, je te le défends ; et si la voix de Jacques a jamais eu sur toi quelque empire...</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON, au dehors. </speaker>
+                        <l n="221"> Qu’à l’instant même on assemble le conseil de guerre... obéissez.</l>
+                </sp>
+        <sp who="#tous-deux">
+            <speaker> TOUS DEUX. </speaker>
+                        <l n="222"> L’empereur !</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="223"> Allons, à ton poste. Je suis décidé, camarade.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="224"> Et moi aussi !</l>
+            <stage><em>Il se remet en faction. Napoléon entre ; Jean lui présente les armes. </em></stage></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON, s’arrêtant devant la sentinelle et la regardant attentivement. </speaker>
+                        <l n="225"> Ah ! c’est toi qui es de faction ?</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="226"> Oui, mon empereur !</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="227"> C’est bien... j’aurai à te parler.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="228"> Et moi aussi, mon empereur.</l>
+            <stage><em>Sur un signe de Napoléon, Jean va faire sa faction dans la galerie extérieure ; de temps en temps il reparaît pendant la scène suivante et semble observer ce qui se passe. </em></stage></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON, JACQUES </speaker>
+            <stage><em>Napoléon s’approche de Jacques, le regarde comme s’il voulait lire sa pensée dans ses yeux. Jacques semble fort ému en sa présence ; il le regarde aussi, fixement, jusqu’à impatienter l’empereur.</em></stage>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="229"> Jacques Durand, tu es le premier homme dont les regards ne se soient pas baissés devant les miens...</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="230"> Pardon, pardon... sire... et ne voyez pas dans mes yeux un orgueil que je n’ai pas ; mais je vais vous surprendre... c’est de la joie, c’est du bonheur que j’éprouve.</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="231"> Du bonheur à me voir et dans ce moment.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="232"> Oui, dans ce moment même où vous êtes irrité contre moi, où vous venez me foudroyer de votre colère ; mais depuis mon enfance, depuis que j’ai appris à me connaître, j’aspirais à l’instant où je me trouverais face à face avec vous ; à l’instant où vous-même, sire, feriez attention à moi ; moi, si peu de chose auprès de votre majesté, où vos yeux s’arrêteraient sur moi, comme pour deviner, pour lire dans les miens tout ce qui se passe dans mon âme... si je puis vous occuper de la sorte pendant une seule minute, c’est que je vaux déjà quelque chose.</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="233"> À un homme qui s’exprime comme toi, Jacques Durand, une faute est impardonnable. Connais-tu le code militaire ?</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="234"> Oui, sire.</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="235"> Quel est le sort du soldat qui abandonne le poste où ses chefs l’ont placé ?</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="236"> La mort.</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="237"> Y pensais-tu, quand tu as quitté le tien ; quand de soldat tu t’es fais chef toi-même, criant à tes camarades : En avant ! lorsque leur devoir et le lien était de rester en place... y pensais-tu ?</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="238"> Non, sire.</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="239"> Je le crois... car, alors, tu n’aurais pas agi de la sorte.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="240"> Peut-être, sire !</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="241"> Téméraire !</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="242"> Parce qu’après tout, je ne risquais toujours que ce qui va m’arriver tout à l’heure... être condamné à mort par un conseil de guerre, par votre majesté... cela est cruel sans doute, mais je ne l’eusse pas mis en balance avec la gloire de livrer entre les mains de Napoléon la forteresse de Saint-Pétersbourg.</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="243"> Mais ce mouvement qui t’a fait marcher sans ordre, au lieu de réussir, pouvait contrarier, renverser tous mes projets, tous mes calculs pour la victoire, pour le salut même de mon armée... Ces plans, dont tu prétendais avancer l’exécution, avaient été longuement et mûrement médités dans cette tête... et l’imprudence, la bravoure folle et aventureuse d’un de mes soldats pouvait tout détruire... l’armée, toute l’armée pouvait périr à cause de lui.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="244"> C’est vrai, je suis un insensé, un misérable... mais je ne pensais pas à tout cela... on entend le feu... et l’on va en avant ! on est porté malgré soi !... on veut être le premier à crier victoire, à planter un drapeau sur un rempart sire, vous avez peut-être éprouvé cela, même quand vous n’étiez pas encore ce que vous êtes, quand vous n’aviez pas le droit de marcher toujours en avant.</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON, à part. </speaker>
+                        <l n="245"> Il a raison ! cela m’est arrivé.</l>
+            <stage><em>Haut. </em></stage>
+                        <l n="246"> À ce compte, tu es un héros ?</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="247"> Non ; mais peut-être, si je n’avais pas mérité la mort aujourd’hui, je le serais devenu... grâce à vous, sire, tous vos soldats sont du bois dont on fait les grands hommes.</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="248"> Donc... ce n’est pas un châtiment, c’est une récompense que je te dois ?</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="249"> L’un et l’autre, sire.</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="250"> Comment ?</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="251"> Oh ! veuillez m’entendre, je vous en conjure. S’il y a au fond de votre âme un peu d’estime encore pour le soldat qui a bien servi son pays, tout en manquant à la discipline, sire, qu’il soit puni cet homme, et frappé par des balles françaises... mais en même temps, qu’il soit récompensé, par vous dans ses amis, dans sa famille.</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="252"> Parle donc, que veux-tu ?</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="253"> J’ai un fils... que j’ai laissé à Paris, enfant encore, lorsque je me suis fait volontaire de votre garde... un fils que je ne reverrai jamais...</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON, à part. </speaker>
+                        <l n="254"> Et moi, le mien... le reverrai-je ?</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="255"> Je demande à votre majesté que mon pauvre Étienne soit élevé aux frais de l’état à l’École-Militaire, ou bien encore comme je l’ai été, moi, dans un de vos lycées...</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="256"> Ah ! tu es un ancien élève ?...</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="257"> Du lycée Napoléon, sire ! cette éducation était le prix de la mort de mon père, emporté par un boulet à Marengo.</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="258"> Ton père était soldat de la république ?</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="259"> Oui, sire... et plus heureux que moi, ce ne sont pas des camarades, ce sont des Autrichiens qui l’ont tué.</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="260"> Continue, continue, que veux-tu encore ?</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="261"> Un grade pour un ami, un vieux troupier qui vous a suivi dans toutes vos campagnes, et qui, placé toujours en première ligne pour se battre et recevoir des blessures, restait toujours derrière les autres lorsqu’il s’agissait de récompense ou d’avancement, cet ami...</l>
+            <stage><em>Montrant Jean qui est toujours de faction dans la galerie extérieure, et qui vient de s’arrêter.</em></stage>
+                        <l n="262"> Le voilà !</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="263"> Ah ! c’est lui ! Approche !</l>
+            <stage><em>Jean s’approche en hésitant, et présentant les armes.</em></stage></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="264"> Je te reconnais... aujourd’hui même, ne t’ai-je pas vu sous les murs de Saint-Pétersbourg ?</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="265"> Oui, mon empereur, c’est moi qui vous ai dit : Sacrée section ! sire, ôtez-vous de là, que je m’y mette ?</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="266"> Jacques Durand, n’as-tu rien de plus à me demander ?</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="267"> Sire, réalisez pour lui, comme pour mon fils, une espérance que nous formions ensemble, et qui pour moi va être détruite, aujourd’hui, par l’arrêt du conseil de guerre.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="268"> Ça n’ se peut pas... jamais l’empereur ne souffrira...</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="269"> Tais-toi !</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="270"> Oui, mon empereur.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="271"> Que, protégés par vous, mon vieux camarade et mon fils arrivent peu à peu, comme tant d’autres, aux grades supérieurs.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="272"> Je n’en veux pas... si tu dois être fusillé aujourd’hui, Jacques, je veux mourir avec toi.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="273"> Mourir, malheureux ! et ta fille ! faut-il donc que le même jour nos deux enfants soient orphelins.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="274"> Orphelins ! ton fils et Marie ! ma pauvre Marie... ah ! mon empereur ! vous êtes ému !... une larme dans vos yeux ! vous vous rappelez que vous aussi vous avez laissé un enfant, au berceau, dans le palais de l’Élysée.</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON, très ému. </speaker>
+                        <l n="275"> Tais-toi ! tais-toi ! et retourne à ton poste... je te l’ordonne.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN, pleurant. </speaker>
+                        <l n="276"> Oui, oui, mon empereur ! chien de métier ! chien de métier !</l>
+            <stage><em>Roulement de tambour. </em></stage>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="277"> Ah ! c’est le conseil qui s’assembler</l>
+            <stage><em>Se rapprochant de l’empereur, et lui parlant très bas.</em></stage>
+                        <l n="278"> Sire, un mot encore... que ce grenadier ne soit pas au nombre de ceux qu’on va commander pour mon supplice ; puis, que toute cette journée, on lui ôte ses armes, qu’on ne le perde pas de vue un seul instant, jusqu’à ce qu’il ait pu s’habituer à l’idée de la mort de son ami... et alors, sire, oh ! je vous le demande à genoux, et vous exaucerez, n’est-ce pas, la dernière prière d’un mourant,</l>
+            <stage><em>Il tombe à genoux.</em></stage>
+                        <l n="279"> alors, ce fusil, ce sabre qu’on va lui prendre, remplacez-les par une épée.</l>
+            <stage><em>Jean, toujours au fond, est tombé aussi à genoux, son fusil à la main.</em></stage>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN, pleurant et d’une voix affaiblie. </speaker>
+                        <l n="280"> Grâce ! grâce ! mon empereur !</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#un-général">
+            <speaker> LE GÉNÉRAL. </speaker>
+                        <l n="281"> Sire, d’après vos ordres, le conseil va entrer en séance pour juger le soldat Jacques Durand.</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="282"> Messieurs, le soldat Jacques Durand a cessé d’être...</l>
+                        <l n="283"> S’adressant à Jacques. Capitaine de grenadiers, au 1er bataillon du 2e régiment de ma garde...</l>
+            <stage><em>À Jean.</em></stage>
+                        <l n="284"> Et vous, lieutenant porte-étendard dans la même compagnie ; tous les deux officiers de la Légion d’Honneur ; relevez-vous, ce n’est pas aux genoux de Napoléon que l’armée doit vous voir, c’est dans ses bras.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="285"> Ah ! est-ce possible... dans les bras de mon empereur... sacrée section !</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="286"> Nos enfants ne seront pas orphelins.</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON, aux officiers. </speaker>
+                        <l n="287"> Messieurs, avant de retourner en France, il nous reste encore des batailles à livrer et des royaumes à conquérir... Il me reste, à moi, des couronnes à placer sur la tête de mes généraux... Et lorsqu’ils vont devenir rois par ma volonté... courage donc ! courage aux officiers qui viennent après.eux, et qui peuvent devenir généraux à leur tour...</l>
+            <stage><em>Se replaçant entre Jacques et Jean.</em></stage>
+                        <l n="288"> Tous les deux, n’est-ce pas ? tous les deux vous serez du nombre ?</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="289"> Je l’espère, sire, avant peu, même, s’il plait à Dieu...</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="290"> Et à vous aussi, mon empereur.</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON, leur parlant plus bas, comme pour s’isoler des autres personnages. </speaker>
+                        <l n="291"> Et puis, de temps en temps, nous nous reverrons, nous parlerons ensemble...</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN, bas. </speaker>
+                        <l n="292"> De nos anciennes campagnes, des guerres d’Italie...</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="293"> Eh ! non, non, ce n’est pas cela ; ne me comprenez-vous pas... tout à l’heure, n’avez-vous pas surpris mon émotion, mes larmes ?... et ne devinez-vous pas, mes amis, que nous parlerons ensemble... Ah ! sire, de votre fils !</l>
+            <stage><em>Musique militaire ; roulement de tambour ; Jacques a pris une épée ; on a remis dans les mains de Jean un drapeau tricolore. </em></stage>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="294"> Eh bien ! lieutenant ?</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="295"> Eh bien ! capitaine ? sacrée section ! c’est comme un rêve !</l>
+            <stage><em>Acclamations. La toile tombe.</em></stage></div></div>
+           <div type="act" xml:id="4">
+           <head> QUATRIÈME PARTIE </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+            <stage><em>Air espagnol. </em></stage>
+                        <l n="296"> Aujourd’hui, j’espère,</l>
+                </sp>
+        <sp who="#chœur-général">
+            <speaker> CHŒUR GÉNÉRAL. </speaker>
+            <stage>Aujourd’hui, j’espère, <em>etc.</em></stage>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="297"> Une part de votre gloire,</l>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#chœur-des-jeunes-gens">
+            <speaker> CHŒUR DES JEUNES GENS. </speaker>
+                        <l n="298"> Une part de votre gloire, etc.</l>
+                </sp>
+        <sp who="#chœur-des-autres-soldats">
+            <speaker> CHŒUR DES AUTRES SOLDATS. </speaker>
+                        <l n="299"> Oui, partagez notre gloire !</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="300"> Et de vos leçons,</l>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#chœur-des-jeunes-gens">
+            <speaker> CHŒUR DES JEUNES GENS. </speaker>
+            <stage>Oui, de vos leçons, <em>etc.</em></stage>
+                </sp>
+        <sp who="#chœur-des-soldats">
+            <speaker> CHŒUR DES SOLDATS. </speaker>
+                        <l n="301"> Nous vous formerons,</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="302"> Oui, cette espérance</l>
+            <stage><em>Ensemble.</em></stage>
+                </sp>
+        <sp who="#chœur-des-jeunes-gens">
+            <speaker> CHŒUR DES JEUNES GENS. </speaker>
+            <stage>Oui, cette espérance, <em>etc.</em></stage>
+                </sp>
+        <sp who="#les-soldats">
+            <speaker> LES SOLDATS. </speaker>
+                        <l n="303"> Quoi ! cette espérance,</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="304"> Pour affronter les alarmes,</l>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+            <stage>Pour affronter les alarmes, <em>etc.</em></stage>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="305"> Ah ! pour nous, la mort</l>
+                </sp>
+        <sp who="#chœur-général">
+            <speaker> CHŒUR GÉNÉRAL. </speaker>
+            <stage>Ah ! pour nous la mort, <em>etc.</em></stage>
+            <stage><em>À la fin de ces deux couplets, entrée de Jacques et de Jean, l’un est maréchal de France, l’autre, général de division. Toutes les armes se posent en faisceau.</em></stage></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE et MARIE, ensemble. </speaker>
+                        <l n="306"> Ah ! mon père !</l>
+            <stage><em>Ils vont au-devant d’eux et les embrassent.</em></stage>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="307"> Eh bien ! qu’en dis-tu, mon ami Jacques ? pendant que tu as été envoyé par l’empereur pour faire une reconnaissance sous les murs de Constantinople, et pour sommer le Grand-Turc de nous ouvrir les portes... de la Sublime-Porte, tu vois, il nous est arrivé du renfort en ton absence. Ah ! dame ! il fallait bien remplacer les camarades que nous avons perdus pendant nos conquêtes nouvelles... quinze cent mille hommes de tués, rien que ça... cent mille par année... il fallait bien ça pour affermir à tout jamais le pouvoir de Napoléon et pour nous faire obtenir, à moi, le grade de général, à toi, le bâton de maréchal d’empire !</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="308"> Oh ! tais-toi, Jean, et ne va pas jeter au travers de ma joie ces idées... cruelles qui te reviennent sans cesse depuis quelque temps, à toi qui m’égayais toujours autrefois lorsque j’étais triste. Oui, c’est vrai, nous ne sommes plus les mêmes à présent ; toi, tu vois tout en noir, et moi, je n’envisage l’avenir que sous de riantes couleurs.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="309"> C’est que tu es an fou, un enragé.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="310"> Non ; c’est que je suis heureux, bien heureux !... Absent depuis deux jours, je viens de proclamer, au nom de l’empereur, l’abaissement du Croissant, et la liberté de la Grèce ; j’ai vu tous les Hellènes, enfants dégénérés de Miltiade et de Léonidas, rougir à ma voix de leur indolence, et se mêler, le cimeterre à la main, dans les rangs de notre armée ; et lorsque j’apporte au camp cette heureuse nouvelle, je trouve ici, je trouve ce qui manquait à notre gloire, nos enfants. Pendant quinze ans, éloigné de mon fils, je revois aujourd’hui, militaire comme moi, officier de l’armée française, l’enfant que j’avais laissé au berceau le jour de mon départ pour la Russie... nos enfants ! ils ont pensé à nous, nous ne pouvions encore les rejoindre, ce sont eux qui ont franchi l’espace, pour arriver jusqu’à leurs pères, et les voilà ! Étienne, mon ami... mon fils !</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="311"> Comme toi, père, j’avais grandi au bruit des victoires et des conquêtes ; je ne voyais plus d’autre existence possible pour moi, que le métier des armes... et tous les fils de vos camarades brûlaient aussi de cet amour de cette passion pour la guerre, qui vous animait autrefois, lorsque vous avez quitté, pour suivre l’empereur, le berceau de vos enfants...</l>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE. </speaker>
+                        <l n="312"> Et vos filles, vos femmes elles-mêmes, ont voulu partager tous les périls de leurs pères, de leurs époux, de leurs frères... auprès d’eux nous avons combattu, nous avons eu notre part de la dernière victoire.</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="313"> Et nous voulons encore partager l’honneur de celle d’aujourd’hui ; mais nous vous laissons, mon père, nous allons visiter tous les avant-postes de notre camp, c’est l’ordre de l’empereur, et vous nous verrez reparaître quand les Turcs approcheront, quand il donnera le signal de la bataille, à bientôt.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES et JEAN. </speaker>
+                        <l n="314"> À bientôt...</l>
+                </sp>
+        <sp who="#reprise-du-chœur">
+            <speaker> Reprise du CHŒUR. </speaker>
+            <stage>Oui, de vos leçons, <em>etc.</em></stage>
+            <stage><em>Sortie des jeunes gens et des femmes ; Jacques et Jean les regardent sortir avec enthousiasme.</em></stage></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="315"> Hein ! sacrée section I comme ça marche ! comme nous devons être fiers de la génération nouvelle ! elle ira encore mieux et plus vite que nous, mon ami ; Marie, Étienne ! les voilà tous les deux où nous en étions, après la prise de Pétersbourg ! ton fils est capitaine, et ma fille lieutenant... et l’empereur doit marier ensemble ces deux officiers quand nous aurons pris Constantinople.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="316"> Est-il vrai ?... Cette union tant désirée ! un jour de victoires et dans une ville conquise !</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="317"> Et puis, je l’espère, après cela nous reviendrons en France... car je te l’avoue, cher ami, je ne suis pas aussi insatiable que toi, et j’ai assez de gloire et de merveille... eh ! que diable ! nous avons fait notre temps, et notre tâche doit être remplie : l’Europe est à nous, la Russie, l’Espagne, l’Autriche, la Prusse, la Pologne, et cætera, ne sont plus que des préfectures de la France... nous avons le département de la Newa, le département du Tage, le département du Mancanarès, un millier de départements qui sont administrés par nos anciens camarades ; que de grenadiers, de chasseurs, de voltigeurs, devenus, de par Napoléon, gouverneurs, préfets de tous les pays conquis, c’est-à-dire, rois, empereurs, pachas, à trois ou quatre queues, ou tout au moins petits princes de la confédération du Rhin ! toi et moi, Jacques, pendant que tous les amis ramassaient des couronnes, nous avons préféré suivre partout et toujours Napoléon, mais parce que nous espérions rentrer un jour avec lui dans notre patrie, revoir la France ; la France, si glorieuse, si belle à présent... et Paris, la capitale de cet immense empire ! Paris, aujourd’hui un vrai pays de Cocagne, où les bornes-fontaines versent à grands flots le champagne, le xérès, le vin du Rhin... et le cognac première qualité ; Paris, dont tous les monuments sont en marbre, en porphyre, en albâtre, incrustés d’or et de pierres précieuses...</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="318"> Tous... excepté un seul, pourtant, auquel on s’est bien gardé de porter une main profane en cherchant à l’embellir, la colonne... elle demeure au milieu de tous ces palais de marbre, d’or et de diamants, mille fois plus noble et plus brillante... grâce au ciel, ami, nous la reverrons toujours la même... en bronze ! de celui que nous avons pris aux Autrichiens.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="319"> Eh ! sans doute... nous la reverrons bientôt... que n’est-ce aujourd’hui ? Oui, je n’y tiens plus, Jacques, j’ai le mal du pays... je crève dans ma peau... Paris ! Paris... rien que huit jours ! huit jours, et je suis content... sacrée section ! quand nous sommes les maîtres du monde, Napoléon peut bien nous accorder huit jours de congé...</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#jacques">
+            <speaker> JACQUES, JEAN, UN JEUNE OFFICIER D’ARTILLERIE </speaker>
+            <stage><em>Un jeune homme, en officier d’artillerie, sort de la tente de l’empereur.</em></stage>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="320"> Quel est donc ce jeune homme ?</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="321"> Je ne sais pas... il n’a pas de nom, pas de famille... ou du moins, on ne lui en connaît pas. Il est arrivé avec nos enfants, et il s’est montré à ce qu’il paraît, dans la dernière affaire, plus brave et plus intrépide que pas un des soldats de l’armée... et déjà, l’empereur l’honore d’une confiance toute particulière. De temps en temps, il l’appelle auprès de lui et cause avec lui pendant des heures entières... Parfois, il le charge de transmettre des ordres importants aux différentes divisions de l’armée...</l>
+            <stage><em>Quelques officiers, parmi lesquels est Étienne, traversent la scène et s’approchent du jeune homme qui leur parle bas.</em></stage>
+                        <l n="322"> Tiens ! maintenant sans doute, il donne aux sentinelles une consigne utile pour le gain de la bataille... et tout à l’heure, il viendra prendre place à quelques pas de l’empereur.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES, considérant attentivement, le jeune homme. </speaker>
+                        <l n="323"> Voilà qui est étrange, et je ne puis comprendre...</l>
+            <stage><em>Ici le tambour bat aux champs.</em></stage>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="324"> Ah ! l’empereur !</l>
+            <stage><em>Au dehors, un bruit de trompettes. </em></stage>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="325"> Et le signal du combat, enfin !</l>
+            <stage><em>En un instant la scène est remplie d’officiers et de soldats sous les armes. Le peloton de Marie rentre aussi et occupe le devant du théâtre ; le jeune lieutenant d’artillerie a été se mettre à peu de distance d’Étienne. Napoléon entre lorsque toute l’armée est rangée en bataille. Il s’arrête avec une sorte de plaisir devant les jeunes gens. </em></stage></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON, serrant la main d’Étienne, et lui parlant, tout en regardant fixement le jeune officier d’artillerie comme s’il voulait ne s’adresser qu’à lui. </speaker>
+                        <l n="326"> Capitaine, je suis content de vous, continuez de me servir comme vous le faites, et comptez toujours sur la protection de Napoléon.</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN, bas à son ami. </speaker>
+                        <l n="327"> Vois-tu, Jacques... ses yeux sont fixés sur ceux du lieutenant... c’est pour la forme qu’il parle à ton fils... mais il ne s’occupe que de l’autre.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="328"> Oh ! je le vois bien.</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON, apercevant Jacques. </speaker>
+                        <l n="329"> Ah !... Jacques ! mon fidèle compagnon ! vous voilà... j’y comptais, je m’attendais à vous voir de retour à l’heure de la bataille... Tous les deux amis, vous êtes heureux, n’est-ce pas, bien heureux maintenant ; vos enfants sont auprès de vous... Et moi ! moi ! entraîné loin de ma patrie, nouveau Charles XII, je n’ai revu depuis quinze années, et ne reverrai peut-être jamais ni ma famille, ni le ciel de la France ! Elle est si grande la distance qui me sépare de Paris ! de l’Élysée ! Mon fils, ah ! je ne l’ai pas embrassé, moi, et toi, Jacques, tu as embrassé le tien.</l>
+                </sp>
+        <sp who="#cris">
+            <speaker> CRIS, au dehors. </speaker>
+                        <l n="330"> Allah ! Allah !</l>
+            <stage><em>Musique militaire.</em></stage>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="331"> Sire, l’ennemi approche, c’est le dernier sans doute que nous aurons à combattre, à renverser, et alors, nous vous ramènerons en triomphe dans les bras de votre enfant.</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="332"> Non, pas encore... la guerre ne sera pas encore terminée par l’affranchissement de la Grèce... Il faudra se battre, il faudra vaincre encore... vous écraserons à jamais une puissance qui parvient toujours à relever la tête, quand nous avons soumis le reste de l’Europe.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="333"> Ah ! l’Angleterre !</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="334"> Elle est fière de sa marine, mais nous lui opposerons la nôtre, c’est sur mer que nous irons la combattre. Puis après notre expédition navale... le bombardement de Londres ! c’est le ciel qui le veut.</l>
+            <stage><em>Les cris de </em>Allah ! Mort aux Chrétiens ! <em>retentissent avec fureur. Coups de feu.</em></stage>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="335"> Au combat !</l>
+            <stage><em>Napoléon monte à cheval. Entrée des Turcs, le cimeterre et le pistolet à la main ; on fait feu sur eux, puis on les poursuit de la gauche à la droite du public, au pas de charge et en croisant la baïonnette. Les femmes sont échelonnées sur les hauteurs, et font sentinelle ; des Turcs paraissent au sommet des montagnes à gauche ; les sentinelles font feu, puis toutes les femmes redescendent en désordre jusque sur le devant de la scène.</em></stage>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE. </speaker>
+                        <l n="336"> Courage, camarades ! et sachons défendre le poste ou l’empereur nous a placées. La mort ou la victoire !</l>
+                </sp>
+        <sp who="#toutes">
+            <speaker> TOUTES. </speaker>
+                        <l n="337"> La mort ou la victoire !</l>
+            <stage><em>Elles font feu sur les Turcs qui occupent maintenant les montagnes. Ils descendent après avoir supporté le feu. Les femmes, toujours obéissant aux ordres de Marie, se forment alors sur une seule ligne qui tient toute la longueur du théâtre, croisent la baïonnette, et aux cris de :</em> Vive l’Empereur ! Vive la France ! <em>repoussent les ennemis jusque sur les montagnes. Dans ce moment arrivent, de droite et de gauche sur les hauteurs, les troupes françaises ; et les Turcs sont cernés de toutes parts. On les emmène, et tous les combattants disparaissent. Jacques, qui est arrivé vers la fin de la scène, et a dirigé ce dernier mouvement, va suivre ses soldats, lorsque Jean, blessé mortellement, entre par la droite, l’appelle et se traîne jusqu’auprès de lui.</em></stage></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="338"> Jacques... mon ami... j’ai voulu te revoir avant de mourir.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES, le tenant dans ses bras. </speaker>
+                        <l n="339"> Mourir ! toi, mon vieux camarade...</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="340"> Oh ! c’est fini, la balle a frappé là, droit au cœur...</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="341"> Oh ! mon Dieu ! mon Dieu ! n’est-il donc aucun moyen de le sauver ?</l>
+                </sp>
+        <sp who="#jean">
+            <speaker> JEAN. </speaker>
+                        <l n="342"> Aucun, ça devait être, j’en ai tué tant d’autres, moi, c’était mon tour... mais te quitter, toi, mon vieux camarade ! ne plus te revoir... oh ! par donne-moi, Jacques, si je meurs comme un lâche, en pleurant... adieu !</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES, le regardant avec stupeur. </speaker>
+                        <l n="343"> Mort !</l>
+            <stage><em>Il pleure.</em></stage>
+                        <l n="344"> Mon ami !... mon pauvre Jean !... perdu pour moi, perdu ! et mes sanglots, et mes larmes ne te rappelleront pas à la vie.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#cri-général">
+            <speaker> CRI GÉNÉRAL. </speaker>
+                        <l n="345"> Victoire ! victoire ! vive l’empereur !</l>
+            <stage><em>Napoléon est à gauche ; Étienne et Marie sont sur le second plan ; Jacques sur le premier, en face de l’empereur ; il est toujours à genoux et masque le cadavre de Jean. </em></stage>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON, s’approchant de Jacques. </speaker>
+                        <l n="346"> Eh bien ? que fais-tu, là, Jacques ? pourquoi baisser ainsi le front vers la terre ? tu peux, devant tous, lever la tête avec orgueil, toi qui partageras avec moi le titre de libérateur des Hellènes ; toi, grand-amiral de la flotte française, qui va mettre à la voile pour combattre l’Angleterre... relève-toi, eh bien ! tu ne me réponds pas ? tu demeures insensible à cette nouvelle preuve de ma confiance ?</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES, pleurant. </speaker>
+                        <l n="347"> Ah ! sire, que ne suis-je simple soldat, encore, mais... avec lui !</l>
+            <stage><em>Il découvre le cadavre, mouvement général de consternation et de chagrin. </em></stage>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE, jetant un cri. </speaker>
+                        <l n="348"> Ah ! mon père !</l>
+            <stage><em>Sur un signe de Napoléon, un général placé auprès de lui, fait agenouiller tous les soldats. Musique lente et funèbre... La toile tombe. </em></stage></div></div>
+           <div type="act" xml:id="5">
+           <head> CINQUIÈME PARTIE </head>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE, en capitaine de vaisseau, d’autres OFFICIERS et des ASPIRANTS de marine, des MATELOTS et des MOUSSES, un CONTREMAÎTRE </speaker>
+            <stage><em>Au lever du rideau, un officier, supérieur de marine. (le même qui était général aux parties précédentes), commande dans les termes techniques, toutes les manœuvres pour jeter l’ancre. Chacun de ses commandements est répété par le contremaître, et exécuté par les matelots et les mousses.</em></stage>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE, aux officiers après que les manœuvres sont finies. </speaker>
+                        <l n="349"> C’est bien ; nous voilà, messieurs à quelques lieues des côtes d’Angleterre... et vainement la flotte ennemie voudrait encore s’opposer à notre marche, vainement elle a réuni toutes ses forces pour une dernière lutte, elle succombera ; demain nous serons à Londres, car l’empereur l’a voulu, et ce que veut Napoléon, Dieu le veut.</l>
+            <stage><em>Air : D’une marche si rapide (Missolonghi.) </em></stage>
+                        <l n="350"> Il l’a dit : Que l’Angleterre</l>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+            <stage>Oui, demain que l’Angleterre, <em>etc.</em></stage>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="351"> C’est le terme de la guerre,</l>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+                        <l n="352"> Chantons !</l>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+            <stage>Ô toi qui tempères, <em>etc.</em></stage>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="353"> Sur le sol de l’Angleterre,</l>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+            <stage>Sur le sol de l’Angleterre, <em>etc.</em></stage>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="354"> Voyez, voyez cette terre,</l>
+                </sp>
+        <sp who="#chœur">
+            <speaker> CHŒUR. </speaker>
+            <stage>Ô toi qui tempères ; <em>etc.</em></stage>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="355"> Allez, Messieurs, allez... que chacun demeure à son poste, attentif au premier signal qui nous annoncerait la flotte anglaise.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="356"> Oh ! cette expédition navale, plus glorieuse pour la France que toutes nos autres campagnes, a commencé pour moi sous de bien tristes présages.</l>
+            <stage><em>Ici Marie en habits de deuil, paraît sur le pont, et s’approche d’Étienne. </em></stage>
+                        <l n="357"> Marie ! ma pauvre Marie !</l>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE. </speaker>
+                        <l n="358"> Étienne, une journée sanglante se prépare... et j’ai voulu vous voir, puisque ma destinée m’enchaine sur ce navire, poursuivie par mille pressentiments funestes...Je suis si malheureuse l’depuis le jour où Napoléon a proclamé l’indépendance des Grecs, depuis ce lendemain qui devait être si beau pour nous, qui n’a été que le prélude de nos jours de deuil et de misère... ce lendemain...</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="359"> Oui... je crois y être, Marie... Au lieu de cet hymen, que j’avais appelé de tous mes vœux, promis à mon amour par l’empereur lui-même... j’assistais avec toi, avec tous nos soldats, aux funérailles ton de père.</l>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE. </speaker>
+                        <l n="360"> Oh ! de ce jour, comme j’ai abjuré avec horreur cette exaltation d’un amiral, comme moment, cette passion aveugle pour la guerre, qui s’était emparée de toutes les âmes, même de la mienne, à moi, pauvre femme... J’ai jeté loin de moi, pour toujours, ces armes meurtrières, et toutes mes compagnes ont suivi mon exemple, et toutes ont demandé à genoux d’être ramenées en France... mais en vain... cette flotte mettait à la voile, et pas un bâtiment ne retournait au pays... et, depuis lors, condamnées à entendre sans cesse, malgré nous, et le bruit des orages et celui des combats... nous avons retrouvé dans nos cours toute la faiblesse, toutes les terreurs de notre sexe... Au milieu de ce tumulte, de cette désolation continuelle, de ces cris des mourants, que ne pouvaient couvrir les chants de la victoire, je croyais toujours voir m’apparaître le spectre de mon père, et je n’avais plus la force ni de pleurer, ni de prier... je ne sentais plus rien, je n’existais plus, j’étais morte... Puis, quand je revenais à moi, je ne retrouvais de forces et de courage que pour secourir vos malheureux frères d’armes, pour étancher le sang de leurs blessures... Oh ! nous devons encore bénir le ciel jusque dans sa colère, puisqu’en nous condamnant à être les témoins de tant d’infortunes, il nous place près de vous pour remplir les devoirs les plus sacrés de notre sexe, prier, consoler, et secourir.</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="361"> Bonne Marie... Mais voilà donc à quelles pensées nous en sommes venus tous, après ce qui nous a paru si longtemps une incroyable prospérité... Rassasies, enivrés de gloire, las de sang et de carnage, et malheureux même un jour de triomphe ! Tiens ! regarde ; vois, à l’horizon, comme le ciel est sombre, comme tous ces nuages amoncelés reflètent  jusqu’ici une teinture lugubre et triste... Eh bien ! c’est l’image de ce qui se passe au fond de nos cœurs... Au moment où je te parle, sur ce vaisseau sur tous les bâtiments de notre flotte, pas une voix joyeuse ne se fait entendre, et qu’on puisse pénétrer et lire dans toutes ces âmes, pas un seul être qui soit heureux ! Napoléon, roi du monde et presque dieu, semble gémir de sa grandeur. Mon père, grand-amiral, est sans cesse en proie à des accès de colère et de fureur, qui vont jus qu’au délire ; lui si bon, si humain, on le croirait cruel à présent ; car il fait souffrir tous ceux qui l’environnent... il me parle avec dureté à moi même... Enfin, ce n’est qu’avec toi, Marie, qu’il revient parfois encore à son ancien caractère : à ta vue, il est plus calme, mais aussi plus triste, et des larmes qu’il cherche vainement à retenir...</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES, au-dessous du pont. </speaker>
+                        <l n="362"> Je le veux ! je le veux ! entendez-vous ? Qu’on jette ce matelot à fond de cale, et les fers aux pieds.</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="363"> C’est lui ! que te disais-je ?</l>
+            <stage><em>Jacques, en uniforme de grand-amiral, paraît sur le pont, suivi du contremaître. </em></stage></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="364"> Qu’est-ce donc ? qu’avez-vous, mon père ?</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="365"> Rien... que l’importe ? un misérable matelot que j’ai trouvé endormi à son poste...</l>
+            <stage><em>Au contremaître.</em></stage>
+                        <l n="366"> Allez, qu’on exécute mes ordres...</l>
+                </sp>
+        <sp who="#le-contremaître">
+            <speaker> LE CONTREMAÎTRE. </speaker>
+                        <l n="367"> Mon amiral, c’est un des marins les plus braves, les plus actifs de tout l’équipage ; l’excès de la fatigue a pu seule...</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="368"> Taisez-vous... obéissez...</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="369"> Mon père...</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="370"> Eh ! tais-toi... je n’ai de conseils ici à recevoir de personne...</l>
+            <stage><em>Au contremaître, avec fureur.</em></stage>
+                        <l n="371"> Vous êtes encore là, contremaître !... allez, allez ! à fond de cale, vous dis-je, et les fers aux pieds.</l>
+            <stage><em>Il va s’asseoir, toujours d’un air sombre et colère, dans un coin du vaisseau. Le contremaître s’empresse de se retirer. Marie lui fait signe de s’arrêter, et s’approche de Jacques. </em></stage>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE. </speaker>
+                        <l n="372"> M. Jacques... je vous en conjure, pardonnez à ce pauvre matelot.</l>
+            <stage><em>À la voix de Marie, Jacques a tressailli. Il paraît visiblement ému en la regardant. </em></stage>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="373"> Ah ! Marie !... tu étais là... Marie ! malheureuse enfant !</l>
+            <stage><em>Il lui prend la main, et des larmes roulent dans ses yeux ; puis il fait un effort sur lui-même, et dit en se retournant vers le contremaître, mais sans cesser de regarder Marie. </em></stage>
+                        <l n="374"> Je lui pardonne. Allez.</l>
+            <stage><em>Le contremaître sort.</em></stage></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#marie">
+            <speaker> MARIE. Jacques tient toujours une de ses mains dans les siennes, de l’autre, elle s’appuie doucement sur son épaule, et lui dit. </speaker>
+                        <l n="375"> M. Jacques... il vous en coulerait si peu d’être toujours bon et indulgent, comme vous étiez autrefois.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="376"> Ah ! oui, autrefois...</l>
+            <stage><em>À part.</em></stage>
+                        <l n="377"> Je ne l’avais pas perdu, lui !</l>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE. </speaker>
+                        <l n="378"> Et puis, cela vous fait tant de mal, la colère !</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="379"> Oui, c’est vrai !... le sang me brûle, me brise la tête... oh ! oui, Marie, bien du mal.</l>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE. </speaker>
+                        <l n="380"> Je sais, qu’à bord d’un vaisseau, c’est l’usage de s’emporter ainsi, cela tient, dit-on, à l’air qu’on y respire... et pourtant, là, plus qu’ailleurs, ne devrait-on pas être patient et résigné... car là, on a sans cesse la mort qui plane sur sa tête... on doit être prêt à chaque instant à paraître devant Dieu... et surtout, lorsqu’on va livrer une bataille... oh ! pas de colère aujourd’hui... qui sait cela vous porterait malheur, peut-être... ou bien, à lui.</l>
+            <stage><em>Elle montre Étienne </em></stage>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES, se levant avec un mouvement d’inquiétude. </speaker>
+                        <l n="381"> Mon fils !</l>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE. </speaker>
+                        <l n="382"> Ainsi... vous serez calme, vous ne vous emporterez contre personne... je vous le demande, au nom de votre fils, et en souvenir de votre ami qui n’est plus.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES, retombant assis. </speaker>
+                        <l n="383"> Jean, mon pauvre Jean !...</l>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE. </speaker>
+                        <l n="384"> Vous me le promettez, n’est-ce pas ? adieu ! adieu !</l>
+            <stage><em>Elle sort. </em></stage></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="385"> Elle a raison... cet ami... son père... c’est depuis son trépas que, moi, je ne suis plus le même... C’est que tu ne sais pas encore, loi, combien est puissante et durable cette amitié qui commence sous les drapeaux, en face de l’ennemi et qui augmente, qui prend de nouvelles forces à chaque bataille où l’on a combattu ensemble... deux soldats ont vécu sans cesse depuis vingt-cinq ans l’un auprès de l’autre, partageant la gloire et le danger, le bonheur et la misère, ayant au cœur les mêmes sentiments, les mêmes passions, quoique l’un fût souvent triste et morose, et que l’autre prit tout en souriant dans la vie... si bien que sa gaieté semblait lui avoir été donnée par le ciel moins pour le rendre heureux lui même que pour adoucir les chagrins de son ami... et son ami l’a vu tom ber à ses cotés, pleurer en le quittant, chercher à se débattre contre la mort, lui si brave, et à se rattacher à la vie pour dire encore un adieu... à son compagnon d’armes... oh ! c’est affreux, c’est horrible ! et ce sou venir a changé tout mon caractère, brisé toute mon existence !... oui, mon bonheur passé, les conquêtes de Napoléon, l’honneur même du pavillon tricolore, tout cela n’est plus rien pour moi, rien... et si je trouve encore un cruel plaisir à me battre, à braver le trépas et à le donner à d’autres... ah ! ce n’est plus l’amour de la gloire qui m’inspire, qui me lance impitoyable au milieu des combats, c’est le désespoir, la rage... c’est le désir de le venger, lui, ou de le suivre... oh ! tu me pardonnerais, tu me plaindrais, si tu pouvais concevoir ce qu’était pour ton père l’amitié de son vieux camarade.</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="386"> Je le comprends, car moi-même je me suis fait un ami dans l’armée, et mon cœur lui sera dévoué, comme l’était le vôtre au père de Marie.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="387"> Un ami ! qui donc ?</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="388"> Ce jeune homme, naguère encore simple officier d’artillerie.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES, reprenant toute sa colère. </speaker>
+                        <l n="389"> Ah ! cet inconnu, à l’avancement duquel j’ai applaudi d’abord plus qu’un autre, et dont la vue est désormais pour moi un nouveau motif de chagrin et de colère, car il tient auprès de l’empereur la place de celui dont je déplore la perte.</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="390"> Mais ne vous l’ai-je pas entendu dire à vous-même ? Il a mérité sa haute fortune, il a gagné noblement tous ses grades... certes, on peut envier un avancement si rapide ; mais on est bien forcé d’en convenir, cet avancement est légitime.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="391"> Peut-être ; oubliant pour lui les plus anciens services, Napoléon honore cet enfant d’une confiance sans bornes ; il est admis dans tous ses secrets.</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="392"> Mais s’il est digne de les comprendre, de les partager.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="393"> Peut-être, te dis-je, peut-être.</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="394"> Expliquez-vous... vous me cachez quelque chose, mon père.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="395"> Eh bien ! apprends donc que ce jeune homme, si généreux, si brave... car c’est vrai, et j’en conviens malgré moi, il est brave autant que pas un d’entre nous ; mais il y a dans toutes a conduite un mystère inexplicable et que je tremble d’approfondir ; je tremble d’avoir à mépriser, à dénoncer, peut-être, celui qui est estimé par l’empereur, enfin... ce jeune homme...</l>
+            <stage><em>Ici l’officier d’artillerie entre par le dôme. </em></stage>
+                        <l n="396"> Le voici !... c’est à lui, à lui seul que je veux en parler d’abord...</l>
+            <stage><em>Le jeune homme porte au bras une écharpe rouge comme aide-de-camp de Napoléon. </em></stage></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="397"> Mais, mon père...</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="398"> Va-t’en, laisse-nous, je te l’ordonne.</l>
+            <stage><em>L’aide-de-camp s’approche d’Étienne, et lui tend amicalement la main. Étienne hésite un instant, regarde tour à tour son père et son ami ; puis, comme entraîné malgré lui, finit par serrer cordialement la main qui lui est offerte. Étienne sort. </em></stage></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#l’aide-de-camp">
+            <speaker> L’AIDE-DE-CAMP. </speaker>
+                        <l n="399"> Je vous cherchais, M. l’amiral.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="400"> Ah ! vraiment ? vous me cherchiez... pourquoi ?</l>
+                </sp>
+        <sp who="#l’aide-de-camp">
+            <speaker> L’AIDE-DE-CAMP. </speaker>
+                        <l n="401"> Je vois, à mon aspect, vos yeux s’enflammer de colère ; lorsque l’empereur voudrait nous rapprocher l’un de l’autre, faire de nous deux amis, lorsque cette amitié me serait si douce, à moi, vous la repoussez sans cesse. Au fond de l’âme, vous me détestez, monsieur.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="402"> Eh bien... eh bien ! oui, monsieur, cela est vrai, je vous déteste.</l>
+                </sp>
+        <sp who="#l’aide-de-camp">
+            <speaker> L’AIDE-DE-CAMP. </speaker>
+                        <l n="403"> Pourquoi ?... Je réclame de vous, une explication franche et loyale.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="404"> Franche et loyale !</l>
+            <stage><em>À part en le regardant.</em></stage>
+                        <l n="405"> À ces paroles, à cette énergie qui anime son visage, ne le prendrai-je pas encore pour le plus noble, pour le plus généreux de tous les hommes ?</l>
+                </sp>
+        <sp who="#l’aide-de-camp">
+            <speaker> L’AIDE-DE-CAMP. </speaker>
+                        <l n="406"> Vous ne répondez pas !... j’attends.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="407">  Il le faut donc... enfin, je percerai ce mystère ! et malheur à vous, monsieur, malheur ! si je ne vous ai pas injustement soupçonné...</l>
+                </sp>
+        <sp who="#l’aide-de-camp">
+            <speaker> L’AIDE-DE-CAMP. </speaker>
+                        <l n="408"> Soupçonné, moi !</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="409"> Oh ! d’une chose horrible, infâme, et qui me ferait douter de tous les prodiges de valeur que je vous ai vu faire. Vous êtes arrivé au camp sans être connu d’aucun de vos camarades... Vous avez dit qu’on vous nommait François, que vous n’aviez pas d’autre nom, mais que peut-être vous parviendriez un jour à illustrer celui-là...</l>
+                </sp>
+        <sp who="#l’aide-de-camp">
+            <speaker> L’AIDE-DE-CAMP. </speaker>
+                        <l n="410"> Sans doute... n’avez-vous pas illustré celui de Jacques ?</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="411"> À la bonne heure...et ce n’est pas moi, soldat parvenu, qui viendrai vous demander quelle est votre famille, lorsque je vous verrai noble de cœur et honorable par vous-même ; confondu dans les derniers rangs de l’armée, vous êtes arrivé, en deux mois, aux premiers grades ; vous voilà aide-de-camp de l’empereur, revêtu de toute sa confiance chargé de recevoir les messages qui viennent de France, d’ouvrir les lettres et de lui en rendre compte.</l>
+                </sp>
+        <sp who="#l’aide-de-camp">
+            <speaker> L’AIDE-DE-CAMP, à part. </speaker>
+                        <l n="412"> Ciel ! aurait-il surpris ?... je tremble.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="413"> Longtemps les orages déchaînés sur nos têtes avaient empêché d’arriver jusqu’à nous aucune dépêche... mais il y a une heure, ce brick au pavillon national, dont les signaux depuis plusieurs jours, répondaient de loin à ceux de notre flotte, a jeté en mer une chaloupe qui contenait des lettres datées de Paris et des Tuileries, j’ai cru vous voir, Monsieur, en lisant une de ces dépêches, faire un mouvement d’effroi, et la cacher précipitamment dans votre sein... l’empereur était à deux pas de vous, et vous interceptiez ainsi ce message qu’on lui adressait.</l>
+                </sp>
+        <sp who="#l’aide-de-camp">
+            <speaker> L’AIDE-DE-CAMP. </speaker>
+                        <l n="414"> Monsieur, cela n’est pas, vos yeux vous ont abusé sans doute.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="415"> Oui, j’ai douté d’abord, tant je trouvais cette audace incroyable ; mais j’ai continué de vous observer encore, et j’en suis sûr, bien sûr, une seconde lettre a eu le même sort que la première.</l>
+                </sp>
+        <sp who="#l’aide-de-camp">
+            <speaker> L’AIDE-DE-CAMP. </speaker>
+                        <l n="416"> Mais je vous dis, Monsieur, que cela n’est pas.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="417"> Mais je vous dis, Monsieur, que cela est... et puisque mon accusation vous fait frémir, puisque vous niez ce que mes yeux ont vu, je vous déclare, moi, que mes pressentiments, mes soupçons étaient justes, je vous déclare que vous êtes un misérable, un traitre, un espion.</l>
+                </sp>
+        <sp who="#l’aide-de-camp">
+            <speaker> L’AIDE-DE-CAMP. </speaker>
+                        <l n="418"> Ah ! cette insulte... tout votre sang ne suffira pas pour la réparer.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="419"> Oh ! peu m’importe votre colère, et je ne répondrai pas à une provocation de duel lorsqu’il y va des destinées de la France... Ces deux lettres, elles sont là, sur votre poitrine, je les vois et je m’en empare...</l>
+            <stage><em>Il les lui arrache, le jeune homme tire son épée, puis il s’arrête, fait un effort sur lui même, rejette son épée, et dit à Jacques en le regardant avec fierté. </em></stage>
+                </sp>
+        <sp who="#l’aide-de-camp">
+            <speaker> L’AIDE-DE-CAMP. </speaker>
+                        <l n="420"> Lisez donc... ces deux messages annoncent la même nouvelle à l’empereur... lisez ! mais vous seul, songez-y bien, vous seul ici devez la connaître... à cette condition, Monsieur, je puis vous pardonner encore et vos soupçons et vos outrages.</l>
+            <stage><em>Jacques paraît dominé malgré lui par la voix et le regard de l’aide-de-camp ; hésite encore et se décide à lire. En achevant il pousse un grand cri, regarde avec émotion le jeune homme, comme s’il cherchait à reconnaître ses traits, pleure, tombe à genoux, ramasse son épée et la lui présente, l’aide-de-camp le relève et l’embrasse.</em></stage>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="421"> Et vous avez eu le courage de vous contraindre devant les tourments, les inquiétudes de l’empereur... oh ! mais le voilà... il vient à nous et je vais tout lui dire.</l>
+                </sp>
+        <sp who="#françois">
+            <speaker> FRANÇOIS. </speaker>
+                        <l n="422"> Non, oh ! non, mon ami, pas encore, pas avant le combat... mais bientôt, quand l’Angleterre abaissera enfin son pavillon devant le nôtre, alors j’irai me placer à ses côtés et lui dire...</l>
+            <stage><em>Ici Napoléon sort de la chambre du capitaine, placée au fond du vaisseau, à gauche du mât d’artimon ; il regarde en sou riant les deux personnages placés sur le devant de la scène. François continue bas. </em></stage>
+                        <l n="423"> Jusque-là tu garderas mon secret ; Jacques, je t’en supplie, je le veux.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="424"> J’obéirai.</l>
+            <stage><em>L’aide-de-camp lui serre affectueusement la main. </em></stage></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON, avec joie. </speaker>
+                        <l n="425"> Ah ! je vous surprends enfin, tous deux, réconciliés comme je l’avais voulu... et vous serrant la main... c’est bien... je vous sais gré de votre obéissance... mais vraiment, on a plus de peine à vous accorder ensemble qu’à terminer à coups de canon les démêlés de la France et de l’Angleterre.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="426"> Oh ! sire, j’avais tort... je le méconnaissais... et vous lui rendiez justice !</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="427"> N’est-ce pas ? oh ! je n’ai pas l’habitude de me tromper dans le choix de mes amis...</l>
+            <stage><em>Prenant la main de François.</em></stage>
+                        <l n="428"> C’est un brave jeune homme... et ton fils aussi, Jacques... Pour lui, il y a de l’avenir... nous avons fait de grandes choses, et nos enfants peut-être nous surpasseront un jour... Nos enfants !</l>
+            <stage><em>Les deux autres personnages le suivent des yeux avec intérêt.</em></stage>
+                        <l n="429"> Ah ! mes amis ! lorsqu’entrainé par ma destinée, je fais couler le sang autour de moi, lorsque tant de familles ont à regretter un père, un fils, et qu’on m’accuse sans doute de tous ces trépas, de toutes ces misères dont malgré moi je suis la cause, je n’ai rien pour me distraire, pour me consoler de ces funestes images... rien que l’admiration froide de l’univers, admiration mêlée de crainte et de haine peut-être... mais ce contentement de l’âme, cette joie de la famille que j’envie au plus obscur de mes sujets, je ne puis le goûter un instant... je sens qu’il y a là-haut quelqu’un de plus fort, de plus puissant que moi qui me jette la gloire, me refuse le bonheur !</l>
+            <stage><em>Napoléon a quitté la main des deux autres personnages : Jacques fait signe au jeune homme de se jeter dans ses bras, celui-ci hésite, mais paraît vivement ému en écoutant Napoléon.</em></stage>
+                        <l n="430"> Mon fils ! mon pauvre François Napoléon ! que fait-il à cette heure ? pense-t-il à moi ? oui, sans doute, mais pour me maudire peut-être ! car, il est gardé à vue comme un esclave... je l’ai ordonné, je le devais... mais comme il doit souffrir !... et moi ! moi !... ah ! s’il était là, dans ce moment, comme je serais heureux de le presser dans mes bras...</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES, à part. </speaker>
+                        <l n="431"> Oh ! c’en est trop et je vais parler !</l>
+                </sp>
+        <sp who="#françois">
+            <speaker> FRANÇOIS, de même. </speaker>
+                        <l n="432"> Ah ! je n’y résiste plus !</l>
+            <stage><em>Tous deux ensemble s’approchent de l’empereur comme décidés à lui tout avouer. On entend un coup de canon, Étienne paraît sur le pont. </em></stage></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE. </speaker>
+                        <l n="433"> Sire, la flotte anglaise...</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="434"> Ah ! le combat ! je te remercie, mon Dieu, si je n’ai pas mon enfant auprès de moi, car il ne faut pas que le fils et le père soient exposés à mourir ensemble dans la même bataille !</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES, regardant Étienne. </speaker>
+                        <l n="435"> Le fils et le père ensemble, oh ! quelle affreuse pensée... non, moi seul, mon Dieu ! moi seul, si l’un des deux doit tomber aujourd’hui.</l>
+                </sp>
+        <sp who="#l’aide-de-camp">
+            <speaker> L’AIDE-DE-CAMP, bas à Jacques. </speaker>
+                        <l n="436"> Tu vois bien que je dois encore me taire.</l>
+            <stage><em>Deuxième coup de canon. En un instant tout l’équipage est sur le pont. </em></stage></div>
+        <div type="scene" xml:id=" X ">
+            <head> Scène X </head>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="437"> Amis, qu’on vise surtout à prendre le vaisseau amiral des ennemis ; Jacques, demeures avec moi. C’est d’ici que doivent partir les commande mens de toutes les manœuvres.</l>
+            <stage><em>On entend gronder le tonnerre. </em></stage>
+                        <l n="438"> C’est en notre faveur, camarades ! c’est contre les Anglais que gronde le tonnerre... car le dieu des batailles est toujours le dieu de Napoléon... à genoux... à genoux... avant de marcher à l’abordage !</l>
+            <stage><em>Tout l’équipage est à genoux. </em></stage>
+                </sp>
+        <sp who="#/em>-chœur">
+            <speaker> Reprise du CHŒUR chanté au lever du rideau. </speaker>
+            <stage>Ô toi qui tempères, <em>etc.</em></stage>
+            <stage><em>Bruit de la canonnade au dehors, tout le monde se relève, et Jacques, placé sous le grand mât auprès de Napoléon, commande le combat. </em></stage>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES, commandant le combat. </speaker>
+                        <l n="439"> Branle-bas de combat, partout !</l>
+            <stage><em>Ces commandements sont répétés par deux officiers, l’un à bâbord, à la droite du public, l’autre à tribord.</em></stage>
+                        <l n="440"> Bâbord, feu ! tribord, feu !</l>
+            <stage><em>Canonnade sur le vaisseau où se passe l’action, et au dehors. Jacques, après avoir consulté Napoléon, reprend son porte-voix, et crie. </em></stage>
+                        <l n="441"> À l’abordage !</l>
+            <stage><em>Une partie de l’équipage, à bâbord et à tribord, s’élance hors du vaisseau, tenant à la main des pistolets et des haches. Jacques les suit des yeux, les excite du geste pendant qu’il s’éloigne, et répète avec force. </em></stage>
+                        <l n="442"> À l’abordage ! hardi, garçons ! jetez les grappins ! à l’abordage, et vive la France !</l>
+                </sp>
+        <sp who="#étienne">
+            <speaker> ÉTIENNE, rentrant avec François. </speaker>
+                        <l n="443"> Sire, les Anglais demandent à capituler... déjà, ils abandonnent tous le vaisseau amiral, et leurs envoyés attendent vos ordres pour vous sup plier de leur accorder la paix.</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="444"> Qu’ils viennent ! qu’ils viennent !... et vous, amis, vous tous... allez arborer le drapeau tricolore sur tous les mâts de leur vaisseau amiral.</l>
+            <stage><em>Sortie d’un grand nombre d’officiers et de matelots, Étienne et François à leur tête. </em></stage></div>
+        <div type="scene" xml:id=" XI ">
+            <head> Scène XI </head>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="445"> Rien ne manque donc plus à la gloire de la France.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES. </speaker>
+                        <l n="446"> Oh ! mon pauvre vieux camarade, pourquoi faut-il que tu ne sois pas là pour prendre part au bonheur de cette journée.</l>
+            <stage><em>On entend retentir au dehors une violente détonation, et dans un instant l’horizon est en feu. Des officiers de marine et des matelots reparaissent sur le pont ; Marie paraît aussi, pale, et les cheveux épars.</em></stage></div>
+        <div type="scene" xml:id=" XII ">
+            <head> Scène XII </head>
+        <sp who="#marie">
+            <speaker> MARIE. </speaker>
+                        <l n="447"> Ah ! ne parlez plus de gloire, ne parlez plus de bonheur... les Anglais, en fuyant, en abandonnant leur navire...</l>
+                </sp>
+        <sp who="#marie">
+            <speaker> MARIE. </speaker>
+                        <l n="448"> Ils l’ont incendié... et nos marins qui viennent de s’en rendre maîtres... et votre fils qui les conduisait... Étienne, mon fiancé... mort ! mort comme mon père...</l>
+            <stage><em>Elle tombe renversée, en achevant son récit. </em></stage>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES, avec désespoir. </speaker>
+                        <l n="449"> Ah ! maudite soit la victoire qui devait être acquise au prix du sang de mon enfant... Eh ! que me fait à moi que l’Angleterre, que le monde appartienne à la France... que me fait tout cela quand j’ai perdu mon fils ?</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="450"> Allons, Jacques, reviens à toi... c’est à supporter les grandes infortunes qu’il faut surtout appliquer son courage... tu dois à ces officiers, à ces matelots qui te contemplent, l’exemple de la fermeté de la résignation.</l>
+                </sp>
+        <sp who="#jacques">
+            <speaker> JACQUES, se relevant lentement, et regardant avec effroi l’empereur. </speaker>
+                        <l n="451"> Mais vous-même, sire... Ô ciel ! je m’en souviens à présent... tout à l’heure, auprès de mon pauvre Étienne, ce jeune homme... François... votre aide-de-camp...</l>
+                </sp>
+        <sp who="#napoléon">
+            <speaker> NAPOLÉON. </speaker>
+                        <l n="452"> Eh bien ! lui aussi, mort, n’est-ce pas...</l>
+            <stage><em>Jacques tire de son sein la lettre que François a laissée entre ses mains, et la lui présente en détournant les yeux. Napoléon parcourt rapidement le papier. </em></stage>
+                        <l n="453"> « L’héritier de la couronne, François Napoléon, est disparu du palais de l’Élysée depuis plusieurs jours ; après les plus exactes recherches, on est parvenu à découvrir qu’il était parti pour l’expédition en Grèce ; on assure qu’il est entré comme simple volontaire dans le 4e régiment d’artillerie... sous le nom seul de François...</l>
+            <stage><em>Il laisse tomber le papier et pousse un grand cri. </em></stage>
+                        <l n="454"> Ah ! mon fils...</l>
+            <stage><em>Il tombe anéanti au pied du grand mât. Jacques est debout auprès de lui et le soutient dans ses bras en pleurant. L’orage éclate. La toile tombe.</em></stage></div></div>
+           <div type="act" xml:id="6">
+           <head> SIXIÈME PARTIE </head></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

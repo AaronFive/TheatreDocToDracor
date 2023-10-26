@@ -1,0 +1,1611 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">L&#039;Amour vengé</title>
+                <title type="sub">Comédie</title>
+            <author>
+                <persName>
+                    <forename>Joseph</forename>
+                    <linkname>de</linkname>
+                    <surname>Lafont</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/?q=node/223 </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1712-10-14">Représentée pour la première fois, à Paris, sur le Théâtre de la rue des Fossés Saint-Germain, le 14 octobre 1712.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="araminte" sex="SEX">
+                            <persName>ARAMINTE</persName>
+                        </person>
+                        <person xml:id="orgon" sex="SEX">
+                            <persName>ORGON</persName>
+                        </person>
+                        <person xml:id="lucile" sex="SEX">
+                            <persName>LUCILE</persName>
+                        </person>
+                        <person xml:id="clidamis" sex="SEX">
+                            <persName>CLIDAMIS</persName>
+                        </person>
+                        <person xml:id="le-chevalier-de-la-fanfaronnière" sex="SEX">
+                            <persName>LE CHEVALIER de la Fanfaronnière</persName>
+                        </person>
+                        <person xml:id="merlin" sex="SEX">
+                            <persName>MERLIN</persName>
+                        </person>
+                        <person xml:id="nérine" sex="SEX">
+                            <persName>NÉRINE</persName>
+                        </person>
+                        <person xml:id="un-notaire" sex="SEX">
+                            <persName>UN NOTAIRE</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Comédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q40831]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">L&#039;AMOUR VENGÉ</titlePart>
+            <titlePart type="sub">COMÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre de la rue des Fossés Saint-Germain, le 14 octobre 1712.</ab><!--@date="1712-10-14"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> À MONSIEUR D’ARGENSON</salute>
+            </opener>
+        <p> CONSEILLER D’ÉTAT ORDINAIRE<br> </p>
+        <p> Protecteur des beaux Arts, nobles et savant génie, </p>
+        <p> Ferme appui de Thémis, illustre D’Argenson, </p>
+        <p> Ma faible Muse vient à l’bri de ton Nom, </p>
+        <p> Du temps qui détruit tout braver la tyrannie. </p>
+        <p> Jaloux de plaire à la postérité, </p>
+        <p> Je n’ai pu de l’oubli préserver mon ouvrage, </p>
+        <p> Qu’en venant t’en faire un hommage : </p>
+        <p> Pardonne à ma témérité. </p>
+        <p> Ton Nom seul avec ton suffrage </p>
+        <p> Sont des titres certains pour l’immortalité. </p>
+        <p> Ô Toi dont les vertus, la sagesse profonde </p>
+        <p> Ont su gagner le cœur du plus grand Roi du monde ; </p>
+        <p> Toi, qui te conformant à ses justes projets, </p>
+        <p> Travailles jour et nuit au bien de sujets, </p>
+        <p> Daigne jeter les yeux sur une jeune Muse, </p>
+        <p> Qui brûlait de t’offrir un ouvrage applaudi : </p>
+        <p> Elle a formé peut-être un dessein trop hardi ; </p>
+        <p> Mais l’ardeur de te plaire est pour elle une excuse. </p>
+        <p> DE LAFONT. </p>
+    </div>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="1"> Qui, Nérine, je suis un benêt, un faquin,</l>
+                        <l n="2"> La plus franche pécore, et le plus grand coquin,</l>
+                        <l n="3"> Le garçon le plus lourd, et le plus imbécile,</l>
+                        <l n="4"> Que l’on puisse trouver peut-être dans la Ville.</l>
+                        <l n="5"> Oui, je mériterais mille coups de bâton.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="6"> Et moi, Merlin, je suis la plus sotte guenon,</l>
+                        <l n="7"> L’esprit le plus bouché, la tête la plus dure</l>
+                        <l n="8"> Que l’on puisse trouver peut-être en la nature ;</l>
+                        <l n="9"> Une buse qu’on doit ne voir qu’avec mépris,</l>
+                        <l n="10"> Indigne d’être enfin soubrette dans Paris :</l>
+                        <l n="11"> Je n’ai jamais rien pu sur l’esprit de Lucile.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="12"> Ni moi sur Clidamis ! C’est un cœur indocile ;</l>
+                        <l n="13"> Et nous, avons raison de conclure, après tout,</l>
+                        <l n="14"> Que nous sommes bien fois ; car nous sommes à bout.</l>
+                        <l n="15"> Nous mériterions bien d’avoir les étrivières.</l>
+                        <l n="16"> Mais, Nérine, parlons un peu de nos affaires :</l>
+                        <l n="17"> La mère de Lucile, et le Seigneur Orgon,</l>
+                        <l n="18"> Oncle de Clidamis, sont arrivés, dit-on ?</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="19"> Oui, Merlin, nous devions en tirer cent pistoles,</l>
+                        <l n="20"> Si par notre artifice et nos belles paroles</l>
+                        <l n="21"> Nous avions pu forcer la fille et le neveu</l>
+                        <l n="22"> À sentir l’un pour l’autre un légitime feu.</l>
+                        <l n="23"> J’ai pour les faire aimer employé ruse, adresse :</l>
+                        <l n="24"> Ce sont deux cœurs quinteux, rétifs à la tendresse</l>
+                        <l n="25"> Et Lucile, surtout, en bravant les amours,</l>
+                        <l n="26"> Contre leurs traits charmants a regimbé toujours.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="27"> Mon Maître en fait autant : il joue, il boit, il chante ;</l>
+                        <l n="28"> Chez Fitre, chez Payen il a l’âme contente :</l>
+                        <l n="29"> Mais si vous lui parlez d’une inclination.</l>
+                        <l n="30"> Bagatelle, dit-il, fadaise, vision.</l>
+                        <l n="31"> Tout discours amoureux l’effarouche et le blesse :</l>
+                        <l n="32"> Il regarde l’amour ainsi qu’une faiblesse ;</l>
+                        <l n="33"> Et la plus belle femme avec tous ses appas</l>
+                        <l n="34"> Ne pourrait pas, je crois, lui faire faire un pas.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="35"> Quoi, tu ne lui peux pas mettre l’amour en tête ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="36"> J’ai fait de vains efforts, et ne suis qu’unie bête :</l>
+                        <l n="37"> Mais mon peu de génie à la fin me surprend ;</l>
+                        <l n="38"> Je suis encor plus sot qu’il n’est indifférent.</l>
+                        <l n="39"> Quoi ! moi qui sais l’amour et tout son badinage,</l>
+                        <l n="40"> Qui chez deux fainéants fis mon apprentissage ;</l>
+                        <l n="41"> Moi qui dans ces cas-là suis un Docteur parfait,</l>
+                        <l n="42"> Et connais mieux l’amour que celui qui l’a fait ;</l>
+                        <l n="43"> Moi qui sus, pour mon compte, à cent beautés glacées</l>
+                        <l n="44"> Inspirer tant de fois d’amoureuses pensées,</l>
+                        <l n="45"> Je n’ai donc pu rien faire ! et mon art est à sec !</l>
+                        <l n="46"> Faut-il que mon honneur reçoive un tel échec !</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="47"> Je crois pourtant, Merlin, ma Maîtresse et ton Maître</l>
+                        <l n="48"> Un peu sensibles... mais honteux de le paraître.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="49"> Bel honneur, de paraître insensible à l’amour !</l>
+                        <l n="50"> Pourquoi cet artifice ? à quoi bon ce détour ?</l>
+                        <l n="51"> Au petit Dieu qui veut qu’on soupire et qu’on aime</l>
+                        <l n="52"> J’ai vingt-fois en public sacrifié moi-même.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="53"> Tiens, chacun se déguise ; et l’on s’est fait un point</l>
+                        <l n="54"> De passer en public pour ce que l’on n’est point.</l>
+                        <l n="55"> L’Usurier veut paraître un prudent économe :</l>
+                        <l n="56"> Tout Procureur voudra passer pour honnête homme,</l>
+                        <l n="57"> Tout âne pour Docteur, tout poltron pour César,</l>
+                        <l n="58"> Tout visage en couleur pour visage sans fard :</l>
+                        <l n="59"> Tout Partisan rusé, qui pille la Province,</l>
+                        <l n="60"> Pour un sujet qui prend l’intérêt de son Prince :</l>
+                        <l n="61"> Tout petit sous-fermier, tout traitant, tout voleur,</l>
+                        <l n="62"> Pour homme délicat en matière d’honneur :</l>
+                        <l n="63"> Tout Amant un peu fier pour Amant sans tendresse.</l>
+                        <l n="64"> De cette espèce sont ton Maître et ma Maîtresse.</l>
+                        <l n="65"> Et je crois, entre nous, qu’ils n’ont pris ce parti</l>
+                        <l n="66"> Qu’afin de nous en faire avoir le démenti.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="67"> Et moi je te réponds qu’ils n’aiment point.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="68"> Peut-être</l>
+                        <l n="69"> Que sais-tu ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="70"> Jusqu’ici j’ai su le reconnaître.</l>
+                        <l n="71"> Mais fussent-ils de marbre, il faut que dans ce jour</l>
+                        <l n="72"> Ils sentent l’un pour l’autre un violent amour.</l>
+                        <l n="73"> Non, non, je ne veux pas lâcher ainsi ma proie,</l>
+                        <l n="74"> Et je saurai trouver peut-être une autre voie.</l>
+                        <l n="75"> Dieu d’amour aujourd’hui daigne me protéger :</l>
+                        <l n="76"> J’ai ton honneur ensemble et ma gloire à venger.</l>
+                        <l n="77"> Taisons-nous : j’aperçois la mère de Lucile,</l>
+                        <l n="78"> Et l’oncle de mon Maître.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#orgon">
+            <speaker> ORGON, à Merlin. </speaker>
+                        <l n="79"> Est-ce peine inutile ?</l>
+                        <l n="80"> Ne peut-on échauffer le cœur de mon Neveu ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="81"> Bon ! c’est vouloir dans l’eau faire naitre le feu.</l>
+                </sp>
+        <sp who="#araminte">
+            <speaker> ARAMINTE, à Nérine. </speaker>
+                        <l n="82"> Et ma fille, Nérine, est donc toujours la même ?</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="83"> Oui, Madame, toujours : et le moyen qu’elle aime !</l>
+                        <l n="84"> Les hommes à ses yeux ne sont que des trompeurs ;</l>
+                        <l n="85"> Et l’ombre d’un chapeau lui donne des vapeurs.</l>
+                </sp>
+        <sp who="#orgon">
+            <speaker> ORGON, à Araminte. </speaker>
+                        <l n="86"> Parbleu, de qui tient donc Votre insensible fille ?</l>
+                        <l n="87"> Moi, je n’y comprends rien ; car dans votre famille</l>
+                        <l n="88"> On n’a jamais haï les hommes jusques là.</l>
+                        <l n="89"> Pour vous, vous n’êtes point du tout comme cela.</l>
+                        <l n="90"> Les jeunes gens encor vous donnent dans la vue ;</l>
+                        <l n="91"> Et même en les voyant vous êtes toute émue.</l>
+                </sp>
+        <sp who="#araminte">
+            <speaker> ARAMINTE, à Orgon. </speaker>
+                        <l n="92"> Mais de qui tient aussi votre glacé Neveu ?</l>
+                        <l n="93"> Car pour vous, vous avez toujours l’œil plein de feu :</l>
+                        <l n="94"> Jamais homme ne fut plus ardent que vous l’êtes.</l>
+                        <l n="95"> Vous ne nous venez pas dire ce que vous faites :</l>
+                        <l n="96"> Mais vous avez tout l’air d’un dangereux vieillard.</l>
+                </sp>
+        <sp who="#orgon">
+            <speaker> ORGON. </speaker>
+                        <l n="97"> Il est vrai que je suis un terrible gaillard.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="98"> Moi, je doute très fort ici que votre fille</l>
+                        <l n="99"> Avec ses airs transis soit de votre famille.</l>
+                </sp>
+        <sp who="#araminte">
+            <speaker> ARAMINTE. </speaker>
+                        <l n="100"> Pour aller à leur cœur n’est-il donc qu’un chemin ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="101"> Bon ! j’en ai tenté cent, et j’y perds mon latin.</l>
+                </sp>
+        <sp who="#araminte">
+            <speaker> ARAMINTE. </speaker>
+                        <l n="102"> Hé bien n’en parlons plus : puisqu’on n’y peut rien faire,</l>
+                        <l n="103"> Songeons au Chevalier de la Fanfaronnière.</l>
+                        <l n="104"> Il est riche et Gascon, ami de Clidamis :</l>
+                        <l n="105"> Il demande ma fille.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="106"> On dit qu’il s’est promis</l>
+                        <l n="107"> De la rendre bientôt amoureuse à la rage.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="108"> Quoi ! vous auriez pour gendre un pareil personnage ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="109"> Je crois que son bon sens n’est pas trop bien réglé.</l>
+                </sp>
+        <sp who="#orgon">
+            <speaker> ORGON. </speaker>
+                        <l n="110"> Il a même, dit-on, le timbre un peu fêlé.</l>
+                        <l n="111"> Mais ce qu’en lui surtout je trouve d’admirable ;</l>
+                        <l n="112"> C’est qu’il se croie bien fait, spirituel, aimable,</l>
+                        <l n="113"> Et qu’auprès du beau sexe il n’a qu’à se montrer</l>
+                        <l n="114"> Pour en être l’Idole, et s’en faire adorer.</l>
+                        <l n="115"> Pour Lucile, dit-on, ce fat brûle et soupire,</l>
+                        <l n="116"> Il croit que tôt ou tard il saura la réduire,</l>
+                        <l n="117"> Et que cette beauté si rebelle à l’amour</l>
+                        <l n="118"> N’a qu’à le regarder pour aimer à son tour.</l>
+                </sp>
+        <sp who="#araminte">
+            <speaker> ARAMINTE. </speaker>
+                        <l n="119"> Il est bien vrai qu’il est d’un plaisant caractère,</l>
+                        <l n="120"> Ridicule à l’excès : mais enfin, comment faire ?</l>
+                        <l n="121"> Il faudra bien donner ma fille au Chevalier.</l>
+                        <l n="122"> À tel prix que ce soit je veux la marier.</l>
+                        <l n="123"> Je sais qu’il est Gascon dans ses airs, ses paroles.</l>
+                        <l n="124"> Mais il n’est pas Gascon du côté des pistoles ;</l>
+                        <l n="125"> Je l’avouerai pourtant, j’aimerais beaucoup mieux</l>
+                        <l n="126"> Et que femme jamais n’aura l’art de charmer.</l>
+                </sp>
+        <sp who="#orgon">
+            <speaker> ORGON. </speaker>
+                        <l n="127"> Ah, Madame, attendons : rien encor ne nous presse.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="128"> Je leur veux aujourd’hui donner de la tendresse.</l>
+                        <l n="129"> Oui, s’ils ne s’aiment pas ce jour même, demain,</l>
+                        <l n="130"> Madame, vous pourrez disposer de sa main.</l>
+                        <l n="131"> Mais j’aperçois venir en plaisant équipage</l>
+                        <l n="132"> Le Chevalier Gascon.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER, entrant brusquement. </speaker>
+                        <l n="133"> Ah cadédis, j’enrage.</l>
+                        <l n="134"> Palsambleu, j’y renonce : ah ! que j’ai dé malheur.</l>
+                </sp>
+        <sp who="#araminte">
+            <speaker> ARAMINTE. </speaker>
+                        <l n="135"> Qu’avez-vous, Chevalier ?</l>
+                </sp>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER, d’un air fâché. </speaker>
+                        <l n="136"> Madame, serbiteur.</l>
+                        <l n="137"> Parbleu, j’ai qué jé suis accablé par les Dames.</l>
+                        <l n="138"> Faut-il qué jé sois né pour enchanter les femmes !</l>
+                        <l n="139"> Mais, d’y suffire seul, oh ma foi, jé né puis.</l>
+                        <l n="140"> Quoi, c’est à qui m’aura ! Boyez comme je suis.</l>
+                        <l n="141"> Ouf, je suis essoufflé... Trois Dames des plus belles</l>
+                        <l n="142"> M’ont mis tout hors d’haleine, et boulant auprès d’elles</l>
+                        <l n="143"> M’obliger à relier malgré moi trop longtemps,</l>
+                        <l n="144"> Par force ont rétenu mon épée et mes gants</l>
+                        <l n="145"> Elles m’ont tiraillé pendant près d’un quart d’heure.</l>
+                        <l n="146"> Si cela continue, il faudra qué jé meure.</l>
+                        <l n="147"> Non, jé n’y puis tenir dabantage ; et je croi.</l>
+                        <l n="148"> Qu’il faudra déserter dé Paris malgré moi.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="149"> En vérité, Monsieur, vous êtes bien barbare</l>
+                        <l n="150"> De faire ainsi souffrir, en vous rendant si rare,</l>
+                        <l n="151"> Un sexe qui ne veut que vous voir, vous parler,</l>
+                        <l n="152"> Et qui pour vous enfin est si prompt à brûler.</l>
+                </sp>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="153"> Et pourquoi brûle-t-il si vite ? Mais, Madame</l>
+                        <l n="154"> Jé biens pour bous parler de ma noubelle flamme :</l>
+                        <l n="155"> N’allez pas l’étouffer par des difficultés ;</l>
+                        <l n="156"> Car enfin tous mes feux vers elle sont butés.</l>
+                </sp>
+        <sp who="#araminte">
+            <speaker> ARAMINTE. </speaker>
+                        <l n="157"> Ma fille est insensible, et ne veut point se rendre.</l>
+                        <l n="158"> Croyez-vous, Chevalier, pouvoir la rendre tendre ?</l>
+                        <l n="159"> Croyez-vous, dites-moi, que ce farouche cœur</l>
+                        <l n="160"> Veuille en vous aujourd’hui reconnaitre un vainqueur ?</l>
+                </sp>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="161"> Comment ! si jé lé croi ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="162"> Lui ? s’il le croit ? La peste !</l>
+                        <l n="163"> Je suis sur que Monsieur ne le croit que de reste.</l>
+                </sp>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="164"> Madame, jé né beux que la boir un moment,</l>
+                        <l n="165"> Et l’amour dans son cœur naîtra subitement.</l>
+                        <l n="166"> Ah cadédis ! s’il faut pousser une fleurette,</l>
+                        <l n="167"> S’il faut brûler un cœur d’une flamme secrète,</l>
+                        <l n="168"> S’il faut s’en faire aimer, parlons dé bonne foi,</l>
+                        <l n="169"> Là, Madame, entre nous, qui lé peut mieux qué moi ?</l>
+                        <l n="170"> S’il faut aboir pour plaire une figure aimable,</l>
+                        <l n="171"> S’il faut être poli, complaisant, agréable,</l>
+                        <l n="172"> S’il faut en moins d’un jour mettre un cœur sous sa loi,</l>
+                        <l n="173"> Fût-ce un cœur dé rocher, qui lé peut mieux qué moi ?</l>
+                        <l n="174"> S’il faut avoir l’esprit plein dé délicatesse,</l>
+                        <l n="175"> S’il faut en mots choisis exprimer sa tendresse,</l>
+                        <l n="176"> D’un ribal, d’un mari s’il faut être l’effroi,</l>
+                        <l n="177"> S’il faut régner partout, qui lé peut mieux que moi !</l>
+                </sp>
+        <sp who="#orgon">
+            <speaker> ORGON. </speaker>
+                        <l n="178"> Que ce Gascon est vain !</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="179"> C’est là l’humeur gasconne ;</l>
+                        <l n="180"> Et l’on voit bien qu’il vient des bords de la Garonne.</l>
+                </sp>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="181"> Pour moi, jé né connais qu’un seul de mes amis</l>
+                        <l n="182"> Qui mé ressemble.</l>
+                </sp>
+        <sp who="#orgon">
+            <speaker> ORGON. </speaker>
+                        <l n="183"> Et qui, s’il vous plaît ?</l>
+                </sp>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="184"> Clidamis.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN vite. </speaker>
+                        <l n="185"> Je ne vois entre vous qu’un peu de différence :</l>
+                        <l n="186"> Vous êtes plein d’amour, lui plein d’indifférence :</l>
+                        <l n="187"> Vous aimez fort le sexe, il aime fort le jeu :</l>
+                        <l n="188"> Il est froid comme glace, et vous chaud comme feu :</l>
+                        <l n="189"> Vous raisonnez beaucoup, il ne raisonne guères :</l>
+                        <l n="190"> Vous êtes sans façon, il a d’autres manières :</l>
+                        <l n="191"> Il est traitable et doux, vous êtes turbulent :</l>
+                        <l n="192"> Il pèse au plus six vingts, et vous pesez six cent.</l>
+                        <l n="193"> Voilà vos deux portraits ? Hé bien, que vous en semble ?</l>
+                        <l n="194"> Ne vous trouvez-vous pas un grand rapport ensemble ?</l>
+                </sp>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="195"> Il est pourtant certain qué sans sa froide humeur</l>
+                        <l n="196"> Il pourrait comme moi s’assujettir un cœur :</l>
+                        <l n="197"> Son mérite et lé mien sont au rez-de-chaussée.</l>
+                        <l n="198"> Il me baut presque, au moins : jé dis net ma pensée.</l>
+                        <l n="199"> Cependant pour Lucile on boulait l’enflammer ;</l>
+                        <l n="200"> On n’a rien oublié pour la lui faire aimer :</l>
+                        <l n="201"> Mais cé n’est pas son fait ; et jé suis seul capable</l>
+                        <l n="202"> Dé dompter par mes soins cet objet indomptable.</l>
+                        <l n="203"> Pour elle jé rénonce à tout le sexe entier.</l>
+                        <l n="204"> Déjà mon cœur ardent brûle comme un brasier :</l>
+                        <l n="205"> Oui cadédis, je sens qu’il est réduit en cendre,</l>
+                        <l n="206"> Si bous né mé prénez bientôt pour botre gendre.</l>
+                        <l n="207"> Madame, finissons ces discours superflus ;</l>
+                        <l n="208"> Car jé suis aux abois, et mon cœur n’en peut plus.</l>
+                </sp>
+        <sp who="#araminte">
+            <speaker> ARAMINTE. </speaker>
+                        <l n="209"> Il faut auparavant en parler à ma fille :</l>
+                        <l n="210"> Allez, proposez-lui d’entrer dans ma famille ;</l>
+                        <l n="211"> Fléchissez, s’il se peut, cette farouche humeur.</l>
+                        <l n="212"> Faites-la consentir, j’y consens de bon cœur.</l>
+                </sp>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="213"> Quoi, c’est donc là lé nœud ? Il né faut que lui plaire ?</l>
+                        <l n="214"> C’est une affaire faite. Adieu, ma belle mère.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="215"> Ah le drôle de corps !</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="216"> Il ne tient rien, ma foi,</l>
+                        <l n="217"> S’il croit se faire aimer de Lucile.</l>
+                </sp>
+        <sp who="#araminte">
+            <speaker> ARAMINTE. </speaker>
+                        <l n="218"> Et pourquoi ?</l>
+                </sp>
+        <sp who="#orgon">
+            <speaker> ORGON. </speaker>
+                        <l n="219"> Quoi, vous lui donneriez Lucile ? En conscience,</l>
+                        <l n="220"> Madame, y pensez-vous ?</l>
+                </sp>
+        <sp who="#araminte">
+            <speaker> ARAMINTE. </speaker>
+                        <l n="221"> Oui sans doute j’y pense.</l>
+                </sp>
+        <sp who="#orgon">
+            <speaker> ORGON. </speaker>
+                        <l n="222"> Lucile et mon neveu pourront s’aimer un jour.</l>
+                        <l n="223"> Il faut bien tôt ou tard qu’on se rende à l’amour.</l>
+                </sp>
+        <sp who="#araminte">
+            <speaker> ARAMINTE. </speaker>
+                        <l n="224"> Si le Gascon lui plaît, et s’il sait la réduire,</l>
+                        <l n="225"> J’ai donné ma parole, et ne m’en puis dédire.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="226"> Lui, réduire Lucile ? Elle est de trop bon goût :</l>
+                        <l n="227"> Un magot tel que lui n’en viendra pas à bout.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN, rêvant un peu. </speaker>
+                        <l n="228"> Attendez... je conçois un projet admirable.</l>
+                        <l n="229"> Oui... Non... Si fait... Parbleu, le tour est impayable !</l>
+                        <l n="230"> Ils tomberont tous deux dans mes lacs, sûrement,</l>
+                        <l n="231"> Nérine, écoute-moi.</l>
+            <stage><em>Il lui parle à l’oreille.</em></stage>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="232"> Parle plus clairement.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN, lui parlant à l’oreille. </speaker>
+                        <l n="233"> Fais ce que je te dis, va trouver ta Maîtresse ;</l>
+                        <l n="234"> Moi, je vais préparer mon Maître.</l>
+                </sp>
+        <sp who="#orgon">
+            <speaker> ORGON. </speaker>
+                        <l n="235"> Comment, qu’est-ce ?</l>
+                </sp>
+        <sp who="#araminte">
+            <speaker> ARAMINTE. </speaker>
+                        <l n="236"> Quel dessein avez-vous ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="237"> Lucile et Clidamis</l>
+                        <l n="238"> S’aimeront dans ce jour : c’est moi qui vous le dis.</l>
+                </sp>
+        <sp who="#orgon">
+            <speaker> ORGON. </speaker>
+                        <l n="239"> Non ! tu nous as bercé cent fois du même conte.</l>
+                </sp>
+        <sp who="#araminte">
+            <speaker> ARAMINTE. </speaker>
+                        <l n="240"> Si l’humeur de Lucile à changer est si prompte,</l>
+                        <l n="241"> Elle refusera la main du Chevalier :</l>
+                        <l n="242"> On peut à Clidamis en ce cas la lier,</l>
+                        <l n="243"> Pour moi, je le veux bien, et je prendrai pour gendre</l>
+                        <l n="244"> Celui que pour époux ma fille voudra prendre :</l>
+                        <l n="245"> Elle a le choix des deux.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="246"> Malgré ses airs glacés,</l>
+                        <l n="247"> Mon Maître l’aimera plus que vous ne pensez.</l>
+                        <l n="248"> Mais je le vois venir. Allez, laissez-moi faire.</l>
+                        <l n="249"> Toi, Nérine, va vite, et songe à notre affaire.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#merlin">
+            <speaker> MERLIN, à part. </speaker>
+                        <l n="250"> Pour le rendre amoureux voici mon dernier tour.</l>
+                        <l n="251"> Il ne faut qu’un moment pour prendre de l’amour.</l>
+                        <l n="252"> Si dans le piège adroit que je m’en vais lui tendre,</l>
+                        <l n="253"> Son cœur ne donne pas, je fais vœu de me prendre,</l>
+                        <l n="254"> Je vous cherchais, Monsieur.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIDAMIS. </speaker>
+                        <l n="255"> Qu’est ce que tu me veux ?</l>
+                        <l n="256"> Est-ce pour me tenir des discours amoureux ?</l>
+                        <l n="257"> Je t’en ai déjà fait une défense expresse,</l>
+                        <l n="258"> Ce faquin vient toujours me parler de maîtresse.</l>
+                        <l n="259"> Il faut qu’on l’ait payé sûrement pour cela :</l>
+                        <l n="260"> Il m’étourdit toujours de ces fadaises-là.</l>
+                        <l n="261"> Mais, si tu viens encor pour me parler de femme,</l>
+                        <l n="262"> Maraud, sous le baron je te fais rendre l’âme.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="263"> Monsieur, cela suffit.</l>
+                </sp>
+        <sp who="#climadis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="264"> J’aime trop mon repos ;</l>
+                        <l n="265"> Et l’amour entre nous n’est bon que pour les sots.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="266"> Monsieur, c’est fort bien dit. Parlons donc d’autre chose.</l>
+                        <l n="267"> Votre ami le Gascon aujourd’hui le propose</l>
+                        <l n="268"> De réduire Lucile, et prétend l’épouser.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="269"> Parbleu, dans son calcul il pourrait s’abuser.</l>
+                        <l n="270"> Lucile n’aime rien : elle est trop raisonnable</l>
+                        <l n="271"> Pour donner de ses jours dans un faible semblable.</l>
+                        <l n="272"> L’amour est à son cœur aussi fade qu’au mien.</l>
+                        <l n="273"> Mais qu’il s’en fasse aimer, s’il peut... Je le veux bien.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="274"> Bon, elle a le cœur pris pour un autre.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="275"> Quel conte !</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="276"> Et son air fier en tient à présent pour son compte.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="277"> Et d’où sais-tu cela ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="278"> D’elle-même.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="279"> Qui, toi ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="280"> Oui, nous avons parlé là-dessus elle et moi.</l>
+                        <l n="281"> Déjà sa passion est montée à l’extrême.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="282"> Et dis-moi, connais-tu la personne qu’elle aime ?</l>
+                        <l n="283"> Est-ce un homme bien fait ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="284"> Oui, le mieux fait de tous.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="285"> Aimable ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="286"> Fort aimable.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="287"> Et quel est-il ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="288"> C’est vous ?</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="289"> Maraud !</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="290"> Comment, maraud ! C’est la vérité pure.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="291"> Oses-tu soutenir une telle imposture ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="292"> Rien n’est plus vrai, Monsieur ; écoutez seulement :</l>
+                        <l n="293"> Elle m’a fait venir dans son appartement,</l>
+                        <l n="294"> Elle m’a demandé d’abord de vos nouvelles ;</l>
+                        <l n="295"> Si vous étiez toujours aussi froid pour les belles ;</l>
+                        <l n="296"> Que c’était grand dommage, avec un air de Cour,</l>
+                        <l n="297"> D’avoir un cœur farouche et rebelle à l’amour :</l>
+                        <l n="298"> Que vous étiez bien fait, charmant, digne d’estime ;</l>
+                        <l n="299"> Mais que l’indifférence en vous était un crime :</l>
+                        <l n="300"> Que ce qu’elle en disait ne la regardait pas ;</l>
+                        <l n="301"> Mais que le sexe entier en murmurait tout bas :</l>
+                        <l n="302"> Que son cœur était froid tout autant que le vôtre ;</l>
+                        <l n="303"> Que c’était bien en l’un, et c’était mal en l’autre :</l>
+                        <l n="304"> Qu’elle, elle avait raison de blâmer les amours.</l>
+                        <l n="305"> Mais pour moi, dans ses yeux, comme dans ses discours,</l>
+                        <l n="306"> Je voyais clairement sa passion naissante,</l>
+                        <l n="307"> Et qu’elle n’était plus pour vous indifférente.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="308"> Je ne puis revenir de mon étonnement.</l>
+                        <l n="309"> Mais, Merlin, c’est tant pis pour, elle assurément,</l>
+                        <l n="310"> Je connais là-dessus mon humeur naturelle ;</l>
+                        <l n="311"> Et je n’aurai jamais aucun retour pour elle.</l>
+                        <l n="312"> Je mourrais, si j’avais le faible de l’aimer.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="313"> Mon Dieu, ne jurez point : elle peut vous charmer.</l>
+                        <l n="314"> Savez-vous qu’elle est belle, et qu’elle est très aimable ?</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="315"> Oh pour aimable, non : elle est assez passable.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="316"> Elle a des yeux parlants, vifs, brillants, pleins de feu.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIDAMIS. </speaker>
+                        <l n="317"> Elle, les yeux brillants ! elle les a fort peu.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="318"> Elle a l’esprit divin, la taille fort mignonne.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIDAMIS. </speaker>
+                        <l n="319"> Je la trouve commune en toute sa personne.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="320"> Et je serais bien fier à votre place, moi,</l>
+                        <l n="321"> Si j’avais su ranger un tel cœur sous ma loi.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="322"> Mais ce que tu me dis est-il bien véritable ?</l>
+                        <l n="323"> Est-il sûr qu’en effet elle me trouve aimable ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="324"> Comment, vous en doutez ?</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="325"> Parbleu, je n’en crois rien.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="326"> Avec elle, pour voir, ayez un entretien...</l>
+                        <l n="327"> Ah, tenez, par plaisir, il faut faire une chose,</l>
+                        <l n="328"> D’un si prompt changement pour apprendre la cause.</l>
+                        <l n="329"> Je voudrais lui jouer un assez plaisant tour :</l>
+                        <l n="330"> Je feindrais de sentir pour elle un peu d’amour ;</l>
+                        <l n="331"> Je viendrais lui conter mille douceurs nouvelles,</l>
+                        <l n="332"> Et même à ses genoux j’en dirais des plus belles.</l>
+                        <l n="333"> Lucile donnera d’abord dans le panneau.</l>
+                        <l n="334"> Et pour vous, jouissant d’un triomphe si beau,</l>
+                        <l n="335"> Vous vous applaudirez dans le fond de votre âme</l>
+                        <l n="336"> D’avoir d’un cœur glacé fait un cœur tout de flamme ;</l>
+                        <l n="337"> Et vous pourrez en rire après tout à loisir.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="338"> Parbleu, je voudrais bien me donner ce plaisir.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN, à part. </speaker>
+                        <l n="339"> Bon ! il donne dedans : c’est ce que je demande.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="340"> En vérité, Merlin, sa faiblesse est bien grande !</l>
+                        <l n="341"> Peut-on avoir si peu de force dans l’esprit ?</l>
+                        <l n="342"> À sa place, pour moi, je mourrais de dépit.</l>
+                        <l n="343"> Oh parbleu, j’aurai bien plus de soin de ma gloire.</l>
+                        <l n="344"> Mais pour mieux m’éclaircir, je veux lui faire accroire</l>
+                        <l n="345"> Que de ses agréments mon cœur est enchanté,</l>
+                        <l n="346"> Et par ce tour adroit savoir la vérité.</l>
+            <stage><em>En riant. </em></stage>
+                        <l n="347"> Que dans le fond du cœur je vais me moquer d’elle !</l>
+                        <l n="348"> Ah, la plaisante chose !</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="349"> Elle est assez nouvelle.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS, riant toujours. </speaker>
+                        <l n="350"> Ah palsambleu, j’espère en rire plus d’un jour...</l>
+                        <l n="351"> Viens, Merlin : allons voir, pour bien feindre l’amour,</l>
+                        <l n="352"> Quel chemin, et quel ton à peu près il faut prendre.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN, à part. </speaker>
+                        <l n="353"> Il est dans le panneau que je lui voulais tendre :</l>
+                        <l n="354"> De son côté Nérine aura fait son devoir....</l>
+                        <l n="355"> Mais allons jusqu’au bout ; c’est où je les veux voir.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="356"> Nérine vient. Hé bien, comment va notre affaire ?</l>
+                        <l n="357"> Car enfin ton secours ici m’est nécessaire.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="358"> J’ai fait tomber Lucile enfin dans mes filets.</l>
+                        <l n="359"> Elle croie Cadrons épris de ses attraits :</l>
+                        <l n="360"> Elle a fait là-dessus de grands éclats de rire.</l>
+                        <l n="361"> Hé bien, puisque j’ai su sans dessein le réduire,</l>
+                        <l n="362"> Je veux, m’a-t elle dit, pour flatter son amour,</l>
+                        <l n="363"> Affecter par plaisir d’avoir quelque retour.</l>
+                        <l n="364"> Je viens de la laisser. Elle rit, elle danse,</l>
+                        <l n="365"> Et compose des airs sur son indifférence.</l>
+                        <l n="366"> Je l’entends... Elle va se rendre ici dans peu.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="367"> Et moi, je vais trouver mon Maître... Sans adieu.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#lucile">
+            <speaker> LUCILE, en entrant chante. </speaker>
+                        <l n="368"> Non, je ne veux jamais aimer :</l>
+                        <l n="369"> L’amour fait trop verser de larmes.</l>
+                        <l n="370"> Les plus cruels tourments suivent ses plus doux charmes.</l>
+                        <l n="371"> Comment peut-on se laisser enflammer !</l>
+                        <l n="372"> Non, je ne veux jamais aimer.</l>
+                        <l n="373"> Je ris, je chante, je badine :</l>
+                        <l n="374"> Si les amants sont fins, je suis encor plus fine :</l>
+                        <l n="375"> Jamais aucun ne saura me charmer.</l>
+                        <l n="376"> Non, je ne veux jamais aimer.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="377"> Vous riez, vous chantez ; oubliez-vous, Madame,</l>
+                        <l n="378"> Les maux de Clidamis, et sa nouvelle flamme ?</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="379"> Hé quoi, sans le vouloir, j’ai donc su l’enflammer ?</l>
+                        <l n="380"> Tu dis qu’il n’a pu voir mes attraits sans m’aimer ?</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="381"> Oui, Madame ; et vos yeux en ont toute la gloire.</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="382"> Que je sens de plaisir d’une telle victoire !</l>
+                        <l n="383"> Non que je veuille aimer ; mais c’est par vanité.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="384"> Il faut que vous n’ayez guères de charité.</l>
+                        <l n="385"> Clidamis sent pour vous la plus vive tendresse,</l>
+                        <l n="386"> Et sans vous il n’aurait jamais eu de faiblesse ;</l>
+                        <l n="387"> Et vous voyez cela sans vous en attendrir ?</l>
+                        <l n="388"> Vous ne vous rendez point ?</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="389"> J’aimerais mieux mourir</l>
+                        <l n="390"> Et qu’est ce que l’amour ? Une pure folie.</l>
+                        <l n="391"> Nérine, j’ai fait vœu de n’aimer de ma vie.</l>
+                        <l n="392"> Tu dis que Clidamis doit venir en ce lieu</l>
+                        <l n="393"> De son nouvel amour me faire un tendre aveu :</l>
+                        <l n="394"> Je l’attends, et je veux par une adresse extrême</l>
+                        <l n="395"> Le duper, et lui faire accroire que je l’aime.</l>
+                        <l n="396"> Il me croira peut-être ; et j’aurai le plaisir</l>
+                        <l n="397"> De me moquer après de lui tout à loisir.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="398"> Quoi, vous moquer encor ! ma foi, c’est conscience.</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="399"> J’en conviens : car enfin, je t’en fais confidence,</l>
+                        <l n="400"> Si le Ciel m’avait fait un cœur plus animé,</l>
+                        <l n="401"> Il me semble, entre nous, que je l’aurais aimé.</l>
+                        <l n="402"> Pour les hommes tu sais combien forte est ma haine ;</l>
+                        <l n="403"> Mais je vois celui-là sans contrainte et sans peine.</l>
+                        <l n="404"> Je l’estime même.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="405"> Oui ?</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="406"> Mais je ne l’aime pas.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="407"> De l’estime à l’amour vous n’avez plus qu’un pas.</l>
+                        <l n="408"> Mais c’est cet homme-ci qui saura bien vous plaire.</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="409"> Qui donc ?</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="410"> Le Chevalier de la Fanfaronnière.</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="411"> Bonjour, la belle enfant, dites la bérité,</l>
+                        <l n="412"> Ma présence bous ba rabir la liberté !</l>
+                        <l n="413"> Sandis, c’est pour lé coup que bous allez bous rendre.</l>
+                        <l n="414"> Botre mutin dé cœur beut en bain se défendre ;</l>
+                        <l n="415"> Il commence déjà très fort à s’ébranler.</l>
+                        <l n="416"> Et donc ! ce petit cœur beut-il capituler ?</l>
+                        <l n="417"> Serai-jé lé bainqueur dé la belle Lucile ?</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="418"> Monsieur le Chevalier, en un mot comme en mille,</l>
+                        <l n="419"> Votre mérite seul peut vous faire estimer :</l>
+                        <l n="420"> Mais beaucoup moins qu’un autre il saura me charmer :</l>
+                        <l n="421">  Je vous en avertis.</l>
+                </sp>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="422"> Pourquoi feindre, Madame ?</l>
+                        <l n="423"> Jé connais dans les yeux lés moubéments de l’âme ;</l>
+                        <l n="424"> Et déjà mon abord bient dé bous mettre en feu.</l>
+                        <l n="425"> J’ai dé botre maman la parole et l’abeu.</l>
+                        <l n="426"> À ma possession mille femmes aspirent :</l>
+                        <l n="427"> Toutes beulent m’aboir, toutes brûlent, soupirent ?</l>
+                        <l n="428"> Je bous préfère à tout : bous êtes mon trésor,</l>
+                        <l n="429"> Et comme à la plus belle, à bous la pomme d’or.</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="430"> Qui, moi ? Je n’en veux point, vous dis-je.</l>
+                </sp>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="431"> La rusée !</l>
+                        <l n="432"> Sa réponse est, ma foi, bien loin dé la pensée.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="433"> Vous croyez donc, Monsieur, qu’on vous aime ?</l>
+                </sp>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="434"> Oui braiment.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="435"> Et bien vous vous trompez, Monsieur, très lourdement.</l>
+                        <l n="436"> Et l’on verrait bientôt la fin de la nature,</l>
+                        <l n="437"> Si j’étais seule au monde avec votre figure.</l>
+                </sp>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="438"> Ah sotte, tu mens bien.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="439"> Non, ma foi.</l>
+                </sp>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="440"> Mais pour bous,</l>
+                        <l n="441"> La belle, je beux être aujourd’hui botre époux.</l>
+                        <l n="442"> Je crois qu’ayant tous deux une allez bonne grâce,</l>
+                        <l n="443"> Il sortira dé nous une assez belle race.</l>
+                        <l n="444"> Dites, qu’en pensez-bous ?</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="445"> Ah quel extravagant.</l>
+                </sp>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="446"> Bous né répondez rien : qui né dit mot consent ;</l>
+                        <l n="447"> Adieu. Je bais trouber botre mère Araminte,</l>
+                        <l n="448"> Lui dire qu’abec moi bous employez la feinte ;</l>
+                        <l n="449"> Que n’osant par fierté déclarer botre amour,</l>
+                        <l n="450"> Bous brûlez de m’aboir pour époux dès ce jour.</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="451"> Je ne veux point de vous, encor un coup.</l>
+                </sp>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="452"> Quel conte !</l>
+                        <l n="453"> Jé bais faire dresser lé contrat à bon compte ;</l>
+                        <l n="454"> Car enfin bous m’aimez, jé m’en aperçois bien</l>
+                        <l n="455"> Bous diriez cent fois non, qué jé n’en croirais rien.</l></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="456"> Ce fou pourra gagner l’esprit de votre mère.</l>
+                        <l n="457"> Et peut-être iront-ils après chez le Notaire.</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="458"> On ne forcera point mon inclination.</l>
+                        <l n="459"> Parlons de Clidamis, et de sa passion.</l>
+                        <l n="460"> Quoi ! cet indifférent devient sensible ? il m’aime ?</l>
+                        <l n="461"> Je n’en puis revenir.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="462"> On entre... C’est lui même.</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="463"> Que je vais en secret me bien moquer de lui.</l></div>
+        <div type="scene" xml:id=" X ">
+            <head> Scène X </head>
+        <sp who="#merlin">
+            <speaker> MERLIN, bas à son Maître. </speaker>
+                        <l n="464"> Vous voulez donc, Monsieur, rire aux dépens d’autrui ?</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS, à part. </speaker>
+                        <l n="465"> Je veux voir par plaisir tout ce qu’elle a dans l’âme ;</l>
+                        <l n="466"> S’il est vrai que l’amour li fortement l’enflamme :</l>
+                        <l n="467"> Et j’en veux rire après dans le fond de mon cœur.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN, bas. </speaker>
+                        <l n="468"> Dans ses yeux inquiets on voit sa folle ardeur.</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE, à Nérine. </speaker>
+                        <l n="469"> Vois-tu son embarras ? Il veut parler, il n’ose.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIDAMIS, à part. </speaker>
+                        <l n="470"> Parbleu, voyons comment elle prendra la chose.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN, bas, à part. </speaker>
+                        <l n="471"> Allons, Monsieur, feignez d’être bien amoureux.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE, à part. </speaker>
+                        <l n="472"> Vous, Madame, feignez de répondre à ses feux.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIDAMIS, venant précipitamment vers Lucile. </speaker>
+                        <l n="473"> Madame, quel bonheur vous présente à ma vue ?</l>
+                        <l n="474"> Quoi c’est vous ! Mais, ô Ciel ! que mon âme est émue !</l>
+                        <l n="475"> Que le feu de vos yeux, que vos divins appas</l>
+                        <l n="476"> Font naître dans mon cœur de différents combats !</l>
+                        <l n="477"> Que je suis malheureux !</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="478"> Vous, malheureux ?</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="479"> Madame,</l>
+                        <l n="480"> Si vous pouviez savoir le secret de mon âme...</l>
+                        <l n="481"> Mais ce sont des tourments que je dois renfermer.</l>
+                        <l n="482"> L’amour ne permet pas qu’on ose vous aimer.</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="483"> Comment ? Que dites-vous ?... Quoi, serait-il possible</l>
+                        <l n="484"> Que mon peu de beauté vous eût rendu sensible ?</l>
+                        <l n="485"> Je n’ose me flatter d’un bonheur si parfait.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIDAMIS, riant. </speaker>
+                        <l n="486"> Elle donne dedans, Merlin.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="487"> Oh, tout à fait.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIDAMIS. </speaker>
+                        <l n="488"> L’ai-je bien entendu ? Quoi, charmante Lucile,</l>
+                        <l n="489"> L’accès dans votre cœur me serait-il facile ?</l>
+                        <l n="490"> Vous n’osez, dites vous, vous flatter du bonheur</l>
+                        <l n="491"> De me voir votre amant, de régner dans mon cœur</l>
+                        <l n="492"> Que cet aveu me plaît dans votre belle bouche !</l>
+                        <l n="493"> Sans vous toujours mon cœur aurait été farouche :</l>
+                        <l n="494"> Vos yeux l’ont feu toucher par leurs attraits puissants.</l>
+                        <l n="495"> Et je leur sais bon gré des plaisirs que je sens.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE, à part. </speaker>
+                        <l n="496"> Madame, voyez-vous ? Il gobe la pilule.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN, part à Clidamis. </speaker>
+                        <l n="497"> Continuez toujours, puisqu’elle est si crédule.</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE, riant. </speaker>
+                        <l n="498"> Cela me divertir ; car il le prend fort bien.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="499"> Que dites-vous, Madame ?</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="500"> Hélas ! je ne dis rien,</l>
+                        <l n="501"> Je tremble seulement que toutes vos paroles</l>
+                        <l n="502"> Ne soient, pour mon malheur, que des discours frivoles.</l>
+                        <l n="503"> Peut-être parlez-vous d’amour sans le sentir,</l>
+                        <l n="504"> Clidamis, vous voulez ici vous divertir.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIDAMIS, aux genoux de Lucile, faisant le passionné. </speaker>
+                        <l n="505"> Moi, je feindrais d’aimer ! ah Ciel ! qu’elle injustice !</l>
+                        <l n="506"> Quoi, voudrais-je avec vous employer l’artifice ?</l>
+                        <l n="507"> Faut-il vous le jurer, Madame, à vos genoux ?</l>
+                        <l n="508"> Mon cœur n’aime, ne veut, n’idolâtre que vous ;</l>
+                        <l n="509"> J’en jure par vos yeux, par ces yeux adorables</l>
+                        <l n="510"> Dont le moindre regard fait tant de misérables.</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE, soupirant. </speaker>
+                        <l n="511"> Ah, Nérine !</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="512"> Quoi donc ?</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE, à Nérine. </speaker>
+                        <l n="513"> Je ne sais où j’en suis.</l>
+                        <l n="514"> Je voulais le railler, je sens que je ne puis.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="515"> Hé quoi, dans un moment ce cœur n’est plus de glace ?</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE, toute déconcertée. </speaker>
+                        <l n="516"> Clidamis, levez-vous... j’abandonne la place.</l>
+                        <l n="517"> Un trouble affreux m’agite... Ah, Nérine, suis-moi.</l>
+                        <l n="518"> Ciel ! fallait-il le voir ?</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="519"> Elle en tient, par ma foi.</l></div>
+        <div type="scene" xml:id=" XI ">
+            <head> Scène XI </head>
+        <sp who="#merlin">
+            <speaker> MERLIN, riant. </speaker>
+                        <l n="520"> Ah que voilà, Monsieur, un beau sujet pour rire !</l>
+                        <l n="521"> D’une telle faiblesse, hé bien, qu’allez-vous dire ?</l>
+                        <l n="522"> Riez donc... vous rêvez... vous ne répondez rien.</l>
+                        <l n="523"> Ah, vous l’aimez.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIDAMIS. </speaker>
+                        <l n="524"> Moi, non : mais, Merlin, sais-tu bien</l>
+                        <l n="525"> Qu’à bien l’examiner elle est assez aimable.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="526"> Oh pour aimable, non : elle est assez passable.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIDAMIS. </speaker>
+                        <l n="527"> Elle a des yeux parlants, vifs, brillants, pleins de feu.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="528"> Elle, les yeux brillants ! elle les a fort peu.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIDAMIS. </speaker>
+                        <l n="529"> Elle a l’esprit divin, la taille fort mignonne.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="530"> Fi donc ! elle est commune en toute sa personne.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="531"> As-tu bien remarqué, Merlin, son embarras ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="532"> Et vous dites, Monsieur, que vous ne l’aimez pas ?</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="533"> Non vraiment.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="534"> Pourquoi donc en faites-vous l’éloge ;</l>
+                        <l n="535"> Vous me croyez donc dupe, ou bien un Allobroge ?</l>
+                        <l n="536"> Et ; morbleu, vous l’aimez ; et je m’en aperçois.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="537"> Ah, mon pauvre Merlin, je le crois comme toi.</l>
+                        <l n="538"> En feignant à ses pieds une sincère flamme,</l>
+                        <l n="539"> L’amour adroitement s’est glissé dans mon âme ;</l>
+                        <l n="540"> Et ce Dieu, dont je suis ta victime aujourd’hui,</l>
+                        <l n="541"> Venge tous les mépris que je faisais de lui.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="542"> Je vous l’avais prédit ; vous avez pu m’entendre ;</l>
+                        <l n="543"> Il ne faut en amour qu’un moment pour se rendre.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="544"> Quoi, l’amour que j’éprouve est l’effet d’un moment !</l>
+                        <l n="545"> Et pour surcroit de maux j’aime encor mon tourment !</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN, à part. </speaker>
+                        <l n="546"> Ma foi, je savais bien avec mon stratagème</l>
+                        <l n="547"> Qu’ils s’aimeraient tous deux.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="548"> Mon amour est extrême ;</l>
+                        <l n="549"> Allons trouver sa mère et mon oncle au plutôt,</l>
+                        <l n="550"> Mon cher Merlin ; je vais les prier comme il faut</l>
+                        <l n="551"> D’accorder à mes vœux la charmante Lucile.</l>
+                        <l n="552"> Sans sa possession je ne suis plus tranquille :</l>
+                        <l n="553"> Je meurs si nos parents nous séparent tous deux.</l>
+                        <l n="554"> Ah, que par cet hymen je deviendrais heureux !</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="555"> De Lucile, Monsieur, je vois venir la mère</l>
+                        <l n="556"> Avec le Chevalier de la Fanfaronnière.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="557"> Comment l’entretenir de mon nouvel amour ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="558"> Quand on aime, Monsieur, on ne reste pas court.</l></div>
+        <div type="scene" xml:id=" XII ">
+            <head> Scène XII </head>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="559"> Ah, mon cher, té boilà ; je brûlais dé t’apprendre</l>
+                        <l n="560"> Que Madame aujourd’hui m’a choisi pour son gendre.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIDAMIS, surpris. </speaker>
+                        <l n="561"> Quoi, Madame, est il vrai ? Vous allez marier</l>
+                        <l n="562"> Votre adorable fille avec le Chevalier ?</l>
+                </sp>
+        <sp who="#araminte">
+            <speaker> ARAMINTE, à Clidamis. </speaker>
+                        <l n="563"> La chose est résolue, et déjà le Notaire</l>
+                        <l n="564"> A dressé le contrat pour terminer l’affaire.</l>
+                        <l n="565"> J’avais promis Lucile à votre oncle pour vous ;</l>
+                        <l n="566"> Notre dessein était de vous voir son époux ;</l>
+                        <l n="567"> Je cherchais avec joie une telle alliance ;</l>
+                        <l n="568"> Mais rien n’est comparable à votre indifférence ;</l>
+                        <l n="569"> Et ma fille sur tout est pour vous sans appas.</l>
+                        <l n="570"> Je vois bien, Clidamis, qu’elle ne vous plaît pas,</l>
+                        <l n="571"> Ce jour même Merlin s’est fait fort que Lucile</l>
+                        <l n="572"> Pourrait vous enflammer ; mais c’est peine inutile ;</l>
+                        <l n="573"> Je ne veux point forcer les inclinations,</l>
+                        <l n="574"> Et ma fille prendra mes résolutions,</l>
+                        <l n="575"> Votre oncle désirait qu’elle fût votre femme ;</l>
+                        <l n="576"> Mais un autre en ce jour a su toucher son âme.</l>
+                        <l n="577"> Le sort le veut ainsi... Je vous laisse en ce lieu,</l>
+                        <l n="578"> Et je m’en vais mander notre Notaire... Adieu.</l></div>
+        <div type="scene" xml:id=" XIII ">
+            <head> Scène XIII </head>
+        <sp who="#clidamis">
+            <speaker> CLIDAMIS. </speaker>
+                        <l n="579"> Ah, Merlin, faut-il perdre ainsi tout ce que j’aime ?</l>
+                        <l n="580"> J’ai des tentations de me tuer moi-même.</l>
+                </sp>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="581"> Qu’as-tu ? tu parles seul, tu jures dans tes dents.</l>
+                        <l n="582"> Sur ma bictoire au moins fais-moi des compliments ;</l>
+                        <l n="583"> Bois comme j’ai soumis cette beauté féroce.</l>
+                        <l n="584"> Mé feras-tu l’honneur dé bénir à ma noce ?</l>
+                        <l n="585"> Je t’y beux boir danser et boire comme un trou.</l>
+                        <l n="586"> Tu né mé réponds rien : Cadédis, es-tu fou ?</l>
+                        <l n="587"> Tu mé parais aboir quelques soins dans la tête :</l>
+                        <l n="588"> Apprends-lés moi.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="589"> Monsieur, votre noce s’apprête :</l>
+                        <l n="590"> Mon Maître a du chagrin, laissez-nous un moment.</l>
+                </sp>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="591"> Jé né lé quitte point. Qu’est-ce à dire ? comment ?</l>
+                        <l n="592"> Es-tu fâché, dis-moi, qué j’épouse Lucile ?</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="593"> Hé laissez-moi, Monsieur.</l>
+                </sp>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER, fièrement. </speaker>
+                        <l n="594"> Ah, rien n’est plus facile :</l>
+                        <l n="595"> Jé bous laisse, Monsieur, avec votre air grognard :</l>
+                        <l n="596"> Bous né méritez pas que l’on y prenne part.</l></div>
+        <div type="scene" xml:id=" XIV ">
+            <head> Scène XIV </head>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="597"> Merlin.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="598"> Monsieur.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="599"> Tu vois comme le sort m’accable ;</l>
+                        <l n="600"> Dis-moi, vit-on jamais amant misérable ?</l>
+                        <l n="601"> À peine de l’amour je goute les douceurs,</l>
+                        <l n="602"> Qu’il me fait aussitôt éprouver ses rigueurs :</l>
+                        <l n="603"> Tout ce que je craignais, par un malheur étrange,</l>
+                        <l n="604"> M’arrive dans ce jour.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="605"> Monsieur, l’amour se venge.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="606"> Mais crois-tu que Lucile aime le Chevalier ?</l>
+                        <l n="607"> Penses-tu que sitôt elle ait pu m’oublier ?</l>
+                        <l n="608"> Qu’en crois-tu ? dis donc.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="609"> Moi ? je crois qu’elle vous aime ;</l>
+                        <l n="610"> Et vous pouvez, Monsieur, le savoir d’elle-même</l>
+                        <l n="611"> Ici fort à propos elle tourne ses pas.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIDAMIS. </speaker>
+                        <l n="612"> Parlons-lui pour sortir au plutôt d’embarras.</l></div>
+        <div type="scene" xml:id=" XV ">
+            <head> Scène XV </head>
+        <sp who="#lucile">
+            <speaker> LUCILE, à part, à Nérine. </speaker>
+                        <l n="613"> Ah ! pourquoi, m’as-tu dit que j’en étais aimée ?</l>
+                        <l n="614"> Je sens que maintenant mon âme en est charmée :</l>
+                        <l n="615"> Oui, je l’aime à mon tour.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="616"> Ah, Merlin, entends-tu ?</l>
+                        <l n="617"> Elle l’aime, dit-elle : ah Ciel ! je suis perdu.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="618"> Bon ! Monsieur, c’est de vous qu’elle parle.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="619"> Ah, Madame,</l>
+                        <l n="620"> Sur un soupçon cruel éclaircissez mon âme.</l>
+                        <l n="621"> L’on donne au Chevalier votre main en ce jour :</l>
+                        <l n="622"> Il vous a su, dit-il, inspirer de l’amour.</l>
+                        <l n="623"> Quoi, ne serais-je aimé de vous qu’en apparence ?</l>
+                        <l n="624"> Et m’auriez-vous flatté d’une vaine espérance ?</l>
+                        <l n="625"> Vous ne répondez point... mon malheur est certain.</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="626"> Que vous importe à qui l’on destine ma main ?</l>
+                        <l n="627"> Non, vous ne m’aimez pas, et vous vous contrefaites :</l>
+                        <l n="628"> Je puis le présumer, de l’humeur dont vous êtes.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="629"> C’est plutôt vous, Madame, et je le vois fort bien,</l>
+                        <l n="630"> Qui feigniez de m’aimer lorsqu’il n’en était rien.</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="631"> Ah, c’est vous, Clidamis.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="632"> Bon, voici du grabuge.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE, se mettant entre eux deux. </speaker>
+                        <l n="633"> Sur votre différend ii faut que je vous jugé :</l>
+                        <l n="634"> Je vais vous expliquer si dans le fond du cœur</l>
+                        <l n="635"> Vous sentez l’un pour l’autre une sincère ardeur.</l>
+                        <l n="636"> J’ai servi fort longtemps un fameux Alchimiste,</l>
+                        <l n="637"> Et qui surtout était bon Physionomiste :</l>
+                        <l n="638"> Il m’a souvent montré des règles de son art ;</l>
+                        <l n="639"> Et je vais dans vos yeux, avec un seul regard,</l>
+                        <l n="640"> Savoir si vous avez du penchant l’un pour l’autre.</l>
+                        <l n="641"> Donnez-moi votre main ; et vous, donnez la vôtre.</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE, retirant sa main. </speaker>
+                        <l n="642"> Mais, Nérine...</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="643"> Mon Dieu, faites ce que je di.</l>
+                        <l n="644"> Vous, Monsieur Clidamis, soyez assez hardi</l>
+                        <l n="645"> Pour baiser cette main, si votre cœur l’adore.</l>
+                        <l n="646"> Bon... Encor une fois... Fort bien. Baisez encore.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="647"> Que Diable fais-tu donc ? Ah, pour le coup voilà</l>
+                        <l n="648"> Un assez plaisant art que l’on t’a montré là.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="649"> Tais-toi, Butor... Voyons un peu, Mademoiselle.</l>
+                        <l n="650"> Comment ! peste ! le feu dans vos yeux étincelle.</l>
+                        <l n="651"> Que je vous voie aussi, vous. Ah, vous rougissez ;</l>
+                        <l n="652"> Et vous avez tous deux des airs embarrassés :</l>
+                        <l n="653"> Allez, vous vous aimez tous deux à la folie.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="654"> Oui, je l’aime, et je veux l’aimer toute ma vie.</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="655"> Et cet amour fera tous mes vœux les plus doux.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="656"> Un autre cependant doit être votre époux ;</l>
+                        <l n="657"> Belle Lucile, hélas ! Sachez que votre mère</l>
+                        <l n="658"> Doit bientôt en ces lieux amener le Notaire.</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="659"> Non, à d’autre qu’à vous je ne serai jamais.</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS. </speaker>
+                        <l n="660"> Promettez-le moi donc.</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="661"> Oui, je vous le promets.</l></div>
+        <div type="scene" xml:id=" XVI ">
+            <head> Scène XVI </head>
+        <sp who="#un-notaire">
+            <speaker> LE NOTAIRE, à Araminte. </speaker>
+                        <l n="662"> Madame, en bon état vous trouverez les choses.</l>
+                        <l n="663"> J’ai selon vos souhaits dresse toutes les clauses.</l>
+                </sp>
+        <sp who="#orgon">
+            <speaker> ORGON, à Araminte. </speaker>
+                        <l n="664"> Qui vous presse, Madame, et pourquoi vous hâter ?</l>
+                        <l n="665"> Dans un semblable hymen il faut plus consulter.</l>
+                        <l n="666"> Mon Neveu conviendrait mieux à votre famille.</l>
+                </sp>
+        <sp who="#araminte">
+            <speaker> ARAMINTE. </speaker>
+                        <l n="667"> C’est un indifférent qui n’aime point ma fille.</l>
+                </sp>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="668"> Parbleu, qu’il l’aime, ou non ; s’agit-il dé cela ?</l>
+                        <l n="669"> La belle enfant, boyez botre époux, lé boilà.</l>
+                        <l n="670"> Bientôt bous jouirez dé toute ma personne.</l>
+                        <l n="671"> Elle en rit dans son âme... Ah, petite friponne</l>
+                        <l n="672"> Tu boudrais bien déjà mé tenir dans tes bras.</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="673"> Monsieur, ces sots discours ne me conviennent pas.</l>
+                        <l n="674"> Qui vous ! J’aimerais mieux mille fois être morte,</l>
+                        <l n="675"> Que d’avoir, pour époux un homme de la sorte.</l>
+                </sp>
+        <sp who="#araminte">
+            <speaker> ARAMINTE. </speaker>
+                        <l n="676"> Quoi, Chevalier, tantôt ne m’avez-vous pas dit,</l>
+                        <l n="677"> Que vous aviez gagné son cœur et son esprit ?</l>
+                </sp>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="678"> Sans doute.</l>
+                </sp>
+        <sp who="#araminte">
+            <speaker> ARAMINTE. </speaker>
+                        <l n="679"> Cependant vous l’entendez vous-même ?</l>
+                </sp>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="680"> Elle dit toujours non ; mais je sais qu’elle m’aime.</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="681"> Sachez plutôt, Monsieur, qu’à votre air suffisant</l>
+                        <l n="682"> Vous passerez partout pour un extravagant.</l>
+                </sp>
+        <sp who="#le-chevalier-de-la-fanfaronnière">
+            <speaker> LE CHEVALIER. </speaker>
+                        <l n="683"> Quoi, des airs méprisants ! Boyez la ridicule.</l>
+                        <l n="684"> Ma foi, dé l’épouser jé mé serais scrupule.</l>
+                        <l n="685"> Jé la mets au dessous dé mes ressentiments :</l>
+                        <l n="686"> Elle né connaît pas lé mérite des gens.</l>
+                        <l n="687"> Assez d’autres sans elle aspirent à mé plaire.</l>
+                        <l n="688"> Bous né méritez pas qu’on se mette en colère.</l>
+            <stage><em>Riant. </em></stage>
+                        <l n="689"> Ah, que boilà des gens bien sots et bien confus !</l>
+                        <l n="690"> Ils perdent leur fortune en né mé tenant plus.</l>
+            <stage><em>Il s’en va.</em></stage>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIDAMIS. </speaker>
+                        <l n="691"> Heureux événement pour un cœur plein de flammes !</l>
+                        <l n="692"> Ah, Madame, apprenez le secret de nos âmes :</l>
+                        <l n="693"> J’adore votre fille, et j’ose me flatter</l>
+                        <l n="694"> Que son cœur pour époux voudra bien m’accepter.</l>
+                        <l n="695"> N’y consentez-vous pas, adorable Lucile ?</l>
+                </sp>
+        <sp who="#lucile">
+            <speaker> LUCILE. </speaker>
+                        <l n="696"> Un tel consentement n’a rien de difficile,</l>
+                        <l n="697"> Puisque mon cœur s’en fait un bonheur trop charmant.</l>
+                </sp>
+        <sp who="#araminte">
+            <speaker> ARAMINTE. </speaker>
+                        <l n="698"> Comment ! vous m’étonnez !</l>
+                </sp>
+        <sp who="#orgon">
+            <speaker> ORGON. </speaker>
+                        <l n="699"> Quel nouveau changement !</l>
+                </sp>
+        <sp who="#araminte">
+            <speaker> ARAMINTE. </speaker>
+                        <l n="700"> L’agréable surprise ! Embrasse-moi, ma fille.</l>
+                </sp>
+        <sp who="#orgon">
+            <speaker> ORGON, à Clidamis. </speaker>
+                        <l n="701"> Embrasse-moi, toi : va, tu sors de ma famille.</l>
+                </sp>
+        <sp who="#araminte">
+            <speaker> ARAMINTE. </speaker>
+                        <l n="702"> Comment donc ont-ils pu changer sitôt d’humeur ?</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="703"> Je vous l’expliquerai : j’en suis le seul auteur.</l>
+                </sp>
+        <sp who="#araminte">
+            <speaker> ARAMINTE. </speaker>
+                        <l n="704"> Nous avons à propos avec nous le Notaire :</l>
+                        <l n="705"> Entrons et raisonnons pour conclure l’affaire.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="706"> Et qui de tous mes soins me récompensera ?</l>
+                </sp>
+        <sp who="#clidamis">
+            <speaker> CLIMADIS, s’en allant, et donnant la main à Lucile. </speaker>
+                        <l n="707"> Ne t’embarrasse point, c’est un soin qu’on aura.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN, à Nérine. </speaker>
+                        <l n="708"> Hé bien, dis-moi, Nérine, en ferons-nous de même ?</l>
+                        <l n="709"> Déjà depuis longtemps tu sais bien que je t’aime.</l>
+                </sp>
+        <sp who="#nérine">
+            <speaker> NÉRINE. </speaker>
+                        <l n="710"> Tope, je le veux bien.</l>
+                </sp>
+        <sp who="#merlin">
+            <speaker> MERLIN. </speaker>
+                        <l n="711"> Mon sort est trop heureux.</l>
+                        <l n="712"> Messieurs, l’on vient d’offrir un exemple à vos yeux :</l>
+                        <l n="713"> Vous voyez qu’on se rend lorsque moins on y pense.</l>
+                        <l n="714"> Ne vous vantez jamais de votre indifférence.</l>
+                        <l n="715"> Pour moi, Messieurs, de vous je vais prendre congé.</l>
+                        <l n="716"> L’amour est par mes soins triomphant et vengé. </l>
+                        <l n="717"> </l>
+                        <l n="718"> </l></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

@@ -1,0 +1,2191 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Molière</title>
+                <title type="sub">Comédie</title>
+            <author>
+                <persName>
+                    <forename>Alphonse-François</forename>
+                    <surname>Dercy</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/molière-alphonse-françois-dercy </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1828-01-15">Représentée pour la première fois, à Paris, sur le Théâtre-Français, le 15 de janvier 1828.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="le-directeur" sex="SEX">
+                            <persName>LE DIRECTEUR</persName>
+                        </person>
+                        <person xml:id="léon" sex="SEX">
+                            <persName>LÉON</persName>
+                        </person>
+                        <person xml:id="le-semainier" sex="SEX">
+                            <persName>LE SEMAINIER</persName>
+                        </person>
+                        <person xml:id="dorimeuil" sex="SEX">
+                            <persName>DORIMEUIL</persName>
+                        </person>
+                        <person xml:id="lord-palmer" sex="SEX">
+                            <persName>LORD PALMER</persName>
+                        </person>
+                        <person xml:id="monsieur-durville" sex="SEX">
+                            <persName>MONSIEUR DURVILLE</persName>
+                        </person>
+                        <person xml:id="monsieur-leclair" sex="SEX">
+                            <persName>MONSIEUR LECLAIR</persName>
+                        </person>
+                        <person xml:id="monsieur-bréval" sex="SEX">
+                            <persName>MONSIEUR BRÉVAL</persName>
+                        </person>
+                        <person xml:id="anaïs" sex="SEX">
+                            <persName>ANAÏS</persName>
+                        </person>
+                        <person xml:id="la-baronne-d’hermance" sex="SEX">
+                            <persName>LA BARONNE D’HERMANCE</persName>
+                        </person>
+                        <person xml:id="un-garçon-de-théatre" sex="SEX">
+                            <persName>UN GARÇON DE THÉATRE</persName>
+                        </person>
+                        <person xml:id="toute-la-comédie" sex="SEX">
+                            <persName>TOUTE LA COMÉDIE</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Comédie</term>
+                    <term> vers </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q40831]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">MOLIÈRE</titlePart>
+            <titlePart type="sub">COMÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre-Français, le 15 de janvier 1828.</ab><!--@date="1828-01-15"-->
+        </performance>
+    <div type="dedicace">
+            <opener>
+                <salute> À MADEMOISELLE MARS</salute>
+            </opener>
+        <p> Pardonnez si mes vers, faibles et vains essais  </p>
+        <p> À qui votre art puissant prêta quelque succès,  </p>
+        <p> Osent, pour mieux payer vos talents tutélaires,  </p>
+        <p> Parer de votre nom leurs pages téméraires.  </p>
+        <p> Ils ont chanté Molière ; ils étaient dus à Mars.  </p>
+        <p> De la critique ainsi séduisant les regards,  </p>
+        <p> Ma main sur ce papier avec orgueil allie  </p>
+        <p> Le chiffre de Molière au chiffre de Thalie.  </p>
+        <p> Accordez à ces vers ce sourire si doux ;  </p>
+        <p> Acceptez votre bien, quoiqu’indigne de vous.  </p>
+        <p> Votre art inimitable, aux plus faibles ouvrages  </p>
+        <p> Des spectateurs séduits peut gagner les suffrages ;  </p>
+        <p> Toujours il détourna le souffle meurtrier  </p>
+        <p> Qui d’un acteur novice eût flétri le laurier.  </p>
+        <p> Mais de quel bruit flatteur retentit le parterre  </p>
+        <p> Les jours où votre</span><span style="letter-spacing:-.3pt"> voix ressuscite Molière !  </p>
+        <p> Soit que vous retraciez les tours ingénieux  </p>
+        <p> D’Isabelle fuyant un Argus odieux ;  </p>
+        <p> Ou la séduction vertueuse et pudique  </p>
+        <p> D’Elmire sous les yeux d’un mari fanatique,  </p>
+        <p> Excitant avec art l’adultère désir </p>
+        <p> Du pieux suborneur forcé de se trahir ;  </p>
+        <p> Ou l’ingénuité d’une jeune pupille  </p>
+        <p> Aux leçons de l’amour ouvrant un cœur docile,  </p>
+        <p> Dont la malicieuse et perfide candeur  </p>
+        <p> Trompe naïvement l’adresse d’un tuteur ;  </p>
+        <p> Soit que vos traits charmants nous peignent  </p>
+        <p> Henriette, Son esprit naturel et sa grâce parfaite,  </p>
+        <p> Raillant avec douceur, ou, d’un air froid et sec,  </p>
+        <p> Esquivant un baiser tout infecté de grec ;  </p>
+        <p> Soit que votre art changeant à nos yeux représente  </p>
+        <p> La beauté dont l’humeur coquette et médisante  </p>
+        <p> Voit la misanthropie enchaînée à ses pieds,  </p>
+        <p> Inexcusable erreur que vous justifiez.  </p>
+        <p> Quand votre âme transmet le mouvement, la vie,  </p>
+        <p> À ces êtres divers, qu’enfanta le génie,  </p>
+        <p> Votre talent s’accroît, et ces heureux portraits  </p>
+        <p> Dans un nouvel éclat nous montrent vos attraits.  </p>
+        <p> De votre esprit alors la grâce est plus piquante,  </p>
+        <p> Vos yeux plus éloquents, votre voix plus touchante ;  </p>
+        <p> Et, lui rendant l’honneur qu’il vous fait recueillir,  </p>
+        <p> Par un heureux retour vous savez l’embellir.  </p>
+        <p> En faveur de Molière acceptez mon ouvrage  </p>
+        <p> Et ces vers où ma muse a rimé son hommage.  </p>
+        <p> Cette audace, il est vrai, ne convient qu’aux auteurs,  </p>
+        <p> Du Térence français illustres successeurs,  </p>
+        <p> À celui qui sur vous, d’un crayon si fidèle<a href="#_ftn1" name="_ftnref1" title="" id="_ftnref1"><span style="letter-spacing:-.3pt">[1]</span></a>,  </p>
+        <p> De la <i>Comédienne</i> a pris le vrai modèle ;  </p>
+        <p> Mais ces fameux esprits, l’honneur de notre temps,  </p>
+        <p> Du sommet de la gloire où règnent leurs talents,  </p>
+        <p> Encouragent parfois des confrères novices :  </p>
+        <p> Vous aussi, de ma plume acceptant les prémices,  </p>
+        <p> Abaissez un regard sur mon obscurité ;  </p>
+        <p> Comme eux pleine de gloire, imitez leur bonté.  </p>
+    </div>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="1"> Quel homme ! Montpellier voit par votre industrie </l>
+                        <l n="2"> Prospérer à la fois Melpomène, Thalie, </l>
+                        <l n="3"> Le malin vaudeville et le grave opéra ; </l>
+                        <l n="4"> Vous rimez au besoin... cet emploi vous tuera. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="5"> On doit plaire au public ; mais ma salle est petite ; </l>
+                        <l n="6"> C’est là mon seul chagrin. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="7"> Je vous en félicite. </l>
+                        <l n="8"> C’est un désagrément qu’on envierait ailleurs ; </l>
+                        <l n="9"> Tous les soirs elle est pleine ; ah ! que de directeurs </l>
+                        <l n="10"> Gémissent en voyant dans leurs trop vastes salles </l>
+                        <l n="11"> Deux ou trois spectateurs à de longs intervalles ! </l>
+                        <l n="12"> Aimez-vous mieux régir ces théâtres brillants </l>
+                        <l n="13"> Où fort à l’aise on peut s’ennuyer dix-huit cents ? </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="14"> Nous célébrons demain l’heureux anniversaire </l>
+                        <l n="15"> Du beau jour où la France a vu naître Molière. </l>
+                        <l n="16"> C’est pour nous un devoir ; car, s’il fut grand auteur, </l>
+                        <l n="17"> Il fut comédien encore et directeur </l>
+                        <l n="18"> Et celui qui fonda l’empire de Thalie </l>
+                        <l n="19"> Jusqu’à le gouverner abaissa son génie. </l>
+                        <l n="20"> Que dis-je ? Il le servit comme simple sujet : </l>
+                        <l n="21"> Pour être joué mieux, lui-même il se jouait. </l>
+                        <l n="22"> De ce patron commun honorons la mémoire : </l>
+                        <l n="23"> Il accroît tous les jours ma caisse et votre gloire. </l>
+                        <l n="24"> Ses chefs-d’œuvre, vainqueurs de toutes les saisons, </l>
+                        <l n="25"> Pour placer le public chassent nos Amphions </l>
+                        <l n="26"> Et mon œil même encor voit d’une foule immense </l>
+                        <l n="27"> Expirer au bureau l’inutile espérance. </l>
+                        <l n="28"> C’est en représentant ses comiques portraits </l>
+                        <l n="29"> Qu’ici vous obtenez les plus nobles succès. </l>
+                        <l n="30"> Que de rôles profonds ! L’acteur qui les médite </l>
+                        <l n="31"> Découvre vingt beautés dont sa gloire profite. </l>
+                        <l n="32"> Vos talents sont à lui, puisqu’il les fait briller : </l>
+                        <l n="33"> À fêter ce grand homme il nous faut travailler. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="34"> Sans doute. Votre muse a rimé quelque chose ? </l>
+                </sp>
+        <sp who="#le-semainier">
+            <speaker> LE SEMAINIER. </speaker>
+                        <l n="35"> Déjà le buste est prêt pour cette apothéose. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="36"> J’ai commencé le plan. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="37"> Ce divertissement </l>
+                        <l n="38"> Est marqué sur l’affiche, et le public l’attend. </l>
+                </sp>
+        <sp who="#le-semainier">
+            <speaker> LE SEMAINIER. </speaker>
+                        <l n="39"> Tu ris ! Le bon public a de la patience. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="40"> Dis plutôt, mon ami, qu’il est plein d’indulgence. </l>
+                        <l n="41"> Toujours en conscience amusons ses loisirs ; </l>
+                        <l n="42"> Malheur à l’imprudent qui réduit ses plaisirs ! </l>
+                        <l n="43"> L’affiche doit (ici mon scrupule est extrême) </l>
+                        <l n="44"> Être plus sûre encor que le Moniteur même. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="45"> C’est fort bien ; mais le temps trahit votre désir. </l>
+                        <l n="46"> À la bande fatale il faudra recourir ; </l>
+                        <l n="47"> La pièce pour demain ne sera jamais faite, </l>
+                        <l n="48"> Et c’est l’anniversaire... </l>
+                </sp>
+        <sp who="#le-semainier">
+            <speaker> LE SEMAINIER. </speaker>
+                        <l n="49"> Eh bien ! qu’on le remette. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="50"> L’anniversaire ? bon ! monsieur le semainier </l>
+                        <l n="51"> Vraiment voudrait régler jusqu’au calendrier ; </l>
+                        <l n="52"> Mais silence, messieurs, trêve de badinage. </l>
+                        <l n="53"> Voici quel est le plan de mon petit ouvrage, </l>
+                        <l n="54"> Je montre que Molière, utile encore aux mœurs,</l>
+                        <l n="55"> En nous divertissant peut nous rendre meilleurs ; </l>
+                        <l n="56"> Les comiques tableaux qu’à nos yeux il étale </l>
+                        <l n="57"> Corrigent cent fois mieux qu’un traité de morale. </l>
+                        <l n="58"> Il vaut seul, à mon sens, tous ces bavards auteurs, </l>
+                        <l n="59"> De tout le genre humain ennuyeux précepteurs. </l>
+                        <l n="60"> La morale chez eux, monotone pédante, </l>
+                        <l n="61"> Contre chaque défaut par chapitre argumente ; </l>
+                        <l n="62"> Elle a toujours en tête un bonnet de docteur. </l>
+                        <l n="63"> Molière seul fait d’elle un protée enchanteur. </l>
+                        <l n="64"> Pour mieux plaire à nos yeux, elle se multiplie </l>
+                        <l n="65"> Sous le masque changeant que lui prête Thalie ; </l>
+                        <l n="66"> Ce masque est le portrait de l’âme des humains, </l>
+                        <l n="67"> De ses difformités tous les traits y sont peints, </l>
+                        <l n="68"> La morale chez lui mêlée au badinage </l>
+                        <l n="69"> Se montre à nos regards sous plus d’un personnage. </l>
+                        <l n="70"> Pour corriger l’avare, elle joue Harpagon ; </l>
+                        <l n="71"> Ariste, pour donner une sage leçon </l>
+                        <l n="72"> À tel père insensé, geôlier de sa famille, </l>
+                        <l n="73"> Qui veut mettre sous clef la vertu de sa fille ; </l>
+                        <l n="74"> Tartufe, pour punir, en dévoilant son cœur, </l>
+                        <l n="75"> Les lâches attentats d’un dévot imposteur ; </l>
+                        <l n="76"> Philinte, pour montrer cette sage indulgence </l>
+                        <l n="77"> Qui supporte gaîment l’humaine extravagance ; </l>
+                        <l n="78"> Et je prouve, en un mot, que ce sublime esprit, </l>
+                        <l n="79"> Aimable philosophe, en riant nous instruit. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="80"> Le succès de ce plan me paraît infaillible ; </l>
+                        <l n="81"> Il faut l’exécuter. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="82"> Cette tâche est pénible ; </l>
+                        <l n="83"> Car il faut mettre ici l’éloge en action, </l>
+                        <l n="84"> Et faire quelques frais d’imagination. </l>
+                        <l n="85"> Je ne puis, pour fêter une telle soirée, </l>
+                        <l n="86"> Le cahier d’une main, de l’autre l’eau sucrée, </l>
+                        <l n="87"> Psalmodier ici d’une emphatique voix </l>
+                        <l n="88"> Une prose guindée ou quelques vers bien froids. </l>
+                        <l n="89"> Aux phrases d’un rhéteur un parterre s’ennuie, </l>
+                        <l n="90"> Et le théâtre enfin n’est pas l’Académie. </l>
+                        <l n="91"> Mon plan vous paraît bon ? je vais donc y rêver ; </l>
+                        <l n="92"> Le public, comme vous, puisse-t-il l’approuver ! </l>
+                        <l n="93"> Qu’on ne me trouble point : je me mets à l’ouvrage ; </l>
+                        <l n="94"> Il retient l’acteur qui veut se retirer.</l>
+                        <l n="95"> Non, vous m’aiderez. </l>
+                </sp>
+        <sp who="#le-semainier">
+            <speaker> LE SEMAINIER, en sortant. </speaker>
+                        <l n="96"> Bon ! voici quelqu’un. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="97"> J’enrage. </l>
+                        <l n="98"> Quel fâcheux contretemps ! </l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#dorimeuil">
+            <speaker> DORIMEUIL. </speaker>
+                        <l n="99"> Pardon d’entrer ainsi ; </l>
+                        <l n="100"> Mais je croyais trouver l’aimable Eudore ici. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="101"> La nouvelle chanteuse ? </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="102"> Ah ! </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR, à part. </speaker>
+                        <l n="103"> Dieu ! quelle innocence ! </l>
+                        <l n="104"> Elle débute à peine, et déjà... mais silence ! </l>
+                        <l n="105"> Pour l’honneur du corps... </l>
+                </sp>
+        <sp who="#dorimeuil">
+            <speaker> DORIMEUIL. </speaker>
+                        <l n="106"> Hier son talent m’enchanta. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="107"> Elle s’est engagée à faire les Pasta. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="108"> Par le contrat au moins une fois par semaine, </l>
+                        <l n="109"> Pour chanter du Mozart, elle est Italienne. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="110"> Elle n’est pas ici. </l>
+                </sp>
+        <sp who="#dorimeuil">
+            <speaker> DORIMEUIL. </speaker>
+                        <l n="111"> Demain je réunis </l>
+                        <l n="112"> De bons musiciens et quelques vieux amis. </l>
+                        <l n="113"> Dans mon petit concert je désire l’entendre ; </l>
+                        <l n="114"> Je venais l’inviter. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="115"> Elle ne peut s’y rendre. </l>
+                </sp>
+        <sp who="#dorimeuil">
+            <speaker> DORIMEUIL. </speaker>
+                        <l n="116"> Pourquoi ? </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="117"> Nous célébrons Molière demain soir ; </l>
+                        <l n="118"> Il faut être au complet : c’est pour tous un devoir. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="119"> Même aux premiers sujets, sous les plus graves peines, </l>
+                        <l n="120"> On a, pour ce jour-là, défendu les migraines. </l>
+                </sp>
+        <sp who="#dorimeuil">
+            <speaker> DORIMEUIL. </speaker>
+                        <l n="121"> Je n’insisterai pas. Mon concert est remis. </l>
+                        <l n="122"> À vos justes refus moi-même j’applaudis. </l>
+                        <l n="123"> Pour Molière, monsieur, j’approuve votre zèle, </l>
+                        <l n="124"> Et je veux voir demain cette pièce nouvelle. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR, à part. </speaker>
+                        <l n="125"> Qui n’est pas faite encor.... </l>
+                </sp>
+        <sp who="#dorimeuil">
+            <speaker> DORIMEUIL. </speaker>
+                        <l n="126"> L’ouvrage est excellent : </l>
+                        <l n="127"> J’en suis sûr. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="128"> Vous portez un heureux jugement. </l>
+                </sp>
+        <sp who="#dorimeuil">
+            <speaker> DORIMEUIL. </speaker>
+                        <l n="129"> Quoi ! célébrer Molière ! Eh ! le nom seul inspire ! </l>
+                        <l n="130"> Je réponds du succès... </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="131"> Monsieur, je le désire </l>
+                        <l n="132"> Au moins autant que vous. </l>
+                </sp>
+        <sp who="#dorimeuil">
+            <speaker> DORIMEUIL. </speaker>
+                        <l n="133"> Molière est mon auteur. </l>
+                        <l n="134"> Il éclaire l’esprit ; je lui dois le bonheur ; </l>
+                        <l n="135"> Et de le voir fêter je suis ravi d’avance </l>
+                        <l n="136"> Moins encor par plaisir que par reconnaissance. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="137"> Comment ? </l>
+                </sp>
+        <sp who="#dorimeuil">
+            <speaker> DORIMEUIL. </speaker>
+                        <l n="138"> Oui, je lui dois mes biens et mon honneur : </l>
+                        <l n="139"> Pour amuser autrui j’étais dissipateur ; </l>
+                        <l n="140"> J’allais être mari pour mieux prêter à rire ; </l>
+                        <l n="141"> Et je serais déjà ce que je n’ose dire </l>
+                        <l n="142"> Et ce que mon auteur nommerait sans façon. </l>
+                        <l n="143"> Mais je garde mes biens et je reste garçon ; </l>
+                        <l n="144"> Et de ce changement Molière seul est cause. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="145"> Expliquez cette énigme. </l>
+                </sp>
+        <sp who="#dorimeuil">
+            <speaker> DORIMEUIL. </speaker>
+                        <l n="146"> Eh bien ! voici la chose. </l>
+                        <l n="147"> Vous connaissez de nom le banquier Dorimeuil ; </l>
+                        <l n="148"> C’est moi. Je puis le dire avec un juste orgueil, </l>
+                        <l n="149"> J’ai du bien, mais tiré d’une honorable source, </l>
+                        <l n="150"> Gagné dans mes comptoirs et non pas à la Bourse. </l>
+                        <l n="151"> Rassasié d’argent, je voulais des honneurs : </l>
+                        <l n="152"> À ma table je fis la cour aux grands seigneurs. </l>
+                        <l n="153"> Eux-mêmes à dîner, dans leurs fiertés naïves, </l>
+                        <l n="154"> Ils me félicitaient d’avoir de tels convives. </l>
+                        <l n="155"> Enfin j’étais leur dupe, et j’épuisais mon bien </l>
+                        <l n="156"> Pour être, s’il se peut, plus qu’un bon citoyen. </l>
+                        <l n="157"> Je faillis bientôt faire une autre extravagance : </l>
+                        <l n="158"> Bourgeois, je prétendis une noble alliance. </l>
+                        <l n="159"> Une fille s’offrit, sans dot, riche en aïeux ; </l>
+                        <l n="160"> Des appas de son nom je devins amoureux. </l>
+                        <l n="161"> Dérogeant en faveur de mes vives tendresses,</l>
+                        <l n="162"> Elle daigne accepter ma main et mes richesses. </l>
+                        <l n="163"> Le contrat était fait. Par un mutuel don, </l>
+                        <l n="164"> Moi je donnais les biens, elle donnait son nom. </l>
+                        <l n="165"> La veille de l’hymen je conduis au théâtre </l>
+                        <l n="166"> Cette noble beauté dont j’étais idolâtre. </l>
+                        <l n="167"> On jouait par hasard ce bourgeois du grand ton,</l>
+                        <l n="168"> Des comtes, des marquis prodigue amphitryon ; </l>
+                        <l n="169"> Et Dandin, vrai martyr d’une épouse infidèle,</l>
+                        <l n="170">  Et qui voit de ses yeux sa disgrâce cruelle. </l>
+                        <l n="171"> Ce spectacle amusait ma belle et ses parents ; </l>
+                        <l n="172"> Ils applaudissaient tous aux traits impertinents </l>
+                        <l n="173"> Du comte qu’à grands frais un sot bourgeois invite, </l>
+                        <l n="174"> Qui, par reconnaissance, insolent parasite, </l>
+                        <l n="175"> Fier de quelques aïeux et de vingt créanciers, </l>
+                        <l n="176"> Raille, en les acceptant, ses soupers roturiers. </l>
+                        <l n="177"> Ensuite on rit des tours de l’infâme Angélique ; </l>
+                        <l n="178"> Et ma future prit un plaisir fort pudique </l>
+                        <l n="179"> Aux tribulations du bon Georges Dandin</l>
+                        <l n="180"> Moi, je ne riais pas : je pensais ; et soudain </l>
+                        <l n="181"> Je vis que par avance on jouait mon histoire ; </l>
+                        <l n="182"> Je renonce à l’hymen, aux festins, à la gloire. </l>
+                        <l n="183"> Molière m’a sauvé de deux dangers fréquents ; </l>
+                        <l n="184"> Je ne fais pas faillite, et ne suis pas... </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="185"> J’entends. </l>
+                        <l n="186"> Oui, Molière peut seul produire ces miracles. </l>
+                        <l n="187"> Entendez-le, frondeurs qui blâmez les spectacles </l>
+                        <l n="188"> Le génie en riant y donne des leçons. </l>
+                        <l n="189"> Acceptez ce billet... </l>
+                </sp>
+        <sp who="#dorimeuil">
+            <speaker> DORIMEUIL. </speaker>
+                        <l n="190"> Monsieur, mille pardons... </l>
+                        <l n="191"> J’applaudirai la pièce. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="192"> Ah ! liberté complète ! </l>
+                        <l n="193"> Je vous donne le droit qu’à la porte on achète ; </l>
+                        <l n="194"> On fête votre auteur : jugez par sentiment ; </l>
+                        <l n="195"> L’esprit est difficile et le cœur indulgent. </l>
+                </sp>
+        <sp who="#dorimeuil">
+            <speaker> DORIMEUIL. </speaker>
+                        <l n="196"> Des Jourdains, des Dandins si l’on fait la satire, </l>
+                        <l n="197"> À l’aise, cette fois, je vous promets de rire. </l>
+                        <l n="198"> Il sort.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#un-garçon-de-théatre">
+            <speaker> LE GARÇON DE THÉATRE. </speaker>
+                        <l n="199"> Une dame, monsieur, demande à vous parler. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="200"> Faites entrer. Toujours on viendra nous troubler ! </l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#la-baronne-d’hermance">
+            <speaker> LA BARONNE. </speaker>
+                        <l n="201"> Ma fille (à son désir je n’ai pu mettre obstacle) </l>
+                        <l n="202"> Veut que demain, monsieur, je la mène au spectacle. </l>
+                        <l n="203"> Il nous faut une loge ; on peut nous prévenir ; </l>
+                        <l n="204"> Moi-même, ce matin, je viens la retenir. </l>
+                        <l n="205"> Ce goût chez une femme est pour le moins frivole. </l>
+                        <l n="206"> Notre pudeur... </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="207"> Des mœurs le théâtre est l’école. </l>
+                </sp>
+        <sp who="#la-baronne-d’hermance">
+            <speaker> LA BARONNE. </speaker>
+                        <l n="208"> De ces plaisirs moraux on doit priver son cœur. </l>
+                        <l n="209"> Vous pensez autrement ; comme dit un auteur, </l>
+                        <l n="210"> Vous, vous êtes orfèvre ! </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR, à part. </speaker>
+                        <l n="211"> Elle a, Dieu me pardonne, </l>
+                        <l n="212"> L’air de l’actrice Emma ; la ressemblance est bonne. </l>
+                </sp>
+        <sp who="#la-baronne-d’hermance">
+            <speaker> LA BARONNE. </speaker>
+                        <l n="213"> J’en voulus très longtemps éprouver les effets ; </l>
+                        <l n="214"> Et vraiment tous les soirs je me scandalisais. </l>
+                        <l n="215"> Dieu ! que les filles sont aujourd’hui peu sensées ! </l>
+                        <l n="216"> Mais Hortense le veut... </l>
+                        <l n="217"> Elle prend les billets.</l>
+                        <l n="218"> Serons-nous bien placées ? </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="219"> À merveille. </l>
+                </sp>
+        <sp who="#la-baronne-d’hermance">
+            <speaker> LA BARONNE. </speaker>
+                        <l n="220"> J’y vais par bonté seulement ; </l>
+                        <l n="221"> Mais encore faut-il bien voir pour son argent. </l>
+                        <l n="222"> Que devez-vous jouer ? Dites-le-moi d’avance, </l>
+                        <l n="223"> Car ce point est pour moi d’une grande importance. </l>
+                        <l n="224"> Je n’ai point vu l’affiche. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="225"> Un ouvrage nouveau, </l>
+                        <l n="226"> Des talents de Molière assez faible tableau, </l>
+                        <l n="227"> Et, pour dédommager l’indulgent auditoire, </l>
+                        <l n="228"> Quelque œuvre de l’auteur dont nous fêtons la gloire. </l>
+                </sp>
+        <sp who="#la-baronne-d’hermance">
+            <speaker> LA BARONNE. </speaker>
+                        <l n="229"> De Molière ? </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="230"> Mais oui, pour le célébrer mieux. </l>
+                </sp>
+        <sp who="#la-baronne-d’hermance">
+            <speaker> LA BARONNE. </speaker>
+                        <l n="231"> Ne comptez plus sur moi. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="232"> Ce goût est malheureux. </l>
+                </sp>
+        <sp who="#la-baronne-d’hermance">
+            <speaker> LA BARONNE, rendant les billets. </speaker>
+                        <l n="233"> Molière !... Ah ! </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="234"> Je ne sais comment vous satisfaire ; </l>
+                        <l n="235"> Et s’il ne vous plaît pas, nul ne pourrait vous plaire. </l>
+                </sp>
+        <sp who="#la-baronne-d’hermance">
+            <speaker> LA BARONNE. </speaker>
+                        <l n="236"> Non, je n’irai pas voir les pièces d’un auteur </l>
+                        <l n="237"> Dont la gaîté grossière offense ma pudeur. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="238"> Quelques vers un peu francs de votre humeur sont cause ? </l>
+                        <l n="239"> Mais, en disant le mot, fait-il aimer la chose ? </l>
+                        <l n="240"> Où, nous traçant du vice un tableau séducteur, </l>
+                        <l n="241"> D’un coupable vernis pare-t-il sa laideur ? </l>
+                        <l n="242"> Blâmez ces écrivains, qui d’un style pudique </l>
+                        <l n="243"> Offrent au spectateur une image cynique ; </l>
+                        <l n="244"> Seuls ils sont dangereux. </l>
+                </sp>
+        <sp who="#la-baronne-d’hermance">
+            <speaker> LA BARONNE. </speaker>
+                        <l n="245"> Je ne saurais souffrir </l>
+                        <l n="246"> Un auteur qu’on ne peut admirer sans rougir. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="247"> Vous rougissez ? </l>
+                        <l n="248"> À part.</l>
+                        <l n="249"> J’entends, lorsque sa raillerie </l>
+                        <l n="250"> Fronde d’Arsinoé la fausse pruderie. </l>
+                </sp>
+        <sp who="#la-baronne-d’hermance">
+            <speaker> LA BARONNE, sans l’écouter. </speaker>
+                        <l n="251"> Qui, sans rien déguiser, dit dans Amphitryon, </l>
+                        <l n="252"> Nous nous fûmes coucher. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="253"> Deux époux ! </l>
+                </sp>
+        <sp who="#la-baronne-d’hermance">
+            <speaker> LA BARONNE. </speaker>
+                        <l n="254"> Ah ! quel ton ! </l>
+                        <l n="255"> De la décence ailleurs franchissant les limites, </l>
+                        <l n="256"> Du mot de mariage il explique les suites. </l>
+                        <l n="257"> Henriette... </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="258"> J’entends... Molière assurément </l>
+                        <l n="259"> Ne pouvait en ce lieu parler plus chastement. </l>
+                        <l n="260"> Les suites de ce mot qu’Henriette envisage </l>
+                        <l n="261"> Sont, dit-elle, un mari, des enfants, un ménage, </l>
+                        <l n="262"> Et c’est au spectateur à n’y rien voir de plus, </l>
+                        <l n="263"> Madame ; et ces deux vers sont-ils si dissolus ? </l>
+                </sp>
+        <sp who="#la-baronne-d’hermance">
+            <speaker> LA BARONNE. </speaker>
+                        <l n="264"> Il présente à l’esprit des images infâmes ; </l>
+                        <l n="265"> Son Agnès dit tout net dans l’École des Femmes :</l>
+                        <l n="266"> Horace me prenait et les mains et les bras, </l>
+                        <l n="267"> Et de me les baiser il n’était jamais las. </l>
+                        <l n="268"> Je ne puis supporter cette idée indécente. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="269"> Ah ! vraiment vous avez la mémoire excellente. </l>
+                </sp>
+        <sp who="#la-baronne-d’hermance">
+            <speaker> LA BARONNE. </speaker>
+                        <l n="270"> Que j’assiste à ces jeux d’un esprit libertin ! </l>
+                        <l n="271"> Non. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR, à part. </speaker>
+                        <l n="272"> En loge grillée on la verra demain. </l>
+                        <l n="273"> Reconnaissant la baronne.</l>
+                        <l n="274"> Mais... c’est Emma !c’est elle ; oui, c’est là son visage. </l>
+                        <l n="275"> À vingt ans sa vertu n’était pas si sauvage. </l>
+                        <l n="276"> Haut.</l>
+                        <l n="277"> Vous n’avez pas toujours eu cette aversion. </l>
+                </sp>
+        <sp who="#la-baronne-d’hermance">
+            <speaker> LA BARONNE. </speaker>
+                        <l n="278"> Mais... </l>
+                        <l n="279"> À part.</l>
+                        <l n="280"> Comme il me regarde avec attention ! </l>
+                        <l n="281"> Par hasard m’a-t-il vue autrefois sur la scène ?... </l>
+                        <l n="282"> Le reconnaissant.</l>
+                        <l n="283"> C’est mon jeune premier ; c’est l’élégant Marsaine. </l>
+                        <l n="284"> Oui, je le reconnais. Quel contretemps ! C’est lui ! </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR, à part. </speaker>
+                        <l n="285"> C’est bien elle.</l>
+                </sp>
+        <sp who="#la-baronne-d’hermance">
+            <speaker> LA BARONNE, à part. </speaker>
+                        <l n="286"> Il n’est plus aussi jeune aujourd’hui. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR, bas. </speaker>
+                        <l n="287"> Au théâtre elle était notre grande coquette, </l>
+                        <l n="288"> Et maintenant elle est une belle en retraite. </l>
+                        <l n="289"> Soupirant.</l>
+                        <l n="290"> J’étais jeune premier, et je suis directeur. </l>
+                        <l n="291"> Haut.</l>
+                        <l n="292"> De revoir Célimène aurais-je le bonheur ? </l>
+                </sp>
+        <sp who="#la-baronne-d’hermance">
+            <speaker> LA BARONNE. </speaker>
+                        <l n="293"> Que dites-vous ? (l’honneur défend de le connaître.) </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="294"> Vos yeux depuis vingt ans m’ont oublié peut-être. </l>
+                        <l n="295"> Oui, vous êtes Emma, Ce sont là ses appas, </l>
+                        <l n="296"> À part.</l>
+                        <l n="297"> Avec vingt ans de plus. </l>
+                </sp>
+        <sp who="#la-baronne-d’hermance">
+            <speaker> LA BARONNE. </speaker>
+                        <l n="298"> Je ne vous connais pas. </l>
+                        <l n="299"> Apprenez que je suis la baronne d’Hermance. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="300"> Maintenant. </l>
+                </sp>
+        <sp who="#la-baronne-d’hermance">
+            <speaker> LA BARONNE. </speaker>
+                        <l n="301"> Ces acteurs sont pleins d’impertinence. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="302"> Excusez... Cependant... </l>
+                </sp>
+        <sp who="#la-baronne-d’hermance">
+            <speaker> LA BARONNE. </speaker>
+                        <l n="303"> Je ne peux plus longtemps </l>
+                        <l n="304"> Rester, sans me commettre, avec de telles gens. </l>
+                        <l n="305"> Elle sort.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="306"> C’est Emma ? </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="307"> Vraiment oui. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="308"> La plaisante ingénue ! </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="309"> Elle jouait ici. Tout Montpellier l’a vue. </l>
+                        <l n="310"> Maintenant elle est prude et femme d’un seigneur, </l>
+                        <l n="311"> Et les vers de Molière offensent sa pudeur. </l>
+                        <l n="312"> C’est parfait !... </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="313"> Pardonnez à son extravagance ; </l>
+                        <l n="314"> De ses charmes perdus elle fait pénitence. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="315"> Qu’elle avait de beauté ! Je l’adorais jadis </l>
+                        <l n="316"> Comme vous adorez la coquette Anaïs, </l>
+                        <l n="317"> Qui, dit-on, de Bruxelles a ravi le parterre, </l>
+                        <l n="318"> Et qui doit revenir pour célébrer Molière. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="319"> Ne me rappelez pas l’objet de ma douleur ; </l>
+                        <l n="320"> La perfide abusait mon amoureuse ardeur : </l>
+                        <l n="321"> J’ai de ses trahisons une preuve authentique. </l>
+                        <l n="322"> Il lui montre des lettres.</l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="323"> Elle a troublé l’esprit de toute la Belgique. </l>
+                        <l n="324"> Elle séduit les cœurs ; et, durant son séjour, </l>
+                        <l n="325"> Fait du Néerlandais la langue de l’amour. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="326"> J’oublie une beauté trop chère à ma faiblesse, </l>
+                        <l n="327"> Qui ne cherche qu’à plaire et trompe ma tendresse. </l>
+                        <l n="328"> Mais dans le corridor j’entends un étranger </l>
+                        <l n="329"> Qui vient dans nos travaux encor nous déranger. </l>
+                        <l n="330"> Je vois des importuns l’introducteur sinistre. </l>
+                        <l n="331"> Un garçon paraît.</l>
+                        <l n="332"> Faites-vous celer. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="333"> Non ; je ne suis pas ministre. </l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="334"> Monsieur vient embaucher quelque acteur renommé ? </l>
+                        <l n="335"> D’un théâtre français le projet est formé </l>
+                        <l n="336"> À Londres... </l>
+                </sp>
+        <sp who="#lord-palmer">
+            <speaker> PALMER. </speaker>
+                        <l n="337"> Oui ; des Anglais le goût patriotique </l>
+                        <l n="338"> Vous interdit l’honneur d’une scène publique : </l>
+                        <l n="339"> Le salon seul d’un lord s’ouvre aux talents français ; </l>
+                        <l n="340"> À des bravos privés on réduit leurs succès. </l>
+                        <l n="341"> Tout le monde à Paris peut applaudir les nôtres : </l>
+                        <l n="342"> Nous, par souscription, nous admirons les vôtres. </l>
+                        <l n="343"> Mais enfin quand chez vous offrant des jeux nouveaux, </l>
+                        <l n="344"> La scène hospitalière accueille des rivaux, </l>
+                        <l n="345"> Nous devons des Français, suivant votre modèle, </l>
+                        <l n="346"> Admirer en public la gloire fraternelle. </l>
+                        <l n="347"> Je suis sans préjugé, quoiqu’Anglais. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="348"> J’applaudis. </l>
+                </sp>
+        <sp who="#lord-palmer">
+            <speaker> PALMER. </speaker>
+                        <l n="349"> Suivant moi, le mérite est de tous les pays ; </l>
+                        <l n="350"> Mais ce n’est pas l’objet que votre esprit suppose </l>
+                        <l n="351"> Qui m’amène en ces lieux. Je viens pour autre chose. </l>
+                        <l n="352"> De l’ouvrage annoncé vous connaissez l’auteur ? </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="353"> Beaucoup. </l>
+                </sp>
+        <sp who="#lord-palmer">
+            <speaker> PALMER. </speaker>
+                        <l n="354"> De lui parler pourrais-je avoir l’honneur ? </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="355"> Confiez-moi la chose ; et comptez que lui-même </l>
+                        <l n="356"> À l’instant le saura. </l>
+                </sp>
+        <sp who="#lord-palmer">
+            <speaker> PALMER. </speaker>
+                        <l n="357"> Votre obligeance extrême </l>
+                        <l n="358"> L’instruira donc, monsieur, d’un admirable trait, </l>
+                        <l n="359"> Qui serait bien placé dans la pièce qu’il fait. </l>
+                        <l n="360"> De Molière demain il fête le génie : </l>
+                        <l n="361"> Molière est mon sauveur, et je lui dois la vie. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="362"> Un auteur doit toujours écouter un conseil : </l>
+                        <l n="363"> Expliquez-moi, de grâce, un prodige pareil. </l>
+                        <l n="364"> Bas.</l>
+                        <l n="365"> Il est fou. </l>
+                </sp>
+        <sp who="#lord-palmer">
+            <speaker> PALMER. </speaker>
+                        <l n="366"> Je naquis au sein de la richesse ; </l>
+                        <l n="367"> Au milieu des plaisirs s’écoula ma jeunesse. </l>
+                        <l n="368"> De l’excès du bonheur naît la satiété ; </l>
+                        <l n="369"> Mon cœur de ce fracas fut enfin dégoûté ; </l>
+                        <l n="370"> Tous les raffinements qu’achète l’opulence </l>
+                        <l n="371"> De mes sens épuisés irritaient la souffrance ; </l>
+                        <l n="372"> Aux cercles, dans les bals, j’espérais m’égayer ; </l>
+                        <l n="373"> Insensé, j’y courais... je courais m’ennuyer. </l>
+                        <l n="374"> Rien n’arrachait mon âme à sa mélancolie, </l>
+                        <l n="375"> Et le spleen lentement rongeait ma triste vie. </l>
+                        <l n="376"> Combien de fois alors de mes malheureux jours </l>
+                        <l n="377"> Mon bras désespéré voulut rompre le cours ! </l>
+                        <l n="378"> Je voyageai ; je crus sur la terre étrangère </l>
+                        <l n="379"> Rencontrer le bonheur à mon cœur nécessaire ; </l>
+                        <l n="380"> Je ne le trouvais plus dans mon propre pays ; </l>
+                        <l n="381"> Je quitte l’Angleterre, et je viens à Paris : </l>
+                        <l n="382"> C’est, dit-on, des plaisirs l’heureuse capitale ; </l>
+                        <l n="383"> Mais j’y gardai longtemps ma tristesse fatale ; </l>
+                        <l n="384"> Car d’abord un ami, par la mode entraîné, </l>
+                        <l n="385"> Aux plaisirs ennuyeux m’a gauchement mené. </l>
+                        <l n="386"> Aux théâtres divers où je suivais mon guide </l>
+                        <l n="387"> Je ne voyais jamais qu’une farce insipide ; </l>
+                        <l n="388"> Je n’entendais jamais que de méchants bons mots </l>
+                        <l n="389"> Applaudis par des gens payés pour être sots. </l>
+                        <l n="390"> J’entrais mélancolique et sortais en colère. </l>
+                        <l n="391"> Au goût de tout Paris je déclarais la guerre... </l>
+                        <l n="392"> J’attendais mon salut d’un théâtre royal. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="393"> On y bâille parfois. </l>
+                </sp>
+        <sp who="#lord-palmer">
+            <speaker> PALMER. </speaker>
+                        <l n="394"> J’y cours ; je choisis mal. </l>
+                        <l n="395"> J’aime à le croire au moins : j’y vois des comédies </l>
+                        <l n="396"> Qui font sur mon humeur l’effet de tragédies. </l>
+                        <l n="397"> Alors mon médecin, homme instruit et de sens, </l>
+                        <l n="398"> Qui voit, sans s’offenser, jouer les charlatans, </l>
+                        <l n="399"> Et qui rit sans rancune aux bons mots du poète, </l>
+                        <l n="400"> Maudit du docte corps pour sa verve indiscrète, </l>
+                        <l n="401"> Me donne un sage avis qui vous surprendra bien. </l>
+                        <l n="402"> Il prétend dissiper, par un nouveau moyen, </l>
+                        <l n="403"> De mon esprit blasé l’humeur atrabilaire. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="404"> Comment ? </l>
+                </sp>
+        <sp who="#lord-palmer">
+            <speaker> PALMER. </speaker>
+                        <l n="405"> Pour tout régime il me met au Molière. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="406"> Que de la Faculté l’on médise à présent ! </l>
+                        <l n="407"> Sans formule elle va nous guérir en riant : </l>
+                        <l n="408"> Comme elle envoie aux eaux, elle envoie au spectacle ! </l>
+                        <l n="409"> Et quel fut le succès ? </l>
+                </sp>
+        <sp who="#lord-palmer">
+            <speaker> PALMER. </speaker>
+                        <l n="410"> Écoutez le miracle. </l>
+                        <l n="411"> Que Molière est, monsieur, un médecin puissant ! </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="412"> Il ne se doutait pas qu’il eût ce beau talent. </l>
+                </sp>
+        <sp who="#lord-palmer">
+            <speaker> PALMER. </speaker>
+                        <l n="413"> Je vais donc aux Français voir cette comédie </l>
+                        <l n="414"> Où le bonhomme Argan... aidez-moi, je vous prie... </l>
+                        <l n="415"> Malade bien portant, toujours près de mourir </l>
+                        <l n="416"> Depuis soixante ans... </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="417"> Oui. </l>
+                </sp>
+        <sp who="#lord-palmer">
+            <speaker> PALMER. </speaker>
+                        <l n="418"> Faites-moi souvenir </l>
+                        <l n="419"> Du nom...</l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="420"> C’est le Malade... </l>
+                </sp>
+        <sp who="#lord-palmer">
+            <speaker> PALMER. </speaker>
+                        <l n="421"> Imaginaire, juste. </l>
+                        <l n="422"> Pour se faire guérir de sa santé robuste, </l>
+                        <l n="423"> Il veut très sensément pour gendre un médecin. </l>
+                        <l n="424"> Quel comique tableau ! </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="425"> Comme d’un trait malin </l>
+                        <l n="426"> De la marâtre avide il retrace l’image ! </l>
+                        <l n="427"> Quelle haute raison perce en ce badinage ! </l>
+                </sp>
+        <sp who="#lord-palmer">
+            <speaker> PALMER. </speaker>
+                        <l n="428"> Je vis après cela ce pauvre Amphitryon. </l>
+                        <l n="429"> Un dieu mauvais sujet, en lui volant son nom, </l>
+                        <l n="430"> Descend du ciel, suivi d’un valet plein de zèle, </l>
+                        <l n="431"> Exprès pour débaucher une épouse fidèle. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="432"> Comme si c’était peu des galants d’ici-bas ! </l>
+                </sp>
+        <sp who="#lord-palmer">
+            <speaker> PALMER, riant. </speaker>
+                        <l n="433"> Elle livre à ce dieu ses crédules appas, </l>
+                        <l n="434"> Et trompe son époux en très honnête femme. </l>
+                        <l n="435"> À ces comiques jeux s’épanouit mon âme. </l>
+                        <l n="436"> À chaque mot heureux, mon être soulagé </l>
+                        <l n="437"> D’un nuage pesant respire dégagé ; </l>
+                        <l n="438"> Et bientôt, ce plaisir croissant de scène en scène, </l>
+                        <l n="439"> La salle retentit de ma gaîté soudaine. </l>
+                        <l n="440"> Je ris... depuis dix ans, je crois, je n’avais ri ; </l>
+                        <l n="441"> Je renais au bonheur, et me voilà guéri. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="442"> Que vous devez, mylord, rendre grâce à Molière ! </l>
+                </sp>
+        <sp who="#lord-palmer">
+            <speaker> PALMER. </speaker>
+                        <l n="443"> Vous le fêtez demain ; écoutez ma prière. </l>
+                        <l n="444"> Dans la pièce notez ce merveilleux succès. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="445"> On dira que Molière a fait rire un Anglais </l>
+                        <l n="446"> Même attaqué du spleen. Allez, vous pouvez croire </l>
+                        <l n="447"> Que l’on n’oubliera pas ce beau titre de gloire. </l>
+                </sp>
+        <sp who="#lord-palmer">
+            <speaker> PALMER. </speaker>
+                        <l n="448"> À demain. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="449"> Je ne sais, mylord, si vous rirez ;</l>
+                        <l n="450"> Mais nous fêtons Molière, et vous applaudirez ; </l>
+                        <l n="451"> Vous vous amuserez, vous le devez. </l>
+                </sp>
+        <sp who="#lord-palmer">
+            <speaker> PALMER. </speaker>
+                        <l n="452"> D’avance, </l>
+                        <l n="453"> Monsieur... </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="454"> Ne fût-ce enfin que par reconnaissance. </l>
+                        <l n="455"> L’Anglais sort.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="456"> Relisons ce morceau : pour finir le couplet, </l>
+                        <l n="457"> Il faut un vers brillant qui fasse de l’effet. </l>
+                        <l n="458"> Cherchons... Bon Dieu ! j’entends Durville, ancien notaire, </l>
+                        <l n="459"> De ce théâtre-ci riche propriétaire. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="460"> Il aime les beaux-arts, mais a soin, tous les ans, </l>
+                        <l n="461"> D’augmenter leur loyer de quelques mille francs. </l>
+                        <l n="462"> Un bavard entêté, qui sans cesse discute... </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="463"> On est souvent forcé, pour terminer la lutte, </l>
+                        <l n="464"> D’acheter son silence au prix de la raison. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="465"> Et le marché vraiment est encore assez bon. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="466"> Recevons-le : il pourrait, car notre bail expire, </l>
+                        <l n="467"> Me chasser par huissier de mon petit empire. </l>
+                        <l n="468"> Il vous prête, messieurs, parfois obligeamment, </l>
+                        <l n="469"> Et... </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="470"> Sans doute, il oblige à quinze ou vingt pour cent. </l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="471"> Pardon ; vous travaillez ? </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="472"> Nous avons fort à faire : </l>
+                        <l n="473"> Nous composons à deux l’éloge de Molière. </l>
+                        <l n="474"> Mais il pourrait, je crois, épuiser aisément </l>
+                        <l n="475"> L’esprit mis en commun des rimeurs d’à présent. </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="476"> Je vais... </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="477"> Restez. </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="478"> Molière est un de nos grands hommes ; </l>
+                        <l n="479"> Il divertit encor, même au siècle où nous sommes. </l>
+                        <l n="480"> Pourtant, vous l’avouerez, ses ouvrages charmants </l>
+                        <l n="481"> Ne peignent à nos yeux que les mœurs de son temps ; </l>
+                        <l n="482"> Mais ils ne sauraient plus peindre les mœurs nouvelles. </l>
+                        <l n="483"> Le temps de ses portraits à détruit les modèles ; </l>
+                        <l n="484"> Et j’en accuse ici les ans, et non pas lui, </l>
+                        <l n="485"> Il ne peut corriger les travers d’aujourd’hui.</l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR, avec feu. </speaker>
+                        <l n="486"> Comment ! Molière a peint la nature elle-même ; </l>
+                        <l n="487"> Elle ne change point... Quel indigne blasphème ! </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="488"> Sans injure, monsieur, défendez votre auteur ; </l>
+                        <l n="489"> Vraiment on vous prendrait pour un commentateur. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="490"> Vous venez insulter Molière dans son temple ! </l>
+                        <l n="491"> La veille de sa fête ! </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="492"> Écoutez : par exemple, </l>
+                        <l n="493"> Trouvez-vous aujourd’hui de pédants médecins, </l>
+                        <l n="494"> Tels que dans ses tableaux il nous les a dépeints ? </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="495"> Il dirait qu’ils sont tous des assassins aimables ; </l>
+                        <l n="496"> Mais pour avoir bon ton sont-ils tous plus capables ? </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="497"> En robe marchent-ils comme des charlatans ? </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="498"> Mais on peut l’être en frac. </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="499"> Et voit-on nos savants </l>
+                        <l n="500"> Dire en grec, en latin, de doctes balourdises ? </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="501"> Ils disent en français clairement leurs sottises : </l>
+                        <l n="502"> Les choses n’ont perdu que la forme et le nom. </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="503"> Passe encor pour ceux-là... Mais je prends Harpagon : </l>
+                        <l n="504"> Citez-moi maintenant un avare semblable... </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="505"> Non pas absolument ; mais... </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="506"> Ce trait vous accable. </l>
+                        <l n="507"> Où sont ceux qui, dans l’or mettant tout leur plaisir, </l>
+                        <l n="508"> Pour économiser s’abstiennent de jouir ? </l>
+                        <l n="509"> Quel Harpagon nouveau, pauvre dans l’opulence, </l>
+                        <l n="510"> Enfouit ses trésors ? Non, non ; on les dépense. </l>
+                        <l n="511"> Dans ce siècle d’éclat, de luxe où nous vivons, </l>
+                        <l n="512"> Nous nous faisons honneur du bien que nous avons.</l>
+                        <l n="513"> Votre avare n’est plus qu’un homme imaginaire. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="514"> Mais... </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="515"> Laissez donc... Parlons d’une petite affaire, </l>
+                        <l n="516"> Puisque dans ce moment nous sommes seuls ici : </l>
+                        <l n="517"> Le bail de cette salle expire ce mois-ci ; </l>
+                        <l n="518"> Et pour sept mille francs, vraiment, elle est donnée : </l>
+                        <l n="519"> Par égard toutefois, je consens, cette année, </l>
+                        <l n="520"> Qu’à douze seulement le loyer soit porté. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="521"> Mais déjà l’an dernier vous l’avez augmenté : </l>
+                        <l n="522"> Monsieur, c’est louer cher une salle en province ; </l>
+                        <l n="523"> Et... </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="524"> Je suis au-dessus d’une somme aussi mince. </l>
+                        <l n="525"> Des maisons aujourd’hui l’on double le loyer : </l>
+                        <l n="526"> Vraiment, je passerais pour gâter le métier ; </l>
+                        <l n="527"> Et l’augmentation qu’avec vous je stipule </l>
+                        <l n="528"> N’est que pour éviter d’être trop ridicule. </l>
+                        <l n="529"> D’ailleurs ce que je fais n’est que pour mes enfants ; </l>
+                        <l n="530"> Je ne fais rien pour moi. L’on doit à soixante ans </l>
+                        <l n="531"> Oublier l’intérêt... Vous consentez, j’espère ? </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="532"> Oui. </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="533"> Tant mieux. </l>
+                        <l n="534"> À l’acteur.</l>
+                        <l n="535"> Vous pensez comme moi sur Molière ? </l>
+                        <l n="536"> Vous trouvez, j’en suis sûr, ses tableaux surannés ? </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="537"> Non ; c’est la vérité qui les a dessinés. </l>
+                        <l n="538"> Je pourrais aisément... </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE, à l’acteur. </speaker>
+                        <l n="539"> Mais nommez-moi, de grâce, </l>
+                        <l n="540"> Quelque vilain semblable à celui qu’il retrace. </l>
+                        <l n="541"> Ne conviendrez-vous pas que le ladre Harpagon </l>
+                        <l n="542"> N’est vraiment aujourd’hui qu’un être de raison ? </l>
+                        <l n="543"> Nos riches, comme lui, vont-ils pleurant misère ? </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="544"> Vous me gênez beaucoup, je ne puis vous le taire. </l>
+                        <l n="545"> Vous avez sans cela de si gros revenus. </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="546"> Mon Dieu ! dix mille écus, et pas un sou de plus. </l>
+                        <l n="547"> À l’acteur.</l>
+                        <l n="548"> Tous, quittant, pour jouir, une charge importune, </l>
+                        <l n="549"> Ne songent même pas à régir leur fortune. </l>
+                        <l n="550"> Aux gens de la pratique on laisse ce détail. </l>
+                        <l n="551"> Au directeur.</l>
+                        <l n="552"> Mais j’ai fait le projet de notre nouveau bail : </l>
+                        <l n="553"> Lisez. </l>
+                        <l n="554"> À l’acteur.</l>
+                        <l n="555"> En voyez-vous dont l’infâme bassesse, </l>
+                        <l n="556"> De jeunes étourdis exploitant la détresse, </l>
+                        <l n="557"> Prête de vieux effets pour de l’argent comptant ? </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="558"> Non ; ils sont usuriers bien plus honnêtement. </l>
+                        <l n="559"> Mais dans huit jours je vais jouer en Angleterre, </l>
+                        <l n="560"> Et mille francs, monsieur, feraient bien mon affaire. </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="561"> Très volontiers. Demain vous aurez mille francs, </l>
+                        <l n="562"> Et dans votre reçu vous mettrez douze cents : </l>
+                        <l n="563"> C’est l’usage entre nous. Moi, j’aime à satisfaire </l>
+                        <l n="564"> L’artiste dont la bourse est quelquefois légère. </l>
+                        <l n="565"> Il m’est doux d’obliger. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR, à part. </speaker>
+                        <l n="566"> Quand c’est à ce denier, </l>
+                        <l n="567"> Il donne son argent ; mais il le fait payer. </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE, au directeur. </speaker>
+                        <l n="568"> Mais je veux vous convaincre. Ont-ils la vilenie </l>
+                        <l n="569"> De montrer dans des riens un avare génie ? </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR, qui lit le bail. </speaker>
+                        <l n="570"> Vous me faites payer jusqu’au papier timbré ! </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="571"> Par l’usage, monsieur, ce droit est consacré ; </l>
+                        <l n="572"> Car je suis au-dessus de cette bagatelle : </l>
+                        <l n="573"> Mais aux lois, en affaire, on doit être fidèle. </l>
+                        <l n="574"> À l’acteur.</l>
+                        <l n="575"> Quel homme, répondez, tyran de ses enfants, </l>
+                        <l n="576"> Pour les pourvoir sans dot, va gêner leurs penchants, </l>
+                        <l n="577"> Sur l’appétit des gens exercer sa lésine, </l>
+                        <l n="578"> Et, le jour d’un contrat, réduire sa cuisine ? </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="579"> Dans l’avarice on met plus de déguisement. </l>
+                        <l n="580"> On peut être un vilain, quoiqu’on tranche du grand ; </l>
+                        <l n="581"> Et de plus on est faux. </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="582"> Votre bon goût s’égare. </l>
+                        <l n="583"> Pour moi, j’observe bien, et ne vois point d’avare. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="584"> J’ai signé. Mais ce bail blesse mon intérêt. </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="585"> Que de vous conserver mon cœur est satisfait ! </l>
+                        <l n="586"> À propos... </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR, bas au directeur. </speaker>
+                        <l n="587"> Un article encore à vous prescrire. </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="588"> Je venais pour cela. J’oubliais de vous dire </l>
+                        <l n="589"> Que ma fille Clara dans huit jours épousait... </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="590"> Ce jeune avocat ? </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="591"> Non. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="592"> Pourtant elle l’aimait. </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="593"> Oui ; mais il n’avait rien. Elle épouse un notaire. </l>
+                        <l n="594"> Venez au bal... </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="595"> Chez vous ? </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="596"> Non, c’est chez le beau-père. </l>
+                        <l n="597"> Il est bien mieux que moi logé pour recevoir. </l>
+                        <l n="598"> On n’épargnera rien... Je compte vous y voir... </l>
+                        <l n="599"> Ah ! j’ai dans votre bail oublié quelque chose. </l>
+                        <l n="600"> Mon entrée au théâtre en doit être une clause. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="601"> Oui, j’y consens. </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="602"> Ce droit à mes yeux est sans prix. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR, à part. </speaker>
+                        <l n="603"> C’est aussi pour cela qu’il veut l’avoir gratis. </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="604"> J’userai de ce droit ; je l’ajoute à la marge. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="605"> Oui. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="606"> Dans plus d’un théâtre il serait une charge. </l>
+                        <l n="607"> À part.</l>
+                        <l n="608"> Quel homme ! Il ne voit plus d’harpagon aujourd’hui : </l>
+                        <l n="609"> Pour moi, j’en connais un ; cet harpagon, c’est lui. </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="610"> Une autre fois, messieurs, vous l’avouerez, j’espère, </l>
+                        <l n="611"> Les hommes ne sont plus tels que les peint Molière... </l>
+                        <l n="612"> Adieu. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="613"> Nous voilà seuls ! </l>
+                </sp>
+        <sp who="#monsieur-durville">
+            <speaker> DURVILLE. </speaker>
+                        <l n="614"> Car j’aperçois quelqu’un. </l>
+                        <l n="615"> Il sort.</l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="616"> Je respirais déjà ! Nous changeons d’importun. </l></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#monsieur-leclair">
+            <speaker> MONSIEUR LECLAIR. </speaker>
+                        <l n="617"> Je voudrais pour demain, retenant une loge, </l>
+                        <l n="618"> Sans risquer bras ni jambe, assister à l’éloge </l>
+                        <l n="619"> D’un auteur que toujours j’aimai de passion. </l>
+                        <l n="620"> Mais excusez encore une indiscrétion. </l>
+                        <l n="621"> De Molière demain vous jouerez quelque ouvrage. </l>
+                        <l n="622"> De son propre talent vous lui ferez hommage. </l>
+                        <l n="623"> C’est fêter un auteur qu’applaudir ses écrits. </l>
+                        <l n="624"> Eh bien (je me soumets pourtant à votre avis), </l>
+                        <l n="625"> Je voudrais que parmi tant de pièces charmantes </l>
+                        <l n="626"> Vous fissiez pour demain choix des Femmes savantes. </l>
+                        <l n="627"> Ne pourriez-vous, monsieur, m’accorder ce désir ? </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="628"> Contenter votre goût serait un vrai plaisir ; </l>
+                        <l n="629"> Mais quel est le motif ? </l>
+                </sp>
+        <sp who="#monsieur-leclair">
+            <speaker> MONSIEUR LECLAIR. </speaker>
+                        <l n="630"> Ce n’est pas un caprice. </l>
+                        <l n="631"> Par là vous me rendez un signalé service. </l>
+                        <l n="632"> En jouant cette pièce, il dépendrait de vous </l>
+                        <l n="633"> De rétablir la paix entre deux bons époux ; </l>
+                        <l n="634"> Et vous pouvez, comblant tous les vœux de mon âme, </l>
+                        <l n="635"> Rendre à moi le bonheur, la raison à ma femme. </l>
+                        <l n="636"> Sans doute à mes désirs votre bonté souscrit ? </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="637"> Madame a le malheur d’avoir perdu l’esprit ? </l>
+                        <l n="638"> À part.</l>
+                        <l n="639"> Mais ailleurs qu’au théâtre il devrait la conduire. </l>
+                        <l n="640"> S’il n’était importun, vraiment il ferait rire. </l>
+                        <l n="641"> Haut.</l>
+                        <l n="642"> Elle pourrait ainsi retrouver le bon sens ? </l>
+                </sp>
+        <sp who="#monsieur-leclair">
+            <speaker> MONSIEUR LECLAIR. </speaker>
+                        <l n="643"> Oui. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="644"> Je suis directeur depuis près de quinze ans ; </l>
+                        <l n="645"> Pourtant je n’ai point vu que les Femmes savantes </l>
+                        <l n="646"> Produisissent jamais ces cures étonnantes. </l>
+                        <l n="647"> Vous riez sûrement ! </l>
+                </sp>
+        <sp who="#monsieur-leclair">
+            <speaker> MONSIEUR LECLAIR. </speaker>
+                        <l n="648"> Moi, monsieur ! vraiment non. </l>
+                        <l n="649"> Molière s’est moqué des auteurs en jupon, </l>
+                        <l n="650"> Qui, laissant leur ménage, imitent Philaminte ; </l>
+                        <l n="651"> Cette race chez nous n’est pas encore éteinte. </l>
+                        <l n="652"> Quelques femmes encore ont l’ennuyeux travers </l>
+                        <l n="653"> De juger en docteur et la prose et les vers. </l>
+                        <l n="654"> Les noms seuls sont changés. Elles sont romantiques ; </l>
+                        <l n="655"> Philaminte et sa sœur étaient au moins classiques. </l>
+                        <l n="656"> Jadis on se pâmait d’aise au seul mot de grec ; </l>
+                        <l n="657"> Boileau n’est aujourd’hui qu’un pédant froid et sec. </l>
+                        <l n="658"> Des savantes du jour la critique examine </l>
+                        <l n="659"> Lequel doit l’emporter, ou Schiller ou Racine, </l>
+                        <l n="660"> Et préfèrent toujours, après de longs débats, </l>
+                        <l n="661"> Les auteurs étrangers qu’elles n’entendent </l>
+                        <l n="662"> Leur sacrilège main, dans ce docte délire, </l>
+                        <l n="663"> Sur Corneille détruit ose élever Shakespeare. </l>
+                        <l n="664"> Vous les voyez prôner ces poèmes confus, </l>
+                        <l n="665"> Dont on cherche le plan après les avoir lus. </l>
+                        <l n="666"> Un vers bouffi de mots et vide de pensée pas. </l>
+                        <l n="667"> Cause à ces beaux esprits une extase insensée. </l>
+                        <l n="668"> Plus savants que l’auteur de ces profonds écrits, </l>
+                        <l n="669"> Ils comprennent ses vers qu’il n’a jamais compris ; </l>
+                        <l n="670"> De ma femme, monsieur, telle est la maladie. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="671"> Ah ! ce n’est que cela ! </l>
+                </sp>
+        <sp who="#monsieur-leclair">
+            <speaker> MONSIEUR LECLAIR. </speaker>
+                        <l n="672"> Cette triste manie </l>
+                        <l n="673"> En troublant son esprit a changé son humeur ; </l>
+                        <l n="674"> Les grâces ont fait place à l’air de profondeur. </l>
+                        <l n="675"> Que dis-je ? Son cœur même, où je trouvais naguère </l>
+                        <l n="676"> Une épouse accomplie, une excellente mère, </l>
+                        <l n="677"> Est froid pour son mari, néglige ses enfants. </l>
+                        <l n="678"> Elle fait des journaux, compose des romans. </l>
+                        <l n="679"> Contre nos grands auteurs lorsqu’on soutient la guerre, </l>
+                        <l n="680"> A-t-on du temps encor pour être épouse et mère ? </l>
+                        <l n="681"> Et quand du goût en France on réforme les lois, </l>
+                        <l n="682"> D’élever ses enfants prend-on le soin bourgeois ? </l>
+                        <l n="683"> Elle aime à discuter. Du style romantique </l>
+                        <l n="684"> Elle admire surtout la sottise exotique. </l>
+                        <l n="685"> Moi, je tiens pour Boileau... </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="686"> Dites pour la raison. </l>
+                </sp>
+        <sp who="#monsieur-leclair">
+            <speaker> MONSIEUR LECLAIR. </speaker>
+                        <l n="687"> Ces débats me feront déserter ma maison : </l>
+                        <l n="688"> À Shakespeare un matin je cèderai la place. </l>
+                        <l n="689"> Quand je dis des Cotins de son nouveau Parnasse : </l>
+                        <l n="690"> « L’esprit en les lisant n’y saurait rien trouver ; » </l>
+                        <l n="691"> « – Non, ils ne pensent pas, mais ils vous font rêver, » </l>
+                        <l n="692"> Répond-elle d’un ton gravement ridicule. </l>
+                        <l n="693"> Je n’y peux plus tenir : en vain je dissimule. </l>
+                        <l n="694"> Elle fait à ma fille estropier l’anglais, </l>
+                        <l n="695"> Au lieu de lui montrer à bien parler français. </l>
+                        <l n="696"> Quel besoin une femme a-t-elle de deux langues ? </l>
+                        <l n="697"> On traite mes discours d’insipides harangues ; </l>
+                        <l n="698"> Mes conseils et mes vœux n’ont pu rien obtenir. </l>
+                        <l n="699"> Par un moyen nouveau j’espère la guérir, </l>
+                        <l n="700"> Si vous voulez, monsieur, servir mon artifice. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="701"> Croyez que je suis prêt à vous rendre service. </l>
+                </sp>
+        <sp who="#monsieur-leclair">
+            <speaker> MONSIEUR LECLAIR. </speaker>
+                        <l n="702"> Je veux du ridicule essayer le pouvoir : </l>
+                        <l n="703"> Où la raison échoue, il est le seul espoir ; </l>
+                        <l n="704"> Et mieux que mes sermons Bélise et Philaminte </l>
+                        <l n="705"> Remédieront au mal dont ma femme est atteinte : </l>
+                        <l n="706"> Elle reconnaîtra qu’elle doit sans éclat </l>
+                        <l n="707"> Lire, juger des vers, mais non en faire état ; </l>
+                        <l n="708"> Qu’il vaut mieux discuter son budget domestique </l>
+                        <l n="709"> Que déraisonner pour ou contre le classique. </l>
+                        <l n="710"> Fidèle à son mari, délaissé pour Schiller, </l>
+                        <l n="711"> Ma femme va me rendre un cœur qui m’est si cher. </l>
+                        <l n="712"> Je la vois, en rentrant, saisir ses vers, sa prose,</l>
+                        <l n="713"> Qu’elle veut mettre au jour, dont chacun déjà glose ; </l>
+                        <l n="714"> Et, prévenant le sort de tant de beaux écrits, </l>
+                        <l n="715"> Dans la flamme étouffer ses enfants inédits. </l>
+                        <l n="716"> C’est ainsi que demain, en jouant cet ouvrage, </l>
+                        <l n="717"> Vous pouvez rétablir la paix dans mon ménage. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR, à part. </speaker>
+                        <l n="718"> Il le faut contenter pour s’en débarrasser. </l>
+                        <l n="719"> Haut.</l>
+                        <l n="720"> On le jouera, monsieur, et je vais l’annoncer ; </l>
+                        <l n="721"> S’il ne tient qu’à cela, madame est corrigée ; </l>
+                        <l n="722"> Et de Molière ici la gloire est engagée : </l>
+                        <l n="723"> Je suis jaloux de voir ce moyen réussir. </l>
+                        <l n="724"> Convertir une dame est un rare plaisir. </l>
+                        <l n="725"> Quelque puissant qu’il soit, jamais, je vous l’assure, </l>
+                        <l n="726"> Molière n’aura fait une plus belle cure. </l>
+                        <l n="727"> Voici votre coupon. </l>
+                </sp>
+        <sp who="#monsieur-leclair">
+            <speaker> MONSIEUR LECLAIR. </speaker>
+                        <l n="728"> Mon cœur reconnaissant... </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="729"> Pour notre pièce, aussi, vous serez indulgent... </l>
+                </sp>
+        <sp who="#monsieur-leclair">
+            <speaker> MONSIEUR LECLAIR. </speaker>
+                        <l n="730"> Mes mains, comme mon cœur, seront reconnaissantes. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="731"> J’accepte pour l’auteur ces offres bienveillantes. </l>
+                        <l n="732"> Du grand nom de Molière il couvre un faible essai. </l>
+                </sp>
+        <sp who="#monsieur-leclair">
+            <speaker> MONSIEUR LECLAIR. </speaker>
+                        <l n="733"> Tout ira bien ; du moins, c’est le vœu que je fais. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="734"> Mais par quelques bravos raffermissez son âme. </l>
+                </sp>
+        <sp who="#monsieur-leclair">
+            <speaker> MONSIEUR LECLAIR. </speaker>
+                        <l n="735"> Demain vous me verrez en loge avec ma femme. </l>
+                        <l n="736"> Il sort.</l></div>
+        <div type="scene" xml:id=" X ">
+            <head> Scène X </head>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR, reprenant son travail. </speaker>
+                        <l n="737"> Mais j’ai perdu ma rime... Un démon nous poursuit ! </l>
+                        <l n="738"> Nous jouons les Fâcheux vraiment... quel est ce bruit ? </l>
+                </sp>
+        <sp who="#un-étranger">
+            <speaker> UN ÉTRANGER, dans la coulisse. </speaker>
+                        <l n="739"> Permettez... </l>
+                </sp>
+        <sp who="#le-garçon">
+            <speaker> LE GARÇON. </speaker>
+                        <l n="740"> Non, monsieur, je ne puis... </l>
+                </sp>
+        <sp who="#l’étranger">
+            <speaker> L’ÉTRANGER. </speaker>
+                        <l n="741"> Ah ! de grâce... </l>
+                </sp>
+        <sp who="#le-garçon">
+            <speaker> LE GARÇON. </speaker>
+                        <l n="742"> Il est sorti. </l>
+                </sp>
+        <sp who="#l’étranger">
+            <speaker> L’ÉTRANGER. </speaker>
+                        <l n="743"> Prétexte ! </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="744"> Il veut forcer la place. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="745"> Il faut se résigner et finir ces débats. </l>
+                        <l n="746"> Laissez entrer monsieur, quoique je n’y sois pas. </l>
+                        <l n="747"> Voyons, que me veut-il ? Cet importun m’assomme. </l></div>
+        <div type="scene" xml:id=" XI ">
+            <head> Scène XI </head>
+        <sp who="#monsieur-bréval">
+            <speaker> MONSIEUR BRÉVAL. </speaker>
+                        <l n="748"> Monsieur le directeur ?... </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="749"> C’est moi. </l>
+                        <l n="750"> À part.</l>
+                        <l n="751"> Que veut cet homme ? </l>
+                </sp>
+        <sp who="#monsieur-bréval">
+            <speaker> MONSIEUR BRÉVAL. </speaker>
+                        <l n="752"> J’interromps vos travaux, j’en suis désespéré ; </l>
+                        <l n="753"> Mais je m’y vois contraint par un devoir sacré, </l>
+                        <l n="754"> Et lorsqu’à notre cœur parle la conscience, </l>
+                        <l n="755"> On doit sacrifier, je crois, la bienséance. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR, à part. </speaker>
+                        <l n="756"> Quel début ! </l>
+                </sp>
+        <sp who="#monsieur-bréval">
+            <speaker> MONSIEUR BRÉVAL. </speaker>
+                        <l n="757"> Le spectacle annoncé pour demain </l>
+                        <l n="758"> (Vous le reconnaîtrez, monsieur, j’en suis certain) </l>
+                        <l n="759"> Offense gravement la morale publique. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="760"> Expliquez-moi, de grâce, une telle critique ! </l>
+                </sp>
+        <sp who="#monsieur-bréval">
+            <speaker> MONSIEUR BRÉVAL. </speaker>
+                        <l n="761"> Vous la sentez vous-même, et vous allez changer </l>
+                        <l n="762"> Ce dangereux spectacle. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="763"> Et quel est ce danger ? </l>
+                        <l n="764"> Les pièces qu’on jouera n’ont rien de condamnable : </l>
+                        <l n="765"> On ne changera rien, l’affiche est immuable. </l>
+                </sp>
+        <sp who="#monsieur-bréval">
+            <speaker> MONSIEUR BRÉVAL. </speaker>
+                        <l n="766"> De l’ouvrage nouveau vous connaissez l’auteur ? </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="767"> Beaucoup, monsieur. </l>
+                </sp>
+        <sp who="#monsieur-bréval">
+            <speaker> MONSIEUR BRÉVAL. </speaker>
+                        <l n="768"> Demain sa poétique ardeur </l>
+                        <l n="769"> En plein théâtre doit fêter votre Molière ? </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="770"> Que dites-vous ? Molière est à la France entière ! </l>
+                </sp>
+        <sp who="#monsieur-bréval">
+            <speaker> MONSIEUR BRÉVAL. </speaker>
+                        <l n="771"> Toutefois à l’auteur transmettez un avis. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="772"> Et quel est-il ? Parlez ; ils seront tous bien pris. </l>
+                </sp>
+        <sp who="#monsieur-bréval">
+            <speaker> MONSIEUR BRÉVAL. </speaker>
+                        <l n="773"> C’est de garder pour lui sa pièce sur Molière. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="774"> Pour un auteur, monsieur, le conseil est sévère. </l>
+                        <l n="775"> Mais quels sont les défauts que vous y reprenez ? </l>
+                        <l n="776"> Car vous la connaissez, vous qui la condamnez. </l>
+                </sp>
+        <sp who="#monsieur-bréval">
+            <speaker> MONSIEUR BRÉVAL. </speaker>
+                        <l n="777"> Pour juger un écrit faut-il donc le connaître ? </l>
+                        <l n="778"> Le sujet... </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="779"> De la pièce est le meilleur, peut-être : </l>
+                        <l n="780"> L’éloge de Molière. </l>
+                </sp>
+        <sp who="#monsieur-bréval">
+            <speaker> MONSIEUR BRÉVAL. </speaker>
+                        <l n="781"> Et c’est son beau sujet </l>
+                        <l n="782"> Qui d’un juste scandale est à mes yeux l’objet. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="783"> Comment ! fêter Molière est pour vous un scandale ! </l>
+                </sp>
+        <sp who="#monsieur-bréval">
+            <speaker> MONSIEUR BRÉVAL. </speaker>
+                        <l n="784"> Oui, monsieur ; cet auteur offense la morale. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="785"> De Tartufe, sans doute. Est-ce là le péché </l>
+                        <l n="786"> Dont je vous vois, monsieur, si fort effarouché ? </l>
+                        <l n="787"> C’est des esprits mal faits la critique banale. </l>
+                </sp>
+        <sp who="#monsieur-bréval">
+            <speaker> MONSIEUR BRÉVAL. </speaker>
+                        <l n="788"> Non, je ne puis souffrir cet auteur. La morale... </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="789"> Eh ! de l’hypocrisie il ose la venger. </l>
+                </sp>
+        <sp who="#monsieur-bréval">
+            <speaker> MONSIEUR BRÉVAL. </speaker>
+                        <l n="790"> C’est un prétexte faux pour la mieux outrager. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="791"> Son art même a rendu le crime ridicule ; </l>
+                        <l n="792"> En France, c’est punir. Laissez un vain scrupule. </l>
+                </sp>
+        <sp who="#monsieur-bréval">
+            <speaker> MONSIEUR BRÉVAL. </speaker>
+                        <l n="793"> Non ; c’est des gens de bien qu’il voulut se moquer. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="794"> Dites des imposteurs qu’il a su démasquer. </l>
+                        <l n="795"> C’est de Louis-le-Grand offenser la mémoire, </l>
+                        <l n="796"> Du vainqueur de Rocroi calomnier la gloire. </l>
+                        <l n="797"> Ont-ils pu, vertueux, combler de leurs faveurs </l>
+                        <l n="798"> Un coupable écrivain qui corrompait les mœurs ? </l>
+                        <l n="799"> Le Tartufe a pour lui leur immortel suffrage. </l>
+                </sp>
+        <sp who="#monsieur-bréval">
+            <speaker> MONSIEUR BRÉVAL. </speaker>
+                        <l n="800"> Quels maux n’a pas causés cet infernal ouvrage ! </l>
+                        <l n="801"> Il a tout corrompu. Notre âge en est témoin. </l>
+                        <l n="802"> Jadis... </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="803"> Avant Tartufe ! Ah ! c’est dater de loin. </l>
+                </sp>
+        <sp who="#monsieur-bréval">
+            <speaker> MONSIEUR BRÉVAL. </speaker>
+                        <l n="804"> Un homme comme moi, qu’un zèle ardent enflamme, </l>
+                        <l n="805"> Qui, ne renfermant pas sa vertu dans son âme, </l>
+                        <l n="806"> Par ses discours, son air, ose la publier, </l>
+                        <l n="807"> Et l’affiche partout afin d’édifier, </l>
+                        <l n="808"> Eût par ces seuls dehors inspiré de l’estime. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="809"> Et trouvé dans Orgon une sotte victime. </l>
+                        <l n="810"> Il a de l’imposteur aboli l’art grossier ; </l>
+                        <l n="811"> Mais l’homme vertueux doit l’en remercier : </l>
+                        <l n="812"> Ce n’est pas là, je crois, le sujet de vos plaintes. </l>
+                </sp>
+        <sp who="#monsieur-bréval">
+            <speaker> MONSIEUR BRÉVAL. </speaker>
+                        <l n="813"> On n’a plus cette foi dans les pratiques saintes ; </l>
+                        <l n="814"> L’homme de bien n’est plus respecté maintenant. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="815"> Pardon ; mais il faut être homme de bien vraiment. </l>
+                        <l n="816"> Vous confondez ici la chose et l’apparence ; </l>
+                        <l n="817"> L’estime est aujourd’hui la juste récompense </l>
+                        <l n="818"> Qu’une piété vraie obtient de tous les cœurs. </l>
+                        <l n="819"> On ne l’accorde pas à des dehors trompeurs, </l>
+                        <l n="820"> Et c’est une vertu sincère, simple, humaine, </l>
+                        <l n="821"> Qu’à présent on respecte. </l>
+                </sp>
+        <sp who="#monsieur-bréval">
+            <speaker> MONSIEUR BRÉVAL. </speaker>
+                        <l n="822"> Une vertu mondaine. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="823"> Eh ! ce monde, ce sont tous les hommes, c’est vous. </l>
+                </sp>
+        <sp who="#monsieur-bréval">
+            <speaker> MONSIEUR BRÉVAL. </speaker>
+                        <l n="824"> Ce monde est un enfer. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="825"> Que nous chérissons tous. </l>
+                        <l n="826"> Distinguez d’un faux zèle un zèle ardent, mais sage ; </l>
+                        <l n="827"> Cette piété douce à qui l’on rend hommage, </l>
+                        <l n="828"> Soumise aux lois du ciel, ne veut point le venger, </l>
+                        <l n="829"> Par ses exemples seuls prétend nous corriger : </l>
+                        <l n="830"> De son cœur généreux l’active bienfaisance </l>
+                        <l n="831"> Des hommes, quels qu’ils soient, console la souffrance, </l>
+                        <l n="832"> Des maisons de douleur court braver l’air infect, </l>
+                        <l n="833"> Pour mieux calmer les maux soutient leur triste aspect, </l>
+                        <l n="834"> Secourt le malheureux flétri par la justice, </l>
+                        <l n="835"> Et sans blesser les lois adoucit son supplice : </l>
+                        <l n="836"> Du plus affreux cachot elle perce la nuit, </l>
+                        <l n="837"> Et l’aumône avec elle y pénètre sans bruit. </l>
+                        <l n="838"> D’une telle vertu plus d’un modèle auguste </l>
+                        <l n="839"> Réfute hautement votre censure injuste. </l>
+                        <l n="840"> Je pourrais vous nommer ces citoyens, ces grands, </l>
+                        <l n="841"> Devenus tous égaux pour être bienfaisants ; </l>
+                        <l n="842"> De qui l’humanité, par un pacte sublime, </l>
+                        <l n="843"> S’unit pour abolir la misère et le crime. </l>
+                        <l n="844"> C’est cette piété qu’on révère en tout temps. </l>
+                        <l n="845"> Molière l’a louée en des vers éloquents. </l>
+                        <l n="846"> Tenez, pour dissiper vos scrupules extrêmes, </l>
+                        <l n="847"> Je vais, si vous voulez, vous citer ses vers mêmes ; </l>
+                        <l n="848"> Vous montrer qu’il a su distinguer avec soin </l>
+                        <l n="849"> Le vrai zèle du faux. </l>
+                </sp>
+        <sp who="#monsieur-bréval">
+            <speaker> MONSIEUR BRÉVAL. </speaker>
+                        <l n="850"> Non, il n’est pas besoin. </l>
+                        <l n="851"> Brisons ; mais retenez cet avis charitable : </l>
+                        <l n="852"> Votre auteur doit brûler une pièce coupable ; </l>
+                        <l n="853"> S’il la donne demain, dites-lui de trembler. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="854"> Vous n’irez pas la voir ? </l>
+                </sp>
+        <sp who="#monsieur-bréval">
+            <speaker> MONSIEUR BRÉVAL. </speaker>
+                        <l n="855"> J’irai pour la siffler. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="856"> Un homme comme vous ferait une cabale ? </l>
+                </sp>
+        <sp who="#monsieur-bréval">
+            <speaker> MONSIEUR BRÉVAL. </speaker>
+                        <l n="857"> Tous les moyens sont bons pour venger la morale. </l>
+                        <l n="858"> Adieu. </l>
+                        <l n="859"> Il sort.</l></div>
+        <div type="scene" xml:id=" XII ">
+            <head> Scène XII </head>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="860"> Voilà vraiment un homme singulier. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="861"> Excusez-le. Molière a gâté son métier. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="862"> Je vois avec chagrin qu’en dépit de Molière, </l>
+                        <l n="863"> Et malgré tant de gens d’une vertu sincère, </l>
+                        <l n="864"> Tartufe a parmi nous laissé des rejetons. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="865"> Mais Molière a détruit la race des Orgons. </l></div>
+        <div type="scene" xml:id=" XIII ">
+            <head> Scène XIII </head>
+        <sp who="#anaïs">
+            <speaker> ANAÏS. </speaker>
+                        <l n="866"> Demain soir seulement mon congé me rappelle ; </l>
+                        <l n="867"> Je reviens aujourd’hui. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="868"> Fort bien. </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR, à part. </speaker>
+                        <l n="869"> C’est l’infidèle. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="870"> Plus d’un acteur oublie, avec nos chers voisins, </l>
+                        <l n="871"> De bien compter les jours en comptant leurs florins. </l>
+                </sp>
+        <sp who="#anaïs">
+            <speaker> ANAÏS, à l’acteur. </speaker>
+                        <l n="872"> Apprenez, cher Léon, mon heureuse fortune ; </l>
+                        <l n="873"> Car la gloire entre amans n’est-elle pas commune ? </l>
+                        <l n="874"> J’ai su plaire au public. Léon m’était présent, </l>
+                        <l n="875"> Et l’amour fut l’appui de mon faible talent ; </l>
+                        <l n="876"> Je vous dois mon succès, je vous en fais hommage... </l>
+                        <l n="877"> Mais quel chagrin paraît troubler votre visage ? </l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="878"> Moi ! point. </l>
+                </sp>
+        <sp who="#anaïs">
+            <speaker> ANAÏS. </speaker>
+                        <l n="879"> Que les bravos n’allaient-ils jusqu’à vous ! </l>
+                        <l n="880"> C’était mon seul regret. </l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON, à part. </speaker>
+                        <l n="881"> J’étouffe de courroux. </l>
+                </sp>
+        <sp who="#anaïs">
+            <speaker> ANAÏS. </speaker>
+                        <l n="882"> Vous ne partagez pas ma gloire et mon ivresse ? </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="883"> Il médite avec moi l’intrigue d’une pièce. </l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="884"> Vous dites qu’à Bruxelles on vous fit bon accueil ? </l>
+                </sp>
+        <sp who="#anaïs">
+            <speaker> ANAÏS, à part. </speaker>
+                        <l n="885"> Qu’il est froid ! </l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON, à part. </speaker>
+                        <l n="886"> Insensé ! j’en conçois de l’orgueil. </l>
+                        <l n="887"> Je l’aime encor. </l>
+                        <l n="888"> Haut.</l>
+                        <l n="889"> Tant mieux. Quel est le personnage </l>
+                        <l n="890"> Où surtout du public vous eûtes le suffrage ? </l>
+                </sp>
+        <sp who="#anaïs">
+            <speaker> ANAÏS. </speaker>
+                        <l n="891"> Célimène. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="892"> Comment ! pouviez-vous en douter ? </l>
+                        <l n="893"> Son art au naturel sait le représenter. </l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="894"> Ce mot me plaît. </l>
+                        <l n="895"> À part.</l>
+                        <l n="896"> Il faut que ma vengeance éclate, </l>
+                        <l n="897"> Et de cette façon je confondrai l’ingrate. </l>
+                        <l n="898"> Haut.</l>
+                        <l n="899"> Ce rôle est admirable ; il séduit. Tous les traits, </l>
+                        <l n="900"> Je ne le sais que trop, en sont justes et vrais. </l>
+                        <l n="901"> Mais estimeriez-vous une femme semblable ? </l>
+                </sp>
+        <sp who="#anaïs">
+            <speaker> ANAÏS. </speaker>
+                        <l n="902"> Moi ? non. </l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="903"> Vous la trouvez sans doute inexcusable </l>
+                        <l n="904"> D’admettre en sa maison vingt amants à la fois, </l>
+                        <l n="905"> Sans que sur aucun d’eux elle fixe son choix ? </l>
+                </sp>
+        <sp who="#anaïs">
+            <speaker> ANAÏS. </speaker>
+                        <l n="906"> Sans doute. </l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="907"> Vous taxez, non pas d’étourderie </l>
+                        <l n="908"> Ou de légèreté, mais de coquetterie, </l>
+                        <l n="909"> Une femme qui flatte et trompe tour à tour, </l>
+                        <l n="910"> Jure à tous ces galants un exclusif amour, </l>
+                        <l n="911"> Et, dans des billets doux que sa main leur adresse, </l>
+                        <l n="912"> Distribue à chacun une égale tendresse ? </l>
+                </sp>
+        <sp who="#anaïs">
+            <speaker> ANAÏS. </speaker>
+                        <l n="913"> Je dirai plus. Ces tours me semblent des forfaits. </l>
+                        <l n="914"> Alceste fait très bien de rompre pour jamais. </l>
+                        <l n="915"> Mais je voudrais savoir où ce discours nous mène. </l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="916"> Vous voulez le savoir ? Vous êtes Célimène. </l>
+                        <l n="917"> Lisez. </l>
+                        <l n="918"> Il lui donne les billets.</l>
+                </sp>
+        <sp who="#anaïs">
+            <speaker> ANAÏS. </speaker>
+                        <l n="919"> L’allégorie est galante, vraiment. </l>
+                        <l n="920"> Et voilà le motif de votre emportement ? </l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="921"> Quoi ! vous ne faites pas à Selmour la promesse </l>
+                        <l n="922"> D’accueillir sa visite ? </l>
+                </sp>
+        <sp who="#anaïs">
+            <speaker> ANAÏS. </speaker>
+                        <l n="923"> Eh ! c’est par politesse. </l>
+                        <l n="924"> Moi ! j’aimerais Selmour, ce doyen des galants, </l>
+                        <l n="925"> Qui va partout offrir un cœur de soixante ans, </l>
+                        <l n="926"> Dans un froid madrigal qu’il vous jette à la tête, </l>
+                        <l n="927"> À moins qu’en son discours son asthme ne l’arrête ! </l>
+                        <l n="928"> De nos deux Opéra périodique appui, </l>
+                        <l n="929"> Qui d’un théâtre à l’autre alterne son ennui, </l>
+                        <l n="930"> Dit un brava du banc où siège la critique, </l>
+                        <l n="931"> Et déclare en bâillant qu’il est fou de musique ! </l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="932"> Au jeune d’Anglemont... </l>
+                </sp>
+        <sp who="#anaïs">
+            <speaker> ANAÏS. </speaker>
+                        <l n="933"> Qui ! cet original, </l>
+                        <l n="934"> Toujours éperonné sans avoir de cheval ? </l>
+                        <l n="935"> D’une société si maussade et si plate ? </l>
+                        <l n="936"> Qui met tout son esprit au noud de sa cravate ? </l>
+                        <l n="937"> Petit-maître grossier qui croit avoir bon ton, </l>
+                        <l n="938"> Et, la cravache en main, entre dans un salon ? </l>
+                        <l n="939"> Lovelace innocent, publiant pour mieux plaire </l>
+                        <l n="940"> Les infidélités qu’il n’a jamais pu faire, </l>
+                        <l n="941"> Qui promène en tout lieu son air fat et guindé, </l>
+                        <l n="942"> Et lorgne les passants pour être regarde ? </l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="943"> Vous jurez de l’aimer. </l>
+                </sp>
+        <sp who="#anaïs">
+            <speaker> ANAÏS. </speaker>
+                        <l n="944"> Mais c’est une formule. </l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="945"> À cet autre, comme eux, sans doute ridicule... </l>
+                </sp>
+        <sp who="#anaïs">
+            <speaker> ANAÏS. </speaker>
+                        <l n="946"> Il m’avait poliment invitée à son bal ; </l>
+                        <l n="947"> C’est lui qui sort d’ici. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="948"> Notre homme si moral ! </l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="949"> De son cœur, par ces mots, vous agréez l’hommage. </l>
+                </sp>
+        <sp who="#anaïs">
+            <speaker> ANAÏS. </speaker>
+                        <l n="950"> Je le remerciais. C’est un billet d’usage. </l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="951"> Oui, vous avez raison : je vois que seul j’ai tort, </l>
+                        <l n="952"> Je vous calomniais dans mon jaloux transport ; </l>
+                        <l n="953"> De chimères vraiment mon esprit se tourmente, </l>
+                        <l n="954"> Et vous trouvez à tout une excuse excellente. </l>
+                        <l n="955"> Ce qui dans Célimène était un crime affreux </l>
+                        <l n="956"> Est innocent chez vous, n’offense point mes feux. </l>
+                        <l n="957"> Moi, je me crois trahi : vous venez de m’apprendre </l>
+                        <l n="958"> Le parti qu’en ce cas l’homme d’honneur doit prendre. </l>
+                        <l n="959"> Je ferai comme Alceste, et je romps pour jamais. </l>
+                        <l n="960"> Je le dois ; j’oublierai vos perfides attraits. </l>
+                </sp>
+        <sp who="#anaïs">
+            <speaker> ANAÏS, riant. </speaker>
+                        <l n="961"> Ah ! vous êtes Alceste et prenez son langage ; </l>
+                        <l n="962"> Vous choisissez, mon cher, un fort beau personnage ; </l>
+                        <l n="963"> Mais voyons, de son nom vous voilà revêtu ; </l>
+                        <l n="964"> Pour être aussi sévère, avez-vous sa vertu ? </l>
+                        <l n="965"> Épris de Célimène, Alceste n’aime qu’elle ; </l>
+                        <l n="966"> Son âme à chaque instant sent une ardeur nouvelle ; </l>
+                        <l n="967"> D’aucune autre son cœur n’aperçoit la beauté : </l>
+                        <l n="968"> C’est son bien, son bonheur, c’est sa divinité ; </l>
+                        <l n="969"> Il ne courtise point les nouvelles actrices, </l>
+                        <l n="970"> D’un amour passager ne suit point les caprices. </l>
+                        <l n="971"> Fidèle, d’une amante invoquant le serment, </l>
+                        <l n="972"> Il a droit d’être aimé, car il aime vraiment. </l>
+                        <l n="973"> Quand vous approcherez de ce parfait modèle, </l>
+                        <l n="974"> Il vous sera permis de me chercher querelle. </l>
+                        <l n="975"> Jusque-là, faites-moi grâce de la leçon. </l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON, à part. </speaker>
+                        <l n="976"> Allons ! c’est moi qui vais lui demander pardon. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="977"> De notre misanthrope excusez la jeunesse ; </l>
+                        <l n="978"> S’il en a la folie, il en a la tendresse. </l>
+                </sp>
+        <sp who="#anaïs">
+            <speaker> ANAÏS. </speaker>
+                        <l n="979"> Qu’il ne soit plus jaloux. </l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="980"> Oui, je vous le promets. </l>
+                        <l n="981"> Soyez témoin, mon cher, de ce traité de paix ; </l>
+                        <l n="982"> Recevez mes serments ; mais qu’elle me promette </l>
+                        <l n="983"> De n’écrire qu’à moi, de n’être plus coquette. </l>
+                </sp>
+        <sp who="#anaïs">
+            <speaker> ANAÏS. </speaker>
+                        <l n="984"> Encore ! </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="985"> Pourra-t-elle accomplir de tels vœux ? </l>
+                        <l n="986"> Vous lui défendez là de plaire à tous les yeux. </l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="987"> Je vous ai fait injure, et je suis seul coupable. </l>
+                </sp>
+        <sp who="#anaïs">
+            <speaker> ANAÏS. </speaker>
+                        <l n="988"> Je ne puis à ces mots rester inexorable, </l>
+                        <l n="989"> Puisque vous avouez que vous seul avez tort ; </l>
+                        <l n="990"> Et pour prix seulement de ce galant effort, </l>
+                        <l n="991"> Je jure à votre amour follement inquiète, </l>
+                        <l n="992"> Si je le fus jamais, de n’être plus coquette. </l>
+                </sp>
+        <sp who="#léon">
+            <speaker> LÉON. </speaker>
+                        <l n="993"> Ah ! jouez Célimène, et ne l’imitez plus. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="994"> Laissons là maintenant des discours superflus. </l>
+                        <l n="995"> Qu’on n’entre plus, surtout : avec la politesse, </l>
+                        <l n="996"> Nous ne pourrions jamais achever notre pièce. </l>
+                        <l n="997"> Par des fâcheux divers je me vois harceler. </l>
+                        <l n="998"> Ah ! vous tous qui voulez applaudir ou siffler </l>
+                        <l n="999"> La pièce que demain je dédie à Molière, </l>
+                        <l n="1000"> Messieurs les importuns, laissez-moi donc la faire ! </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="1001"> Elle est faite. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="1002"> J’en suis presque au commencement ! </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="1003"> En vous interrompant ils vous aidaient. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="1004"> Comment ? </l>
+                </sp>
+        <sp who="#l’acteur">
+            <speaker> L’ACTEUR. </speaker>
+                        <l n="1005"> Mon plan d’un long travail vous épargne la peine. </l>
+                        <l n="1006"> Mettez tout simplement ces fâcheux sur la scène ; </l>
+                        <l n="1007"> Transcrivez leurs discours, et votre ouvrage est fait. </l>
+                        <l n="1008"> Vous avez de Molière un éloge complet. </l>
+                        <l n="1009"> Vous voulez, dites-vous, que la pièce nouvelle </l>
+                        <l n="1010"> Montre de ses écrits l’influence éternelle ? </l>
+                        <l n="1011"> Prouve qu’il a formé, qu’il forme encor les mœurs ; </l>
+                        <l n="1012"> Que sa gaîté bannit les plus sombres humeurs ; </l>
+                        <l n="1013"> Qu’il a fait, en un mot, de ses savants ouvrages, </l>
+                        <l n="1014"> La leçon, le plaisir, l’amour de tous les âges ? </l>
+                        <l n="1015"> Ce banquier, dégoûté par ses écrits plaisants </l>
+                        <l n="1016"> De l’honneur ruineux d’être l’ami des grands, </l>
+                        <l n="1017"> Et sauvé, grâce à lui, d’un noble mariage, </l>
+                        <l n="1018"> Apprendra que Molière, offrant leur propre image </l>
+                        <l n="1019"> À ces petits bourgeois avides de grandeurs, </l>
+                        <l n="1020"> Pourrait leur épargner de fatales erreurs. </l>
+                        <l n="1021"> Le classique mari de cette docte belle, </l>
+                        <l n="1022"> À qui le romantisme a brouillé la cervelle. </l>
+                        <l n="1023"> Et qui de son ménage a banni le repos, </l>
+                        <l n="1024"> Montrera poliment que ces plaisants tableaux, </l>
+                        <l n="1025"> Où d’un trait immortel il a peint des pédantes, </l>
+                        <l n="1026"> Sont encor le portrait de nos femmes savantes ; </l>
+                        <l n="1027"> Emma, qu’il peut servir aux prudes d’à présent, </l>
+                        <l n="1028"> Douairières vertus qui savent chastement, </l>
+                        <l n="1029"> Dans la société comme aux jeux de la scène, </l>
+                        <l n="1030"> À des mots innocents trouver un sens obscène ; </l>
+                        <l n="1031"> L’Anglais à qui Molière a rendu la santé, </l>
+                        <l n="1032"> Qu’il guérit du chagrin mieux que la Faculté ; </l>
+                        <l n="1033"> Durville, qu’Harpagon, en déguisant son vice, </l>
+                        <l n="1034"> N’a que civilisé sa grossière avarice ; </l>
+                        <l n="1035"> Cet homme au regard, faux, dont j’ignore le nom </l>
+                        <l n="1036"> Du bon monsieur Tartufe intrépide patron, </l>
+                        <l n="1037"> Que Molière a vengé la vertu franche et pure </l>
+                        <l n="1038"> Du tort qu’en l’imitant lui cause l’imposture ; </l>
+                        <l n="1039"> Que le lâche hypocrite est perdu pour jamais </l>
+                        <l n="1040"> Du moment qu’au grand jour on a montré ses traits ; </l>
+                        <l n="1041"> Montrant Anaïs.</l>
+                        <l n="1042"> Nous enfin, qu’il guérit et de la jalousie, </l>
+                        <l n="1043"> Et, vous le promettez, de la coquetterie. </l>
+                </sp>
+        <sp who="#le-directeur">
+            <speaker> LE DIRECTEUR. </speaker>
+                        <l n="1044"> Oui, j’adopte ce plan : il montre au spectateur </l>
+                        <l n="1045"> Quel fruit l’on peut tirer de ce sublime auteur ; </l>
+                        <l n="1046"> Qu’il est encor nouveau même au temps où nous sommes ; </l>
+                        <l n="1047"> Que Molière en ce monde où périssent les hommes, </l>
+                        <l n="1048"> Mais non pas les travers du pauvre genre humain, </l>
+                        <l n="1049"> Seul des siècles divers est le contemporain. </l>
+                        <l n="1050"> Tout est prêt maintenant pour cette fête auguste ; </l>
+                        <l n="1051"> Que de Molière ici l’on apporte le buste ; </l>
+                        <l n="1052"> Couronnons entre nous ce poète divin, </l>
+                        <l n="1053"> Et nous aurons joué la pièce de demain. </l>
+                        <l n="1054"> Tous les acteurs paraissent et couronnent le buste de Molière.</l>
+                        <l n="1055"> [1] M. Andrieux a dédié à mademoiselle Mars sa charmante comédie du Manteau. On éprouve ici un bien grand plaisir à rendre un respectueux hommage à son caractère et à son talent.</l>
+                        <l n="1056"> </l></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>

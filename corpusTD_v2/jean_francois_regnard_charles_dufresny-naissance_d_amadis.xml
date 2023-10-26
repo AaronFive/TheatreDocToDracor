@@ -1,0 +1,652 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">La naissance d’Amadis</title>
+                <title type="sub">Comédie</title>
+            <author>
+                <persName>
+                    <forename>Jean-François</forename>
+                    <forename>-</forename>
+                    <forename>Charles</forename>
+                    <surname>Regnard</surname>
+                    <surname>Dufresny</surname>
+                </persName>
+            </author>
+                        <editor>Adrien Roumégous, dans le cadre d'un stage de M1 Informatique encadré par Aaron Boussidan et Philippe Gambette.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <idno type="dracor" xml:base="https://dracor.org/id/">fre[6 chiffres]</idno>
+                <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q[id]</idno>
+                <availability>
+                    <licence>
+                        <ab>CC BY-NC-SA 4.0</ab>
+                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence</ref>
+                    </licence>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Théâtre Documentation</name>
+                    <idno type="URL"> http://théâtre-documentation.com/content/?q=node/669 </idno>
+                    <availability>
+                        <licence>
+                            <ab>loi française n° 92-597 du 1er juillet 1992 et loi n°78-753 du 17 juillet 1978</ab>
+                            <ref target="http://théâtre-documentation.com/content/mentions-l%C3%A9gales#Mentions_legales">Mentions légales</ref>
+                        </licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <date type="premiere" when="1694-02-10">Représentée pour la première fois, à Paris, sur le Théâtre de l’Hôtel de Bourgogne, le 10 février 1694.</date>
+                        <idno type="URL"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                        <person xml:id="carinther" sex="SEX">
+                            <persName>CARINTHER</persName>
+                        </person>
+                        <person xml:id="éllzène" sex="SEX">
+                            <persName>ÉLLZÈNE</persName>
+                        </person>
+                        <person xml:id="périon" sex="SEX">
+                            <persName>PÉRION</persName>
+                        </person>
+                        <person xml:id="galaor" sex="SEX">
+                            <persName>GALAOR</persName>
+                        </person>
+                        <person xml:id="dariolette" sex="SEX">
+                            <persName>DARIOLETTE</persName>
+                        </person>
+                        <person xml:id="une-ombre" sex="SEX">
+                            <persName>UNE OMBRE</persName>
+                        </person>
+                        <person xml:id="gardes" sex="SEX">
+                            <persName>GARDES.</persName>
+                        </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+            <keywords scheme="http://theatre-documentation.fr"> <!--extracted from "genre" and "type" elements-->
+                    <term> Comédie</term>
+                    <term> prose </term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">[Q40831]</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-18">(mg) file conversion from source</change>
+            </listChange>
+        </revisionDesc>
+   </teiHeader>
+    <text>
+    <front>
+        <docTitle>
+            <titlePart type="main">LA NAISSANCE D’AMADIS</titlePart>
+            <titlePart type="sub">COMÉDIE</titlePart>
+        </docTitle>
+        <docDate when="[vide]">[Date Print Line]</docDate>
+        
+        <performance>
+            <ab type="premiere">Représentée pour la première fois, à Paris, sur le Théâtre de l’Hôtel de Bourgogne, le 10 février 1694.</ab><!--@date="1694-02-10"-->
+        </performance>
+        <div type="scene" xml:id=" première ">
+            <head> Scène première </head>
+        <sp who="#galaor">
+            <speaker> GALAOR. </speaker>
+                        <l n="1"> En vérité, seigneur, je vous trouve dans un bien triste et moult piteux état depuis que vous êtes en ce diable de pays-ci. Pourquoi quitter votre royaume pour venir faire le juif-errant dans les Gaules, et ne vous occuper qu’à occire des géants et venger l’honneur des pucelles ? Vous n’aurez jamais fait à ce métier-là.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION, soupirant. </speaker>
+                        <l n="2"> Ouf !</l>
+                </sp>
+        <sp who="#galaor">
+            <speaker> GALAOR. </speaker>
+                        <l n="3"> Ouf ! Cela me met le cœur en grande componction et détresse, de voir que mon bon maître, le roi Périon, s’en aille comme cela le grand galop dans l’autre monde. Par la digne épée que vous portez, révélez-moi l’ennui qui vous malmène.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION chante. </speaker>
+                        <l n="4"> J’aime, hélas ! c’est assez pour être malheureux.</l>
+                </sp>
+        <sp who="#galaor">
+            <speaker> GALAOR chante aussi. </speaker>
+                        <l n="5"> Sans cesse l’on vous voit voler de fille en fille ;</l>
+                        <l n="6"> À chaque gîte, enfin, vous changez chaque jour.</l>
+                        <l n="7"> Si vous vous plaignez de l’amour,</l>
+                        <l n="8"> C’est fort bien fait s’il vous houspille.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="9"> Ce n’est pas l’amour que j’ai ramassé dans les cabarets qui me secoue davantage... Hélas !</l>
+                </sp>
+        <sp who="#galaor">
+            <speaker> GALAOR. </speaker>
+                        <l n="10"> Et depuis quand donc les princes poussent-ils de si grands soupirs ? Est-il quelque porte, tant verrouillée soit-elle, qui ne s’ouvre de prime-face à leur aspect ? Et ne trouvent-ils pas toujours en leur chemin donzelle prête à leur accorder la courtoisie ?</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="11"> Parbleu ! tu en auras menti, petit truand d’amour ; et il ne sera pas dit que je t’hébergerai dans mon cœur, sans que tu paies tout gîte.</l>
+                </sp>
+        <sp who="#galaor">
+            <speaker> GALAOR. </speaker>
+                        <l n="12"> Mais quelle est donc la petite carogne qui vous a si bien ajusté ?</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="13"> Tu connais la fille du roi chez qui nous demeurons depuis huit jours ?</l>
+                </sp>
+        <sp who="#galaor">
+            <speaker> GALAOR. </speaker>
+                        <l n="14"> Qui, Élizène ?</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="15"> Ah ! malheureux ! quel nom est sorti de ta bouche ?</l>
+                        <l n="16"> Oui, voilà le fatal brandon</l>
+                        <l n="17"> Qui met mon cœur tout en charbon ;</l>
+                        <l n="18"> L’outrecuidé géant qui, me faisant injure,</l>
+                        <l n="19"> Fait de ma liberté pleine déconfiture.</l>
+                </sp>
+        <sp who="#galaor">
+            <speaker> GALAOR. </speaker>
+                        <l n="20"> Oh ! consolez-vous. Si c’est là le poulet de grain dont votre cœur est en appétit, je vous promets avant qu’il soit peu que vous en aurez cuisse ou aile.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="21"> Ah ! mon cher, il faut que je t’embrasse par avance, pour le grand bien que tu me fais espérer. Mais, dis-moi, écuyer mon ami, ta promesse sera-l-elle sans fallace ? Crois-tu qu’Élizène m’accorde la passade amoureuse ?</l>
+                </sp>
+        <sp who="#galaor">
+            <speaker> GALAOR. </speaker>
+                        <l n="22"> Si fera-t-elle, foi d’écuyer : je sais qu’elle vous trouve d’un fort bon aloi, et je connais moult très bien l’esprit des femelles, qui accordent plus volontiers leurs faveurs à un étranger qu’à un citadin.</l>
+            <stage><em>Il chante.</em></stage>
+                        <l n="23"> Une fille bien apprise,</l>
+                        <l n="24"> Qui veut toujours aller son train,</l>
+                        <l n="25"> N’accorde rien à son voisin,</l>
+                        <l n="26"> De peur qu’il ne le dise :</l>
+                        <l n="27"> Elle vend mieux sa marchandise</l>
+                        <l n="28"> À quelque marchand forain.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="29"> Va donc, cher ami, va opérer de manière que je puisse voir la princesse, et tâche à rechasser sur mes terres ce gibier amoureux.</l></div>
+        <div type="scene" xml:id=" II ">
+            <head> Scène II </head>
+        <sp who="#le-roi">
+            <speaker> LE ROI est poursuivi par un lion. </speaker>
+                        <l n="30"> Au meurtre, au secours, à la justice !</l>
+            <stage><em>Périon combat le lion et le tue.</em></stage>
+                        <l n="31"> Ah ! preux chevalier, c’est toi qui m’as recous des pattes de ce discourtois animal ; c’est toi qui m’as sauvé la vie.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="32"> Ce n’est pas une affaire pour moi d’aller à la chasse aux lions ; j’en ai quelquefois une douzaine à mon croc, et on les sert par accolade sur ma table, comme des lapereaux.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="33"> Je suis fâché que vous ne m’ayez pas donné le temps de le tuer ; je ne me suis jamais senti tant de courage.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="34"> Oui, pour fuir et pour crier. Croyez-moi, allez vous mettre au lit.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="35"> Voilà qui est fait : je n’irai jamais à la chasse contre des animaux qui n’ont ni foi ni loi.</l></div>
+        <div type="scene" xml:id=" III ">
+            <head> Scène III </head>
+        <sp who="#périon">
+            <speaker> PÉRION, seul </speaker>
+                        <l n="36"> Je me suis trouvé là bien à propos pour sauver la vie au père de ma maîtresse. Ah ! cruelle fortune ! pourquoi ne me donnes-tu pas l’occasion de faire pour la fille ce que je viens de faire pour le père ? Oui, je voudrais qu’elle eût cent lions à ses trousses. Je voudrais la voir au milieu des fournaises les plus enflammées ; qu’elle fût précipitée dans le fond des abîmes de la mer : le diable m’emporte si je l’allais requérir.</l></div>
+        <div type="scene" xml:id=" IV ">
+            <head> Scène IV </head>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="37"> Mais je vois sa suivante. Bonjour, accorte et gente Dariolette ; quel bon vent a poussé la nef de tes appas à la rade démon espérance ?</l>
+                </sp>
+        <sp who="#dariolette">
+            <speaker> DARIOLETTE. </speaker>
+                        <l n="38"> La princesse Élizène, ma tant bonne maîtresse, m’envoie vers vous, son seigneur ; elle est navrée à votre sujet d’une blessure tant profonde qu’elle n’en guérira jamais, si vous n’y mettez la main.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="39"> Qu’à cela ne tienne ; je les y mettrai plutôt toutes deux.</l>
+                </sp>
+        <sp who="#dariolette">
+            <speaker> DARIOLETTE. </speaker>
+                        <l n="40"> La pauvrette se plaint jour et nuit ; elle soupire, elle larmoie, et oncques elle ne vit jouvenceau d’aussi bonne affaire que vous.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="41"> Je t’assure que si elle me trouve jouvenceau de très bonne affaire, je la trouve aussi jouvencelle de très bon déblai.</l>
+                </sp>
+        <sp who="#dariolette">
+            <speaker> DARIOLETTE, découvrant une corbeille de fleurs. </speaker>
+                        <l n="42"> Voilà des fleurs qu’elle vous envoie pour marque de sa bienveillance envers vous ; elle les a elle-même cueillies de sa main.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="43"> Ah ! Dariolette, m’amie ! ce ne sont pas là les fleurs de son jardin que je convoiterais davantage.</l>
+                </sp>
+        <sp who="#dariolette">
+            <speaker> DARIOLETTE. </speaker>
+                        <l n="44"> Je vous assure qu’elle n’a rien réservé ; elle vous a tout envoyé.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="45"> Ah ! Dariolette ! que je serais heureux si j’étais le jardinier d’une aussi jolie plante que ta maîtresse ! je la cultiverais, je la labourerais ; et devant qu’il fût un an, j’en aurais de la graine.</l>
+                </sp>
+        <sp who="#dariolette">
+            <speaker> DARIOLETTE. </speaker>
+                        <l n="46"> Ah ! seigneur, ma maîtresse n’est point une fille à monter en graine ; on ne la laissera pas si longtemps sans lui donner un mari. Mais... là... parlez-moi franchement, est-il bien vrai que vous l’aimiez si fort ?</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="47"> Oui, l’amour s’est mis en embuscade sur le grand chemin démon cœur, pour l’assaillir et le détrousser. Il est féru si très profondément, que je ne puis m’excuser de la mort, si dans bref l’emplâtre de ses faveurs n’y donne allégement.</l>
+                </sp>
+        <sp who="#dariolette">
+            <speaker> DARIOLETTE. </speaker>
+                        <l n="48"> Il y a tout plein de ces agonisants-là, qui tombent en pâmoison à l’aspect des jolies demoiselles. On sait bien ce qu’il faudrait pour les faire revenir ; mais la plupart sont des traîtres qui ne cherchent qu’à emprunter certaines choses qu’ils ne rendent jamais.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="49"> Oh ! diable ! mes intentions sont dans l’équilibre de la pudeur. Si je pourchasse ta maîtresse, c’est en toute loyauté et droiture. Je ne voudrais que lui dire deux mots.</l>
+                </sp>
+        <sp who="#dariolette">
+            <speaker> DARIOLETTE. </speaker>
+                        <l n="50"> Parler à ma maîtresse ! Ah ! seigneur, cela est impossible.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION, lui donnant une bourse. </speaker>
+                        <l n="51"> Tiens, tiens ; cela rendra peut-être la chose plus facile.</l>
+                </sp>
+        <sp who="#dariolette">
+            <speaker> DARIOLETTE. </speaker>
+                        <l n="52"> Il faudrait donc que ce fût la nuit, afin de n’être vu de personne. Car il y a une loi dans ce pays, furieusement sévère contre une fille qu’on rencontre avec un garçon ; et le bûcher est toujours prêt pour les brûler tous deux sans autre forme de procès. Dame ! dans les Gaules, on est terriblement raide sur l’honneur.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="53"> On traite les filles plus humainement en mon pays, et si on brûlait toutes celles qui ont délinqué, le bois y manquerait tous les hivers. Mais tu n’as rien à craindre ; dès à présent j’épouse ta maîtresse.</l>
+                </sp>
+        <sp who="#dariolette">
+            <speaker> DARIOLETTE. </speaker>
+                        <l n="54"> Bon ! on voit tant de ces épouseux-là qui amusent les filles avec des promesses banales de mariage ! Ils n’ont pas plus tôt obtenu quelques gracieusetés, que tout le mariage s’en va à vau-l’eau. Pendant ce temps-là, une pauvre fille en a pour son compte.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="55"> Comment ! tu doutes encore de ma fidélité ?</l>
+            <stage><em>Il tire son épée.</em></stage>
+                        <l n="56"> Je jure par ce fer dont nul géant n’échappe,</l>
+                        <l n="57"> Par qui maint félon fut occis,</l>
+                        <l n="58"> De ne boire jus de la grappe,</l>
+                        <l n="59"> Ni de ne manger pain sur nappe,</l>
+                        <l n="60"> Que d’Élizène enfin je ne sois le mari,</l>
+                        <l n="61"> Si j’obtiens l’obligeante étape,</l>
+                        <l n="62"> Autrement dit le don d’amoureuse merci.</l>
+                </sp>
+        <sp who="#dariolette">
+            <speaker> DARIOLETTE. </speaker>
+                        <l n="63"> Or maintenant réjouissez-vous ; je vais tâcher de mettre fin à tant glorieuse entreprise, et envers la minuit je vous ferai ébattre en propos joyeux avec votre maîtresse.</l></div>
+        <div type="scene" xml:id=" V ">
+            <head> Scène V </head>
+        <sp who="#périon">
+            <speaker> PÉRION, seul </speaker>
+                        <l n="64"> Je touche enfin l’heureux moment</l>
+                        <l n="65"> Qui va finir mon amoureux tourment ;</l>
+                        <l n="66"> Élizène bientôt deviendra mon partage.</l>
+                        <l n="67"> Mon cœur tressault, tous mes sens sont ravis,</l>
+                        <l n="68"> Dans peu l’amour va m’ouvrir l’huis</l>
+                        <l n="69"> Qui conduit dans le mariage.</l>
+                        <l n="70"> À minuit j’en dirai deux mots</l>
+                        <l n="71"> Avec ma belle jouvencelle,</l>
+                        <l n="72"> Et je dois en mômes propos</l>
+                        <l n="73"> Me solacier avec elle.</l>
+                        <l n="74"> Ô nuit ! prends ton noir balandran,</l>
+                        <l n="75"> Viens, descends, que rien ne t’arrête ;</l>
+                        <l n="76"> Puisque c’est à minuit que se fera la fête,</l>
+                        <l n="77"> Conduis vite l’aiguille au milieu du cadran.</l></div>
+        <div type="scene" xml:id=" VI ">
+            <head> Scène VI </head>
+        <sp who="#dariolette">
+            <speaker> DARIOLETTE. </speaker>
+                        <l n="78"> Allons, ma bonne maîtresse, la nuit est bien noire, et favorise notre marche clandestine.</l>
+                </sp>
+        <sp who="#éllzène">
+            <speaker> ÉLIZÈNE. </speaker>
+                        <l n="79"> Ma pauvre Dariolette, je tremble comme la feuille. Mais, dis-moi, un homme n’est-il pas bien fort, quand il est seul avec une personne dont il est aimé ?</l>
+                </sp>
+        <sp who="#dariolette">
+            <speaker> DARIOLETTE. </speaker>
+                        <l n="80"> Mais, c’est selon. Quelquefois c’est l’homme qui est le plus fort, quelquefois aussi c’est la femme. Je ne sais pas bien les règles du tête-à-tête, et je n’en ai encore reçu que deux ou trois leçons.</l>
+                </sp>
+        <sp who="#éllzène">
+            <speaker> ÉLIZÈNE. </speaker>
+                        <l n="81"> Mais est-il bien sûr que tu m’aies véritablement mariée avec le roi Périon ? Car sans cela, je me garderais bien de me trouver cap à cap avec lui.</l>
+                </sp>
+        <sp who="#dariolette">
+            <speaker> DARIOLETTE. </speaker>
+                        <l n="82"> Eh ! ne craignez rien : je connais mille femmes qui n’ont jamais été le quart autant mariées que vous.</l>
+                </sp>
+        <sp who="#éllzène">
+            <speaker> ÉLIZÈNE. </speaker>
+                        <l n="83"> Je ne saurais que te dire ; ce mariage-là me paraît un peu précipité.</l>
+                </sp>
+        <sp who="#dariolette">
+            <speaker> DARIOLETTE. </speaker>
+                        <l n="84"> Il ne s’en fait plus autrement ; et dans ce temps-ci, il faut brusquer la noce, et ne pas donner le temps à un homme de se reconnaître, ni de faire trop d’informations de vie et de mœurs de sa future.</l>
+                </sp>
+        <sp who="#éllzène">
+            <speaker> ÉLIZÈNE. </speaker>
+                        <l n="85"> Au moins, Dariolette, tu me promets que la comédie se passera en simples récits et menus propos.</l>
+                </sp>
+        <sp who="#dariolette">
+            <speaker> DARIOLETTE. </speaker>
+                        <l n="86"> Et ! fiez-vous à ma parole.</l>
+                </sp>
+        <sp who="#éllzène">
+            <speaker> ÉLIZÈNE. </speaker>
+                        <l n="87"> Ma pauvre Dariolette, n’y aurait-il pas moyen de remettre la partie à demain ?</l>
+                </sp>
+        <sp who="#dariolette">
+            <speaker> DARIOLETTE. </speaker>
+                        <l n="88"> Bon ! bon ! demain ne serait-ce pas la même chose ? Les nouvelles mariées demandent toujours des lettres de répit, et elles seraient au désespoir qu’on les leur accordât. Allons.</l></div>
+        <div type="scene" xml:id=" VII ">
+            <head> Scène VII </head>
+        <sp who="#périon">
+            <speaker> PÉRION, GALAOR </speaker>
+            <stage><em>Le théâtre change ; on voit Périon sur un lit d’ange, en robe de chambre, botté, et son épée sous son bras. Galaor est debout à côté du lit.</em></stage>
+            <stage><em>L’orchestre joue le sommeil d’Amadis.</em></stage>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION chante. </speaker>
+                        <l n="89"> Ah ! je sens l’amour qui me grille ;</l>
+                        <l n="90"> Je n’en puis plus, morbleu !</l>
+                        <l n="91"> Mon cœur pétille</l>
+                        <l n="92"> Au feu ! au feu ! au feu ! au feu !</l>
+                        <l n="93"> Les seaux de la ville !</l>
+                </sp>
+        <sp who="#galaor">
+            <speaker> GALAOR chante. </speaker>
+                        <l n="94"> Les plaisirs vous suivront désormais,</l>
+                        <l n="95"> Vous allez voir vos désirs satisfaits ;</l>
+                        <l n="96"> Un tendron novice</l>
+                        <l n="97"> Tombe en vos filets.</l>
+                        <l n="98"> N’allez pas faire ici le jocrisse ;</l>
+                        <l n="99"> Tambour battant menez-moi votre Agnès :</l>
+                        <l n="100"> Il est temps que la jeune bergère</l>
+                        <l n="101"> De ses appas avec vous fasse troc.</l>
+                        <l n="102"> Cela vous est hoc ;</l>
+                        <l n="103"> On s’épouse aujourd’hui sans notaire :</l>
+                        <l n="104"> L’usage approuvé</l>
+                        <l n="105"> Est sous seing-privé ;</l>
+                        <l n="106"> L’Amour carillonne,</l>
+                        <l n="107"> Et j’entends qu’il sonne,</l>
+                        <l n="108"> Du haut du clocher,</l>
+                        <l n="109"> L’heure du berger.</l></div>
+        <div type="scene" xml:id=" VIII ">
+            <head> Scène VIII </head>
+        <sp who="#périon">
+            <speaker> PÉRION, à Élizène. </speaker>
+                        <l n="110"> Ah ! vous voilà, infante de mon âme ! Vous arrivez comme de cire ; il y a longtemps que je vous attendais ; je commençais à me morfondre.</l>
+                </sp>
+        <sp who="#éllzène">
+            <speaker> ÉLIZÈNE. </speaker>
+                        <l n="111"> Valeureux chevalier, à votre aspect je deviens toute perplexe.</l>
+                </sp>
+        <sp who="#dariolette">
+            <speaker> DARIOLETTE. </speaker>
+                        <l n="112"> Ma maîtresse n’est encore qu’une petite novice.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="113"> Oh ! laissez-moi faire, je lui montrerai tout ce qu’il faudra.</l>
+            <stage><em>Il chante avec Galaor.</em></stage>
+                        <l n="114"> C’est à            { moi }</l>
+                        <l n="115">  { lui   } d’enseigner</l>
+                        <l n="116"> Aux filles ignorantes,</l>
+                        <l n="117"> Les manières fringantes ;</l>
+                        <l n="118"> C’est à            { moi }</l>
+                        <l n="119">  { lui   } d’enseigner</l>
+                        <l n="120"> Le grand art de céder.</l>
+                </sp>
+        <sp who="#galaor">
+            <speaker> GALAOR. </speaker>
+                        <l n="121"> Eh bien ! la belle, que dites-vous de notre musique ?</l>
+                </sp>
+        <sp who="#éllzène">
+            <speaker> ÉLIZÈNE. </speaker>
+                        <l n="122"> Excusez, seigneur, si la pudeur m’empêche de parler.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="123"> Les moments sont trop chers pour les perdre en paroles. Allons vite jouer nos rôles.</l>
+                </sp>
+        <sp who="#galaor">
+            <speaker> GALAOR chante. </speaker>
+                        <l n="124"> Suivez l’Hymen ; ce dieu vous apprête</l>
+                        <l n="125"> Un ambigu de plaisirs nouveaux :</l>
+                        <l n="126"> Pendant que vous serez tête à tête,</l>
+                        <l n="127"> Je vous promets de garder les manteaux.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION prend Élizène par le bras, et chante. </speaker>
+                        <l n="128"> Allons, petite marmotte,</l>
+                        <l n="129"> Il n’est pas temps de pleurer.</l>
+                        <l n="130"> Vous faites ici la sotte,</l>
+                        <l n="131"> Et vous vous laissez tirer.</l>
+                        <l n="132"> Tant de rigueur m’épouvante :</l>
+                        <l n="133"> J’ai peur que cette ignorante,</l>
+                        <l n="134"> Avec toute sa façon,</l>
+                        <l n="135"> Ne me montre ma leçon.</l></div>
+        <div type="scene" xml:id=" IX ">
+            <head> Scène IX </head>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="136"> J’ai entendu du bruit dans mon palais ; je crains qu’il ne soit arrivé quelque malengin à l’entour de ma fille. Mais que vois-je ? Ma fille avec Périon ! Ah ! traître ! après t’avoir reçu chez moi comme un mien frère, tu viens honnir ma fille !</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="137"> Je suis ici dans une auberge ;</l>
+                        <l n="138"> Et les guerriers portant flamberge</l>
+                        <l n="139"> Ont toujours droit, chemin faisant,</l>
+                        <l n="140"> Quand ils trouvent tendron friand,</l>
+                        <l n="141"> De se payer des arrérages.</l>
+                        <l n="142"> Pendant qu’on repaît le bidet,</l>
+                        <l n="143"> Les chevaliers ont pour usage</l>
+                        <l n="144"> De se délasser du voyage</l>
+                        <l n="145"> Avec fille de cabaret.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="146"> Tu veux encore me vilipender par des propos injurieux, double coquin !</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="147"> Penard, prends-le d’un ton moins haut ;</l>
+                        <l n="148"> De ton courroux il ne me chaut :</l>
+                        <l n="149"> Je ne viens point dans ta famille</l>
+                        <l n="150"> Mettre trouble ni désarroi ;</l>
+                        <l n="151"> Je n’ai rien tollu de ta fille :</l>
+                        <l n="152"> Elle est entière comme moi.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="153"> Il faudra donc que ma fille soit brûlée ! mais ce qui me console, c’est que tu seras grillé avec elle. Allons, gardes, qu’on le saisisse, et qu’on me l’amène pieds et mains liés. Je veux que justice en soit faite.</l>
+            <stage><em>Les gardes veulent prendre Périon ; il se défend, recule ; et les gardes le poursuivent.</em></stage></div>
+        <div type="scene" xml:id=" X ">
+            <head> Scène X </head>
+        <sp who="#le-roi">
+            <speaker> LE ROI, seul </speaker>
+                        <l n="154"> Oui, parbleu ! tu mourras, outrecuidé magot.</l>
+                        <l n="155"> Tu grilleras aussi sur le même fagot...</l>
+                        <l n="156"> Mais, que dis-je ? grands dieux ! bourreau de ma famille,</l>
+                        <l n="157"> Ainsi qu’une saucisse on rôtira ma fille !</l>
+                        <l n="158"> Moi-même j’en serai l’odieux occiseur !</l>
+                        <l n="159"> Je frémis : tous mes sens se sont glacés d’horreur.</l>
+                        <l n="160"> On rôtira ma fille ! ah ! nature, nature !</l>
+                        <l n="161"> Pour garantir l’honneur d’encombre et de méchef,</l>
+                        <l n="162"> À quoi sert-il de donner la serrure,</l>
+                        <l n="163"> Quand tant de gens en ont la clef ?</l></div>
+        <div type="scene" xml:id=" XI ">
+            <head> Scène XI </head>
+        <sp who="#le-roi">
+            <speaker> LE ROI, PÉRION, ÉLIZÈNE, DARIOLETTE, GALAOR, GARDES </speaker>
+            <stage><em>Le théâtre change, et représente une place publique, au milieu de laquelle est un bûcher.</em></stage>
+            <stage><em>Des gardes amènent Élizène, Périon, Dariolette et Galaor enchaînés avec des fleurs, et couverts de guirlandes.</em></stage>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION chante. </speaker>
+                        <l n="164"> C’est unir deux amants,</l>
+                        <l n="165"> Que de les rissoler ensemble.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="166"> Te voilà donc, méchant suborneur, qui, comme un Sarrasin, violes les droits de l’hospitalité !</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="167"> Que voulez-vous que j’y fasse ? Les filles ont toujours eu de l’ascendant sur moi ; et, quand je le puis, je prends ma revanche.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI, à Élizène. </speaker>
+                        <l n="168"> Et toi, fille déloyale, me faire cet affront, à la fleur de mon âge !</l>
+            <stage><em>À Dariolette.</em></stage>
+                        <l n="169"> Pour toi, chienne de pendarde, s’il n’y avait point de bourreau, je t’étranglerais moi-même. C’est toi qui as mené ma fille à la boucherie.</l>
+                </sp>
+        <sp who="#dariolette">
+            <speaker> DARIOLETTE. </speaker>
+                        <l n="170"> Quant à moi, je l’ai fait à bonne intention : j’ai cru que, quand on s’était donné la foi, on pouvait se parler nuit et jour, sans rien craindre.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="171"> Va, va, tu seras brûlée. Allons, officiers, faites votre charge ; qu’on fasse l’opération.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="172"> Qu’appelez-vous l’opération ? Je ne suis pas malade. À cette heure, je vous avertis que je ne vaux rien rôti.</l></div>
+        <div type="scene" xml:id=" XII ">
+            <head> Scène XII </head>
+        <sp who="#le-roi">
+            <speaker> LE ROI, PÉRION, ÉLIZÈNE, DARIOLETTE, GALAOR, GARDES, UNE OMBRE </speaker>
+            <stage><em>Les gardes conduisent Périon au bûcher ; à l’instant il en sort une ombre.</em></stage>
+                </sp>
+        <sp who="#l’ombre">
+            <speaker> L’OMBRE chante. </speaker>
+                        <l n="173"> Ah ! que fais-tu là, téméraire ?</l>
+                        <l n="174"> Ah ! je défends qu’il soit rôti.</l>
+                        <l n="175"> D’Élizène et de ce compère</l>
+                        <l n="176"> Il doit naître bientôt un fils</l>
+                        <l n="177"> Prématuré comme son père,</l>
+                        <l n="178"> Et qu’on doit nommer Amadis.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="179"> Comment ! d’Élizène et de moi il doit naître un fils qu’on nommera Amadis, et vous voulez me faire brûler ! Ah ! vieux penard, je veux te faire mettre à ma place. Allons, qu’on le saisisse.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="180"> Ah ! seigneur, je vous demande pardon ; et puisque vous m’avez sauvé la vie tantôt contre un lion, je consens que vous épousiez ma fille.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="181"> Allons, je vous pardonne ; et, puisque les destins l’ordonnent, j’épouse votre fille.</l>
+            <stage><em>À Élizène.</em></stage>
+                        <l n="182"> Écoutez, la belle, voilà un oracle qui me lanterne les oreilles : il dit que j’aurai bientôt un fils ; je vous avertis que je n’aime pas les enfants précoces.</l>
+                </sp>
+        <sp who="#éllzène">
+            <speaker> ÉLIZÈNE. </speaker>
+                        <l n="183"> J’aimerais mieux être morte, que d’avoir failli et prévariqué.</l>
+                </sp>
+        <sp who="#dariolette">
+            <speaker> DARIOLETTE. </speaker>
+                        <l n="184"> Seigneur, il ne faut pas que l’oracle vous étonne ; les filles dans les Gaules sont fort expéditives.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION. </speaker>
+                        <l n="185"> C’est à peu près la même chose chez nous, et souvent les pères et mères sont plus tôt avertis de la multiplication de leur famille, que de la noce de leurs filles.</l>
+                </sp>
+        <sp who="#le-roi">
+            <speaker> LE ROI. </speaker>
+                        <l n="186"> Allons, qu’en faveur de ce mariage, le triste appareil de funérailles se change en des marques de réjouissance.</l>
+            <stage><em>Le bûcher se change en une pyramide enflammée, et forme un feu de joie.</em></stage>
+                </sp>
+        <sp who="#galaor">
+            <speaker> GALAOR. </speaker>
+                        <l n="187"> Seigneur, puisque vous êtes en train de marier, voilà Dariolette : tandis que vous jouez gros jeu avec la princesse, ne pourrais-je pas carabiner avec la soubrette ?</l>
+                </sp>
+        <sp who="#dariolette">
+            <speaker> DARIOLETTE. </speaker>
+                        <l n="188"> Est-ce que tu perds l’esprit ? Crois-tu que je me soucie beaucoup d’un carabin comme toi ?</l>
+                </sp>
+        <sp who="#galaor">
+            <speaker> GALAOR chante. </speaker>
+                        <l n="189"> Ah ! Dariolette,</l>
+                        <l n="190"> Si blanchette, si douillette,</l>
+                        <l n="191"> Je connais sur l’étiquette</l>
+                        <l n="192"> Que tu ne t’en feras prier ;</l>
+                        <l n="193"> Car lorsque le chevalier</l>
+                        <l n="194"> De la dame a fait emplette,</l>
+                        <l n="195"> C’est la raison que la soubrette</l>
+                        <l n="196"> S’ébaudisse avec l’écuyer.</l>
+                </sp>
+        <sp who="#un-berger">
+            <speaker> UN BERGER chante sur un air de menuet. </speaker>
+                        <l n="197"> Dans le bel âge</l>
+                        <l n="198"> Où l’on s’engage,</l>
+                        <l n="199"> L’hymen est doux ;</l>
+                        <l n="200"> Fille fringante,</l>
+                        <l n="201"> Que l’amour tente,</l>
+                        <l n="202"> Sans en rien dire demande un époux.</l>
+                        <l n="203"> Mais quand un père</l>
+                        <l n="204"> Trop lent diffère,</l>
+                        <l n="205"> L’amant sincère</l>
+                        <l n="206"> Doit cependant</l>
+                        <l n="207"> Prendre d’avance</l>
+                        <l n="208"> Quelque licence,</l>
+                        <l n="209"> Sauf à déduire quand il sera temps.</l>
+                </sp>
+        <sp who="#un-gaulois">
+            <speaker> UN GAULOIS chante. </speaker>
+                        <l n="210"> Au bon vieux temps,</l>
+                        <l n="211"> On s’aimait d’amour sincère ;</l>
+                        <l n="212"> Qui plus aimait, savait plaire :</l>
+                        <l n="213"> Les amants étaient constants</l>
+                        <l n="214"> Au bon vieux temps.</l>
+                        <l n="215"> L’amour à présent dégénère ;</l>
+                        <l n="216"> Ce n’est que feinte et mystère :</l>
+                        <l n="217"> Ne verrons-nous de nos ans</l>
+                        <l n="218"> S’aimer comme on soûlait faire</l>
+                        <l n="219"> Au bon vieux temps ?</l>
+            <stage><em>On joue une gavotte, et tout le monde danse.</em></stage>
+                </sp>
+        <sp who="#un-gaulois">
+            <speaker> UN GAULOIS chante. </speaker>
+                        <l n="220"> On ne peut bien garder les filles ;</l>
+                        <l n="221"> Elles s’échappent quelque jour ;</l>
+                        <l n="222"> Les limaçons de leurs coquilles</l>
+                        <l n="223"> Sortent bien pour faire l’amour.</l>
+                </sp>
+        <sp who="#dariolette">
+            <speaker> DARIOLETTE. </speaker>
+                        <l n="224"> Quand on est et jeune et gentille,</l>
+                        <l n="225"> Il est bien fâcheux de mourir ;</l>
+                        <l n="226"> Mais de rester encore fille,</l>
+                        <l n="227"> C’était mon plus grand déplaisir.</l>
+                </sp>
+        <sp who="#périon">
+            <speaker> PÉRION, au parterre. </speaker>
+                        <l n="228"> D’Amadis voilà la naissance,</l>
+                        <l n="229"> Assez suspecte, à mon avis ;</l>
+                        <l n="230"> Sans trop médire, il est en France</l>
+                        <l n="231"> Encore bien des Amadis.</l>
+                        <l n="232"> </l></div>
+         <p>FIN</p>
+      </div>
+      </div>
+   </body>
+</text>
+</TEI>
